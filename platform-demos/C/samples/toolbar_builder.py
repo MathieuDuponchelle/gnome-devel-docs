@@ -24,7 +24,7 @@ class MyWindow(Gtk.ApplicationWindow):
         try:
             builder.add_from_file("toolbar_builder.ui")
         except:
-            print "file not found"
+            print("file not found")
             sys.exit()
         # and attach it to the grid
         grid.attach(builder.get_object("toolbar"), 0, 0, 1, 1)
@@ -49,7 +49,7 @@ class MyWindow(Gtk.ApplicationWindow):
 
     # callback for undo
     def undo_callback(self, action, parameter):
-        print "You clicked \"Undo\"."
+        print("You clicked \"Undo\".")
 
     # callback for fullscreen
     def fullscreen_callback(self, action, parameter):
@@ -96,11 +96,11 @@ class MyApplication(Gtk.Application):
 
     # callback for new
     def new_callback(self, action, parameter):
-        print "You clicked \"New\"."
+        print("You clicked \"New\".")
 
     # callback for open
     def open_callback(self, action, parameter):
-        print "You clicked \"Open\"."
+        print("You clicked \"Open\".")
 
 app = MyApplication()
 exit_status = app.run(sys.argv)

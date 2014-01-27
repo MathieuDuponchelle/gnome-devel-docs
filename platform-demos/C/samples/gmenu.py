@@ -50,15 +50,15 @@ class MyApplication(Gtk.Application):
 
     # callback function for "new"
     def new_cb(self, action, parameter):
-        print "This does nothing. It is only a demonstration."
+        print("This does nothing. It is only a demonstration.")
 
     # callback function for "about"
     def about_cb(self, action, parameter):
-        print "No AboutDialog for you. This is only a demonstration."
+        print("No AboutDialog for you. This is only a demonstration.")
 
     # callback function for "quit"
     def quit_cb(self, action, parameter):
-        print "You have quit."
+        print("You have quit.")
         self.quit()
 
 app = MyApplication()

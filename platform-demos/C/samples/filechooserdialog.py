@@ -50,7 +50,7 @@ class MyWindow(Gtk.ApplicationWindow):
     # callback for new
     def new_callback(self, action, parameter):
         self.buffer.set_text("")
-        print "New file created"
+        print("New file created")
 
     # callback for open
     def open_callback(self, action, parameter):
@@ -88,13 +88,13 @@ class MyWindow(Gtk.ApplicationWindow):
                 # file has been modified from the version on the file system)
                 [success, content, etags] = self.file.load_contents(None)
             except GObject.GError as e:
-                print "Error: " + e.message
+                print("Error: " + e.message)
             # set the content as the text into the buffer
             self.buffer.set_text(content, len(content))
-            print "opened: " + open_dialog.get_filename()
+            print("opened: " + open_dialog.get_filename())
         # if response is "CANCEL" (the button "Cancel" has been clicked)
         elif response_id == Gtk.ResponseType.CANCEL:
-            print "cancelled: FileChooserAction.OPEN"
+            print("cancelled: FileChooserAction.OPEN")
         # destroy the FileChooserDialog
         dialog.destroy()
 
@@ -118,7 +118,7 @@ class MyWindow(Gtk.ApplicationWindow):
                 # set self.file as the current filename for the file chooser
                 save_dialog.set_file(self.file)
             except GObject.GError as e:
-                print "Error: " + e.message
+                print("Error: " + e.message)
         # connect the dialog to the callback function save_response_cb()
         save_dialog.connect("response", self.save_response_cb)
         # show the dialog
@@ -135,7 +135,7 @@ class MyWindow(Gtk.ApplicationWindow):
             self.save_to_file()
         # if response is "CANCEL" (the button "Cancel" has been clicked)
         elif response_id == Gtk.ResponseType.CANCEL:
-            print "cancelled: FileChooserAction.SAVE"
+            print("cancelled: FileChooserAction.SAVE")
         # destroy the FileChooserDialog
         dialog.destroy()
 
@@ -164,9 +164,9 @@ class MyWindow(Gtk.ApplicationWindow):
                                            False,
                                            Gio.FileCreateFlags.NONE,
                                            None)
-                print "saved: " + self.file.get_path()
+                print("saved: " + self.file.get_path())
             except GObject.GError as e:
-                print "Error: " + e.message
+                print("Error: " + e.message)
         # if the contents are empty
         else:
             # create (if the file does not exist) or overwrite the file in readwrite mode.
@@ -176,9 +176,9 @@ class MyWindow(Gtk.ApplicationWindow):
                                             False,
                                             Gio.FileCreateFlags.NONE,
                                             None)
-                print "saved: " + self.file.get_path()
+                print("saved: " + self.file.get_path())
             except GObject.GError as e:
-                print "Error: " + e.message
+                print("Error: " + e.message)
 
 
 class MyApplication(Gtk.Application):
@@ -203,7 +203,7 @@ class MyApplication(Gtk.Application):
         try:
             builder.add_from_file("filechooserdialog.ui")
         except:
-            print "file not found"
+            print("file not found")
             sys.exit()
         menu = builder.get_object("appmenu")
         self.set_app_menu(menu)

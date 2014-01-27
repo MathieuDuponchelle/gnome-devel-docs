@@ -36,7 +36,7 @@ class MyWindow(Gtk.ApplicationWindow):
 
     # if a new color is chosen, we print it as rgb(r,g,b) in the terminal
     def on_color_chosen(self, user_data):
-        print "You chose the color: " + self.button.get_rgba().to_string()
+        print("You chose the color: " + self.button.get_rgba().to_string())
 
 
 class MyApplication(Gtk.Application):

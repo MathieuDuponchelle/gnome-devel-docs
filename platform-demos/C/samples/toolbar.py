@@ -85,7 +85,7 @@ class MyWindow(Gtk.ApplicationWindow):
 
     # callback method for undo
     def undo_callback(self, action, parameter):
-        print "You clicked \"Undo\"."
+        print("You clicked \"Undo\".")
 
     # callback method for fullscreen / leave fullscreen
     def fullscreen_callback(self, action, parameter):
@@ -128,11 +128,11 @@ class MyApplication(Gtk.Application):
 
     # callback method for new
     def new_callback(self, action, parameter):
-        print "You clicked \"New\"."
+        print("You clicked \"New\".")
 
     # callback method for open
     def open_callback(self, action, parameter):
-        print "You clicked \"Open\"."
+        print("You clicked \"Open\".")
 
 app = MyApplication()
 exit_status = app.run(sys.argv)

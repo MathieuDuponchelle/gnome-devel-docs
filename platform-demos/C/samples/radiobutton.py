@@ -55,7 +55,7 @@ class MyWindow(Gtk.ApplicationWindow):
             state = "off"
         # whenever the function is called (a button is turned on or off)
         # print on the terminal which button was turned on/off
-        print button.get_label() + " was turned " + state
+        print(button.get_label() + " was turned " + state)
 
 
 class MyApplication(Gtk.Application):

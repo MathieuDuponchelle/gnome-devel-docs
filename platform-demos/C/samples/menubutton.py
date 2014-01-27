@@ -39,7 +39,7 @@ class MyWindow(Gtk.ApplicationWindow):
 
     # callback for "about"
     def about_callback(self, action, parameter):
-        print "You clicked \"About\""
+        print("You clicked \"About\"")
 
 
 class MyApplication(Gtk.Application):
@@ -65,10 +65,10 @@ class MyApplication(Gtk.Application):
 
     # callback functions for the actions related to the application
     def new_callback(self, action, parameter):
-        print "You clicked \"New\""
+        print("You clicked \"New\"")
 
     def quit_callback(self, action, parameter):
-        print "You clicked \"Quit\""
+        print("You clicked \"Quit\"")
         self.quit()
 
 app = MyApplication()

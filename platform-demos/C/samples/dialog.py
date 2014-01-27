@@ -42,7 +42,7 @@ class MyWindow(Gtk.ApplicationWindow):
         dialog.show_all()
 
     def on_response(self, widget, response_id):
-        print "response_id is", response_id
+        print("response_id is", response_id)
         # destroy the widget (the dialog) when the function on_response() is called
         # (that is, when the button of the dialog has been clicked)
         widget.destroy()

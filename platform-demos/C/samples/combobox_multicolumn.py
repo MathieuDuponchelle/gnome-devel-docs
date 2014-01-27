@@ -54,7 +54,7 @@ class MyWindow(Gtk.ApplicationWindow):
         # if the row selected is not the first one, write on the terminal
         # the value of the first column in the model
         if combo.get_active() != 0:
-            print "You chose " + str(actions[combo.get_active()][0]) + "\n"
+            print("You chose " + str(actions[combo.get_active()][0]) + "\n")
         return True
 
 

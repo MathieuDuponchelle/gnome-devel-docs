@@ -27,7 +27,7 @@ class MyApplication(Gtk.Application):
         try:
             builder.add_from_file("menubar_basis.ui")
         except:
-            print "file not found"
+            print("file not found")
             sys.exit()
 
         # we use the method Gtk.Application.set_menubar(menubar) to add the menubar

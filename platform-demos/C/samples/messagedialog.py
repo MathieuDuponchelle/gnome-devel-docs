@@ -38,13 +38,13 @@ class MyWindow(Gtk.ApplicationWindow):
     def dialog_response(self, widget, response_id):
         # if the button clicked gives response OK (-5)
         if response_id == Gtk.ResponseType.OK:
-            print "*boom*"
+            print("*boom*")
         # if the button clicked gives response CANCEL (-6)
         elif response_id == Gtk.ResponseType.CANCEL:
-            print "good choice"
+            print("good choice")
         # if the messagedialog is destroyed (by pressing ESC)
         elif response_id == Gtk.ResponseType.DELETE_EVENT:
-            print "dialog closed or cancelled"
+            print("dialog closed or cancelled")
         # finally, destroy the messagedialog
         widget.destroy()
 

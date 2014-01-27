@@ -24,7 +24,7 @@ class MyWindow(Gtk.ApplicationWindow):
     # callback function:
     def font_cb(self, event, user_data):
         # print in the terminal
-        print "You chose the font " + self.font_chooser.get_font()
+        print("You chose the font " + self.font_chooser.get_font())
 
 
 class MyApplication(Gtk.Application):

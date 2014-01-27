@@ -23,7 +23,7 @@ class MyWindow(Gtk.ApplicationWindow):
         # retrieve the content of the widget
         name = entry.get_text()
         # print it in a nice form in the terminal
-        print "Hello " + name + "!"
+        print("Hello " + name + "!")
 
 
 class MyApplication(Gtk.Application):

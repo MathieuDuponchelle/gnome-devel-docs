@@ -21,7 +21,7 @@ class MyWindow(Gtk.ApplicationWindow):
 
     # callback function connected to the signal "clicked" of the button
     def do_clicked(self, button):
-        print "You clicked me!"
+        print("You clicked me!")
 
 
 class MyApplication(Gtk.Application):

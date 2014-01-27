@@ -88,7 +88,7 @@ class MyWindow(Gtk.ApplicationWindow):
         title = self.entry.get_text()
         self.listmodel.append([title])
         # and print a message in the terminal
-        print "%s has been added" % (title)
+        print("%s has been added" % (title))
 
     def remove_cb(self, button):
         # if there is still an entry in the model
@@ -98,15 +98,15 @@ class MyWindow(Gtk.ApplicationWindow):
             # if there is a selection, print a message in the terminal
             # and remove it from the model
             if iter is not None:
-                print "%s has been removed" % (model[iter][0])
+                print("%s has been removed" % (model[iter][0]))
                 self.listmodel.remove(iter)
             # otherwise, ask the user to select something to remove
             else:
-                print "Select a title to remove"
+                print("Select a title to remove")
         # else, if there are no entries in the model, print "Empty list"
         # in the terminal
         else:
-            print "Empty list"
+            print("Empty list")
 
     def remove_all_cb(self, button):
         # if there is still an entry in the model
@@ -116,7 +116,7 @@ class MyWindow(Gtk.ApplicationWindow):
                 iter = self.listmodel.get_iter(0)
                 self.listmodel.remove(iter)
         # print a message in the terminal alerting that the model is empty
-        print "Empty list"
+        print("Empty list")
 
 
 class MyApplication(Gtk.Application):

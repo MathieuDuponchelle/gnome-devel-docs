@@ -41,15 +41,15 @@ class MyWindow(Gtk.ApplicationWindow):
 
     # callback function for copy_action
     def copy_callback(self, action, parameter):
-        print "\"Copy\" activated"
+        print("\"Copy\" activated")
 
     # callback function for paste_action
     def paste_callback(self, action, parameter):
-        print "\"Paste\" activated"
+        print("\"Paste\" activated")
 
     # callback function for shape_action
     def shape_callback(self, action, parameter):
-        print "Shape is set to", parameter.get_string()
+        print("Shape is set to", parameter.get_string())
         # Note that we set the state of the action!
         action.set_state(parameter)
 
@@ -131,7 +131,7 @@ class MyApplication(Gtk.Application):
         try:
             builder.add_from_file("menubar.ui")
         except:
-            print "file not found"
+            print("file not found")
             sys.exit()
 
         # we use the method Gtk.Application.set_menubar(menubar) to add the menubar
@@ -141,25 +141,25 @@ class MyApplication(Gtk.Application):
 
     # callback function for new
     def new_callback(self, action, parameter):
-        print "You clicked \"New\""
+        print("You clicked \"New\"")
 
     # callback function for quit
     def quit_callback(self, action, parameter):
-        print "You clicked \"Quit\""
+        print("You clicked \"Quit\"")
         sys.exit()
 
     # callback function for state
     def state_callback(self, action, parameter):
-        print "State is set to", parameter.get_string()
+        print("State is set to", parameter.get_string())
         action.set_state(parameter)
 
     # callback function for awesome
     def awesome_callback(self, action, parameter):
         action.set_state(GLib.Variant.new_boolean(not action.get_state()))
         if action.get_state().get_boolean() is True:
-            print "You checked \"Awesome\""
+            print("You checked \"Awesome\"")
         else:
-            print "You unchecked \"Awesome\""
+            print("You unchecked \"Awesome\"")
 
 
 app = MyApplication()
