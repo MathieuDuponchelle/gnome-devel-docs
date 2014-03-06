@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <page xmlns="http://projectmallard.org/1.0/"
       xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:e="http://projectmallard.org/experimental/"
       type="guide" style="task"
       id="label.py">
   <info>
@@ -37,6 +38,9 @@
   <code mime="text/x-python" style="numbered"><xi:include href="samples/label.py" parse="text"><xi:fallback/></xi:include></code>
 
     <p>Another way to obtain what we have in the example is to create the label as an instance of another class and add it to the instance of <code>MyWindow</code> in the <code>do_activate(self)</code> method:</p>
+    <note>
+      <p>The highlighted lines indicate code that is different from the previous snippet.</p>
+    </note>
       <code mime="text/x-python">
 # a class to define a window
 class MyWindow(Gtk.ApplicationWindow):
@@ -45,10 +49,12 @@ class MyWindow(Gtk.ApplicationWindow):
         self.set_default_size(200, 100)
 
 # a class to define a label
+<e:hi>
 class MyLabel(Gtk.Label):
     def __init__(self):
         Gtk.Label.__init__(self)
         self.set_text("Hello GNOME!")
+</e:hi>
 
 class MyApplication(Gtk.Application):
     def __init__(self):
@@ -57,10 +63,15 @@ class MyApplication(Gtk.Application):
     def do_activate(self):
         # create an instance of MyWindow
         win = MyWindow(self)
+
         # create an instance of MyLabel
+<e:hi>
         label = MyLabel()
+</e:hi>
         # and add it to the window
+<e:hi>
         win.add(label)
+</e:hi>
         # show the window and everything on it
         win.show_all()</code>
 
