@@ -103,7 +103,7 @@ b'Fu\xc3\x9fb\xc3\xa4lle sind rund']]></code>
 
 <p>In general it is recommended to not use <code>unicode</code> objects in GTK+ applications at all, and only use UTF-8 encoded <code>str</code> objects since GTK+ does not fully integrate with <code>unicode</code> objects.</p>
 
-<p>With Python 3.x things are much more consistent, because PyGObject will automatically encode/decode to/from UTF-8 if you pass a string to a method or a method returns a string. Strings, or text, will always be represented as instances of <code>str</code> only.</p>
+<p>String encoding is more consistent in Python 3.x because PyGObject will automatically encode/decode to/from UTF-8 if you pass a string to a method or a method returns a string. Strings, or text, will always be represented as instances of <code>str</code> only.</p>
 
 </section>
 
