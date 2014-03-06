@@ -59,6 +59,11 @@ class MyApplication(Gtk.Application):
         win.add(MyImage())
         # show the window and everything on it
         win.show_all()</code>
+  <note>
+    <p>To use this code snippet, you will need to add the code that imports
+    <code>Gtk</code> and <code>GdkPixbuf</code> from <code>gi.repository</code>
+    and lines that instantiate the <code>MyApplication</code> window.</p>
+  </note>
   </section>
 
   <section id="methods">
