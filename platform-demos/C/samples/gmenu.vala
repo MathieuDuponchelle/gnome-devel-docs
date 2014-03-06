@@ -49,7 +49,7 @@ public class Application : Gtk.Application {
 		this.app_menu = menu;
 
 		var quit_action = new SimpleAction ("quit", null);
-		//quit_action.activate.connect (this.quit);
+		quit_action.activate.connect (this.quit);
 		this.add_action (quit_action);
 	}
 }

@@ -45,7 +45,7 @@ class MyApplication: Gtk.Application {
 
 	void quit_cb (SimpleAction action, Variant? parameter) {
 		print ("You clicked \"Quit\"\n");
-		//this.quit ();  **Bug #674090**
+		this.quit ();
 	}
 
 	void awesome_cb (SimpleAction action, Variant? parameter) {

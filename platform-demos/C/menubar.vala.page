@@ -111,7 +111,7 @@ void new_cb (SimpleAction action, Variant? parameter) {
 
 void quit_cb (SimpleAction action, Variant? parameter) {
     print ("You clicked \"Quit\"\n");
-    //this.quit ();  **Bug #674090**
+    this.quit ();
 }</code>
  </item>
   <item><p>And lastly, we connect the menu items to the actions in the XML file by adding the "action" attribute:</p>

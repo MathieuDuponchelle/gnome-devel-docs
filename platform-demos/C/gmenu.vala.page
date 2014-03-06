@@ -28,9 +28,6 @@
     <note style="important">
        <p><em style="strong">You need to be running GTK+-3.4 or later for this to work</em></p>
     </note>
-    <note style="bug">
-      <p>This program will not compile with the quit action connected until <link href="https://bugzilla.gnome.org/show_bug.cgi?id=674090">Bug #674090</link> is fixed. Therefore, the problematic line has been commented out.</p>
-    </note>
     <p>A GtkApplication with a simple GMenu and SimpleActions</p>
 
 <code mime="text/x-csharp" style="numbered"><xi:include href="samples/gmenu.vala" parse="text"><xi:fallback/></xi:include></code>
