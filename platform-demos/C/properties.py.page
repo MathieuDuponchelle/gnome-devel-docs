@@ -30,11 +30,17 @@
 <section id="overview">
 <title>Overview</title>
 
-<p><em>Properties</em> describe the configuration and state of widgets, and each widget has its own particular set of properties. For example, a widget such as a button or a label has the property <code>label</code> which contains the text of the widget. You can specify the name and value of any number of properties as keyword arguments when creating an instance of a widget: for example, to create a label with the text “Hello World”, an angle of 25 degrees, and aligned to the right, you can use:</p>
+<p><em>Properties</em> describe the configuration and state of widgets. Each
+widget has its own particular set of properties. For example, a widget such as
+a button has the property <code>label</code> which contains the text of the
+widget. You can specify the name and value of any number of properties as
+keyword arguments when creating an instance of a widget. For example, to
+create a label with the text “Hello World”, an angle of 25 degrees, and
+aligned to the right, you can use:</p>
 <code>
 label = Gtk.Label(label="Hello World", angle=25, halign=Gtk.Align.END)</code>
 
-<p>which is equivalent to using:</p>
+<p>Alternatively, you can define these properties separately by using the method associated with it.</p>
 <code>
 label = Gtk.Label()
 label.set_label("Hello World")
