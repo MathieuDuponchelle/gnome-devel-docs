@@ -248,7 +248,7 @@ app.application.run (ARGV);
         this._notCookieOne = new Gtk.RadioButton ({ label: "Not cookie",
             group: this._cookieRadio });
         this._notCookieTwo = new Gtk.RadioButton ({ label: "Not cookie",
-            group: this._cookieButton });
+            group: this._cookieRadio });
 ]]></code>
 
     <p>Next, we create a Grid for the RadioButtons. Remember, we don't have to arrange things in Grids in the same order that we create them in.</p>
