@@ -43,16 +43,16 @@ const GettingTheSignal = new Lang.Class({
             title: "Choose the one that says 'cookie'!"});
 
         // Create the radio buttons
-        this._cookieButton = new Gtk.RadioButton ({ label: "Cookie" });
+        this._cookieRadio = new Gtk.RadioButton ({ label: "Cookie" });
         this._notCookieOne = new Gtk.RadioButton ({ label: "Not cookie",
-            group: this._cookieButton });
+            group: this._cookieRadio });
         this._notCookieTwo = new Gtk.RadioButton ({ label: "Not cookie",
-            group: this._cookieButton });
+            group: this._cookieRadio });
 
         // Arrange the radio buttons in their own grid
         this._radioGrid = new Gtk.Grid ();
         this._radioGrid.attach (this._notCookieOne, 0, 0, 1, 1);
-        this._radioGrid.attach (this._cookieButton, 0, 1, 1, 1);
+        this._radioGrid.attach (this._cookieRadio, 0, 1, 1, 1);
         this._radioGrid.attach (this._notCookieTwo, 0, 2, 1, 1);
 
         // Set the button that will be at the top to be active by default
@@ -93,7 +93,7 @@ const GettingTheSignal = new Lang.Class({
     _getACookie: function() {
 
         // Did you select "cookie" instead of "not cookie"?
-        if (this._cookieButton.get_active()) {
+        if (this._cookieRadio.get_active()) {
 
             // Increase the number of cookies by 1 and update the label
             cookies++;

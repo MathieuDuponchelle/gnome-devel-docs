@@ -244,9 +244,9 @@ app.application.run (ARGV);
     <p>After that, we create the RadioButtons. Remember how they're created in groups? The way we do that, is we set each new RadioButton's group property to the name of another RadioButton.</p>
     <code mime="application/javascript"><![CDATA[
         // Create the radio buttons
-        this._cookieButton = new Gtk.RadioButton ({ label: "Cookie" });
+        this._cookieRadio = new Gtk.RadioButton ({ label: "Cookie" });
         this._notCookieOne = new Gtk.RadioButton ({ label: "Not cookie",
-            group: this._cookieButton });
+            group: this._cookieRadio });
         this._notCookieTwo = new Gtk.RadioButton ({ label: "Not cookie",
             group: this._cookieButton });
 ]]></code>
@@ -256,7 +256,7 @@ app.application.run (ARGV);
         // Arrange the radio buttons in their own grid
         this._radioGrid = new Gtk.Grid ();
         this._radioGrid.attach (this._notCookieOne, 0, 0, 1, 1);
-        this._radioGrid.attach (this._cookieButton, 0, 1, 1, 1);
+        this._radioGrid.attach (this._cookieRadio, 0, 1, 1, 1);
         this._radioGrid.attach (this._notCookieTwo, 0, 2, 1, 1);
 ]]></code>
 
@@ -280,7 +280,7 @@ app.application.run (ARGV);
     _getACookie: function() {
 
         // Did you select "cookie" instead of "not cookie"?
-        if (this._cookieButton.get_active()) {
+        if (this._cookieRadio.get_active()) {
 
             // Increase the number of cookies by 1 and update the label
             cookies++;
