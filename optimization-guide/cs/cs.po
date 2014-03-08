@@ -318,7 +318,7 @@ msgstr ""
 "optimalizovat. V ideálním případě je výsledkem měření jedno číslo, například "
 "čas potřebný k provedení úlohy. Je to váš test výkonu a jde jen o způsob, "
 "jak se dovědět, zda jste zvítězili nebo ne. Je velký rozdíl mezi programem, "
-"který by <em>měl</em být rychlý a programem, který <em>je</em> rychlý."
+"který by <em>měl</em> být rychlý a programem, který <em>je</em> rychlý."
 
 #. (itstool) path: section/p
 #: C/introduction.page:25
@@ -791,7 +791,7 @@ msgid ""
 "g_try_malloc, and g_mem_chunk_alloc. You use the --alloc-fn option to tell "
 "Massif about them."
 msgstr ""
-"Užitečné je také aplikaci <ap>Massif</app> sdělit, které funkce v glib "
+"Užitečné je také aplikaci <app>Massif</app> sdělit, které funkce v glib "
 "alokují paměť. Tím se odstraní z výstupní sestavy vrstvy volání funkcí, "
 "které nejsou nutné a získáte tak jasnější přehled, který kód alokuje paměť. "
 "Alokační funkce glib jsou g_malloc, g_malloc0, g_realloc, g_try_malloc a "
