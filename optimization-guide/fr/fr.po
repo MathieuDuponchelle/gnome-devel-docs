@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-15 16:49+0000\n"
-"PO-Revision-Date: 2013-10-25 08:28+0200\n"
+"POT-Creation-Date: 2014-03-16 19:35+0000\n"
+"PO-Revision-Date: 2014-03-16 20:39+0100\n"
 "Last-Translator: Julien Hardelin <jhardlin@orange.fr>\n"
 "Language-Team: French <GNOME French Team <gnomefr@traduc.org>\">\n"
 "Language: fr\n"
@@ -30,6 +30,116 @@ msgstr ""
 "Bruno Brouard <annoa.b@gmail.com>, 2010,2012\n"
 "Yoann Fievez <yoann.fievez@gmail.com>, 2013 \n"
 "Julien Hardelin <jhardlin@orange.fr>,2013"
+
+#. (itstool) path: page/title
+#: C/harmful.page:7
+msgid "Disk Seeks Considered Harmful"
+msgstr "Effets dommageables des recherches sur disque"
+
+#. (itstool) path: page/p
+#. (itstool) path: section/p
+#: C/harmful.page:8 C/index.page:54
+msgid ""
+"Disk seeks are one of the most expensive operations you can possibly "
+"perform. You might not know this from looking at how many of them we "
+"perform, but trust me, they are. Consequently, please refrain from the "
+"following suboptimal behavior:"
+msgstr ""
+"La recherche sur disque est une des opérations les plus coûteuses que vous "
+"puissiez peut-être réaliser. Vous pouvez ne pas le savoir à partir de "
+"l'examen du décompte des recherches effectuées, mais croyez-moi, elles sont "
+"coûteuses. Par conséquent, abstenez-vous des piètres comportements ci-après :"
+
+#. (itstool) path: item/p
+#: C/harmful.page:13
+msgid "Placing lots of small files all over the disk."
+msgstr "disperser nombre de petits fichiers un peu partout dans le disque,"
+
+#. (itstool) path: item/p
+#: C/harmful.page:18
+msgid "Opening, stating, and reading lots of files all over the disk"
+msgstr "ouvrir, inspecter et lire beaucoup de fichiers partout sur le disque."
+
+#. (itstool) path: item/p
+#: C/harmful.page:23
+msgid ""
+"Doing the above on files that are laid out at different times, so as to "
+"ensure that they are fragmented and cause even more seeking."
+msgstr ""
+"exécuter les opérations précédentes sur des fichiers montés à plusieurs "
+"reprises, comme pour s'assurer de leur fragmentation et provoquer des "
+"recherches encore plus coûteuses,"
+
+#. (itstool) path: item/p
+#: C/harmful.page:28
+msgid ""
+"Doing the above on files that are in different directories, so as to ensure "
+"that they are in different cylinder groups and cause even more seeking."
+msgstr ""
+"exécuter les opérations précédentes sur des fichiers situés dans des "
+"répertoires différents, comme pour s'assurer qu'ils soient dans des groupes "
+"de pistes différents et provoquer des recherches encore plus coûteuses,"
+
+#. (itstool) path: item/p
+#: C/harmful.page:33
+msgid "Repeatedly doing the above when it only needs to be done once."
+msgstr ""
+"faire les opérations précédentes plusieurs fois alors qu'on aurait pu se "
+"contenter d'une seule."
+
+#. (itstool) path: page/p
+#: C/harmful.page:38
+msgid "Ways in which you can optimize your code to be seek-friendly:"
+msgstr ""
+"Voici des conseils pour optimiser votre code pour des recherches optimales :"
+
+#. (itstool) path: item/p
+#: C/harmful.page:43
+msgid "Consolidate data into a single file."
+msgstr "rassemblez les données dans un seul fichier,"
+
+#. (itstool) path: item/p
+#: C/harmful.page:48
+msgid "Keep data together in the same directory."
+msgstr "gardez l'ensemble des données dans un même répertoire,"
+
+#. (itstool) path: item/p
+#: C/harmful.page:53
+msgid "Cache data so as to not need to reread constantly."
+msgstr ""
+"mettez en cache les données afin de ne pas avoir à les relire constamment,"
+
+#. (itstool) path: item/p
+#: C/harmful.page:58
+msgid ""
+"Share data so as not to have to reread it from disk when each application "
+"loads."
+msgstr ""
+"partagez les données afin de ne pas avoir à les relire à partir du disque à "
+"chaque chargement de l'application,"
+
+#. (itstool) path: item/p
+#: C/harmful.page:63
+msgid ""
+"Consider caching all of the data in a single binary file that is properly "
+"aligned and can be mmaped."
+msgstr ""
+"envisagez la mise en cache de toutes les données dans un fichier binaire "
+"unique, bien aligné et qui peut être mappé."
+
+#. (itstool) path: page/p
+#: C/harmful.page:68
+msgid ""
+"The trouble with disk seeks are compounded for reads, which is unfortunately "
+"what we are doing. Remember, reads are generally synchronous while writes "
+"are asynchronous. This only compounds the problem, serializing each read, "
+"and contributing to program latency."
+msgstr ""
+"Le problème de la recherche sur disque est aggravé dans le cas des lectures, "
+"qui est malheureusement ce que nous faisons. N'oubliez pas, les lectures "
+"s'effectuent en règle générale de manière synchrone tandis que les écritures "
+"s'effectuent de manière asynchrone. Ce seul fait complique le problème : "
+"sérialiser chaque lecture contribue à la latence du programme."
 
 #. (itstool) path: license/p
 #: C/index.page:7
@@ -137,116 +247,6 @@ msgstr ""
 #: C/index.page:53
 msgid "Harmfulness"
 msgstr "Ce qui est nuisible"
-
-#. (itstool) path: section/p
-#. (itstool) path: page/p
-#: C/index.page:54 C/harmful.page:8
-msgid ""
-"Disk seeks are one of the most expensive operations you can possibly "
-"perform. You might not know this from looking at how many of them we "
-"perform, but trust me, they are. Consequently, please refrain from the "
-"following suboptimal behavior:"
-msgstr ""
-"La recherche sur disque est une des opérations les plus coûteuses que vous "
-"puissiez peut-être réaliser. Vous pouvez ne pas le savoir à partir de "
-"l'examen du décompte des recherches effectuées, mais croyez-moi, elles sont "
-"coûteuses. Par conséquent, abstenez-vous des piètres comportements ci-après :"
-
-#. (itstool) path: page/title
-#: C/harmful.page:7
-msgid "Disk Seeks Considered Harmful"
-msgstr "Effets dommageables des recherches sur disque"
-
-#. (itstool) path: item/p
-#: C/harmful.page:13
-msgid "Placing lots of small files all over the disk."
-msgstr "disperser nombre de petits fichiers un peu partout dans le disque,"
-
-#. (itstool) path: item/p
-#: C/harmful.page:18
-msgid "Opening, stating, and reading lots of files all over the disk"
-msgstr "ouvrir, inspecter et lire beaucoup de fichiers partout sur le disque."
-
-#. (itstool) path: item/p
-#: C/harmful.page:23
-msgid ""
-"Doing the above on files that are laid out at different times, so as to "
-"ensure that they are fragmented and cause even more seeking."
-msgstr ""
-"exécuter les opérations précédentes sur des fichiers montés à plusieurs "
-"reprises, comme pour s'assurer de leur fragmentation et provoquer des "
-"recherches encore plus coûteuses,"
-
-#. (itstool) path: item/p
-#: C/harmful.page:28
-msgid ""
-"Doing the above on files that are in different directories, so as to ensure "
-"that they are in different cylinder groups and and cause even more seeking."
-msgstr ""
-"exécuter les opérations précédentes sur des fichiers situés dans des "
-"répertoires différents, comme pour s'assurer qu'ils soient dans des groupes "
-"de pistes différents et provoquer des recherches encore plus coûteuses,"
-
-#. (itstool) path: item/p
-#: C/harmful.page:33
-msgid "Repeatedly doing the above when it only needs to be done once."
-msgstr ""
-"faire les opérations précédentes plusieurs fois alors qu'on aurait pu se "
-"contenter d'une seule."
-
-#. (itstool) path: page/p
-#: C/harmful.page:38
-msgid "Ways in which you can optimize your code to be seek-friendly:"
-msgstr ""
-"Voici des conseils pour optimiser votre code pour des recherches optimales :"
-
-#. (itstool) path: item/p
-#: C/harmful.page:43
-msgid "Consolidate data into a single file."
-msgstr "rassemblez les données dans un seul fichier,"
-
-#. (itstool) path: item/p
-#: C/harmful.page:48
-msgid "Keep data together in the same directory."
-msgstr "gardez l'ensemble des données dans un même répertoire,"
-
-#. (itstool) path: item/p
-#: C/harmful.page:53
-msgid "Cache data so as to not need to reread constantly."
-msgstr ""
-"mettez en cache les données afin de ne pas avoir à les relire constamment,"
-
-#. (itstool) path: item/p
-#: C/harmful.page:58
-msgid ""
-"Share data so as not to have to reread it from disk when each application "
-"loads."
-msgstr ""
-"partagez les données afin de ne pas avoir à les relire à partir du disque à "
-"chaque chargement de l'application,"
-
-#. (itstool) path: item/p
-#: C/harmful.page:63
-msgid ""
-"Consider caching all of the data in a single binary file that is properly "
-"aligned and can be mmaped."
-msgstr ""
-"envisagez la mise en cache de toutes les données dans un fichier binaire "
-"unique, bien aligné et qui peut être mappé."
-
-#. (itstool) path: page/p
-#: C/harmful.page:68
-msgid ""
-"The trouble with disk seeks are compounded for reads, which is unfortunately "
-"what we are doing. Remember, reads are generally synchronous while writes "
-"are asynchronous. This only compounds the problem, serializing each read, "
-"and contributing to program latency."
-msgstr ""
-"Le problème de la recherche sur disque est aggravé dans le cas des lectures, "
-"qui est malheureusement ce que nous faisons. N'oubliez pas, les lectures "
-"s'effectuent en règle générale de manière synchrone tandis que les écritures "
-"s'effectuent de manière asynchrone. Ce seul fait complique le problème : "
-"sérialiser chaque lecture contribue à la latence du programme."
 
 #. (itstool) path: page/title
 #: C/introduction.page:7
@@ -882,8 +882,8 @@ msgid ""
 "slowly. You will also need a lot of memory."
 msgstr ""
 "<app>Swell Foop</app> est le programme que nous allons utiliser comme "
-"exemple. Sachez que, puisque valgrind émule le CPU, il fonctionne <em>très"
-"</em> lentement. Vous aurez aussi besoin de beaucoup de mémoire."
+"exemple. Sachez que, puisque valgrind émule le CPU, il fonctionne <em>très</"
+"em> lentement. Vous aurez aussi besoin de beaucoup de mémoire."
 
 #. (itstool) path: section/title
 #: C/massif.page:41
@@ -948,11 +948,11 @@ msgstr ""
 "obtiendriez en jouant une partie à un joueur de <app>Foop Houle</app> "
 "(version 2.8.0), et en quittant. Le fichier postscript aura un nom comme "
 "<file>massif.12345.ps</file> et le fichier texte sera appelé "
-"<file>massif.12345.txt</file>. Le nombre du milieu est l'identifiant (ID) "
-"du processus correspondant au programme examiné. Si vous testez réellement "
-"cet exemple, vous obtiendrez deux versions de chaque fichier, avec des "
-"nombres légèrement différents. C'est parce que <app>Foop Swell</app> lance "
-"un deuxième processus que <app>Massif</app> analyse également. Nous allons "
+"<file>massif.12345.txt</file>. Le nombre du milieu est l'identifiant (ID) du "
+"processus correspondant au programme examiné. Si vous testez réellement cet "
+"exemple, vous obtiendrez deux versions de chaque fichier, avec des nombres "
+"légèrement différents. C'est parce que <app>Foop Swell</app> lance un "
+"deuxième processus que <app>Massif</app> analyse également. Nous allons "
 "ignorer ce deuxième processus, car il consomme très peu de mémoire."
 
 #. (itstool) path: section/p
