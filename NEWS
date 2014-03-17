@@ -1,3 +1,12 @@
+3.11.92
+=======
+* Updates to Platform Demos (Sindhu S, David King)
+* Updates translations:
+  cs      (Marek Černocký)
+  de      (Christian Kirbach)
+  es      (Daniel Mustieles)
+  fr      (Alexandre Franke, David King)
+
 3.10.3
 ======
 * Updates to HIG (Shaun McCance)
