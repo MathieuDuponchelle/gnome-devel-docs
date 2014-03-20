@@ -1,26 +1,27 @@
 <page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
       xmlns:ui="http://projectmallard.org/experimental/ui/"
       type="guide"
       id="index">
 <info>
   <credit type="author">
     <name>GNOME Documentation Team</name>
-    <email>gnome-doc-list@gnome.org</email>
+    <email its:translate="no">gnome-doc-list@gnome.org</email>
     <years>2010, 2011</years>
   </credit>
   <credit type="author">
     <name>Shaun McCance</name>
-    <email>shaunm@gnome.org</email>
+    <email its:translate="no">shaunm@gnome.org</email>
     <years>2010</years>
   </credit>
   <credit type="author">
     <name>Johannes Schmid</name>
-    <email>jhs@gnome.org</email>
+    <email its:translate="no">jhs@gnome.org</email>
     <years>2011</years>
   </credit>
   <credit type="editor">
     <name>Tiffany Antopolski</name>
-    <email>tiffany.antopolski@gmail.com</email>
+    <email its:translate="no">tiffany.antopolski@gmail.com</email>
   </credit>
 </info>
 

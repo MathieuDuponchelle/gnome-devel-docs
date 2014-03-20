@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
       xmlns:xi="http://www.w3.org/2001/XInclude"
       type="guide" style="task"
       id="gmenu.vala">
@@ -11,13 +12,13 @@
 
     <credit type="author copyright">
       <name>Ryan Lortie</name>
-      <email>desrt@desrt.ca</email>
+      <email its:translate="no">desrt@desrt.ca</email>
       <years>2012</years>
    </credit>
 
     <credit type="author">
       <name>Tiffany Antopolski</name>
-      <email>tiffany.antopolski@gmail.com</email>
+      <email its:translate="no">tiffany.antopolski@gmail.com</email>
     </credit>
 
     <desc>A simple implementation of GMenuModel</desc>

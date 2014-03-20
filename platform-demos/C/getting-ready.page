@@ -1,4 +1,5 @@
 <page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
       type="topic"
       id="getting-ready">
 
@@ -9,7 +10,7 @@
     <revision pkgversion="0.1" version="0.1" date="2011-03-21" status="review"/>
     <credit type="author">
       <name>GNOME Documentation Project</name>
-      <email>gnome-doc-list@gnome.org</email>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
     </credit>
   </info>
 

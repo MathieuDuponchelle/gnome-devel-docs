@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
       xmlns:xi="http://www.w3.org/2001/XInclude"
       xmlns:e="http://projectmallard.org/experimental/"
       type="guide" style="task"
@@ -14,12 +15,12 @@
 
     <credit type="author copyright">
       <name>Marta Maria Casetti</name>
-      <email>mmcasetti@gmail.com</email>
+      <email its:translate="no">mmcasetti@gmail.com</email>
       <years>2012</years>
     </credit>
     <credit type="author">
       <name>Sebastian P&#246;lsterl</name>
-      <email>sebp@k-d-w.org</email>
+      <email its:translate="no">sebp@k-d-w.org</email>
       <years>2012</years>
     </credit>
 

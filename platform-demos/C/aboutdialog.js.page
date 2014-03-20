@@ -1,4 +1,5 @@
 <page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
       xmlns:xi="http://www.w3.org/2001/XInclude"
       type="guide" style="task"
       id="aboutdialog.js">
@@ -9,7 +10,7 @@
 
     <credit type="author copyright">
       <name>Taryn Fox</name>
-      <email>jewelfox@fursona.net</email>
+      <email its:translate="no">jewelfox@fursona.net</email>
       <years>2012</years>
     </credit>
 

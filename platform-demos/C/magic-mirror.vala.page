@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
       type="topic"
       id="magic-mirror.vala">
 
@@ -12,15 +13,15 @@
     <revision pkgversion="0.1" version="0.1" date="2011-03-19" status="review"/>
     <credit type="author">
       <name>Daniel G. Siegel</name>
-      <email>dgsiegel@gnome.org</email>
+      <email its:translate="no">dgsiegel@gnome.org</email>
     </credit>
     <credit type="author">
       <name>Johannes Schmid</name>
-      <email>jhs@gnome.org</email>
+      <email its:translate="no">jhs@gnome.org</email>
     </credit>
     <credit type="editor">
       <name>Marta Maria Casetti</name>
-      <email>mmcasetti@gmail.com</email>
+      <email its:translate="no">mmcasetti@gmail.com</email>
       <years>2013</years>
     </credit>
   </info>

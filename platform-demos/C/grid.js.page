@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
       xmlns:xi="http://www.w3.org/2001/XInclude"
       type="guide" style="task"
       id="grid.js">
@@ -10,12 +11,12 @@
 
     <credit type="author copyright">
       <name>Susanna Huhtanen</name>
-      <email>ihmis.suski@gmail.com</email>
+      <email its:translate="no">ihmis.suski@gmail.com</email>
       <years>2012</years>
     </credit>
     <credit type="editor">
 	<name>Taryn Fox</name>
-        <email>jewelfox@fursona.net</email>
+        <email its:translate="no">jewelfox@fursona.net</email>
     </credit>
 
     <desc>Pack widgets in rows and columns</desc>

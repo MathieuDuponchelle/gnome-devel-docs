@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
       type="topic"
       id="image-viewer.vala">
 
@@ -12,23 +13,23 @@
     <revision pkgversion="0.1" version="0.1" date="2011-03-18" status="review"/>
     <credit type="author">
       <name>GNOME Documentation Project</name>
-      <email>gnome-doc-list@gnome.org</email>
+      <email its:translate="no">gnome-doc-list@gnome.org</email>
     </credit>
     <credit type="author">
       <name>Johannes Schmid</name>
-      <email>jhs@gnome.org</email>
+      <email its:translate="no">jhs@gnome.org</email>
     </credit>
     <credit type="author">
       <name>Philip Chimento</name>
-      <email>philip.chimento@gmail.com</email>
+      <email its:translate="no">philip.chimento@gmail.com</email>
     </credit>
     <credit type="editor">
      <name>Tiffany Antopolski</name>
-     <email>tiffany.antopolski@gmail.com</email>
+     <email its:translate="no">tiffany.antopolski@gmail.com</email>
     </credit>
   <credit type="editor">
     <name>Marta Maria Casetti</name>
-    <email>mmcasetti@gmail.com</email>
+    <email its:translate="no">mmcasetti@gmail.com</email>
     <years>2013</years>
   </credit>
   </info>
