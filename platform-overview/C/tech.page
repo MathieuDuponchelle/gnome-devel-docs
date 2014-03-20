@@ -1,4 +1,5 @@
 <page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
       type="guide" style="task"
       id="tech">
   <info>
@@ -7,7 +8,7 @@
 	
     <credit type="author copyright">
       <name>Phil Bull</name>
-      <email>philbull@gmail.com</email>
+      <email its:translate="no">philbull@gmail.com</email>
       <years>2012</years>
     </credit>
 

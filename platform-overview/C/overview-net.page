@@ -1,4 +1,5 @@
 <page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
       type="topic" style="task"
       id="overview-net">
   <info>
@@ -7,7 +8,7 @@
 
     <credit type="author copyright">
       <name>David King</name>
-      <email>davidk@gnome.org</email>
+      <email its:translate="no">davidk@gnome.org</email>
       <years>2013</years>
     </credit>
 

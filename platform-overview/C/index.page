@@ -1,4 +1,5 @@
 <page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
       type="guide" style="task"
       id="index">
 
@@ -8,22 +9,22 @@
     <revision pkgversion="3.10" version="0.9" date="2013-06-17" status="incomplete"/>
     <credit type="author">
       <name>Shaun McCance</name>
-      <email>shaunm@gnome.org</email>
+      <email its:translate="no">shaunm@gnome.org</email>
       <years>2005-2011</years>
     </credit>
     <credit type="author">
       <name>Phil Bull</name>
-      <email>philbull@gmail.com</email>
+      <email its:translate="no">philbull@gmail.com</email>
       <years>2012</years>
     </credit>
     <credit type="author">
       <name>Federico Mena-Quintero</name>
-      <email>federico@gnome.org</email>
+      <email its:translate="no">federico@gnome.org</email>
       <years>2012, 2013</years>
     </credit>
     <credit type="collaborator">
       <name>Germán Póo-Caamaño</name>
-      <email>gpoo@gnome.org</email>
+      <email its:translate="no">gpoo@gnome.org</email>
       <years>2011</years>
     </credit>
     <credit type="publisher">
@@ -32,7 +33,7 @@
     </credit>
     <credit type="author">
       <name>Ekaterina Gerasimova</name>
-      <email>kittykat3756@gmail.com</email>
+      <email its:translate="no">kittykat3756@gmail.com</email>
       <years>2013</years>
     </credit>
 
