@@ -1,20 +1,21 @@
 <page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
       type="guide" style="task"
       id="index">
 
   <info>
     <credit type="author copyright">
       <name>Federico Mena-Quintero</name>
-      <email>federico@gnome.org</email>
+      <email its:translate="no">federico@gnome.org</email>
       <years>2013</years>
     </credit>
     <credit type="author copyright">
       <name>Miguel de Icaza</name>
-      <email>miguel@gnome.org</email>
+      <email its:translate="no">miguel@gnome.org</email>
     </credit>
     <credit type="author copyright">
       <name>Morten Welinder</name>
-      <email>mortenw@gnome.org</email>
+      <email its:translate="no">mortenw@gnome.org</email>
     </credit>
     <credit type="publisher">
       <name>GNOME Foundation</name>
