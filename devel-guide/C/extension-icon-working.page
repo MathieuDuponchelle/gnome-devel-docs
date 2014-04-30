@@ -1,0 +1,32 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic" style="task"
+      id="extension-icon-working">
+
+  <info>
+    <link type="guide" xref="index" group="help"/>
+    <link type="next" xref="extension-twitter"/>
+
+    <revision pkgversion="3.14" date="2014-04-30" status="draft"/>
+
+    <credit type="author">
+      <name>Sindhu S</name>
+      <email its:translate="no">sindhus@live.in</email>
+      <years>2014</years>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc>???</desc>
+
+  </info>
+
+  <title>Make the toolbar do something</title>
+
+  <links type="series" style="floatend">
+    <title>Write an extension</title>
+  </links>
+
+  <p></p>
+
+</page>

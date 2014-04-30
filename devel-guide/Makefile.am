@@ -17,6 +17,11 @@ HELP_FILES = \
         dev-translate.page \
         dev-translate-setup.page \
         dev-translate-tools.page \
+        extension.page \
+        extension-toolbar.page \
+        extension-icon-working.page \
+        extension-twitter.page \
+        extension-widget.page \
 	index.page \
 	legal.xml
 
