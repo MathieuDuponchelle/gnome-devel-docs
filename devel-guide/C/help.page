@@ -1,14 +1,15 @@
 <page xmlns="http://projectmallard.org/1.0/"
       xmlns:its="http://www.w3.org/2005/11/its"
       type="topic" style="task"
-      id="dev-help">
+      id="help">
 
   <info>
     <link type="guide" xref="index" group="help"/>
-    <link type="next" xref="dev-help-write"/>
+    <link type="next" xref="help-write"/>
     <link type="seealso" xref="dev-translate"/>
 
-    <revision version="0.1" date="2013-06-18" status="review"/>
+    <revision pkgversion="3.10" date="2013-06-18" status="review"/>
+    <revision pkgversion="3.14" date="2014-04-30" status="review"/>
 
     <credit type="author copyright">
       <name>Radina Matic</name>

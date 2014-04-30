@@ -3,10 +3,6 @@
 HELP_ID = devel-guide
 
 HELP_FILES = \
-        dev-help-appmenu.page \
-        dev-help-build.page \
-        dev-help.page \
-        dev-help-write.page \
         dev-launching-desktop.page \
         dev-launching-icons.page \
         dev-launching-mime.page \
@@ -22,6 +18,10 @@ HELP_FILES = \
         extension-icon-working.page \
         extension-twitter.page \
         extension-widget.page \
+        help-appmenu.page \
+        help-build.page \
+        help.page \
+        help-write.page \
 	index.page \
 	legal.xml
 

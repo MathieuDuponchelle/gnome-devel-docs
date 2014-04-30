@@ -1,11 +1,12 @@
 <page xmlns="http://projectmallard.org/1.0/"
       xmlns:its="http://www.w3.org/2005/11/its"
       type="topic" style="task"
-      id="dev-help-appmenu">
+      id="help-appmenu">
 
   <info>
-    <link type="seealso" xref="dev-help"/>
-    <revision version="0.1" date="2013-06-19" status="review"/>
+    <link type="seealso" xref="help"/>
+    <revision pkgversion="3.10" date="2013-06-19" status="review"/>
+    <revision pkgversion="3.14" date="2014-04-30" status="review"/>
 
     <credit type="author copyright">
       <name>Radina Matic</name>
@@ -85,4 +86,8 @@
   <code>"help:<input>applicationname</input>/index#<input>sectionid</input>"</code>.</p>
 
   </example>
+
+  <p><cmd href="https://git.gnome.org/browse/gnome-logs/commit/?id=f180685fdbce554ccec5c6fb13bf8b1e2b21e88f">gnome-logs</cmd>
+  has an example in C.</p>
+
 </page>

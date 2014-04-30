@@ -1,11 +1,12 @@
 <page xmlns="http://projectmallard.org/1.0/"
       xmlns:its="http://www.w3.org/2005/11/its"
       type="topic" style="task"
-      id="dev-help-build">
+      id="help-build">
 
   <info>
-    <link type="next" xref="dev-help-appmenu"/>
-    <revision version="0.1" date="2013-06-18" status="review"/>
+    <link type="next" xref="help-appmenu"/>
+    <revision pkgversion="3.10" date="2013-06-18" status="review"/>
+    <revision pkgversion="3.14" date="2014-04-30" status="review"/>
 
     <credit type="author copyright">
       <name>Radina Matic</name>
@@ -32,16 +33,16 @@
   <file its:translate="no">/usr/share/help/<input>locale</input>/<input>HELP_ID</input></file> directory.</p>
 
   <p>Add the following lines in the file <file>configure.ac</file>:</p>
-  
+
   <code>YELP_HELP_INIT</code>
-  
+
   <code>AC_CONFIG_FILES([
 help/Makefile
 ])</code>
 
   <p>Add the following line to the <file>Makefile.am</file>:</p>
   <code>SUBDIRS = help</code>
-  		
+
   <p>Add a <file>help/Makefile.am</file>, it should list the help files in your
   project that you want to install:</p>
 <code>
@@ -49,18 +50,18 @@ help/Makefile
 
 HELP_ID = <input>applicationname</input>
 
-# Media files
-HELP_MEDIA = \
-	figures/icon.png
-
 # Help pages
 HELP_FILES = \
 	index.page \
 	introduction.page \
 	anotherpage.page
 
+# Media files
+HELP_MEDIA = \
+	media/icon.png
+
 # Translated languages, blank if no translations exist
-HELP_LINGUAS = en_GB 
+HELP_LINGUAS = en_GB
 </code>
 
 </page>
