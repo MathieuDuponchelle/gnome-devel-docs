@@ -1,0 +1,17 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="guide" style="task"
+      id="index">
+
+  <info>
+    <revision pkgversion="3.13" date="2014-04-30" status="draft"/>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc></desc>
+
+  </info>
+
+  <title>GNOME developer guide</title>
+
+</page>
