@@ -1,14 +1,14 @@
 # Brazilian Portuguese translation for gnome-devel-docs HIG.
 # Copyright (C) 2013 gnome-devel-docs's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-devel-docs package.
-# Georges Neto <georges.stavracas@gmail.com>, 2013.
+# Georges Neto <georges.stavracas@gmail.com>, 2013, 2014.
 # Enrico Nicoletto <liverig@gmail.com>, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs HIG\n"
-"POT-Creation-Date: 2013-10-04 10:50+0000\n"
-"PO-Revision-Date: 2013-09-20 19:14-0300\n"
+"POT-Creation-Date: 2014-04-15 12:28+0000\n"
+"PO-Revision-Date: 2014-03-19 11:12-0300\n"
 "Last-Translator: Georges Basile Stavracas Neto <georges.stavracas@gmail."
 "com>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
@@ -17,13 +17,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 1.6.4\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
-"Georges Neto <georges.stavracas@gmail.com>, 2013.\n"
+"Georges Neto <georges.stavracas@gmail.com>, 2013, 2014.\n"
 "Enrico Nicoletto <liverig@gmail.com>, 2013."
 
 #. (itstool) path: imagedata
@@ -6578,11 +6578,20 @@ msgid ""
 "pointer over a different document window, thus changing the focus and "
 "possibly saving the wrong document."
 msgstr ""
+"Note que o apontar-para-focar coloca uma série de restrições em aplicativos "
+"GNOME que não estão presentes em ambientes como MacOS ou Windows. Por "
+"exemplo, janelas de utilidade compartilhadas entre janelas de múltiplos "
+"documentos, como a caixa de ferramentas do editor de imagens GIMP, não podem "
+"ser sensíveis ao contexto - isto é, não podem iniciar uma ação como "
+"<guibutton>Salvar</guibutton> no documento atual. Isto porque enquanto "
+"estiver movendo o ponteiro do documento atual para a janela de utilidade, o "
+"usuário pode inadvertidamente passar o ponteiro sobre uma janela diferente, "
+"mudando o foco e possivelmente salvando o documento errado."
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:184 C/hig-ch-windows.xml:184
 msgid "Showing and Hiding Windows"
-msgstr ""
+msgstr "Exibindo e ocultando janelas"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:185 C/hig-ch-windows.xml:185
@@ -6590,6 +6599,8 @@ msgid ""
 "How your application shows and hides windows can greatly affect the user's "
 "perception of your application, particularly its performance."
 msgstr ""
+"Como seu aplicativo exibe e oculta janelas pode afetar muito a percepção do "
+"usuário de seu aplicativo, particularmente sobre sua performance."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:187 C/hig-ch-windows.xml:187
@@ -6598,6 +6609,9 @@ msgid ""
 "correct size before displaying it. Resizing a window after it is visible is "
 "disorienting and gives an unpolished look to your application."
 msgstr ""
+"Sempre exiba uma janela o mais rápido possível, mas tenha certeza de que sua "
+"janela tenha o tamanho correto antes de mostrá-la. Redimensionar uma janela "
+"depois de exibi-la é desorientador e dá um aspecto rude ao seu aplicativo."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:188 C/hig-ch-windows.xml:188
@@ -6610,6 +6624,13 @@ msgid ""
 "more responsive than if you had not shown the window until its content was "
 "complete."
 msgstr ""
+"Caso uma janela tenha uma informação que demore alguns segundos para "
+"computar ou exibir, é geralmente melhor não carregá-la completamente antes "
+"de exibir a janela. Por exemplo, uma janela contendo uma grande área de "
+"texto pode ser exibida rapidamente, e então o texto pode ser preenchido "
+"posteriormente (desde que isso não resulte no redimensionamento da "
+"janela). Isso fará com que seu aplicativo pareça mais responsivo do que se "
+"você não tivesse exibido a janela até que seu conteúdo estivesse completo."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:190 C/hig-ch-windows.xml:190
@@ -6621,6 +6642,13 @@ msgid ""
 "slow, not doing this can cause the window manager to think the application "
 "is not responding, and display an unnecessary alert to the user."
 msgstr ""
+"Oculte uma janela o mais rápido possível depois que for fechada. A não ser "
+"que um alerta seja exibido, imediatamente oculte a janela na qual o usuário "
+"tenha fechado clicando no botão Fechar na borda da janela - seu aplicativo "
+"pode executar alguma operação de limpeza posterior. Além de fazer com que o "
+"sistema pareça lento, não fazer isso pode fazer com que o gerenciador de "
+"janelas pense que o aplicativo não está respondendo, e exiba um alerta "
+"desnecessário ao usuário."
 
 #. (itstool) path: sect1/title
 #: C/index.docbook:201 C/hig-ch-windows.xml:201
@@ -6637,11 +6665,17 @@ msgid ""
 "application may have more than one primary window, and more than one kind of "
 "primary window."
 msgstr ""
+"Uma janela primária geralmente apresenta uma visualização das informações do "
+"usuário, como um documento de texto em um processador de textos, uma imagem "
+"em um programa de desenhos, ou cálculos em uma calculadora ou uma planilha. "
+"Também pode ser uma visualização de algo mais abstrato, como um jogo. Uma "
+"única instância de um aplicativo pode ter mais de uma janela primária, e "
+"mais de um tipo de janela primária."
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:210 C/hig-ch-windows.xml:210
 msgid "A primary window is always shown on the panel window list."
-msgstr ""
+msgstr "Uma janela primária é sempre exibida na lista de janelas do painel."
 
 #. (itstool) path: figure/title
 #: C/index.docbook:213 C/hig-ch-windows.xml:213
@@ -6657,6 +6691,11 @@ msgid ""
 "<textobject> <phrase>A typical primary window: the gedit document view</"
 "phrase> </textobject>"
 msgstr ""
+"<imageobject> <imagedata depth=\"372\" fileref=\"images/windows-primary.png"
+"\" format=\"PNG\" width=\"397\"/> </imageobject> <imageobject> <imagedata "
+"fileref=\"images/windows-primary.eps\" format=\"EPS\"/> </imageobject> "
+"<textobject> <phrase>Uma janela primária típica: uma visão de documento do "
+"gedit</phrase> </textobject>"
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:231 C/hig-ch-windows.xml:231
@@ -6664,6 +6703,8 @@ msgid ""
 "A primary application window normally has a border, a menubar and a "
 "statusbar, and may also contain one or more toolbars."
 msgstr ""
+"Uma janela primária normalmente tem uma borda, uma barra de menu, uma barra "
+"de status, e também pode conter uma ou mais barras de ferramenta."
 
 #. (itstool) path: sect2/title
 #. (itstool) path: row/entry
@@ -6679,6 +6720,9 @@ msgid ""
 "the name of the open document. For other applications, it is usually the "
 "name of the application."
 msgstr ""
+"O elemento mais importante do título da janela de um aplicativo baseado em "
+"documentos é o nome do documento aberto. Para outros aplicativos, é "
+"geralmente o nome do aplicativo."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:244 C/hig-ch-windows.xml:244
@@ -6688,11 +6732,15 @@ msgid ""
 "easier to distinguish amongst other open window titles, for example on the "
 "window list."
 msgstr ""
+"Use o <replaceable>nome do arquivo</replaceable> como o título da janela "
+"para aplicativos baseados em documento. Não use o caminho completo, já que o "
+"nome do arquivo sozinho é mais fácil de distinguir entre outros títulos de "
+"janela, por exemplo na lista de janelas."
 
 #. (itstool) path: example/title
 #: C/index.docbook:250 C/hig-ch-windows.xml:250
 msgid "Using document names as window titles"
-msgstr ""
+msgstr "Usando nomes do documetos como título da janela"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:258 C/hig-ch-windows.xml:258
@@ -6702,7 +6750,7 @@ msgstr "Exemplo de título de janela"
 #. (itstool) path: row/entry
 #: C/index.docbook:266 C/hig-ch-windows.xml:266
 msgid "My Report.abw"
-msgstr ""
+msgstr "Meu relatório.abw"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:270 C/hig-ch-windows.xml:270
@@ -6722,7 +6770,7 @@ msgstr "Reprodutor de músicas"
 #. (itstool) path: row/entry
 #: C/index.docbook:278 C/hig-ch-windows.xml:278
 msgid "U2 - Better Than the Real Thing"
-msgstr ""
+msgstr "U2 - Better Than the Real Thing"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:284 C/hig-ch-windows.xml:284
@@ -6731,6 +6779,9 @@ msgid ""
 "with the same name from different directories in the same application, show "
 "the full pathname in the statusbar."
 msgstr ""
+"Caso o caminho do arquivo seja importante, por exemplo quando o usuário tem "
+"dois documentos com o mesmo nome abertos de diretórios diferentes no mesmo "
+"aplicativo, mostre o caminho completo na barra de status."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:290 C/hig-ch-windows.xml:290
@@ -6741,6 +6792,11 @@ msgid ""
 "Spreadsheet</replaceable>, or the more generic <replaceable>Unsaved "
 "Document</replaceable>."
 msgstr ""
+"Antes que um novo documento seja salvo pela primeira vez, defina o título da "
+"janela para <replaceable>&lt;Tipo do documento&gt; não salvo</replaceable>. "
+"Por exemplo, <replaceable>Desenho não salvo</replaceable>, "
+"<replaceable>Planilha não salva</replaceable>, ou genericamente "
+"<replaceable>Documento não salvo</replaceable>."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:300 C/hig-ch-windows.xml:300
@@ -6749,6 +6805,9 @@ msgid ""
 "of the window title. For example, <replaceable>*Unsaved Drawing</"
 "replaceable>, <replaceable>*AnnualReport</replaceable>."
 msgstr ""
+"Quando um documento tem mudanças pendentes, coloque um asterisco (*) no "
+"começo do título da janela. Por exemplo, <replaceable>*Desenho não salvo</"
+"replaceable>, <replaceable>*RelatórioAnual</replaceable>."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:305 C/hig-ch-windows.xml:305
@@ -6756,16 +6815,18 @@ msgid ""
 "For non-document-based applications, use <replaceable>Application Name</"
 "replaceable> as the window title."
 msgstr ""
+"Para aplicativos que não são baseados em documentos, use o <replaceable>nome "
+"do aplicativo</replaceable> como título da janela."
 
 #. (itstool) path: example/title
 #: C/index.docbook:310 C/hig-ch-windows.xml:310
 msgid "Using application names as window titles"
-msgstr ""
+msgstr "Usando nomes de aplicativos como título da janela"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:318 C/hig-ch-windows.xml:318
 msgid "Window title"
-msgstr ""
+msgstr "Título da janela"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:330 C/index.docbook:332 C/hig-ch-windows.xml:330
@@ -6784,6 +6845,14 @@ msgid ""
 "placing version numbers can be useful, but remove them from stable releases. "
 "Place version information in the about box instead."
 msgstr ""
+"Não coloque números de versão, nomes de companhia, ou outra informação que "
+"não seja de uso imediato ao usuário no título da janela. Isto consome "
+"espaço, fazendo com que os títulos em espaços limitados como a lista de "
+"janelas do sistema menos úteis, e adiciona mais texto para o usuário ter que "
+"escanear para achar informação útil. Em um produto \"beta\", onde o número "
+"da versão é critico para informações de erros, colocar números de versão "
+"pode ser útil, mas remova-as das versões estáveis. Em vez disso, coloque a "
+"informação da versão no diálogo Sobre."
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:351 C/hig-ch-windows.xml:351
@@ -6796,6 +6865,13 @@ msgid ""
 "that the document name appears in limited space situations such as the "
 "system window list."
 msgstr ""
+"Enquanto nomes de documentos são mais adequados aos usuários, nós entendemos "
+"que desenvolvedores desejem aumentar o reconhecimento de seu aplicativo. Se "
+"você planeja incluir o nome do seu aplicativo no título da janela primária, "
+"use o seguinte formato: <replaceable>Nome do documento</replaceable> - "
+"<replaceable>Nome do aplicativo</replaceable>. Isso garante que o nome do "
+"documento apareça em situações de espaço limitado, como a lista de janelas "
+"do sistema."
 
 #. (itstool) path: warning/para
 #: C/index.docbook:359 C/hig-ch-windows.xml:359
@@ -6803,6 +6879,8 @@ msgid ""
 "Including the application name in the title of a document-based application "
 "is <emphasis role=\"bold\">not</emphasis> recommended."
 msgstr ""
+"Incluir o nome do aplicativo no título de um aplicativo baseado em "
+"documentos <emphasis role=\"bold\">não</emphasis> é recomendado."
 
 #. (itstool) path: tip/para
 #: C/index.docbook:361 C/hig-ch-windows.xml:361
@@ -6812,6 +6890,11 @@ msgid ""
 "have 20-30 characters of text and an icon. Consider which text will provide "
 "the most immediately obvious clues to a user looking for a particular window."
 msgstr ""
+"Pense sobre nomear janelas no contexto da lista de janelas do painel. Em uma "
+"tela típica com um número relativamente pequeno de janelas abertas, uma "
+"janela tem 20-30 caracteres de texto e um ícone. Considere qual texto pode "
+"dar as pistas mais imediatamente obvias para um usuário olhando para uma "
+"janela em particular."
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:366 C/hig-ch-windows.xml:366
@@ -6821,17 +6904,17 @@ msgstr "Comandos de janela"
 #. (itstool) path: sect2/para
 #: C/index.docbook:368 C/hig-ch-windows.xml:368
 msgid "Close, Maximize/Restore, Minimize, Roll-up/Unroll"
-msgstr ""
+msgstr "Fechar, maximizar/restaurar, minimizar, enrolar/desenrolar"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:372 C/hig-ch-windows.xml:372
 msgid "Relation between Documents and Windows"
-msgstr ""
+msgstr "Relação entre documentos e janelas"
 
 #. (itstool) path: sect3/title
 #: C/index.docbook:375 C/hig-ch-windows.xml:375
 msgid "Single Document Interface (SDI)"
-msgstr ""
+msgstr "Interface de documento único (IDU)"
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:377 C/hig-ch-windows.xml:377
@@ -6842,11 +6925,16 @@ msgid ""
 "Use SDI for your GNOME application unless there is a compelling reason not "
 "to."
 msgstr ""
+"Uma interface de documento único coloca cada documento em sua janela "
+"primária. Caixas de ferramentas e outras janelas de utilidade podem ser "
+"compartilhadas entre múltiplos documentos IDU, mas fechá-los não deve ter "
+"efeito sobre as janelas de documento. Use IDU em seus aplicativos GNOME a "
+"não ser que tenha um motivo razoável para não fazê-lo."
 
 #. (itstool) path: figure/title
 #: C/index.docbook:384 C/hig-ch-windows.xml:384
 msgid "A typical SDI application (Eye of GNOME)"
-msgstr ""
+msgstr "Um típico aplicativo IDU (Visualizador de imagens)"
 
 #. (itstool) path: figure/mediaobject
 #: C/index.docbook:386 C/hig-ch-windows.xml:386
@@ -6857,11 +6945,16 @@ msgid ""
 "<textobject> <phrase>A typical SDI application: Eye of GNOME being used to "
 "inspect an icon</phrase> </textobject>"
 msgstr ""
+"<imageobject> <imagedata depth=\"226\" fileref=\"images/windows-sdi.png\" "
+"format=\"PNG\" width=\"268\"/> </imageobject> <imageobject> <imagedata "
+"fileref=\"images/windows-sdi.eps\" format=\"EPS\"/> </imageobject> "
+"<textobject> <phrase>Um típico aplicativo IDU: Visualizador de imagens sendo "
+"usado para inspecionar um ícone.</phrase> </textobject>"
 
 #. (itstool) path: sect3/title
 #: C/index.docbook:405 C/hig-ch-windows.xml:405
 msgid "Multiple Document Interface (MDI)"
-msgstr ""
+msgstr "Interface de múltiplos documentos (IMD)"
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:407 C/hig-ch-windows.xml:407
@@ -6869,6 +6962,8 @@ msgid ""
 "A multiple document interface presents a paned, tabbed or similar "
 "presentation of two documents within a single window."
 msgstr ""
+"Uma interface de múltiplos documentos apresenta um visualizador em painéis, "
+"abas ou similar de dois documentos em uma única janela."
 
 #. (itstool) path: figure/title
 #: C/index.docbook:412 C/hig-ch-windows.xml:412
@@ -6876,6 +6971,8 @@ msgid ""
 "A typical MDI application (gedit) showing three open documents on tabbed "
 "pages"
 msgstr ""
+"Um típico aplicativo IMD (gedit) exibindo três documentos abertos em páginas "
+"de abas."
 
 #. (itstool) path: figure/mediaobject
 #: C/index.docbook:415 C/hig-ch-windows.xml:415
@@ -6886,6 +6983,11 @@ msgid ""
 "<textobject> <phrase>A typical MDI application: gedit with three open "
 "documents in the same window</phrase> </textobject>"
 msgstr ""
+"<imageobject> <imagedata depth=\"349\" fileref=\"images/windows-mdi.png\" "
+"format=\"PNG\" width=\"372\"/> </imageobject> <imageobject> <imagedata "
+"fileref=\"images/windows-mdi.eps\" format=\"EPS\"/> </imageobject> "
+"<textobject> <phrase>Um típico aplicativo IMD: gedit com três documentos "
+"abertos na mesma janela.</phrase> </textobject>"
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:432 C/hig-ch-windows.xml:432
@@ -6898,11 +7000,18 @@ msgid ""
 "application to decide how to group and present document windows from the "
 "same application."
 msgstr ""
+"IMD herda vários problemas de usabilidade, e por isso seu uso é "
+"desencorajado. É melhor abrir um documento em uma janela primária, com sua "
+"própria barra de menu, de ferramenta e de status, ou permitir múltiplas "
+"instâncias de seu aplicativo serem executadas simultaneamente. Em ambos os "
+"casos, isso deixa para o gerenciador de janelas (que age a partir das "
+"preferências do usuário) ao invés do seu aplicativo decidir como agrupar e "
+"apresentar janelas de documento do mesmo aplicativo."
 
 #. (itstool) path: sect3/title
 #: C/index.docbook:442 C/hig-ch-windows.xml:442
 msgid "Controlled Single Document Interface (CSDI)"
-msgstr ""
+msgstr "Interface controlada de documento único (ICDU)"
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:443 C/hig-ch-windows.xml:443
@@ -6913,11 +7022,16 @@ msgid ""
 "treated as the primary window. For example, closing this utility window will "
 "close all document windows and exit the application."
 msgstr ""
+"Em um típico aplicativo IDU, janelas de documentos são tratadas como "
+"primárias. Por exemplo, quanto todos os documentos tiverem sido fechados, o "
+"aplicativo (incluindo janelas de utilidade) também fecha. Em uma ICDU, uma "
+"janela de utilidades é tratada como a janela primária. Por exemplo, fechar a "
+"janela de utilidades irá fechar todos os documentos e sair do aplicativo."
 
 #. (itstool) path: warning/para
 #: C/index.docbook:449 C/hig-ch-windows.xml:449
 msgid "Using CSDI is <emphasis role=\"bold\">not</emphasis> recommended"
-msgstr ""
+msgstr "Usar ICDU <emphasis role=\"bold\">não</emphasis> é recomendado"
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:451 C/hig-ch-windows.xml:451
@@ -6928,6 +7042,12 @@ msgid ""
 "editor being used to edit small web page elements will often result in very "
 "small document windows that cannot accomodate a title bar."
 msgstr ""
+"Uma ICDU é ocasionalmente usada porque janelas de documento podem ser muito "
+"pequenas para possuírem barras de menu. Tipicamente esse não é o caso de uso "
+"normal para o aplicativo, mas representa um caso de uso significativamente "
+"minoritário. Por exemplo, um editor de imagens sendo usado para editar "
+"pequenos elementos de páginas da web resulta em várias pequenas janelas de "
+"documento que não podem acomodar uma barra de título."
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:461 C/hig-ch-windows.xml:461
@@ -6938,6 +7058,11 @@ msgid ""
 "but also provides an opportunity for people to figure out where their menus "
 "have gone."
 msgstr ""
+"Uma maneira melhor de resolver este problema é permitir que barras de menu "
+"\"recolham\" em um botão de estouro, do mesmo modo que barras de ferramentas "
+"operam quando a janela diminui para menos que a largura da barra de "
+"ferramentas. Isso permite pequenas janelas, mas também fornece uma "
+"oportunidade para que as pessoas descubram para onde seus menus foram."
 
 #. (itstool) path: tip/para
 #: C/index.docbook:466 C/hig-ch-windows.xml:466
@@ -6950,11 +7075,18 @@ msgid ""
 "will be primarily used in a higher level grouping, in which case that "
 "grouping could become the document instead."
 msgstr ""
+"Note que, caso documentos muito pequenos forem o caso de uso "
+"<emphasis>primário</emphasis> do seu aplicativo, considere encontrar um meio "
+"de evitar janelas completamente. Janelas não são interfaces efetivas para "
+"lidar com um número grande de pequenos itens. Considere buscar um sistema de "
+"layout fixo/automatizado para apresentar os \"documentos\". Também considere "
+"se os \"documentos\" vão ser usados primariamente em um agrupamento de nível "
+"mais alto, em cujo caso que o grupo se torna o documento."
 
 #. (itstool) path: sect1/title
 #: C/index.docbook:479 C/hig-ch-windows.xml:479
 msgid "Utility Windows"
-msgstr ""
+msgstr "Janelas de utilidade"
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:481 C/hig-ch-windows.xml:481
@@ -6962,6 +7094,8 @@ msgid ""
 "Utility windows, such as palettes and toolboxes, normally have borders. They "
 "do not contain a menu bar, a toolbar, or a statusbar."
 msgstr ""
+"Janelas de utilidade, como paletas e caixas de ferramenta, normalmente tem "
+"bordas. Elas não contém uma barra de menu, de ferramenta ou de status."
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:483 C/hig-ch-windows.xml:483
@@ -6971,11 +7105,15 @@ msgid ""
 "window should be raised above the application when the application window "
 "itself is selected from the window list."
 msgstr ""
+"Uma janela de utilidade não deve aparecer na lista de janelas do painel a "
+"não ser que, ou que possa ser, a única janela exibida pelo aplicativo. Caso "
+"contrário, a janela de utilidades deve ser elevada para frente do aplicativo "
+"quando a janela do aplicativo é selecionada a partir da lista de janelas."
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:496 C/hig-ch-windows.xml:496
 msgid "Instant apply windows"
-msgstr ""
+msgstr "Janelas de aplicação instantânea"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:498 C/hig-ch-windows.xml:498
@@ -6987,6 +7125,12 @@ msgid ""
 "<guibutton>Apply</guibutton> button to make the changes happen, unless "
 "either:"
 msgstr ""
+"Para janelas que permitem que o usuário mude valores e preferências, como "
+"janelas de preferências e propriedades, atualize esses valores ou "
+"configurações imediatamente para refletir as mudanças feitas na janela. Isso "
+"é conhecido como \"aplicação instantânea\". Não faça o usuário pressionar um "
+"botão <guibutton>OK</guibutton> ou <guibutton>Aplicar</guibutton> para fazer "
+"as mudanças acontecerem, a não ser caso:"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:507 C/hig-ch-windows.xml:507
@@ -6995,6 +7139,9 @@ msgid ""
 "applying the change immediately could make the system feel slow or "
 "unresponsive, or"
 msgstr ""
+"a mudança irá demorar mais que um segundo para ser aplicada, no caso em que "
+"aplicar as mudanças imediatamente pode fazer o sistema ficar lento ou não "
+"responsivo, ou"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:513 C/hig-ch-windows.xml:513
@@ -7003,6 +7150,9 @@ msgid ""
 "system entering a potentially unstable state. For example, the hostname and "
 "proxy fields in a network properties window."
 msgstr ""
+"as mudanças na janela devem ser aplicadas simultaneamente para prevenir o "
+"sistema de entrar em um estado potencialmente instável. Por exemplo, os "
+"campos nome de máquina e proxy em uma janela de propriedades."
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:520 C/hig-ch-windows.xml:520
@@ -7012,6 +7162,10 @@ msgid ""
 "its own <guibutton>Apply</guibutton> button. Leave the rest of the controls "
 "as instant apply."
 msgstr ""
+"Caso ambas as condições afetem apenas alguns poucos controles em sua janela, "
+"organize esses controles juntos em um ou mais grupos, cada um com seu "
+"próprio botão <guibutton>Aplicar</guibutton>. Deixe o resto dos controles "
+"como aplicação instantânea."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:530 C/hig-ch-windows.xml:530
@@ -7023,6 +7177,13 @@ msgid ""
 "characters, such as a hexadecimal color code, validate and apply the change "
 "as soon as that number of characters have been entered."
 msgstr ""
+"Não tente validar ou aplicar mudanças causadas por edição de um campo de "
+"texto até que o usuário tenha movido o foco para um controle diferente na "
+"janela, ou que a janela tenha sido fechada. Validar após cada pressionamento "
+"de tecla é geralmente irritante e desnecessário. Exceção: caso o campo "
+"aceite apenas um número fixo de caracteres, como um código de cor "
+"hexadecimal, valide e aplique a mudança tão logo o número de caracteres "
+"tenha sido digitado."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:538 C/hig-ch-windows.xml:538
@@ -7033,11 +7194,16 @@ msgid ""
 "whom focus may leave the control more often than it does for a click-to-"
 "focus user."
 msgstr ""
+"Quando o usuário move o foco para um controle diferente, não indique uma "
+"entrada inválida exibindo um alerta ou desfazendo a mudança do usuário. "
+"Ambos os métodos são particularmente disruptivos para usuários em que o foco "
+"segue o mouse, para os quais o foco pode deixar o controle com maior "
+"frequência que acontece com os usuários em que o foco segue o clique."
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:544 C/hig-ch-windows.xml:544
 msgid "Explicit apply windows"
-msgstr ""
+msgstr "Janelas de aplicação explícita"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:545 C/hig-ch-windows.xml:545
@@ -7047,6 +7213,10 @@ msgid ""
 "window has these three buttons in its button box, plus an optional "
 "<guibutton>Help</guibutton> button:"
 msgstr ""
+"Caso a maioria dos controles em sua janela não são adequados para aplicação "
+"instantânea, considere fazer com que toda a janela seja de \"aplicação "
+"explícita\". Uma janela de aplicação explícita tem estes três botões em sua "
+"caixa de botões, e um botão opcional <guibutton>Ajuda</guibutton>:"
 
 #. (itstool) path: formalpara/title
 #: C/index.docbook:553 C/hig-ch-windows.xml:553
@@ -7059,6 +7229,8 @@ msgid ""
 "Applies all the settings in the window, but does not close the window in "
 "case the user wishes to change their mind."
 msgstr ""
+"Aplica todas as configurações da janela, mas não fecha a janela caso o "
+"usuário queira mudar de ideia."
 
 #. (itstool) path: formalpara/title
 #: C/index.docbook:562 C/hig-ch-windows.xml:562
@@ -7073,6 +7245,10 @@ msgid ""
 "the <guibutton>Apply</guibutton> since the window was opened, not just the "
 "most recent one."
 msgstr ""
+"Reinicia todas as configurações da janela para aquelas que estavam em vigor "
+"quando a janela estava aberta. Nota: isto deve desfazer os efeitos de todas "
+"as aplicações do botão <guibutton>Aplicar</guibutton> desde que a janela foi "
+"aberta, não apenas o mais recente."
 
 #. (itstool) path: formalpara/title
 #: C/index.docbook:573 C/hig-ch-windows.xml:573
@@ -7082,12 +7258,12 @@ msgstr "OK"
 #. (itstool) path: formalpara/para
 #: C/index.docbook:575 C/hig-ch-windows.xml:575
 msgid "Applies all settings in the window, and closes the window."
-msgstr ""
+msgstr "Aplica todas as configurações da janela, e fecha a janela."
 
 #. (itstool) path: figure/title
 #: C/index.docbook:581 C/hig-ch-windows.xml:581
 msgid "Buttons in an explicit apply window"
-msgstr ""
+msgstr "Botões em uma janela de aplicação explícita"
 
 #. (itstool) path: figure/mediaobject
 #: C/index.docbook:583 C/hig-ch-windows.xml:583
@@ -7098,11 +7274,17 @@ msgid ""
 "imageobject> <textobject> <phrase>Screenshot showing correct positions for "
 "Help, Apply, Cancel and OK buttons in a dialog</phrase> </textobject>"
 msgstr ""
+"<imageobject> <imagedata depth=\"55\" fileref=\"images/windows-explicit-"
+"apply.png\" format=\"PNG\" width=\"387\"/> </imageobject> <imageobject> "
+"<imagedata fileref=\"images/windows-explicit-apply.eps\" format=\"EPS\"/> </"
+"imageobject> <textobject> <phrase>Captura de tela mostrando o posicionamento "
+"correto dos botões Ajuda, Aplicar, Cancelar e OK em um diálogo</phrase> </"
+"textobject>"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:604 C/hig-ch-windows.xml:604
 msgid "Default Buttons"
-msgstr ""
+msgstr "Botões padrão"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:606 C/hig-ch-windows.xml:606
@@ -7113,6 +7295,11 @@ msgid ""
 "it. For example, the <guibutton>Help</guibutton> button in <xref linkend="
 "\"explicit-apply-figure\"/>."
 msgstr ""
+"Quando projetar um diálogo ou uma janela de utilidade, você pode atribuir a "
+"tecla <keycap>Enter</keycap> para ativar um botão particular na janela. O "
+"GNOME indica esse botão ao usuário desenhando uma borda diferente em torno "
+"dele. Por exemplo, o botão <guibutton>Ajuda</guibutton> em <xref linkend="
+"\"explicit-apply-figure\"/>."
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:612 C/hig-ch-windows.xml:612
@@ -7123,6 +7310,11 @@ msgid ""
 "or otherwise inconvenient to the user. If there is no appropriate button in "
 "your window, to designate as the default button, do not set one."
 msgstr ""
+"Escolha o botão padrão para ser a mais provável ação, como uma ação de "
+"confirmação ou uma ação que aplique as mudanças em uma janela de utilidade. "
+"Não faça um botão o padrão caso a ação seja irreversível, destrutiva ou "
+"inconveniente para o usuário. Caso não haja um botão apropriado em sua "
+"janela, para designá-lo como padrão, não estabeleça um."
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:619 C/hig-ch-windows.xml:619
@@ -7132,11 +7324,16 @@ msgid ""
 "\"windows-instant-apply\">instant apply</link> window, as this can lead to "
 "users closing the window accidentally before they have finished using it."
 msgstr ""
+"Em particular, é atualmente <emphasis>não</emphasis> recomendado fazer o "
+"botão <guibutton>Fechar</guibutton> o padrão em uma janela de <link linkend="
+"\"windows-instant-apply\">aplicação instantânea</link>, já que isso pode "
+"fazer com que os usuários fechem a janela acidentalmente antes de terminar "
+"de usá-la."
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:627 C/hig-ch-windows.xml:627
 msgid "Property Windows"
-msgstr ""
+msgstr "Janelas de propriedade"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:629 C/hig-ch-windows.xml:629
@@ -7144,11 +7341,14 @@ msgid ""
 "Property windows allow the user to view and change the characteristics of an "
 "object such as a document, file, drawing, or application launcher."
 msgstr ""
+"Janelas de propriedade permitem que o usuário visualize e modifique as "
+"características de um objeto como um documento, arquivo, desenho ou lançador "
+"de aplicativo."
 
 #. (itstool) path: figure/title
 #: C/index.docbook:634 C/hig-ch-windows.xml:634
 msgid "Example of a property window"
-msgstr ""
+msgstr "Exemplo de uma janela de propriedades"
 
 #. (itstool) path: figure/mediaobject
 #: C/index.docbook:636 C/hig-ch-windows.xml:636
@@ -7159,6 +7359,11 @@ msgid ""
 "imageobject> <textobject> <phrase>Screenshot showing the \"file properties\" "
 "window from Nautilus</phrase> </textobject>"
 msgstr ""
+"<imageobject> <imagedata fileref=\"images/windows-properties.png\" format="
+"\"PNG\" width=\"302\" depth=\"335\"/> </imageobject> <imageobject> "
+"<imagedata fileref=\"images/windows-properties.eps\" format=\"EPS\"/> </"
+"imageobject> <textobject> <phrase>Captura de tela mostrando a janela "
+"\"propriedades do arquivo\" do Nautilus</phrase> </textobject>"
 
 #. (itstool) path: formalpara/title
 #: C/index.docbook:654 C/index.docbook:701 C/index.docbook:774
@@ -7173,7 +7378,7 @@ msgstr "Formato de título:"
 #. (itstool) path: formalpara/para
 #: C/index.docbook:656 C/hig-ch-windows.xml:656
 msgid "<replaceable>Object Name</replaceable> Properties"
-msgstr ""
+msgstr "Propriedades do <replaceable>nome do objeto</replaceable>"
 
 #. (itstool) path: formalpara/title
 #: C/index.docbook:660 C/index.docbook:707 C/index.docbook:795
@@ -7191,7 +7396,7 @@ msgstr "Comandos de janela:"
 #: C/index.docbook:662 C/index.docbook:709 C/hig-ch-windows.xml:662
 #: C/hig-ch-windows.xml:709
 msgid "Close, Minimize, Roll-up/Unroll"
-msgstr ""
+msgstr "Fechar, minimizar, enrolar/desenrolar"
 
 #. (itstool) path: formalpara/title
 #: C/index.docbook:666 C/index.docbook:713 C/index.docbook:801
@@ -7210,11 +7415,14 @@ msgid ""
 "Place a <guibutton>Close</guibutton> button in the lower right corner. A "
 "<guibutton>Help</guibutton> may be placed in the lower left corner."
 msgstr ""
+"Coloque um botão <guibutton>Fechar</guibutton> no canto inferior direito. Um "
+"botão <guibutton>Ajuda</guibutton> pode ser colocado no canto inferior "
+"esquerdo."
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:675 C/hig-ch-windows.xml:675
 msgid "Preferences Windows"
-msgstr ""
+msgstr "Janelas de preferências"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:677 C/hig-ch-windows.xml:677
@@ -7222,11 +7430,13 @@ msgid ""
 "Preferences windows allow the user to change the way an application looks or "
 "behaves."
 msgstr ""
+"Janelas de preferências permitem que o usuário mude a maneira que um "
+"aplicativo se parece ou se comporta."
 
 #. (itstool) path: figure/title
 #: C/index.docbook:682 C/hig-ch-windows.xml:682
 msgid "Example of a preferences window"
-msgstr ""
+msgstr "Exemplo de uma janela de preferências"
 
 #. (itstool) path: figure/mediaobject
 #: C/index.docbook:684 C/hig-ch-windows.xml:684
@@ -7237,16 +7447,21 @@ msgid ""
 "<textobject> <phrase>Screenshot showing the Gnibbles preferences window</"
 "phrase> </textobject>"
 msgstr ""
+"<imageobject> <imagedata depth=\"249\" fileref=\"images/windows-preferences."
+"png\" format=\"PNG\" width=\"354\"/> </imageobject> <imageobject> <imagedata "
+"fileref=\"images/windows-preferences.eps\" format=\"EPS\"/> </imageobject> "
+"<textobject> <phrase>Captura de tela mostrando a janela de preferências do "
+"Gnibbles</phrase> </textobject>"
 
 #. (itstool) path: formalpara/para
 #: C/index.docbook:703 C/hig-ch-windows.xml:703
 msgid "<replaceable>Application Name</replaceable> Preferences"
-msgstr ""
+msgstr "Preferências do <replaceable>nome do aplicativo</replaceable>"
 
 #. (itstool) path: sect3/title
 #: C/index.docbook:721 C/hig-ch-windows.xml:721
 msgid "Customizing Fonts and Colors"
-msgstr ""
+msgstr "Personalizando fontes e cores"
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:723 C/hig-ch-windows.xml:723
@@ -7254,12 +7469,17 @@ msgid ""
 "If your preferences window allows the user to customize fonts or colors, use "
 "the following wording and layout as a guide for these controls:"
 msgstr ""
+"Caso sua janela de preferências permita que o usuário personalize fontes e "
+"cores, use o seguinte estilo de redação e layout como guias para esses "
+"controles:"
 
 #. (itstool) path: example/title
 #: C/index.docbook:726 C/hig-ch-windows.xml:726
 msgid ""
 "Recommended wording for overriding theme elements- replace with screenshot"
 msgstr ""
+"Estilo de redação recomendado para sobrescrever elementos do tema - "
+"substitua por captura de tela"
 
 #. (itstool) path: example/programlisting
 #: C/index.docbook:727 C/hig-ch-windows.xml:727
@@ -7275,6 +7495,15 @@ msgid ""
 "\t\tForeground: [ color selector ]\n"
 "\t\t"
 msgstr ""
+"\n"
+"\t(o) Usar fonte do tema\n"
+"\t(o) Usar esta fonte: [Seletor de fonte]\n"
+"\n"
+"\t(o) Usar cores do tema\n"
+"\t(o) Usar estas cores:\n"
+"\t\tPlano de fundo: [ seletor de cores ]\n"
+"\t\tPrimeiro plano: [ seletor de cores ]\n"
+"\t\t"
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:738 C/hig-ch-windows.xml:738
@@ -7283,11 +7512,14 @@ msgid ""
 "example, \"Use monospace font from theme\", or \"Use background color from "
 "theme\"."
 msgstr ""
+"O estilo de redação de botões de opção podem ser mais específicos onde for "
+"necessário, por exemplo, \"Usar fonte monoespaçada do tema\", ou \"Usar cor "
+"de fundo do tema\"."
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:744 C/hig-ch-windows.xml:744
 msgid "Toolboxes"
-msgstr ""
+msgstr "Caixas de ferramenta"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:746 C/hig-ch-windows.xml:746
@@ -7298,11 +7530,18 @@ msgid ""
 "items such as <guibutton>Save</guibutton> and <guibutton>open</guibutton>. A "
 "single toolbox can be shared between multiple documents to save screen space."
 msgstr ""
+"Uma caixa de ferramenta fornece acesso conveniente à um conjunto de ações e "
+"alternâncias por meio de um conjunto de pequenos botões com estilo de barra "
+"de ferramentas. Caixas de ferramentas podem ser usadas para fornecer um "
+"grupo específico de ferramentas para acrescentar a uma barra de ferramentas "
+"que contém itens mais universais, como <guibutton>Salvar</guibutton> e "
+"<guibutton>Abrir</guibutton>. Uma única caixa de ferramentas pode ser "
+"compartilhada entre múltiplos documentos para economizar espaço na tela;"
 
 #. (itstool) path: figure/title
 #: C/index.docbook:754 C/hig-ch-windows.xml:754
 msgid "An example of a toolbox"
-msgstr ""
+msgstr "Exemplo de uma caixa de ferramentas"
 
 #. (itstool) path: figure/mediaobject
 #: C/index.docbook:756 C/hig-ch-windows.xml:756
@@ -7313,26 +7552,31 @@ msgid ""
 "<textobject> <phrase>A screenshot of a toolbox with eight buttons arranged "
 "into two rows</phrase> </textobject>"
 msgstr ""
+"<imageobject> <imagedata depth=\"89\" fileref=\"images/windows-toolbox-small."
+"png\" format=\"PNG\" width=\"136\"/> </imageobject> <imageobject> <imagedata "
+"fileref=\"images/windows-toolbox-small.eps\" format=\"EPS\"/> </imageobject> "
+"<textobject> <phrase>Uma captura de tela de uma caixa de ferramentas com "
+"oito botões organizados em duas linhas</phrase> </textobject>"
 
 #. (itstool) path: formalpara/para
 #: C/index.docbook:776 C/hig-ch-windows.xml:776
 msgid "Toolboxes have no title"
-msgstr ""
+msgstr "Caixas de ferramenta não têm título"
 
 #. (itstool) path: formalpara/para
 #: C/index.docbook:797 C/hig-ch-windows.xml:797
 msgid "Close, Roll-up/Unroll"
-msgstr ""
+msgstr "Fechar, enrolar/desenrolar"
 
 #. (itstool) path: formalpara/para
 #: C/index.docbook:803 C/hig-ch-windows.xml:803
 msgid "Toolboxes have no buttons"
-msgstr ""
+msgstr "Caixas de ferramenta não têm botões"
 
 #. (itstool) path: formalpara/title
 #: C/index.docbook:807 C/hig-ch-windows.xml:807
 msgid "Resizing:"
-msgstr ""
+msgstr "Redimensionamento:"
 
 #. (itstool) path: formalpara/para
 #: C/index.docbook:809 C/hig-ch-windows.xml:809
@@ -7341,11 +7585,17 @@ msgid ""
 "In other words, the user can resize the toolbox to be one item wide, two "
 "items wide, three items wide, etc. but not one and a half items wide."
 msgstr ""
+"Faça com que as caixas de ferramenta sejam redimensionáveis, mas apenas "
+"redimensione discretamente pela largura dos itens da caixa de ferramentas. "
+"Em outras palavras, o usuário pode redimensionar a caixa de ferramentas para "
+"a largura de um item, dois itens, três itens, etc, mas não para um item e "
+"meio."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:819 C/hig-ch-windows.xml:819
 msgid "Only place buttons in a toolbox that do not open another window."
 msgstr ""
+"Coloque na caixa de ferramentas apenas botões que não abram outras janelas."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:824 C/hig-ch-windows.xml:824
@@ -7356,6 +7606,11 @@ msgid ""
 "initiate actions upon clicking (such as a save button) are better placed in "
 "toolbars."
 msgstr ""
+"Caixas de ferramentas são melhores usados para botões de alternância modais "
+"que afetam a operação do mouse no documento, como um conjunto de botões para "
+"escolher entre pincel, borracha e modos de preenchimento em um aplicativo de "
+"desenho. Botões que iniciam ações ao clique (como um botão de salvar) são "
+"melhor posicionados em barras de ferramentas."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:832 C/hig-ch-windows.xml:832
@@ -7363,6 +7618,8 @@ msgid ""
 "Ensure that closing a toolbox does not close or otherwise alter any primary "
 "window with which it is associated."
 msgstr ""
+"Assegure-se que fechar a caixa de ferramentas não fechará ou de outro modo "
+"alterará qualquer outra janela primária com a qual esteja associada."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:837 C/hig-ch-windows.xml:837
@@ -7370,6 +7627,9 @@ msgid ""
 "Do not place toolboxes in the system window list. Toolboxes should always "
 "remain above all primary windows with which they are associated."
 msgstr ""
+"Não coloque caixas de ferramentas na lista de janelas do sistema. Caixas de "
+"ferramentas devem sempre ficar abaixo de todas as janelas primárias as quais "
+"estão associadas."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:843 C/hig-ch-windows.xml:843
@@ -7378,6 +7638,9 @@ msgid ""
 "hide the toolbox as well. Show the toolbox again when one of the primary "
 "windows is opened or restored."
 msgstr ""
+"Caso todas as janelas primárias associadas com a caixa de ferramentas "
+"estiverem fechadas ou minimizadas, esconda a caixa de ferramentas também. "
+"Exiba-a novamente quando uma das janelas primárias for aberta ou restaurada."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:849 C/hig-ch-windows.xml:849
@@ -7386,11 +7649,15 @@ msgid ""
 "linkend=\"toolbox_windows_categories\">categories</link>. Make categorized "
 "toolboxes four items wide by default."
 msgstr ""
+"Faça a caixa de ferramentas com dois itens de largura por padrão, a não ser "
+"que seja dividida em <link linkend=\"toolbox_windows_categories"
+"\">categorias</link>. Faça caixas de ferramentas categorizadas com quatro "
+"itens de largura por padrão."
 
 #. (itstool) path: sect3/title
 #: C/index.docbook:856 C/hig-ch-windows.xml:856
 msgid "Toolbox Categories"
-msgstr ""
+msgstr "Categorias de caixa de ferramentas"
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:858 C/hig-ch-windows.xml:858
@@ -7401,11 +7668,17 @@ msgid ""
 "difficult task. Additionally, categories allow users to hide sets of tool "
 "items that are not relevant to their current task."
 msgstr ""
+"Enquanto que categorias possam não ser tão visualmente atraentes quanto "
+"caixas de ferramentas homogêneas preenchidas com belos ícones, elas fazem "
+"com que uma caixa de ferramentas desajeitada e grande seja mais gerenciável. "
+"Escolher um ícone pequeno dentre quinze outros itens é uma tarefa difícil. "
+"Adicionalmente, categorias permitem que o usuário esconda conjuntos de itens "
+"que não são relevantes à sua tarefa atual."
 
 #. (itstool) path: figure/title
 #: C/index.docbook:866 C/hig-ch-windows.xml:866
 msgid "A large toolbox broken into categories"
-msgstr ""
+msgstr "Uma caixa de ferramentas larga dividida em categorias"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:888 C/hig-ch-windows.xml:888
@@ -7413,6 +7686,8 @@ msgid ""
 "Break toolboxes with more than sixteen items into categories. The best size "
 "for a category is between four and ten items."
 msgstr ""
+"Divida caixas de ferramentas com mais de dezesseis itens em categorias. O "
+"melhor tamanho para uma categoria é entre quatro e dez itens."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:894 C/hig-ch-windows.xml:894
@@ -7421,11 +7696,14 @@ msgid ""
 "the label or the arrow toggles the category between a collapsed and "
 "uncollapsed state."
 msgstr ""
+"Dê a cada categoria uma etiqueta (em capitalização de título) e uma seta de "
+"colapso. Clicar na etiqueta ou na seta alterna a categoria entre os estados "
+"colapsado e não colapsado."
 
 #. (itstool) path: sect1/title
 #: C/index.docbook:911 C/hig-ch-windows.xml:911
 msgid "Alerts"
-msgstr ""
+msgstr "Alertas"
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:913 C/hig-ch-windows.xml:913
@@ -7438,11 +7716,18 @@ msgid ""
 "user's work, do not use them except where necessary to avoid potential data "
 "loss or other serious problems."
 msgstr ""
+"Uma alerta fornece informações sobre o estado do sistema do aplicativo, ou "
+"pede por informações essenciais sobre como proceder com uma tarefa em "
+"particular. É distinto de outros tipos de janela já que não é requisitado "
+"diretamente pelo usuário, e geralmente contém uma mensagem ou questão ao "
+"invés de controles editáveis. Visto que alertas são uma intrusão indesejável "
+"no trabalho do usuário, não os use exceto onde necessário para evitar perdas "
+"de dados em potencial ou outros problemas sérios."
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:921 C/hig-ch-windows.xml:921
 msgid "An alert has a border similar to that of a dialog, and is object modal."
-msgstr ""
+msgstr "Um alerta tem bordas similares às de um diálogo, e é modal."
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:924 C/hig-ch-windows.xml:924
@@ -7452,6 +7737,10 @@ msgid ""
 "reminder alert may be shown after the main calendar application window has "
 "been closed."
 msgstr ""
+"Um alerta não deve aparecer na lista de janelas do painel a não ser que "
+"seja, ou que possa ser, a única janela exibida pelo aplicativo. Por exemplo, "
+"um alerta lembrete de compromisso pode ser exibido após a janela principal "
+"do aplicativo de calendário ter sido fechada."
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:930 C/hig-ch-windows.xml:930
@@ -7459,11 +7748,13 @@ msgid ""
 "Otherwise, an alert should be raised above the application when the "
 "application window itself is selected from the window list."
 msgstr ""
+"Caso contrário, um alerta deve ser destacado sobre o aplicativo quando a "
+"janela do aplicativo tiver sido selecionada da lista de janelas."
 
 #. (itstool) path: figure/title
 #: C/index.docbook:936 C/hig-ch-windows.xml:936
 msgid "An example of an alert"
-msgstr ""
+msgstr "Exemplo de um alerta"
 
 #. (itstool) path: figure/mediaobject
 #: C/index.docbook:938 C/hig-ch-windows.xml:938
@@ -7475,12 +7766,18 @@ msgid ""
 "\"You have an appointment with George Wells in 15 minutes\", and with an OK "
 "button to dismiss the window.</phrase> </textobject>"
 msgstr ""
+"<imageobject> <imagedata fileref=\"images/windows-alert-information.png\" "
+"width=\"251\" depth=\"123\" format=\"PNG\"/> </imageobject> <imageobject> "
+"<imagedata fileref=\"images/windows-alert-information.eps\" format=\"EPS\"/> "
+"</imageobject> <textobject> <phrase>Exemplo de um alerta exibindo o texto  "
+"\"You have an appointment with George Wells in 15 minutes\", com um botão OK "
+"para dispersar a janela.</phrase> </textobject>"
 
 #. (itstool) path: formalpara/title
 #: C/index.docbook:958 C/index.docbook:1748 C/hig-ch-windows.xml:958
 #: C/hig-ch-windows.xml:1748
 msgid "Title Format"
-msgstr ""
+msgstr "Formato do título"
 
 #. (itstool) path: formalpara/para
 #: C/index.docbook:960 C/hig-ch-windows.xml:960
@@ -7489,12 +7786,16 @@ msgid ""
 "duplicate the alert's primary text. This way, users can read and respond to "
 "alerts more quickly as there is less visual noise and confounding text."
 msgstr ""
+"Janelas de alerta não tem títulos, já que o título duplicaria "
+"desnecessariamente o texto primário do alerta. Desta forma, usuários podem "
+"ler e responder a alertas mais rapidamente já que há menos ruído visual e "
+"texto confuso."
 
 #. (itstool) path: formalpara/title
 #: C/index.docbook:983 C/index.docbook:1756 C/hig-ch-windows.xml:983
 #: C/hig-ch-windows.xml:1756
 msgid "Resizing"
-msgstr ""
+msgstr "Redimensionar"
 
 #. (itstool) path: formalpara/para
 #: C/index.docbook:985 C/hig-ch-windows.xml:985
@@ -7502,6 +7803,8 @@ msgid ""
 "Alert windows are not resizable. If the user needs to resize your alert, the "
 "text is probably not concise enough."
 msgstr ""
+"Janelas de alerta não são redimensionáveis. Caso o usuário precise "
+"redimensionar seu alerta, o texto provavelmente não é conciso o suficiente."
 
 #. (itstool) path: formalpara/para
 #. (itstool) path: row/entry
@@ -7532,12 +7835,12 @@ msgstr ""
 #: C/hig-ch-menus.xml:1514 C/hig-ch-menus.xml:1521 C/hig-ch-menus.xml:1570
 #: C/hig-ch-windows.xml:992
 msgid "None"
-msgstr ""
+msgstr "Nenhum"
 
 #. (itstool) path: caution/title
 #: C/index.docbook:996 C/hig-ch-windows.xml:996
 msgid "Alerts must stay above their parent"
-msgstr ""
+msgstr "Alerta devem ficar sobre seus parentes."
 
 #. (itstool) path: caution/para
 #: C/index.docbook:998 C/hig-ch-windows.xml:998
@@ -7548,11 +7851,16 @@ msgid ""
 "apparent reason. Modal windows should always stay above the window(s) they "
 "block."
 msgstr ""
+"Alertas não aparecem na lista de janelas do sistema. Consequentemente, "
+"assegure-se que alertas fiquem sobre suas janelas de origem. De outra forma, "
+"usuário certamente perderão o alerta e acharão seu aplicativo não responsivo "
+"por nenhuma razão aparente. Janelas modais devem sempre ficar na frente "
+"da(s) janela(s) que bloqueiam."
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:1015 C/hig-ch-windows.xml:1015
 msgid "Alert Text"
-msgstr ""
+msgstr "Textos de alerta"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:1017 C/hig-ch-windows.xml:1017
@@ -7561,6 +7869,8 @@ msgid ""
 "briefly summarizes the situation. The secondary text provides additional "
 "information."
 msgstr ""
+"Um alerta pode conter tanto texto primário como secundário. O texto primário "
+"resume a situação. O texto secundário fornece informação adicional."
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:1021 C/hig-ch-windows.xml:1021
@@ -7569,11 +7879,14 @@ msgid ""
 "the user to copy and paste the text to another window, such as an email "
 "message."
 msgstr ""
+"Faça com que tanto o texto primário quanto o secundário sejam selecionáveis. "
+"Isso facilita para o usuário copiar e colar o texto em outra janela, como "
+"uma mensagem de e-mail."
 
 #. (itstool) path: figure/title
 #: C/index.docbook:1027 C/hig-ch-windows.xml:1027
 msgid "Primary and Secondary Text Placement"
-msgstr ""
+msgstr "Localização do texto primário e secundário"
 
 #. (itstool) path: figure/mediaobject
 #: C/index.docbook:1029 C/hig-ch-windows.xml:1029
@@ -7585,12 +7898,18 @@ msgid ""
 "primary text in bold, and secondary text in a smaller font underneath.</"
 "phrase> </textobject>"
 msgstr ""
+"<imageobject> <imagedata fileref=\"images/windows-alert-text.png\" width="
+"\"446\" depth=\"178\" format=\"PNG\"/> </imageobject> <imageobject> "
+"<imagedata fileref=\"images/windows-alert-text.eps\" format=\"EPS\"/> </"
+"imageobject> <textobject> <phrase>Captura de tela de um alerta exibindo um "
+"exemplo de texto primário em negrito, e secundário em uma fonte menor abaixo."
+"</phrase> </textobject>"
 
 #. (itstool) path: formalpara/title
 #: C/index.docbook:1046 C/index.docbook:1617 C/hig-ch-windows.xml:1046
 #: C/hig-ch-windows.xml:1617
 msgid "Primary Text"
-msgstr ""
+msgstr "Texto primário"
 
 #. (itstool) path: formalpara/para
 #: C/index.docbook:1048 C/hig-ch-windows.xml:1048
@@ -7602,6 +7921,12 @@ msgid ""
 "text is punctuated in 'newspaper headline' style, that is, it has no "
 "terminating period, but it may have a terminating question mark."
 msgstr ""
+"O texto primário fornece ao usuário uma sentença que resume a informação ou "
+"ação sugerida. Esse resumo deve conter concisamente os detalhes essenciais "
+"do problema ou sugestão. Todo alerta tem um texto primário, exibido em "
+"negrito em fonte levemente maior que o padrão. O texto primário é pontuado "
+"no estilo 'manchete de jornal', isto é, não tem ponto final, mas pode conter "
+"um ponto de interrogação no final."
 
 #. (itstool) path: para/programlisting
 #: C/index.docbook:1058 C/hig-ch-windows.xml:1058
@@ -7610,17 +7935,19 @@ msgid ""
 "&lt;span weight=\"bold\"\n"
 "      size=\"larger\"&gt;<replaceable>Primary Text</replaceable>&lt;/span&gt;"
 msgstr ""
+"&lt;span weight=\"bold\"\n"
+"      size=\"larger\"&gt;<replaceable>Texto primário</replaceable>&lt;/span&gt;"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:1057 C/hig-ch-windows.xml:1057
 msgid "Denote primary text with the pango markup: <_:programlisting-1/>"
-msgstr ""
+msgstr "Indique o texto primário com a marcação pango: <_:programlisting-1/>"
 
 #. (itstool) path: formalpara/title
 #: C/index.docbook:1062 C/index.docbook:1628 C/hig-ch-windows.xml:1062
 #: C/hig-ch-windows.xml:1628
 msgid "Secondary Text"
-msgstr ""
+msgstr "Texto secundário"
 
 #. (itstool) path: formalpara/para
 #: C/index.docbook:1064 C/hig-ch-windows.xml:1064
@@ -7634,11 +7961,20 @@ msgid ""
 "Secondary text is optional, but if used, place it one text line height "
 "beneath the primary text using the default font size and weight."
 msgstr ""
+"Texto secundário fornece uma descrição mais profunda sobre o problema e a "
+"ação sugerida, incluindo possíveis efeitos colaterais. Texto secundário pode "
+"também fornecer informações que poderão ajudar o usuário a fazer uma decisão "
+"informada. Na maior parte das situações, o usuário deve necessitar apenas do "
+"texto primário para fazer uma decisão rápida, mas pode ler o texto "
+"secundário caso esteja inseguro do curso da ação, ou precise de detalhes "
+"extras. Texto secundário é opcional, mas quando utilizado, coloque uma linha "
+"de texto de altura abaixo do texto primário usando o tamanho e a largura "
+"padrão da fonte."
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:1077 C/hig-ch-windows.xml:1077
 msgid "Alert Buttons"
-msgstr ""
+msgstr "Botões de alerta"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:1079 C/hig-ch-windows.xml:1079
@@ -7653,11 +7989,21 @@ msgid ""
 "buttons to perform alternate actions that provide another possible solution, "
 "fix potential problems, or launch related dialogs or programs."
 msgstr ""
+"Dê a todos os alertas um botão afirmativo que dispensa o alerta e realiza a "
+"ação sugerida pelo botão primário. Forneça um botão <guibutton>Cancelar</"
+"guibutton> para todos os alertas exibidos em resposta às ações do usuário, "
+"como <guimenuitem>Sair</guimenuitem>. Caso o alerta avise o usuário de um "
+"problema técnico ou outra situação que poderia resultar em perda de "
+"informação, forneça um botão <guibutton>Ajuda</guibutton> que dê mais "
+"informações na situação em particular e explique as opções do usuário. Você "
+"também pode fornecer botões que executam ações alternadas que deem outra "
+"possível solução, corrija problemas em potencial, ou inicie programas ou "
+"diálogos relacionados."
 
 #. (itstool) path: figure/title
 #: C/index.docbook:1091 C/hig-ch-windows.xml:1091
 msgid "Button ordering and placement for alerts"
-msgstr ""
+msgstr "Ordem e posição dos botões para alertas"
 
 #. (itstool) path: figure/mediaobject
 #: C/index.docbook:1093 C/hig-ch-windows.xml:1093
@@ -7669,11 +8015,18 @@ msgid ""
 "buttons: Help button in bottom left, and Alternate, Cancel and Affirmative "
 "buttons in bottom right.</phrase> </textobject>"
 msgstr ""
+"<imageobject> <imagedata fileref=\"images/windows-alert-buttons.png\" format="
+"\"PNG\" width=\"425\" depth=\"62\"/> </imageobject> <imageobject> <imagedata "
+"fileref=\"images/windows-alert-buttons.eps\" format=\"EPS\"/> </imageobject> "
+"<textobject> <phrase>Captura de tela mostrando a ordem e a posição dos "
+"botões do alerta: Ajuda na parte inferior esquerda e Alternar, Cancelar e "
+"Afirmativo na parte inferior direita.</phrase> </textobject>"
 
 #. (itstool) path: formalpara/title
 #: C/index.docbook:1112 C/hig-ch-windows.xml:1112
+#, fuzzy
 msgid "Button Phrasing"
-msgstr ""
+msgstr "Fraseologia dos botões"
 
 #. (itstool) path: formalpara/para
 #: C/index.docbook:1114 C/hig-ch-windows.xml:1114
@@ -7686,11 +8039,18 @@ msgid ""
 "guibutton> are better buttons than <guibutton>Yes</guibutton> and "
 "<guibutton>OK</guibutton>."
 msgstr ""
+"Escreva as etiquetas de botões como verbos no imperativo, por exemplo "
+"<guibutton>Salvar</guibutton> ou <guibutton>Imprimir</guibutton>. Isso "
+"permite que o usuário selecione uma ação com menos hesitação. Uma frase "
+"ativa condiz também com o papel do botão em iniciar ações, em contraste com "
+"uma frase mais passiva. Por exemplo, <guibutton>Buscar</guibutton> e "
+"<guibutton>Conectar</guibutton> são botões melhores que <guibutton>Sim</"
+"guibutton> e <guibutton>OK</guibutton>."
 
 #. (itstool) path: formalpara/title
 #: C/index.docbook:1127 C/hig-ch-windows.xml:1127
 msgid "Affirmative Button"
-msgstr ""
+msgstr "Botões afirmativos"
 
 #. (itstool) path: formalpara/para
 #: C/index.docbook:1129 C/hig-ch-windows.xml:1129
@@ -7700,11 +8060,15 @@ msgid ""
 "dismisses the alert if no action is suggested (as is the case with an <link "
 "linkend=\"alerts-information\">information alert</link>)."
 msgstr ""
+"Posicione os botões afirmativos no canto inferior direito do alerta. O botão "
+"afirmativo aceita a ação proposta pelo alerta, ou simplesmente dispensa o "
+"alerta caso nenhuma ação seja sugerida (como é o caso com <link linkend="
+"\"alerts-information\">alertas de informação</link>)."
 
 #. (itstool) path: formalpara/title
 #: C/index.docbook:1139 C/hig-ch-windows.xml:1139
 msgid "Cancel Button"
-msgstr ""
+msgstr "Botão Cancelar"
 
 #. (itstool) path: formalpara/para
 #: C/index.docbook:1141 C/hig-ch-windows.xml:1141
@@ -7716,11 +8080,17 @@ msgid ""
 "Clicking the <guibutton>Cancel</guibutton> button reverts the application to "
 "its state prior to the user action."
 msgstr ""
+"Caso o alerta tenha sido produzido em resposta a uma ação do usuário, "
+"posicione um botão <guibutton>Cancelar</guibutton> imediatamente à esquerda "
+"do botão afirmativo. Isso fornece uma rota de fuga para que os usuários "
+"parem a ação em resposta à nova informação, ou caso simplesmente tenham "
+"clicado por acidente. Clicar no botão <guibutton>Cancelar</guibutton> "
+"reverte o aplicativo para seu estado anterior à ação do usuário."
 
 #. (itstool) path: formalpara/title
 #: C/index.docbook:1153 C/hig-ch-windows.xml:1153
 msgid "Help Button"
-msgstr ""
+msgstr "Botão Ajuda"
 
 #. (itstool) path: formalpara/para
 #: C/index.docbook:1155 C/hig-ch-windows.xml:1155
@@ -7732,11 +8102,17 @@ msgid ""
 "performed by the other buttons, and explaining any side-effects that each "
 "action may have."
 msgstr ""
+"Um botão <guibutton>Ajuda</guibutton> pode ser usado para esclarecer alertas "
+"que apresentam opções potencialmente destrutivas. Coloque o botão "
+"<guibutton>Ajuda</guibutton> no canto inferior esquerdo do alerta. Quando "
+"clicado, mostre uma janela de ajuda esclarecendo a situação, detalhando as "
+"ações executadas pelos outros botões, e explique qualquer efeito colateral "
+"que cada ação pode ter."
 
 #. (itstool) path: formalpara/title
 #: C/index.docbook:1166 C/hig-ch-windows.xml:1166
 msgid "Alternate Buttons"
-msgstr ""
+msgstr "Botões alternados"
 
 #. (itstool) path: formalpara/para
 #: C/index.docbook:1168 C/hig-ch-windows.xml:1168
@@ -7750,11 +8126,18 @@ msgid ""
 "suggested action <guibutton>Save</guibutton> and the <guibutton>Cancel</"
 "guibutton> button."
 msgstr ""
+"Botões extras podem ser usados para fornecer alternativas à ação primária "
+"proposta pelo texto do alerta. Posicione estes botões a esquerda do botão "
+"<guibutton>Cancelar</guibutton>, ou do botão afirmativo caso "
+"<guibutton>Cancelar</guibutton> não esteja presente. Um exemplo de uma ação "
+"alternativa comum seria o botão <guibutton>Sair sem salvar</guibutton> em um "
+"alerta de confirmação de salvamento. Esta é uma alternativa à ação sugerida "
+"<guibutton>Salvar</guibutton> e o botão <guibutton>Cancelar</guibutton>."
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:1183 C/hig-ch-windows.xml:1183
 msgid "Spacing and Positioning Inside Alerts"
-msgstr ""
+msgstr "Espaçamento e posicionamento dentro dos alertas"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:1185 C/hig-ch-windows.xml:1185
@@ -7762,11 +8145,13 @@ msgid ""
 "Using clear, consistent spacing in alerts makes the message easier to digest "
 "and the available responses more obvious."
 msgstr ""
+"Usar alertas limpos e com espaços consistentes fazem com que a mensagem seja "
+"mais fácil de digerir e as respostas a disposição, mais óbvias."
 
 #. (itstool) path: figure/title
 #: C/index.docbook:1189 C/hig-ch-windows.xml:1189
 msgid "Spacing inside an alert"
-msgstr ""
+msgstr "Espaçamento dentro de um alerta"
 
 #. (itstool) path: figure/mediaobject
 #: C/index.docbook:1191 C/hig-ch-windows.xml:1191
@@ -7778,6 +8163,12 @@ msgid ""
 "between controls and buttons in an alert window. This is detailed in the "
 "guidelines below.</phrase> </textobject>"
 msgstr ""
+"<imageobject> <imagedata fileref=\"images/windows-alert-spacing.png\" format="
+"\"PNG\" width=\"530\" depth=\"250\"/> </imageobject> <imageobject> "
+"<imagedata fileref=\"images/windows-alert-spacing.eps\" format=\"EPS\"/> </"
+"imageobject> <textobject> <phrase>Diagrama mostrando o espaçamento correto a "
+"ser usado entro controles e botõe em uma janela de alerta. Isto é detalhado "
+"nas diretrizes abaixo.</phrase> </textobject>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1213 C/hig-ch-windows.xml:1213
@@ -7785,11 +8176,13 @@ msgid ""
 "The border around all edges of the alert, and the space between the icon and "
 "the text, is 12 pixels."
 msgstr ""
+"A borda ao redor de todos os cantos da aresta, bem como o espaço entre o "
+"ícone e o texto, é 12 pixels."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1218 C/hig-ch-windows.xml:1218
 msgid "The horizontal spacing between the buttons is 6 pixels."
-msgstr ""
+msgstr "O espaçamento horizontal entre botões é 6 pixels."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1222 C/hig-ch-windows.xml:1222
@@ -7797,21 +8190,23 @@ msgid ""
 "Add one line break at the standard font size below both the primary and "
 "secondary text, or 24 pixels if you are using Glade."
 msgstr ""
+"Adicione uma quebra de linha com tamanho da fonte padrão abaixo de ambom os "
+"textos primário e secundário, ou 24 pixels caso esteja usando o Glade."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1227 C/hig-ch-windows.xml:1227
 msgid "Align the top of the icon with the top of the primary text."
-msgstr ""
+msgstr "Alinhe o topo do ícone com o topo do texto primário."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1231 C/hig-ch-windows.xml:1231
 msgid "Left-align the message text, for western locales."
-msgstr ""
+msgstr "Alinhe o texto da mensagem à esquerda, para localidades ocidentais."
 
 #. (itstool) path: tip/title
 #: C/index.docbook:1236 C/hig-ch-windows.xml:1236
 msgid "Technical Details for Proper Layout"
-msgstr ""
+msgstr "Detalhes técnicos para um layout apropriado"
 
 #. (itstool) path: tip/para
 #: C/index.docbook:1238 C/hig-ch-windows.xml:1238
@@ -7827,11 +8222,22 @@ msgid ""
 "(return), then place <replaceable>Secondary Text</replaceable>. Now change "
 "the properties for each control according to these tables:"
 msgstr ""
+"Crie uma nova janela GtkDialog especificando o número de botões que deseja "
+"que o alerta contenha (e um botão de ajuda caso seja apropriado). O "
+"GtkDialog contém uma GtkVBox com a primeira linha vazia, e a última linha "
+"contendo um GtkButtonBox com botões. Na primeira linha vazia, coloque uma "
+"nova GtkHBox. Na coluna à esquerda da GtkHBox coloque uma GtkImage. À "
+"direita, coloque uma GtkLabel. Dentro da GtkLabel coloque o "
+"<replaceable>texto primáio</replaceable> primeiro (usando a marcação Pango "
+"apropriada, veja  <xref linkend=\"alert-text\"/>), então coloque duas "
+"quebras de linha (retorno), e coloque o <replaceable>texto secundário</"
+"replaceable>. Agora mude as propriedades de cada controle de acordo com "
+"essas tabelas:"
 
 #. (itstool) path: table/title
 #: C/index.docbook:1251 C/hig-ch-windows.xml:1251
 msgid "Properties for the GtkDialog"
-msgstr ""
+msgstr "Propriedades para o GtkDialog"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:1256 C/index.docbook:1303 C/index.docbook:1325
@@ -7839,7 +8245,7 @@ msgstr ""
 #: C/hig-ch-windows.xml:1303 C/hig-ch-windows.xml:1325
 #: C/hig-ch-windows.xml:1353 C/hig-ch-windows.xml:1381
 msgid "Property"
-msgstr ""
+msgstr "Propriedade"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:1258 C/index.docbook:1305 C/index.docbook:1327
@@ -7847,39 +8253,39 @@ msgstr ""
 #: C/hig-ch-windows.xml:1305 C/hig-ch-windows.xml:1327
 #: C/hig-ch-windows.xml:1355 C/hig-ch-windows.xml:1383
 msgid "Value"
-msgstr ""
+msgstr "Valor"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:1266 C/hig-ch-windows.xml:1266
 msgid "(none)"
-msgstr ""
+msgstr "(nenhum)"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:1270 C/index.docbook:1339 C/hig-ch-windows.xml:1270
 #: C/hig-ch-windows.xml:1339
 msgid "Border Width"
-msgstr ""
+msgstr "Largura da borda"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:1272 C/index.docbook:1341 C/hig-ch-windows.xml:1272
 #: C/hig-ch-windows.xml:1341
 msgid "6"
-msgstr ""
+msgstr "6"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:1276 C/hig-ch-windows.xml:1276
 msgid "Type"
-msgstr ""
+msgstr "Tipo"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:1278 C/hig-ch-windows.xml:1278
 msgid "Top Level"
-msgstr ""
+msgstr "Nível superior"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:1282 C/hig-ch-windows.xml:1282
 msgid "Resizable"
-msgstr ""
+msgstr "Redimensionável"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:1284 C/index.docbook:1290 C/index.docbook:475
@@ -7893,71 +8299,71 @@ msgstr ""
 #: C/hig-ch-feedback.xml:523 C/hig-ch-feedback.xml:525
 #: C/hig-ch-windows.xml:1284 C/hig-ch-windows.xml:1290
 msgid "No"
-msgstr ""
+msgstr "Não"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:1288 C/hig-ch-windows.xml:1288
 msgid "Has Separator"
-msgstr ""
+msgstr "Tem separador"
 
 #. (itstool) path: table/title
 #: C/index.docbook:1297 C/hig-ch-windows.xml:1297
 msgid "Properties for the GtkVBox (included in the dialog by default)"
-msgstr ""
+msgstr "Propriedades para o GtkVBox (incluso no diálogo por padrão)"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:1311 C/index.docbook:1333 C/hig-ch-windows.xml:1311
 #: C/hig-ch-windows.xml:1333
 msgid "Spacing"
-msgstr ""
+msgstr "Espaçamento"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:1313 C/index.docbook:1335 C/hig-ch-windows.xml:1313
 #: C/hig-ch-windows.xml:1335
 msgid "12"
-msgstr ""
+msgstr "12"
 
 #. (itstool) path: table/title
 #: C/index.docbook:1320 C/hig-ch-windows.xml:1320
 msgid "Properties for the GtkHBox"
-msgstr ""
+msgstr "Propriedades para o GtkHBox"
 
 #. (itstool) path: table/title
 #: C/index.docbook:1348 C/hig-ch-windows.xml:1348
 msgid "Properties for the GtkImage"
-msgstr ""
+msgstr "Propriedades para GtkImage"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:1361 C/index.docbook:1401 C/hig-ch-windows.xml:1361
 #: C/hig-ch-windows.xml:1401
 msgid "Y Align"
-msgstr ""
+msgstr "Alinhamento Y"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:1363 C/index.docbook:1403 C/hig-ch-windows.xml:1363
 #: C/hig-ch-windows.xml:1403
 msgid "0.00"
-msgstr ""
+msgstr "0.00"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:1367 C/hig-ch-windows.xml:1367
 msgid "Icon Size"
-msgstr ""
+msgstr "Tamanho do ícone"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:1369 C/hig-ch-windows.xml:1369
 msgid "Dialog"
-msgstr ""
+msgstr "Diálogo"
 
 #. (itstool) path: table/title
 #: C/index.docbook:1376 C/hig-ch-windows.xml:1376
 msgid "Properties for the GtkLabel"
-msgstr ""
+msgstr "Propriedades para GtkLabel"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:1389 C/hig-ch-windows.xml:1389
 msgid "Use Markup"
-msgstr ""
+msgstr "Usar marcação"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:1391 C/index.docbook:1397 C/index.docbook:461
@@ -7972,17 +8378,17 @@ msgstr ""
 #: C/hig-ch-feedback.xml:515 C/hig-ch-windows.xml:1391
 #: C/hig-ch-windows.xml:1397
 msgid "Yes"
-msgstr ""
+msgstr "Sim"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:1395 C/hig-ch-windows.xml:1395
 msgid "Wrap Text"
-msgstr ""
+msgstr "Quebrar texto"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:1412 C/hig-ch-windows.xml:1412
 msgid "Information Alerts"
-msgstr ""
+msgstr "Alertas de informação"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:1414 C/hig-ch-windows.xml:1414
@@ -7991,21 +8397,25 @@ msgid ""
 "before continuing, or has specifically requested the information. Present "
 "less important information by other means such as a statusbar message."
 msgstr ""
+"Use alertas de informação quando o usuário deve saber sobre a informação "
+"apresentada antes de continuar, ou tenha pedido a informação "
+"especificamente. Apresente informações menos importantes por outros meios, "
+"como a mensagem da barra de status."
 
 #. (itstool) path: figure/title
 #: C/index.docbook:1420 C/hig-ch-windows.xml:1420
 msgid "An information alert"
-msgstr ""
+msgstr "Um alerta de informação"
 
 #. (itstool) path: itemizedlist/title
 #: C/index.docbook:1439 C/hig-ch-windows.xml:1439
 msgid "An information alert..."
-msgstr ""
+msgstr "Um alerta de informação..."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1442 C/hig-ch-windows.xml:1442
 msgid "uses the stock information icon."
-msgstr ""
+msgstr "usa o ícone de informação do estoque"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1446 C/hig-ch-windows.xml:1446
@@ -8014,6 +8424,9 @@ msgid ""
 "button is placed in the bottom right corner of the alert. Pressing "
 "<keysym>Enter</keysym> or <keysym>Escape</keysym> dismisses the alert."
 msgstr ""
+"apresenta uma mensagem selecionável e um botão <guibutton>OK</guibutton>. O "
+"botão é posicionado no canto inferior direito do alerta. Pressionar "
+"<keysym>Enter</keysym> ou <keysym>Escape</keysym> esconde o alerta."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1453 C/hig-ch-windows.xml:1453
@@ -8023,16 +8436,21 @@ msgid ""
 "alert that opens the appointment's property window. Place this button to the "
 "left of the affirmative button."
 msgstr ""
+"pode apresentar um botão de conveniência para dar acesso à um objeto "
+"relevante. Por exemplo, um botão <guibutton>Detalhes</guibutton> em um "
+"lembrete de compromisso abre a janela de propriedades do compromisso. "
+"Posicione esse botão à esquerda do botão afirmativo."
 
 #. (itstool) path: formalpara/para
 #: C/index.docbook:1465 C/hig-ch-windows.xml:1465
 msgid "Roll-up/Unroll, Minimize (if the alert has no parent window), Close"
 msgstr ""
+"Enrolar/desenrolar, minimizar (caso o alerta não tenha janela pai), fechar"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:1471 C/hig-ch-windows.xml:1471
 msgid "Error Alerts"
-msgstr ""
+msgstr "Alertas de erro"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:1473 C/hig-ch-windows.xml:1473
@@ -8045,21 +8463,30 @@ msgid ""
 "However, an error encountered in an automated periodic email check would "
 "more appropriately report failure with a statusbar message."
 msgstr ""
+"Mostre um alerta de erro quando uma operação solicitada pelo usuário não "
+"puder ser completada com sucesso. Apresente os erros causados por operações "
+"não solicitadas pelo usuário por outros meios, a menos que o erro possa "
+"resultar em perda de dados ou outros problemas sérios. Por exemplo, um erro "
+"encontrado durante uma verificação de email, iniciada pelo usuário ao clicar "
+"em um botão na barra de ferramentas, deve apresentar um alerta de erro. "
+"Entretanto, um erro encontrado em uma verificação automática e periódica de "
+"email seria reportado mais apropriadamente com uma mensagem na barra de "
+"status."
 
 #. (itstool) path: figure/title
 #: C/index.docbook:1483 C/hig-ch-windows.xml:1483
 msgid "An error alert"
-msgstr ""
+msgstr "Um alerta de erro"
 
 #. (itstool) path: itemizedlist/title
 #: C/index.docbook:1501 C/hig-ch-windows.xml:1501
 msgid "An error alert..."
-msgstr ""
+msgstr "Um alerta de erro..."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1504 C/hig-ch-windows.xml:1504
 msgid "uses the stock error icon."
-msgstr ""
+msgstr "usa o ícone predefinido de erro."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1508 C/hig-ch-windows.xml:1508
@@ -8068,6 +8495,9 @@ msgid ""
 "button is placed in the bottom-right corner of the alert. Pressing "
 "<keysym>Enter</keysym> may dismiss the error alert."
 msgstr ""
+"mostra uma mensagem selecionável e um botão <guibutton>OK</guibutton>. O "
+"botão é posicionado no canto inferior direito do alerta. Pressionar "
+"<keysym>Enter</keysym> pode dispensar o alerta de erro."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1514 C/hig-ch-windows.xml:1514
@@ -8077,11 +8507,15 @@ msgid ""
 "not formatted\" alert. Place this button to the left of the affirmative "
 "button."
 msgstr ""
+"pode apresentar um botão de conveniência para tratar imediatamente o erro. "
+"Por exemplo, um botão <guibutton>Formatar...</guibutton> em um alerta \"Este "
+"disco não está formatado\". Posicione este botão à esquerda do botão "
+"afirmativo."
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:1529 C/hig-ch-windows.xml:1529
 msgid "Confirmation Alerts"
-msgstr ""
+msgstr "Alertas de confirmação"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:1531 C/hig-ch-windows.xml:1531
@@ -8090,21 +8524,24 @@ msgid ""
 "create a security risk, or take more than 30 seconds of user effort to "
 "recover from if it was selected in error."
 msgstr ""
+"Mostra um alerta de confirmação quando o comando do usuário pode destruir "
+"seus dados, criar um risco de segurança, ou pode levar mais de 30 segundos "
+"de esforço do usuário para de recuperar caso tenha selecionado erroneamente."
 
 #. (itstool) path: figure/title
 #: C/index.docbook:1536 C/hig-ch-windows.xml:1536
 msgid "A confirmation alert"
-msgstr ""
+msgstr "Um alerta de confirmação"
 
 #. (itstool) path: itemizedlist/title
 #: C/index.docbook:1554 C/hig-ch-windows.xml:1554
 msgid "A confirmation alert..."
-msgstr ""
+msgstr "Um alerta de confirmação..."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1557 C/hig-ch-windows.xml:1557
 msgid "uses the stock warning icon."
-msgstr ""
+msgstr "usa o ícone predefinido de alerta."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1561 C/hig-ch-windows.xml:1561
@@ -8114,6 +8551,10 @@ msgid ""
 "guilabel> if such a phrase would be longer than three words. This button is "
 "placed in the bottom right corner of the alert."
 msgstr ""
+"mostra uma mensagem selecionável e um botão rotulado com um verbo ou uma "
+"frase verbal descrevendo a ação a ser confirmada, ou rotulado como "
+"<guilabel>OK</guilabel> caso a frase seja maior que 3 palavras. Este botão é "
+"posicionado no canto inferior direito do alerta."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1570 C/hig-ch-windows.xml:1570
@@ -21396,7 +21837,7 @@ msgstr ""
 #. (itstool) path: address/city
 #: C/hig-ch-bibliography.xml:66
 msgid "Englewood Cliffs"
-msgstr ""
+msgstr "Englewood Cliffs"
 
 #. (itstool) path: address/state
 #: C/hig-ch-bibliography.xml:66
@@ -21510,12 +21951,12 @@ msgstr ""
 #. (itstool) path: bibliomset/surname
 #: C/hig-ch-bibliography.xml:105
 msgid "Williams"
-msgstr ""
+msgstr "Williams"
 
 #. (itstool) path: bibliomset/firstname
 #: C/hig-ch-bibliography.xml:105
 msgid "Robin"
-msgstr ""
+msgstr "Robin"
 
 #. (itstool) path: bibliomset/title
 #: C/hig-ch-bibliography.xml:106
@@ -21527,13 +21968,13 @@ msgstr ""
 #. (itstool) path: address/city
 #: C/hig-ch-bibliography.xml:107
 msgid "Berkeley"
-msgstr ""
+msgstr "Berkeley"
 
 #. (itstool) path: address/state
 #: C/hig-ch-bibliography.xml:107 C/hig-ch-bibliography.xml:120
 #: C/hig-ch-bibliography.xml:160
 msgid "CA"
-msgstr ""
+msgstr "CA"
 
 #. (itstool) path: bibliomset/publishername
 #: C/hig-ch-bibliography.xml:108
@@ -21625,17 +22066,17 @@ msgstr ""
 #. (itstool) path: bibliomset/surname
 #: C/hig-ch-bibliography.xml:147
 msgid "Isaacs"
-msgstr ""
+msgstr "Isaacs"
 
 #. (itstool) path: bibliomset/firstname
 #: C/hig-ch-bibliography.xml:147
 msgid "Ellen"
-msgstr ""
+msgstr "Ellen"
 
 #. (itstool) path: bibliomset/surname
 #: C/hig-ch-bibliography.xml:148
 msgid "Walendowski"
-msgstr ""
+msgstr "Walendowski"
 
 #. (itstool) path: bibliomset/title
 #: C/hig-ch-bibliography.xml:149
@@ -21695,12 +22136,12 @@ msgstr ""
 #. (itstool) path: bibliomset/surname
 #: C/hig-ch-bibliography.xml:168
 msgid "Tognazzini"
-msgstr ""
+msgstr "Tognazzini"
 
 #. (itstool) path: bibliomset/firstname
 #: C/hig-ch-bibliography.xml:168
 msgid "Bruce"
-msgstr ""
+msgstr "Bruce"
 
 #. (itstool) path: bibliomset/title
 #: C/hig-ch-bibliography.xml:169
@@ -21720,7 +22161,7 @@ msgstr ""
 #. (itstool) path: bibliomset/publishername
 #: C/hig-ch-bibliography.xml:171
 msgid "Addison-Wesley"
-msgstr ""
+msgstr "Addison-Wesley"
 
 #. (itstool) path: para/ulink
 #: C/hig-ch-gnome3.xml:14
