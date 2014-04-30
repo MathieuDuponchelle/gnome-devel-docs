@@ -19,12 +19,16 @@ HELP_FILES = \
         extension-twitter.page \
         extension-widget.page \
 	gtkapplication.page \
+	gtkapplication-helloworld.page \
         help-appmenu.page \
         help-build.page \
         help.page \
         help-write.page \
 	index.page \
 	legal.xml
+
+HELP_EXTRA = \
+	examples/gtkapp-helloworld.c
 
 HELP_MEDIA =
 

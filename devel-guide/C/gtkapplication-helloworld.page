@@ -1,0 +1,48 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic" style="task"
+      id="gtkapplication-helloworld">
+
+  <info>
+    <link type="next" xref="gtkapplication-window"/>
+    <revision pkgversion="3.14" date="2014-04-30" status="draft"/>
+
+    <credit type="author">
+      <name>David King</name>
+      <email its:translate="no">davidk@gnome.org</email>
+      <years>2014</years>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+  </info>
+
+  <title>Hello world!</title>
+
+  <links type="series" style="floatend">
+    <title>GtkApplication</title>
+  </links>
+
+  <p>Use GtkApplication to make managing the lifecycle of your application
+  easier.</p>
+  
+  <p>An application written with GTK+ has many complexities, such as a main
+  loop to handle events, a connection to the display server and showing an
+  application menu in the desktop shell. GtkApplication encapsulates all these
+  concepts (and more) into one easy-to-use object.</p>
+
+  <p>A simple GTK+ application using GtkApplication is as follows:</p>
+  <example>
+    <listing> 
+      <title><file>gtkapp-helloworld.c</file></title>
+<code mime="text/x-csrc">
+<include href="examples/gtkapp-helloworld.c" parse="text" xmlns="http://www.w3.org/2001/XInclude"/>
+</code>
+    </listing>
+  </example>
+
+  <p>The example creates an application, runs it and then returns the result to
+  the system. Internally, it registers the application with the session, starts
+  a main loop and connects to the display server.</p>
+ 
+</page>
