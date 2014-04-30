@@ -14,8 +14,12 @@
 
   <title>GNOME developer guide</title>
 
-  <links type="topic" style="grid center" groups="launching help thumbnailer translate">
-    <title style="heading">Integration guides</title>
+  <links type="topic" style="grid" groups="">
+    <title style="heading">Start development</title>
+  </links>
+
+  <links type="topic" style="grid" groups="launching help thumbnailer translate">
+    <title style="heading">Expand your application</title>
   </links>
 
 </page>
