@@ -18,6 +18,7 @@ HELP_FILES = \
         extension-icon-working.page \
         extension-twitter.page \
         extension-widget.page \
+	gtkapplication.page \
         help-appmenu.page \
         help-build.page \
         help.page \
