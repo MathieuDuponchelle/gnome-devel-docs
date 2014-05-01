@@ -29,6 +29,7 @@ HELP_FILES = \
 	legal.xml
 
 HELP_EXTRA = \
+	examples/gtkapp-actions.c \
 	examples/gtkapp-helloworld.c \
 	examples/gtkapp-window.c
 
