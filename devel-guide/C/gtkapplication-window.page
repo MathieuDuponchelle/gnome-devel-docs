@@ -1,0 +1,45 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic" style="task"
+      id="gtkapplication-window">
+
+  <info>
+    <link type="next" xref="gtkapplication-actions"/>
+    <revision pkgversion="3.14" date="2014-04-30" status="draft"/>
+
+    <credit type="author">
+      <name>David King</name>
+      <email its:translate="no">davidk@gnome.org</email>
+      <years>2014</years>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+  </info>
+
+  <title>Application windows</title>
+
+  <links type="series" style="floatend">
+    <title>GtkApplication</title>
+  </links>
+
+  <p>Add an application window.</p>
+  
+  <p>Adding application menus and actions depends on using
+  GtkApplicationWindow.</p>
+
+  <p>A simple application using GtkApplicationWindow is as follows:</p>
+  <example>
+    <listing> 
+      <title><file>gtkapp-window.c</file></title>
+<code mime="text/x-csrc">
+<include href="examples/gtkapp-window.c" parse="text" xmlns="http://www.w3.org/2001/XInclude"/>
+</code>
+    </listing>
+  </example>
+
+  <p>The example creates an application, adds an application window to it,
+  shows the window and runs the application. The application terminates as soon
+  as the last window has been closed.</p>
+ 
+</page>
