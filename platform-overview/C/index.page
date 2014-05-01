@@ -48,7 +48,7 @@
 
   <p>This overview provides an introduction to the components and libraries that you can use in your application.</p>
 
-  <links type="topic" style="button center" groups="#first"/>
+  <links type="topic" style="left" groups="#first"/>
 
   <links type="topic" groups="ui io media #default communication " style="grid left">
     <title style="heading">Core technologies</title>
