@@ -51,7 +51,7 @@
 
   <links type="topic" style="button center" groups="#first"/>
 
-  <links type="topic" groups="ui io media #default communication " style="grid center">
+  <links type="topic" groups="ui io media #default communication " style="grid left">
     <title style="heading">Core technologies</title>
   </links>
 
@@ -63,11 +63,11 @@
     <links type="topic" style="2column" groups="#first ui"/>
   </section>-->
 
-  <links type="topic" style="grid center" groups="launching help thumbnailer translate">
+  <links type="topic" style="grid left" groups="launching help thumbnailer translate">
     <title style="heading">Integration guides</title>
   </links>
 
-  <links type="topic" style="grid center" groups="tech">
+  <links type="topic" style="grid left" groups="tech">
     <title style="heading">Development platform</title>
   </links>
 
