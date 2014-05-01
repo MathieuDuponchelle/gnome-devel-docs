@@ -2,8 +2,6 @@
 
 HELP_ID = gnome-devel-demos
 
-HELP_LINGUAS = ca de el es fr gl pt_BR
-
 demo_sources =	\
 	audio-player/audio-player.vala		\
 	exercises/menubar.vala.exercises	\
@@ -347,7 +345,6 @@ HELP_FILES =				\
 	fontchooserwidget.js.page	\
 	fontchooserwidget.py.page	\
 	fontchooserwidget.vala.page	\
-	getting-ready.page		\
 	gmenu.c.page			\
 	gmenu.js.page			\
 	gmenu.py.page			\
@@ -486,3 +483,5 @@ HELP_FILES =				\
 	window.js.page			\
 	window.py.page			\
 	window.vala.page
+
+HELP_LINGUAS = ca de el es fr gl pt_BR
