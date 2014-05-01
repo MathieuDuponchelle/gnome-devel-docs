@@ -1,0 +1,46 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic" style="task"
+      id="gtkapplication-menu">
+
+  <info>
+    <link type="next" xref="gtkapplication-"/>
+    <revision pkgversion="3.14" date="2014-05-01" status="draft"/>
+
+    <credit type="author">
+      <name>David King</name>
+      <email its:translate="no">davidk@gnome.org</email>
+      <years>2014</years>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+  </info>
+
+  <title>Application menus</title>
+
+  <links type="series" style="floatend">
+    <title>GtkApplication</title>
+  </links>
+
+  <p>Add an application-wide menu.</p>
+  
+  <!-- Link to HowDoI/ApplicationMenu? -->
+  <p>GNOME Shell shows menus from applications in the top bar. Using this
+  technique, you can improve consistency with other GNOME applications.</p>
+
+  <p>A simple GtkApplication with an app menu is as follows:</p>
+  <example>
+    <listing> 
+      <title><file>gtkapp-menu.c</file></title>
+<code mime="text/x-csrc">
+<include href="examples/gtkapp-menu.c" parse="text" xmlns="http://www.w3.org/2001/XInclude"/>
+</code>
+    </listing>
+  </example>
+
+  <p>The example creates an application with a window. When the user presses
+  <keyseq><key>Ctrl</key><key>H</key></keyseq>, or selects "Hello world!" from
+  the app menu, "Hello world!" is printed to the terminal.</p>
+ 
+</page>
