@@ -12,40 +12,12 @@
       <years>2013</years>
     </credit>
 
-    <desc>Flexible user configuration system.</desc>
+    <desc>Save and access application settings and configuration.</desc>
   </info>
 
-<title>Settings management</title>
+<title>Settings and configuration</title>
 
-<list>
-  <item>
-    <p><em style="strong">High-level access for application settings</em></p>
-  </item>
-  <item>
-    <p><em style="strong">Easily bind settings to UI elements</em></p>
-  </item>
-  <item>
-    <p><em style="strong">Flexible overrides for packagers and system
-    administrators</em></p>
-  </item>
-</list>
-
-<p>Store user settings and make your application respond to them automatically
-with GSettings. Easily override settings defaults as a system administrator.
-Store a wide variety of data, such as integers and arrays of strings, with
-ease.</p>
-
-<section id="what">
-  <title>What can you do?</title>
- 
-  <p>Use the <em style="strong" xref="tech-gsettings">GSettings</em> API of
-  GIO to read and write <em style="strong">application settings</em>. GSettings
-  <em style="strong">transparently uses the platform configuration
-  database</em> so that platform-specific configuration tools can be
-  used. Make <em style="strong">UI controls update according to settings</em>
-  with a single function.</p>
- 
-</section>
+<p>The <link xref="tech-gsettings">GSettings</link> GIO API can be used to read and write application settings. This can store a wide variety of data, such as integers and arrays of strings. GSettings transparently uses the GNOME settings database. User interface controls can be bound to settings with a single function, so that they automatically update.</p>
 
 <!-- TODO: Write code sample.
 <section id="samples">
