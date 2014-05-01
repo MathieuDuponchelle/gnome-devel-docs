@@ -1,0 +1,39 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic" style="task"
+      id="">
+
+  <info>
+    <revision pkgversion="3.14" date="2014-05-01" status="draft"/>
+
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include href="cc-by-sa-3-0.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc>Which license should you use for your application?</desc>
+
+  </info>
+
+  <title>License your application</title>
+
+  <p>When you write a new application or library, you will need to chose a
+  license so that others know how they can use or reuse your work.</p>
+
+  <p>Libraries used in GNOME are usually licensed under
+  <link href="https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL 2.1</link>.</p>
+
+  <p>Most newer GNOME applications are licensed under GPL3+, while some of the
+  older applications are licensed under GPL2+.</p>
+
+  <p>User help which is written by the GNOME documentation team is licensed
+  under CC-by-SA 3.0 Unported.</p>
+
+  <p>Translations have the same license as the parent stings. For example,
+  strings from the applications are usually GPL2+ or GPL3+, while user
+  documentation is usually CC-by-SA 3.0.</p>
+
+</page>
