@@ -12,69 +12,29 @@
       <years>2013</years>
     </credit>
 
-    <desc>Multi-format audio and video playback and editing, streaming from the web, and webcam support.</desc>
+    <desc>Audio and video playback and editing, streaming from the web and webcam support.</desc>
   </info>
 
 <title>Multimedia</title>
 
-<list>
- <item>
-  <p><em style="strong">Play and record a multitude of audio and video formats</em></p>
- </item>
- <item>
-  <p><em style="strong">Access webcams and other media devices connected to the system</em></p>
- </item>
- <item>
-  <p><em style="strong">Share and stream media with remote devices</em></p>
- </item>
-</list>
-
-<p>Add multimedia to your application so that users can easily play their
-content. Consume and share content with other devices attached to a system or
-remotely over the network. The underlying low-level API is available if you
-need more control.</p>
+<p>Add multimedia to your application, display and share content with other devices. The underlying low-level API is available if you need more control.</p>
 
 <media type="image" mime="image/png" src="media/totem-screenshot.png" width="65%">
  <p>Videos</p>
 </media>
 
-<section id="what">
- <title>What can you do?</title>
- 
-  <p><em style="strong">Multimedia</em> in GNOME is built on the
-  <em style="strong"><link xref="tech-gstreamer">GStreamer</link></em>
-  framework. With GStreamer, flexible <em>pipelines</em> of media can be
-  created, from simple playback of audio and video to complex non-linear
-  editing.</p>
+<p>Multimedia in GNOME is built on the <link xref="tech-gstreamer">GStreamer</link> framework. This allows simple playback of audio and video to complex non-linear editing. GStreamer uses <link xref="tech-pulseaudio">PulseAudio</link> when outputting audio, which allows it to target many types of output hardware.</p>
 
-  <p>GStreamer uses
-  <em style="strong"><link xref="tech-pulseaudio">PulseAudio</link></em> when
-  outputting audio, and therefore can target many types of output hardware.
-  PulseAudio also handles dynamic output switching and application-specific
-  volume control.</p>
+<p>For simple event sounds, such as a shutter sound when taking a photo, use <link xref="tech-canberra">libcanberra</link>, which implements the freedesktop.org sound theme specification.</p>
 
   <comment>
     <cite date="2013-06-19" href="mailto:davidk@gnome.org">David King</cite>
     <p>Add Cheese and Rygel technology pages</p>
   </comment>
 
-  <p>For <em style="strong">webcams</em>, use
-  <em style="strong">Cheese</em>. It provides a simple
-  interface to webcams connected to the system, and an easy way to add an
-  avatar chooser to your application.</p>
+<p>Rygel allows media to be shared content over the network. This allows video, music and photos to be played and displayed on devices like televisions and games consoles. Rygel uses <link xref="tech-gupnp">GUPnP</link>, which is a low-level API to access content with UPnP protocols.</p>
 
-  <p>Use <em style="strong">Rygel</em> to <em style="strong">share content over
-  the network</em> to devices such as TVs and games consoles. Rygel uses
-  <em style="strong"><link xref="tech-gupnp">GUPnP</link></em> underneath,
-  which is a low-level API to access content with <em style="strong">UPnP</em>
-  protocols.</p>
-
-  <p>For simple <em style="strong">event sounds</em>, such as a shutter sound
-  when taking a photo, use
-  <em style="strong"><link xref="tech-canberra">libcanberra</link></em>, which
-  implements the freedesktop.org sound theme specification.</p>
- 
-</section>
+<p>For webcams, use <app>Cheese</app>. This provides a simple interface to webcams connected to the system, as well as an easy way to add an avatar chooser to your application.</p>
 
 <!-- TODO: Link to code examples if they are moved to the platform overview
 <section id="samples">
