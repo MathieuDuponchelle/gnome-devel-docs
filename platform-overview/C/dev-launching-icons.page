@@ -26,14 +26,16 @@
   <p>Install an icon to identify your application.</p>
   
   <p>When listing an icon in a desktop file, the image must be installed in a
-  standard location, given by the <link type="seealso" href="http://standards.freedesktop.org/icon-theme-spec/icon-theme-spec-latest.html">freedesktop.org
-  Icon Theme</link> and <link type="seealso" href="http://standards.freedesktop.org/icon-naming-spec/icon-naming-spec-latest.html">Icon
+  standard location, given by the
+  <link href="http://standards.freedesktop.org/icon-theme-spec/icon-theme-spec-latest.html">freedesktop.org
+  Icon Theme</link> and
+  <link href="http://standards.freedesktop.org/icon-naming-spec/icon-naming-spec-latest.html">Icon
   Naming specifications</link>. As a minimum, an application should install a
   48×48 pixel icon into <file><var>$prefix</var>/share/icons/hicolor/48x48/apps</file>
   in PNG format.</p>
 
   <p>To match with other icons, both in GNOME and other platforms, follow the
-  <link type="seealso" href="http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines">Tango
+  <link href="http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines">Tango
   Icon Theme guidelines</link> when creating icons and application artwork.</p>
  
 </page>

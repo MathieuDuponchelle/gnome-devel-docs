@@ -43,7 +43,8 @@ MimeType=image/png</code>
   supported MIME type.</p>
 
   <p>Custom MIME types can be added to the system-wide MIME database, but this
-  is outside the scope of this guide. The <link type="seealso" href="http://standards.freedesktop.org/shared-mime-info-spec/latest/">Shared
+  is outside the scope of this guide. The
+  <link href="http://standards.freedesktop.org/shared-mime-info-spec/latest/">Shared
   MIME-Info Database</link> specification for more details.</p>
 
 </page>

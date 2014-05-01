@@ -25,7 +25,8 @@
 
   <p>Notify the user when your application has finished starting up.</p>
   
-  <p>GNOME implements the <link type="seealso" href="http://standards.freedesktop.org/desktop-entry-spec/latest/index.html">Startup
+  <p>GNOME implements the
+  <link href="http://standards.freedesktop.org/desktop-entry-spec/latest/index.html">Startup
   Notification protocol</link>, to give feedback to the user when application
   startup finishes.</p>
   
