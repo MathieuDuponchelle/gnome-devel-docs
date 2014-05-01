@@ -39,12 +39,12 @@
 
     <include href="cc-by-sa-3-0.xml" xmlns="http://www.w3.org/2001/XInclude"/>
 
-    <desc>Developer's overview of the Gnome Platform</desc>
+    <desc>Guide to the GNOME platform and libraries for developers.</desc>
 
     <title type="link" role="trail">GNOME</title>
   </info>
 
-  <title>Develop for the GNOME Platform</title>
+  <title>GNOME application development overview</title>
 
   <p>Welcome to the GNOME developer overview. GNOME offers a range of tools
   that can be used in your application.</p>
