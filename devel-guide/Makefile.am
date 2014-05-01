@@ -20,6 +20,7 @@ HELP_FILES = \
         extension-widget.page \
 	gtkapplication.page \
 	gtkapplication-helloworld.page \
+	gtkapplication-window.page \
         help-appmenu.page \
         help-build.page \
         help.page \
@@ -28,7 +29,8 @@ HELP_FILES = \
 	legal.xml
 
 HELP_EXTRA = \
-	examples/gtkapp-helloworld.c
+	examples/gtkapp-helloworld.c \
+	examples/gtkapp-window.c
 
 HELP_MEDIA =
 
