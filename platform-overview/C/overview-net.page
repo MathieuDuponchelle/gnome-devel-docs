@@ -12,53 +12,22 @@
       <years>2013</years>
     </credit>
 
-    <desc>Client and server HTTP communication, portable socket-based networking IO, and network device management.</desc>
+    <desc>Detecting network state, HTTP communication, networking IO and network device management.</desc>
   </info>
 
-<title>Low-level networking</title>
+<title>Network state, IO &amp; services</title>
 
-<list>
- <item>
-  <p><em style="strong">Create powerful and flexible HTTP servers and clients</em></p>
- </item>
- <item>
-  <p><em style="strong">Use portable socket-based APIs in a UI without blocking</em></p>
- </item>
- <item>
-  <p><em style="strong">Detect and manage the network connection state</em></p>
- </item>
-</list>
+<p>GIO provides simple monitoring of network state. This allows you to detect changes in the system networking state, to make your application respond appropriately when there is no Internet access. <link xref="tech-network-manager">NetworkManager</link> can be used for comprehensive support of networking devices and topologies.</p>
 
-<p>Take advantage of the portable networking APIs for accessing network
-services. Asynchronous IO keeps your application UI responsive while IO is in
-progress. Detect changes in the system networking state, to make your
-application respond appropriately when there is no Internet access.</p>
+<p>To asynchronously access low-level networking APIs, use <link xref="tech-gio-network">GIO networking</link>. Higher-level API is available for resolving proxies and DNS records as well as using secure sockets (TLS).</p>
+
+<p><link xref="tech-soup">Libsoup</link> provides a flexible interface for HTTP servers and clients, and allows you to access network services.. Both synchronous and asynchronous APIs are provided. Asynchronous IO keeps your application UI responsive while IO is in progress.</p>
 
 <!-- TODO: Add screenshot.
 <media type="image" mime="image/png" src="test_comm1.png" width="65%">
  <p>IMAGE</p>
 </media>
 -->
-
-<section id="what">
-  <title>What can you do?</title>
- 
-  <p>To <em style="strong">asynchronously access low-level networking APIs</em>,
-  use <em style="strong" xref="tech-gio-network">GIO networking</em>.
-  Higher-level API is available for <em style="strong">resolving proxies and
-  DNS records</em> as well as using <em style="strong">secure sockets
-  (TLS)</em>.</p>
-
-  <p>Simple monitoring of network state is available in GIO, but
-  <em style="strong" xref="tech-network-manager">NetworkManager</em> provides
-  <em style="strong">comprehensive support for networking devices</em> and
-  network topologies.</p>
-
-  <p><em style="strong" xref="tech-soup">Libsoup</em> provides a flexible
-  interface for <em style="strong">HTTP servers and clients</em>. Both
-  synchronous and asynchronous APIs are provided.</p>
- 
-</section>
 
 <!-- TODO Add link to code examples.
 <section id="samples">
