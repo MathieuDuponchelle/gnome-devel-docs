@@ -12,12 +12,12 @@
       <years>2013</years>
     </credit>
 
-    <desc>Detecting network state, HTTP communication, networking IO and network device management.</desc>
+    <desc>Detecting network state, HTTP communication, network IO and network device management.</desc>
   </info>
 
-<title>Network state, IO &amp; services</title>
+<title>Networking</title>
 
-<p>GIO provides simple monitoring of network state. This allows you to detect changes in the system networking state, to make your application respond appropriately when there is no Internet access. <link xref="tech-network-manager">NetworkManager</link> can be used for comprehensive support of networking devices and topologies.</p>
+<p><link xref="tech-gio-network">GIO</link> provides simple monitoring of network state. This allows you to detect changes in the system networking state, to make your application respond appropriately when there is no Internet access. <link xref="tech-network-manager">NetworkManager</link> can be used for comprehensive support of networking devices and topologies.</p>
 
 <p>To asynchronously access low-level networking APIs, use <link xref="tech-gio-network">GIO networking</link>. Higher-level API is available for resolving proxies and DNS records as well as using secure sockets (TLS).</p>
 
