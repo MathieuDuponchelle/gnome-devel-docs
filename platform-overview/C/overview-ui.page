@@ -17,63 +17,13 @@
 
 <title>User interface &amp; graphics</title>
 
-<list>
- <item>
-  <p><em style="strong">Use a single toolkit for all the standard widgets in your application</em></p>
- </item>
- <item>
-  <p><em style="strong">Create fast, visually rich graphical interfaces</em></p>
- </item>
- <item>
-  <p><em style="strong">Have high quality, antialiased and resolution-independent graphics</em></p>
- </item>
- <item>
-  <p><em style="strong">Easily add web functionality to your application</em></p>
- </item>
- <item>
-  <p><em style="strong">Access built-in assistive technologies</em></p>
- </item>
-</list>
+<p><link xref="tech-gtk">GTK+</link> is the standard user interface toolkit for GNOME. It provides basic features for creating applications, and a set of interface widgets that you can use to build your application's interface. Custom interface styling can be done with CSS.</p>
 
-<p>Use the powerful foundations of the GNOME platform to create consistent and
-flexible user interfaces. Make your applications available to the widest
-audience by deploying them to other platforms. Standard UI elements are
-accessible by default, and it is easy to add accessibility support to any
-custom UI elements that you create.</p>
+<p>Antialiased, resolution-independent 2D graphics can be created using <link xref="tech-cairo">Cairo</link>. Cairo is used for drawing widgets in GTK+, and can also be used to output to PDF and SVG.</p>
 
-<section id="what">
- <title>What can you do?</title>
- 
-  <p>For applications with <em style="strong">standard controls</em> which
-  would be familiar to most users, use
-  <em style="strong"><link xref="tech-gtk">GTK+</link></em>. Every application
-  that is part of GNOME uses GTK+, so use it to be consistent, and to access
-  the many widgets and features such as printing support and CSS theming.</p>
+<p><link xref="tech-webkit">WebKitGTK+</link> makes it easy to add web functionality to your application, whether that is rendering an HTML file or having a complete HTML5 UI.</p>
 
-  <p>To create
-  <em style="strong">fast, visually rich graphical interfaces</em>, use
-  <em style="strong"><link xref="tech-clutter">Clutter</link></em>. Animations,
-  effects and fluid layouts are easy with Clutter, and it also supports touch
-  input and gestures.</p>
-
-  <p><em style="strong">High quality, antialiased and resolution-independent 2D
-  graphics</em> are provided by
-  <em style="strong"><link xref="tech-cairo">Cairo</link></em>. Cairo is used
-  for drawing widgets in GTK+, and can also be used to output to PDF and
-  SVG.</p>
-
-  <p><em style="strong"><link xref="tech-webkit">WebKitGTK+</link></em> makes
-  it easy to add <em style="strong">web functionality</em> to your
-  application, whether that is rendering an HTML file or having a complete
-  HTML5 UI.</p>
-
-  <p>GTK+, Clutter and WebKitGTK+ have <em style="strong">built-in support for
-  assistive technologies</em> with
-  <em style="strong"><link xref="tech-atk">ATK</link></em>. Use Orca, Caribou
-  OSK, and the GTK+ built-in accessibility tools, or build custom tools on top
-  of ATK.</p>
-
-</section>
+<p>GTK+ and WebKitGTK+ have built-in support for assistive technologies with <link xref="tech-atk">ATK</link>. To test this, you can use Orca, the GNOME on-screen keyboard, and the GTK+ built-in accessibility tools.</p>
 
 <!-- TODO Link to code examples.
 <section id="samples">
