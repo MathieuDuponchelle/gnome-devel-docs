@@ -17,13 +17,11 @@
 
 <title>Multimedia</title>
 
-<p>Add multimedia to your application, display and share content with other devices. The underlying low-level API is available if you need more control.</p>
+<p>Multimedia in GNOME is built on the <link xref="tech-gstreamer">GStreamer</link> framework. This allows simple playback of audio and video to complex non-linear editing. GStreamer uses <link xref="tech-pulseaudio">PulseAudio</link> when outputting audio, which allows it to target many types of output hardware.</p>
 
 <media type="image" mime="image/png" src="media/totem-screenshot.png" width="65%">
  <p>Videos</p>
 </media>
-
-<p>Multimedia in GNOME is built on the <link xref="tech-gstreamer">GStreamer</link> framework. This allows simple playback of audio and video to complex non-linear editing. GStreamer uses <link xref="tech-pulseaudio">PulseAudio</link> when outputting audio, which allows it to target many types of output hardware.</p>
 
 <p>For simple event sounds, such as a shutter sound when taking a photo, use <link xref="tech-canberra">libcanberra</link>, which implements the freedesktop.org sound theme specification.</p>
 
