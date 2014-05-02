@@ -17,38 +17,14 @@
       <years>2013</years>
     </credit>
 
-    <desc>Access structured data storage, networking shares, and files.</desc>
+    <desc>Access structured data storage, networking shares and files.</desc>
   </info>
 
 <title>Files &amp; data access</title>
 
-<list>
- <item>
-  <p><em style="strong">Asynchronously read and write files and other streams</em></p>
- </item>
- <item>
-  <p><em style="strong">Store and retrieve document metadata</em></p>
- </item>
-</list>
+<p><link xref="tech-gio">GIO</link> is a high-level VFS (virtual filesystem) API. It can be used to asynchronously read and write files, as well as other data streams. GIO also provides utilities such as icons and application launching</p>
 
-<p>Seamlessly access local and remote files using the core GNOME IO libraries.
-Make your application responsive by using the extensive support for
-asynchronous IO operations. Allow users to find files easily be providing
-metadata to describe documents.</p>
-
-<section id="what">
- <title>What can you do?</title>
- 
-  <p>To <em style="strong">asynchronously read and write files and other
-  streams</em>, use <em style="strong" xref="tech-gio">GIO</em>. A high-level
-  VFS (virtual filesystem) API is provided, as well as utilities such as icons
-  and application launching</p>
- 
-  <p>Use <em style="strong" xref="tech-tracker">Tracker</em> to
-  <em style="strong">store and retrieve document metadata</em>, as well as
-  <em style="strong">structured data</em> such as contacts.</p>
- 
-</section>
+<p><link xref="tech-tracker">Tracker</link> is metadata database. It can be used to store and retrieve document metadata, as well as structured data, such as contacts.</p>
 
 <!-- TODO Add link to code examples.
 <section id="samples">
