@@ -46,7 +46,7 @@
 
   <title>GNOME Application Development Platform Overview</title>
 
-  <p>This overview provides an introduction to the components and libraries that you can use in your application.</p>
+  <p>The GNOME application development platform provides the full range of functionality required to create modern GNOME applications. This overview describes what you can do with the application development platform, and introduces the libraries that you will need in order to create your application.</p>
 
   <links type="topic" style="left" groups="#first"/>
 
