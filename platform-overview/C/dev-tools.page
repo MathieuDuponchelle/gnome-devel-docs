@@ -1,0 +1,76 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="guide" style="task"
+      id="dev-tools">
+  <info>
+    <revision version="0.1" date="2012-02-19" status="draft"/>
+    <link type="guide" xref="index" group="tools" />
+    
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email its:translate="no">sindhus@live.in</email>
+      <years>2014</years>
+    </credit>
+
+    <desc>Install tools for development.</desc>
+  </info>
+
+<title>Development tools</title>
+  <p>Development in <app>GNOME</app> involves working with software code that is located in the official git repositories. To work with this code that is in constant development, you would need dependent software that are also in development which leads to a dependency chain. To not have developers worry about this, we have build system in place. Setting up this build system along with tools will make it quicker to work with the code.</p>
+
+  <p>The following tools should be available to install in your distribution, however the actual name may differ slightly.</p>
+
+  <terms>
+    <item>
+      <title><app>DevHelp</app></title>
+      <p><app>DevHelp</app> is a browser for API documentation written in <app>GTK+</app>. It renders API that use the <app>gtk-doc</app> format.</p>
+    </item>
+    <item>
+      <title><app>Anjuta</app></title>
+      <p><app>Anjuta</app> is an Integrated Development Environment (IDE) for <app>GNOME</app> development. It supports <app>C</app>, <app>C++</app>, <app>Java</app>, <app>JavaScript</app>, <app>Python</app> and <app>Vala</app> languages. It is extensible with plugins thus enabling you to customize your IDE suited to your development needs and practises. It also supports project management, version control and has tools such as application wizard, interactive debugger, source editor, GUI designer and profiler.</p>
+    </item>
+    <item>
+      <title><app>Glade</app></title>
+      <p><app>Glade</app> is a Graphical User Interface (GUI) designer for GTK+. It produces XML files that is to  be used with an appropriate language binding. These files are used by GtkBuilder GTK+ object and can be loaded by applications dynamically as needed.</p>
+    </item>
+    <item>
+      <title><app>Accerciser</app></title>
+      <p><app>Accerciser</app> Accessibility explorer for <app>GNOME</app>. It It uses AT-SPI to inspect and control widgets, allowing you to check if an application is providing correct information to assistive technologies and automated test frameworks. Accerciser has a plugin framework which you can use to create custom views of accessibility information.</p>
+    </item>
+    <item>
+      <title><app>Nemiver</app></title>
+      <p><app>Nemiver</app> is a Graphical C/C++ debugger front-end for the <app>GNU Debugger</app> (gdb).</p>
+    </item>
+    <item>
+      <title><app>Parasite</app></title>
+      <p><app>Parasite</app> is a <app>Firebug</app>-like tool for <app>GTK+</app> applications. It runs inside your GTK+ application's process. It can inspect your application, give you information on the UI, such as the hierarchy, X window IDs, widget properties, and such. You can modify properties on the fly in order to experiment with the look of your UI. Parasite includes an embedded Python shell that lets you write new code that directly interacts with your application's UI, create new dialogs, attach temporary signal handlers to buttons, test out new logic, and gather additional debug information.</p>
+</item>
+    <item>
+      <title><app>Alleyoop</app></title>
+      <p><app>Alleyoop</app> is a <app>Valgrind</app> front-end. Valgrind is a tool for memory debugging to detect memory leaks and peform profiling.</p>
+    </item>
+  </terms>
+
+<note style="tip">
+  <p>While it is possible to develop on older releases of <app>GNOME</app>, it's known that you may face a lot of compilation errors doing so. Hence it is recommended to develop on the latest available stable release of <app>GNOME</app>.</p>
+</note>
+
+<section>
+  <title>Build systems and development environments</title>
+  <p>Build systems build development software. They allow you to run latest code that is untested without interferring with the stable software on your system. Thus keeping development software quarantined.<app>GNOME</app> provides <app>JHBuild</app> to access latest code in development repositories and a development environemnt called <app>GNOME</app> <app>Continuous</app>.</p>
+
+  <terms>
+    <item>
+      <title><app>JHBuild</app></title>
+      <p><app>JHBuild</app> allows you to automatically download and compile source code packages called <em>modules</em>, listed in files called <em>Modulesets</em> which include dependency information so that they can be built automatically in order.</p>
+    </item>
+    <item>
+      <title><app>Continuous</app></title>
+      <p><app>Continuous</app> is a continuous integration and deployment project, designed from the ground up for <app>GNOME</app>. The <app>Continuous</app> build system uses OpenEmbedded to build a base system, then has a custom build system on top which watches for commits to many git repositories (mainly <app>GNOME</app>, but including <app>NetworkManager</app>, <app>systemd</app>, <app>X.org</app>, <app>polkit</app>), builds them, integrates them into a complete filesystem tree that can be downloaded using the <app>OSTree</app> tool. It also automatically boots the build result in a virtual machine, then runs tests. It is almost completely automated in a sustainable fashion; very few changes require human intervention. It produces an actual downloadable result in the form of ready-to-run virtual machine images</p>
+    </item>
+  </terms>
+
+</section>
+
+
+</page>

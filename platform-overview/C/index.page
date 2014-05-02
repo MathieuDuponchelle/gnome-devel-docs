@@ -66,9 +66,10 @@
     <title style="heading">Integration guides</title>
   </links>
 
-  <links type="topic" style="grid left" groups="tech">
+  <links type="topic" style="grid center" groups="tech license tools">
     <title style="heading">Development platform</title>
   </links>
+
 
 <!--  <section id="docs" style="2column">
     <title>Examples and documentation</title>

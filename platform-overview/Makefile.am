@@ -4,6 +4,21 @@ HELP_ID = platform-overview
 
 HELP_FILES = \
 	cc-by-sa-3-0.xml \
+	dev-help-appmenu.page \
+	dev-help-build.page \
+	dev-help.page \
+	dev-help-write.page \
+	dev-launching-desktop.page \
+	dev-launching-icons.page \
+	dev-launching-mime.page \
+	dev-launching-startupnotify.page \
+	dev-launching.page \
+	dev-thumbnailer.page \
+	dev-translate-build.page \
+	dev-translate.page \
+	dev-translate-setup.page \
+	dev-translate-tools.page \
+	dev-tools.page \
 	index.page \
 	overview-communication.page \
 	overview-io.page \
