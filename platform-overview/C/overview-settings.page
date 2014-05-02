@@ -15,7 +15,7 @@
     <desc>Save and access application settings and configuration.</desc>
   </info>
 
-<title>Settings and configuration</title>
+<title>Settings &amp; configuration</title>
 
 <p>The <link xref="tech-gsettings">GSettings</link> GIO API can be used to read and write application settings. This can store a wide variety of data, such as integers and arrays of strings. GSettings transparently uses the GNOME settings database. User interface controls can be bound to settings with a single function, so that they automatically update.</p>
 
