@@ -1,0 +1,99 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic" style="task"
+      id="app-menu">
+
+  <info>
+    <link type="guide" xref="index" group="help"/>
+    <revision pkgversion="3.14" date="2014-05-02" status="draft"/>
+    <credit type="author">
+      <name>Sindhu S</name>
+      <email its:translate="no">sindhus@live.in</email>
+      <years>2014</years>
+    </credit>
+    <!--<include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>-->
+    <desc>Integrate the appmenu into your <app>GTK+</app> application.</desc>
+  </info>
+
+  <title>Adding a Appmenu</title>
+
+  <p>An application menu is shown by GNOME shell at the top of the screen. It is meant to collect infrequently used actions that affect the whole application. We specify our application menu in a ui file, and add it as a resource to our binary.</p>
+
+  <code mime="text/x-csrc">
+  <![CDATA[
+  <?xml version="1.0"?>
+    <interface>
+      <menu id="appmenu">
+        <section>
+          <item>
+            <attribute name="label" translatable="yes">_Preferences</attribute>
+            <attribute name="action">app.preferences</attribute>
+          </item>
+        </section>
+        <section>
+          <item>
+            <attribute name="label" translatable="yes">_Quit</attribute>
+            <attribute name="action">app.quit</attribute>
+            <attribute name="accel"><Ctrl>Q></attribute>
+          </item>
+        </section>
+      </menu>
+    </interface>]]>
+  </code>
+
+  <p>To associate the app menu with the application, we have to call gtk_application_set_app_menu(). Since app menus work by activating GActions, we also have to add a suitable set of actions to our application. Both of these tasks are best done in the startup() vfunc, which is guaranteed to be called once for each primary application instance:</p>
+
+  <code>
+    ...
+
+    static void
+    preferences_activated (GSimpleAction *action,
+                           GVariant      *parameter,
+                           gpointer       app)
+    {
+    }
+
+    static void
+    quit_activated (GSimpleAction *action,
+                    GVariant      *parameter,
+                    gpointer       app)
+    {
+      g_application_quit (G_APPLICATION (app));
+    }
+
+    static GActionEntry app_entries[] =
+    {
+      { "preferences", preferences_activated, NULL, NULL, NULL },
+      { "quit", quit_activated, NULL, NULL, NULL }
+    };
+
+    static void
+    example_app_startup (GApplication *app)
+    {
+      GtkBuilder *builder;
+      GMenuModel *app_menu;
+
+      G_APPLICATION_CLASS (example_app_parent_class)->startup (app);
+
+      g_action_map_add_action_entries (G_ACTION_MAP (app),
+                                       app_entries, G_N_ELEMENTS (app_entries),
+                                       app);
+
+      builder = gtk_builder_new_from_resource ("/org/gtk/exampleapp/app-menu.ui");
+      app_menu = G_MENU_MODEL (gtk_builder_get_object (builder, "appmenu"));
+      gtk_application_set_app_menu (GTK_APPLICATION (app), app_menu);
+      g_object_unref (builder);
+    }
+
+    static void
+    example_app_class_init (ExampleAppClass *class)
+    {
+      G_APPLICATION_CLASS (class)->startup = example_app_startup;
+      ...
+    }
+    ...
+  </code>
+
+  <p>Our preferences menu item does not do anything yet, but the Quit menu item is fully functional. Note that it can also be activated by the usual Ctrl-Q shortcut. The shortcut was specified in the ui file.</p>
+
+</page>

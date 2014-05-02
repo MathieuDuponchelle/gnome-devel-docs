@@ -3,7 +3,7 @@
 HELP_ID = devel-guide
 
 HELP_FILES = \
-				ask-help.page \
+	ask-help.page \
         dev-launching-desktop.page \
         dev-launching-icons.page \
         dev-launching-mime.page \
