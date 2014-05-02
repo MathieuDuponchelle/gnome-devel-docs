@@ -1,0 +1,32 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic" style="task"
+      id="ask-help">
+
+  <info>
+    <link type="guide" xref="index" group="help"/>
+    <revision pkgversion="3.14" date="2014-05-02" status="draft"/>
+    <credit type="author">
+      <name>Sindhu S</name>
+      <email its:translate="no">sindhus@live.in</email>
+      <years>2014</years>
+    </credit>
+    <!--<include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>-->
+    <desc>Community resources to ask for help</desc>
+  </info>
+
+  <title>Ask for help</title>
+
+  <p>Should you face any issues when trying to develop for <app>GNOME</app>, there are ample official channels to ask for help. <app>GNOME</app> runs a Internet Relay Chat network and several project-specific, topic-specific and miscellaneous mailing lists which are subscribed to by developers, maintainers and users of the project.</p>
+
+  <terms>
+    <item>
+      <title>irc.gnome.org</title>
+      <p>Most <app>GNOME</app> projects have an IRC channel by their name. For example, if you want to ask a <app>Epiphany</app> specific question, the channel would be <em>#epiphany</em>. Browse the list of IRC channels on the <link href="https://wiki.gnome.org/Community/GettingInTouch/IRC#List_of_IRC_Channels">wiki page</link>.</p>
+    </item>
+    <item>
+      <title>Mailing lists</title>
+      <p><app>GNOME</app> users logged in on IRC channels are often geographically spread out which means they are in different timezones making their availability to answer questions sparse if you are in a different timezone from them. If you have not been able to resolve your queries or do not like to wait on IRC channels, then approach a project or topic-specific mailing list. You browse a full list of the mailing lists on the <link href="https://mail.gnome.org/mailman/listinfo">wiki page</link>.</p>
+    </item>
+  </terms>
+</page>
