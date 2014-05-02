@@ -1,0 +1,32 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="guide" style="task"
+      id="index">
+
+  <info>
+    <title type="link" role="trail">Accessiblity guide</title>
+
+    <credit type="author">
+      <name></name>
+      <email its:translate="no"></email>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc>The GNOME Accessibility Guide is for developers who want to ensure
+    their programming efforts are accessible to the widest audience of users.
+    This guide also covers many of the Section 508 requirements.</desc>
+
+  </info>
+
+  <title>Develop accessible applications</title>
+
+  <links type="topic" style="2column" groups="types how quick-start make code api examples custom ui">
+    <title style="heading">What is accessibility?</title>
+  </links>
+
+  <links type="topic" style="2column" groups="navigation graphical focus text color audio animation keyboard docs ui-checklist gok accerciser">
+    <title style="heading">Testing</title>
+  </links>
+
+</page>
