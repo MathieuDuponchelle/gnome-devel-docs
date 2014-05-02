@@ -56,14 +56,6 @@
     <title style="heading">Core technologies</title>
   </links>
 
-<!--  <section id="overview" style="2column">
-    <info>
-      <title type="link" role="trail">Overview</title>
-    </info>
-    <title>Overview of GNOME technologies</title>
-    <links type="topic" style="2column" groups="#first ui"/>
-  </section>-->
-
   <links type="topic" style="grid left" groups="launching help thumbnailer translate">
     <title style="heading">Integration guides</title>
   </links>
@@ -71,16 +63,5 @@
   <links type="topic" style="grid left" groups="tech license">
     <title style="heading">Develop for the platform</title>
   </links>
-
-<!--  <section id="docs" style="2column">
-    <title>Examples and documentation</title>
-    <p>There are lots of example code snippets that you can use as a reference, as well as extensive generated API documentation.</p>
-  </section>
-
-  <section id="FIXME">
-    <title>FIXME: Put this somewhere, or delete it</title>
-    <p>Concepts I removed: Deployment, Box Model, Signals, GObject</p>
-    <p>Dev I removed: Build systems, Coding tools</p>
-  </section>-->
 
 </page>
