@@ -1,0 +1,53 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic" style="task"
+      id="license">
+
+  <info>
+    <link type="guide" xref="index" group="license" />
+    <revision pkgversion="3.14" date="2014-05-01" status="draft"/>
+
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include href="cc-by-sa-3-0.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc>Which license should you use for your application?</desc>
+
+  </info>
+
+  <title>License your application</title>
+
+  <p>When you write a new application or library, you will need to choose a
+  license so that others know how they can use or reuse your work.</p>
+
+  <p>Libraries which are used in GNOME are usually licensed under the
+  <link href="http://www.gnu.org/">GNU</link>
+  <link href="https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL 2.1</link>.</p>
+
+  <p>Most newer GNOME applications are licensed under
+  <link href="http://www.gnu.org/licenses/gpl-3.0.html">GPL3+</link>, while
+  some of the older applications are licensed under
+  <link href="http://www.gnu.org/licenses/gpl-2.0.html">GPL2+</link>.</p>
+
+  <p>User help which is written by the GNOME Documentation Team is licensed
+  under <link href="http://creativecommons.org/licenses/by-sa/3.0/">CC-by-SA
+  3.0 Unported</link>. The documentation team tries to use this license
+  consistently as it allows re-use of text from Wikipedia and many other
+  reference sources.</p>
+
+  <p>Translations have the same license as the parent strings. For example,
+  strings from the applications are usually GPL2+ or GPL3+, while user
+  documentation is usually CC-by-SA 3.0.</p>
+
+  <p>GNOME cannot give legal advice on which license you should choose, but you
+  may want to read information that is available from the
+  <link href="http://opensource.org/licenses">Open Source Initiative</link>,
+  the <link href="http://www.gnu.org/licenses/license-recommendations.html">FSF</link>
+  and <link href="https://blogs.gnome.org/bolsh/2014/04/17/choosing-a-license/">Dave
+  Neary's blog post about choosing a license</link>. You may also find the
+  <link href="http://gstreamer.freedesktop.org/documentation/licensing.html">GStreamer
+  licensing information</link> of interest, as GStreamer uses plugins.</p>
+</page>

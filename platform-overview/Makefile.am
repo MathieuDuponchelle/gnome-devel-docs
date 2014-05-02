@@ -19,6 +19,7 @@ HELP_FILES = \
 	dev-translate-setup.page \
 	dev-translate-tools.page \
 	index.page \
+	license.page \
 	overview-communication.page \
 	overview-io.page \
 	overview-media.page \

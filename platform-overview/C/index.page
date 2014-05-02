@@ -7,6 +7,7 @@
     <revision pkgversion="2.24" version="0.1" date="2007-03-16" status="incomplete"/>
     <revision pkgversion="3.0" version="0.2" date="2011-03-18" status="incomplete"/>
     <revision pkgversion="3.10" version="0.9" date="2013-06-17" status="incomplete"/>
+    <revision pkgversion="3.14" version="0.9" date="2014-05-02" status="incomplete"/>
     <credit type="author">
       <name>Shaun McCance</name>
       <email its:translate="no">shaunm@gnome.org</email>
@@ -34,7 +35,7 @@
     <credit type="author">
       <name>Ekaterina Gerasimova</name>
       <email its:translate="no">kittykat3756@gmail.com</email>
-      <years>2013</years>
+      <years>2013, 2014</years>
     </credit>
 
     <include href="cc-by-sa-3-0.xml" xmlns="http://www.w3.org/2001/XInclude"/>
@@ -67,8 +68,8 @@
     <title style="heading">Integration guides</title>
   </links>
 
-  <links type="topic" style="grid left" groups="tech">
-    <title style="heading">Development platform</title>
+  <links type="topic" style="grid left" groups="tech license">
+    <title style="heading">Develop for the platform</title>
   </links>
 
 <!--  <section id="docs" style="2column">
