@@ -6,164 +6,38 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2013-09-22 18:36+0000\n"
-"PO-Revision-Date: 2013-09-30 09:04+0300\n"
-"Last-Translator: Dimitris Spingos (Δημήτρης Σπίγγος) <dmtrs32@gmail.com>\n"
+"POT-Creation-Date: 2014-05-12 18:34+0000\n"
+"PO-Revision-Date: 2014-05-12 23:43+0200\n"
+"Last-Translator: Tom Tryfonidis <tomtryf@gmail.com>\n"
 "Language-Team: team@gnome.gr\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Virtaal 0.7.1\n"
+"X-Generator: Poedit 1.6.4\n"
 "X-Project-Style: gnome\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
-"Ελληνική μεταφραστική ομάδα GNOME\n"
-" Δημήτρης Σπίγγος <dmtrs32@gmail.com>, 2013\n"
-" Γιάννης Κατσαμπίρης <giannis1_86@hotmail.com>\n"
-" Σίμος Ξενιτέλλης <simos@gnome.org>\n"
-" Κωνσταντίνος Κουράτορας <kouratoras@gmail.com>\n"
-" Σωτηρία Τζιούρη <sotitz@gmail.com>\n"
-" Τζένη Πετούμενου <epetoumenou@gmail.com>\n"
-" Τουρνάρης Παύλος-Πέτρος <p.tournaris@gmail.com>\n"
-"Για περισσότερα δείτε http://www.gnome.gr/"
-
-#. (itstool) path: license/p
-#: C/index.page:7
-#| msgid ""
-#| "Permission is granted to copy, distribute and/or modify this document "
-#| "under the terms of the <citetitle>GNU Free Documentation License</"
-#| "citetitle>, Version 1.1 or any later version published by the Free "
-#| "Software Foundation with no Invariant Sections, no Front-Cover Texts, and "
-#| "no Back-Cover Texts. You may obtain a copy of the <citetitle>GNU Free "
-#| "Documentation License</citetitle> from the Free Software Foundation by "
-#| "visiting <ulink type=\"http\" url=\"http://www.fsf.org\">their Web site</"
-#| "ulink> or by writing to: Free Software Foundation, Inc., 59 Temple Place "
-#| "- Suite 330, Boston, MA 02111-1307, USA."
-msgid ""
-"Permission is granted to copy, distribute and/or modify this document under "
-"the terms of the GNU Free Documentation License, Version 1.1 or any later "
-"version published by the Free Software Foundation with no Invariant "
-"Sections, no Front-Cover Texts, and no Back-Cover Texts. You may obtain a "
-"copy of the GNU Free Documentation License from the Free Software Foundation "
-"by visiting <link href=\"http://www.fsf.org\">their Web site</link> or by "
-"writing to: Free Software Foundation, Inc., 59 Temple Place - Suite 330, "
-"Boston, MA 02111-1307, USA."
-msgstr ""
-"Χορηγείται άδεια για αντιγραφή, διανομή ή/και τροποποίηση του παρόντος "
-"εγγράφου υπό τους όρους της GNU Free Documentation License, έκδοση 1.1 ή "
-"οποιασδήποτε μεταγενέστερης έκδοσης που δημοσιεύεται από το Free Software "
-"Foundation χωρίς αμετάβλητα τμήματα, χωρίς κείμενο εξωφύλλου, και χωρίς "
-"κείμενο οπισθόφυλλου. Μπορείτε να λάβετε ένα αντίγραφο της GNU Free "
-"Documentation License από το Free Software Foundation με μία επίσκεψη στο "
-"<link href=\"http://www.fsf.org\">δικτυακό τους τόπο</link> ή με γράμμα στο: "
-"Free Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA "
-"02111-1307, USA."
-
-#. (itstool) path: license/p
-#: C/index.page:16
-msgid ""
-"Many of the names used by companies to distinguish their products and "
-"services are claimed as trademarks. Where those names appear in any GNOME "
-"documentation, and those trademarks are made aware to the members of the "
-"GNOME Documentation Project, the names have been printed in caps or initial "
-"caps."
-msgstr ""
-"Πολλά από τα ονόματα που χρησιμοποιούνται από τις επιχειρήσεις για να "
-"διαφοροποιήσουν τα προϊόντα τους και τις υπηρεσίες τους εμφανίζονται ως "
-"εμπορικά σήματα. Όπου αυτά τα ονόματα εμφανίζονται σε οποιαδήποτε τεκμηρίωση "
-"του GNOME, και αυτά τα εμπορικά σήματα γίνονται γνωστά στα μέλη του έργου "
-"τεκμηρίωσης του GNOME, τα ονόματα θα τυπώνονται με κεφαλαία γράμματα ή "
-"γράμματα τίτλων."
-
-#. (itstool) path: credit/years
-#: C/index.page:24 C/index.page:28
-msgid "2004-2005"
-msgstr "2004-2005"
-
-#. (itstool) path: credit/name
-#: C/index.page:25
-msgid "Callum McKenzie"
-msgstr "Callum McKenzie"
-
-#. (itstool) path: credit/name
-#: C/index.page:29
-msgid "Robert Love"
-msgstr "Robert Love"
-
-#. (itstool) path: info/desc
-#: C/index.page:32
-msgid ""
-"Software can be optimized in many ways: for speed, program size, or memory "
-"use. This section contains guides and tutorials for optimizing your software."
-msgstr ""
-"Το λογισμικό μπορεί να βελτιστοποιηθεί από πολλές απόψεις: για την ταχύτητα, "
-"το μέγεθος του προγράμματος, ή τη χρήση μνήμης. Αυτό το τμήμα περιέχει "
-"οδηγούς και σεμινάρια για τη βελτιστοποίηση του λογισμικού σας."
+"Δημήτρης Σπίγγος <dmtrs32@gmail.com>, 2013\n"
+"Γιάννης Κατσαμπίρης <giannis1_86@hotmail.com>\n"
+"Σίμος Ξενιτέλλης <simos@gnome.org>\n"
+"Κωνσταντίνος Κουράτορας <kouratoras@gmail.com>\n"
+"Σωτηρία Τζιούρη <sotitz@gmail.com>\n"
+"Τζένη Πετούμενου <epetoumenou@gmail.com>\n"
+"Τουρνάρης Παύλος-Πέτρος <p.tournaris@gmail.com>"
 
 #. (itstool) path: page/title
-#: C/index.page:35
-#| msgid "Doing the Optimization"
-msgid "Optimization Guide"
-msgstr "Οδηγός βελτιστοποίησης"
+#: C/harmful.page:7
+msgid "Disk Seeks Considered Harmful"
+msgstr "Οι αναζητήσεις δίσκου θεωρούνται επιβλαβής"
 
-#. (itstool) path: section/title
-#: C/index.page:38 C/massif.page:12
-msgid "Introduction"
-msgstr "Εισαγωγή"
-
-#. (itstool) path: section/p
-#: C/index.page:39
-#| msgid ""
-#| "This is a brief introduction to optimization, both the hows and the whys. "
-#| "Details of individual tools and techniques are left for later articles, "
-#| "but a collection of hints and tricks is provided."
-msgid ""
-"This is a brief introduction to optimization, both the hows and thewhys. "
-"Details of individual tools and techniques are left for later articles, but "
-"a collection of hints and tricks is provided."
-msgstr ""
-"Αυτή είναι μια σύντομη εισαγωγή στη βελτιστοποίηση, τόσο στο πώς όσο και στο "
-"γιατί. Οι λεπτομέρειες για ξεχωριστά εργαλεία και τεχνικές παραλείπονται "
-"για μελλοντικά άρθρα, αλλά παρέχεται μια συλλογή από υποδείξεις και κόλπα."
-
-#. (itstool) path: section/title
-#: C/index.page:45
-msgid "Massif"
-msgstr "Massif"
-
-#. (itstool) path: section/p
 #. (itstool) path: page/p
-#: C/index.page:46 C/massif.page:9
-#| msgid ""
-#| "This article describes how to use the <application>Massif</application> "
-#| "heap profiler with GNOME applications. We describe how to invoke, "
-#| "interpret, and act on the output of <application>Massif</application>. "
-#| "The <application>Swell Foop</application> game is used as an example."
-msgid ""
-"This article describes how to use the <app>Massif</app> heap profiler with "
-"GNOME applications. We describe how to invoke, interpret, and act on the "
-"output of <app>Massif</app>. The <app>Swell Foop</app> game is used as an "
-"example."
-msgstr ""
-"Αυτό το άρθρο περιγράφει πώς χρησιμοποιείται ο σωρός κατατομών "
-"<app>Massif</app> με εφαρμογές του GNOME. Περιγράφουμε πώς να τον καλέσετε, "
-"να τον ερμηνεύσετε και πώς να ενεργήσετε βάσει των αποτελεσμάτων του "
-"<app>Massif</app>. Ως παράδειγμα χρησιμοποιούμε το παιχνίδι <app>Swell "
-"Foop</app>."
-
-#. (itstool) path: section/title
-#: C/index.page:53
-msgid "Harmfulness"
-msgstr "Βλαβερότητα"
-
 #. (itstool) path: section/p
-#. (itstool) path: page/p
-#: C/index.page:54 C/harmful.page:8
+#: C/harmful.page:8 C/index.page:54
 msgid ""
 "Disk seeks are one of the most expensive operations you can possibly "
 "perform. You might not know this from looking at how many of them we "
@@ -174,11 +48,6 @@ msgstr ""
 "μπορείτε ενδεχομένως να εκτελέσετε. Μπορεί να μην το καταλάβετε αυτό απλά "
 "εξετάζοντας πόσες από αυτές εκτελείτε, αλλά πιστέψτε μας, είναι πολλές. "
 "Συνεπώς, παρακαλώ να αποφεύγεται την ακόλουθη μη-βέλτιστη συμπεριφορά:"
-
-#. (itstool) path: page/title
-#: C/harmful.page:7
-msgid "Disk Seeks Considered Harmful"
-msgstr "Οι αναζητήσεις δίσκου θεωρούνται επιβλαβής"
 
 #. (itstool) path: item/p
 #: C/harmful.page:13
@@ -203,9 +72,13 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/harmful.page:28
+#| msgid ""
+#| "Doing the above on files that are in different directories, so as to "
+#| "ensure that they are in different cylinder groups and and cause even more "
+#| "seeking."
 msgid ""
 "Doing the above on files that are in different directories, so as to ensure "
-"that they are in different cylinder groups and and cause even more seeking."
+"that they are in different cylinder groups and cause even more seeking."
 msgstr ""
 "Κάνοντας τα ανωτέρω σε αρχεία που είναι σε διαφορετικούς καταλόγους, ώστε να "
 "εξασφαλιστεί ότι βρίσκονται σε διαφορετικές ομάδες κυλίνδρων και έτσι να "
@@ -272,6 +145,114 @@ msgstr ""
 "είναι γενικά σύγχρονή ενώ η εγγραφή είναι ασύγχρονη. Αυτό κάνει ποιο σύνθετο "
 "το πρόβλημα, διατάσσοντας σειριακά κάθε ανάγνωση, και συμβάλλοντας στη "
 "λανθάνουσα κατάσταση του προγράμματος."
+
+#. (itstool) path: license/p
+#: C/index.page:7
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License, Version 1.1 or any later "
+"version published by the Free Software Foundation with no Invariant "
+"Sections, no Front-Cover Texts, and no Back-Cover Texts. You may obtain a "
+"copy of the GNU Free Documentation License from the Free Software Foundation "
+"by visiting <link href=\"http://www.fsf.org\">their Web site</link> or by "
+"writing to: Free Software Foundation, Inc., 59 Temple Place - Suite 330, "
+"Boston, MA 02111-1307, USA."
+msgstr ""
+"Χορηγείται άδεια για αντιγραφή, διανομή ή/και τροποποίηση του παρόντος "
+"εγγράφου υπό τους όρους της GNU Free Documentation License, έκδοση 1.1 ή "
+"οποιασδήποτε μεταγενέστερης έκδοσης που δημοσιεύεται από το Free Software "
+"Foundation χωρίς αμετάβλητα τμήματα, χωρίς κείμενο εξωφύλλου, και χωρίς "
+"κείμενο οπισθόφυλλου. Μπορείτε να λάβετε ένα αντίγραφο της GNU Free "
+"Documentation License από το Free Software Foundation με μία επίσκεψη στο "
+"<link href=\"http://www.fsf.org\">δικτυακό τους τόπο</link> ή με γράμμα στο: "
+"Free Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA "
+"02111-1307, USA."
+
+#. (itstool) path: license/p
+#: C/index.page:16
+msgid ""
+"Many of the names used by companies to distinguish their products and "
+"services are claimed as trademarks. Where those names appear in any GNOME "
+"documentation, and those trademarks are made aware to the members of the "
+"GNOME Documentation Project, the names have been printed in caps or initial "
+"caps."
+msgstr ""
+"Πολλά από τα ονόματα που χρησιμοποιούνται από τις επιχειρήσεις για να "
+"διαφοροποιήσουν τα προϊόντα τους και τις υπηρεσίες τους εμφανίζονται ως "
+"εμπορικά σήματα. Όπου αυτά τα ονόματα εμφανίζονται σε οποιαδήποτε τεκμηρίωση "
+"του GNOME, και αυτά τα εμπορικά σήματα γίνονται γνωστά στα μέλη του έργου "
+"τεκμηρίωσης του GNOME, τα ονόματα θα τυπώνονται με κεφαλαία γράμματα ή "
+"γράμματα τίτλων."
+
+#. (itstool) path: credit/years
+#: C/index.page:24 C/index.page:28
+msgid "2004-2005"
+msgstr "2004-2005"
+
+#. (itstool) path: credit/name
+#: C/index.page:25
+msgid "Callum McKenzie"
+msgstr "Callum McKenzie"
+
+#. (itstool) path: credit/name
+#: C/index.page:29
+msgid "Robert Love"
+msgstr "Robert Love"
+
+#. (itstool) path: info/desc
+#: C/index.page:32
+msgid ""
+"Software can be optimized in many ways: for speed, program size, or memory "
+"use. This section contains guides and tutorials for optimizing your software."
+msgstr ""
+"Το λογισμικό μπορεί να βελτιστοποιηθεί από πολλές απόψεις: για την ταχύτητα, "
+"το μέγεθος του προγράμματος, ή τη χρήση μνήμης. Αυτό το τμήμα περιέχει "
+"οδηγούς και σεμινάρια για τη βελτιστοποίηση του λογισμικού σας."
+
+#. (itstool) path: page/title
+#: C/index.page:35
+msgid "Optimization Guide"
+msgstr "Οδηγός βελτιστοποίησης"
+
+#. (itstool) path: section/title
+#: C/index.page:38 C/massif.page:12
+msgid "Introduction"
+msgstr "Εισαγωγή"
+
+#. (itstool) path: section/p
+#: C/index.page:39
+msgid ""
+"This is a brief introduction to optimization, both the hows and thewhys. "
+"Details of individual tools and techniques are left for later articles, but "
+"a collection of hints and tricks is provided."
+msgstr ""
+"Αυτή είναι μια σύντομη εισαγωγή στη βελτιστοποίηση, τόσο στο πώς όσο και στο "
+"γιατί. Οι λεπτομέρειες για ξεχωριστά εργαλεία και τεχνικές παραλείπονται για "
+"μελλοντικά άρθρα, αλλά παρέχεται μια συλλογή από υποδείξεις και κόλπα."
+
+#. (itstool) path: section/title
+#: C/index.page:45
+msgid "Massif"
+msgstr "Massif"
+
+#. (itstool) path: section/p
+#. (itstool) path: page/p
+#: C/index.page:46 C/massif.page:9
+msgid ""
+"This article describes how to use the <app>Massif</app> heap profiler with "
+"GNOME applications. We describe how to invoke, interpret, and act on the "
+"output of <app>Massif</app>. The <app>Swell Foop</app> game is used as an "
+"example."
+msgstr ""
+"Αυτό το άρθρο περιγράφει πώς χρησιμοποιείται ο σωρός κατατομών <app>Massif</"
+"app> με εφαρμογές του GNOME. Περιγράφουμε πώς να τον καλέσετε, να τον "
+"ερμηνεύσετε και πώς να ενεργήσετε βάσει των αποτελεσμάτων του <app>Massif</"
+"app>. Ως παράδειγμα χρησιμοποιούμε το παιχνίδι <app>Swell Foop</app>."
+
+#. (itstool) path: section/title
+#: C/index.page:53
+msgid "Harmfulness"
+msgstr "Βλαβερότητα"
 
 #. (itstool) path: page/title
 #: C/introduction.page:7
@@ -345,14 +326,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/introduction.page:22
-#| msgid ""
-#| "Optimization is the process of measurement, refinement and re-"
-#| "measurement. So the first thing you must do is find a way to measure what "
-#| "you are optimizing. Ideally this measurement is a single number, for "
-#| "example: the time taken to perform a task. This is your benchmark, it is "
-#| "the only way to tell if you are winning or losing. There is a big "
-#| "difference between a program that <emphasis>should</emphasis> be fast and "
-#| "a program that <emphasis>is</emphasis> fast."
 msgid ""
 "Optimization is the process of measurement, refinement and re-measurement. "
 "So the first thing you must do is find a way to measure what you are "
@@ -362,13 +335,13 @@ msgid ""
 "program that <em>should</em> be fast and a program that <em>is</em> fast."
 msgstr ""
 "Η βελτιστοποίηση είναι μια διαδικασία μέτρησης, βελτίωσης και μέτρησης ξανά. "
-"Οπότε το πρώτο πράγμα που πρέπει να κάνετε είναι να βρείτε έναν τρόπο για "
-"να μετρήσετε αυτό που βελτιστοποιείτε. Στην καλύτερη περίπτωση, αυτή η "
-"μέτρηση θα είναι ένας μοναδικός αριθμός, για παράδειγμα ο χρόνος που "
-"χρειάζεται για να ολοκληρωθεί μια εργασία. Αυτή η είναι η δοκιμή μέτρησής "
-"σας, και είναι ο μοναδικός τρόπος για να δείτε αν κερδίζετε ή αν χάνετε. "
-"Υπάρχει τεράστια διαφορά ανάμεσα σε ένα πρόγραμμα που <em>θα έπρεπε</em> να "
-"είναι γρήγορο και σε ένα που <em>είναι</em> γρήγορο."
+"Οπότε το πρώτο πράγμα που πρέπει να κάνετε είναι να βρείτε έναν τρόπο για να "
+"μετρήσετε αυτό που βελτιστοποιείτε. Στην καλύτερη περίπτωση, αυτή η μέτρηση "
+"θα είναι ένας μοναδικός αριθμός, για παράδειγμα ο χρόνος που χρειάζεται για "
+"να ολοκληρωθεί μια εργασία. Αυτή η είναι η δοκιμή μέτρησής σας, και είναι ο "
+"μοναδικός τρόπος για να δείτε αν κερδίζετε ή αν χάνετε. Υπάρχει τεράστια "
+"διαφορά ανάμεσα σε ένα πρόγραμμα που <em>θα έπρεπε</em> να είναι γρήγορο και "
+"σε ένα που <em>είναι</em> γρήγορο."
 
 #. (itstool) path: section/p
 #: C/introduction.page:25
@@ -546,8 +519,8 @@ msgstr ""
 "πολλές φορές το πρόγραμμα και πάρτε το μέσο όρο. Αν ο κώδικας είναι πολύ "
 "σύντομος, η ανάλυση του χρονομέτρου είναι επίσης προβληματική. Σε τέτοια "
 "περίπτωση, χρονομετρήστε την εκτέλεση του κώδικα για 100 ή 1000 φορές. Αν οι "
-"φορές που χρονομετράτε διαρκούν περισσότερο από μερικά δευτερόλεπτα, τότε "
-"θα πρέπει να είστε εντάξει."
+"φορές που χρονομετράτε διαρκούν περισσότερο από μερικά δευτερόλεπτα, τότε θα "
+"πρέπει να είστε εντάξει."
 
 #. (itstool) path: item/p
 #: C/introduction.page:94
@@ -628,12 +601,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/introduction.page:124
-#| msgid ""
-#| "Give the compiler as many hints as possible. Use the const keyword. Use "
-#| "<envar>G_INLINE_FUNC</envar> for short, frequently called, functions. "
-#| "Look up <envar>G_GNUC_PURE</envar>, <envar>G_LIKELY</envar> and the other "
-#| "glib miscellaneous macros. Use the macros instead of gcc-specific "
-#| "keywords to ensure portability."
 msgid ""
 "Give the compiler as many hints as possible. Use the const keyword. Use "
 "<code>G_INLINE_FUNC</code> for short, frequently called, functions. Look up "
@@ -642,11 +609,11 @@ msgid ""
 "ensure portability."
 msgstr ""
 "Δώστε στον μεταγλωττιστή όσες περισσότερες υποδείξεις μπορείτε. "
-"Χρησιμοποιήστε τη λέξη κλειδί const. Χρησιμοποιήστε τον "
-"<code>G_INLINE_FUNC</code> για συντομία, συναρτήσεων που καλούνται συχνά. "
-"Ψάξτε για τις μακροεντολές <code>G_GNUC_PURE</code>, <code>G_LIKELY</code>, "
-"και διάφορες άλλες της glib. Χρησιμοποιήστε τις μακροεντολές αντί για "
-"ειδικές λέξεις κλειδιά του gcc, για να εξασφαλίσετε τη φορητότητα."
+"Χρησιμοποιήστε τη λέξη κλειδί const. Χρησιμοποιήστε τον <code>G_INLINE_FUNC</"
+"code> για συντομία, συναρτήσεων που καλούνται συχνά. Ψάξτε για τις "
+"μακροεντολές <code>G_GNUC_PURE</code>, <code>G_LIKELY</code>, και διάφορες "
+"άλλες της glib. Χρησιμοποιήστε τις μακροεντολές αντί για ειδικές λέξεις "
+"κλειδιά του gcc, για να εξασφαλίσετε τη φορητότητα."
 
 #. (itstool) path: item/p
 #: C/introduction.page:129
@@ -778,9 +745,6 @@ msgstr ""
 
 #. (itstool) path: page/title
 #: C/massif.page:7
-#| msgid ""
-#| "Using <application>Massif</application> for Profiling Memory Use in GNOME "
-#| "Software"
 msgid "Using <app>Massif</app> for Profiling Memory Use in GNOME Software"
 msgstr ""
 "Χρησιμοποιήστε το <app>Massif</app> για την χρήσης της μνήμης κατατομής σε "
@@ -788,36 +752,20 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/massif.page:13
-#| msgid ""
-#| "<application>Massif</application> is a member of the <ulink type=\"http\" "
-#| "url=\"http://valgrind.org/\">valgrind</ulink> suite of memory-profiling "
-#| "tools. Its purpose is to give a detailed view of dynamic memory usage "
-#| "during the lifetime of the program. Specifically it records the memory "
-#| "use of the heap and the stack."
 msgid ""
 "<app>Massif</app> is a member of the <link href=\"http://valgrind.org/"
 "\">valgrind</link> suite of memory-profiling tools. Its purpose is to give a "
 "detailed view of dynamic memory usage during the lifetime of the program. "
 "Specifically it records the memory use of the heap and the stack."
 msgstr ""
-"Η <app>Massif</app> είναι μέλος της σειράς <link "
-"href=\"http://valgrind.org/\">valgrind</link> για εργαλεία κατατομής μνήμης. Ο "
-"σκοπός του είναι να δίνει μια λεπτομερή προβολή της δυναμικής χρήσης της "
-"μνήμης κατά τη διάρκεια του χρόνου ζωής ενός προγράμματος. Συγκεκριμένα, "
-"καταγράφει τη χρήση της μνήμης από το σωρό και τη στοίβα."
+"Η <app>Massif</app> είναι μέλος της σειράς <link href=\"http://valgrind.org/"
+"\">valgrind</link> για εργαλεία κατατομής μνήμης. Ο σκοπός του είναι να "
+"δίνει μια λεπτομερή προβολή της δυναμικής χρήσης της μνήμης κατά τη διάρκεια "
+"του χρόνου ζωής ενός προγράμματος. Συγκεκριμένα, καταγράφει τη χρήση της "
+"μνήμης από το σωρό και τη στοίβα."
 
 #. (itstool) path: section/p
 #: C/massif.page:16
-#| msgid ""
-#| "The heap is the region of memory which is allocated with functions like "
-#| "malloc. It grows on demand and is usually the largest region of memory in "
-#| "a program. The stack is where all the local data for functions is stored. "
-#| "This includes the \"automatic\" variables in C and the return address for "
-#| "subroutines. The stack is typically a lot smaller and a lot more active "
-#| "than the heap. We won't consider the stack explicitly since "
-#| "<application>Massif</application> treats it as though it were just "
-#| "another part of the heap. <application>Massif</application> also gives "
-#| "information about how much memory is used to manage the heap."
 msgid ""
 "The heap is the region of memory which is allocated with functions like "
 "malloc. It grows on demand and is usually the largest region of memory in a "
@@ -841,9 +789,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/massif.page:18
-#| msgid ""
-#| "<application>Massif</application> produces two output files: a graphical "
-#| "overview in a postscript file and a detailed breakdown in a text file."
 msgid ""
 "<app>Massif</app> produces two output files: a graphical overview in a "
 "postscript file and a detailed breakdown in a text file."
@@ -853,23 +798,11 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/massif.page:23
-#| msgid "Using <application>Massif</application> with GNOME"
 msgid "Using <app>Massif</app> with GNOME"
 msgstr "Χρήση της <app>Massif</app> με το GNOME"
 
 #. (itstool) path: section/p
 #: C/massif.page:24
-#| msgid ""
-#| "<application>Massif</application> has very few options and for many "
-#| "programs does not need them. However for GNOME applications, where memory "
-#| "allocation might be buried deep in either glib or GTK, the number of "
-#| "levels down the call-stack Massif descends needs to be increased. This is "
-#| "achieved using the --depth parameter. By default this is 3; increasing it "
-#| "to 5 will guarantee the call-stack reaches down to your code. One or two "
-#| "more levels may also be desirable to provide your code with some context. "
-#| "Since the level of detail becomes quickly overwhelming it is best to "
-#| "start with the smaller depth parameter and only increase it when it "
-#| "becomes apparent that it isn't sufficient."
 msgid ""
 "<app>Massif</app> has very few options and for many programs does not need "
 "them. However for GNOME applications, where memory allocation might be "
@@ -896,13 +829,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/massif.page:27
-#| msgid ""
-#| "It is also useful to tell <application>Massif</application> which "
-#| "functions allocate memory in glib. It removes an unnecessary layer of "
-#| "function calls from the reports and gives you a clearer idea of what code "
-#| "is allocating memory. The allocating functions in glib are g_malloc, "
-#| "g_malloc0, g_realloc, g_try_malloc, and g_mem_chunk_alloc. You use the --"
-#| "alloc-fn option to tell Massif about them."
 msgid ""
 "It is also useful to tell <app>Massif</app> which functions allocate memory "
 "in glib. It removes an unnecessary layer of function calls from the reports "
@@ -940,10 +866,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/massif.page:37
-#| msgid ""
-#| "<application>Swell Foop</application> is the program we will be using as "
-#| "an example. Be warned that, since valgrind emulates the CPU, it will run "
-#| "<emphasis>very</emphasis> slowly. You will also need a lot of memory."
 msgid ""
 "<app>Swell Foop</app> is the program we will be using as an example. Be "
 "warned that, since valgrind emulates the CPU, it will run <em>very</em> "
@@ -961,12 +883,6 @@ msgstr "Ερμηνεία των αποτελεσμάτων"
 
 #. (itstool) path: section/p
 #: C/massif.page:42
-#| msgid ""
-#| "The graphical output of <application>Massif</application> is largely self "
-#| "explanatory. Each band represents the memory allocated by one function "
-#| "over time. Once you identify which bands are using the most memory, "
-#| "usually the big thick ones at the top you will have to consult the text "
-#| "file for the details."
 msgid ""
 "The graphical output of <app>Massif</app> is largely self explanatory. Each "
 "band represents the memory allocated by one function over time. Once you "
@@ -974,8 +890,8 @@ msgid ""
 "at the top you will have to consult the text file for the details."
 msgstr ""
 "Η γραφική έξοδος δεδομένων του <app>Massif</app> είναι κατά ένα μεγάλο μέρος "
-"αυτοεπεξηγηματικός. Κάθε ζώνη αντιπροσωπεύει τη μνήμη που διατίθεται από "
-"μια λειτουργία σε σχέση με τον χρόνο. Μόλις προσδιορίσετε ποιες ζώνες "
+"αυτοεπεξηγηματικός. Κάθε ζώνη αντιπροσωπεύει τη μνήμη που διατίθεται από μια "
+"λειτουργία σε σχέση με τον χρόνο. Μόλις προσδιορίσετε ποιες ζώνες "
 "χρησιμοποιούν την περισσότερη μνήμη, συνήθως οι μεγάλες παχιές ζώνες στην "
 "κορυφή, θα πρέπει να συμβουλευθείτε το αντίστοιχο αρχείο κειμένου για "
 "περισσότερες λεπτομέρειες."
@@ -998,9 +914,6 @@ msgstr ""
 
 #. (itstool) path: figure/title
 #: C/massif.page:49
-#| msgid ""
-#| "<application>Massif</application> output for the unoptimized version of "
-#| "the <application>Swell Foop</application> program."
 msgid ""
 "<app>Massif</app> output for the unoptimized version of the <app>Swell Foop</"
 "app> program."
@@ -1010,19 +923,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/massif.page:52
-#| msgid ""
-#| "<xref linkend=\"optimization-massif-FIG-output-unoptimized\"/> shows a "
-#| "typical postscript output from <application>Massif</application>. This is "
-#| "the result you would get from playing a single game of <application>Swell "
-#| "Foop</application> (version 2.8.0) and then quitting. The postscript file "
-#| "will have a name like <filename>massif.12345.ps</filename> and the text "
-#| "file will be called <filename>massif.12345.txt</filename>. The number in "
-#| "the middle is the process ID of the program that was examined. If you "
-#| "actually try this example you will find two versions of each file, with "
-#| "slightly different numbers, this is because <application>Swell Foop</"
-#| "application> starts a second process and <application>Massif</"
-#| "application> follows that too. We will ignore this second process, it "
-#| "consumes very little memory."
 msgid ""
 "<link xref=\"optimization-massif-FIG-output-unoptimized\"/> shows a typical "
 "postscript output from <app>Massif</app>. This is the result you would get "
@@ -1035,18 +935,18 @@ msgid ""
 "second process and <app>Massif</app> follows that too. We will ignore this "
 "second process, it consumes very little memory."
 msgstr ""
-"Το <link xref=\"optimization-massif-FIG-output-unoptimized\"/> παρουσιάζει μία "
-"χαρακτηριστική έξοδο δεδομένων σε μορφή postscript από το "
-"<app>Massif</app>. Αυτό είναι το αποτέλεσμα που θα παίρνατε παίζοντας μία "
-"πίστα από το παιχνίδι <app>Swell Foop</app> (έκδοση 2.8.0) και έπειτα το "
-"κλείνατε. Το αρχείο postscript θα έχει ένα όνομα όπως "
-"<file>massif.12345.ps</file> και το αρχείο κειμένων θα ονομάζεται "
-"<file>massif.12345.txt</file>. Ο αριθμός στη μέση είναι η ταυτότητα "
-"διαδικασίας του προγράμματος που εξετάστηκε. Εάν δοκιμάσετε πραγματικά αυτό "
-"το παράδειγμα θα βρείτε δύο εκδόσεις κάθε αρχείου, με ελαφρά διαφορετικούς "
-"νούμερα, αυτό συμβαίνει γιατί το <app>Swell Foop</app> ξεκινά μια δεύτερη "
-"διαδικασία και το <app>Massif</app> ακολουθεί και αυτή επίσης. Θα αγνοήσουμε "
-"αυτήν την δεύτερη διαδικασία, μια που καταναλώνει πολύ λίγη μνήμη."
+"Το <link xref=\"optimization-massif-FIG-output-unoptimized\"/> παρουσιάζει "
+"μία χαρακτηριστική έξοδο δεδομένων σε μορφή postscript από το <app>Massif</"
+"app>. Αυτό είναι το αποτέλεσμα που θα παίρνατε παίζοντας μία πίστα από το "
+"παιχνίδι <app>Swell Foop</app> (έκδοση 2.8.0) και έπειτα το κλείνατε. Το "
+"αρχείο postscript θα έχει ένα όνομα όπως <file>massif.12345.ps</file> και το "
+"αρχείο κειμένων θα ονομάζεται <file>massif.12345.txt</file>. Ο αριθμός στη "
+"μέση είναι η ταυτότητα διαδικασίας του προγράμματος που εξετάστηκε. Εάν "
+"δοκιμάσετε πραγματικά αυτό το παράδειγμα θα βρείτε δύο εκδόσεις κάθε "
+"αρχείου, με ελαφρά διαφορετικούς νούμερα, αυτό συμβαίνει γιατί το <app>Swell "
+"Foop</app> ξεκινά μια δεύτερη διαδικασία και το <app>Massif</app> ακολουθεί "
+"και αυτή επίσης. Θα αγνοήσουμε αυτήν την δεύτερη διαδικασία, μια που "
+"καταναλώνει πολύ λίγη μνήμη."
 
 #. (itstool) path: section/p
 #: C/massif.page:67
@@ -1086,12 +986,10 @@ msgstr ""
 "Εντολή: ./swell-foop\n"
 "\n"
 "== 0 ===========================\n"
-"Συναρτήσεις κατανομής σωρών που καταμετρήθηκαν ως το 90.4% από το μετρήσιμο "
-"χωρόχρoνο\n"
+"Συναρτήσεις κατανομής σωρών που καταμετρήθηκαν ως το 90.4% από το μετρήσιμο χωρόχρoνο\n"
 "\n"
 "Καλείται από:\n"
-"  28.8% : 0x6BF83A: gdk_pixbuf_new (in "
-"/usr/lib/libgdk_pixbuf-2.0.so.0.400.9)\n"
+"  28.8% : 0x6BF83A: gdk_pixbuf_new (in /usr/lib/libgdk_pixbuf-2.0.so.0.400.9)\n"
 "\n"
 "    6.1% : 0x5A32A5: g_strdup (στο /usr/lib/libglib-2.0.so.0.400.6)\n"
 "\n"
@@ -1159,15 +1057,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/massif.page:103
-#| msgid ""
-#| "The first line tells us we are now four levels deep into the stack. Below "
-#| "it is a listing of the function calls that leads from here to "
-#| "gdk_pixbuf_new. Finally there is a list of functions that are at the next "
-#| "level down and call these functions. There are, of course, also entries "
-#| "for levels 1, 2, and 3, but this is the first level to reach right down "
-#| "through the GDK code to the <application>Swell Foop</application> code. "
-#| "From this listing, we can see instantly that the problem code is "
-#| "load_scenario."
 msgid ""
 "The first line tells us we are now four levels deep into the stack. Below it "
 "is a listing of the function calls that leads from here to gdk_pixbuf_new. "
@@ -1236,16 +1125,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/massif.page:115
-#| msgid ""
-#| "Unfortunately, the choice of optimization is also constrained by the "
-#| "needs of the program. The size of the pixbuf data in <application>Swell "
-#| "Foop</application> is determined by the size of the game's graphics and "
-#| "cannot be easily reduced. However, the amount of time it spends loaded "
-#| "into memory can be drastically reduced. <xref linkend=\"optimization-"
-#| "massif-FIG-output-optimized\"/> shows the <application>Massif</"
-#| "application> analysis of <application>Swell Foop</application> after "
-#| "being altered to dispose of the pixbufs once the images have been loaded "
-#| "into the X server."
 msgid ""
 "Unfortunately, the choice of optimization is also constrained by the needs "
 "of the program. The size of the pixbuf data in <app>Swell Foop</app> is "
@@ -1256,19 +1135,16 @@ msgid ""
 "dispose of the pixbufs once the images have been loaded into the X server."
 msgstr ""
 "Δυστυχώς, η επιλογή της βελτιστοποίησης περιορίζεται επίσης από τις ανάγκες "
-"του προγράμματος. Το μέγεθος των δεδομένων του pixbuf στο <app>Swell "
-"Foop</app> καθορίζεται από το μέγεθος των γραφικών του παιχνιδιού και δεν "
-"μπορεί να μειωθεί εύκολα. Εντούτοις, το χρονικό διάστημα που ξοδεύει κατά "
-"την φόρτωση του στη μνήμη μπορεί να μειωθεί δραστικά. Το<link xref"
-"=\"optimization-massif-FIG-output-optimized\"/> παρουσιάζει την ανάλυση του "
+"του προγράμματος. Το μέγεθος των δεδομένων του pixbuf στο <app>Swell Foop</"
+"app> καθορίζεται από το μέγεθος των γραφικών του παιχνιδιού και δεν μπορεί "
+"να μειωθεί εύκολα. Εντούτοις, το χρονικό διάστημα που ξοδεύει κατά την "
+"φόρτωση του στη μνήμη μπορεί να μειωθεί δραστικά. Το<link xref="
+"\"optimization-massif-FIG-output-optimized\"/> παρουσιάζει την ανάλυση του "
 "<app>Massif</app> για το <app>Swell Foop</app> μετά από την αλλαγή του για "
 "να απορρίπτει τα pixbufs μόλις φορτωθούν οι εικόνες στον διακομιστή X."
 
 #. (itstool) path: figure/title
 #: C/massif.page:124
-#| msgid ""
-#| "<application>Massif</application> output for the optimized "
-#| "<application>Swell Foop</application> program."
 msgid ""
 "<app>Massif</app> output for the optimized <app>Swell Foop</app> program."
 msgstr ""
@@ -1295,9 +1171,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/massif.page:130
-#| msgid ""
-#| "Can we do better ? A quick examination of <application>Massif</"
-#| "application>'s text output reveals: g_strdup to be the new major offender."
 msgid ""
 "Can we do better ? A quick examination of <app>Massif</app>'s text output "
 "reveals: g_strdup to be the new major offender."
@@ -1330,8 +1203,7 @@ msgstr ""
 "Εντολή: ./swell-foop\n"
 "\n"
 "== 0 ===========================\n"
-"Συναρτήσεις κατανομής σωρών που καταμετρήθηκαν ως το 87.6% από το μετρήσιμο "
-"χωρόχρονο\n"
+"Συναρτήσεις κατανομής σωρών που καταμετρήθηκαν ως το 87.6% από το μετρήσιμο χωρόχρονο\n"
 "\n"
 "Καλείται από:\n"
 "    7.7% : 0x5A32A5: g_strdup (στο /usr/lib/libglib-2.0.so.0.400.6)\n"
@@ -1378,16 +1250,13 @@ msgstr ""
 "  0x5A32A5: g_strdup (στο /usr/lib/libglib-2.0.so.0.400.6)\n"
 "\n"
 "Κλήθηκε από:\n"
-"    1.8% : 0x8BF606: gtk_icon_source_copy (στο "
-"/usr/lib/libgtk-x11-2.0.so.0.400.9)\n"
+"    1.8% : 0x8BF606: gtk_icon_source_copy (στο /usr/lib/libgtk-x11-2.0.so.0.400.9)\n"
 "\n"
-"    1.1% : 0x67AF6B: g_param_spec_internal (στο "
-"/usr/lib/libgobject-2.0.so.0.400.6)\n"
+"    1.1% : 0x67AF6B: g_param_spec_internal (στο /usr/lib/libgobject-2.0.so.0.400.6)\n"
 "\n"
 "    0.9% : 0x91FCFC: (μέσα στο /usr/lib/libgtk-x11-2.0.so.0.400.9)\n"
 "\n"
-"    0.8% : 0x57EEBF: g_quark_from_string (στο "
-"/usr/lib/libglib-2.0.so.0.400.6)\n"
+"    0.8% : 0x57EEBF: g_quark_from_string (στο /usr/lib/libglib-2.0.so.0.400.6)\n"
 "\n"
 "  και 155 άλλες ασήμαντες θέσεις\n"
 "        "
@@ -1404,9 +1273,9 @@ msgid ""
 msgstr ""
 "Τώρα αντιμετωπίζουμε την ελάττωση της ανταμοιβή μας για τις προσπάθειες "
 "βελτιστοποίησής. Οι συμβουλές γραφικών παραστάσεων είναι μια άλλη πιθανή "
-"προσέγγιση: Και οι δύο ζώνες \"other\" και \"heap admin\" είναι αρκετά μεγάλες. "
-"Αυτό μας λέει ότι υπάρχουν πολλές μικρές κατανομές που έχουν γίνει από "
-"ποικίλες θέσεις. Η εξάλειψη τους θα είναι δύσκολη, αλλά εάν μπορέσουν να "
+"προσέγγιση: Και οι δύο ζώνες \"other\" και \"heap admin\" είναι αρκετά "
+"μεγάλες. Αυτό μας λέει ότι υπάρχουν πολλές μικρές κατανομές που έχουν γίνει "
+"από ποικίλες θέσεις. Η εξάλειψη τους θα είναι δύσκολη, αλλά εάν μπορέσουν να "
 "ομαδοποιηθούν τότε οι μεμονωμένες κατανομές μπορούν να γίνουν μεγαλύτερες "
 "και η επιβάρυνση του \"heap admin\" μπορεί να μειωθεί."
 
@@ -1431,19 +1300,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/massif.page:176
-#| msgid ""
-#| "Secondly, <application>Massif</application> only takes into account the "
-#| "memory used by your own program. Resources like pixmaps are stored in the "
-#| "X server and aren't considered by <application>Massif</application>. In "
-#| "the <application>Swell Foop</application> example we have actually only "
-#| "moved the memory consumption from client-side pixbufs to server-side "
-#| "pixmaps. Even though we cheated there are performance gains. Keeping the "
-#| "image data in the X server makes the graphics routines quicker and "
-#| "removes a lot of inter-process communication. Also, the pixmaps will be "
-#| "stored in a native graphics format which is often more compact than the "
-#| "32-bit RGBA format used by gdk_pixbuf. To measure the effect of pixmaps, "
-#| "and other X resources use the <ulink type=\"http\" url=\"http://www."
-#| "freedesktop.org/Software/xrestop\">xrestop</ulink> program."
 msgid ""
 "Secondly, <app>Massif</app> only takes into account the memory used by your "
 "own program. Resources like pixmaps are stored in the X server and aren't "
@@ -1459,18 +1315,18 @@ msgid ""
 msgstr ""
 "Αφετέρου, το <app>Massif</app> λαμβάνει υπόψη μόνο τη μνήμη που "
 "χρησιμοποιείται από τα προγράμματα σας. Οι πόροι όπως τα pixmaps "
-"αποθηκεύονται στον διακομιστή X και δεν εξετάζονται από το "
-"<app>Massif</app>. Στο παράδειγμα με το <app>Swell Foop</app> στην "
-"πραγματικότητα έχουμε μετακινήσει την κατανάλωση μνήμης μόνο την pixbufs από "
-"την πλευρά του προγράμματος πελάτη στα pixmaps από την πλευρά του "
-"διακομιστή. Αν και κάναμε μία μικρή απάτη, υπάρχουν κέρδη στην απόδοση. Αν "
-"κρατήσουμε τα δεδομένα εικόνας του διακομιστή X καθιστά τις ρουτίνες "
-"γραφικής αναπαράστασης γρηγορότερες και αφαιρεί πολύ διεπεξεργαστική "
-"επικοινωνία. Επίσης, τα pixmaps θα αποθηκευτούν σε μία εγγενή μορφή γραφικών "
-"που είναι συχνά συμπαγέστερο από τη μορφή 32-δυαδικών RGBA που "
-"χρησιμοποιείται από το gdk_pixbuf. Για να μετρηθεί η επίδραση των pixmaps "
-"και άλλων πόρων του διακομιστή X χρησιμοποιήστε το πρόγραμμα <link "
-"href=\"http://www.freedesktop.org/Software/xrestop\">xrestop</link>."
+"αποθηκεύονται στον διακομιστή X και δεν εξετάζονται από το <app>Massif</"
+"app>. Στο παράδειγμα με το <app>Swell Foop</app> στην πραγματικότητα έχουμε "
+"μετακινήσει την κατανάλωση μνήμης μόνο την pixbufs από την πλευρά του "
+"προγράμματος πελάτη στα pixmaps από την πλευρά του διακομιστή. Αν και κάναμε "
+"μία μικρή απάτη, υπάρχουν κέρδη στην απόδοση. Αν κρατήσουμε τα δεδομένα "
+"εικόνας του διακομιστή X καθιστά τις ρουτίνες γραφικής αναπαράστασης "
+"γρηγορότερες και αφαιρεί πολύ διεπεξεργαστική επικοινωνία. Επίσης, τα "
+"pixmaps θα αποθηκευτούν σε μία εγγενή μορφή γραφικών που είναι συχνά "
+"συμπαγέστερο από τη μορφή 32-δυαδικών RGBA που χρησιμοποιείται από το "
+"gdk_pixbuf. Για να μετρηθεί η επίδραση των pixmaps και άλλων πόρων του "
+"διακομιστή X χρησιμοποιήστε το πρόγραμμα <link href=\"http://www.freedesktop."
+"org/Software/xrestop\">xrestop</link>."
 
 #~ msgid "Optimizing GNOME Software"
 #~ msgstr "Βελτιστοποίηση  λογισμικού του GNOME"
