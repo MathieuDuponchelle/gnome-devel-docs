@@ -225,7 +225,6 @@ HELP_MEDIA =	\
 	media/combobox_multicolumn.png		\
 	media/dialog.png			\
 	media/entry.png				\
-	media/fedora.png			\
 	media/filechooserdialog_menu.png	\
 	media/filechooserdialog_save.png	\
 	media/fontchooserwidget.png		\
@@ -258,7 +257,6 @@ HELP_MEDIA =	\
 	media/menubar_choices.png		\
 	media/message-board.ogv			\
 	media/messagedialog.png			\
-	media/opensuse.png			\
 	media/paned.png				\
 	media/photo-wall.png			\
 	media/photo-wall-focused.png		\
@@ -291,7 +289,6 @@ HELP_MEDIA =	\
 	media/treeview_simple_liststore.png	\
 	media/treeview_simple_liststore_penguins.png	\
 	media/treeview_treestore.png		\
-	media/ubuntu.png			\
 	media/weatherAppJs.png			\
 	media/window.png			\
 	$(demo_sources)
