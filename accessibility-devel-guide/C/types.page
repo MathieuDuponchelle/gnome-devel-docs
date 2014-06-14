@@ -1,0 +1,54 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic" style="task"
+      id="types">
+
+  <info>
+    <link type="guide" xref="index"/>
+  </info>
+
+  <title>Types of Disability</title>
+
+  <p>In the US alone, there are an estimated 30,000,000 people whose ability
+  to use computers may be compromised by inaccessible design. Globally, around
+  8% of the people who use the worldwide web have some sort of disability.
+  Disabilities fall into one of these categories:</p>
+
+  <terms>
+    <item>
+      <title>Visual Impairments</title>
+      <p>These can range from low-vision (including dim or hazy vision, extreme
+      far- or near-sightedness, color-blindness, and tunnel vision, amongst
+      others) to complete blindness. Poor choice of text size and color, and
+      tasks that involve good hand-eye coordination (such as moving the mouse)
+      can cause problems for these users.</p>
+    </item>
+    <item>
+      <title>Movement Impairments</title>
+      <p>Users with poor muscle control or weaknesses can find it hard to use a
+      standard keyboard or mouse. For example, they may be unable to hold down
+      two keys simultaneously, or they may be more likely to strike keys
+      accidentally.</p>
+    </item>
+    <item>
+      <title>Hearing Impairments</title>
+      <p>These can range from being able to hear some sounds but not
+      distinguish spoken words, to profound deafness. Applications that convey
+      important information by sound alone will cause problems for these
+      users.</p>
+    </item>
+    <item>
+      <title>Cognitive and Language Impairments</title>
+      <p>These can range from dyslexia to difficulties remembering things,
+      solving problems or comprehending and using spoken or written language.
+      Complex or inconsistent displays, or poor choice of words can make using
+      computers difficult for these users.</p>
+    </item>
+    <item>
+      <title>Seizure disorders</title>
+      <p>Certain light or sound patterns can cause epileptic seizures in some
+      susceptible users.</p>
+    </item>
+  </terms>
+
+</page>
