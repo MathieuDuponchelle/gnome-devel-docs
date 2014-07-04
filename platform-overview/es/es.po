@@ -10,16 +10,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: platform-overview.master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-12 07:38+0000\n"
-"PO-Revision-Date: 2014-02-13 11:13+0100\n"
+"POT-Creation-Date: 2014-07-04 06:39+0000\n"
+"PO-Revision-Date: 2014-07-04 11:43+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
-"Language-Team: Español <gnome-es-list@gnome.org>\n"
+"Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Gtranslator 2.91.5\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Gtranslator 2.91.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. (itstool) path: p/link
 #: C/cc-by-sa-3-0.xml:4
@@ -60,9 +60,9 @@ msgstr "Radina Matic"
 #: C/dev-help-build.page:13 C/dev-help.page:16 C/dev-help.page:21
 #: C/dev-help-write.page:13 C/dev-translate-build.page:13
 #: C/dev-translate.page:14 C/dev-translate-setup.page:13
-#: C/dev-translate-tools.page:12 C/index.page:36 C/overview-io.page:16
-#: C/overview-media.page:11 C/overview-net.page:11 C/overview-settings.page:11
-#: C/overview-ui.page:11 C/tour-application.page:13 C/tour-application.page:18
+#: C/dev-translate-tools.page:12 C/overview-io.page:17
+#: C/overview-media.page:12 C/overview-net.page:12 C/overview-settings.page:12
+#: C/overview-ui.page:12 C/tour-application.page:13 C/tour-application.page:18
 #: C/tour-events.page:13 C/tour-events.page:18 C/tour-get_object.page:13
 #: C/tour-get_object.page:18 C/tour-gjs.page:13 C/tour-gjs.page:18
 #: C/tour-glade.page:13 C/tour-glade.page:18 C/tour.page:14 C/tour.page:19
@@ -72,10 +72,10 @@ msgstr "2013"
 
 #. (itstool) path: credit/name
 #: C/dev-help-appmenu.page:16 C/dev-help-build.page:16 C/dev-help.page:19
-#: C/dev-help-write.page:11 C/dev-translate-build.page:11 C/index.page:34
-#: C/tour-application.page:11 C/tour-events.page:11 C/tour-get_object.page:11
-#: C/tour-gjs.page:11 C/tour-glade.page:11 C/tour.page:12
-#: C/tour-summary.page:10
+#: C/dev-help-write.page:11 C/dev-translate-build.page:11 C/index.page:36
+#: C/license.page:11 C/tour-application.page:11 C/tour-events.page:11
+#: C/tour-get_object.page:11 C/tour-gjs.page:11 C/tour-glade.page:11
+#: C/tour.page:12 C/tour-summary.page:10
 msgid "Ekaterina Gerasimova"
 msgstr "Ekaterina Gerasimova"
 
@@ -506,8 +506,8 @@ msgstr ""
 #. (itstool) path: credit/name
 #: C/dev-launching-desktop.page:11 C/dev-launching-icons.page:11
 #: C/dev-launching-mime.page:10 C/dev-launching-startupnotify.page:11
-#: C/dev-launching.page:14 C/dev-thumbnailer.page:13 C/overview-media.page:9
-#: C/overview-net.page:9 C/overview-settings.page:9
+#: C/dev-launching.page:14 C/dev-thumbnailer.page:13 C/overview-media.page:10
+#: C/overview-net.page:10 C/overview-settings.page:10
 msgid "David King"
 msgstr "David King"
 
@@ -541,24 +541,30 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/dev-launching-desktop.page:29
+#| msgid ""
+#| "GNOME uses the <link type=\"seealso\" href=\"http://standards.freedesktop."
+#| "org/desktop-entry-spec/latest/index.html\">freedesktop.org Desktop Entry</"
+#| "link> and <link type=\"seealso\" href=\"http://standards.freedesktop.org/"
+#| "desktop-menu-spec/latest/index.html\">Desktop Menu specifications</link> "
+#| "to describe application launchers. Installing a desktop file is the "
+#| "standard way to register your application with GNOME and other desktops."
 msgid ""
-"GNOME uses the <link type=\"seealso\" href=\"http://standards.freedesktop."
-"org/desktop-entry-spec/latest/index.html\">freedesktop.org Desktop Entry</"
-"link> and <link type=\"seealso\" href=\"http://standards.freedesktop.org/"
-"desktop-menu-spec/latest/index.html\">Desktop Menu specifications</link> to "
-"describe application launchers. Installing a desktop file is the standard "
-"way to register your application with GNOME and other desktops."
+"GNOME uses the <link href=\"http://standards.freedesktop.org/desktop-entry-"
+"spec/latest/index.html\">freedesktop.org Desktop Entry</link> and <link href="
+"\"http://standards.freedesktop.org/desktop-menu-spec/latest/index.html"
+"\">Desktop Menu specifications</link> to describe application launchers. "
+"Installing a desktop file is the standard way to register your application "
+"with GNOME and other desktops."
 msgstr ""
-"GNOME usa las especificaciones <link type=\"seealso\" href=\"http://"
-"standards.freedesktop.org/desktop-entry-spec/latest/index.html\">Desktop "
-"Entry de freedesktop.org</link> y <link type=\"seealso\" href=\"http://"
-"standards.freedesktop.org/desktop-menu-spec/latest/index.html\">Desktop "
-"Menu</link> para describir los lanzadores de aplicaciones. Instalar un "
-"archivo .desktop es la manera estándar de registrar su aplicación en GNOME y "
-"en otros escritorios."
+"GNOME usa las especificaciones <link href=\"http://standards.freedesktop.org/"
+"desktop-entry-spec/latest/index.html\">Desktop Entry de freedesktop.org</"
+"link> y <link href=\"http://standards.freedesktop.org/desktop-menu-spec/"
+"latest/index.html\">Desktop Menu</link> para describir los lanzadores de "
+"aplicaciones. Instalar un archivo .desktop es la manera estándar de "
+"registrar su aplicación en GNOME y en otros escritorios."
 
 #. (itstool) path: page/p
-#: C/dev-launching-desktop.page:35
+#: C/dev-launching-desktop.page:37
 msgid ""
 "A desktop file lists your application binary, name and type, and can also "
 "list an icon, description and several other pieces of information about "
@@ -569,7 +575,7 @@ msgstr ""
 "información sobre cómo lanzar la aplicación."
 
 #. (itstool) path: page/p
-#: C/dev-launching-desktop.page:39
+#: C/dev-launching-desktop.page:41
 msgid ""
 "For a hypothetical application <app>My Application</app>, a desktop file "
 "would look as follows:"
@@ -578,12 +584,12 @@ msgstr ""
 "desktop se parecería a esto:"
 
 #. (itstool) path: listing/title
-#: C/dev-launching-desktop.page:43 C/dev-launching-mime.page:33
+#: C/dev-launching-desktop.page:45 C/dev-launching-mime.page:33
 msgid "<file>myapplication.desktop</file>"
 msgstr "<file>myapplication.desktop</file>"
 
 #. (itstool) path: listing/code
-#: C/dev-launching-desktop.page:44
+#: C/dev-launching-desktop.page:46
 #, no-wrap
 msgid ""
 "[Desktop Entry]\n"
@@ -603,7 +609,7 @@ msgstr ""
 "Categories=GTK;GNOME;Utility;"
 
 #. (itstool) path: page/p
-#: C/dev-launching-desktop.page:54
+#: C/dev-launching-desktop.page:56
 msgid ""
 "The <code>[Desktop Entry]</code> line indicates that this is a desktop file. "
 "It is followed by keys, which describe the application launcher. The "
@@ -625,7 +631,7 @@ msgstr ""
 "archivos .desktop."
 
 #. (itstool) path: page/p
-#: C/dev-launching-desktop.page:63
+#: C/dev-launching-desktop.page:65
 msgid ""
 "Other fields in the desktop file are optional, but recommended. Applications "
 "should install an icon, and list the name of the icon (excluding the "
@@ -643,7 +649,7 @@ msgstr ""
 "Specification»."
 
 #. (itstool) path: page/p
-#: C/dev-launching-desktop.page:71
+#: C/dev-launching-desktop.page:73
 msgid ""
 "There are several other keys that can be added to desktop files, which are "
 "listed and described in the Desktop Entry Specification."
@@ -663,37 +669,50 @@ msgstr "Instalar un icono para identificar su aplicación."
 
 #. (itstool) path: page/p
 #: C/dev-launching-icons.page:28
+#| msgid ""
+#| "When listing an icon in a desktop file, the image must be installed in a "
+#| "standard location, given by the <link type=\"seealso\" href=\"http://"
+#| "standards.freedesktop.org/icon-theme-spec/icon-theme-spec-latest.html"
+#| "\">freedesktop.org Icon Theme</link> and <link type=\"seealso\" href="
+#| "\"http://standards.freedesktop.org/icon-naming-spec/icon-naming-spec-"
+#| "latest.html\">Icon Naming specifications</link>. As a minimum, an "
+#| "application should install a 48×48 pixel icon into <file><var>$prefix</"
+#| "var>/share/icons/hicolor/48x48/apps</file> in PNG format."
 msgid ""
 "When listing an icon in a desktop file, the image must be installed in a "
-"standard location, given by the <link type=\"seealso\" href=\"http://"
-"standards.freedesktop.org/icon-theme-spec/icon-theme-spec-latest.html"
-"\">freedesktop.org Icon Theme</link> and <link type=\"seealso\" href="
-"\"http://standards.freedesktop.org/icon-naming-spec/icon-naming-spec-latest."
-"html\">Icon Naming specifications</link>. As a minimum, an application "
-"should install a 48×48 pixel icon into <file><var>$prefix</var>/share/icons/"
-"hicolor/48x48/apps</file> in PNG format."
+"standard location, given by the <link href=\"http://standards.freedesktop."
+"org/icon-theme-spec/icon-theme-spec-latest.html\">freedesktop.org Icon "
+"Theme</link> and <link href=\"http://standards.freedesktop.org/icon-naming-"
+"spec/icon-naming-spec-latest.html\">Icon Naming specifications</link>. As a "
+"minimum, an application should install a 48×48 pixel icon into <file><var>"
+"$prefix</var>/share/icons/hicolor/48x48/apps</file> in PNG format."
 msgstr ""
 "Al indicar un icono en un archivo .desktop, la imagen se debe instalar en "
-"una ubicación estándar, dada por el <link type=\"seealso\" href=\"http://"
-"standards.freedesktop.org/icon-theme-spec/icon-theme-spec-latest.html\">tema "
-"de iconos de freedesktop.org</link> y por <link type=\"seealso\" href="
-"\"http://standards.freedesktop.org/icon-naming-spec/icon-naming-spec-latest."
-"html\">las especificaciones de nombres de iconos</link>. Como mínimo, una "
-"aplicación debe instalar un icono de 48×48 píxeles en <file><var>$prefix</"
-"var>/share/icons/hicolor/48x48/apps</file> y en formato PNG."
+"una ubicación estándar, dada por el <link href=\"http://standards."
+"freedesktop.org/icon-theme-spec/icon-theme-spec-latest.html\">tema de iconos "
+"de freedesktop.org</link> y por <link href=\"http://standards.freedesktop."
+"org/icon-naming-spec/icon-naming-spec-latest.html\">las especificaciones de "
+"nombres de iconos</link>. Como mínimo, una aplicación debe instalar un icono "
+"de 48×48 píxeles en <file><var>$prefix</var>/share/icons/hicolor/48x48/apps</"
+"file> y en formato PNG."
 
 #. (itstool) path: page/p
-#: C/dev-launching-icons.page:35
+#: C/dev-launching-icons.page:37
+#| msgid ""
+#| "To match with other icons, both in GNOME and other platforms, follow the "
+#| "<link type=\"seealso\" href=\"http://tango.freedesktop.org/"
+#| "Tango_Icon_Theme_Guidelines\">Tango Icon Theme guidelines</link> when "
+#| "creating icons and application artwork."
 msgid ""
 "To match with other icons, both in GNOME and other platforms, follow the "
-"<link type=\"seealso\" href=\"http://tango.freedesktop.org/"
-"Tango_Icon_Theme_Guidelines\">Tango Icon Theme guidelines</link> when "
-"creating icons and application artwork."
+"<link href=\"http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines"
+"\">Tango Icon Theme guidelines</link> when creating icons and application "
+"artwork."
 msgstr ""
 "Para que coincida con otros iconos, tanto en GNOME como en otras "
-"plataformas, siga la <link type=\"seealso\" href=\"http://tango.freedesktop."
-"org/Tango_Icon_Theme_Guidelines\">guía de temas de iconos de Tango </link> "
-"al crear iconos y diseños de aplicaciones."
+"plataformas, siga la <link href=\"http://tango.freedesktop.org/"
+"Tango_Icon_Theme_Guidelines\">guía de temas de iconos de Tango </link> al "
+"crear iconos y diseños de aplicaciones."
 
 #. (itstool) path: page/title
 #: C/dev-launching-mime.page:19
@@ -743,17 +762,22 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/dev-launching-mime.page:45
+#| msgid ""
+#| "Custom MIME types can be added to the system-wide MIME database, but this "
+#| "is outside the scope of this guide. The <link type=\"seealso\" href="
+#| "\"http://standards.freedesktop.org/shared-mime-info-spec/latest/\">Shared "
+#| "MIME-Info Database</link> specification for more details."
 msgid ""
 "Custom MIME types can be added to the system-wide MIME database, but this is "
-"outside the scope of this guide. The <link type=\"seealso\" href=\"http://"
-"standards.freedesktop.org/shared-mime-info-spec/latest/\">Shared MIME-Info "
-"Database</link> specification for more details."
+"outside the scope of this guide. The <link href=\"http://standards."
+"freedesktop.org/shared-mime-info-spec/latest/\">Shared MIME-Info Database</"
+"link> specification for more details."
 msgstr ""
 "Se puede añadir tipos MIME personalizados a la base de datos común del "
 "sistema, pero esto queda fuera del alcance de esta guía. Consulte la <link "
-"type=\"seealso\" href=\"http://standards.freedesktop.org/shared-mime-info-"
-"spec/latest/\">base de datos de información MIME compartida</link> para "
-"obtener más detalles."
+"href=\"http://standards.freedesktop.org/shared-mime-info-spec/latest/"
+"\">>base de datos de información MIME compartida</link> para obtener más "
+"detalles."
 
 #. (itstool) path: page/title
 #: C/dev-launching-startupnotify.page:20
@@ -767,19 +791,22 @@ msgstr "Notifica al usuario cuando la aplicación ha terminado de cargarse."
 
 #. (itstool) path: page/p
 #: C/dev-launching-startupnotify.page:28
+#| msgid ""
+#| "GNOME implements the <link type=\"seealso\" href=\"http://standards."
+#| "freedesktop.org/desktop-entry-spec/latest/index.html\">Startup "
+#| "Notification protocol</link>, to give feedback to the user when "
+#| "application startup finishes."
 msgid ""
-"GNOME implements the <link type=\"seealso\" href=\"http://standards."
-"freedesktop.org/desktop-entry-spec/latest/index.html\">Startup Notification "
-"protocol</link>, to give feedback to the user when application startup "
-"finishes."
+"GNOME implements the <link href=\"http://standards.freedesktop.org/desktop-"
+"entry-spec/latest/index.html\">Startup Notification protocol</link>, to give "
+"feedback to the user when application startup finishes."
 msgstr ""
-"GNOME implementa el <link type=\"seealso\" href=\"http://standards."
-"freedesktop.org/desktop-entry-spec/latest/index.html\">protocolo de "
-"notificación de inicio</link>, para indicar al usuario cuando termina la "
-"aplicación de iniciarse."
+"GNOME implementa el <link href=\"http://standards.freedesktop.org/desktop-"
+"entry-spec/latest/index.html\">protocolo de notificación de inicio</link>, "
+"para indicar al usuario cuando termina la aplicación de iniciarse."
 
 #. (itstool) path: page/p
-#: C/dev-launching-startupnotify.page:32
+#: C/dev-launching-startupnotify.page:33
 msgid ""
 "GTK+ applications automatically support startup notification, and by default "
 "notify that application startup is complete when the first window is shown. "
@@ -793,7 +820,7 @@ msgstr ""
 "<code>StartupNotify=true</code> a su archivo .desktop."
 
 #. (itstool) path: page/p
-#: C/dev-launching-startupnotify.page:37
+#: C/dev-launching-startupnotify.page:38
 msgid ""
 "More complicated startup scenarios, such as showing a splash screen during "
 "startup, would need custom handling with <code href=\"https://developer."
@@ -1060,7 +1087,7 @@ msgstr ""
 
 #. (itstool) path: credit/name
 #: C/dev-translate.page:12 C/dev-translate-setup.page:11
-#: C/dev-translate-tools.page:10 C/overview-io.page:14 C/overview-ui.page:9
+#: C/dev-translate-tools.page:10 C/overview-io.page:15 C/overview-ui.page:10
 msgid "Michael Hill"
 msgstr "Michael Hill"
 
@@ -1195,75 +1222,81 @@ msgstr ""
 "<app>Pootle</app>."
 
 #. (itstool) path: credit/name
-#: C/index.page:10
+#: C/index.page:12
 msgid "Shaun McCance"
 msgstr "Shaun McCance"
 
 #. (itstool) path: credit/years
-#: C/index.page:12
+#: C/index.page:14
 msgid "2005-2011"
 msgstr "2005-2011"
 
 #. (itstool) path: credit/name
-#: C/index.page:15 C/overview-communication.page:9 C/overview-io.page:9
-#: C/tech.page:9
+#: C/index.page:17 C/overview-communication.page:10 C/overview-io.page:10
+#: C/tech.page:10
 msgid "Phil Bull"
 msgstr "Phil Bull"
 
 #. (itstool) path: credit/years
-#: C/index.page:17 C/overview-communication.page:11 C/overview-io.page:11
-#: C/tech.page:11
+#: C/index.page:19 C/overview-communication.page:12 C/overview-io.page:12
+#: C/tech.page:12
 msgid "2012"
 msgstr "2012"
 
 #. (itstool) path: credit/name
-#: C/index.page:20
+#: C/index.page:22
 msgid "Federico Mena-Quintero"
 msgstr "Federico Mena-Quintero"
 
 #. (itstool) path: credit/years
-#: C/index.page:22
+#: C/index.page:24
 msgid "2012, 2013"
 msgstr "2012, 2013"
 
 #. (itstool) path: credit/name
-#: C/index.page:25
+#: C/index.page:27
 msgid "Germán Póo-Caamaño"
 msgstr "Germán Póo-Caamaño"
 
 #. (itstool) path: credit/years
-#: C/index.page:27
+#: C/index.page:29
 msgid "2011"
 msgstr "2011"
 
 #. (itstool) path: credit/name
-#: C/index.page:30
+#: C/index.page:32
 msgid "GNOME Foundation"
 msgstr "Fundación GNOME"
 
 #. (itstool) path: credit/page
-#: C/index.page:31
+#: C/index.page:33
 msgid "http://foundation.gnome.org/"
 msgstr "http://foundation.gnome.org/"
 
+#. (itstool) path: credit/years
+#: C/index.page:38
+#| msgid "2012, 2013"
+msgid "2013, 2014"
+msgstr "2013, 2014"
+
 #. (itstool) path: info/desc
-#: C/index.page:41
-msgid "Developer's overview of the Gnome Platform"
-msgstr "Vista general del desarrollador de la plataforma GNOME"
+#: C/index.page:43
+msgid "Guide to the GNOME platform and libraries for developers."
+msgstr "Guía de la plataforma GNOME y sus bibliotecas para desarrolladores"
 
 #. (itstool) path: info/title
-#: C/index.page:43
+#: C/index.page:45
 msgctxt "link:trail"
 msgid "GNOME"
 msgstr "GNOME"
 
 #. (itstool) path: page/title
-#: C/index.page:46
-msgid "Develop for the GNOME Platform"
-msgstr "Desarrollo para la plataforma GNOME"
+#: C/index.page:48
+msgid "GNOME application development overview"
+msgstr "Vista general del desarrollo de aplicaciones para GNOME"
 
 #. (itstool) path: page/p
-#: C/index.page:48
+#: C/index.page:50
 msgid ""
 "Welcome to the GNOME developer overview. GNOME offers a range of tools that "
 "can be used in your application."
@@ -1272,38 +1305,133 @@ msgstr ""
 "muchas herramientas que se pueden usar en su aplicación."
 
 #. (itstool) path: links/title
-#: C/index.page:54
+#: C/index.page:56
 msgid "Core technologies"
 msgstr "Tecnologías del núcleo"
 
 #. (itstool) path: links/title
-#: C/index.page:66
+#: C/index.page:60
 msgid "Integration guides"
 msgstr "Guías de integración"
 
 #. (itstool) path: links/title
-#: C/index.page:70
-msgid "Development platform"
-msgstr "Plataforma de desarrollo"
+#: C/index.page:64
+#| msgid "Develop for the GNOME Platform"
+msgid "Develop for the platform"
+msgstr "Desarrollo para la plataforma"
+
+#. (itstool) path: info/desc
+#: C/license.page:17
+msgid "Which license should you use for your application?"
+msgstr "¿Qué licencia debe usar para su aplicación?"
+
+#. (itstool) path: page/title
+#: C/license.page:21
+#| msgid "Run your application"
+msgid "License your application"
+msgstr "Licenciar la aplicación"
+
+#. (itstool) path: page/p
+#: C/license.page:23
+msgid ""
+"When you write a new application or library, you will need to choose a "
+"license so that others know how they can use or reuse your work."
+msgstr ""
+"Cuando escribe una aplicación o una biblioteca nuevas, debe escoger una "
+"licencia para que otros sepan cómo puede usar o reutilizar su trabajo."
+
+#. (itstool) path: page/p
+#: C/license.page:26
+msgid ""
+"Libraries which are used in GNOME are usually licensed under the <link href="
+"\"http://www.gnu.org/\">GNU</link> <link href=\"https://www.gnu.org/licenses/"
+"old-licenses/lgpl-2.1.html\">LGPL 2.1</link>."
+msgstr ""
+"Las bibliotecas que se usan en GNOME se licencian generalmente bajo la <link "
+"href=\"https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html\">LGPL 2.1</"
+"link> de <link href=\"http://www.gnu.org/\">GNU</link>."
+
+#. (itstool) path: page/p
+#: C/license.page:30
+msgid ""
+"Most newer GNOME applications are licensed under <link href=\"http://www.gnu."
+"org/licenses/gpl-3.0.html\">GPL3+</link>, while some of the older "
+"applications are licensed under <link href=\"http://www.gnu.org/licenses/"
+"gpl-2.0.html\">GPL2+</link>."
+msgstr ""
+"La mayoría de las aplicaciones nuevas de GNOME se licencian bajo la <link "
+"href=\"http://www.gnu.org/licenses/gpl-3.0.html\">GPL3+</link>, aunque "
+"algunas aplicaciones antiguas están licenciadas bajo la <link href=\"http://"
+"www.gnu.org/licenses/gpl-2.0.html\">GPL2+</link>."
+
+#. (itstool) path: page/p
+#: C/license.page:35
+msgid ""
+"User help which is written by the GNOME Documentation Team is licensed under "
+"<link href=\"http://creativecommons.org/licenses/by-sa/3.0/\">CC-by-SA 3.0 "
+"Unported</link>. The documentation team tries to use this license "
+"consistently as it allows re-use of text from Wikipedia and many other "
+"reference sources."
+msgstr ""
+"La ayuda del usuario la escribe el equipo de documentación de GNOME bajo la "
+"<link href=\"http://creativecommons.org/licenses/by-sa/3.0/\">CC-by-SA 3.0 "
+"sin soporte</link>. El equipo de documentación trata de usar esta licencia "
+"de manera consistente, ya que permite reutilizar texto de la Wikipedia y de "
+"otras muchas fuentes de referencia."
+
+#. (itstool) path: page/p
+#: C/license.page:41
+msgid ""
+"Translations have the same license as the parent strings. For example, "
+"strings from the applications are usually GPL2+ or GPL3+, while user "
+"documentation is usually CC-by-SA 3.0."
+msgstr ""
+"Las traducciones tienen la misma licencia que las cadenas originales. Por "
+"ejemplo, las cadenas de las aplicaciones están licenciadas generalmente bajo "
+"la GPL2+ o la GPL3+, mientras que la documentación lo está bajo la CC-by-SA "
+"3.0."
+
+#. (itstool) path: page/p
+#: C/license.page:45
+msgid ""
+"GNOME cannot give legal advice on which license you should choose, but you "
+"may want to read information that is available from the <link href=\"http://"
+"opensource.org/licenses\">Open Source Initiative</link>, the <link href="
+"\"http://www.gnu.org/licenses/license-recommendations.html\">FSF</link> and "
+"<link href=\"https://blogs.gnome.org/bolsh/2014/04/17/choosing-a-license/"
+"\">Dave Neary's blog post about choosing a license</link>. You may also find "
+"the <link href=\"http://gstreamer.freedesktop.org/documentation/licensing."
+"html\">GStreamer licensing information</link> of interest, as GStreamer uses "
+"plugins."
+msgstr ""
+"GNOME no puede ofrecer consejo legal sobre qué licencia debe usar, pero "
+"puede leer la información disponible en la <link href=\"http://opensource."
+"org/licenses\">Open Source Initiative</link>, la <link href=\"http://www.gnu."
+"org/licenses/license-recommendations.html\">FSF</link> y la <link href="
+"\"https://blogs.gnome.org/bolsh/2014/04/17/choosing-a-license/\">entrada del "
+"blog de Dave Neary sobre cómo elegir una licencia</link>. También puede "
+"resultarle de interés la <link href=\"http://gstreamer.freedesktop.org/"
+"documentation/licensing.html\">información de licencia de GStreamer</link>, "
+"ya que GStreamer usa complementos."
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/overview-communication.page:34
+#: C/overview-communication.page:35
 msgctxt "_"
 msgid "external ref='test_comm1.png' md5='47677860b23d89d6f428f1dc454bdb08'"
 msgstr "external ref='test_comm1.png' md5='47677860b23d89d6f428f1dc454bdb08'"
 
 #. (itstool) path: info/title
-#: C/overview-communication.page:14
+#: C/overview-communication.page:15
 msgctxt "link:trail"
 msgid "Communication"
 msgstr "Comunicación"
 
 #. (itstool) path: info/desc
-#: C/overview-communication.page:15
+#: C/overview-communication.page:16
 msgid ""
 "Instant messaging, networking, social media, email, and calendaring support."
 msgstr ""
@@ -1311,12 +1439,12 @@ msgstr ""
 "calendario."
 
 #. (itstool) path: page/title
-#: C/overview-communication.page:18
+#: C/overview-communication.page:19
 msgid "Communication and social networking"
 msgstr "Comunicación y redes sociales"
 
 #. (itstool) path: item/p
-#: C/overview-communication.page:22
+#: C/overview-communication.page:23
 msgid ""
 "<em style=\"strong\">Connect to instant messaging and social networking "
 "services</em>"
@@ -1325,7 +1453,7 @@ msgstr ""
 "redes sociales</em>"
 
 #. (itstool) path: item/p
-#: C/overview-communication.page:25
+#: C/overview-communication.page:26
 msgid ""
 "<em style=\"strong\">Set up multi-protocol connections with web services or "
 "other clients</em>"
@@ -1334,7 +1462,7 @@ msgstr ""
 "u otros clientes</em>"
 
 #. (itstool) path: item/p
-#: C/overview-communication.page:28
+#: C/overview-communication.page:29
 msgid ""
 "<em style=\"strong\">Handle mail, online contacts and calendar services</em>"
 msgstr ""
@@ -1342,7 +1470,7 @@ msgstr ""
 "calendario</em>"
 
 #. (itstool) path: page/p
-#: C/overview-communication.page:32
+#: C/overview-communication.page:33
 msgid ""
 "Get your users connected and communicating with their friends and contacts "
 "through instant messaging, social media, and email. GNOME's extensive "
@@ -1358,19 +1486,19 @@ msgstr ""
 "los entresijos mediante API de bajo nivel."
 
 #. (itstool) path: media/p
-#: C/overview-communication.page:35
+#: C/overview-communication.page:36
 msgid "Empathy instant messaging client"
 msgstr "Cliente de mensajería instantánea Empathy"
 
 #. (itstool) path: section/title
-#: C/overview-communication.page:39 C/overview-io.page:39
-#: C/overview-media.page:41 C/overview-net.page:43 C/overview-settings.page:38
-#: C/overview-ui.page:44
+#: C/overview-communication.page:40 C/overview-io.page:40
+#: C/overview-media.page:42 C/overview-net.page:44 C/overview-settings.page:39
+#: C/overview-ui.page:45
 msgid "What can you do?"
 msgstr "¿Qué puede hacer?"
 
 #. (itstool) path: section/p
-#: C/overview-communication.page:41
+#: C/overview-communication.page:42
 msgid ""
 "For <em style=\"strong\">connecting to instant messaging services</em>, use "
 "<em style=\"strong\">Telepathy</em>. It provides a powerful framework for "
@@ -1389,7 +1517,7 @@ msgstr ""
 "este servicio para comunicarse con los contactos."
 
 #. (itstool) path: section/p
-#: C/overview-communication.page:49
+#: C/overview-communication.page:50
 msgid ""
 "Create multi-player games or collaborative editors that integrate with the "
 "desktop-wide instant messaging services. With the <em style=\"strong\" xref="
@@ -1405,7 +1533,7 @@ msgstr ""
 "aplicaciones interactivas."
 
 #. (itstool) path: section/p
-#: C/overview-communication.page:55
+#: C/overview-communication.page:56
 msgid ""
 "Allow users to see other people they can chat with, and find printers, "
 "shared files, and shared music collections as soon as they connect to a "
@@ -1422,7 +1550,7 @@ msgstr ""
 "compatible con la tecnología similar de Windows y MacOS."
 
 #. (itstool) path: section/p
-#: C/overview-communication.page:60
+#: C/overview-communication.page:61
 msgid ""
 "Handle users' local and online address books and calendars with <em style="
 "\"strong\" xref=\"tech-eds\">Evolution Data Server</em> (EDS). It provides a "
@@ -1434,7 +1562,7 @@ msgstr ""
 "interactuar con ella..."
 
 #. (itstool) path: section/p
-#: C/overview-communication.page:63
+#: C/overview-communication.page:64
 msgid ""
 "With <em style=\"strong\" xref=\"tech-folks\">Folks</em>, you will have "
 "access to a single API for handling social networking, chat, email, and "
@@ -1445,14 +1573,14 @@ msgstr ""
 "de sonido/vídeo."
 
 #. (itstool) path: section/title
-#: C/overview-communication.page:79 C/overview-io.page:63
-#: C/overview-media.page:89 C/overview-net.page:73 C/overview-settings.page:60
-#: C/overview-ui.page:88
+#: C/overview-communication.page:80 C/overview-io.page:64
+#: C/overview-media.page:90 C/overview-net.page:74 C/overview-settings.page:61
+#: C/overview-ui.page:89
 msgid "Real-world examples"
 msgstr "Ejemplos del mundo real"
 
 #. (itstool) path: section/p
-#: C/overview-communication.page:86
+#: C/overview-communication.page:87
 msgid ""
 "You can see lots of real-world applications of the GNOME communications "
 "technologies in open source projects, like the examples given below."
@@ -1462,7 +1590,7 @@ msgstr ""
 "en los siguientes ejemplos."
 
 #. (itstool) path: item/p
-#: C/overview-communication.page:89
+#: C/overview-communication.page:90
 msgid ""
 "<em style=\"strong\">Empathy</em> is an instant messaging app with support "
 "for a wide range of messaging services. It uses Telepathy to handle "
@@ -1475,7 +1603,7 @@ msgstr ""
 "contactos para todos los protocolos que soporta."
 
 #. (itstool) path: item/p
-#: C/overview-communication.page:90
+#: C/overview-communication.page:91
 msgid ""
 "(<link href=\"https://live.gnome.org/Empathy\">Website</link> | <link href="
 "\"http://staz.be/tup/2009-06/Capture-Conversations.png\">Screenshot</link> | "
@@ -1488,7 +1616,7 @@ msgstr ""
 "\">Código fuente de Empathy</link> )"
 
 #. (itstool) path: item/p
-#: C/overview-communication.page:94
+#: C/overview-communication.page:95
 msgid ""
 "With Telepathy Tubes support, the <em style=\"strong\">GNOME Games</em> "
 "collection was able to add multi-player gaming support through the Jabber "
@@ -1499,7 +1627,7 @@ msgstr ""
 "protocolo Jabber."
 
 #. (itstool) path: item/p
-#: C/overview-communication.page:95
+#: C/overview-communication.page:96
 msgid ""
 "(<link href=\"https://live.gnome.org/GnomeGames/\">Website</link> | <link "
 "href=\"https://live.gnome.org/glChess?action=AttachFile&amp;do=get&amp;"
@@ -1514,7 +1642,7 @@ msgstr ""
 "multijugador en línea</link> )"
 
 #. (itstool) path: item/p
-#: C/overview-communication.page:99
+#: C/overview-communication.page:100
 msgid ""
 "Avahi support allows users of the <em style=\"strong\">Rhythmbox</em> music "
 "player to see shared music collections on their local network, using DAAP."
@@ -1523,7 +1651,7 @@ msgstr ""
 "las colecciones de música compartida en su red local, usando DAAP."
 
 #. (itstool) path: item/p
-#: C/overview-communication.page:100
+#: C/overview-communication.page:101
 msgid ""
 "(<link href=\"http://projects.gnome.org/rhythmbox/\">Website</link> | <link "
 "href=\"http://skss.learnfree.eu/wp-content/uploads/2009/05/rhythmbox_daap_3."
@@ -1536,19 +1664,19 @@ msgstr ""
 "gnome.org/browse/rhythmbox/tree/plugins/daap\">Código de DAAP </link> )"
 
 #. (itstool) path: info/desc
-#: C/overview-io.page:19
+#: C/overview-io.page:20
 msgid "Access structured data storage, networking shares, and files."
 msgstr ""
 "Acceder a almacenamientos de datos estructurados, comparticiones en red y "
 "archivos."
 
 #. (itstool) path: page/title
-#: C/overview-io.page:22
+#: C/overview-io.page:23
 msgid "Files &amp; data access"
 msgstr "Acceso a datos y a archivos"
 
 #. (itstool) path: item/p
-#: C/overview-io.page:26
+#: C/overview-io.page:27
 msgid ""
 "<em style=\"strong\">Asynchronously read and write files and other streams</"
 "em>"
@@ -1557,12 +1685,12 @@ msgstr ""
 "flujos</em>"
 
 #. (itstool) path: item/p
-#: C/overview-io.page:29
+#: C/overview-io.page:30
 msgid "<em style=\"strong\">Store and retrieve document metadata</em>"
 msgstr "<em style=\"strong\">Guardar y recuperar metadatos de documentos</em>"
 
 #. (itstool) path: page/p
-#: C/overview-io.page:33
+#: C/overview-io.page:34
 msgid ""
 "Seamlessly access local and remote files using the core GNOME IO libraries. "
 "Make your application responsive by using the extensive support for "
@@ -1576,7 +1704,7 @@ msgstr ""
 "para describir los documentos."
 
 #. (itstool) path: section/p
-#: C/overview-io.page:41
+#: C/overview-io.page:42
 msgid ""
 "To <em style=\"strong\">asynchronously read and write files and other "
 "streams</em>, use <em style=\"strong\" xref=\"tech-gio\">GIO</em>. A high-"
@@ -1589,7 +1717,7 @@ msgstr ""
 "así como utilidades como iconos y lanzamiento de aplicaciones."
 
 #. (itstool) path: section/p
-#: C/overview-io.page:46
+#: C/overview-io.page:47
 msgid ""
 "Use <em style=\"strong\" xref=\"tech-tracker\">Tracker</em> to <em style="
 "\"strong\">store and retrieve document metadata</em>, as well as <em style="
@@ -1600,7 +1728,7 @@ msgstr ""
 "style=\"strong\">datos estructurados</em>, tales como contactos."
 
 #. (itstool) path: section/p
-#: C/overview-io.page:65
+#: C/overview-io.page:66
 msgid ""
 "You can see lots of real-world applications of GNOME IO technologies in open "
 "source projects, like the examples given below."
@@ -1610,7 +1738,7 @@ msgstr ""
 "siguientes ejemplos."
 
 #. (itstool) path: item/p
-#: C/overview-io.page:69
+#: C/overview-io.page:70
 msgid ""
 "<em style=\"strong\">Documents</em> makes it easy to find your files with "
 "<em style=\"strong\">Tracker</em>."
@@ -1619,7 +1747,7 @@ msgstr ""
 "archivos con <em style=\"strong\">Tracker</em>."
 
 #. (itstool) path: item/p
-#: C/overview-io.page:71
+#: C/overview-io.page:72
 msgid ""
 "( <link href=\"https://live.gnome.org/GnomeDocuments\">Website</link> | "
 "<link href=\"xxx\">Screenshot</link> | <link href=\"https://git.gnome.org/"
@@ -1630,7 +1758,7 @@ msgstr ""
 "gnome.org/browse/gnome-documents\">Código fuente</link> )"
 
 #. (itstool) path: item/p
-#: C/overview-io.page:74
+#: C/overview-io.page:75
 msgid ""
 "<em style=\"strong\">Files</em> leverages <em style=\"strong\">GIO</em> to "
 "make it easy to manage both local and remote files."
@@ -1639,7 +1767,7 @@ msgstr ""
 "simplificar la gestión de archivos locales y remotos."
 
 #. (itstool) path: item/p
-#: C/overview-io.page:76
+#: C/overview-io.page:77
 msgid ""
 "( <link href=\"https://live.gnome.org/Nautilus\">Website</link> | <link href="
 "\"https://live.gnome.org/Nautilus/Screenshots\">Screenshots</link> | <link "
@@ -1655,7 +1783,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/overview-media.page:36
+#: C/overview-media.page:37
 msgctxt "_"
 msgid ""
 "external ref='media/totem-screenshot.png' "
@@ -1665,7 +1793,7 @@ msgstr ""
 "md5='50a5ee1863edda5f15bc3d6f5c0552cd'"
 
 #. (itstool) path: info/desc
-#: C/overview-media.page:14
+#: C/overview-media.page:15
 msgid ""
 "Multi-format audio and video playback and editing, streaming from the web, "
 "and webcam support."
@@ -1675,12 +1803,12 @@ msgstr ""
 
 #. (itstool) path: page/title
 #. (itstool) path: links/title
-#: C/overview-media.page:17 C/tech.page:55
+#: C/overview-media.page:18 C/tech.page:56
 msgid "Multimedia"
 msgstr "Multimedia"
 
 #. (itstool) path: item/p
-#: C/overview-media.page:21
+#: C/overview-media.page:22
 msgid ""
 "<em style=\"strong\">Play and record a multitude of audio and video formats</"
 "em>"
@@ -1689,7 +1817,7 @@ msgstr ""
 "vídeo</em>"
 
 #. (itstool) path: item/p
-#: C/overview-media.page:24
+#: C/overview-media.page:25
 msgid ""
 "<em style=\"strong\">Access webcams and other media devices connected to the "
 "system</em>"
@@ -1698,14 +1826,14 @@ msgstr ""
 "conectados al sistema</em>"
 
 #. (itstool) path: item/p
-#: C/overview-media.page:27
+#: C/overview-media.page:28
 msgid "<em style=\"strong\">Share and stream media with remote devices</em>"
 msgstr ""
 "<em style=\"strong\">Compartir y emitir multimedia con dispositivos remotos</"
 "em>"
 
 #. (itstool) path: page/p
-#: C/overview-media.page:31
+#: C/overview-media.page:32
 msgid ""
 "Add multimedia to your application so that users can easily play their "
 "content. Consume and share content with other devices attached to a system "
@@ -1718,12 +1846,12 @@ msgstr ""
 "la API subyaente de bajo nivel si necesita más control."
 
 #. (itstool) path: media/p
-#: C/overview-media.page:37
+#: C/overview-media.page:38
 msgid "Videos"
 msgstr "Vídeos"
 
 #. (itstool) path: section/p
-#: C/overview-media.page:43
+#: C/overview-media.page:44
 msgid ""
 "<em style=\"strong\">Multimedia</em> in GNOME is built on the <em style="
 "\"strong\"><link xref=\"tech-gstreamer\">GStreamer</link></em> framework. "
@@ -1737,7 +1865,7 @@ msgstr ""
 "vídeo."
 
 #. (itstool) path: section/p
-#: C/overview-media.page:49
+#: C/overview-media.page:50
 msgid ""
 "GStreamer uses <em style=\"strong\"><link xref=\"tech-pulseaudio"
 "\">PulseAudio</link></em> when outputting audio, and therefore can target "
@@ -1751,7 +1879,7 @@ msgstr ""
 "aplicación."
 
 #. (itstool) path: section/p
-#: C/overview-media.page:60
+#: C/overview-media.page:61
 msgid ""
 "For <em style=\"strong\">webcams</em>, use <em style=\"strong\">Cheese</em>. "
 "It provides a simple interface to webcams connected to the system, and an "
@@ -1763,7 +1891,7 @@ msgstr ""
 "aplicación."
 
 #. (itstool) path: section/p
-#: C/overview-media.page:65
+#: C/overview-media.page:66
 msgid ""
 "Use <em style=\"strong\">Rygel</em> to <em style=\"strong\">share content "
 "over the network</em> to devices such as TVs and games consoles. Rygel uses "
@@ -1778,7 +1906,7 @@ msgstr ""
 "protocolos <em style=\"strong\">UPnP</em>."
 
 #. (itstool) path: section/p
-#: C/overview-media.page:71
+#: C/overview-media.page:72
 msgid ""
 "For simple <em style=\"strong\">event sounds</em>, such as a shutter sound "
 "when taking a photo, use <em style=\"strong\"><link xref=\"tech-canberra"
@@ -1791,7 +1919,7 @@ msgstr ""
 "sonido de freedesktop.org."
 
 #. (itstool) path: section/p
-#: C/overview-media.page:91
+#: C/overview-media.page:92
 msgid ""
 "You can see lots of real-world applications of GNOME multimedia technologies "
 "in open source projects, like the examples given below."
@@ -1801,13 +1929,13 @@ msgstr ""
 "los siguientes ejemplos."
 
 #. (itstool) path: item/p
-#: C/overview-media.page:95
+#: C/overview-media.page:96
 msgid "<em style=\"strong\">Videos</em> is the GNOME multimedia player."
 msgstr ""
 "<em style=\"strong\">Vídeos</em> es el reproductor multimedia de GNOME."
 
 #. (itstool) path: item/p
-#: C/overview-media.page:96
+#: C/overview-media.page:97
 msgid ""
 "( <link href=\"http://projects.gnome.org/totem/\">Website</link> | <link "
 "href=\"http://en.wikipedia.org/wiki/File:Totem3.2.0.png\">Screenshot</link> "
@@ -1819,7 +1947,7 @@ msgstr ""
 "fuente</link> )"
 
 #. (itstool) path: item/p
-#: C/overview-media.page:99
+#: C/overview-media.page:100
 msgid ""
 "<em style=\"strong\">PiTiVi</em> is a non-linear video editor, which makes "
 "extensive use of GStreamer."
@@ -1828,7 +1956,7 @@ msgstr ""
 "uso intensivo de GStreamer."
 
 #. (itstool) path: item/p
-#: C/overview-media.page:101
+#: C/overview-media.page:102
 msgid ""
 "( <link href=\"http://www.pitivi.org/\">Website</link> | <link href=\"http://"
 "www.pitivi.org/?go=screenshots\">Screenshots</link> | <link href=\"http://"
@@ -1839,7 +1967,7 @@ msgstr ""
 "<link href=\"http://www.pitivi.org/?go=download\">Código fuente</link> )"
 
 #. (itstool) path: info/desc
-#: C/overview-net.page:14
+#: C/overview-net.page:15
 msgid ""
 "Client and server HTTP communication, portable socket-based networking IO, "
 "and network device management."
@@ -1848,12 +1976,12 @@ msgstr ""
 "gestión de dispositivos de red."
 
 #. (itstool) path: page/title
-#: C/overview-net.page:17
+#: C/overview-net.page:18
 msgid "Low-level networking"
 msgstr "Red de bajo nivel"
 
 #. (itstool) path: item/p
-#: C/overview-net.page:21
+#: C/overview-net.page:22
 msgid ""
 "<em style=\"strong\">Create powerful and flexible HTTP servers and clients</"
 "em>"
@@ -1862,7 +1990,7 @@ msgstr ""
 "em>"
 
 #. (itstool) path: item/p
-#: C/overview-net.page:24
+#: C/overview-net.page:25
 msgid ""
 "<em style=\"strong\">Use portable socket-based APIs in a UI without "
 "blocking</em>"
@@ -1871,7 +1999,7 @@ msgstr ""
 "bloqueos</em>"
 
 #. (itstool) path: item/p
-#: C/overview-net.page:27
+#: C/overview-net.page:28
 msgid ""
 "<em style=\"strong\">Detect and manage the network connection state</em>"
 msgstr ""
@@ -1879,7 +2007,7 @@ msgstr ""
 "em>"
 
 #. (itstool) path: page/p
-#: C/overview-net.page:31
+#: C/overview-net.page:32
 msgid ""
 "Take advantage of the portable networking APIs for accessing network "
 "services. Asynchronous IO keeps your application UI responsive while IO is "
@@ -1892,7 +2020,7 @@ msgstr ""
 "aplicación responda adecuadamente cuando no hay acceso a Internet."
 
 #. (itstool) path: section/p
-#: C/overview-net.page:45
+#: C/overview-net.page:46
 msgid ""
 "To <em style=\"strong\">asynchronously access low-level networking APIs</"
 "em>, use <em style=\"strong\" xref=\"tech-gio-network\">GIO networking</em>. "
@@ -1907,7 +2035,7 @@ msgstr ""
 "\">sockets seguros (TLS)</em>."
 
 #. (itstool) path: section/p
-#: C/overview-net.page:51
+#: C/overview-net.page:52
 msgid ""
 "Simple monitoring of network state is available in GIO, but <em style="
 "\"strong\" xref=\"tech-network-manager\">NetworkManager</em> provides <em "
@@ -1920,7 +2048,7 @@ msgstr ""
 "topologías de red."
 
 #. (itstool) path: section/p
-#: C/overview-net.page:56
+#: C/overview-net.page:57
 msgid ""
 "<em style=\"strong\" xref=\"tech-soup\">Libsoup</em> provides a flexible "
 "interface for <em style=\"strong\">HTTP servers and clients</em>. Both "
@@ -1931,7 +2059,7 @@ msgstr ""
 "Se proporcionan API síncronas y asíncronas."
 
 #. (itstool) path: section/p
-#: C/overview-net.page:75
+#: C/overview-net.page:76
 msgid ""
 "You can see lots of real-world applications of GNOME networking technologies "
 "in open source projects, like the examples given below."
@@ -1941,7 +2069,7 @@ msgstr ""
 "siguientes ejemplos."
 
 #. (itstool) path: item/p
-#: C/overview-net.page:79
+#: C/overview-net.page:80
 msgid ""
 "<em style=\"strong\">Web</em> is the GNOME browser, which uses libsoup to "
 "access HTTP services."
@@ -1950,7 +2078,7 @@ msgstr ""
 "acceder a servicios HTTP."
 
 #. (itstool) path: item/p
-#: C/overview-net.page:81
+#: C/overview-net.page:82
 msgid ""
 "( <link href=\"http://projects.gnome.org/epiphany/\">Website</link> | <link "
 "href=\"xxx\">Screenshot</link> | <link href=\"https://git.gnome.org/browse/"
@@ -1961,7 +2089,7 @@ msgstr ""
 "gnome.org/browse/epiphany/\">Código fuente</link> )"
 
 #. (itstool) path: item/p
-#: C/overview-net.page:84
+#: C/overview-net.page:85
 msgid ""
 "<em style=\"strong\">GNOME Shell</em> is the user-visible GNOME desktop, "
 "which uses NetworkManager for the network status menu, including managing "
@@ -1972,7 +2100,7 @@ msgstr ""
 "gestión de sistema de redes cableadas, inalámbricas, módems 3G y VPN."
 
 #. (itstool) path: item/p
-#: C/overview-net.page:87
+#: C/overview-net.page:88
 msgid ""
 "( <link href=\"https://wiki.gnome.org/GnomeShell\">Website</link> | <link "
 "href=\"http://www.gnome.org/gnome-3/\">Screenshot</link> | <link href="
@@ -1983,31 +2111,31 @@ msgstr ""
 "href=\"https://git.gnome.org/browse/gnome-shell/\">Código fuente</link> )"
 
 #. (itstool) path: info/desc
-#: C/overview-settings.page:14
+#: C/overview-settings.page:15
 msgid "Flexible user configuration system."
 msgstr "Sistema de configuración del usuario flexible."
 
 #. (itstool) path: page/title
-#: C/overview-settings.page:17
+#: C/overview-settings.page:18
 msgid "Settings management"
 msgstr "Gestión de la configuración"
 
 #. (itstool) path: item/p
-#: C/overview-settings.page:21
+#: C/overview-settings.page:22
 msgid "<em style=\"strong\">High-level access for application settings</em>"
 msgstr ""
 "<em style=\"strong\">Acceso de alto nivel para configuración de "
 "aplicaciones</em>"
 
 #. (itstool) path: item/p
-#: C/overview-settings.page:24
+#: C/overview-settings.page:25
 msgid "<em style=\"strong\">Easily bind settings to UI elements</em>"
 msgstr ""
 "<em style=\"strong\">Asociación sencilla de configuración a elementos de la "
 "IU</em>"
 
 #. (itstool) path: item/p
-#: C/overview-settings.page:27
+#: C/overview-settings.page:28
 msgid ""
 "<em style=\"strong\">Flexible overrides for packagers and system "
 "administrators</em>"
@@ -2016,7 +2144,7 @@ msgstr ""
 "administradores de sistemas</em>"
 
 #. (itstool) path: page/p
-#: C/overview-settings.page:32
+#: C/overview-settings.page:33
 msgid ""
 "Store user settings and make your application respond to them automatically "
 "with GSettings. Easily override settings defaults as a system administrator. "
@@ -2029,7 +2157,7 @@ msgstr ""
 "facilidad, como pueden ser enteros, y vectores de cadenas."
 
 #. (itstool) path: section/p
-#: C/overview-settings.page:40
+#: C/overview-settings.page:41
 msgid ""
 "Use the <em style=\"strong\" xref=\"tech-gsettings\">GSettings</em> API of "
 "GIO to read and write <em style=\"strong\">application settings</em>. "
@@ -2047,12 +2175,12 @@ msgstr ""
 "configuración</em> con una única función."
 
 #. (itstool) path: section/p
-#: C/overview-settings.page:62
+#: C/overview-settings.page:63
 msgid "Nearly all GNOME applications use GSettings."
 msgstr "Casi todas las aplicaciones de GNOME usan GSettings."
 
 #. (itstool) path: item/p
-#: C/overview-settings.page:65
+#: C/overview-settings.page:66
 msgid ""
 "<em style=\"strong\">Dconf editor</em> is the GUI tool for managing "
 "preferences stored in the dconf database with GSettings."
@@ -2062,7 +2190,7 @@ msgstr ""
 "GSettings."
 
 #. (itstool) path: item/p
-#: C/overview-settings.page:67
+#: C/overview-settings.page:68
 msgid ""
 "( <link href=\"https://developer.gnome.org/dconf/unstable/dconf-editor.html"
 "\">Website</link> | <link href=\"https://git.gnome.org/browse/dconf/tree/"
@@ -2073,17 +2201,17 @@ msgstr ""
 "editor\">Código fuente</link> )"
 
 #. (itstool) path: info/desc
-#: C/overview-ui.page:14
+#: C/overview-ui.page:15
 msgid "Standard user interface elements, rendering, and animation."
 msgstr "Elementos estándar de la interfaz de usuario, renderizado y animación."
 
 #. (itstool) path: page/title
-#: C/overview-ui.page:17
+#: C/overview-ui.page:18
 msgid "User interface &amp; graphics"
 msgstr "Interfaz de usuario y gráficos"
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:21
+#: C/overview-ui.page:22
 msgid ""
 "<em style=\"strong\">Use a single toolkit for all the standard widgets in "
 "your application</em>"
@@ -2092,7 +2220,7 @@ msgstr ""
 "widgets estándar en su aplicación</em>"
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:24
+#: C/overview-ui.page:25
 msgid ""
 "<em style=\"strong\">Create fast, visually rich graphical interfaces</em>"
 msgstr ""
@@ -2100,7 +2228,7 @@ msgstr ""
 "em>"
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:27
+#: C/overview-ui.page:28
 msgid ""
 "<em style=\"strong\">Have high quality, antialiased and resolution-"
 "independent graphics</em>"
@@ -2109,20 +2237,20 @@ msgstr ""
 "independientes de la resolución</em>"
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:30
+#: C/overview-ui.page:31
 msgid ""
 "<em style=\"strong\">Easily add web functionality to your application</em>"
 msgstr ""
 "<em style=\"strong\">Añada fácilmente funcionalidad web a su aplicación</em>"
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:33
+#: C/overview-ui.page:34
 msgid "<em style=\"strong\">Access built-in assistive technologies</em>"
 msgstr ""
 "<em style=\"strong\">Acceso a tecnologías de asistencia integradas</em>"
 
 #. (itstool) path: page/p
-#: C/overview-ui.page:37
+#: C/overview-ui.page:38
 msgid ""
 "Use the powerful foundations of the GNOME platform to create consistent and "
 "flexible user interfaces. Make your applications available to the widest "
@@ -2138,7 +2266,7 @@ msgstr ""
 "elemento personalizado de la IU que cree."
 
 #. (itstool) path: section/p
-#: C/overview-ui.page:46
+#: C/overview-ui.page:47
 msgid ""
 "For applications with <em style=\"strong\">standard controls</em> which "
 "would be familiar to most users, use <em style=\"strong\"><link xref=\"tech-"
@@ -2154,7 +2282,7 @@ msgstr ""
 "de temas mediante CSS."
 
 #. (itstool) path: section/p
-#: C/overview-ui.page:52
+#: C/overview-ui.page:53
 msgid ""
 "To create <em style=\"strong\">fast, visually rich graphical interfaces</"
 "em>, use <em style=\"strong\"><link xref=\"tech-clutter\">Clutter</link></"
@@ -2167,7 +2295,7 @@ msgstr ""
 "Clutter, y también soporta entrada táctil y gestos."
 
 #. (itstool) path: section/p
-#: C/overview-ui.page:58
+#: C/overview-ui.page:59
 msgid ""
 "<em style=\"strong\">High quality, antialiased and resolution-independent 2D "
 "graphics</em> are provided by <em style=\"strong\"><link xref=\"tech-cairo"
@@ -2180,7 +2308,7 @@ msgstr ""
 "GTK+, y también se puede usar para obtener PDF y SVG."
 
 #. (itstool) path: section/p
-#: C/overview-ui.page:64
+#: C/overview-ui.page:65
 msgid ""
 "<em style=\"strong\"><link xref=\"tech-webkit\">WebKitGTK+</link></em> makes "
 "it easy to add <em style=\"strong\">web functionality</em> to your "
@@ -2193,7 +2321,7 @@ msgstr ""
 "en HTML5."
 
 #. (itstool) path: section/p
-#: C/overview-ui.page:69
+#: C/overview-ui.page:70
 msgid ""
 "GTK+, Clutter and WebKitGTK+ have <em style=\"strong\">built-in support for "
 "assistive technologies</em> with <em style=\"strong\"><link xref=\"tech-atk"
@@ -2207,7 +2335,7 @@ msgstr ""
 "sobre ATK."
 
 #. (itstool) path: section/p
-#: C/overview-ui.page:90
+#: C/overview-ui.page:91
 msgid ""
 "You can see lots of real-world applications of GNOME UI technologies in open "
 "source projects, like the examples given below."
@@ -2217,7 +2345,7 @@ msgstr ""
 "siguientes ejemplos."
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:94
+#: C/overview-ui.page:95
 msgid ""
 "<em style=\"strong\">Web</em> is the GNOME browser, which uses GTK+ and "
 "WebKitGTK+, and is fully accessible."
@@ -2226,7 +2354,7 @@ msgstr ""
 "WebKitGTK+, y es totalmente accesible."
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:96
+#: C/overview-ui.page:97
 msgid ""
 "( <link href=\"http://projects.gnome.org/epiphany/\">Website</link> | <link "
 "href=\"xxx\">Screenshot</link> | <link href=\"xxx\">Source code</link> )"
@@ -2236,7 +2364,7 @@ msgstr ""
 "fuente</link> )"
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:99
+#: C/overview-ui.page:100
 msgid ""
 "<em style=\"strong\">MonoDevelop</em> is a cross-platform IDE designed for "
 "C# and other .NET languages. It works on Linux, Mac OS X and Windows"
@@ -2246,7 +2374,7 @@ msgstr ""
 "Windows"
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:102
+#: C/overview-ui.page:103
 msgid ""
 "( <link href=\"http://monodevelop.com/\">Website</link> | <link href="
 "\"http://monodevelop.com/Screenshots\">Screenshots</link> | <link href="
@@ -2257,7 +2385,7 @@ msgstr ""
 "href=\"https://github.com/mono/monodevelop\">Código fuente</link> )"
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:105
+#: C/overview-ui.page:106
 msgid ""
 "<em style=\"strong\">Iagno</em> is a Reversi game for GNOME which uses "
 "Clutter for the animated game board."
@@ -2266,7 +2394,7 @@ msgstr ""
 "usa Clutter para el tablero de juego animado."
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:107
+#: C/overview-ui.page:108
 msgid ""
 "( <link href=\"https://live.gnome.org/Iagno\">Website</link> | <link href="
 "\"xxx\">Screenshot</link> | <link href=\"xxx\">Source code</link> )"
@@ -4092,17 +4220,17 @@ msgstr ""
 "<link href=\"http://www.packagekit.org/\">Página web de PackageKit</link>"
 
 #. (itstool) path: info/desc
-#: C/tech.page:14
+#: C/tech.page:15
 msgid "See a list of all of the development libraries in GNOME."
 msgstr "Ver una lista completa de las bibliotecas de desarrollo de GNOME."
 
 #. (itstool) path: page/title
-#: C/tech.page:17
+#: C/tech.page:18
 msgid "Platform libraries"
 msgstr "Bibliotecas de la plataforma"
 
 #. (itstool) path: page/p
-#: C/tech.page:19
+#: C/tech.page:20
 msgid ""
 "The GNOME platform is a rich collection of libraries. This is a list of all "
 "the platform libraries in GNOME, sorted by purpose."
@@ -4111,42 +4239,42 @@ msgstr ""
 "lista de todas las bibliotecas de GNOME, ordenadas por propósito."
 
 #. (itstool) path: links/title
-#: C/tech.page:25
+#: C/tech.page:26
 msgid "User interface and display"
 msgstr "Interfaz de usuario y pantalla"
 
 #. (itstool) path: links/title
-#: C/tech.page:31
+#: C/tech.page:32
 msgid "Storage of the user's data"
 msgstr "Almacenamiento de datos del usuario"
 
 #. (itstool) path: links/title
-#: C/tech.page:37
+#: C/tech.page:38
 msgid "File access"
 msgstr "Acceso a archivos"
 
 #. (itstool) path: links/title
-#: C/tech.page:43
+#: C/tech.page:44
 msgid "Networking"
 msgstr "Redes"
 
 #. (itstool) path: links/title
-#: C/tech.page:49
+#: C/tech.page:50
 msgid "Application support"
 msgstr "Soporte de aplicaciones"
 
 #. (itstool) path: links/title
-#: C/tech.page:61
+#: C/tech.page:62
 msgid "Inter-process communication"
 msgstr "Comunicación entre procesos"
 
 #. (itstool) path: links/title
-#: C/tech.page:67
+#: C/tech.page:68
 msgid "Geographical"
 msgstr "Geográfica"
 
 #. (itstool) path: links/title
-#: C/tech.page:73
+#: C/tech.page:74
 msgid "Foundational C utilities and object system"
 msgstr "Utilidades de C fundacionales y sistema de objetos"
 
@@ -5262,6 +5390,12 @@ msgstr ""
 "\n"
 "let app = new HelloWorld();\n"
 "app.application.run(ARGV);\n"
+
+#~ msgid "Developer's overview of the Gnome Platform"
+#~ msgstr "Vista general del desarrollador de la plataforma GNOME"
+
+#~ msgid "Development platform"
+#~ msgstr "Plataforma de desarrollo"
 
 #~ msgid "Code samples"
 #~ msgstr "Código de ejemplo"
@@ -6740,9 +6874,9 @@ msgstr ""
 #~ msgstr ""
 #~ "Se empezará echando un vistazo a la función <code>main()</code> completa. "
 #~ "Luego se verá el resto de secciones del código en detalle. Cambie el "
-#~ "archivo <file>src/main.c</file> para que contenga la función <code>main()"
-#~ "</code>. Puede eliminar la función <code>create_window()</code>, ya que "
-#~ "no se usa en este ejemplo."
+#~ "archivo <file>src/main.c</file> para que contenga la función "
+#~ "<code>main()</code>. Puede eliminar la función <code>create_window()</"
+#~ "code>, ya que no se usa en este ejemplo."
 
 #~ msgid ""
 #~ "Line 4: <code>ClutterColor</code> is defined by setting the red, green, "
@@ -7929,9 +8063,9 @@ msgstr ""
 #~ "Now we are creating a GStreamer element which accesses our webcam. We are "
 #~ "using the Camerabin element, which is an all-in-one camera element and is "
 #~ "capable of taking photos, videos, applying effects and much more. Perfect "
-#~ "for our use case! With <code>this.camerabin.set_state (Gst.State.PLAYING)"
-#~ "</code> we tell the GStreamer pipeline we just created to start playing. "
-#~ "Easy, no?"
+#~ "for our use case! With <code>this.camerabin.set_state (Gst.State."
+#~ "PLAYING)</code> we tell the GStreamer pipeline we just created to start "
+#~ "playing. Easy, no?"
 #~ msgstr ""
 #~ "Ahora se va a crear un elemento de GStreamer que accede a la cámara web. "
 #~ "Se va a usar el elemento «Camerabin», que es un elemento de cámara todo "
