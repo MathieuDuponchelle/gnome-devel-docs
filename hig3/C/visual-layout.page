@@ -1,0 +1,51 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="visual-layout">
+
+  <info>
+    <link type="guide" xref="essentials" group="visual-layout"/>   
+    <credit type="author">
+      <name>Allan Day</name>
+      <email>aday@gnome.org</email>
+    </credit>
+    <license href="http://creativecommons.org/licenses/by-sa/4.0/">
+      <p>This work is licensed under a
+      <link href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+      Commons Attribution-Share Alike 4.0 International License</link>.</p>
+    </license>
+    <desc>Arranging elements within a user interface.</desc>
+  </info>
+
+<title>Visual Layout</title>
+
+<p>The layout of controls and content on the screen should convey information about how it works, and should make your application easy to understand. This should also make it visually elegant.</p>
+
+<section id="guidelines">
+<title>General Guidelines</title>
+
+<list>
+<item><p>An alignment point is an imaginary vertical or horizontal line through your window that touches the edge of one or more labels or controls in the window. Minimize the number of these - the fewer there are, the cleaner and simpler your layout will appear, and the easier it will be for people to understand.</p></item>
+<item><p>Align content and controls in your layout exactly. The eye is very sensitive to aligned and unaligned objects. If visual elements do not lines up, it will be hard for someone to scan them. Elements that do not quite line up will be distracting.</p></item>
+<item><p>Be consistent. Use the same amounts of spacing and component sizes. Reuse the same amounts of spacing throughout.</p></item>
+<item><p>Communicate that visual elements and controls are related by placing them close to one another or by aligning them with each other.</p></item>
+<item><p>Organize visual elements from top-to-bottom and left-to-right. This is the direction that people from western locales tend to read an interface, so that the items at the top-left will be encountered first. This ordering gives interfaces a hierarchy: those components that are viewed first are perceived to have priority over those that come after them. For this reason, you should place dominant controls above and to the left of the controls and content that they affect. Header bars are a key design pattern in this respect.</p></item>
+<item><p>Horizontally align to the left, center and right. These alignment points are already provided by the top bar and can be used to create layouts that are both in harmony with the system and are consistent with other GNOME 3 applications.</p></item>
+</list>
+
+</section>
+
+<section id="groups">
+<title>Groups of Controls</title>
+
+<list>
+<item><p>As a basic rule of thumb, leave space between elements in increments of 6 pixels, going up as the relationship between related elements becomes more distant. For example, between icon labels and associated graphics within an icon, 6 pixels are adequate. Between labels and associated components, leave 12 horizontal pixels. For vertical spacing between groups of components, 18 pixels is adequate. A general padding of 12 pixels is recommended between the contents of a dialog window and the window borders.</p></item>
+<item><p>Indent elements by 12 pixels to denote hierarchy and association.
+Avoid using frames with visible borders to separate groups of controls - use spacing and headers instead.</p></item>
+<item><p>If possible, right-justify labels (see the diagram below). This will avoid large gaps between labels and their associated controls. This type of right-justification is not possible if you have indented controls: here left-justification should be used instead.</p></item>
+</list>
+
+<media type="image" mime="image/png" src="figures/label-alignment.png"/>
+
+</section>
+
+</page>

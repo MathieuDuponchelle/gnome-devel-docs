@@ -1,0 +1,23 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="guide"
+      id="essentials">
+
+  <info>
+    <credit type="author">
+      <name>Allan Day</name>
+      <email>aday@gnome.org</email>
+    </credit>
+    <license href="http://creativecommons.org/licenses/by-sa/4.0/">
+      <p>This work is licensed under a
+      <link href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+      Commons Attribution-Share Alike 4.0 International License</link>.</p>
+    </license>
+  </info>
+
+<title>Essentials</title>
+
+<p>This section covers essential themes.</p>
+
+<links style="2column" type="topic" groups="design-principles compatibility visual-layout icons-and-artwork writing-style typography keyboard-input"/>
+
+</page>

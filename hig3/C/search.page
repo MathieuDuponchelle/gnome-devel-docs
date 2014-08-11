@@ -1,0 +1,61 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="search">
+
+  <info>
+    <link type="guide" xref="patterns" group="search"/>   
+    <revision pkgversion="3.0" version="0.1" date="2010-12-04" status="stub"/>
+    <credit type="author">
+      <name>GNOME Documentation Project</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    
+  </info>
+
+<title>Search</title>
+
+<media type="image" mime="image/png" src="figures/search.png"/>
+
+<p>Search allows a content items to be found, by filtering content that is displayed on screen. It is distinct from find, which allows someone to jump to a particular point in a document.</p>
+
+<p>Search can be a fast and effective way to find content, and applications should ensure that search is always available when presenting large collections of content.</p>
+
+<section id="search-bar">
+<title>The Search Bar</title>
+
+<p>Search bars should be placed above the content which is to be searched.</p>
+
+<p>In primary windows, the search bar is typically hidden until it is activated by the user. There are three common ways to activate search in this context:</p>
+
+<list>
+<item><p>Typing when a text entry field is not focused should activate search, and the entered text should be added to the search field. This is called "Type to search".</p></item>
+<item><p>The keyboard shortcut for search (Ctrl+F).</p></item>
+<item><p>A search button in the header bar should allow the search bar to be displayed (the search button should toggle).</p></item>
+<item><p>If search is a primary method for finding content in your application, you can make the search bar permanently visible, or visible when the application is first started.</p></item>
+</list>
+
+</section>
+
+<section id="search-results">
+<title>Search Results</title>
+
+<list>
+<item><p>Search should be 'live' wherever possible - the content view should update to display search results as they are entered.</p></item>
+<item><p>In order to be effective, it is important that search results are quickly returned.</p></item>
+<item><p>If a search term does not return any results, ensure that feedback is given in the content view. Often a simple "No results" label is sufficient.</p></item>
+</list>
+
+</section>
+
+<section id="additional-guidance">
+<title>Additional Guidance</title>
+
+<list>
+<item><p>Be tolerant of mistakes in search terms. Matching misspellings or incorrect terminology is one way to do this. Presenting suggestions for similar matches or related content is another.</p></item>
+<item><p>Permit a broad range of matching search terms. This helps people who are unsure of the exact term they require but who do know characteristics associated with the item they want to find. A list of cities could return matches for country or region, for example.</p></item>
+<item><p>Results should be ordered in a way that ensures that the most relevant items are displayed first.</p></item>
+</list>
+
+</section>
+
+</page>

@@ -1,0 +1,43 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="drop-down-lists">
+
+  <info>
+    <credit type="author">
+      <name>Allan Day</name>
+      <email>aday@gnome.org</email>
+    </credit>
+    <license href="http://creativecommons.org/licenses/by-sa/4.0/">
+      <p>This work is licensed under a
+      <link href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+      Commons Attribution-Share Alike 4.0 International License</link>.</p>
+    </license>
+  </info>
+
+<title>Drop down lists</title>
+
+<p>A drop down list is a user interface element which allows the user to select from a list of mutually exclusive options. It appears as a button which, when clicked, reveals a list.</p>
+
+<media type="image" mime="image/png" src="figures/drop-down-list.png"/>
+
+<p>Radio buttons or a list will often be preferable to a drop down list, as they present all the available options at once without any further interaction. At the same time, a drop down list might be a better choice when:</p>
+
+<list>
+<item><p>The number of options is large.</p></item>
+<item><p>There is little available space.</p></item>
+<item><p>The list of options may change over time.</p></item>
+<item><p>The contents of the hidden part of the menu are obvious from its label and the one selected item. For example, if you have an option menu labelled "Month:" with the item "January" selected, the user might reasonably infer that the menu contains the 12 months of the year without having to look.</p></item>
+</list>
+
+<section id="guidelines">
+<title>Guidelines</title>
+
+<list>
+<item><p>While GTK+ does provide a specific combobox widget, it is recommended that drop down lists are constructed using a combination of a button and a popover. This prevents difficult scrolling behaviour for long lists, and allows search to be integrated into the list.</p></item>
+<item><p>If the number of items is very large, provide search.</p></item>
+<item><p>Label the drop-down list button with a text label above it or to its left, using sentence capitalization. Provide an access key in the label that allows the user to give focus directly to the drop-down list.</p></item>
+<item><p>Use sentence capitalization for drop-down list items, for example Switched movement.</p></item>
+</list>
+
+</section>
+</page>

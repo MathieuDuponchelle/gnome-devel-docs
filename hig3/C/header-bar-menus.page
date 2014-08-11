@@ -1,0 +1,35 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="header-bar-menus">
+
+  <info>
+    <link type="guide" xref="patterns" group="header-bar-menus"/>   
+    <revision pkgversion="3.0" version="0.1" date="2010-12-04" status="stub"/>
+    <credit type="author">
+      <name>GNOME Documentation Project</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    
+  </info>
+
+<title>Header Bar Menus</title>
+
+<media type="image" mime="image/png" src="figures/header-bar-menu.png"/>
+
+<p>Header bars can include a menu which contains actions and options for the current view. These menus are located at the far right side of the header bar.</p>
+
+<p>The most frequently used actions for a view should be placed directly in the header bar. The gear menu provides access to lesser-used actions, without overwhelming the header bar with less interesting or useful controls. In this way, the gear menu helps to create focused views that guide the user towards the most interesting and useful functionality.</p>
+
+<section id="guidance">
+<title>Guidance</title>
+
+<list>
+<item><p>Gear menus should only contain actions for the current view or window - this differentiates their content from application menus.</p></item>
+<item><p>Follow the standard guidelines for menus.</p></item>
+<item><p>A header bar menu is contained within a popover. As such, a header bar menu can include a variety of controls, such as groups of buttons.</p></item>
+<item><p>Gear menus shouldn't include a close menu item, since this a close action is already provided by the header bar. It can also be ambiguous as to what a close menu item refers to.</p></item>
+</list>
+
+</section>
+
+</page>

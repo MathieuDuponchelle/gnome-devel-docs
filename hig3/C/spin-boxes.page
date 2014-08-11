@@ -1,0 +1,53 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="spin-boxes">
+
+  <info>
+    <credit type="author">
+      <name>Allan Day</name>
+      <email>aday@gnome.org</email>
+    </credit>
+    <license href="http://creativecommons.org/licenses/by-sa/4.0/">
+      <p>This work is licensed under a
+      <link href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+      Commons Attribution-Share Alike 4.0 International License</link>.</p>
+    </license>
+  </info>
+
+<title>Spin boxes</title>
+
+<p>A spin box is a text box that accepts a range of values. It incorporates two buttons that allow the user to increase or decrease the value by a fixed amount.</p>
+
+<section id="when-to-use">
+<title>When to use</title>
+
+<p>Use spin boxes for numerical input only. Use a list or option menu when you need the user to select from fixed data sets of other types.</p>
+
+<p>Use a spin box if the numerical value is meaningful or useful for the user to know, and the valid input range is unlimited or fixed at one end only. For example, a control for specifying the number of iterations of some action, or a timeout value. If the range is fixed at both ends, or the numerical values are arbitrary (for example, a volume control), use a slider instead.</p>
+
+<p>If the exact value in the spin button is not relevant to a user, a slider might be a better choice of control.</p>
+
+</section>
+
+<section id="sliders">
+<title>Sliders</title>
+
+<p>In some cases, it is appropriate to link a spin button with a slider. This combination allows both approximate control and the entry of specific values. However, it is only useful if you want to cater to people who may know a specific value that they want to use. Use a slider when:</p>
+
+<list>
+<item><p>Immediate feedback for changes in the spin box's value is possible (such as in the case of image editing).</p></item>
+<item><p>It is useful for the user to control the rate of change of the value in real time. For example, to monitor the effects of a color change in a live preview window as they drag the RGB sliders.</p></item>
+</list>
+
+</section>
+
+<section id="general-guidelines">
+<title>General guidelines</title>
+
+<list>
+<item><p>Label the spin box with a text label above it or to its left, using sentence capitalization. Provide an access key in the label that allows the user to give focus directly to the spin box.</p></item>
+<item><p>Right-justify the contents of spin boxes, unless the convention in the user's locale demands otherwise. This is useful in windows where the user might want to compare two numerical values in the same column of controls. In this case, ensure the right edges of the relevant controls are also aligned.</p></item>
+</list>
+
+</section>
+</page>

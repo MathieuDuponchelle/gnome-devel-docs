@@ -1,0 +1,129 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="design-principles">
+
+  <info>
+    <link type="guide" xref="essentials" group="design-principles"/>
+    <credit type="author">
+      <name>Allan Day</name>
+      <email>aday@gnome.org</email>
+    </credit>
+    <license href="http://creativecommons.org/licenses/by-sa/4.0/">
+      <p>This work is licensed under a
+      <link href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+      Commons Attribution-Share Alike 4.0 International License</link>.</p>
+    </license>
+    <desc>General design guidelines and advice.</desc>
+  </info>
+
+<title>Design Principles</title>
+
+<p>The following design principles constitute a set of general rules that, when followed, will enable you to produce a high-quality user interface for your application.</p>
+
+<section id="focus">
+<title>Give your application a clear focus</title>
+
+<p>Clear, tightly defined goals are the key to good design. Identify a conceptually coherent set of functionality that you want to provide, and be careful to avoid mission creep. An application that tries to do too many disparate things will end up being complex and potentially confusing to users.</p>
+
+<p>Remember: the best applications provide an elegant solution to a specific task area.</p>
+
+</section>
+
+<section id="complexity">
+<title>Keep user interface complexity to a minimum</title>
+
+<p>Every control or piece of information that you add to your application creates additional work for users, and increases the complexity of your application - potentially making it more difficult and less pleasurable to use. Therefore, only include essential controls and information in your application interface.</p>
+
+<p>When adding a new control or piece of information, always take a moment to question whether it is necessary.</p>
+
+</section>
+
+<section id="progressive-disclosure">
+<title>Use progressive disclosure to show controls when they are needed</title>
+
+<p>Showing every possible control all the time makes an application harder to use, since users have to navigate controls that are often not relevant. Instead, only show controls when they are needed. This makes applications simpler to use, even if the same amount of functionality is provided.</p>
+
+<p>There are various ways to progressively disclose controls, from using different views or modes, to showing transient or floating controls when particular content items are selected.</p>
+
+</section>
+
+<section id="work">
+<title>Require as little work from the user as possible</title>
+
+<p>An application that is laborious to use can become the source of irritation, so strive to make your software work for your users, not the other way around. Every time your application requires input from users, either in the form of using controls or providing information, ask yourself whether it is possible to do that work for them.</p>
+
+<p>Try to avoid the need for a manual setup screen or assistant, and make it easy to go back to recently used content.</p>
+
+</section>
+
+<section id="hierarchy">
+<title>Create a clear hierarchy</title>
+
+<p>People tend to ‘read’ an interface from left to right and top to bottom. Items that are encountered first are seen to be dominant over those that come later. Use this implied hierarchy to communicate which parts of your application are most important.</p>
+
+<p>Position the most important controls towards the top-left of your windows, and place dominant controls prior to other controls they affect.</p>
+
+</section>
+
+<section id="content">
+<title>Prioritize content</title>
+
+<p>Applications typically present content, whether it is images, text, messages or more complex data. It is this content that your users will be interested in, and too many controls or user interface elements will distract from the focus of their attention.</p>
+
+<p>Give content as much space as possible in your user interface, by reducing the number of controls. Don't crowd out the primary object of interest with secondary information.</p>
+
+</section>
+
+<section id="errors">
+<title>Anticipate errors</title>
+
+<p>People make mistakes. Anticipating these mistakes will prevent damaging consequences, and will make your application more pleasurable and satisfying to use. The first line of defence here is to design your application so that mistakes cannot be made. Secondly, if it is possible to make a mistake, make it easy to recover.</p>
+
+<p>Automatically correct potentially invalid input, and always make it possible to undo destructive operations.</p>
+
+</section>
+
+<section id="interruptions">
+<title>Avoid interruptions</title>
+
+<p>Interruptions cause frustration, annoyance and prevent people from focusing on what they are interested in. Design your application so that it stays out of the way when it is not in use, and does not surprise when it is in use.</p>
+
+<p>Use notifications with restraint, always avoid spontaneously popping up dialogs without user intent, and avoid disruptive feedback mechanisms like message dialogs.</p>
+
+</section>
+
+<section id="search">
+<title>Provide quick and effective search</title>
+
+<p>Search is a powerful mechanism that can be used to quickly find content. Provide it whenever you present large amounts of content, whether in the form of lists or grids. When you provide a search function, it is vital that it is as immediate as possible, and that it returns the results that are sought by your users.</p>
+
+<p>GNOME 3 also provides an integrated search facility. Integrating application search into this gives people a quick and easy way to access the content provided by your application.</p>
+
+</section>
+
+<section id="options">
+<title>Use configuration options sparingly</title>
+
+<p>Adding options often seems like a simple design fix. However, most people will never see or use configuration options. Instead of adding options, try to make the default behaviour of your application work for as many people as possible.</p>
+
+</section>
+
+<section id="name-and-icon">
+<title>Give your application an instructive name and an attractive icon</title>
+
+<p>Your application’s name and icon are two of the most expressive things about it, so design them in order to communicate its function and identity. Make sure that people will understand the purpose of your application from its name. Ensure that you have a beautiful, recognisable application icon, to give your application an attractive and distinctive visual identity.</p>
+
+<p>Avoid obscure cultural references, inside jokes and acronyms in your application name, and ensure that you provide a hi-resolution version of your application icon.</p>
+
+</section>
+
+<section id="emotion">
+<title>Use emotion and humour (sparingly)</title>
+
+<p>Used effectively, emotion and humour can lift the experience provided by your application, and help to develop a positive relationship with your users. Be careful not to over-use these techniques though - it is far more effective to pick a small number of moments to use emotion, rather than spraying them throughout your user interface.</p>
+
+<p>Be welcoming when your application is used for the first time. Using humour when things go wrong is another effective technique.</p>
+
+</section>
+
+</page>

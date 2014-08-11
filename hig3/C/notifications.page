@@ -1,0 +1,78 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="notifications">
+
+  <info>
+    <link type="guide" xref="patterns" group="notifications"/>   
+    <credit type="author">
+      <name>Allan Day</name>
+      <email>aday@gnome.org</email>
+    </credit>
+    <license href="http://creativecommons.org/licenses/by-sa/4.0/">
+      <p>This work is licensed under a
+      <link href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+      Commons Attribution-Share Alike 4.0 International License</link>.</p>
+    </license>
+  </info>
+
+<title>Notifications</title>
+
+<p>Notifications enable you to inform the users about events when they are not using your application. The GNOME 3 notifications system provides a number of powerful features which enable you to create useful and effective messages.</p>
+
+<section id="notification-elements">
+<title>Notification Elements</title>
+
+Notifications in GNOME 3 have a number of standard components:
+
+<table>
+<tr>
+<td><p>Application Icon</p></td><td><p>Indicates which application sent the notification.</p></td>
+</tr>
+<tr>
+<td><p>Title</p></td><td><p>The heading for the notification.</p></td>
+</tr>
+<tr>
+<td><p>Body</p></td><td><p>An optional block of text which gives extra detail about the notification. The notification body can include multiple paragraphs. eg. A snippet from the beginning of an email.</p></td>
+</tr>
+<tr>
+<td><p>Default Action</p></td><td><p>This is the action that is triggered when the notification is activated.</p></td>
+</tr>
+<tr>
+<td><p>Actions</p></td><td><p>Each notification can include up to three buttons.</p></td>
+</tr>
+</table>
+
+<section id="titles">
+<title>Titles</title>
+
+<p>The title of the notification should provide a short and concise summary of the notification event. The notification body may not always be visible, so it is important to ensure that the notification can be understood from the title alone.</p>
+
+</section>
+
+<section id="default-actions">
+<title>Default Actions</title>
+
+<p>The default action should always dismiss the notification and raise a window belonging to the application that sent the notification. If the notification relates to a particular part of your application's user interface, the default action should display that part of the UI. The default action for a notification about a new email should show the relevant email message when activated, for example.</p>
+
+</section>
+
+<section id="actions">
+<title>Notification Actions</title>
+
+<p>Notifications allow you to provide useful functionality directly from a notification. Notification action buttons should be related to the content of the notification, and should not provide generic actions for your application. This ensures that each notification has a clear focus and purpose.</p>
+
+<p>Only make use of notification actions when the functionality they provide is commonly required through the notification itself. They should be used as an additional convenience, not a replacement for user interface controls elsewhere. It is not necessary to always use notification actions, and many notifications will not require them.</p>
+
+<p>Notification actions should not duplicate the default action. For example, a new email notification does not need to include an Open button, since the default action should already perform this action.</p>
+
+</section>
+</section>
+
+<section id="general-guidelines">
+<title>General Guidelines</title>
+
+<p>Avoid showing too many notifications - people do not enjoy being needlessly distracted, and it does not help them with their work. While it can be useful to notify the user about events, make an effort not to bombard them with too much information or to bother them too often. One strategy that can help with this is to combine multiple events into a single notification. An email application can periodically show a notification that indicates how many new emails there are, rather than showing a notification for each individual message, for example.</p>
+
+</section>
+
+</page>

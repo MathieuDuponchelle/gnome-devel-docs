@@ -1,0 +1,51 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="guide"
+      id="ui-elements">
+
+  <info>
+    <credit type="author">
+      <name>Allan Day</name>
+      <email>aday@gnome.org</email>
+    </credit>
+    <license href="http://creativecommons.org/licenses/by-sa/4.0/">
+      <p>This work is licensed under a
+      <link href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+      Commons Attribution-Share Alike 4.0 International License</link>.</p>
+    </license>
+  </info>
+
+<title>User Interface Elements</title>
+
+<p>User interface elements are the building blocks for application interfaces. The guidelines in this section are intended to help you get the details of your design right. It is recommended that you ensure that you are familiar with the various design patterns before you use this section.</p>
+
+<table>
+<tr>
+<td><p><link xref="buttons">Buttons</link></p></td>
+<td><media xref="buttons" type="image" mime="image/png" src="figures/buttons.png"/></td>
+<td><p><link xref="check-boxes">Check boxes</link></p></td><td><media xref="check-boxes" type="image" mime="image/png" src="figures/check-boxes.png"/></td>
+</tr>
+<tr>
+<td><p><link xref="drop-down-lists">Drop down lists</link></p></td>
+<td><media xref="drop-down-lists" type="image" mime="image/png" src="figures/drop-down-list.png"/></td>
+<td><p><link xref="menus">Menus</link></p></td>
+<td><media xref="menus" type="image" mime="image/png" src="figures/menu.png"/></td>
+</tr>
+<tr>
+<td><p><link xref="popovers">Popovers</link></p></td>
+<td><media xref="menus" type="image" mime="image/png" src="figures/popover.png"/></td>
+<td><p><link xref="radio-buttons">Radio buttons</link></p></td>
+<td><media xref="menus" type="image" mime="image/png" src="figures/radio-buttons.png"/></td>
+</tr>
+<tr>
+<td><p><link xref="switches">Switches</link></p></td>
+<td><media xref="switches" type="image" mime="image/png" src="figures/switches.png"/></td>
+<td><p><link xref="tabs">Tabs</link></p></td>
+<td><media xref="tabs" type="image" mime="image/png" src="figures/tabs.png"/></td>
+</tr>
+<tr>
+<td><p><link xref="text-fields">Text fields</link></p></td>
+<td><media xref="tabs" type="image" mime="image/png" src="figures/text-fields.png"/></td>
+</tr>
+</table>
+
+</page>

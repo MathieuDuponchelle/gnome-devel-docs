@@ -3,23 +3,39 @@
       id="index">
 
   <info>
-    <desc>Advice on user interface design and a collection of patterns</desc>
-    <revision pkgversion="3.0" version="0.1" date="2010-12-04" status="stub"/>
+    <revision pkgversion="3.0" version="0.1" date="2010-12-04"/>
     <credit type="author">
       <name>GNOME Documentation Project</name>
       <email>gnome-doc-list@gnome.org</email>
     </credit>
-    
   </info>
 
-  <title>GNOME Human Interface Guidelines</title>
+<title>GNOME Human Interface Guidelines</title>
 
-<section id="guidelines">
- <title>Guidelines</title>
+<p>The GNOME Human Interface Guidelines contain guidance on how to design an effective application using GTK+. The guidelines give access to a complete set of design guidance, from high-level design of your application, through to specific arrangements of user interface elements. It incorporates a blend of modern design thinking, along with a concern for practicality and ease of use.</p>
+
+<section id="audience">
+<title>Audience</title>
+
+<p>If you are a developer with limited design experience, the HIG is intended to assist you in easily creating an effective user interface. For designers, the HIG provides an introduction to the possibilities in using GTK+, as well as common design patterns that are used in GNOME applications.</p>
+
+<p>GTK+ is a flexible user interface toolkit. As such, these guidelines do not cover every possible design that is possible. Instead, they document recommended practices for creating desktop applications.</p>
+
+<p>Similarly, while the HIG does provide guidance on GNOME 3 integration, and can be used to ensure consistency with other GNOME 3 applications, it can be used as a resource for those creating cross-platform applications, or applications which do not closely follow GNOME 3 application design practices.</p>
 </section>
-  
-<section id="patterns">
- <title>Pattern Library</title>
+
+<section id="structure">
+<title>Structure of the HIG</title>
+
+<p>The Human Interface Guidelines can be read from beginning to end or used as a reference resource that can be returned to again and again. They have three main sections:</p>
+
+<list>
+<item><p><link xref="essentials">Essentials</link> - these pages include overarching guidance on thematic topics. They include sections on recommended design principles, as well as guidance on themes like writing style and artwork.</p></item>
+<item><p><link xref="patterns">Patterns</link> - design patterns make up the core of the HIG. Each pattern is a particular arrangement of user interface elements which can be used to construct an application design. The patterns allow key design decisions to be abstracted away from the nitty gritty of individual user interface elements.</p></item>
+<item><p><link xref="ui-elements">Interface elements</link> - guidance on the various interface elements, such as buttons, switches, and sliders, that you can use in your application.
+If you have never read the Human Interface Guidelines before, it is recommended that you start with the Basics section, in particular the design principles page, before continuing to learn about the design patterns.</p></item>
+</list>
+
 </section>
 	
 </page>

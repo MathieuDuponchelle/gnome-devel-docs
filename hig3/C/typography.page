@@ -1,0 +1,78 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="typography">
+
+  <info>
+    <link type="guide" xref="essentials" group="typography"/>   
+    <credit type="author">
+      <name>Allan Day</name>
+      <email>aday@gnome.org</email>
+    </credit>
+    <license href="http://creativecommons.org/licenses/by-sa/4.0/">
+      <p>This work is licensed under a
+      <link href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+      Commons Attribution-Share Alike 4.0 International License</link>.</p>
+    </license>
+    <desc>Font sizes, weights and styles, and special characters.</desc>
+  </info>
+
+<title>Typography</title>
+
+<p>Text is an important part of any user interface. Text size, positioning, weight all contribute to the ability for text to convey information effectively, and also play an important role in creating a beautiful appearance.</p>
+
+<section id="default-fonts">
+<title>Default Fonts</title>
+
+<p>Wherever possible, use the default system fonts as provided by the distribution or operating system on which your application is running. In GNOME 3, the default font is Cantarell, which was originally designed and developed by David Crossland.</p>
+
+</section>
+
+<section id="variants-sizes-weights">
+<title>Variants, Sizes and Weights</title>
+
+<p>Different text weights and colours can and should be used to distinguish different kinds of information. At the same time, too many variants, sizes, and weights can make text harder to read and isn't an efficient or elegant way to convey information. Make an effort to minimize the range of font variants, sizes and weights.</p>
+
+<list>
+<item><p>Use smaller and/or lighter text for less important information, and heavier/darker text to attract attention to important text.</p></item>
+<item><p>Avoid the use of italic or oblique faces, as these are visually more complex, and can be distracting.</p></item>
+<item><p>Never capitalise every letter in a word or sentence. Shouting at your users isn't nice.</p></item>
+<item><p>Do not use graphical backdrops or "watermarks" behind text. These interfere with the contrast between the text and its background.</p></item>
+</list>
+
+</section>
+
+<section id="unicode">
+<title>Take Advantage of Unicode</title>
+
+<table>
+<thead>
+<tr>
+<td><p>Usage</p></td><td><p>Incorrect</p></td><td><p>Correct</p></td><td><p>Unicode to use</p></td>
+</tr>
+</thead>
+<tr>
+<td><p>Quotation</p></td><td><p>"quote"</p></td><td><p>“quote”</p></td><td><p>U+201C LEFT DOUBLE QUOTATION MARK, U+201D RIGHT DOUBLE QUOTATION MARK</p></td>
+</tr>
+<tr>
+<td><p>Time</p></td><td><p>4:20</p></td><td><p>4∶20</p></td><td><p>U+2236 RATIO</p></td>
+</tr>
+<tr>
+<td><p>Multiplication</p></td><td><p>1024x768</p></td><td><p>1024×768</p></td><td><p>U+00D7 MULTIPLICATION SIGN</p></td>
+</tr>
+<tr>
+<td><p>Ellipsis</p></td><td><p>Introducing...</p></td><td><p>Introducing…</p></td><td><p>U+2026 HORIZONTAL ELLIPSIS</p></td>
+</tr>
+<tr>
+<td><p>Apostrophe</p></td><td><p>The user's preferences</p></td><td><p>The user’s preferences</p></td><td><p>U+2019 RIGHT SINGLE QUOTATION MARK</p></td>
+</tr>
+<tr>
+<td><p>Bullet list</p></td><td><p>- One\n- Two\n- Three</p></td><td><p>• One\n • Two\n • Three</p></td><td><p>U+2022 BULLET</p></td>
+</tr>
+<tr>
+<td><p>Ranges</p></td><td><p>June-July 1967</p></td><td><p>June–July 1967</p></td><td><p>U+2013 EN DASH</p></td>
+</tr>
+</table>
+
+</section>
+
+</page>

@@ -1,0 +1,71 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="buttons">
+
+  <info>
+    <credit type="author">
+      <name>Allan Day</name>
+      <email>aday@gnome.org</email>
+    </credit>
+    <license href="http://creativecommons.org/licenses/by-sa/4.0/">
+      <p>This work is licensed under a
+      <link href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+      Commons Attribution-Share Alike 4.0 International License</link>.</p>
+    </license>
+  </info>
+
+<title>Buttons</title>
+
+<p>Buttons are one of the most common and basic user interface elements. Buttons can be used to perform actions, toggle settings or views, activate tools, or to display dialogs, popovers, or other user interface elements.</p>
+
+<media type="image" mime="image/png" src="figures/buttons.png"/>
+
+<section id="general-guidelines">
+<title>General Guidelines</title>
+
+<list>
+<item><p>An button can contain an icon, button, or - more unusually - an image. Follow the icons and artwork guidelines when deciding which to use.</p></item>
+<item><p>After pressing a button, the user should expect to see the result of their action within 1 second.</p></item>
+<item><p>Do not use more than one or two different widths of button in the same window, and make all of them the same height. This will help give a pleasing uniform visual appearance to your window that makes it easier to use.</p></item>
+<item><p>Do not assign actions to double-clicking or right-clicking a button. Users are unlikely to discover these actions, and if they do, it will distort their expectations of other buttons on the desktop.</p></item>
+<item><p>Make invalid buttons insensitive, rather than popping up an error message when the user clicks them.</p></item>
+<item><p>When several buttons are placed next to each other, ensure that they have the same width. This is particularly important for pairs of Cancel and OK buttons.</p></item>
+<item><p>In a dialog, one button may be made the default button, which is shown with a different border and is activated by pressing Return. Often this will be the OK or equivalent button. However, if pressing this button by mistake could cause a loss of data, do not set a default button for the window.</p></item>
+</list>
+
+</section>
+
+<section id="text-buttons">
+<title>Text buttons</title>
+
+<p>Label all buttons with imperative verbs, using header capitalization. For example, Save, Sort or Update Now. Provide an access key in the label that allows the user to directly activate the button from the keyboard.</p>
+
+<p>Use an ellipsis (...) at the end of the label if the action requires further input from the user before it can be carried out. For example, Save As... or Find.... Do not add an ellipsis to commands like Properties, Preferences, or Settings, as these open windows that do not require further input.</p>
+
+</section>
+
+<section id="toggle-buttons">
+<title>Toggle buttons</title>
+
+<p>Toggle buttons look the same as regular buttons, but are used to show or change a state rather than initiate an action. A toggle button's two states, set and unset, are shown by its appearing "pushed in" or "popped out" respectively.</p>
+
+</section>
+
+<section id="linked-buttons">
+<title>Linked buttons</title>
+
+<p>Groups of buttons with a similar function can be grouped. This helps to communicate their similarity. Linking is a common technique for sets of toggle buttons.</p>
+
+</section>
+
+<section id="suggested-and-destructive">
+<title>Suggested and destructive actions</title>
+
+<p>In cases where a button has a particularly important affirmative role, it can be given a suggested style. This highlights the button, and helps to distinguish it from other visible controls.</p>
+
+<p>Buttons which have a destructive consequence, such as removing or deleting a content item, can be given a destructive style. This highlights the button by coloring it, and acts as a warning to the user.</p>
+
+<p>Each view should only include a single suggested or destructive button.</p>
+
+</section>
+</page>

@@ -1,0 +1,65 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="popovers">
+
+  <info>
+    <credit type="author">
+      <name>Allan Day</name>
+      <email>aday@gnome.org</email>
+    </credit>
+    <license href="http://creativecommons.org/licenses/by-sa/4.0/">
+      <p>This work is licensed under a
+      <link href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+      Commons Attribution-Share Alike 4.0 International License</link>.</p>
+    </license>
+  </info>
+
+<title>Popovers</title>
+
+<p>A popover is a transient container that appears over its parent window in response to a user action. Popovers can contain a variety of UI elements.</p>
+
+<media type="image" mime="image/png" src="figures/popover.png"/>
+
+<section id="when-to-use">
+<title>When to use</title>
+
+<p>Popovers can be used to reveal additional controls that are not always needed by the user. They can include settings or properties, or can allow the user to take actions.</p>
+
+<p>Examples of popover usage include:</p>
+
+<list>
+<item><p>Revealing a small toolbox of text formatting controls.</p></item>
+<item><p>A find UI, with a search entry box and a space for a list of results.</p></item>
+<item><p>A collection of view controls, such as zoom, list/grid and content ordering.</p></item>
+</list>
+
+<p>Popovers are a means to disclose additional user interface elements. As such, they are similar to dialog windows. Their main advantage over dialogs is that they are less disruptive and have a close relationship with a single element which the popover points to.</p>
+
+<p>However, despite popovers having advantages over dialogs, dialogs can still be a better choice. In particular, you should consider using a dialog if you want to display large amounts of information, or more complex arrangements of controls, or if the situation requires one of the common conventions for dialog usage, such as a confirmation dialog.</p>
+
+<p>For more details, see the <link xref="dialogs">dialog window pattern</link>.</p>
+
+</section>
+
+<section id="general-guidelines">
+<title>General Guidelines</title>
+
+<p>Popovers should always be small in size (as a rule of thumb, they should not cover more than a third of their parent window) and low in complexity. They should always appear as subordinates to their parent windows.</p>
+
+<p>A popover should only ever appear in response to a user action, and should always relate to a specific UI element which acts as the source of the popover. A common pattern is to use a button as the way to reveal a popover.</p>
+
+</section>
+
+<section id="popover-content">
+<title>Popover Content</title>
+
+<list>
+<item><p>A popover can just contain a menu, including submenus.</p></item>
+<item><p>You can combine a menu with other controls, such as buttons, sliders or text boxes. However, don't mix too many different types of control, and try to group controls of the same type together.</p></item>
+<item><p>Popovers can be given a heading to clarify their purpose.</p></item>
+<item><p>Close or "done" buttons are not usually required in a popover.</p></item>
+</list>
+
+</section>
+
+</page>

@@ -1,0 +1,49 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="application-menus">
+
+  <info>
+    <link type="guide" xref="patterns" group="application-menus"/>   
+    <credit type="author">
+      <name>Allan Day</name>
+      <email>aday@gnome.org</email>
+    </credit>
+    <license href="http://creativecommons.org/licenses/by-sa/4.0/">
+      <p>This work is licensed under a
+      <link href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+      Commons Attribution-Share Alike 4.0 International License</link>.</p>
+    </license>
+  </info>
+
+<title>Application Menus</title>
+
+<media type="image" mime="image/png" src="figures/application-menu.png"/>
+
+<p>Application menus provide access to global, top level actions and options for your application. These include standard items for accessing documentation and information about the application.</p>
+
+<section id="menu-items">
+<title>Menu Items</title>
+
+<p>Only include menu items that relate to the application as a whole, such as application preferences. Actions that are specific to a particular window or view, or which act on content within an application window, should not be included.</p>
+
+<p>Common application menu items include New Window, Preferences, Help, About and Quit.</p>
+
+<list>
+<item><p>If your application has user help, you should include a Help item.</p></item>
+<item><p>Every application menu should include About and Quit.</p></item>
+<item><p>If there are items other than Help, About and Quit, separate them into their own group at the bottom of the menu.</p></item>
+</list>
+
+</section>
+
+<section id="additional-guidance">
+<title>Additional Guidance</title>
+
+<list>
+<item><p>Follow the standard design guidance for menus.</p></item>
+<item><p>If an item from the application menu is frequently used, consider moving (or duplicating) it to a more accessible location.</p></item>
+</list>
+
+</section>
+
+</page>

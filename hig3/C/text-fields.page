@@ -1,0 +1,53 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="text-fields">
+
+  <info>
+    <credit type="author">
+      <name>Allan Day</name>
+      <email>aday@gnome.org</email>
+    </credit>
+    <license href="http://creativecommons.org/licenses/by-sa/4.0/">
+      <p>This work is licensed under a
+      <link href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+      Commons Attribution-Share Alike 4.0 International License</link>.</p>
+    </license>
+  </info>
+
+<title>Text Fields</title>
+
+<p>A text entry field is a widget for entering or editing text. They are a basic interface element with a variety of uses, including search entry, settings and preferences, or account configuration and setup. A text entry field can be prefilled with text, and can include additional buttons or icons.</p>
+
+<media type="image" mime="image/png" src="figures/text-fields.png"/>
+
+<section id="general-guidelines">
+<title>General Guidelines</title>
+
+<list>
+<item><p>Size text fields according to the likely size of the content they will contain. This gives a useful visual cue to the amount of input expected and prevents overflow.</p></item>
+<item><p>In an instant-apply window, validate the contents of the entry field when it loses focus or when the window is closed, not after each keypress. Exception: if the field accepts only a fixed number of characters, such as a hexadecimal color code, validate and apply the change as soon as that number of characters have been entered.</p></item>
+<item><p>If you implement an entry field that only accepts certain characters, such as digits, play the system warning beep when the user tries to type an invalid character.</p></item>
+<item><p>Normally, pressing Tab in a single-line entry field should move focus to the next control, and in a multi-line entry field it should insert a tab character. Pressing Ctrl+Tab in a multi-line entry field should move focus to the next control.</p></item>
+<item><p>If you need to provide a keyboard shortcut that inserts a tab character into a single line entry field, use Ctrl+Tab. You are unlikely to find many situations where this is useful, however.</p></item>
+</list>
+
+</section>
+
+<section id="embedding-info-and-controls">
+<title>Embedding information and controls</title>
+
+<p>A variety of additional information or controls can be inserted within a text entry field.</p>
+
+<p>Icons or icon buttons can be placed inside a text field to provide status information or additional controls.</p>
+
+<list>
+<item><p>An icon at the beginning of the entry can be used to indicate its purpose - replacing the need for the entry to be labelled. Search entry fields are the classic example of this, where a search icon is placed on the left side of the entry field.</p></item>
+<item><p>If the text to be entered is case sensitive, a warning icon can be shown inside the text field if caps lock is on. This is typically shown on the right side of the entry.</p></item>
+<item><p>If it is a common for the text field to be cleared, a clear icon button can be placed inside the field, at the right side.</p></item>
+<item><p>If you place an icon in a text entry field (either as an indicator or a button), use its symbolic variant from the GNOME Symbolic Icon Theme.</p></item>
+</list>
+
+<p>When a user would benefit from additional information in order to use a text entry field, it can be prefilled with a hint text. As with any decision to display additional information, this should only be done when it is necessary.</p>
+
+</section>
+</page>

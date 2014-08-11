@@ -1,0 +1,43 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="selection-mode">
+
+  <info>
+    <link type="guide" xref="patterns" group="selection-mode"/>   
+    <revision pkgversion="3.0" version="0.1" date="2010-12-04" status="stub"/>
+    <credit type="author">
+      <name>GNOME Documentation Project</name>
+      <email>gnome-doc-list@gnome.org</email>
+    </credit>
+    
+  </info>
+
+<title>Selection Mode</title>
+
+<media type="image" mime="image/png" src="figures/selection-mode.png"/>
+
+<p>Selection mode is used in conjunction with lists and grids. It allows actions to be performed on items of content.</p>
+
+<p>When selection mode is active, check boxes allow items to be selected. Additionally, an action bar is shown at the bottom of the view. This contains the various actions that can be made on selected content items.</p>
+
+<section id="activating-selection-mode">
+<title>Activating Selection Mode</title>
+
+<p>The primary way of activating selection mode is through the selection mode button, which is located in the header bar and which is identified by a check mark icon. Selection mode can also be activated by rubber band selection, or by holding Ctrl or Shift and clicking/pressing content items.</p>
+
+</section>
+
+<section id="action-bar">
+<title>Action Bar</title>
+
+<p>An action bar is displayed when selection mode is activated.</p>
+
+<list>
+<item><p>Controls in the action bar should be insensitive when no items have been selected. Sometimes actions may only be applied to multiple content items; in this case the relevant controls should only be sensitive when multiple items are selected.</p></item>
+<item><p>Controls in the action toolbar can have icons or text labels.</p></item>
+<item><p>Groups of actions can be distinguished by placing them at either end of the toolbar. Destructive actions, like delete, should be placed away from other controls.</p></item>
+</list>
+
+</section>
+
+</page>
