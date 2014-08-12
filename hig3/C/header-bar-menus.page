@@ -12,22 +12,33 @@
     
   </info>
 
-<title>Header Bar Menus</title>
+<title>Header bar menus</title>
 
 <media type="image" mime="image/png" src="figures/header-bar-menu.png"/>
 
-<p>Header bars can include a menu which contains actions and options for the current view. These menus are located at the far right side of the header bar.</p>
+<p><link xref="header-bars">Header bars</link> can include a menu which contains actions and options for the current view. These menus are located at the far right side of the header bar.</p>
 
-<p>The most frequently used actions for a view should be placed directly in the header bar. The gear menu provides access to lesser-used actions, without overwhelming the header bar with less interesting or useful controls. In this way, the gear menu helps to create focused views that guide the user towards the most interesting and useful functionality.</p>
+<p>While the most frequently used actions for a view should be placed directly in the header bar, a header bar menu provides access to lesser-used actions. This ensures that the header bar isn't overwhelmed with less interesting or useful controls.</p>
+
+<p>In this way, the header bar menus help to create focused views that guide the user towards the most interesting and useful functionality.</p>
+
+<section id="when-to-use">
+<title>When to use</title>
+
+<p>Use a header bar menu to present additional actions or options for the current view. They are best used when those actions or options are not used the majority of the time - if there is a set of actions which deserve more prominence in the view, an <link xref="action-bar">action bar</link> might be a better choice.</p>
+
+<p>Header bar menus are not a good choice for performing actions on selected content: when content hasn't been selected, the menu will contain unhelpful insensitive menu items, when it has been selected, possible actions will not be advertised. <link xref="selection-mode">Selection mode</link> or <link>popovers</link> are a better choice for this situation.</p>
+
+</section>
 
 <section id="guidance">
 <title>Guidance</title>
 
 <list>
-<item><p>Gear menus should only contain actions for the current view or window - this differentiates their content from application menus.</p></item>
-<item><p>Follow the standard guidelines for menus.</p></item>
-<item><p>A header bar menu is contained within a popover. As such, a header bar menu can include a variety of controls, such as groups of buttons.</p></item>
-<item><p>Gear menus shouldn't include a close menu item, since this a close action is already provided by the header bar. It can also be ambiguous as to what a close menu item refers to.</p></item>
+<item><p>Header bar menus should only contain actions for the current view or window - this differentiates their content from application menus.</p></item>
+<item><p>Follow the <link xref="menus">standard guidelines for menus</link>.</p></item>
+<item><p>A header bar menu is contained within a <link xref="popovers">popover</link>. As such, a header bar menu can include a variety of controls, such as groups of buttons.</p></item>
+<item><p>Header bar menus shouldn't include a close menu item, since this action is already provided by the header bar. It can also be ambiguous as to what a close menu item refers to.</p></item>
 </list>
 
 </section>

@@ -21,17 +21,24 @@
 
 <p>Application menus provide access to global, top level actions and options for your application. These include standard items for accessing documentation and information about the application.</p>
 
+<section id="when-to-use">
+<title>When to use</title>
+
+<p>Application menus are a standard part of GNOME 3, and every application that runs under GNOME 3 should have one.</p>
+
+</section>
+
 <section id="menu-items">
-<title>Menu Items</title>
+<title>Menu items</title>
 
 <p>Only include menu items that relate to the application as a whole, such as application preferences. Actions that are specific to a particular window or view, or which act on content within an application window, should not be included.</p>
 
 <p>Common application menu items include New Window, Preferences, Help, About and Quit.</p>
 
 <list>
-<item><p>If your application has user help, you should include a Help item.</p></item>
-<item><p>Every application menu should include About and Quit.</p></item>
-<item><p>If there are items other than Help, About and Quit, separate them into their own group at the bottom of the menu.</p></item>
+<item><p>If your application has user help, you should include a <gui>Help</gui> item.</p></item>
+<item><p>Every application menu should include <gui>About</gui> and <gui>Quit</gui>.</p></item>
+<item><p>If there are items other than <gui>Help</gui>, <gui>About</gui> and <gui>Quit</gui>, separate them into their own group at the bottom of the menu.</p></item>
 </list>
 
 </section>
@@ -40,8 +47,8 @@
 <title>Additional Guidance</title>
 
 <list>
-<item><p>Follow the standard design guidance for menus.</p></item>
-<item><p>If an item from the application menu is frequently used, consider moving (or duplicating) it to a more accessible location.</p></item>
+<item><p>Follow the standard <link xref="menus">design guidance for menus</link>.</p></item>
+<item><p>If an item from the application menu is frequently used, consider moving it to a more accessible location.</p></item>
 </list>
 
 </section>

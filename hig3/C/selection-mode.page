@@ -4,33 +4,49 @@
 
   <info>
     <link type="guide" xref="patterns" group="selection-mode"/>   
-    <revision pkgversion="3.0" version="0.1" date="2010-12-04" status="stub"/>
     <credit type="author">
-      <name>GNOME Documentation Project</name>
-      <email>gnome-doc-list@gnome.org</email>
+      <name>Allan Day</name>
+      <email>aday@gnome.org</email>
     </credit>
-    
+    <license href="http://creativecommons.org/licenses/by-sa/4.0/">
+      <p>This work is licensed under a
+      <link href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+      Commons Attribution-Share Alike 4.0 International License</link>.</p>
+    </license>
   </info>
 
-<title>Selection Mode</title>
+<title>Selection mode</title>
 
 <media type="image" mime="image/png" src="figures/selection-mode.png"/>
 
-<p>Selection mode is used in conjunction with lists and grids. It allows actions to be performed on items of content.</p>
+<p>Selection mode is a design pattern for allow actions to be performed on items of content. It is typically used in conjunction with lists and grids.</p>
 
-<p>When selection mode is active, check boxes allow items to be selected. Additionally, an action bar is shown at the bottom of the view. This contains the various actions that can be made on selected content items.</p>
+<p>When selection mode is active, check boxes allow items to be selected, and an action bar is shown at the bottom of the view. This contains the various actions that can be made on selected content items.</p>
+
+<section id="when-to-use">
+<title>When to use</title>
+
+<p>Selection mode is appropriate when:</p>
+
+<list>
+<item><p>It is common to perform actions simultaneously on multiple content items.</p></item>
+<item><p>Multiple actions are available to be performed on content items.</p></item>
+<item><p>It is helpful for users to be able to perform actions on content items without opening them.</p></item>
+</list>
+
+<p>If it is more typical for users to perform actions on single content items, you might want to consider another design pattern, such as a context menu. Likewise, if there is only one action that can be performed on content items, a varient of selection mode can be used (an overlaid button could allow the action to be performed on items directly, rather than requiring them to be selected first, for example).</p>
+
+</section>
 
 <section id="activating-selection-mode">
-<title>Activating Selection Mode</title>
+<title>Activating selection mode</title>
 
 <p>The primary way of activating selection mode is through the selection mode button, which is located in the header bar and which is identified by a check mark icon. Selection mode can also be activated by rubber band selection, or by holding Ctrl or Shift and clicking/pressing content items.</p>
 
 </section>
 
 <section id="action-bar">
-<title>Action Bar</title>
-
-<p>An action bar is displayed when selection mode is activated.</p>
+<title>The action bar</title>
 
 <list>
 <item><p>Controls in the action bar should be insensitive when no items have been selected. Sometimes actions may only be applied to multiple content items; in this case the relevant controls should only be sensitive when multiple items are selected.</p></item>
@@ -39,5 +55,4 @@
 </list>
 
 </section>
-
 </page>

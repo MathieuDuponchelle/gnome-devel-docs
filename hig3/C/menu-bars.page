@@ -1,0 +1,21 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="menu-bars">
+
+  <info>
+    <credit type="author">
+      <name>Allan Day</name>
+      <email>aday@gnome.org</email>
+    </credit>
+    <license href="http://creativecommons.org/licenses/by-sa/4.0/">
+      <p>This work is licensed under a
+      <link href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+      Commons Attribution-Share Alike 4.0 International License</link>.</p>
+    </license>
+  </info>
+
+<title>Menu Bars</title>
+
+<p>Alternatives to menu bars include <link xref="header-bar-menus">header bar menus</link>, <link xref="selection-mode">selection mode</link>, <link xref="application-menus">application menus</link>, and <link xref="action-bars">action bars</link>.</p>
+
+</page>

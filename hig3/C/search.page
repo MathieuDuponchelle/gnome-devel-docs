@@ -16,28 +16,38 @@
 
 <media type="image" mime="image/png" src="figures/search.png"/>
 
-<p>Search allows a content items to be found, by filtering content that is displayed on screen. It is distinct from find, which allows someone to jump to a particular point in a document.</p>
+<p>Search allows a content items to be located by filtering content that is displayed on screen. It is distinct from find, which involves moving or highlighting the content that is being searched for, rather than filtering.</p>
 
-<p>Search can be a fast and effective way to find content, and applications should ensure that search is always available when presenting large collections of content.</p>
+<section id="when-to-use">
+<title>When to use</title>
+
+<p>Provide search whenever a large collection of content is presented, and those content items have a textual component. This could be a collection of actual content items, such as documents, contacts or videos, or a list of options.</p>
+
+<p>Search is a great way to make it easy for users to find what it is they are looking for, and its consistent availability means that users can rely on and expect it to be present.</p>
+
+<p>However, while search can be highly effective, and some users will use it, others will not. Therefore, try to supplement other means for finding content items with search, rather than relying on it exclusively.</p>
+
+</section>
 
 <section id="search-bar">
-<title>The Search Bar</title>
+<title>The search bar</title>
 
-<p>Search bars should be placed above the content which is to be searched.</p>
+<p>The standard pattern for search in GNOME 3 utilises a special search bar which slides down from beneath the header bar.
 
-<p>In primary windows, the search bar is typically hidden until it is activated by the user. There are three common ways to activate search in this context:</p>
+In primary windows, the search bar is typically hidden until it is activated by the user. There are three common ways to activate search in this context:</p>
 
 <list>
-<item><p>Typing when a text entry field is not focused should activate search, and the entered text should be added to the search field. This is called "Type to search".</p></item>
+<item><p>Typing when a text entry field is not focused should activate search, and the entered text should be added to the search field. This is called "type to search".</p></item>
 <item><p>The keyboard shortcut for search (Ctrl+F).</p></item>
 <item><p>A search button in the header bar should allow the search bar to be displayed (the search button should toggle).</p></item>
-<item><p>If search is a primary method for finding content in your application, you can make the search bar permanently visible, or visible when the application is first started.</p></item>
 </list>
+
+<p>If search is a primary method for finding content in your application, you can make the search bar permanently visible, or visible when the application is first started.</p>
 
 </section>
 
 <section id="search-results">
-<title>Search Results</title>
+<title>Search results</title>
 
 <list>
 <item><p>Search should be 'live' wherever possible - the content view should update to display search results as they are entered.</p></item>

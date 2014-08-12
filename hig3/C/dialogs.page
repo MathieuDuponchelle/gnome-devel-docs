@@ -16,31 +16,44 @@
 
 <p>Dialogs are secondary windows that appear over a primary, parent window. They are used to present additional information or controls, including preferences, properties, or to present messages or questions.</p>
 
-<p>Dialogs are a commonly recognized design pattern, and there are established conventions for the different types of dialogs that you might want to use.</p>
-
-<p>While dialogs can be an effective way to disclose additional controls or information, they can also be a source of interruption for the user. For this reason, always question whether a dialog is necessary, and work to avoid the situations in which they are required.</p>
-
 <p>GNOME 3 provides a number of stock dialogs that you can be used, such as for printing or color selection.</p>
 
 <p>There are three basic types of dialog in GNOME 3.</p>
+
+<section id="when-to-use">
+<title>When to use</title>
+
+<p>Dialogs are a commonly recognized design pattern, and there are established conventions for the different types of dialogs that you might want to use. The guidelines on each type of dialog provides further information on this.</p>
+
+<p>While dialogs can be an effective way to disclose additional controls or information, they can also be a source of interruption for the user. For this reason, always question whether a dialog is necessary, and work to avoid the situations in which they are required.</p>
+
+<p>There are many ways to avoid using dialogs. Examples include:</p>
+
+<list>
+<item><p>Inline composition for new messages, records or contacts.</p></item>
+<item><p>In-application notifications are an alternative to message dialogs.</p></item>
+<item><p><link xref="popovers">Popovers</link> can be a way to display additional controls or options in a less disruptive manner.</p></item>
+</list>
+
+</section>
 
 <section id="message-dialogs">
 <title>Message Dialogs</title>
 
 <media type="image" mime="image/png" src="figures/message-dialog.png"/>
 
-<p>Message dialogs are the simplest type of dialog. They present a message or question, along with 1-3 buttons with which to respond. They are always modal, meaning that they prevent access to their parent window. They are an appropriate choice when it is essential that the user sees and responds to a message.</p>
+<p>Message dialogs are the simplest type of dialog. They present a message or question, along with 1-3 buttons with which to respond. They are always modal, meaning that they prevent access to their parent window. Message dialogs are an appropriate choice when it is essential that the user sees and responds to a message.</p>
 
 <section id="message-dialog-examples">
 <title>Examples</title>
 
 <p>Confirmation dialogs use a message dialog to check - or confirm - that the user wants to carry out an action. They have two buttons: one to confirm that the action should be carried out and one to cancel the action.</p>
 
-<note><p>Confirmation dialogs will often be accidentally or automatically acknowledged, and will not always prevent mistakes from happening. It is often better to provide undo functionality instead.</p></note>
+<note style="tip"><p>Confirmation dialogs will often be accidentally or automatically acknowledged, and will not always prevent mistakes from happening. It is often better to provide undo functionality instead.</p></note>
 
-<p>Error dialogs simply present an error message to the user. They often include a single button that allows the user to acknowledge and close the dialog.</p>
+<p>Error dialogs present an error message to the user. They often include a single button that allows the user to acknowledge and close the dialog.</p>
 
-<note><p>Error dialogs should generally be a last resort. You should design your application so that errors do not occur, and to automatically recover if something does go wrong.</p></note>
+<note style="tip"><p>Error dialogs should generally be a last resort. You should design your application so that errors do not occur, and to automatically recover if something does go wrong.</p></note>
 
 </section>
 </section>
@@ -72,9 +85,9 @@
 <section id="presentation-dialog-examples">
 <title>Examples</title>
 
-<p>Preferences and Properties are both examples of presentation dialogs, and both present information and settings in relation to a specific entity (either an application or a content item). Properties dialogs are a good example of how dialogs can be used to disclose additional information which is not always needed in the main application window.</p>
+<p>Preferences and properties are both examples of presentation dialogs, and both present information and settings in relation to a specific entity (either an application or a content item). Properties dialogs are a good example of how dialogs can be used to disclose additional information which is not always needed in the main application window.</p>
 
-<note><p>Resist the temptation to provide a preference window for your application. Always question whether additional settings are really necessary. Most people will not bother to investigate the preferences that you provide, and configuration options will contribute to the complexity of your application. Make an effort to ensure that your application design works for everybody without the need to change its settings.</p></note>
+<note style="tip"><p>Resist the temptation to provide a preference window for your application. Always question whether additional settings are really necessary. Most people will not bother to investigate the preferences that you provide, and configuration options will contribute to the complexity of your application. Make an effort to ensure that your application design works for everybody without the need to change its settings.</p></note>
 
 </section>
 
@@ -96,10 +109,10 @@
 <list>
 <item><p>Dialog windows should never pop up unexpectedly, and should only ever be displayed in immediate response to a deliberate user action.</p></item>
 <item><p>Dialogs should always have a parent window.</p></item>
-<item><p>Follow the layout guidelines when designing the content of windows.</p></item>
-<item><p>You can use view switchers in dialogs to break up controls and information.</p></item>
+<item><p>Follow the <link xref="visual-layout">layout guidelines</link> when designing the content of windows.</p></item>
+<item><p>Use <link xref="view-switchers">view switchers</link> or <link xref="tabs">tabs</link> to break up controls and information.</p></item>
 <item><p>Avoid stacking dialog windows on top of one another. Only one dialog window should be displayed at a time.</p></item>
-<item><p>When an affirmative button is included, label it with its actual action. Print is a better label thanOK or Done, for example.</p></item>
+<item><p>When an affirmative button is included, label it with its actual action. <gui>Print</gui> is a better label than <gui>OK</gui> or <gui>Done</gui>, for example.</p></item>
 <item><p>When opening a dialog, provide initial keyboard focus to the component that you expect users to operate first.</p></item>
 </list>
 

@@ -24,10 +24,12 @@
 <item><p>Controls - header bars provide a place for key controls, typically in the form of buttons.</p></item>
 </list>
 
-<section id="context">
-<title>Use Your Header Bar to Provide Context</title>
+<section id="when-to-use">
+<title>When to use</title>
 
-<p>Header bars should provide context for the window content below. This can either be done by placing a heading in the center of the header bar, or by including a view switcher. Providing context in this way aids navigation, and clarifies what is displayed in the window itself.</p>
+<p>Header bars are recommended for all application windows. They provide a number of advantages over the traditional combination of title bars, menu bar and toolbar, including a smaller vertical footprint, and dynamic navigation and mode changes (such as with <link xref="selection-mode">selection mode</link>).</p>
+
+<p>Header bars are incompatible with menu bars. If your application already incorporates a menu bar, you should evaluate the alternatives suggested in these guidelines. See the <link xref="menu-bars">menu bar guidelines</link> for more details on this.</p>
 
 </section>
 
@@ -43,22 +45,24 @@
 </section>
 
 <section id="dynamic">
-<title>Header Bars are Dynamic</title>
+<title>Header bars are dynamic</title>
 
 <p>A header bar can - and should - update along with view or mode changes. This ensures that header bar controls are always relevant to the current context.</p>
 
-<p>If the window includes multiple views (accessed through a view switcher), the header bar can include different controls for each view.</p>
+<p>If the window includes multiple views (accessed through a <link xref="view-switchers">view switcher</link>), the header bar can include different controls for each view.</p>
+
+<p>If the window incorporates navigation, different controls can be shown depending on the location displayed in the window itself. It is common to show a back button on the left side of the header bar when navigating.</p>
 
 </section>
 
 <section id="additional-guidance">
-<title>Additional Guidance</title>
+<title>Additional guidance</title>
 
 <list>
-<item><p>Arrange controls within the header bar according to the three alignment points described in the Visual Layout guidelines - left, centre and right.</p></item>
-<item><p>New and back buttons should be placed on the left side of the header bar.</p></item>
-<item><p>View selectors should always be placed in the center of the header bar.</p></item>
-<item><p>Follow the lead of the core GNOME 3 applications and repeat the conventions that they establish.</p></item>
+<item><p>A header bar should always provide context for the window it belongs to. This aids window identification, and clarifies what is displayed in the window itself. This can either be done by placing a heading in the center of the header bar, or by including a <link xref="view-switchers">view switcher</link>.</p></item>
+<item><p>Arrange controls within the header bar according to the three alignment points described in the <link xref="visual-layout">visual layout guidelines</link> - left, centre and right.</p></item>
+<item><p><gui>New</gui> and back buttons should be placed on the left side of the header bar.</p></item>
+<item><p>Always ensure that there is room for a header bar to be dragged. This is necessary to enable windows to be moved or resized.</p></item>
 </list>
 
 </section>
