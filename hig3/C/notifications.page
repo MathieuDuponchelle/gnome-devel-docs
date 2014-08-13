@@ -17,12 +17,12 @@
 
 <title>Notifications</title>
 
-<p>Notifications enable you to inform the users about events when they are not using your application. They also provide the ability for users to quickly respond to those events, using notification actions..</p>
+<p>Notifications enable you to inform the users about events when they are not using your application. They also provide the ability for users to quickly respond to those events, using notification actions.</p>
 
 <section id="notification-elements">
 <title>Notification elements</title>
 
-Notifications in GNOME 3 have a number of standard components:
+<p>Notifications in GNOME 3 have a number of standard components:</p>
 
 <table>
 <tr>

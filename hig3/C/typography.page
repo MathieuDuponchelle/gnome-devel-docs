@@ -50,6 +50,7 @@
 <td><p>Usage</p></td><td><p>Incorrect</p></td><td><p>Correct</p></td><td><p>Unicode to use</p></td>
 </tr>
 </thead>
+<tbody>
 <tr>
 <td><p>Quotation</p></td><td><p>"quote"</p></td><td><p>“quote”</p></td><td><p>U+201C LEFT DOUBLE QUOTATION MARK, U+201D RIGHT DOUBLE QUOTATION MARK</p></td>
 </tr>
@@ -71,6 +72,7 @@
 <tr>
 <td><p>Ranges</p></td><td><p>June-July 1967</p></td><td><p>June–July 1967</p></td><td><p>U+2013 EN DASH</p></td>
 </tr>
+</tbody>
 </table>
 
 </section>

@@ -26,11 +26,11 @@
 <p>There are many situations when it is necessary to decide between using an icon and a text label, particularly for buttons. Icons have the advantage of being smaller, and not requiring translation. At the same time, the incorrect use of an icon can make your interface hard - or even impossible - to understand.</p>
 
 <list>
-<item><p>Only use icons whose meaning is commonly recognized. If a commonly recognised icon is not available, it might be better to use a text label instead.</p></item>
+<item><p>Only use icons whose meaning is commonly recognized. If a commonly recognised icon is not available, it might be better to use a text label instead.</p>
 <list>
 <item><p>Convention establishes which icons will be recognised. If you are in doubt, stick to icons which are frequently used in other applications.</p></item>
 <item><p>Consider which icons will be meaningful in the specific context of your application - users of specialist tools will often be familiar with domain-specific symbols.</p></item>
-</list>
+</list></item>
 <item><p>Remember that some icons are only meaningful alongside other icons of the same type. For example, a media icon for stop is simply a square, and may not be identified as a stop icon without other media controls (like play, pause, or skip) being visible close by. Likewise, the icon to remove an item from a list is a subtract symbol (ie. a single line), and will not be recognisable without a corresponding "plus" add icon.</p></item>
 </list>
 

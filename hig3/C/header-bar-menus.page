@@ -27,7 +27,7 @@
 
 <p>Use a header bar menu to present additional actions or options for the current view. They are best used when those actions or options are not used the majority of the time - if there is a set of actions which deserve more prominence in the view, an <link xref="action-bar">action bar</link> might be a better choice.</p>
 
-<p>Header bar menus are not a good choice for performing actions on selected content: when content hasn't been selected, the menu will contain unhelpful insensitive menu items, when it has been selected, possible actions will not be advertised. <link xref="selection-mode">Selection mode</link> or <link>popovers</link> are a better choice for this situation.</p>
+<p>Header bar menus are not a good choice for performing actions on selected content: when content hasn't been selected, the menu will contain unhelpful insensitive menu items, when it has been selected, possible actions will not be advertised. <link xref="selection-mode">Selection mode</link> or <link xref="popovers">popovers</link> are a better choice for this situation.</p>
 
 </section>
 

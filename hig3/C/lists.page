@@ -77,6 +77,7 @@
 <td><p>Example</p></td>
 </tr>
 </thead>
+<tbody>
 <tr>
 <td><p>Natural</p></td>
 <td><p>Down</p></td>
@@ -87,6 +88,7 @@
 <td><p>Up</p></td>
 <td><p>Reverse alphabetical, largest number first, most recent date first, unchecked items first</p></td>
 </tr>
+</tbody>
 
 </table>
 

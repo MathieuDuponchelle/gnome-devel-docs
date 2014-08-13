@@ -51,6 +51,7 @@
 <td><p>Description</p></td>
 </tr>
 </thead>
+<tbody>
 <tr>
 <td><p><gui>New</gui></p></td>
 <td><p><keyseq><key>Ctrl</key><key>N</key></keyseq></p></td>
@@ -63,6 +64,7 @@
 <td><p><keyseq><key>Ctrl</key><key>O</key></keyseq></p></td>
 <td><p>Opens an existing document in a new window. Present the user with a standard <gui>Open File</gui> dialog from which they can choose an existing file. If the chosen file is already open in the application, raise that window instead of opening a new one.</p></td>
 </tr>
+</tbody>
 </table>
 
 </section>
@@ -78,6 +80,7 @@
 <td><p>Description</p></td>
 </tr>
 </thead>
+<tbody>
 <tr>
 <td><p><gui>Save</gui></p></td>
 <td><p><keyseq><key>Ctrl</key><key>S</key></keyseq></p></td>
@@ -114,6 +117,7 @@
 <td><p>None</p></td>
 <td><p>An alternative to the <gui>Save Version</gui> and <gui>Restore Version</gui> commands. Use this when more utilities, such as a diff, are available.</p></td>
 </tr>
+</tbody>
 </table>
 
 </section>
@@ -129,6 +133,7 @@
 <td><p>Description</p></td>
 </tr>
 </thead>
+<tbody>
 <tr>
 <td><p><gui>Page Setup</gui></p></td>
 <td><p>None</p></td>
@@ -149,6 +154,7 @@
 <td><p><keyseq><key>Ctrl</key><key>M</key></keyseq></p></td>
 <td><p>Provides the user a means to attach or send the current document as an email or email attachment, depending on its format. You may provide more than one <gui>Send</gui> item depending on which options are available. If there are more than two such items, move them into a submenu. For example, if only <gui>Send by Email</gui> and <gui>Send by Fax</gui> are available, leave them on the top-level menu If there is a third option, such as <gui>Send by FTP</gui>, place all the options in a Send submenu.</p></td>
 </tr>
+</tbody>
 </table>
 
 </section>
@@ -164,11 +170,13 @@
 <td><p>Description</p></td>
 </tr>
 </thead>
+<tbody>
 <tr>
 <td><p><gui>Properties…</gui></p></td>
 <td><p><keyseq><key>Alt</key><key>Return</key></keyseq></p></td>
 <td><p>Opens the document's <gui>Properties</gui> window. This may contain editable information, such as the document author's name, or read-only information, such as the number of words in the document, or a combination of both. The <keyseq><key>Alt</key><key>Return</key></keyseq> shortcut should not be provided where <key>Return</key> is most frequently used to insert a new line.</p></td>
 </tr>
+</tbody>
 </table>
 
 </section>
@@ -184,6 +192,7 @@
 <td><p>Description</p></td>
 </tr>
 </thead>
+<tbody>
 <tr>
 <td><p><gui>Close</gui></p></td>
 <td><p><keyseq><key>Ctrl</key><key>W</key></keyseq></p></td>
@@ -202,6 +211,7 @@
 <td><p>Closes the application. If there are unsaved changes in any open documents, present the user with a confirmation alert for each affected document, giving the option to save the changes, discard them, or cancel. If there are no unsaved changes, close the application immediately without presenting any further messages or dialogs.</p>
 <p>In particular, non-document based applications, for example a game or a calculator, should save their state and exit immediately. This state should be restored the next time the application is started.</p></td>
 </tr>
+</tbody>
 </table>
 
 </section>
@@ -230,6 +240,7 @@
 <td><p>Description</p></td>
 </tr>
 </thead>
+<tbody>
 <tr>
 <td><p><gui>Undo <em>action</em></gui></p></td>
 <td><p><keyseq><key>Ctrl</key><key>Z</key></keyseq></p></td>
@@ -241,6 +252,7 @@
 <td><p>Performs the next action in the undo history list, after the user has moved backwards through the list with the <gui>Undo</gui> command. Move the user one step forwards again, restoring the document to the state it was in after that action was originally performed.</p>
 <p>Note: provide a separate <gui>Undo</gui> and <gui>Redo</gui> menu item even if your application only supports one level of undo.</p></td>
 </tr>
+</tbody>
 </table>
 
 </section>
@@ -256,6 +268,7 @@
 <td><p>Description</p></td>
 </tr>
 </thead>
+<tbody>
 <tr>
 <td><p><gui>Cut</gui></p></td>
 <td><p><keyseq><key>Ctrl</key><key>X</key></keyseq></p></td>
@@ -296,6 +309,7 @@
 <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>A</key></keyseq></p></td>
 <td><p>Deselects all content in the current document. Only provide this item in situations when no other method of undoing selection is possible or apparent to the user. For example, in complex graphics applications where selection and deselection is not usually possible simply by using the cursor keys. Note: Do not provide <gui>Deselect All</gui> in text entry fields, as <keyseq><key>Shift</key><key>Ctrl</key><key>hex</key></keyseq> digit is used to enter unicode characters so its shortcut will not work.</p></td>
 </tr>
+</tbody>
 </table>
 
 </section>
@@ -311,6 +325,7 @@
 <td><p>Description</p></td>
 </tr>
 </thead>
+<tbody>
 <tr>
 <td><p><gui>Find…</gui></p></td>
 <td><p><keyseq><key>Ctrl</key><key>F</key></keyseq></p></td>
@@ -331,6 +346,7 @@
 <td><p><keyseq><key>Ctrl</key><key>H</key></keyseq></p></td>
 <td><p>Opens a window or dialog allowing the user to search for specific content in the current document, and replace each occurrence with new content.</p></td>
 </tr>
+</tbody>
 </table>
 
 </section>
@@ -359,6 +375,7 @@
 <td><p>Description</p></td>
 </tr>
 </thead>
+<tbody>
 <tr>
 <td><p><gui>Icons</gui></p></td>
 <td><p>None</p></td>
@@ -373,7 +390,7 @@
 <td><p><gui>Details</gui></p></td>
 <td><p>None</p></td>
 <td><p>Shows the contents of the selected container as single column of small icons, each with its name on its right-hand side. Additional columns give extra information about the object each icon represents, for example the size and modification date of files in a file manager. This is a radio button menu item.</p>
-<p>If your application has no need for both <p>List</p> and <p>Details</p> modes, use the List item for whichever of the two modes you support.</p></td>
+<p>If your application has no need for both <gui>List</gui> and <gui>Details</gui> modes, use the List item for whichever of the two modes you support.</p></td>
 </tr>
 <tr>
 <td><p><gui>Sort By…</gui></p></td>
@@ -415,6 +432,7 @@
 <td><p><keyseq><key>Ctrl</key><key>R</key></keyseq></p></td>
 <td><p>Redraws the current view of the document, checking the data source for changes first. For example, checks the web server for updates to the page before redrawing it. If your application requires both <gui>Reload</gui> and <gui>Refresh</gui>, use <keyseq><key>Shift</key><key>Ctrl</key><key>R</key></keyseq> as the shortcut for <gui>Reload</gui>.</p></td>
 </tr>
+</tbody>
 </table>
 
 </section>
@@ -434,6 +452,7 @@
 <td><p>Description</p></td>
 </tr>
 </thead>
+<tbody>
 <tr>
 <td><p><gui>Page Break</gui></p></td>
 <td><p>None</p></td>
@@ -484,6 +503,7 @@
 <td><p>None</p></td>
 <td><p>Inserts a link to an object stored in a different file, or on a remote system. The object is not embedded in or saved with the document, only a link to it. Open a dialog in which the user can type or choose the name of the object, for example a filename or a webpage URL. Show the link in the document in as informative way as possible. For example, show a link to an image as a thumbnail of that image, unless the user specifies otherwise.</p></td>
 </tr>
+</tbody>
 </table>
 
 </section>
@@ -505,6 +525,7 @@
 <td><p>Description</p></td>
 </tr>
 </thead>
+<tbody>
 <tr>
 <td><p><gui>Style…</gui></p></td>
 <td><p>None</p></td>
@@ -557,6 +578,7 @@
 <td><p>None</p></td>
 <td><p>Sets the properties of all or selected pages of the document. Open a dialog allowing the user to choose paper size, orientation, columns, margins, or whatever other attributes are applicable.</p></td>
 </tr>
+</tbody>
 </table>
 
 </section>
@@ -574,6 +596,7 @@
 <td><p>Description</p></td>
 </tr>
 </thead>
+<tbody>
 <tr>
 <td><p><gui>Add Bookmark</gui></p></td>
 <td><p><keyseq><key>Ctrl</key><key>D</key></keyseq></p></td>
@@ -589,6 +612,7 @@
 <td><p>None</p></td>
 <td><p>The user's current list of bookmarks for the application.</p></td>
 </tr>
+</tbody>
 </table>
 
 </section>
@@ -611,6 +635,7 @@
 <td><p>Description</p></td>
 </tr>
 </thead>
+<tbody>
 <tr>
 <td><p><gui>Back</gui></p></td>
 <td><p><keyseq><key>Alt</key><key>Left</key></keyseq></p></td>
@@ -636,6 +661,7 @@
 <td><p><keyseq><key>Ctrl</key><key>L</key></keyseq></p></td>
 <td><p>Navigates to a user-specified URI. Open a dialog into which the user can type a suitable URI, or select one from a list where applicable (for example, a file selection dialog for applications that can handle file:// URIs).</p></td>
 </tr>
+</tbody>
 </table>
 
 </section>
@@ -651,6 +677,7 @@
 <td><p>Description</p></td>
 </tr>
 </thead>
+<tbody>
 <tr>
 <td><p><gui>Previous Page</gui></p></td>
 <td><p><key>PageUp</key></p></td>
@@ -676,6 +703,7 @@
 <td><p><keyseq><key>Ctrl</key><key>End</key></keyseq></p></td>
 <td><p>Navigates to the last page in the document.</p></td>
 </tr>
+</tbody>
 </table>
 
 </section>
@@ -701,6 +729,7 @@
 <td><p>Description</p></td>
 </tr>
 </thead>
+<tbody>
 <tr>
 <td><p><gui>Save All</gui></p></td>
 <td><p>None</p></td>
@@ -716,6 +745,7 @@
 <td><p>None</p></td>
 <td><p>Each menu item raises the corresponding window to the top of the window stack.</p></td>
 </tr>
+</tbody>
 </table>
 
 </section>
@@ -733,6 +763,7 @@
 <td><p>Description</p></td>
 </tr>
 </thead>
+<tbody>
 <tr>
 <td><p><gui>Contents</gui></p></td>
 <td><p><key>F1</key></p></td>
@@ -743,6 +774,7 @@
 <td><p>None</p></td>
 <td><p>Opens the About dialog for the application. Use the standard dialog provided by the GNOME libraries, which contains the name and version number of the application, a short description of the application's functionality, author contact details, copyright message and a pointer to the licence under which the application is made available.</p></td>
 </tr>
+</tbody>
 </table>
 
 </section>
