@@ -17,10 +17,10 @@
 
 <title>Notifications</title>
 
-<p>Notifications enable you to inform the users about events when they are not using your application. The GNOME 3 notifications system provides a number of powerful features which enable you to create useful and effective messages.</p>
+<p>Notifications enable you to inform the users about events when they are not using your application. They also provide the ability for users to quickly respond to those events, using notification actions..</p>
 
 <section id="notification-elements">
-<title>Notification Elements</title>
+<title>Notification elements</title>
 
 Notifications in GNOME 3 have a number of standard components:
 
@@ -45,34 +45,50 @@ Notifications in GNOME 3 have a number of standard components:
 <section id="titles">
 <title>Titles</title>
 
-<p>The title of the notification should provide a short and concise summary of the notification event. The notification body may not always be visible, so it is important to ensure that the notification can be understood from the title alone.</p>
+<p>The title should provide a short and concise summary of the event that triggered the notification. The notification body may not always be visible, so it is important to ensure that the notification can be understood from the title alone.</p>
 
 </section>
 
 <section id="default-actions">
-<title>Default Actions</title>
+<title>Default actions</title>
 
 <p>The default action should always dismiss the notification and raise a window belonging to the application that sent the notification. If the notification relates to a particular part of your application's user interface, the default action should display that part of the UI. The default action for a notification about a new email should show the relevant email message when activated, for example.</p>
 
 </section>
 
 <section id="actions">
-<title>Notification Actions</title>
+<title>Notification actions</title>
 
-<p>Notifications allow you to provide useful functionality directly from a notification. Notification action buttons should be related to the content of the notification, and should not provide generic actions for your application. This ensures that each notification has a clear focus and purpose.</p>
+<p>You can provide useful functionality by embedding buttons in notifications. This allows users to quickly and easily respond to the notification.</p>
 
-<p>Only make use of notification actions when the functionality they provide is commonly required through the notification itself. They should be used as an additional convenience, not a replacement for user interface controls elsewhere. It is not necessary to always use notification actions, and many notifications will not require them.</p>
-
-<p>Notification actions should not duplicate the default action. For example, a new email notification does not need to include an Open button, since the default action should already perform this action.</p>
+<list>
+<item><p>Notification actions should be related to the content of the notification, and should not provide generic actions for your application. This ensures that each notification has a clear focus and purpose.</p></item>
+<item><p>Only use notification actions when the functionality that they provide is commonly required.</p></item>
+<item><p>Actions shold not replace user interface controls elsewhere - it should be possible to take the same actions from your application's windows.</p></item>
+<item><p>It is not necessary to always use notification actions, and many notifications will not require them.</p></item>
+<item><p>Notification actions should not duplicate the default action. For example, a new email notification does not need to include an Open button, since the default action should already perform this action.</p></item>
+</list>
 
 </section>
+</section>
+
+<section id="dont-distract">
+<title>Don't distract</title>
+
+<p>People do not enjoy being needlessly distracted, and it does not help them with their work. So, avoid showing too many notifications.</p>
+
+<p>One strategy that can help with this is to combine multiple events into a single notification. An email application can periodically show a notification that indicates how many new emails there are, rather than showing a notification for each individual message, for example.</p>
+
 </section>
 
 <section id="general-guidelines">
-<title>General Guidelines</title>
+<title>General guidelines</title>
 
-<p>Avoid showing too many notifications - people do not enjoy being needlessly distracted, and it does not help them with their work. While it can be useful to notify the user about events, make an effort not to bombard them with too much information or to bother them too often. One strategy that can help with this is to combine multiple events into a single notification. An email application can periodically show a notification that indicates how many new emails there are, rather than showing a notification for each individual message, for example.</p>
+<p>Notifications are primarily intended to keep the user informed when they are not using your application, and they shouldn't be relied upon to inform the user while they are using your application.</p>
+
+<p>Ensure that your application window provides sufficient feedback that users are informed about events without the need for notifications.</p>
+
+<p>Remove notifications when your application window is focused.</p>
 
 </section>
-
 </page>

@@ -1,0 +1,116 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="lists">
+
+  <info>
+    <link type="guide" xref="patterns" group="lists"/>   
+    <credit type="author">
+      <name>Allan Day</name>
+      <email>aday@gnome.org</email>
+    </credit>
+    <license href="http://creativecommons.org/licenses/by-sa/4.0/">
+      <p>This work is licensed under a
+      <link href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+      Commons Attribution-Share Alike 4.0 International License</link>.</p>
+    </license>
+  </info>
+
+<title>Lists</title>
+
+<p>Lists are a basic user interface element, that can be used to present information, content items, or controls. There are two primary types of list in GNOME 3: standard lists and tables.</p>
+
+<p>Sidebar lists are a separate design pattern which also make use of a list.</p>
+
+<section id="when-to-use">
+<title>When to use</title>
+
+<p>A list is an appropriate way to present content items that have a distinct name. If the content is visual in nature, such as with photos or videos, you might want to consider using a grid instead.</p>
+
+<p>In some cases, it is advantageous to show both a list and a grid view for the same content items. Used in this way, a list view allows additional information to be displayed about the content through columns of information.</p>
+
+</section>
+
+<section id="standard-lists">
+<title>Standard lists</title>
+
+<p>Used for simple lists, where the number of columns is low, sorting by every column is not required, and changing the sort order is relatively uncommon.</p>
+
+<p>Rows have separators. Sorting is acheived by using a control outside the list itself.</p>
+
+<p>In general, standard lists should be used in favour of tables.</p>
+
+<section id="styles">
+<title>Styles</title>
+
+<media type="image" mime="image/png" src="figures/list-styles.png"/>
+
+<p>Standard lists have two styles: embedded and full-width.</p>
+
+</section>
+
+<section id="editable-lists">
+<title>Editable lists</title>
+
+<media type="image" mime="image/png" src="figures/editable-lists.png"/>
+
+<p>If the number of items is short, a list row can be used as an add button. If the list is long, the add button can be placed in a <link xref="header-bars">header bar</link> or or <link xref="action-bars">action bar</link>.</p>
+
+<p>This approach to editable lists can be used for both full-width or embedded lists.</p>
+
+<p>Don't attach toolbars to embedded lists.</p>
+
+</section>
+</section>
+
+<section id="tables">
+<title>Tables</title>
+
+<p>Tables can be used for more complex multi-column lists, where sorting the table by a variety of columns is common. Column headers allow people to identify the type of information in each column and to reorder the list according to the content of each column.</p>
+
+<p>When using column headers, indicate the sort order using arrows on the header.</p>
+
+<table>
+<thead>
+<tr>
+<td><p>Order</p></td>
+<td><p>Arrow Direction</p></td>
+<td><p>Example</p></td>
+</tr>
+</thead>
+<tr>
+<td><p>Natural</p></td>
+<td><p>Down</p></td>
+<td><p>Alphabetical, smallest number first, earliest date first, checked items first</p></td>
+</tr>
+<tr>
+<td><p>Reverse</p></td>
+<td><p>Up</p></td>
+<td><p>Reverse alphabetical, largest number first, most recent date first, unchecked items first</p></td>
+</tr>
+
+</table>
+
+</section>
+
+<section id="row-behaviour">
+<title>Row behaviour</title>
+
+<p>Click to open or click to select. Selection mode can be used for lists where opening and selecting is both required.</p>
+
+</section>
+
+<section id="general-guidelines">
+<title>General guidelines</title>
+
+<list>
+<item><p>Differentiate the different types of information using different alignments, text colors and weights. Highlight the most important and relevant information by giving other information a lighter weight and/or color.</p></item>
+<item><p>Be careful not to overpopulate lists with different columns and elements, and ensure that you only use them to present essential information.</p></item>
+<item><p>As a rule of thumb, avoid using several lists in the same window, particularly primary windows.</p></item>
+<item><p>Do not use lists with less than about five items, unless the number of items may increase over time. For options lists, check boxes or radio buttons can be used as an alternative in this case.</p></item>
+<item><p>Ensure that lists are ordered to be helpful to those who are using them. Recent documents might be more useful than alphabetically ordered documents, or contacts that are online might be more interesting than those who are offline, for example.</p></item>
+<item><p>If you use icons in your list, use symbolic icons. The lower visual footprint of these icons will mean that they do not visually overload or dominate your list.</p></item>
+<item><p>If the list is long, make it possible to search it using the standard GNOME search design pattern.</p></item>
+</list>
+
+</section>
+</page>

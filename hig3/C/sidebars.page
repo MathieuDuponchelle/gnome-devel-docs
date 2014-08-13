@@ -1,28 +1,46 @@
 <page xmlns="http://projectmallard.org/1.0/"
       type="topic"
-      id="sidebars">
+      id="sidebar-lists">
 
   <info>
-    <link type="guide" xref="patterns" group="sidebars"/>   
-    <revision pkgversion="3.0" version="0.1" date="2010-12-04" status="stub"/>
+    <link type="guide" xref="patterns" group="sidebars"/>
     <credit type="author">
-      <name>GNOME Documentation Project</name>
-      <email>gnome-doc-list@gnome.org</email>
+      <name>Allan Day</name>
+      <email>aday@gnome.org</email>
     </credit>
-    
+    <license href="http://creativecommons.org/licenses/by-sa/4.0/">
+      <p>This work is licensed under a
+      <link href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+      Commons Attribution-Share Alike 4.0 International License</link>.</p>
+    </license>
   </info>
 
-<title>Sidebars</title>
+<title>Sidebar lists</title>
 
 <media type="image" mime="image/png" src="figures/sidebar.png"/>
 
-<p>A sidebar list is a pattern for structuring a primary window. It organizes the window into two panes of content, with a list on one side and an item of content on the other. The sidebar list provides an alternative to the content overview pattern.</p>
+<p>A sidebar list allows different views to be switched between. Those views can contain groups of content items, single content items, or sets of controls. The sidebar divides the window in two, with content being shown on the opposite pane to the siderbar.</p>
 
-<p>A sidebar list is appropriate for applications that provide access to dynamic content, such as chat or email. Here, the sidebar list allows a single item of content to be viewed at the same time as providing an overview of other available list items. It also means that users can stay informed about content changes, such as new messages.</p>
+<p>Sidebar lists can be used in primary windows, either as a permanent fixture or an element that is shown on demand. They can also be used in dialog windows.</p>
 
-<p>Sidebar lists will often not be a good option for windows which provide access to content that is immersive or requires a large amount of screen space to be effectively viewed. A sidebar list would generally be an inappropriate choice for an document viewer or video player, for example.</p>
+<p>Sidebar lists can be used in conjunction with the <link xref="search">search</link> and <link xref="selection-mode">selection mode</link> design patterns.</p>
 
-<p>Sidebar lists can be used in conjunction with the search and selection mode design patterns.</p>
+<section id="when-to-use">
+<title>When to use</title>
+
+<p>Use a sidebar list when it is necessary to expose a larger number of views than can be accommodated by a standard <link xref="view-switcher">view switcher</link>.</p>
+
+<p>Sidebar lists also provide a possible alternative to browser-style navigation. They have a number of advantages here:</p>
+
+<list>
+<item><p>When content items have a narrow width, and don't require an immersive experience. A sidebar would be inappropriate for browsing videos for this reason, but is well-suited to contacts.</p></item>
+<item><p>When content items are dynamic. For messaging applications, where new content items appear or old ones are updated, a sidebar list provides the ability for someone to view one item while simulataneously being aware of updates to the overall message list.</p></item>
+<item><p>When it is possible to filter a collection of content, and there are a large number of filters.</p></item>
+</list>
+
+<p>Temporary sidebar lists can also be displayed for particular views in your application.</p>
+
+</section>
 
 <section id="guidelines">
 <title>Guidelines</title>
