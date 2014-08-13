@@ -16,7 +16,9 @@
 
 <title>Design Patterns</title>
 
-<p>Design patterns are the main elements that make up an application design. Some patterns, like application menus or header bars, are essential. Others are optional. Patterns can also be combined. Making appropriate choices about which design patterns to use is an important part in designing a GNOME application</p>
+<p>Design patterns are the primary elements that make up an application design. Some patterns, like <link xref="application-menus">application menus</link> or <link xref="header-bars">header bars</link>, are highly recommended. Others are optional, and deciding on which patterns you want to use forms a core part of the design process. To help with this, each pattern page details the appropriate uses of each pattern, and suggests alternatives that might be applicable.</p>
+
+<p>Once you have decided which patterns to use, the <link xref="ui-elements">user interface elements pages</link> provide further guidance on the specific details of individual elements that you can use to fill out your design.</p>
 
 <links type="topic" style="2column" groups="application-menus header-bars header-bar-menus search view-switchers selection-mode dialogs sidebars notifications"/>
 

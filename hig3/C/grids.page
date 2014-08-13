@@ -1,0 +1,42 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="grids">
+
+  <info>
+    <link type="guide" xref="patterns" group="grids"/>   
+    <credit type="author">
+      <name>Allan Day</name>
+      <email>aday@gnome.org</email>
+    </credit>
+    <license href="http://creativecommons.org/licenses/by-sa/4.0/">
+      <p>This work is licensed under a
+      <link href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+      Commons Attribution-Share Alike 4.0 International License</link>.</p>
+    </license>
+  </info>
+
+<title>Grids</title>
+
+<media type="image" mime="image/png" src="figures/grids.png"/>
+
+<p>A grid is one of the primary methods of presenting collections of content in GNOME 3. Grids are often combined with a number of the other design patterns, including <link xref="search">search</link> and <link xref="selection-mode">selection mode</link>.</p>
+
+<section id="when-to-use">
+<title>When to use</title>
+
+<p>Since the grid view utilises an image for each item it presents, it is best suited to content that has a visual component, such as documents or photos.</p>
+
+</section>
+
+<section id="general-guidelines">
+<p>General guidelines</p>
+
+<list>
+<item><p>Wherever possible, each item of content should have a unique thumbnail.</p></item>
+<item><p>Order the items in the grid according to what will be most useful to people using your application. Ordering content according to most recently used is often the best arrangement.</p></item>
+<item><p>Selecting an item in the grid will typically switch to a dedicated view of that item.</p></item>
+<item><p>Consider combining the grid view search, selection mode and collections.</p></item>
+</list>
+
+</section>
+</page>

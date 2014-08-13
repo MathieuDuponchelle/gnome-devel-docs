@@ -24,7 +24,7 @@
 <title>General Guidelines</title>
 
 <list>
-<item><p>An button can contain an icon, button, or - more unusually - an image. Follow the icons and artwork guidelines when deciding which to use.</p></item>
+<item><p>A button can contain an icon, button, or - more unusually - an image. Follow the icons and artwork guidelines when deciding which to use.</p></item>
 <item><p>After pressing a button, the user should expect to see the result of their action within 1 second.</p></item>
 <item><p>Do not use more than one or two different widths of button in the same window, and make all of them the same height. This will help give a pleasing uniform visual appearance to your window that makes it easier to use.</p></item>
 <item><p>Do not assign actions to double-clicking or right-clicking a button. Users are unlikely to discover these actions, and if they do, it will distort their expectations of other buttons on the desktop.</p></item>
@@ -38,9 +38,9 @@
 <section id="text-buttons">
 <title>Text buttons</title>
 
-<p>Label all buttons with imperative verbs, using header capitalization. For example, Save, Sort or Update Now. Provide an access key in the label that allows the user to directly activate the button from the keyboard.</p>
+<p>Label all buttons with imperative verbs, using <link xref="writing-style#capitalization">header capitalization</link>. For example, Save, Sort or Update Now. Provide an access key in the label that allows the user to directly activate the button from the keyboard.</p>
 
-<p>Use an ellipsis (...) at the end of the label if the action requires further input from the user before it can be carried out. For example, Save As... or Find.... Do not add an ellipsis to commands like Properties, Preferences, or Settings, as these open windows that do not require further input.</p>
+<p>Use an ellipsis (...) at the end of the label if the action requires further input from the user before it can be carried out. For example, <gui>Save As...</gui> or <gui>Find...</gui>. Do not add an ellipsis to commands like <gui>Properties</gui>, <gui>Preferences</gui>, or <gui>Preferences</gui>, as these open windows that do not require further input.</p>
 
 </section>
 

@@ -26,11 +26,11 @@
 <p>The primary use of fixed tabs is to break down a dialog window into a set of mutually exclusive views.</p>
 
 <list>
-<item><p>Do not put too many pages in the same notebook. If you cannot see all the tabs without scrolling or splitting them into multiple rows, you are probably using too many and should use a list control instead.</p></item>
-<item><p>Label tabs with header capitalization, and use nouns rather than verbs, for example Font or Alignment. Try to keep all labels in a notebook the same general length.</p></item>
-<item><p>Do not design a notebook such that changing controls on one page affects the controls on any other page. Users are unlikely to discover such dependencies.</p></item>
-<item><p>If a control affects only one notebook page, place it on that notebook page. If it affects every page in the notebook, place it outside the notebook control, for example beside the window's OK and Cancel buttons.</p></item>
-<item><p>Use tabs that are proportional to the width of their labels. Don't just set all the tabs to the same width, as this makes them harder to scan visually, and limits the number of tabs you can fit into the notebook without scrolling.</p></item>
+<item><p>Do not use too many tabs. If you cannot see all the tabs without scrolling or splitting them into multiple rows, you are probably using too many and should use a list control instead.</p></item>
+<item><p>Label tabs with <link xref="writing-style#capitalization">header capitalization</link>, and use nouns rather than verbs, for example <gui>Font</gui> or <gui>Alignment</gui>. Try to give tab labels a similar length.</p></item>
+<item><p>Do not design tabs such that changing controls on one page affects the controls on any other page. Users are unlikely to discover such dependencies.</p></item>
+<item><p>If a control affects every tab, place it outside the tabs.</p></item>
+<item><p>Use tabs that are proportional to the width of their labels. Don't just set all the tabs to the same width, as this makes them harder to scan visually, and limits the number of tabs you can display without scrolling.</p></item>
 </list>
 
 </section>

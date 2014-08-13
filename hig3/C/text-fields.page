@@ -14,9 +14,9 @@
     </license>
   </info>
 
-<title>Text Fields</title>
+<title>Text fields</title>
 
-<p>A text entry field is a widget for entering or editing text. They are a basic interface element with a variety of uses, including search entry, settings and preferences, or account configuration and setup. A text entry field can be prefilled with text, and can include additional buttons or icons.</p>
+<p>A text entry field is an interface element for entering or editing text. They are a basic element with a variety of uses, including search entry, settings and preferences, or account configuration and setup. A text entry field can be prefilled with text, and can include additional buttons or icons.</p>
 
 <media type="image" mime="image/png" src="figures/text-fields.png"/>
 
@@ -25,10 +25,10 @@
 
 <list>
 <item><p>Size text fields according to the likely size of the content they will contain. This gives a useful visual cue to the amount of input expected and prevents overflow.</p></item>
-<item><p>In an instant-apply window, validate the contents of the entry field when it loses focus or when the window is closed, not after each keypress. Exception: if the field accepts only a fixed number of characters, such as a hexadecimal color code, validate and apply the change as soon as that number of characters have been entered.</p></item>
+<item><p>In an <link xref="dialogs#instant-and-explicit-apply">instant-apply dialog</link>, validate the contents of the entry field when it loses focus or when the window is closed, not after each keypress. Exception: if the field accepts only a fixed number of characters, such as a hexadecimal color code, validate and apply the change as soon as that number of characters have been entered.</p></item>
 <item><p>If you implement an entry field that only accepts certain characters, such as digits, play the system warning beep when the user tries to type an invalid character.</p></item>
-<item><p>Normally, pressing Tab in a single-line entry field should move focus to the next control, and in a multi-line entry field it should insert a tab character. Pressing Ctrl+Tab in a multi-line entry field should move focus to the next control.</p></item>
-<item><p>If you need to provide a keyboard shortcut that inserts a tab character into a single line entry field, use Ctrl+Tab. You are unlikely to find many situations where this is useful, however.</p></item>
+<item><p>Normally, pressing <key>Tab</key> in a single-line entry field should move focus to the next control, and in a multi-line entry field it should insert a tab character. Pressing <keyseq><key>Ctrl</key><key>Tab</key></keyseq> in a multi-line entry field should move focus to the next control.</p></item>
+<item><p>If you need to provide a keyboard shortcut that inserts a tab character into a single line entry field, use <keyseq><key>Ctrl</key><key>Tab</key></keyseq>. You are unlikely to find many situations where this is useful, however.</p></item>
 </list>
 
 </section>

@@ -25,7 +25,7 @@
 
 <p>Switches should be used for controlling services or hardware that have a clear on/off logic. They are particularly appropriate when those services or hardware do not activate immediately (ie. there is a delay between the switch being operated and it having an effect), or when they affect the operation of the application in a significant way.</p>
 
-<p>When the control does not turn a function on or off, or when a function does not clearly have an on/off nature, a checkbox is a more appropriate option. For example, and alarm might be controlled using a switch, since it can be turned on or off. However, a checkbox is a better choice for an option to repeat that alarm on a daily basis, since alarm repetition is a configuration option, rather than starting or stopping a particular piece of functionality.</p>
+<p>When the control does not turn a function on or off, or when a function does not clearly have an on/off nature, a <link xref="check-boxes">check box</link> is a more appropriate option. For example, and alarm might be controlled using a switch, since it can be turned on or off. However, a check box is a better choice for an option to repeat that alarm on a daily basis, since alarm repetition is a configuration option, rather than starting or stopping a particular piece of functionality.</p>
 
 <p>When in doubt, use switches for important configuration options, and check boxes for minor sub-options.</p>
 
@@ -34,7 +34,7 @@
 <section id="switch-labels">
 <title>Switch labels</title>
 
-<p>Switch labels should be written using header capitalization. The name of the function affected by the switch should be used as the label. "Automatic Location" or "Notifications" are examples of good switch labels.</p>
+<p>Switch labels should be written using <link xref="writing-style#capitalization">header capitalization</link>. The name of the function affected by the switch should be used as the label. <gui>Automatic Location</gui> or <gui>Notifications</gui> are examples of good switch labels.</p>
 
 </section>
 </page>

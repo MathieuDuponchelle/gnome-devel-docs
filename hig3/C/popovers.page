@@ -29,7 +29,7 @@
 
 <list>
 <item><p>Revealing a small toolbox of text formatting controls.</p></item>
-<item><p>A find UI, with a search entry box and a space for a list of results.</p></item>
+<item><p>A find interface, with a search entry box and a space for a list of results.</p></item>
 <item><p>A collection of view controls, such as zoom, list/grid and content ordering.</p></item>
 </list>
 
@@ -42,22 +42,22 @@
 </section>
 
 <section id="general-guidelines">
-<title>General Guidelines</title>
+<title>General guidelines</title>
 
 <p>Popovers should always be small in size (as a rule of thumb, they should not cover more than a third of their parent window) and low in complexity. They should always appear as subordinates to their parent windows.</p>
 
-<p>A popover should only ever appear in response to a user action, and should always relate to a specific UI element which acts as the source of the popover. A common pattern is to use a button as the way to reveal a popover.</p>
+<p>A popover should only ever appear in response to a user action, and should always relate to a specific interface element which acts as the source of the popover. A common pattern is to use a button as the way to reveal a popover.</p>
 
 </section>
 
 <section id="popover-content">
-<title>Popover Content</title>
+<title>Popover content</title>
 
 <list>
 <item><p>A popover can just contain a menu, including submenus.</p></item>
-<item><p>You can combine a menu with other controls, such as buttons, sliders or text boxes. However, don't mix too many different types of control, and try to group controls of the same type together.</p></item>
+<item><p>You can combine a menu with other controls, such as buttons, sliders or text fields. However, don't mix too many different types of control, and try to group controls of the same type together.</p></item>
 <item><p>Popovers can be given a heading to clarify their purpose.</p></item>
-<item><p>Close or "done" buttons are not usually required in a popover.</p></item>
+<item><p><gui>Close</gui> or <gui>Done</gui> buttons are not usually required in a popover.</p></item>
 </list>
 
 </section>
