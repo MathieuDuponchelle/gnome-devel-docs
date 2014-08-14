@@ -1,6 +1,6 @@
 <page xmlns="http://projectmallard.org/1.0/"
       type="topic"
-      id="sidebar-lists">
+      id="sidebars">
 
   <info>
     <link type="guide" xref="patterns" group="sidebars"/>
@@ -24,7 +24,7 @@
 <section id="when-to-use">
 <title>When to use</title>
 
-<p>Use a sidebar list when it is necessary to expose a larger number of views than can be accommodated by a standard <link xref="view-switcher">view switcher</link>.</p>
+<p>Use a sidebar list when it is necessary to expose a larger number of views than can be accommodated by a standard <link xref="view-switchers">view switcher</link>.</p>
 
 <p>Sidebar lists also provide a possible alternative to browser-style navigation. They have a number of advantages here:</p>
 
