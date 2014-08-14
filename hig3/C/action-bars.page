@@ -1,0 +1,39 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="action-bars">
+
+  <info>
+    <link type="guide" xref="patterns" group="action-bars"/>   
+    <credit type="author">
+      <name>Allan Day</name>
+      <email>aday@gnome.org</email>
+    </credit>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>Action bars</title>
+
+<media type="image" mime="image/png" src="figures/action-bars.png"/>
+
+<p>An action bar is a horizontal container that is placed along the bottom edge of a window. It is used to present actions for the content that is displayed above.</p>
+
+<section id="when-to-use">
+<title>When to use</title>
+
+<p>Use an action bar when content items are primarily displayed for editing or management. Since they prominently display potential actions, action bars are not appropriate if content is generally viewed and not edited. In these cases, potential actions can be placed within a <link xref="header-bar-menu">header bar menu</link> instead.</p>
+
+<p>Action bars can be shown temporarily, when a <link xref="selection-mode">selection</link> or edit mode is active.</p>
+
+</section>
+
+<section id="guidelines">
+<title>Guidelines</title>
+
+<list>
+<item><p>Group sets of similar functionality together, by aligning them to the left and right of the action bar, or by using separators. The most commonly used items should be placed on the left.</p></item>
+<item><p>Try to separate potentially destructive actions, and <link xref="buttons#suggested-and-destructive">style them appropriately</link>.</p></item>
+</list>
+
+</section>
+
+</page>

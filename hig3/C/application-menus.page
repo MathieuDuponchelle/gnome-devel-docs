@@ -11,7 +11,7 @@
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
   </info>
 
-<title>Application Menus</title>
+<title>Application menus</title>
 
 <media type="image" mime="image/png" src="figures/application-menu.png"/>
 

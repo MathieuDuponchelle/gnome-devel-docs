@@ -10,7 +10,7 @@
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
   </info>
 
-<title>Design Patterns</title>
+<title>Design patterns</title>
 
 <p>Design patterns are the primary elements that make up an application design. Some patterns, like <link xref="application-menus">application menus</link> or <link xref="header-bars">header bars</link>, are highly recommended. Others are optional, and deciding on which patterns you want to use forms a core part of the design process. To help with this, each pattern page details the appropriate uses of each pattern, and suggests alternatives that might be applicable.</p>
 

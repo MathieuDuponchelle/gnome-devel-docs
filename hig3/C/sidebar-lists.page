@@ -1,9 +1,9 @@
 <page xmlns="http://projectmallard.org/1.0/"
       type="topic"
-      id="sidebars">
+      id="sidebar-list">
 
   <info>
-    <link type="guide" xref="patterns" group="sidebars"/>
+    <link type="guide" xref="patterns" group="sidebar-lists"/>
     <credit type="author">
       <name>Allan Day</name>
       <email>aday@gnome.org</email>
