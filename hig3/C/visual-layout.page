@@ -8,6 +8,18 @@
       <name>Allan Day</name>
       <email>aday@gnome.org</email>
     </credit>
+    <credit>
+      <name>Calum Benson</name>
+    </credit>
+    <credit>
+      <name>Adam Elman</name>
+    </credit>
+    <credit>
+      <name>Seth Nickell</name>
+    </credit>
+    <credit>
+      <name>Colin Robertson</name>
+    </credit>
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
     <desc>Arranging elements within a user interface.</desc>
   </info>
