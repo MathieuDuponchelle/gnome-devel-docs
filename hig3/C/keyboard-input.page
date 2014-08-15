@@ -75,7 +75,139 @@ Do not assign system-level shortcut keys. These use the Super (sometimes knows a
 <section id="system-shortcuts">
 <title>System reserved shortcuts</title>
 
-<p>Unicode entry shortcuts: Shift+Ctrl+A-thru-F or Shift+Ctrl+0-thru-9, as these combinations are used to enter unicode characters in text fields.</p>
+<p>GNOME 3 and its constituent systems make use of standard system-level shortcuts that should work universally, and should not be overridden by applications.</p>
+
+<p>Modern GNOME 3 system shortcuts all incorporate the <key>Super</key> key, often known as the windows key. <key>Super</key> is used independently for entering and leaving the Activities Overview, and in combination with other keys. The <key>Super</key> key is intended as a system-level key, and should not be used by applications.</p>
+
+<table>
+<thead>
+<tr>
+<td><p>Function</p></td>
+<td><p>Shortcut</p></td>
+<td><p>Description</p></td>
+</tr>
+</thead>
+<tr>
+<td><p>Switch window</p></td>
+<td><p><keyseq><key>Alt</key><key>Tab</key></keyseq> and <keyseq><key>Shift</key><key>Alt</key><key>Tab</key></keyseq></p></td>
+<td><p>Switches focus to the next/previous top level window</p></td>
+</tr>
+<tr>
+<td><p>Switch system area</p></td>
+<td><p><keyseq><key>Ctrl</key><key>Alt</key><key>Tab</key></keyseq> and <keyseq><key>Shift</key><key>Ctrl</key><key>Alt</key><key>Tab</key></keyseq></p></td>
+<td><p>Switches focus to the primary areas of the system: windows, top bar, message tray</p></td>
+</tr>
+<tr>
+<td><p>Log out</p></td>
+<td><p><keyseq><key>Ctrl</key><key>Alt</key><key>Del</key></keyseq></p></td>
+<td><p>Logs the user out of their session. This shortcut is typically disabled by default.</p></td>
+</tr>
+<tr>
+<td><p>Window menu</p></td>
+<td><p><keyseq><key>Alt</key><key>Space</key></keyseq></p></td>
+<td><p>Opens the window menu for the current window</p></td>
+</tr>
+<tr>
+<td><p><gui>Close</gui></p></td>
+<td><p><keyseq><key>Alt</key><key>F4</key></keyseq></p></td>
+<td><p>Closes the focused window</p></td>
+</tr>
+<tr>
+<td><p><gui>Restore</gui></p></td>
+<td><p><keyseq><key>Alt</key><key>F5</key></keyseq></p></td>
+<td><p>Restores the focused window to its previous state</p></td>
+</tr>
+<tr>
+<td><p><gui>Switch secondary windows</gui></p></td>
+<td><p><keyseq><key>Alt</key><key>F6</key></keyseq> and <keyseq><key>Shift</key><key>Alt</key><key>F6</key></keyseq></p></td>
+<td><p>Switch focus to the next or previous secondary window associated with the application</p></td>
+</tr>
+<tr>
+<td><p><gui>Move</gui></p></td>
+<td><p><keyseq><key>Alt</key><key>F7</key></keyseq></p></td>
+<td><p>Move the focused window</p></td>
+</tr>
+<tr>
+<td><p><gui>Resize</gui></p></td>
+<td><p><keyseq><key>Alt</key><key>F8</key></keyseq></p></td>
+<td><p>Resize the focused window</p></td>
+</tr>
+<tr>
+<td><p><gui>Hide</gui></p></td>
+<td><p><keyseq><key>Alt</key><key>F9</key></keyseq></p></td>
+<td><p>Hide the focused window</p></td>
+</tr>
+<tr>
+<td><p><gui>Maximize</gui></p></td>
+<td><p><keyseq><key>Alt</key><key>F10</key></keyseq></p></td>
+<td><p>Maximize the focused window</p></td>
+</tr>
+<tr>
+<td><p><gui>Maximize</gui></p></td>
+<td><p><keyseq><key>Alt</key><key>F10</key></keyseq></p></td>
+<td><p>Maximize the focused window</p></td>
+</tr>
+</table>
+
+<section id="widget-navigation">
+<title>Standard widget navigation shortcuts</title>
+
+<table>
+<thead>
+<tr>
+<td><p>Shortcut</p></td>
+<td><p>Function</p></td>
+</tr>
+</thead>
+<tr>
+<td><p><key>Tab</key> and <keyseq><key>Shift</key><key>Tab</key></keyseq></p></td>
+<td><p>Moves keyboard focus to the next/previous control</p></td>
+</tr>
+<tr>
+<td><p><keyseq><key>Ctrl</key><key>Tab</key></keyseq> and <keyseq><key>Shift</key><key>Ctrl</key><key>Tab</key></keyseq></p></td>
+<td><p>Moves keyboard focus out of the enclosing widget to the next/previous control, in those situations where Tab alone has another function</p></td>
+</tr>
+<tr>
+<td><p><keyseq><key>Ctrl</key><key>F1</key></keyseq></p></td>
+<td><p>Shows a tooltip for the the currently-focused window or control</p></td>
+</tr>
+<tr>
+<td><p><keyseq><key>Shift</key><key>F1</key></keyseq></p></td>
+<td><p>Show context-sensitive help for the currently-focused window or control</p></td>
+</tr>
+<tr>
+<td><p><key>F6</key> <keyseq><key>Shift</key><key>F6</key></keyseq></p></td>
+<td><p>Give focus to the next/preivous pane in a GtkPaned window</p></td>
+</tr>
+<tr>
+<td><p><key>F8</key></p></td>
+<td><p>Give focus to the splitter bar in a paned window</p></td>
+</tr>
+<tr>
+<td><p><key>F10</key></p></td>
+<td><p>Give focus to a window/s menu bar</p></td>
+</tr>
+<tr>
+<td><p><key>Space</key></p></td>
+<td><p>Toggle the state of a focused check box, radio button, or toggle button</p></td>
+</tr>
+<tr>
+<td><p><key>Return</key></p></td>
+<td><p>Activate focused button, menu item, etc</p></td>
+</tr>
+<tr>
+<td><p><key>Return</key> <key>End</key></p></td>
+<td><p>Select/move to the first item in a selected widget</p></td>
+</tr>
+<tr>
+<td><p><key>PageUp</key>, <keyseq><key>Ctrl</key><key>PageUp</key></keyseq>, <key>PageDown</key> and <keyseq><key>Ctrl</key><key>PageDown</key></keyseq></p></td>
+<td><p>Scroll the selected view by one page up/left/down/right</p></td>
+</tr>
+</table>
+
+<p>In addition, the shortcuts for Unicode character entry should also be avoided. This includes <keyseq><key>Shift</key><key>Ctrl</key><key>A</key></keyseq> through to <keyseq><key>Shift</key><key>Ctrl</key><key>F</key></keyseq>, or <keyseq><key>Shift</key><key>Ctrl</key><key>0</key></keyseq> through to <keyseq><key>Shift</key><key>Ctrl</key><key>9</key></keyseq>.</p>
+
+</section>
 
 </section>
 
@@ -84,8 +216,33 @@ Do not assign system-level shortcut keys. These use the Super (sometimes knows a
 
 <p>If your application uses any of the standard functions listed in the following tables, use the recommended standard keyboard shortcut for that function.</p>
 
-<section id="file">
-<title>Standard file shortcuts</title>
+<section id="application">
+<title>Standard application shortcuts</title>
+
+<table>
+<thead>
+<tr>
+<td><p>Function</p></td>
+<td><p>Shortcut</p></td>
+<td><p>Description</p></td>
+</tr>
+</thead>
+<tr>
+<td><p><gui>Help</gui></p></td>
+<td><p><key>F1</key></p></td>
+<td><p>Show the help content pages for the current application</p></td>
+</tr>
+<tr>
+<td><p><gui>Quit</gui></p></td>
+<td><p><keyseq><key>Ctrl</key><key>Q</key></keyseq></p></td>
+<td><p>Quit the application</p></td>
+</tr>
+</table>
+
+</section>
+
+<section id="content">
+<title>Standard content shortcuts</title>
 
 <table>
 <thead>
@@ -120,11 +277,6 @@ Do not assign system-level shortcut keys. These use the Super (sometimes knows a
 <td><p><keyseq><key>Ctrl</key><key>W</key></keyseq></p></td>
 <td><p>Close the current document</p></td>
 </tr>
-<tr>
-<td><p><gui>Quit</gui></p></td>
-<td><p><keyseq><key>Ctrl</key><key>Q</key></keyseq></p></td>
-<td><p>Quit the application</p></td>
-</tr>
 </table>
 
 </section>
@@ -148,7 +300,7 @@ Do not assign system-level shortcut keys. These use the Super (sometimes knows a
 <tr>
 <td><p><gui>Redo</gui></p></td>
 <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>Z</key></keyseq></p></td>
-<td><p></p></td>
+<td><p>Redo the last operation</p></td>
 </tr>
 </table>
 

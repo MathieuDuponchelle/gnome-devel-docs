@@ -16,12 +16,19 @@
 
 <p>These Human Interface Guidelines are primarily targeted towards new GTK+ and GNOME applications, with an emphasis on GNOME 3 integration. However, they are also intended to be useful to cross-platform applications, as well as older applications, which may have been designed and implemented in accordance with the GNOME 2 HIG.</p>
 
+<section id="cross-platform-compatibility">
+<title>Cross-platform compatibility</title>
+
 <p>Cross-platform guidance is provided for those design patterns and UI elements that require special treatment in cross-platform cases. Otherwise, all the design patterns provided in these guidelines can be used in a cross-platform manner.</p>
+
+<p>Since some platforms provide system-level integration for <link xref="menu-bars">menu bars</link>, this pattern is of special relevance for cross-platform applications.</p>
+
+</section>
 
 <section id="gnome-2-compatibility">
 <title>GNOME 2 Compatibility</title>
 
-<p>The GNOME 3 Human Interface Guidelines are an evolution of the GNOME 2 HIG. The design patterns provided improve upon the previous version of the HIG, and encourage more modern application application design. Applications that follow the GNOME 3 HIG will use space more efficiently, provide a more focused user experience, and will use modern interpretations of key functionality, such as search, online integration, or notifications.</p>
+<p>These Human Interface Guidelines are an evolution of the GNOME 2 HIG. The design patterns provided improve upon the previous version of the HIG, and encourage more modern application design. Applications that follow this version of the HIG will use space more efficiently, provide a more focused user experience, and will use modern interpretations of key functionality, such as search, online integration, or notifications.</p>
 
 <p>Much of the advice contained within this HIG can be incorporated into GNOME 2 style applications with minimal disruption, and will lead to an improved experience for users. This includes:</p>
 
@@ -33,11 +40,9 @@
 
 <p>Incorporating these elements of the guidelines can enhance your application without requiring a major redesign, and all GTK+ and GNOME applications can benefit from them.</p>
 
-<p>At the same time, following some of the design patterns in these guidelines may imply larger-scale design changes for GNOME 2 style applications, particularly if those applications are complex. In particular, replacing title bars and menu bars with a header bar could be a big change for your application</p>
+<p>At the same time, following some of the design patterns in these guidelines may imply larger-scale design changes for GNOME 2 style applications, particularly if those applications are complex. In particular, replacing window title bars and <link xref="menu-bars">menu bars</link> with a <link xref="header-bars">header bar</link> could be a big change for your application</p>
 
-<p>Established applications must consider the impact of design changes on their users, and these Human Interface Guidelines have been designed to assist designers in determining the best design for their applications, rather than proposing a single template to be used in all applications.</p>
-
-<p>While this HIG does recommend the use of header bars and not menu bars, in some cases the continued incorporation of a menu bar can still be the correct decision. That decision has to be made on a per-application basis.</p>
+<p>These Human Interface Guidelines have been designed to assist you in determining the best design for your application, rather than proposing a single template to be used in all applications. As such, while they recommend <link xref="header-bars">header bars</link> over <link xref="menu-bars">menu bars</link>, they provide guidance on both approaches.</p>
 
 </section>
 

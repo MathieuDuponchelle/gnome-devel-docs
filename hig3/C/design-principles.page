@@ -14,7 +14,7 @@
 
 <title>Design Principles</title>
 
-<p>The following design principles constitute a set of general rules that, when followed, will enable you to produce a high-quality user interface for your application.</p>
+<p>The following design principles constitute a set of general rules that, when followed, will enable you to produce a high-quality experience for your users.</p>
 
 <section id="focus">
 <title>Give your application a clear focus</title>
@@ -57,7 +57,7 @@
 
 <p>People tend to ‘read’ an interface from left to right and top to bottom. Items that are encountered first are seen to be dominant over those that come later. Use this implied hierarchy to communicate which parts of your application are most important.</p>
 
-<p>Position the most important controls towards the top-left of your windows, and place dominant controls prior to other controls they affect.</p>
+<p>Position the most important controls towards the top-left of your windows, and place dominant controls prior to other controls they affect. See the <link xref="visual-layout">visual layout</link> guidelines for more details.</p>
 
 </section>
 
@@ -84,14 +84,14 @@
 
 <p>Interruptions cause frustration, annoyance and prevent people from focusing on what they are interested in. Design your application so that it stays out of the way when it is not in use, and does not surprise when it is in use.</p>
 
-<p>Use notifications with restraint, always avoid spontaneously popping up dialogs without user intent, and avoid disruptive feedback mechanisms like message dialogs.</p>
+<p>Use <link xref="notifications">notifications</link> with restraint, always avoid spontaneously popping up dialogs without user intent, and avoid disruptive feedback mechanisms like message dialogs.</p>
 
 </section>
 
 <section id="search">
 <title>Provide quick and effective search</title>
 
-<p>Search is a powerful mechanism that can be used to quickly find content. Provide it whenever you present large amounts of content, whether in the form of lists or grids. When you provide a search function, it is vital that it is as immediate as possible, and that it returns the results that are sought by your users.</p>
+<p><link xref="search">Search</link> is a powerful mechanism that can be used to quickly find content. Provide it whenever you present large amounts of content, whether in the form of lists or grids. When you provide a search function, it is vital that it is as immediate as possible, and that it returns the results that are sought by your users.</p>
 
 <p>GNOME 3 also provides an integrated search facility. Integrating application search into this gives people a quick and easy way to access the content provided by your application.</p>
 
@@ -107,7 +107,7 @@
 <section id="name-and-icon">
 <title>Give your application an instructive name and an attractive icon</title>
 
-<p>Your application’s name and icon are two of the most expressive things about it, so design them in order to communicate its function and identity. Make sure that people will understand the purpose of your application from its name. Ensure that you have a beautiful, recognisable application icon, to give your application an attractive and distinctive visual identity.</p>
+<p>Your application’s name and <link xref="icons-and-artwork#application-icons">icon</link> are two of the most expressive things about it, so design them in order to communicate its function and identity. Make sure that people will understand the purpose of your application from its name. Ensure that you have a beautiful, recognisable application icon, to give your application an attractive and distinctive visual identity.</p>
 
 <p>Avoid obscure cultural references, inside jokes and acronyms in your application name, and ensure that you provide a hi-resolution version of your application icon.</p>
 

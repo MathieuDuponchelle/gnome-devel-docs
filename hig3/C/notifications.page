@@ -15,12 +15,26 @@
 
 <p>Notifications enable you to inform the users about events when they are not using your application. They also provide the ability for users to quickly respond to those events, using notification actions.</p>
 
+<section id="when-to-use">
+<title>When to use</title>
+
+<p>Use notifications to inform the user about events they will be interested in while they are not using your application. This can include new messages in messaging applications, the completion of long-running tasks, reminders for calendars, and so on.</p>
+
+<p>Notifications shouldn't be used as a substitute for feedback that is provided by your application windows, which should be able to inform the user about events without the need for notifications.</p>
+
+</section>
+
 <section id="notification-elements">
 <title>Notification elements</title>
 
 <p>Notifications in GNOME 3 have a number of standard components:</p>
 
 <table>
+<thead>
+<tr>
+<td><p>Element</p></td><td><p>Description</p></td>
+</tr>
+</thead>
 <tr>
 <td><p>Application Icon</p></td><td><p>Indicates which application sent the notification.</p></td>
 </tr>
@@ -68,23 +82,18 @@
 </section>
 </section>
 
-<section id="dont-distract">
-<title>Don't distract</title>
+<section id="general-guidance">
+<title>General guidance</title>
 
-<p>People do not enjoy being needlessly distracted, and it does not help them with their work. So, avoid showing too many notifications.</p>
-
-<p>One strategy that can help with this is to combine multiple events into a single notification. An email application can periodically show a notification that indicates how many new emails there are, rather than showing a notification for each individual message, for example.</p>
-
-</section>
-
-<section id="general-guidelines">
-<title>General guidelines</title>
-
-<p>Notifications are primarily intended to keep the user informed when they are not using your application, and they shouldn't be relied upon to inform the user while they are using your application.</p>
-
-<p>Ensure that your application window provides sufficient feedback that users are informed about events without the need for notifications.</p>
-
-<p>Remove notifications when your application window is focused.</p>
+<list>
+<item><p>It is important not to needlessly distract users with notifications. This can easily become annoying and frustrating, and will not incline users to like your application. Therefore, always be critical when using notifications, and question whether users really need to be informed about the events you want to communicate.</p></item>
+<item><p>Applications that deal with lots of events, such as email or social media messages, run a particular risk of distracting users with too many notifications. These applications should place restrictions on how frequently they send notification messages. Instead of showing a notification for each new message, it is a good idea for each notification to provide a summary of new messages.</p></item>
+<item><p>Notifications in GNOME 3 persist after they have been initially displayed. It is therefore important to remove notification messages that are no longer relevant to the user.</p>
+<list>
+<item><p>Your application window should provide feedback on all the events that have been communicated by notifications. As a result, when your application window is focused, notification messages should be treated as having been read, and should be removed.</p></item>
+<item><p>Ensure that your application removes notifications that are no longer valid. For example, a notification for a weather warning that has been revoked should be removed.</p></item>
+</list></item>
+</list>
 
 </section>
 </page>

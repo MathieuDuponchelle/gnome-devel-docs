@@ -16,18 +16,25 @@
 
 <media type="image" mime="image/png" src="figures/toolbar.png"/>
 
-<p>Careful and consistent toolbar design speeds up the user's task by giving direct access to functions that would otherwise be hidden on a menu. Use them only for the most important functions, however. Having too many toolbar controls reduces their efficiency by making them harder to find, and too many rows of toolbars reduces the amount of screen space available to the rest of the application.</p>
+<section id="when-to-use">
+<title>When to use</title>
 
-<p>The effectiveness of toolbars is increased by maintaining a level of consistency between different applications. For example, the main toolbar in an office application will nearly always have New, Open and Save as its first three toolbar buttons. Similarly, the first few buttons in a browser application should always include Back, Forward, Stop and Reload, in that order.</p>
+<p>Use a toolbar to provide access to common actions, tools or options in primary windows. <link xref="header-bars">Header bars</link> also perform this role, and a toolbar is generally not required if you are using header bars.</p>
+
+<p>While toolbars are a common approach, there are cases where they are not the most effective. Interfaces that focus on direct manipulation, or which make heavy use of progressive disclosure, may provide a better alternative. Each of these approaches requires more time and effort at the design stage, and should only be pursued by those who are confident in pursuing more original design solutions.</p>
+
+</section>
 
 <section id="general-guidelines">
 <title>General guidelines</title>
 
 <list>
+<item><p>Only include controls for the most important functions. Having too many toolbar controls reduces their efficiency by making them harder to find, and too many rows of toolbars reduces the amount of screen space available to the rest of the application.</p></item>
+<item><p>Utilise conventions for toolbars to increase familiarity. For example, the main toolbar in an office application will nearly always have New, Open and Save as its first three toolbar buttons. Similarly, the first few buttons in a browser application should always include Back, Forward, Stop and Reload, in that order.</p></item>
 <item><p>Place only the most commonly-used application functions on your toolbars. Don't just add buttons for every menu item.</p></item>
-<item><p>All functions that appear on your toolbars must also accessible via the main menu bar, either directly (i.e. an equivalent menu item) or indirectly (e.g. in the Options ▸ Settings dialog).</p></item>
-<item><p>Arrange toolbar buttons in the same order and groupings as their equivalents on the main menu bar. In particular, always group sets of mutually-exclusive toolbar buttons.</p></item>
-<item><p>Don't add buttons for <gui>Help</gui>, <gui>Close</gui> or <gui>Quit</gui> to your toolbar by default, as these are rarely used and the space is better used for more useful controls. Similarly, only provide buttons for <gui>Undo</gui>, <gui>Redo</gui> and the standard clipboard functions if there is space on the toolbar to do so without sacrificing more useful, application-specific controls.</p></item>
+<item><p>If you are using a <link xref="menu-bars">menu bar</link>, ensure that it includes all the functions that appear on you toolbar, either directly (i.e. an equivalent menu item) or indirectly (e.g. in the Options ▸ Settings dialog).</p></item>
+<item><p>Toolbars shouldn't include buttons for <gui>Help</gui>, <gui>Close</gui> or <gui>Quit</gui>, as these are rarely used and the space is better used for more useful controls. Similarly, only provide buttons for <gui>Undo</gui>, <gui>Redo</gui> and the standard clipboard functions if there is space on the toolbar to do so without sacrificing more useful, application-specific controls.</p></item>
+<item><p>Toolbar <link xref="buttons">buttons</link> should have a relief, and icon buttons should use <link xref="icons-and-artwork#color-vs-symbolic">symbolic icons</link>.</p></item>
 </list>
 
 </section>

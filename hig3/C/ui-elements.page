@@ -10,9 +10,9 @@
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
   </info>
 
-<title>User Interface Elements</title>
+<title>User interface elements</title>
 
-<p>User interface elements are the building blocks for application interfaces. The guidelines in this section are intended to help you get the details of your design right. It is recommended that you ensure that you are familiar with the various design patterns before you use this section.</p>
+<p>User interface elements are the building blocks for application interfaces. The guidelines in this section are intended to help you get the details of your design right. It is recommended that you ensure that you are familiar with the <link xref="patterns">design patterns</link> before you use this section.</p>
 
 <table>
 <tr>
@@ -34,9 +34,9 @@
 </tr>
 <tr>
 <td><p><link xref="progress-bars">Progress bars</link></p></td>
-<td><media type="image" mime="image/png" src="figures/switches.png"/></td>
+<td><media type="image" mime="image/png" src="figures/progress-bars.png"/></td>
 <td><p><link xref="sliders">Sliders</link></p></td>
-<td><media type="image" mime="image/png" src="figures/switches.png"/></td>
+<td><media type="image" mime="image/png" src="figures/sliders.png"/></td>
 </tr>
 <tr>
 <td><p><link xref="switches">Switches</link></p></td>
