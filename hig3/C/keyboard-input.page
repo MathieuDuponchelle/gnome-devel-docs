@@ -64,8 +64,8 @@
 Do not assign system-level shortcut keys. These use the Super (sometimes knows as the windows key) key as a modifier.</p></item>
 <item><p>Only assign shortcut keys to the most commonly-used actions in your application. Do not try to assign a keyboard shortcut to everything.</p></item>
 <item><p>Do not use the standard GNOME application shortcut keys for different functions. This helps to reinforce consistency between all GNOME applications.</p></item>
-<item><p>Use Ctrl+letter in preference to other combinations when choosing new shortcut keys and Shift+Ctrl+letter for functions that reverse or extend another function. For example, Ctrl+Z and Shift+Ctrl+Z for Undo and Redo.</p></item>
-<item><p>New shortcut keys should be as mnemonic as possible, as these will be easier to learn and remember. For example, Ctrl+E would be a good shortcut for a menu item called Edit Page.</p></item>
+<item><p>Use Ctrl+letter in preference to other combinations when choosing new shortcut keys and Shift+Ctrl+letter for functions that reverse or extend another function. For example, <keyseq><key>Ctrl</key><key>Z</key></keyseq> and <keyseq><key>Shift</key><key>Ctrl</key><key>Z</key></keyseq> for <gui>Undo</gui> and <gui>Redo</gui>.</p></item>
+<item><p>New shortcut keys should be as mnemonic as possible, as these will be easier to learn and remember. For example, <keyseq><key>Ctrl</key><key>E</key></keyseq> would be a good shortcut for a menu item called <gui>Edit Page</gui>.</p></item>
 <item><p>Shortcuts that can be easily used with one hand are preferable for common operations.</p></item>
 <item><p>Do not use Alt+key combinations for shortcut keys, as these may conflict with access keys.</p></item>
 </list>
@@ -314,7 +314,7 @@ Do not assign system-level shortcut keys. These use the Super (sometimes knows a
 </tbody>
 </table>
 
-<p>If your application requires both Edit ▸ Find and Edit ▸ Search menu items, use Shift+Ctrl+F as the shortcut for Search.</p>
+<p>If your application requires both <guiseq><gui>Edit</gui><gui>Find</gui></guiseq> and <guiseq><gui>Edit</gui><gui>Search</gui></guiseq> menu items, use <keyseq><key>Shift</key><key>Ctrl</key><key>F</key></keyseq> as the shortcut for <gui>Search</gui>.</p>
 
 </section>
 
@@ -337,7 +337,7 @@ Do not assign system-level shortcut keys. These use the Super (sometimes knows a
 </tr>
 <tr>
 <td><p><gui>Zoom Out</gui></p></td>
-<td><p><keyseq><key>Ctrlr</key><key>-</key></keyseq></p></td>
+<td><p><keyseq><key>Ctrl</key><key>-</key></keyseq></p></td>
 <td><p>Zoom out of the document</p></td>
 </tr>
 <tr>
@@ -358,7 +358,7 @@ Do not assign system-level shortcut keys. These use the Super (sometimes knows a
 </tbody>
 </table>
 
-<p>If your application requires both <gui>View ▸ Reload</gui> and <gui>View ▸ Refresh</gui> menu items, use Shift+Ctrl+R as the shortcut for <gui>Reload</gui>.</p>
+<p>If your application requires both <guiseq><gui>View</gui><gui>Reload</gui></guiseq> and <guiseq><gui>View</gui><gui>Refresh</gui></guiseq> menu items, use <keyseq><key>Shift</key><key>Ctrl</key><key>R</key></keyseq> as the shortcut for <gui>Reload</gui>.</p>
 
 </section>
 
@@ -387,7 +387,7 @@ Do not assign system-level shortcut keys. These use the Super (sometimes knows a
 </tbody>
 </table>
 
-<p>If your application requires both <gui>Format ▸ Bold</gui> and <gui>Bookmarks ▸ Edit Bookmarks…</gui> menu items, use <keyseq><key>Shift</key><key>Ctrl</key><key>D</key></keyseq> as the shortcut for <gui>Edit Bookmarks</gui>.</p>
+<p>If your application requires both <guiseq><gui>Format</gui><gui>Bold</gui></guiseq> and <guiseq><gui>Bookmarks</gui><gui>Edit Bookmarks…</gui></guiseq> menu items, use <keyseq><key>Shift</key><key>Ctrl</key><key>D</key></keyseq> as the shortcut for <gui>Edit Bookmarks</gui>.</p>
 
 </section>
 

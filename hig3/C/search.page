@@ -38,7 +38,7 @@ In primary windows, the search bar is typically hidden until it is activated by 
 
 <list>
 <item><p>Typing when a text entry field is not focused should activate search, and the entered text should be added to the search field. This is called "type to search".</p></item>
-<item><p>The keyboard shortcut for search (Ctrl+F).</p></item>
+<item><p>The keyboard shortcut for search (<keyseq><key>Ctrl</key><key>F</key></keyseq>).</p></item>
 <item><p>A search button in the header bar should allow the search bar to be displayed (the search button should toggle).</p></item>
 </list>
 

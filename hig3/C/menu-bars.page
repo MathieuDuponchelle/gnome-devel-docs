@@ -368,7 +368,7 @@
 
 <p>Where applicable, provide items on the <gui>Edit</gui> menu that insert special objects such as images, links, GUI controls or the current date and time.</p>
 
-<p>If you have up to three types of object that can be inserted, add them as individual items to this menu, for example <gui>Insert Image</gui>, or <gui>Insert External Link</gui>. If you have between three and six types, place them on an <gui>Edit ▸ Insert</gui> submenu. If you have more than six, add a separate <gui>Insert</gui> menu to the menubar.</p>
+<p>If you have up to three types of object that can be inserted, add them as individual items to this menu, for example <gui>Insert Image</gui>, or <gui>Insert External Link</gui>. If you have between three and six types, place them on an <guiseq><gui>Edit</gui><gui>Insert</gui></guiseq> submenu. If you have more than six, add a separate <gui>Insert</gui> menu to the menubar.</p>
 
 </section>
 
@@ -377,7 +377,7 @@
 <section id="view">
 <title>View</title>
 
-<p>The <gui>View</gui> menu contains only items that affect the user's view of the current document. Do not place any items on the <gui>View</gui> menu that affect the content of the current document. (Exception: <gui>View ▸ Reload</gui> may change the current contents if, for example, the document is a webpage that has been recently updated on the server).</p>
+<p>The <gui>View</gui> menu contains only items that affect the user's view of the current document. Do not place any items on the <gui>View</gui> menu that affect the content of the current document. (Exception: <guiseq><gui>View</gui><gui>Reload</gui></guiseq> may change the current contents if, for example, the document is a webpage that has been recently updated on the server).</p>
 
 <table>
 <thead>
