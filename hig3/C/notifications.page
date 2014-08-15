@@ -35,6 +35,7 @@
 <td><p>Element</p></td><td><p>Description</p></td>
 </tr>
 </thead>
+<tbody>
 <tr>
 <td><p>Application Icon</p></td><td><p>Indicates which application sent the notification.</p></td>
 </tr>
@@ -50,6 +51,7 @@
 <tr>
 <td><p>Actions</p></td><td><p>Each notification can include up to three buttons.</p></td>
 </tr>
+</tbody>
 </table>
 
 <section id="titles">

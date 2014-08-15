@@ -100,6 +100,7 @@
 <td><p>Row Behavior</p></td>
 </tr>
 </thead>
+<tbody>
 <tr>
 <td><p>Navigation</p></td>
 <td><p>Selecting a row opens the corresponding item, whether it is by browsing to a new view or opening a dialog. This pattern is common for lists of content items, or for presenting groups of settings.</p></td>
@@ -112,6 +113,7 @@
 <td><p>Edit</p></td>
 <td><p>Selecting the row item turns the row into a text entry field, which allows the item to be edited.</p></td>
 </tr>
+</tbody>
 </table>
 
 <p>Navigation style lists can be combined with <link xref="selection-mode">selection mode</link> in order to allow rows to be both opened and manipulated. Using double-click to open list items should be avoided, since it is undiscoverable and is incompatible with touch input.</p>

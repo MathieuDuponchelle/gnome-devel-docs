@@ -87,6 +87,7 @@ Do not assign system-level shortcut keys. These use the Super (sometimes knows a
 <td><p>Description</p></td>
 </tr>
 </thead>
+<tbody>
 <tr>
 <td><p>Switch window</p></td>
 <td><p><keyseq><key>Alt</key><key>Tab</key></keyseq> and <keyseq><key>Shift</key><key>Alt</key><key>Tab</key></keyseq></p></td>
@@ -147,6 +148,7 @@ Do not assign system-level shortcut keys. These use the Super (sometimes knows a
 <td><p><keyseq><key>Alt</key><key>F10</key></keyseq></p></td>
 <td><p>Maximize the focused window</p></td>
 </tr>
+</tbody>
 </table>
 
 <section id="widget-navigation">
@@ -159,6 +161,7 @@ Do not assign system-level shortcut keys. These use the Super (sometimes knows a
 <td><p>Function</p></td>
 </tr>
 </thead>
+<tbody>
 <tr>
 <td><p><key>Tab</key> and <keyseq><key>Shift</key><key>Tab</key></keyseq></p></td>
 <td><p>Moves keyboard focus to the next/previous control</p></td>
@@ -203,6 +206,7 @@ Do not assign system-level shortcut keys. These use the Super (sometimes knows a
 <td><p><key>PageUp</key>, <keyseq><key>Ctrl</key><key>PageUp</key></keyseq>, <key>PageDown</key> and <keyseq><key>Ctrl</key><key>PageDown</key></keyseq></p></td>
 <td><p>Scroll the selected view by one page up/left/down/right</p></td>
 </tr>
+</tbody>
 </table>
 
 <p>In addition, the shortcuts for Unicode character entry should also be avoided. This includes <keyseq><key>Shift</key><key>Ctrl</key><key>A</key></keyseq> through to <keyseq><key>Shift</key><key>Ctrl</key><key>F</key></keyseq>, or <keyseq><key>Shift</key><key>Ctrl</key><key>0</key></keyseq> through to <keyseq><key>Shift</key><key>Ctrl</key><key>9</key></keyseq>.</p>
@@ -227,6 +231,7 @@ Do not assign system-level shortcut keys. These use the Super (sometimes knows a
 <td><p>Description</p></td>
 </tr>
 </thead>
+<tbody>
 <tr>
 <td><p><gui>Help</gui></p></td>
 <td><p><key>F1</key></p></td>
@@ -237,6 +242,7 @@ Do not assign system-level shortcut keys. These use the Super (sometimes knows a
 <td><p><keyseq><key>Ctrl</key><key>Q</key></keyseq></p></td>
 <td><p>Quit the application</p></td>
 </tr>
+</tbody>
 </table>
 
 </section>
@@ -252,6 +258,7 @@ Do not assign system-level shortcut keys. These use the Super (sometimes knows a
 <td><p>Description</p></td>
 </tr>
 </thead>
+<tbody>
 <tr>
 <td><p><gui>New</gui></p></td>
 <td><p><keyseq><key>Ctrl</key><key>N</key></keyseq></p></td>
@@ -277,6 +284,7 @@ Do not assign system-level shortcut keys. These use the Super (sometimes knows a
 <td><p><keyseq><key>Ctrl</key><key>W</key></keyseq></p></td>
 <td><p>Close the current document</p></td>
 </tr>
+</tbody>
 </table>
 
 </section>
@@ -292,6 +300,7 @@ Do not assign system-level shortcut keys. These use the Super (sometimes knows a
 <td><p>Description</p></td>
 </tr>
 </thead>
+<tbody>
 <tr>
 <td><p><gui>Undo</gui></p></td>
 <td><p><keyseq><key>Ctrl</key><key>Z</key></keyseq></p></td>
@@ -302,6 +311,7 @@ Do not assign system-level shortcut keys. These use the Super (sometimes knows a
 <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>Z</key></keyseq></p></td>
 <td><p>Redo the last operation</p></td>
 </tr>
+</tbody>
 </table>
 
 <p>If your application requires both Edit ▸ Find and Edit ▸ Search menu items, use Shift+Ctrl+F as the shortcut for Search.</p>
@@ -319,6 +329,7 @@ Do not assign system-level shortcut keys. These use the Super (sometimes knows a
 <td><p>Description</p></td>
 </tr>
 </thead>
+<tbody>
 <tr>
 <td><p><gui>Zoom In</gui></p></td>
 <td><p><keyseq><key>Ctrl</key><key>+</key></keyseq></p></td>
@@ -344,6 +355,7 @@ Do not assign system-level shortcut keys. These use the Super (sometimes knows a
 <td><p><keyseq><key>Alt</key><key>Enter</key></keyseq></p></td>
 <td><p>Display the selectd object's properties window.</p></td>
 </tr>
+</tbody>
 </table>
 
 <p>If your application requires both <gui>View ▸ Reload</gui> and <gui>View ▸ Refresh</gui> menu items, use Shift+Ctrl+R as the shortcut for <gui>Reload</gui>.</p>
@@ -361,6 +373,7 @@ Do not assign system-level shortcut keys. These use the Super (sometimes knows a
 <td><p>Description</p></td>
 </tr>
 </thead>
+<tbody>
 <tr>
 <td><p><gui>Add Bookmark</gui></p></td>
 <td><p><keyseq><key>Ctrl</key><key>D</key></keyseq></p></td>
@@ -371,6 +384,7 @@ Do not assign system-level shortcut keys. These use the Super (sometimes knows a
 <td><p><keyseq><key>Ctrl</key><key>B</key></keyseq></p></td>
 <td><p>Open a window in which the user can edit and organize saved bookmarks</p></td>
 </tr>
+</tbody>
 </table>
 
 <p>If your application requires both <gui>Format ▸ Bold</gui> and <gui>Bookmarks ▸ Edit Bookmarks…</gui> menu items, use <keyseq><key>Shift</key><key>Ctrl</key><key>D</key></keyseq> as the shortcut for <gui>Edit Bookmarks</gui>.</p>
@@ -388,6 +402,7 @@ Do not assign system-level shortcut keys. These use the Super (sometimes knows a
 <td><p>Description</p></td>
 </tr>
 </thead>
+<tbody>
 <tr>
 <td><p><gui>Back</gui></p></td>
 <td><p><keyseq><key>Alt</key><key>Left</key></keyseq></p></td>
@@ -413,6 +428,7 @@ Do not assign system-level shortcut keys. These use the Super (sometimes knows a
 <td><p><keyseq><key>Ctrl</key><key>L</key></keyseq></p></td>
 <td><p>Present or focus an entry field into which the user can type a new address or location</p></td>
 </tr>
+</tbody>
 </table>
 
 </section>
@@ -428,6 +444,7 @@ Do not assign system-level shortcut keys. These use the Super (sometimes knows a
 <td><p>Description</p></td>
 </tr>
 </thead>
+<tbody>
 <tr>
 <td><p><gui>Bold</gui></p></td>
 <td><p><keyseq><key>Ctrl</key><key>B</key></keyseq></p></td>
@@ -443,6 +460,7 @@ Do not assign system-level shortcut keys. These use the Super (sometimes knows a
 <td><p><keyseq><key>Ctrl</key><key>I</key></keyseq></p></td>
 <td><p>Make selected text italic/regular</p></td>
 </tr>
+</tbody>
 </table>
 
 </section>
