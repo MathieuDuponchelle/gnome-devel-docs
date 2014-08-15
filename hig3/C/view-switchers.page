@@ -27,7 +27,7 @@
 <item><p>If your application provides discrete groups of functionality which are typically used independently.</p></item>
 </list>
 
-<p>As a rule of thumb, a view switcher should contain between three and five views. If you have more views, a <link xref="sidebars">sidebar</link> list might be a more appropriate view switching control.</p>
+<p>As a rule of thumb, a view switcher should contain between three and five views. If you have more views, a <link xref="sidebar-lists">sidebar list</link> might be a more appropriate view switching control.</p>
 
 </section>
 
