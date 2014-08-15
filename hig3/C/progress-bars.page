@@ -12,6 +12,47 @@
 
 <title>Progress bars</title>
 
+<p>Progress bars are visual indicators of the progress of a task being carried out by the application, and provide important feedback.</p>
 
+<p>Progress bars are visual indicators of the progress of a task being carried out by the application, and provide important feedback</p>
+
+<section id="guidelines">
+<title>Guidelines</title>
+
+<list>
+<item><p>Always use a measured progress bar when the length of a task can be precisely or approximately predicted. Otherwise, use an indeterminate progress indicator or a checklist window.</p></item>
+<item><p>Ensure that a measured-progress bar measures an operation's total time or total work, not just that of a single step. An exception is a progress bar that measures the total time or work of the current step in a progress checklist.</p></item>
+</list>
+
+</section>
+
+<section id="time-remaining-progress-bar">
+<title>Time-remaining progress bar</title>
+
+<p>An animation consisting of a bar whose changing length indicates how much time remains in an operation, and text stating how much time remains before the operation will be complete. Time-remaining bars are the most useful type of progress bar.</p>
+
+<p>Use a time-remaining bar if your application will display an initial estimate of an operation's remaining time and then periodically display updated estimates. Each updated estimate should be based on changes that have occurred and that will cause the operation to finish more quickly or more slowly. If the operation will finish more slowly, your application can display an updated estimate that is greater than the estimate previously displayed.</p>
+
+</section>
+
+<section id="typical-time-progress-bar">
+<title>Typical-time progress bar</title>
+
+<p>A bar whose changing length indicates how much time remains if an operation takes as long as it typically does. Typical-time bars are the least precise type of measured-progress bar, but they are more useful than indeterminate-progress bars.</p>
+
+<p>For some operations, you cannot estimate the time remaining or the proportion of work completed. However, if you can estimate the typical time for that operation, you can provide feedback with a typical-time bar.</p>
+
+<p>If your application overestimates the completed amount of work, the length of the bar can indicate "almost complete" until the operation is complete. If your application underestimates how much work is complete, the application can fill the remaining portion of the bar when the operation is complete.</p>
+
+</section>
+
+<section id="indeterminate-progress-bar">
+<title>Indeterminate-progress bar</title>
+
+<p>An animated bar indicating only that an operation is ongoing, not how long it will take. One example is the "throbber" in a web browser. Indeterminate-progress bars are the least precise type of progress bar.</p>
+
+<p>Use an indeterminate-progress bar to provide feedback only for operations whose duration you cannot estimate at all.</p>
+
+</section>
 
 </page>

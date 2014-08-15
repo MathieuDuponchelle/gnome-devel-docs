@@ -12,12 +12,12 @@
     <desc>Keyboard navigation, access and shortcut keys.</desc>  
   </info>
 
-<title>Keyboard Input</title>
+<title>Keyboard input</title>
 
 <p>Keyboards are a basic input device for GNOME 3, so it is important that you design your application with them in mind. The keyboard is also important for visually-impaired people or those with mobility impairments.</p>
 
 <section id="keyboard-navigation">
-<title>Keyboard Navigation</title>
+<title>Keyboard navigation</title>
 
 <p>Ensure that all the functionality provided by your application can be accessed using a keyboard, including toolbars, links and buttons. Trying to use your application only with a keyboard is a great way to test this.</p>
 
@@ -30,7 +30,7 @@
 </section>
 
 <section id="access-keys">
-<title>Access Keys</title>
+<title>Access keys</title>
 
 <p>Access keys allow someone to operate labelled controls by using the Alt modifier key.</p>
 
@@ -53,7 +53,7 @@
 </section>
 
 <section id="shortcut-keys">
-<title>Shortcut Keys</title>
+<title>Shortcut keys</title>
 
 <p>Shortcut keys are a good way to provide quick and convenient access to common operations.</p>
 
@@ -72,15 +72,228 @@ Do not assign system-level shortcut keys. These use the Super (sometimes knows a
 
 </section>
 
-<section id="standard-shortcut-keys">
-<title>Standard GNOME Shortcut Keys</title>
+<section id="system-shortcuts">
+<title>System reserved shortcuts</title>
 
-<p>Include these where you can:</p>
+<p>Unicode entry shortcuts: Shift+Ctrl+A-thru-F or Shift+Ctrl+0-thru-9, as these combinations are used to enter unicode characters in text fields.</p>
 
 </section>
 
-<section id="system-shortcut-keys">
-<title>System Reserved Shortcut Keys</title>
+<section id="standard-shortcut-keys">
+<title>Standard shortcut keys</title>
+
+<p>If your application uses any of the standard functions listed in the following tables, use the recommended standard keyboard shortcut for that function.</p>
+
+<section id="file">
+<title>Standard file shortcuts</title>
+
+<table>
+<thead>
+<tr>
+<td><p>Function</p></td>
+<td><p>Shortcut</p></td>
+<td><p>Description</p></td>
+</tr>
+</thead>
+<tr>
+<td><p><gui>New</gui></p></td>
+<td><p><keyseq><key>Ctrl</key><key>N</key></keyseq></p></td>
+<td><p>Create a new document</p></td>
+</tr>
+<tr>
+<td><p><gui>Open</gui></p></td>
+<td><p><keyseq><key>Ctrl</key><key>O</key></keyseq></p></td>
+<td><p>Open a document</p></td>
+</tr>
+<tr>
+<td><p><gui>Save</gui></p></td>
+<td><p><keyseq><key>Ctrl</key><key>S</key></keyseq></p></td>
+<td><p>Save the current document</p></td>
+</tr>
+<tr>
+<td><p><gui>Print</gui></p></td>
+<td><p><keyseq><key>Ctrl</key><key>P</key></keyseq></p></td>
+<td><p>Print the current document</p></td>
+</tr>
+<tr>
+<td><p><gui>Close</gui></p></td>
+<td><p><keyseq><key>Ctrl</key><key>W</key></keyseq></p></td>
+<td><p>Close the current document</p></td>
+</tr>
+<tr>
+<td><p><gui>Quit</gui></p></td>
+<td><p><keyseq><key>Ctrl</key><key>Q</key></keyseq></p></td>
+<td><p>Quit the application</p></td>
+</tr>
+</table>
+
+</section>
+
+<section id="edit">
+<title>Standard edit shorcuts</title>
+
+<table>
+<thead>
+<tr>
+<td><p>Function</p></td>
+<td><p>Shortcut</p></td>
+<td><p>Description</p></td>
+</tr>
+</thead>
+<tr>
+<td><p><gui>Undo</gui></p></td>
+<td><p><keyseq><key>Ctrl</key><key>Z</key></keyseq></p></td>
+<td><p>Undo the last operation</p></td>
+</tr>
+<tr>
+<td><p><gui>Redo</gui></p></td>
+<td><p><keyseq><key>Shift</key><key>Ctrl</key><key>Z</key></keyseq></p></td>
+<td><p></p></td>
+</tr>
+</table>
+
+<p>If your application requires both Edit ▸ Find and Edit ▸ Search menu items, use Shift+Ctrl+F as the shortcut for Search.</p>
+
+</section>
+
+<section id="view">
+<title>Standard view shortcuts</title>
+
+<table>
+<thead>
+<tr>
+<td><p>Function</p></td>
+<td><p>Shortcut</p></td>
+<td><p>Description</p></td>
+</tr>
+</thead>
+<tr>
+<td><p><gui>Zoom In</gui></p></td>
+<td><p><keyseq><key>Ctrl</key><key>+</key></keyseq></p></td>
+<td><p>Zoom in on the document</p></td>
+</tr>
+<tr>
+<td><p><gui>Zoom Out</gui></p></td>
+<td><p><keyseq><key>Ctrlr</key><key>-</key></keyseq></p></td>
+<td><p>Zoom out of the document</p></td>
+</tr>
+<tr>
+<td><p><gui>Normal Size</gui></p></td>
+<td><p><keyseq><key>Ctrl</key><key>0</key></keyseq></p></td>
+<td><p>Restore the zoom level to the normal size (generally 100%)</p></td>
+</tr>
+<tr>
+<td><p><gui>Reload</gui></p></td>
+<td><p><keyseq><key>Ctrl</key><key>R</key></keyseq></p></td>
+<td><p>Reload the current document, updating content from the sourc if necessary</p></td>
+</tr>
+<tr>
+<td><p><gui>Properties</gui></p></td>
+<td><p><keyseq><key>Alt</key><key>Enter</key></keyseq></p></td>
+<td><p>Display the selectd object's properties window.</p></td>
+</tr>
+</table>
+
+<p>If your application requires both <gui>View ▸ Reload</gui> and <gui>View ▸ Refresh</gui> menu items, use Shift+Ctrl+R as the shortcut for <gui>Reload</gui>.</p>
+
+</section>
+
+<section id="bookmarks">
+<title>Standard bookmark shortcuts</title>
+
+<table>
+<thead>
+<tr>
+<td><p>Function</p></td>
+<td><p>Shortcut</p></td>
+<td><p>Description</p></td>
+</tr>
+</thead>
+<tr>
+<td><p><gui>Add Bookmark</gui></p></td>
+<td><p><keyseq><key>Ctrl</key><key>D</key></keyseq></p></td>
+<td><p>Add a bookmark for the current location</p></td>
+</tr>
+<tr>
+<td><p><gui>Edit Bookmarks…</gui></p></td>
+<td><p><keyseq><key>Ctrl</key><key>B</key></keyseq></p></td>
+<td><p>Open a window in which the user can edit and organize saved bookmarks</p></td>
+</tr>
+</table>
+
+<p>If your application requires both <gui>Format ▸ Bold</gui> and <gui>Bookmarks ▸ Edit Bookmarks…</gui> menu items, use <keyseq><key>Shift</key><key>Ctrl</key><key>D</key></keyseq> as the shortcut for <gui>Edit Bookmarks</gui>.</p>
+
+</section>
+
+<section id="navigation">
+<title>Standard navigation shortcut keys</title>
+
+<table>
+<thead>
+<tr>
+<td><p>Function</p></td>
+<td><p>Shortcut</p></td>
+<td><p>Description</p></td>
+</tr>
+</thead>
+<tr>
+<td><p><gui>Back</gui></p></td>
+<td><p><keyseq><key>Alt</key><key>Left</key></keyseq></p></td>
+<td><p>Go to the previous location in the navigation chain</p></td>
+</tr>
+<tr>
+<td><p><gui>Next</gui></p></td>
+<td><p><keyseq><key>Alt</key><key>Right</key></keyseq></p></td>
+<td><p>Go to the next location in the navigation chain</p></td>
+</tr>
+<tr>
+<td><p><gui>Up</gui></p></td>
+<td><p><keyseq><key>Alt</key><key>Up</key></keyseq></p></td>
+<td><p>Go up one level in the navigation hierarchy</p></td>
+</tr>
+<tr>
+<td><p><gui>Home</gui></p></td>
+<td><p><keyseq><key>Alt</key><key>Home</key></keyseq></p></td>
+<td><p>Go to the starting point</p></td>
+</tr>
+<tr>
+<td><p><gui>Location…</gui></p></td>
+<td><p><keyseq><key>Ctrl</key><key>L</key></keyseq></p></td>
+<td><p>Present or focus an entry field into which the user can type a new address or location</p></td>
+</tr>
+</table>
+
+</section>
+
+<section id="format">
+<title>Standard format shortcut keys</title>
+
+<table>
+<thead>
+<tr>
+<td><p>Function</p></td>
+<td><p>Shortcut</p></td>
+<td><p>Description</p></td>
+</tr>
+</thead>
+<tr>
+<td><p><gui>Bold</gui></p></td>
+<td><p><keyseq><key>Ctrl</key><key>B</key></keyseq></p></td>
+<td><p>Make selected text bold/regular</p></td>
+</tr>
+<tr>
+<td><p><gui>Underline</gui></p></td>
+<td><p><keyseq><key>Ctrl</key><key>U</key></keyseq></p></td>
+<td><p>Underline/remove underline from selected text</p></td>
+</tr>
+<tr>
+<td><p><gui>Italic</gui></p></td>
+<td><p><keyseq><key>Ctrl</key><key>I</key></keyseq></p></td>
+<td><p>Make selected text italic/regular</p></td>
+</tr>
+</table>
+
+</section>
 
 </section>
 
