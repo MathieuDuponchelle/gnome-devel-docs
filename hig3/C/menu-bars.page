@@ -715,7 +715,7 @@
 <tr>
 <td><p><gui>Go to Page…</gui></p></td>
 <td><p>None</p></td>
-<td><p>Navigates to a user-specified page number. Open a dialog into which the user can type a page number. Text-based applications may also include a <gui>Go to Line...</gui> menu item, which allows the user to jump to a specified line number.</p></td>
+<td><p>Navigates to a user-specified page number. Open a dialog into which the user can type a page number. Text-based applications may also include a <gui>Go to Line…</gui> menu item, which allows the user to jump to a specified line number.</p></td>
 </tr>
 <tr>
 <td><p><gui>First Page</gui></p></td>
