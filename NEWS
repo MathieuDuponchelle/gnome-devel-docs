@@ -1,3 +1,11 @@
+3.12.3
+======
+* Relicense HIG to CC-BY-SA 4.0 (Allan Day)
+* Remove unused images (Richard Hughes)
+* Updated translations
+  es      (Daniel Mustieles)
+  el      (Tom Tryfonidis)
+
 3.12.2
 ======
 * Fix validation errors (Ekaterina Gerasimova)
