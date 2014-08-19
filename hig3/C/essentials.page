@@ -19,6 +19,10 @@
 
 <table>
 <tr>
+<td><p><link xref="design-principles"><em style="strong">Design principles</em></link></p></td>
+<td><p>General design guidelines and advice.</p></td>
+</tr>
+<tr>
 <td><p><link xref="application-basics"><em style="strong">Application basics</em></link></p></td>
 <td><p>Basic application behavior and characteristics.</p></td>
 </tr>
@@ -26,10 +30,7 @@
 <td><p><link xref="compatibility"><em style="strong">Compatibility</em></link></p></td>
 <td><p>Using the HIG for cross-platform or GNOME 2 style applications.</p></td>
 </tr>
-<tr>
-<td><p><link xref="design-principles"><em style="strong">Design principles</em></link></p></td>
-<td><p>General design guidelines and advice.</p></td>
-</tr>
+
 </table>
 
 </section>

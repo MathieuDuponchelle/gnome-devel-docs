@@ -26,15 +26,13 @@
 <section id="primary-and-secondary-buttons">
 <title>Primary and secondary buttons</title>
 
-<p>Mice and touchpads often have two main buttons. One of these acts as the primary button, and the other acts as the secondary button.</p>
+<p>Mice and touchpads often have two main buttons. One of these acts as the primary button, and the other acts as the secondary button. Typically, the left button is used as the primary button and the right button is used as the secondary button. However, this order is user-configurable and does not translate to touchscreen input. These guidelines therefore refer to primary and secondary action, rather than left and right.</p>
 
-<p>Use the primary button for selecting items and activating controls. The secondary button can be used for accessing additional options, typically through a context menu.</p>
+<p>Use the primary action for selecting items and activating controls. The secondary action can be used for accessing additional options, typically through a context menu.</p>
 
-<p>Do not depend on input from the middle or right mouse buttons. As well as being physically more difficult to click, some pointing devices and many assistive technology devices only support or emulate the left mouse button. Some assistive technologies may not even emulate the mouse at all, but generate keyboard events instead.</p>
+<p>Do not depend on input from secondary or other additional buttons. As well as being physically more difficult to click, some pointing devices and many assistive technology devices only support or emulate the primary button.</p>
 
-<p>Press and hold should be used to simulate the secondary button on single button pointer devices. Therefore, do not use press and hold for other purposes.</p>
-
-<note><p>Typically, the left button is used as the primary button and the right button is used as the secondary button. However, this order is user-configurable. These guidelines therefore refer to primary and secondary, rather than left and right.</p></note>
+<p>Press and hold should be used to simulate the secondary button on single button pointing devices. Therefore, do not use press and hold for other purposes.</p>
 
 </section>
 
