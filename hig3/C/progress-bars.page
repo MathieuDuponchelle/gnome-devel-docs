@@ -24,11 +24,24 @@
 
 <title>Progress bars</title>
 
-<p>Progress bars are visual indicators of the progress of a task being carried out by the application.</p>
+<p>Progress bars are visual indicators of the progress of a task being carried out. There are three main types of progress bar:</p>
 
-<p>There are three main types of progress bar: time-remaining, typical-time, and indeterminate.</p>
+<list>
+<item><p>Time-remaining: indicate how much time remains in an operation.</p></item>
+<item><p>Typical-time: indicate how much time remains, based on an estimate of the expected duration.</p></item>
+<item><p>Indeterminate: only indicate that an operation is ongoing, not how long it will take.</p></item>
+</list>
 
 <media type="image" mime="image/png" src="figures/progress-bars.png"/>
+
+<section id="when-to-use">
+<title>When to use</title>
+
+<p>The primary advantage of a progress bar over other methods of indicating progress is that a progress bar graphically indicates the proportion of a task that has been completed. This also results in progress bars taking more space and having a higher visual footprint. Therefore, they are are best used to indicate progress on tasks that can take a relatively long time.</p>
+
+<p>As a rule of thumb, only use a progress bar for tasks that take over 30 seconds. For tasks that have shorter periods, <link xref="progress-spinners">progress spinners</link> are often a better choice.</p>
+
+</section>
 
 <section id="guidelines">
 <title>Guidelines</title>
@@ -36,35 +49,9 @@
 <list>
 <item><p>Accuracy is preferable for progress bars. Where possible, use a time-remaining progress bar, followed by typical-time. Try to avoid using indeterminate progress bars.</p></item>
 <item><p>Ensure that time-remaining and typical-time progress bars measure an operation's total time or total work, not just that of a single step.</p></item>
+<item><p>For time-remaining progress bars, update time-remaining progress bars when changes occurr that will cause the operation to finish more quickly or more slowly.</p></item>
+<item><p>For typical-time progress bars, if your application overestimates the completed amount of work, the length of the bar can indicate "almost complete" until the operation is complete. If your application underestimates how much work is complete, fill the remaining portion of the bar when the operation is complete.</p></item>
 </list>
 
 </section>
-
-<section id="time-remaining-progress-bar">
-<title>Time-remaining progress bar</title>
-
-<p>Time-remaining progress bars indicate how much time remains in an operation. They also include text which states how much time remains before the operation will be complete. Time-remaining bars are the most useful type of progress bar.</p>
-
-<p>Use a time-remaining bar if you can display an initial estimate of an operation's remaining time and then periodically display updated estimates. Each updated estimate should be based on changes that have occurred and that will cause the operation to finish more quickly or more slowly. If the operation will finish more slowly, your application can display an updated estimate that is greater than the estimate previously displayed.</p>
-
-</section>
-
-<section id="typical-time-progress-bar">
-<title>Typical-time progress bar</title>
-
-<p>Typical-time progress bars indicate how much time remains if an operation takes, based on how long that operation typically takes. They are more useful than indeterminate-progress bars, but not as effective as time-remaining progress bars.</p>
-
-<p>If your application overestimates the completed amount of work, the length of the bar can indicate "almost complete" until the operation is complete. If your application underestimates how much work is complete, the application can fill the remaining portion of the bar when the operation is complete.</p>
-
-</section>
-
-<section id="indeterminate-progress-bar">
-<title>Indeterminate progress bar</title>
-
-<p>Indeterminate progress bars only indicate that an operation is ongoing, not how long it will take.</p>
-
-<p>Use an indeterminate-progress bar to provide feedback only for operations whose duration you cannot estimate at all.</p>
-
-</section>
-
 </page>

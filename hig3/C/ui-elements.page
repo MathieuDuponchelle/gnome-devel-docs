@@ -35,22 +35,24 @@
 <tr>
 <td><p><link xref="progress-bars">Progress bars</link></p></td>
 <td><media type="image" mime="image/png" src="figures/progress-bars.png"/></td>
+<td><p><link xref="progress-spinners">Progress spinners</link></p></td>
+<td><media type="image" mime="image/png" src="figures/progress-spinner.png"/></td>
+</tr>
+<tr>
 <td><p><link xref="sliders">Sliders</link></p></td>
 <td><media type="image" mime="image/png" src="figures/sliders.png"/></td>
-</tr>
-<tr>
 <td><p><link xref="switches">Switches</link></p></td>
 <td><media type="image" mime="image/png" src="figures/switches.png"/></td>
+</tr>
+<tr>
 <td><p><link xref="radio-buttons">Radio buttons</link></p></td>
 <td><media type="image" mime="image/png" src="figures/radio-buttons.png"/></td>
-</tr>
-<tr>
 <td><p><link xref="tabs">Tabs</link></p></td>
 <td><media type="image" mime="image/png" src="figures/tabs.png"/></td>
-<td><p><link xref="text-fields">Text fields</link></p></td>
-<td><media type="image" mime="image/png" src="figures/text-fields.png"/></td>
 </tr>
 <tr>
+<td><p><link xref="text-fields">Text fields</link></p></td>
+<td><media type="image" mime="image/png" src="figures/text-fields.png"/></td>
 <td><p><link xref="toolbars">Toolbars</link></p></td>
 <td><media type="image" mime="image/png" src="figures/toolbar.png"/></td>
 </tr>
