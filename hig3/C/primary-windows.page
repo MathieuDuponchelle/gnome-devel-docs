@@ -39,7 +39,7 @@
 <section id="multiple-instance-applications">
 <title>Multiple instance applications</title>
 
-<p>Multiple instance applications can have a multiple primary windows. Typically, each primary window will be identical. Multi-instance applications are frequently viewers or editors, such as for documents or images.</p>
+<p>Multiple instance applications can have multiple primary windows. Typically, each primary window will be identical. Multi-instance applications are frequently viewers or editors, such as for documents or images.</p>
 
 <p>Both single and multiple instance applications can allow multiple content items to be opened, either through the use of <link xref="tabs">tabs</link> or browser-style navigation. However, multiple windows do offer additional capabilities, which include:</p>
 
