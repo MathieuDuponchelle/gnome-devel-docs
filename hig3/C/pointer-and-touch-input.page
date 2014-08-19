@@ -1,0 +1,221 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="pointer-and-touch-input">
+
+  <info>
+    <link type="guide" xref="essentials" group="pointer-and-touch-input"/>   
+    <credit type="author">
+      <name>Allan Day</name>
+      <email>aday@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Jakub Steiner</name>
+    </credit>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+    <desc>Mouse, touchpad and touchscreen interaction.</desc>  
+  </info>
+
+<title>Pointer and touch input</title>
+
+<p>Pointer and touch input are two of the primary means through which users will interact with your application.</p>
+
+<section id="pointer-input">
+<title>Pointer input</title>
+
+<p>A pointing device is any input device that allows the manipulation of a pointer - typically represented as an arrow, and often called a cursor - on screen. While mice and touchpads are the most common, there are a wide variety of such devices, including graphics tablets, track balls, track points and joysticks.</p>
+
+<section id="primary-and-secondary-buttons">
+<title>Primary and secondary buttons</title>
+
+<p>Mice and touchpads often have two main buttons. One of these acts as the primary button, and the other acts as the secondary button.</p>
+
+<p>Use the primary button for selecting items and activating controls. The secondary button can be used for accessing additional options, typically through a context menu.</p>
+
+<p>Do not depend on input from the middle or right mouse buttons. As well as being physically more difficult to click, some pointing devices and many assistive technology devices only support or emulate the left mouse button. Some assistive technologies may not even emulate the mouse at all, but generate keyboard events instead.</p>
+
+<p>Press and hold should be used to simulate the secondary button on single button pointer devices. Therefore, do not use press and hold for other purposes.</p>
+
+<note><p>Typically, the left button is used as the primary button and the right button is used as the secondary button. However, this order is user-configurable. These guidelines therefore refer to primary and secondary, rather than left and right.</p></note>
+
+</section>
+
+<section id="general-guidelines">
+<title>General guidelines</title>
+
+<list>
+<item><p>Double click should not be used, since it is undiscoverable, and translates poorly to touch input.</p></item>
+<item><p>If present on the mouse, the scrollwheel should scroll the window or control under the pointer, if it supports scrolling. Initiating scrolling in this way should not move keyboard focus to the window or control being scrolled.</p></item>
+<item><p>Do not require the use of chording (pressing multiple mouse buttons simultaneously) for any operations.</p></item>
+<item><p>Do not require the use of multiple (triple- or quadruple-) clicking actions for any operations, unless you also provide an accessible alternative method of performing the same action.</p></item>
+<item><p>Allow all mouse operations to be cancelled before their completion. Pressing <key>Esc</key> should cancel any mouse operation in progress, such as dragging and dropping a file in a file manager, or drawing a shape in a drawing application.</p></item>
+<item><p>Do not refer to particular mouse buttons in your interface unless absolutely necessary. Not everybody will be using a conventional mouse with left, middle and right buttons, so any text or diagrams that refer to those may be confusing.</p></item>
+</list>
+
+</section>
+
+<section id="mouse-and-keyboard-equivalents">
+<title>Mouse and keyboard equivalents</title>
+
+<p>Ensure that every operation in your application that can be done with the mouse can also be done with the keyboard. The only exceptions to this are actions where fine motor control is an essential part of the task. For example, controlling movement in some types of action games, or freehand painting in an image-editing application.</p>
+
+<p>If your application allows items to be selected, the following equivalent actions should be in place.</p>
+
+<table>
+<thead>
+<tr>
+<td><p>Mouse Action</p></td>
+<td><p>Keyboard Action</p></td>
+<td><p>Result</p></td>
+</tr>
+</thead>
+<tr>
+<td><p>Primary button</p></td>
+<td><p><key>Space</key></p></td>
+<td><p>Opens an item</p></td>
+</tr>
+<tr>
+<td><p><key>Ctrl</key> and primary button</p></td>
+<td><p><keyseq><key>Ctrl</key><key>Space</key></keyseq></p></td>
+<td><p>Add/remove item from selection</p></td>
+</tr>
+<tr>
+<td><p><key>Shift</key> and primary button</p></td>
+<td><p><keyseq><key>Shift</key><key>Space</key></keyseq> / <keyseq><key>Shift</key><key>Home</key></keyseq> / <keyseq><key>Shift</key><key>End</key></keyseq> / <keyseq><key>Shift</key><key>End</key></keyseq> / <keyseq><key>Shift</key><key>PageUp</key></keyseq> / <keyseq><key>Shift</key><key>PageDown</key></keyseq></p></td>
+<td><p>Extend selection</p></td>
+</tr>
+<tr>
+<td><p>Primary button</p></td>
+<td><p>Cursor keys / <key>Home</key> / <key>End</key> / <key>PageUp</key> / <key>PageDown</key></p></td>
+<td><p>Change selection</p></td>
+</tr>
+<tr>
+<td><p>Primary button on first item, then primary button and <key>Shift</key> on the last item</p></td>
+<td><p><keyseq><key>Ctrl</key><key>A</key></keyseq></p></td>
+<td><p>Select all</p></td>
+</tr>
+<tr>
+<td><p>Primary click on the container background</p></td>
+<td><p><keyseq><key>Shift</key><key>Ctrl</key><key>A</key></keyseq></p></td>
+<td><p>Deselect all</p></td>
+</tr>
+</table>
+
+</section>
+</section>
+
+<section id="touch-input">
+<title>Touch input</title>
+
+<p>Touch screens are also an increasingly common part of modern computer hardware, and applications created with GTK+ are likely to be used with hardware that incorporates a touch screen. To make the most of this hardware, and to conform to users' expectations, it is therefore important to consider touch input as a part of application design.</p>
+
+<section id="application-touch-conventions">
+<title>Application touch conventions</title>
+
+<p>Using touch input consistently with other applications will allow users to easily learn how to use your application with a touch screen. The following conventions are recommended, where relevant.</p>
+
+<table>
+<thead>
+<tr>
+<td><p>Action</p></td>
+<td><p>Description</p></td>
+<td><p>Result</p></td>
+</tr>
+</thead>
+<tr>
+<td colspan="3"><p><em style="strong">Tap</em></p></td>
+</tr>
+<tr>
+<td><media type="image" mime="image/png" src="figures/touch/tap.svg"/></td>
+<td><p>Tap on an item.</p></td>
+<td><p>Primary action. Item opens - photo is shown full size, application launches, song starts playing.</p></td>
+</tr>
+<tr>
+<td colspan="3"><p><em style="strong">Press and hold</em></p></td>
+</tr>
+<tr>
+<td><media type="image" mime="image/png" src="figures/touch/tap-and-hold.svg"/></td>
+<td><p>Press and hold for a second or two.</p></td>
+<td><p>Secondary action. Select the item and lists actions that can be fItem opens - photo is shown full size, application launches, song starts playing.</p></td>
+</tr>
+<tr>
+<td colspan="3"><p><em style="strong">Drag</em></p></td>
+</tr>
+<tr>
+<td><media type="image" mime="image/png" src="figures/touch/drag.svg"/></td>
+<td><p>Slide finger touching the surface.</p></td>
+<td><p>Scrolls area on screen.</p></td>
+</tr>
+<tr>
+<td colspan="3"><p><em style="strong">Pinch or stretch</em></p></td>
+</tr>
+<tr>
+<td><media type="image" mime="image/png" src="figures/touch/pinch-or-stretch.svg"/></td>
+<td><p>Touch surface with two fingers while bringing them closer or further apart.</p></td>
+<td><p>Changes the zoom level of the view (eg. Maps, Photos).</p></td>
+</tr>
+<tr>
+<td colspan="3"><p><em style="strong">Double tap</em></p></td>
+</tr>
+<tr>
+<td><media type="image" mime="image/png" src="figures/touch/double-tap.svg"/></td>
+<td><p>Tap twice in quick succession.</p></td>
+<td><p>Stepped zoom in.</p></td>
+</tr>
+<tr>
+<td colspan="3"><p><em style="strong">Flick</em></p></td>
+</tr>
+<tr>
+<td><media type="image" mime="image/png" src="figures/touch/flick.svg"/></td>
+<td><p>Very quick drag, losing contact with the surface without slowing movement.</p></td>
+<td><p>Removes an item.</p></td>
+</tr>
+</table>
+
+</section>
+
+<section id="system-touch-conventions">
+<title>System touch conventions</title>
+
+<p>In GNOME 3, a number of touch gestures are reserved for use by the system. These should be avoided by applications.</p>
+
+<table>
+<tr>
+<td colspan="3"><p><em style="strong">Edge drag</em></p></td>
+</tr>
+<tr>
+<td><media type="image" mime="image/png" src="figures/touch/edge-drag.svg"/></td>
+<td><p>Slide finger starting from a screen edge.</p></td>
+<td><p>Bottom edge opens the Message Tray.</p>
+<p>Top-left edge opens the application menu.</p>
+<p>Top-right edge opens the system status menu.</p>
+<p>Left edge opens the Activities Overview with the application view visible.</p></td>
+</tr>
+<tr>
+<td colspan="3"><p><em style="strong">Three finger pinch</em></p></td>
+</tr>
+<tr>
+<td><media type="image" mime="image/png" src="figures/touch/3-finger-pinch.svg"/></td>
+<td><p>Bring three or more fingers closer together while touching the surface.</p></td>
+<td><p>Opens the Activities Overview.</p></td>
+</tr>
+<tr>
+<td colspan="3"><p><em style="strong">Four finger drag</em></p></td>
+</tr>
+<tr>
+<td><media type="image" mime="image/png" src="figures/touch/4-finger-drag.svg"/></td>
+<td><p>Drag up or down with four fingers touching the surface.</p></td>
+<td><p>Switches workspace.</p></td>
+</tr>
+<tr>
+<td colspan="3"><p><em style="strong">Two finger hold and tap</em></p></td>
+</tr>
+<tr>
+<td><media type="image" mime="image/png" src=""/></td>
+<td><p>Hold two fingers on the surface while tapping with the third.</p></td>
+<td><p>Switches application.</p></td>
+</tr>
+</table>
+
+</section>
+</section>
+</page>
