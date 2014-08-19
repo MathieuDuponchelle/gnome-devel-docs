@@ -106,9 +106,7 @@
 <section id="name-and-icon">
 <title>Give your application an instructive name and an attractive icon</title>
 
-<p>Your application’s name and <link xref="icons-and-artwork#application-icons">icon</link> are two of the most expressive things about it, so design them in order to communicate its function and identity. Make sure that people will understand the purpose of your application from its name. Ensure that you have a beautiful, recognizable application icon, to give your application an attractive and distinctive visual identity.</p>
-
-<p>Avoid obscure cultural references, inside jokes and acronyms in your application name, and ensure that you provide a hi-resolution version of your application icon.</p>
+<p>Your application’s <link xref="application-basics#application-names">name</link> and <link xref="icons-and-artwork#application-icons">icon</link> are two of the most expressive things about it, so design them in order to communicate its function and identity. Make sure that people will understand the purpose of your application from its name. Ensure that you have a beautiful, recognizable application icon, to give your application an attractive and distinctive visual identity.</p>
 
 </section>
 

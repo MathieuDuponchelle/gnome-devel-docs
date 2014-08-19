@@ -13,12 +13,12 @@
 
 <title>Application basics</title>
 
-<p>These Human Interface Guidelines are concerned with the creation of applications. An understanding of what an application is will help you to distribute your software more effectively, as well as ensure effective and consistent system integration.</p>
+<p>These Human Interface Guidelines are intended to help with the creation of applications. An understanding of what an application is will help you to distribute your software more effectively, as well as ensure effective and consistent system integration.</p>
 
-<p>The application provides a model with which users can understand their software, both in terms of how it is distributed, installed and removed, but also how that software behaves when in use. Ensuring that your software behaves according to the application model will help to ensure that it conforms to user expectations, and is therefore predictable. It will also ensure coherent integration with system tools for installing and removing applications.</p>
+<p>The application model allows users to understand how software how it is distributed, installed and removed, as well as how that software behaves when in use. Ensuring that your software behaves according to this model will therefore help to ensure that it is predictable and conforms to user expectations. It will also ensure correct integration with system tools for installing and removing applications.</p>
 
 <section id="application-definition">
-<title>Application definition</title>
+<title>Defining an application</title>
 
 <quote><p>An application is a distinct and independent piece of software that incorporates useful functionality, and which can be installed on a user's system.</p></quote>
 
@@ -33,9 +33,9 @@
 <item><p>Have a unique name and <link xref="icons-and-artwork#application-icons">icon</link>.</p></item>
 </list>
 
-<p>At the heart of this definition is a model that allows the modular installation and use of software, in a way that avoids dependency issues between modules, and ensures simplicity of use.</p>
+<p>At the heart of this definition is a model that allows the modular installation and use of 3rd party software, in a way that avoids dependency issues and ensures simplicity of use.</p>
 
-<p>In GNOME 3, only software that conforms to these characteristics should add an application launcher to the system.</p>
+<p>In GNOME 3, only software that conforms to these characteristics should install an application launcher.</p>
 
 <!-- Expand into a section on application launchers?
 
@@ -48,7 +48,19 @@ Applications are launched and switched to via their launchers...
 <section id="application-names">
 <title>Naming your application</title>
 
+<p>An application's name is vital. It is what users will be first exposed to, and will help them decide whether they want to use an application or not. It is a major part of your application's public face.</p>
 
+<p>An application name plays a number of functions:</p>
+
+<list>
+<item><p>It must advertise your application to potential users.</p></item>
+<item><p>It should serve to reinforce a positive identity, and have expressive qualities.</p></item>
+<item><p>It needs to identify your application in the systems where it is installed and run.</p></item>
+</list>
+
+<p>Ensure that your application name is short - less than 15 characters. This will ensure that it is always displayed in full within a GNOME 3 environment.</p>
+
+<p>Additionally, choose an application name that is easy to understand and communicates your application's functionity. Avoid references which will not be understood or be familiar to potential users, such as obscure cultural references, inside jokes and acronyms. Instead, pick a name that references what your application does, or the domain in which it operates.</p>
 
 </section>
 
