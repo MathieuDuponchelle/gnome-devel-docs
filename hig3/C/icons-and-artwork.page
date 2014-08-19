@@ -20,17 +20,17 @@
 <p>Icons play an important role in user interfaces: selecting the correct icon is therefore vital to making sure that your application is usable. An identifying icon is also an essential part of any application, and is a crucial part of its identity.</p>
 
 <section id="using-icons">
-<title>Using Icons in Your User Intereface</title>
+<title>Using Icons in Your User Interface</title>
 
 <p>There are many situations when it is necessary to decide between using an icon and a text label, particularly for buttons. Icons have the advantage of being smaller, and not requiring translation. At the same time, the incorrect use of an icon can make your interface hard - or even impossible - to understand.</p>
 
 <list>
-<item><p>Only use icons whose meaning is commonly recognized. If a commonly recognised icon is not available, it might be better to use a text label instead.</p>
+<item><p>Only use icons whose meaning is commonly recognized. If a commonly recognized icon is not available, it might be better to use a text label instead.</p>
 <list>
-<item><p>Convention establishes which icons will be recognised. If you are in doubt, stick to icons which are frequently used in other applications.</p></item>
+<item><p>Convention establishes which icons will be recognized. If you are in doubt, stick to icons which are frequently used in other applications.</p></item>
 <item><p>Consider which icons will be meaningful in the specific context of your application - users of specialist tools will often be familiar with domain-specific symbols.</p></item>
 </list></item>
-<item><p>Remember that some icons are only meaningful alongside other icons of the same type. For example, a media icon for stop is simply a square, and may not be identified as a stop icon without other media controls (like play, pause, or skip) being visible close by. Likewise, the icon to remove an item from a list is a subtract symbol (ie. a single line), and will not be recognisable without a corresponding "plus" add icon.</p></item>
+<item><p>Remember that some icons are only meaningful alongside other icons of the same type. For example, a media icon for stop is simply a square, and may not be identified as a stop icon without other media controls (like play, pause, or skip) being visible close by. Likewise, the icon to remove an item from a list is a subtract symbol (ie. a single line), and will not be recognizable without a corresponding "plus" add icon.</p></item>
 </list>
 
 </section>
@@ -79,7 +79,7 @@
 
 <media type="image" mime="image/png" src="figures/icons/sizes.png"/>
 
-<p>While not as critical, there are still areas where application icons are presented as a small size. To keep the icon sharp and well defined, a specific rendering is required to sizes of 48x48px, 32x32px, 24x24px and 16x16px. Many GNOME icons also ship a 22x22px size for legacy reason, but that isn't required.</p>
+<p>While not as critical, there are still areas where application icons are presented at a small size. To keep the icon sharp and well defined, a specific rendering is required to sizes of 48x48px, 32x32px, 24x24px and 16x16px. Many GNOME icons also ship a 22x22px size for legacy reasons, but that isn't required.</p>
 
 <media type="image" mime="image/png" src="figures/icons/sizes-small-24.png"/>
 
@@ -92,7 +92,7 @@
 <section id="custom-symbolic-icons">
 <title>Custom Symbolic Icons</title>
 
-<p>Symbolic icons have a simple form and are drawn within a 16x16 pixel grid. They are then programatically scaled and coloured within the user interface itself.</p>
+<p>Symbolic icons have a simple form and are drawn within a 16x16 pixel grid. They are then programatically scaled and colored within the user interface itself.</p>
 
 <list>
 <item><p>Identify a single property when looking for an appropriate metaphor for an icon, and focus on what distinguishes the idea you want to communicate. For example, when describing an action to be performed on an image, it isn't necessary to repeat the idea of an image in every icon. Instead, focus on what is distinct about each action (eg. rotate, tag, align).</p></item>

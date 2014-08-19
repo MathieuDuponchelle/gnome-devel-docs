@@ -26,7 +26,7 @@
 
 <p>Progress bars are visual indicators of the progress of a task being carried out by the application.</p>
 
-<p>There are three main types of progress bar: time-remaining, typical-time, and intermediate.</p>
+<p>There are three main types of progress bar: time-remaining, typical-time, and indeterminate.</p>
 
 <media type="image" mime="image/png" src="figures/progress-bars.png"/>
 
@@ -34,8 +34,8 @@
 <title>Guidelines</title>
 
 <list>
-<item><p>Accuracy is preferable for progress bars. Where possible, use a time-remaining progress bar, followed by typical-time. Try to avoid using intermediate progress bars.</p></item>
-<item><p>Ensure that a time-remaining and typical-time progress bars measure an operation's total time or total work, not just that of a single step.</p></item>
+<item><p>Accuracy is preferable for progress bars. Where possible, use a time-remaining progress bar, followed by typical-time. Try to avoid using indeterminate progress bars.</p></item>
+<item><p>Ensure that time-remaining and typical-time progress bars measure an operation's total time or total work, not just that of a single step.</p></item>
 </list>
 
 </section>
@@ -43,7 +43,7 @@
 <section id="time-remaining-progress-bar">
 <title>Time-remaining progress bar</title>
 
-<p>Time-remaining progress bars indicate how much time remains in an operation. They also include a text which states how much time remains before the operation will be complete. Time-remaining bars are the most useful type of progress bar.</p>
+<p>Time-remaining progress bars indicate how much time remains in an operation. They also include text which states how much time remains before the operation will be complete. Time-remaining bars are the most useful type of progress bar.</p>
 
 <p>Use a time-remaining bar if you can display an initial estimate of an operation's remaining time and then periodically display updated estimates. Each updated estimate should be based on changes that have occurred and that will cause the operation to finish more quickly or more slowly. If the operation will finish more slowly, your application can display an updated estimate that is greater than the estimate previously displayed.</p>
 

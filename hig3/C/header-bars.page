@@ -27,7 +27,7 @@
 <section id="when-to-use">
 <title>When to use</title>
 
-<p>Header bars are recommended for all application windows. They provide a number of advantages over the traditional combination of title bars, menu bar and toolbar, including a smaller vertical footprint, and dynamic navigation and mode changes (such as with <link xref="selection-mode">selection mode</link>).</p>
+<p>Header bars are recommended for all application windows. They provide a number of advantages over the traditional combination of title bar, menu bar and toolbar, including a smaller vertical footprint, and dynamic navigation and mode changes (such as with <link xref="selection-mode">selection mode</link>).</p>
 
 <p>Header bars are incompatible with menu bars. If your application already incorporates a menu bar, you should evaluate the alternatives suggested in these guidelines. See the <link xref="menu-bars">menu bar guidelines</link> for more details on this.</p>
 

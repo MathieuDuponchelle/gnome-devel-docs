@@ -360,12 +360,12 @@ Do not assign system-level shortcut keys. These use the Super (sometimes knows a
 <tr>
 <td><p><gui>Reload</gui></p></td>
 <td><p><keyseq><key>Ctrl</key><key>R</key></keyseq></p></td>
-<td><p>Reload the current document, updating content from the sourc if necessary</p></td>
+<td><p>Reload the current document, updating content from the source if necessary</p></td>
 </tr>
 <tr>
 <td><p><gui>Properties</gui></p></td>
 <td><p><keyseq><key>Alt</key><key>Enter</key></keyseq></p></td>
-<td><p>Display the selectd object's properties window.</p></td>
+<td><p>Display the selected object's properties window.</p></td>
 </tr>
 </tbody>
 </table>

@@ -26,16 +26,16 @@
 
 <title>Visual layout</title>
 
-<p>The visual layout of controls, information and content affects how easy it is to understand your application, as well as how beautiful it is. It is important to recognise that visual design has a strong impact on how much work is involved in using an application - poor layout results in users having to put inadditional effort, while good layout requires less effort.</p>
+<p>The visual layout of controls, information and content affects how easy it is to understand your application, as well as how beautiful it is. It is important to recognise that visual design has a strong impact on how much work is involved in using an application - poor layout results in users having to put in additional effort, while good layout requires less effort.</p>
 
-<p>Following these visual layout guidelines will help you to produce an application that is both beautiful, easy to understand, and efficient to use.</p>
+<p>Following these visual layout guidelines will help you to produce an application that is beautiful, easy to understand, and efficient to use.</p>
 
 <section id="general-guidelines">
 <title>General guidelines</title>
 
 <list>
 <item><p>An alignment point is an imaginary vertical or horizontal line through your window that touches the edge of one or more labels or controls in the window. Minimize the number of these - the fewer there are, the cleaner and simpler your layout will appear, and the easier it will be for people to understand.</p></item>
-<item><p>Align content and controls in your layout exactly. The eye is very sensitive to aligned and unaligned objects. If visual elements do not lines up, it will be hard for someone to scan them. Elements that do not quite line up will be distracting.</p></item>
+<item><p>Align content and controls in your layout exactly. The eye is very sensitive to aligned and unaligned objects. If visual elements do not line up, it will be hard for someone to scan them. Elements that do not quite line up will be distracting.</p></item>
 <item><p>Be consistent. Use the same amounts of spacing throughout.</p></item>
 <item><p>Organize related controls and information into groups, and use spacing to differentiate them. This makes an interface far easier to read and understand.</p>
 <list>

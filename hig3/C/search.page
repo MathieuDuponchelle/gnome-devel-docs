@@ -32,7 +32,7 @@
 <section id="search-bar">
 <title>The search bar</title>
 
-<p>The standard pattern for search in GNOME 3 utilises a special search bar which slides down from beneath the header bar.
+<p>The standard pattern for search in GNOME 3 utilizes a special search bar which slides down from beneath the header bar.
 
 In primary windows, the search bar is typically hidden until it is activated by the user. There are three common ways to activate search in this context:</p>
 

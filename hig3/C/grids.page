@@ -20,7 +20,7 @@
 <section id="when-to-use">
 <title>When to use</title>
 
-<p>Since the grid view utilises an image for each item it presents, it is best suited to content that has a visual component, such as documents or photos. If content items don't have a visual component, a <link xref="lists">list view</link> might be more appropriate.</p>
+<p>Since the grid view utilizes an image for each item it presents, it is best suited to content that has a visual component, such as documents or photos. If content items don't have a visual component, a <link xref="lists">list view</link> might be more appropriate.</p>
 
 <p>Grids and lists can be combined, to offer different views of the same content. This can be useful if content items have additional metadata associated with them, such as creation dates or authorship.</p>
 

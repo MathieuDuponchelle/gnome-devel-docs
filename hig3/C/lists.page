@@ -127,7 +127,7 @@
 <item><p>Differentiate the different types of information using different alignments, <link xref="typography">text colors and weights</link>. Highlight the most important and relevant information by giving other information a lighter weight and/or color.</p></item>
 <item><p>Be careful not to overpopulate lists with different columns and elements, and ensure that you only use them to present essential information.</p></item>
 <item><p>As a rule of thumb, avoid using several lists in the same window, particularly primary windows.</p></item>
-<item><p>Do not use lists with less than about five items, unless the number of items may increase over time. For options lists, check boxes or radio buttons can be used as an alternative in this case.</p></item>
+<item><p>Do not use lists with fewer than about five items, unless the number of items may increase over time. For options lists, check boxes or radio buttons can be used as an alternative in this case.</p></item>
 <item><p>Ensure that lists are ordered to be helpful to those who are using them. Recent documents might be more useful than alphabetically ordered documents, or contacts that are online might be more interesting than those who are offline, for example.</p></item>
 <item><p>If you use icons in your list, <link xref="icons-and-artwork">use symbolic icons</link>. The lower visual footprint of these icons will mean that they do not visually overload or dominate your list.</p></item>
 <item><p>If the list is long, make it possible to search it using the standard <link xref="search">search design pattern</link>.</p></item>

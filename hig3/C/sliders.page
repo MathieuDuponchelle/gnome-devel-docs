@@ -36,7 +36,7 @@
 <p>Use a slider when:</p>
 
 <list>
-<item><p>The range of values is fixed and orderded, and when adjusting the value relative to its current value is more important than choosing an absolute value.</p></item>
+<item><p>The range of values is fixed and ordered, and when adjusting the value relative to its current value is more important than choosing an absolute value.</p></item>
 <item><p>It is useful for the user to control the rate of change of the value in real time.</p></item>
 </list>
 

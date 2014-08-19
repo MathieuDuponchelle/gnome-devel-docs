@@ -30,7 +30,7 @@
 <item><p>It is helpful for users to be able to perform actions on content items without opening them.</p></item>
 </list>
 
-<p>If it is more typical for users to perform actions on single content items, you might want to consider another design pattern, such as a context menu. Likewise, if there is only one action that can be performed on content items, a varient of selection mode can be used (an overlaid button could allow the action to be performed on items directly, rather than requiring them to be selected first, for example).</p>
+<p>If it is more typical for users to perform actions on single content items, you might want to consider another design pattern, such as a context menu. Likewise, if there is only one action that can be performed on content items, a variant of selection mode can be used (an overlaid button could allow the action to be performed on items directly, rather than requiring them to be selected first, for example).</p>
 
 </section>
 

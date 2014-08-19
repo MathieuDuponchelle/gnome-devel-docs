@@ -24,7 +24,7 @@
 
 <title>Menus</title>
 
-<p>A list of actions and/or options which is revealed by selecting a heading or button or, in the case of context menus, by using a secondary click or long press on an item of content.</p>
+<p>A menu is a list of actions and/or options which is revealed by selecting a heading or button or, in the case of context menus, by using a secondary click or long press on an item of content.</p>
 
 <media type="image" mime="image/png" src="figures/menu.png"/>
 
@@ -43,7 +43,7 @@
 <title>Guidelines</title>
 
 <list>
-<item><p>Do not have menus with less than three or more than about 12 top-level items. Dialog windows containing a List can be used as an alternative to menus in many situations, including this one.</p></item>
+<item><p>Do not have menus with fewer than three or more than about 12 top-level items. Dialog windows containing a List can be used as an alternative to menus in many situations, including this one.</p></item>
 <item><p>Label menu items with verbs for commands and adjectives for settings, according to the capitalization rules in the Writing Style guidelines.</p></item>
 <item><p>Make a menu item insensitive when its command is unavailable.</p></item>
 <item><p>Provide an <link xref="keyboard-input#access-keys">access key</link> for every menu item. You may use the same access key on different menus in your application, but avoid duplicating access keys on the same menu. Note that unlike other controls, once a menu is displayed, its access keys may be used by just typing the letter; it is not necessary to press the Alt key at the same time.</p></item>

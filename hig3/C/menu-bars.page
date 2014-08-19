@@ -33,7 +33,7 @@
 <section id="when-to-use">
 <title>When to use</title>
 
-<p>Menu bars increase the vertical footprint of an application's user interface, introduce a large number of disclosure points, and function as a fixed set of inflexible options. For these reasons, <link xref="header-bars">header bars</link> and <link xref="header-bar-menus">header bar menus</link> are generally recommended over menu bars, along with other design patterns for exposing controls on demand, such as <link xref="selection-mode">selection mode</link>, <link xref="action-bars">action bars</link>, and <link xref="popovers">popovers"</link>.</p>
+<p>Menu bars increase the vertical footprint of an application's user interface, introduce a large number of disclosure points, and function as a fixed set of inflexible options. For these reasons, <link xref="header-bars">header bars</link> and <link xref="header-bar-menus">header bar menus</link> are generally recommended over menu bars, along with other design patterns for exposing controls on demand, such as <link xref="selection-mode">selection mode</link>, <link xref="action-bars">action bars</link>, and <link xref="popovers">popovers</link>.</p>
 
 <p>At the same time, menu bars can still be an appropriate choice, particularly for applications that already incorporate a header bar. Some platforms also incorporate space for a menu bar in their user environment, and a menu model can be desirable for cross-platform integration purposes.</p>
 
@@ -94,7 +94,7 @@
 </section>
 
 <section id="saved-state-operations">
-<title>Saved state operation menu itmes</title>
+<title>Saved state operation menu items</title>
 
 <table>
 <thead>
@@ -539,7 +539,7 @@
 
 <p>The difference between these commands and those on the <gui>View</gui> menu is that changes made with Format commands are persistent and saved as part of the document, for example as HTML or RTF tags.</p>
 
-<p>Items found on the Format will be very application-specific, but some common items are listed in the table below.</p>
+<p>Items found on the Format menu will be very application-specific, but some common items are listed in the table below.</p>
 
 <table>
 <thead>
@@ -573,7 +573,7 @@
 <tr>
 <td><p><gui>Italic</gui></p></td>
 <td><p><keyseq><key>Ctrl</key><key>I</key></keyseq></p></td>
-<td><p>Toggles the italicisation of the current text selection on or off. If some of the selection is currently italicised and some is not, this command should italicise the selected text.</p></td>
+<td><p>Toggles the italicisation of the current text selection on or off. If some of the selection is currently italicized and some is not, this command should italicise the selected text.</p></td>
 </tr>
 <tr>
 <td><p><gui>Underline</gui></p></td>
