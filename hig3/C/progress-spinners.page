@@ -14,7 +14,7 @@
 
 <p>Progress spinners are a common user interface element for indicating progress in a task. In contrast to progress bars, they only indicate that progress is taking place, and do not display the proportion of the task that has been completed.</p>
 
-<media type="image" mime="image/png" src="figures/progress-spinner.png"/>
+<media type="image" mime="image/svg" src="figures/ui-elements/progress-spinner.svg"/>
 
 <section id="when-to-use">
 <title>When to use</title>

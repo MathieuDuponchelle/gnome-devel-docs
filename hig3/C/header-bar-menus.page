@@ -14,7 +14,7 @@
 
 <title>Header bar menus</title>
 
-<media type="image" mime="image/png" src="figures/header-bar-menu.png"/>
+<media type="image" mime="image/svg" src="figures/patterns/header-bar-menu.svg"/>
 
 <p><link xref="header-bars">Header bars</link> can include a menu which contains actions and options for the current view. These menus are located at the far right side of the header bar.</p>
 

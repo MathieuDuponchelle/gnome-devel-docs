@@ -13,7 +13,7 @@
 
 <title>View switchers</title>
 
-<media type="image" mime="image/png" src="figures/view-switcher.png"/>
+<media type="image" mime="image/svg" src="figures/patterns/view-switcher.svg"/>
 
 <p>A view switcher is a control that allows switching between a number of predefined views. It appears as a set of toggle buttons that are placed in the center of a header bar.</p>
 

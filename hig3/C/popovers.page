@@ -14,7 +14,7 @@
 
 <p>A popover is a transient container that appears over its parent window in response to a user action. Popovers can contain a variety of UI elements.</p>
 
-<media type="image" mime="image/png" src="figures/popover.png"/>
+<media type="image" mime="image/svg" src="figures/ui-elements/popover.svg"/>
 
 <section id="when-to-use">
 <title>When to use</title>

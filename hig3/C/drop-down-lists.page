@@ -14,7 +14,7 @@
 
 <p>A drop-down list is a user interface element which allows the user to select from a list of mutually exclusive options. It appears as a button which, when clicked, reveals a list.</p>
 
-<media type="image" mime="image/png" src="figures/drop-down-list.png"/>
+<media type="image" mime="image/svg" src="figures/ui-elements/drop-down-list.svg"/>
 
 <p>Radio buttons or a list will often be preferable to a drop-down list, as they present all the available options at once without any further interaction. At the same time, a drop-down list might be a better choice when:</p>
 
@@ -40,7 +40,7 @@
 <section id="custom-values">
 <title>Custom values</title>
 
-<media type="image" mime="image/png" src="figures/drop-down-list-custom-values.png"/>
+<media type="image" mime="image/svg" src="figures/ui-elements/drop-down-list-custom-values.svg"/>
 
 <p>A drop-down list can allow custom values to be added to a number of presets, or can be used to enter and select from custom values alone.</p>
 

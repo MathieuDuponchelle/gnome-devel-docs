@@ -50,7 +50,7 @@
 <section id="message-dialogs">
 <title>Message Dialogs</title>
 
-<media type="image" mime="image/png" src="figures/message-dialog.png"/>
+<media type="image" mime="image/svg" src="figures/patterns/message-dialog.svg"/>
 
 <p>Message dialogs are the simplest type of dialog. They present a message or question, along with 1-3 buttons with which to respond. They are always modal, meaning that they prevent access to their parent window. Message dialogs are an appropriate choice when it is essential that the user sees and responds to a message.</p>
 
@@ -71,7 +71,7 @@
 <section id="action-dialogs">
 <title>Action Dialogs</title>
 
-<media type="image" mime="image/png" src="figures/action-dialog.png"/>
+<media type="image" mime="image/svg" src="figures/patterns/action-dialog.svg"/>
 
 <p>Action dialogs present options and information about a specific action before it is carried out. They have a heading (which typically describes the action) and two buttons which allow the action to be carried out or cancelled.</p>
 
@@ -90,7 +90,7 @@
 <section id="presentation-dialogs">
 <title>Presentation Dialogs</title>
 
-<media type="image" mime="image/png" src="figures/presentation-dialog.png"/>
+<media type="image" mime="image/svg" src="figures/patterns/presentation-dialog.svg"/>
 
 <p>Presentation dialogs present information or controls. Like action dialogs, they have a header bar and a subject. However, instead of prefixing an action, their content relates to an application or content item.</p>
 

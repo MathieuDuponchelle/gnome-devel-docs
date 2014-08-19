@@ -32,7 +32,7 @@
 <item><p>Indeterminate: only indicate that an operation is ongoing, not how long it will take.</p></item>
 </list>
 
-<media type="image" mime="image/png" src="figures/progress-bars.png"/>
+<media type="image" mime="image/svg" src="figures/ui-elements/progress-bars.svg"/>
 
 <section id="when-to-use">
 <title>When to use</title>

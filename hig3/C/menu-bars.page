@@ -28,7 +28,7 @@
 
 <p>The menubar is normally visible at all times and is always accessible from the keyboard, so make all the commands available in your application available on the menubar.</p>
 
-<media type="image" mime="image/png" src="figures/menu-bar.png"/>
+<media type="image" mime="image/svg" src="figures/ui-elements/menu-bar.svg"/>
 
 <section id="when-to-use">
 <title>When to use</title>

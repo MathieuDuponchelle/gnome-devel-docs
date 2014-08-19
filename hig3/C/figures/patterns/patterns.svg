@@ -1,0 +1,1907 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="940"
+   height="760"
+   id="svg20783"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="New document 75">
+  <defs
+     id="defs20785">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath21580">
+      <rect
+         y="257.36218"
+         x="-1304"
+         height="74"
+         width="664"
+         id="rect21582"
+         style="fill:#729fcf;fill-opacity:1;stroke:none" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="467.13663"
+     inkscape:cy="428.57264"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:showpageshadow="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1133"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata20788">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(442,96.78125)">
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       style="fill:#e5e6e5;fill-opacity:1;stroke:#a7aba7;stroke-width:0.99999994;stroke-opacity:1"
+       id="rect19732"
+       width="685"
+       height="106"
+       x="-273.50003"
+       y="175.71851"
+       rx="9"
+       ry="9" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       y="216.71851"
+       x="-273.50003"
+       height="386"
+       width="685"
+       id="rect19734"
+       style="fill:#eeeeec;fill-opacity:1;stroke:#a7a7a7;stroke-width:0.99999994;stroke-linecap:square;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       mask="none" />
+    <g
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       transform="translate(1563,110.8562)"
+       id="g19736">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#a7a7a7;stroke-width:0.99999994;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect19738"
+         width="119"
+         height="142"
+         x="-1295.5"
+         y="119.86218" />
+      <rect
+         style="fill:#babdb6;fill-opacity:1;stroke:none"
+         id="rect19740"
+         width="90"
+         height="5"
+         x="-1281"
+         y="138.36218" />
+      <rect
+         y="148.36218"
+         x="-1281"
+         height="5"
+         width="90"
+         id="rect19742"
+         style="fill:#babdb6;fill-opacity:1;stroke:none" />
+      <rect
+         style="fill:#babdb6;fill-opacity:1;stroke:none"
+         id="rect19744"
+         width="68.877548"
+         height="5"
+         x="-1281"
+         y="158.36218" />
+      <rect
+         y="168.36218"
+         x="-1281"
+         height="5"
+         width="57.857143"
+         id="rect19746"
+         style="fill:#babdb6;fill-opacity:1;stroke:none" />
+      <rect
+         y="186.36218"
+         x="-1281"
+         height="5"
+         width="90"
+         id="rect19748"
+         style="fill:#babdb6;fill-opacity:1;stroke:none" />
+      <rect
+         style="fill:#babdb6;fill-opacity:1;stroke:none"
+         id="rect19750"
+         width="90"
+         height="5"
+         x="-1281"
+         y="196.36218" />
+      <rect
+         y="206.36218"
+         x="-1281"
+         height="5"
+         width="68.877548"
+         id="rect19752"
+         style="fill:#babdb6;fill-opacity:1;stroke:none" />
+      <rect
+         style="fill:#babdb6;fill-opacity:1;stroke:none"
+         id="rect19754"
+         width="57.857143"
+         height="5"
+         x="-1281"
+         y="216.36218" />
+    </g>
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       inkscape:connector-curvature="0"
+       id="path19756"
+       d="m 370.5,187.7115 0,17.0104"
+       style="fill:none;stroke:#a7a7a7;stroke-width:0.99999988px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;display:inline" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       ry="3"
+       rx="3"
+       y="180.71851"
+       x="334.49997"
+       height="31"
+       width="31"
+       id="rect19758"
+       style="color:#000000;fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <g
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       style="fill:#888a85;display:inline"
+       transform="translate(383.0016,188.2185)"
+       id="g19760">
+      <g
+         transform="translate(-60,-518)"
+         id="g19762"
+         style="fill:#888a85;display:inline" />
+      <g
+         style="fill:#888a85"
+         transform="translate(-60,-518)"
+         id="g19764" />
+      <g
+         style="fill:#888a85"
+         transform="translate(-60,-518)"
+         id="g19766" />
+      <g
+         style="fill:#888a85"
+         transform="translate(-60,-518)"
+         id="g19768">
+        <g
+           transform="translate(19,-242)"
+           id="g19770"
+           style="fill:#888a85;display:inline">
+          <path
+             inkscape:connector-curvature="0"
+             d="m 45,764 1,0 c 0.01037,-1.2e-4 0.02079,-4.6e-4 0.03125,0 0.254951,0.0112 0.50987,0.12858 0.6875,0.3125 L 49,766.59375 51.3125,764.3125 C 51.578125,764.082 51.759172,764.007 52,764 l 1,0 0,1 c 0,0.28647 -0.03434,0.55065 -0.25,0.75 l -2.28125,2.28125 2.25,2.25 C 52.906938,770.46942 52.999992,770.7347 53,771 l 0,1 -1,0 c -0.265301,-10e-6 -0.530586,-0.0931 -0.71875,-0.28125 L 49,769.4375 46.71875,771.71875 C 46.530586,771.90694 46.26529,772 46,772 l -1,0 0,-1 c -3e-6,-0.26529 0.09306,-0.53058 0.28125,-0.71875 l 2.28125,-2.25 L 45.28125,765.75 C 45.070508,765.55537 44.97809,765.28075 45,765 l 0,-1 z"
+             id="path19772"
+             style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#bebebe;fill:#888a85;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.78124988;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Andale Mono;-inkscape-font-specification:Andale Mono" />
+        </g>
+      </g>
+      <g
+         style="fill:#888a85"
+         transform="translate(-60,-518)"
+         id="g19774" />
+      <g
+         style="fill:#888a85"
+         transform="translate(-60,-518)"
+         id="g19776" />
+      <g
+         style="fill:#888a85"
+         transform="translate(-60,-518)"
+         id="g19778" />
+    </g>
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       ry="0"
+       rx="0"
+       y="217.21851"
+       x="398.99997"
+       height="385"
+       width="12.000019"
+       id="rect19780"
+       style="color:#000000;fill:#d6d6d6;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       style="opacity:0.8;color:#000000;fill:#9b9d9e;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
+       id="rect19782"
+       width="5.9795446"
+       height="92.229691"
+       x="401.99997"
+       y="220.21851"
+       rx="3.4764707"
+       ry="3.5" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       y="230.71851"
+       x="135.49998"
+       height="119"
+       width="119"
+       id="rect19784"
+       style="fill:#ffffff;fill-opacity:1;stroke:#a7a7a7;stroke-width:0.99999994;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       style="fill:#ffffff;fill-opacity:1;stroke:#a7a7a7;stroke-width:0.99999994;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect19786"
+       width="119"
+       height="119"
+       x="3.4999809"
+       y="230.71851" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       y="230.71851"
+       x="-128.50002"
+       height="119"
+       width="119"
+       id="rect19788"
+       style="fill:#ffffff;fill-opacity:1;stroke:#a7a7a7;stroke-width:0.99999994;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       style="fill:#ffffff;fill-opacity:1;stroke:#a7a7a7;stroke-width:0.99999994;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect19790"
+       width="119"
+       height="142"
+       x="-260.50003"
+       y="230.71851" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       style="fill:#babdb6;fill-opacity:1;stroke:none"
+       id="rect19792"
+       width="90"
+       height="5"
+       x="-246.00002"
+       y="249.21851" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       y="259.21851"
+       x="-246.00002"
+       height="5"
+       width="90"
+       id="rect19794"
+       style="fill:#babdb6;fill-opacity:1;stroke:none" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       style="fill:#babdb6;fill-opacity:1;stroke:none"
+       id="rect19796"
+       width="68.877548"
+       height="5"
+       x="-246.00002"
+       y="269.21851" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       y="279.21851"
+       x="-246.00002"
+       height="5"
+       width="57.857143"
+       id="rect19798"
+       style="fill:#babdb6;fill-opacity:1;stroke:none" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       y="297.21851"
+       x="-246.00002"
+       height="5"
+       width="90"
+       id="rect19800"
+       style="fill:#babdb6;fill-opacity:1;stroke:none" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       style="fill:#babdb6;fill-opacity:1;stroke:none"
+       id="rect19802"
+       width="90"
+       height="5"
+       x="-246.00002"
+       y="307.21851" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       y="317.21851"
+       x="-246.00002"
+       height="5"
+       width="68.877548"
+       id="rect19804"
+       style="fill:#babdb6;fill-opacity:1;stroke:none" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       style="fill:#babdb6;fill-opacity:1;stroke:none"
+       id="rect19806"
+       width="57.857143"
+       height="5"
+       x="-246.00002"
+       y="327.21851" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       style="fill:#729fcf;stroke:#729fcf;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -116.00002,128.1973 0,58.0211"
+       id="path19808"
+       inkscape:connector-curvature="0" />
+    <g
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       transform="translate(1092,110.8562)"
+       id="g19810">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
+         ry="3"
+         rx="2.9999995"
+         y="69.862183"
+         x="-1141.5"
+         height="31"
+         width="237"
+         id="rect19812"
+         style="color:#000000;fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         style="color:#000000;fill:#a5a5a5;fill-opacity:1;fill-rule:nonzero;stroke:#a5a5a5;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="m -1138.5,69.862183 76,0 0,3 0,25 0,2.999997 -76,0 c -1.662,0 -3,-1.337997 -3,-2.999997 l 0,-25 c 0,-1.662 1.338,-3 3,-3 z"
+         id="path19814"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="sccccssss" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text19816"
+         y="90.136177"
+         x="-1102.0369"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+         xml:space="preserve"><tspan
+           y="90.136177"
+           x="-1102.0369"
+           id="tspan19818"
+           sodipodi:role="line">All</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#555753;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+         x="-1022.7935"
+         y="90.136177"
+         id="text19820"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan19822"
+           x="-1022.7935"
+           y="90.136177">Some</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text19824"
+         y="90.136177"
+         x="-944.24994"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#555753;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+         xml:space="preserve"><tspan
+           y="90.136177"
+           x="-944.24994"
+           id="tspan19826"
+           sodipodi:role="line">Other</tspan></text>
+      <path
+         style="fill:none;stroke:#a7a7a7;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1"
+         d="m -983.5,70.860857 0,29.002651"
+         id="path19828"
+         inkscape:connector-curvature="0" />
+    </g>
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       inkscape:connector-curvature="0"
+       id="path19830"
+       d="m 69,125.9208 0,34.0409"
+       style="fill:#729fcf;stroke:#729fcf;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       style="fill:#729fcf;stroke:#729fcf;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 350,126.1973 0,58.0211"
+       id="path19832"
+       inkscape:connector-curvature="0" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       ry="3"
+       rx="3"
+       y="180.71851"
+       x="298.49997"
+       height="31"
+       width="31"
+       id="rect19834"
+       style="color:#000000;fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <g
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       id="g19836"
+       transform="translate(305.4988,187.687)"
+       style="fill:#2e3436;fill-opacity:1">
+      <g
+         style="fill:#2e3436;fill-opacity:1;display:inline"
+         id="g19838"
+         transform="translate(-61.000665,-787)"
+         inkscape:label="status" />
+      <g
+         id="g19840"
+         transform="translate(-61.000665,-787)"
+         inkscape:label="devices"
+         style="fill:#2e3436;fill-opacity:1" />
+      <g
+         id="g19842"
+         transform="translate(-61.000665,-787)"
+         inkscape:label="apps"
+         style="fill:#2e3436;fill-opacity:1" />
+      <g
+         id="g19844"
+         transform="translate(-61.000665,-787)"
+         inkscape:label="places"
+         style="fill:#2e3436;fill-opacity:1" />
+      <g
+         id="g19846"
+         transform="translate(-61.000665,-787)"
+         inkscape:label="mimetypes"
+         style="fill:#2e3436;fill-opacity:1" />
+      <g
+         style="fill:#2e3436;fill-opacity:1;display:inline"
+         id="g19848"
+         transform="translate(-61.000665,-787)"
+         inkscape:label="emblems" />
+      <g
+         style="fill:#2e3436;fill-opacity:1;display:inline"
+         id="g19850"
+         transform="translate(-61.000665,-787)"
+         inkscape:label="emotes" />
+      <g
+         style="fill:#2e3436;fill-opacity:1;display:inline"
+         id="g19852"
+         transform="translate(-61.000665,-787)"
+         inkscape:label="categories" />
+      <g
+         style="fill:#2e3436;fill-opacity:1;display:inline"
+         id="g19854"
+         transform="translate(-61.000665,-787)"
+         inkscape:label="actions">
+        <path
+           style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#2e3436;fill-opacity:1;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+           id="path19856"
+           d="M 72.9375,790.9375 68,795.875 l -1.9375,-1.9375 -2.125,2.125 3,3 1.0625,1.0625 1.0625,-1.0625 6,-6 -2.125,-2.125 z"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
+    <rect
+       style="color:#000000;fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect19858"
+       width="31"
+       height="31"
+       x="262.49997"
+       y="180.71851"
+       rx="3"
+       ry="3"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       style="fill:#2e3436"
+       transform="translate(269.9911,188.1865)"
+       id="g19860">
+      <g
+         inkscape:label="status"
+         transform="translate(-140.0002,-645.96875)"
+         id="g19862"
+         style="fill:#2e3436;display:inline" />
+      <g
+         style="fill:#2e3436"
+         inkscape:label="devices"
+         transform="translate(-140.0002,-645.96875)"
+         id="g19864" />
+      <g
+         style="fill:#2e3436"
+         inkscape:label="apps"
+         transform="translate(-140.0002,-645.96875)"
+         id="g19866" />
+      <g
+         style="fill:#2e3436"
+         inkscape:label="actions"
+         transform="translate(-140.0002,-645.96875)"
+         id="g19868">
+        <path
+           inkscape:connector-curvature="0"
+           d="m 146.50761,646.99554 c -3.02886,0 -5.51073,2.47905 -5.51073,5.50447 0,3.02541 2.48187,5.50446 5.51073,5.50446 3.02885,0 5.51072,-2.47905 5.51072,-5.50446 0,-3.02542 -2.48187,-5.50447 -5.51072,-5.50447 z m 0,2.00893 c 1.94735,0 3.49951,1.55039 3.49951,3.49554 0,1.94514 -1.55216,3.49553 -3.49951,3.49553 -1.94736,0 -3.49952,-1.55039 -3.49952,-3.49553 0,-1.94515 1.55216,-3.49554 3.49952,-3.49554 z"
+           id="path19870"
+           style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#2e3436;fill-opacity:1;stroke:none;stroke-width:1.55467153;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Sans;-inkscape-font-specification:Sans" />
+        <path
+           inkscape:connector-curvature="0"
+           d="m 149.8125,655 a 1.0001,1.0001 0 0 0 -0.5,1.71875 l 4,4 a 1.0054782,1.0054782 0 1 0 1.40625,-1.4375 l -4,-4 A 1.0001,1.0001 0 0 0 149.8125,655 z"
+           id="path19872"
+           style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#2e3436;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Sans;-inkscape-font-specification:Sans" />
+      </g>
+      <g
+         style="fill:#2e3436"
+         inkscape:label="places"
+         transform="translate(-140.0002,-645.96875)"
+         id="g19874" />
+      <g
+         style="fill:#2e3436"
+         inkscape:label="mimetypes"
+         transform="translate(-140.0002,-645.96875)"
+         id="g19876" />
+      <g
+         inkscape:label="emblems"
+         transform="translate(-140.0002,-645.96875)"
+         id="g19878"
+         style="fill:#2e3436;display:inline" />
+      <g
+         inkscape:label="categories"
+         transform="translate(-140.0002,-645.96875)"
+         id="g19880"
+         style="fill:#2e3436;display:inline" />
+    </g>
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       inkscape:connector-curvature="0"
+       id="path19882"
+       d="m 314,94.7512 0,88.9344"
+       style="fill:#729fcf;stroke:#729fcf;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       style="fill:#729fcf;stroke:#729fcf;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 278,126.1973 0,58.0211"
+       id="path19884"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       style="fill:#729fcf;stroke:#729fcf;stroke-width:1.99999976;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m -49,160.214 0,10.0614"
+       id="path19886"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       inkscape:connector-curvature="0"
+       id="path19888"
+       d="m 187,160.2138 0,10.0382"
+       style="fill:#729fcf;stroke:#729fcf;stroke-width:1.99999976;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       inkscape:connector-curvature="0"
+       id="path19890"
+       d="m 186.9972,160.2184 -235.9972,0"
+       style="fill:#729fcf;stroke:#729fcf;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <g
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       id="g19892"
+       transform="translate(1431,110.8562)">
+      <rect
+         y="119.86218"
+         x="-1295.5"
+         height="142"
+         width="119"
+         id="rect19894"
+         style="fill:#ffffff;fill-opacity:1;stroke:#a7a7a7;stroke-width:0.99999994;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         y="138.36218"
+         x="-1281"
+         height="5"
+         width="90"
+         id="rect19896"
+         style="fill:#babdb6;fill-opacity:1;stroke:none" />
+      <rect
+         style="fill:#babdb6;fill-opacity:1;stroke:none"
+         id="rect19898"
+         width="90"
+         height="5"
+         x="-1281"
+         y="148.36218" />
+      <rect
+         y="158.36218"
+         x="-1281"
+         height="5"
+         width="68.877548"
+         id="rect19900"
+         style="fill:#babdb6;fill-opacity:1;stroke:none" />
+      <rect
+         style="fill:#babdb6;fill-opacity:1;stroke:none"
+         id="rect19902"
+         width="57.857143"
+         height="5"
+         x="-1281"
+         y="168.36218" />
+      <rect
+         style="fill:#babdb6;fill-opacity:1;stroke:none"
+         id="rect19904"
+         width="90"
+         height="5"
+         x="-1281"
+         y="186.36218" />
+      <rect
+         y="196.36218"
+         x="-1281"
+         height="5"
+         width="90"
+         id="rect19906"
+         style="fill:#babdb6;fill-opacity:1;stroke:none" />
+      <rect
+         style="fill:#babdb6;fill-opacity:1;stroke:none"
+         id="rect19908"
+         width="68.877548"
+         height="5"
+         x="-1281"
+         y="206.36218" />
+      <rect
+         y="216.36218"
+         x="-1281"
+         height="5"
+         width="57.857143"
+         id="rect19910"
+         style="fill:#babdb6;fill-opacity:1;stroke:none" />
+    </g>
+    <g
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       transform="translate(1299,110.8562)"
+       id="g19912">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#a7a7a7;stroke-width:0.99999994;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect19914"
+         width="119"
+         height="142"
+         x="-1295.5"
+         y="119.86218" />
+      <rect
+         style="fill:#babdb6;fill-opacity:1;stroke:none"
+         id="rect19916"
+         width="90"
+         height="5"
+         x="-1281"
+         y="138.36218" />
+      <rect
+         y="148.36218"
+         x="-1281"
+         height="5"
+         width="90"
+         id="rect19918"
+         style="fill:#babdb6;fill-opacity:1;stroke:none" />
+      <rect
+         style="fill:#babdb6;fill-opacity:1;stroke:none"
+         id="rect19920"
+         width="68.877548"
+         height="5"
+         x="-1281"
+         y="158.36218" />
+      <rect
+         y="168.36218"
+         x="-1281"
+         height="5"
+         width="57.857143"
+         id="rect19922"
+         style="fill:#babdb6;fill-opacity:1;stroke:none" />
+      <rect
+         y="186.36218"
+         x="-1281"
+         height="5"
+         width="90"
+         id="rect19924"
+         style="fill:#babdb6;fill-opacity:1;stroke:none" />
+      <rect
+         style="fill:#babdb6;fill-opacity:1;stroke:none"
+         id="rect19926"
+         width="90"
+         height="5"
+         x="-1281"
+         y="196.36218" />
+      <rect
+         y="206.36218"
+         x="-1281"
+         height="5"
+         width="68.877548"
+         id="rect19928"
+         style="fill:#babdb6;fill-opacity:1;stroke:none" />
+      <rect
+         style="fill:#babdb6;fill-opacity:1;stroke:none"
+         id="rect19930"
+         width="57.857143"
+         height="5"
+         x="-1281"
+         y="216.36218" />
+    </g>
+    <g
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       id="g19932"
+       transform="translate(1167,110.8562)">
+      <rect
+         y="119.86218"
+         x="-1295.5"
+         height="142"
+         width="119"
+         id="rect19934"
+         style="fill:#ffffff;fill-opacity:1;stroke:#a7a7a7;stroke-width:0.99999994;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         y="138.36218"
+         x="-1281"
+         height="5"
+         width="90"
+         id="rect19936"
+         style="fill:#babdb6;fill-opacity:1;stroke:none" />
+      <rect
+         style="fill:#babdb6;fill-opacity:1;stroke:none"
+         id="rect19938"
+         width="90"
+         height="5"
+         x="-1281"
+         y="148.36218" />
+      <rect
+         y="158.36218"
+         x="-1281"
+         height="5"
+         width="68.877548"
+         id="rect19940"
+         style="fill:#babdb6;fill-opacity:1;stroke:none" />
+      <rect
+         style="fill:#babdb6;fill-opacity:1;stroke:none"
+         id="rect19942"
+         width="57.857143"
+         height="5"
+         x="-1281"
+         y="168.36218" />
+      <rect
+         style="fill:#babdb6;fill-opacity:1;stroke:none"
+         id="rect19944"
+         width="90"
+         height="5"
+         x="-1281"
+         y="186.36218" />
+      <rect
+         y="196.36218"
+         x="-1281"
+         height="5"
+         width="90"
+         id="rect19946"
+         style="fill:#babdb6;fill-opacity:1;stroke:none" />
+      <rect
+         style="fill:#babdb6;fill-opacity:1;stroke:none"
+         id="rect19948"
+         width="68.877548"
+         height="5"
+         x="-1281"
+         y="206.36218" />
+      <rect
+         y="216.36218"
+         x="-1281"
+         height="5"
+         width="57.857143"
+         id="rect19950"
+         style="fill:#babdb6;fill-opacity:1;stroke:none" />
+    </g>
+    <g
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       id="g19952"
+       transform="translate(1563,270.8562)">
+      <rect
+         y="119.86218"
+         x="-1295.5"
+         height="142"
+         width="119"
+         id="rect19954"
+         style="fill:#ffffff;fill-opacity:1;stroke:#a7a7a7;stroke-width:0.99999994;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         y="138.36218"
+         x="-1281"
+         height="5"
+         width="90"
+         id="rect19956"
+         style="fill:#babdb6;fill-opacity:1;stroke:none" />
+      <rect
+         style="fill:#babdb6;fill-opacity:1;stroke:none"
+         id="rect19958"
+         width="90"
+         height="5"
+         x="-1281"
+         y="148.36218" />
+      <rect
+         y="158.36218"
+         x="-1281"
+         height="5"
+         width="68.877548"
+         id="rect19960"
+         style="fill:#babdb6;fill-opacity:1;stroke:none" />
+      <rect
+         style="fill:#babdb6;fill-opacity:1;stroke:none"
+         id="rect19962"
+         width="57.857143"
+         height="5"
+         x="-1281"
+         y="168.36218" />
+      <rect
+         style="fill:#babdb6;fill-opacity:1;stroke:none"
+         id="rect19964"
+         width="90"
+         height="5"
+         x="-1281"
+         y="186.36218" />
+      <rect
+         y="196.36218"
+         x="-1281"
+         height="5"
+         width="90"
+         id="rect19966"
+         style="fill:#babdb6;fill-opacity:1;stroke:none" />
+      <rect
+         style="fill:#babdb6;fill-opacity:1;stroke:none"
+         id="rect19968"
+         width="68.877548"
+         height="5"
+         x="-1281"
+         y="206.36218" />
+      <rect
+         y="216.36218"
+         x="-1281"
+         height="5"
+         width="57.857143"
+         id="rect19970"
+         style="fill:#babdb6;fill-opacity:1;stroke:none" />
+    </g>
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       y="390.71851"
+       x="-260.50003"
+       height="142"
+       width="119"
+       id="rect19972"
+       style="fill:#ffffff;fill-opacity:1;stroke:#a7a7a7;stroke-width:0.99999994;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <g
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       transform="translate(1431,270.8562)"
+       id="g19974">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#a7a7a7;stroke-width:0.99999994;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect19976"
+         width="119"
+         height="142"
+         x="-1295.5"
+         y="119.86218" />
+      <rect
+         style="fill:#babdb6;fill-opacity:1;stroke:none"
+         id="rect19978"
+         width="90"
+         height="5"
+         x="-1281"
+         y="138.36218" />
+      <rect
+         y="148.36218"
+         x="-1281"
+         height="5"
+         width="90"
+         id="rect19980"
+         style="fill:#babdb6;fill-opacity:1;stroke:none" />
+      <rect
+         style="fill:#babdb6;fill-opacity:1;stroke:none"
+         id="rect19982"
+         width="68.877548"
+         height="5"
+         x="-1281"
+         y="158.36218" />
+      <rect
+         y="168.36218"
+         x="-1281"
+         height="5"
+         width="57.857143"
+         id="rect19984"
+         style="fill:#babdb6;fill-opacity:1;stroke:none" />
+      <rect
+         y="186.36218"
+         x="-1281"
+         height="5"
+         width="90"
+         id="rect19986"
+         style="fill:#babdb6;fill-opacity:1;stroke:none" />
+      <rect
+         style="fill:#babdb6;fill-opacity:1;stroke:none"
+         id="rect19988"
+         width="90"
+         height="5"
+         x="-1281"
+         y="196.36218" />
+      <rect
+         y="206.36218"
+         x="-1281"
+         height="5"
+         width="68.877548"
+         id="rect19990"
+         style="fill:#babdb6;fill-opacity:1;stroke:none" />
+      <rect
+         style="fill:#babdb6;fill-opacity:1;stroke:none"
+         id="rect19992"
+         width="57.857143"
+         height="5"
+         x="-1281"
+         y="216.36218" />
+    </g>
+    <g
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       id="g19994"
+       transform="translate(1299,270.8562)">
+      <rect
+         y="119.86218"
+         x="-1295.5"
+         height="142"
+         width="119"
+         id="rect19996"
+         style="fill:#ffffff;fill-opacity:1;stroke:#a7a7a7;stroke-width:0.99999994;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         y="138.36218"
+         x="-1281"
+         height="5"
+         width="90"
+         id="rect19998"
+         style="fill:#babdb6;fill-opacity:1;stroke:none" />
+      <rect
+         style="fill:#babdb6;fill-opacity:1;stroke:none"
+         id="rect20000"
+         width="90"
+         height="5"
+         x="-1281"
+         y="148.36218" />
+      <rect
+         y="158.36218"
+         x="-1281"
+         height="5"
+         width="68.877548"
+         id="rect20002"
+         style="fill:#babdb6;fill-opacity:1;stroke:none" />
+      <rect
+         style="fill:#babdb6;fill-opacity:1;stroke:none"
+         id="rect20004"
+         width="57.857143"
+         height="5"
+         x="-1281"
+         y="168.36218" />
+      <rect
+         style="fill:#babdb6;fill-opacity:1;stroke:none"
+         id="rect20006"
+         width="90"
+         height="5"
+         x="-1281"
+         y="186.36218" />
+      <rect
+         y="196.36218"
+         x="-1281"
+         height="5"
+         width="90"
+         id="rect20008"
+         style="fill:#babdb6;fill-opacity:1;stroke:none" />
+      <rect
+         style="fill:#babdb6;fill-opacity:1;stroke:none"
+         id="rect20010"
+         width="68.877548"
+         height="5"
+         x="-1281"
+         y="206.36218" />
+      <rect
+         y="216.36218"
+         x="-1281"
+         height="5"
+         width="57.857143"
+         id="rect20012"
+         style="fill:#babdb6;fill-opacity:1;stroke:none" />
+    </g>
+    <g
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       transform="translate(1167,270.8562)"
+       id="g20014">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#a7a7a7;stroke-width:0.99999994;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect20016"
+         width="119"
+         height="142"
+         x="-1295.5"
+         y="119.86218" />
+      <rect
+         style="fill:#babdb6;fill-opacity:1;stroke:none"
+         id="rect20018"
+         width="90"
+         height="5"
+         x="-1281"
+         y="138.36218" />
+      <rect
+         y="148.36218"
+         x="-1281"
+         height="5"
+         width="90"
+         id="rect20020"
+         style="fill:#babdb6;fill-opacity:1;stroke:none" />
+      <rect
+         style="fill:#babdb6;fill-opacity:1;stroke:none"
+         id="rect20022"
+         width="68.877548"
+         height="5"
+         x="-1281"
+         y="158.36218" />
+      <rect
+         y="168.36218"
+         x="-1281"
+         height="5"
+         width="57.857143"
+         id="rect20024"
+         style="fill:#babdb6;fill-opacity:1;stroke:none" />
+      <rect
+         y="186.36218"
+         x="-1281"
+         height="5"
+         width="90"
+         id="rect20026"
+         style="fill:#babdb6;fill-opacity:1;stroke:none" />
+      <rect
+         style="fill:#babdb6;fill-opacity:1;stroke:none"
+         id="rect20028"
+         width="90"
+         height="5"
+         x="-1281"
+         y="196.36218" />
+      <rect
+         y="206.36218"
+         x="-1281"
+         height="5"
+         width="68.877548"
+         id="rect20030"
+         style="fill:#babdb6;fill-opacity:1;stroke:none" />
+      <rect
+         style="fill:#babdb6;fill-opacity:1;stroke:none"
+         id="rect20032"
+         width="57.857143"
+         height="5"
+         x="-1281"
+         y="216.36218" />
+    </g>
+    <g
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       id="g20034"
+       transform="translate(1035,270.8562)">
+      <rect
+         y="119.86218"
+         x="-1295.5"
+         height="142"
+         width="119"
+         id="rect20036"
+         style="fill:#ffffff;fill-opacity:1;stroke:#a7a7a7;stroke-width:0.99999994;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         y="138.36218"
+         x="-1281"
+         height="5"
+         width="90"
+         id="rect20038"
+         style="fill:#babdb6;fill-opacity:1;stroke:none" />
+      <rect
+         style="fill:#babdb6;fill-opacity:1;stroke:none"
+         id="rect20040"
+         width="90"
+         height="5"
+         x="-1281"
+         y="148.36218" />
+      <rect
+         y="158.36218"
+         x="-1281"
+         height="5"
+         width="68.877548"
+         id="rect20042"
+         style="fill:#babdb6;fill-opacity:1;stroke:none" />
+      <rect
+         style="fill:#babdb6;fill-opacity:1;stroke:none"
+         id="rect20044"
+         width="57.857143"
+         height="5"
+         x="-1281"
+         y="168.36218" />
+      <rect
+         style="fill:#babdb6;fill-opacity:1;stroke:none"
+         id="rect20046"
+         width="90"
+         height="5"
+         x="-1281"
+         y="186.36218" />
+      <rect
+         y="196.36218"
+         x="-1281"
+         height="5"
+         width="90"
+         id="rect20048"
+         style="fill:#babdb6;fill-opacity:1;stroke:none" />
+      <rect
+         style="fill:#babdb6;fill-opacity:1;stroke:none"
+         id="rect20050"
+         width="68.877548"
+         height="5"
+         x="-1281"
+         y="206.36218" />
+      <rect
+         y="216.36218"
+         x="-1281"
+         height="5"
+         width="57.857143"
+         id="rect20052"
+         style="fill:#babdb6;fill-opacity:1;stroke:none" />
+    </g>
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       sodipodi:nodetypes="sccssssssssccs"
+       inkscape:connector-curvature="0"
+       id="path20054"
+       d="m -354.12502,-58.5313 c -0.5113,0 -1.0145,0.1542 -1.4063,0.5078 l -12.9687,11.7078 -28,0 c -4.432,0 -8,3.221 -8,7.2221 l 0,163.7009 c 0,4.0011 3.568,7.2221 8,7.2221 l 174,0 c 4.432,0 8,-3.221 8,-7.2221 l 0,-163.7009 c 0,-4.0011 -3.568,-7.2221 -8,-7.2221 l -117.25,0 -12.9375,-11.7078 c -0.3918,-0.3536 -0.9263,-0.5078 -1.4375,-0.5078 z"
+       style="fill:#000000;fill-opacity:1;stroke:#888a85;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline" />
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       id="text20056"
+       y="-15.819825"
+       x="-381.01846"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       xml:space="preserve"><tspan
+         style="font-weight:normal;fill:#ffffff;fill-opacity:1;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         y="-15.819825"
+         x="-381.01846"
+         id="tspan20058"
+         sodipodi:role="line">New Window</tspan></text>
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       id="text20060"
+       y="23.210691"
+       x="-381.01846"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       xml:space="preserve"><tspan
+         style="font-weight:normal;fill:#ffffff;fill-opacity:1;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         y="23.210691"
+         x="-381.01846"
+         id="tspan20062"
+         sodipodi:role="line">Preferences</tspan></text>
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       id="text20064"
+       y="87.197998"
+       x="-381.01846"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       xml:space="preserve"><tspan
+         style="font-weight:normal;fill:#ffffff;fill-opacity:1;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         y="87.197998"
+         x="-381.01846"
+         id="tspan20066"
+         sodipodi:role="line">About</tspan></text>
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       id="text20068"
+       y="62.215332"
+       x="-381.01846"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       xml:space="preserve"><tspan
+         style="font-weight:normal;fill:#ffffff;fill-opacity:1;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         y="62.215332"
+         x="-381.01846"
+         id="tspan20070"
+         sodipodi:role="line">Help</tspan></text>
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       id="text20072"
+       y="111.23145"
+       x="-381.01846"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+       xml:space="preserve"><tspan
+         style="font-weight:normal;fill:#ffffff;fill-opacity:1;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         y="111.23145"
+         x="-381.01846"
+         id="tspan20074"
+         sodipodi:role="line">Quit</tspan></text>
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       inkscape:connector-curvature="0"
+       id="path20076"
+       d="m -159.11162,4.2183 -64.42195,0"
+       style="fill:#729fcf;stroke:#729fcf;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       ry="4"
+       rx="3.9999993"
+       transform="scale(1,-1)"
+       y="-17.218504"
+       x="-162.00002"
+       height="26"
+       width="127"
+       id="rect20078"
+       style="color:#000000;fill:#729fcf;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       sodipodi:linespacing="125%"
+       id="text20080"
+       y="8.9924307"
+       x="-98.199913"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+       xml:space="preserve"><tspan
+         y="8.9924307"
+         x="-98.199913"
+         id="tspan20082"
+         sodipodi:role="line">Application Menu</tspan></text>
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       inkscape:connector-curvature="0"
+       id="path20084"
+       d="m -384.54685,-1.2816 149.09366,0"
+       style="fill:none;stroke:#babdb6;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       style="fill:none;stroke:#babdb6;stroke-width:0.99999994px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -384.54728,37.7184 149.05057,0"
+       id="path20086"
+       inkscape:connector-curvature="0" />
+    <g
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       style="fill:#2e3436"
+       transform="translate(342,188.2185)"
+       id="g20088">
+      <g
+         id="g20090"
+         inkscape:label="status"
+         style="fill:#2e3436;display:inline"
+         transform="translate(-61.0002,-949.00001)" />
+      <g
+         id="g20092"
+         inkscape:label="devices"
+         style="fill:#2e3436;display:inline"
+         transform="translate(-61.0002,-949.00001)" />
+      <g
+         style="fill:#2e3436"
+         id="g20094"
+         inkscape:label="apps"
+         transform="translate(-61.0002,-949.00001)" />
+      <g
+         id="g20096"
+         inkscape:label="places"
+         style="fill:#2e3436;display:inline"
+         transform="translate(-61.0002,-949.00001)" />
+      <g
+         style="fill:#2e3436"
+         id="g20098"
+         inkscape:label="mimetypes"
+         transform="translate(-61.0002,-949.00001)" />
+      <g
+         id="g20100"
+         inkscape:label="emblems"
+         style="fill:#2e3436;display:inline"
+         transform="translate(-61.0002,-949.00001)" />
+      <g
+         id="g20102"
+         inkscape:label="emotes"
+         style="fill:#2e3436;display:inline"
+         transform="translate(-61.0002,-949.00001)" />
+      <g
+         id="g20104"
+         inkscape:label="categories"
+         style="fill:#2e3436;display:inline"
+         transform="translate(-61.0002,-949.00001)" />
+      <g
+         id="g20106"
+         inkscape:label="actions"
+         style="fill:#2e3436;display:inline"
+         transform="translate(-61.0002,-949.00001)">
+        <rect
+           height="2.0002136"
+           id="rect20108"
+           inkscape:label="a"
+           style="color:#bebebe;fill:#2e3436;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible"
+           width="9.9996014"
+           x="64.000397"
+           y="951.99982" />
+        <rect
+           height="2.0002136"
+           id="rect20110"
+           inkscape:label="a"
+           style="color:#bebebe;fill:#2e3436;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible"
+           width="9.9996014"
+           x="64.000397"
+           y="955.99982" />
+        <rect
+           height="2.0002136"
+           id="rect20112"
+           inkscape:label="a"
+           style="color:#bebebe;fill:#2e3436;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible"
+           width="9.9996014"
+           x="64.000397"
+           y="959.99982" />
+      </g>
+    </g>
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       style="color:#000000;fill:#729fcf;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect20114"
+       width="90"
+       height="26"
+       x="-161.00002"
+       y="-131.19604"
+       transform="scale(1,-1)"
+       rx="3.999999"
+       ry="4" />
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+       x="-116.45998"
+       y="122.96997"
+       id="text20116"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan20118"
+         x="-116.45998"
+         y="122.96997">Header Bar</tspan></text>
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       ry="4"
+       rx="3.999999"
+       transform="scale(1,-1)"
+       y="-131.19604"
+       x="13.999981"
+       height="26"
+       width="110"
+       id="rect20120"
+       style="color:#000000;fill:#729fcf;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       sodipodi:linespacing="125%"
+       id="text20122"
+       y="122.96997"
+       x="69.030006"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+       xml:space="preserve"><tspan
+         y="122.96997"
+         x="69.030006"
+         id="tspan20124"
+         sodipodi:role="line">View Switcher</tspan></text>
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       style="color:#000000;fill:#729fcf;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect20126"
+       width="59"
+       height="26"
+       x="224.99998"
+       y="-131.19604"
+       transform="scale(1,-1)"
+       rx="3.999999"
+       ry="4" />
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+       x="254.53246"
+       y="122.96997"
+       id="text20128"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan20130"
+         x="254.53246"
+         y="122.96997">Search</tspan></text>
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       ry="4"
+       rx="3.999999"
+       transform="scale(1,-1)"
+       y="-131.19604"
+       x="333.99997"
+       height="26"
+       width="126"
+       id="rect20132"
+       style="color:#000000;fill:#729fcf;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       sodipodi:linespacing="125%"
+       id="text20134"
+       y="122.96997"
+       x="396.8591"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+       xml:space="preserve"><tspan
+         y="122.96997"
+         x="396.8591"
+         id="tspan20136"
+         sodipodi:role="line">Header Bar Menu</tspan></text>
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       style="color:#000000;fill:#729fcf;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect20138"
+       width="114"
+       height="26"
+       x="256.99997"
+       y="-95.196045"
+       transform="scale(1,-1)"
+       rx="3.999999"
+       ry="4" />
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/patterns.png"
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+       x="314.20651"
+       y="86.969971"
+       id="text20140"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan20142"
+         x="314.20651"
+         y="86.969971">Selection Mode</tspan></text>
+    <g
+       mask="none"
+       transform="translate(1035,270.8562)"
+       id="g20144"
+       clip-path="url(#clipPath21580)">
+      <g
+         id="g20146"
+         transform="translate(528,160)">
+        <rect
+           y="119.86218"
+           x="-1295.5"
+           height="142"
+           width="119"
+           id="rect20148"
+           style="fill:#ffffff;fill-opacity:1;stroke:#a7a7a7;stroke-width:0.99999994;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+        <rect
+           y="138.36218"
+           x="-1281"
+           height="5"
+           width="90"
+           id="rect20150"
+           style="fill:#babdb6;fill-opacity:1;stroke:none" />
+        <rect
+           style="fill:#babdb6;fill-opacity:1;stroke:none"
+           id="rect20152"
+           width="90"
+           height="5"
+           x="-1281"
+           y="148.36218" />
+        <rect
+           y="158.36218"
+           x="-1281"
+           height="5"
+           width="68.877548"
+           id="rect20154"
+           style="fill:#babdb6;fill-opacity:1;stroke:none" />
+        <rect
+           style="fill:#babdb6;fill-opacity:1;stroke:none"
+           id="rect20156"
+           width="57.857143"
+           height="5"
+           x="-1281"
+           y="168.36218" />
+        <rect
+           style="fill:#babdb6;fill-opacity:1;stroke:none"
+           id="rect20158"
+           width="90"
+           height="5"
+           x="-1281"
+           y="186.36218" />
+        <rect
+           y="196.36218"
+           x="-1281"
+           height="5"
+           width="90"
+           id="rect20160"
+           style="fill:#babdb6;fill-opacity:1;stroke:none" />
+        <rect
+           style="fill:#babdb6;fill-opacity:1;stroke:none"
+           id="rect20162"
+           width="68.877548"
+           height="5"
+           x="-1281"
+           y="206.36218" />
+        <rect
+           y="216.36218"
+           x="-1281"
+           height="5"
+           width="57.857143"
+           id="rect20164"
+           style="fill:#babdb6;fill-opacity:1;stroke:none" />
+      </g>
+      <rect
+         y="279.86218"
+         x="-1295.5"
+         height="142"
+         width="119"
+         id="rect20166"
+         style="fill:#ffffff;fill-opacity:1;stroke:#a7a7a7;stroke-width:0.99999994;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <g
+         transform="translate(396,160)"
+         id="g20168">
+        <rect
+           style="fill:#ffffff;fill-opacity:1;stroke:#a7a7a7;stroke-width:0.99999994;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect20170"
+           width="119"
+           height="142"
+           x="-1295.5"
+           y="119.86218" />
+        <rect
+           style="fill:#babdb6;fill-opacity:1;stroke:none"
+           id="rect20172"
+           width="90"
+           height="5"
+           x="-1281"
+           y="138.36218" />
+        <rect
+           y="148.36218"
+           x="-1281"
+           height="5"
+           width="90"
+           id="rect20174"
+           style="fill:#babdb6;fill-opacity:1;stroke:none" />
+        <rect
+           style="fill:#babdb6;fill-opacity:1;stroke:none"
+           id="rect20176"
+           width="68.877548"
+           height="5"
+           x="-1281"
+           y="158.36218" />
+        <rect
+           y="168.36218"
+           x="-1281"
+           height="5"
+           width="57.857143"
+           id="rect20178"
+           style="fill:#babdb6;fill-opacity:1;stroke:none" />
+        <rect
+           y="186.36218"
+           x="-1281"
+           height="5"
+           width="90"
+           id="rect20180"
+           style="fill:#babdb6;fill-opacity:1;stroke:none" />
+        <rect
+           style="fill:#babdb6;fill-opacity:1;stroke:none"
+           id="rect20182"
+           width="90"
+           height="5"
+           x="-1281"
+           y="196.36218" />
+        <rect
+           y="206.36218"
+           x="-1281"
+           height="5"
+           width="68.877548"
+           id="rect20184"
+           style="fill:#babdb6;fill-opacity:1;stroke:none" />
+        <rect
+           style="fill:#babdb6;fill-opacity:1;stroke:none"
+           id="rect20186"
+           width="57.857143"
+           height="5"
+           x="-1281"
+           y="216.36218" />
+      </g>
+      <g
+         id="g20188"
+         transform="translate(264,160)">
+        <rect
+           y="119.86218"
+           x="-1295.5"
+           height="142"
+           width="119"
+           id="rect20190"
+           style="fill:#ffffff;fill-opacity:1;stroke:#a7a7a7;stroke-width:0.99999994;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+        <rect
+           y="138.36218"
+           x="-1281"
+           height="5"
+           width="90"
+           id="rect20192"
+           style="fill:#babdb6;fill-opacity:1;stroke:none" />
+        <rect
+           style="fill:#babdb6;fill-opacity:1;stroke:none"
+           id="rect20194"
+           width="90"
+           height="5"
+           x="-1281"
+           y="148.36218" />
+        <rect
+           y="158.36218"
+           x="-1281"
+           height="5"
+           width="68.877548"
+           id="rect20196"
+           style="fill:#babdb6;fill-opacity:1;stroke:none" />
+        <rect
+           style="fill:#babdb6;fill-opacity:1;stroke:none"
+           id="rect20199"
+           width="57.857143"
+           height="5"
+           x="-1281"
+           y="168.36218" />
+        <rect
+           style="fill:#babdb6;fill-opacity:1;stroke:none"
+           id="rect20201"
+           width="90"
+           height="5"
+           x="-1281"
+           y="186.36218" />
+        <rect
+           y="196.36218"
+           x="-1281"
+           height="5"
+           width="90"
+           id="rect20203"
+           style="fill:#babdb6;fill-opacity:1;stroke:none" />
+        <rect
+           style="fill:#babdb6;fill-opacity:1;stroke:none"
+           id="rect20205"
+           width="68.877548"
+           height="5"
+           x="-1281"
+           y="206.36218" />
+        <rect
+           y="216.36218"
+           x="-1281"
+           height="5"
+           width="57.857143"
+           id="rect20207"
+           style="fill:#babdb6;fill-opacity:1;stroke:none" />
+      </g>
+      <g
+         transform="translate(132,160)"
+         id="g20209">
+        <rect
+           style="fill:#ffffff;fill-opacity:1;stroke:#a7a7a7;stroke-width:0.99999994;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect20211"
+           width="119"
+           height="142"
+           x="-1295.5"
+           y="119.86218" />
+        <rect
+           style="fill:#babdb6;fill-opacity:1;stroke:none"
+           id="rect20213"
+           width="90"
+           height="5"
+           x="-1281"
+           y="138.36218" />
+        <rect
+           y="148.36218"
+           x="-1281"
+           height="5"
+           width="90"
+           id="rect20215"
+           style="fill:#babdb6;fill-opacity:1;stroke:none" />
+        <rect
+           style="fill:#babdb6;fill-opacity:1;stroke:none"
+           id="rect20217"
+           width="68.877548"
+           height="5"
+           x="-1281"
+           y="158.36218" />
+        <rect
+           y="168.36218"
+           x="-1281"
+           height="5"
+           width="57.857143"
+           id="rect20219"
+           style="fill:#babdb6;fill-opacity:1;stroke:none" />
+        <rect
+           y="186.36218"
+           x="-1281"
+           height="5"
+           width="90"
+           id="rect20221"
+           style="fill:#babdb6;fill-opacity:1;stroke:none" />
+        <rect
+           style="fill:#babdb6;fill-opacity:1;stroke:none"
+           id="rect20223"
+           width="90"
+           height="5"
+           x="-1281"
+           y="196.36218" />
+        <rect
+           y="206.36218"
+           x="-1281"
+           height="5"
+           width="68.877548"
+           id="rect20225"
+           style="fill:#babdb6;fill-opacity:1;stroke:none" />
+        <rect
+           style="fill:#babdb6;fill-opacity:1;stroke:none"
+           id="rect20227"
+           width="57.857143"
+           height="5"
+           x="-1281"
+           y="216.36218" />
+      </g>
+      <g
+         id="g20229"
+         transform="translate(0,160)">
+        <rect
+           y="119.86218"
+           x="-1295.5"
+           height="142"
+           width="119"
+           id="rect20231"
+           style="fill:#ffffff;fill-opacity:1;stroke:#a7a7a7;stroke-width:0.99999994;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+        <rect
+           y="138.36218"
+           x="-1281"
+           height="5"
+           width="90"
+           id="rect20233"
+           style="fill:#babdb6;fill-opacity:1;stroke:none" />
+        <rect
+           style="fill:#babdb6;fill-opacity:1;stroke:none"
+           id="rect20235"
+           width="90"
+           height="5"
+           x="-1281"
+           y="148.36218" />
+        <rect
+           y="158.36218"
+           x="-1281"
+           height="5"
+           width="68.877548"
+           id="rect20237"
+           style="fill:#babdb6;fill-opacity:1;stroke:none" />
+        <rect
+           style="fill:#babdb6;fill-opacity:1;stroke:none"
+           id="rect20239"
+           width="57.857143"
+           height="5"
+           x="-1281"
+           y="168.36218" />
+        <rect
+           style="fill:#babdb6;fill-opacity:1;stroke:none"
+           id="rect20241"
+           width="90"
+           height="5"
+           x="-1281"
+           y="186.36218" />
+        <rect
+           y="196.36218"
+           x="-1281"
+           height="5"
+           width="90"
+           id="rect20243"
+           style="fill:#babdb6;fill-opacity:1;stroke:none" />
+        <rect
+           style="fill:#babdb6;fill-opacity:1;stroke:none"
+           id="rect20245"
+           width="68.877548"
+           height="5"
+           x="-1281"
+           y="206.36218" />
+        <rect
+           y="216.36218"
+           x="-1281"
+           height="5"
+           width="57.857143"
+           id="rect20247"
+           style="fill:#babdb6;fill-opacity:1;stroke:none" />
+      </g>
+    </g>
+  </g>
+</svg>

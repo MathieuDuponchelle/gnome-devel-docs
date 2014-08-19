@@ -26,6 +26,8 @@
 
 <p>A spin box is a text box that accepts a range of values. It incorporates two buttons that allow the user to increase or decrease the value by a fixed amount.</p>
 
+<media type="image" mime="image/svg" src="figures/ui-elements/spin-boxes.svg"/>
+
 <section id="when-to-use">
 <title>When to use</title>
 

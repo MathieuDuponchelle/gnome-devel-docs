@@ -26,7 +26,7 @@
 
 <p>Buttons are one of the most common and basic user interface elements. Buttons can be used to perform actions, toggle settings or views, activate tools, or to display dialogs, popovers, or other user interface elements.</p>
 
-<media type="image" mime="image/png" src="figures/buttons.png"/>
+<media type="image" mime="image/svg" src="figures/ui-elements/buttons.svg"/>
 
 <section id="general-guidelines">
 <title>General Guidelines</title>

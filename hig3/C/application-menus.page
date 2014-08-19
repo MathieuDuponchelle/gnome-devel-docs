@@ -13,7 +13,7 @@
 
 <title>Application menus</title>
 
-<media type="image" mime="image/png" src="figures/application-menu.png"/>
+<media type="image" mime="image/svg" src="figures/patterns/application-menu.svg"/>
 
 <p>Application menus provide access to global, top level actions and options for your application. These include standard items for accessing documentation and information about the application.</p>
 

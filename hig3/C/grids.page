@@ -13,7 +13,7 @@
 
 <title>Grids</title>
 
-<media type="image" mime="image/png" src="figures/grids.png"/>
+<media type="image" mime="image/svg" src="figures/patterns/grid.svg"/>
 
 <p>A grid is one of the primary methods of presenting collections of content in GNOME 3. Grids are often combined with a number of the other design patterns, including <link xref="search">search</link> and <link xref="selection-mode">selection mode</link>.</p>
 

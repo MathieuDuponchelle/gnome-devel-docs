@@ -14,7 +14,7 @@
 
 <p>A switch is a simple interface element which has an on and off state.</p>
 
-<media type="image" mime="image/png" src="figures/switches.png"/>
+<media type="image" mime="image/svg" src="figures/ui-elements/switches.svg"/>
 
 <section id="when-to-use">
 <title>When to use</title>

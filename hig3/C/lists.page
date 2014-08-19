@@ -40,7 +40,7 @@
 
 <p>Embedded lists have padding between them and their container. They are appropriate when the list contains columns of information which need to be kept close together for readability purposes. Embedded lists can also be used when a window contains several lists at once.</p>
 
-<media type="image" mime="image/png" src="figures/list-styles.png"/>
+<media type="image" mime="image/svg" src="figures/patterns/list-styles.svg"/>
 
 </section>
 
@@ -51,7 +51,7 @@
 
 <p>Each row contains a remove button. If the number of items is short, the final list row should be used as an add button. Alternatively, if the list is long, the add button can be placed in a <link xref="header-bars">header bar</link> or or <link xref="action-bars">action bar</link>.</p>
 
-<media type="image" mime="image/png" src="figures/editable-lists.png"/>
+<media type="image" mime="image/svg" src="figures/patterns/editable-lists.svg"/>
 
 </section>
 </section>

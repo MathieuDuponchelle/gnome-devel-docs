@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="280"
+   height="280"
+   id="svg11709"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="progress-bars.svg">
+  <defs
+     id="defs11711">
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect8047"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect8044"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect8124"
+       is_visible="true" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect8126"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect38831"
+       is_visible="true" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect38833"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect38835"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect38837"
+       is_visible="true" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.9997383"
+     inkscape:cx="271.98003"
+     inkscape:cy="184.88471"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:showpageshadow="false"
+     inkscape:window-width="1410"
+     inkscape:window-height="874"
+     inkscape:window-x="234"
+     inkscape:window-y="144"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata11714">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-772.36218)">
+    <g
+       transform="translate(-3638,2664)"
+       id="g16736">
+      <g
+         transform="translate(0,-48)"
+         id="g16708">
+        <g
+           id="g16710"
+           transform="translate(0,23.000017)"
+           inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/progress-bars.png"
+           inkscape:export-xdpi="90"
+           inkscape:export-ydpi="90">
+          <rect
+             ry="3"
+             rx="3.0000002"
+             y="-1722.7477"
+             x="3681.7283"
+             height="6.1098633"
+             width="4.2717285"
+             id="rect16712"
+             style="color:#000000;fill:#ce5c00;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+             transform="translate(0,48)" />
+          <rect
+             inkscape:export-ydpi="90"
+             inkscape:export-xdpi="90"
+             inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
+             ry="1.9999999"
+             rx="1.9999999"
+             y="-1722.1378"
+             x="3658.5"
+             height="5"
+             width="239"
+             id="rect16714"
+             style="color:#000000;fill:#d2d2d2;fill-opacity:1;fill-rule:nonzero;stroke:#a1a1a1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
+             transform="translate(0,48)" />
+          <rect
+             inkscape:export-ydpi="90"
+             inkscape:export-xdpi="90"
+             inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
+             ry="1"
+             rx="1"
+             y="-1722.1378"
+             x="3780.5"
+             height="5"
+             width="59"
+             id="rect16716"
+             style="color:#000000;fill:#5094da;fill-opacity:1;fill-rule:nonzero;stroke:#184472;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
+             transform="translate(0,48)" />
+          <g
+             transform="translate(0,47)"
+             id="g16718">
+            <rect
+               style="color:#000000;fill:#d2d2d2;fill-opacity:1;fill-rule:nonzero;stroke:#a1a1a1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
+               id="rect16720"
+               width="239"
+               height="5"
+               x="3658.5"
+               y="-1768.1378"
+               rx="1.9999999"
+               ry="1.9999999"
+               inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
+               inkscape:export-xdpi="90"
+               inkscape:export-ydpi="90" />
+            <path
+               sodipodi:nodetypes="sssssssss"
+               inkscape:connector-curvature="0"
+               id="path16722"
+               d="m 3660.5,-1768.1378 93,0 c 0.483,0 1,0.5014 1,1 l 0,3 c 0,0.5198 -0.5014,1 -1,1 l -93,0 c -1.108,0 -2,-0.892 -2,-2 l 0,-1 c 0,-1.108 0.892,-2 2,-2 z"
+               style="color:#000000;fill:#5094da;fill-opacity:1;fill-rule:nonzero;stroke:#184472;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new" />
+            <text
+               xml:space="preserve"
+               style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#888a85;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+               x="3778.1257"
+               y="-1778.6378"
+               id="text16724"
+               sodipodi:linespacing="125%"><tspan
+                 sodipodi:role="line"
+                 id="tspan16726"
+                 x="3778.1257"
+                 y="-1778.6378">About 4 minutes left</tspan></text>
+          </g>
+          <rect
+             inkscape:export-ydpi="90"
+             inkscape:export-xdpi="90"
+             inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
+             ry="1.9999999"
+             rx="1.9999999"
+             y="-1768.1378"
+             x="3658.5"
+             height="5"
+             width="239"
+             id="rect16728"
+             style="color:#000000;fill:#d2d2d2;fill-opacity:1;fill-rule:nonzero;stroke:#a1a1a1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new" />
+          <path
+             style="color:#000000;fill:#5094da;fill-opacity:1;fill-rule:nonzero;stroke:#184472;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
+             d="m 3660.5,-1768.1378 93,0 c 0.483,0 1,0.5014 1,1 l 0,3 c 0,0.5198 -0.5014,1 -1,1 l -93,0 c -1.108,0 -2,-0.892 -2,-2 l 0,-1 c 0,-1.108 0.892,-2 2,-2 z"
+             id="path16730"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="sssssssss" />
+          <text
+             sodipodi:linespacing="125%"
+             id="text16732"
+             y="-1778.6378"
+             x="3778.1257"
+             style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#888a85;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+             xml:space="preserve"><tspan
+               y="-1778.6378"
+               x="3778.1257"
+               id="tspan16734"
+               sodipodi:role="line">4 minutes left</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

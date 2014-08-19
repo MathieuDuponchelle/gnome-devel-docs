@@ -13,7 +13,7 @@
 
 <title>Sidebar lists</title>
 
-<media type="image" mime="image/png" src="figures/sidebar.png"/>
+<media type="image" mime="image/svg" src="figures/patterns/sidebar-list.svg"/>
 
 <p>A sidebar list allows different views to be switched between. Those views can contain groups of content items, single content items, or sets of controls. The sidebar divides the window in two, with content being shown on the opposite pane to the sidebar.</p>
 

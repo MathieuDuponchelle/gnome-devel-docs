@@ -13,7 +13,7 @@
 
 <title>Action bars</title>
 
-<media type="image" mime="image/png" src="figures/action-bars.png"/>
+<media type="image" mime="image/svg" src="figures/patterns/action-bar.svg"/>
 
 <p>An action bar is a horizontal container that is placed along the bottom edge of a window. It is used to present actions for the content that is displayed above.</p>
 

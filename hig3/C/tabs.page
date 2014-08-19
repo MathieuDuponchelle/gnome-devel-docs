@@ -26,7 +26,7 @@
 
 <p>Tabs provide a way to break down a window into a series of views. They come in two primary forms: fixed and dynamic. Fixed tabs provide an immutable set of defined views that are built into a user interface, primarily dialog windows. Dynamic tabs allow a user to view multiple documents or locations within an application's primary window.</p>
 
-<media type="image" mime="image/png" src="figures/tabs.png"/>
+<media type="image" mime="image/svg" src="figures/ui-elements/tabs.svg"/>
 
 <section id="when-to-use">
 <title>When to use</title>

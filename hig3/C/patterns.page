@@ -18,6 +18,6 @@
 
 <links type="topic" style="2column" groups="application-menus header-bars header-bar-menus search view-switchers selection-mode dialogs sidebars notifications"/>
 
-<media type="image" mime="image/png" src="figures/patterns.png"/>
+<media type="image" mime="image/svg" src="figures/patterns/patterns.svg"/>
 
 </page>

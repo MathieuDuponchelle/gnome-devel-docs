@@ -13,7 +13,7 @@
 
 <title>Selection mode</title>
 
-<media type="image" mime="image/png" src="figures/selection-mode.png"/>
+<media type="image" mime="image/svg" src="figures/patterns/selection-mode.svg"/>
 
 <p>Selection mode is a design pattern for allow actions to be performed on items of content. It is typically used in conjunction with lists and grids.</p>
 

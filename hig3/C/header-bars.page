@@ -14,7 +14,7 @@
 
 <title>Header bars</title>
 
-<media type="image" mime="image/png" src="figures/header-bar.png"/>
+<media type="image" mime="image/svg" src="figures/patterns/header-bar.svg"/>
 
 <p>Header bars are a common horizontal element which are placed at the top of windows. They play a number of roles:</p>
 

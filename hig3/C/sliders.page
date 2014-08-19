@@ -26,7 +26,7 @@
 
 <p>A slider allows the user to quickly select a value from a range. In GTK+, sliders can be implemented using the GtkHScale or GtkVScale controls, for horizontal or vertical sliders respectively.</p>
 
-<media type="image" mime="image/png" src="figures/sliders.png"/>
+<media type="image" mime="image/svg" src="figures/ui-elements/sliders.svg"/>
 
 <section id="when-to-use">
 <title>When to use</title>

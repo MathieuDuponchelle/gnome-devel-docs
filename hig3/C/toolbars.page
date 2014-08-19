@@ -26,7 +26,7 @@
 
 <p>A toolbar is a strip of controls that allows convenient access to commonly-used functions. Most toolbars only contain graphical buttons, but in more complex applications, other types of controls such as drop-down lists, can also be useful.</p>
 
-<media type="image" mime="image/png" src="figures/toolbar.png"/>
+<media type="image" mime="image/svg" src="figures/ui-elements/toolbar.svg"/>
 
 <section id="when-to-use">
 <title>When to use</title>

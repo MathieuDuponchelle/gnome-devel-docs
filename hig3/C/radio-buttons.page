@@ -26,7 +26,7 @@
 
 <p>Radio buttons are used in groups to select from a mutually exclusive set of options. Only one radio button within a group may be set at any one time. As with check boxes, do not use radio buttons to initiate actions.</p>
 
-<media type="image" mime="image/png" src="figures/radio-buttons.png"/>
+<media type="image" mime="image/svg" src="figures/ui-elements/radio-buttons.svg"/>
 
 <section id="guidelines">
 <title>Guidelines</title>

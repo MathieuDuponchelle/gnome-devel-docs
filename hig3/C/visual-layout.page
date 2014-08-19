@@ -49,13 +49,13 @@
 </list>
 
 <p>Incorrect spacing and alignment:</p>
-<media type="image" mime="image/png" src="figures/visual-alignment-incorrect.png"/>
+<media type="image" mime="image/svg" src="figures/visual-alignment-incorrect.svg"/>
 
 <p>Correct spacing and alignment:</p>
-<media type="image" mime="image/png" src="figures/visual-alignment-correct.png"/>
+<media type="image" mime="image/svg" src="figures/visual-alignment-correct.svg"/>
 
 <p>Correct spacing, with units (pixels):</p>
-<media type="image" mime="image/png" src="figures/visual-alignment-spacing.png"/>
+<media type="image" mime="image/svg" src="figures/visual-alignment-spacing.svg"/>
 
 </section>
 
@@ -64,7 +64,7 @@
 
 <p>If possible, right-justify labels (see the diagram below). This will avoid large gaps between labels and their associated controls. This type of right-justification is not possible if you have indented controls: here left-justification should be used instead.</p>
 
-<media type="image" mime="image/png" src="figures/label-alignment.png"/>
+<media type="image" mime="image/svg" src="figures/label-alignment.svg"/>
 
 </section>
 
