@@ -1,0 +1,49 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="what-is-an-application">
+
+  <info>
+    <link type="guide" xref="essentials" group="what-is-an-application"/>   
+    <credit type="author">
+      <name>Allan Day</name>
+      <email>aday@gnome.org</email>
+    </credit>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+    <desc>Guidelines for system integration and basic behavior.</desc>    
+  </info>
+
+<title>What is an application?</title>
+
+<p>These Human Interface Guidelines are concerned with the creation of applications. An understanding of what an application is will help you to distribute your software more effectively, as well as ensure effective and consistent system integration.</p>
+
+<p>The application provides a model with which users can understand their software, both in terms of how it is distributed, installed and removed, but also how that software behaves when in use. Ensuring that your software behaves according to the application model will help to ensure that it conforms to user expectations, and is therefore predictable. It will also ensure coherent integration with system tools for installing and removing applications.</p>
+
+<section id="a-definition">
+<title>A definition</title>
+
+<quote><p>An application is a distinct and independent piece of software that incorporates useful functionality, and which can be installed on a user's system.</p></quote>
+
+<p>This definition can be broken down into a set of characteristics, which describe an application in more detail. Applications:</p>
+
+<list>
+<item><p>Can be individually installed and removed from the system.</p></item>
+<item><p>Do not rely on other applications in order to run.</p></item>
+<item><p>Contain functionality of their own.</p></item>
+<item><p>Do not affect or interfere with the behavior of other applications.</p></item>
+</list>
+
+<p>At the heart of this definition is a model that allows the modular installation and use of software, in a way that avoids dependency issues between modules, and ensures simplicity of use.</p>
+
+<p>In GNOME 3, only software that conforms to these characteristics should add an application launcher to the system.</p>
+
+<!-- Expand into a section on application launchers?
+
+Applications are launched and switched to via their launchers...
+
+-->
+
+</section>
+
+<!-- A successful application does one thing, and does it well. -->
+
+</page>
