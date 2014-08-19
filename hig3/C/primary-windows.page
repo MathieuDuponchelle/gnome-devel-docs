@@ -1,0 +1,70 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="primary-windows">
+
+  <info>
+    <link type="guide" xref="patterns" group="primary-windows"/>   
+    <credit type="author">
+      <name>Allan Day</name>
+      <email>aday@gnome.org</email>
+    </credit>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>Primary windows</title>
+
+<media type="image" mime="image/svg" src="figures/patterns/primary-windows.svg"/>
+
+<p>Primary windows are the basic high-level container for your application user interface, and should present the core functionality of your application.</p>
+
+<section id="when-to-use">
+<title>When to use</title>
+
+<p>Every application should have at least one primary window associated with it.</p>
+
+</section>
+
+<section id="application-types">
+<title>Application types</title>
+
+<p>There are two main models for primary windows:</p>
+
+<section id="single-instance-applications">
+<title>Single instance applications</title>
+
+<p>Single instance applications have a single primary window. This model is common for messaging applications, such as email, chat, or contacts.</p>
+
+</section>
+
+<section id="multiple-instance-applications">
+<title>Multiple instance applications</title>
+
+<p>Multiple instance applications can have a multiple primary windows. Typically, each primary window will be identical. Multi-instance applications are frequently viewers or editors, such as for documents or images.</p>
+
+<p>Both single and multiple instance applications can allow multiple content items to be opened, either through the use of <link xref="tabs">tabs</link> or browser-style navigation. However, multiple windows do offer additional capabilities, which include:</p>
+
+<list>
+<item><p>Viewing several content items alongside each other.</p></item>
+<item><p>Placing content on different workspaces.</p></item>
+<item><p>Organizing sets of content to be organized into different windows (if using tabs).</p></item>
+</list>
+
+</section>
+</section>
+
+<section id="general-guidelines">
+<title>General guidelines</title>
+
+<list>
+<item><p>If your application isn't running and its launcher is activated, a single primary window should be displayed. Do not show multiple windows when your application is initially launched.</p></item>
+<item><p>If your application launcher is selected while your application is running, all its primary windows should be displayed.</p></item>
+<item><p>Primary windows should host the main functionality of your application. Do not rely on dialog or secondary windows in order to present basic functionality.</p></item>
+<item><p>Primary windows should be independent - closing one primary window should not result in other primary windows being closed.</p></item>
+<item><p>Dialog windows should always be dependent on a primary window. See the <link xref="dialogs">dialogs page</link> guidelines.</p></item>
+<item><p>Your application should cease to run when all its primary windows have been closed.</p></item>
+<item><p><gui>Quit</gui> should close all primary windows.</p></item>
+</list>
+
+</section>
+
+</page>
