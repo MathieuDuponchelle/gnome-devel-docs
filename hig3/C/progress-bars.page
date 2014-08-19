@@ -37,7 +37,7 @@
 <section id="when-to-use">
 <title>When to use</title>
 
-<p>The primary advantage of a progress bar over other methods of indicating progress is that a progress bar graphically indicates the proportion of a task that has been completed. This also results in progress bars taking more space and having a higher visual footprint. Therefore, they are are best used to indicate progress on tasks that can take a relatively long time.</p>
+<p>The primary advantage of a progress bar over other methods of indicating progress is that a progress bar graphically indicates the proportion of a task that has been completed. This also results in progress bars taking more space and having a higher visual footprint. Therefore, they are best used to indicate progress on tasks that can take a relatively long time.</p>
 
 <p>As a rule of thumb, only use a progress bar for tasks that take over 30 seconds. For tasks that have shorter periods, <link xref="progress-spinners">progress spinners</link> are often a better choice.</p>
 
@@ -49,7 +49,7 @@
 <list>
 <item><p>Accuracy is preferable for progress bars. Where possible, use a time-remaining progress bar, followed by typical-time. Try to avoid using indeterminate progress bars.</p></item>
 <item><p>Ensure that time-remaining and typical-time progress bars measure an operation's total time or total work, not just that of a single step.</p></item>
-<item><p>For time-remaining progress bars, update time-remaining progress bars when changes occurr that will cause the operation to finish more quickly or more slowly.</p></item>
+<item><p>For time-remaining progress bars, update time-remaining progress bars when changes occur that will cause the operation to finish more quickly or more slowly.</p></item>
 <item><p>For typical-time progress bars, if your application overestimates the completed amount of work, the length of the bar can indicate "almost complete" until the operation is complete. If your application underestimates how much work is complete, fill the remaining portion of the bar when the operation is complete.</p></item>
 </list>
 
