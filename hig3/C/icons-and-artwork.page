@@ -3,7 +3,6 @@
       id="icons-and-artwork">
 
   <info>
-    <link type="guide" xref="essentials" group="icons-and-artwork"/>   
     <credit type="author">
       <name>Allan Day</name>
       <email>aday@gnome.org</email>
@@ -73,7 +72,7 @@
 <section id="application-icons">
 <title>Application Icons</title>
 
-<p>Every application should have a unique and beautiful application icon. It is the face of the application, and the first visual element a user sees when browsing for new applications.</p>
+<p>Every application should have a unique and beautiful application icon. It is the face of the application, and the first visual element a user sees when browsing for new applications. The <link xref="application-basics">application basics page</link> includes details on what an application is, and when to provide an application icon.</p>
 
 <p>Because application icons are presented at larger sizes, legacy Tango styled 48x48px or SVG icons no longer suffice (lacking detail). It is essential your application has a 256x256px size. With the advent of high-DPI displays, a 512x512px variant is recommended.</p>
 
