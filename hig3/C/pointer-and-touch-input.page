@@ -65,6 +65,7 @@
 <td><p>Result</p></td>
 </tr>
 </thead>
+<tbody>
 <tr>
 <td><p>Primary button</p></td>
 <td><p><key>Space</key></p></td>
@@ -95,6 +96,7 @@
 <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>A</key></keyseq></p></td>
 <td><p>Deselect all</p></td>
 </tr>
+</tbody>
 </table>
 
 </section>
@@ -118,6 +120,7 @@
 <td><p>Result</p></td>
 </tr>
 </thead>
+<tbody>
 <tr>
 <td colspan="3"><p><em style="strong">Tap</em></p></td>
 </tr>
@@ -166,6 +169,7 @@
 <td><p>Very quick drag, losing contact with the surface without slowing movement.</p></td>
 <td><p>Removes an item.</p></td>
 </tr>
+</tbody>
 </table>
 
 </section>
