@@ -14,7 +14,7 @@
    id="svg6276"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="sidebar-list.svg">
+   sodipodi:docname="header-bar.svg">
   <defs
      id="defs6278">
     <mask
@@ -36,15 +36,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="282.11495"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="100.99371"
      inkscape:cy="252.39431"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:showpageshadow="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1133"
+     inkscape:window-height="1013"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1">
@@ -64,7 +64,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -74,489 +74,365 @@
      id="layer1"
      transform="translate(0,-512.36218)">
     <g
-       id="g6691"
-       transform="translate(697.15173,442.7565)">
-      <rect
-         ry="9"
-         rx="9"
-         y="122.1058"
-         x="-569.65173"
-         height="106"
-         width="685"
-         id="rect6369"
-         style="fill:#e5e6e5;fill-opacity:1;stroke:#a7aba7;stroke-width:0.99999994;stroke-opacity:1"
-         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
-         inkscape:export-xdpi="90"
-         inkscape:export-ydpi="90" />
-      <rect
-         mask="none"
-         style="fill:#eeeeec;fill-opacity:1;stroke:#a7a7a7;stroke-width:0.99999994;stroke-linecap:square;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
-         id="rect6371"
-         width="685"
-         height="386"
-         x="-569.65173"
-         y="163.1058"
-         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
-         inkscape:export-xdpi="90"
-         inkscape:export-ydpi="90" />
+       id="g3163"
+       transform="translate(-278.119,-527.38682)">
       <g
-         id="g6373"
-         transform="translate(86.84987,134.6058)"
-         style="fill:#888a85;display:inline"
-         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
-         inkscape:export-xdpi="90"
-         inkscape:export-ydpi="90">
+         id="g6360"
+         transform="translate(-1138.881,3331.3867)">
         <g
-           style="fill:#888a85;display:inline"
-           id="g6375"
-           transform="translate(-60,-518)" />
-        <g
-           id="g6377"
-           transform="translate(-60,-518)"
-           style="fill:#888a85" />
-        <g
-           id="g6379"
-           transform="translate(-60,-518)"
-           style="fill:#888a85" />
-        <g
-           id="g6381"
-           transform="translate(-60,-518)"
-           style="fill:#888a85">
+           id="g6246">
+          <rect
+             ry="9"
+             rx="9"
+             y="-2235.1377"
+             x="1544.5"
+             height="106"
+             width="685"
+             id="rect6248"
+             style="fill:#e5e6e5;fill-opacity:1;stroke:#a7aba7;stroke-width:0.99999994;stroke-opacity:1"
+             inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/header-bar.png"
+             inkscape:export-xdpi="90"
+             inkscape:export-ydpi="90" />
+          <rect
+             mask="none"
+             style="fill:#eeeeec;fill-opacity:1;stroke:#a7a7a7;stroke-width:0.99999994;stroke-linecap:square;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+             id="rect6250"
+             width="685"
+             height="386"
+             x="1544.5"
+             y="-2194.1377"
+             inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/header-bar.png"
+             inkscape:export-xdpi="90"
+             inkscape:export-ydpi="90" />
           <g
+             id="g6252"
+             transform="translate(2201.0016,-2222.6377)"
              style="fill:#888a85;display:inline"
-             id="g6383"
-             transform="translate(19,-242)">
-            <path
-               style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#bebebe;fill:#888a85;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.78124988;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Andale Mono;-inkscape-font-specification:Andale Mono"
-               id="path6385"
-               d="m 45,764 1,0 c 0.01037,-1.2e-4 0.02079,-4.6e-4 0.03125,0 0.254951,0.0112 0.50987,0.12858 0.6875,0.3125 L 49,766.59375 51.3125,764.3125 C 51.578125,764.082 51.759172,764.007 52,764 l 1,0 0,1 c 0,0.28647 -0.03434,0.55065 -0.25,0.75 l -2.28125,2.28125 2.25,2.25 C 52.906938,770.46942 52.999992,770.7347 53,771 l 0,1 -1,0 c -0.265301,-10e-6 -0.530586,-0.0931 -0.71875,-0.28125 L 49,769.4375 46.71875,771.71875 C 46.530586,771.90694 46.26529,772 46,772 l -1,0 0,-1 c -3e-6,-0.26529 0.09306,-0.53058 0.28125,-0.71875 l 2.28125,-2.25 L 45.28125,765.75 C 45.070508,765.55537 44.97809,765.28075 45,765 l 0,-1 z"
-               inkscape:connector-curvature="0" />
+             inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/header-bar.png"
+             inkscape:export-xdpi="90"
+             inkscape:export-ydpi="90">
+            <g
+               style="fill:#888a85;display:inline"
+               id="g6254"
+               transform="translate(-60,-518)" />
+            <g
+               id="g6256"
+               transform="translate(-60,-518)"
+               style="fill:#888a85" />
+            <g
+               id="g6258"
+               transform="translate(-60,-518)"
+               style="fill:#888a85" />
+            <g
+               id="g6260"
+               transform="translate(-60,-518)"
+               style="fill:#888a85">
+              <g
+                 style="fill:#888a85;display:inline"
+                 id="g6262"
+                 transform="translate(19,-242)">
+                <path
+                   style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#bebebe;fill:#888a85;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.78124988;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Andale Mono;-inkscape-font-specification:Andale Mono"
+                   id="path6264"
+                   d="m 45,764 1,0 c 0.01037,-1.2e-4 0.02079,-4.6e-4 0.03125,0 0.254951,0.0112 0.50987,0.12858 0.6875,0.3125 L 49,766.59375 51.3125,764.3125 C 51.578125,764.082 51.759172,764.007 52,764 l 1,0 0,1 c 0,0.28647 -0.03434,0.55065 -0.25,0.75 l -2.28125,2.28125 2.25,2.25 C 52.906938,770.46942 52.999992,770.7347 53,771 l 0,1 -1,0 c -0.265301,-10e-6 -0.530586,-0.0931 -0.71875,-0.28125 L 49,769.4375 46.71875,771.71875 C 46.530586,771.90694 46.26529,772 46,772 l -1,0 0,-1 c -3e-6,-0.26529 0.09306,-0.53058 0.28125,-0.71875 l 2.28125,-2.25 L 45.28125,765.75 C 45.070508,765.55537 44.97809,765.28075 45,765 l 0,-1 z"
+                   inkscape:connector-curvature="0" />
+              </g>
+            </g>
+            <g
+               id="g6266"
+               transform="translate(-60,-518)"
+               style="fill:#888a85" />
+            <g
+               id="g6268"
+               transform="translate(-60,-518)"
+               style="fill:#888a85" />
+            <g
+               id="g6270"
+               transform="translate(-60,-518)"
+               style="fill:#888a85" />
           </g>
+          <path
+             inkscape:connector-curvature="0"
+             id="path6272"
+             d="m 2188.5,-2223.143 0,17.0103"
+             style="fill:none;stroke:#a7a7a7;stroke-width:0.99999988px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+             inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/header-bar.png"
+             inkscape:export-xdpi="90"
+             inkscape:export-ydpi="90" />
+          <rect
+             style="color:#000000;fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+             id="rect6274"
+             width="31"
+             height="31"
+             x="2150.5"
+             y="-2230.1377"
+             rx="3"
+             ry="3"
+             inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/header-bar.png"
+             inkscape:export-xdpi="90"
+             inkscape:export-ydpi="90" />
+          <rect
+             style="color:#000000;fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+             id="rect6276"
+             width="31"
+             height="31"
+             x="2114.5"
+             y="-2230.1377"
+             rx="3"
+             ry="3"
+             inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/header-bar.png"
+             inkscape:export-xdpi="90"
+             inkscape:export-ydpi="90" />
+          <g
+             style="fill:#2e3436;fill-opacity:1"
+             transform="translate(2121.4988,-2223.1692)"
+             id="g6278"
+             inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/header-bar.png"
+             inkscape:export-xdpi="90"
+             inkscape:export-ydpi="90">
+            <g
+               inkscape:label="status"
+               transform="translate(-61.000665,-787)"
+               id="g6280"
+               style="fill:#2e3436;fill-opacity:1;display:inline" />
+            <g
+               style="fill:#2e3436;fill-opacity:1"
+               inkscape:label="devices"
+               transform="translate(-61.000665,-787)"
+               id="g6282" />
+            <g
+               style="fill:#2e3436;fill-opacity:1"
+               inkscape:label="apps"
+               transform="translate(-61.000665,-787)"
+               id="g6284" />
+            <g
+               style="fill:#2e3436;fill-opacity:1"
+               inkscape:label="places"
+               transform="translate(-61.000665,-787)"
+               id="g6286" />
+            <g
+               style="fill:#2e3436;fill-opacity:1"
+               inkscape:label="mimetypes"
+               transform="translate(-61.000665,-787)"
+               id="g6288" />
+            <g
+               inkscape:label="emblems"
+               transform="translate(-61.000665,-787)"
+               id="g6290"
+               style="fill:#2e3436;fill-opacity:1;display:inline" />
+            <g
+               inkscape:label="emotes"
+               transform="translate(-61.000665,-787)"
+               id="g6292"
+               style="fill:#2e3436;fill-opacity:1;display:inline" />
+            <g
+               inkscape:label="categories"
+               transform="translate(-61.000665,-787)"
+               id="g6294"
+               style="fill:#2e3436;fill-opacity:1;display:inline" />
+            <g
+               inkscape:label="actions"
+               transform="translate(-61.000665,-787)"
+               id="g6296"
+               style="fill:#2e3436;fill-opacity:1;display:inline">
+              <path
+                 inkscape:connector-curvature="0"
+                 d="M 72.9375,790.9375 68,795.875 l -1.9375,-1.9375 -2.125,2.125 3,3 1.0625,1.0625 1.0625,-1.0625 6,-6 -2.125,-2.125 z"
+                 id="path6298"
+                 style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#2e3436;fill-opacity:1;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans" />
+            </g>
+          </g>
+          <rect
+             inkscape:export-ydpi="90"
+             inkscape:export-xdpi="90"
+             inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/header-bar.png"
+             ry="3"
+             rx="3"
+             y="-2230.1377"
+             x="2078.5"
+             height="31"
+             width="31"
+             id="rect6300"
+             style="color:#000000;fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+          <g
+             id="g6302"
+             transform="translate(2085.9911,-2222.6697)"
+             style="fill:#2e3436"
+             inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/header-bar.png"
+             inkscape:export-xdpi="90"
+             inkscape:export-ydpi="90">
+            <g
+               style="fill:#2e3436;display:inline"
+               id="g6304"
+               transform="translate(-140.0002,-645.96875)"
+               inkscape:label="status" />
+            <g
+               id="g6306"
+               transform="translate(-140.0002,-645.96875)"
+               inkscape:label="devices"
+               style="fill:#2e3436" />
+            <g
+               id="g6308"
+               transform="translate(-140.0002,-645.96875)"
+               inkscape:label="apps"
+               style="fill:#2e3436" />
+            <g
+               id="g6310"
+               transform="translate(-140.0002,-645.96875)"
+               inkscape:label="actions"
+               style="fill:#2e3436">
+              <path
+                 style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#2e3436;fill-opacity:1;stroke:none;stroke-width:1.55467153;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Sans;-inkscape-font-specification:Sans"
+                 id="path6312"
+                 d="m 146.50761,646.99554 c -3.02886,0 -5.51073,2.47905 -5.51073,5.50447 0,3.02541 2.48187,5.50446 5.51073,5.50446 3.02885,0 5.51072,-2.47905 5.51072,-5.50446 0,-3.02542 -2.48187,-5.50447 -5.51072,-5.50447 z m 0,2.00893 c 1.94735,0 3.49951,1.55039 3.49951,3.49554 0,1.94514 -1.55216,3.49553 -3.49951,3.49553 -1.94736,0 -3.49952,-1.55039 -3.49952,-3.49553 0,-1.94515 1.55216,-3.49554 3.49952,-3.49554 z"
+                 inkscape:connector-curvature="0" />
+              <path
+                 style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#2e3436;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Sans;-inkscape-font-specification:Sans"
+                 id="path6314"
+                 d="m 149.8125,655 a 1.0001,1.0001 0 0 0 -0.5,1.71875 l 4,4 a 1.0054782,1.0054782 0 1 0 1.40625,-1.4375 l -4,-4 A 1.0001,1.0001 0 0 0 149.8125,655 z"
+                 inkscape:connector-curvature="0" />
+            </g>
+            <g
+               id="g6316"
+               transform="translate(-140.0002,-645.96875)"
+               inkscape:label="places"
+               style="fill:#2e3436" />
+            <g
+               id="g6318"
+               transform="translate(-140.0002,-645.96875)"
+               inkscape:label="mimetypes"
+               style="fill:#2e3436" />
+            <g
+               style="fill:#2e3436;display:inline"
+               id="g6320"
+               transform="translate(-140.0002,-645.96875)"
+               inkscape:label="emblems" />
+            <g
+               style="fill:#2e3436;display:inline"
+               id="g6322"
+               transform="translate(-140.0002,-645.96875)"
+               inkscape:label="categories" />
+          </g>
+          <g
+             id="g6324"
+             transform="translate(2158,-2222.6377)"
+             style="fill:#2e3436"
+             inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/header-bar.png"
+             inkscape:export-xdpi="90"
+             inkscape:export-ydpi="90">
+            <g
+               transform="translate(-61.0002,-949.00001)"
+               style="fill:#2e3436;display:inline"
+               inkscape:label="status"
+               id="g6326" />
+            <g
+               transform="translate(-61.0002,-949.00001)"
+               style="fill:#2e3436;display:inline"
+               inkscape:label="devices"
+               id="g6328" />
+            <g
+               transform="translate(-61.0002,-949.00001)"
+               inkscape:label="apps"
+               id="g6330"
+               style="fill:#2e3436" />
+            <g
+               transform="translate(-61.0002,-949.00001)"
+               style="fill:#2e3436;display:inline"
+               inkscape:label="places"
+               id="g6332" />
+            <g
+               transform="translate(-61.0002,-949.00001)"
+               inkscape:label="mimetypes"
+               id="g6334"
+               style="fill:#2e3436" />
+            <g
+               transform="translate(-61.0002,-949.00001)"
+               style="fill:#2e3436;display:inline"
+               inkscape:label="emblems"
+               id="g6336" />
+            <g
+               transform="translate(-61.0002,-949.00001)"
+               style="fill:#2e3436;display:inline"
+               inkscape:label="emotes"
+               id="g6338" />
+            <g
+               transform="translate(-61.0002,-949.00001)"
+               style="fill:#2e3436;display:inline"
+               inkscape:label="categories"
+               id="g6340" />
+            <g
+               transform="translate(-61.0002,-949.00001)"
+               style="fill:#2e3436;display:inline"
+               inkscape:label="actions"
+               id="g6342">
+              <rect
+                 y="951.99982"
+                 x="64.000397"
+                 width="9.9996014"
+                 style="color:#bebebe;fill:#2e3436;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible"
+                 inkscape:label="a"
+                 id="rect6344"
+                 height="2.0002136" />
+              <rect
+                 y="955.99982"
+                 x="64.000397"
+                 width="9.9996014"
+                 style="color:#bebebe;fill:#2e3436;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible"
+                 inkscape:label="a"
+                 id="rect6346"
+                 height="2.0002136" />
+              <rect
+                 y="959.99982"
+                 x="64.000397"
+                 width="9.9996014"
+                 style="color:#bebebe;fill:#2e3436;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible"
+                 inkscape:label="a"
+                 id="rect6348"
+                 height="2.0002136" />
+            </g>
+          </g>
+          <text
+             sodipodi:linespacing="125%"
+             id="text6350"
+             y="-2209.8008"
+             x="1886.8633"
+             style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+             xml:space="preserve"
+             inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/header-bar.png"
+             inkscape:export-xdpi="90"
+             inkscape:export-ydpi="90"><tspan
+               y="-2209.8008"
+               x="1886.8633"
+               id="tspan6352"
+               sodipodi:role="line">Heading</tspan></text>
+          <rect
+             style="color:#000000;fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+             id="rect6354"
+             width="69"
+             height="31"
+             x="1550.5"
+             y="-2230.1377"
+             rx="3.0000002"
+             ry="3"
+             inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/header-bar.png"
+             inkscape:export-xdpi="90"
+             inkscape:export-ydpi="90" />
+          <text
+             xml:space="preserve"
+             style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+             x="1584.5977"
+             y="-2209.8008"
+             id="text6356"
+             sodipodi:linespacing="125%"
+             inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/header-bar.png"
+             inkscape:export-xdpi="90"
+             inkscape:export-ydpi="90"><tspan
+               sodipodi:role="line"
+               id="tspan6358"
+               x="1584.5977"
+               y="-2209.8008">New</tspan></text>
         </g>
-        <g
-           id="g6387"
-           transform="translate(-60,-518)"
-           style="fill:#888a85" />
-        <g
-           id="g6389"
-           transform="translate(-60,-518)"
-           style="fill:#888a85" />
-        <g
-           id="g6391"
-           transform="translate(-60,-518)"
-           style="fill:#888a85" />
       </g>
-      <rect
-         style="color:#000000;fill:#d6d6d6;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
-         id="rect6393"
-         width="12.000019"
-         height="385"
-         x="-383.15173"
-         y="163.6058"
-         rx="0"
-         ry="0"
-         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
-         inkscape:export-xdpi="90"
-         inkscape:export-ydpi="90" />
-      <rect
-         ry="3.5"
-         rx="3.4764707"
-         y="166.6058"
-         x="-380.15173"
-         height="92.229691"
-         width="5.9795446"
-         id="rect6395"
-         style="opacity:0.8;color:#000000;fill:#9b9d9e;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
-         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
-         inkscape:export-xdpi="90"
-         inkscape:export-ydpi="90" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path6397"
-         d="m -370.65173,163.0578 0,386.0903"
-         style="fill:none;stroke:#a7a7a7;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1"
-         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
-         inkscape:export-xdpi="90"
-         inkscape:export-ydpi="90" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path6400"
-         d="m -568.61143,203.1057 184.9194,0"
-         style="fill:none;stroke:#d3d7cf;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1"
-         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
-         inkscape:export-xdpi="90"
-         inkscape:export-ydpi="90" />
-      <path
-         style="fill:none;stroke:#d3d7cf;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1"
-         d="m -568.61143,243.1057 184.9194,0"
-         id="path6402"
-         inkscape:connector-curvature="0"
-         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
-         inkscape:export-xdpi="90"
-         inkscape:export-ydpi="90" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path6404"
-         d="m -568.61143,283.1057 184.9194,0"
-         style="fill:none;stroke:#d3d7cf;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1"
-         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
-         inkscape:export-xdpi="90"
-         inkscape:export-ydpi="90" />
-      <path
-         style="fill:none;stroke:#d3d7cf;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1"
-         d="m -568.61143,323.1057 184.9194,0"
-         id="path6406"
-         inkscape:connector-curvature="0"
-         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
-         inkscape:export-xdpi="90"
-         inkscape:export-ydpi="90" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path6408"
-         d="m -568.61143,363.1057 184.9194,0"
-         style="fill:none;stroke:#d3d7cf;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1"
-         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
-         inkscape:export-xdpi="90"
-         inkscape:export-ydpi="90" />
-      <path
-         style="fill:none;stroke:#d3d7cf;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1"
-         d="m -568.61143,403.1057 184.9194,0"
-         id="path6410"
-         inkscape:connector-curvature="0"
-         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
-         inkscape:export-xdpi="90"
-         inkscape:export-ydpi="90" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path6412"
-         d="m -568.61143,443.1057 184.9194,0"
-         style="fill:none;stroke:#d3d7cf;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1"
-         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
-         inkscape:export-xdpi="90"
-         inkscape:export-ydpi="90" />
-      <path
-         style="fill:none;stroke:#d3d7cf;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1"
-         d="m -568.61143,483.1057 184.9194,0"
-         id="path6414"
-         inkscape:connector-curvature="0"
-         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
-         inkscape:export-xdpi="90"
-         inkscape:export-ydpi="90" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path6416"
-         d="m -568.61143,523.1057 184.9194,0"
-         style="fill:none;stroke:#d3d7cf;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1"
-         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
-         inkscape:export-xdpi="90"
-         inkscape:export-ydpi="90" />
-      <rect
-         style="fill:#babdb6;fill-opacity:1;stroke:none"
-         id="rect6418"
-         width="90"
-         height="5"
-         x="-526.15173"
-         y="173.6058"
-         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
-         inkscape:export-xdpi="90"
-         inkscape:export-ydpi="90" />
-      <rect
-         y="185.6058"
-         x="-526.15173"
-         height="5"
-         width="68.877548"
-         id="rect6420"
-         style="fill:#babdb6;fill-opacity:1;stroke:none"
-         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
-         inkscape:export-xdpi="90"
-         inkscape:export-ydpi="90" />
-      <rect
-         y="170.6058"
-         x="-562.15173"
-         height="25"
-         width="25"
-         id="rect6422"
-         style="fill:#babdb6;fill-opacity:1;stroke:#babdb6;stroke-width:1.99999976;stroke-linecap:square;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
-         inkscape:export-xdpi="90"
-         inkscape:export-ydpi="90" />
-      <rect
-         y="213.6058"
-         x="-526.15173"
-         height="5"
-         width="90"
-         id="rect6424"
-         style="fill:#babdb6;fill-opacity:1;stroke:none"
-         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
-         inkscape:export-xdpi="90"
-         inkscape:export-ydpi="90" />
-      <rect
-         style="fill:#babdb6;fill-opacity:1;stroke:none"
-         id="rect6426"
-         width="68.877548"
-         height="5"
-         x="-526.15173"
-         y="225.6058"
-         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
-         inkscape:export-xdpi="90"
-         inkscape:export-ydpi="90" />
-      <rect
-         style="fill:#babdb6;fill-opacity:1;stroke:#babdb6;stroke-width:1.99999976;stroke-linecap:square;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         id="rect6428"
-         width="25"
-         height="25"
-         x="-562.15173"
-         y="210.6058"
-         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
-         inkscape:export-xdpi="90"
-         inkscape:export-ydpi="90" />
-      <rect
-         style="fill:#babdb6;fill-opacity:1;stroke:none"
-         id="rect6430"
-         width="90"
-         height="5"
-         x="-526.15173"
-         y="253.6058"
-         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
-         inkscape:export-xdpi="90"
-         inkscape:export-ydpi="90" />
-      <rect
-         y="265.6058"
-         x="-526.15173"
-         height="5"
-         width="68.877548"
-         id="rect6432"
-         style="fill:#babdb6;fill-opacity:1;stroke:none"
-         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
-         inkscape:export-xdpi="90"
-         inkscape:export-ydpi="90" />
-      <rect
-         y="250.6058"
-         x="-562.15173"
-         height="25"
-         width="25"
-         id="rect6434"
-         style="fill:#babdb6;fill-opacity:1;stroke:#babdb6;stroke-width:1.99999976;stroke-linecap:square;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
-         inkscape:export-xdpi="90"
-         inkscape:export-ydpi="90" />
-      <rect
-         y="293.6058"
-         x="-526.15173"
-         height="5"
-         width="90"
-         id="rect6436"
-         style="fill:#babdb6;fill-opacity:1;stroke:none"
-         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
-         inkscape:export-xdpi="90"
-         inkscape:export-ydpi="90" />
-      <rect
-         style="fill:#babdb6;fill-opacity:1;stroke:none"
-         id="rect6438"
-         width="68.877548"
-         height="5"
-         x="-526.15173"
-         y="305.6058"
-         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
-         inkscape:export-xdpi="90"
-         inkscape:export-ydpi="90" />
-      <rect
-         style="fill:#babdb6;fill-opacity:1;stroke:#babdb6;stroke-width:1.99999976;stroke-linecap:square;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         id="rect6440"
-         width="25"
-         height="25"
-         x="-562.15173"
-         y="290.6058"
-         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
-         inkscape:export-xdpi="90"
-         inkscape:export-ydpi="90" />
-      <rect
-         style="fill:#babdb6;fill-opacity:1;stroke:none"
-         id="rect6442"
-         width="90"
-         height="5"
-         x="-526.15173"
-         y="333.6058"
-         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
-         inkscape:export-xdpi="90"
-         inkscape:export-ydpi="90" />
-      <rect
-         y="345.6058"
-         x="-526.15173"
-         height="5"
-         width="68.877548"
-         id="rect6444"
-         style="fill:#babdb6;fill-opacity:1;stroke:none"
-         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
-         inkscape:export-xdpi="90"
-         inkscape:export-ydpi="90" />
-      <rect
-         y="330.6058"
-         x="-562.15173"
-         height="25"
-         width="25"
-         id="rect6446"
-         style="fill:#babdb6;fill-opacity:1;stroke:#babdb6;stroke-width:1.99999976;stroke-linecap:square;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
-         inkscape:export-xdpi="90"
-         inkscape:export-ydpi="90" />
-      <rect
-         y="373.6058"
-         x="-526.15173"
-         height="5"
-         width="90"
-         id="rect6448"
-         style="fill:#babdb6;fill-opacity:1;stroke:none"
-         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
-         inkscape:export-xdpi="90"
-         inkscape:export-ydpi="90" />
-      <rect
-         style="fill:#babdb6;fill-opacity:1;stroke:none"
-         id="rect6450"
-         width="68.877548"
-         height="5"
-         x="-526.15173"
-         y="385.6058"
-         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
-         inkscape:export-xdpi="90"
-         inkscape:export-ydpi="90" />
-      <rect
-         style="fill:#babdb6;fill-opacity:1;stroke:#babdb6;stroke-width:1.99999976;stroke-linecap:square;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         id="rect6452"
-         width="25"
-         height="25"
-         x="-562.15173"
-         y="370.6058"
-         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
-         inkscape:export-xdpi="90"
-         inkscape:export-ydpi="90" />
-      <rect
-         style="fill:#babdb6;fill-opacity:1;stroke:none"
-         id="rect6454"
-         width="90"
-         height="5"
-         x="-526.15173"
-         y="413.6058"
-         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
-         inkscape:export-xdpi="90"
-         inkscape:export-ydpi="90" />
-      <rect
-         y="425.6058"
-         x="-526.15173"
-         height="5"
-         width="68.877548"
-         id="rect6456"
-         style="fill:#babdb6;fill-opacity:1;stroke:none"
-         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
-         inkscape:export-xdpi="90"
-         inkscape:export-ydpi="90" />
-      <rect
-         y="410.6058"
-         x="-562.15173"
-         height="25"
-         width="25"
-         id="rect6458"
-         style="fill:#babdb6;fill-opacity:1;stroke:#babdb6;stroke-width:1.99999976;stroke-linecap:square;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
-         inkscape:export-xdpi="90"
-         inkscape:export-ydpi="90" />
-      <rect
-         y="453.6058"
-         x="-526.15173"
-         height="5"
-         width="90"
-         id="rect6461"
-         style="fill:#babdb6;fill-opacity:1;stroke:none"
-         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
-         inkscape:export-xdpi="90"
-         inkscape:export-ydpi="90" />
-      <rect
-         style="fill:#babdb6;fill-opacity:1;stroke:none"
-         id="rect6463"
-         width="68.877548"
-         height="5"
-         x="-526.15173"
-         y="465.6058"
-         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
-         inkscape:export-xdpi="90"
-         inkscape:export-ydpi="90" />
-      <rect
-         style="fill:#babdb6;fill-opacity:1;stroke:#babdb6;stroke-width:1.99999976;stroke-linecap:square;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         id="rect6465"
-         width="25"
-         height="25"
-         x="-562.15173"
-         y="450.6058"
-         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
-         inkscape:export-xdpi="90"
-         inkscape:export-ydpi="90" />
-      <rect
-         style="fill:#babdb6;fill-opacity:1;stroke:none"
-         id="rect6467"
-         width="90"
-         height="5"
-         x="-526.15173"
-         y="493.6058"
-         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
-         inkscape:export-xdpi="90"
-         inkscape:export-ydpi="90" />
-      <rect
-         y="505.6058"
-         x="-526.15173"
-         height="5"
-         width="68.877548"
-         id="rect6469"
-         style="fill:#babdb6;fill-opacity:1;stroke:none"
-         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
-         inkscape:export-xdpi="90"
-         inkscape:export-ydpi="90" />
-      <rect
-         y="490.6058"
-         x="-562.15173"
-         height="25"
-         width="25"
-         id="rect6471"
-         style="fill:#babdb6;fill-opacity:1;stroke:#babdb6;stroke-width:1.99999976;stroke-linecap:square;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
-         inkscape:export-xdpi="90"
-         inkscape:export-ydpi="90" />
-      <g
-         transform="translate(1298.8483,-502.7565)"
-         mask="url(#mask20350)"
-         id="g6473"
-         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
-         inkscape:export-xdpi="90"
-         inkscape:export-ydpi="90">
-        <rect
-           style="fill:#babdb6;fill-opacity:1;stroke:none"
-           id="rect6475"
-           width="90"
-           height="5"
-           x="-1825"
-           y="1036.3622" />
-        <rect
-           y="1048.3622"
-           x="-1825"
-           height="5"
-           width="68.877548"
-           id="rect6477"
-           style="fill:#babdb6;fill-opacity:1;stroke:none" />
-        <rect
-           y="1033.3622"
-           x="-1861"
-           height="25"
-           width="25"
-           id="rect6479"
-           style="fill:#babdb6;fill-opacity:1;stroke:#babdb6;stroke-width:1.99999976;stroke-linecap:square;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-      </g>
-      <path
-         inkscape:connector-curvature="0"
-         id="path6481"
-         d="m 74.34827,134.1005 0,17.0103"
-         style="fill:none;stroke:#a7a7a7;stroke-width:0.99999988px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;display:inline"
-         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
-         inkscape:export-xdpi="90"
-         inkscape:export-ydpi="90" />
     </g>
   </g>
 </svg>

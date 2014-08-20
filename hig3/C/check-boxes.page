@@ -26,7 +26,7 @@
 
 <p>Check boxes are used to show or change a setting. Its two states, set and unset, are shown by the presence or absence of a checkmark in the labeled box.</p>
 
-<media type="image" mime="image/png" src="figures/check-boxes.png"/>
+<media type="image" mime="image/svg" src="figures/ui-elements/check-boxes.svg"/>
 
 <section id="guidelines">
 <title>Guidelines</title>
