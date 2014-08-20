@@ -184,7 +184,7 @@
 <td colspan="3"><p><em style="strong">Edge drag</em></p></td>
 </tr>
 <tr>
-<td><media type="image" mime="image/png" src="figures/touch/edge-drag.svg"/></td>
+<td><media type="image" mime="image/svg" src="figures/touch/edge-drag.svg"/></td>
 <td><p>Slide finger starting from a screen edge.</p></td>
 <td><p>Bottom edge opens the Message Tray.</p>
 <p>Top-left edge opens the application menu.</p>
@@ -195,7 +195,7 @@
 <td colspan="3"><p><em style="strong">Three finger pinch</em></p></td>
 </tr>
 <tr>
-<td><media type="image" mime="image/png" src="figures/touch/3-finger-pinch.svg"/></td>
+<td><media type="image" mime="image/svg" src="figures/touch/3-finger-pinch.svg"/></td>
 <td><p>Bring three or more fingers closer together while touching the surface.</p></td>
 <td><p>Opens the Activities Overview.</p></td>
 </tr>
@@ -203,15 +203,15 @@
 <td colspan="3"><p><em style="strong">Four finger drag</em></p></td>
 </tr>
 <tr>
-<td><media type="image" mime="image/png" src="figures/touch/4-finger-drag.svg"/></td>
+<td><media type="image" mime="image/svg" src="figures/touch/4-finger-drag.svg"/></td>
 <td><p>Drag up or down with four fingers touching the surface.</p></td>
 <td><p>Switches workspace.</p></td>
 </tr>
 <tr>
-<td colspan="3"><p><em style="strong">Two finger hold and tap</em></p></td>
+<td colspan="3"><p><em style="strong">Three finger hold and tap</em></p></td>
 </tr>
 <tr>
-<td><media type="image" mime="image/png" src=""/></td>
+<td><media type="image" mime="image/svg" src="figures/touch/3-finger-hold-and-tap.svg"/></td>
 <td><p>Hold two fingers on the surface while tapping with the third.</p></td>
 <td><p>Switches application.</p></td>
 </tr>
