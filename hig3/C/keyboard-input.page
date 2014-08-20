@@ -72,7 +72,7 @@
 
 <list>
 <item><p>Use the standard GNOME shortcut keys (see below) if your application supports those functions. This ensures consistency between GNOME applications and aids discoverability.
-Do not assign system-level shortcut keys. These use the Super (sometimes knows as the windows key) key as a modifier.</p></item>
+Do not assign system-level shortcut keys. These use the Super key (sometimes knows as the windows key) as a modifier.</p></item>
 <item><p>Only assign shortcut keys to the most commonly-used actions in your application. Do not try to assign a keyboard shortcut to everything.</p></item>
 <item><p>Do not use the standard GNOME application shortcut keys for different functions. This helps to reinforce consistency between all GNOME applications.</p></item>
 <item><p>Use Ctrl+letter in preference to other combinations when choosing new shortcut keys and Shift+Ctrl+letter for functions that reverse or extend another function. For example, <keyseq><key>Ctrl</key><key>Z</key></keyseq> and <keyseq><key>Shift</key><key>Ctrl</key><key>Z</key></keyseq> for <gui>Undo</gui> and <gui>Redo</gui>.</p></item>
@@ -148,11 +148,6 @@ Do not assign system-level shortcut keys. These use the Super (sometimes knows a
 <td><p><gui>Hide</gui></p></td>
 <td><p><keyseq><key>Alt</key><key>F9</key></keyseq></p></td>
 <td><p>Hide the focused window</p></td>
-</tr>
-<tr>
-<td><p><gui>Maximize</gui></p></td>
-<td><p><keyseq><key>Alt</key><key>F10</key></keyseq></p></td>
-<td><p>Maximize the focused window</p></td>
 </tr>
 <tr>
 <td><p><gui>Maximize</gui></p></td>

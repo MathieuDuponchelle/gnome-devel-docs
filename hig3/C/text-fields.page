@@ -24,7 +24,7 @@
 
 <title>Text fields</title>
 
-<p>A text entry field is an interface element for entering or editing text. They are a basic element with a variety of uses, including search entry, settings and preferences, or account configuration and setup. A text entry field can be prefilled with text, and can include additional buttons or icons.</p>
+<p>A text entry field is an interface element for entering or editing text. It is a basic element with a variety of uses, including search entry, settings and preferences, or account configuration and setup. A text entry field can be prefilled with text, and can include additional buttons or icons.</p>
 
 <media type="image" mime="image/svg" src="figures/ui-elements/text-fields.svg"/>
 

@@ -17,7 +17,7 @@
 
 <p>Selection mode is a design pattern for allow actions to be performed on items of content. It is typically used in conjunction with lists and grids.</p>
 
-<p>When selection mode is active, check boxes allow items to be selected, and an action bar is shown at the bottom of the view. This contains the various actions that can be made on selected content items.</p>
+<p>When selection mode is active, check boxes allow items to be selected, and an action bar is shown at the bottom of the view. This contains the various actions that can be performed on selected content items.</p>
 
 <section id="when-to-use">
 <title>When to use</title>

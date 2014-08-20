@@ -132,7 +132,7 @@
 <tr>
 <td><media type="image" mime="image/png" src="figures/touch/tap-and-hold.svg"/></td>
 <td><p>Press and hold for a second or two.</p></td>
-<td><p>Secondary action. Select the item and lists actions that can be fItem opens - photo is shown full size, application launches, song starts playing.</p></td>
+<td><p>Secondary action. Select the item and list actions that can be performed.</p></td>
 </tr>
 <tr>
 <td colspan="3"><p><em style="strong">Drag</em></p></td>

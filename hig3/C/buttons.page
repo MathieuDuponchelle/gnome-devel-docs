@@ -46,7 +46,7 @@
 <section id="text-buttons">
 <title>Text buttons</title>
 
-<p>Label all buttons with imperative verbs, using <link xref="writing-style#capitalization">header capitalization</link>. For example, Save, Sort or Update Now. Provide an access key in the label that allows the user to directly activate the button from the keyboard.</p>
+<p>Label all buttons with imperative verbs, using <link xref="writing-style#capitalization">header capitalization</link>. For example, <gui>Save</gui>, <gui>Sort</gui> or <gui>Update Now</gui>. Provide an access key in the label that allows the user to directly activate the button from the keyboard.</p>
 
 <p>Use an ellipsis (…) at the end of the label if the action requires further input from the user before it can be carried out. For example, <gui>Save As…</gui> or <gui>Find…</gui>. Do not add an ellipsis to commands like <gui>Properties</gui> or <gui>Preferences</gui>, as these open windows that do not require further input.</p>
 

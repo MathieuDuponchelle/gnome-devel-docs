@@ -145,7 +145,6 @@
 <item><p>Use <link xref="view-switchers">view switchers</link> or <link xref="tabs">tabs</link> to break up controls and information.</p></item>
 <item><p>Avoid stacking dialog windows on top of one another. Only one dialog window should be displayed at a time.</p></item>
 <item><p>When an affirmative button is included, label it with its actual action. <gui>Print</gui> is a better label than <gui>OK</gui> or <gui>Done</gui>, for example.</p></item>
-<item><p>When opening a dialog, provide initial keyboard focus to the component that you expect users to operate first.</p></item>
 <item><p>Do not enable the <gui>OK</gui> or equivalent button until all fields that require input have been attended to by the user.</p></item>
 <item><p>When opening a dialog, provide initial keyboard focus to the component that you expect users to operate first. This focus is especially important for users who must use a keyboard to navigate your application.</p></item>
 </list>

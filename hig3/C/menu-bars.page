@@ -24,7 +24,7 @@
 
 <title>Menu bars</title>
 
-<p>A menubar incorporates a strip of drop-down menus. It is typically located at the top of a primary window, below a window title bar.</p>
+<p>A menu bar incorporates a strip of drop-down menus. It is typically located at the top of a primary window, below a window title bar.</p>
 
 <p>The menubar is normally visible at all times and is always accessible from the keyboard, so make all the commands available in your application available on the menubar.</p>
 
@@ -79,7 +79,7 @@
 <tr>
 <td><p><gui>New</gui></p></td>
 <td><p><keyseq><key>Ctrl</key><key>N</key></keyseq></p></td>
-<td><p>Creates a new document. Open a new primary window, with the title <gui>Document name</gui>, containing a blank document. How this window is displayed, e.g. as a tab or a separate window, is up to the window manager.</p>
+<td><p>Creates a new document. Open a new primary window, with the title <gui>Document name</gui>, containing a blank document. How this window is displayed, eg: as a tab or a separate window, is up to the window manager.</p>
 <p>If your application can create a number of different types of document, you can make the <gui>New</gui> item a submenu, containing a menu item for each type. Label these items <gui>New</gui> document type, make the first entry in the submenu the most commonly used document type, and give it the <keyseq><key>Ctrl</key><key>N</key></keyseq> shortcut.</p>
 <p>Note: A blank document will not necessarily be completely blank. For example, a document created from a template may already contain some data.</p></td>
 </tr>
@@ -272,7 +272,7 @@
 </tr>
 <tr>
 <td><p><gui>Redo <em>action</em></gui></p></td>
-<td><p><keyseq><key>Ctrl</key><key>Ctrl</key><key>Z</key></keyseq></p></td>
+<td><p><keyseq><key>Shift</key><key>Ctrl</key><key>Z</key></keyseq></p></td>
 <td><p>Performs the next action in the undo history list, after the user has moved backwards through the list with the <gui>Undo</gui> command. Move the user one step forwards again, restoring the document to the state it was in after that action was originally performed.</p>
 <p>Note: provide a separate <gui>Undo</gui> and <gui>Redo</gui> menu item even if your application only supports one level of undo.</p></td>
 </tr>
@@ -281,8 +281,8 @@
 
 </section>
 
-<section id="selected-date-manipulation-menu-items">
-<title>Selected date manipulation menu items</title>
+<section id="selected-data-manipulation-menu-items">
+<title>Selected data manipulation menu items</title>
 
 <table>
 <thead>
