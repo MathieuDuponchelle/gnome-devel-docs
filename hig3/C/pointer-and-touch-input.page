@@ -60,41 +60,41 @@
 <table>
 <thead>
 <tr>
-<td><p>Mouse Action</p></td>
-<td><p>Keyboard Action</p></td>
-<td><p>Result</p></td>
+<td><p>Action</p></td>
+<td><p>Mouse</p></td>
+<td><p>Keyboard</p></td>
 </tr>
 </thead>
 <tbody>
 <tr>
+<td><p>Open an item</p></td>
 <td><p>Primary button</p></td>
 <td><p><key>Space</key></p></td>
-<td><p>Opens an item</p></td>
 </tr>
 <tr>
+<td><p>Add/remove item from selection</p></td>
 <td><p><key>Ctrl</key> and primary button</p></td>
 <td><p><keyseq><key>Ctrl</key><key>Space</key></keyseq></p></td>
-<td><p>Add/remove item from selection</p></td>
 </tr>
 <tr>
-<td><p><key>Shift</key> and primary button</p></td>
-<td><p><keyseq><key>Shift</key><key>Space</key></keyseq> / <keyseq><key>Shift</key><key>Home</key></keyseq> / <keyseq><key>Shift</key><key>End</key></keyseq> / <keyseq><key>Shift</key><key>End</key></keyseq> / <keyseq><key>Shift</key><key>PageUp</key></keyseq> / <keyseq><key>Shift</key><key>PageDown</key></keyseq></p></td>
 <td><p>Extend selection</p></td>
+<td><p><key>Shift</key> and primary button</p></td>
+<td><p><key>Shift</key> in combination with any of the following: <key>Space</key> <key>Home</key> <key>End</key> <key>PageUp</key> <key>PageDown</key></p></td>
 </tr>
 <tr>
-<td><p>Primary button</p></td>
-<td><p>Cursor keys / <key>Home</key> / <key>End</key> / <key>PageUp</key> / <key>PageDown</key></p></td>
 <td><p>Change selection</p></td>
+<td><p>Primary button</p></td>
+<td><p>Any of the following: <key>←</key> <key>↑</key> <key>→</key> <key>↓</key> <key>Home</key> <key>End</key> <key>PageUp</key> <key>PageDown</key></p></td>
 </tr>
 <tr>
+<td><p>Select all</p></td>
 <td><p>Primary button on first item, then primary button and <key>Shift</key> on the last item</p></td>
 <td><p><keyseq><key>Ctrl</key><key>A</key></keyseq></p></td>
-<td><p>Select all</p></td>
 </tr>
 <tr>
+<td><p>Deselect all</p></td>
 <td><p>Primary click on the container background</p></td>
 <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>A</key></keyseq></p></td>
-<td><p>Deselect all</p></td>
 </tr>
 </tbody>
 </table>
