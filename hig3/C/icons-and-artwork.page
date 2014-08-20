@@ -101,7 +101,7 @@
 <item><p>When a metaphor relies on the negative space, make sure it will work with the colors inverted. For example a camera lens spec/highlight will only work if lighter than the lens itself.</p></item>
 </list>
 
-<media type="image" mime="image/png" src="figures/icons/inverting.png"/>
+<media type="image" mime="image/svg" src="figures/icons/inverting.svg"/>
 
 <section id="size-and-grid">
 <title>Size and grid</title>
@@ -129,7 +129,37 @@
 
 <p>Use the Tango color palette when designing full color application or device icons.</p>
 
-<media type="image" mime="image/png" src="figures/icons/palette.png"/>
+<table>
+<tr>
+<td><p>Butter</p></td>
+<td><media type="image" mime="image/svg" src="figures/icons/palette/butter.svg"/></td>
+<td><p>Plum</p></td>
+<td><media type="image" mime="image/svg" src="figures/icons/palette/plum.svg"/></td>
+</tr>
+<tr>
+<td><p>Orange</p></td>
+<td><media type="image" mime="image/svg" src="figures/icons/palette/orange.svg"/></td>
+<td><p>Scarlet Red</p></td>
+<td><media type="image" mime="image/svg" src="figures/icons/palette/scarlet-red.svg"/></td>
+</tr>
+<tr>
+<td><p>Chocolate</p></td>
+<td><media type="image" mime="image/svg" src="figures/icons/palette/chocolate.svg"/></td>
+<td><p>Aluminium</p></td>
+<td><media type="image" mime="image/svg" src="figures/icons/palette/aluminium1.svg"/></td>
+</tr>
+<tr>
+<td><p>Chameleon</p></td>
+<td><media type="image" mime="image/svg" src="figures/icons/palette/chameleon.svg"/></td>
+<td></td>
+<td><media type="image" mime="image/svg" src="figures/icons/palette/aluminium2.svg"/></td>
+</tr>
+<tr>
+<td><p>Sky Blue</p></td>
+<td><media type="image" mime="image/svg" src="figures/icons/palette/sky-blue.svg"/></td>
+</tr>
+
+</table>
 
 <p>You are free to use different shades of these colors depending on the desired material effect. However, these primary colors are a good baseline to start from. All major libre graphics packages come with the Tango palette pre-installed.</p>
 
