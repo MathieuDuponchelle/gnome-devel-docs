@@ -27,10 +27,6 @@
 
 <title>GNOME Developer Platform Demos</title>
 
- <section id="start">
-   <title>How to set up your development environment</title>
- </section>
-
  <section id="tutorials" style="2column">
   <title>Tutorials, code samples, platform demos and more</title>
  </section>
