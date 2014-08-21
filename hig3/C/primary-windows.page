@@ -58,7 +58,7 @@
 <list>
 <item><p>If your application isn't running and its launcher is activated, a single primary window should be displayed. Do not show multiple windows when your application is initially launched.</p></item>
 <item><p>If your application launcher is selected while your application is running, all its primary windows should be displayed.</p></item>
-<item><p>Primary windows should host the main functionality of your application. Do not rely on dialog or secondary windows in order to present basic functionality.</p></item>
+<item><p>Primary windows should host the main functionality of your application. Do not rely on dialogs or secondary windows in order to present basic functionality.</p></item>
 <item><p>Primary windows should be independent - closing one primary window should not result in other primary windows being closed.</p></item>
 <item><p>Dialog windows should always be dependent on a primary window. See the <link xref="dialogs">dialogs page</link> guidelines.</p></item>
 <item><p>Your application should cease to run when all its primary windows have been closed.</p></item>

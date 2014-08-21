@@ -43,7 +43,7 @@
 <td><p>Title</p></td><td><p>The heading for the notification.</p></td>
 </tr>
 <tr>
-<td><p>Body</p></td><td><p>An optional block of text which gives extra detail about the notification. The notification body can include multiple paragraphs. e.g. A snippet from the beginning of an email.</p></td>
+<td><p>Body</p></td><td><p>An optional block of text which gives extra detail about the notification. The notification body can include multiple paragraphs. For example: a snippet from the beginning of an email.</p></td>
 </tr>
 <tr>
 <td><p>Default Action</p></td><td><p>This is the action that is triggered when the notification is activated.</p></td>
