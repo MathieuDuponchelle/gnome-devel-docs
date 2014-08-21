@@ -27,8 +27,15 @@
 
 <title>GNOME Developer Platform Demos</title>
 
+<p>This guide includes a variety of coding examples, such writing an image 
+viewer or weather application. Each demo comes with code that you can try, and 
+explains how each example works. They are a great way to get started with 
+the GNOME developer platform.</p>
+
  <section id="tutorials" style="2column">
   <title>Pick a Language</title>
+  <p>These developer demos are available in a range of programming languages. 
+  Pick one to get started:</p>
  </section>
 
 </page>
