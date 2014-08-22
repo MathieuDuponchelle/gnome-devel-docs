@@ -305,7 +305,6 @@ HELP_FILES =				\
 	beginner.js.page		\
 	beginner.py.page		\
 	beginner.vala.page		\
-	bug-filing.page			\
 	button.c.page			\
 	button.js.page			\
 	button.py.page			\
@@ -332,7 +331,6 @@ HELP_FILES =				\
 	dialog.js.page			\
 	dialog.py.page			\
 	dialog.vala.page		\
-	documentation.page		\
 	entry.c.page			\
 	entry.js.page			\
 	entry.py.page			\
@@ -469,7 +467,6 @@ HELP_FILES =				\
 	treeview_simple_liststore.py.page	\
 	treeview_simple_liststore.vala.page	\
 	treeview_treestore.py.page	\
-	translate.page			\
 	tutorial.py.page		\
 	vala.page			\
 	weatherApp.js.page		\
