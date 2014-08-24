@@ -29,7 +29,7 @@
 <section id="standard-lists">
 <title>Standard lists</title>
 
-<p>Standard lists are most common list type, and should generally be used in favour of tables.</p>
+<p>Standard lists are most common list type, and should generally be used in favor of tables.</p>
 
 <p>In standard lists, each row is divided by separators, and changing the sort order is acheived by using a control outside the list itself.</p>
 

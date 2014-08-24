@@ -24,11 +24,11 @@
 
 <title>Dialogs</title>
 
-<p>Dialogs are secondary windows that appear over a primary, parent window. They are used to present additional information or controls, including preferences, properties, or to present messages or questions.</p>
+<p>Dialogs are secondary windows that appear over a primary, parent window. They are used to present additional information or controls, including preferences and properties, or to present messages or questions.</p>
 
 <p>GTK+ provides a number of stock dialogs that can be used, such as for printing or color selection.</p>
 
-<p>There are three basic types of dialog design.</p>
+<p>There are three basic types of dialogs.</p>
 
 <section id="when-to-use">
 <title>When to use</title>
@@ -37,10 +37,10 @@
 
 <p>While dialogs can be an effective way to disclose additional controls or information, they can also be a source of interruption for the user. For this reason, always question whether a dialog is necessary, and work to avoid the situations in which they are required.</p>
 
-<p>There are many ways to avoid using dialogs. Examples include:</p>
+<p>There are many ways to avoid using dialogs:</p>
 
 <list>
-<item><p>Inline composition for new messages, records or contacts.</p></item>
+<item><p>Use inline composition for new messages, records or contacts.</p></item>
 <item><p>In-application notifications are an alternative to message dialogs.</p></item>
 <item><p><link xref="popovers">Popovers</link> can be a way to display additional controls or options in a less disruptive manner.</p></item>
 </list>

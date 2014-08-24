@@ -39,7 +39,7 @@
 
 <p>Incorporating these elements of the guidelines can enhance your application without requiring a major redesign, and all GTK+ and GNOME applications can benefit from them.</p>
 
-<p>At the same time, following some of the design patterns in these guidelines may imply larger-scale design changes for GNOME 2 style applications, particularly if those applications are complex. In particular, replacing window title bars and <link xref="menu-bars">menu bars</link> with a <link xref="header-bars">header bar</link> could be a big change for your application</p>
+<p>At the same time, following some of the design patterns in these guidelines may imply larger-scale design changes for GNOME 2 style applications, particularly if those applications are complex. In particular, replacing window title bars and <link xref="menu-bars">menu bars</link> with a <link xref="header-bars">header bar</link> could be a big change for your application.</p>
 
 <p>These Human Interface Guidelines have been designed to assist you in determining the best design for your application, rather than proposing a single template to be used in all applications. As such, while they recommend <link xref="header-bars">header bars</link> over <link xref="menu-bars">menu bars</link>, they provide guidance on both approaches.</p>
 

@@ -60,7 +60,7 @@
 
 <list>
 <item><p>A header bar should always provide context for the window it belongs to. This aids window identification, and clarifies what is displayed in the window itself. This can either be done by placing a heading in the center of the header bar, or by including a <link xref="view-switchers">view switcher</link>.</p></item>
-<item><p>Arrange controls within the header bar according to the three alignment points described in the <link xref="visual-layout">visual layout guidelines</link> - left, centre and right.</p></item>
+<item><p>Arrange controls within the header bar according to the three alignment points described in the <link xref="visual-layout">visual layout guidelines</link> - left, center and right.</p></item>
 <item><p><gui>New</gui> and back buttons should be placed on the left side of the header bar.</p></item>
 <item><p>Always ensure that there is room for a header bar to be dragged. This is necessary to enable windows to be moved or resized.</p></item>
 </list>

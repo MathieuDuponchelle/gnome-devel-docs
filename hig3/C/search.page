@@ -16,7 +16,7 @@
 
 <media type="image" mime="image/svg" src="figures/patterns/search.svg"/>
 
-<p>Search allows a content items to be located by filtering content that is displayed on screen. It is distinct from find, which involves moving or highlighting the content that is being searched for, rather than filtering.</p>
+<p>Search allows content items to be located by filtering content that is displayed on screen. It is distinct from find, which involves moving or highlighting the content that is being searched for, rather than filtering.</p>
 
 <section id="when-to-use">
 <title>When to use</title>

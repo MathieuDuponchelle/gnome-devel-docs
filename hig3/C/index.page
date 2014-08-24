@@ -19,7 +19,7 @@
 
 <p>If you are a developer with limited design experience, the HIG is intended to assist you in easily creating an effective user interface. For designers, the HIG provides an introduction to the possibilities in using GTK+, as well as common design patterns that are used in GNOME applications.</p>
 
-<p>GTK+ is a flexible user interface toolkit. As such, these guidelines do not cover every possible design that is possible. Instead, they document recommended practices for creating desktop applications.</p>
+<p>GTK+ is a flexible user interface toolkit. As such, these guidelines do not cover every possible design. Instead, they document recommended practices for creating desktop applications.</p>
 
 <p>Similarly, while the HIG does provide guidance on GNOME 3 integration, and can be used to ensure consistency with other GNOME 3 applications, it can be used as a resource for those creating cross-platform applications, or applications which do not closely follow GNOME 3 application design practices.</p>
 </section>
