@@ -24,7 +24,7 @@
 
 <title>Tabs</title>
 
-<p>Tabs provide a way to break down a window into a series of views. They come in two primary forms: fixed and dynamic. Fixed tabs provide an immutable set of defined views that are built into a user interface, primarily dialog windows. Dynamic tabs allow a user to view multiple documents or locations within an application's primary window.</p>
+<p>Tabs provide a way to break down a window into a series of views. They come in two primary forms: fixed and dynamic. Fixed tabs provide an immutable set of defined views that are built into a user interface, primarily dialog windows. Dynamic tabs allow a user to view multiple documents or locations within an application’s primary window.</p>
 
 <media type="image" mime="image/svg" src="figures/ui-elements/tabs.svg"/>
 
@@ -45,7 +45,7 @@
 <item><p>Label tabs with <link xref="writing-style#capitalization">header capitalization</link>, and use nouns rather than verbs, for example <gui>Font</gui> or <gui>Alignment</gui>. Try to give tab labels a similar length.</p></item>
 <item><p>Do not design tabs such that changing controls on one page affects the controls on any other page. Users are unlikely to discover such dependencies.</p></item>
 <item><p>If a control affects every tab, place it outside the tabs.</p></item>
-<item><p>Use tabs that are proportional to the width of their labels. Don't just set all the tabs to the same width, as this makes them harder to scan visually, and limits the number of tabs you can display without scrolling.</p></item>
+<item><p>Use tabs that are proportional to the width of their labels. Don’t just set all the tabs to the same width, as this makes them harder to scan visually, and limits the number of tabs you can display without scrolling.</p></item>
 </list>
 
 </section>
@@ -64,7 +64,7 @@
 
 <p>If tabs are an important part of the application, make the tab bar permanently visible, so that the first tab is visible when the application is launched. A new tab button can also be placed in the header bar or toolbar.</p>
 
-<p>Dynamic tabs can also be used in cases where tabs will not always be used, or do not form a core part of the application's functionality. In these cases, tabs provide an additional extra function for those users who want to use them, without introducing superfluous controls for those who only view a single location or content item within each window.</p>
+<p>Dynamic tabs can also be used in cases where tabs will not always be used, or do not form a core part of the application’s functionality. In these cases, tabs provide an additional extra function for those users who want to use them, without introducing superfluous controls for those who only view a single location or content item within each window.</p>
 
 <p>In these cases, the tab bar should only be displayed when two or more tabs are open, and a new tab button should not be displayed in the header bar or toolbar. Keyboard shortcuts or menu items should be used to allow new tabs to be opened.</p>
 

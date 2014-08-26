@@ -29,7 +29,7 @@
 <p>Sidebar lists also provide a possible alternative to browser-style navigation. They have a number of advantages here:</p>
 
 <list>
-<item><p>When content items have a narrow width, and don't require an immersive experience. A sidebar would be inappropriate for browsing videos for this reason, but is well-suited to contacts.</p></item>
+<item><p>When content items have a narrow width, and don’t require an immersive experience. A sidebar would be inappropriate for browsing videos for this reason, but is well-suited to contacts.</p></item>
 <item><p>When content items are dynamic. For messaging applications, where new content items appear or old ones are updated, a sidebar list provides the ability for someone to view one item while simultaneously being aware of updates to the overall message list.</p></item>
 <item><p>When it is possible to filter a collection of content, and there are a large number of filters.</p></item>
 </list>

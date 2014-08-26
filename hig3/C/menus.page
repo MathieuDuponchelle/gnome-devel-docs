@@ -31,7 +31,7 @@
 <section id="when-to-use">
 <title>When to use</title>
 
-<p>Primary actions and options are typically situated in an application's <link xref="header-bars">header bar</link>. The main role of menus is to host secondary options or actions, which may not be essential to the functioning of the application, or may not be used as frequently.</p>
+<p>Primary actions and options are typically situated in an application’s <link xref="header-bars">header bar</link>. The main role of menus is to host secondary options or actions, which may not be essential to the functioning of the application, or may not be used as frequently.</p>
 
 <p>Menus can reduce the visual footprint of your application, making it simpler at first glance, and highlighting primary functionality. They should be used when it is necessary to include actions and options that cannot be comfortably accommodated within other standard design patterns, toolbars in particular.</p>
 

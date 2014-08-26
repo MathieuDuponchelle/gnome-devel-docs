@@ -32,9 +32,10 @@
 <list>
 <item><p><link xref="essentials">Essentials</link> - these pages include overarching guidance on thematic topics. They include sections on recommended design principles, as well as guidance on themes like writing style and artwork.</p></item>
 <item><p><link xref="patterns">Patterns</link> - design patterns make up the core of the HIG. Each pattern is a particular arrangement of user interface elements which can be used to construct an application design. The patterns allow key design decisions to be abstracted away from the nitty gritty of individual user interface elements.</p></item>
-<item><p><link xref="ui-elements">Interface elements</link> - guidance on the various interface elements, such as buttons, switches, and sliders, that you can use in your application.
-If you have never read the Human Interface Guidelines before, it is recommended that you start with the essentials section, in particular the design principles page, before continuing to learn about the design patterns.</p></item>
+<item><p><link xref="ui-elements">Interface elements</link> - guidance on the various interface elements, such as buttons, switches, and sliders, that you can use in your application.</p></item>
 </list>
+
+<p>If you have never read the Human Interface Guidelines before, it is recommended that you start with the essentials section, in particular the design principles page, before continuing to learn about the design patterns.</p>
 
 </section>
 

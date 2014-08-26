@@ -41,7 +41,7 @@
 <list>
 <item><p>Clicking the box once should check the box, applying that setting (when confirmed) to all the selected objects.</p></item>
 <item><p>Clicking the box a second time should uncheck the box, removing that setting (when confirmed) to all the selected objects.</p></item>
-<item><p>Clicking the box a third time should return the box to its mixed state, restoring each selected object's original value for that setting (when confirmed).</p></item>
+<item><p>Clicking the box a third time should return the box to its mixed state, restoring each selected object’s original value for that setting (when confirmed).</p></item>
 </list></item>
 <item><p>Label a group of check boxes with a descriptive heading above or to the left of the group.</p></item>
 <item><p>Do not place more than about eight check boxes under the same group heading. If you need more than eight, try to use blank space or heading labels to divide them into smaller groups. Otherwise, consider using a check box list instead— but you probably also need to think about how to simplify your user interface.</p></item>

@@ -45,7 +45,7 @@
 <p>In some cases, it is appropriate to link a spin button with a slider. This combination allows both approximate control and the entry of specific values. However, it is only useful if you want to cater to people who may know a specific value that they want to use. Use a slider when:</p>
 
 <list>
-<item><p>Immediate feedback for changes in the spin box's value is possible (such as in the case of image editing).</p></item>
+<item><p>Immediate feedback for changes in the spin box’s value is possible (such as in the case of image editing).</p></item>
 <item><p>It is useful for the user to control the rate of change of the value in real time. For example, to monitor the effects of a color change in a live preview window as they drag the RGB sliders.</p></item>
 </list>
 
@@ -56,7 +56,7 @@
 
 <list>
 <item><p>Label the spin box with a text label above it or to its left, using sentence capitalization. Provide an access key in the label that allows the user to give focus directly to the spin box.</p></item>
-<item><p>Right-justify the contents of spin boxes, unless the convention in the user's locale demands otherwise. This is useful in windows where the user might want to compare two numerical values in the same column of controls. In this case, ensure the right edges of the relevant controls are also aligned.</p></item>
+<item><p>Right-justify the contents of spin boxes, unless the convention in the user’s locale demands otherwise. This is useful in windows where the user might want to compare two numerical values in the same column of controls. In this case, ensure the right edges of the relevant controls are also aligned.</p></item>
 </list>
 
 </section>

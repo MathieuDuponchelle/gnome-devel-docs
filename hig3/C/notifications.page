@@ -20,7 +20,7 @@
 
 <p>Use notifications to inform the user about events they will be interested in while they are not using your application. This can include new messages in messaging applications, the completion of long-running tasks, reminders for calendars, and so on.</p>
 
-<p>Notifications shouldn't be used as a substitute for feedback that is provided by your application windows, which should be able to inform the user about events without the need for notifications.</p>
+<p>Notifications shouldn’t be used as a substitute for feedback that is provided by your application windows, which should be able to inform the user about events without the need for notifications.</p>
 
 </section>
 
@@ -64,7 +64,7 @@
 <section id="default-actions">
 <title>Default actions</title>
 
-<p>The default action should always dismiss the notification and raise a window belonging to the application that sent the notification. If the notification relates to a particular part of your application's user interface, the default action should display that part of the UI. The default action for a notification about a new email should show the relevant email message when activated, for example.</p>
+<p>The default action should always dismiss the notification and raise a window belonging to the application that sent the notification. If the notification relates to a particular part of your application’s user interface, the default action should display that part of the UI. The default action for a notification about a new email should show the relevant email message when activated, for example.</p>
 
 </section>
 
@@ -76,7 +76,7 @@
 <list>
 <item><p>Notification actions should be related to the content of the notification, and should not provide generic actions for your application. This ensures that each notification has a clear focus and purpose.</p></item>
 <item><p>Only use notification actions when the functionality that they provide is commonly required.</p></item>
-<item><p>Actions shold not replace user interface controls elsewhere - it should be possible to take the same actions from your application's windows.</p></item>
+<item><p>Actions shold not replace user interface controls elsewhere - it should be possible to take the same actions from your application’s windows.</p></item>
 <item><p>It is not necessary to always use notification actions, and many notifications will not require them.</p></item>
 <item><p>Notification actions should not duplicate the default action. For example, a new email notification does not need to include an Open button, since the default action should already perform this action.</p></item>
 </list>

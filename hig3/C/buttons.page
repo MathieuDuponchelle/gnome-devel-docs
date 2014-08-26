@@ -55,7 +55,7 @@
 <section id="toggle-buttons">
 <title>Toggle buttons</title>
 
-<p>Toggle buttons look the same as regular buttons, but are used to show or change a state rather than initiate an action. A toggle button's two states, set and unset, are shown by its appearing "pushed in" or "popped out" respectively.</p>
+<p>Toggle buttons look the same as regular buttons, but are used to show or change a state rather than initiate an action. A toggle button’s two states, set and unset, are shown by its appearing “pushed in” or “popped out” respectively.</p>
 
 </section>
 

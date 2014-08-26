@@ -54,7 +54,7 @@
 <section id="hierarchy">
 <title>Create a clear hierarchy</title>
 
-<p>People tend to ‘read’ an interface from left to right and top to bottom. Items that are encountered first are seen to be dominant over those that come later. Use this implied hierarchy to communicate which parts of your application are most important.</p>
+<p>People tend to “read” an interface from left to right and top to bottom. Items that are encountered first are seen to be dominant over those that come later. Use this implied hierarchy to communicate which parts of your application are most important.</p>
 
 <p>Position the most important controls towards the top-left of your windows, and place dominant controls prior to other controls they affect. See the <link xref="visual-layout">visual layout</link> guidelines for more details.</p>
 
@@ -65,7 +65,7 @@
 
 <p>Applications typically present content, whether it is images, text, messages or more complex data. It is this content that your users will be interested in, and too many controls or user interface elements will distract from the focus of their attention.</p>
 
-<p>Give content as much space as possible in your user interface, by reducing the number of controls. Don't crowd out the primary object of interest with secondary information.</p>
+<p>Give content as much space as possible in your user interface, by reducing the number of controls. Don’t crowd out the primary object of interest with secondary information.</p>
 
 </section>
 

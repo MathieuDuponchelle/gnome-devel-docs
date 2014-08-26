@@ -22,7 +22,7 @@
 <item><p>The number of options is large.</p></item>
 <item><p>There is little available space.</p></item>
 <item><p>The list of options may change over time.</p></item>
-<item><p>The contents of the hidden part of the menu are obvious from its label and the one selected item. For example, if you have an option menu labelled "Month:" with the item "January" selected, the user might reasonably infer that the menu contains the 12 months of the year without having to look.</p></item>
+<item><p>The contents of the hidden part of the menu are obvious from its label and the one selected item. For example, if you have an option menu labelled “Month:” with the item “January” selected, the user might reasonably infer that the menu contains the 12 months of the year without having to look.</p></item>
 </list>
 
 <section id="general-guidelines">

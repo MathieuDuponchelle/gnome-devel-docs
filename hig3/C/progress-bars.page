@@ -48,9 +48,9 @@
 
 <list>
 <item><p>Accuracy is preferable for progress bars. Where possible, use a time-remaining progress bar, followed by typical-time. Try to avoid using indeterminate progress bars.</p></item>
-<item><p>Ensure that time-remaining and typical-time progress bars measure an operation's total time or total work, not just that of a single step.</p></item>
+<item><p>Ensure that time-remaining and typical-time progress bars measure an operation’s total time or total work, not just that of a single step.</p></item>
 <item><p>Update time-remaining progress bars when changes occur that will cause the operation to finish more quickly or more slowly.</p></item>
-<item><p>When using a typical-time progress bar, if your application overestimates the completed amount of work, the length of the bar can indicate "almost complete" until the operation is complete. If your application underestimates how much work is complete, fill the remaining portion of the bar when the operation is complete.</p></item>
+<item><p>When using a typical-time progress bar, if your application overestimates the completed amount of work, the length of the bar can indicate “almost complete” until the operation is complete. If your application underestimates how much work is complete, fill the remaining portion of the bar when the operation is complete.</p></item>
 </list>
 
 </section>

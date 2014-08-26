@@ -20,7 +20,7 @@
 <section id="application-definition">
 <title>Defining an application</title>
 
-<quote><p>An application is a distinct and independent piece of software that incorporates useful functionality, and which can be installed on a user's system.</p></quote>
+<quote><p>An application is a distinct and independent piece of software that incorporates useful functionality, and which can be installed on a user’s system.</p></quote>
 
 <p>This definition can be broken down into a set of characteristics, which describe an application in more detail. Applications:</p>
 
@@ -48,7 +48,7 @@ Applications are launched and switched to via their launchers...
 <section id="application-names">
 <title>Naming your application</title>
 
-<p>An application's name is vital. It is what users will be first exposed to, and will help them decide whether they want to use an application or not. It is a major part of your application's public face.</p>
+<p>An application’s name is vital. It is what users will be first exposed to, and will help them decide whether they want to use an application or not. It is a major part of your application’s public face.</p>
 
 <p>An application name plays a number of functions:</p>
 
@@ -60,7 +60,7 @@ Applications are launched and switched to via their launchers...
 
 <p>Ensure that your application name is short - fewer than 15 characters. This will ensure that it is always displayed in full within a GNOME 3 environment.</p>
 
-<p>Additionally, choose an application name that is easy to understand and communicates your application's functionality. Avoid references which will not be understood or be familiar to potential users, such as obscure cultural references, inside jokes and acronyms. Instead, pick a name that references what your application does, or the domain in which it operates.</p>
+<p>Additionally, choose an application name that is easy to understand and communicates your application’s functionality. Avoid references which will not be understood or be familiar to potential users, such as obscure cultural references, inside jokes and acronyms. Instead, pick a name that references what your application does, or the domain in which it operates.</p>
 
 </section>
 

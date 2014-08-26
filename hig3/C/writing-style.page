@@ -35,7 +35,7 @@
 <list>
 <item><p>Keep text short and to the point. This improves speed of comprehension for the user. It also reduces the expansion of text when translated (remember that translated English text can expand up to 30% in some languages).</p></item>
 <item><p>Do not shorten your text to the point of losing meaning. A three-word label that provides clear information is better than a one-word label that is ambiguous or vague. Try to find the fewest possible words to satisfactorily convey the meaning of your label.</p></item>
-<item><p>Use words, phrases, and concepts that are familiar to the people who will be using your application, rather than terms from the underlying system. This may mean using terms that are associated with the tasks your application supports. For example, in medicine, the paper folder that contains patient information is called a "chart." Hence, a medical application might refer to a patient record as a "chart" rather than as a "patient database record".</p></item>
+<item><p>Use words, phrases, and concepts that are familiar to the people who will be using your application, rather than terms from the underlying system. This may mean using terms that are associated with the tasks your application supports. For example, in medicine, the paper folder that contains patient information is called a “chart”. Hence, a medical application might refer to a patient record as a “chart” rather than as a “patient database record”.</p></item>
 <item><p>Use the standard GNOME terms when referring to parts of the user interface, such as ‘pointer’ and ‘window’. You can find a full list of these in the GNOME Documentation Style Guide, Recommended Terminology.</p></item>
 <item><p>Avoid repetition where possible.</p></item>
 </list>
@@ -60,7 +60,7 @@
 
 <p>(Verbs with three or fewer letters should be capitalized: Be, Are, Is, Put, See, Add.)</p>
 
-<p>For example: "Create a Document", "Find and Replace".</p>
+<p>For example: “Create a Document”, “Find and Replace”.</p>
 
 <p>Header capitalization should be used for any headings, including header bar headings and page, tab and menu titles. It should also be used for short control labels that do not normally form proper sentences, such as button and switch labels and menu items.</p>
 

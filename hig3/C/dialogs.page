@@ -131,7 +131,7 @@
 
 <p>Choose the default button to be the most likely action, such as a confirmation action or an action that applies changes. Do not make a button the default if its action is irreversible, destructive or otherwise inconvenient to the user. If there is no appropriate button in your window, to designate as the default button, do not set one.</p>
 
-<p>In particular, it is currently not recommended to make the <gui>Close</gui> button the default in an instant apply window, as this can lead to users closing the window accidentally before they have finished using it.</p>
+<p>In particular, it is not recommended to make the <gui>Close</gui> button the default in an instant apply window, as this can lead to users closing the window accidentally before they have finished using it.</p>
 
 </section>
 

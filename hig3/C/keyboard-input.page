@@ -49,7 +49,7 @@
 <item><p>Give all labelled components an access key (underlined letter), with the exception of toolbar controls which would use up too many access key combinations.</p></item>
 <item><p>Choose access keys so that they are easy to remember. Normally this means using the first letter of the label. However, in complex windows, the choice can become more difficult. Here are some simple rules:</p>
 <list>
-<item><p>Assign access keys to the most frequently-used controls first. If it's not clear which controls will be the most frequently used, assign access keys from left to right, top to bottom (for Western locales).</p></item>
+<item><p>Assign access keys to the most frequently-used controls first. If it’s not clear which controls will be the most frequently used, assign access keys from left to right, top to bottom (for Western locales).</p></item>
 <item><p>Use the first letter of the label, or of one of its other words if it has more than one. If another letter provides a better association (for example: "x" in Extra Large) however, consider using that letter instead.</p></item>
 <item><p>If the first letter is not available, choose an easy to remember consonant from the label, for example, "p" in Replace.</p></item>
 <item><p>If no such consonants are available, choose any available vowel from the label.</p></item>
@@ -110,9 +110,9 @@ Do not assign system-level shortcut keys. These use the Super key (sometimes kno
 <td><p>Switches focus to the primary areas of the system: windows, top bar, message tray</p></td>
 </tr>
 <tr>
-<td><p>Log out</p></td>
-<td><p><keyseq><key>Ctrl</key><key>Alt</key><key>Del</key></keyseq></p></td>
-<td><p>Logs the user out of their session. This shortcut is typically disabled by default.</p></td>
+<td><p>Power Off</p></td>
+<td><p><keyseq><key>Ctrl</key><key>Alt</key><key>Delete</key></keyseq></p></td>
+<td><p>Prompts the user to power off the system. This shortcut is typically disabled by default.</p></td>
 </tr>
 <tr>
 <td><p>Window menu</p></td>
@@ -359,7 +359,7 @@ Do not assign system-level shortcut keys. These use the Super key (sometimes kno
 <tr>
 <td><p><gui>Properties</gui></p></td>
 <td><p><keyseq><key>Alt</key><key>Enter</key></keyseq></p></td>
-<td><p>Display the selected object's properties window.</p></td>
+<td><p>Display the selected object’s properties window.</p></td>
 </tr>
 </tbody>
 </table>

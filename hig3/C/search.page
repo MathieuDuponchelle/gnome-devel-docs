@@ -37,7 +37,7 @@
 In primary windows, the search bar is typically hidden until it is activated by the user. There are three common ways to activate search in this context:</p>
 
 <list>
-<item><p>Typing when a text entry field is not focused should activate search, and the entered text should be added to the search field. This is called "type to search".</p></item>
+<item><p>Typing when a text entry field is not focused should activate search, and the entered text should be added to the search field. This is called “type to search”.</p></item>
 <item><p>The keyboard shortcut for search (<keyseq><key>Ctrl</key><key>F</key></keyseq>).</p></item>
 <item><p>A search button in the header bar should allow the search bar to be displayed (the search button should toggle).</p></item>
 </list>
@@ -50,7 +50,7 @@ In primary windows, the search bar is typically hidden until it is activated by 
 <title>Search results</title>
 
 <list>
-<item><p>Search should be 'live' wherever possible - the content view should update to display search results as they are entered.</p></item>
+<item><p>Search should be “live” wherever possible - the content view should update to display search results as they are entered.</p></item>
 <item><p>In order to be effective, it is important that search results are quickly returned.</p></item>
 <item><p>If a search term does not return any results, ensure that feedback is given in the content view. Often a simple "No results" label is sufficient.</p></item>
 </list>

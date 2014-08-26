@@ -51,7 +51,7 @@
 
 <list>
 <item><p>A popover can just contain a menu, including submenus.</p></item>
-<item><p>You can combine a menu with other controls, such as buttons, sliders or text fields. However, don't mix too many different types of control, and try to group controls of the same type together.</p></item>
+<item><p>You can combine a menu with other controls, such as buttons, sliders or text fields. However, don’t mix too many different types of control, and try to group controls of the same type together.</p></item>
 <item><p>Popovers can be given a heading to clarify their purpose.</p></item>
 <item><p><gui>Close</gui> or <gui>Done</gui> buttons are not usually required in a popover.</p></item>
 </list>

@@ -33,7 +33,7 @@
 <section id="when-to-use">
 <title>When to use</title>
 
-<p>Menu bars increase the vertical footprint of an application's user interface, introduce a large number of disclosure points, and function as a fixed set of inflexible options. For these reasons, <link xref="header-bars">header bars</link> and <link xref="header-bar-menus">header bar menus</link> are generally recommended over menu bars, along with other design patterns for exposing controls on demand, such as <link xref="selection-mode">selection mode</link>, <link xref="action-bars">action bars</link>, and <link xref="popovers">popovers</link>.</p>
+<p>Menu bars increase the vertical footprint of an application’s user interface, introduce a large number of disclosure points, and function as a fixed set of inflexible options. For these reasons, <link xref="header-bars">header bars</link> and <link xref="header-bar-menus">header bar menus</link> are generally recommended over menu bars, along with other design patterns for exposing controls on demand, such as <link xref="selection-mode">selection mode</link>, <link xref="action-bars">action bars</link>, and <link xref="popovers">popovers</link>.</p>
 
 <p>At the same time, menu bars can still be an appropriate choice, particularly for applications that already incorporate a header bar. Some platforms also incorporate space for a menu bar in their user environment, and a menu model can be desirable for cross-platform integration purposes.</p>
 
@@ -198,7 +198,7 @@
 <tr>
 <td><p><gui>Properties…</gui></p></td>
 <td><p><keyseq><key>Alt</key><key>Return</key></keyseq></p></td>
-<td><p>Opens the document's <gui>Properties</gui> window. This may contain editable information, such as the document author's name, or read-only information, such as the number of words in the document, or a combination of both. The <keyseq><key>Alt</key><key>Return</key></keyseq> shortcut should not be provided where <key>Return</key> is most frequently used to insert a new line.</p></td>
+<td><p>Opens the document’s <gui>Properties</gui> window. This may contain editable information, such as the document author’s name, or read-only information, such as the number of words in the document, or a combination of both. The <keyseq><key>Alt</key><key>Return</key></keyseq> shortcut should not be provided where <key>Return</key> is most frequently used to insert a new line.</p></td>
 </tr>
 </tbody>
 </table>
@@ -244,10 +244,10 @@
 <section id="edit">
 <title>Edit</title>
 
-<p>The <gui>Edit</gui> menu contains items relating to editing both the document (clipboard handling, search and replace, and inserting special objects) and the user's preferences. <gui>Preferences</gui> are edited here rather than on a <gui>Settings</gui> menu, because:</p>
+<p>The <gui>Edit</gui> menu contains items relating to editing both the document (clipboard handling, search and replace, and inserting special objects) and the user’s preferences. <gui>Preferences</gui> are edited here rather than on a <gui>Settings</gui> menu, because:</p>
 
 <list>
-<item><p>most applications' preferences windows are accessed via a single menu item, and single-item menus offer poor usability</p></item>
+<item><p>most applications’ preferences windows are accessed via a single menu item, and single-item menus offer poor usability</p></item>
 <item><p>most applications already contain a suitable Edit menu.</p></item>
 </list>
 
@@ -389,7 +389,7 @@
 <section id="view">
 <title>View</title>
 
-<p>The <gui>View</gui> menu contains only items that affect the user's view of the current document. Do not place any items on the <gui>View</gui> menu that affect the content of the current document. (Exception: <guiseq><gui>View</gui><gui>Reload</gui></guiseq> may change the current contents if, for example, the document is a webpage that has been recently updated on the server).</p>
+<p>The <gui>View</gui> menu contains only items that affect the user’s view of the current document. Do not place any items on the <gui>View</gui> menu that affect the content of the current document. (Exception: <guiseq><gui>View</gui><gui>Reload</gui></guiseq> may change the current contents if, for example, the document is a webpage that has been recently updated on the server).</p>
 
 <table>
 <thead>
@@ -624,17 +624,17 @@
 <tr>
 <td><p><gui>Add Bookmark</gui></p></td>
 <td><p><keyseq><key>Ctrl</key><key>D</key></keyseq></p></td>
-<td><p>Adds a bookmark for the current document to the default bookmark list. Do not pop up a dialog asking for a title or location for the bookmark, instead choose sensible defaults (such as the document's title or filename as the bookmark name) and allow the user to change them later using the <gui>Edit Bookmarks</gui> feature.</p></td>
+<td><p>Adds a bookmark for the current document to the default bookmark list. Do not pop up a dialog asking for a title or location for the bookmark, instead choose sensible defaults (such as the document’s title or filename as the bookmark name) and allow the user to change them later using the <gui>Edit Bookmarks</gui> feature.</p></td>
 </tr>
 <tr>
 <td><p><gui>Edit Bookmarks</gui></p></td>
 <td><p><keyseq><key>Ctrl</key><key>B</key></keyseq></p></td>
-<td><p>Allows the user to edit the application's bookmark list. Open a window in which the user can arrange bookmarks into a hierarchy, move, copy, and delete bookmarks, and change their properties.</p></td>
+<td><p>Allows the user to edit the application’s bookmark list. Open a window in which the user can arrange bookmarks into a hierarchy, move, copy, and delete bookmarks, and change their properties.</p></td>
 </tr>
 <tr>
 <td><p>Bookmark List</p></td>
 <td><p>None</p></td>
-<td><p>The user's current list of bookmarks for the application.</p></td>
+<td><p>The user’s current list of bookmarks for the application.</p></td>
 </tr>
 </tbody>
 </table>
@@ -663,17 +663,17 @@
 <tr>
 <td><p><gui>Back</gui></p></td>
 <td><p><keyseq><key>Alt</key><key>Left</key></keyseq></p></td>
-<td><p>Navigates to the previous document in the browser's history list.</p></td>
+<td><p>Navigates to the previous document in the browser’s history list.</p></td>
 </tr>
 <tr>
 <td><p><gui>Forward</gui></p></td>
 <td><p><keyseq><key>Alt</key><key>Right</key></keyseq></p></td>
-<td><p>Navigates to the next document in the browser's history list.</p></td>
+<td><p>Navigates to the next document in the browser’s history list.</p></td>
 </tr>
 <tr>
 <td><p><gui>Up</gui></p></td>
 <td><p><keyseq><key>Alt</key><key>Up</key></keyseq></p></td>
-<td><p>Navigates to the current document's (or folder's) parent document (or folder). For a document browser, such as an online help viewer, this usually means navigating to the enclosing sub-section, section, chapter or contents page.</p></td>
+<td><p>Navigates to the current document’s (or folder’s) parent document (or folder). For a document browser, such as an online help viewer, this usually means navigating to the enclosing sub-section, section, chapter or contents page.</p></td>
 </tr>
 <tr>
 <td><p><gui>Up</gui></p></td>
@@ -737,13 +737,13 @@
 <section id="windows">
 <title>Windows</title>
 
-<p>The <gui>Windows</gui> menu contains commands that apply to all of the application's open windows. Only use a Windows menu in multiple document interface (MDI) applications.</p>
+<p>The <gui>Windows</gui> menu contains commands that apply to all of the application’s open windows. Only use a Windows menu in multiple document interface (MDI) applications.</p>
 
 <note><p>Use of MDI is discouraged, as they have a number of inherent usability problems.</p></note>
 
 <p>You may also label this menu <gui>Documents</gui>, <gui>Buffers</gui>, or similar according to the type of document handled by your application.</p>
 
-<p>The last items on this menu are a numbered list of the application's primary windows, for example <gui>1shoppinglist.abw</gui>. Selecting one of these items raises the corresponding window.</p>
+<p>The last items on this menu are a numbered list of the application’s primary windows, for example <gui>1shoppinglist.abw</gui>. Selecting one of these items raises the corresponding window.</p>
 
 <table>
 <thead>
@@ -777,7 +777,7 @@
 <section id="help">
 <title>Help</title>
 
-<p>The <gui>Help</gui> menu provides access to all online documentation for your application. This includes both the user guide, and the <gui>About</gui> window which includes a brief description of your application's functionality.</p>
+<p>The <gui>Help</gui> menu provides access to all online documentation for your application. This includes both the user guide, and the <gui>About</gui> window which includes a brief description of your application’s functionality.</p>
 
 <table>
 <thead>
@@ -796,7 +796,7 @@
 <tr>
 <td><p><gui>About</gui></p></td>
 <td><p>None</p></td>
-<td><p>Opens the About dialog for the application. Use the standard dialog provided by the GNOME libraries, which contains the name and version number of the application, a short description of the application's functionality, author contact details, copyright message and a pointer to the licence under which the application is made available.</p></td>
+<td><p>Opens the About dialog for the application. Use the standard dialog provided by the GNOME libraries, which contains the name and version number of the application, a short description of the application’s functionality, author contact details, copyright message and a pointer to the licence under which the application is made available.</p></td>
 </tr>
 </tbody>
 </table>
