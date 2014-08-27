@@ -194,7 +194,7 @@ Do not assign system-level shortcut keys. These use the Super key (sometimes kno
 </tr>
 <tr>
 <td><p><key>F10</key></p></td>
-<td><p>Give focus to a window/s menu bar</p></td>
+<td><p>Give focus to the menu bar or open header bar menu</p></td>
 </tr>
 <tr>
 <td><p><key>Space</key></p></td>
