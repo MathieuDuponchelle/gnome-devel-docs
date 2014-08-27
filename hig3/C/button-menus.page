@@ -1,0 +1,53 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="button-menus">
+
+  <info>
+    <credit type="author">
+      <name>Allan Day</name>
+      <email>aday@gnome.org</email>
+    </credit>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>Button menus</title>
+
+<p>A menu that is opened by pressing a button. They can be incorporated into a range of container widgets, such as header bars, action bars, sidebars or toolbars. <link xref="header-bar-menus">Header bar menus</link> are the most common example.</p>
+
+<media type="image" mime="image/svg" src="figures/ui-elements/button-menu.svg"/>
+
+<section id="when-to-use">
+<title>When to use</title>
+
+<p>A menu button is a way to present additional actions or options. They are appropriate when it is necessary to provide secondary actions or options which cannot be comfortably incorporated into your primary user interface. There are two primary types of button menu:</p>
+
+<list>
+<item><p><em style="strong">Overflow menus</em>: here, the button menu serves as an extension of an existing set of controls. This can be seen in the example of <link xref="header-bar-menus">header bar menus</link>, where the menu acts a continuation of the controls presented in the header bar itself. This approach can be applied to other containers, such as action bars. These generic button menus can contain a variety of miscellaneous items that relate to the context of the menu.</p></item>
+<item><p><em style="strong">Single purpose menus</em>: these provide actions and/or options for a specific area of functionality. In the same way that a menu bar presents a series of menus on different topics, so individual menu buttons can present groups of functionality, such as editing, changing the view, or providing navigation controls.</p></item>
+</list>
+
+<p>Menus provide a clear and consistent way to present diverse sets of actions and settings. At the same time, a popover with embedded controls, like buttons, sliders, spin buttons, lists and text entries, can provide a more effective interface for many tasks.</p>
+
+<list>
+<item><p>Evaluate each function within a button menu, in order to decide whether it would be better served by a different <link xref="ui-elements">user interface element</link>. While simple actions or settings can be effectively represented by menu items, others cannot. In particular, sliders, spin buttons, switches and text entries provide functionality that cannot be easily reproduced with a menu. Likewise, some entries might be better represented as icons rather than text - in which case, buttons could be more appropropriate than a menu.</p></item>
+<item><p>If a menu button contains a small number of items that can be more effectively represented as a group of controls, a popover containing different interface elements can be a more interesting and efficient user interface. However, this approach can easily become over-complex for larger and more diverse button menus.</p></item>
+<item><p>A menu button can be combined with a small number of other interface elements, such as buttons, sliders and switches (see example below). This can enable some menu items to be presented in a more space-efficient manner, or to provide interactions that are not possible with a standard menu. However, be careful not to mix too many types of control or make the menu too complex in the process.</p></item>
+</list>
+
+<media type="image" mime="image/svg" src="figures/ui-elements/hybrid-button-menu.svg"/>
+
+</section>
+
+<section id="general-guidelines">
+<title>General guidelines</title>
+
+<list>
+<item><p>Each context - whether it is a view or delineated area of your interface - should only include one generic button menu.</p></item>
+<item><p>Ensure that single purpose button menus are effectively labelled. While an icon is more compact, only use them when they will be commonly understood by your users. The <link xref="icons-and-artwork">icon usage guidelines</link> provide more advice on this.</p></item>
+<item><p>Single purpose buttons should be clearly and consistently defined. Their menu items should have an obvious relationship with the overall purpose of the menu.</p></item>
+<item><p>While multiple button menus can be used simultaneously, be careful about introducing too many disclosure points into your user interface. The more of these that you introduce, the harder it will be for users to find the controls they need, and human error will be increased.</p></item>
+</list>
+
+</section>
+
+</page>
