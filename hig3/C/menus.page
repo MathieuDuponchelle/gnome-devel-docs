@@ -24,49 +24,41 @@
 
 <title>Menus</title>
 
-<p>A menu is a list of actions and/or options which is revealed by selecting a heading or button or, in the case of context menus, by using a secondary click or long press on an item of content.</p>
+<p>A menu is a list of actions and/or options which is revealed by pressing a heading or button. In the case of context menus, the menu is opened through a secondary action (such as secondary click with a mouse, or long press with a touch screen) on an item of content.</p>
 
 <media type="image" mime="image/svg" src="figures/ui-elements/menu.svg"/>
 
 <section id="when-to-use">
 <title>When to use</title>
 
-<p>Primary actions and options are typically situated in an application’s <link xref="header-bars">header bar</link>. The main role of menus is to host secondary options or actions, which may not be essential to the functioning of the application, or may not be used as frequently.</p>
-
-<p>Menus can reduce the visual footprint of your application, making it simpler at first glance, and highlighting primary functionality. They should be used when it is necessary to include actions and options that cannot be comfortably accommodated within other standard design patterns, toolbars in particular.</p>
-
-<p>However, be wary of using a large number of menus in your application. For example: more than one menu button in a toolbar could be confusing, making it difficult for people to find particular menu items.</p>
+<p>Menus can appear as a part of a <link xref="menu-bars">menu bar</link>, as context menus (see <link xref="selection-mode">selection mode</link>), or as part of a <link xref="button-menus">button menu</link>. Refer to the relevant pages for advice on when to use these elements.</p>
 
 </section>
 
-<section id="guidelines">
-<title>Guidelines</title>
+<section id="size-and-structure">
+<title>Size and structure</title>
+
+<p>Menus should contain between three and 12 top-level items. If a menu contains more than 12 items, evaluate whether all the items are necessary and belong in the menu. If you are unable to reduce the size, submenus can be used. However, they should be avoided if at all possible, as they are physically difficult to use.</p>
+
+<p>Submenus should contain between three and six items, and should never contain other submenus.</p>
+
+<p>Organize similar menu items into groups using dividers - this will make them easier to understand and quicker to use. When creating groups:</p>
 
 <list>
-<item><p>Do not have menus with fewer than three or more than about 12 top-level items. Dialog windows containing a List can be used as an alternative to menus in many situations, including this one.</p></item>
-<item><p>Label menu items with verbs for commands and adjectives for settings, according to the capitalization rules in the Writing Style guidelines.</p></item>
-<item><p>Make a menu item insensitive when its command is unavailable.</p></item>
-<item><p>Provide an <link xref="keyboard-input#access-keys">access key</link> for every menu item. You may use the same access key on different menus in your application, but avoid duplicating access keys on the same menu. Note that unlike other controls, once a menu is displayed, its access keys may be used by just typing the letter; it is not necessary to press the Alt key at the same time.</p></item>
-<item><p>Submenus are physically difficult to use, so avoid them if at all possible.</p></item>
-<item><p>Never embed submenus in submenus.</p></item>
-<item><p>Submenus should contain three or more items.</p></item>
-<item><p>Group similar items together using dividers. The best size for a group is around 2-5 items. Single-item groups are best placed at the top or bottom of a menu, otherwise try to group them with other single items of the same type on the same menu.</p></item>
-<item><p>Order items within a group logically, numerically, in task order or by expected frequency of use, as appropriate.</p></item>
-<item><p>Only place one type of menu item in each group— command, mutable, check box or radio button. For example, do not place commands and settings in the same group.</p></item>
-<item><p>Menus can contain <link xref="check-boxes">check boxes</link> and <link xref="radio-buttons">radio buttons</link> for settings.</p></item>
+<item><p>Order groups and group items logically, either by importance, task order, or expected frequency of use. Items at the top and bottom of the menu are more noticable and easily targetted, so reserve these locations for particularly important or interesting functionality.</p></item>
+<item><p>Place single-item groups at the top or bottom of the menu, or group them together with other single items.</p></item>
+<item><p>Do not mix different types of menu item within each group - actions, check box and radio button items should be kept separate.</p></item>
 </list>
 
 </section>
 
-<section id="mutable-command-items">
-<title>Mutable command items</title>
-
-<p>A mutable command item changes its label when selected. For example, a Reload item may change to Stop to allow the user to interrupt the operation if it is taking a long time.</p>
+<section id="general-guidelines">
+<title>General guidelines</title>
 
 <list>
-<item><p>Mutable menu items can be problematic because the user never sees the menu item changing, so it is not obvious that a different function has become available.</p></item>
-<item><p>Consider providing two adjacent menu items for the commands instead. Then make the items sensitive or insensitive as the situation demands.</p></item>
-<item><p>Do not use mutable menu items to toggle a two-state setting (for example, Show and Hide). Use a check box or radio buttons instead.</p></item>
+<item><p>Provide an <link xref="keyboard-input#access-keys">access key</link> for every menu item. You may use the same access key on different menus in your application, but avoid duplicating access keys on the same menu. Note that unlike other controls, once a menu is displayed, its access keys may be used by just typing the letter; it is not necessary to press the Alt key at the same time.</p></item>
+<item><p>Label menu items with verbs for commands and adjectives for settings, using <link xref="writing-style#capitalization">header capitalization</link>.</p></item>
+<item><p>Two linked actions can be combined into a single menu item, by changing the label when the item is selected. For example, a <gui>Play</gui> item may change to <gui>Pause</gui>. However, only use this type of item when actions are logical opposites which are obvious to users. Likewise, do not use this technique for settings - use check boxes or radio buttons instead.</p></item>
 </list>
 
 </section>
