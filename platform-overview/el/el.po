@@ -5,145 +5,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: packagename\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-10 16:59+0000\n"
-"PO-Revision-Date: 2014-01-11 18:08+0300\n"
-"Last-Translator: Dimitris Spingos (Δημήτρης Σπίγγος) <dmtrs32@gmail.com>\n"
+"POT-Creation-Date: 2014-05-18 06:34+0000\n"
+"PO-Revision-Date: 2014-08-29 18:03+0200\n"
+"Last-Translator: Tom Tryfonidis <tomtryf@gmail.com>\n"
 "Language-Team: www.gnome.gr\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Virtaal 0.7.1\n"
-
-#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
-msgctxt "_"
-msgid "translator-credits"
-msgstr ""
-"Δημήτρης Σπίγγος <dmtrs32@gmail.com>, 2012, 2013, 2014\n"
-"Τζένη Πετούμενου <epetoumenou@gmail.com>, 2010\n"
-"Μάριος Ζηντίλης <m.zindilis@dmajor.org>"
-
-#. (itstool) path: credit/name
-#: C/index.page:10
-msgid "Shaun McCance"
-msgstr "Shaun McCance"
-
-#. (itstool) path: credit/years
-#: C/index.page:12
-msgid "2005-2011"
-msgstr "2005-2011"
-
-#. (itstool) path: credit/name
-#: C/index.page:15 C/overview-communication.page:9 C/overview-io.page:9
-#: C/tech.page:9
-msgid "Phil Bull"
-msgstr "Phil Bull"
-
-#. (itstool) path: credit/years
-#: C/index.page:17 C/overview-communication.page:11 C/overview-io.page:11
-#: C/tech.page:11
-msgid "2012"
-msgstr "2012"
-
-#. (itstool) path: credit/name
-#: C/index.page:20
-msgid "Federico Mena-Quintero"
-msgstr "Federico Mena-Quintero"
-
-#. (itstool) path: credit/years
-#: C/index.page:22
-msgid "2012, 2013"
-msgstr "2012, 2013"
-
-#. (itstool) path: credit/name
-#: C/index.page:25
-msgid "Germán Póo-Caamaño"
-msgstr "Germán Póo-Caamaño"
-
-#. (itstool) path: credit/years
-#: C/index.page:27
-msgid "2011"
-msgstr "2011"
-
-#. (itstool) path: credit/name
-#: C/index.page:30
-msgid "GNOME Foundation"
-msgstr "Ίδρυμα GNOME"
-
-#. (itstool) path: credit/page
-#: C/index.page:31
-msgid "http://foundation.gnome.org/"
-msgstr "http://foundation.gnome.org/"
-
-#. (itstool) path: credit/name
-#: C/index.page:34 C/dev-help-appmenu.page:16 C/dev-help-build.page:16
-#: C/dev-help.page:19 C/dev-help-write.page:11 C/dev-translate-build.page:11
-#: C/tour-application.page:11 C/tour-events.page:11 C/tour-get_object.page:11
-#: C/tour-gjs.page:11 C/tour-glade.page:11 C/tour.page:12
-#: C/tour-summary.page:10
-msgid "Ekaterina Gerasimova"
-msgstr "Ekaterina Gerasimova"
-
-#. (itstool) path: credit/years
-#: C/index.page:36 C/dev-help-appmenu.page:13 C/dev-help-appmenu.page:18
-#: C/dev-help-build.page:13 C/dev-help.page:16 C/dev-help.page:21
-#: C/dev-help-write.page:13 C/dev-translate-build.page:13
-#: C/dev-translate.page:14 C/dev-translate-setup.page:13
-#: C/dev-translate-tools.page:12 C/overview-io.page:16
-#: C/overview-media.page:11 C/overview-net.page:11 C/overview-settings.page:11
-#: C/overview-ui.page:11 C/tour-application.page:13 C/tour-application.page:18
-#: C/tour-events.page:13 C/tour-events.page:18 C/tour-get_object.page:13
-#: C/tour-get_object.page:18 C/tour-gjs.page:13 C/tour-gjs.page:18
-#: C/tour-glade.page:13 C/tour-glade.page:18 C/tour.page:14 C/tour.page:19
-#: C/tour-summary.page:12 C/tour-summary.page:17
-msgid "2013"
-msgstr "2013"
-
-#. (itstool) path: info/desc
-#: C/index.page:41
-msgid "Developer's overview of the Gnome Platform"
-msgstr "Επισκόπηση ανάπτυξης της πλατφόρμας Gnome"
-
-#. (itstool) path: info/title
-#: C/index.page:43
-msgctxt "link:trail"
-msgid "GNOME"
-msgstr "GNOME"
-
-#. (itstool) path: page/title
-#: C/index.page:46
-msgid "Develop for the GNOME Platform"
-msgstr "Ανάπτυξη της πλατφόρμας GNOME"
-
-#. (itstool) path: page/p
-#: C/index.page:48
-msgid ""
-"Welcome to the GNOME developer overview. GNOME offers a range of tools that "
-"can be used in your application."
-msgstr ""
-"Καλωςορίσατε στην επισκόπηση ανάπτυξης GNOME. Το GNOME προσφέρει μια περιοχή "
-"εργαλείων που μπορεί να χρησιμοποιηθεί στην εφαρμογή σας."
-
-#. (itstool) path: links/title
-#: C/index.page:54
-msgid "Core technologies"
-msgstr "Τεχνολογίες πυρήνα"
-
-#. (itstool) path: links/title
-#: C/index.page:66
-msgid "Integration guides"
-msgstr "Οδηγοί ενσωμάτωσης"
-
-#. (itstool) path: links/title
-#: C/index.page:70
-msgid "Development platform"
-msgstr "Πλατφόρμα ανάπτυξης"
+"X-Generator: Poedit 1.6.5\n"
 
 #. (itstool) path: p/link
 #: C/cc-by-sa-3-0.xml:4
 msgid "Creative Commons Attribution-Share Alike 3.0 United States License"
-msgstr "Creative Commons Attribution-Share Alike 3.0 United States License"
+msgstr "Άδεια Creative Commons Attribution-Share Alike 3.0 United States"
 
 #. (itstool) path: license/p
 #: C/cc-by-sa-3-0.xml:3
@@ -162,10 +38,45 @@ msgstr ""
 "περιλαμβάνονται σ' αυτό το έγγραφο υπό τους όρους της επιλογής σας, χωρίς "
 "περιορισμό."
 
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr ""
+"Ελληνική μεταφραστική ομάδα GNOME <team@gnome.gr>, 2010-2014\n"
+"Δημήτρης Σπίγγος <dmtrs32@gmail.com>, 2012, 2013, 2014\n"
+"Τζένη Πετούμενου <epetoumenou@gmail.com>, 2010\n"
+"Μάριος Ζηντίλης <m.zindilis@dmajor.org>, 2010\n"
+"Μαρία Θουκυδίδου <marablack3@gmail.com>, 2014\n"
+"Θάνος Τρυφωνίδης <tomtryf@gmail.com>, 2014"
+
 #. (itstool) path: credit/name
 #: C/dev-help-appmenu.page:11 C/dev-help-build.page:11 C/dev-help.page:14
 msgid "Radina Matic"
 msgstr "Radina Matic"
+
+#. (itstool) path: credit/years
+#: C/dev-help-appmenu.page:13 C/dev-help-appmenu.page:18
+#: C/dev-help-build.page:13 C/dev-help.page:16 C/dev-help.page:21
+#: C/dev-help-write.page:13 C/dev-translate-build.page:13
+#: C/dev-translate.page:14 C/dev-translate-setup.page:13
+#: C/dev-translate-tools.page:12 C/overview-io.page:17
+#: C/overview-media.page:12 C/overview-net.page:12 C/overview-settings.page:12
+#: C/overview-ui.page:12 C/tour-application.page:13 C/tour-application.page:18
+#: C/tour-events.page:13 C/tour-events.page:18 C/tour-get_object.page:13
+#: C/tour-get_object.page:18 C/tour-gjs.page:13 C/tour-gjs.page:18
+#: C/tour-glade.page:13 C/tour-glade.page:18 C/tour.page:14 C/tour.page:19
+#: C/tour-summary.page:12 C/tour-summary.page:17
+msgid "2013"
+msgstr "2013"
+
+#. (itstool) path: credit/name
+#: C/dev-help-appmenu.page:16 C/dev-help-build.page:16 C/dev-help.page:19
+#: C/dev-help-write.page:11 C/dev-translate-build.page:11 C/index.page:36
+#: C/license.page:11 C/tour-application.page:11 C/tour-events.page:11
+#: C/tour-get_object.page:11 C/tour-gjs.page:11 C/tour-glade.page:11
+#: C/tour.page:12 C/tour-summary.page:10
+msgid "Ekaterina Gerasimova"
+msgstr "Ekaterina Gerasimova"
 
 #. (itstool) path: page/title
 #: C/dev-help-appmenu.page:25
@@ -176,7 +87,7 @@ msgstr "Προσθήκη <gui>Βοήθειας</gui> στο μενού εφαρ�
 #: C/dev-help-appmenu.page:28 C/dev-help-build.page:28 C/dev-help.page:33
 #: C/dev-help-write.page:23
 msgid "Set up help"
-msgstr "Ρύθμιση της βοήθειας"
+msgstr "Ρυθμίστε τη βοήθεια"
 
 #. (itstool) path: page/p
 #: C/dev-help-appmenu.page:31
@@ -265,8 +176,8 @@ msgid ""
 "View the help with <app>Yelp</app> when the <gui style=\"menuitem\">Help</"
 "gui> menu item is clicked:"
 msgstr ""
-"Προβάλετε τη βοήθεια με την <app>Yelp</app> όταν το στοιχείο μενού <gui "
-"style=\"menuitem\">Βοήθεια</gui> πατιέται:"
+"Προβάλετε τη βοήθεια με το <app>Yelp</app> όταν πατιέται το στοιχείο μενού "
+"<gui style=\"menuitem\">Βοήθεια</gui>:"
 
 #. (itstool) path: example/code
 #: C/dev-help-appmenu.page:69
@@ -306,9 +217,9 @@ msgid ""
 "To link to a section on the <file>index.page</file>, use <code>\"help:"
 "<input>applicationname</input>/index#<input>sectionid</input>\"</code>."
 msgstr ""
-"Για σύνδεση με μια ενότητα στο <file>index.page</file>, χρησιμοποιήστε <code>"
-"\"help:<input>applicationname</input>/index#<input>sectionid</input>\"</"
-"code>."
+"Για να συνδέσετε μια ενότητα στο <file>index.page</file>, χρησιμοποιήστε "
+"<code>\"help:<input>applicationname</input>/index#<input>sectionid</input>"
+"\"</code>."
 
 #. (itstool) path: page/title
 #: C/dev-help-build.page:25
@@ -318,7 +229,7 @@ msgstr "Ρύθμιση του συστήματος δόμησής σας"
 #. (itstool) path: page/p
 #: C/dev-help-build.page:31
 msgid "Help is normally installed into the <_:file-1/> directory."
-msgstr "Η βοήθεια είναι κανονικά εγκατεστημένη στον κατάλογο <_:file-1/>."
+msgstr "Η βοήθεια είναι εγκατεστημένη στον κατάλογο <_:file-1/>."
 
 #. (itstool) path: page/p
 #: C/dev-help-build.page:34
@@ -360,7 +271,7 @@ msgid ""
 "Add a <file>help/Makefile.am</file>, it should list the help files in your "
 "project that you want to install:"
 msgstr ""
-"Προσθέστε ένα <file>help/Makefile.am</file>, πρέπει να δίνει τα αρχεία "
+"Προσθέστε το <file>help/Makefile.am</file>, πρέπει να δίνει τα αρχεία "
 "βοήθειας στο έργο σας που θέλετε να εγκαταστήσετε:"
 
 #. (itstool) path: page/code
@@ -461,9 +372,9 @@ msgid ""
 "although you may not need an <file>index.page</file> if you are dropping "
 "plugin help into another project."
 msgstr ""
-"Τα περισσότερα έργα πρέπει να έχουν ένα <file>index.page</file> και κάποιες "
-"σελίδες περιεχομένου, αν και μπορεί να μην χρειαστείτε ένα <file>index.page</"
-"file> αν αποθέτετε τη βοήθεια προσθέτου σε ένα άλλο έργο."
+"Τα περισσότερα έργα και κάποιες σελίδες περιεχομένου πρέπει να έχουν ένα "
+"<file>index.page</file>, αν και μπορεί να μην χρειαστείτε ένα <file>index."
+"page</file> αν αποθέτετε τη βοήθεια προσθέτου σε ένα άλλο έργο."
 
 #. (itstool) path: listing/title
 #: C/dev-help-write.page:35
@@ -591,10 +502,417 @@ msgstr ""
 "\n"
 "&lt;/page&gt;\n"
 
+#. (itstool) path: credit/name
+#: C/dev-launching-desktop.page:11 C/dev-launching-icons.page:11
+#: C/dev-launching-mime.page:10 C/dev-launching-startupnotify.page:11
+#: C/dev-launching.page:14 C/dev-thumbnailer.page:13 C/overview-media.page:10
+#: C/overview-net.page:10 C/overview-settings.page:10
+msgid "David King"
+msgstr "David King"
+
+#. (itstool) path: credit/years
+#: C/dev-launching-desktop.page:13 C/dev-launching-icons.page:13
+#: C/dev-launching-mime.page:12 C/dev-launching-startupnotify.page:13
+#: C/dev-launching.page:16 C/dev-thumbnailer.page:15
+msgid "2014"
+msgstr "2014"
+
+#. (itstool) path: page/title
+#: C/dev-launching-desktop.page:20
+msgid "Install a desktop file"
+msgstr "Εγκατάσταση ενός αρχείου επιφάνειας εργασίας"
+
+#. (itstool) path: links/title
+#: C/dev-launching-desktop.page:23 C/dev-launching-icons.page:23
+#: C/dev-launching-mime.page:22 C/dev-launching-startupnotify.page:23
+#: C/dev-launching.page:28
+msgid "Launch your application"
+msgstr "Εκκινήστε την εφαρμογή σας"
+
+#. (itstool) path: page/p
+#: C/dev-launching-desktop.page:26
+msgid ""
+"Write and install a desktop file so that users can discover and launch your "
+"application."
+msgstr ""
+"Γράψτε και εγκαταστείστε ένα αρχείο επιφάνειας εργασίας έτσι ώστε οι χρήστες "
+"να μπορούν να ανακαλύψουν και να εκκινούν την εφαρμογή σας."
+
+#. (itstool) path: page/p
+#: C/dev-launching-desktop.page:29
+#| msgid ""
+#| "GNOME uses the <link type=\"seealso\" href=\"http://standards.freedesktop."
+#| "org/desktop-entry-spec/latest/index.html\">freedesktop.org Desktop Entry</"
+#| "link> and <link type=\"seealso\" href=\"http://standards.freedesktop.org/"
+#| "desktop-menu-spec/latest/index.html\">Desktop Menu specifications</link> "
+#| "to describe application launchers. Installing a desktop file is the "
+#| "standard way to register your application with GNOME and other desktops."
+msgid ""
+"GNOME uses the <link href=\"http://standards.freedesktop.org/desktop-entry-"
+"spec/latest/index.html\">freedesktop.org Desktop Entry</link> and <link href="
+"\"http://standards.freedesktop.org/desktop-menu-spec/latest/index.html"
+"\">Desktop Menu specifications</link> to describe application launchers. "
+"Installing a desktop file is the standard way to register your application "
+"with GNOME and other desktops."
+msgstr ""
+"Το GNOME χρησιμοποιεί την <link type=\"seealso\" href=\"http://standards."
+"freedesktop.org/desktop-entry-spec/latest/index.html\">προδιαγραφή "
+"καταχώρησης επιφάνειας εργασίας του freedesktop.org</link> και τις <link "
+"type=\"seealso\" href=\"http://standards.freedesktop.org/desktop-menu-spec/"
+"latest/index.html\">προδιαγραφές μενού της επιφάνειας εργασίας</link> για να "
+"περιγράφει τους εκκινητές εφαρμογών. Η εγκατάσταση ενός αρχείου επιφάνειας "
+"εργασίας είναι ο πρότυπος τρόπος εγγραφής της εφαρμογής σας στο GNOME και σε "
+"άλλες επιφάνειες εργασίας."
+
+#. (itstool) path: page/p
+#: C/dev-launching-desktop.page:37
+msgid ""
+"A desktop file lists your application binary, name and type, and can also "
+"list an icon, description and several other pieces of information about "
+"launching an application."
+msgstr ""
+"Ένα αρχείο επιφάνειας εργασίας περιέχει το εκτέλεσιμο της εφαρμογής σας, το "
+"όνομα και τον τύπο, και μπορεί επίσης να περιλαμβάνει και ένα εικονίδιο, μια "
+"περιγραφή, και πολλές άλλες πληροφορίες σχετικά με την εκκίνηση μιας "
+"εφαρμογής."
+
+#. (itstool) path: page/p
+#: C/dev-launching-desktop.page:41
+msgid ""
+"For a hypothetical application <app>My Application</app>, a desktop file "
+"would look as follows:"
+msgstr ""
+"Για μια υποθετική εφαρμογή <app>My Application</app>, ένα αρχείο επιφάνειας "
+"εργασίας θα έμοιαζε ως εξής:"
+
+#. (itstool) path: listing/title
+#: C/dev-launching-desktop.page:45 C/dev-launching-mime.page:33
+msgid "<file>myapplication.desktop</file>"
+msgstr "<file>myapplication.desktop</file>"
+
+#. (itstool) path: listing/code
+#: C/dev-launching-desktop.page:46
+#, no-wrap
+msgid ""
+"[Desktop Entry]\n"
+"Name=My Application\n"
+"Exec=myapplication\n"
+"Type=Application\n"
+"Icon=myapplication\n"
+"Comment=Do the thing that the application does\n"
+"Categories=GTK;GNOME;Utility;"
+msgstr ""
+"[Desktop Entry]\n"
+"Name=My Application\n"
+"Exec=myapplication\n"
+"Type=Application\n"
+"Icon=myapplication\n"
+"Comment=Μια περιγραφή της εφαρμογής\n"
+"Categories=GTK;GNOME;Utility;"
+
+#. (itstool) path: page/p
+#: C/dev-launching-desktop.page:56
+msgid ""
+"The <code>[Desktop Entry]</code> line indicates that this is a desktop file. "
+"It is followed by keys, which describe the application launcher. The "
+"<code>Name</code> key is the human-readable name of the application, to be "
+"shown in the UI. The application binary is listed in the <code>Exec</code> "
+"key, either the complete path or a binary that is looked up in the "
+"<code>PATH</code>. The last required key is the <code>Type</code>, which for "
+"applications is always <code>Application</code>. Alternative types are "
+"listed in the desktop entry specification."
+msgstr ""
+"Η γραμμή κώδικα <code>[Desktop Entry]</code> δείχνει ότι αυτό είναι ένα "
+"αρχείο επιφάνειας εργασίας. Συνοδεύεται από κλειδιά που περιγράφουν τον "
+"εκκινητή της εφαρμογής. Το κλειδί <code>Name</code> είναι το όνομα της "
+"εφαρμογής, το οποίο θα εμφανίζεται στη διεπαφή χρήστη. Το εκτελέσιμο της "
+"εφαρμογής περιλαμβάνεται στο κλειδί <code>Exec</code>, είτε με την πλήρη "
+"διαδρομή ή ένα εκτελέσιμο για το οποίο γίνεται αναζήτηση στο <code>PATH</"
+"code>. Το τελευταίο κλειδί που χρειάσθηκε είναι το <code>Type</code>, το "
+"οποίο για τις εφαρμογές είναι πάντοτε το <code>Application</code>. Οι "
+"εναλλακτικοί τύποι συμπεριλαμβάνονται στις προδιαγραφές καταχώρησης "
+"επιφάνειας εργασίας."
+
+#. (itstool) path: page/p
+#: C/dev-launching-desktop.page:65
+msgid ""
+"Other fields in the desktop file are optional, but recommended. Applications "
+"should install an icon, and list the name of the icon (excluding the "
+"extension) in the <code>Icon</code> key. The <code>Comment</code> is a brief "
+"description of the application. To help users when browsing applications, "
+"the <code>Categories</code> key should be populated with a list of "
+"categories, separated by a semicolon, from the Desktop Menu Specification."
+msgstr ""
+"Τα άλλα πεδία στο αρχείο επιφάνειας εργασίας είναι προαιρετικά, αλλά "
+"συστηνόμενα. Οι εφαρμογές θα πρέπει να εγκαθιστούν ένα εικονίδιο, και να "
+"συμπεριλαμβάνουν το όνομα του εικονιδίου (εξαιρουμένης της επεκτάσεως) στον "
+"κλειδί <code>Icon</code>. Το <code>Σχόλιο</code> είναι μια σύντομη περιγραφή "
+"της εφαρμογής. Για να βοηθηθούν οι χρήστες κατά την περιήγησή τους στις "
+"εφαρμογές, το κλειδί <code>Categories</code> θα πρέπει να περιλαμβάνει μια "
+"λίστα με κατηγορίες, διαχωριζόμενες από μία άνω τελεία, από τις προδιαγραφές "
+"μενού της επιφάνειας εργασίας."
+
+#. (itstool) path: page/p
+#: C/dev-launching-desktop.page:73
+msgid ""
+"There are several other keys that can be added to desktop files, which are "
+"listed and described in the Desktop Entry Specification."
+msgstr ""
+"Υπάρχουν διάφορα άλλα κλειδιά που μπορούν να προστεθούν στα αρχεία "
+"επιφάνειας εργασίας, που παρατίθενται σε λίστα και περιγράφονται στις "
+"προδιαγραφές καταχώρησης της επιφάνειας εργασίας."
+
+#. (itstool) path: page/title
+#: C/dev-launching-icons.page:20
+msgid "Install an icon"
+msgstr "Εγκατάσταση ενός εικονίδίου"
+
+#. (itstool) path: page/p
+#: C/dev-launching-icons.page:26
+msgid "Install an icon to identify your application."
+msgstr "Εγκαταστήστε ένα εικοίδιο για την αναγνώριση της εφαρμογής σας."
+
+#. (itstool) path: page/p
+#: C/dev-launching-icons.page:28
+#| msgid ""
+#| "When listing an icon in a desktop file, the image must be installed in a "
+#| "standard location, given by the <link type=\"seealso\" href=\"http://"
+#| "standards.freedesktop.org/icon-theme-spec/icon-theme-spec-latest.html"
+#| "\">freedesktop.org Icon Theme</link> and <link type=\"seealso\" href="
+#| "\"http://standards.freedesktop.org/icon-naming-spec/icon-naming-spec-"
+#| "latest.html\">Icon Naming specifications</link>. As a minimum, an "
+#| "application should install a 48×48 pixel icon into <file><var>$prefix</"
+#| "var>/share/icons/hicolor/48x48/apps</file> in PNG format."
+msgid ""
+"When listing an icon in a desktop file, the image must be installed in a "
+"standard location, given by the <link href=\"http://standards.freedesktop."
+"org/icon-theme-spec/icon-theme-spec-latest.html\">freedesktop.org Icon "
+"Theme</link> and <link href=\"http://standards.freedesktop.org/icon-naming-"
+"spec/icon-naming-spec-latest.html\">Icon Naming specifications</link>. As a "
+"minimum, an application should install a 48×48 pixel icon into <file><var>"
+"$prefix</var>/share/icons/hicolor/48x48/apps</file> in PNG format."
+msgstr ""
+"Όταν παρατίθεται ένα εικονίδιο σε ένα αρχείο επιφάνειας εργασίας, η εικόνα "
+"πρέπει να είναι εγκατεστημένη σε μα πρότυπη τοποθεσία, που παρέχετα από το "
+"<link type=\"seealso\" href=\"http://standards.freedesktop.org/icon-theme-"
+"spec/icon-theme-spec-latest.html\">θέμα εικονιδίου του freedesktop.org </"
+"link> και από τις <link type=\"seealso\" href=\"http://standards.freedesktop."
+"org/icon-naming-spec/icon-naming-spec-latest.html\">προδιαγραφές "
+"ονομοταδοσίας ενός εικονιδίου</link>. Κατ' ελάχιστον, μια εφαρμογή πρέπει να "
+"εγκαθιστά ένα εικονίδιο 48×48 εικονοστοιχείων στο <file><var>$prefix</var>/"
+"share/icons/hicolor/48x48/apps</file> υπό μορφή PNG."
+
+#. (itstool) path: page/p
+#: C/dev-launching-icons.page:37
+#| msgid ""
+#| "To match with other icons, both in GNOME and other platforms, follow the "
+#| "<link type=\"seealso\" href=\"http://tango.freedesktop.org/"
+#| "Tango_Icon_Theme_Guidelines\">Tango Icon Theme guidelines</link> when "
+#| "creating icons and application artwork."
+msgid ""
+"To match with other icons, both in GNOME and other platforms, follow the "
+"<link href=\"http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines"
+"\">Tango Icon Theme guidelines</link> when creating icons and application "
+"artwork."
+msgstr ""
+"Για την αντιστοίχιση με άλλα εικονίδια, τόσο για το GNOME όσο και για άλλες "
+"πλατφόρμες, ακολουθήστε τις <link type=\"seealso\" href=\"http://tango."
+"freedesktop.org/Tango_Icon_Theme_Guidelines\">οδηγίες για το θέμα εικονιδίου "
+"Tango</link> κατά τη δημιουργία εικονιδίων και γραφικών μιας εφαρμογής."
+
+#. (itstool) path: page/title
+#: C/dev-launching-mime.page:19
+msgid "Associate MIME types"
+msgstr "Σύνδεση με τύπους ΜΙΜΕ"
+
+#. (itstool) path: page/p
+#: C/dev-launching-mime.page:25
+msgid "Associate files with your application, using MIME types."
+msgstr "Συσχετίστε αρχεία με την εφαρμογή σας, χρησιμοποιώντας τύπους ΜΙΜΕ"
+
+#. (itstool) path: page/p
+#: C/dev-launching-mime.page:27
+msgid ""
+"If your application opens files of a certain type, such as PNG images, you "
+"can add an association with the MIME type of the file. This is added to the "
+"desktop file."
+msgstr ""
+"Αν η εφαρμογή σας ανοίγει αρχεία ενος κάποιου τύπου, όπως εικονες PNG, "
+"μπορείτε να προσθέσετε μια συσχέτιση με τον τύπο ΜΙΜΕ του αρχείου. Αυτό "
+"προστίθεται στο αρχείο επιφάνειας εργασίας."
+
+#. (itstool) path: listing/code
+#: C/dev-launching-mime.page:34
+#, no-wrap
+msgid ""
+"[Desktop Entry]\n"
+"Name=My Application\n"
+"Exec=myapplication\n"
+"Type=Application\n"
+"MimeType=image/png"
+msgstr ""
+"[Desktop Entry]\n"
+"Name=My Application\n"
+"Exec=myapplication\n"
+"Type=Application\n"
+"MimeType=image/png"
+
+#. (itstool) path: page/p
+#: C/dev-launching-mime.page:42
+msgid ""
+"For this hypothetical application, <code>image/png</code> is listed as the "
+"supported MIME type."
+msgstr ""
+"Για αυτή την υποθετική εφαρμογή, το <code>image/png</code> παρατίθεται ως ο "
+"υποστηριζόμενος τύπος MIME."
+
+#. (itstool) path: page/p
+#: C/dev-launching-mime.page:45
+#| msgid ""
+#| "Custom MIME types can be added to the system-wide MIME database, but this "
+#| "is outside the scope of this guide. The <link type=\"seealso\" href="
+#| "\"http://standards.freedesktop.org/shared-mime-info-spec/latest/\">Shared "
+#| "MIME-Info Database</link> specification for more details."
+msgid ""
+"Custom MIME types can be added to the system-wide MIME database, but this is "
+"outside the scope of this guide. The <link href=\"http://standards."
+"freedesktop.org/shared-mime-info-spec/latest/\">Shared MIME-Info Database</"
+"link> specification for more details."
+msgstr ""
+"Μπορείτε να προσθέσετε παραμετροποιημένους τύπους MIME σε όλο το σύστημα "
+"βάσης δεδομένων MIME, αλλά αυτό είναι κάτι που ξεφεύγει από τον σκοπό αυτού "
+"του οδηγού. Δείτε τις προδιαγραφές για την <link type=\"seealso\" href="
+"\"http://standards.freedesktop.org/shared-mime-info-spec/latest/\">κοινή "
+"βάση δεδομένων με πληροφορίες MIME</link> για παραπάνω λεπτομέρειες."
+
+#. (itstool) path: page/title
+#: C/dev-launching-startupnotify.page:20
+msgid "Startup Notification"
+msgstr "Ειδοποίηση εκκίνησης"
+
+#. (itstool) path: page/p
+#: C/dev-launching-startupnotify.page:26
+msgid "Notify the user when your application has finished starting up."
+msgstr "Ειδοποιήστε τον χρήστη όταν η εφαρμογή σας τελείωσε την εκκίνηση."
+
+#. (itstool) path: page/p
+#: C/dev-launching-startupnotify.page:28
+#| msgid ""
+#| "GNOME implements the <link type=\"seealso\" href=\"http://standards."
+#| "freedesktop.org/desktop-entry-spec/latest/index.html\">Startup "
+#| "Notification protocol</link>, to give feedback to the user when "
+#| "application startup finishes."
+msgid ""
+"GNOME implements the <link href=\"http://standards.freedesktop.org/desktop-"
+"entry-spec/latest/index.html\">Startup Notification protocol</link>, to give "
+"feedback to the user when application startup finishes."
+msgstr ""
+"Το GNOME υλοποιεί το <link type=\"seealso\" href=\"http://standards."
+"freedesktop.org/desktop-entry-spec/latest/index.html\">Πρωτόκολλο "
+"ειδοποίησης εκκίνησης</link>, για να προσφέρει ανάδραση στον χρήστη όταν "
+"τελειώσει η εκκίνηση της εφαρμογής."
+
+#. (itstool) path: page/p
+#: C/dev-launching-startupnotify.page:33
+msgid ""
+"GTK+ applications automatically support startup notification, and by default "
+"notify that application startup is complete when the first window is shown. "
+"Your application must declare that it supports startup notification by "
+"adding <code>StartupNotify=true</code> to its desktop file."
+msgstr ""
+"Οι εφαρμογές GTK+ υποστηρίζουν αυτομάτως την ειδοποίηση κατά την εκκίνηση, "
+"και από προεπιλογή ειδοποιούν ότι η εκκίνηση της εφαρμογης είναι πλήρης "
+"μόλις εμφανισθεί το πρώτο παράθυρο. Η εφαρμογή σας πρέπει να δηλώσει ότι "
+"υποστηρίζει την ειδοποίηση στην εκκίνηση, προσθέτοντας το "
+"<code>StartupNotify=true</code> στο αρχείο της επιφάνειας εργασίας της."
+
+#. (itstool) path: page/p
+#: C/dev-launching-startupnotify.page:38
+msgid ""
+"More complicated startup scenarios, such as showing a splash screen during "
+"startup, would need custom handling with <code href=\"https://developer."
+"gnome.org/gdk3/stable/gdk3-General.html#gdk-notify-startup-complete"
+"\">gdk_notify_startup_complete()</code>."
+msgstr ""
+"Κάποια περισσότερο περίπλοκα σενάρια εκκίνησης, όπως η εμφάνιση οθόνης "
+"έναρξης στην εκκίνηση, θα χρειαζόταν παραμετροποιημένους χειρισμούς με  το "
+"<code href=\"https://developer.gnome.org/gdk3/stable/gdk3-General.html#gdk-"
+"notify-startup-complete\">gdk_notify_startup_complete()</code>."
+
+#. (itstool) path: info/desc
+#: C/dev-launching.page:21
+msgid "Showing a launcher and starting your application."
+msgstr "Εμφάνιση ενός εκκινητή και εκκίνηση της εφαρμογής σας."
+
+#. (itstool) path: page/title
+#: C/dev-launching.page:25
+msgid "Application launching"
+msgstr "Εκκίνηση εφαρμογής"
+
+#. (itstool) path: page/p
+#: C/dev-launching.page:31
+msgid ""
+"An icon in the launcher is the standard way to launch your application. Use "
+"the freedesktop.org Desktop Entry Specification standard to create a desktop "
+"file, giving your application name, icon and a brief description."
+msgstr ""
+"Ένα εικονίδιο στον εκκινητή είναι ο τυπικός τρόπος για να εκκινήσετε την "
+"εφαρμογής σας. Χρησιμοποιήστε την  πρότυπη προδιαγραφή καταχώρησης "
+"επιφάνειας εργασίας του freedesktop.org, για να δημιουργήσετε ένα αρχείο "
+"επιφάνειας εργασίας, δίνοντας στην εφαρμογή σας ένα όνομα, ενα εικονίδιο και "
+"μία σύντομη περιγραφή. "
+
+#. (itstool) path: info/desc
+#: C/dev-thumbnailer.page:20
+msgid "Thumbnails for document-like files."
+msgstr "Μικρογραφίες για αρχεία τύπου εγγράφων"
+
+#. (itstool) path: page/title
+#: C/dev-thumbnailer.page:24
+msgid "File thumbnails"
+msgstr "Μικρογραφίες αρχείων"
+
+#. (itstool) path: page/p
+#: C/dev-thumbnailer.page:26
+msgid ""
+"If your application handles files which could be printed or could be "
+"represented well as a document, adding a thumbnailer makes the files show up "
+"in <app>Files</app> with images that correspond to the document."
+msgstr ""
+"Αν η εφαρμογή σας διαχειρίζεται αρχεία που μπορούν να εκτυπωθούν ή μπορούν "
+"να αναπαρασταθούν καλά ως ένα έγγραφο, προσθέτοντας μια μικρογραφία κάνει τα "
+"αρχεία να εμφανίζονται στα <app>Αρχεία</app> με εικόνες που αντιστοιχούν στο "
+"έγγραφο."
+
+#. (itstool) path: page/p
+#: C/dev-thumbnailer.page:30
+msgid ""
+"The gnome-desktop library defines the interface and associated files that a "
+"thumbnailer must implement. The component responsible for calling the "
+"thumbnailer is <link href=\"https://developer.gnome.org/gnome-desktop3/"
+"stable/GnomeDesktopThumbnailFactory.html\">GnomeDesktopThumbnailFactory</"
+"link>."
+msgstr ""
+"Η βιβλιοθήκη gnome-desktop ορίζει την διεπαφή και τα συσχετιζόμενα αρχεία "
+"που πρέπει να υλοποιεί μια μικρογραφία. Το συστατικό που έχει την ευθύνη να "
+"καλεί την μικρογραφία είναι το <link href=\"https://developer.gnome.org/"
+"gnome-desktop3/stable/GnomeDesktopThumbnailFactory.html"
+"\">GnomeDesktopThumbnailFactory</link>."
+
+#. (itstool) path: page/p
+#: C/dev-thumbnailer.page:34
+msgid ""
+"A common helper for thumbnailers, which handles the command-line parsing and "
+"output file generation, is <link href=\"\">gnome-thumbnailer-skeleton</link>."
+msgstr ""
+"Ένας βοηθός για μικρογραφίες, όπου χειρίζεται την ανάλυση της γραμμής "
+"εντολών και την έξοδο της δημιουργίας ενός αρχείου, είναι το <link href="
+"\"\">gnome-thumbnailer-skeleton</link>."
+
 #. (itstool) path: page/title
 #: C/dev-translate-build.page:21
 msgid "Set up your build system for translation"
-msgstr "Ρυθμίστε το σύστημα δόμησής σας για μετάφραση"
+msgstr "Ρύθμιση του συστήματος δόμησης για μετάφραση"
 
 #. (itstool) path: links/title
 #: C/dev-translate-build.page:24 C/dev-translate.page:25
@@ -779,7 +1097,7 @@ msgstr ""
 
 #. (itstool) path: credit/name
 #: C/dev-translate.page:12 C/dev-translate-setup.page:11
-#: C/dev-translate-tools.page:10 C/overview-io.page:14 C/overview-ui.page:9
+#: C/dev-translate-tools.page:10 C/overview-io.page:15 C/overview-ui.page:10
 msgid "Michael Hill"
 msgstr "Michael Hill"
 
@@ -842,7 +1160,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/dev-translate-setup.page:21
 msgid "Mark strings for translation"
-msgstr "Σημειώστε τις συμβολοσειρές για μετάφραση"
+msgstr "Σημείωση των συμβολοσειρών για μετάφραση"
 
 #. (itstool) path: page/p
 #: C/dev-translate-setup.page:27
@@ -913,27 +1231,220 @@ msgstr ""
 "εργασία διαχειρίζεται από το έργο μετάφρασης GNOME. Η <app href=\"http://"
 "projects.gnome.org/gtranslator/\">Gtranslator</app> είναι ένα εργαλείο GNOME "
 "για επεξεργασία αρχείων <file>.po</file>. Άλλα δικτυακά και μη εργαλεία "
-"τοπικοποίησης περιλαμβάνουν <app>Transifex</app>, <app>Virtaal</app>, "
+"τοπικοποίησης είναι τα <app>Transifex</app>, <app>Virtaal</app>, "
 "<app>KBabel</app> ή <app>Pootle</app>."
+
+#. (itstool) path: credit/name
+#: C/index.page:12
+msgid "Shaun McCance"
+msgstr "Shaun McCance"
+
+#. (itstool) path: credit/years
+#: C/index.page:14
+msgid "2005-2011"
+msgstr "2005-2011"
+
+#. (itstool) path: credit/name
+#: C/index.page:17 C/overview-communication.page:10 C/overview-io.page:10
+#: C/tech.page:10
+msgid "Phil Bull"
+msgstr "Phil Bull"
+
+#. (itstool) path: credit/years
+#: C/index.page:19 C/overview-communication.page:12 C/overview-io.page:12
+#: C/tech.page:12
+msgid "2012"
+msgstr "2012"
+
+#. (itstool) path: credit/name
+#: C/index.page:22
+msgid "Federico Mena-Quintero"
+msgstr "Federico Mena-Quintero"
+
+#. (itstool) path: credit/years
+#: C/index.page:24
+msgid "2012, 2013"
+msgstr "2012, 2013"
+
+#. (itstool) path: credit/name
+#: C/index.page:27
+msgid "Germán Póo-Caamaño"
+msgstr "Germán Póo-Caamaño"
+
+#. (itstool) path: credit/years
+#: C/index.page:29
+msgid "2011"
+msgstr "2011"
+
+#. (itstool) path: credit/name
+#: C/index.page:32
+msgid "GNOME Foundation"
+msgstr "Ίδρυμα GNOME"
+
+#. (itstool) path: credit/page
+#: C/index.page:33
+msgid "http://foundation.gnome.org/"
+msgstr "http://foundation.gnome.org/"
+
+#. (itstool) path: credit/years
+#: C/index.page:38
+#| msgid "2012, 2013"
+msgid "2013, 2014"
+msgstr "2013, 2014"
+
+#. (itstool) path: info/desc
+#: C/index.page:43
+msgid "Guide to the GNOME platform and libraries for developers."
+msgstr "Οδηγός πλατφόρμας και βιβλιοθηκών του GNOME για προγραμματιστές."
+
+#. (itstool) path: info/title
+#: C/index.page:45
+msgctxt "link:trail"
+msgid "GNOME"
+msgstr "GNOME"
+
+#. (itstool) path: page/title
+#: C/index.page:48
+msgid "GNOME application development overview"
+msgstr "Επισκόπηση ανάπτυξης εφαρμογής GNOME"
+
+#. (itstool) path: page/p
+#: C/index.page:50
+msgid ""
+"Welcome to the GNOME developer overview. GNOME offers a range of tools that "
+"can be used in your application."
+msgstr ""
+"Καλώς ορίσατε στην επισκόπηση GNOME για προγραμματιστές. Το GNOME προσφέρει "
+"ένα εύρος από εργαλεία που μπορούν να χρησιμοποιηθούν στην εφαρμογή σας."
+
+#. (itstool) path: links/title
+#: C/index.page:56
+msgid "Core technologies"
+msgstr "Τεχνολογίες πυρήνα"
+
+#. (itstool) path: links/title
+#: C/index.page:60
+msgid "Integration guides"
+msgstr "Οδηγοί ενσωμάτωσης"
+
+#. (itstool) path: links/title
+#: C/index.page:64
+#| msgid "Develop for the GNOME Platform"
+msgid "Develop for the platform"
+msgstr "Ανάπτυξη της πλατφόρμας"
+
+#. (itstool) path: info/desc
+#: C/license.page:17
+msgid "Which license should you use for your application?"
+msgstr "Ποια άδεια πρέπει να χρησιμοποιήσετε για την εφαρμογή σας;"
+
+#. (itstool) path: page/title
+#: C/license.page:21
+#| msgid "Run your application"
+msgid "License your application"
+msgstr "Επιλογή άδειας χρήσης"
+
+#. (itstool) path: page/p
+#: C/license.page:23
+msgid ""
+"When you write a new application or library, you will need to choose a "
+"license so that others know how they can use or reuse your work."
+msgstr ""
+"Όταν γράφετε μια νέα εφαρμογή ή βιβλιοθήκη, θα χρειαστεί να επιλέξετε μια "
+"άδεια χρήσης έτσι ώστε οι υπόλοιποι να γνωρίζουν πως μπορούν να "
+"χρησιμοποιήσουν τη δουλειά σας."
+
+#. (itstool) path: page/p
+#: C/license.page:26
+msgid ""
+"Libraries which are used in GNOME are usually licensed under the <link href="
+"\"http://www.gnu.org/\">GNU</link> <link href=\"https://www.gnu.org/licenses/"
+"old-licenses/lgpl-2.1.html\">LGPL 2.1</link>."
+msgstr ""
+"Οι βιβλιοθήκες που χρησιμοποιούνται στο GNOME συνήθως έχουν αδειοδοτηθεί υπό "
+"την <link href=\"http://www.gnu.org/\">GNU</link> <link href=\"https://www."
+"gnu.org/licenses/old-licenses/lgpl-2.1.html\">LGPL 2.1</link>."
+
+#. (itstool) path: page/p
+#: C/license.page:30
+msgid ""
+"Most newer GNOME applications are licensed under <link href=\"http://www.gnu."
+"org/licenses/gpl-3.0.html\">GPL3+</link>, while some of the older "
+"applications are licensed under <link href=\"http://www.gnu.org/licenses/"
+"gpl-2.0.html\">GPL2+</link>."
+msgstr ""
+"Οι νεότερες εφαρμογές του GNOME έχει αδειοδοτηθεί υπό την <link href="
+"\"http://www.gnu.org/licenses/gpl-3.0.html\">GPL3+</link>, ενώ ορισμένες "
+"παλιότερες εφαρμογές με <link href=\"http://www.gnu.org/licenses/gpl-2.0.html"
+"\">GPL2+</link>."
+
+#. (itstool) path: page/p
+#: C/license.page:35
+msgid ""
+"User help which is written by the GNOME Documentation Team is licensed under "
+"<link href=\"http://creativecommons.org/licenses/by-sa/3.0/\">CC-by-SA 3.0 "
+"Unported</link>. The documentation team tries to use this license "
+"consistently as it allows re-use of text from Wikipedia and many other "
+"reference sources."
+msgstr ""
+"Η Βοήθεια χρήστη που είναι γραμμένη από την Ομάδα τεκμηρίωσης GNOME έχει "
+"αδειοδοτηθεί υπό την <link href=\"http://creativecommons.org/licenses/by-"
+"sa/3.0/\">CC-by-SA 3.0 Unported</link>. Η ομάδα τεκμηρίωσης προσπαθεί να "
+"χρησιμοποιεί την άδεια με συνέπεια καθώς επιτρέπει την επαναχρησιμοποίηση "
+"του κειμένου από την Wikipedia και άλλες πηγές."
+
+#. (itstool) path: page/p
+#: C/license.page:41
+msgid ""
+"Translations have the same license as the parent strings. For example, "
+"strings from the applications are usually GPL2+ or GPL3+, while user "
+"documentation is usually CC-by-SA 3.0."
+msgstr ""
+"Οι μεταφράσεις έχουν την ίδια άδεια με τις αρχικές συμβολοσειρές. Για "
+"παράδειγμα, οι συμβολοσειρές από εφαρμογές είναι συνήθως σε GPL2+ ή GPL3+, "
+"ενώ η τεκμηρίωση χρήστη σε CC-by-SA 3.0."
+
+#. (itstool) path: page/p
+#: C/license.page:45
+msgid ""
+"GNOME cannot give legal advice on which license you should choose, but you "
+"may want to read information that is available from the <link href=\"http://"
+"opensource.org/licenses\">Open Source Initiative</link>, the <link href="
+"\"http://www.gnu.org/licenses/license-recommendations.html\">FSF</link> and "
+"<link href=\"https://blogs.gnome.org/bolsh/2014/04/17/choosing-a-license/"
+"\">Dave Neary's blog post about choosing a license</link>. You may also find "
+"the <link href=\"http://gstreamer.freedesktop.org/documentation/licensing."
+"html\">GStreamer licensing information</link> of interest, as GStreamer uses "
+"plugins."
+msgstr ""
+"Το GNOME δεν μπορεί να σας συμβουλέψει νομικά για το ποια άδεια να "
+"επιλέξετε, αλλά πιθανόν να θέλετε να πάρετε περισσότερες πληροφορίες από το "
+"<link href=\"http://opensource.org/licenses\">Open Source Initiative</link>, "
+"το <link href=\"http://www.gnu.org/licenses/license-recommendations.html"
+"\">FSF</link> και το <link href=\"https://blogs.gnome.org/bolsh/2014/04/17/"
+"choosing-a-license/\">άρθρο του Dave Neary για το πως να επιλέξετε άδεια</"
+"link>. Μπορεί να σας ενδιαφέρουν επίσης οι <link href=\"http://gstreamer."
+"freedesktop.org/documentation/licensing.html\">πληροφορίες αδειοδότησης του "
+"GStreamer</link>, καθώς το GStreamer χρησιμοποιεί πρόσθετα."
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/overview-communication.page:34
+#: C/overview-communication.page:35
 msgctxt "_"
 msgid "external ref='test_comm1.png' md5='47677860b23d89d6f428f1dc454bdb08'"
 msgstr "external ref='test_comm1.png' md5='47677860b23d89d6f428f1dc454bdb08'"
 
 #. (itstool) path: info/title
-#: C/overview-communication.page:14
+#: C/overview-communication.page:15
 msgctxt "link:trail"
 msgid "Communication"
 msgstr "Επικοινωνία"
 
 #. (itstool) path: info/desc
-#: C/overview-communication.page:15
+#: C/overview-communication.page:16
 msgid ""
 "Instant messaging, networking, social media, email, and calendaring support."
 msgstr ""
@@ -941,12 +1452,12 @@ msgstr ""
 "ημερολογίου."
 
 #. (itstool) path: page/title
-#: C/overview-communication.page:18
+#: C/overview-communication.page:19
 msgid "Communication and social networking"
 msgstr "Επικοινωνία και κοινωνική δικτύωση"
 
 #. (itstool) path: item/p
-#: C/overview-communication.page:22
+#: C/overview-communication.page:23
 msgid ""
 "<em style=\"strong\">Connect to instant messaging and social networking "
 "services</em>"
@@ -955,7 +1466,7 @@ msgstr ""
 "δικτύωσης</em>"
 
 #. (itstool) path: item/p
-#: C/overview-communication.page:25
+#: C/overview-communication.page:26
 msgid ""
 "<em style=\"strong\">Set up multi-protocol connections with web services or "
 "other clients</em>"
@@ -964,7 +1475,7 @@ msgstr ""
 "ιστού ή άλλους πελάτες</em>"
 
 #. (itstool) path: item/p
-#: C/overview-communication.page:28
+#: C/overview-communication.page:29
 msgid ""
 "<em style=\"strong\">Handle mail, online contacts and calendar services</em>"
 msgstr ""
@@ -972,7 +1483,7 @@ msgstr ""
 "υπηρεσίες ημερολογίου</em>"
 
 #. (itstool) path: page/p
-#: C/overview-communication.page:32
+#: C/overview-communication.page:33
 msgid ""
 "Get your users connected and communicating with their friends and contacts "
 "through instant messaging, social media, and email. GNOME's extensive "
@@ -988,19 +1499,19 @@ msgstr ""
 "πρόσβαση μέσα από χαμηλότερου επίπεδου APIs επίσης."
 
 #. (itstool) path: media/p
-#: C/overview-communication.page:35
+#: C/overview-communication.page:36
 msgid "Empathy instant messaging client"
 msgstr "Πελάτης άμεσων μηνυμάτων Empathy"
 
 #. (itstool) path: section/title
-#: C/overview-communication.page:39 C/overview-io.page:39
-#: C/overview-media.page:41 C/overview-net.page:43 C/overview-settings.page:38
-#: C/overview-ui.page:44
+#: C/overview-communication.page:40 C/overview-io.page:40
+#: C/overview-media.page:42 C/overview-net.page:44 C/overview-settings.page:39
+#: C/overview-ui.page:45
 msgid "What can you do?"
 msgstr "Τι μπορείτε να κάνετε;"
 
 #. (itstool) path: section/p
-#: C/overview-communication.page:41
+#: C/overview-communication.page:42
 msgid ""
 "For <em style=\"strong\">connecting to instant messaging services</em>, use "
 "<em style=\"strong\">Telepathy</em>. It provides a powerful framework for "
@@ -1020,7 +1531,7 @@ msgstr ""
 "επαφές."
 
 #. (itstool) path: section/p
-#: C/overview-communication.page:49
+#: C/overview-communication.page:50
 msgid ""
 "Create multi-player games or collaborative editors that integrate with the "
 "desktop-wide instant messaging services. With the <em style=\"strong\" xref="
@@ -1030,13 +1541,13 @@ msgid ""
 msgstr ""
 "Δημιουργήστε παιχνίδια πολλών παικτών ή συνεργαζόμενων επεξεργαστών που "
 "ενσωματώνονται με υπηρεσίες άμεσων μηνυμάτων ευρείας επιφάνειας εργασίας. Με "
-"την API <em style=\"strong\" xref=\"tech-telepathy\">Telepathy Tubes</em>, "
+"το API <em style=\"strong\" xref=\"tech-telepathy\">Telepathy Tubes</em>, "
 "μπορείτε <em style=\"strong\">να διοχετεύσετε ένα ελεύθερο πρωτόκολλο</em> "
 "μέσα από σύγχρονα πρωτόκολλα άμεσων μηνυμάτων όπως Jabber για τη δημιουργία "
 "διαδραστικών εφαρμογών."
 
 #. (itstool) path: section/p
-#: C/overview-communication.page:55
+#: C/overview-communication.page:56
 msgid ""
 "Allow users to see other people they can chat with, and find printers, "
 "shared files, and shared music collections as soon as they connect to a "
@@ -1054,62 +1565,37 @@ msgstr ""
 "Windows."
 
 #. (itstool) path: section/p
-#: C/overview-communication.page:60
+#: C/overview-communication.page:61
 msgid ""
 "Handle users' local and online address books and calendars with <em style="
 "\"strong\" xref=\"tech-eds\">Evolution Data Server</em> (EDS). It provides a "
 "way of storing account information and interacting with..."
 msgstr ""
-"Διαχειριστείτε τα τοπικά των χρηστών καθώς και τα βιβλία διευθύνσεων και "
-"ημερολόγια με τον <em style=\"strong\" xref=\"tech-eds\">διακομιστή "
-"δεδομένων Evolution</em> (EDS). Παρέχει έναν τρόπο αποθήκευσης πληροφοριών "
-"λογαριασμού και αλληλεπίδρασης με..."
+"Διαχειριστείτε τα τοπικά και διαδικτυακά βιβλία διευθύνσεων και ημερολόγια "
+"των χρηστών με τον <em style=\"strong\" xref=\"tech-eds\">διακομιστή "
+"δεδομένων Evolution</em> (EDS). Παρέχει έναν τρόπο για αποθήκευση και "
+"αλληλεπίδραση με τις πληροφορίες του λογαριασμού..."
 
 #. (itstool) path: section/p
-#: C/overview-communication.page:63
+#: C/overview-communication.page:64
 msgid ""
 "With <em style=\"strong\" xref=\"tech-folks\">Folks</em>, you will have "
 "access to a single API for handling social networking, chat, email, and "
 "audio/video communications."
 msgstr ""
 "Με το <em style=\"strong\" xref=\"tech-folks\">Folks</em>, θα έχετε πρόσβαση "
-"σε μια μοναδική API για διαχείριση κοινωνικής δικτύωσης, συνομιλία, "
-"αλληλογραφία και επικοινωνίες ήχου/βίντεο."
+"σε ένα μοναδικό API για διαχείριση κοινωνικής δικτύωσης, συνομιλίας, "
+"αλληλογραφίας και επικοινωνίες ήχου/βίντεο."
 
 #. (itstool) path: section/title
-#: C/overview-communication.page:69
-msgid "Code samples"
-msgstr "Δείγματα κώδικα"
-
-#. (itstool) path: item/p
-#: C/overview-communication.page:71
-msgid "Change the IM status"
-msgstr "Αλλαγή της κατάστασης IM"
-
-#. (itstool) path: item/p
-#: C/overview-communication.page:72
-msgid "Fetch a contact from a Gmail address book"
-msgstr "Προσκομίστε μια επαφή από ένα βιβλίο διευθύνσεων Gmail"
-
-#. (itstool) path: item/p
-#: C/overview-communication.page:73
-msgid "Scan the network for zeroconf printers"
-msgstr "Σαρώστε το δίκτυο για εκτυπωτές μηδενικής διαμόρφωσης"
-
-#. (itstool) path: item/p
-#: C/overview-communication.page:74
-msgid "Something with Telepathy Tubes"
-msgstr "Κάτι με το Telepathy Tubes"
-
-#. (itstool) path: section/title
-#: C/overview-communication.page:79 C/overview-io.page:63
-#: C/overview-media.page:89 C/overview-net.page:73 C/overview-settings.page:60
-#: C/overview-ui.page:88
+#: C/overview-communication.page:80 C/overview-io.page:64
+#: C/overview-media.page:90 C/overview-net.page:74 C/overview-settings.page:61
+#: C/overview-ui.page:89
 msgid "Real-world examples"
 msgstr "Πραγματικά παραδείγματα"
 
 #. (itstool) path: section/p
-#: C/overview-communication.page:86
+#: C/overview-communication.page:87
 msgid ""
 "You can see lots of real-world applications of the GNOME communications "
 "technologies in open source projects, like the examples given below."
@@ -1119,33 +1605,33 @@ msgstr ""
 "παρακάτω."
 
 #. (itstool) path: item/p
-#: C/overview-communication.page:89
+#: C/overview-communication.page:90
 msgid ""
 "<em style=\"strong\">Empathy</em> is an instant messaging app with support "
 "for a wide range of messaging services. It uses Telepathy to handle "
 "connections, presence, and contact information for all of the protocols that "
 "it supports."
 msgstr ""
-"<em style=\"strong\">Empathy</em> είναι μια εφαρμογή άμεσου μηνύματος με "
+"Το <em style=\"strong\">Empathy</em> είναι μια εφαρμογή άμεσου μηνύματος με "
 "υποστήριξη για μια πλατιά περιοχή υπηρεσιών μηνυμάτων. Χρησιμοποιεί "
 "Telepathy για διαχείριση συνδέσεων, παρουσίας και πληροφοριών επαφών για όλα "
 "τα πρωτόκολλα που υποστηρίζει."
 
 #. (itstool) path: item/p
-#: C/overview-communication.page:90
+#: C/overview-communication.page:91
 msgid ""
 "(<link href=\"https://live.gnome.org/Empathy\">Website</link> | <link href="
 "\"http://staz.be/tup/2009-06/Capture-Conversations.png\">Screenshot</link> | "
 "<link href=\"http://git.gnome.org/browse/empathy/tree/\">Empathy source "
 "code</link> )"
 msgstr ""
-"(<link href=\"https://live.gnome.org/Empathy\">Website</link> | <link href="
+"(<link href=\"https://live.gnome.org/Empathy\">Ιστότοπος</link> | <link href="
 "\"http://staz.be/tup/2009-06/Capture-Conversations.png\">Στιγμιότυπο</link> "
 "| <link href=\"http://git.gnome.org/browse/empathy/tree/\">Πηγαίος κώδικας "
 "Empathy</link> )"
 
 #. (itstool) path: item/p
-#: C/overview-communication.page:94
+#: C/overview-communication.page:95
 msgid ""
 "With Telepathy Tubes support, the <em style=\"strong\">GNOME Games</em> "
 "collection was able to add multi-player gaming support through the Jabber "
@@ -1156,7 +1642,7 @@ msgstr ""
 "το πρωτόκολλο Jabber."
 
 #. (itstool) path: item/p
-#: C/overview-communication.page:95
+#: C/overview-communication.page:96
 msgid ""
 "(<link href=\"https://live.gnome.org/GnomeGames/\">Website</link> | <link "
 "href=\"https://live.gnome.org/glChess?action=AttachFile&amp;do=get&amp;"
@@ -1164,14 +1650,14 @@ msgid ""
 "browse/gnome-games/tree/glchess/src\">GLChess online multiplayer code</"
 "link> )"
 msgstr ""
-"(<link href=\"https://live.gnome.org/GnomeGames/\">Website</link> | <link "
+"(<link href=\"https://live.gnome.org/GnomeGames/\">Ιστότοπος</link> | <link "
 "href=\"https://live.gnome.org/glChess?action=AttachFile&amp;do=get&amp;"
 "target=glchess3d.png\">Στιγμιότυπο</link> | <link href=\"http://git.gnome."
 "org/browse/gnome-games/tree/glchess/src\">Δικτυακός κώδικας πολλών παικτών "
 "GLChess</link> )"
 
 #. (itstool) path: item/p
-#: C/overview-communication.page:99
+#: C/overview-communication.page:100
 msgid ""
 "Avahi support allows users of the <em style=\"strong\">Rhythmbox</em> music "
 "player to see shared music collections on their local network, using DAAP."
@@ -1181,31 +1667,31 @@ msgstr ""
 "τοπικό τους δίκτυο, χρησιμοποιώντας DAAP."
 
 #. (itstool) path: item/p
-#: C/overview-communication.page:100
+#: C/overview-communication.page:101
 msgid ""
 "(<link href=\"http://projects.gnome.org/rhythmbox/\">Website</link> | <link "
 "href=\"http://skss.learnfree.eu/wp-content/uploads/2009/05/rhythmbox_daap_3."
 "png\">Screenshot</link> | <link href=\"http://git.gnome.org/browse/rhythmbox/"
 "tree/plugins/daap\">DAAP Code</link> )"
 msgstr ""
-"(<link href=\"http://projects.gnome.org/rhythmbox/\">Website</link> | <link "
-"href=\"http://skss.learnfree.eu/wp-content/uploads/2009/05/rhythmbox_daap_3."
-"png\">Στιγμιότυπο</link> | <link href=\"http://git.gnome.org/browse/"
-"rhythmbox/tree/plugins/daap\">Κώδικας DAAP</link> )"
+"(<link href=\"http://projects.gnome.org/rhythmbox/\">Ιστότοπος</link> | "
+"<link href=\"http://skss.learnfree.eu/wp-content/uploads/2009/05/"
+"rhythmbox_daap_3.png\">Στιγμιότυπο</link> | <link href=\"http://git.gnome."
+"org/browse/rhythmbox/tree/plugins/daap\">Κώδικας DAAP</link> )"
 
 #. (itstool) path: info/desc
-#: C/overview-io.page:19
+#: C/overview-io.page:20
 msgid "Access structured data storage, networking shares, and files."
 msgstr ""
-"Πρόσβαση σε οργανωμένη αποθήκευση δεδομένων, κοινόχρηστη δικτύωση και αρχεία."
+"Πρόσβαση σε δομημένη αποθήκη δεδομένων, κοινόχρηστη δικτύωση και αρχεία."
 
 #. (itstool) path: page/title
-#: C/overview-io.page:22
+#: C/overview-io.page:23
 msgid "Files &amp; data access"
 msgstr "Αρχεία &amp; πρόσβαση δεδομένων"
 
 #. (itstool) path: item/p
-#: C/overview-io.page:26
+#: C/overview-io.page:27
 msgid ""
 "<em style=\"strong\">Asynchronously read and write files and other streams</"
 "em>"
@@ -1214,27 +1700,27 @@ msgstr ""
 "em>"
 
 #. (itstool) path: item/p
-#: C/overview-io.page:29
+#: C/overview-io.page:30
 msgid "<em style=\"strong\">Store and retrieve document metadata</em>"
 msgstr ""
 "<em style=\"strong\">Αποθήκευση και ανάκτηση μεταδεδομένων εγγράφου</em>"
 
 #. (itstool) path: page/p
-#: C/overview-io.page:33
+#: C/overview-io.page:34
 msgid ""
 "Seamlessly access local and remote files using the core GNOME IO libraries. "
 "Make your application responsive by using the extensive support for "
 "asynchronous IO operations. Allow users to find files easily be providing "
 "metadata to describe documents."
 msgstr ""
-"Αδιάλειπτη πρόσβαση τοπικών και απομακρυσμένων αρχείων χρησιμοποιώντας τις "
-"βιβλιοθήκες εισόδου/εξόδου του πυρήνα GNOME. Κάντε την εφαρμογή σας "
-"απαντητική χρησιμοποιώντας την εκτεταμένη υποστήριξη για ασύγχρονες "
+"Προσπελάστε αδιάλειπτα τοπικά και απομακρυσμένα αρχεία χρησιμοποιώντας τις "
+"βιβλιοθήκες εισόδου/εξόδου του πυρήνα GNOME. Κρατήστε την εφαρμογή σας σε "
+"επανγρύπνηση χρησιμοποιώντας την εκτεταμένη υποστήριξη για ασύγχρονες "
 "λειτουργίες εισόδου/εξόδου. Επιτρέψτε στους χρήστες να βρουν αρχεία εύκολα "
 "δίνοντας μεταδεδομένα για την περιγραφή εγγράφων."
 
 #. (itstool) path: section/p
-#: C/overview-io.page:41
+#: C/overview-io.page:42
 msgid ""
 "To <em style=\"strong\">asynchronously read and write files and other "
 "streams</em>, use <em style=\"strong\" xref=\"tech-gio\">GIO</em>. A high-"
@@ -1243,22 +1729,23 @@ msgid ""
 msgstr ""
 "Για <em style=\"strong\">ασύγχρονη ανάγνωση και εγγραφή αρχείων και άλλων "
 "ροών</em>, χρησιμοποιήστε <em style=\"strong\" xref=\"tech-gio\">GIO</em>. "
-"Ενός υψηλού επιπέδου API VFS (εικονικό σύστημα αρχείων) παρέχεται, καθώς και "
+"Παρέχεται ένα υψηλού επιπέδου API VFS (εικονικό σύστημα αρχείων), καθώς και "
 "βοηθήματα όπως εικονίδια και εκκίνηση εφαρμογής"
 
 #. (itstool) path: section/p
-#: C/overview-io.page:46
+#: C/overview-io.page:47
 msgid ""
 "Use <em style=\"strong\" xref=\"tech-tracker\">Tracker</em> to <em style="
 "\"strong\">store and retrieve document metadata</em>, as well as <em style="
 "\"strong\">structured data</em> such as contacts."
 msgstr ""
-"Χρησιμοποιήστε <em style=\"strong\" xref=\"tech-tracker\">Tracker</em> για "
-"<em style=\"strong\">αποθήκευση και ανάκτηση μεταδεδομένων εγγράφου</em>, "
-"καθώς και <em style=\"strong\">δομημένα δεδομένα</em> όπως επαφές."
+"Χρησιμοποιήστε το <em style=\"strong\" xref=\"tech-tracker\">Tracker</em> "
+"για <em style=\"strong\">αποθήκευση και ανάκτηση μεταδεδομένων ενός "
+"εγγράφου</em>, καθώς και <em style=\"strong\">δομημένα δεδομένα</em> όπως "
+"επαφές."
 
 #. (itstool) path: section/p
-#: C/overview-io.page:65
+#: C/overview-io.page:66
 msgid ""
 "You can see lots of real-world applications of GNOME IO technologies in open "
 "source projects, like the examples given below."
@@ -1268,16 +1755,16 @@ msgstr ""
 "δίνονται παρακάτω."
 
 #. (itstool) path: item/p
-#: C/overview-io.page:69
+#: C/overview-io.page:70
 msgid ""
 "<em style=\"strong\">Documents</em> makes it easy to find your files with "
 "<em style=\"strong\">Tracker</em>."
 msgstr ""
-"<em style=\"strong\">Τα έγγραφα</em> διευκολύνουν την εύρεση των αρχείων σας "
-"με <em style=\"strong\">Tracker</em>."
+"Τα <em style=\"strong\">Έγγραφα</em> διευκολύνουν την εύρεση των αρχείων σας "
+"με το <em style=\"strong\">Tracker</em>."
 
 #. (itstool) path: item/p
-#: C/overview-io.page:71
+#: C/overview-io.page:72
 msgid ""
 "( <link href=\"https://live.gnome.org/GnomeDocuments\">Website</link> | "
 "<link href=\"xxx\">Screenshot</link> | <link href=\"https://git.gnome.org/"
@@ -1288,17 +1775,16 @@ msgstr ""
 "browse/gnome-documents\">Πηγαίος κώδικας</link> )"
 
 #. (itstool) path: item/p
-#: C/overview-io.page:74
+#: C/overview-io.page:75
 msgid ""
 "<em style=\"strong\">Files</em> leverages <em style=\"strong\">GIO</em> to "
 "make it easy to manage both local and remote files."
 msgstr ""
-"<em style=\"strong\">Τα αρχεία</em> <em style=\"strong\">GIO</em> "
-"αξιοποιούνται στη διευκόλυνση της διαχείρισης τοπικών και απομακρυσμένων "
-"αρχείων."
+"Τα <em style=\"strong\">Αρχεία</em> αξιοποιεί το <em style=\"strong\">GIO</"
+"em> για να διευκολύνει τη διαχείριση τοπικών και απομακρυσμένων αρχείων."
 
 #. (itstool) path: item/p
-#: C/overview-io.page:76
+#: C/overview-io.page:77
 msgid ""
 "( <link href=\"https://live.gnome.org/Nautilus\">Website</link> | <link href="
 "\"https://live.gnome.org/Nautilus/Screenshots\">Screenshots</link> | <link "
@@ -1313,7 +1799,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/overview-media.page:36
+#: C/overview-media.page:37
 msgctxt "_"
 msgid ""
 "external ref='media/totem-screenshot.png' "
@@ -1322,28 +1808,23 @@ msgstr ""
 "external ref='media/totem-screenshot.png' "
 "md5='50a5ee1863edda5f15bc3d6f5c0552cd'"
 
-#. (itstool) path: credit/name
-#: C/overview-media.page:9 C/overview-net.page:9 C/overview-settings.page:9
-msgid "David King"
-msgstr "David King"
-
 #. (itstool) path: info/desc
-#: C/overview-media.page:14
+#: C/overview-media.page:15
 msgid ""
 "Multi-format audio and video playback and editing, streaming from the web, "
 "and webcam support."
 msgstr ""
 "Αναπαραγωγή ήχου και βίντεο πολλών μορφών καθώς και επεξεργασία, ροή από τον "
-"ιστό και υποστήριξη ιστοκάμερας."
+"ιστό και υποστήριξη δικτυακής κάμερας."
 
 #. (itstool) path: page/title
 #. (itstool) path: links/title
-#: C/overview-media.page:17 C/tech.page:55
+#: C/overview-media.page:18 C/tech.page:56
 msgid "Multimedia"
 msgstr "Πολυμέσα"
 
 #. (itstool) path: item/p
-#: C/overview-media.page:21
+#: C/overview-media.page:22
 msgid ""
 "<em style=\"strong\">Play and record a multitude of audio and video formats</"
 "em>"
@@ -1352,23 +1833,23 @@ msgstr ""
 "em>"
 
 #. (itstool) path: item/p
-#: C/overview-media.page:24
+#: C/overview-media.page:25
 msgid ""
 "<em style=\"strong\">Access webcams and other media devices connected to the "
 "system</em>"
 msgstr ""
-"<em style=\"strong\">Πρόσβαση ιστοκαμερών και άλλων συσκευών μέσων "
+"<em style=\"strong\">Πρόσβαση διακτυακών καμερών και άλλων συσκευών μέσων "
 "συνδεμένων με το σύστημα</em>"
 
 #. (itstool) path: item/p
-#: C/overview-media.page:27
+#: C/overview-media.page:28
 msgid "<em style=\"strong\">Share and stream media with remote devices</em>"
 msgstr ""
 "<em style=\"strong\">Κοινόχρηστα και μέσα ροής με απομακρυσμένες συσκευές</"
 "em>"
 
 #. (itstool) path: page/p
-#: C/overview-media.page:31
+#: C/overview-media.page:32
 msgid ""
 "Add multimedia to your application so that users can easily play their "
 "content. Consume and share content with other devices attached to a system "
@@ -1378,54 +1859,56 @@ msgstr ""
 "Προσθέστε πολυμέσα στην εφαρμογή σας, έτσι ώστε οι χρήστες να μπορούν εύκολα "
 "να εκτελέσουν το περιεχόμενό τους. Καταναλώστε και μοιραστείτε περιεχόμενο "
 "με άλλες συσκευές προσαρτημένες σε ένα σύστημα ή απομακρυσμένα μέσα από το "
-"δίκτυο. Η υποκείμενη χαμηλού επιπέδου API είναι διαθέσιμη αν χρειαστείτε "
+"δίκτυο. Το υποκείμενο χαμηλού επιπέδου API είναι διαθέσιμο αν χρειαστείτε "
 "περισσότερο έλεγχο."
 
 #. (itstool) path: media/p
-#: C/overview-media.page:37
+#: C/overview-media.page:38
 msgid "Videos"
 msgstr "Βίντεο"
 
 #. (itstool) path: section/p
-#: C/overview-media.page:43
+#: C/overview-media.page:44
 msgid ""
 "<em style=\"strong\">Multimedia</em> in GNOME is built on the <em style="
 "\"strong\"><link xref=\"tech-gstreamer\">GStreamer</link></em> framework. "
 "With GStreamer, flexible <em>pipelines</em> of media can be created, from "
 "simple playback of audio and video to complex non-linear editing."
 msgstr ""
-"<em style=\"strong\">Πολυμέσα</em> στο GNOME δομούνται στο σκελετό <em style="
-"\"strong\"><link xref=\"tech-gstreamer\">GStreamer</link></em>. Με τη "
-"GStreamer, ευέλικτες <em>διοχετεύσεις</em> μέσων μπορούν να δημιουργηθούν, "
-"από απλή αναπαραγωγή ήχου και βίντεο σε σύνθετη μη γραμμική επεξεργασία."
+"Τα <em style=\"strong\">Πολυμέσα</em> στο GNOME δομούνται στο πλαίσιο <em "
+"style=\"strong\"><link xref=\"tech-gstreamer\">GStreamer</link></em>. Με το "
+"GStreamer, μπορούν να δημιουργηθούν ευέλικτες <em>διοχετεύσεις</em> "
+"πολυμέσων, από μια απλή αναπαραγωγή ήχου και βίντεο σε μια σύνθετη μη "
+"γραμμική επεξεργασία."
 
 #. (itstool) path: section/p
-#: C/overview-media.page:49
+#: C/overview-media.page:50
 msgid ""
 "GStreamer uses <em style=\"strong\"><link xref=\"tech-pulseaudio"
 "\">PulseAudio</link></em> when outputting audio, and therefore can target "
 "many types of output hardware. PulseAudio also handles dynamic output "
 "switching and application-specific volume control."
 msgstr ""
-"Η GStreamer χρησιμοποιεί <em style=\"strong\"><link xref=\"tech-pulseaudio"
-"\">PulseAudio</link></em> όταν εξάγει ήχο και συνεπώς μπορεί να στοχεύει "
-"πολλούς τύπους υλικού εξόδου. Η PulseAudio επίσης διαχειρίζεται δυναμική "
-"αλλαγή εξόδου και έλεγχο έντασης συγκεκριμένης εφαρμογής."
+"Το GStreamer χρησιμοποιεί το <em style=\"strong\"><link xref=\"tech-"
+"pulseaudio\">PulseAudio</link></em> όταν εξάγει ήχο και συνεπώς μπορεί να "
+"στοχεύει πολλούς τύπους υλικού εξόδου. Το PulseAudio επίσης διαχειρίζεται "
+"δυναμικά κάθε αλλαγή εξόδου και ελέγχει την έντασης μιας συγκεκριμένης "
+"εφαρμογής."
 
 #. (itstool) path: section/p
-#: C/overview-media.page:60
+#: C/overview-media.page:61
 msgid ""
 "For <em style=\"strong\">webcams</em>, use <em style=\"strong\">Cheese</em>. "
 "It provides a simple interface to webcams connected to the system, and an "
 "easy way to add an avatar chooser to your application."
 msgstr ""
-"Για <em style=\"strong\">ιστοκάμερες</em>, χρησιμοποιήστε <em style=\"strong"
-"\">Cheese</em>. Παρέχει μια απλή διεπαφή για ιστοκάμερες συνδεμένες με το "
-"σύστημα και έναν εύκολο τρόπο για να προσθέσετε έναν επιλογέα εικόνας στην "
-"εφαρμογή σας."
+"Για <em style=\"strong\">δικτυακές κάμερες</em>, χρησιμοποιήστε το <em style="
+"\"strong\">Cheese</em>. Παρέχει μια απλή διεπαφή για δικτυακές κάμερες "
+"συνδεμένες με το σύστημα και έναν εύκολο τρόπο για να προσθέσετε έναν "
+"επιλογέα εικόνας στην εφαρμογή σας."
 
 #. (itstool) path: section/p
-#: C/overview-media.page:65
+#: C/overview-media.page:66
 msgid ""
 "Use <em style=\"strong\">Rygel</em> to <em style=\"strong\">share content "
 "over the network</em> to devices such as TVs and games consoles. Rygel uses "
@@ -1433,28 +1916,28 @@ msgid ""
 "which is a low-level API to access content with <em style=\"strong\">UPnP</"
 "em> protocols."
 msgstr ""
-"Χρησιμοποιήστε <em style=\"strong\">Rygel</em> για να <em style=\"strong"
+"Χρησιμοποιήστε το <em style=\"strong\">Rygel</em> για να <em style=\"strong"
 "\">μοιραστείτε περιεχόμενο μέσα από το δίκτυο</em> σε συσκευές όπως "
-"τηλεοράσεις και κονσόλες παιχνιδιών. Η Rygel χρησιμοποιεί <em style=\"strong"
+"τηλεοράσεις και κονσόλες παιχνιδιών. Το Rygel χρησιμοποιεί <em style=\"strong"
 "\"><link xref=\"tech-gupnp\">GUPnP</link></em> από κάτω, που είναι ένα "
 "χαμηλού επιπέδου API για πρόσβαση περιεχομένου με πρωτόκολλα <em style="
 "\"strong\">UPnP</em>."
 
 #. (itstool) path: section/p
-#: C/overview-media.page:71
+#: C/overview-media.page:72
 msgid ""
 "For simple <em style=\"strong\">event sounds</em>, such as a shutter sound "
 "when taking a photo, use <em style=\"strong\"><link xref=\"tech-canberra"
 "\">libcanberra</link></em>, which implements the freedesktop.org sound theme "
 "specification."
 msgstr ""
-"Για απλούς <em style=\"strong\">ήχους συμβάντος</em>, όπως ένας ήχος "
-"διαφράγματος όταν παίρνετε μια φωτογραφία, χρησιμοποιήστε <em style=\"strong"
-"\"><link xref=\"tech-canberra\">libcanberra</link></em>, που υλοποιεί την "
-"προδιαγραφή θέματος ήχου του freedesktop.org."
+"Για απλούς <em style=\"strong\">ήχους συμβάντων</em>, όπως ο ήχος "
+"διαφράγματος όταν παίρνετε μια φωτογραφία, χρησιμοποιήστε το <em style="
+"\"strong\"><link xref=\"tech-canberra\">libcanberra</link></em>, που "
+"υλοποιεί τις προδιαγραφές θέματος ήχου του freedesktop.org."
 
 #. (itstool) path: section/p
-#: C/overview-media.page:91
+#: C/overview-media.page:92
 msgid ""
 "You can see lots of real-world applications of GNOME multimedia technologies "
 "in open source projects, like the examples given below."
@@ -1464,12 +1947,13 @@ msgstr ""
 "παρακάτω."
 
 #. (itstool) path: item/p
-#: C/overview-media.page:95
+#: C/overview-media.page:96
 msgid "<em style=\"strong\">Videos</em> is the GNOME multimedia player."
-msgstr "<em style=\"strong\">Βίντεο</em> είναι ο αναπαραγωγός πολυμέσων GNOME."
+msgstr ""
+"Το <em style=\"strong\">Βίντεο</em> είναι ο αναπαραγωγός πολυμέσων GNOME."
 
 #. (itstool) path: item/p
-#: C/overview-media.page:96
+#: C/overview-media.page:97
 msgid ""
 "( <link href=\"http://projects.gnome.org/totem/\">Website</link> | <link "
 "href=\"http://en.wikipedia.org/wiki/File:Totem3.2.0.png\">Screenshot</link> "
@@ -1480,16 +1964,16 @@ msgstr ""
 "| <link href=\"https://git.gnome.org/browse/totem/\">Πηγαίος κώδικας</link> )"
 
 #. (itstool) path: item/p
-#: C/overview-media.page:99
+#: C/overview-media.page:100
 msgid ""
 "<em style=\"strong\">PiTiVi</em> is a non-linear video editor, which makes "
 "extensive use of GStreamer."
 msgstr ""
-"<em style=\"strong\">PiTiVi</em> είναι ένας μη γραμμικός επεξεργαστής "
+"Το <em style=\"strong\">PiTiVi</em> είναι ένας μη γραμμικός επεξεργαστής "
 "βίντεο, που κάνει εκτεταμένη χρήση του GStreamer."
 
 #. (itstool) path: item/p
-#: C/overview-media.page:101
+#: C/overview-media.page:102
 msgid ""
 "( <link href=\"http://www.pitivi.org/\">Website</link> | <link href=\"http://"
 "www.pitivi.org/?go=screenshots\">Screenshots</link> | <link href=\"http://"
@@ -1500,61 +1984,61 @@ msgstr ""
 "\"http://www.pitivi.org/?go=download\">Πηγαίος κώδικας</link> )"
 
 #. (itstool) path: info/desc
-#: C/overview-net.page:14
+#: C/overview-net.page:15
 msgid ""
 "Client and server HTTP communication, portable socket-based networking IO, "
 "and network device management."
 msgstr ""
-"Επικοινωνία πελάτη και διακομιστή HTTP, φορητή δικτύωση εισόδου/εξόδου με "
-"βάση υποδοχή και διαχείριση συσκευής δικτύου."
+"Επικοινωνία πελάτη και διακομιστή HTTP, φορητή δικτύωση εισόδου/εξόδου "
+"βασισμένα σε υποδοχές και διαχείριση συσκευής δικτύου."
 
 #. (itstool) path: page/title
-#: C/overview-net.page:17
+#: C/overview-net.page:18
 msgid "Low-level networking"
 msgstr "Χαμηλού επιπέδου δικτύωση"
 
 #. (itstool) path: item/p
-#: C/overview-net.page:21
+#: C/overview-net.page:22
 msgid ""
 "<em style=\"strong\">Create powerful and flexible HTTP servers and clients</"
 "em>"
 msgstr ""
-"<em style=\"strong\">Δημιουργία ισχυρών και ευέλικτων διακομιστών HTTP και "
-"πελατών</em>"
+"<em style=\"strong\">Δημιουργήστε ισχυρούς και ευέλικτους διακομιστές HTTP "
+"και πελάτες</em>"
 
 #. (itstool) path: item/p
-#: C/overview-net.page:24
+#: C/overview-net.page:25
 msgid ""
 "<em style=\"strong\">Use portable socket-based APIs in a UI without "
 "blocking</em>"
 msgstr ""
-"<em style=\"strong\">Χρήση φορητών APIs με βάση υποδοχή σε μια γραφική "
-"διεπαφή χωρίς φραγή</em>"
+"<em style=\"strong\">Χρησιμοποιήστε φορητά API βασισμένα σε υποδοχές σε μια "
+"γραφική διεπαφή χωρίς περιορισμούς</em>"
 
 #. (itstool) path: item/p
-#: C/overview-net.page:27
+#: C/overview-net.page:28
 msgid ""
 "<em style=\"strong\">Detect and manage the network connection state</em>"
 msgstr ""
-"<em style=\"strong\">Αναγνώριση και διαχείριση κατάστασης σύνδεσης δικτύου</"
-"em>"
+"<em style=\"strong\">Αναγνωρίστε και διαχειριστείτε την κατάσταση σύνδεσης "
+"του δικτύου</em>"
 
 #. (itstool) path: page/p
-#: C/overview-net.page:31
+#: C/overview-net.page:32
 msgid ""
 "Take advantage of the portable networking APIs for accessing network "
 "services. Asynchronous IO keeps your application UI responsive while IO is "
 "in progress. Detect changes in the system networking state, to make your "
 "application respond appropriately when there is no Internet access."
 msgstr ""
-"Επωφεληθείτε από τη φορητή δικτύωση APIs για πρόσβαση υπηρεσιών δικτύου. Η "
-"ασύγχρονη είσοδος/έξοδος κρατά τη διεπαφή χρήστη της εφαρμογή σας απαντητική "
-"ενώ η είσοδος/έξοδος εξελίσσεται. Ανιχνεύστε τις αλλαγές στην κατάσταση "
-"δικτύωσης συστήματος, για να κάνετε την εφαρμογή σας να απαντά κατάλληλα "
-"όταν δεν υπάρχει πρόσβαση διαδικτύου."
+"Επωφεληθείτε από τα φορητά API δικτύωσης για να προσπελάσετε υπηρεσίες "
+"δικτύου. Η ασύγχρονη είσοδος/έξοδος κρατά σε επαγρύπνηση τη διεπαφή χρήστη "
+"της εφαρμογής ενώ εξελίσσεται η είσοδος/έξοδος. Ανιχνεύστε τις αλλαγές στην "
+"κατάσταση δικτύωσης του συστήματος, για να κάνετε την εφαρμογή σας να απαντά "
+"κατάλληλα όταν δεν υπάρχει πρόσβαση στο διαδίκτυο."
 
 #. (itstool) path: section/p
-#: C/overview-net.page:45
+#: C/overview-net.page:46
 msgid ""
 "To <em style=\"strong\">asynchronously access low-level networking APIs</"
 "em>, use <em style=\"strong\" xref=\"tech-gio-network\">GIO networking</em>. "
@@ -1562,38 +2046,38 @@ msgid ""
 "DNS records</em> as well as using <em style=\"strong\">secure sockets (TLS)</"
 "em>."
 msgstr ""
-"Για <em style=\"strong\">ασύγχρονη πρόσβαση χαμηλού επιπέδου δικτύωσης APIs</"
-"em>, χρησιμοποιήστε <em style=\"strong\" xref=\"tech-gio-network\">δικτύωση "
-"GIO</em>. Υψηλότερου επιπέδου API είναι διαθέσιμο για <em style=\"strong"
-"\">επίλυση μεσολαβητών και εγγραφών DNS</em> καθώς και για χρήση <em style="
-"\"strong\">ασφαλών υποδοχών (TLS)</em>."
+"Για <em style=\"strong\">ασύγχρονη πρόσβαση σε χαμηλού επιπέδου δικτύωσης "
+"API</em>, χρησιμοποιήστε το <em style=\"strong\" xref=\"tech-gio-network"
+"\">GIO networking</em>. Υψηλότερου επιπέδου API είναι διαθέσιμο για <em "
+"style=\"strong\">επίλυση μεσολαβητών και εγγραφών DNS</em> καθώς και για "
+"χρήση <em style=\"strong\">ασφαλών υποδοχών (TLS)</em>."
 
 #. (itstool) path: section/p
-#: C/overview-net.page:51
+#: C/overview-net.page:52
 msgid ""
 "Simple monitoring of network state is available in GIO, but <em style="
 "\"strong\" xref=\"tech-network-manager\">NetworkManager</em> provides <em "
 "style=\"strong\">comprehensive support for networking devices</em> and "
 "network topologies."
 msgstr ""
-"Απλή παρακολούθηση κατάστασης δικτύου είναι διαθέσιμη σε GIO, αλλά ο <em "
+"Η παρακολούθηση κατάστασης του δικτύου είναι διαθέσιμη στο GIO, αλλά ο <em "
 "style=\"strong\" xref=\"tech-network-manager\">NetworkManager</em> παρέχει "
 "<em style=\"strong\">εκτεταμένη υποστήριξη για συσκευές δικτύωσης</em> και "
 "τοπολογίες δικτύου."
 
 #. (itstool) path: section/p
-#: C/overview-net.page:56
+#: C/overview-net.page:57
 msgid ""
 "<em style=\"strong\" xref=\"tech-soup\">Libsoup</em> provides a flexible "
 "interface for <em style=\"strong\">HTTP servers and clients</em>. Both "
 "synchronous and asynchronous APIs are provided."
 msgstr ""
-"Η <em style=\"strong\" xref=\"tech-soup\">Libsoup</em> παρέχει μια ευέλικτη "
+"Το <em style=\"strong\" xref=\"tech-soup\">Libsoup</em> παρέχει μια ευέλικτη "
 "διεπαφή για <em style=\"strong\">διακομιστές HTTP και πελάτες</em>. "
-"Παρέχονται σύγχρονες και ασύγχρονες APIs."
+"Παρέχονται σύγχρονα και ασύγχρονα API."
 
 #. (itstool) path: section/p
-#: C/overview-net.page:75
+#: C/overview-net.page:76
 msgid ""
 "You can see lots of real-world applications of GNOME networking technologies "
 "in open source projects, like the examples given below."
@@ -1603,16 +2087,16 @@ msgstr ""
 "παρακάτω."
 
 #. (itstool) path: item/p
-#: C/overview-net.page:79
+#: C/overview-net.page:80
 msgid ""
 "<em style=\"strong\">Web</em> is the GNOME browser, which uses libsoup to "
 "access HTTP services."
 msgstr ""
-"<em style=\"strong\">Web</em> είναι ο περιηγητής GNOME, που χρησιμοποιεί "
+"Ο <em style=\"strong\">Ιστός</em> είναι ο περιηγητής GNOME, που χρησιμοποιεί "
 "libsoup για να προσπελάσει υπηρεσίες HTTP."
 
 #. (itstool) path: item/p
-#: C/overview-net.page:81
+#: C/overview-net.page:82
 msgid ""
 "( <link href=\"http://projects.gnome.org/epiphany/\">Website</link> | <link "
 "href=\"xxx\">Screenshot</link> | <link href=\"https://git.gnome.org/browse/"
@@ -1623,19 +2107,19 @@ msgstr ""
 "browse/epiphany/\">Πηγαίος κώδικας</link> )"
 
 #. (itstool) path: item/p
-#: C/overview-net.page:84
+#: C/overview-net.page:85
 msgid ""
 "<em style=\"strong\">GNOME Shell</em> is the user-visible GNOME desktop, "
 "which uses NetworkManager for the network status menu, including managing "
 "wired, wireless, 3G modem and VPN networking systems."
 msgstr ""
-"<em style=\"strong\">Κέλυφος GNOME</em> είναι η επιφάνεια εργασίας GNOME "
+"Το <em style=\"strong\">GNOME Shell</em> είναι η επιφάνεια εργασίας GNOME "
 "ορατή από τον χρήστη, που χρησιμοποιεί NetworkManager για το μενού "
 "κατάστασης δικτύου, συμπεριλαμβανόμενης ενσύρματης διαχείρισης, ασύρματης, "
 "μόντεμ 3G και συστήματα δικτύωσης VPN."
 
 #. (itstool) path: item/p
-#: C/overview-net.page:87
+#: C/overview-net.page:88
 msgid ""
 "( <link href=\"https://wiki.gnome.org/GnomeShell\">Website</link> | <link "
 "href=\"http://www.gnome.org/gnome-3/\">Screenshot</link> | <link href="
@@ -1646,30 +2130,30 @@ msgstr ""
 "\"https://git.gnome.org/browse/gnome-shell/\">Πηγαίος κώδικας</link> )"
 
 #. (itstool) path: info/desc
-#: C/overview-settings.page:14
+#: C/overview-settings.page:15
 msgid "Flexible user configuration system."
 msgstr "Ευέλικτο σύστημα διαμόρφωσης χρήστη."
 
 #. (itstool) path: page/title
-#: C/overview-settings.page:17
+#: C/overview-settings.page:18
 msgid "Settings management"
 msgstr "Διαχείριση ρυθμίσεων"
 
 #. (itstool) path: item/p
-#: C/overview-settings.page:21
+#: C/overview-settings.page:22
 msgid "<em style=\"strong\">High-level access for application settings</em>"
 msgstr ""
 "<em style=\"strong\">Υψηλού επιπέδου πρόσβαση για ρυθμίσεις εφαρμογής</em>"
 
 #. (itstool) path: item/p
-#: C/overview-settings.page:24
+#: C/overview-settings.page:25
 msgid "<em style=\"strong\">Easily bind settings to UI elements</em>"
 msgstr ""
 "<em style=\"strong\">Εύκολη σύνδεση ρυθμίσεων με στοιχεία διεπαφής χρήστη</"
 "em>"
 
 #. (itstool) path: item/p
-#: C/overview-settings.page:27
+#: C/overview-settings.page:28
 msgid ""
 "<em style=\"strong\">Flexible overrides for packagers and system "
 "administrators</em>"
@@ -1678,20 +2162,21 @@ msgstr ""
 "διαχειριστές συστήματος</em>"
 
 #. (itstool) path: page/p
-#: C/overview-settings.page:32
+#: C/overview-settings.page:33
 msgid ""
 "Store user settings and make your application respond to them automatically "
 "with GSettings. Easily override settings defaults as a system administrator. "
 "Store a wide variety of data, such as integers and arrays of strings, with "
 "ease."
 msgstr ""
-"Αποθήκευση ρυθμίσεων χρήστη και δημιουργία απάντησης της εφαρμογής σας σε "
-"αυτές αυτόματα με GSettings. Εύκολη αντικατάσταση των ρυθμίσεων με "
-"προεπιλογή ως διαχειριστής του συστήματος. Αποθήκευση μιας πλατιάς ποικιλίας "
-"δεδομένων, όπως ακέραιοι και διατάξεις συμβολοσειρών, με ευκολία."
+"Αποθηκεύστε τις ρυθμίσεις του χρήστη και κάντε την εφαρμογή σας να "
+"αποκρίνεται αυτόματα σε αυτές με GSettings. Αντικαταστήστε εύκολα τις "
+"προεπιλεγμένες ρυθμίσεις ως διαχειριστής του συστήματος. Αποθηκεύστε μια "
+"ευρεία ποικιλία δεδομένων, όπως ακέραιοι και πίνακες συμβολοσειρών, με "
+"ευκολία."
 
 #. (itstool) path: section/p
-#: C/overview-settings.page:40
+#: C/overview-settings.page:41
 msgid ""
 "Use the <em style=\"strong\" xref=\"tech-gsettings\">GSettings</em> API of "
 "GIO to read and write <em style=\"strong\">application settings</em>. "
@@ -1700,31 +2185,31 @@ msgid ""
 "Make <em style=\"strong\">UI controls update according to settings</em> with "
 "a single function."
 msgstr ""
-"Χρησιμοποιήστε τις <em style=\"strong\" xref=\"tech-gsettings\">GSettings</"
-"em> API του GIO για ανάγνωση και εγγραφή <em style=\"strong\">ρυθμίσεων "
-"εφαρμογής</em>. Οι GSettings <em style=\"strong\">χρησιμοποιεί με διαφάνεια "
-"τη βάση δεδομένων ρύθμισης πλατφόρμας</em>, έτσι ώστε τα εργαλεία ρύθμισης "
-"της συγκεκριμένης πλατφόρμας να μπορούν να χρησιμοποιηθούν. Κάντε <em style="
-"\"strong\">ελέγχους ενημέρωσης διεπαφής χρήστη σύμφωνα με τις ρυθμίσεις</em> "
-"με μια μοναδική συνάρτηση."
+"Χρησιμοποιήστε το <em style=\"strong\" xref=\"tech-gsettings\">GSettings</"
+"em> API του GIO για να διαβάσετε και να εγγράψετε τις <em style=\"strong"
+"\">ρυθμίσεις μιας εφαρμογής</em>. Το GSettings <em style=\"strong"
+"\">χρησιμοποιεί με διαφάνεια τη βάση δεδομένων των ρυθμίσεων</em>, έτσι ώστε "
+"τα εργαλεία ρύθμισης της συγκεκριμένης πλατφόρμας να μπορούν να "
+"χρησιμοποιηθούν. Κάντε <em style=\"strong\">ελέγχους ενημέρωσης διεπαφής "
+"χρήστη σύμφωνα με τις ρυθμίσεις</em> με μια μοναδική συνάρτηση."
 
 #. (itstool) path: section/p
-#: C/overview-settings.page:62
+#: C/overview-settings.page:63
 msgid "Nearly all GNOME applications use GSettings."
 msgstr "Σχεδόν όλες οι εφαρμογές GNOME χρησιμοποιούν GSettings."
 
 #. (itstool) path: item/p
-#: C/overview-settings.page:65
+#: C/overview-settings.page:66
 msgid ""
 "<em style=\"strong\">Dconf editor</em> is the GUI tool for managing "
 "preferences stored in the dconf database with GSettings."
 msgstr ""
-"<em style=\"strong\">Επεξεργαστής Dconf</em> είναι ένα εργαλείο διεπαφής "
-"χρήστη για διαχείριση αποθηκευμένων προτιμήσεων στη βάση δεδομένων dconf με "
-"GSettings."
+"Ο <em style=\"strong\">Επεξεργαστής Dconf</em> είναι ένα εργαλείο διεπαφής "
+"χρήστη για διαχείριση των αποθηκευμένων προτιμήσεων στη βάση δεδομένων dconf "
+"με GSettings."
 
 #. (itstool) path: item/p
-#: C/overview-settings.page:67
+#: C/overview-settings.page:68
 msgid ""
 "( <link href=\"https://developer.gnome.org/dconf/unstable/dconf-editor.html"
 "\">Website</link> | <link href=\"https://git.gnome.org/browse/dconf/tree/"
@@ -1735,57 +2220,57 @@ msgstr ""
 "editor\">Πηγαίος κώδικας</link> )"
 
 #. (itstool) path: info/desc
-#: C/overview-ui.page:14
+#: C/overview-ui.page:15
 msgid "Standard user interface elements, rendering, and animation."
-msgstr "Τυπικά στοιχεία διεπαφής χρήστη, απόδοσης και κίνησης."
+msgstr "Τυπικά στοιχεία διεπαφής χρήστη, απεικόνισης και κίνησης."
 
 #. (itstool) path: page/title
-#: C/overview-ui.page:17
+#: C/overview-ui.page:18
 msgid "User interface &amp; graphics"
 msgstr "Διεπαφή χρήστη &amp; γραφικά"
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:21
+#: C/overview-ui.page:22
 msgid ""
 "<em style=\"strong\">Use a single toolkit for all the standard widgets in "
 "your application</em>"
 msgstr ""
-"<em style=\"strong\">Χρήση ενός μοναδικού πακέτο εργαλείων για όλα τα τυπικά "
-"γραφικά συστατικά στην εφαρμογή σας</em>"
+"<em style=\"strong\">Χρησιμοποιήστε ένα μοναδικό πακέτο εργαλείων για όλα τα "
+"τυπικά γραφικά στοιχεία της εφαρμογή σας</em>"
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:24
+#: C/overview-ui.page:25
 msgid ""
 "<em style=\"strong\">Create fast, visually rich graphical interfaces</em>"
 msgstr ""
-"<em style=\"strong\">Δημιουργία γρήγορων, οπτικά πλούσιων γραφικών διεπαφών</"
-"em>"
+"<em style=\"strong\">Δημιουργήστε γρήγορες, οπτικά πλούσιες γραφικές "
+"διεπαφές</em>"
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:27
+#: C/overview-ui.page:28
 msgid ""
 "<em style=\"strong\">Have high quality, antialiased and resolution-"
 "independent graphics</em>"
 msgstr ""
-"<em style=\"strong\">Υψηλή ποιότητα, εξομαλυμένα και ανεξάρτητα από ανάλυση "
-"γραφικά</em>"
+"<em style=\"strong\">Μπορείτε να έχετε υψηλή ποιότητα, εξομαλυμένα και "
+"ανεξάρτητα από ανάλυση γραφικά</em>"
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:30
+#: C/overview-ui.page:31
 msgid ""
 "<em style=\"strong\">Easily add web functionality to your application</em>"
 msgstr ""
-"<em style=\"strong\">Εύκολη προσθήκη λειτουργικότητας ιστού στην εφαρμογή "
+"<em style=\"strong\">Προσθέστε εύκολα λειτουργικότητα ιστού στην εφαρμογή "
 "σας</em>"
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:33
+#: C/overview-ui.page:34
 msgid "<em style=\"strong\">Access built-in assistive technologies</em>"
 msgstr ""
-"<em style=\"strong\">Πρόσβαση ενσωματωμένων τεχνολογιών υποβοήθησης</em>"
+"<em style=\"strong\">Προσπελάστε ενσωματωμένες τεχνολογίες υποβοήθησης</em>"
 
 #. (itstool) path: page/p
-#: C/overview-ui.page:37
+#: C/overview-ui.page:38
 msgid ""
 "Use the powerful foundations of the GNOME platform to create consistent and "
 "flexible user interfaces. Make your applications available to the widest "
@@ -1795,13 +2280,13 @@ msgid ""
 msgstr ""
 "Χρησιμοποιήστε τις ισχυρές βάσεις της πλατφόρμας GNOME για τη δημιουργία "
 "ομοιόμορφων και ευέλικτων διεπαφών χρήστη. Κάντε τις εφαρμογές σας "
-"διαθέσιμες στο πιο πλατύ κοινό αναπτύσσοντας τες σε άλλες πλατφόρμες. Τυπικά "
+"διαθέσιμες στο ευρύ κοινό αναπτύσσοντας τες σε άλλες πλατφόρμες. Τυπικά "
 "στοιχεία γραφικής διεπαφής είναι προσβάσιμα από προεπιλογή και είναι εύκολο "
 "να προστίθεται υποστήριξη προσβασιμότητας για οποιοδήποτε προσαρμοσμένα "
 "στοιχεία γραφικής διεπαφής που δημιουργείτε."
 
 #. (itstool) path: section/p
-#: C/overview-ui.page:46
+#: C/overview-ui.page:47
 msgid ""
 "For applications with <em style=\"strong\">standard controls</em> which "
 "would be familiar to most users, use <em style=\"strong\"><link xref=\"tech-"
@@ -1817,7 +2302,7 @@ msgstr ""
 "όπως υποστήριξη εκτύπωσης και χρήση θεμάτων."
 
 #. (itstool) path: section/p
-#: C/overview-ui.page:52
+#: C/overview-ui.page:53
 msgid ""
 "To create <em style=\"strong\">fast, visually rich graphical interfaces</"
 "em>, use <em style=\"strong\"><link xref=\"tech-clutter\">Clutter</link></"
@@ -1826,11 +2311,11 @@ msgid ""
 msgstr ""
 "Για τη δημιουργία <em style=\"strong\">γρήγορων, οπτικά πλούσιων γραφικών "
 "διεπαφών</em>, χρησιμοποιήστε <em style=\"strong\"><link xref=\"tech-clutter"
-"\">Clutter</link></em>. Κινήσεις, επιδράσεις και διατάξεις είναι εύκολες με "
-"Clutter και υποστηρίζουν επίσης είσοδο επαφής και χειρονομίες."
+"\">Clutter</link></em>. Κινούμενα σχέδια, εφέ και διατάξεις δημιουργούνται "
+"εύκολα με το Clutter και υποστηρίζουν επίσης είσοδο επαφής και χειρονομίες."
 
 #. (itstool) path: section/p
-#: C/overview-ui.page:58
+#: C/overview-ui.page:59
 msgid ""
 "<em style=\"strong\">High quality, antialiased and resolution-independent 2D "
 "graphics</em> are provided by <em style=\"strong\"><link xref=\"tech-cairo"
@@ -1840,38 +2325,38 @@ msgstr ""
 "<em style=\"strong\">Υψηλή ποιότητα, εξομαλυμένα και ανεξάρτητα από ανάλυση "
 "2Δ γραφικά</em> παρέχονται από <em style=\"strong\"><link xref=\"tech-cairo"
 "\">Cairo</link></em>. Η Cairo χρησιμοποιείται για σχεδίαση γραφικών "
-"συστατικών σε GTK+ και μπορεί επίσης να χρησιμοποιηθεί για έξοδος σε PDF και "
+"στοιχείων σε GTK+ και μπορεί επίσης να χρησιμοποιηθεί για έξοδος σε PDF και "
 "SVG."
 
 #. (itstool) path: section/p
-#: C/overview-ui.page:64
+#: C/overview-ui.page:65
 msgid ""
 "<em style=\"strong\"><link xref=\"tech-webkit\">WebKitGTK+</link></em> makes "
 "it easy to add <em style=\"strong\">web functionality</em> to your "
 "application, whether that is rendering an HTML file or having a complete "
 "HTML5 UI."
 msgstr ""
-"<em style=\"strong\"><link xref=\"tech-webkit\">WebKitGTK</link></em> "
+"Το <em style=\"strong\"><link xref=\"tech-webkit\">WebKitGTK</link></em> "
 "διευκολύνει την προσθήκη <em style=\"strong\">λειτουργικότητας ιστού</em> "
-"στην εφαρμογή σας, αν αποδίδει ένα αρχείο HTML ή έχει μια πλήρη διεπαφή "
-"χρήστη HTML5."
+"στην εφαρμογή σας, είτε αυτό είναι η απόδοση ενός αρχείου HTML ή μια πλήρη "
+"διεπαφή χρήστη σε HTML5."
 
 #. (itstool) path: section/p
-#: C/overview-ui.page:69
+#: C/overview-ui.page:70
 msgid ""
 "GTK+, Clutter and WebKitGTK+ have <em style=\"strong\">built-in support for "
 "assistive technologies</em> with <em style=\"strong\"><link xref=\"tech-atk"
 "\">ATK</link></em>. Use Orca, Caribou OSK, and the GTK+ built-in "
 "accessibility tools, or build custom tools on top of ATK."
 msgstr ""
-"GTK+, Clutter και WebKitGTK+ έχουν <em style=\"strong\">ενσωματωμένη "
-"υποστήριξη για τεχνολογίες υποβοήθησης</em> με <em style=\"strong\"><link "
-"xref=\"tech-atk\">ATK</link></em>. Χρησιμοποιήστε Orca, Caribou OSK και τα "
-"ενσωματωμένα εργαλεία προσβασιμότητας GTK+, ή προσαρμοσμένα εργαλεία δόμησης "
-"επιπλέον του ATK."
+"Τα GTK+, Clutter και WebKitGTK+ έχουν <em style=\"strong\">ενσωματωμένη "
+"υποστήριξη για τεχνολογίες υποβοήθησης</em> με το <em style=\"strong\"><link "
+"xref=\"tech-atk\">ATK</link></em>. Χρησιμοποιήστε τα Orca, Caribou OSK και "
+"τα ενσωματωμένα εργαλεία προσβασιμότητας GTK+, ή τα προσαρμοσμένα εργαλεία "
+"δόμησης με το ATK."
 
 #. (itstool) path: section/p
-#: C/overview-ui.page:90
+#: C/overview-ui.page:91
 msgid ""
 "You can see lots of real-world applications of GNOME UI technologies in open "
 "source projects, like the examples given below."
@@ -1881,16 +2366,16 @@ msgstr ""
 "δίνονται παρακάτω."
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:94
+#: C/overview-ui.page:95
 msgid ""
 "<em style=\"strong\">Web</em> is the GNOME browser, which uses GTK+ and "
 "WebKitGTK+, and is fully accessible."
 msgstr ""
-"<em style=\"strong\">Web</em> είναι ο περιηγητής GNOME, που χρησιμοποιεί GTK"
-"+ και WebKitGTK και είναι πλήρως προσβάσιμος."
+"Ο <em style=\"strong\">Ιστός</em> είναι ο περιηγητής του GNOME, που "
+"χρησιμοποιεί GTK+ και WebKitGTK και είναι πλήρως προσβάσιμος."
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:96
+#: C/overview-ui.page:97
 msgid ""
 "( <link href=\"http://projects.gnome.org/epiphany/\">Website</link> | <link "
 "href=\"xxx\">Screenshot</link> | <link href=\"xxx\">Source code</link> )"
@@ -1900,17 +2385,17 @@ msgstr ""
 "link> )"
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:99
+#: C/overview-ui.page:100
 msgid ""
 "<em style=\"strong\">MonoDevelop</em> is a cross-platform IDE designed for "
 "C# and other .NET languages. It works on Linux, Mac OS X and Windows"
 msgstr ""
-"<em style=\"strong\">MonoDevelop</em> είναι ένα διαλειτουργικό IDE, "
-"σχεδιασμένο για C# και άλλες γλώσσες NET. Δουλεύει σε Λίνουξ, Mac OS X και "
+"Το <em style=\"strong\">MonoDevelop</em> είναι ένα διαλειτουργικό IDE, "
+"σχεδιασμένο για C# και άλλες γλώσσες NET. Δουλεύει σε Linux, Mac OS X και "
 "Windows"
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:102
+#: C/overview-ui.page:103
 msgid ""
 "( <link href=\"http://monodevelop.com/\">Website</link> | <link href="
 "\"http://monodevelop.com/Screenshots\">Screenshots</link> | <link href="
@@ -1921,16 +2406,16 @@ msgstr ""
 "\"https://github.com/mono/monodevelop\">Πηγαίος κώδικας</link> )"
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:105
+#: C/overview-ui.page:106
 msgid ""
 "<em style=\"strong\">Iagno</em> is a Reversi game for GNOME which uses "
 "Clutter for the animated game board."
 msgstr ""
-"<em style=\"strong\">Iagno</em> είναι ένα παιχνίδι Reversi για GNOME που "
-"χρησιμοποιεί Clutter για τον κινούμενο πίνακα παιχνιδιού."
+"Ο <em style=\"strong\">Ιαγνός</em> είναι ένα παιχνίδι Reversi για το GNOME "
+"που χρησιμοποιεί Clutter για τον κινούμενο πίνακα του παιχνιδιού."
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:107
+#: C/overview-ui.page:108
 msgid ""
 "( <link href=\"https://live.gnome.org/Iagno\">Website</link> | <link href="
 "\"xxx\">Screenshot</link> | <link href=\"xxx\">Source code</link> )"
@@ -2401,11 +2886,11 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/tech-clutter.page:47
 msgid ""
-"<link href=\"http://docs.clutter-project.org/docs/clutter-cookbook/1.0/"
-"\">The Clutter Cookbook</link>"
+"<link href=\"https://developer.gnome.org/clutter-cookbook/stable/\">The "
+"Clutter Cookbook</link>"
 msgstr ""
-"<link href=\"http://docs.clutter-project.org/docs/clutter-cookbook/1.0/"
-"\">Εγχειρίδιο του Clutter</link>"
+"<link href=\"http://docs.clutter-project.org/docs/clutter-cookbook/1.0/\">Το "
+"εγχειρίδιο του Clutter</link>"
 
 #. (itstool) path: item/p
 #: C/tech-clutter.page:48
@@ -2518,7 +3003,7 @@ msgstr ""
 "του GDBus στο <link href=\"gio\">GIO</link>."
 
 #. (itstool) path: item/p
-#: C/tech-d-bus.page:46 C/tech-gio-network.page:20 C/tech-gio.page:29
+#: C/tech-d-bus.page:46 C/tech-gio.page:29
 msgid ""
 "<link href=\"http://developer.gnome.org/gio/stable/\">GIO Reference Manual</"
 "link>"
@@ -2757,11 +3242,11 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/tech-gda.page:22
 msgid ""
-"<link href=\"http://developer-next.gnome.org/libgda/stable/\">GNOME Data "
-"Access Manual</link>"
+"<link href=\"https://developer.gnome.org/libgda/stable/\">GNOME Data Access "
+"Manual</link>"
 msgstr ""
 "<link href=\"http://developer-next.gnome.org/libgda/stable/\">Εγχειρίδιο "
-"πρόσβασης δεδομένων στο GNOME</link>"
+"πρόσβασης δεδομένων του GNOME</link>"
 
 #. (itstool) path: item/p
 #: C/tech-gda.page:23
@@ -3000,9 +3485,18 @@ msgstr ""
 "εφαρμογή σας δεν φράσσει την αναμονή για μια απάντηση από το δίκτυο."
 
 #. (itstool) path: item/p
+#: C/tech-gio-network.page:20
+msgid ""
+"<link href=\"https://developer.gnome.org/gio/stable/\">GIO Reference Manual</"
+"link>"
+msgstr ""
+"<link href=\"http://developer.gnome.org/gio/stable/\">Εγχειρίδιο αναφοράς "
+"του GIO</link>"
+
+#. (itstool) path: item/p
 #: C/tech-gio-network.page:21
 msgid ""
-"<link href=\"http://developer-next.gnome.org/gio/stable/networking.html"
+"<link href=\"https://developer.gnome.org/gio/stable/networking.html"
 "\">Lowlevel network support</link>"
 msgstr ""
 "<link href=\"http://developer-next.gnome.org/gio/stable/networking.html"
@@ -3011,7 +3505,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/tech-gio-network.page:22
 msgid ""
-"<link href=\"http://developer-next.gnome.org/gio/stable/highlevel-socket.html"
+"<link href=\"https://developer.gnome.org/gio/stable/highlevel-socket.html"
 "\">Highlevel network functionality</link>"
 msgstr ""
 "<link href=\"http://developer-next.gnome.org/gio/stable/highlevel-socket.html"
@@ -3370,7 +3864,7 @@ msgstr ""
 #: C/tech-gstreamer.page:49
 msgid ""
 "<link href=\"http://gstreamer.freedesktop.org/data/doc/gstreamer/head/"
-"gstreamer/html/\">The GStreamer 0.10 Core Reference Manual</link>"
+"gstreamer/html/\">The GStreamer 1.0 Core Reference Manual</link>"
 msgstr ""
 "<link href=\"http://gstreamer.freedesktop.org/data/doc/gstreamer/head/"
 "gstreamer/html/\">Εγχειρίδιο αναφοράς του GStreamer 0.10 Core</link>"
@@ -3774,17 +4268,17 @@ msgstr ""
 "<link href=\"http://www.packagekit.org/\">Η αρχική σελίδα PackageKit</link>"
 
 #. (itstool) path: info/desc
-#: C/tech.page:14
+#: C/tech.page:15
 msgid "See a list of all of the development libraries in GNOME."
 msgstr "Δείτε έναν κατάλογο όλων των βιβλιοθηκών ανάπτυξης στο GNOME."
 
 #. (itstool) path: page/title
-#: C/tech.page:17
+#: C/tech.page:18
 msgid "Platform libraries"
 msgstr "Βιβλιοθήκες πλατφόρμας"
 
 #. (itstool) path: page/p
-#: C/tech.page:19
+#: C/tech.page:20
 msgid ""
 "The GNOME platform is a rich collection of libraries. This is a list of all "
 "the platform libraries in GNOME, sorted by purpose."
@@ -3794,42 +4288,42 @@ msgstr ""
 "σκοπό."
 
 #. (itstool) path: links/title
-#: C/tech.page:25
+#: C/tech.page:26
 msgid "User interface and display"
 msgstr "Διεπαφή χρήστη και εμφάνιση"
 
 #. (itstool) path: links/title
-#: C/tech.page:31
+#: C/tech.page:32
 msgid "Storage of the user's data"
 msgstr "Αποθήκευση των δεδομένων χρήστη"
 
 #. (itstool) path: links/title
-#: C/tech.page:37
+#: C/tech.page:38
 msgid "File access"
 msgstr "Προσπέλαση αρχείων"
 
 #. (itstool) path: links/title
-#: C/tech.page:43
+#: C/tech.page:44
 msgid "Networking"
 msgstr "Δικτύωση"
 
 #. (itstool) path: links/title
-#: C/tech.page:49
+#: C/tech.page:50
 msgid "Application support"
 msgstr "Υποστήριξη εφαρμογής"
 
 #. (itstool) path: links/title
-#: C/tech.page:61
+#: C/tech.page:62
 msgid "Inter-process communication"
 msgstr "Ενδοδιαδικασιακή επικοινωνία"
 
 #. (itstool) path: links/title
-#: C/tech.page:67
+#: C/tech.page:68
 msgid "Geographical"
 msgstr "Γεωγραφικός"
 
 #. (itstool) path: links/title
-#: C/tech.page:73
+#: C/tech.page:74
 msgid "Foundational C utilities and object system"
 msgstr "Θεμελιακά βοηθήματα C και σύστημα αντικειμένων"
 
@@ -4207,10 +4701,10 @@ msgstr ""
 msgid ""
 "Gnome used a library called gnome-keyring before version 3.6 was released. "
 "In version 3.6 onward, libsecret is used instead. This allows sharing the "
-"keyring servide between GNOME and other desktop environments and "
+"keyring service between GNOME and other desktop environments and "
 "applications."
 msgstr ""
-"Το Gnome χρησιμοποιούσε μια βιβλιοθήκη που λεγότανε gnome-keyring πριν την "
+"Το Gnome χρησιμοποιούσε μια βιβλιοθήκη που λεγόταν gnome-keyring πριν την "
 "έκδοση 3.6. Από την έκδοση 3.6, χρησιμοποιείται στη θέση της η libsecret. "
 "Αυτή επιτρέπει τον μερισμό της υπηρεσίας κλειδοθήκης μεταξύ GNOME και άλλων "
 "περιβαλλόντων επιφάνειας εργασίας και εφαρμογών."
@@ -4271,8 +4765,8 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/tech-soup.page:32
 msgid ""
-"<link href=\"developer.gnome.org/libsoup/stable/\">Soup reference manual</"
-"link>"
+"<link href=\"https://developer.gnome.org/libsoup/stable/\">Soup reference "
+"manual</link>"
 msgstr ""
 "<link href=\"developer.gnome.org/libsoup/stable/\">Εγχειρίδιο αναφοράς Soup</"
 "link>"
@@ -4311,7 +4805,7 @@ msgid ""
 "applications. You can create multi-player games or collaborative editors "
 "that integrate with the desktop-wide instant messaging services."
 msgstr ""
-"Με την API Telepathy Tubes, μπορείτε ακόμα να δρομολογήσετε ένα ελεύθερο "
+"Με το API Telepathy Tubes, μπορείτε ακόμα να δρομολογήσετε ένα ελεύθερο "
 "πρωτόκολλο πάνω σε σύγχρονα πρωτόκολλα αμέσων μηνυμάτων όπως το Jabber για "
 "να δημιουργήσετε διαδραστικές εφαρμογές. Μπορείτε να δημιουργήσετε παιχνίδια "
 "πολλών παικτών ή συνεργαζόμενους επεξεργαστές που ενσωματώνονται με τις "
@@ -4496,7 +4990,7 @@ msgstr "Τελειώστε την εφαρμογή και εκτελέστε τ�
 #. (itstool) path: page/title
 #: C/tour-application.page:26
 msgid "Run your application"
-msgstr "Εκτελέστε την εφαρμογή σας"
+msgstr "Εκτέλεση της εφαρμογής"
 
 #. (itstool) path: links/title
 #: C/tour-application.page:29 C/tour-events.page:30 C/tour-get_object.page:30
@@ -4532,9 +5026,9 @@ msgid ""
 "Save the script as <file>helloworld.js</file>, run <cmd>chmod +x helloworld."
 "js</cmd> to mark it executable, and run it with <cmd>./helloworld.js</cmd>."
 msgstr ""
-"Αποθηκεύστε το σενάριο ως <file>helloworld.js</file>, εκτελέστε <cmd>chmod "
-"+x helloworld.js</cmd> για να το κάνετε εκτελέσιμο και εκτελέστε την με "
-"<cmd>./helloworld.js</cmd>."
+"Αποθηκεύστε τη δέσμη ενεργειών ως <file>helloworld.js</file>, εκτελέστε "
+"<cmd>chmod +x helloworld.js</cmd> για να την κάνετε εκτελέσιμη και εκτελέστε "
+"την με <cmd>./helloworld.js</cmd>."
 
 #. (itstool) path: media/p
 #: C/tour-application.page:46
@@ -4575,8 +5069,8 @@ msgid ""
 "Declare <code>HelloWorld</code> as a new <code>Lang</code> class. Gjs "
 "requires classes to have the Name property defined."
 msgstr ""
-"Δηλώστε τον <code>HelloWorld</code> ως μια νέα κλάση <code>Lang</code>. Η "
-"Gjs απαιτεί οι κλάσεις να έχουν ορισμένη ιδιότητα ονόματος."
+"Δηλώστε το <code>HelloWorld</code> ως μια νέα κλάση <code>Lang</code>. Η Gjs "
+"απαιτεί οι κλάσεις να έχουν ορισμένη ιδιότητα ονόματος."
 
 #. (itstool) path: example/code
 #: C/tour-events.page:38
@@ -4598,10 +5092,10 @@ msgid ""
 "existing Gtk event <code>_onActivate</code> and <code>startup</code> to "
 "<code>_onStartup</code>:"
 msgstr ""
-"<code>_init</code> is called when a new instance is created. Create a "
-"<code>GtkApplication</code>, then connect <code>activate</code> to the "
-"existing Gtk event <code>_onActivate</code> and <code>startup</code> to "
-"<code>_onStartup</code>:"
+"Το <code>_init</code> καλείται όταν δημιουργείται ένα νέο στιγμιότυπο. "
+"Δημιουργήστε μια <code>GtkApplication</code>, έπειτα συνδέστε το "
+"<code>activate</code> στο υπάρχον Gtk συμβάν <code>_onActivate</code> και το "
+"<code>startup</code> στο <code>_onStartup</code>:"
 
 #. (itstool) path: example/code
 #: C/tour-events.page:48
@@ -4660,10 +5154,10 @@ msgid ""
 "this case, the UI description is in the file <file>helloworld.glade</file> "
 "and can be read by the <code>get_object()</code> method."
 msgstr ""
-"Η GtkBuilder δέχεται περιγραφές διεπαφής χρήστη και τις γυρίζει στις "
-"εφαρμογές Gtk. Σε αυτήν την περίπτωση, την περιγραφή της διεπαφής χρήστη στο "
-"αρχείο <file>helloworld.glade</file> και μπορεί να διαβαστεί από τη μέθοδο "
-"<code>get_object()</code>."
+"Η GtkBuilder δέχεται περιγραφές διεπαφής χρήστη και τις μετατρέπει σε "
+"εφαρμογές Gtk. Σε αυτήν την περίπτωση, η περιγραφή της διεπαφής χρήστη "
+"βρίσκεται στο αρχείο <file>helloworld.glade</file> και μπορεί να διαβαστεί "
+"από τη μέθοδο <code>get_object()</code>."
 
 #. (itstool) path: example/p
 #: C/tour-get_object.page:38
@@ -4672,10 +5166,10 @@ msgid ""
 "using the <gui>Name</gui> (or <gui>ID</gui>) chosen in Glade, and add the "
 "window object to the application:"
 msgstr ""
-"Φορτώστε το αρχείο διεπαφής χρήστη χρησιμοποιώντας <code>GtkBuilder</code> "
-"και πάρτε το αντικείμενο παραθύρου χρησιμοποιώντας την <gui>Όνομα</gui> (ή "
-"<gui>αναγνωριστικό</gui>) επιλεγμένο στο Glade και προσθέστε το αντικείμενο "
-"παραθύρου στην εφαρμογή:"
+"Φορτώστε το αρχείο διεπαφής χρήστη χρησιμοποιώντας το <code>GtkBuilder</"
+"code> και πάρτε το αντικείμενο παραθύρου χρησιμοποιώντας το επιλεγμένο "
+"<gui>Όνομα</gui> (ή <gui>αναγνωριστικό</gui>) στο Glade, και μετά προσθέστε "
+"το αντικείμενο παραθύρου στην εφαρμογή:"
 
 #. (itstool) path: example/code
 #: C/tour-get_object.page:42
@@ -4717,9 +5211,9 @@ msgid ""
 "for GNOME and can be used to interact with Gtk. <link href=\"http://www.gtk."
 "org/\">Gtk</link> is a toolkit for creating graphical user interfaces."
 msgstr ""
-"Ο <link href=\"https://live.gnome.org/Gjs\">Gjs</link> είναι μια σύνδεση "
-"JavaScript για GNOME και μπορεί να χρησιμοποιηθεί για αλληλεπίδραση με τη "
-"Gtk. Ο <link href=\"http://www.gtk.org/\">Gtk</link> είναι ένα πακέτο "
+"Το <link href=\"https://live.gnome.org/Gjs\">Gjs</link> είναι μια σύνδεση "
+"JavaScript για το GNOME που μπορεί να χρησιμοποιηθεί για να αλληλεπιδράσει "
+"με το Gtk. Το <link href=\"http://www.gtk.org/\">Gtk</link> είναι ένα πακέτο "
 "εργαλείων για τη δημιουργία γραφικών διεπαφών χρήστη."
 
 #. (itstool) path: page/p
@@ -4728,9 +5222,9 @@ msgid ""
 "Open a text editor and paste in the lines of code. The complete script is "
 "available in the <link xref=\"tour-summary\">Summary</link>."
 msgstr ""
-"Ανοίξτε έναν επεξεργαστή κειμένου και επικολλήστε τις γραμμές του κώδικα. Το "
-"πλήρες σενάριο είναι διαθέσιμο στην <link xref=\"tour-summary\">περίληψη</"
-"link>."
+"Ανοίξτε έναν επεξεργαστή κειμένου και επικολλήστε τις γραμμές του κώδικα. Η "
+"πλήρης δέσμη ενεργειών είναι διαθέσιμη στην <link xref=\"tour-summary"
+"\">περίληψη</link>."
 
 #. (itstool) path: page/p
 #: C/tour-gjs.page:37
@@ -4766,7 +5260,7 @@ msgid ""
 "Import <code>lang</code> for the <code>bind</code> function and <code>gi."
 "Gtk</code> for <code>Gtk</code> functions."
 msgstr ""
-"Εισάγετε <code>lang</code> για τη λειτουργία <code>σύνδεση</code> και "
+"Εισάγετε <code>lang</code> για τη λειτουργία <code>σύνδεσης</code> και "
 "<code>gi.Gtk</code> για τις συναρτήσεις <code>Gtk</code>."
 
 #. (itstool) path: example/code
@@ -4803,7 +5297,7 @@ msgstr "Χρησιμοποιήστε Glade για να δημιουργήσετ�
 #. (itstool) path: page/title
 #: C/tour-glade.page:26
 msgid "Create a user interface"
-msgstr "Δημιουργήστε μια διεπαφή χρήστη"
+msgstr "Δημιουργία διεπαφής χρήστη"
 
 #. (itstool) path: page/p
 #: C/tour-glade.page:32
@@ -4812,9 +5306,10 @@ msgid ""
 "GNOME to create a user interface. Glade produces XML files that describe "
 "attributes of an application."
 msgstr ""
-"Χρησιμοποιήστε <link href=\"http://glade.gnome.org/\">Glade</link>, τον "
-"επεξεργαστή διεπαφής χρήστη για να δημιουργήσει το GNOME μια διεπαφή χρήστη. "
-"Η Glade παράγει αρχεία XML που περιγράφουν τα γνωρίσματα μιας εφαρμογής."
+"Χρησιμοποιήστε το <link href=\"http://glade.gnome.org/\">Glade</link>, τον "
+"επεξεργαστή διεπαφής χρήστη του GNOME για να δμιουργήσετε μια διεπαφή "
+"χρήστη. Το Glade παράγει αρχεία XML που περιγράφουν τα γνωρίσματα μιας "
+"εφαρμογής."
 
 #. (itstool) path: page/p
 #: C/tour-glade.page:36
@@ -4823,7 +5318,7 @@ msgid ""
 "Glade is the ID that you will later need to use to get the object from the "
 "UI file."
 msgstr ""
-"Κατά τη δημιουργία ενός αρχείου διεπαφής χρήστη χρησιμοποιώντας Glade, η "
+"Κατά τη δημιουργία ενός αρχείου διεπαφής χρήστη χρησιμοποιώντας το Glade, το "
 "<gui>Όνομα</gui> που ορίζετε στο Glade είναι το αναγνωριστικό που θα "
 "χρειαστείτε αργότερα να χρησιμοποιήσετε για να πάρετε το αντικείμενο από το "
 "αρχείο διεπαφής χρήστη."
@@ -4834,8 +5329,8 @@ msgid ""
 "Create a new window, then set <gui>Name</gui> to <code>window1</code> and "
 "<gui>Window</gui> to <code>Hello World</code>:"
 msgstr ""
-"Δημιουργήστε ένα νέο παράθυρο, έπειτα ορίστε <gui>Όνομα</gui> στο "
-"<code>window1</code> και <gui>παράθυρο</gui> στο <code>Hello World</code>:"
+"Δημιουργήστε ένα νέο παράθυρο, έπειτα ορίστε το <gui>Όνομα</gui> στο "
+"<code>window1</code> και το <gui>Παράθυρο</gui> σε <code>Hello World</code>:"
 
 #. (itstool) path: media/p
 #: C/tour-glade.page:44
@@ -4855,8 +5350,8 @@ msgstr ""
 #: C/tour.page:24
 msgid "Get your GtkApplication started and create a UI using Glade."
 msgstr ""
-"Ξεκινήστε την GtkApplication και δημιουργήστε μια διεπαφή χρήστη "
-"χρησιμοποιώντας Glade."
+"Ξεκινήστε μια εφαρμογή Gtk και δημιουργήστε μια διεπαφή χρήστη "
+"χρησιμοποιώντας το Glade."
 
 #. (itstool) path: page/title
 #: C/tour.page:27
@@ -4870,8 +5365,8 @@ msgid ""
 "editor for GNOME. Glade produces XML files that describe attributes of an "
 "application."
 msgstr ""
-"Η διεπαφή χρήστη (UI) μπορεί να δομηθεί με κώδικα ή να δημιουργηθεί στη "
-"Glade, τον επεξεργαστή γραφικής διεπαφής για GNOME. Η Glade παράγει αρχεία "
+"Η διεπαφή χρήστη (UI) μπορεί να δομηθεί με κώδικα ή να δημιουργηθεί με το "
+"Glade, τον επεξεργαστή γραφικής διεπαφής του GNOME. Το Glade παράγει αρχεία "
 "XML που περιγράφουν τα γνωρίσματα μιας εφαρμογής."
 
 #. (itstool) path: page/p
@@ -4881,10 +5376,10 @@ msgid ""
 "based on the contents of that file with a Gjs script. The script is examined "
 "in multiple parts and included in full in the summary."
 msgstr ""
-"Θα δημιουργήσετε ένα αρχείο GtkBuilder στη Glade και θα προσπελάσετε και θα "
-"εμφανίσετε ένα παράθυρο με βάση τα περιεχόμενα αυτού του αρχείου με ένα "
-"σενάριο Gjs. Το σενάριο εξετάζεται σε πολλά μέρη και συμπεριλαμβάνεται "
-"πλήρως στην περίληψη."
+"Θα δημιουργήσετε ένα αρχείο GtkBuilder στο Glade, θα προσπελάσετε και θα "
+"εμφανίσετε ένα παράθυρο με βάση τα περιεχόμενα αυτού του αρχείου με μια "
+"δέσμη ενεργειών Gjs. Η δέσμη ενεργειών εξετάζεται σε πολλά μέρη και "
+"συμπεριλαμβάνεται πλήρως στην περίληψη."
 
 #. (itstool) path: info/desc
 #: C/tour-summary.page:22
@@ -4964,6 +5459,27 @@ msgstr ""
 "\n"
 "let app = new HelloWorld();\n"
 "app.application.run(ARGV);\n"
+
+#~ msgid "Developer's overview of the Gnome Platform"
+#~ msgstr "Επισκόπηση ανάπτυξης της πλατφόρμας Gnome"
+
+#~ msgid "Development platform"
+#~ msgstr "Πλατφόρμα ανάπτυξης"
+
+#~ msgid "Code samples"
+#~ msgstr "Δείγματα κώδικα"
+
+#~ msgid "Change the IM status"
+#~ msgstr "Αλλαγή της κατάστασης IM"
+
+#~ msgid "Fetch a contact from a Gmail address book"
+#~ msgstr "Προσκομίστε μια επαφή από ένα βιβλίο διευθύνσεων Gmail"
+
+#~ msgid "Scan the network for zeroconf printers"
+#~ msgstr "Σαρώστε το δίκτυο για εκτυπωτές μηδενικής διαμόρφωσης"
+
+#~ msgid "Something with Telepathy Tubes"
+#~ msgstr "Κάτι με το Telepathy Tubes"
 
 #~ msgid "Overview of the powerful technologies inside the GNOME platform."
 #~ msgstr "Περιγραφή των ισχυρών τεχνολογιών της πλατφόρμας GNOME."
@@ -5223,9 +5739,6 @@ msgstr ""
 
 #~ msgid "Fully internationalized text layout and rendering"
 #~ msgstr "Πλήρως διεθνοποιημένη διάταξη κειμένου και απόδοση"
-
-#~ msgid "The power of HTML5 and the web in your application"
-#~ msgstr "Η δύναμη του HTML5 και του ιστού στις εφαρμογές σας"
 
 #~ msgid "link"
 #~ msgstr "σύνδεσμο"
