@@ -1,3 +1,13 @@
+3.13.91
+=======
+* New Human Interface Guidelines (Allan Day)
+* Fixes for new Human Interface Guidelines (Michael Catanzaro, Allan Day,
+  Michael Hill, David King, Tobias Mueller)
+* Platform demos updates (Allan Day, Frédéric Péters)
+* Updated translations:
+  el      (Tom Tryfonidis)
+  es      (Daniel Mustieles)
+
 3.12.2
 ======
 * Fix validation errors (Ekaterina Gerasimova)
