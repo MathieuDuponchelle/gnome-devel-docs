@@ -6,8 +6,7 @@ quality assurance professionals, and project managers.
 
 All of the documents in this module should be long-term maintainable.
 This is not the place for technology previews, product reviews, or
-calls to action.  Consider publishing such documents in the excellent
-GNOME Journal.
+calls to action.
 
 Each document may be maintained by somebody other than the module
 maintainers.  Document maintainers should make a commitment to have
@@ -15,5 +14,5 @@ their documents finalized in time for each stable GNOME release.
 Document maintainers may create branches for longer-term document
 development or restructuring.
 
-This module is for Free documentation.  Please contact the maintainers
-before committing any documentation which is not under the GNU FDL.
+Please contact the maintainers before committing any documentation
+which is not under a CC-BY-SA license.
