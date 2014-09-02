@@ -40,10 +40,10 @@ versatile software that seamlessly integrates with the user's desktop,
 regardless of which desktop it is.</p>
 
   <p>GNOME provides full support for D-Bus using the GDBus APIs in
-  <link href="gio">GIO</link>.</p>
+  <link xref="tech-gio">GIO</link>.</p>
 
 <list style="compact">
-  <item><p><link href="http://developer.gnome.org/gio/stable/">GIO Reference Manual</link></p></item>
+  <item><p><link href="https://developer.gnome.org/gio/stable/">GIO Reference Manual</link></p></item>
   <item><p><link href="http://dbus.freedesktop.org/doc/dbus-tutorial.html">D-Bus Tutorial</link></p></item>
   <item><p><link href="http://dbus.freedesktop.org/doc/dbus-specification.html">D-Bus Specification</link></p></item>
 </list>

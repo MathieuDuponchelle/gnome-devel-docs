@@ -24,7 +24,7 @@
   <p>At this point the strings are ready for translation, or
   <em>localization</em>. For projects hosted in the GNOME Git repositories,
   this task is handled by the GNOME Translation Project.
-  <app href="http://projects.gnome.org/gtranslator/">Gtranslator</app>
+  <app href="https://wiki.gnome.org/Apps/Gtranslator">Gtranslator</app>
   is a GNOME tool for editing <file>.po</file> files. Other online and offline
   localization tools include <app>Transifex</app>, <app>Virtaal</app>,
   <app>KBabel</app> or <app>Pootle</app>.</p>

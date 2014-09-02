@@ -32,6 +32,6 @@
   thumbnailer is <link href="https://developer.gnome.org/gnome-desktop3/stable/GnomeDesktopThumbnailFactory.html">GnomeDesktopThumbnailFactory</link>.</p>
 
   <p>A common helper for thumbnailers, which handles the command-line parsing
-  and output file generation, is <link href="">gnome-thumbnailer-skeleton</link>.</p>
+  and output file generation, is <link href="https://github.com/hadess/gnome-thumbnailer-skeleton">gnome-thumbnailer-skeleton</link>.</p>
 
 </page>

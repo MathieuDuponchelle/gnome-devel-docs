@@ -29,8 +29,8 @@
     <title>Get started with GNOME</title>
   </links>
 
-  <p><link href="https://live.gnome.org/Gjs">Gjs</link> is a JavaScript binding
-  for GNOME and can be used to interact with Gtk. <link
+  <p><link href="https://wiki.gnome.org/Projects/Gjs">Gjs</link> is a
+  JavaScript binding for GNOME and can be used to interact with Gtk. <link
   href="http://www.gtk.org/">Gtk</link> is a toolkit for creating graphical user
   interfaces.</p> <p>Open a text editor and paste in the lines of code. The
   complete script is available in the <link

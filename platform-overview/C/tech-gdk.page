@@ -48,6 +48,6 @@ color depth, colormaps, and cursors.</p>
   to draw high-quality 2D graphics.</p>
 
 <list style="compact">
-  <item><p><link href="http://library.gnome.org/devel/gdk/stable/">GDK Reference Manual</link></p></item>
+  <item><p><link href="https://developer.gnome.org/gdk3/stable/">GDK Reference Manual</link></p></item>
 </list>
 </page>

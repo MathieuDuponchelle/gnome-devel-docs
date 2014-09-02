@@ -29,7 +29,7 @@
   <p>GNOME uses the
   <link href="http://standards.freedesktop.org/desktop-entry-spec/latest/index.html">freedesktop.org
   Desktop Entry</link> and
-  <link href="http://standards.freedesktop.org/desktop-menu-spec/latest/index.html">Desktop
+  <link href="http://standards.freedesktop.org/menu-spec/latest/">Desktop
   Menu specifications</link> to describe application launchers. Installing a
   desktop file is the standard way to register your application with GNOME and
   other desktops.</p>

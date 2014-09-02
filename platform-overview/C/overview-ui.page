@@ -94,7 +94,7 @@ custom UI elements that you create.</p>
   <item>
     <p><em style="strong">Web</em> is the GNOME browser, which uses GTK+ and
     WebKitGTK+, and is fully accessible.</p>
-    <p>( <link href="http://projects.gnome.org/epiphany/">Website</link> | <link href="xxx">Screenshot</link> | <link href="xxx">Source code</link> )</p>
+    <p>( <link href="https://wiki.gnome.org/Apps/Web">Website</link> | <link href="https://git.gnome.org/browse/epiphany/">Source code</link> )</p>
   </item>
   <item>
     <p><em style="strong">MonoDevelop</em> is a cross-platform IDE designed
@@ -103,9 +103,8 @@ custom UI elements that you create.</p>
     <p>( <link href="http://monodevelop.com/">Website</link> | <link href="http://monodevelop.com/Screenshots">Screenshots</link> | <link href="https://github.com/mono/monodevelop">Source code</link> )</p>
   </item>
   <item>
-    <p><em style="strong">Iagno</em> is a Reversi game for GNOME which uses
-    Clutter for the animated game board.</p>
-    <p>( <link href="https://live.gnome.org/Iagno">Website</link> | <link href="xxx">Screenshot</link> | <link href="xxx">Source code</link> )</p>
+    <p><em style="strong">Videos</em> is the GNOME multimedia player, and uses Clutter to display video content.</p>
+    <p>( <link href="https://wiki.gnome.org/Apps/Videos">Website</link> | <link href="https://git.gnome.org/browse/totem/">Source code</link> )</p>
   </item>
  </list>
 </section>
