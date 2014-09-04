@@ -58,6 +58,7 @@
 <list>
 <item><p>Provide an <link xref="keyboard-input#access-keys">access key</link> for every menu item. You may use the same access key on different menus in your application, but avoid duplicating access keys on the same menu. Note that unlike other controls, once a menu is displayed, its access keys may be used by just typing the letter; it is not necessary to press the Alt key at the same time.</p></item>
 <item><p>Label menu items with verbs for commands and adjectives for settings, using <link xref="writing-style#capitalization">header capitalization</link>.</p></item>
+<item><p>Use <link xref="writing-style#ellipses">ellipses</link> when a menu item requires further input from the user to complete an action.</p></item>
 <item><p>Two linked actions can be combined into a single menu item, by changing the label when the item is selected. For example, a <gui>Play</gui> item may change to <gui>Pause</gui>. However, only use this type of item when actions are logical opposites which are obvious to users. Likewise, do not use this technique for settings - use check boxes or radio buttons instead.</p></item>
 </list>
 

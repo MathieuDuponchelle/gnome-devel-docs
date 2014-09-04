@@ -47,33 +47,35 @@
 
 <p>Two styles of capitalization are used in GNOME user interfaces: header capitalization and sentence capitalization.</p>
 
+<p>Header capitalization should be used for any headings, including header bar headings and page, tab and menu titles. It should also be used for short control labels that do not normally form proper sentences, such as button and switch labels and menu items.</p>
+
+<p>Sentence capitalization should be used for labels which form sentences or which run on to other text, including labels for check boxes, radio buttons, sliders, text entry boxes, field labels and combobox labels. Sentence capitalization should be used for explanatory or body text, such as that which is found in dialogs or notifications.</p>
+
 <section id="header-capitalization">
 <title>Header Capitalization</title>
 
-<p>Capitalize all words in the element, with the following exceptions:</p>
+<p>Capitalize all words, except those with three or fewer letters. However, verbs of any length should be capitilized (such as “Be”, “Are”, “Is”, “See”, “Add”, and so on).</p>
 
-<list>
-<item><p>Articles: a, an, the.</p></item>
-<item><p>Conjunctions of three or fewer letters. For example: and, but, for, not, so, yet.</p></item>
-<item><p>Prepositions of three or fewer letters. For example: at, for, by, in, to.</p></item>
-</list>
-
-<p>(Verbs with three or fewer letters should be capitalized: Be, Are, Is, Put, See, Add.)</p>
-
-<p>For example: “Create a Document”, “Find and Replace”.</p>
-
-<p>Header capitalization should be used for any headings, including header bar headings and page, tab and menu titles. It should also be used for short control labels that do not normally form proper sentences, such as button and switch labels and menu items.</p>
+<p>For example: “Create a Document”, “Find and Replace”, “Document Cannot Be Found”.</p>
 
 </section>
 
 <section id="sentence-capitalisation">
 <title>Sentence Capitalization</title>
 
-<p>Capitalize the first letter of the first word and any other words normally capitalized in sentences, such as application names.</p>
+<p>Capitalize the first letter of the first word and any other words normally capitalized in sentences, such as proper nouns.</p>
 
-<p>Sentence capitalization should be used for labels which form sentences or which run on to other text, including labels for check boxes, radio buttons, sliders, text entry boxes, field labels and combobox labels. Sentence capitalization should be used for explanatory or body text, such as that which is found in dialogs or notifications.</p>
+<p>For example: “The document cannot be found in this location.” “Finding results for London.”</p>
 
 </section>
+</section>
+
+<section id="ellipses">
+<title>Ellipses (…)</title>
+
+<p>Use an ellipsis (…) at the end of a label if the action requires further input from the user before it can be carried out. For example, <gui>Save As…</gui>, <gui>Find…</gui> or <gui>Rename…</gui>.</p>
+
+<p>Do not add an ellipsis to commands like <gui>Properties</gui> or <gui>Preferences</gui>. While these commands open windows that can incorporate further functionality, the label does not specify a particular action, and therefore does not need to communicate that further input is required.</p>
 
 </section>
 
