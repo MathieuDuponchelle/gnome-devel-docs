@@ -5,3 +5,6 @@ SUBDIRS =				\
 	optimization-guide		\
 	platform-overview		\
 	programming-guidelines
+
+dist_noinst_DATA = \
+	COPYING.GFDL
