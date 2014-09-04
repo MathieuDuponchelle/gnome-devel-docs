@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: platform-overview.master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-04 06:39+0000\n"
-"PO-Revision-Date: 2014-07-04 11:43+0200\n"
+"POT-Creation-Date: 2014-09-04 09:22+0000\n"
+"PO-Revision-Date: 2014-09-04 12:31+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "Language: \n"
@@ -542,26 +542,26 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/dev-launching-desktop.page:29
 #| msgid ""
-#| "GNOME uses the <link type=\"seealso\" href=\"http://standards.freedesktop."
-#| "org/desktop-entry-spec/latest/index.html\">freedesktop.org Desktop Entry</"
-#| "link> and <link type=\"seealso\" href=\"http://standards.freedesktop.org/"
-#| "desktop-menu-spec/latest/index.html\">Desktop Menu specifications</link> "
-#| "to describe application launchers. Installing a desktop file is the "
-#| "standard way to register your application with GNOME and other desktops."
+#| "GNOME uses the <link href=\"http://standards.freedesktop.org/desktop-"
+#| "entry-spec/latest/index.html\">freedesktop.org Desktop Entry</link> and "
+#| "<link href=\"http://standards.freedesktop.org/desktop-menu-spec/latest/"
+#| "index.html\">Desktop Menu specifications</link> to describe application "
+#| "launchers. Installing a desktop file is the standard way to register your "
+#| "application with GNOME and other desktops."
 msgid ""
 "GNOME uses the <link href=\"http://standards.freedesktop.org/desktop-entry-"
 "spec/latest/index.html\">freedesktop.org Desktop Entry</link> and <link href="
-"\"http://standards.freedesktop.org/desktop-menu-spec/latest/index.html"
-"\">Desktop Menu specifications</link> to describe application launchers. "
-"Installing a desktop file is the standard way to register your application "
-"with GNOME and other desktops."
+"\"http://standards.freedesktop.org/menu-spec/latest/\">Desktop Menu "
+"specifications</link> to describe application launchers. Installing a "
+"desktop file is the standard way to register your application with GNOME and "
+"other desktops."
 msgstr ""
 "GNOME usa las especificaciones <link href=\"http://standards.freedesktop.org/"
 "desktop-entry-spec/latest/index.html\">Desktop Entry de freedesktop.org</"
-"link> y <link href=\"http://standards.freedesktop.org/desktop-menu-spec/"
-"latest/index.html\">Desktop Menu</link> para describir los lanzadores de "
-"aplicaciones. Instalar un archivo .desktop es la manera estándar de "
-"registrar su aplicación en GNOME y en otros escritorios."
+"link> y <link href=\"http://standards.freedesktop.org/menu-spec/latest/"
+"\">Desktop Menu</link> para describir los lanzadores de aplicaciones. "
+"Instalar un archivo .desktop es la manera estándar de registrar su "
+"aplicación en GNOME y en otros escritorios."
 
 #. (itstool) path: page/p
 #: C/dev-launching-desktop.page:37
@@ -669,15 +669,6 @@ msgstr "Instalar un icono para identificar su aplicación."
 
 #. (itstool) path: page/p
 #: C/dev-launching-icons.page:28
-#| msgid ""
-#| "When listing an icon in a desktop file, the image must be installed in a "
-#| "standard location, given by the <link type=\"seealso\" href=\"http://"
-#| "standards.freedesktop.org/icon-theme-spec/icon-theme-spec-latest.html"
-#| "\">freedesktop.org Icon Theme</link> and <link type=\"seealso\" href="
-#| "\"http://standards.freedesktop.org/icon-naming-spec/icon-naming-spec-"
-#| "latest.html\">Icon Naming specifications</link>. As a minimum, an "
-#| "application should install a 48×48 pixel icon into <file><var>$prefix</"
-#| "var>/share/icons/hicolor/48x48/apps</file> in PNG format."
 msgid ""
 "When listing an icon in a desktop file, the image must be installed in a "
 "standard location, given by the <link href=\"http://standards.freedesktop."
@@ -698,11 +689,6 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/dev-launching-icons.page:37
-#| msgid ""
-#| "To match with other icons, both in GNOME and other platforms, follow the "
-#| "<link type=\"seealso\" href=\"http://tango.freedesktop.org/"
-#| "Tango_Icon_Theme_Guidelines\">Tango Icon Theme guidelines</link> when "
-#| "creating icons and application artwork."
 msgid ""
 "To match with other icons, both in GNOME and other platforms, follow the "
 "<link href=\"http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines"
@@ -762,11 +748,6 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/dev-launching-mime.page:45
-#| msgid ""
-#| "Custom MIME types can be added to the system-wide MIME database, but this "
-#| "is outside the scope of this guide. The <link type=\"seealso\" href="
-#| "\"http://standards.freedesktop.org/shared-mime-info-spec/latest/\">Shared "
-#| "MIME-Info Database</link> specification for more details."
 msgid ""
 "Custom MIME types can be added to the system-wide MIME database, but this is "
 "outside the scope of this guide. The <link href=\"http://standards."
@@ -791,11 +772,6 @@ msgstr "Notifica al usuario cuando la aplicación ha terminado de cargarse."
 
 #. (itstool) path: page/p
 #: C/dev-launching-startupnotify.page:28
-#| msgid ""
-#| "GNOME implements the <link type=\"seealso\" href=\"http://standards."
-#| "freedesktop.org/desktop-entry-spec/latest/index.html\">Startup "
-#| "Notification protocol</link>, to give feedback to the user when "
-#| "application startup finishes."
 msgid ""
 "GNOME implements the <link href=\"http://standards.freedesktop.org/desktop-"
 "entry-spec/latest/index.html\">Startup Notification protocol</link>, to give "
@@ -893,13 +869,19 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/dev-thumbnailer.page:34
+#| msgid ""
+#| "A common helper for thumbnailers, which handles the command-line parsing "
+#| "and output file generation, is <link href=\"\">gnome-thumbnailer-"
+#| "skeleton</link>."
 msgid ""
 "A common helper for thumbnailers, which handles the command-line parsing and "
-"output file generation, is <link href=\"\">gnome-thumbnailer-skeleton</link>."
+"output file generation, is <link href=\"https://github.com/hadess/gnome-"
+"thumbnailer-skeleton\">gnome-thumbnailer-skeleton</link>."
 msgstr ""
 "Una ayuda común para los creadores de miniaturas, que gestiona el análisis "
 "de la línea de comandos y la generación de archivos de salida es <link href="
-"\"\">gnome-thumbnailer-skeleton</link>."
+"\"https://github.com/hadess/gnome-thumbnailer-skeleton\">gnome-thumbnailer-"
+"skeleton</link>."
 
 #. (itstool) path: page/title
 #: C/dev-translate-build.page:21
@@ -1136,13 +1118,17 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/dev-translate.page:41
+#| msgid ""
+#| "For more information about translating GNOME projects, see the GNOME "
+#| "<link href=\"https://live.gnome.org/TranslationProject/DevGuidelines"
+#| "\">Translation Project</link>."
 msgid ""
 "For more information about translating GNOME projects, see the GNOME <link "
-"href=\"https://live.gnome.org/TranslationProject/DevGuidelines\">Translation "
+"href=\"https://wiki.gnome.org/TranslationProject/DevGuidelines\">Translation "
 "Project</link>."
 msgstr ""
 "Para obtener más información sobre la traducción de proyectos de GNOME, "
-"consulte el <link href=\"https://live.gnome.org/TranslationProject/"
+"consulte el <link href=\"https://wiki.gnome.org/TranslationProject/"
 "DevGuidelines\">Proyecto de traducción</link> de GNOME."
 
 #. (itstool) path: page/title
@@ -1204,19 +1190,26 @@ msgstr "Herramientas de traducción"
 
 #. (itstool) path: page/p
 #: C/dev-translate-tools.page:24
+#| msgid ""
+#| "At this point the strings are ready for translation, or <em>localization</"
+#| "em>. For projects hosted in the GNOME Git repositories, this task is "
+#| "handled by the GNOME Translation Project. <app href=\"http://projects."
+#| "gnome.org/gtranslator/\">Gtranslator</app> is a GNOME tool for editing "
+#| "<file>.po</file> files. Other online and offline localization tools "
+#| "include <app>Transifex</app>, <app>Virtaal</app>, <app>KBabel</app> or "
+#| "<app>Pootle</app>."
 msgid ""
 "At this point the strings are ready for translation, or <em>localization</"
 "em>. For projects hosted in the GNOME Git repositories, this task is handled "
-"by the GNOME Translation Project. <app href=\"http://projects.gnome.org/"
-"gtranslator/\">Gtranslator</app> is a GNOME tool for editing <file>.po</"
-"file> files. Other online and offline localization tools include "
-"<app>Transifex</app>, <app>Virtaal</app>, <app>KBabel</app> or <app>Pootle</"
-"app>."
+"by the GNOME Translation Project. <app href=\"https://wiki.gnome.org/Apps/"
+"Gtranslator\">Gtranslator</app> is a GNOME tool for editing <file>.po</file> "
+"files. Other online and offline localization tools include <app>Transifex</"
+"app>, <app>Virtaal</app>, <app>KBabel</app> or <app>Pootle</app>."
 msgstr ""
 "En este punto, las cadenas está lista para su traducción o <em>localización</"
 "em>. Para proyectos alojados en el repositorio Git de GNOME, esta tarea la "
-"gestiona el Proyecto de traducción de GNOME. <app href=\"http://projects."
-"gnome.org/gtranslator/\">Gtranslator</app> es una herramienta de GNOME para "
+"gestiona el Proyecto de traducción de GNOME. <app href=\"https://wiki.gnome."
+"org/Apps/Gtranslator\">Gtranslator</app> es una herramienta de GNOME para "
 "editar archivos <file>.po</file>. Hay otras herramientas de traducción, como "
 "pueden ser <app>Transifex</app>, <app>Virtaal</app>, <app>KBabel</app> o "
 "<app>Pootle</app>."
@@ -1275,7 +1268,6 @@ msgstr "http://foundation.gnome.org/"
 
 #. (itstool) path: credit/years
 #: C/index.page:38
-#| msgid "2012, 2013"
 msgid "2013, 2014"
 msgstr "2013, 2014"
 
@@ -1316,7 +1308,6 @@ msgstr "Guías de integración"
 
 #. (itstool) path: links/title
 #: C/index.page:64
-#| msgid "Develop for the GNOME Platform"
 msgid "Develop for the platform"
 msgstr "Desarrollo para la plataforma"
 
@@ -1327,7 +1318,6 @@ msgstr "¿Qué licencia debe usar para su aplicación?"
 
 #. (itstool) path: page/title
 #: C/license.page:21
-#| msgid "Run your application"
 msgid "License your application"
 msgstr "Licenciar la aplicación"
 
@@ -1604,16 +1594,22 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/overview-communication.page:91
+#| msgid ""
+#| "(<link href=\"https://live.gnome.org/GnomeGames/\">Website</link> | <link "
+#| "href=\"https://live.gnome.org/glChess?action=AttachFile&amp;do=get&amp;"
+#| "target=glchess3d.png\">Screenshot</link> | <link href=\"http://git.gnome."
+#| "org/browse/gnome-games/tree/glchess/src\">GLChess online multiplayer "
+#| "code</link> )"
 msgid ""
-"(<link href=\"https://live.gnome.org/Empathy\">Website</link> | <link href="
-"\"http://staz.be/tup/2009-06/Capture-Conversations.png\">Screenshot</link> | "
-"<link href=\"http://git.gnome.org/browse/empathy/tree/\">Empathy source "
-"code</link> )"
+"(<link href=\"https://wiki.gnome.org/Apps/Empathy\">Website</link> | <link "
+"href=\"https://wiki.gnome.org/Apps/Empathy?action=AttachFile&amp;do=get&amp;"
+"target=empathy.png\">Screenshot</link> | <link href=\"https://git.gnome.org/"
+"browse/empathy/\">Empathy source code</link> )"
 msgstr ""
-"(<link href=\"https://live.gnome.org/Empathy\">Página web</link> | <link "
-"href=\"http://staz.be/tup/2009-06/Capture-Conversations.png\">Captura de "
-"pantalla</link> | <link href=\"http://git.gnome.org/browse/empathy/tree/"
-"\">Código fuente de Empathy</link> )"
+"(<link href=\"https://wiki.gnome.org/Apps/Empathy\">Página web</link> | "
+"<link href=\"https://wiki.gnome.org/Apps/Empathy?action=AttachFile&amp;"
+"do=get&amp;target=empathy.png\">Captura de pantalla</link> | <link href="
+"\"https://git.gnome.org/browse/empathy/\">Código fuente de Empathy</link> )"
 
 #. (itstool) path: item/p
 #: C/overview-communication.page:95
@@ -1628,18 +1624,23 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/overview-communication.page:96
+#| msgid ""
+#| "(<link href=\"https://live.gnome.org/GnomeGames/\">Website</link> | <link "
+#| "href=\"https://live.gnome.org/glChess?action=AttachFile&amp;do=get&amp;"
+#| "target=glchess3d.png\">Screenshot</link> | <link href=\"http://git.gnome."
+#| "org/browse/gnome-games/tree/glchess/src\">GLChess online multiplayer "
+#| "code</link> )"
 msgid ""
-"(<link href=\"https://live.gnome.org/GnomeGames/\">Website</link> | <link "
-"href=\"https://live.gnome.org/glChess?action=AttachFile&amp;do=get&amp;"
-"target=glchess3d.png\">Screenshot</link> | <link href=\"http://git.gnome.org/"
-"browse/gnome-games/tree/glchess/src\">GLChess online multiplayer code</"
-"link> )"
+"(<link href=\"https://wiki.gnome.org/Projects/Games\">Website</link> | <link "
+"href=\"https://wiki.gnome.org/Apps/Chess?action=AttachFile&amp;do=get&amp;"
+"target=gnome-chess.png\">Screenshot</link> | <link href=\"https://git.gnome."
+"org/browse/gnome-chess/\">GLChess online multiplayer code</link> )"
 msgstr ""
-"(<link href=\"https://live.gnome.org/GnomeGames/\">Página web</link> | <link "
-"href=\"https://live.gnome.org/glChess?action=AttachFile&amp;do=get&amp;"
-"target=glchess3d.png\">Captura de pantalla</link> | <link href=\"http://git."
-"gnome.org/browse/gnome-games/tree/glchess/src\">Código de GLChess "
-"multijugador en línea</link> )"
+"(<link href=\"https://wiki.gnome.org/Projects/Games\">Página web</link> | "
+"<link href=\"https://wiki.gnome.org/Apps/Chess?action=AttachFile&amp;"
+"do=get&amp;target=gnome-chess.png\">Captura de pantalla</link> | <link href="
+"\"https://git.gnome.org/browse/gnome-chess/\">Código de GLChess multijugador "
+"en línea</link> )"
 
 #. (itstool) path: item/p
 #: C/overview-communication.page:100
@@ -1652,16 +1653,21 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/overview-communication.page:101
+#| msgid ""
+#| "(<link href=\"http://projects.gnome.org/rhythmbox/\">Website</link> | "
+#| "<link href=\"http://skss.learnfree.eu/wp-content/uploads/2009/05/"
+#| "rhythmbox_daap_3.png\">Screenshot</link> | <link href=\"http://git.gnome."
+#| "org/browse/rhythmbox/tree/plugins/daap\">DAAP Code</link> )"
 msgid ""
-"(<link href=\"http://projects.gnome.org/rhythmbox/\">Website</link> | <link "
-"href=\"http://skss.learnfree.eu/wp-content/uploads/2009/05/rhythmbox_daap_3."
-"png\">Screenshot</link> | <link href=\"http://git.gnome.org/browse/rhythmbox/"
-"tree/plugins/daap\">DAAP Code</link> )"
+"(<link href=\"https://wiki.gnome.org/Apps/Rhythmbox\">Website</link> | <link "
+"href=\"https://wiki.gnome.org/Apps/Rhythmbox/Screenshots\">Screenshots</"
+"link> | <link href=\"https://git.gnome.org/browse/rhythmbox/tree/plugins/daap"
+"\">DAAP Code</link> )"
 msgstr ""
-"(<link href=\"http://projects.gnome.org/rhythmbox/\">Página web</link> | "
-"<link href=\"http://skss.learnfree.eu/wp-content/uploads/2009/05/"
-"rhythmbox_daap_3.png\">Captura de pantalla</link> | <link href=\"http://git."
-"gnome.org/browse/rhythmbox/tree/plugins/daap\">Código de DAAP </link> )"
+"(<link href=\"https://wiki.gnome.org/Apps/Rhythmbox\">Página web</link> | "
+"<link href=\"https://wiki.gnome.org/Apps/Rhythmbox/Screenshots\">Capturas de "
+"pantalla</link> | <link href=\"https://git.gnome.org/browse/rhythmbox/tree/"
+"plugins/daap\">Código de DAAP</link> )"
 
 #. (itstool) path: info/desc
 #: C/overview-io.page:20
@@ -1748,14 +1754,18 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/overview-io.page:72
+#| msgid ""
+#| "( <link href=\"https://live.gnome.org/GnomeDocuments\">Website</link> | "
+#| "<link href=\"xxx\">Screenshot</link> | <link href=\"https://git.gnome.org/"
+#| "browse/gnome-documents\">Source code</link> )"
 msgid ""
-"( <link href=\"https://live.gnome.org/GnomeDocuments\">Website</link> | "
-"<link href=\"xxx\">Screenshot</link> | <link href=\"https://git.gnome.org/"
-"browse/gnome-documents\">Source code</link> )"
+"( <link href=\"https://wiki.gnome.org/Apps/Documents\">Website</link> | "
+"<link href=\"https://git.gnome.org/browse/gnome-documents\">Source code</"
+"link> )"
 msgstr ""
-"( <link href=\"https://live.gnome.org/GnomeDocuments\">Página web</link> | "
-"<link href=\"xxx\">Captura de pantalla</link> | <link href=\"https://git."
-"gnome.org/browse/gnome-documents\">Código fuente</link> )"
+"( <link href=\"https://wiki.gnome.org/Apps/Documents\">Página web</link> | "
+"<link href=\"https://git.gnome.org/browse/gnome-documents\">Código fuente</"
+"link> )"
 
 #. (itstool) path: item/p
 #: C/overview-io.page:75
@@ -1768,15 +1778,19 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/overview-io.page:77
+#| msgid ""
+#| "( <link href=\"https://live.gnome.org/Nautilus\">Website</link> | <link "
+#| "href=\"https://live.gnome.org/Nautilus/Screenshots\">Screenshots</link> | "
+#| "<link href=\"https://git.gnome.org/browse/nautilus\">Source code</link> )"
 msgid ""
-"( <link href=\"https://live.gnome.org/Nautilus\">Website</link> | <link href="
-"\"https://live.gnome.org/Nautilus/Screenshots\">Screenshots</link> | <link "
-"href=\"https://git.gnome.org/browse/nautilus\">Source code</link> )"
+"( <link href=\"https://wiki.gnome.org/Apps/Nautilus\">Website</link> | <link "
+"href=\"https://wiki.gnome.org/Apps/Nautilus/Screenshots\">Screenshots</link> "
+"| <link href=\"https://git.gnome.org/browse/nautilus\">Source code</link> )"
 msgstr ""
-"( <link href=\"https://live.gnome.org/Nautilus\">Página web</link> | <link "
-"href=\"https://live.gnome.org/Nautilus/Screenshots\">Capturas de pantalla</"
-"link> | <link href=\"https://git.gnome.org/browse/nautilus\">Código fuente</"
-"link> )"
+"( <link href=\"https://wiki.gnome.org/Apps/Nautilus\">Página web</link> | "
+"<link href=\"https://wiki.gnome.org/Apps/Nautilus/Screenshots\">Capturas de "
+"pantalla</link> | <link href=\"https://git.gnome.org/browse/nautilus"
+"\">Código fuente</link> )"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -1936,15 +1950,20 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/overview-media.page:97
+#| msgid ""
+#| "( <link href=\"https://wiki.gnome.org/GnomeShell\">Website</link> | <link "
+#| "href=\"http://www.gnome.org/gnome-3/\">Screenshot</link> | <link href="
+#| "\"https://git.gnome.org/browse/gnome-shell/\">Source Code</link> )"
 msgid ""
-"( <link href=\"http://projects.gnome.org/totem/\">Website</link> | <link "
-"href=\"http://en.wikipedia.org/wiki/File:Totem3.2.0.png\">Screenshot</link> "
-"| <link href=\"https://git.gnome.org/browse/totem/\">Source code</link> )"
+"( <link href=\"https://wiki.gnome.org/Apps/Videos\">Website</link> | <link "
+"href=\"https://git.gnome.org/browse/totem/plain/data/appdata/ss-main.png"
+"\">Screenshot</link> | <link href=\"https://git.gnome.org/browse/totem/"
+"\">Source code</link> )"
 msgstr ""
-"( <link href=\"http://projects.gnome.org/totem/\">Página web</link> | <link "
-"href=\"http://en.wikipedia.org/wiki/File:Totem3.2.0.png\">Captura de "
-"pantalla</link> | <link href=\"https://git.gnome.org/browse/totem/\">Código "
-"fuente</link> )"
+"( <link href=\"https://wiki.gnome.org/Apps/Videos\">Página web</link> | "
+"<link href=\"https://git.gnome.org/browse/totem/plain/data/appdata/ss-main."
+"png\">Captura de pantalla</link> | <link href=\"https://git.gnome.org/browse/"
+"totem/\">Código fuente</link> )"
 
 #. (itstool) path: item/p
 #: C/overview-media.page:100
@@ -2079,14 +2098,20 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/overview-net.page:82
+#| msgid ""
+#| "( <link href=\"https://live.gnome.org/Nautilus\">Website</link> | <link "
+#| "href=\"https://live.gnome.org/Nautilus/Screenshots\">Screenshots</link> | "
+#| "<link href=\"https://git.gnome.org/browse/nautilus\">Source code</link> )"
 msgid ""
-"( <link href=\"http://projects.gnome.org/epiphany/\">Website</link> | <link "
-"href=\"xxx\">Screenshot</link> | <link href=\"https://git.gnome.org/browse/"
-"epiphany/\">Source code</link> )"
+"( <link href=\"https://wiki.gnome.org/Apps/Web\">Website</link> | <link href="
+"\"https://git.gnome.org/browse/epiphany/plain/data/screenshot.png"
+"\">Screenshot</link> | <link href=\"https://git.gnome.org/browse/epiphany/"
+"\">Source code</link> )"
 msgstr ""
-"( <link href=\"http://projects.gnome.org/epiphany/\">Página web</link> | "
-"<link href=\"xxx\">Captura de pantalla</link> | <link href=\"https://git."
-"gnome.org/browse/epiphany/\">Código fuente</link> )"
+"( <link href=\"https://wiki.gnome.org/Apps/Web\">Página web</link> | <link "
+"href=\"https://git.gnome.org/browse/epiphany/plain/data/screenshot.png"
+"\">Captura de pantalla</link> | <link href=\"https://git.gnome.org/browse/"
+"epiphany/\">Código fuente</link> )"
 
 #. (itstool) path: item/p
 #: C/overview-net.page:85
@@ -2101,14 +2126,19 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/overview-net.page:88
+#| msgid ""
+#| "( <link href=\"https://wiki.gnome.org/GnomeShell\">Website</link> | <link "
+#| "href=\"http://www.gnome.org/gnome-3/\">Screenshot</link> | <link href="
+#| "\"https://git.gnome.org/browse/gnome-shell/\">Source Code</link> )"
 msgid ""
-"( <link href=\"https://wiki.gnome.org/GnomeShell\">Website</link> | <link "
-"href=\"http://www.gnome.org/gnome-3/\">Screenshot</link> | <link href="
+"( <link href=\"https://wiki.gnome.org/Projects/GnomeShell\">Website</link> | "
+"<link href=\"http://www.gnome.org/gnome-3/\">Screenshot</link> | <link href="
 "\"https://git.gnome.org/browse/gnome-shell/\">Source Code</link> )"
 msgstr ""
-"( <link href=\"https://wiki.gnome.org/GnomeShell\">Página web</link> | <link "
-"href=\"http://www.gnome.org/gnome-3/\">Captura de pantalla</link> | <link "
-"href=\"https://git.gnome.org/browse/gnome-shell/\">Código fuente</link> )"
+"( <link href=\"https://wiki.gnome.org/Projects/GnomeShell\">Página web</"
+"link> | <link href=\"http://www.gnome.org/gnome-3/\">Screenshot</link> | "
+"<link href=\"https://git.gnome.org/browse/gnome-shell/\">Código fuente</"
+"link> )"
 
 #. (itstool) path: info/desc
 #: C/overview-settings.page:15
@@ -2355,13 +2385,16 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/overview-ui.page:97
+#| msgid ""
+#| "( <link href=\"http://projects.gnome.org/epiphany/\">Website</link> | "
+#| "<link href=\"xxx\">Screenshot</link> | <link href=\"https://git.gnome.org/"
+#| "browse/epiphany/\">Source code</link> )"
 msgid ""
-"( <link href=\"http://projects.gnome.org/epiphany/\">Website</link> | <link "
-"href=\"xxx\">Screenshot</link> | <link href=\"xxx\">Source code</link> )"
+"( <link href=\"https://wiki.gnome.org/Apps/Web\">Website</link> | <link href="
+"\"https://git.gnome.org/browse/epiphany/\">Source code</link> )"
 msgstr ""
-"( <link href=\"http://projects.gnome.org/epiphany/\">Página we</link> | "
-"<link href=\"xxx\">Captura de pantalla</link> | <link href=\"xxx\">Código "
-"fuente</link> )"
+"( <link href=\"https://wiki.gnome.org/Apps/Web\">Página web</link> | <link "
+"href=\"https://git.gnome.org/browse/epiphany/\">Código fuente</link> )"
 
 #. (itstool) path: item/p
 #: C/overview-ui.page:100
@@ -2386,22 +2419,26 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/overview-ui.page:106
+#| msgid "<em style=\"strong\">Videos</em> is the GNOME multimedia player."
 msgid ""
-"<em style=\"strong\">Iagno</em> is a Reversi game for GNOME which uses "
-"Clutter for the animated game board."
+"<em style=\"strong\">Videos</em> is the GNOME multimedia player, and uses "
+"Clutter to display video content."
 msgstr ""
-"<em style=\"strong\">Iagno</em> es la versión del juego Reversi para GNOME y "
-"usa Clutter para el tablero de juego animado."
+"<em style=\"strong\">Videos</em> es el reproductor multimedia de GNOME, y "
+"usa Clutter para mostrar el contenido del vídeo."
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:108
+#: C/overview-ui.page:107
+#| msgid ""
+#| "( <link href=\"https://developer.gnome.org/dconf/unstable/dconf-editor."
+#| "html\">Website</link> | <link href=\"https://git.gnome.org/browse/dconf/"
+#| "tree/editor\">Source code</link> )"
 msgid ""
-"( <link href=\"https://live.gnome.org/Iagno\">Website</link> | <link href="
-"\"xxx\">Screenshot</link> | <link href=\"xxx\">Source code</link> )"
+"( <link href=\"https://wiki.gnome.org/Apps/Videos\">Website</link> | <link "
+"href=\"https://git.gnome.org/browse/totem/\">Source code</link> )"
 msgstr ""
-"( <link href=\"https://live.gnome.org/Iagno\">Página web</link> | <link href="
-"\"xxx\">Captura de pantalla</link> | <link href=\"xxx\">Código fuente</"
-"link> )"
+"( <link href=\"https://wiki.gnome.org/Apps/Videos\">Página web</link> | "
+"<link href=\"https://git.gnome.org/browse/totem/\">Código fuente</link> )"
 
 #. (itstool) path: info/desc
 #: C/tech-atk.page:6
@@ -2530,11 +2567,13 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-atk.page:56
+#| msgid ""
+#| "<link href=\"http://developer.gnome.org/gtk3/stable/\">GTK+ Reference "
+#| "Manual</link>"
 msgid ""
-"<link href=\"http://library.gnome.org/devel/atk/stable/\">ATK Reference</"
-"link>"
+"<link href=\"https://developer.gnome.org/atk/stable/\">ATK Reference</link>"
 msgstr ""
-"<link href=\"http://library.gnome.org/devel/atk/stable/\">Referencia de ATK</"
+"<link href=\"https://developer.gnome.org/atk/stable/\">Referencia de ATK</"
 "link>"
 
 #. (itstool) path: info/desc
@@ -2712,12 +2751,15 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-canberra.page:19
+#| msgid ""
+#| "<link href=\"http://developer.gnome.org/libsecret/unstable/\">Libsecret "
+#| "Reference Manual</link>"
 msgid ""
-"<link href=\"http://library.gnome.org/devel/libcanberra/unstable/libcanberra-"
-"canberra.html\">Canberra Reference</link>"
+"<link href=\"https://developer.gnome.org/libcanberra/unstable/\">Canberra "
+"Reference</link>"
 msgstr ""
-"<link href=\"http://library.gnome.org/devel/libcanberra/unstable/libcanberra-"
-"canberra.html\">Referencia de Canberra</link>"
+"<link href=\"https://developer.gnome.org/libcanberra/unstable/\">Referencia "
+"de Canberra</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-champlain.page:6
@@ -2755,11 +2797,14 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-champlain.page:25
+#| msgid ""
+#| "<link href=\"http://projects.gnome.org/libchamplain/\">Champlain home "
+#| "page</link>"
 msgid ""
-"<link href=\"http://projects.gnome.org/libchamplain/\">Champlain home page</"
-"link>"
+"<link href=\"https://wiki.gnome.org/Projects/libchamplain\">Champlain home "
+"page</link>"
 msgstr ""
-"<link href=\"http://projects.gnome.org/libchamplain/\">Página web de "
+"<link href=\"https://wiki.gnome.org/Projects/libchamplain\">Página web de "
 "Champlain</link>"
 
 #. (itstool) path: info/desc
@@ -2964,20 +3009,23 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/tech-d-bus.page:42
+#| msgid ""
+#| "GNOME provides full support for D-Bus using the GDBus APIs in <link href="
+#| "\"gio\">GIO</link>."
 msgid ""
-"GNOME provides full support for D-Bus using the GDBus APIs in <link href="
-"\"gio\">GIO</link>."
+"GNOME provides full support for D-Bus using the GDBus APIs in <link xref="
+"\"tech-gio\">GIO</link>."
 msgstr ""
 "GNOME proporciona soporte completo para D-Bus usando las API de GDBus en "
-"<link xref=\"gio\">GIO</link>."
+"<link xref=\"tech-gio\">GIO</link>."
 
 #. (itstool) path: item/p
-#: C/tech-d-bus.page:46 C/tech-gio.page:29
+#: C/tech-d-bus.page:46 C/tech-gio-network.page:20
 msgid ""
-"<link href=\"http://developer.gnome.org/gio/stable/\">GIO Reference Manual</"
+"<link href=\"https://developer.gnome.org/gio/stable/\">GIO Reference Manual</"
 "link>"
 msgstr ""
-"<link href=\"http://developer.gnome.org/gio/stable/\">Manual de referencia "
+"<link href=\"https://developer.gnome.org/gio/stable/\">Manual de referencia "
 "de GIO</link>"
 
 #. (itstool) path: item/p
@@ -3164,9 +3212,14 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-folks.page:29
-msgid "<link href=\"https://live.gnome.org/Folks\">Libfolks home page</link>"
+#| msgid ""
+#| "<link href=\"https://live.gnome.org/Folks\">Libfolks home page</link>"
+msgid ""
+"<link href=\"https://wiki.gnome.org/Projects/Folks\">Libfolks home page</"
+"link>"
 msgstr ""
-"<link href=\"https://live.gnome.org/Folks\">Página web de Libfolks</link>"
+"<link href=\"https://wiki.gnome.org/Projects/Folks\">Página web de Libfolks</"
+"link>"
 
 #. (itstool) path: info/desc
 #: C/tech-gda.page:6
@@ -3316,12 +3369,15 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-gdk.page:51
+#| msgid ""
+#| "<link href=\"http://developer.gnome.org/gtk3/stable/\">GTK+ Reference "
+#| "Manual</link>"
 msgid ""
-"<link href=\"http://library.gnome.org/devel/gdk/stable/\">GDK Reference "
+"<link href=\"https://developer.gnome.org/gdk3/stable/\">GDK Reference "
 "Manual</link>"
 msgstr ""
-"<link href=\"http://library.gnome.org/devel/gdk/stable/\">Manual de "
-"referencia de GDK</link>"
+"<link href=\"https://developer.gnome.org/gdk3/stable/\">Manual de referencia "
+"de GTK+</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-geoclue2.page:6
@@ -3441,15 +3497,6 @@ msgstr ""
 "bloquea esperando una respuesta."
 
 #. (itstool) path: item/p
-#: C/tech-gio-network.page:20
-msgid ""
-"<link href=\"https://developer.gnome.org/gio/stable/\">GIO Reference Manual</"
-"link>"
-msgstr ""
-"<link href=\"https://developer.gnome.org/gio/stable/\">Manual de referencia "
-"de GIO</link>"
-
-#. (itstool) path: item/p
 #: C/tech-gio-network.page:21
 msgid ""
 "<link href=\"https://developer.gnome.org/gio/stable/networking.html"
@@ -3521,6 +3568,15 @@ msgstr ""
 "GIO también proporciona rutinas para gestionar dispositivos y volúmenes, "
 "consultar tipos de archivos e iconos y encontrar aplicaciones para abrir "
 "archivos."
+
+#. (itstool) path: item/p
+#: C/tech-gio.page:29
+msgid ""
+"<link href=\"http://developer.gnome.org/gio/stable/\">GIO Reference Manual</"
+"link>"
+msgstr ""
+"<link href=\"http://developer.gnome.org/gio/stable/\">Manual de referencia "
+"de GIO</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-glib.page:6
@@ -4113,20 +4169,26 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-network-manager.page:36
+#| msgid ""
+#| "<link href=\"http://projects.gnome.org/NetworkManager/\">NetworkManager "
+#| "home page</link>"
 msgid ""
-"<link href=\"http://projects.gnome.org/NetworkManager/\">NetworkManager home "
-"page</link>"
+"<link href=\"https://wiki.gnome.org/Projects/NetworkManager\">NetworkManager "
+"home page</link>"
 msgstr ""
-"<link href=\"http://projects.gnome.org/NetworkManager/\">Página web de "
+"<link href=\"https://wiki.gnome.org/Projects/NetworkManager\">Página web de "
 "NetworkManager</link>"
 
 #. (itstool) path: item/p
 #: C/tech-network-manager.page:37
+#| msgid ""
+#| "<link href=\"http://projects.gnome.org/NetworkManager/developers/"
+#| "\">NetworkManager API reference</link>"
 msgid ""
-"<link href=\"http://projects.gnome.org/NetworkManager/developers/"
+"<link href=\"https://wiki.gnome.org/Projects/NetworkManager/Developers"
 "\">NetworkManager API reference</link>"
 msgstr ""
-"<link href=\"http://projects.gnome.org/NetworkManager/developers/"
+"<link href=\"https://wiki.gnome.org/Projects/NetworkManager/Developers"
 "\">Referencia de la API de NetworkManager</link>"
 
 #. (itstool) path: info/desc
@@ -4372,12 +4434,15 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-pango.page:50
+#| msgid ""
+#| "<link href=\"https://developer.gnome.org/gio/stable/\">GIO Reference "
+#| "Manual</link>"
 msgid ""
-"<link href=\"http://library.gnome.org/devel/pango/stable/\">Pango Reference "
+"<link href=\"https://developer.gnome.org/pango/stable/\">Pango Reference "
 "Manual</link>"
 msgstr ""
-"<link href=\"http://library.gnome.org/devel/pango/stable/\">Manual de "
-"referencia de Pango</link>"
+"<link href=\"https://developer.gnome.org/pango/stable/\">Manual de "
+"referencia de GIO</link>"
 
 #. (itstool) path: item/p
 #: C/tech-pango.page:51
@@ -4829,20 +4894,26 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-tracker.page:35
+#| msgid ""
+#| "<link href=\"http://projects.gnome.org/tracker/\">Tracker Home Page</link>"
 msgid ""
-"<link href=\"http://projects.gnome.org/tracker/\">Tracker Home Page</link>"
-msgstr ""
-"<link href=\"http://projects.gnome.org/tracker/\">Página web de Tracker</"
+"<link href=\"https://wiki.gnome.org/Projects/Tracker\">Tracker Home Page</"
 "link>"
+msgstr ""
+"<link href=\"https://wiki.gnome.org/Projects/Tracker\">Página web de "
+"Tracker</link>"
 
 #. (itstool) path: item/p
 #: C/tech-tracker.page:36
+#| msgid ""
+#| "<link href=\"https://live.gnome.org/Tracker/Documentation\">Tracker "
+#| "documentation</link>"
 msgid ""
-"<link href=\"https://live.gnome.org/Tracker/Documentation\">Tracker "
+"<link href=\"https://wiki.gnome.org/Projects/Tracker/Documentation\">Tracker "
 "documentation</link>"
 msgstr ""
-"<link href=\"https://live.gnome.org/Tracker/Documentation\">Documentación de "
-"Tracker</link>"
+"<link href=\"https://wiki.gnome.org/Projects/Tracker/Documentation"
+"\">Documentación de Tracker</link>"
 
 #. (itstool) path: info/desc
 #: C/tech-webkit.page:6
@@ -4892,11 +4963,14 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-webkit.page:24
+#| msgid ""
+#| "<link href=\"http://webkitgtk.org/reference/index.html\">WebKitGTK+ "
+#| "Reference Manual</link>"
 msgid ""
-"<link href=\"http://webkitgtk.org/reference/index.html\">WebKitGTK+ "
+"<link href=\"http://webkitgtk.org/reference/webkit2gtk/stable/\">WebKitGTK+ "
 "Reference Manual</link>"
 msgstr ""
-"<link href=\"http://webkitgtk.org/reference/index.html\">Manual de "
+"<link href=\"http://webkitgtk.org/reference/webkit2gtk/stable/\">Manual de "
 "referencia de WebKitGTK+</link>"
 
 #. (itstool) path: item/p
@@ -5143,15 +5217,21 @@ msgstr "Gjs y GTK+"
 
 #. (itstool) path: page/p
 #: C/tour-gjs.page:32
+#| msgid ""
+#| "<link href=\"https://live.gnome.org/Gjs\">Gjs</link> is a JavaScript "
+#| "binding for GNOME and can be used to interact with Gtk. <link href="
+#| "\"http://www.gtk.org/\">Gtk</link> is a toolkit for creating graphical "
+#| "user interfaces."
 msgid ""
-"<link href=\"https://live.gnome.org/Gjs\">Gjs</link> is a JavaScript binding "
-"for GNOME and can be used to interact with Gtk. <link href=\"http://www.gtk."
-"org/\">Gtk</link> is a toolkit for creating graphical user interfaces."
+"<link href=\"https://wiki.gnome.org/Projects/Gjs\">Gjs</link> is a "
+"JavaScript binding for GNOME and can be used to interact with Gtk. <link "
+"href=\"http://www.gtk.org/\">Gtk</link> is a toolkit for creating graphical "
+"user interfaces."
 msgstr ""
-"<link href=\"https://live.gnome.org/Gjs\">Gjs</link> es una vinculación de "
-"JavaScript para GNOME y se puede usar para interactuar con GTK. <link href="
-"\"http://www.gtk.org/\">GTK+</link> es un kit dfe herramientas para crear "
-"interfaces gráficas de usuario."
+"<link href=\"https://wiki.gnome.org/Projects/Gjs\">Gjs</link> es una "
+"vinculación de JavaScript para GNOME y se puede usar para interactuar con "
+"GTK. <link href=\"http://www.gtk.org/\">GTK+</link> es un kit de "
+"herramientas para crear interfaces gráficas de usuario."
 
 #. (itstool) path: page/p
 #: C/tour-gjs.page:35
@@ -5390,6 +5470,80 @@ msgstr ""
 "\n"
 "let app = new HelloWorld();\n"
 "app.application.run(ARGV);\n"
+
+#~ msgid ""
+#~ "(<link href=\"https://live.gnome.org/Empathy\">Website</link> | <link "
+#~ "href=\"http://staz.be/tup/2009-06/Capture-Conversations.png\">Screenshot</"
+#~ "link> | <link href=\"http://git.gnome.org/browse/empathy/tree/\">Empathy "
+#~ "source code</link> )"
+#~ msgstr ""
+#~ "(<link href=\"https://live.gnome.org/Empathy\">Página web</link> | <link "
+#~ "href=\"http://staz.be/tup/2009-06/Capture-Conversations.png\">Captura de "
+#~ "pantalla</link> | <link href=\"http://git.gnome.org/browse/empathy/tree/"
+#~ "\">Código fuente de Empathy</link> )"
+
+#~ msgid ""
+#~ "( <link href=\"http://projects.gnome.org/totem/\">Website</link> | <link "
+#~ "href=\"http://en.wikipedia.org/wiki/File:Totem3.2.0.png\">Screenshot</"
+#~ "link> | <link href=\"https://git.gnome.org/browse/totem/\">Source code</"
+#~ "link> )"
+#~ msgstr ""
+#~ "( <link href=\"http://projects.gnome.org/totem/\">Página web</link> | "
+#~ "<link href=\"http://en.wikipedia.org/wiki/File:Totem3.2.0.png\">Captura "
+#~ "de pantalla</link> | <link href=\"https://git.gnome.org/browse/totem/"
+#~ "\">Código fuente</link> )"
+
+#~ msgid ""
+#~ "( <link href=\"http://projects.gnome.org/epiphany/\">Website</link> | "
+#~ "<link href=\"xxx\">Screenshot</link> | <link href=\"xxx\">Source code</"
+#~ "link> )"
+#~ msgstr ""
+#~ "( <link href=\"http://projects.gnome.org/epiphany/\">Página we</link> | "
+#~ "<link href=\"xxx\">Captura de pantalla</link> | <link href=\"xxx\">Código "
+#~ "fuente</link> )"
+
+#~ msgid ""
+#~ "<em style=\"strong\">Iagno</em> is a Reversi game for GNOME which uses "
+#~ "Clutter for the animated game board."
+#~ msgstr ""
+#~ "<em style=\"strong\">Iagno</em> es la versión del juego Reversi para "
+#~ "GNOME y usa Clutter para el tablero de juego animado."
+
+#~ msgid ""
+#~ "( <link href=\"https://live.gnome.org/Iagno\">Website</link> | <link href="
+#~ "\"xxx\">Screenshot</link> | <link href=\"xxx\">Source code</link> )"
+#~ msgstr ""
+#~ "( <link href=\"https://live.gnome.org/Iagno\">Página web</link> | <link "
+#~ "href=\"xxx\">Captura de pantalla</link> | <link href=\"xxx\">Código "
+#~ "fuente</link> )"
+
+#~ msgid ""
+#~ "<link href=\"http://library.gnome.org/devel/atk/stable/\">ATK Reference</"
+#~ "link>"
+#~ msgstr ""
+#~ "<link href=\"http://library.gnome.org/devel/atk/stable/\">Referencia de "
+#~ "ATK</link>"
+
+#~ msgid ""
+#~ "<link href=\"http://library.gnome.org/devel/libcanberra/unstable/"
+#~ "libcanberra-canberra.html\">Canberra Reference</link>"
+#~ msgstr ""
+#~ "<link href=\"http://library.gnome.org/devel/libcanberra/unstable/"
+#~ "libcanberra-canberra.html\">Referencia de Canberra</link>"
+
+#~ msgid ""
+#~ "<link href=\"http://library.gnome.org/devel/gdk/stable/\">GDK Reference "
+#~ "Manual</link>"
+#~ msgstr ""
+#~ "<link href=\"http://library.gnome.org/devel/gdk/stable/\">Manual de "
+#~ "referencia de GDK</link>"
+
+#~ msgid ""
+#~ "<link href=\"http://library.gnome.org/devel/pango/stable/\">Pango "
+#~ "Reference Manual</link>"
+#~ msgstr ""
+#~ "<link href=\"http://library.gnome.org/devel/pango/stable/\">Manual de "
+#~ "referencia de Pango</link>"
 
 #~ msgid "Developer's overview of the Gnome Platform"
 #~ msgstr "Vista general del desarrollador de la plataforma GNOME"
