@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="280"
+   height="280"
+   id="svg11709"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="check-boxes.svg">
+  <defs
+     id="defs11711" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.2689373"
+     inkscape:cx="112.93841"
+     inkscape:cy="124.869"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:showpageshadow="false"
+     inkscape:window-width="1150"
+     inkscape:window-height="798"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata11714">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-772.36218)">
+    <g
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/check-boxes.png"
+       style="fill:#eeeeec;stroke:#888a85;display:inline"
+       id="g14381"
+       transform="matrix(0.5089163,0,0,0.51739823,56.7997,868.9241)">
+      <g
+         id="g14383"
+         style="fill:#eeeeec;stroke:#888a85">
+        <rect
+           ry="5.7982421"
+           style="color:#000000;fill:#eeeeec;fill-opacity:1;stroke:#888a85;stroke-width:1.94878697;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="rect14385"
+           width="29.5"
+           height="29"
+           x="50.5"
+           y="125.5"
+           rx="5.8948789" />
+      </g>
+    </g>
+    <g
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/check-boxes.png"
+       style="fill:#eeeeec;fill-opacity:1;stroke:#888a85;display:inline"
+       id="g14387"
+       transform="matrix(0.5089163,0,0,0.51739823,56.7997,812.9241)">
+      <g
+         id="g14389"
+         style="fill:#eeeeec;fill-opacity:1;stroke:#888a85">
+        <rect
+           ry="5.7982421"
+           style="color:#000000;fill:#eeeeec;fill-opacity:1;stroke:#888a85;stroke-width:1.94878697;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="rect14391"
+           width="29.5"
+           height="29"
+           x="50.5"
+           y="125.5"
+           rx="5.8948789" />
+      </g>
+    </g>
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/check-boxes.png"
+       style="fill:none;stroke:#3465a4;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 87.0065,884.3599 3,3 8,-8"
+       id="path14393"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/check-boxes.png"
+       ry="3.0000002"
+       style="color:#000000;fill:#eeeeec;fill-opacity:1;stroke:#888a85;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect14395"
+       width="15.013031"
+       height="15.004549"
+       x="82.500244"
+       y="905.85767"
+       rx="3" />
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/check-boxes.png"
+       style="color:#000000;fill:#588dc6;fill-opacity:1;stroke:#3465a4;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect14397"
+       width="9"
+       height="3"
+       x="85.506592"
+       y="911.85986"
+       rx="1.5"
+       ry="1.5" />
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/check-boxes.png"
+       sodipodi:linespacing="125%"
+       id="text14403"
+       y="890.21082"
+       x="111.73901"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-anchor:start;text-align:start;writing-mode:lr"
+       xml:space="preserve"><tspan
+         y="890.21082"
+         x="111.73901"
+         id="tspan14405"
+         sodipodi:role="line">Ιδιότητα 1</tspan></text>
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/check-boxes.png"
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-anchor:start;text-align:start;writing-mode:lr"
+       x="111.73901"
+       y="918.21094"
+       id="text14407"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan14409"
+         x="111.73901"
+         y="918.21094">Ιδιότητα 2</tspan></text>
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/check-boxes.png"
+       sodipodi:linespacing="125%"
+       id="text14411"
+       y="946.21082"
+       x="111.73901"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-anchor:start;text-align:start;writing-mode:lr"
+       xml:space="preserve"><tspan
+         y="946.21082"
+         x="111.73901"
+         id="tspan14413"
+         sodipodi:role="line">Ιδιότητα 3</tspan></text>
+  </g>
+</svg>

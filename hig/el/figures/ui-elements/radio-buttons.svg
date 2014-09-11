@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="280"
+   height="280"
+   id="svg11709"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="radio-buttons.svg">
+  <defs
+     id="defs11711">
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect8047"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect8044"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect8124"
+       is_visible="true" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect8126"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect38831"
+       is_visible="true" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect38833"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect38835"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect38837"
+       is_visible="true" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.2689373"
+     inkscape:cx="182.7474"
+     inkscape:cy="184.88471"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:showpageshadow="false"
+     inkscape:window-width="1150"
+     inkscape:window-height="798"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata11714">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-772.36218)">
+    <g
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/radio-buttons.png"
+       style="fill:#eeeeec;fill-opacity:1;stroke:#8e908b;stroke-opacity:1;display:inline"
+       id="g15994"
+       transform="matrix(0.5089163,0,0,0.51739823,56.7997,868.9241)">
+      <g
+         id="g15996"
+         style="fill:#eeeeec;fill-opacity:1;stroke:#8e908b;stroke-opacity:1">
+        <rect
+           ry="14.5"
+           style="color:#000000;fill:#eeeeec;fill-opacity:1;stroke:#8e908b;stroke-width:1.94878697;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="rect15998"
+           width="29.5"
+           height="29"
+           x="50.5"
+           y="125.5"
+           rx="14.5" />
+      </g>
+    </g>
+    <g
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/radio-buttons.png"
+       transform="matrix(0.5089163,0,0,0.51739823,56.7997,840.9242)"
+       id="g16000"
+       style="fill:#eeeeec;fill-opacity:1;stroke:#8e908b;stroke-opacity:1;display:inline">
+      <g
+         style="fill:#eeeeec;fill-opacity:1;stroke:#8e908b;stroke-opacity:1"
+         id="g16002">
+        <rect
+           rx="14.5"
+           y="125.5"
+           x="50.5"
+           height="29"
+           width="29.5"
+           id="rect16004"
+           style="color:#000000;fill:#eeeeec;fill-opacity:1;stroke:#8e908b;stroke-width:1.94878697;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           ry="14.5" />
+      </g>
+    </g>
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/radio-buttons.png"
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-anchor:start;text-align:start;writing-mode:lr"
+       x="111.73901"
+       y="890.21082"
+       id="text16010"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan16012"
+         x="111.73901"
+         y="890.21082">Ρύθμιση 1</tspan></text>
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/radio-buttons.png"
+       sodipodi:linespacing="125%"
+       id="text16014"
+       y="918.21094"
+       x="111.73901"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-anchor:start;text-align:start;writing-mode:lr"
+       xml:space="preserve"><tspan
+         y="918.21094"
+         x="111.73901"
+         id="tspan16016"
+         sodipodi:role="line">Ρύθμιση 2</tspan></text>
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/radio-buttons.png"
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-anchor:start;text-align:start;writing-mode:lr"
+       x="111.73901"
+       y="946.21082"
+       id="text16018"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan16020"
+         x="111.73901"
+         y="946.21082">Ρύθμιση 3</tspan></text>
+    <g
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/radio-buttons.png"
+       style="fill:#eeeeec;fill-opacity:1;stroke:#8e908b;stroke-opacity:1;display:inline"
+       id="g16022"
+       transform="matrix(0.5089163,0,0,0.51739823,56.7997,812.9241)">
+      <g
+         id="g16024"
+         style="fill:#eeeeec;fill-opacity:1;stroke:#8e908b;stroke-opacity:1">
+        <rect
+           ry="14.5"
+           style="color:#000000;fill:#eeeeec;fill-opacity:1;stroke:#8e908b;stroke-width:1.94878697;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="rect16026"
+           width="29.5"
+           height="29"
+           x="50.5"
+           y="125.5"
+           rx="14.5" />
+      </g>
+    </g>
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/radio-buttons.png"
+       sodipodi:type="arc"
+       style="color:#000000;fill:#588dc6;fill-opacity:1;fill-rule:nonzero;stroke:#3465a4;stroke-width:0.85714287;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path16028"
+       sodipodi:cx="495"
+       sodipodi:cy="270"
+       sodipodi:rx="3"
+       sodipodi:ry="3"
+       d="m 498,270 c 0,1.65685 -1.34315,3 -3,3 -1.65685,0 -3,-1.34315 -3,-3 0,-1.65685 1.34315,-3 3,-3 1.65685,0 3,1.34315 3,3 z"
+       transform="matrix(1.1666667,0,0,1.1666667,-487.4935,570.3599)" />
+  </g>
+</svg>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="280"
+   height="280"
+   id="svg11709"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="switches.svg">
+  <defs
+     id="defs11711" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.2689373"
+     inkscape:cx="112.93841"
+     inkscape:cy="124.869"
+     inkscape:document-units="px"
+     inkscape:current-layer="g14272"
+     showgrid="false"
+     inkscape:showpageshadow="false"
+     inkscape:window-width="1150"
+     inkscape:window-height="798"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata11714">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-772.36218)">
+    <g
+       transform="translate(-4656,3704.9999)"
+       id="g14272">
+      <rect
+         ry="2"
+         rx="2"
+         y="-2825.1377"
+         x="4801.5"
+         height="25"
+         width="94"
+         id="rect14238"
+         style="fill:#f4f4f2;fill-opacity:1;stroke:#bdbfbd;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/switches.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         ry="2"
+         rx="2"
+         y="-2825.1377"
+         x="4801.5"
+         height="25"
+         width="45"
+         id="rect14240"
+         style="fill:#f4f4f2;fill-opacity:1;stroke:#bdbfbd;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/switches.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <text
+         transform="scale(1.0113976,0.98873084)"
+         sodipodi:linespacing="125%"
+         id="text14242"
+         y="-2839.7302"
+         x="4802.5972"
+         style="font-size:13.14816952px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;opacity:0.3;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+         xml:space="preserve"
+         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/switches.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"><tspan
+           y="-2839.7302"
+           x="4802.5972"
+           id="tspan14244"
+           sodipodi:role="line"
+           style="font-size:13.14816952px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Ubuntu;-inkscape-font-specification:Ubuntu Bold">ΟΧΙ</tspan></text>
+      <rect
+         style="color:#000000;fill:#f4f4f2;fill-opacity:1;fill-rule:nonzero;stroke:#bdbfbd;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect14246"
+         width="94"
+         height="25"
+         x="4801.5"
+         y="-2785.1377"
+         rx="2"
+         ry="2"
+         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/switches.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <text
+         xml:space="preserve"
+         style="font-size:13.14816952px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;opacity:0.3;color:#000000;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+         x="4761.0698"
+         y="-2799.6768"
+         id="text14248"
+         sodipodi:linespacing="125%"
+         transform="scale(1.0113976,0.98873084)"
+         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/switches.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"><tspan
+           sodipodi:role="line"
+           id="tspan14250"
+           x="4761.0698"
+           y="-2799.6768"
+           style="-inkscape-font-specification:Ubuntu Bold;font-family:Ubuntu;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:13.14816953px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%">ΝΑΙ</tspan></text>
+      <rect
+         style="fill:#d3d7cf;fill-opacity:1;stroke:#a6a8a6;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+         id="rect14252"
+         width="94"
+         height="25"
+         x="4695.5"
+         y="-2825.1377"
+         rx="2"
+         ry="2"
+         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/switches.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         style="fill:#eeeeec;fill-opacity:1;stroke:#777b7a;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+         id="rect14254"
+         width="45"
+         height="25"
+         x="4695.5"
+         y="-2825.1377"
+         rx="2"
+         ry="2"
+         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/switches.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <text
+         xml:space="preserve"
+         style="font-size:13.14816952px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+         x="4697.7915"
+         y="-2839.7302"
+         id="text14256"
+         sodipodi:linespacing="125%"
+         transform="scale(1.0113976,0.98873084)"
+         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/switches.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"><tspan
+           sodipodi:role="line"
+           id="tspan14258"
+           x="4697.7915"
+           y="-2839.7302"
+           style="font-size:13.14816952px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Ubuntu;-inkscape-font-specification:Ubuntu Bold">ΟΧΙ</tspan></text>
+      <g
+         id="g14260">
+        <rect
+           inkscape:export-ydpi="90"
+           inkscape:export-xdpi="90"
+           inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/switches.png"
+           style="fill:#5ea3eb;fill-opacity:1;stroke:#1a71cc;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+           id="rect14262"
+           width="94"
+           height="25"
+           x="4695.5"
+           y="-2785.1377"
+           rx="2"
+           ry="2" />
+        <rect
+           inkscape:export-ydpi="90"
+           inkscape:export-xdpi="90"
+           inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/switches.png"
+           style="fill:#eeeeec;fill-opacity:1;stroke:#777b7a;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+           id="rect14264"
+           width="45"
+           height="25"
+           x="4744.5"
+           y="-2785.1377"
+           rx="2"
+           ry="2" />
+        <text
+           inkscape:export-ydpi="90"
+           inkscape:export-xdpi="90"
+           inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/switches.png"
+           xml:space="preserve"
+           style="font-size:13.14816952px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell Bold"
+           x="4656.2646"
+           y="-2799.2744"
+           id="text14266"
+           sodipodi:linespacing="125%"
+           transform="scale(1.0113976,0.98873084)"><tspan
+             sodipodi:role="line"
+             id="tspan14268"
+             x="4656.2646"
+             y="-2799.2744"
+             style="-inkscape-font-specification:Ubuntu Bold;font-family:Ubuntu;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:13.14816953px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%">ΝΑΙ</tspan></text>
+      </g>
+      <rect
+         style="fill:#f4f4f2;fill-opacity:1;stroke:#bdbfbd;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+         id="rect14270"
+         width="45"
+         height="25"
+         x="4850.5"
+         y="-2785.1377"
+         rx="2"
+         ry="2"
+         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/switches.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+    </g>
+  </g>
+</svg>

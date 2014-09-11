@@ -93,4 +93,4 @@ HELP_MEDIA = \
 	figures/ui-elements/spin-boxes.svg \
 	figures/ui-elements/drop-down-list.svg
 
-HELP_LINGUAS = 
+HELP_LINGUAS = el

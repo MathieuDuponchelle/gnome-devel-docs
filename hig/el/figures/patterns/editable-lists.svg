@@ -1,0 +1,1126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="600"
+   height="430"
+   id="svg6276"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="editable-lists.svg">
+  <defs
+     id="defs6278">
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask20350">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:2;stroke-linecap:square;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="rect20352"
+         width="153"
+         height="22"
+         x="-1864"
+         y="1028.3622" />
+    </mask>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath51614">
+      <rect
+         y="257.36218"
+         x="-1304"
+         height="74"
+         width="664"
+         id="rect51616"
+         style="fill:#729fcf;fill-opacity:1;stroke:none" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath48483">
+      <rect
+         style="color:#000000;fill:#729fcf;fill-opacity:1;fill-rule:nonzero;stroke:#d3d7cf;stroke-width:0;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect48485"
+         width="330"
+         height="410.00003"
+         x="635"
+         y="-1348.6378" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98603159"
+     inkscape:cx="150.32379"
+     inkscape:cy="251.67585"
+     inkscape:document-units="px"
+     inkscape:current-layer="g23828"
+     showgrid="false"
+     inkscape:showpageshadow="false"
+     inkscape:window-width="1152"
+     inkscape:window-height="799"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid6749"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       originx="1e-05px"
+       originy="0.012816px" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata6281">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(1e-5,-622.375)">
+    <rect
+       style="fill:#ffffff;fill-opacity:0;stroke:#ffffff;stroke-width:1.99999988;stroke-linecap:square;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none;display:inline"
+       id="rect23826"
+       width="598"
+       height="427.99988"
+       x="0.99998999"
+       y="623.3623"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/editable-lists.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       transform="translate(-160.00001,1450.0128)"
+       id="g23828">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
+         style="fill:#e5e6e5;fill-opacity:1;stroke:#a7aba7;stroke-width:0.99999988;stroke-opacity:1"
+         id="rect23830"
+         width="239"
+         height="105.99996"
+         x="202.49998"
+         y="-796.13776"
+         rx="8.999999"
+         ry="9" />
+      <rect
+         mask="none"
+         style="fill:#ffffff;fill-opacity:1;stroke:#a7a7a7;stroke-width:0.99999982;stroke-linecap:square;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect23832"
+         width="239"
+         height="326.99979"
+         x="202.49998"
+         y="-755.13757"
+         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/header-bar.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
+         style="fill:#888a85;display:inline"
+         transform="translate(413.0016,-783.63787)"
+         id="g23834">
+        <g
+           transform="translate(-60,-518)"
+           id="g23836"
+           style="fill:#888a85;display:inline" />
+        <g
+           style="fill:#888a85"
+           transform="translate(-60,-518)"
+           id="g23838" />
+        <g
+           style="fill:#888a85"
+           transform="translate(-60,-518)"
+           id="g23840" />
+        <g
+           style="fill:#888a85"
+           transform="translate(-60,-518)"
+           id="g23842">
+          <g
+             transform="translate(19,-242)"
+             id="g23844"
+             style="fill:#888a85;display:inline">
+            <path
+               inkscape:connector-curvature="0"
+               d="m 45,764 1,0 c 0.01037,-1.2e-4 0.02079,-4.6e-4 0.03125,0 0.254951,0.0112 0.50987,0.12858 0.6875,0.3125 L 49,766.59375 51.3125,764.3125 C 51.578125,764.082 51.759172,764.007 52,764 l 1,0 0,1 c 0,0.28647 -0.03434,0.55065 -0.25,0.75 l -2.28125,2.28125 2.25,2.25 C 52.906938,770.46942 52.999992,770.7347 53,771 l 0,1 -1,0 c -0.265301,-10e-6 -0.530586,-0.0931 -0.71875,-0.28125 L 49,769.4375 46.71875,771.71875 C 46.530586,771.90694 46.26529,772 46,772 l -1,0 0,-1 c -3e-6,-0.26529 0.09306,-0.53058 0.28125,-0.71875 l 2.28125,-2.25 L 45.28125,765.75 C 45.070508,765.55537 44.97809,765.28075 45,765 l 0,-1 z"
+               id="path23846"
+               style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#bebebe;fill:#888a85;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.78124988;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Andale Mono;-inkscape-font-specification:Andale Mono" />
+          </g>
+        </g>
+        <g
+           style="fill:#888a85"
+           transform="translate(-60,-518)"
+           id="g23848" />
+        <g
+           style="fill:#888a85"
+           transform="translate(-60,-518)"
+           id="g23850" />
+        <g
+           style="fill:#888a85"
+           transform="translate(-60,-518)"
+           id="g23852" />
+      </g>
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
+         style="fill:none;stroke:#a7a7a7;stroke-width:0.99999988px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+         d="m 400.5,-784.14317 0,17.0103"
+         id="path23854"
+         inkscape:connector-curvature="0" />
+      <text
+         xml:space="preserve"
+         style="font-size:14.30000019px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+         x="217.7876"
+         y="-730.7616"
+         id="text23856"
+         sodipodi:linespacing="125%"
+         inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"><tspan
+           sodipodi:role="line"
+           id="tspan23858"
+           x="217.7876"
+           y="-730.7616">Στοιχείο</tspan></text>
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
+         sodipodi:linespacing="125%"
+         id="text23860"
+         y="-691.76172"
+         x="217.7876"
+         style="font-size:14.30000019px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+         xml:space="preserve"><tspan
+           y="-691.76172"
+           x="217.7876"
+           id="tspan23862"
+           sodipodi:role="line">Στοιχείο</tspan></text>
+      <path
+         style="fill:none;stroke:#babdb6;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+         d="m 203.50011,-716.1378 236.99769,0"
+         id="path23864"
+         inkscape:connector-curvature="0" />
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
+         sodipodi:linespacing="125%"
+         id="text23866"
+         y="-652.76184"
+         x="217.7876"
+         style="font-size:14.30000019px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+         xml:space="preserve"><tspan
+           y="-652.76184"
+           x="217.7876"
+           id="tspan23868"
+           sodipodi:role="line">Στοιχείο</tspan></text>
+      <path
+         style="fill:none;stroke:#babdb6;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+         d="m 203.50011,-677.1378 236.99769,0"
+         id="path23870"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:#babdb6;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+         d="m 203.49781,-599.13804 235.95362,0"
+         id="path23872"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path23874"
+         d="m 203.50011,-638.13804 236.99769,0"
+         style="fill:none;stroke:#babdb6;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;display:inline" />
+      <g
+         id="g23876"
+         transform="translate(313.99998,-626.63804)"
+         style="fill:#2e3436">
+        <g
+           style="fill:#2e3436;display:inline"
+           inkscape:label="status"
+           id="g23878"
+           transform="translate(-60.0002,-726)" />
+        <g
+           inkscape:label="devices"
+           id="g23880"
+           transform="translate(-60.0002,-726)"
+           style="fill:#2e3436" />
+        <g
+           inkscape:label="apps"
+           id="g23882"
+           transform="translate(-60.0002,-726)"
+           style="fill:#2e3436" />
+        <g
+           inkscape:label="actions"
+           id="g23884"
+           transform="translate(-60.0002,-726)"
+           style="fill:#2e3436">
+          <path
+             style="color:#bebebe;fill:#2e3436;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible"
+             id="path23886"
+             d="m 67.0002,729 0,4 -4,0 0,2 4,0 0,4 2,0 0,-4 4,0 0,-2 -4,0 0,-4 -2,0 z"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           inkscape:label="places"
+           id="g23888"
+           transform="translate(-60.0002,-726)"
+           style="fill:#2e3436" />
+        <g
+           inkscape:label="mimetypes"
+           id="g23890"
+           transform="translate(-60.0002,-726)"
+           style="fill:#2e3436" />
+        <g
+           style="fill:#2e3436;display:inline"
+           inkscape:label="emblems"
+           id="g23892"
+           transform="translate(-60.0002,-726)" />
+        <g
+           style="fill:#2e3436;display:inline"
+           inkscape:label="categories"
+           id="g23894"
+           transform="translate(-60.0002,-726)" />
+      </g>
+      <g
+         id="g23896"
+         transform="translate(415.00157,-665.6378)"
+         style="fill:#2e3436">
+        <g
+           style="fill:#2e3436;display:inline"
+           id="g23898"
+           transform="translate(-60,-518)" />
+        <g
+           id="g23900"
+           transform="translate(-60,-518)"
+           style="fill:#2e3436" />
+        <g
+           id="g23902"
+           transform="translate(-60,-518)"
+           style="fill:#2e3436" />
+        <g
+           id="g23904"
+           transform="translate(-60,-518)"
+           style="fill:#2e3436">
+          <g
+             style="fill:#2e3436;display:inline"
+             id="g23906"
+             transform="translate(19,-242)">
+            <path
+               style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#bebebe;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.78124988;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Andale Mono;-inkscape-font-specification:Andale Mono"
+               id="path23908"
+               d="m 45,764 1,0 c 0.01037,-1.2e-4 0.02079,-4.6e-4 0.03125,0 0.254951,0.0112 0.50987,0.12858 0.6875,0.3125 L 49,766.59375 51.3125,764.3125 C 51.578125,764.082 51.759172,764.007 52,764 l 1,0 0,1 c 0,0.28647 -0.03434,0.55065 -0.25,0.75 l -2.28125,2.28125 2.25,2.25 C 52.906938,770.46942 52.999992,770.7347 53,771 l 0,1 -1,0 c -0.265301,-10e-6 -0.530586,-0.0931 -0.71875,-0.28125 L 49,769.4375 46.71875,771.71875 C 46.530586,771.90694 46.26529,772 46,772 l -1,0 0,-1 c -3e-6,-0.26529 0.09306,-0.53058 0.28125,-0.71875 l 2.28125,-2.25 L 45.28125,765.75 C 45.070508,765.55537 44.97809,765.28075 45,765 l 0,-1 z"
+               inkscape:connector-curvature="0" />
+          </g>
+        </g>
+        <g
+           id="g23910"
+           transform="translate(-60,-518)"
+           style="fill:#2e3436" />
+        <g
+           id="g23912"
+           transform="translate(-60,-518)"
+           style="fill:#2e3436" />
+        <g
+           id="g23914"
+           transform="translate(-60,-518)"
+           style="fill:#2e3436" />
+      </g>
+      <g
+         transform="translate(415.00157,-704.63768)"
+         id="g23916"
+         style="fill:#2e3436">
+        <g
+           transform="translate(-60,-518)"
+           id="g23918"
+           style="fill:#2e3436;display:inline" />
+        <g
+           transform="translate(-60,-518)"
+           id="g23920"
+           style="fill:#2e3436" />
+        <g
+           transform="translate(-60,-518)"
+           id="g23922"
+           style="fill:#2e3436" />
+        <g
+           transform="translate(-60,-518)"
+           id="g23924"
+           style="fill:#2e3436">
+          <g
+             transform="translate(19,-242)"
+             id="g23926"
+             style="fill:#2e3436;display:inline">
+            <path
+               inkscape:connector-curvature="0"
+               d="m 45,764 1,0 c 0.01037,-1.2e-4 0.02079,-4.6e-4 0.03125,0 0.254951,0.0112 0.50987,0.12858 0.6875,0.3125 L 49,766.59375 51.3125,764.3125 C 51.578125,764.082 51.759172,764.007 52,764 l 1,0 0,1 c 0,0.28647 -0.03434,0.55065 -0.25,0.75 l -2.28125,2.28125 2.25,2.25 C 52.906938,770.46942 52.999992,770.7347 53,771 l 0,1 -1,0 c -0.265301,-10e-6 -0.530586,-0.0931 -0.71875,-0.28125 L 49,769.4375 46.71875,771.71875 C 46.530586,771.90694 46.26529,772 46,772 l -1,0 0,-1 c -3e-6,-0.26529 0.09306,-0.53058 0.28125,-0.71875 l 2.28125,-2.25 L 45.28125,765.75 C 45.070508,765.55537 44.97809,765.28075 45,765 l 0,-1 z"
+               id="path23928"
+               style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#bebebe;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.78124988;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Andale Mono;-inkscape-font-specification:Andale Mono" />
+          </g>
+        </g>
+        <g
+           transform="translate(-60,-518)"
+           id="g23930"
+           style="fill:#2e3436" />
+        <g
+           transform="translate(-60,-518)"
+           id="g23932"
+           style="fill:#2e3436" />
+        <g
+           transform="translate(-60,-518)"
+           id="g23934"
+           style="fill:#2e3436" />
+      </g>
+      <g
+         id="g23936"
+         transform="translate(415.00157,-743.63756)"
+         style="fill:#2e3436">
+        <g
+           style="fill:#2e3436;display:inline"
+           id="g23938"
+           transform="translate(-60,-518)" />
+        <g
+           id="g23940"
+           transform="translate(-60,-518)"
+           style="fill:#2e3436" />
+        <g
+           id="g23942"
+           transform="translate(-60,-518)"
+           style="fill:#2e3436" />
+        <g
+           id="g23944"
+           transform="translate(-60,-518)"
+           style="fill:#2e3436">
+          <g
+             style="fill:#2e3436;display:inline"
+             id="g23946"
+             transform="translate(19,-242)">
+            <path
+               style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#bebebe;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.78124988;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Andale Mono;-inkscape-font-specification:Andale Mono"
+               id="path23948"
+               d="m 45,764 1,0 c 0.01037,-1.2e-4 0.02079,-4.6e-4 0.03125,0 0.254951,0.0112 0.50987,0.12858 0.6875,0.3125 L 49,766.59375 51.3125,764.3125 C 51.578125,764.082 51.759172,764.007 52,764 l 1,0 0,1 c 0,0.28647 -0.03434,0.55065 -0.25,0.75 l -2.28125,2.28125 2.25,2.25 C 52.906938,770.46942 52.999992,770.7347 53,771 l 0,1 -1,0 c -0.265301,-10e-6 -0.530586,-0.0931 -0.71875,-0.28125 L 49,769.4375 46.71875,771.71875 C 46.530586,771.90694 46.26529,772 46,772 l -1,0 0,-1 c -3e-6,-0.26529 0.09306,-0.53058 0.28125,-0.71875 l 2.28125,-2.25 L 45.28125,765.75 C 45.070508,765.55537 44.97809,765.28075 45,765 l 0,-1 z"
+               inkscape:connector-curvature="0" />
+          </g>
+        </g>
+        <g
+           id="g23950"
+           transform="translate(-60,-518)"
+           style="fill:#2e3436" />
+        <g
+           id="g23952"
+           transform="translate(-60,-518)"
+           style="fill:#2e3436" />
+        <g
+           id="g23954"
+           transform="translate(-60,-518)"
+           style="fill:#2e3436" />
+      </g>
+      <rect
+         ry="9"
+         rx="8.999999"
+         y="-796.13776"
+         x="482.5"
+         height="105.99996"
+         width="239"
+         id="rect23956"
+         style="fill:#e5e6e5;fill-opacity:1;stroke:#a7aba7;stroke-width:0.99999988;stroke-opacity:1"
+         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/header-bar.png"
+         y="-755.13757"
+         x="482.5"
+         height="326.99979"
+         width="239"
+         id="rect23958"
+         style="fill:#ffffff;fill-opacity:1;stroke:#a7a7a7;stroke-width:0.99999982;stroke-linecap:square;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         mask="none" />
+      <g
+         id="g23960"
+         transform="translate(693.0016,-783.63787)"
+         style="fill:#888a85;display:inline"
+         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90">
+        <g
+           style="fill:#888a85;display:inline"
+           id="g23962"
+           transform="translate(-60,-518)" />
+        <g
+           id="g23964"
+           transform="translate(-60,-518)"
+           style="fill:#888a85" />
+        <g
+           id="g23966"
+           transform="translate(-60,-518)"
+           style="fill:#888a85" />
+        <g
+           id="g23968"
+           transform="translate(-60,-518)"
+           style="fill:#888a85">
+          <g
+             style="fill:#888a85;display:inline"
+             id="g23970"
+             transform="translate(19,-242)">
+            <path
+               style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#bebebe;fill:#888a85;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.78124988;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Andale Mono;-inkscape-font-specification:Andale Mono"
+               id="path23972"
+               d="m 45,764 1,0 c 0.01037,-1.2e-4 0.02079,-4.6e-4 0.03125,0 0.254951,0.0112 0.50987,0.12858 0.6875,0.3125 L 49,766.59375 51.3125,764.3125 C 51.578125,764.082 51.759172,764.007 52,764 l 1,0 0,1 c 0,0.28647 -0.03434,0.55065 -0.25,0.75 l -2.28125,2.28125 2.25,2.25 C 52.906938,770.46942 52.999992,770.7347 53,771 l 0,1 -1,0 c -0.265301,-10e-6 -0.530586,-0.0931 -0.71875,-0.28125 L 49,769.4375 46.71875,771.71875 C 46.530586,771.90694 46.26529,772 46,772 l -1,0 0,-1 c -3e-6,-0.26529 0.09306,-0.53058 0.28125,-0.71875 l 2.28125,-2.25 L 45.28125,765.75 C 45.070508,765.55537 44.97809,765.28075 45,765 l 0,-1 z"
+               inkscape:connector-curvature="0" />
+          </g>
+        </g>
+        <g
+           id="g23974"
+           transform="translate(-60,-518)"
+           style="fill:#888a85" />
+        <g
+           id="g23976"
+           transform="translate(-60,-518)"
+           style="fill:#888a85" />
+        <g
+           id="g23978"
+           transform="translate(-60,-518)"
+           style="fill:#888a85" />
+      </g>
+      <path
+         inkscape:connector-curvature="0"
+         id="path23980"
+         d="m 680.5,-784.14317 0,17.0103"
+         style="fill:none;stroke:#a7a7a7;stroke-width:0.99999988px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
+         sodipodi:linespacing="125%"
+         id="text23982"
+         y="-730.7616"
+         x="497.7876"
+         style="font-size:14.30000019px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+         xml:space="preserve"><tspan
+           y="-730.7616"
+           x="497.7876"
+           id="tspan23984"
+           sodipodi:role="line">Στοιχείο</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:14.30000019px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+         x="497.7876"
+         y="-691.76172"
+         id="text23986"
+         sodipodi:linespacing="125%"
+         inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"><tspan
+           sodipodi:role="line"
+           id="tspan23988"
+           x="497.7876"
+           y="-691.76172">Στοιχείο</tspan></text>
+      <path
+         inkscape:connector-curvature="0"
+         id="path23990"
+         d="m 483.50001,-716.1378 226.00001,0"
+         style="fill:none;stroke:#babdb6;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;display:inline" />
+      <text
+         xml:space="preserve"
+         style="font-size:14.30000019px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+         x="497.7876"
+         y="-652.76184"
+         id="text23992"
+         sodipodi:linespacing="125%"
+         inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"><tspan
+           sodipodi:role="line"
+           id="tspan23994"
+           x="497.7876"
+           y="-652.76184">Στοιχείο</tspan></text>
+      <path
+         inkscape:connector-curvature="0"
+         id="path23996"
+         d="m 483.50001,-677.1378 226.00001,0"
+         style="fill:none;stroke:#babdb6;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;display:inline" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path23998"
+         d="m 483.49781,-755.13757 225.00439,0"
+         style="fill:none;stroke:#babdb6;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;display:inline" />
+      <path
+         style="fill:none;stroke:#babdb6;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+         d="m 483.50001,-638.13804 226.00001,0"
+         id="path24000"
+         inkscape:connector-curvature="0" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
+         ry="0"
+         rx="0"
+         y="-754.63782"
+         x="709"
+         height="326.00003"
+         width="12.000019"
+         id="rect24002"
+         style="color:#000000;fill:#d6d6d6;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/sidebar.png"
+         style="opacity:0.8;color:#000000;fill:#9b9d9e;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
+         id="rect24004"
+         width="5.9795446"
+         height="92.229691"
+         x="712"
+         y="-751.63782"
+         rx="3.4764707"
+         ry="3.5" />
+      <g
+         style="fill:#2e3436"
+         transform="translate(677.00157,-665.6378)"
+         id="g24006">
+        <g
+           transform="translate(-60,-518)"
+           id="g24008"
+           style="fill:#2e3436;display:inline" />
+        <g
+           style="fill:#2e3436"
+           transform="translate(-60,-518)"
+           id="g24010" />
+        <g
+           style="fill:#2e3436"
+           transform="translate(-60,-518)"
+           id="g24012" />
+        <g
+           style="fill:#2e3436"
+           transform="translate(-60,-518)"
+           id="g24014">
+          <g
+             transform="translate(19,-242)"
+             id="g24016"
+             style="fill:#2e3436;display:inline">
+            <path
+               inkscape:connector-curvature="0"
+               d="m 45,764 1,0 c 0.01037,-1.2e-4 0.02079,-4.6e-4 0.03125,0 0.254951,0.0112 0.50987,0.12858 0.6875,0.3125 L 49,766.59375 51.3125,764.3125 C 51.578125,764.082 51.759172,764.007 52,764 l 1,0 0,1 c 0,0.28647 -0.03434,0.55065 -0.25,0.75 l -2.28125,2.28125 2.25,2.25 C 52.906938,770.46942 52.999992,770.7347 53,771 l 0,1 -1,0 c -0.265301,-10e-6 -0.530586,-0.0931 -0.71875,-0.28125 L 49,769.4375 46.71875,771.71875 C 46.530586,771.90694 46.26529,772 46,772 l -1,0 0,-1 c -3e-6,-0.26529 0.09306,-0.53058 0.28125,-0.71875 l 2.28125,-2.25 L 45.28125,765.75 C 45.070508,765.55537 44.97809,765.28075 45,765 l 0,-1 z"
+               id="path24018"
+               style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#bebebe;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.78124988;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Andale Mono;-inkscape-font-specification:Andale Mono" />
+          </g>
+        </g>
+        <g
+           style="fill:#2e3436"
+           transform="translate(-60,-518)"
+           id="g24020" />
+        <g
+           style="fill:#2e3436"
+           transform="translate(-60,-518)"
+           id="g24022" />
+        <g
+           style="fill:#2e3436"
+           transform="translate(-60,-518)"
+           id="g24024" />
+      </g>
+      <g
+         style="fill:#2e3436"
+         id="g24026"
+         transform="translate(677.00157,-704.63768)">
+        <g
+           style="fill:#2e3436;display:inline"
+           id="g24028"
+           transform="translate(-60,-518)" />
+        <g
+           style="fill:#2e3436"
+           id="g24030"
+           transform="translate(-60,-518)" />
+        <g
+           style="fill:#2e3436"
+           id="g24032"
+           transform="translate(-60,-518)" />
+        <g
+           style="fill:#2e3436"
+           id="g24034"
+           transform="translate(-60,-518)">
+          <g
+             style="fill:#2e3436;display:inline"
+             id="g24036"
+             transform="translate(19,-242)">
+            <path
+               style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#bebebe;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.78124988;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Andale Mono;-inkscape-font-specification:Andale Mono"
+               id="path24038"
+               d="m 45,764 1,0 c 0.01037,-1.2e-4 0.02079,-4.6e-4 0.03125,0 0.254951,0.0112 0.50987,0.12858 0.6875,0.3125 L 49,766.59375 51.3125,764.3125 C 51.578125,764.082 51.759172,764.007 52,764 l 1,0 0,1 c 0,0.28647 -0.03434,0.55065 -0.25,0.75 l -2.28125,2.28125 2.25,2.25 C 52.906938,770.46942 52.999992,770.7347 53,771 l 0,1 -1,0 c -0.265301,-10e-6 -0.530586,-0.0931 -0.71875,-0.28125 L 49,769.4375 46.71875,771.71875 C 46.530586,771.90694 46.26529,772 46,772 l -1,0 0,-1 c -3e-6,-0.26529 0.09306,-0.53058 0.28125,-0.71875 l 2.28125,-2.25 L 45.28125,765.75 C 45.070508,765.55537 44.97809,765.28075 45,765 l 0,-1 z"
+               inkscape:connector-curvature="0" />
+          </g>
+        </g>
+        <g
+           style="fill:#2e3436"
+           id="g24040"
+           transform="translate(-60,-518)" />
+        <g
+           style="fill:#2e3436"
+           id="g24042"
+           transform="translate(-60,-518)" />
+        <g
+           style="fill:#2e3436"
+           id="g24044"
+           transform="translate(-60,-518)" />
+      </g>
+      <g
+         style="fill:#2e3436"
+         transform="translate(677.00157,-743.63756)"
+         id="g24046">
+        <g
+           transform="translate(-60,-518)"
+           id="g24048"
+           style="fill:#2e3436;display:inline" />
+        <g
+           style="fill:#2e3436"
+           transform="translate(-60,-518)"
+           id="g24050" />
+        <g
+           style="fill:#2e3436"
+           transform="translate(-60,-518)"
+           id="g24052" />
+        <g
+           style="fill:#2e3436"
+           transform="translate(-60,-518)"
+           id="g24054">
+          <g
+             transform="translate(19,-242)"
+             id="g24056"
+             style="fill:#2e3436;display:inline">
+            <path
+               inkscape:connector-curvature="0"
+               d="m 45,764 1,0 c 0.01037,-1.2e-4 0.02079,-4.6e-4 0.03125,0 0.254951,0.0112 0.50987,0.12858 0.6875,0.3125 L 49,766.59375 51.3125,764.3125 C 51.578125,764.082 51.759172,764.007 52,764 l 1,0 0,1 c 0,0.28647 -0.03434,0.55065 -0.25,0.75 l -2.28125,2.28125 2.25,2.25 C 52.906938,770.46942 52.999992,770.7347 53,771 l 0,1 -1,0 c -0.265301,-10e-6 -0.530586,-0.0931 -0.71875,-0.28125 L 49,769.4375 46.71875,771.71875 C 46.530586,771.90694 46.26529,772 46,772 l -1,0 0,-1 c -3e-6,-0.26529 0.09306,-0.53058 0.28125,-0.71875 l 2.28125,-2.25 L 45.28125,765.75 C 45.070508,765.55537 44.97809,765.28075 45,765 l 0,-1 z"
+               id="path24058"
+               style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#bebebe;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.78124988;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Andale Mono;-inkscape-font-specification:Andale Mono" />
+          </g>
+        </g>
+        <g
+           style="fill:#2e3436"
+           transform="translate(-60,-518)"
+           id="g24060" />
+        <g
+           style="fill:#2e3436"
+           transform="translate(-60,-518)"
+           id="g24062" />
+        <g
+           style="fill:#2e3436"
+           transform="translate(-60,-518)"
+           id="g24064" />
+      </g>
+      <rect
+         style="color:#000000;fill:#729fcf;fill-opacity:1;fill-rule:nonzero;stroke:#3465a4;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect24066"
+         width="31"
+         height="31"
+         x="487.5"
+         y="-791.13782"
+         rx="3.0000002"
+         ry="3"
+         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/selection-mode.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <text
+         xml:space="preserve"
+         style="font-size:14.30000019px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+         x="497.7876"
+         y="-613.76208"
+         id="text24068"
+         sodipodi:linespacing="125%"
+         inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"><tspan
+           sodipodi:role="line"
+           id="tspan24070"
+           x="497.7876"
+           y="-613.76208">Στοιχείο</tspan></text>
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
+         sodipodi:linespacing="125%"
+         id="text24072"
+         y="-574.76221"
+         x="497.7876"
+         style="font-size:14.30000019px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+         xml:space="preserve"><tspan
+           y="-574.76221"
+           x="497.7876"
+           id="tspan24074"
+           sodipodi:role="line">Στοιχείο</tspan></text>
+      <path
+         style="fill:none;stroke:#babdb6;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+         d="m 483.50001,-599.13827 226.00001,0"
+         id="path24076"
+         inkscape:connector-curvature="0" />
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
+         sodipodi:linespacing="125%"
+         id="text24078"
+         y="-535.76233"
+         x="497.7876"
+         style="font-size:14.30000019px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+         xml:space="preserve"><tspan
+           y="-535.76233"
+           x="497.7876"
+           id="tspan24080"
+           sodipodi:role="line">Στοιχείο</tspan></text>
+      <path
+         style="fill:none;stroke:#babdb6;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+         d="m 483.50001,-560.13827 226.00001,0"
+         id="path24082"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;stroke:#babdb6;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+         d="m 483.49781,-638.13804 225.00439,0"
+         id="path24084"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path24086"
+         d="m 483.50001,-521.13851 226.00001,0"
+         style="fill:none;stroke:#babdb6;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;display:inline" />
+      <g
+         id="g24088"
+         transform="translate(677.00157,-548.63827)"
+         style="fill:#2e3436">
+        <g
+           style="fill:#2e3436;display:inline"
+           id="g24090"
+           transform="translate(-60,-518)" />
+        <g
+           id="g24092"
+           transform="translate(-60,-518)"
+           style="fill:#2e3436" />
+        <g
+           id="g24094"
+           transform="translate(-60,-518)"
+           style="fill:#2e3436" />
+        <g
+           id="g24096"
+           transform="translate(-60,-518)"
+           style="fill:#2e3436">
+          <g
+             style="fill:#2e3436;display:inline"
+             id="g24098"
+             transform="translate(19,-242)">
+            <path
+               style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#bebebe;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.78124988;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Andale Mono;-inkscape-font-specification:Andale Mono"
+               id="path24100"
+               d="m 45,764 1,0 c 0.01037,-1.2e-4 0.02079,-4.6e-4 0.03125,0 0.254951,0.0112 0.50987,0.12858 0.6875,0.3125 L 49,766.59375 51.3125,764.3125 C 51.578125,764.082 51.759172,764.007 52,764 l 1,0 0,1 c 0,0.28647 -0.03434,0.55065 -0.25,0.75 l -2.28125,2.28125 2.25,2.25 C 52.906938,770.46942 52.999992,770.7347 53,771 l 0,1 -1,0 c -0.265301,-10e-6 -0.530586,-0.0931 -0.71875,-0.28125 L 49,769.4375 46.71875,771.71875 C 46.530586,771.90694 46.26529,772 46,772 l -1,0 0,-1 c -3e-6,-0.26529 0.09306,-0.53058 0.28125,-0.71875 l 2.28125,-2.25 L 45.28125,765.75 C 45.070508,765.55537 44.97809,765.28075 45,765 l 0,-1 z"
+               inkscape:connector-curvature="0" />
+          </g>
+        </g>
+        <g
+           id="g24102"
+           transform="translate(-60,-518)"
+           style="fill:#2e3436" />
+        <g
+           id="g24104"
+           transform="translate(-60,-518)"
+           style="fill:#2e3436" />
+        <g
+           id="g24106"
+           transform="translate(-60,-518)"
+           style="fill:#2e3436" />
+      </g>
+      <g
+         transform="translate(677.00157,-587.63815)"
+         id="g24108"
+         style="fill:#2e3436">
+        <g
+           transform="translate(-60,-518)"
+           id="g24110"
+           style="fill:#2e3436;display:inline" />
+        <g
+           transform="translate(-60,-518)"
+           id="g24112"
+           style="fill:#2e3436" />
+        <g
+           transform="translate(-60,-518)"
+           id="g24114"
+           style="fill:#2e3436" />
+        <g
+           transform="translate(-60,-518)"
+           id="g24116"
+           style="fill:#2e3436">
+          <g
+             transform="translate(19,-242)"
+             id="g24118"
+             style="fill:#2e3436;display:inline">
+            <path
+               inkscape:connector-curvature="0"
+               d="m 45,764 1,0 c 0.01037,-1.2e-4 0.02079,-4.6e-4 0.03125,0 0.254951,0.0112 0.50987,0.12858 0.6875,0.3125 L 49,766.59375 51.3125,764.3125 C 51.578125,764.082 51.759172,764.007 52,764 l 1,0 0,1 c 0,0.28647 -0.03434,0.55065 -0.25,0.75 l -2.28125,2.28125 2.25,2.25 C 52.906938,770.46942 52.999992,770.7347 53,771 l 0,1 -1,0 c -0.265301,-10e-6 -0.530586,-0.0931 -0.71875,-0.28125 L 49,769.4375 46.71875,771.71875 C 46.530586,771.90694 46.26529,772 46,772 l -1,0 0,-1 c -3e-6,-0.26529 0.09306,-0.53058 0.28125,-0.71875 l 2.28125,-2.25 L 45.28125,765.75 C 45.070508,765.55537 44.97809,765.28075 45,765 l 0,-1 z"
+               id="path24120"
+               style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#bebebe;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.78124988;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Andale Mono;-inkscape-font-specification:Andale Mono" />
+          </g>
+        </g>
+        <g
+           transform="translate(-60,-518)"
+           id="g24122"
+           style="fill:#2e3436" />
+        <g
+           transform="translate(-60,-518)"
+           id="g24124"
+           style="fill:#2e3436" />
+        <g
+           transform="translate(-60,-518)"
+           id="g24126"
+           style="fill:#2e3436" />
+      </g>
+      <g
+         id="g24128"
+         transform="translate(677.00157,-626.63803)"
+         style="fill:#2e3436">
+        <g
+           style="fill:#2e3436;display:inline"
+           id="g24130"
+           transform="translate(-60,-518)" />
+        <g
+           id="g24132"
+           transform="translate(-60,-518)"
+           style="fill:#2e3436" />
+        <g
+           id="g24134"
+           transform="translate(-60,-518)"
+           style="fill:#2e3436" />
+        <g
+           id="g24136"
+           transform="translate(-60,-518)"
+           style="fill:#2e3436">
+          <g
+             style="fill:#2e3436;display:inline"
+             id="g24138"
+             transform="translate(19,-242)">
+            <path
+               style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#bebebe;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.78124988;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Andale Mono;-inkscape-font-specification:Andale Mono"
+               id="path24140"
+               d="m 45,764 1,0 c 0.01037,-1.2e-4 0.02079,-4.6e-4 0.03125,0 0.254951,0.0112 0.50987,0.12858 0.6875,0.3125 L 49,766.59375 51.3125,764.3125 C 51.578125,764.082 51.759172,764.007 52,764 l 1,0 0,1 c 0,0.28647 -0.03434,0.55065 -0.25,0.75 l -2.28125,2.28125 2.25,2.25 C 52.906938,770.46942 52.999992,770.7347 53,771 l 0,1 -1,0 c -0.265301,-10e-6 -0.530586,-0.0931 -0.71875,-0.28125 L 49,769.4375 46.71875,771.71875 C 46.530586,771.90694 46.26529,772 46,772 l -1,0 0,-1 c -3e-6,-0.26529 0.09306,-0.53058 0.28125,-0.71875 l 2.28125,-2.25 L 45.28125,765.75 C 45.070508,765.55537 44.97809,765.28075 45,765 l 0,-1 z"
+               inkscape:connector-curvature="0" />
+          </g>
+        </g>
+        <g
+           id="g24142"
+           transform="translate(-60,-518)"
+           style="fill:#2e3436" />
+        <g
+           id="g24144"
+           transform="translate(-60,-518)"
+           style="fill:#2e3436" />
+        <g
+           id="g24146"
+           transform="translate(-60,-518)"
+           style="fill:#2e3436" />
+      </g>
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
+         sodipodi:linespacing="125%"
+         id="text24148"
+         y="-496.76254"
+         x="497.7876"
+         style="font-size:14.30000019px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+         xml:space="preserve"><tspan
+           y="-496.76254"
+           x="497.7876"
+           id="tspan24150"
+           sodipodi:role="line">Στοιχείο</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:14.30000019px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+         x="497.7876"
+         y="-457.76266"
+         id="text24152"
+         sodipodi:linespacing="125%"
+         inkscape:export-filename="/home/lapo.fedora/SparkleShare/gnome-mockups/content selection/content-selection.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"><tspan
+           sodipodi:role="line"
+           id="tspan24154"
+           x="497.7876"
+           y="-457.76266">Στοιχείο</tspan></text>
+      <path
+         inkscape:connector-curvature="0"
+         id="path24156"
+         d="m 483.50001,-482.13874 226.00001,0"
+         style="fill:none;stroke:#babdb6;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;display:inline" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path24158"
+         d="m 483.50001,-443.13874 226.00001,0"
+         style="fill:none;stroke:#babdb6;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;display:inline" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path24160"
+         d="m 483.49781,-521.13851 225.00439,0"
+         style="fill:none;stroke:#babdb6;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;display:inline" />
+      <g
+         style="fill:#2e3436"
+         id="g24162"
+         transform="translate(677.00157,-470.63862)">
+        <g
+           style="fill:#2e3436;display:inline"
+           id="g24164"
+           transform="translate(-60,-518)" />
+        <g
+           style="fill:#2e3436"
+           id="g24166"
+           transform="translate(-60,-518)" />
+        <g
+           style="fill:#2e3436"
+           id="g24168"
+           transform="translate(-60,-518)" />
+        <g
+           style="fill:#2e3436"
+           id="g24170"
+           transform="translate(-60,-518)">
+          <g
+             style="fill:#2e3436;display:inline"
+             id="g24172"
+             transform="translate(19,-242)">
+            <path
+               style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#bebebe;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.78124988;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Andale Mono;-inkscape-font-specification:Andale Mono"
+               id="path24174"
+               d="m 45,764 1,0 c 0.01037,-1.2e-4 0.02079,-4.6e-4 0.03125,0 0.254951,0.0112 0.50987,0.12858 0.6875,0.3125 L 49,766.59375 51.3125,764.3125 C 51.578125,764.082 51.759172,764.007 52,764 l 1,0 0,1 c 0,0.28647 -0.03434,0.55065 -0.25,0.75 l -2.28125,2.28125 2.25,2.25 C 52.906938,770.46942 52.999992,770.7347 53,771 l 0,1 -1,0 c -0.265301,-10e-6 -0.530586,-0.0931 -0.71875,-0.28125 L 49,769.4375 46.71875,771.71875 C 46.530586,771.90694 46.26529,772 46,772 l -1,0 0,-1 c -3e-6,-0.26529 0.09306,-0.53058 0.28125,-0.71875 l 2.28125,-2.25 L 45.28125,765.75 C 45.070508,765.55537 44.97809,765.28075 45,765 l 0,-1 z"
+               inkscape:connector-curvature="0" />
+          </g>
+        </g>
+        <g
+           style="fill:#2e3436"
+           id="g24176"
+           transform="translate(-60,-518)" />
+        <g
+           style="fill:#2e3436"
+           id="g24178"
+           transform="translate(-60,-518)" />
+        <g
+           style="fill:#2e3436"
+           id="g24180"
+           transform="translate(-60,-518)" />
+      </g>
+      <g
+         style="fill:#2e3436"
+         transform="translate(677.00157,-509.6385)"
+         id="g24182">
+        <g
+           transform="translate(-60,-518)"
+           id="g24184"
+           style="fill:#2e3436;display:inline" />
+        <g
+           style="fill:#2e3436"
+           transform="translate(-60,-518)"
+           id="g24186" />
+        <g
+           style="fill:#2e3436"
+           transform="translate(-60,-518)"
+           id="g24188" />
+        <g
+           style="fill:#2e3436"
+           transform="translate(-60,-518)"
+           id="g24190">
+          <g
+             transform="translate(19,-242)"
+             id="g24192"
+             style="fill:#2e3436;display:inline">
+            <path
+               inkscape:connector-curvature="0"
+               d="m 45,764 1,0 c 0.01037,-1.2e-4 0.02079,-4.6e-4 0.03125,0 0.254951,0.0112 0.50987,0.12858 0.6875,0.3125 L 49,766.59375 51.3125,764.3125 C 51.578125,764.082 51.759172,764.007 52,764 l 1,0 0,1 c 0,0.28647 -0.03434,0.55065 -0.25,0.75 l -2.28125,2.28125 2.25,2.25 C 52.906938,770.46942 52.999992,770.7347 53,771 l 0,1 -1,0 c -0.265301,-10e-6 -0.530586,-0.0931 -0.71875,-0.28125 L 49,769.4375 46.71875,771.71875 C 46.530586,771.90694 46.26529,772 46,772 l -1,0 0,-1 c -3e-6,-0.26529 0.09306,-0.53058 0.28125,-0.71875 l 2.28125,-2.25 L 45.28125,765.75 C 45.070508,765.55537 44.97809,765.28075 45,765 l 0,-1 z"
+               id="path24194"
+               style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#bebebe;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.78124988;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Andale Mono;-inkscape-font-specification:Andale Mono" />
+          </g>
+        </g>
+        <g
+           style="fill:#2e3436"
+           transform="translate(-60,-518)"
+           id="g24196" />
+        <g
+           style="fill:#2e3436"
+           transform="translate(-60,-518)"
+           id="g24198" />
+        <g
+           style="fill:#2e3436"
+           transform="translate(-60,-518)"
+           id="g24200" />
+      </g>
+      <g
+         style="fill:#ffffff;fill-opacity:1"
+         transform="translate(495,-783.63782)"
+         id="g24202">
+        <g
+           transform="translate(-60.0002,-726)"
+           id="g24204"
+           inkscape:label="status"
+           style="fill:#ffffff;fill-opacity:1;display:inline" />
+        <g
+           style="fill:#ffffff;fill-opacity:1"
+           transform="translate(-60.0002,-726)"
+           id="g24206"
+           inkscape:label="devices" />
+        <g
+           style="fill:#ffffff;fill-opacity:1"
+           transform="translate(-60.0002,-726)"
+           id="g24208"
+           inkscape:label="apps" />
+        <g
+           style="fill:#ffffff;fill-opacity:1"
+           transform="translate(-60.0002,-726)"
+           id="g24210"
+           inkscape:label="actions">
+          <path
+             inkscape:connector-curvature="0"
+             d="m 67.0002,729 0,4 -4,0 0,2 4,0 0,4 2,0 0,-4 4,0 0,-2 -4,0 0,-4 -2,0 z"
+             id="path24212"
+             style="color:#bebebe;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible" />
+        </g>
+        <g
+           style="fill:#ffffff;fill-opacity:1"
+           transform="translate(-60.0002,-726)"
+           id="g24214"
+           inkscape:label="places" />
+        <g
+           style="fill:#ffffff;fill-opacity:1"
+           transform="translate(-60.0002,-726)"
+           id="g24216"
+           inkscape:label="mimetypes" />
+        <g
+           transform="translate(-60.0002,-726)"
+           id="g24218"
+           inkscape:label="emblems"
+           style="fill:#ffffff;fill-opacity:1;display:inline" />
+        <g
+           transform="translate(-60.0002,-726)"
+           id="g24220"
+           inkscape:label="categories"
+           style="fill:#ffffff;fill-opacity:1;display:inline" />
+      </g>
+    </g>
+  </g>
+</svg>
