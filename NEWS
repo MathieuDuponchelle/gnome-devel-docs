@@ -1,3 +1,13 @@
+3.13.92
+=======
+* Fix broken links in platform overview (David King)
+* Clarify licenses of included documentation in COPYING (David King)
+* Capitalization and ellipses improvements to the HIG (Allan Day)
+* Updated translations:
+  de      (Christian Kirbach)
+  el      (Tom Tryfonidis)
+  es      (Daniel Mustieles)
+
 3.13.91
 =======
 * New Human Interface Guidelines (Allan Day)
