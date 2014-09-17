@@ -31,11 +31,9 @@
 <section id="when-to-use">
 <title>When to use</title>
 
-<p>Use spin boxes for numerical input only. Use a list or option menu when you need the user to select from fixed data sets of other types.</p>
+<p>Use spin boxes to allow users to select numeric values, but only when those values are meaningful or useful for users to know. If they aren't, a <link xref="sliders">slider</link> might be a better choice.</p>
 
-<p>Use a spin box if the numerical value is meaningful or useful for the user to know, and the valid input range is unlimited or fixed at one end only. For example, a control for specifying the number of iterations of some action, or a timeout value. If the range is fixed at both ends, or the numerical values are arbitrary (for example, a volume control), use a slider instead.</p>
-
-<p>If the exact value in the spin button is not relevant to a user, a slider might be a better choice of control.</p>
+<p>Use spin boxes for numerical input only. For non-numeric sets of options, a <link xref="lists">list</link> or <link xref="drop-down-list">drop-down list</link> can be used instead.</p>
 
 </section>
 

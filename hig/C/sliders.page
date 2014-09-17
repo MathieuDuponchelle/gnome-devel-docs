@@ -40,6 +40,8 @@
 <item><p>It is useful for the user to control the rate of change of the value in real time.</p></item>
 </list>
 
+<p>If the range of values does not have a fixed maximum and/or minimum, a <link xref="spin-boxes">spin box</link> can be used.</p>
+
 </section>
 
 <section id="guidelines">

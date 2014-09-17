@@ -26,8 +26,6 @@
 
 <p>A menu bar incorporates a strip of drop-down menus. It is typically located at the top of a primary window, below a window title bar.</p>
 
-<p>The menubar is normally visible at all times and is always accessible from the keyboard, so make all the commands available in your application available on the menubar.</p>
-
 <media type="image" mime="image/svg" src="figures/ui-elements/menu-bar.svg"/>
 
 <section id="when-to-use">
@@ -35,7 +33,7 @@
 
 <p>Menu bars increase the vertical footprint of an application’s user interface, introduce a large number of disclosure points, and function as a fixed set of inflexible options. For these reasons, <link xref="header-bars">header bars</link> and <link xref="header-bar-menus">header bar menus</link> are generally recommended over menu bars, along with other design patterns for exposing controls on demand, such as <link xref="selection-mode">selection mode</link>, <link xref="action-bars">action bars</link>, and <link xref="popovers">popovers</link>.</p>
 
-<p>At the same time, menu bars can still be an appropriate choice, particularly for applications that already incorporate a header bar. Some platforms also incorporate space for a menu bar in their user environment, and a menu model can be desirable for cross-platform integration purposes.</p>
+<p>At the same time, it can be appropriate for complex applications that already include a menu bar to retain it. Additionally, some platforms also incorporate space for a menu bar in their user environment, and a menu model can be desirable for cross-platform integration purposes.</p>
 
 </section>
 
@@ -43,6 +41,8 @@
 <title>General guidelines</title>
 
 <list>
+<item><p>The menubar is normally visible at all times and is always accessible from the keyboard, so make all the commands available in your application available on the menubar. (This guideline is unique to menu bars - other menus should not seek to reproduce functionality that is made available by other controls).</p></item>
+<item><p>Treat <link xref="application-menus">application menus</link> as part of the menu bar - it is not necessary to reproduce items from the application menu in other menus.</p></item>
 <item><p>Do not disable menu titles. Allow the user to explore the menu, even though there might be no available items on it at that time.</p></item>
 <item><p>Menu titles on a menubar are single words with their first letter capitalized. Do not use spaces in menu titles, as this makes them easily-mistaken for two separate menu titles. Do not use compound words (such as <gui>WindowOptions</gui>) or hyphens (such as <gui>Window-Options</gui>) to circumvent this guideline.</p></item>
 <item><p>Do not provide a mechanism for hiding the menubar, as this may be activated accidentally. Some users will not be able to figure out how to get the menu bar back in this case.</p></item>
@@ -232,7 +232,7 @@
 <tr>
 <td><p><gui>Quit</gui></p></td>
 <td><p><keyseq><key>Ctrl</key><key>Q</key></keyseq></p></td>
-<td><p>Closes the application. If there are unsaved changes in any open documents, present the user with a confirmation alert for each affected document, giving the option to save the changes, discard them, or cancel. If there are no unsaved changes, close the application immediately without presenting any further messages or dialogs.</p>
+<td><p>Closes the application, including all application windows. If there are unsaved changes in any open documents, present the user with a confirmation alert for each affected document, giving the option to save the changes, discard them, or cancel. If there are no unsaved changes, close the application immediately without presenting any further messages or dialogs.</p>
 <p>In particular, non-document based applications, for example a game or a calculator, should save their state and exit immediately. This state should be restored the next time the application is started.</p></td>
 </tr>
 </tbody>
