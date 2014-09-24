@@ -64,6 +64,22 @@ HELP_MEDIA = \
 	figures/icons/palette/plum.svg \
 	figures/icons/palette/scarlet-red.svg \
 	figures/icons/palette/sky-blue.svg \
+        figures/patterns/action-bar.svg \
+        figures/patterns/action-dialog.svg \
+        figures/patterns/application-menu.svg \
+        figures/patterns/editable-lists.svg \
+        figures/patterns/grid.svg \
+        figures/patterns/header-bar.svg \
+        figures/patterns/header-bar-menu.svg \
+        figures/patterns/list-styles.svg \
+        figures/patterns/message-dialog.svg \
+        figures/patterns/patterns.svg \
+        figures/patterns/presentation-dialog.svg \
+        figures/patterns/primary-windows.svg \
+        figures/patterns/search.svg \
+        figures/patterns/selection-mode.svg \
+        figures/patterns/sidebar-list.svg \
+        figures/patterns/view-switcher.svg \
 	figures/touch/flick.svg \
 	figures/touch/pinch-or-stretch.svg \
 	figures/touch/tap-and-hold.svg \
