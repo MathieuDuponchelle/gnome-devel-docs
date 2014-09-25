@@ -364,7 +364,7 @@ Do not assign system-level shortcut keys. These use the Super key (sometimes kno
 <tr>
 <td><p><gui>Sidebar</gui></p></td>
 <td><p><key>F9</key></p></td>
-<td><p>Toggle the visibility of a sidebar, if there is one (it is not required that sidebars can be toggled in this manner).</p></td>
+<td><p>Toggle the visibility of a sidebar, if there is one that can be toggled.</p></td>
 </tr>
 </tbody>
 </table>
