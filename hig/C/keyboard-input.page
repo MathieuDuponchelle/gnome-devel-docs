@@ -361,6 +361,11 @@ Do not assign system-level shortcut keys. These use the Super key (sometimes kno
 <td><p><keyseq><key>Alt</key><key>Enter</key></keyseq></p></td>
 <td><p>Display the selected object’s properties window.</p></td>
 </tr>
+<tr>
+<td><p><gui>Sidebar</gui></p></td>
+<td><p><key>F9</key></p></td>
+<td><p>Toggle the visibility of a sidebar, if there is one (it is not required that sidebars can be toggled in this manner).</p></td>
+</tr>
 </tbody>
 </table>
 
