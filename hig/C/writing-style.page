@@ -54,7 +54,11 @@
 <section id="header-capitalization">
 <title>Header Capitalization</title>
 
-<p>Capitalize all words, except those with three or fewer letters. However, verbs of any length should be capitilized (such as “Be”, “Are”, “Is”, “See”, “Add”, and so on).</p>
+<list>
+<item><p>Capitalize all words, except those with three or fewer letters.</p></item>
+<item><p>Verbs of any length should always be capitilized (such as “Be”, “Are”, “Is”, “See”, “Add”).</p></item>
+<item><p>The first and last word should always be capitalized.</p></item>
+</list>
 
 <p>For example: “Create a Document”, “Find and Replace”, “Document Cannot Be Found”.</p>
 
