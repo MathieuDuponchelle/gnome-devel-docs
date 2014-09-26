@@ -74,11 +74,9 @@
 
 <media type="image" mime="image/svg" src="figures/patterns/action-dialog.svg"/>
 
-<p>Action dialogs present options and information about a specific action before it is carried out. They have a heading (which typically describes the action) and two buttons which allow the action to be carried out or cancelled.</p>
+<p>Action dialogs present options and information about a specific action before it is carried out. They have a heading (which typically describes the action) and two primary buttons - one which allows the action to be carried out and one which cancels it.</p>
 
-<p>The user may be required to choose options or content items before an action can be carried out. In these cases, the affirmative action button should be insensitive before the required steps have been performed in the dialog itself.</p>
-
-<p>Buttons in action dialogs should be labelled with imperative verbs, for example <gui>Save</gui>, <gui>Print</gui>. This allows users to select an action with less hesitation.</p>
+<p>Sometimes, the user may be required to choose options before an action can be carried out. In these cases, the affirmative dialog button should be insensitive until the required options have been selected.</p>
 
 <section id="action-dialog-examples">
 <title>Examples</title>
@@ -109,30 +107,46 @@
 
 <p>Presentation dialogs are either instant or explicit apply. In instant apply dialogs, changes to settings or values are immediately updated. In contrast, explicit apply dialogs include a button for applying changes.</p>
 
-<p>Instant apply should be used wherever possible. Instant apply presentation dialogs have a close button in their header bar.</p>
+<p>Instant apply should be used wherever possible. Instant apply presentation dialogs have a close button in their header bar, like a <link xref="primary-windows">primary window</link>.</p>
 
-<p>Explicit apply is only necessary if changes in the dialog have to be applied simultaneously in order to have the desired behaviour. Explicit apply dialogs include a Cancel and a Done button (Cancel resets all values in the dialog to the state before it was opened and Done applies all changes and closes the window).</p>
+<p>Explicit apply is only necessary if changes in the dialog have to be applied simultaneously in order to have the desired behaviour. Explicit apply dialogs include a <gui>Done</gui> and <gui>Cancel</gui> button (<gui>Cancel</gui> resets all values in the dialog to the state before it was opened and Done applies all changes and closes the window).</p>
 
 </section>
 </section>
 
-<section id="button-order">
-<title>Button order</title>
+<section id="primary-buttons">
+<title>Primary buttons</title>
 
-<p>Many dialogs include an affirmative and a cancel button, both of which close the dialog window. The affirmative button carries out the operation that is the subject of the dialog, such as <gui>Print</gui>, <gui>Save</gui>, or <gui>Quit</gui>, and the cancel button closes the window and prevents the operation from taking place.</p>
+<p>Message and action dialogs include primary buttons which affect the whole window. The order of these buttons, as well as the labels used, are a key part of the dialog.</p>
 
-<p>Always ensure that the cancel button appears first, before the affirmative button. In left-to-right locales, this is on the left. This ensures that users become aware of, and are reminded of, the ability to cancel prior to encountering the affirmative button.</p>
+<section id="order">
+<title>Order</title>
+
+<p>When a dialog includes an affirmative and a cancel button, always ensure that the cancel button appears first, before the affirmative button. In left-to-right locales, this is on the left.</p>
+
+<p>This button order ensures that users become aware of, and are reminded of, the ability to cancel prior to encountering the affirmative button.</p>
+
+</section>
+
+<section id="labels">
+<title>Labels</title>
+
+<p>Label the affirmative primary button with a specific imperative verb, for example: <gui>Save</gui>, <gui>Print</gui>, <gui>Remove</gui>. This is clearer than a generic label like <gui>OK</gui> or <gui>Done</gui>.</p>
+
+<p>Error dialogs typically include a single button which dismisses the dialog. In this case, a specific action does not need to be referenced, and this can be a good opportunity to use humor. <gui>Apology Accepted</gui> or <gui>Got It</gui> are both examples of good labels.</p>
 
 </section>
 
 <section id="default-buttons">
-<title>Default buttons</title>
+<title>Defaults</title>
 
-<p>When designing a dialog or utility window, you can assign the return key to activate a particular button in the window. GNOME indicates this button to the user by drawing a different border around it.</p>
+<p>When designing a dialog window, you can assign the return key to activate a particular button in the window. GNOME 3 indicates this button by giving it the <link xref="buttons#suggested-and-destructive">suggested action style</link>.</p>
 
 <p>Choose the default button to be the most likely action, such as a confirmation action or an action that applies changes. Do not make a button the default if its action is irreversible, destructive or otherwise inconvenient to the user. If there is no appropriate button in your window, to designate as the default button, do not set one.</p>
 
 <p>In particular, it is not recommended to make the <gui>Close</gui> button the default in an instant apply window, as this can lead to users closing the window accidentally before they have finished using it.</p>
+
+</section>
 
 </section>
 
@@ -145,8 +159,6 @@
 <item><p>Follow the <link xref="visual-layout">layout guidelines</link> when designing the content of windows.</p></item>
 <item><p>Use <link xref="view-switchers">view switchers</link> or <link xref="tabs">tabs</link> to break up controls and information.</p></item>
 <item><p>Avoid stacking dialog windows on top of one another. Only one dialog window should be displayed at a time.</p></item>
-<item><p>When an affirmative button is included, label it with its actual action. <gui>Print</gui> is a better label than <gui>OK</gui> or <gui>Done</gui>, for example.</p></item>
-<item><p>Do not enable the <gui>OK</gui> or equivalent button until all fields that require input have been attended to by the user.</p></item>
 <item><p>When opening a dialog, provide initial keyboard focus to the component that you expect users to operate first. This focus is especially important for users who must use a keyboard to navigate your application.</p></item>
 </list>
 
