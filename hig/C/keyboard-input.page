@@ -177,6 +177,10 @@ Do not assign system-level shortcut keys. These use the Super key (sometimes kno
 <td><p>Moves keyboard focus out of the enclosing widget to the next/previous control, in those situations where Tab alone has another function</p></td>
 </tr>
 <tr>
+<td><p><keyseq><key>Ctrl</key><key>Tab</key></keyseq> and <keyseq><key>Shift</key><key>Ctrl</key><key>Tab</key></keyseq></p></td>
+<td><p>Moves keyboard focus to the next/previous group of controls</p></td>
+</tr>
+<tr>
 <td><p><keyseq><key>Ctrl</key><key>F1</key></keyseq></p></td>
 <td><p>Shows a tooltip for the the currently-focused window or control</p></td>
 </tr>
@@ -438,16 +442,6 @@ Do not assign system-level shortcut keys. These use the Super key (sometimes kno
 <td><p><gui>Location…</gui></p></td>
 <td><p><keyseq><key>Ctrl</key><key>L</key></keyseq></p></td>
 <td><p>Present or focus an entry field into which the user can type a new address or location</p></td>
-</tr>
-<tr>
-<td><p><gui>Next Tab</gui></p></td>
-<td><p><keyseq><key>Ctrl</key><key>Tab</key></keyseq></p></td>
-<td><p>Switch to the next tab</p></td>
-</tr>
-<tr>
-<td><p><gui>Previous Tab</gui></p></td>
-<td><p><keyseq><key>Shift</key><key>Ctrl</key><key>Tab</key></keyseq></p></td>
-<td><p>Switch to the previous tab</p></td>
 </tr>
 </tbody>
 </table>
