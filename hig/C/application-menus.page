@@ -29,7 +29,7 @@
 
 <list>
 <item><p>Follow the standard <link xref="menus">guidance for menus</link>.</p></item>
-<item><p>Only include menu items that relate to the application as a whole, such as application preferences. Actions that are specific to a particular window or view, or which act on content within an application window, should not be included.</p></item>
+<item><p>Only include menu items that relate to the application as a whole, such as application preferences. Items that are specific to a particular window or view, or which act on content within an application window, should not be included.</p></item>
 <item><p>If an item from the application menu is frequently used, consider moving it to a more accessible location.</p></item>
 </list>
 
