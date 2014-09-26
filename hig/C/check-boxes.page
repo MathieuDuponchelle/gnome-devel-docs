@@ -36,6 +36,7 @@
 <item><p>If toggling a check box affects the sensitivity of other controls, place the check box immediately above or to the left of the controls that it affects. This helps to indicate that the controls are dependent on the state of the check box.</p></item>
 <item><p>Use <link xref="writing-style#capitalization">sentence capitalization</link> for check box labels, for example <gui>Use custom font</gui>.</p></item>
 <item><p>Label check boxes to clearly indicate the effects of both their checked and unchecked states, for example, <gui>Show icons in menus</gui>. If the two states of a check box cannot be clearly communicated, consider using two radio buttons instead so both states can be given labels.</p></item>
+<item><p>Avoid negative check box labels, as this can be confusing and hard to understand. <gui>Play alert sound</gui> is better than <gui>Disable alert sound</gui>, for example.</p></item>
 <item><p>Provide an <link xref="keyboard-input#access-keys">access key</link> in all check box labels that allows the user to set or unset the check box directly from the keyboard.</p></item>
 <item><p>If the check box represents a setting in a multiple selection that is set for some objects in the selection and unset for others, show the check box in its mixed state. When a check box is in its mixed state:</p>
 <list>
