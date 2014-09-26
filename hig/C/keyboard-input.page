@@ -321,6 +321,17 @@ Do not assign system-level shortcut keys. These use the Super key (sometimes kno
 <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>Z</key></keyseq></p></td>
 <td><p>Redo the last operation</p></td>
 </tr>
+<tr>
+<td><p><gui>Select All</gui></p></td>
+<td><p><keyseq><key>Ctrl</key><key>A</key></keyseq></p></td>
+<td><p>Selects all content in the current document.</p></td>
+</tr>
+<tr>
+<td><p><gui>Deselect All</gui></p></td>
+<td><p><keyseq><key>Shift</key><key>Ctrl</key><key>A</key></keyseq></p></td>
+<td><p>Deselects all content in the current document.</p></td>
+</tr>
+
 </tbody>
 </table>
 
