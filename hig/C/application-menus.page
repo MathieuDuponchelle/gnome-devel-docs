@@ -36,7 +36,7 @@
 </section>
 
 <section id="standard-menu-items">
-<title>Standard Menu Items</title>
+<title>Standard menu items</title>
 
 <p>Common application menu items include <gui>New Window</gui>, <gui>Preferences</gui>, <gui>Help</gui>, <gui>About</gui> and <gui>Quit</gui>. <gui>Help</gui>, <gui>About</gui> and <gui>Quit</gui> should be contained within their own group at the bottom of the menu.</p>
 
