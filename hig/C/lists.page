@@ -36,9 +36,15 @@
 <section id="styles">
 <title>Styles</title>
 
-<p>Standard lists have two styles: full-width and embedded. Full-width lists fill the width of their container. This keeps visual complexity to a minimum.</p>
+<p>Standard lists have two styles: full-width and embedded. Full-width lists fill their container, while embedded lists are surrounded by padding.</p>
 
-<p>Embedded lists have padding between them and their container. They are appropriate when the list contains columns of information which need to be kept close together for readability purposes. Embedded lists can also be used when a window contains several lists at once.</p>
+<p>Full-width lists are visually simpler, and therefore more elegant. They should be used where possible. At the same time, it is not always possible to use a full-width list, and there are some situations where embedded lists are a better choice:</p>
+
+<list>
+<item><p>When the list contains columns of information that need to be kept close together for readability purposes, and there is a need to have the list inside a wide container.</p></item>
+<item><p>When a window contains several lists.</p></item>
+<item><p>When the list needs to be aligned with other controls inside the window.</p></item>
+</list>
 
 <media type="image" mime="image/svg" src="figures/patterns/list-styles.svg"/>
 
