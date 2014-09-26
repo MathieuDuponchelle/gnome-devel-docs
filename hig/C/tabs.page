@@ -62,5 +62,31 @@
 <item><p>If tabs are an important part of the application, a new tab button can be placed in the header bar or toolbar. Do not show a new tab button in applications where tabs will not always be used - keyboard shortcuts and/or menu items are sufficient in these cases.</p></item>
 </list>
 
+<section id="keyboard-shortcuts">
+<title>Standard Keyboard Shortcuts</title>
+
+When using dynamic tabs, ensure that the standard keyborad shortcuts are supported.
+
+<table>
+<tr>
+<td><p><keyseq><key>Ctrl</key><key>T</key></keyseq></p></td>
+<td><p>Create a new tab</p></td>
+</tr>
+<tr>
+<td><p><keyseq><key>Ctrl</key><key>W</key></keyseq></p></td>
+<td><p>Close the current tab</p></td>
+</tr>
+<tr>
+<td><p><keyseq><key>Ctrl</key><key>Page Up</key></keyseq></p></td>
+<td><p>Switch to the next tab</p></td>
+</tr>
+<tr>
+<td><p><keyseq><key>Ctrl</key><key>Page Down</key></keyseq></p></td>
+<td><p>Switch to the previous tab</p></td>
+</tr>
+</table>
+
+</section>
+
 </section>
 </page>
