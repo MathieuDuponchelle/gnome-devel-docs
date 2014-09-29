@@ -312,11 +312,6 @@ Do not assign system-level shortcut keys. These use the Super key (sometimes kno
 <p>Like the <gui>Save As</gui> dialog, the <gui>Save a Copy</gui> dialog may present different ways to save the data. For example, an image may be saved in a native format or as a PNG.</p></td>
 </tr>
 <tr>
-<td><p><gui>Revert</gui></p></td>
-<td><p>None</p></td>
-<td><p>Reverts the document to the last saved state. Present the user with a warning that all changes will be lost, and offer the option of cancelling before reloading the file.</p></td>
-</tr>
-<tr>
 <td><p><gui>Save Version</gui></p></td>
 <td><p>None</p></td>
 <td><p>An alternative to the <gui>Save a Copy</gui> command. Only use this item in conjunction with the <gui>Restore Version</gui> command.</p></td>
