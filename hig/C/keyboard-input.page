@@ -291,6 +291,11 @@ Do not assign system-level shortcut keys. These use the Super key (sometimes kno
 <td><p>Opens an existing content item, often by presenting the user with a standard <gui>Open File</gui> dialog. If the chosen file is already open in the application, raise that window instead of opening a new one.</p></td>
 </tr>
 <tr>
+<td><p><gui>Open Recent</gui></p></td>
+<td><p>None</p></td>
+<td><p>A submenu which contains a list of no more than six recently used files, ordered according to most recently used.</p></td>
+</tr>
+<tr>
 <td><p><gui>Save</gui></p></td>
 <td><p><keyseq><key>Ctrl</key><key>S</key></keyseq></p></td>
 <td><p>Saves the current content item. If the document already has a filename associated with it, save the document immediately without any further interaction from the user. If there are any additional options involved in saving a file, prompt for these first time the document is saved, but subsequently use the same values each time until the user changes them. If the document has no current filename or is read-only, selecting this item should be the same as selecting <gui>Save As</gui>.</p></td>
