@@ -82,10 +82,10 @@
 <section id="sub-tasks">
 <title>Sub-tasks</title>
 
-<p>If a task is comprised of multiple asynchronous sub-tasks (such as downloading several files simultaneously), it is generally advisable to show a single progress bar which indicates composite progress for the overall task. However, there are some situations where this might not be the case:</p>
+<p>If a task is comprised of multiple sub-tasks (such as downloading several files simultaneously), it is generally advisable to show a single progress bar which indicates composite progress for the overall task. However, there are some situations where this might not be the case:</p>
 
 <list>
-<item><p>If it is genuinely useful for the user to know progress on individual tasks.</p></item>
+<item><p>If it is genuinely useful for the user to know progress within each individual sub-task. (As an alternative, completion of each sub-task can be indicated with progress text.)</p></item>
 <item><p>If it might be necessary to pause or stop a sub-task (see the <link xref="#general-guidelines">general guidelines</link> on this, below).</p></item>
 <item><p>If sub-tasks are already indicated in your application's user interface. In this case, it can be less disruptive to show a progress for each item inline.</p></item>
 </list>
