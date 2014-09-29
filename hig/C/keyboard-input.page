@@ -327,11 +327,6 @@ Do not assign system-level shortcut keys. These use the Super key (sometimes kno
 <td><p>An alternative to the <gui>Save Version</gui> and <gui>Restore Version</gui> commands. Use this when more utilities, such as a diff, are available.</p></td>
 </tr>
 <tr>
-<td><p>Label</p></td>
-<td><p>Shortcut</p></td>
-<td><p>Description</p></td>
-</tr>
-<tr>
 <td><p><gui>Page Setup</gui></p></td>
 <td><p>None</p></td>
 <td><p>Allows the user to control print-related settings. Present the user with a dialog allowing the user to set such options as portrait or landscape format, margins, and so on.</p></td>
