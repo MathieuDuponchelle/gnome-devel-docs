@@ -47,17 +47,18 @@
 
 <p>Two styles of capitalization are used in GNOME user interfaces: header capitalization and sentence capitalization.</p>
 
-<p>Header capitalization should be used for any headings, including header bar headings and page, tab and menu titles. It should also be used for short control labels that do not normally form proper sentences, such as button and switch labels and menu items.</p>
-
-<p>Sentence capitalization should be used for labels which form sentences or which run on to other text, including labels for check boxes, radio buttons, sliders, text entry boxes, field labels and combobox labels. Sentence capitalization should be used for explanatory or body text, such as that which is found in dialogs or notifications.</p>
-
 <section id="header-capitalization">
 <title>Header Capitalization</title>
 
+<p>Header capitalization should be used for any headings, including header bar headings and page, tab and menu titles. It should also be used for short control labels that do not normally form proper sentences, such as button labels, switch labels and menu items.</p>
+
+<p>Capitalize the first letter of:</p>
+
 <list>
-<item><p>Capitalize all words, except those with three or fewer letters.</p></item>
-<item><p>Verbs of any length should always be capitalized (such as “Be”, “Are”, “Is”, “See”, “Add”).</p></item>
-<item><p>The first and last word should always be capitalized.</p></item>
+<item><p>All words with four or more letters.</p></item>
+<item><p>Verbs of any length, such as “Be”, “Are”, “Is”, “See” and “Add”.</p></item>
+<item><p>The first and last word.</p></item>
+<item><p>Hyphenated words; for example: “Self-Test” or “Post-Install”.</p></item>
 </list>
 
 <p>For example: “Create a Document”, “Find and Replace”, “Document Cannot Be Found”.</p>
@@ -67,7 +68,14 @@
 <section id="sentence-capitalisation">
 <title>Sentence Capitalization</title>
 
-<p>Capitalize the first letter of the first word and any other words normally capitalized in sentences, such as proper nouns.</p>
+<p>Sentence capitalization should be used for labels that form sentences or that run on to other text, including labels for check boxes, radio buttons, sliders, text entry boxes, field labels and combobox labels. It should also be used for explanatory or body text, such as in dialogs or notifications.</p>
+
+<p>Capitalize the first letter of:</p>
+
+<list>
+<item><p>The first word.</p></item>
+<item><p>Any words normally capitalized in sentences, such as proper nouns.</p></item>
+</list>
 
 <p>For example: “The document cannot be found in this location.” “Finding results for London.”</p>
 
