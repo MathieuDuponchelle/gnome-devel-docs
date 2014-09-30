@@ -25,40 +25,105 @@
 
 <title>Keyboard input</title>
 
-<p>Keyboards are a basic input device for GNOME 3, so it is important that you design your application with them in mind. The keyboard is also important for visually-impaired people or those with mobility impairments.</p>
+<p>Keyboards are a common way to interact with user interfaces. They provide a convenient and effective means to use applications in a variety of situations, and can be faster and more efficient than other input devices. Keyboards are also vital for visually-impaired people or those with mobility impairments.</p>
+
+<p>You should ensure that all the functionality provided by your application can be accessed using a keyboard. Trying to use your application with only a keyboard is a great way to test this.</p>
+
+<p>Keyboard interaction has three aspects in GNOME and GTK+: navigation, access keys, and shortcut keys. <link xref="search">Search</link> is another, additional aspect.</p>
 
 <section id="keyboard-navigation">
 <title>Keyboard navigation</title>
 
-<p>Ensure that all the functionality provided by your application can be accessed using a keyboard, including toolbars, links and buttons. Trying to use your application only with a keyboard is a great way to test this.</p>
+<p>Make sure that it is possible to move around and interact with every part of your user interface using the keyboard, by following these guidelines.</p>
 
 <list>
-<item><p>The tab key is the standard way of navigating through a GNOME user interface using the keyboard. Make sure that all the parts of your application can be accessed in this manner.</p></item>
-<item><p>Use a logical keyboard navigation order. When navigating around a window with the Tab key, keyboard focus should move between controls in a predictable order. In Western locales, this is normally left to right and top to bottom.</p></item>
-<item><p>Ensure correct tab order for controls whose enabled state is dependent on check box, radio button or toggle button state. When such a button is selected, all its dependent controls should be enabled, and all the dependent controls of any other button in the group should be disabled. When the user selects a check box, radio button or toggle button that has dependent controls, do not automatically give focus to the first dependent control, but instead leave the focus on the button.</p></item>
+<item><p>Follow the standard GNOME keys for navigation. <key>Tab</key> is the standard key for moving around an interface with GTK+ and GNOME.</p></item>
+<item><p>Use a logical keyboard navigation order. When navigating around a window with <key>Tab</key>, keyboard focus should move between controls in a predictable order. In Western locales, this is normally left to right and top to bottom.</p></item>
+<item><p>In addition to navigation using <key>Tab</key>, make an effort to allow movement using the arrow keys, both within user interface elements (such as lists, icon grids or sidebars), and between them.</p></item>
 </list>
 
+<note><p>If activating a control enables other controls, do not automatically give focus to the first dependent control when it is activated, but instead leave focus in place.</p></note>
+
+<section id="navigation-keys">
+<title>Standard navigation keys</title>
+
+<table>
+<thead>
+<tr>
+<td><p>Shortcut</p></td>
+<td><p>Function</p></td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><p><key>Tab</key> and <keyseq><key>Shift</key><key>Tab</key></keyseq></p></td>
+<td><p>Moves keyboard focus to the next/previous control</p></td>
+</tr>
+<tr>
+<td><p><keyseq><key>Ctrl</key><key>Tab</key></keyseq> and <keyseq><key>Shift</key><key>Ctrl</key><key>Tab</key></keyseq></p></td>
+<td><p>Moves keyboard focus out of the enclosing widget to the next/previous control, in those situations where Tab alone has another function</p></td>
+</tr>
+<tr>
+<td><p><keyseq><key>Ctrl</key><key>Tab</key></keyseq> and <keyseq><key>Shift</key><key>Ctrl</key><key>Tab</key></keyseq></p></td>
+<td><p>Moves keyboard focus to the next/previous group of controls</p></td>
+</tr>
+<tr>
+<td><p><keyseq><key>Ctrl</key><key>F1</key></keyseq></p></td>
+<td><p>Shows a tooltip for the the currently-focused window or control</p></td>
+</tr>
+<tr>
+<td><p><keyseq><key>Shift</key><key>F1</key></keyseq></p></td>
+<td><p>Show context-sensitive help for the currently-focused window or control</p></td>
+</tr>
+<tr>
+<td><p><key>F6</key> and <keyseq><key>Shift</key><key>F6</key></keyseq></p></td>
+<td><p>Give focus to the next/preivous pane in a GtkPaned window</p></td>
+</tr>
+<tr>
+<td><p><key>F8</key></p></td>
+<td><p>Give focus to the splitter bar in a paned window</p></td>
+</tr>
+<tr>
+<td><p><key>F10</key></p></td>
+<td><p>Give focus to the menu bar or open header bar menu</p></td>
+</tr>
+<tr>
+<td><p><key>Space</key></p></td>
+<td><p>Toggle the state of a focused check box, radio button, or toggle button</p></td>
+</tr>
+<tr>
+<td><p><key>Return</key></p></td>
+<td><p>Activate focused button, menu item, etc</p></td>
+</tr>
+<tr>
+<td><p><key>Return</key> and <key>End</key></p></td>
+<td><p>Select/move to the first item in a selected widget</p></td>
+</tr>
+<tr>
+<td><p><key>PageUp</key>, <keyseq><key>Ctrl</key><key>PageUp</key></keyseq>, <key>PageDown</key> and <keyseq><key>Ctrl</key><key>PageDown</key></keyseq></p></td>
+<td><p>Scroll the selected view by one page up/left/down/right</p></td>
+</tr>
+</tbody>
+</table>
+
+<p>In addition, the shortcuts for Unicode character entry should also be avoided. This includes <keyseq><key>Shift</key><key>Ctrl</key><key>A</key></keyseq> through to <keyseq><key>Shift</key><key>Ctrl</key><key>F</key></keyseq>, or <keyseq><key>Shift</key><key>Ctrl</key><key>0</key></keyseq> through to <keyseq><key>Shift</key><key>Ctrl</key><key>9</key></keyseq>.</p>
+
+</section>
 </section>
 
 <section id="access-keys">
 <title>Access keys</title>
 
-<p>Access keys allow someone to operate labelled controls by using the Alt modifier key.</p>
+<p>Access keys allow someone to operate labelled controls by using <key>Alt</key>. They are indicated by an underlined letter within each control label (this is displayed when <key>Alt</key> is held down).</p>
 
 <list>
-<item><p>Give all labelled components an access key (underlined letter), with the exception of toolbar controls which would use up too many access key combinations.</p></item>
-<item><p>Choose access keys so that they are easy to remember. Normally this means using the first letter of the label. However, in complex windows, the choice can become more difficult. Here are some simple rules:</p>
-<list>
-<item><p>Assign access keys to the most frequently-used controls first. If it’s not clear which controls will be the most frequently used, assign access keys from left to right, top to bottom (for Western locales).</p></item>
-<item><p>Use the first letter of the label, or of one of its other words if it has more than one. If another letter provides a better association (for example: "x" in Extra Large) however, consider using that letter instead.</p></item>
-<item><p>If the first letter is not available, choose an easy to remember consonant from the label, for example, "p" in Replace.</p></item>
-<item><p>If no such consonants are available, choose any available vowel from the label.</p></item>
-</list></item>
+<item><p>Where possible, all labelled components should have an access key.</p></item>
+<item><p>Choose access keys that are easy to remember. Normally this means using the first letter of the label. If the label has more than one word, the first letter of one of its other words can also be used. Additionally, if another letter provides a better association (for example: “x” in “Extra Large”) , consider using that letter instead.</p></item>
+<item><p>Avoid assigning access keys to “thin” letters (such as lowercase i or l), or letters with descenders (such as lowercase g or y), unless it is unavoidable. The underline is sometimes not as clear with these characters.</p></item>
+<item><p>If the choice of access keys is difficult, assign access keys to the most frequently-used controls first. If the first letter is not available, choose an easy to remember consonant from the label, for example, “p” in “Replace”. Only assign vowels once no consonants are available.</p></item>
 <item><p>If duplication of access keys in a window is unavoidable, you should still refrain from duplicating the access keys for any of these buttons that appear in the same window: OK, Cancel, Close, Apply or Help. GTK+ handles duplicated access keys by cycling the focus between the controls with the same access key.</p></item>
-<item><p>It is better not to assign access keys to "thin" letters (such as lowercase i or l), or letters with descenders (such as lowercase g or y) unless it is unavoidable. The underline does not show up very well on those characters in some fonts.</p></item>
 <item><p>Applications using a non-Roman writing system in conjunction with a standard keyboard can have control labels prefixed with Roman characters as access keys.</p></item>
-<item><p>Be aware of the fact that access keys have to be translated together with the strings that they are taken from, so even if there are no conflicts in your native language, they may occur in translations.</p></item>
-<item><p>GTK+ only shows the underlines for access keys when the user presses the Alt key, to avoid cluttering up dialogs with too many underlines.</p></item>
+<item><p>Be aware that access keys have to be translated together with the strings that they are taken from, so even if there are no conflicts in your native language, they may occur in translations.</p></item>
 </list>
 
 </section>
@@ -157,71 +222,6 @@ Do not assign system-level shortcut keys. These use the Super key (sometimes kno
 </tbody>
 </table>
 
-<section id="widget-navigation">
-<title>Standard widget navigation shortcuts</title>
-
-<table>
-<thead>
-<tr>
-<td><p>Shortcut</p></td>
-<td><p>Function</p></td>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><p><key>Tab</key> and <keyseq><key>Shift</key><key>Tab</key></keyseq></p></td>
-<td><p>Moves keyboard focus to the next/previous control</p></td>
-</tr>
-<tr>
-<td><p><keyseq><key>Ctrl</key><key>Tab</key></keyseq> and <keyseq><key>Shift</key><key>Ctrl</key><key>Tab</key></keyseq></p></td>
-<td><p>Moves keyboard focus out of the enclosing widget to the next/previous control, in those situations where Tab alone has another function</p></td>
-</tr>
-<tr>
-<td><p><keyseq><key>Ctrl</key><key>Tab</key></keyseq> and <keyseq><key>Shift</key><key>Ctrl</key><key>Tab</key></keyseq></p></td>
-<td><p>Moves keyboard focus to the next/previous group of controls</p></td>
-</tr>
-<tr>
-<td><p><keyseq><key>Ctrl</key><key>F1</key></keyseq></p></td>
-<td><p>Shows a tooltip for the the currently-focused window or control</p></td>
-</tr>
-<tr>
-<td><p><keyseq><key>Shift</key><key>F1</key></keyseq></p></td>
-<td><p>Show context-sensitive help for the currently-focused window or control</p></td>
-</tr>
-<tr>
-<td><p><key>F6</key> <keyseq><key>Shift</key><key>F6</key></keyseq></p></td>
-<td><p>Give focus to the next/preivous pane in a GtkPaned window</p></td>
-</tr>
-<tr>
-<td><p><key>F8</key></p></td>
-<td><p>Give focus to the splitter bar in a paned window</p></td>
-</tr>
-<tr>
-<td><p><key>F10</key></p></td>
-<td><p>Give focus to the menu bar or open header bar menu</p></td>
-</tr>
-<tr>
-<td><p><key>Space</key></p></td>
-<td><p>Toggle the state of a focused check box, radio button, or toggle button</p></td>
-</tr>
-<tr>
-<td><p><key>Return</key></p></td>
-<td><p>Activate focused button, menu item, etc</p></td>
-</tr>
-<tr>
-<td><p><key>Return</key> <key>End</key></p></td>
-<td><p>Select/move to the first item in a selected widget</p></td>
-</tr>
-<tr>
-<td><p><key>PageUp</key>, <keyseq><key>Ctrl</key><key>PageUp</key></keyseq>, <key>PageDown</key> and <keyseq><key>Ctrl</key><key>PageDown</key></keyseq></p></td>
-<td><p>Scroll the selected view by one page up/left/down/right</p></td>
-</tr>
-</tbody>
-</table>
-
-<p>In addition, the shortcuts for Unicode character entry should also be avoided. This includes <keyseq><key>Shift</key><key>Ctrl</key><key>A</key></keyseq> through to <keyseq><key>Shift</key><key>Ctrl</key><key>F</key></keyseq>, or <keyseq><key>Shift</key><key>Ctrl</key><key>0</key></keyseq> through to <keyseq><key>Shift</key><key>Ctrl</key><key>9</key></keyseq>.</p>
-
-</section>
 
 </section>
 
