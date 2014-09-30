@@ -103,6 +103,10 @@
 <td><p><key>PageUp</key>, <keyseq><key>Ctrl</key><key>PageUp</key></keyseq>, <key>PageDown</key> and <keyseq><key>Ctrl</key><key>PageDown</key></keyseq></p></td>
 <td><p>Scroll the selected view by one page up/left/down/right</p></td>
 </tr>
+<tr>
+<td><p><key>Escape</key></p></td>
+<td><p>Close or exit the current context, if it is transient. This should be consistently used for menus, popovers or <link xref="dialogs#default-action-and-escape">dialogs</link>, or any other temporary mode or UI element.</p></td>
+</tr>
 </tbody>
 </table>
 

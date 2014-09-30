@@ -137,14 +137,14 @@
 
 </section>
 
-<section id="default-buttons">
-<title>Defaults</title>
+<section id="default-action-and-escape">
+<title>Default action and escape</title>
 
-<p>When designing a dialog window, you can assign the return key to activate a particular button in the window. GNOME 3 indicates this button by giving it the <link xref="buttons#suggested-and-destructive">suggested action style</link>.</p>
+<p>Assign the return key to activate the primary affirmative button in a dialog (for example <gui>Print</gui> in a print dialog). This is called the default action, and is indicated by a different visual style. Do not make a button the default if its action is irreversible, destructive or otherwise inconvenient to the user. If there is no appropriate button to designate as the default button, do not set one.</p>
 
-<p>Choose the default button to be the most likely action, such as a confirmation action or an action that applies changes. Do not make a button the default if its action is irreversible, destructive or otherwise inconvenient to the user. If there is no appropriate button in your window, to designate as the default button, do not set one.</p>
+<p>You should also ensure that the escape key activates the cancel or close button, should either of them be present. Message dialogs with a single button can have both escape and return bound to the button.</p>
 
-<p>In particular, it is not recommended to make the <gui>Close</gui> button the default in an instant apply window, as this can lead to users closing the window accidentally before they have finished using it.</p>
+<p>Binding return and escape in this way provides a predictable and convenient way to continue through a dialog, or to go back.</p>
 
 </section>
 
