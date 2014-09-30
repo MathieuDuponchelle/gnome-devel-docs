@@ -121,8 +121,6 @@
 <item><p>Choose access keys that are easy to remember. Normally this means using the first letter of the label. If the label has more than one word, the first letter of one of its other words can also be used. Additionally, if another letter provides a better association (for example: “x” in “Extra Large”) , consider using that letter instead.</p></item>
 <item><p>Avoid assigning access keys to “thin” letters (such as lowercase i or l), or letters with descenders (such as lowercase g or y), unless it is unavoidable. The underline is sometimes not as clear with these characters.</p></item>
 <item><p>If the choice of access keys is difficult, assign access keys to the most frequently-used controls first. If the first letter is not available, choose an easy to remember consonant from the label, for example, “p” in “Replace”. Only assign vowels once no consonants are available.</p></item>
-<item><p>If duplication of access keys in a window is unavoidable, you should still refrain from duplicating the access keys for any of these buttons that appear in the same window: OK, Cancel, Close, Apply or Help. GTK+ handles duplicated access keys by cycling the focus between the controls with the same access key.</p></item>
-<item><p>Applications using a non-Roman writing system in conjunction with a standard keyboard can have control labels prefixed with Roman characters as access keys.</p></item>
 <item><p>Be aware that access keys have to be translated together with the strings that they are taken from, so even if there are no conflicts in your native language, they may occur in translations.</p></item>
 </list>
 
