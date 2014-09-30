@@ -110,8 +110,6 @@
 </tbody>
 </table>
 
-<p>In addition, the shortcuts for Unicode character entry should also be avoided. This includes <keyseq><key>Shift</key><key>Ctrl</key><key>A</key></keyseq> through to <keyseq><key>Shift</key><key>Ctrl</key><key>F</key></keyseq>, or <keyseq><key>Shift</key><key>Ctrl</key><key>0</key></keyseq> through to <keyseq><key>Shift</key><key>Ctrl</key><key>9</key></keyseq>.</p>
-
 </section>
 </section>
 
@@ -133,19 +131,16 @@
 <section id="shortcut-keys">
 <title>Shortcut keys</title>
 
-<p>Shortcut keys are a good way to provide quick and convenient access to common operations.</p>
-
-<p>Guidance on assigning shortcut keys:</p>
+<p>Shortcut keys provide convenient access to common operations. They can be either single keys or combinations of several key presses (typically a modifier in combination with a regular key)</p>
 
 <list>
-<item><p>Use the standard GNOME shortcut keys (see below) if your application supports those functions. This ensures consistency between GNOME applications and aids discoverability.
-Do not assign system-level shortcut keys. These use the Super key (sometimes knows as the windows key) as a modifier.</p></item>
-<item><p>Only assign shortcut keys to the most commonly-used actions in your application. Do not try to assign a keyboard shortcut to everything.</p></item>
-<item><p>Do not use the standard GNOME application shortcut keys for different functions. This helps to reinforce consistency between all GNOME applications.</p></item>
-<item><p>Use Ctrl+letter in preference to other combinations when choosing new shortcut keys and Shift+Ctrl+letter for functions that reverse or extend another function. For example, <keyseq><key>Ctrl</key><key>Z</key></keyseq> and <keyseq><key>Shift</key><key>Ctrl</key><key>Z</key></keyseq> for <gui>Undo</gui> and <gui>Redo</gui>.</p></item>
+<item><p>Do not assign system-level shortcut keys for use in your application. See below for details on these.</p></item>
+<item><p>Use the standard GNOME shortcut keys (see below) if your application supports those functions. This ensures consistency between GNOME applications and aids discoverability.</p></item>
+<item><p>Assign shortcut keys to the most commonly-used actions in your application. However, do not try to assign a keyboard shortcut to everything.</p></item>
+<item><p>Try to use <key>Ctrl</key> in combination with a letter for your own shortcuts. <keyseq><key>Shift</key><key>Ctrl</key></keyseq> and a letter is the recommended pattern for shortcuts that reverse or extend another function. For example, <keyseq><key>Ctrl</key><key>Z</key></keyseq> and <keyseq><key>Shift</key><key>Ctrl</key><key>Z</key></keyseq> for <gui>Undo</gui> and <gui>Redo</gui>.</p></item>
 <item><p>New shortcut keys should be as mnemonic as possible, as these will be easier to learn and remember. For example, <keyseq><key>Ctrl</key><key>E</key></keyseq> would be a good shortcut for a menu item called <gui>Edit Page</gui>.</p></item>
 <item><p>Shortcuts that can be easily used with one hand are preferable for common operations.</p></item>
-<item><p>Do not use Alt+key combinations for shortcut keys, as these may conflict with access keys.</p></item>
+<item><p>Do not use <key>Alt</key> for shortcut keys, as this may conflict with access keys.</p></item>
 </list>
 
 </section>
@@ -153,77 +148,115 @@ Do not assign system-level shortcut keys. These use the Super key (sometimes kno
 <section id="system-shortcuts">
 <title>System reserved shortcuts</title>
 
-<p>GNOME 3 and its constituent systems make use of standard system-level shortcuts that should work universally, and should not be overridden by applications.</p>
+<p>The following system shortcuts should not be overridden by applications.</p>
 
-<p>Modern GNOME 3 system shortcuts all incorporate the <key>Super</key> key, often known as the windows key. <key>Super</key> is used independently for entering and leaving the Activities Overview, and in combination with other keys. The <key>Super</key> key is intended as a system-level key, and should not be used by applications.</p>
+<p>GNOME 3 makes exclusive use of <key>Super</key>, often known as the windows key, for system shortcuts.  <key>Super</key> should not be used by applications, therefore.</p>
 
 <table>
 <thead>
 <tr>
 <td><p>Function</p></td>
 <td><p>Shortcut</p></td>
+<td><p>Legacy Shortcut</p></td>
 <td><p>Description</p></td>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><p>Switch window</p></td>
-<td><p><keyseq><key>Alt</key><key>Tab</key></keyseq> and <keyseq><key>Shift</key><key>Alt</key><key>Tab</key></keyseq></p></td>
-<td><p>Switches focus to the next/previous top level window</p></td>
+<td><p>Activities Overview</p></td>
+<td><p><key>Super</key></p></td>
+<td><p>None</p></td>
+<td><p>Opens and closes the Activities Overview</p></td>
 </tr>
 <tr>
+<td><p>Applications View</p></td>
+<td><p><keyseq><key>Super</key><key>A</key></keyseq></p></td>
+<td><p>None</p></td>
+<td><p>Opens and closes the applications view of the Activities Overview</p></td>
+</tr>
+<tr>
+<td><p>Message Tray</p></td>
+<td><p><keyseq><key>Super</key><key>M</key></keyseq></p></td>
+<td><p>None</p></td>
+<td><p>Toggles the visibility of the Message Tray.</p></td>
+</tr>
+<tr>
+<td><p>Lock</p></td>
+<td><p><keyseq><key>Super</key><key></key></keyseq></p></td>
+<td><p>None</p></td>
+<td><p>Locks the system by blanking the screen and requiring a password to unlock, if one has been set.</p></td>
+</tr>
+<tr>
+<td><p>Switch application</p></td>
+<td><p><keyseq><key>Super</key><key>Tab</key></keyseq> and <keyseq><key>Shift</key><key>Super</key><key>Tab</key></keyseq></p></td>
+<td><p><keyseq><key>Alt</key><key>Tab</key></keyseq> and <keyseq><key>Shift</key><key>Alt</key><key>Tab</key></keyseq></p></td>
+<td><p>Switches focus to the next/previous application</p></td>
+</tr>
+<tr>
+<td><p>Switch windows</p></td>
+<td><p><keyseq><key>Super</key><key>`</key></keyseq> and <keyseq><key>Shift</key><key>Super</key><key>`</key></keyseq></p></td>
+<td><p><keyseq><key>Alt</key><key>F6</key></keyseq> and <keyseq><key>Shift</key><key>Alt</key><key>F6</key></keyseq></p></td>
+<td><p>Switch focus to the next or previous secondary window associated with the application</p></td>
+</tr>
+<tr>
+<td><p><gui>Maximize</gui></p></td>
+<td><p><keyseq><key>Super</key><key>↑</key></keyseq></p></td>
+<td><p><keyseq><key>Alt</key><key>F10</key></keyseq></p></td>
+<td><p>Maximize the focused window</p></td>
+</tr>
+<tr>
+<td><p><gui>Restore</gui></p></td>
+<td><p><keyseq><key>Super</key><key>↓</key></keyseq></p></td>
+<td><p><keyseq><key>Alt</key><key>F5</key></keyseq></p></td>
+<td><p>Restores the focused window to its previous state</p></td>
+</tr>
+<tr>
+<td><p><gui>Hide</gui></p></td>
+<td><p><keyseq><key>Super</key><key>H</key></keyseq></p></td>
+<td><p><keyseq><key>Alt</key><key>F9</key></keyseq></p></td>
+<td><p>Hide the focused window</p></td>
+</tr>
+
+<tr>
 <td><p>Switch system area</p></td>
+<td><p>None</p></td>
 <td><p><keyseq><key>Ctrl</key><key>Alt</key><key>Tab</key></keyseq> and <keyseq><key>Shift</key><key>Ctrl</key><key>Alt</key><key>Tab</key></keyseq></p></td>
 <td><p>Switches focus to the primary areas of the system: windows, top bar, message tray</p></td>
 </tr>
 <tr>
 <td><p>Power Off</p></td>
+<td><p>None</p></td>
 <td><p><keyseq><key>Ctrl</key><key>Alt</key><key>Delete</key></keyseq></p></td>
 <td><p>Prompts the user to power off the system. This shortcut is typically disabled by default.</p></td>
 </tr>
 <tr>
 <td><p>Window menu</p></td>
 <td><p><keyseq><key>Alt</key><key>Space</key></keyseq></p></td>
+<td><p>None</p></td>
 <td><p>Opens the window menu for the current window</p></td>
 </tr>
 <tr>
 <td><p><gui>Close</gui></p></td>
+<td><p>None</p></td>
 <td><p><keyseq><key>Alt</key><key>F4</key></keyseq></p></td>
 <td><p>Closes the focused window</p></td>
 </tr>
 <tr>
-<td><p><gui>Restore</gui></p></td>
-<td><p><keyseq><key>Alt</key><key>F5</key></keyseq></p></td>
-<td><p>Restores the focused window to its previous state</p></td>
-</tr>
-<tr>
-<td><p><gui>Switch secondary windows</gui></p></td>
-<td><p><keyseq><key>Alt</key><key>F6</key></keyseq> and <keyseq><key>Shift</key><key>Alt</key><key>F6</key></keyseq></p></td>
-<td><p>Switch focus to the next or previous secondary window associated with the application</p></td>
-</tr>
-<tr>
 <td><p><gui>Move</gui></p></td>
+<td><p>None</p></td>
 <td><p><keyseq><key>Alt</key><key>F7</key></keyseq></p></td>
 <td><p>Move the focused window</p></td>
 </tr>
 <tr>
 <td><p><gui>Resize</gui></p></td>
+<td><p>None</p></td>
 <td><p><keyseq><key>Alt</key><key>F8</key></keyseq></p></td>
 <td><p>Resize the focused window</p></td>
-</tr>
-<tr>
-<td><p><gui>Hide</gui></p></td>
-<td><p><keyseq><key>Alt</key><key>F9</key></keyseq></p></td>
-<td><p>Hide the focused window</p></td>
-</tr>
-<tr>
-<td><p><gui>Maximize</gui></p></td>
-<td><p><keyseq><key>Alt</key><key>F10</key></keyseq></p></td>
-<td><p>Maximize the focused window</p></td>
 </tr>
 </tbody>
 </table>
 
+<p>In addition, the shortcuts for Unicode character entry should also be avoided. This includes <keyseq><key>Shift</key><key>Ctrl</key><key>A</key></keyseq> through to <keyseq><key>Shift</key><key>Ctrl</key><key>F</key></keyseq>, or <keyseq><key>Shift</key><key>Ctrl</key><key>0</key></keyseq> through to <keyseq><key>Shift</key><key>Ctrl</key><key>9</key></keyseq>.</p>
 
 </section>
 
