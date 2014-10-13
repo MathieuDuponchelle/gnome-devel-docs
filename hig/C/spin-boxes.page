@@ -33,7 +33,7 @@
 
 <p>Use spin boxes to allow users to select numeric values, but only when those values are meaningful or useful for users to know. If they aren't, a <link xref="sliders">slider</link> might be a better choice.</p>
 
-<p>Use spin boxes for numerical input only. For non-numeric sets of options, a <link xref="lists">list</link> or <link xref="drop-down-list">drop-down list</link> can be used instead.</p>
+<p>Use spin boxes for numerical input only. For non-numeric sets of options, a <link xref="lists">list</link> or <link xref="drop-down-lists">drop-down list</link> can be used instead.</p>
 
 </section>
 
