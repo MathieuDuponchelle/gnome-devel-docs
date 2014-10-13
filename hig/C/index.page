@@ -1,4 +1,5 @@
 <page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
       type="guide"
       id="index">
 
@@ -11,7 +12,7 @@
   </info>
 
 <title>GNOME Human Interface Guidelines</title>
-<media type="image" src="figures/hig.png"/>
+<media type="image" its:translate="no" src="figures/hig.png"/>
 
 <p>The GNOME Human Interface Guidelines contain guidance on how to design an effective application using GTK+. The guidelines give access to a complete set of design guidance, from high-level design of your application, through to specific arrangements of user interface elements. It incorporates a blend of modern design thinking, along with a concern for practicality and ease of use.</p>
 
