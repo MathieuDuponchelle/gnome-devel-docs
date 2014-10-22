@@ -6,16 +6,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2014-02-08 08:01+0000\n"
-"PO-Revision-Date: 2014-02-09 19:52+0100\n"
-"Last-Translator: Benjamin Steinwender <b@stbe.at>\n"
+"POT-Creation-Date: 2014-09-05 18:35+0000\n"
+"PO-Revision-Date: 2014-09-21 23:57+0100\n"
+"Last-Translator: Christian Kirbach <christian.kirbach@gmail.com>\n"
 "Language-Team: German <gnome-de@gnome.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.6.3\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -3986,44 +3986,13 @@ msgstr ""
 #. (itstool) path: legalnotice/para
 #: C/index.docbook:43
 msgid ""
-"Permission is granted to copy, distribute and/or modify this document under "
-"the terms of the <citetitle>GNU Free Documentation License</citetitle>, "
-"Version 1.1 or any later version published by the Free Software Foundation "
-"with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. "
-"You may obtain a copy of the <citetitle>GNU Free Documentation License</"
-"citetitle> from the Free Software Foundation by visiting <ulink type=\"http"
-"\" url=\"http://www.fsf.org\">their Web site</ulink> or by writing to: Free "
-"Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA "
-"02111-1307, USA."
+"This work is licensed under a <ulink type=\"http\" url=\"http://"
+"creativecommons.org/licenses/by-sa/4.0/\">Creative Commons Attribution-"
+"ShareAlike 4.0 International License</ulink>."
 msgstr ""
-"Das vorliegende Dokument kann gemäß den Bedingungen der GNU Free "
-"Documentation License (GFDL), Version 1.1 oder jeder späteren, von der Free "
-"Software Foundation veröffentlichten Version ohne unveränderbare Abschnitte "
-"sowie ohne Texte auf dem vorderen und hinteren Buchdeckel kopiert, verteilt "
-"und/oder modifiziert werden. Eine Kopie der <citetitle>GNU Free "
-"Documentation License</citetitle> finden Sie unter diesem <ulink type=\"http"
-"\" url=\"http://www.fsf.org\">Link</ulink> oder indem Sie zu der folgenden "
-"Adresse schreiben: Free Software Foundation, Inc., 59 Temple Place - Suite "
-"330, Boston, MA 02111-1307, USA."
-
-#. (itstool) path: legalnotice/para
-#: C/index.docbook:55
-msgid ""
-"Many of the names used by companies to distinguish their products and "
-"services are claimed as trademarks. Where those names appear in any GNOME "
-"documentation, and those trademarks are made aware to the members of the "
-"GNOME Documentation Project, the names have been printed in caps or initial "
-"caps."
-msgstr ""
-"Bei vielen der von Firmen zur Unterscheidung ihrer Produkte und "
-"Dienstleistungen verwendeten Namen handelt es sich um Marken. An den "
-"Stellen, an denen derartige Namen in einer GNOME-Dokumentation vorkommen und "
-"wenn die Mitglieder des GNOME-Dokumentationsprojekts über diese Marken "
-"informiert wurden, sind die Namen in Großbuchstaben oder mit großen "
-"Anfangsbuchstaben geschrieben."
 
 #. (itstool) path: bookinfo/title
-#: C/index.docbook:64
+#: C/index.docbook:50
 msgid "GNOME Human Interface Guidelines 2.2.3"
 msgstr "GNOME Richtlinien für Benutzeroberflächen 2.2.3"
 
@@ -5017,7 +4986,7 @@ msgstr ""
 #. (itstool) path: example/title
 #: C/index.docbook:51 C/hig-ch-desktop.xml:51
 msgid "Including functional description in menu names"
-msgstr ""
+msgstr "Enthält funktionale Beschreibung in Menünamen"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:57 C/index.docbook:83 C/index.docbook:111
@@ -5900,8 +5869,9 @@ msgstr ""
 
 #. (itstool) path: formalpara/title
 #: C/index.docbook:150 C/hig-ch-windows.xml:150
+#, fuzzy
 msgid "Point-to-focus"
-msgstr ""
+msgstr "Fokuswechsel durch Klicken"
 
 #. (itstool) path: formalpara/para
 #: C/index.docbook:152 C/hig-ch-windows.xml:152
@@ -6128,7 +6098,7 @@ msgstr ""
 #. (itstool) path: example/title
 #: C/index.docbook:310 C/hig-ch-windows.xml:310
 msgid "Using application names as window titles"
-msgstr ""
+msgstr "Verwendung von Anwendungsnamen als Fenstertitel"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:318 C/hig-ch-windows.xml:318
@@ -6225,6 +6195,11 @@ msgid ""
 "<textobject> <phrase>A typical SDI application: Eye of GNOME being used to "
 "inspect an icon</phrase> </textobject>"
 msgstr ""
+"<imageobject> <imagedata depth=\"226\" fileref=\"images/windows-sdi.png\" "
+"format=\"PNG\" width=\"268\"/> </imageobject> <imageobject> <imagedata "
+"fileref=\"images/windows-sdi.eps\" format=\"EPS\"/> </imageobject> "
+"<textobject> <phrase>Eine typische SDI-Anwendung: »Eye of GNOME« inspiziert "
+"ein Symbol</phrase> </textobject>"
 
 #. (itstool) path: sect3/title
 #: C/index.docbook:405 C/hig-ch-windows.xml:405
@@ -6560,7 +6535,7 @@ msgstr "Fensterbefehle:"
 #: C/index.docbook:662 C/index.docbook:709 C/hig-ch-windows.xml:662
 #: C/hig-ch-windows.xml:709
 msgid "Close, Minimize, Roll-up/Unroll"
-msgstr ""
+msgstr "Schließen, minimieren, Ein-/Ausrollen"
 
 #. (itstool) path: formalpara/title
 #: C/index.docbook:666 C/index.docbook:713 C/index.docbook:801
@@ -6700,7 +6675,7 @@ msgstr "Werkzeugkästen haben keinen Titel"
 #. (itstool) path: formalpara/para
 #: C/index.docbook:797 C/hig-ch-windows.xml:797
 msgid "Close, Roll-up/Unroll"
-msgstr ""
+msgstr "Schließen, Ein-/Ausrollen"
 
 #. (itstool) path: formalpara/para
 #: C/index.docbook:803 C/hig-ch-windows.xml:803
@@ -6768,7 +6743,7 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: C/index.docbook:856 C/hig-ch-windows.xml:856
 msgid "Toolbox Categories"
-msgstr ""
+msgstr "Kategorien für Werkzeugkisten"
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:858 C/hig-ch-windows.xml:858
@@ -6991,6 +6966,8 @@ msgid ""
 "&lt;span weight=\"bold\"\n"
 "      size=\"larger\"&gt;<replaceable>Primary Text</replaceable>&lt;/span&gt;"
 msgstr ""
+"&lt;span weight=\"bold\"\n"
+"      size=\"larger\"&gt;<replaceable>Primärer Text</replaceable>&lt;/span&gt;"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:1057 C/hig-ch-windows.xml:1057
@@ -7278,7 +7255,6 @@ msgstr "Nein"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:1288 C/hig-ch-windows.xml:1288
-#, fuzzy
 msgid "Has Separator"
 msgstr "Hat Trennbalken"
 
@@ -7334,7 +7310,7 @@ msgstr "Dialog"
 #. (itstool) path: table/title
 #: C/index.docbook:1376 C/hig-ch-windows.xml:1376
 msgid "Properties for the GtkLabel"
-msgstr ""
+msgstr "Eigenschaften für GtkLabel"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:1389 C/hig-ch-windows.xml:1389
@@ -7431,12 +7407,12 @@ msgstr ""
 #. (itstool) path: figure/title
 #: C/index.docbook:1483 C/hig-ch-windows.xml:1483
 msgid "An error alert"
-msgstr ""
+msgstr "Eine Fehleralarm"
 
 #. (itstool) path: itemizedlist/title
 #: C/index.docbook:1501 C/hig-ch-windows.xml:1501
 msgid "An error alert..."
-msgstr ""
+msgstr "Eine Fehleralarm …"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1504 C/hig-ch-windows.xml:1504
@@ -8871,8 +8847,9 @@ msgstr "Einträge mit Radioknöpfen"
 
 #. (itstool) path: figure/title
 #: C/index.docbook:278 C/hig-ch-menus.xml:278
+#, fuzzy
 msgid "A group of radiobutton items on a menu"
-msgstr ""
+msgstr "Eine Gruppe von Befehlseinträgen in einem Menü"
 
 #. (itstool) path: figure/mediaobject
 #: C/index.docbook:279 C/hig-ch-menus.xml:279
@@ -9317,7 +9294,7 @@ msgstr ""
 #. (itstool) path: row/entry
 #: C/index.docbook:490 C/hig-ch-menus.xml:490
 msgid "<guimenuitem><accel>R</accel>evert</guimenuitem>"
-msgstr ""
+msgstr "<guimenuitem><accel>U</accel>mkehren</guimenuitem>"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:492 C/hig-ch-menus.xml:492
@@ -9612,7 +9589,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: C/index.docbook:642 C/hig-ch-menus.xml:642
 msgid "A generic Edit menu"
-msgstr ""
+msgstr "Ein allgemeines Bearbeiten-Menü"
 
 #. (itstool) path: textobject/literallayout
 #: C/index.docbook:647 C/hig-ch-menus.xml:647
@@ -9667,7 +9644,7 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: C/index.docbook:676 C/hig-ch-menus.xml:676
 msgid "Modification History"
-msgstr ""
+msgstr "Änderungschronik"
 
 #. (itstool) path: sect3/para
 #: C/index.docbook:677 C/hig-ch-menus.xml:677
@@ -10094,7 +10071,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: C/index.docbook:867 C/hig-ch-menus.xml:867
 msgid "A generic View menu"
-msgstr ""
+msgstr "Ein allgemeines Ansicht-Menü"
 
 #. (itstool) path: textobject/literallayout
 #: C/index.docbook:872 C/hig-ch-menus.xml:872
@@ -10170,7 +10147,7 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: C/index.docbook:930 C/hig-ch-menus.xml:930
 msgid "Content Presentation"
-msgstr ""
+msgstr "Inhalts-Präsentation"
 
 #. (itstool) path: table/title
 #: C/index.docbook:932 C/hig-ch-menus.xml:932
@@ -10383,7 +10360,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: C/index.docbook:1023 C/hig-ch-menus.xml:1023
 msgid "A generic Insert menu"
-msgstr ""
+msgstr "Ein allgemeines Einfügen-Menü"
 
 #. (itstool) path: textobject/literallayout
 #: C/index.docbook:1028 C/hig-ch-menus.xml:1028
@@ -10602,7 +10579,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: C/index.docbook:1137 C/hig-ch-menus.xml:1137
 msgid "A generic Format menu"
-msgstr ""
+msgstr "Ein allgemeines Format-Menü"
 
 #. (itstool) path: textobject/literallayout
 #: C/index.docbook:1142 C/hig-ch-menus.xml:1142
@@ -10653,8 +10630,9 @@ msgstr ""
 
 #. (itstool) path: table/title
 #: C/index.docbook:1167 C/hig-ch-menus.xml:1167
+#, fuzzy
 msgid "Format menu items"
-msgstr ""
+msgstr "Gruppieren von Menüeinträgen"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:1179 C/hig-ch-menus.xml:1179
@@ -10834,8 +10812,9 @@ msgstr ""
 
 #. (itstool) path: figure/title
 #: C/index.docbook:1258 C/hig-ch-menus.xml:1258
+#, fuzzy
 msgid "A generic Bookmarks menu"
-msgstr ""
+msgstr "Ein allgemeines Dateimenü"
 
 #. (itstool) path: textobject/literallayout
 #: C/index.docbook:1263 C/hig-ch-menus.xml:1263
@@ -10855,8 +10834,9 @@ msgstr ""
 
 #. (itstool) path: table/title
 #: C/index.docbook:1273 C/hig-ch-menus.xml:1273
+#, fuzzy
 msgid "Bookmark menu items"
-msgstr ""
+msgstr "Gruppieren von Menüeinträgen"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:1285 C/hig-ch-menus.xml:1285
@@ -11137,7 +11117,7 @@ msgstr "<keycombo><keycap>Ctrl</keycap><keycap>Home</keycap></keycombo>"
 #. (itstool) path: row/entry
 #: C/index.docbook:1433 C/hig-ch-menus.xml:1433
 msgid "Navigates to the first page in the document."
-msgstr ""
+msgstr "Springt zur ersten Seite im Dokument."
 
 #. (itstool) path: row/entry
 #: C/index.docbook:1438 C/hig-ch-menus.xml:1438
@@ -11152,7 +11132,7 @@ msgstr "<keycombo><keycap>Ctrl</keycap><keycap>End</keycap></keycombo>"
 #. (itstool) path: row/entry
 #: C/index.docbook:1440 C/hig-ch-menus.xml:1440
 msgid "Navigates to the last page in the document."
-msgstr ""
+msgstr "Springt zur letzten Seite im Dokument."
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:1471 C/hig-ch-menus.xml:1471
@@ -11165,7 +11145,7 @@ msgstr ""
 #. (itstool) path: note/title
 #: C/index.docbook:1473 C/hig-ch-menus.xml:1473
 msgid "MDI Applications"
-msgstr ""
+msgstr "MDI-Anwendungen"
 
 #. (itstool) path: note/para
 #: C/index.docbook:1473 C/hig-ch-menus.xml:1473
@@ -11193,7 +11173,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: C/index.docbook:1480 C/hig-ch-menus.xml:1480
 msgid "A generic Windows menu"
-msgstr ""
+msgstr "Ein allgemeines Windows-Menü"
 
 #. (itstool) path: textobject/literallayout
 #: C/index.docbook:1485 C/hig-ch-menus.xml:1485
@@ -11213,8 +11193,9 @@ msgstr ""
 
 #. (itstool) path: table/title
 #: C/index.docbook:1496 C/hig-ch-menus.xml:1496
+#, fuzzy
 msgid "Windows menu items"
-msgstr ""
+msgstr "Gruppieren von Menüeinträgen"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:1507 C/hig-ch-menus.xml:1507
@@ -11304,8 +11285,9 @@ msgstr ""
 
 #. (itstool) path: table/title
 #: C/index.docbook:1551 C/hig-ch-menus.xml:1551
+#, fuzzy
 msgid "Help menu items"
-msgstr ""
+msgstr "Gruppieren von Menüeinträgen"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:1563 C/index.docbook:866 C/hig-ch-input.xml:866
@@ -12957,7 +12939,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: C/index.docbook:1143 C/hig-ch-controls.xml:1143
 msgid "Drop-down Lists"
-msgstr ""
+msgstr "Auswahllisten"
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:1145 C/hig-ch-controls.xml:1145
@@ -13573,12 +13555,12 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:1665 C/hig-ch-controls.xml:1665
 msgid "Use column headers when:"
-msgstr ""
+msgstr "Verwenden Sie Spaltenköpfe nur dann, wenn:"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1669 C/hig-ch-controls.xml:1669
 msgid "the tree has more than one column"
-msgstr ""
+msgstr "der Baum hat mehr als eine Spalte"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:1673 C/hig-ch-controls.xml:1673
@@ -14615,7 +14597,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/index.docbook:316 C/hig-ch-feedback.xml:316
 msgid "Progress Animations"
-msgstr ""
+msgstr "Fortschrittsanimationen"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:318 C/hig-ch-feedback.xml:318
@@ -14787,7 +14769,7 @@ msgstr ""
 #. (itstool) path: row/entry
 #: C/index.docbook:455 C/hig-ch-feedback.xml:455
 msgid "Appropriate feedback"
-msgstr ""
+msgstr "Angemessene Rückmeldungen"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:467 C/index.docbook:497 C/hig-ch-feedback.xml:467
@@ -14798,13 +14780,13 @@ msgstr ""
 #. (itstool) path: row/entry
 #: C/index.docbook:477 C/hig-ch-feedback.xml:477
 msgid "Pointer feedback"
-msgstr ""
+msgstr "Rückmeldung über den Mauszeiger"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:487 C/index.docbook:517 C/hig-ch-feedback.xml:487
 #: C/hig-ch-feedback.xml:517
 msgid "Internal animation"
-msgstr ""
+msgstr "Interne Animationen"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:507 C/hig-ch-feedback.xml:507
@@ -14814,7 +14796,7 @@ msgstr ""
 #. (itstool) path: row/entry
 #: C/index.docbook:527 C/hig-ch-feedback.xml:527
 msgid "External animation"
-msgstr ""
+msgstr "Externe Animationen"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:537 C/hig-ch-feedback.xml:537
@@ -15107,7 +15089,7 @@ msgstr "#807D74"
 #. (itstool) path: row/entry
 #: C/index.docbook:88 C/hig-ch-layout.xml:88
 msgid "3D Shadow"
-msgstr ""
+msgstr "3D-Schatten"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:89 C/hig-ch-layout.xml:89
@@ -15137,7 +15119,7 @@ msgstr "#C5D2C8"
 #. (itstool) path: row/entry
 #: C/index.docbook:104 C/hig-ch-layout.xml:104
 msgid "Green Medium"
-msgstr ""
+msgstr "Mittleres Grün"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:105 C/hig-ch-layout.xml:105
@@ -15197,7 +15179,7 @@ msgstr "#E0B6AF"
 #. (itstool) path: row/entry
 #: C/index.docbook:136 C/hig-ch-layout.xml:136
 msgid "Red Medium"
-msgstr ""
+msgstr "Mittleres Rot"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:137 C/hig-ch-layout.xml:137
@@ -15317,7 +15299,7 @@ msgstr "#9DB8D2"
 #. (itstool) path: row/entry
 #: C/index.docbook:200 C/hig-ch-layout.xml:200
 msgid "Blue Medium"
-msgstr ""
+msgstr "Mittleres Blau"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:201 C/hig-ch-layout.xml:201
@@ -15422,7 +15404,7 @@ msgstr "#826647"
 #. (itstool) path: row/entry
 #: C/index.docbook:257 C/hig-ch-layout.xml:257
 msgid "Accent Red"
-msgstr ""
+msgstr "Rotabgleich"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:258 C/hig-ch-layout.xml:258
@@ -15436,8 +15418,9 @@ msgstr "#DF421E"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:264 C/hig-ch-layout.xml:264
+#, fuzzy
 msgid "Accent Red Dark"
-msgstr ""
+msgstr "Dunkles Scharlachrot"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:265 C/hig-ch-layout.xml:265
@@ -15451,8 +15434,9 @@ msgstr "#990000"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:273 C/hig-ch-layout.xml:273
+#, fuzzy
 msgid "Accent Yellow"
-msgstr ""
+msgstr "hellgelb"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:274 C/hig-ch-layout.xml:274
@@ -15481,8 +15465,9 @@ msgstr "#D1940C"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:289 C/hig-ch-layout.xml:289
+#, fuzzy
 msgid "Accent Green"
-msgstr ""
+msgstr "dunkelgrün"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:290 C/hig-ch-layout.xml:290
@@ -15772,8 +15757,9 @@ msgstr ""
 
 #. (itstool) path: figure/title
 #: C/index.docbook:438 C/hig-ch-layout.xml:438
+#, fuzzy
 msgid "Layout specifications"
-msgstr ""
+msgstr "Import-Spezifikation"
 
 #. (itstool) path: figure/mediaobject
 #: C/index.docbook:440 C/hig-ch-layout.xml:440
@@ -15942,7 +15928,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: C/index.docbook:558 C/hig-ch-layout.xml:558
 msgid "Text Labels"
-msgstr ""
+msgstr "Textbeschriftungen"
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:560 C/hig-ch-layout.xml:560
@@ -15983,7 +15969,7 @@ msgstr "Platzierung"
 #. (itstool) path: row/entry
 #: C/index.docbook:581 C/hig-ch-layout.xml:581
 msgid "Large Icons (file browser)"
-msgstr ""
+msgstr "Große Symbole (Dateiverwaltung)"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:582 C/hig-ch-layout.xml:582
@@ -16214,12 +16200,13 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/index.docbook:699 C/hig-ch-layout.xml:699
 msgid "Capitalization"
-msgstr ""
+msgstr "Großschreibung"
 
 #. (itstool) path: varlistentry/term
 #: C/index.docbook:704 C/hig-ch-layout.xml:704
+#, fuzzy
 msgid "Header capitalization"
-msgstr ""
+msgstr "Seitenkopf"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:710 C/hig-ch-layout.xml:710
@@ -16292,7 +16279,7 @@ msgstr "Stil"
 #. (itstool) path: row/entry
 #: C/index.docbook:763 C/hig-ch-layout.xml:763
 msgid "Check box labels"
-msgstr ""
+msgstr "Beschriftungen für Ankreuzfelder"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:768 C/index.docbook:816 C/index.docbook:828
@@ -16310,8 +16297,9 @@ msgstr "Satz"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:775 C/hig-ch-layout.xml:775
+#, fuzzy
 msgid "Command button labels"
-msgstr ""
+msgstr "Beschriftungen für Radioknöpfe"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:780 C/index.docbook:792 C/index.docbook:804
@@ -16328,7 +16316,7 @@ msgstr "Kopfzeilen"
 #. (itstool) path: row/entry
 #: C/index.docbook:787 C/hig-ch-layout.xml:787
 msgid "Column heading labels"
-msgstr ""
+msgstr "Beschriftungen für Spaltenüberschriften"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:799 C/hig-ch-layout.xml:799
@@ -16353,7 +16341,7 @@ msgstr ""
 #. (itstool) path: row/entry
 #: C/index.docbook:847 C/hig-ch-layout.xml:847
 msgid "Field labels"
-msgstr ""
+msgstr "Beschriftungen von Feldern"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:859 C/hig-ch-layout.xml:859
@@ -16378,8 +16366,9 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #: C/index.docbook:908 C/hig-ch-layout.xml:908
+#, fuzzy
 msgid "List box labels"
-msgstr ""
+msgstr "Beschriftungen für Einstellfelder"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:920 C/hig-ch-layout.xml:920
@@ -16446,7 +16435,7 @@ msgstr ""
 #. (itstool) path: note/title
 #: C/index.docbook:1067 C/hig-ch-layout.xml:1067
 msgid "Capitalization guidelines for other languages"
-msgstr ""
+msgstr "Großschreibregeln für andere Sprachen"
 
 #. (itstool) path: note/para
 #: C/index.docbook:1068 C/hig-ch-layout.xml:1068
@@ -16606,8 +16595,9 @@ msgstr "Perspektive"
 
 #. (itstool) path: formalpara/title
 #: C/index.docbook:62 C/hig-ch-icons.xml:62
+#, fuzzy
 msgid "Table perspective"
-msgstr ""
+msgstr "Tabelle einfügen"
 
 #. (itstool) path: formalpara/para
 #: C/index.docbook:63 C/hig-ch-icons.xml:63
@@ -16748,7 +16738,6 @@ msgstr "Tabelle"
 #. (itstool) path: row/entry
 #: C/index.docbook:127 C/index.docbook:140 C/hig-ch-icons.xml:127
 #: C/hig-ch-icons.xml:140
-#, fuzzy
 msgid "Upper Left"
 msgstr "Oben links"
 
@@ -17439,8 +17428,9 @@ msgstr ""
 
 #. (itstool) path: sect1/title
 #: C/index.docbook:481 C/hig-ch-icons.xml:481
+#, fuzzy
 msgid "Designing Accessible Icons"
-msgstr ""
+msgstr "Entwerfen effektiver Symbole"
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:482 C/hig-ch-icons.xml:482
@@ -17468,8 +17458,9 @@ msgstr ""
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:489 C/hig-ch-icons.xml:489
+#, fuzzy
 msgid "High Contrast Icons"
-msgstr ""
+msgstr "Hoher Kontrast, invertiert"
 
 #. (itstool) path: sect2/para
 #: C/index.docbook:490 C/hig-ch-icons.xml:490
@@ -17489,13 +17480,14 @@ msgstr ""
 
 #. (itstool) path: row/entry
 #: C/index.docbook:499 C/hig-ch-icons.xml:499
+#, fuzzy
 msgid "High Contrast Icon"
-msgstr ""
+msgstr "Hoher Kontrast, invertiert"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:500 C/hig-ch-icons.xml:500
 msgid "Simulated Appearance"
-msgstr ""
+msgstr "Simuliertes Erscheinungsbild"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:505 C/hig-ch-icons.xml:505
@@ -18006,7 +17998,7 @@ msgstr ""
 #. (itstool) path: row/entry
 #: C/index.docbook:126 C/hig-ch-input.xml:126
 msgid "Extend selection"
-msgstr ""
+msgstr "Auswahl erweitern"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:127 C/hig-ch-input.xml:127
@@ -18026,7 +18018,7 @@ msgstr ""
 #. (itstool) path: row/entry
 #: C/index.docbook:131 C/hig-ch-input.xml:131
 msgid "Move focus"
-msgstr ""
+msgstr "Fokus verschieben"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:132 C/hig-ch-input.xml:132
@@ -18363,7 +18355,7 @@ msgstr ""
 #. (itstool) path: sect4/title
 #: C/index.docbook:271 C/hig-ch-input.xml:271
 msgid "Keyboard Modifiers"
-msgstr ""
+msgstr "Tastaturzusatztasten"
 
 #. (itstool) path: sect4/para
 #: C/index.docbook:272 C/hig-ch-input.xml:272
@@ -19117,12 +19109,12 @@ msgstr ""
 #. (itstool) path: row/entry
 #: C/index.docbook:657 C/hig-ch-input.xml:657
 msgid "Find the next match"
-msgstr ""
+msgstr "Den nächsten Treffer suchen"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:663 C/hig-ch-input.xml:663
 msgid "Find and replace matches"
-msgstr ""
+msgstr "Treffer suchen und ersetzen"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:666 C/hig-ch-input.xml:666
@@ -19144,7 +19136,7 @@ msgstr ""
 #. (itstool) path: note/title
 #: C/index.docbook:674 C/hig-ch-input.xml:674
 msgid "Find and Search"
-msgstr ""
+msgstr "Suchen und Ersetzen"
 
 #. (itstool) path: note/para
 #: C/index.docbook:675 C/hig-ch-input.xml:675
@@ -19185,7 +19177,7 @@ msgstr "<keycombo><keycap>Ctrl</keycap><keysym>Minus</keysym></keycombo>"
 #. (itstool) path: row/entry
 #: C/index.docbook:718 C/hig-ch-input.xml:718
 msgid "Zoom out of the document"
-msgstr ""
+msgstr "Dokument verkleinern"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:722 C/hig-ch-input.xml:722
@@ -19411,7 +19403,7 @@ msgstr ""
 #. (itstool) path: row/entry
 #: C/index.docbook:905 C/hig-ch-input.xml:905
 msgid "Switch primary windows"
-msgstr ""
+msgstr "Zwischen den primären Fenstern wechseln"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:906 C/hig-ch-input.xml:906
@@ -19432,7 +19424,7 @@ msgstr ""
 #. (itstool) path: row/entry
 #: C/index.docbook:911 C/hig-ch-input.xml:911
 msgid "Switch panels"
-msgstr ""
+msgstr "Leisten wechseln"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:912 C/hig-ch-input.xml:912
@@ -19790,12 +19782,12 @@ msgstr ""
 #. (itstool) path: row/entry
 #: C/index.docbook:1059 C/hig-ch-input.xml:1059
 msgid "Move cursor to beginning of line"
-msgstr ""
+msgstr "Eingabemarke an den Anfang der Zeile setzen"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:1063 C/hig-ch-input.xml:1063
 msgid "Delete character following/under cursor"
-msgstr ""
+msgstr "Buchstaben nach/unter der Eingabemarke löschen"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:1066 C/hig-ch-input.xml:1066
@@ -19880,6 +19872,8 @@ msgstr "<keycombo><keycap>Alt</keycap><keysym>Space</keysym></keycombo>"
 #: C/index.docbook:1099 C/hig-ch-input.xml:1099
 msgid "Delete all whitespace around cursor, reinsert single space"
 msgstr ""
+"Alle Leerzeichen um die Eingabemarke herum löschen und ein einzelnes "
+"Leerzeichen erneut einfügen"
 
 #. (itstool) path: row/entry
 #: C/index.docbook:1102 C/hig-ch-input.xml:1102
@@ -19889,7 +19883,7 @@ msgstr "<keycombo><keycap>Alt</keycap><keycap>\\</keycap></keycombo>"
 #. (itstool) path: row/entry
 #: C/index.docbook:1103 C/hig-ch-input.xml:1103
 msgid "Delete all whitespace around cursor"
-msgstr ""
+msgstr "Alle Leerzeichen um die Eingabemarke herum löschen"
 
 #. (itstool) path: sect2/title
 #: C/index.docbook:1114 C/hig-ch-input.xml:1114
@@ -20246,6 +20240,8 @@ msgstr ""
 msgid ""
 "All functions listed on the toolbar can be performed using the keyboard."
 msgstr ""
+"Alle in der Werkzeugliste aufgeführten Funktionen können mit der Tastatur "
+"durchgeführt werden."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:54 C/hig-ch-checks.xml:54
@@ -20257,7 +20253,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:56 C/hig-ch-checks.xml:56
 msgid "Text and objects within the client area can be selected."
-msgstr ""
+msgstr "Text und Objekte im Client-Bereich können ausgewählt werden."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:58 C/hig-ch-checks.xml:58
@@ -21094,8 +21090,9 @@ msgstr ""
 
 #. (itstool) path: bibliomset/edition
 #: C/hig-ch-bibliography.xml:96
+#, fuzzy
 msgid "Reprint ed."
-msgstr ""
+msgstr "-e, --ed                      Ein ed-Skript ausgeben."
 
 #. (itstool) path: bibliomset/pubdate
 #: C/hig-ch-bibliography.xml:99 C/hig-ch-bibliography.xml:172
@@ -21499,7 +21496,7 @@ msgstr ""
 #. (itstool) path: table/title
 #: C/hig-ch-icons-new.xml:64 C/hig-ch-icons-new.xml:98
 msgid "Different perspectives"
-msgstr ""
+msgstr "Verschiedene Perspektiven"
 
 #. (itstool) path: row/entry
 #: C/hig-ch-icons-new.xml:68
@@ -21632,7 +21629,6 @@ msgstr ""
 
 #. (itstool) path: sect1/title
 #: C/hig-ch-icons-new.xml:129
-#, fuzzy
 msgid "Do's and Don'ts"
 msgstr "Typische Fehler"
 
@@ -21776,6 +21772,8 @@ msgid ""
 "Mention in <_:xref-1/> that in-place progress indicators are preferred to "
 "modal progress dialogs windows."
 msgstr ""
+"Erwähne in <_:xref-1/>, dass eingebettete Fortschrittsanzeigen den modalen "
+"Dialogfenstern vorzuziehen sind."
 
 #. (itstool) path: listitem/para
 #: C/hig-ch-whatsnew.xml:23
@@ -21784,6 +21782,41 @@ msgid ""
 "their primary text, which lead to unnecessary redundancy. Advice is now that "
 "progress window title should summarize the overall operation."
 msgstr ""
+
+#~ msgid ""
+#~ "Permission is granted to copy, distribute and/or modify this document "
+#~ "under the terms of the <citetitle>GNU Free Documentation License</"
+#~ "citetitle>, Version 1.1 or any later version published by the Free "
+#~ "Software Foundation with no Invariant Sections, no Front-Cover Texts, and "
+#~ "no Back-Cover Texts. You may obtain a copy of the <citetitle>GNU Free "
+#~ "Documentation License</citetitle> from the Free Software Foundation by "
+#~ "visiting <ulink type=\"http\" url=\"http://www.fsf.org\">their Web site</"
+#~ "ulink> or by writing to: Free Software Foundation, Inc., 59 Temple Place "
+#~ "- Suite 330, Boston, MA 02111-1307, USA."
+#~ msgstr ""
+#~ "Das vorliegende Dokument kann gemäß den Bedingungen der GNU Free "
+#~ "Documentation License (GFDL), Version 1.1 oder jeder späteren, von der "
+#~ "Free Software Foundation veröffentlichten Version ohne unveränderbare "
+#~ "Abschnitte sowie ohne Texte auf dem vorderen und hinteren Buchdeckel "
+#~ "kopiert, verteilt und/oder modifiziert werden. Eine Kopie der "
+#~ "<citetitle>GNU Free Documentation License</citetitle> finden Sie unter "
+#~ "diesem <ulink type=\"http\" url=\"http://www.fsf.org\">Link</ulink> oder "
+#~ "indem Sie zu der folgenden Adresse schreiben: Free Software Foundation, "
+#~ "Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA."
+
+#~ msgid ""
+#~ "Many of the names used by companies to distinguish their products and "
+#~ "services are claimed as trademarks. Where those names appear in any GNOME "
+#~ "documentation, and those trademarks are made aware to the members of the "
+#~ "GNOME Documentation Project, the names have been printed in caps or "
+#~ "initial caps."
+#~ msgstr ""
+#~ "Bei vielen der von Firmen zur Unterscheidung ihrer Produkte und "
+#~ "Dienstleistungen verwendeten Namen handelt es sich um Marken. An den "
+#~ "Stellen, an denen derartige Namen in einer GNOME-Dokumentation vorkommen "
+#~ "und wenn die Mitglieder des GNOME-Dokumentationsprojekts über diese "
+#~ "Marken informiert wurden, sind die Namen in Großbuchstaben oder mit "
+#~ "großen Anfangsbuchstaben geschrieben."
 
 #~ msgid "@@image: 'images/windows-titlebar.eps'; md5=THIS FILE DOESN'T EXIST"
 #~ msgstr "@@image: 'images/windows-titlebar.eps'; md5=THIS FILE DOESN'T EXIST"
