@@ -48,6 +48,7 @@ HELP_FILES = \
 	writing-style.page
 
 HELP_MEDIA = \
+	figures/hig.png \
 	figures/label-alignment.svg \
 	figures/visual-alignment-correct.svg \
 	figures/visual-alignment-incorrect.svg \
