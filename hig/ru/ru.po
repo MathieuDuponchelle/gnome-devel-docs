@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
 "POT-Creation-Date: 2014-11-22 07:31+0000\n"
-"PO-Revision-Date: 2014-11-27 12:33+0300\n"
+"PO-Revision-Date: 2014-11-28 00:09+0300\n"
 "Last-Translator: Yuri Myasoedov <omerta13@yandex.ru>\n"
 "Language-Team: Russian <gnome-cyr@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -356,7 +356,7 @@ msgstr ""
 #: C/progress-spinners.page:33 C/spin-boxes.page:53 C/toolbars.page:41
 #: C/visual-layout.page:33
 msgid "General guidelines"
-msgstr ""
+msgstr "Общие рекомендации"
 
 #. (itstool) path: item/p
 #: C/application-menus.page:31
@@ -666,7 +666,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/buttons.page:32 C/text-fields.page:32
 msgid "General Guidelines"
-msgstr ""
+msgstr "Общие рекомендации"
 
 #. (itstool) path: item/p
 #: C/buttons.page:35
@@ -2061,7 +2061,7 @@ msgstr "Расположение элементов пользовательск
 msgid ""
 "<link xref=\"writing-style\"><em style=\"strong\">Writing style</em></link>"
 msgstr ""
-"<link xref=\"writing-style\"><em style=\"strong\">Визуальные стили</em></"
+"<link xref=\"writing-style\"><em style=\"strong\">Использование текста</em></"
 "link>"
 
 #. (itstool) path: td/p
@@ -4904,6 +4904,8 @@ msgid ""
 "external ref='figures/patterns/list-styles.svg' "
 "md5='f0d36f61a5d6e7f980e42c65aefa69c5'"
 msgstr ""
+"external ref='figures/patterns/list-styles.svg' "
+"md5='f0d36f61a5d6e7f980e42c65aefa69c5'"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -4916,6 +4918,8 @@ msgid ""
 "external ref='figures/patterns/editable-lists.svg' "
 "md5='c9e5be503e9cea3d6ca45d15c3e96197'"
 msgstr ""
+"external ref='figures/patterns/editable-lists.svg' "
+"md5='c9e5be503e9cea3d6ca45d15c3e96197'"
 
 #. (itstool) path: page/title
 #: C/lists.page:14
@@ -5230,6 +5234,8 @@ msgid ""
 "external ref='figures/ui-elements/menu-bar.svg' "
 "md5='b27a9fa81c37203e8cfdd99458539dfd'"
 msgstr ""
+"external ref='figures/ui-elements/menu-bar.svg' "
+"md5='b27a9fa81c37203e8cfdd99458539dfd'"
 
 #. (itstool) path: page/title
 #: C/menu-bars.page:25
@@ -5470,6 +5476,8 @@ msgid ""
 "external ref='figures/ui-elements/menu.svg' "
 "md5='1997424d43df9bee4a79276f2f7ec305'"
 msgstr ""
+"external ref='figures/ui-elements/menu.svg' "
+"md5='1997424d43df9bee4a79276f2f7ec305'"
 
 #. (itstool) path: page/title
 #: C/menus.page:25
@@ -5857,6 +5865,7 @@ msgctxt "_"
 msgid ""
 "external ref='figures/touch/tap.svg' md5='542dacd6f7b5d2a559c0941fd43c1271'"
 msgstr ""
+"external ref='figures/touch/tap.svg' md5='542dacd6f7b5d2a559c0941fd43c1271'"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -5869,6 +5878,8 @@ msgid ""
 "external ref='figures/touch/tap-and-hold.svg' "
 "md5='758a756e51dcdc6790ad8d6dfec30a61'"
 msgstr ""
+"external ref='figures/touch/tap-and-hold.svg' "
+"md5='758a756e51dcdc6790ad8d6dfec30a61'"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -5880,6 +5891,7 @@ msgctxt "_"
 msgid ""
 "external ref='figures/touch/drag.svg' md5='56fa4d12196bb021a0c0b3c601b66879'"
 msgstr ""
+"external ref='figures/touch/drag.svg' md5='56fa4d12196bb021a0c0b3c601b66879'"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -5892,6 +5904,8 @@ msgid ""
 "external ref='figures/touch/pinch-or-stretch.svg' "
 "md5='4c4ee87ce1441e624ed512d86b18feab'"
 msgstr ""
+"external ref='figures/touch/pinch-or-stretch.svg' "
+"md5='4c4ee87ce1441e624ed512d86b18feab'"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -5904,6 +5918,8 @@ msgid ""
 "external ref='figures/touch/double-tap.svg' "
 "md5='1f07b8f4aa0e035dfda6396f34181400'"
 msgstr ""
+"external ref='figures/touch/double-tap.svg' "
+"md5='1f07b8f4aa0e035dfda6396f34181400'"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -5915,6 +5931,7 @@ msgctxt "_"
 msgid ""
 "external ref='figures/touch/flick.svg' md5='99705b91124b157c3ffdf0cc8593d787'"
 msgstr ""
+"external ref='figures/touch/flick.svg' md5='99705b91124b157c3ffdf0cc8593d787'"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -5927,6 +5944,8 @@ msgid ""
 "external ref='figures/touch/edge-drag.svg' "
 "md5='7d7ca541e9451653ace9c73f94485cd6'"
 msgstr ""
+"external ref='figures/touch/edge-drag.svg' "
+"md5='7d7ca541e9451653ace9c73f94485cd6'"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -5939,6 +5958,8 @@ msgid ""
 "external ref='figures/touch/3-finger-pinch.svg' "
 "md5='3d665caebb2ce8be56beebfcaa8619a1'"
 msgstr ""
+"external ref='figures/touch/3-finger-pinch.svg' "
+"md5='3d665caebb2ce8be56beebfcaa8619a1'"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -5951,6 +5972,8 @@ msgid ""
 "external ref='figures/touch/4-finger-drag.svg' "
 "md5='d4ad2c4258656637d39fcbe7bd94783c'"
 msgstr ""
+"external ref='figures/touch/4-finger-drag.svg' "
+"md5='d4ad2c4258656637d39fcbe7bd94783c'"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -5963,6 +5986,8 @@ msgid ""
 "external ref='figures/touch/3-finger-hold-and-tap.svg' "
 "md5='e37c9a8b7f4c24f19368550bcc8309d5'"
 msgstr ""
+"external ref='figures/touch/3-finger-hold-and-tap.svg' "
+"md5='e37c9a8b7f4c24f19368550bcc8309d5'"
 
 #. (itstool) path: page/title
 #: C/pointer-and-touch-input.page:17
@@ -6419,6 +6444,8 @@ msgid ""
 "external ref='figures/ui-elements/popover.svg' "
 "md5='905d21b5892d9ee6b4acaafa8192fdf7'"
 msgstr ""
+"external ref='figures/ui-elements/popover.svg' "
+"md5='905d21b5892d9ee6b4acaafa8192fdf7'"
 
 #. (itstool) path: page/title
 #: C/popovers.page:13
@@ -6682,6 +6709,8 @@ msgid ""
 "external ref='figures/ui-elements/progress-bars.svg' "
 "md5='9fc07e246ba8988d9fde0ecd4af79426'"
 msgstr ""
+"external ref='figures/ui-elements/progress-bars.svg' "
+"md5='9fc07e246ba8988d9fde0ecd4af79426'"
 
 #. (itstool) path: page/title
 #: C/progress-bars.page:25
@@ -8190,7 +8219,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/typography.page:17
 msgid "Typography"
-msgstr ""
+msgstr "Типографика"
 
 #. (itstool) path: page/p
 #: C/typography.page:19
@@ -8200,11 +8229,14 @@ msgid ""
 "effectively, and also play an important role in creating a beautiful "
 "appearance."
 msgstr ""
+"Текст играет важную роль в пользовательском интерфейсе. Размер текста, его "
+"расположение и начертание влияют на передачу информации, от них также "
+"зависит привлекательность внешнего вида приложения."
 
 #. (itstool) path: section/title
 #: C/typography.page:22
 msgid "Default Fonts"
-msgstr ""
+msgstr "Шрифты по умолчанию"
 
 #. (itstool) path: section/p
 #: C/typography.page:24
@@ -8214,11 +8246,15 @@ msgid ""
 "GNOME 3, the default font is Cantarell, which was originally designed and "
 "developed by David Crossland."
 msgstr ""
+"Используйте шрифты предоставляемые по умолчанию вашим дистрибутивом или "
+"операционной системой, на которой запускается ваше приложение. В GNOME 3 "
+"шрифтом по умолчанию является Cantarell, разработанный Дэвидом Кросландом "
+"(David Crossland)."
 
 #. (itstool) path: section/title
 #: C/typography.page:29
 msgid "Variants, Sizes and Weights"
-msgstr ""
+msgstr "Стиль, размер и начертание шрифта"
 
 #. (itstool) path: section/p
 #: C/typography.page:31
@@ -8229,6 +8265,11 @@ msgid ""
 "way to convey information. Make an effort to minimize the range of font "
 "variants, sizes and weights."
 msgstr ""
+"Для передачи информации различного типа можно использовать шрифт различных "
+"начертаний и цветов. В то же время слишком большой разброс во внешних видах "
+"шрифта затрудняет чтение текста и снижает эффективность передачи информации. "
+"Постарайтесь минимизировать изменение размеров, начертаний и цветов "
+"используемого шрифта."
 
 #. (itstool) path: item/p
 #: C/typography.page:34
@@ -8236,6 +8277,10 @@ msgid ""
 "Use smaller and/or lighter text for less important information, and heavier/"
 "darker text to attract attention to important text."
 msgstr ""
+"Используйте различную насыщенность шрифта для выделения информации. Более "
+"тёмный или жирный шрифт (или шрифт большего размера) используется для важной "
+"информации, а более светлый или тонкий шрифт (или шрифт меньшего размера) "
+"для второстепенной информации."
 
 #. (itstool) path: item/p
 #: C/typography.page:35
@@ -8243,6 +8288,8 @@ msgid ""
 "Avoid the use of italic or oblique faces, as these are visually more "
 "complex, and can be distracting."
 msgstr ""
+"Избегайте использование наклонного начертания, так как наклонный шрифт "
+"сложнее читается."
 
 #. (itstool) path: item/p
 #: C/typography.page:36
@@ -8250,6 +8297,8 @@ msgid ""
 "Never capitalize every letter in a word or sentence. Shouting at your users "
 "isn't nice."
 msgstr ""
+"Не используйте сплошные ЗАГЛАВНЫЕ БУКВЫ В СЛОВАХ. Пользователи воспринимают "
+"заглавные буквы, как повышенный тон."
 
 #. (itstool) path: item/p
 #: C/typography.page:37
@@ -8257,171 +8306,173 @@ msgid ""
 "Do not use graphical backdrops or \"watermarks\" behind text. These "
 "interfere with the contrast between the text and its background."
 msgstr ""
+"Не используйте в фоне графику и водяные знаки, это создаёт ненужный помехи "
+"между текстом и его фоном."
 
 #. (itstool) path: section/title
 #: C/typography.page:43
 msgid "Take Advantage of Unicode"
-msgstr ""
+msgstr "Используйте преимущества Юникода"
 
 #. (itstool) path: td/p
 #: C/typography.page:48
 msgid "Usage"
-msgstr ""
+msgstr "Использование"
 
 #. (itstool) path: td/p
 #: C/typography.page:48
 msgid "Incorrect"
-msgstr ""
+msgstr "Неверно"
 
 #. (itstool) path: td/p
 #: C/typography.page:48
 msgid "Correct"
-msgstr ""
+msgstr "Верно"
 
 #. (itstool) path: td/p
 #: C/typography.page:48
 msgid "Unicode to use"
-msgstr ""
+msgstr "Юникод"
 
 #. (itstool) path: td/p
 #: C/typography.page:53
 msgid "Quotation"
-msgstr ""
+msgstr "Кавычки"
 
 #. (itstool) path: td/p
 #: C/typography.page:53
 msgid "\"quote\""
-msgstr ""
+msgstr "\"quote\""
 
 #. (itstool) path: td/p
 #: C/typography.page:53
 msgid "“quote”"
-msgstr ""
+msgstr "“quote”"
 
 #. (itstool) path: td/p
 #: C/typography.page:53
 msgid "U+201C LEFT DOUBLE QUOTATION MARK, U+201D RIGHT DOUBLE QUOTATION MARK"
-msgstr ""
+msgstr "U+201C LEFT DOUBLE QUOTATION MARK, U+201D RIGHT DOUBLE QUOTATION MARK"
 
 #. (itstool) path: td/p
 #: C/typography.page:56
 msgid "Time"
-msgstr ""
+msgstr "Время"
 
 #. (itstool) path: td/p
 #: C/typography.page:56
 msgid "4:20"
-msgstr ""
+msgstr "4:20"
 
 #. (itstool) path: td/p
 #: C/typography.page:56
 msgid "4∶20"
-msgstr ""
+msgstr "4∶20"
 
 #. (itstool) path: td/p
 #: C/typography.page:56
 msgid "U+2236 RATIO"
-msgstr ""
+msgstr "U+2236 RATIO"
 
 #. (itstool) path: td/p
 #: C/typography.page:59
 msgid "Multiplication"
-msgstr ""
+msgstr "Умножение"
 
 #. (itstool) path: td/p
 #: C/typography.page:59
 msgid "1024x768"
-msgstr ""
+msgstr "1024x768"
 
 #. (itstool) path: td/p
 #: C/typography.page:59
 msgid "1024×768"
-msgstr ""
+msgstr "1024×768"
 
 #. (itstool) path: td/p
 #: C/typography.page:59
 msgid "U+00D7 MULTIPLICATION SIGN"
-msgstr ""
+msgstr "U+00D7 MULTIPLICATION SIGN"
 
 #. (itstool) path: td/p
 #: C/typography.page:62
 msgid "Ellipsis"
-msgstr ""
+msgstr "Многоточие"
 
 #. (itstool) path: td/p
 #: C/typography.page:62
 msgid "Introducing..."
-msgstr ""
+msgstr "Introducing..."
 
 #. (itstool) path: td/p
 #: C/typography.page:62
 msgid "Introducing…"
-msgstr ""
+msgstr "Introducing…"
 
 #. (itstool) path: td/p
 #: C/typography.page:62
 msgid "U+2026 HORIZONTAL ELLIPSIS"
-msgstr ""
+msgstr "U+2026 HORIZONTAL ELLIPSIS"
 
 #. (itstool) path: td/p
 #: C/typography.page:65
 msgid "Apostrophe"
-msgstr ""
+msgstr "Апостроф"
 
 #. (itstool) path: td/p
 #: C/typography.page:65
 msgid "The user's preferences"
-msgstr ""
+msgstr "The user's preferences"
 
 #. (itstool) path: td/p
 #: C/typography.page:65
 msgid "The user’s preferences"
-msgstr ""
+msgstr "The user’s preferences"
 
 #. (itstool) path: td/p
 #: C/typography.page:65
 msgid "U+2019 RIGHT SINGLE QUOTATION MARK"
-msgstr ""
+msgstr "U+2019 RIGHT SINGLE QUOTATION MARK"
 
 #. (itstool) path: td/p
 #: C/typography.page:68
 msgid "Bullet list"
-msgstr ""
+msgstr "Маркированный список"
 
 #. (itstool) path: td/p
 #: C/typography.page:68
 msgid "- One\\n- Two\\n- Three"
-msgstr ""
+msgstr "- Один\\n- Два\\n- Три"
 
 #. (itstool) path: td/p
 #: C/typography.page:68
 msgid "• One\\n • Two\\n • Three"
-msgstr ""
+msgstr "• Один\\n • Два\\n • Три"
 
 #. (itstool) path: td/p
 #: C/typography.page:68
 msgid "U+2022 BULLET"
-msgstr ""
+msgstr "U+2022 BULLET"
 
 #. (itstool) path: td/p
 #: C/typography.page:71
 msgid "Ranges"
-msgstr ""
+msgstr "Диапазон"
 
 #. (itstool) path: td/p
 #: C/typography.page:71
 msgid "June-July 1967"
-msgstr ""
+msgstr "June-July 1967"
 
 #. (itstool) path: td/p
 #: C/typography.page:71
 msgid "June–July 1967"
-msgstr ""
+msgstr "June–July 1967"
 
 #. (itstool) path: td/p
 #: C/typography.page:71
 msgid "U+2013 EN DASH"
-msgstr ""
+msgstr "U+2013 EN DASH"
 
 #. (itstool) path: page/title
 #: C/ui-elements.page:13
@@ -8652,7 +8703,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/visual-layout.page:26
 msgid "Visual layout"
-msgstr ""
+msgstr "Визуальное расположение"
 
 #. (itstool) path: page/p
 #: C/visual-layout.page:28
@@ -8663,6 +8714,10 @@ msgid ""
 "work is involved in using an application - poor layout results in users "
 "having to put in additional effort, while good layout requires less effort."
 msgstr ""
+"Визуальное расположение элементов управления, информации и содержимого "
+"способствует эффективному использованию приложения. От визуального дизайна "
+"зависит то, насколько удобно будет пользоваться приложением. Приложения с "
+"грамотным визуальным расположением проще и понятнее в работе."
 
 #. (itstool) path: page/p
 #: C/visual-layout.page:30
@@ -8670,6 +8725,8 @@ msgid ""
 "Following these visual layout guidelines will help you to produce an "
 "application that is beautiful, easy to understand, and efficient to use."
 msgstr ""
+"Следование следующим рекомендациям поможет вам создавать привлекательные, "
+"эффективные и простые в использовании приложения."
 
 #. (itstool) path: item/p
 #: C/visual-layout.page:36
@@ -8680,6 +8737,11 @@ msgid ""
 "simpler your layout will appear, and the easier it will be for people to "
 "understand."
 msgstr ""
+"Точка выравнивания — это точка пересечения воображаемых линий по вертикали и "
+"горизонтали, которые проходят через границы одного или нескольких "
+"управляющих элементов. Постарайтесь сократить количество этих точек: чем их "
+"меньше, тем чище и проще выглядит расположение элементов, а следовательно "
+"проще для восприятия пользователем."
 
 #. (itstool) path: item/p
 #: C/visual-layout.page:37
@@ -8689,11 +8751,14 @@ msgid ""
 "be hard for someone to scan them. Elements that do not quite line up will be "
 "distracting."
 msgstr ""
+"Тщательно выравнивайте содержимое и управляющие элементы. Невыровненные "
+"объекты бросаются в глаза: их не только сложнее воспринимать визуально, но "
+"они ещё и раздражают пользователей."
 
 #. (itstool) path: item/p
 #: C/visual-layout.page:38
 msgid "Be consistent. Use the same amounts of spacing throughout."
-msgstr ""
+msgstr "Будьте последовательны в отступах, выдерживайте одинаковые промежутки."
 
 #. (itstool) path: item/p
 #: C/visual-layout.page:39
@@ -8702,6 +8767,8 @@ msgid ""
 "differentiate them. This makes an interface far easier to read and "
 "understand."
 msgstr ""
+"Объединяйте связанные элементы и информацию, используйте отступы между "
+"такими группами. Это упростит понимание интерфейса."
 
 #. (itstool) path: item/p
 #: C/visual-layout.page:41
@@ -8709,17 +8776,22 @@ msgid ""
 "As a rule of thumb, leave space between elements in increments of 6 pixels, "
 "going up as the relationship between related elements becomes more distant."
 msgstr ""
+"используйте отступ кратный 6 пикселам, чем меньше связь между элементами, "
+"тем больше между ними должен быть отступ;"
 
 #. (itstool) path: item/p
 #: C/visual-layout.page:42
 msgid "Between labels and associated components, leave 12 horizontal pixels."
 msgstr ""
+"между текстовыми метками и связанными компонентами используйте отступ в 12 "
+"пикселов;"
 
 #. (itstool) path: item/p
 #: C/visual-layout.page:43
 msgid ""
 "For vertical spacing between groups of components, 18 pixels is adequate."
 msgstr ""
+"между группами компонентов используйте вертикальный отступ в 18 пикселов;"
 
 #. (itstool) path: item/p
 #: C/visual-layout.page:44
@@ -8727,11 +8799,15 @@ msgid ""
 "A general padding of 18 pixels is recommended between the contents of a "
 "dialog window and the window borders."
 msgstr ""
+"между содержимым диалогового окна и границами окна рекомендуется "
+"использовать общий отступ в 18 пикселов."
 
 #. (itstool) path: item/p
 #: C/visual-layout.page:46
 msgid "Indent elements by 12 pixels to denote hierarchy and association."
 msgstr ""
+"чтобы подчеркнуть связь между сгруппированными элементами, используйте "
+"отступ в 12 символов."
 
 #. (itstool) path: item/p
 #: C/visual-layout.page:47
@@ -8739,26 +8815,28 @@ msgid ""
 "Avoid using frames with visible borders to separate groups of controls - use "
 "spacing and headers instead."
 msgstr ""
+"избегайте использования рамок с видимыми границами для разделения групп "
+"элементов, вместо этого используйте отступы и заголовки."
 
 #. (itstool) path: section/p
 #: C/visual-layout.page:50
 msgid "Incorrect spacing and alignment:"
-msgstr ""
+msgstr "Пример неправильного использования отступов и выравнивания:"
 
 #. (itstool) path: section/p
 #: C/visual-layout.page:53
 msgid "Correct spacing and alignment:"
-msgstr ""
+msgstr "Пример правильного использования отступов и выравнивания:"
 
 #. (itstool) path: section/p
 #: C/visual-layout.page:56
 msgid "Correct spacing, with units (pixels):"
-msgstr ""
+msgstr "Пример правильного использования отступов и выравнивания (в пикселах):"
 
 #. (itstool) path: section/title
 #: C/visual-layout.page:62
 msgid "Label alignment"
-msgstr ""
+msgstr "Выравнивание текстовых меток"
 
 #. (itstool) path: section/p
 #: C/visual-layout.page:64
@@ -8768,11 +8846,16 @@ msgid ""
 "justification is not possible if you have indented controls: here left-"
 "justification should be used instead."
 msgstr ""
+"Если возможно, используйте выравнивание текста в метках по правой стороне "
+"(см. рисунок). Это уберёт зазоры между метками и связанными с ними "
+"элементами. Этот тип выравнивания, однако, нельзя применять, если "
+"управляющие элементы имеют собственные отступы, в этом случае используйте "
+"выравнивание по левой стороне."
 
 #. (itstool) path: section/title
 #: C/visual-layout.page:71
 msgid "Visual hierarchy"
-msgstr ""
+msgstr "Визуальная иерархия"
 
 #. (itstool) path: section/p
 #: C/visual-layout.page:73
@@ -8786,11 +8869,19 @@ msgid ""
 "content that they affect. Header bars are a key design pattern in this "
 "respect."
 msgstr ""
+"Выстраивайте элементы сверху вниз и слева направо. Это естественное "
+"направление, в котором люди считывают информацию (это относится к культурам, "
+"в которых чтение и запись информации осуществляется справа налево). Чем "
+"раньше должен быть считан элемент, тем выше и левее он должен располагаться. "
+"Используя данный подход при построении интерфейса, элементы окажутся "
+"включены в визуальную иерархию: более важные управляющие элементы управления "
+"будут расположены выше и левее подчинённых им элементов. Ключевым шаблоном в "
+"решении данной задачи являются панели заголовков."
 
 #. (itstool) path: page/title
 #: C/writing-style.page:26
 msgid "Writing style"
-msgstr ""
+msgstr "Использование текста"
 
 #. (itstool) path: page/p
 #: C/writing-style.page:28
@@ -8798,6 +8889,8 @@ msgid ""
 "Text plays an important role in user interfaces. Take the time to ensure "
 "that any text you use is clearly written and easy to understand."
 msgstr ""
+"Текст играет важную роль в пользовательском интерфейсе. Потратьте некоторое "
+"время, чтобы убедиться, что весь текст написан понятно."
 
 #. (itstool) path: section/p
 #: C/writing-style.page:33
@@ -8805,6 +8898,7 @@ msgid ""
 "Your main goal should be to ensure that text is easy to understand and quick "
 "to read."
 msgstr ""
+"Главное, чтобы текст легко и быстро читался, его смысл должен быть понятен."
 
 #. (itstool) path: item/p
 #: C/writing-style.page:36
@@ -8813,6 +8907,10 @@ msgid ""
 "the user. It also reduces the expansion of text when translated (remember "
 "that translated English text can expand up to 30% in some languages)."
 msgstr ""
+"Текст должен быть кратким и по существу. Это увеличит скорость восприятия "
+"текста пользователем. Это также позволит сократить расшрение текста при "
+"переводе (при переводе с английского языка исходный текст может расширяться "
+"до 30%)."
 
 #. (itstool) path: item/p
 #: C/writing-style.page:37
@@ -8822,6 +8920,10 @@ msgid ""
 "ambiguous or vague. Try to find the fewest possible words to satisfactorily "
 "convey the meaning of your label."
 msgstr ""
+"Избегайте потери смысла при сжатии текста. Текстовая метка с тремя словами, "
+"понятнее передающая смысл, предпочтительнее метки с одним двусмысленным "
+"словом. Постарайтесь подобрать наиболее ёмкие слова, которые приемлемо "
+"передадут смысл текстовой метки."
 
 #. (itstool) path: item/p
 #: C/writing-style.page:38
@@ -8833,6 +8935,12 @@ msgid ""
 "information is called a “chart”. Hence, a medical application might refer to "
 "a patient record as a “chart” rather than as a “patient database record”."
 msgstr ""
+"Используйте слова, фразы и концепции, знакомые людям, которые будут "
+"использовать ваше приложение. Используйте термины, имеющие отношение к "
+"задачам, которые решает приложение. Например, в медицине особая папка, в "
+"которой находятся сведения о пациенте называется историей болезни. Поэтому в "
+"медицинских приложениях запись о пациенте лучше обозначать как история "
+"болезни, а не запись о пациенте в базе данных."
 
 #. (itstool) path: item/p
 #: C/writing-style.page:39
@@ -8841,16 +8949,20 @@ msgid ""
 "such as ‘pointer’ and ‘window’. You can find a full list of these in the "
 "GNOME Documentation Style Guide, Recommended Terminology."
 msgstr ""
+"Используйте стандартные термины GNOME в контексте частей пользовательского "
+"интерфейса (например, «указатель» или «окно»). Полный список терминов можно "
+"найти в руководстве GNOME Documentation Style Guide (раздел Recommended "
+"Terminology)."
 
 #. (itstool) path: item/p
 #: C/writing-style.page:40
 msgid "Avoid repetition where possible."
-msgstr ""
+msgstr "Избегайте по возможности повторов."
 
 #. (itstool) path: section/title
 #: C/writing-style.page:46
 msgid "Capitalization"
-msgstr ""
+msgstr "Использование прописных букв"
 
 #. (itstool) path: section/p
 #: C/writing-style.page:48
@@ -8858,11 +8970,16 @@ msgid ""
 "Two styles of capitalization are used in GNOME user interfaces: header "
 "capitalization and sentence capitalization."
 msgstr ""
+"Приведённые ниже рекомендации, касающиеся использования прописных букв, "
+"справедливы только для английского языка. Для интерфейса, создаваемого на "
+"русском языке действует единственное правило: «C прописной буквы начинается "
+"только первое слово». В пользовательском интерфейсе GNOME используется два "
+"вида использования прописных букв: в заголовке и в предложении."
 
 #. (itstool) path: section/title
 #: C/writing-style.page:51
 msgid "Header Capitalization"
-msgstr ""
+msgstr "Прописные буквы в заголовке"
 
 #. (itstool) path: section/p
 #: C/writing-style.page:53
@@ -8872,31 +8989,35 @@ msgid ""
 "control labels that do not normally form proper sentences, such as button "
 "labels, switch labels and menu items."
 msgstr ""
+"Этот стиль используется для любых заголовков, включая панели заголовков, "
+"заголовки страниц, вкладок и меню. Он также используется для управляющих "
+"текстовых меток, которые не образуют предложения (это могут быть текстовые "
+"метки на кнопка, переключателях и элементах меню)."
 
 #. (itstool) path: section/p
 #: C/writing-style.page:55 C/writing-style.page:73
 msgid "Capitalize the first letter of:"
-msgstr ""
+msgstr "Используйте прописную букву:"
 
 #. (itstool) path: item/p
 #: C/writing-style.page:58
 msgid "All words with four or more letters."
-msgstr ""
+msgstr "для всех слов меньше четырёх букв;"
 
 #. (itstool) path: item/p
 #: C/writing-style.page:59
 msgid "Verbs of any length, such as “Be”, “Are”, “Is”, “See” and “Add”."
-msgstr ""
+msgstr "глаголов любой длины («Be», «Are», «Is», «See» и «Add»)."
 
 #. (itstool) path: item/p
 #: C/writing-style.page:60
 msgid "The first and last word."
-msgstr ""
+msgstr "в первом и последнем слове."
 
 #. (itstool) path: item/p
 #: C/writing-style.page:61
 msgid "Hyphenated words; for example: “Self-Test” or “Post-Install”."
-msgstr ""
+msgstr "в словах, содержащих дефис («Self-Test» или «Post-Install»)."
 
 #. (itstool) path: section/p
 #: C/writing-style.page:64
@@ -8904,11 +9025,13 @@ msgid ""
 "For example: “Create a Document”, “Find and Replace”, “Document Cannot Be "
 "Found”."
 msgstr ""
+"Например: «Create a Document», «Find and Replace», «Document Cannot Be "
+"Found»."
 
 #. (itstool) path: section/title
 #: C/writing-style.page:69
 msgid "Sentence Capitalization"
-msgstr ""
+msgstr "Прописные буквы в предложении"
 
 #. (itstool) path: section/p
 #: C/writing-style.page:71
@@ -8918,16 +9041,23 @@ msgid ""
 "sliders, text entry boxes, field labels and combobox labels. It should also "
 "be used for explanatory or body text, such as in dialogs or notifications."
 msgstr ""
+"Этот стиль используется в текстовых метках, которые образуют предложения или "
+"являются частью другого текста, входящего в состав флаговых кнопок, "
+"радиокнопок, ползунков, текстовых полей, переключателей. Он также "
+"используется при написании пояснительных и обычных текстов в диалоговых "
+"окнах, уведомлениях и т. п."
 
 #. (itstool) path: item/p
 #: C/writing-style.page:76
 msgid "The first word."
-msgstr ""
+msgstr "в первом слове предложения;"
 
 #. (itstool) path: item/p
 #: C/writing-style.page:77
 msgid "Any words normally capitalized in sentences, such as proper nouns."
 msgstr ""
+"во всех словах, которые обычно пишутся в предложениях с прописной буквы, "
+"например имена собственные."
 
 #. (itstool) path: section/p
 #: C/writing-style.page:80
@@ -8935,11 +9065,13 @@ msgid ""
 "For example: “The document cannot be found in this location.” “Finding "
 "results for London.”"
 msgstr ""
+"Например: «The document cannot be found in this location.» или «Finding "
+"results for London.»."
 
 #. (itstool) path: section/title
 #: C/writing-style.page:86
 msgid "Ellipses (…)"
-msgstr ""
+msgstr "Использование многоточия (…)"
 
 #. (itstool) path: section/p
 #: C/writing-style.page:88
@@ -8948,6 +9080,9 @@ msgid ""
 "input from the user before it can be carried out. For example, <gui>Save As…"
 "</gui>, <gui>Find…</gui> or <gui>Rename…</gui>."
 msgstr ""
+"Используйте многоточие (…) в конце текстовых меток, если для выполнения "
+"действия от пользователя требуется ввести какую-то информацию. Например, "
+"<gui>Сохранить как…</gui>, <gui>Найти…</gui> или <gui>Переименовать…</gui>."
 
 #. (itstool) path: section/p
 #: C/writing-style.page:90
@@ -8958,3 +9093,9 @@ msgid ""
 "action, and therefore does not need to communicate that further input is "
 "required."
 msgstr ""
+"Не используйте многоточие в командах наподобие <gui>Свойства</gui> "
+"(Properties) или <gui>Параметры</gui> (Preferences), так как эти команды "
+"открывают окна, которые могут включать дополнительную функциональность. "
+"Текстовая метка не определяет какое-то конкретное действие, поэтому она не "
+"должна показывать, что от пользователя потребуется какой-то дополнительный "
+"ввод."
