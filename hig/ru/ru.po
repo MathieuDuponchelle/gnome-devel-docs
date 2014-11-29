@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
 "POT-Creation-Date: 2014-11-22 07:31+0000\n"
-"PO-Revision-Date: 2014-11-28 00:09+0300\n"
+"PO-Revision-Date: 2014-11-29 20:57+0300\n"
 "Last-Translator: Yuri Myasoedov <omerta13@yandex.ru>\n"
 "Language-Team: Russian <gnome-cyr@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -241,11 +241,12 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/application-basics.page:38
-#, fuzzy
 msgid ""
 "In GNOME 3, only software that conforms to these characteristics should "
 "install an application launcher."
-msgstr "В GNOME 3 приложения, "
+msgstr ""
+"В GNOME 3 кнопки запуска должны устанавливаться только для тех приложений, "
+"который удовлетворяют выше приведённым характеристикам."
 
 #. (itstool) path: section/title
 #: C/application-basics.page:49
@@ -295,8 +296,8 @@ msgid ""
 "Ensure that your application name is short - fewer than 15 characters. This "
 "will ensure that it is always displayed in full within a GNOME 3 environment."
 msgstr ""
-"Название должно быть компактным, не более 15 символов, чтобы оно всегда "
-"полностью отображалось в среде GNOME."
+"Название должно быть коротким, не больше 15 символов, чтобы оно полностью "
+"отображалось в среде GNOME."
 
 #. (itstool) path: section/p
 #: C/application-basics.page:63
@@ -2041,7 +2042,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/essentials.page:39
 msgid "Common guidelines"
-msgstr "Общие руководства"
+msgstr "Основы проектирования"
 
 #. (itstool) path: td/p
 #: C/essentials.page:43
@@ -2103,14 +2104,14 @@ msgid ""
 "<link xref=\"pointer-and-touch-input\"><em style=\"strong\">Pointer and "
 "touch input</em></link>"
 msgstr ""
-"<link xref=\"pointer-and-touch-input\"><em style=\"strong\">Мышь, сенсорное "
+"<link xref=\"pointer-and-touch-input\"><em style=\"strong\">Мышь и сенсорное "
 "управление</em></link>"
 
 #. (itstool) path: td/p
 #. (itstool) path: info/desc
 #: C/essentials.page:60 C/pointer-and-touch-input.page:14
 msgid "Mouse, touchpad and touchscreen interaction."
-msgstr "Работа с мышью, сенсорными панелью и экраном"
+msgstr "Работа с мышью, сенсорными панелью и экраном."
 
 #. (itstool) path: td/p
 #: C/essentials.page:63
@@ -2687,6 +2688,10 @@ msgid ""
 "application - users of specialist tools will often be familiar with domain-"
 "specific symbols."
 msgstr ""
+"Подумайте какие значки подходят в контексте использования вашего приложения, "
+"пользователи специализированных приложений часто также знакомы с "
+"символическими обозначениями, используемыми в соответствующей предметной "
+"области."
 
 #. (itstool) path: item/p
 #: C/icons-and-artwork.page:32
@@ -2698,11 +2703,18 @@ msgid ""
 "from a list is a subtract symbol (ie. a single line), and will not be "
 "recognizable without a corresponding “plus” add icon."
 msgstr ""
+"Помните, что некоторые значки используются только вместе со значками такого "
+"же типа. Например, значок «Стоп», который чаще всего представлен в виде "
+"квадратика, может быть неправильно растолкован, если он используется "
+"изолировано, без дополнительных медиа-кнопок (воспроизведения, паузы, "
+"перемотки и т. д.). Или например значок с изображением минуса, который "
+"используется для удаления элементов из списка, также может быть неправильно "
+"понят, если рядом нет значка с изображением плюса."
 
 #. (itstool) path: section/title
 #: C/icons-and-artwork.page:38
 msgid "Choosing Stock GNOME Icons"
-msgstr ""
+msgstr "Выбор набора значков GNOME"
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:40
@@ -2711,6 +2723,9 @@ msgid ""
 "appropriate; try to avoid creating custom icons unless they are absolutely "
 "necessary."
 msgstr ""
+"GNOME предоставляет полный набор стандартных значков. Старайтесь "
+"использовать стандартные значки, создавайте собственные значки только в "
+"крайнем случае."
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:42
@@ -2719,16 +2734,20 @@ msgid ""
 "name of the icon should reflect what the icon is intended to communicate. "
 "This is important for those using a screen reader."
 msgstr ""
+"При выборе значков руководствуйтесь их названием. Название значка отражает "
+"его назначение. Это важно для людей, использующих экранный диктор."
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:44
 msgid "You can use the GTK+ icon browser to find recommended icons."
 msgstr ""
+"Для поиска рекомендуемых значков можно воспользоваться браузером значков GTK"
+"+."
 
 #. (itstool) path: section/title
 #: C/icons-and-artwork.page:47
 msgid "Color vs. Symbolic Icons"
-msgstr ""
+msgstr "Цветные и монохромные значки"
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:49
@@ -2736,27 +2755,27 @@ msgid ""
 "GNOME 3 provides two types of icon: full-color and monochrome symbolic "
 "icons. The guidelines in this HIG indicate when to use which type of icon. "
 "The following is a a general guide."
-msgstr ""
+msgstr "GNOME 3 предоставляет два набора значков: цветных и монохромных."
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:51
 msgid "Full-color icons should be used for:"
-msgstr ""
+msgstr "Цветные значки используются для:"
 
 #. (itstool) path: item/p
 #: C/icons-and-artwork.page:54
 msgid "devices"
-msgstr ""
+msgstr "обозначения устройств;"
 
 #. (itstool) path: item/p
 #: C/icons-and-artwork.page:55
 msgid "filetypes/mimetypes"
-msgstr ""
+msgstr "обозначения типов файлов;"
 
 #. (itstool) path: item/p
 #: C/icons-and-artwork.page:56
 msgid "application (launcher) icons"
-msgstr ""
+msgstr "значков приложений."
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:59
@@ -2764,21 +2783,23 @@ msgid ""
 "All other icons should use the symbolic icon style. In addition, symbolic "
 "icons should always be used inside:"
 msgstr ""
+"Все прочие значки должны быть монохромными. Кроме того, монохромные значки "
+"должны всегда использоваться для:"
 
 #. (itstool) path: item/p
 #: C/icons-and-artwork.page:62
 msgid "buttons"
-msgstr ""
+msgstr "кнопок;"
 
 #. (itstool) path: item/p
 #: C/icons-and-artwork.page:63
 msgid "lists"
-msgstr ""
+msgstr "списков;"
 
 #. (itstool) path: item/p
 #: C/icons-and-artwork.page:64
 msgid "entry fields"
-msgstr ""
+msgstr "поле ввода;"
 
 #. (itstool) path: item/p
 #: C/icons-and-artwork.page:65
@@ -2786,11 +2807,13 @@ msgid ""
 "when the background is semi-transparent (such as overlaid media or "
 "fullscreen controls)"
 msgstr ""
+"полупрозрачного фона (значки используются в качестве элементов управления "
+"мультимедиа и переходом в полноэкранный режим)."
 
 #. (itstool) path: section/title
 #: C/icons-and-artwork.page:73
 msgid "Application Icons"
-msgstr ""
+msgstr "Значки приложений"
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:75
@@ -2801,6 +2824,11 @@ msgid ""
 "\">application basics page</link> includes details on what an application "
 "is, and when to provide an application icon."
 msgstr ""
+"Каждое приложение должно иметь свой собственный значок, являющийся визитной "
+"карточкой приложения. Значок — это первый визуальный элемент, с которым "
+"встречается пользователь. В разделе «<link xref=\"application-basics"
+"\">Основы приложения</link>» подробно объясняется, что такое приложение, и "
+"когда у приложения должен быть свой собственный значок."
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:77
@@ -2810,6 +2838,11 @@ msgid ""
 "your application has a 256x256px icon. With the advent of high-DPI displays, "
 "a 512x512px variant is recommended."
 msgstr ""
+"Поскольку значки приложений по размеру больше обычных, то значки из набора "
+"Tango не подходят (даже в формате SVG из-за низкой детализации). Значок "
+"вашего приложения должен иметь размер 256x256 пикселов. А в связи с "
+"появлением мониторов с повышенным разрешением, рекомендуется использовать "
+"размер 512x512 пикселов."
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:81
@@ -2820,6 +2853,10 @@ msgid ""
 "16x16px. Many GNOME icons also ship a 22x22px size for legacy reasons, but "
 "that isn’t required."
 msgstr ""
+"Есть области, в которых значки приложений до сих пор имеют небольшой размер. "
+"Чтобы значки хорошо выглядели, необходимо чтобы они отрисовывались в одном "
+"из следующих размеров: 48x48, 32x32, 24x24 и 16x16. Многие значки GNOME для "
+"совместимости также доступны в размере 22x22."
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:85
@@ -2827,6 +2864,8 @@ msgid ""
 "To maintain crispness, a lot of detail is discarded for the low resolution "
 "variants and a 1px stroke is used to outline the silhouette of the object."
 msgstr ""
+"В значках небольших размеров приходится жертвовать детализацией и "
+"использовать линию шириной в 1 пиксел для создания силуэта объекта."
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:87
@@ -2834,11 +2873,13 @@ msgid ""
 "More information on designing an application icon can be found below, in the "
 "custom full-color icon section."
 msgstr ""
+"В разделе «Создание цветных значков» вы найдёте дополнительную информацию о "
+"создании значков для приложений."
 
 #. (itstool) path: section/title
 #: C/icons-and-artwork.page:92
 msgid "Custom Symbolic Icons"
-msgstr ""
+msgstr "Создание символических значков"
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:94
@@ -2847,6 +2888,9 @@ msgid ""
 "They are then programatically scaled and colored within the user interface "
 "itself."
 msgstr ""
+"Символические значки используют простые формы и создаются с помощью сетки "
+"16x16 пикселов. Затем они программно масштабируются и окрашиваются в цвета "
+"пользовательского интерфейса."
 
 #. (itstool) path: item/p
 #: C/icons-and-artwork.page:97
@@ -2857,6 +2901,11 @@ msgid ""
 "necessary to repeat the idea of an image in every icon. Instead, focus on "
 "what is distinct about each action (for example: rotate, tag, align)."
 msgstr ""
+"При поиске метафоры для значка определите её главное свойство, "
+"сосредоточьтесь на том, что может выразить данную идею. Например, при "
+"описании действия, выполняемого над изображением, не нужно использовать его "
+"метафору в каждом значке. Вместо этого используйте метафору действия: "
+"повернуть, выровнять, отметить и т. п."
 
 #. (itstool) path: item/p
 #: C/icons-and-artwork.page:98
@@ -2864,6 +2913,8 @@ msgid ""
 "Avoid using any perspective in symbolic icons, stick to a simple orthogonal "
 "view."
 msgstr ""
+"Избегайте использования перспективы в символических значках, используйте "
+"ортогональную сетку."
 
 #. (itstool) path: item/p
 #: C/icons-and-artwork.page:99
@@ -2871,6 +2922,8 @@ msgid ""
 "Filled shapes are generally faster to process by the human visual system "
 "than wireframe outlines."
 msgstr ""
+"Фигуры со сплошной заливкой быстрее воспринимаются зрительной системой, чем "
+"контурные фигуры."
 
 #. (itstool) path: item/p
 #: C/icons-and-artwork.page:100
@@ -2880,6 +2933,9 @@ msgid ""
 "opacity or creating duotone/pattern dithering, try avoiding these as much as "
 "possible."
 msgstr ""
+"Символические значки окрашиваются во время исполнения, чтобы их цвет "
+"соответствовал контексту (также как и текст). Не используйте "
+"полупрозрачность и дизеринг для передачи теней."
 
 #. (itstool) path: item/p
 #: C/icons-and-artwork.page:101
@@ -2888,11 +2944,13 @@ msgid ""
 "the colors inverted. For example a camera lens spec/highlight will only work "
 "if lighter than the lens itself."
 msgstr ""
+"Если метафора имеет противоположный смысл, используйте инвертирование "
+"цветов. Например, эффект блика на линзе включён, если он светлее, чем линза."
 
 #. (itstool) path: section/title
 #: C/icons-and-artwork.page:107
 msgid "Size and grid"
-msgstr ""
+msgstr "Размер и сетка"
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:109
@@ -2903,21 +2961,26 @@ msgid ""
 "items that only use thinner strokes. Try to keep the contrast of your whole "
 "set."
 msgstr ""
+"Поскольку значки масштабируются, они могут иметь любой размер. Базовым "
+"размером холста будет сетка 16x16. Старайтесь полностью заполнить канву, но "
+"помните, что заполненные прямоугольные объекты выглядят больше, если они "
+"размещены рядом с элементами, которые используют только тонкие линии. "
+"Рекомендуется также создать негативный набор значков."
 
 #. (itstool) path: section/title
 #: C/icons-and-artwork.page:116
 msgid "Custom Full-Color Icons"
-msgstr ""
+msgstr "Создание цветных значков"
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:118
 msgid "Full-color icons are drawn and rendered at a variety of preset sizes."
-msgstr ""
+msgstr "Цветные значки представлены наборами различных размеров."
 
 #. (itstool) path: section/title
 #: C/icons-and-artwork.page:121
 msgid "Perspective"
-msgstr ""
+msgstr "Перспектива"
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:123
@@ -2928,11 +2991,15 @@ msgid ""
 "the shelf” perspective, with the observer looking directly at the object at "
 "eye level."
 msgstr ""
+"В значках может применяться два вида перспективы. Первый можно условно "
+"назвать настольным — наблюдатель находится перед объектом и смотрит на него "
+"слегка вниз. Второй вид перспективы можно назвать прямым или полочным — "
+"наблюдатель смотрит на объект, который находится на уровне его глаз."
 
 #. (itstool) path: section/title
 #: C/icons-and-artwork.page:128
 msgid "Palette"
-msgstr ""
+msgstr "Палитра"
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:130
@@ -2940,46 +3007,48 @@ msgid ""
 "Use the Tango color palette when designing full color application or device "
 "icons."
 msgstr ""
+"При создании полноцветных приложений и значков устройств используйте "
+"цветовую палитру Tango."
 
 #. (itstool) path: td/p
 #: C/icons-and-artwork.page:134
 msgid "Butter"
-msgstr ""
+msgstr "Жёлтый"
 
 #. (itstool) path: td/p
 #: C/icons-and-artwork.page:136
 msgid "Plum"
-msgstr ""
+msgstr "Сливовый"
 
 #. (itstool) path: td/p
 #: C/icons-and-artwork.page:140
 msgid "Orange"
-msgstr ""
+msgstr "Оранжевый"
 
 #. (itstool) path: td/p
 #: C/icons-and-artwork.page:142
 msgid "Scarlet Red"
-msgstr ""
+msgstr "Красный"
 
 #. (itstool) path: td/p
 #: C/icons-and-artwork.page:146
 msgid "Chocolate"
-msgstr ""
+msgstr "Коричневый"
 
 #. (itstool) path: td/p
 #: C/icons-and-artwork.page:148
 msgid "Aluminium"
-msgstr ""
+msgstr "Серый"
 
 #. (itstool) path: td/p
 #: C/icons-and-artwork.page:152
 msgid "Chameleon"
-msgstr ""
+msgstr "Зелёный"
 
 #. (itstool) path: td/p
 #: C/icons-and-artwork.page:158
 msgid "Sky Blue"
-msgstr ""
+msgstr "Синий"
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:164
@@ -2989,11 +3058,14 @@ msgid ""
 "to start from. All major libre graphics packages come with the Tango palette "
 "pre-installed."
 msgstr ""
+"Это основные цвета, которые можно использовать при создании значков. Вы "
+"также можете использовать различные оттенки этих цветов. Палитра Tango "
+"предустановлена во многих популярных свободных графических пакетах."
 
 #. (itstool) path: section/title
 #: C/icons-and-artwork.page:171
 msgid "See Also"
-msgstr ""
+msgstr "См. также"
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:173
@@ -3001,6 +3073,8 @@ msgid ""
 "<link href=\"http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines"
 "\">Tango Icon Guidelines</link>"
 msgstr ""
+"<link href=\"http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines"
+"\">Руководство по значкам в стиле Tango</link>"
 
 #. (itstool) path: page/title
 #: C/index.page:14
@@ -3073,7 +3147,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/index.page:30
 msgid "Structure of the HIG"
-msgstr "Структура руководства"
+msgstr "Разделы руководства"
 
 #. (itstool) path: section/p
 #: C/index.page:32
@@ -3094,9 +3168,9 @@ msgid ""
 "recommended design principles, as well as guidance on themes like writing "
 "style and artwork."
 msgstr ""
-"<link xref=\"essentials\">Основы</link> — в этой части подробно разбираются "
-"вопросы применения рекомендуемых принципов проектирования, а также создания "
-"визуальных тем и стилей."
+"<link xref=\"essentials\">Основы проектирования</link> — раздел, в котором "
+"подробно разбираются основные принципы проектирования, работа с текстом и "
+"графическим оформлением."
 
 #. (itstool) path: item/p
 #: C/index.page:36
@@ -3107,8 +3181,8 @@ msgid ""
 "allow key design decisions to be abstracted away from the nitty gritty of "
 "individual user interface elements."
 msgstr ""
-"<link xref=\"patterns\">Шаблоны</link> — эту часть можно назвать ключевой, в "
-"ней описываются шаблоны проектирования. Каждый шаблон представляет собой "
+"<link xref=\"patterns\">Шаблоны проектирования</link> — раздел, в котором "
+"описываются шаблоны проектирования. Каждый шаблон представляет собой "
 "определённый набор элементов пользовательского интерфейса, который "
 "используется при проектировании приложений. Шаблоны позволяют выделить ту "
 "или иную ключевую идею при проектировании, абстрагируясь от конкретных "
@@ -3121,8 +3195,9 @@ msgid ""
 "various interface elements, such as buttons, switches, and sliders, that you "
 "can use in your application."
 msgstr ""
-"<link xref=\"ui-elements\">Элементы интерфейса</link> — описание различных "
-"элементов: кнопок, переключателей, ползунков и т. п."
+"<link xref=\"ui-elements\">Элементы интерфейса</link> — раздел, в котором "
+"описываются различные управляющие элементы: кнопки, переключатели, ползунки "
+"и т. п."
 
 #. (itstool) path: section/p
 #: C/index.page:40
@@ -5992,7 +6067,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/pointer-and-touch-input.page:17
 msgid "Pointer and touch input"
-msgstr ""
+msgstr "Указатель и сенсорный ввод"
 
 #. (itstool) path: page/p
 #: C/pointer-and-touch-input.page:19
@@ -6000,11 +6075,13 @@ msgid ""
 "Pointer and touch input are two of the primary means through which users "
 "will interact with your application."
 msgstr ""
+"Указатель и сенсорный ввод — два главных способа взаимодействия с вашим "
+"приложением."
 
 #. (itstool) path: section/title
 #: C/pointer-and-touch-input.page:22
 msgid "Pointer input"
-msgstr ""
+msgstr "Ввод с помощью указателя"
 
 #. (itstool) path: section/p
 #: C/pointer-and-touch-input.page:24
@@ -6015,11 +6092,17 @@ msgid ""
 "variety of such devices, including graphics tablets, track balls, track "
 "points and joysticks."
 msgstr ""
+"Указующее устройство — это любое устройство ввода, которое поддерживает "
+"действия с указателем, обычно представленным на экране в виде стрелки. "
+"Указатель часто ещё называют курсором. Кроме наиболее распространённых "
+"устройств — мыши и сенсорной панели (тачпада) — указующие устройства "
+"представлены графическими планшетами, трекболами, обычными и "
+"тензометрическими джойстиками (трекпоинты)."
 
 #. (itstool) path: section/title
 #: C/pointer-and-touch-input.page:27
 msgid "Primary and secondary buttons"
-msgstr ""
+msgstr "Главная и вспомогательная кнопки"
 
 #. (itstool) path: section/p
 #: C/pointer-and-touch-input.page:29
@@ -6031,6 +6114,12 @@ msgid ""
 "translate to touchscreen input. These guidelines therefore refer to primary "
 "and secondary action, rather than left and right."
 msgstr ""
+"У мышей и сенсорных панелей чаще всего имеется две основные кнопки. Одна из "
+"кнопок называется главной, а вторая — вспомогательной. Левая кнопка обычно "
+"используется в качестве главной, а правая — вспомогательной. Назначение "
+"кнопок можно поменять местами. Переназначение кнопок не влияет на ввод с "
+"помощью сенсорной панели. В этом руководстве используются понятия правой и "
+"вспомогательной кнопок, а не левой и правой. "
 
 #. (itstool) path: section/p
 #: C/pointer-and-touch-input.page:31
@@ -6039,6 +6128,9 @@ msgid ""
 "secondary action can be used for accessing additional options, typically "
 "through a context menu."
 msgstr ""
+"Основное действие используется для выделения элементов и активации "
+"управляющих элементов. Вспомогательное действие используется для доступа к "
+"дополнительным параметрам, обычно через контекстное меню."
 
 #. (itstool) path: section/p
 #: C/pointer-and-touch-input.page:33
@@ -6047,6 +6139,10 @@ msgid ""
 "as being physically more difficult to click, some pointing devices and many "
 "assistive technology devices only support or emulate the primary button."
 msgstr ""
+"Не привязывайте ввод к вспомогательным или каким-либо другим дополнительным "
+"кнопкам. Мало того что дополнительную кнопку сложнее нажать, некоторые "
+"указующие устройства и вспомогательные устройства поддерживают или эмулируют "
+"только основную кнопку."
 
 #. (itstool) path: section/p
 #: C/pointer-and-touch-input.page:35
@@ -6055,13 +6151,19 @@ msgid ""
 "button pointing devices. Therefore, do not use press and hold for other "
 "purposes."
 msgstr ""
+"На однокнопочных устройствах вспомогательная кнопка должна эмулироваться "
+"удерживанием главной кнопки. Не используйте удерживание для каких-либо "
+"других целей."
 
 #. (itstool) path: item/p
 #: C/pointer-and-touch-input.page:43
+#, fuzzy
 msgid ""
 "Double click should not be used, since it is undiscoverable, and translates "
 "poorly to touch input."
 msgstr ""
+"Не используйте двойной щелчок, так как он чего-то там и неудобен при "
+"использовании сенсорного ввода."
 
 #. (itstool) path: item/p
 #: C/pointer-and-touch-input.page:44
@@ -6077,6 +6179,8 @@ msgid ""
 "Do not require the use of chording (pressing multiple mouse buttons "
 "simultaneously) for any operations."
 msgstr ""
+"Не требуйте от пользователя одновременного нажатия несколько кнопок мыши для "
+"каких-либо действий."
 
 #. (itstool) path: item/p
 #: C/pointer-and-touch-input.page:46
@@ -6085,6 +6189,9 @@ msgid ""
 "for any operations, unless you also provide an accessible alternative method "
 "of performing the same action."
 msgstr ""
+"Не требуйте от пользователя многократного нажатия (больше двух) для каких-"
+"либо действий, только если вы не продумали альтернативный способ выполнения "
+"данного действия."
 
 #. (itstool) path: item/p
 #: C/pointer-and-touch-input.page:47
@@ -6094,6 +6201,10 @@ msgid ""
 "dragging and dropping a file in a file manager, or drawing a shape in a "
 "drawing application."
 msgstr ""
+"Любые незавершённые действия с мышью должны иметь возможность отмены. "
+"Нажатие клавиши <key>Esc</key> должно отменять любые незавершённые действия "
+"с мышью: перетаскивание файлов в файловом менеджере, рисование фигур в "
+"графическом редакторе и т. п."
 
 #. (itstool) path: item/p
 #: C/pointer-and-touch-input.page:48
@@ -6103,6 +6214,11 @@ msgid ""
 "middle and right buttons, so any text or diagrams that refer to those may be "
 "confusing."
 msgstr ""
+"Не используйте в интерфейсе жёсткую привязку определённых кнопок мыши, если "
+"только это не действительно необходимо. Не все используют стандартную "
+"привязку кнопок мыши к левой, средней и правой, поэтому любой текст или "
+"диаграммы, которые используют жёсткую привязку к определённым кнопкам мыши, "
+"могут сбивать с толку."
 
 #. (itstool) path: section/title
 #: C/pointer-and-touch-input.page:54
@@ -6118,6 +6234,11 @@ msgid ""
 "example, controlling movement in some types of action games, or freehand "
 "painting in an image-editing application."
 msgstr ""
+"Убедитесь, что все действия в вашем приложении, которые можно выполнять с "
+"помощью мыши, также могут быть выполнены с помощью клавиатуры. Единственным "
+"исключением являются действия, для выполнения которых требуется точная "
+"моторика. Например, для управления движением в некоторых играх или для "
+"рисования от руки в графических редакторах."
 
 #. (itstool) path: section/p
 #: C/pointer-and-touch-input.page:58
@@ -6125,56 +6246,58 @@ msgid ""
 "If your application allows items to be selected, the following equivalent "
 "actions should be in place."
 msgstr ""
+"Если в вашем приложении используется выделение элементов, то в нём должна "
+"быть поддержка следующих родственных действий."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:63 C/pointer-and-touch-input.page:118
 msgid "Action"
-msgstr ""
+msgstr "Действие"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:64
 msgid "Mouse"
-msgstr ""
+msgstr "Мышь"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:65
 msgid "Keyboard"
-msgstr ""
+msgstr "Клавиатура"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:70
 msgid "Open an item"
-msgstr ""
+msgstr "Открыть элемент"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:71 C/pointer-and-touch-input.page:86
 msgid "Primary button"
-msgstr ""
+msgstr "Главная кнопка"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:75
 msgid "Add/remove item from selection"
-msgstr ""
+msgstr "Добавить/убрать элемент из выделения"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:76
 msgid "<key>Ctrl</key> and primary button"
-msgstr ""
+msgstr "<key>Ctrl</key> и главная кнопка"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:77
 msgid "<keyseq><key>Ctrl</key><key>Space</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Ctrl</key><key>Space</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:80
 msgid "Extend selection"
-msgstr ""
+msgstr "Расширить выделение"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:81
 msgid "<key>Shift</key> and primary button"
-msgstr ""
+msgstr "<key>Shift</key> и главная кнопка"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:82
@@ -6182,11 +6305,13 @@ msgid ""
 "<key>Shift</key> in combination with any of the following: <key>Space</key> "
 "<key>Home</key> <key>End</key> <key>PageUp</key> <key>PageDown</key>"
 msgstr ""
+"<key>Shift</key> в комбинации с любой из следующих клавиш: <key>Space</key> "
+"<key>Home</key> <key>End</key> <key>PageUp</key> <key>PageDown</key>"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:85
 msgid "Change selection"
-msgstr ""
+msgstr "Изменить выделение"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:87
@@ -6194,11 +6319,13 @@ msgid ""
 "Any of the following: <key>←</key> <key>↑</key> <key>→</key> <key>↓</key> "
 "<key>Home</key> <key>End</key> <key>PageUp</key> <key>PageDown</key>"
 msgstr ""
+"Одна из кнопок: <key>←</key> <key>↑</key> <key>→</key> <key>↓</key> "
+"<key>Home</key> <key>End</key> <key>PageUp</key> <key>PageDown</key>"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:90
 msgid "Select all"
-msgstr ""
+msgstr "Выделить всё"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:91
@@ -6206,16 +6333,18 @@ msgid ""
 "Primary button on first item, then primary button and <key>Shift</key> on "
 "the last item"
 msgstr ""
+"Выбрать главной кнопкой первый элемент, затем выбрать главной кнопкой "
+"последний элемент, удерживая клавишу <key>Shift</key>"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:95
 msgid "Deselect all"
-msgstr ""
+msgstr "Убрать выделение"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:96
 msgid "Primary click on the container background"
-msgstr ""
+msgstr "Нажать главную кнопку на фоне контейнера"
 
 #. (itstool) path: section/title
 #: C/pointer-and-touch-input.page:106
@@ -8312,7 +8441,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/typography.page:43
 msgid "Take Advantage of Unicode"
-msgstr "Используйте преимущества Юникода"
+msgstr "Используйте расширенные символы Юникода"
 
 #. (itstool) path: td/p
 #: C/typography.page:48
@@ -8806,7 +8935,7 @@ msgstr ""
 #: C/visual-layout.page:46
 msgid "Indent elements by 12 pixels to denote hierarchy and association."
 msgstr ""
-"чтобы подчеркнуть связь между сгруппированными элементами, используйте "
+"Чтобы подчеркнуть связь между сгруппированными элементами, используйте "
 "отступ в 12 символов."
 
 #. (itstool) path: item/p
