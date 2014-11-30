@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
 "POT-Creation-Date: 2014-11-22 07:31+0000\n"
-"PO-Revision-Date: 2014-11-29 20:57+0300\n"
+"PO-Revision-Date: 2014-11-30 19:30+0300\n"
 "Last-Translator: Yuri Myasoedov <omerta13@yandex.ru>\n"
 "Language-Team: Russian <gnome-cyr@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -134,7 +134,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/application-basics.page:14
 msgid "Application basics"
-msgstr "Основы приложения"
+msgstr "Что такое приложение"
 
 #. (itstool) path: page/p
 #: C/application-basics.page:16
@@ -1342,15 +1342,15 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/design-principles.page:86
-#, fuzzy
 msgid ""
 "Use <link xref=\"notifications\">notifications</link> with restraint, always "
 "avoid spontaneously popping up dialogs without user intent, and avoid "
 "disruptive feedback mechanisms like message dialogs."
 msgstr ""
 "Не злоупотребляйте <link xref=\"notifications\">уведомлениями</link>. "
-"Избегайте всплывающих диалоговых окон с информацией бесполезной для "
-"пользователей. Избегайте применение механизмов обратной связи, нарушающих "
+"Избегайте всплывающих диалоговых окон с бесполезной для пользователя "
+"информацией, а также отвлекающих механизмов обратной связи, таких как "
+"диалоги сообщений."
 
 #. (itstool) path: section/title
 #: C/design-principles.page:91
@@ -2024,8 +2024,8 @@ msgid ""
 "<link xref=\"application-basics\"><em style=\"strong\">Application basics</"
 "em></link>"
 msgstr ""
-"<link xref=\"application-basics\"><em style=\"strong\">Основы создания "
-"приложений</em></link>"
+"<link xref=\"application-basics\"><em style=\"strong\">Что такое приложение</"
+"em></link>"
 
 #. (itstool) path: td/p
 #: C/essentials.page:27
@@ -2118,8 +2118,8 @@ msgstr "Работа с мышью, сенсорными панелью и эк�
 msgid ""
 "<link xref=\"keyboard-input\"><em style=\"strong\">Keyboard input</em></link>"
 msgstr ""
-"<link xref=\"keyboard-input\"><em style=\"strong\">Работа с клавиатурой</"
-"em></link>"
+"<link xref=\"keyboard-input\"><em style=\"strong\">Клавиатурный ввод</em></"
+"link>"
 
 #. (itstool) path: td/p
 #. (itstool) path: info/desc
@@ -2138,6 +2138,8 @@ msgid ""
 "external ref='figures/patterns/grid.svg' "
 "md5='c9f908165d533250747c56d6e1dc0f99'"
 msgstr ""
+"external ref='figures/patterns/grid.svg' "
+"md5='c9f908165d533250747c56d6e1dc0f99'"
 
 #. (itstool) path: page/title
 #: C/grids.page:14
@@ -2826,9 +2828,9 @@ msgid ""
 msgstr ""
 "Каждое приложение должно иметь свой собственный значок, являющийся визитной "
 "карточкой приложения. Значок — это первый визуальный элемент, с которым "
-"встречается пользователь. В разделе «<link xref=\"application-basics"
-"\">Основы приложения</link>» подробно объясняется, что такое приложение, и "
-"когда у приложения должен быть свой собственный значок."
+"встречается пользователь. В разделе «<link xref=\"application-basics\">Что "
+"такое приложение</link>» подробно объясняется, что такое приложение, и когда "
+"у него должен быть свой собственный значок."
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:77
@@ -3229,7 +3231,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/keyboard-input.page:26
 msgid "Keyboard input"
-msgstr ""
+msgstr "Клавиатурный ввод"
 
 #. (itstool) path: page/p
 #: C/keyboard-input.page:28
@@ -3240,6 +3242,12 @@ msgid ""
 "Keyboards are also vital for visually-impaired people or those with mobility "
 "impairments."
 msgstr ""
+"Клавиатура — это наиболее популярный способ взаимодействия с интерфейсом. "
+"Клавиатура позволяет удобно и эффективно работать с приложениями, причём "
+"скорость работы при использовании клавиатуры может быть значительно выше, "
+"чем при использовании прочих средств ввода. Клавиатура — это неотъемлемый "
+"инструмент для людей с плохим зрением или нарушением опорно-двигательного "
+"аппарата."
 
 #. (itstool) path: page/p
 #: C/keyboard-input.page:30
@@ -3248,6 +3256,9 @@ msgid ""
 "can be accessed using a keyboard. Trying to use your application with only a "
 "keyboard is a great way to test this."
 msgstr ""
+"Вы должны убедиться, что все функции вашего приложения доступны при "
+"использовании клавиатуры. Попробуйте поработать со своим приложением только "
+"с помощью клавиатуры. Это — хороший способ проверки."
 
 #. (itstool) path: page/p
 #: C/keyboard-input.page:32
@@ -3256,11 +3267,14 @@ msgid ""
 "keys, and shortcut keys. <link xref=\"search\">Search</link> is another, "
 "additional aspect."
 msgstr ""
+"Использование клавиатуры в GNOME имеет три различных аспекта: перемещение, "
+"клавиши доступа и комбинации клавиш. Ещё одним аспектом является <link xref="
+"\"search\">поиск</link>."
 
 #. (itstool) path: section/title
 #: C/keyboard-input.page:35
 msgid "Keyboard navigation"
-msgstr ""
+msgstr "Перемещение с помощью клавиатуры"
 
 #. (itstool) path: section/p
 #: C/keyboard-input.page:37
@@ -3268,6 +3282,8 @@ msgid ""
 "Make sure that it is possible to move around and interact with every part of "
 "your user interface using the keyboard, by following these guidelines."
 msgstr ""
+"Следуя приведённым ниже рекомендациям, убедитесь, что с помощью клавиатуры "
+"можно перемещаться и взаимодействовать со всеми частями интерфейсами."
 
 #. (itstool) path: item/p
 #: C/keyboard-input.page:40
@@ -3275,6 +3291,9 @@ msgid ""
 "Follow the standard GNOME keys for navigation. <key>Tab</key> is the "
 "standard key for moving around an interface with GTK+ and GNOME."
 msgstr ""
+"Для перемещения используйте стандартные клавиши GNOME. Клавиша <key>Tab</"
+"key> — это стандартная клавиша, используемая для перемещения по интерфейсу "
+"GTK+ и GNOME."
 
 #. (itstool) path: item/p
 #: C/keyboard-input.page:41
@@ -3284,6 +3303,10 @@ msgid ""
 "predictable order. In Western locales, this is normally left to right and "
 "top to bottom."
 msgstr ""
+"Продумайте порядок перемещения. При перемещении ввода клавишей <key>Tab</"
+"key>, фокус должен перемещаться между управляющими элементами в ожидаемой "
+"последовательности. В культурах, которые используют письмо слева направо, "
+"фокус долен перемещаться слева направо и сверху вниз."
 
 #. (itstool) path: item/p
 #: C/keyboard-input.page:42
@@ -3292,6 +3315,9 @@ msgid ""
 "movement using the arrow keys, both within user interface elements (such as "
 "lists, icon grids or sidebars), and between them."
 msgstr ""
+"В дополнение к клавише <key>Tab</key> реализуйте возможность перемещения с "
+"помощью клавиш со стрелками как внутри элементов (списки, сетки из значков, "
+"боковые панели), так и между элементами."
 
 #. (itstool) path: note/p
 #: C/keyboard-input.page:45
@@ -3300,11 +3326,14 @@ msgid ""
 "focus to the first dependent control when it is activated, but instead leave "
 "focus in place."
 msgstr ""
+"Если активирование управляющего элемента включает другие управляющие "
+"элементы, не переводите автоматически фокус на какой-либо из этих элементов, "
+"оставьте фокус на месте."
 
 #. (itstool) path: section/title
 #: C/keyboard-input.page:48
 msgid "Standard navigation keys"
-msgstr ""
+msgstr "Стандартные навигационные клавиши"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:53 C/keyboard-input.page:159
@@ -3313,22 +3342,22 @@ msgstr ""
 #: C/keyboard-input.page:546 C/keyboard-input.page:616
 #: C/keyboard-input.page:650 C/keyboard-input.page:719
 msgid "Shortcut"
-msgstr ""
+msgstr "Комбинация клавиш"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:54 C/keyboard-input.page:158
 msgid "Function"
-msgstr ""
+msgstr "Что делает"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:59
 msgid "<key>Tab</key> and <keyseq><key>Shift</key><key>Tab</key></keyseq>"
-msgstr ""
+msgstr "<key>Tab</key> и <keyseq><key>Shift</key><key>Tab</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:60
 msgid "Moves keyboard focus to the next/previous control"
-msgstr ""
+msgstr "Перемещает фокус ввода на следующий элемент "
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:63 C/keyboard-input.page:67
@@ -3336,33 +3365,40 @@ msgid ""
 "<keyseq><key>Ctrl</key><key>Tab</key></keyseq> and <keyseq><key>Shift</"
 "key><key>Ctrl</key><key>Tab</key></keyseq>"
 msgstr ""
+"<keyseq><key>Ctrl</key><key>Tab</key></keyseq> и <keyseq><key>Shift</"
+"key><key>Ctrl</key><key>Tab</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:64
+#, fuzzy
 msgid ""
 "Moves keyboard focus out of the enclosing widget to the next/previous "
 "control, in those situations where Tab alone has another function"
 msgstr ""
+"Переводит фокус клавиатуры с на следующий управляющий элемент (в тех "
+"случаях, когда Tab используется для других функций)."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:68
 msgid "Moves keyboard focus to the next/previous group of controls"
-msgstr ""
+msgstr "Переводит фокус клавиатуры на следующую группу управляющих элементов"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:71
 msgid "<keyseq><key>Ctrl</key><key>F1</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Ctrl</key><key>F1</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:72
 msgid "Shows a tooltip for the the currently-focused window or control"
 msgstr ""
+"Показывает всплывающую подсказку для окна или управляющего элемента с "
+"текущим фокусом"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:75
 msgid "<keyseq><key>Shift</key><key>F1</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Shift</key><key>F1</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:76
@@ -3372,62 +3408,64 @@ msgstr ""
 #. (itstool) path: td/p
 #: C/keyboard-input.page:79
 msgid "<key>F6</key> and <keyseq><key>Shift</key><key>F6</key></keyseq>"
-msgstr ""
+msgstr "<key>F6</key> и <keyseq><key>Shift</key><key>F6</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:80
 msgid "Give focus to the next/preivous pane in a GtkPaned window"
-msgstr ""
+msgstr "Передать фокус следующей панели в окне GtkPaned"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:83
 msgid "<key>F8</key>"
-msgstr ""
+msgstr "<key>F8</key>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:84
 msgid "Give focus to the splitter bar in a paned window"
-msgstr ""
+msgstr "Передать фокус разделительной панели в разделённом окне"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:87
 msgid "<key>F10</key>"
-msgstr ""
+msgstr "<key>F10</key>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:88
 msgid "Give focus to the menu bar or open header bar menu"
-msgstr ""
+msgstr "Передать фокус панели меню или открыть меню заголовка"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:91 C/pointer-and-touch-input.page:72
 msgid "<key>Space</key>"
-msgstr ""
+msgstr "<key>Space</key>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:92
 msgid "Toggle the state of a focused check box, radio button, or toggle button"
 msgstr ""
+"Переключить состояние флаговой кнопки, радиокнопки или переключателя с "
+"текущим фокусом."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:95
 msgid "<key>Return</key>"
-msgstr ""
+msgstr "<key>Return</key>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:96
 msgid "Activate focused button, menu item, etc"
-msgstr ""
+msgstr "Активировать элемент с текущим фокусом (кнопку, элемент меню и т. п.)"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:99
 msgid "<key>Return</key> and <key>End</key>"
-msgstr ""
+msgstr "<key>Return</key> и <key>End</key>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:100
 msgid "Select/move to the first item in a selected widget"
-msgstr ""
+msgstr "Перейти к первому элементу выбранного виджета"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:103
@@ -3435,16 +3473,20 @@ msgid ""
 "<key>PageUp</key>, <keyseq><key>Ctrl</key><key>PageUp</key></keyseq>, "
 "<key>PageDown</key> and <keyseq><key>Ctrl</key><key>PageDown</key></keyseq>"
 msgstr ""
+"<key>PageUp</key>, <keyseq><key>Ctrl</key><key>PageUp</key></keyseq>, "
+"<key>PageDown</key> и <keyseq><key>Ctrl</key><key>PageDown</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:104
 msgid "Scroll the selected view by one page up/left/down/right"
 msgstr ""
+"Прокрутить выбранную область просмотра на одну страницу вверх/влево/вниз/"
+"вправо"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:107
 msgid "<key>Escape</key>"
-msgstr ""
+msgstr "<key>Escape</key>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:108
@@ -3453,11 +3495,15 @@ msgid ""
 "consistently used for menus, popovers or <link xref=\"dialogs#default-action-"
 "and-escape\">dialogs</link>, or any other temporary mode or UI element."
 msgstr ""
+"Закрыть или покинуть текущий контекст, если он является временным. "
+"Используется для меню, всплывающих виджетов, <link xref=\"dialogs#default-"
+"action-and-escape\">диалоговых окон</link> и других временных элементов "
+"интерфейса."
 
 #. (itstool) path: section/title
 #: C/keyboard-input.page:117
 msgid "Access keys"
-msgstr ""
+msgstr "Ускорители"
 
 #. (itstool) path: section/p
 #: C/keyboard-input.page:119
@@ -3466,11 +3512,14 @@ msgid ""
 "key>. They are indicated by an underlined letter within each control label "
 "(this is displayed when <key>Alt</key> is held down)."
 msgstr ""
+"Ускорители позволяют использовать помеченные элементы управления с помощью "
+"клавиши <key>Alt</key>. Такие элементы помечаются подчёркнутой буквой. Чтобы "
+"увидеть подчёркивания, зажмите клавишу <key>Alt</key>."
 
 #. (itstool) path: item/p
 #: C/keyboard-input.page:122
 msgid "Where possible, all labelled components should have an access key."
-msgstr ""
+msgstr "В идеале все помеченные компоненты должны иметь ускорители."
 
 #. (itstool) path: item/p
 #: C/keyboard-input.page:123
@@ -3481,6 +3530,11 @@ msgid ""
 "letter provides a better association (for example: “x” in “Extra Large”) , "
 "consider using that letter instead."
 msgstr ""
+"Выбирайте простые для запоминания клавиши: используйте одну из нескольких "
+"первых букв. Если текстовая метка содержит несколько слов, можно выбрать "
+"первую букву второго или третьего слова. Если какая-либо буква лучше "
+"подходит для передачи смысла (например, «x» в слове «Extra Large»), то "
+"используйте эту букву."
 
 #. (itstool) path: item/p
 #: C/keyboard-input.page:124
@@ -3489,6 +3543,9 @@ msgid ""
 "letters with descenders (such as lowercase g or y), unless it is "
 "unavoidable. The underline is sometimes not as clear with these characters."
 msgstr ""
+"Старайтесь не ставить ускорители на «тонкие» буквы (строчные латинские «i» и "
+"«l») или буквы с нижним выносным элементом (строчные латинские «g», «y», "
+"русские «у», «р»). Подчёркивание может быть плохо видно под этими буквами. "
 
 #. (itstool) path: item/p
 #: C/keyboard-input.page:125
@@ -3498,6 +3555,11 @@ msgid ""
 "an easy to remember consonant from the label, for example, “p” in “Replace”. "
 "Only assign vowels once no consonants are available."
 msgstr ""
+"Если вы затрудняетесь в выборе ускорителей, назначьте ускоритель сначала для "
+"наиболее используемых элементов. Если первую букву использовать нельзя, "
+"используйте простую для запоминания согласную букву в текстовой метки "
+"(например, «м» с метке «Заменить»). Устанавливайте ускорители на гласные "
+"буквы только в том случае, если их нельзя установить на согласные."
 
 #. (itstool) path: item/p
 #: C/keyboard-input.page:126
@@ -3506,11 +3568,14 @@ msgid ""
 "that they are taken from, so even if there are no conflicts in your native "
 "language, they may occur in translations."
 msgstr ""
+"Помните, что ускорители должны переводиться вместе со строками, из которых "
+"они берутся, поэтому если в оригинальном языке между ними не было "
+"конфликтов, они могут возникнуть при переводе."
 
 #. (itstool) path: section/title
 #: C/keyboard-input.page:132
 msgid "Shortcut keys"
-msgstr ""
+msgstr "Быстрые клавиши"
 
 #. (itstool) path: section/p
 #: C/keyboard-input.page:134
@@ -3519,21 +3584,32 @@ msgid ""
 "either single keys or combinations of several key presses (typically a "
 "modifier in combination with a regular key)"
 msgstr ""
+"Быстрые клавиши — это удобный способ получения доступа к различным функциям "
+"приложения. Быстрые клавиши могут быть представлены как одной клавишей, так "
+"и комбинацией нескольких (как правило комбинацией из клавиши-модификатора и "
+"обычной клавиши)."
 
 #. (itstool) path: item/p
 #: C/keyboard-input.page:137
+#, fuzzy
 msgid ""
 "Do not assign system-level shortcut keys for use in your application. See "
 "below for details on these."
 msgstr ""
+"Не назначайте в своём приложении быстрые клавиши, зарезервированные под "
+"системные нужды. "
 
 #. (itstool) path: item/p
 #: C/keyboard-input.page:138
+#, fuzzy
 msgid ""
 "Use the standard GNOME shortcut keys (see below) if your application "
 "supports those functions. This ensures consistency between GNOME "
 "applications and aids discoverability."
 msgstr ""
+"Используйте стандартные быстрые клавиши GNOME, если ваше приложение "
+"поддерживает связанные с ними функции. Это обеспечит непротиворечивость "
+"между приложениями GNOME и "
 
 #. (itstool) path: item/p
 #: C/keyboard-input.page:139
@@ -3541,6 +3617,8 @@ msgid ""
 "Assign shortcut keys to the most commonly-used actions in your application. "
 "However, do not try to assign a keyboard shortcut to everything."
 msgstr ""
+"Назначьте быстрые клавиши для часто используемых действий в вашем "
+"приложении. Не пытайтесь назначить быстрые клавиши для всех действий."
 
 #. (itstool) path: item/p
 #: C/keyboard-input.page:140
@@ -3552,6 +3630,13 @@ msgid ""
 "<keyseq><key>Shift</key><key>Ctrl</key><key>Z</key></keyseq> for <gui>Undo</"
 "gui> and <gui>Redo</gui>."
 msgstr ""
+"Для собственных быстрых клавиш старайтесь использовать комбинацию <key>Ctrl</"
+"key> с какой-нибудь буквой. Для противоположного действия или расширения "
+"другой функции рекомендуется использовать комбинацию из клавиш "
+"<keyseq><key>Shift</key><key>Ctrl</key></keyseq> и букву. Например, быстрые "
+"клавиши <keyseq><key>Ctrl</key><key>Z</key></keyseq> используются для "
+"действия <gui>Отменить</gui>, а <keyseq><key>Shift</key><key>Ctrl</"
+"key><key>Z</key></keyseq> для действия <gui>Вернуть</gui>."
 
 #. (itstool) path: item/p
 #: C/keyboard-input.page:141
@@ -3560,6 +3645,11 @@ msgid ""
 "to learn and remember. For example, <keyseq><key>Ctrl</key><key>E</key></"
 "keyseq> would be a good shortcut for a menu item called <gui>Edit Page</gui>."
 msgstr ""
+"Быстрые клавиши должны быть по возможности мнемоническими, так их легче "
+"запомнить. Например, для пункта меню <gui>Edit Page</gui> хорошим выбором в "
+"качестве быстрой клавиши будет <keyseq><key>Ctrl</key><key>E</key></keyseq>. "
+"Быстрые клавиши, как правило, не переводятся на другие языки, поэтому данная "
+"рекомендация имеет отношение только к интерфейсу на английском языке."
 
 #. (itstool) path: item/p
 #: C/keyboard-input.page:142
@@ -3567,6 +3657,8 @@ msgid ""
 "Shortcuts that can be easily used with one hand are preferable for common "
 "operations."
 msgstr ""
+"Для общих действий отдавайте предпочтение быстрым клавишам, для нажатия "
+"которых достаточно одной руки."
 
 #. (itstool) path: item/p
 #: C/keyboard-input.page:143
@@ -3574,17 +3666,19 @@ msgid ""
 "Do not use <key>Alt</key> for shortcut keys, as this may conflict with "
 "access keys."
 msgstr ""
+"Не используйте <key>Alt</key> в быстрых клавишах, так как это может привести "
+"к конфликту с ускорителями."
 
 #. (itstool) path: section/title
 #: C/keyboard-input.page:149
 msgid "System reserved shortcuts"
-msgstr ""
+msgstr "Быстрые клавиши, зарезервированные для системы"
 
 #. (itstool) path: section/p
 #: C/keyboard-input.page:151
 msgid ""
 "The following system shortcuts should not be overridden by applications."
-msgstr ""
+msgstr "Следующие быстрые клавиши не должны переопределяться в приложениях."
 
 #. (itstool) path: section/p
 #: C/keyboard-input.page:153
@@ -3593,11 +3687,14 @@ msgid ""
 "key, for system shortcuts. <key>Super</key> should not be used by "
 "applications, therefore."
 msgstr ""
+"Для быстрых клавиш в GNOME 3 часто используется клавиша <key>Super</key> "
+"(известной также как <key>Win</key> или <key>Windows</key>), поэтому не "
+"используйте её в своих приложениях."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:160
 msgid "Legacy Shortcut"
-msgstr ""
+msgstr "Совместимые клавиши"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:161 C/keyboard-input.page:280
@@ -3607,17 +3704,17 @@ msgstr ""
 #: C/keyboard-input.page:720 C/notifications.page:35
 #: C/pointer-and-touch-input.page:119
 msgid "Description"
-msgstr ""
+msgstr "Описание"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:166
 msgid "Activities Overview"
-msgstr ""
+msgstr "Открывает «Обзор»"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:167
 msgid "<key>Super</key>"
-msgstr ""
+msgstr "<key>Super</key>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:168 C/keyboard-input.page:174
@@ -3637,52 +3734,52 @@ msgstr ""
 #: C/keyboard-input.page:726 C/keyboard-input.page:731
 #: C/keyboard-input.page:736
 msgid "None"
-msgstr ""
+msgstr "Отсутствует"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:169
 msgid "Opens and closes the Activities Overview"
-msgstr ""
+msgstr "Открывает или закрывает «Обзор»"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:172
 msgid "Applications View"
-msgstr ""
+msgstr "Обзор приложений"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:173
 msgid "<keyseq><key>Super</key><key>A</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Super</key><key>A</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:175
 msgid "Opens and closes the applications view of the Activities Overview"
-msgstr ""
+msgstr "Открывает или закрывает обзор приложений"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:178
 msgid "Message Tray"
-msgstr ""
+msgstr "Панель сообщений"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:179
 msgid "<keyseq><key>Super</key><key>M</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Super</key><key>M</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:181
 msgid "Toggles the visibility of the Message Tray."
-msgstr ""
+msgstr "Показывает или скрывает панель сообщений."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:184
 msgid "Lock"
-msgstr ""
+msgstr "Блокировка"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:185
 msgid "<keyseq><key>Super</key><key/></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Super</key><key/></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:187
@@ -3690,11 +3787,13 @@ msgid ""
 "Locks the system by blanking the screen and requiring a password to unlock, "
 "if one has been set."
 msgstr ""
+"Блокирует экран, очищая экран и требуя ввода пароля для разблокировки (если "
+"он используется)."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:190
 msgid "Switch application"
-msgstr ""
+msgstr "Переключение приложения"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:191
@@ -3702,6 +3801,8 @@ msgid ""
 "<keyseq><key>Super</key><key>Tab</key></keyseq> and <keyseq><key>Shift</"
 "key><key>Super</key><key>Tab</key></keyseq>"
 msgstr ""
+"<keyseq><key>Super</key><key>Tab</key></keyseq> и <keyseq><key>Shift</"
+"key><key>Super</key><key>Tab</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:192
@@ -3709,16 +3810,18 @@ msgid ""
 "<keyseq><key>Alt</key><key>Tab</key></keyseq> and <keyseq><key>Shift</"
 "key><key>Alt</key><key>Tab</key></keyseq>"
 msgstr ""
+"<keyseq><key>Alt</key><key>Tab</key></keyseq> и <keyseq><key>Shift</"
+"key><key>Alt</key><key>Tab</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:193
 msgid "Switches focus to the next/previous application"
-msgstr ""
+msgstr "Передаёт фокус следующему/предыдущему приложению"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:196
 msgid "Switch windows"
-msgstr ""
+msgstr "Переключение окон"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:197
@@ -3726,6 +3829,8 @@ msgid ""
 "<keyseq><key>Super</key><key>`</key></keyseq> and <keyseq><key>Shift</"
 "key><key>Super</key><key>`</key></keyseq>"
 msgstr ""
+"<keyseq><key>Super</key><key>`</key></keyseq> и <keyseq><key>Shift</"
+"key><key>Super</key><key>`</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:198
@@ -3733,78 +3838,80 @@ msgid ""
 "<keyseq><key>Alt</key><key>F6</key></keyseq> and <keyseq><key>Shift</"
 "key><key>Alt</key><key>F6</key></keyseq>"
 msgstr ""
+"<keyseq><key>Alt</key><key>F6</key></keyseq> и <keyseq><key>Shift</"
+"key><key>Alt</key><key>F6</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:199
 msgid ""
 "Switch focus to the next or previous secondary window associated with the "
 "application"
-msgstr ""
+msgstr "Передаёт фокус следующему или предыдущему окну приложения"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:202
 msgid "<gui>Maximize</gui>"
-msgstr ""
+msgstr "<gui>Развернуть</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:203
 msgid "<keyseq><key>Super</key><key>↑</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Super</key><key>↑</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:204
 msgid "<keyseq><key>Alt</key><key>F10</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Alt</key><key>F10</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:205
 msgid "Maximize the focused window"
-msgstr ""
+msgstr "Развернуть текущее окно"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:208
 msgid "<gui>Restore</gui>"
-msgstr ""
+msgstr "<gui>Вернуть</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:209
 msgid "<keyseq><key>Super</key><key>↓</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Super</key><key>↓</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:210
 msgid "<keyseq><key>Alt</key><key>F5</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Alt</key><key>F5</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:211
 msgid "Restores the focused window to its previous state"
-msgstr ""
+msgstr "Вернуть текущее окно к предыдущему состоянию"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:214
 msgid "<gui>Hide</gui>"
-msgstr ""
+msgstr "<gui>Скрыть</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:215
 msgid "<keyseq><key>Super</key><key>H</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Super</key><key>H</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:216
 msgid "<keyseq><key>Alt</key><key>F9</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Alt</key><key>F9</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:217
 msgid "Hide the focused window"
-msgstr ""
+msgstr "Скрыть текущее окно"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:221
 msgid "Switch system area"
-msgstr ""
+msgstr "Переключение системной области"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:223
@@ -3812,6 +3919,8 @@ msgid ""
 "<keyseq><key>Ctrl</key><key>Alt</key><key>Tab</key></keyseq> and "
 "<keyseq><key>Shift</key><key>Ctrl</key><key>Alt</key><key>Tab</key></keyseq>"
 msgstr ""
+"<keyseq><key>Ctrl</key><key>Alt</key><key>Tab</key></keyseq> и "
+"<keyseq><key>Shift</key><key>Ctrl</key><key>Alt</key><key>Tab</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:224
@@ -3819,16 +3928,18 @@ msgid ""
 "Switches focus to the primary areas of the system: windows, top bar, message "
 "tray"
 msgstr ""
+"Передаёт фокус главным системным областям: окнам, верхней панели и панели "
+"сообщений"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:227
 msgid "Power Off"
-msgstr ""
+msgstr "Выключение"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:229
 msgid "<keyseq><key>Ctrl</key><key>Alt</key><key>Delete</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Ctrl</key><key>Alt</key><key>Delete</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:230
@@ -3836,69 +3947,72 @@ msgid ""
 "Prompts the user to power off the system. This shortcut is typically "
 "disabled by default."
 msgstr ""
+"Предлагает пользователю выключить систему. Эта быстрая клавиша по умолчанию "
+"отключена."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:233
 msgid "Window menu"
-msgstr ""
+msgstr "Меню окна"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:234
 msgid "<keyseq><key>Alt</key><key>Space</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Alt</key><key>Space</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:236
 msgid "Opens the window menu for the current window"
-msgstr ""
+msgstr "Открывает меню текущего окна"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:239 C/keyboard-input.page:375
 msgid "<gui>Close</gui>"
-msgstr ""
+msgstr "<gui>Закрыть</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:241
 msgid "<keyseq><key>Alt</key><key>F4</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Alt</key><key>F4</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:242
 msgid "Closes the focused window"
-msgstr ""
+msgstr "Закрывает текущее окно"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:245
 msgid "<gui>Move</gui>"
-msgstr ""
+msgstr "<gui>Переместить</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:247
 msgid "<keyseq><key>Alt</key><key>F7</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Alt</key><key>F7</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:248
 msgid "Move the focused window"
-msgstr ""
+msgstr "Переместить текущее окно"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:251
 msgid "<gui>Resize</gui>"
-msgstr ""
+msgstr "<gui>Изменить размер</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:253
 msgid "<keyseq><key>Alt</key><key>F8</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Alt</key><key>F8</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:254
 msgid "Resize the focused window"
-msgstr ""
+msgstr "Изменить размер текущего окна"
 
 #. (itstool) path: section/p
 #: C/keyboard-input.page:259
+#, fuzzy
 msgid ""
 "In addition, the shortcuts for Unicode character entry should also be "
 "avoided. This includes <keyseq><key>Shift</key><key>Ctrl</key><key>A</key></"
@@ -3906,6 +4020,11 @@ msgid ""
 "keyseq>, or <keyseq><key>Shift</key><key>Ctrl</key><key>0</key></keyseq> "
 "through to <keyseq><key>Shift</key><key>Ctrl</key><key>9</key></keyseq>."
 msgstr ""
+"Также не используйте быстрые клавиши для полей ввода символов Юникода: от "
+"<keyseq><key>Shift</key><key>Ctrl</key><key>A</key></keyseq> до "
+"<keyseq><key>Shift</key><key>Ctrl</key><key>F</key></keyseq> или от "
+"<keyseq><key>Shift</key><key>Ctrl</key><key>0</key></keyseq> до "
+"<keyseq><key>Shift</key><key>Ctrl</key><key>9</key></keyseq>."
 
 #. (itstool) path: section/title
 #: C/keyboard-input.page:264
@@ -6157,13 +6276,12 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/pointer-and-touch-input.page:43
-#, fuzzy
 msgid ""
 "Double click should not be used, since it is undiscoverable, and translates "
 "poorly to touch input."
 msgstr ""
-"Не используйте двойной щелчок, так как он чего-то там и неудобен при "
-"использовании сенсорного ввода."
+"Не используйте двойной щелчок, так как он неудобен при использовании "
+"сенсорного ввода, а контекст его применения неочевиден."
 
 #. (itstool) path: item/p
 #: C/pointer-and-touch-input.page:44
@@ -6172,6 +6290,10 @@ msgid ""
 "under the pointer, if it supports scrolling. Initiating scrolling in this "
 "way should not move keyboard focus to the window or control being scrolled."
 msgstr ""
+"Если у мыши есть колесо прокрутки, то оно должно прокручивать окно или "
+"управляющий элемент под указателем, если этот элемент поддерживает "
+"прокрутку. Прокрутка выполняемая этим способом не переводит фокус клавиатуры "
+"на прокручиваемое окно или управляющий элемент."
 
 #. (itstool) path: item/p
 #: C/pointer-and-touch-input.page:45
@@ -6223,7 +6345,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/pointer-and-touch-input.page:54
 msgid "Mouse and keyboard equivalents"
-msgstr ""
+msgstr "Дублирование управления с клавиатуры"
 
 #. (itstool) path: section/p
 #: C/pointer-and-touch-input.page:56
@@ -6349,7 +6471,7 @@ msgstr "Нажать главную кнопку на фоне контейне�
 #. (itstool) path: section/title
 #: C/pointer-and-touch-input.page:106
 msgid "Touch input"
-msgstr ""
+msgstr "Сенсорный ввод"
 
 #. (itstool) path: section/p
 #: C/pointer-and-touch-input.page:108
@@ -6360,11 +6482,16 @@ msgid ""
 "hardware, and to conform to users’ expectations, it is therefore important "
 "to consider touch input as a part of application design."
 msgstr ""
+"Сенсорные экраны всё активнее применяются в современном компьютерном "
+"оборудовании. Приложения, создаваемые с помощью GTK+, вероятно могут "
+"использоваться на оборудовании с сенсорными экранами. Поэтому чтобы "
+"оправдать ожидания пользователей, необходимо сделать использование сенсорных "
+"экранов частью дизайна приложения."
 
 #. (itstool) path: section/title
 #: C/pointer-and-touch-input.page:111
 msgid "Application touch conventions"
-msgstr ""
+msgstr "Прикладные соглашения о сенсорном управлении"
 
 #. (itstool) path: section/p
 #: C/pointer-and-touch-input.page:113
@@ -6373,21 +6500,24 @@ msgid ""
 "easily learn how to use your application with a touch screen. The following "
 "conventions are recommended, where relevant."
 msgstr ""
+"Использование сенсорного ввода в вашем приложении не должно отличаться от "
+"других приложений, это упростит пользователям работу с вашим приложением. "
+"Рекомендуется следовать следующим соглашениям там, где это применимо."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:120
 msgid "Result"
-msgstr ""
+msgstr "Что делает"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:125
 msgid "<em style=\"strong\">Tap</em>"
-msgstr ""
+msgstr "<em style=\"strong\">Нажатие</em>"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:129
 msgid "Tap on an item."
-msgstr ""
+msgstr "Нажатие на элемент."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:130
@@ -6395,89 +6525,95 @@ msgid ""
 "Primary action. Item opens - photo is shown full size, application launches, "
 "song starts playing."
 msgstr ""
+"Основное действие. Открывает элементы: полноэкранный просмотр фотоснимка, "
+"запуск приложения, воспроизведение песен."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:133
 msgid "<em style=\"strong\">Press and hold</em>"
-msgstr ""
+msgstr "<em style=\"strong\">Нажатие с удержанием</em>"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:137
 msgid "Press and hold for a second or two."
-msgstr ""
+msgstr "Нажать и держать секунду или две."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:138
 msgid ""
 "Secondary action. Select the item and list actions that can be performed."
 msgstr ""
+"Вспомогательное действие. Выбрать элемент и вывести список доступных "
+"действий."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:141
 msgid "<em style=\"strong\">Drag</em>"
-msgstr ""
+msgstr "<em style=\"strong\">Перетаскивание</em>"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:145
 msgid "Slide finger touching the surface."
-msgstr ""
+msgstr "Перенести палец, касаясь поверхности."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:146
 msgid "Scrolls area on screen."
-msgstr ""
+msgstr "Прокручивает область на экране."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:149
 msgid "<em style=\"strong\">Pinch or stretch</em>"
-msgstr ""
+msgstr "<em style=\"strong\">Сведение или разведение</em>"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:153
 msgid ""
 "Touch surface with two fingers while bringing them closer or further apart."
-msgstr ""
+msgstr "Коснитесь поверхности двумя пальцами, затем сводите или разводите их."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:154
 msgid "Changes the zoom level of the view (eg. Maps, Photos)."
-msgstr ""
+msgstr "Изменяет масштаб просмотра (карты, фотографии и пр.)."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:157
 msgid "<em style=\"strong\">Double tap</em>"
-msgstr ""
+msgstr "<em style=\"strong\">Двойное нажатие</em>"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:161
 msgid "Tap twice in quick succession."
-msgstr ""
+msgstr "Дважды быстро коснуться экрана."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:162
 msgid "Stepped zoom in."
-msgstr ""
+msgstr "Последовательно приближает."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:165
 msgid "<em style=\"strong\">Flick</em>"
-msgstr ""
+msgstr "<em style=\"strong\">Рывок</em>"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:169
 msgid ""
 "Very quick drag, losing contact with the surface without slowing movement."
 msgstr ""
+"Очень быстрое перетаскивание с убиранием пальца от поверхности без "
+"замедления."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:170
 msgid "Removes an item."
-msgstr ""
+msgstr "Удаляет элемент."
 
 #. (itstool) path: section/title
 #: C/pointer-and-touch-input.page:178
 msgid "System touch conventions"
-msgstr ""
+msgstr "Системные соглашения о сенсорном управлении"
 
 #. (itstool) path: section/p
 #: C/pointer-and-touch-input.page:180
@@ -6485,82 +6621,89 @@ msgid ""
 "In GNOME 3, a number of touch gestures are reserved for use by the system. "
 "These should be avoided by applications."
 msgstr ""
+"В GNOME 3 несколько жестов зарезервированы под системные нужды. Не "
+"используйте эти жесты в своих приложениях."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:184
 msgid "<em style=\"strong\">Edge drag</em>"
-msgstr ""
+msgstr "<em style=\"strong\">Перетаскивание у границы</em>"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:188
 msgid "Slide finger starting from a screen edge."
-msgstr ""
+msgstr "Проведите пальцем от границы экрана."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:189
 msgid "Bottom edge opens the Message Tray."
-msgstr ""
+msgstr "Нижняя граница открывает панель сообщений."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:190
 msgid "Top-left edge opens the application menu."
-msgstr ""
+msgstr "Верхняя левая граница открывает меню приложения."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:191
 msgid "Top-right edge opens the system status menu."
-msgstr ""
+msgstr "Верхняя правая граница открывает системное меню."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:192
 msgid ""
 "Left edge opens the Activities Overview with the application view visible."
 msgstr ""
+"Левая граница открывает «Обзор» в режиме отображения доступных приложений."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:195
 msgid "<em style=\"strong\">Three finger pinch</em>"
-msgstr ""
+msgstr "<em style=\"strong\">Щипок тремя пальцами</em>"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:199
 msgid "Bring three or more fingers closer together while touching the surface."
 msgstr ""
+"Сведите три или более пальцев друг к другу, касаясь при этом ими поверхности."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:200
 msgid "Opens the Activities Overview."
-msgstr ""
+msgstr "Открывает «Обзор»."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:203
 msgid "<em style=\"strong\">Four finger drag</em>"
-msgstr ""
+msgstr "<em style=\"strong\">Перетаскивание четыремя пальцами</em>"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:207
 msgid "Drag up or down with four fingers touching the surface."
 msgstr ""
+"Перетаскивайте вверх или вниз четыремся пальцами, касаясь ими поверхности."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:208
 msgid "Switches workspace."
-msgstr ""
+msgstr "Переключает рабочее место."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:211
 msgid "<em style=\"strong\">Three finger hold and tap</em>"
-msgstr ""
+msgstr "<em style=\"strong\">Удерживание тремя пальцами с нажатием</em>"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:215
 msgid "Hold two fingers on the surface while tapping with the third."
 msgstr ""
+"Удерживайте три пальца на поверхности, затем коснитесь поверхности четвёртым "
+"пальцем."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:216
 msgid "Switches application."
-msgstr ""
+msgstr "Переключает приложение."
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
