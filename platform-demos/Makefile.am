@@ -473,6 +473,7 @@ HELP_FILES =				\
 	weatherAppMain.js.page		\
 	weatherAutotools.js.page	\
 	weatherGeonames.js.page		\
+	widget_drawing.py.page		\
 	window.c.page			\
 	window.js.page			\
 	window.py.page			\
