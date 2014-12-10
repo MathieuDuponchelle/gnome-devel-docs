@@ -2,21 +2,22 @@
 # Copyright (C) 2014 gnome-devel-docs's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-devel-docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Yuri Myasoedov <ymyasoedov@yandex.ru>, 2014.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
 "POT-Creation-Date: 2014-11-22 07:31+0000\n"
-"PO-Revision-Date: 2014-11-30 19:30+0300\n"
-"Last-Translator: Yuri Myasoedov <omerta13@yandex.ru>\n"
-"Language-Team: Russian <gnome-cyr@gnome.org>\n"
+"PO-Revision-Date: 2014-12-10 16:11+0300\n"
+"Last-Translator: Yuri Myasoedov <ymyasoedov@yandex.ru>\n"
+"Language-Team: русский <gnome-cyr@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.5.4\n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"X-Generator: Gtranslator 2.91.6\n"
 
 #. (itstool) path: p/link
 #: C/legal.xml:5
@@ -3342,7 +3343,7 @@ msgstr "Стандартные навигационные клавиши"
 #: C/keyboard-input.page:546 C/keyboard-input.page:616
 #: C/keyboard-input.page:650 C/keyboard-input.page:719
 msgid "Shortcut"
-msgstr "Комбинация клавиш"
+msgstr "Быстрая клавиша"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:54 C/keyboard-input.page:158
@@ -4029,7 +4030,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/keyboard-input.page:264
 msgid "Standard application shortcuts"
-msgstr ""
+msgstr "Стандартные быстрые клавиши в приложениях"
 
 #. (itstool) path: section/p
 #: C/keyboard-input.page:266
@@ -4040,6 +4041,10 @@ msgid ""
 "shortcuts can be assigned to other actions if the standard action is not "
 "available."
 msgstr ""
+"В этом разделе описываются стандартные быстрые клавиши, используемые в "
+"приложениях. Эти быстрые клавиши используются только в том случае, если в "
+"вашем приложении есть соответствующие действия. Стандартные быстрые клавиши "
+"можно назначать на другие действия, если стандартное действие не реализовано."
 
 #. (itstool) path: section/p
 #: C/keyboard-input.page:268
@@ -4047,11 +4052,13 @@ msgid ""
 "This section also provides guidance on standard menu items in a <link xref="
 "\"menu-bars\">menu bar</link>, should one be used."
 msgstr ""
+"В этом разделе также приведены рекомендации по организации элементов в <link "
+"xref=\"menu-bars\">панели меню</link>."
 
 #. (itstool) path: section/title
 #: C/keyboard-input.page:271
 msgid "Application"
-msgstr ""
+msgstr "Приложение"
 
 #. (itstool) path: section/p
 #: C/keyboard-input.page:273
@@ -4060,6 +4067,9 @@ msgid ""
 "shortcuts should not be reassigned to other actions, even when the "
 "corresponding action is not provided by your application."
 msgstr ""
+"Стандартные быстрые клавиши приложения и элементы меню. Эти быстрые клавиши "
+"нельзя переназначать на другие действия, даже если соответствующее действие "
+"не реализовано в вашем приложении."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:278 C/keyboard-input.page:312
@@ -4067,18 +4077,18 @@ msgstr ""
 #: C/keyboard-input.page:545 C/keyboard-input.page:615
 #: C/keyboard-input.page:649 C/keyboard-input.page:718
 msgid "Label"
-msgstr ""
+msgstr "Метка"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:286
 msgid "<key>F1</key>"
-msgstr ""
+msgstr "<key>F1</key>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:287
 msgid ""
 "Opens the default help browser on the contents page for the application."
-msgstr ""
+msgstr "Открывает справку по приложению."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:292
@@ -4086,36 +4096,38 @@ msgid ""
 "Opens the About dialog for the application. Use the standard GNOME 3 dialog "
 "for this."
 msgstr ""
+"Открывает диалоговое окно с информацией о приложении. Для таких диалоговых "
+"окон должны использоваться стандартные диалоги GNOME 3."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:296
 msgid "<keyseq><key>Ctrl</key><key>Q</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Ctrl</key><key>Q</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:297
 msgid "Closes the application, including all application windows."
-msgstr ""
+msgstr "Закрывает приложение вместе со всеми его окнами."
 
 #. (itstool) path: section/title
 #: C/keyboard-input.page:305
 msgid "File"
-msgstr ""
+msgstr "Файл"
 
 #. (itstool) path: section/p
 #: C/keyboard-input.page:307
 msgid "Standard file keyboard shortcuts and menu items."
-msgstr ""
+msgstr "Стандартные быстрые клавиши и элементы меню."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:319
 msgid "<gui>New</gui>"
-msgstr ""
+msgstr "<gui>Создать</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:320
 msgid "<keyseq><key>Ctrl</key><key>N</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Ctrl</key><key>N</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:321
@@ -4127,16 +4139,22 @@ msgid ""
 "first entry in the submenu the most commonly used document type, and give it "
 "the <keyseq><key>Ctrl</key><key>N</key></keyseq> shortcut."
 msgstr ""
+"Создаёт новый элемент, чаще всего новое главное окно или вкладку. Если в "
+"приложении создаются документы различных типов, то каждый тип документа "
+"можно реализовать в виде элемента подменю <gui>Создать</gui>. Назовите эти "
+"элементы в соответствии с типами создаваемых ими документов. Первым "
+"элементом подменю должен быть наиболее часто используемый тип документа, "
+"назначьте ему быструю клавишу <keyseq><key>Ctrl</key><key>N</key></keyseq>."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:324
 msgid "<gui>Open…</gui>"
-msgstr ""
+msgstr "<gui>Открыть…</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:325
 msgid "<keyseq><key>Ctrl</key><key>O</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Ctrl</key><key>O</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:326
@@ -4145,6 +4163,10 @@ msgid ""
 "<gui>Open File</gui> dialog. If the chosen file is already open in the "
 "application, raise that window instead of opening a new one."
 msgstr ""
+"Открывает содержимое уже существующего объекта, для этого часто используется "
+"стандартный диалог <gui>Открыть файл</gui>. Если выбранный файл уже открыт в "
+"приложении, не создавайте новых окон или вкладок, откройте окно или вкладку, "
+"в котором он уже открыт."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:329
@@ -4161,12 +4183,12 @@ msgstr ""
 #. (itstool) path: td/p
 #: C/keyboard-input.page:334
 msgid "<gui>Save</gui>"
-msgstr ""
+msgstr "<gui>Сохранить</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:335
 msgid "<keyseq><key>Ctrl</key><key>S</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Ctrl</key><key>S</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:336
@@ -4179,16 +4201,24 @@ msgid ""
 "the document has no current filename or is read-only, selecting this item "
 "should be the same as selecting <gui>Save As</gui>."
 msgstr ""
+"Сохраняет текущее содержимое. Если с документом уже связано некоторое имя "
+"файла, то документ сразу сохраняется в этот файл без каких-либо "
+"дополнительных действий со стороны пользователя. Если для сохранения файла "
+"требуются дополнительные параметры, запросите их при первой попытке "
+"сохранения файла, но при последующих попытках используйте первые указанные "
+"параметры, пока пользователь не изменит их. Если документ не связан с именем "
+"файла или доступен только для чтения, действие этого элемента меню такое же, "
+"как у <gui>Сохранить как</gui>."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:339
 msgid "<gui>Save As…</gui>"
-msgstr ""
+msgstr "<gui>Сохранить как…</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:340
 msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>S</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Shift</key><key>Ctrl</key><key>S</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:341
@@ -4197,11 +4227,13 @@ msgid ""
 "standard <gui>Save As</gui> dialog, and save the file with the chosen file "
 "name."
 msgstr ""
+"Сохраняет содержимое в указанный файл. В качестве интерфейса использует "
+"стандартный диалог <gui>Сохранить как</gui>."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:344
 msgid "<gui>Save a Copy…</gui>"
-msgstr ""
+msgstr "<gui>Сохранить копию…</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:346
@@ -4212,6 +4244,10 @@ msgid ""
 "until the user specifies otherwise, for example by choosing the <gui>Save "
 "As</gui> command."
 msgstr ""
+"Предлагает пользователю ввести имя файла, в который будет сохранена копия "
+"документа. Не переключайтесь на сохранённую копию документа. Все последующие "
+"изменения должны выполняться в исходном документе, пока пользователь не "
+"укажет обратное, выбрав например команду <gui>Сохранить как</gui>."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:347
@@ -4220,11 +4256,14 @@ msgid ""
 "present different ways to save the data. For example, an image may be saved "
 "in a native format or as a PNG."
 msgstr ""
+"Также как и диалог <gui>Сохранить как</gui>, диалог <gui>Сохранить копию</"
+"gui> позволяет сохранять данные несколькими способами. Например, изображение "
+"можно сохранять в исходном формате или в формате PNG."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:350
 msgid "<gui>Page Setup</gui>"
-msgstr ""
+msgstr "<gui>Параметры страницы</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:352
@@ -4233,17 +4272,20 @@ msgid ""
 "dialog allowing the user to set such options as portrait or landscape "
 "format, margins, and so on."
 msgstr ""
+"Используется для изменения параметров печати. Представляется в виде диалога "
+"настройки ориентации бумаги, отступов и т. д."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:355
 msgid "<gui>Print Preview</gui>"
-msgstr ""
+msgstr "<gui>Просмотр печати</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:356
 msgid ""
 "<keyseq><key>Shift</key><key>Ctrl</key><key>Ctrl</key><key>P</key></keyseq>"
 msgstr ""
+"<keyseq><key>Shift</key><key>Ctrl</key><key>Ctrl</key><key>P</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:357
@@ -4252,16 +4294,19 @@ msgid ""
 "window containing an accurate representation of the appearance of the "
 "document as it would be printed."
 msgstr ""
+"Показывает пользователю, как будет выглядеть напечатанный документ. "
+"Открывает новое окно, в котором документ показан так, как он будет выглядеть "
+"на бумаге."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:360
 msgid "<gui>Print…</gui>"
-msgstr ""
+msgstr "<gui>Печать…</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:361
 msgid "<keyseq><key>Ctrl</key><key>P</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Ctrl</key><key>P</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:362
@@ -4271,16 +4316,20 @@ msgid ""
 "so on. The dialog must contain a button labelled <gui>Print</gui> that "
 "starts printing and closes the dialog."
 msgstr ""
+"Печатает текущий документ. Открывает диалог, который позволяет устанавливать "
+"параметры печати: диапазон печатаемых страниц, используемый принтер и т. д. "
+"В диалоге должна быть кнопка с меткой <gui>Печать</gui> (<gui>Print</gui>), "
+"нажатие на которую закрывает диалог и запускает печать."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:365
 msgid "<gui>Send To…</gui>"
-msgstr ""
+msgstr "<gui>Отправить…</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:366
 msgid "<keyseq><key>Ctrl</key><key>M</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Ctrl</key><key>M</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:367
@@ -4293,16 +4342,24 @@ msgid ""
 "leave them on the top-level menu If there is a third option, such as "
 "<gui>Send by FTP</gui>, place all the options in a Send submenu."
 msgstr ""
+"Предоставляет средство для отправки текущего документа по эл. почте или в "
+"виде вложения к письму, в зависимости от формата документа. Может быть "
+"доступно несколько элементов <gui>Отправить</gui>, если таких элементов "
+"больше двух, то они должны быть помещены в подменю. Например, если доступны "
+"только элементы <gui>Отправить по почте</gui> и <gui>Отправить через "
+"Bluetooth</gui>, не создавайте для них подменю, но если добавляется третий "
+"пункт, например <gui>Отправить через FTP</gui>, поместите все три пункта в "
+"отдельное подменю."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:370
 msgid "<gui>Properties…</gui>"
-msgstr ""
+msgstr "<gui>Свойства…</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:371
 msgid "<keyseq><key>Alt</key><key>Return</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Alt</key><key>Enter</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:372
@@ -4314,11 +4371,17 @@ msgid ""
 "provided where <key>Return</key> is most frequently used to insert a new "
 "line."
 msgstr ""
+"Открывает окно <gui>Свойства</gui>, которое может содержать информацию о "
+"документе как изменяемую, например, имя автора документа, так и "
+"неизменяемую, например, количество слов в документе. Не назначайте быструю "
+"клавишу <keyseq><key>Alt</key><key>Enter</key></keyseq> в том случае, если "
+"<key>Eneter</key> часто используется в вашем приложении для перевода каретки "
+"на новую строку."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:376 C/tabs.page:76
 msgid "<keyseq><key>Ctrl</key><key>W</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Ctrl</key><key>W</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:377
@@ -4328,42 +4391,45 @@ msgid ""
 "changes, discard them, or cancel the action without closing or saving the "
 "document."
 msgstr ""
+"Закрывает текущий документ или вкладку. Если в документе присутствуют "
+"несохранённые изменения, открывает диалог, который позволяет сохранить "
+"изменения, отклонить их или отменить закрытие документа."
 
 #. (itstool) path: section/title
 #. (itstool) path: td/p
 #: C/keyboard-input.page:385 C/lists.page:119
 msgid "Edit"
-msgstr ""
+msgstr "Правка"
 
 #. (itstool) path: section/p
 #: C/keyboard-input.page:387
 msgid "Standard edit keyboard shortcuts and menu items."
-msgstr ""
+msgstr "Стандартные быстрые клавиши и элементы меню."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:399
 msgid "<gui>Undo <em>action</em></gui>"
-msgstr ""
+msgstr "<gui>Отменить <em>действие</em></gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:400
 msgid "<keyseq><key>Ctrl</key><key>Z</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Ctrl</key><key>Z</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:401
 msgid "Reverts the effect of the previous action."
-msgstr ""
+msgstr "Отменяет результат предыдущего действия."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:404
 msgid "<gui>Redo <em>action</em></gui>"
-msgstr ""
+msgstr "<gui>Повторить <em>действие</em></gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:405
 msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>Z</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Shift</key><key>Ctrl</key><key>Z</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:406
@@ -4371,16 +4437,18 @@ msgid ""
 "Performs the next action in the undo history list, after the user has moved "
 "backwards through the list with the <gui>Undo</gui> command."
 msgstr ""
+"Выполнить действие, следующее по списку истории действий, который создаётся, "
+"когда пользователь использует команду <gui>Отменить</gui>."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:409
 msgid "<gui>Cut</gui>"
-msgstr ""
+msgstr "<gui>Вырезать</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:410
 msgid "<keyseq><key>Ctrl</key><key>X</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Ctrl</key><key>X</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:411
@@ -4388,31 +4456,34 @@ msgid ""
 "Removes the selected content and places it onto the clipboard. Visually, "
 "remove the content from the document in the same manner as <gui>Delete</gui>."
 msgstr ""
+"Удаляет выделенное содержимое и помещает его в буфер обмена. Удаление "
+"содержимого из документа визуально не отличается от действия <gui>Удалить</"
+"gui>."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:414
 msgid "<gui>Copy</gui>"
-msgstr ""
+msgstr "<gui>Копировать</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:415
 msgid "<keyseq><key>Ctrl</key><key>C</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Ctrl</key><key>C</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:416
 msgid "Copies the selected content onto the clipboard."
-msgstr ""
+msgstr "Копирует выделенное содержимое в буфер обмена."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:419
 msgid "<gui>Paste</gui>"
-msgstr ""
+msgstr "<gui>Вставить</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:420
 msgid "<keyseq><key>Ctrl</key><key>V</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Ctrl</key><key>V</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:421
@@ -4422,16 +4493,21 @@ msgid ""
 "point. If there is a current selection, replace it with the clipboard "
 "contents."
 msgstr ""
+"Вставляет содержимое из буфера обмена. Если при редактировании текста "
+"никакая часть текста не выделена, то вставка произойдёт там, где находится "
+"каретка. Если же есть какой-либо выделенный текст, то он будет заменён на "
+"текст из буфера обмена."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:424
+#, fuzzy
 msgid "<gui>Paste Special…</gui>"
-msgstr ""
+msgstr "<gui>Специальная вставка…</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:425
 msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>V</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Shift</key><key>Ctrl</key><key>V</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:426
@@ -4447,57 +4523,59 @@ msgstr ""
 #. (itstool) path: td/p
 #: C/keyboard-input.page:429
 msgid "<gui>Duplicate</gui>"
-msgstr ""
+msgstr "<gui>Дублировать</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:430 C/keyboard-input.page:578
 msgid "<keyseq><key>Ctrl</key><key>U</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Ctrl</key><key>U</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:431
 msgid "Creates a duplicate copy of the selected object."
-msgstr ""
+msgstr "Создать дубликат выделенного объекта."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:434
 msgid "<gui>Delete</gui>"
-msgstr ""
+msgstr "<gui>Удалить</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:435
 msgid "<key>Delete</key>"
-msgstr ""
+msgstr "<key>Delete</key>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:436
 msgid "Removes the selected content without placing it on the clipboard."
 msgstr ""
+"Удаляет выделенное содержимое, содержимое при этом в буфер обмена не "
+"помещается."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:439
 msgid "<gui>Select All</gui>"
-msgstr ""
+msgstr "<gui>Выделить всё</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:440 C/pointer-and-touch-input.page:92
 msgid "<keyseq><key>Ctrl</key><key>A</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Ctrl</key><key>A</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:441
 msgid "Selects all content in the current document."
-msgstr ""
+msgstr "Выделяет всё содержимое в текущем документе."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:444
 msgid "<gui>Deselect All</gui>"
-msgstr ""
+msgstr "<gui>Отменить выделение</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:445 C/pointer-and-touch-input.page:97
 msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>A</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Shift</key><key>Ctrl</key><key>A</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:446
@@ -4510,16 +4588,25 @@ msgid ""
 "<keyseq><key>Shift</key><key>Ctrl</key><key>hex</key></keyseq> digit is used "
 "to enter unicode characters so its shortcut will not work."
 msgstr ""
+"Снимает выделение со всего содержимого в текущем документе. Добавляйте этот "
+"элемент только тогда, когда выделение невозможно отменить другим способом "
+"или этот способ неочевиден для пользователя. Например в сложных графических "
+"приложениях, в которых операции выделения и отмены выделения невозможно "
+"выполнить с помощью клавиш со стрелками. Не используйте эту функцию в "
+"текстовых полях ввода, потому что в текстовых полях для ввода символов "
+"Юникода используется комбинация клавиш <keyseq><key>Shift</key><key>Ctrl</"
+"key><key>шестнадцатеричное число</key></keyseq>, быстрая клавиша "
+"<gui>Отменить выделение</gui> не будет работать."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:449
 msgid "<gui>Find…</gui>"
-msgstr ""
+msgstr "<gui>Найти…</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:450
 msgid "<keyseq><key>Ctrl</key><key>F</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Ctrl</key><key>F</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:451
@@ -4527,49 +4614,51 @@ msgid ""
 "Displays a user interface for allowing the user to search for specific "
 "content in the current content item or page."
 msgstr ""
+"Предоставляет интерфейс для поиска определённого содержимого в текущем "
+"объекте или странице."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:454
 msgid "<gui>Find Next</gui>"
-msgstr ""
+msgstr "<gui>Найти следующее</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:455
 msgid "<keyseq><key>Ctrl</key><key>G</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Ctrl</key><key>G</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:456
 msgid ""
 "Selects the next instance of the last Find term in the current document."
-msgstr ""
+msgstr "Выделяет следующее вхождение искомого терма в текущем документе."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:459
 msgid "<gui>Find Previous</gui>"
-msgstr ""
+msgstr "<gui>Найти предыдущее</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:460
 msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>G</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Shift</key><key>Ctrl</key><key>G</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:461
 msgid ""
 "Selects the previous instance of the last <gui>Find</gui> term in the "
 "current document."
-msgstr ""
+msgstr "Выделяет предыдущее вхождение искомого терма в текущем документе."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:464
 msgid "<gui>Replace…</gui>"
-msgstr ""
+msgstr "<gui>Заменить…</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:465
 msgid "<keyseq><key>Ctrl</key><key>H</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Ctrl</key><key>H</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:466
@@ -4577,41 +4666,45 @@ msgid ""
 "Displays a user interface allowing the user to find specific content and "
 "replace each occurrence."
 msgstr ""
+"Предоставляет интерфейс для поиска и замены содержимого во всём документе."
 
 #. (itstool) path: section/title
 #: C/keyboard-input.page:474
 msgid "View"
-msgstr ""
+msgstr "Вид"
 
 #. (itstool) path: section/p
 #: C/keyboard-input.page:476
 msgid "View keyboard shortcuts and menu items."
-msgstr ""
+msgstr "Быстрые клавиши и элементы меню."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:488
 msgid "<gui>Icons</gui>"
-msgstr ""
+msgstr "<gui>Значки</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:490
 msgid "Shows content as a grid of icons. This is a radio button menu item."
 msgstr ""
+"Элемент меню с кнопкой-переключателем, показывает содержимое в виде сетки "
+"значков."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:493
 msgid "<gui>List</gui>"
-msgstr ""
+msgstr "<gui>Список</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:495
 msgid "Shows content as a list. This is a radio button menu item."
 msgstr ""
+"Элемент меню с кнопкой-переключателем, показывает содержимое в виде списка."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:498
 msgid "<gui>Sort By…</gui>"
-msgstr ""
+msgstr "<gui>Упорядочить по…</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:500
@@ -4619,82 +4712,86 @@ msgid ""
 "Specifies the criteria by which content should be sorted. Can open a "
 "preference dialog, popover, or sub-menu."
 msgstr ""
+"Указаывает критерий упорядочивания содержимого. Может открывать диалог с "
+"параметрами, всплывающий виджет или подменю."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:503
 msgid "<gui>Filter…</gui>"
-msgstr ""
+msgstr "<gui>Фильтр…</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:505
 msgid ""
 "Allows content to be filtered, by opening a popover, drop down, or dialog."
 msgstr ""
+"Позволяет фильтровать содержимое. Может открывать всплывающий виджет, "
+"выпадающее меню или диалог."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:508
 msgid "<gui>Zoom In</gui>"
-msgstr ""
+msgstr "<gui>Приблизить</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:509
 msgid "<keyseq><key>Ctrl</key><key>+</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Ctrl</key><key>+</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:510
 msgid "Zooms in, making content appear larger."
-msgstr ""
+msgstr "Приближает содержимое, делая его крупнее."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:513
 msgid "<gui>Zoom Out</gui>"
-msgstr ""
+msgstr "<gui>Отдалить</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:514
 msgid "<keyseq><key>Ctrl</key><key>-</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Ctrl</key><key>-</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:515
 msgid "Zooms out, making content appear smaller."
-msgstr ""
+msgstr "Отдаляет содержимое, делая его меньше."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:518
 msgid "<gui>Normal Size</gui>"
-msgstr ""
+msgstr "<gui>Обычный размер</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:519
 msgid "<keyseq><key>Ctrl</key><key>0</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Ctrl</key><key>0</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:520
 msgid "Resets the zoom level back to the default value."
-msgstr ""
+msgstr "Сбрасывает масштаб, возвращая его в значение по умолчанию."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:523
 msgid "<gui>Best Fit</gui>"
-msgstr ""
+msgstr "<gui>Заполнить</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:525
 msgid "Makes the document fill the window."
-msgstr ""
+msgstr "Масштабирует документ так, чтобы он заполнил всё окно."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:528
 msgid "<gui>Reload</gui>"
-msgstr ""
+msgstr "<gui>Перезагрузить</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:529
 msgid "<keyseq><key>Ctrl</key><key>R</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Ctrl</key><key>R</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:530
@@ -4703,21 +4800,24 @@ msgid ""
 "changes first. For example, checks the web server for updates to the page "
 "before redrawing it."
 msgstr ""
+"Перерисовать текущее представление документа, проверив сначала исходные "
+"данные на наличие изменений. Например, проверяет наличие обновлений на "
+"стороне веб-сервера перед отрисовкой страницы."
 
 #. (itstool) path: section/title
 #: C/keyboard-input.page:538
 msgid "Format"
-msgstr ""
+msgstr "Формат"
 
 #. (itstool) path: section/p
 #: C/keyboard-input.page:540
 msgid "Standard format keyboard shortcuts and menu items."
-msgstr ""
+msgstr "Стандартные быстрые клавиши и элементы меню для форматирования."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:552
 msgid "<gui>Style…</gui>"
-msgstr ""
+msgstr "<gui>Стиль…</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:554
@@ -4725,36 +4825,39 @@ msgid ""
 "Sets the style attributes of the selected text or objects either "
 "individually or to a named, predefined style."
 msgstr ""
+"Изменяет атрибуты стиля выделенного текста или объектов, атрибуты могут "
+"изменяться по отдельности или все сразу согласно предопределённому "
+"именованному стилю."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:557
 msgid "<gui>Font…</gui>"
-msgstr ""
+msgstr "<gui>Шрифт…</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:559
 msgid "Sets the font properties of the selected text or objects."
-msgstr ""
+msgstr "Изменяет свойства шрифта выделенного текста или объектов."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:562
 msgid "<gui>Paragraph…</gui>"
-msgstr ""
+msgstr "<gui>Абзац…</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:564
 msgid "Sets the properties of the selected paragraph."
-msgstr ""
+msgstr "Изменяет свойства выделенного абзаца."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:567
 msgid "<gui>Bold</gui>"
-msgstr ""
+msgstr "<gui>Жирный</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:568 C/keyboard-input.page:628
 msgid "<keyseq><key>Ctrl</key><key>B</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Ctrl</key><key>B</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:569
@@ -4763,16 +4866,19 @@ msgid ""
 "is currently bold and some is not, this command should bolden the selected "
 "text."
 msgstr ""
+"Переключает толщину шрифта выделенного текста. Если в выделенном тексте уже "
+"имеется жирный шрифт, эта команда сделает жирным весь шрифт выделенного "
+"текста."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:572
 msgid "<gui>Italic</gui>"
-msgstr ""
+msgstr "<gui>Курсив</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:573
 msgid "<keyseq><key>Ctrl</key><key>I</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Ctrl</key><key>I</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:574
@@ -4781,11 +4887,14 @@ msgid ""
 "of the selection is currently italicized and some is not, this command "
 "should italicise the selected text."
 msgstr ""
+"Переключает курсивного начертание шрифта выделенного текста. Если в "
+"выделенном тексте уже имеется курсивный шрифт, эта команда сделает курсивным "
+"весь шрифт выделенного текста."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:577
 msgid "<gui>Underline</gui>"
-msgstr ""
+msgstr "<gui>Подчёркнутый</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:579
@@ -4794,21 +4903,24 @@ msgid ""
 "is currently underlined and some is not, this command should underline the "
 "selected text."
 msgstr ""
+"Переключает подчёркнутое начертание шрифта выделенного текста. Если в "
+"выделенном тексте уже имеется подчёркнутый шрифт, эта команда сделает "
+"подчёркнутым весь шрифт выделенного текста."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:583
 msgid "<gui>Cells…</gui>"
-msgstr ""
+msgstr "<gui>Ячейки…</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:585
 msgid "Sets the properties of the selected table cells."
-msgstr ""
+msgstr "Изменяет свойства выделенных ячеек таблицы."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:588
 msgid "<gui>List…</gui>"
-msgstr ""
+msgstr "<gui>Список…</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:590
@@ -4816,47 +4928,50 @@ msgid ""
 "Sets the properties of the selected list, or turns the selected paragraphs "
 "into a list if they are not already formatted as such."
 msgstr ""
+"Изменяет свойства выделенного списка или преобразует выделенные абзацы в "
+"список, если они ещё не были в него преобразованы."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:593
 msgid "<gui>Layer…</gui>"
-msgstr ""
+msgstr "<gui>Слой…</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:595
 msgid ""
 "Sets the properties of all or selected layers of a multi-layered document."
 msgstr ""
+"Изменяет свойства всех или только выделенных слоёв многослойного документа."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:598
 msgid "<gui>Page…</gui>"
-msgstr ""
+msgstr "<gui>Страница…</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:600
 msgid "Sets the properties of all or selected pages of the document."
-msgstr ""
+msgstr "Изменяет свойства всех или только выделенных страниц документа."
 
 #. (itstool) path: section/title
 #: C/keyboard-input.page:608
 msgid "Bookmarks"
-msgstr ""
+msgstr "Закладки"
 
 #. (itstool) path: section/p
 #: C/keyboard-input.page:610
 msgid "Standard bookmark keyboard shortcuts and menu items."
-msgstr ""
+msgstr "Стандартные быстрые клавиши и элементы меню для закладок."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:622
 msgid "<gui>Add Bookmark</gui>"
-msgstr ""
+msgstr "<gui>Добавить закладку</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:623
 msgid "<keyseq><key>Ctrl</key><key>D</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Ctrl</key><key>D</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:624
@@ -4866,141 +4981,148 @@ msgid ""
 "as the document’s title or filename as the bookmark name) and allow the user "
 "to change them later using the <gui>Edit Bookmarks</gui> feature."
 msgstr ""
+"Добавляет закладку для текущего адреса. Не показывает никаких всплывающих "
+"диалогов с вопросами о названии или адресе закладки, вместо этого использует "
+"разумные значения по умолчанию (в качестве названия берётся заголовок "
+"документа, а в качестве названия закладки -- имя файла). Позднее "
+"пользователь может изменить эти данные с помощью функции <gui>Изменения "
+"закладок</gui>."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:627
 msgid "<gui>Edit Bookmarks</gui>"
-msgstr ""
+msgstr "<gui>Изменить закладки</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:629
 msgid "Allows the user to edit their bookmarks."
-msgstr ""
+msgstr "Позволяет пользователя изменить свои закладки."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:632
 msgid "Bookmark List"
-msgstr ""
+msgstr "Список закладок"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:634
 msgid "Displays the user’s bookmarks."
-msgstr ""
+msgstr "Показывает закладки пользователя."
 
 #. (itstool) path: section/title
 #: C/keyboard-input.page:642
 msgid "Go"
-msgstr ""
+msgstr "Переход"
 
 #. (itstool) path: section/p
 #: C/keyboard-input.page:644
 msgid "Standard navigation keyboard shortcuts and <gui>Go</gui> menu items."
-msgstr ""
+msgstr "Стандартные быстрые клавиши и элемент меню <gui>Переход</gui>."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:656
 msgid "<gui>Back</gui>"
-msgstr ""
+msgstr "<gui>Назад</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:657
 msgid "<keyseq><key>Alt</key><key>Left</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Alt</key><key>Стрелка влево</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:658
 msgid "Navigates to the previous location."
-msgstr ""
+msgstr "Перейти по предыдущему адресу истории посещений страниц."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:661
 msgid "<gui>Forward</gui>"
-msgstr ""
+msgstr "<gui>Вперёд</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:662
 msgid "<keyseq><key>Alt</key><key>Right</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Alt</key><key>Стрелка вправо</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:663
 msgid "Navigates to the next location in the navigation history."
-msgstr ""
+msgstr "Переходит по следующему адресу истории посещений страниц."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:666 C/keyboard-input.page:671
 msgid "<gui>Up</gui>"
-msgstr ""
+msgstr "<gui>Стрелка вверх</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:667
 msgid "<keyseq><key>Alt</key><key>Up</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Alt</key><key>Стрелка вверх</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:668
 msgid "Navigates to the parent content item, document, page or section."
-msgstr ""
+msgstr "Переходит к родительскому элементу: документу, странице или разделу."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:672
 msgid "<keyseq><key>Alt</key><key>Home</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Alt</key><key>Home</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:673
 msgid "Navigates to a starting page defined by the user or the application."
 msgstr ""
+"Переходит к стартовой странице, указанной пользователем или приложением."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:676
 msgid "<gui>Location…</gui>"
-msgstr ""
+msgstr "<gui>Адрес…</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:677
 msgid "<keyseq><key>Ctrl</key><key>L</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Ctrl</key><key>L</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:678
 msgid "Allows the user to specify a URI to navigate to."
-msgstr ""
+msgstr "Позволяет пользователю указать URI и перейти по нему."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:681
 msgid "<gui>Previous Page</gui>"
-msgstr ""
+msgstr "<gui>Предыдущая страница</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:682
 msgid "<key>PageUp</key>"
-msgstr ""
+msgstr "<key>PageUp</key>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:683
 msgid "Navigates to the previous page in the document."
-msgstr ""
+msgstr "Переходит к предыдущей странице документа."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:686
 msgid "<gui>Next Page</gui>"
-msgstr ""
+msgstr "<gui>Следующая страница</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:687
 msgid "<key>PageDown</key>"
-msgstr ""
+msgstr "<key>PageDown</key>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:688
 msgid "Navigates to the next page in the document."
-msgstr ""
+msgstr "Переходит к следующей странице документа."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:691
 msgid "<gui>Go to Page…</gui>"
-msgstr ""
+msgstr "<gui>Перейти к странице…</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:693
@@ -5009,51 +5131,55 @@ msgid ""
 "applications may also include a <gui>Go to Line…</gui> menu item, which "
 "allows the user to jump to a specified line number."
 msgstr ""
+"Позволяет пользователю указать номер страницы, к которой необходимо перейти. "
+"В текстовых приложениях также можно использовать элемент меню <gui>Перейти к "
+"строке…</gui>, с помощью которого пользователь может перейти к указанной "
+"строке."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:696
 msgid "<gui>First Page</gui>"
-msgstr ""
+msgstr "<gui>Первая страница</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:697
 msgid "<keyseq><key>Ctrl</key><key>Home</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Ctrl</key><key>Home</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:698
 msgid "Navigates to the first page in the document."
-msgstr ""
+msgstr "Переходит к первой странице документа."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:701
 msgid "<gui>Last Page</gui>"
-msgstr ""
+msgstr "<gui>Последняя страница</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:702
 msgid "<keyseq><key>Ctrl</key><key>End</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Ctrl</key><key>End</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:703
 msgid "Navigates to the last page in the document."
-msgstr ""
+msgstr "Переходит к последней странице документа."
 
 #. (itstool) path: section/title
 #: C/keyboard-input.page:711
 msgid "Windows"
-msgstr ""
+msgstr "Окна"
 
 #. (itstool) path: section/p
 #: C/keyboard-input.page:713
 msgid "Standard <gui>Windows</gui> menu items."
-msgstr ""
+msgstr "Стандартные элементы меню <gui>Окна</gui>."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:725
 msgid "<gui>Save All</gui>"
-msgstr ""
+msgstr "<gui>Сохранить все</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:727
@@ -5062,11 +5188,14 @@ msgid ""
 "for a filename for each one in turn using the standard <gui>Save</gui> "
 "dialog."
 msgstr ""
+"Сохраняет все открытые документы. Если какой-либо из документов не связан с "
+"файлом, для каждого такого документа пользователю предлагается ввести имя "
+"файла посредством стандартного диалога <gui>Сохранить</gui>."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:730
 msgid "<gui>Close All</gui>"
-msgstr ""
+msgstr "<gui>Закрыть все</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:732
@@ -5074,11 +5203,14 @@ msgid ""
 "Closes all open documents. If there are any unsaved changes in any "
 "documents, post a confirmation alert for each one in turn."
 msgstr ""
+"Закрывает все открытые документы. Если в каком-либо документе имеются "
+"несохранённые изменения, для каждого такого документа будет показано "
+"предупреждение с подтверждением."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:735
 msgid "List of windows"
-msgstr ""
+msgstr "Список окон"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:737
@@ -5086,6 +5218,7 @@ msgid ""
 "Each menu item raises the corresponding window to the top of the window "
 "stack."
 msgstr ""
+"Каждый элемент меню располагает соответствующее окно поверх всего стэка окон."
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
