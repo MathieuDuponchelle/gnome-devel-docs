@@ -198,6 +198,7 @@ demo_sources =	\
 	samples/treeview_simple_liststore.vala	\
 	samples/treeview_treestore.py		\
 	samples/tux.png				\
+	samples/widget_drawing.py		\
 	samples/window.c			\
 	samples/window.js			\
 	samples/window.py			\
