@@ -9,8 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs.platform-demos.master\n"
-"POT-Creation-Date: 2014-09-01 06:40+0000\n"
-"PO-Revision-Date: 2014-09-01 18:07+0200\n"
+"POT-Creation-Date: 2014-12-18 07:36+0000\n"
+"PO-Revision-Date: 2014-12-18 11:17+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "Language: \n"
@@ -3712,7 +3712,8 @@ msgstr ""
 #: C/treeview_simple_liststore.js.page:273
 #: C/treeview_simple_liststore.py.page:43
 #: C/treeview_simple_liststore.vala.page:28 C/treeview_treestore.py.page:42
-#: C/window.c.page:30 C/window.py.page:62 C/window.vala.page:34
+#: C/widget_drawing.py.page:36 C/window.c.page:30 C/window.py.page:62
+#: C/window.vala.page:34
 msgid "In this sample we used the following:"
 msgstr "En este ejemplo se usa lo siguiente:"
 
@@ -4096,7 +4097,7 @@ msgstr "AboutDialog (Python)"
 #: C/treeview_cellrenderertoggle.py.page:14
 #: C/treeview_simple_liststore.py.page:15 C/treeview_treestore.py.page:15
 #: C/tutorial.py.page:20 C/vala.page:15 C/weatherApp.js.page:17
-#: C/window.py.page:20
+#: C/widget_drawing.py.page:13 C/window.py.page:20
 msgid "Marta Maria Casetti"
 msgstr "Marta Maria Casetti"
 
@@ -4136,7 +4137,7 @@ msgstr ""
 #: C/treeview_advanced_liststore.py.page:29
 #: C/treeview_cellrenderertoggle.py.page:29
 #: C/treeview_simple_liststore.py.page:30 C/treeview_treestore.py.page:30
-#: C/window.py.page:45
+#: C/widget_drawing.py.page:28 C/window.py.page:45
 msgid "Code used to generate this example"
 msgstr "Código usado para generar este ejemplo"
 
@@ -4356,7 +4357,7 @@ msgstr ""
 #: C/treeview_advanced_liststore.py.page:41
 #: C/treeview_cellrenderertoggle.py.page:41
 #: C/treeview_simple_liststore.py.page:42 C/treeview_treestore.py.page:41
-#: C/window.py.page:60
+#: C/widget_drawing.py.page:35 C/window.py.page:60
 msgid "API References"
 msgstr "Referencias de la API"
 
@@ -4643,7 +4644,7 @@ msgstr ""
 #: C/record-collection.js.page:25 C/scrolledwindow.js.page:15
 #: C/separator.c.page:16 C/separator.vala.page:18 C/tooltip.c.page:16
 #: C/tooltip.js.page:16 C/tooltip.vala.page:16 C/tutorial.py.page:27
-#: C/vala.page:17 C/weatherApp.js.page:19
+#: C/vala.page:17 C/weatherApp.js.page:19 C/widget_drawing.py.page:15
 msgid "2013"
 msgstr "2013"
 
@@ -50079,7 +50080,7 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/togglebutton.py.page:45 C/toolbar.py.page:60
-#: C/toolbar_builder.py.page:198
+#: C/toolbar_builder.py.page:198 C/widget_drawing.py.page:38
 msgid ""
 "<link href=\"http://developer.gnome.org/gtk3/unstable/GtkWidget.html"
 "\">GtkWidget</link>"
@@ -58806,6 +58807,252 @@ msgstr ""
 "    }\n"
 "}\n"
 "}  "
+
+#. (itstool) path: media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/widget_drawing.py.page:22
+#| msgctxt "_"
+#| msgid ""
+#| "external ref='media/window.png' md5='eb0cde3530978619c25bddfaeb453345'"
+msgctxt "_"
+msgid ""
+"external ref='media/widget_drawing.png' "
+"md5='d00abd8cb9e158018c57fd75b81dfe58'"
+msgstr ""
+"external ref='media/widget_drawing.png' "
+"md5='d00abd8cb9e158018c57fd75b81dfe58'"
+
+#. (itstool) path: info/title
+#: C/widget_drawing.py.page:8
+#| msgctxt "text"
+#| msgid "Window (Python)"
+msgctxt "text"
+msgid "Widget (Python)"
+msgstr "Widget (Python)"
+
+#. (itstool) path: info/desc
+#: C/widget_drawing.py.page:18
+msgid "A widget that uses the Cairo library to draw"
+msgstr "Un widget que usa la biblioteca Cairo para dibujar"
+
+#. (itstool) path: page/title
+#: C/widget_drawing.py.page:21
+msgid "Widget"
+msgstr "Widget"
+
+#. (itstool) path: page/p
+#: C/widget_drawing.py.page:23
+msgid "Enter an angle, visualize it."
+msgstr "Introduzca un ángulo, visualícelo."
+
+#. (itstool) path: section/code
+#: C/widget_drawing.py.page:30
+#, no-wrap
+msgid ""
+"from gi.repository import Gtk\n"
+"from gi.repository import cairo\n"
+"import sys\n"
+"import math\n"
+"\n"
+"\n"
+"class MyWindow(Gtk.ApplicationWindow):\n"
+"\n"
+"    def __init__(self, app):\n"
+"        Gtk.Window.__init__(self, title=\"Choose an angle\", application=app)\n"
+"        self.set_default_size(400, 400)\n"
+"        self.set_border_width(10)\n"
+"\n"
+"        # a default angle\n"
+"        self.angle = 360\n"
+"\n"
+"        grid = Gtk.Grid()\n"
+"\n"
+"        # a spinbutton that takes the value of an angle\n"
+"        ad = Gtk.Adjustment(360, 0, 360, 1, 0, 0)\n"
+"        self.spin = Gtk.SpinButton(adjustment=ad, climb_rate=1, digits=0)\n"
+"        self.spin.connect(\"value-changed\", self.get_angle)\n"
+"\n"
+"        # a drawing area for drawing whatever we want\n"
+"        self.darea = Gtk.DrawingArea()\n"
+"        # that we describe in the method draw(), connected to the signal \"draw\"\n"
+"        self.darea.connect(\"draw\", self.draw)\n"
+"        # we have to request a minimum size of the drawing area, or it will\n"
+"        # disappear\n"
+"        self.darea.set_size_request(300, 300)\n"
+"\n"
+"        grid.attach(self.spin, 0, 0, 1, 1)\n"
+"        grid.attach(self.darea, 0, 1, 1, 1)\n"
+"\n"
+"        self.add(grid)\n"
+"\n"
+"    # whenever we get a new angle in the spinbutton\n"
+"    def get_angle(self, event):\n"
+"        self.angle = self.spin.get_value_as_int()\n"
+"        # redraw what is in the drawing area\n"
+"        self.darea.queue_draw()\n"
+"\n"
+"    def draw(self, darea, cr):\n"
+"        # a 10-pixels-wide line\n"
+"        cr.set_line_width(10)\n"
+"        # red\n"
+"        cr.set_source_rgba(0.5, 0.0, 0.0, 1.0)\n"
+"\n"
+"        # get the width and height of the drawing area\n"
+"        w = self.darea.get_allocated_width()\n"
+"        h = self.darea.get_allocated_height()\n"
+"\n"
+"        # move to the center of the drawing area\n"
+"        # (translate from the top left corner to w/2, h/2)\n"
+"        cr.translate(w / 2, h / 2)\n"
+"        # draw a line to (55, 0)\n"
+"        cr.line_to(55, 0)\n"
+"        # and get back to (0, 0)\n"
+"        cr.line_to(0, 0)\n"
+"        # draw an arc centered in the origin, 50 pixels wide, from the angle 0\n"
+"        # (in radians) to the angle given by the spinbutton (in degrees)\n"
+"        cr.arc(0, 0, 50, 0, self.angle * (math.pi / 180))\n"
+"        # draw a line back to the origin\n"
+"        cr.line_to(0, 0)\n"
+"        # drawing the path, and keeping the path for future use\n"
+"        cr.stroke_preserve()\n"
+"\n"
+"        # set a colour\n"
+"        cr.set_source_rgba(0.0, 0.5, 0.5, 1.0)\n"
+"        # and use it to fill the path (that we had kept)\n"
+"        cr.fill()\n"
+"\n"
+"\n"
+"class MyApplication(Gtk.Application):\n"
+"\n"
+"    def __init__(self):\n"
+"        Gtk.Application.__init__(self)\n"
+"\n"
+"    def do_activate(self):\n"
+"        win = MyWindow(self)\n"
+"        win.show_all()\n"
+"\n"
+"    def do_startup(self):\n"
+"        Gtk.Application.do_startup(self)\n"
+"\n"
+"app = MyApplication()\n"
+"exit_status = app.run(sys.argv)\n"
+"sys.exit(exit_status)\n"
+msgstr ""
+"from gi.repository import Gtk\n"
+"from gi.repository import cairo\n"
+"import sys\n"
+"import math\n"
+"\n"
+"\n"
+"class MyWindow(Gtk.ApplicationWindow):\n"
+"\n"
+"    def __init__(self, app):\n"
+"        Gtk.Window.__init__(self, title=\"Choose an angle\", application=app)\n"
+"        self.set_default_size(400, 400)\n"
+"        self.set_border_width(10)\n"
+"\n"
+"        # a default angle\n"
+"        self.angle = 360\n"
+"\n"
+"        grid = Gtk.Grid()\n"
+"\n"
+"        # a spinbutton that takes the value of an angle\n"
+"        ad = Gtk.Adjustment(360, 0, 360, 1, 0, 0)\n"
+"        self.spin = Gtk.SpinButton(adjustment=ad, climb_rate=1, digits=0)\n"
+"        self.spin.connect(\"value-changed\", self.get_angle)\n"
+"\n"
+"        # a drawing area for drawing whatever we want\n"
+"        self.darea = Gtk.DrawingArea()\n"
+"        # that we describe in the method draw(), connected to the signal \"draw\"\n"
+"        self.darea.connect(\"draw\", self.draw)\n"
+"        # we have to request a minimum size of the drawing area, or it will\n"
+"        # disappear\n"
+"        self.darea.set_size_request(300, 300)\n"
+"\n"
+"        grid.attach(self.spin, 0, 0, 1, 1)\n"
+"        grid.attach(self.darea, 0, 1, 1, 1)\n"
+"\n"
+"        self.add(grid)\n"
+"\n"
+"    # whenever we get a new angle in the spinbutton\n"
+"    def get_angle(self, event):\n"
+"        self.angle = self.spin.get_value_as_int()\n"
+"        # redraw what is in the drawing area\n"
+"        self.darea.queue_draw()\n"
+"\n"
+"    def draw(self, darea, cr):\n"
+"        # a 10-pixels-wide line\n"
+"        cr.set_line_width(10)\n"
+"        # red\n"
+"        cr.set_source_rgba(0.5, 0.0, 0.0, 1.0)\n"
+"\n"
+"        # get the width and height of the drawing area\n"
+"        w = self.darea.get_allocated_width()\n"
+"        h = self.darea.get_allocated_height()\n"
+"\n"
+"        # move to the center of the drawing area\n"
+"        # (translate from the top left corner to w/2, h/2)\n"
+"        cr.translate(w / 2, h / 2)\n"
+"        # draw a line to (55, 0)\n"
+"        cr.line_to(55, 0)\n"
+"        # and get back to (0, 0)\n"
+"        cr.line_to(0, 0)\n"
+"        # draw an arc centered in the origin, 50 pixels wide, from the angle 0\n"
+"        # (in radians) to the angle given by the spinbutton (in degrees)\n"
+"        cr.arc(0, 0, 50, 0, self.angle * (math.pi / 180))\n"
+"        # draw a line back to the origin\n"
+"        cr.line_to(0, 0)\n"
+"        # drawing the path, and keeping the path for future use\n"
+"        cr.stroke_preserve()\n"
+"\n"
+"        # set a colour\n"
+"        cr.set_source_rgba(0.0, 0.5, 0.5, 1.0)\n"
+"        # and use it to fill the path (that we had kept)\n"
+"        cr.fill()\n"
+"\n"
+"\n"
+"class MyApplication(Gtk.Application):\n"
+"\n"
+"    def __init__(self):\n"
+"        Gtk.Application.__init__(self)\n"
+"\n"
+"    def do_activate(self):\n"
+"        win = MyWindow(self)\n"
+"        win.show_all()\n"
+"\n"
+"    def do_startup(self):\n"
+"        Gtk.Application.do_startup(self)\n"
+"\n"
+"app = MyApplication()\n"
+"exit_status = app.run(sys.argv)\n"
+"sys.exit(exit_status)\n"
+
+#. (itstool) path: item/p
+#: C/widget_drawing.py.page:39
+#| msgid ""
+#| "<link href=\"http://developer.gnome.org/gtk3/stable/GtkRange.html"
+#| "\">GtkRange</link>"
+msgid ""
+"<link href=\"http://developer.gnome.org/gtk3/unstable/GtkDrawingArea.html"
+"\">GtkDrawingArea</link>"
+msgstr ""
+"<link href=\"http://developer.gnome.org/gtk3/unstable/GtkDrawingArea.html"
+"\">GtkDrawingArea</link>"
+
+#. (itstool) path: item/p
+#: C/widget_drawing.py.page:40
+#| msgid ""
+#| "<link href=\"https://live.gnome.org/Vala/Tutorial\">The Vala Tutorial</"
+#| "link>"
+msgid ""
+"<link href=\"http://www.tortall.net/mu/wiki/CairoTutorial\">The Cairo "
+"Tutorial for Python Programmers</link>"
+msgstr ""
+"<link href=\"http://www.tortall.net/mu/wiki/CairoTutorial\">El tutorial de "
+"Cairo para programadores en Python</link>"
 
 #. (itstool) path: info/title
 #: C/window.c.page:8
