@@ -65,7 +65,7 @@ const DialogExample = new Lang.Class ({
 
         // Create the dialog's action area, which contains a stock OK button
         this._actionArea = this._dialog.get_action_area();
-        this._OKButton = new Gtk.Button.new_from_stock (Gtk.STOCK_OK);
+        this._OKButton = Gtk.Button.new_from_stock (Gtk.STOCK_OK);
         this._actionArea.add (this._OKButton);
 
         // Connect the button to the function that handles what it does
