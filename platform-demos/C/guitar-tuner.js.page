@@ -106,8 +106,8 @@ var frequencies = {E: 329.63, A: 440,	D: 587.33,	G: 783.99,	B: 987.77,	e: 1318.5
 
 function playSound(frequency){
   var pipeline = new Gst.Pipeline({name: "note"});
-  var source = new Gst.ElementFactory.make("audiotestsrc","source");
-  var sink = new Gst.ElementFactory.make("autoaudiosink","output");
+  var source = Gst.ElementFactory.make("audiotestsrc","source");
+  var sink = Gst.ElementFactory.make("autoaudiosink","output");
 
   source.set_property('freq', frequency);
   pipeline.add(source);
@@ -155,7 +155,7 @@ e.connect("clicked", function(){
   </section>
   <section id="guitarjs">
     <title>The whole program</title>
-    <p>So this is what all the parts combined looks like. When running this code, you should be able to tune your guitar(if you have correctly calibrated speakers).</p>
+    <p>So this is what all the parts combined looks like. When running this code, you should be able to tune your guitar (if you have correctly calibrated speakers).</p>
       <code mime="application/javascript" style="numbered"><![CDATA[
 #!/usr/bin/gjs
 var Gtk = imports.gi.Gtk;
@@ -185,8 +185,8 @@ var frequencies = {E: 329.63, A: 440,	D: 587.33,	G: 783.99,	B: 987.77,	e: 1318.5
 function playSound(frequency){
   var pipeline = new Gst.Pipeline({name: "note"});
 
-  var source = new Gst.ElementFactory.make("audiotestsrc","source");
-  var sink = new Gst.ElementFactory.make("autoaudiosink","output");
+  var source = Gst.ElementFactory.make("audiotestsrc","source");
+  var sink = Gst.ElementFactory.make("autoaudiosink","output");
 
   source.set_property('freq', frequency);
   pipeline.add(source);

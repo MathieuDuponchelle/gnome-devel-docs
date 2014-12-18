@@ -26,8 +26,8 @@ var frequencies = {E: 329.63, A: 440,	D: 587.33,	G: 783.99,	B: 987.77,	e: 1318.5
 function playSound(frequency){
   var pipeline = new Gst.Pipeline({name: "note"});
 
-  var source = new Gst.ElementFactory.make("audiotestsrc","source");
-  var sink = new Gst.ElementFactory.make("autoaudiosink","output");
+  var source = Gst.ElementFactory.make("audiotestsrc","source");
+  var sink = Gst.ElementFactory.make("autoaudiosink","output");
     
   source.set_property('freq', frequency);
   pipeline.add(source);
