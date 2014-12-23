@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hig.master\n"
 "POT-Creation-Date: 2014-12-22 19:32+0000\n"
-"PO-Revision-Date: 2014-12-23 11:23+0100\n"
+"PO-Revision-Date: 2014-12-23 11:49+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "Language: es\n"
@@ -43,7 +43,8 @@ msgstr ""
 "Nicolás Satragno <nsatragno@gnome.org>, 2013\n"
 "Benjamín Valero Espinosa <benjavalero@gmail.com>, 2011\n"
 "Jorge González <jorgegonz@svn.gnome.org>, 2009\n"
-"Rosa Elena Pérez <rozydicemiau@gmail.com>, 2014"
+"Rosa Elena Pérez <rozydicemiau@gmail.com>, 2014\n"
+"Oscar Rafael Arachi <arachi910@gmail.com>, 2014"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -1126,11 +1127,15 @@ msgid ""
 "When adding a new control or piece of information, always take a moment to "
 "question whether it is necessary."
 msgstr ""
+"Al agregar un nuevo control o parte de la información, siempre tome un "
+"momento para preguntarse si es necesario."
 
 #. (itstool) path: section/title
 #: C/design-principles.page:37
 msgid "Use progressive disclosure to show controls when they are needed"
 msgstr ""
+"Utilice la revelación progresiva para mostrar los controles cuando son "
+"necesarios"
 
 #. (itstool) path: section/p
 #: C/design-principles.page:39
@@ -1140,6 +1145,11 @@ msgid ""
 "Instead, only show controls when they are needed. This makes applications "
 "simpler to use, even if the same amount of functionality is provided."
 msgstr ""
+"Mostrando cada control posible todo el tiempo hace una aplicación difícil de "
+"utilizar, ya que los usuarios tienen controles para navegar que a menudo no "
+"son relevantes. En su lugar, muestre solo los controles cuando son "
+"necesarios. Esto hace las aplicaciones más fácil de utilizar, incluso si se "
+"proporciona la mima cantidad de funcionalidades."
 
 #. (itstool) path: section/p
 #: C/design-principles.page:41
@@ -1148,11 +1158,14 @@ msgid ""
 "different views or modes, to showing transient or floating controls when "
 "particular content items are selected."
 msgstr ""
+"Hay varias maneras de revelar progresivamente los controles, el uso de "
+"diferentes vistas o modos, mostrar controles transitorios o flotantes cuando "
+"se seleccionan elementos con determinado contenido."
 
 #. (itstool) path: section/title
 #: C/design-principles.page:46
 msgid "Require as little work from the user as possible"
-msgstr ""
+msgstr "Requiere el menor trabajo por parte del usuario como sea posible"
 
 #. (itstool) path: section/p
 #: C/design-principles.page:48
@@ -1163,6 +1176,11 @@ msgid ""
 "form of using controls or providing information, ask yourself whether it is "
 "possible to do that work for them."
 msgstr ""
+"Una aplicación que es laboriosa de utilizar puede convertirse en fuente de "
+"irritación, así que esfuércese para hacer el software manejable para sus "
+"usuarios, no al contrario. Cada vez que su aplicación requiera entradas de "
+"los usuarios, ya sea en la forma en que se utilizan los controles o se "
+"proporciona información, pregúntese si es posible hacer el trabajo por ellos."
 
 #. (itstool) path: section/p
 #: C/design-principles.page:50
@@ -1170,11 +1188,13 @@ msgid ""
 "Try to avoid the need for a manual setup screen or assistant, and make it "
 "easy to go back to recently used content."
 msgstr ""
+"Trate de evitar la necesidad de una ventana de configuración manual o un "
+"asistente, y hágalo fácil para regresar al contenido utilizado recientemente."
 
 #. (itstool) path: section/title
 #: C/design-principles.page:55
 msgid "Create a clear hierarchy"
-msgstr ""
+msgstr "Cree una jerarquía clara"
 
 #. (itstool) path: section/p
 #: C/design-principles.page:57
@@ -1184,6 +1204,10 @@ msgid ""
 "come later. Use this implied hierarchy to communicate which parts of your "
 "application are most important."
 msgstr ""
+"La gente tiende a «leer» una interfaz de izquierda a derecha y de arriba "
+"hacia abajo. Los elementos que se encuentran en primer lugar se ven como "
+"dominantes sobre aquellos que vienen después. Utilice esta jerarquía "
+"implícita para comunicar qué partes de su aplicación son las más importantes."
 
 #. (itstool) path: section/p
 #: C/design-principles.page:59
@@ -1193,11 +1217,15 @@ msgid ""
 "<link xref=\"visual-layout\">visual layout</link> guidelines for more "
 "details."
 msgstr ""
+"Posicione los controles más importantes hacia la parte superior izquierda de "
+"su ventana, y coloque los controles dominantes a otros controles que los "
+"afectan. Consulte las guías de <link xref=\"visual-layout\">capa visual</"
+"link> para obtener más detalles."
 
 #. (itstool) path: section/title
 #: C/design-principles.page:64
 msgid "Prioritize content"
-msgstr ""
+msgstr "De prioridad al contenido"
 
 #. (itstool) path: section/p
 #: C/design-principles.page:66
@@ -1207,6 +1235,10 @@ msgid ""
 "in, and too many controls or user interface elements will distract from the "
 "focus of their attention."
 msgstr ""
+"Las aplicaciones suelen presentar contenido, ya sea imágenes, texto, "
+"mensajes o datos más complejos. Este es el contenido que a sus usuarios les "
+"puede interesar, y también demasiados controles o elementos de interfaz de "
+"usuario distraerán el enfoque de su atención."
 
 #. (itstool) path: section/p
 #: C/design-principles.page:68
@@ -1215,11 +1247,14 @@ msgid ""
 "the number of controls. Don’t crowd out the primary object of interest with "
 "secondary information."
 msgstr ""
+"De al contenido tanto espacio como sea posible en su interfaz de usuario, "
+"reduciendo el número de controles. No llene el objeto de interés primario "
+"con información secundaria."
 
 #. (itstool) path: section/title
 #: C/design-principles.page:73
 msgid "Anticipate errors"
-msgstr ""
+msgstr "Anticípese a los errores"
 
 #. (itstool) path: section/p
 #: C/design-principles.page:75
@@ -1230,6 +1265,11 @@ msgid ""
 "mistakes cannot be made. Secondly, if it is possible to make a mistake, make "
 "it easy to recover."
 msgstr ""
+"La gente comete errores. Anticipando esos errores se evitará consecuencias "
+"perjudiciales, y hará que su aplicación sea más placentera y satisfactoria "
+"de utilizar. La primera línea de defensa aquí es para diseñar la aplicación "
+"de modo que los errores no se puedan hacer. En segundo lugar, si es posible "
+"cometer un error, que sea fácil de recuperar."
 
 #. (itstool) path: section/p
 #: C/design-principles.page:77
