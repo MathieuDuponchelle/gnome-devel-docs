@@ -8,13 +8,13 @@
 # Gladys Guerero <gguerrer@redhat.com>, 2012.
 # Nicolás Satragno <nsatragno@gnome.org>, 2013.
 # Javi Ribera <javiribera@gmail.com>, 2013.
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011, 2012, 2013, 2014.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011, 2012, 2013, 2014, 2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: hig.master\n"
-"POT-Creation-Date: 2014-12-22 19:32+0000\n"
-"PO-Revision-Date: 2014-12-23 11:49+0100\n"
+"POT-Creation-Date: 2014-12-30 19:35+0000\n"
+"PO-Revision-Date: 2015-01-05 08:47+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "Language: es\n"
@@ -44,7 +44,8 @@ msgstr ""
 "Benjamín Valero Espinosa <benjavalero@gmail.com>, 2011\n"
 "Jorge González <jorgegonz@svn.gnome.org>, 2009\n"
 "Rosa Elena Pérez <rozydicemiau@gmail.com>, 2014\n"
-"Oscar Rafael Arachi <arachi910@gmail.com>, 2014"
+"Oscar Rafael Arachi <arachi910@gmail.com>, 2014\n"
+"Miguel Ajuech <miguel.ann.28@gmail.com>, 2014"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -91,6 +92,9 @@ msgid ""
 "of a window. It is used to present actions for the content that is displayed "
 "above."
 msgstr ""
+"Una barra de acción es un contenedor horizontal que se localiza a lo largo "
+"del borde inferior de una ventana. Se utiliza para mostrar las acciones del "
+"contenido que se muestra arriba."
 
 #. (itstool) path: section/title
 #: C/action-bars.page:21 C/application-menus.page:21 C/button-menus.page:20
@@ -102,7 +106,7 @@ msgstr ""
 #: C/spin-boxes.page:32 C/switches.page:20 C/tabs.page:34 C/toolbars.page:32
 #: C/view-switchers.page:21
 msgid "When to use"
-msgstr ""
+msgstr "Cuándo usarlas"
 
 #. (itstool) path: section/p
 #: C/action-bars.page:23
@@ -113,6 +117,12 @@ msgid ""
 "cases, potential actions can be placed within a <link xref=\"header-bar-menus"
 "\">header bar menu</link> instead."
 msgstr ""
+"Utilice una barra de acción cuando los elementos con determinado contenido "
+"se muestren principalmente para su edición o manejo. Ya que principalmente "
+"muestran acciones potenciales, las barras de acción no son apropiadas si el "
+"contenido se ve generalmente y no se edita. En estos casos, las acciones "
+"potenciales se pueden colocar dentro de un <link xref=\"header-bar-menus"
+"\">encabezado de la barra de menú</link> en lugar."
 
 #. (itstool) path: section/p
 #: C/action-bars.page:25
@@ -120,6 +130,8 @@ msgid ""
 "Action bars can be shown temporarily, when a <link xref=\"selection-mode"
 "\">selection</link> or edit mode is active."
 msgstr ""
+"Las barras de acción se pueden mostrar temporalmente cuando el modo de <link "
+"xref=\"selection-mode\">selección</link> o el de edición estén activos."
 
 #. (itstool) path: section/title
 #: C/action-bars.page:30 C/check-boxes.page:32 C/radio-buttons.page:32
@@ -134,6 +146,9 @@ msgid ""
 "and right of the action bar, or by using separators. The most commonly used "
 "items should be placed on the left."
 msgstr ""
+"Agrupar conjuntos de funcionalidad similar, alineándolos a la izquierda y a "
+"la derecha de la barra de acción, o usando separadores. Los elementos más "
+"utilizados, se deben colocar a la izquierda."
 
 #. (itstool) path: item/p
 #: C/action-bars.page:34
@@ -141,11 +156,13 @@ msgid ""
 "Try to separate potentially destructive actions, and <link xref="
 "\"buttons#suggested-and-destructive\">style them appropriately</link>."
 msgstr ""
+"Intente separar las acciones potencialmente destructivas, y <link xref="
+"\"buttons#suggested-and-destructive\">darles estilo apropiadamente</link>."
 
 #. (itstool) path: info/desc
 #: C/application-basics.page:11
 msgid "Basic application characteristics."
-msgstr ""
+msgstr "Características básicas de la aplicación."
 
 #. (itstool) path: page/title
 #: C/application-basics.page:14
@@ -161,6 +178,10 @@ msgid ""
 "distribute your software more effectively, as well as ensure effective and "
 "consistent system integration."
 msgstr ""
+"Estas guías de interfaz humana están destinadas a ayudar en la creación de "
+"aplicaciones. La comprensión de lo que es una aplicación le ayudará a "
+"distribuir su software de manera más eficaz, así como a garantizar la "
+"integración efectiva y coherente del sistema."
 
 #. (itstool) path: page/p
 #: C/application-basics.page:18
@@ -172,6 +193,12 @@ msgid ""
 "expectations. It will also ensure correct integration with system tools for "
 "installing and removing applications."
 msgstr ""
+"El modelo de aplicación permite a los usuarios entender cómo se distribuye "
+"el software, instala y quita, de la misma forma cómo se comporta cuando está "
+"en uso. Asegurar que su software funciona de acuerdo a este modelo, ayudará "
+"a garantizar que es predecible y se ajusta a las expectativas del usuario. "
+"Además se asegurará la correcta integración con las herramientas del sistema "
+"para instalar y quitar aplicaciones."
 
 #. (itstool) path: section/title
 #: C/application-basics.page:21
@@ -186,6 +213,9 @@ msgid ""
 "incorporates useful functionality, and which can be installed on a user’s "
 "system."
 msgstr ""
+"Una aplicación es una pieza distinta e independiente de software que "
+"incorpora funcionalidad útil, y que se puede instalar en un sistema de "
+"usuario."
 
 #. (itstool) path: section/p
 #: C/application-basics.page:25
@@ -193,27 +223,31 @@ msgid ""
 "This definition can be broken down into a set of characteristics, which "
 "describe an application in more detail. Applications:"
 msgstr ""
+"Esta definición se puede dividir en un conjunto de características que "
+"describen una aplicación a detalle. Aplicaciones:"
 
 #. (itstool) path: item/p
 #: C/application-basics.page:28
 msgid "Can be individually installed and removed from the system."
-msgstr ""
+msgstr "Puede ser instalado y quitado individualmente del sistema."
 
 #. (itstool) path: item/p
 #: C/application-basics.page:29
 msgid "Do not rely on other applications in order to run."
-msgstr ""
+msgstr "No confiar en otras aplicaciones para ejecutarse."
 
 #. (itstool) path: item/p
 #: C/application-basics.page:30
 msgid "Contain functionality of their own."
-msgstr ""
+msgstr "Contiene su propia funcionalidad."
 
 #. (itstool) path: item/p
 #: C/application-basics.page:31
 msgid ""
 "Provide at least one <link xref=\"primary-windows\">primary window</link>."
 msgstr ""
+"Proporciona al menos una <link xref=\"primary-windows\">ventana principal</"
+"link>."
 
 #. (itstool) path: item/p
 #: C/application-basics.page:32
