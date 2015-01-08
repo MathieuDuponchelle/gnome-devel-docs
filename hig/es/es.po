@@ -13,8 +13,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: hig.master\n"
-"POT-Creation-Date: 2014-12-30 19:35+0000\n"
-"PO-Revision-Date: 2015-01-05 08:47+0100\n"
+"POT-Creation-Date: 2015-01-07 19:32+0000\n"
+"PO-Revision-Date: 2015-01-08 18:30+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "Language: es\n"
@@ -45,7 +45,10 @@ msgstr ""
 "Jorge González <jorgegonz@svn.gnome.org>, 2009\n"
 "Rosa Elena Pérez <rozydicemiau@gmail.com>, 2014\n"
 "Oscar Rafael Arachi <arachi910@gmail.com>, 2014\n"
-"Miguel Ajuech <miguel.ann.28@gmail.com>, 2014"
+"Miguel Ajuech <miguel.ann.28@gmail.com>, 2014\n"
+"Adrian Perez Dominguez <adrian@aztli.org>, 2015\n"
+"Celina Osorio Ochoa <chelinoska@gmail.com>, 2015\n"
+"Dario Amigon Espinoza <daramigon@gmail.com>, 2015"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -81,9 +84,8 @@ msgstr "Allan Day"
 
 #. (itstool) path: page/title
 #: C/action-bars.page:14
-#, fuzzy
 msgid "Action bars"
-msgstr "Diccionario"
+msgstr "Barras de acción"
 
 #. (itstool) path: page/p
 #: C/action-bars.page:18
@@ -166,9 +168,8 @@ msgstr "Características básicas de la aplicación."
 
 #. (itstool) path: page/title
 #: C/application-basics.page:14
-#, fuzzy
 msgid "Application basics"
-msgstr "Iconos de aplicación"
+msgstr "Conceptos básicos de aplicaciones"
 
 #. (itstool) path: page/p
 #: C/application-basics.page:16
@@ -202,9 +203,8 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/application-basics.page:21
-#, fuzzy
 msgid "Defining an application"
-msgstr "Elementos de menú en aplicaciones"
+msgstr "Definiendo una aplicacion"
 
 #. (itstool) path: quote/p
 #: C/application-basics.page:23
@@ -252,7 +252,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/application-basics.page:32
 msgid "Do not affect or interfere with the behavior of other applications."
-msgstr ""
+msgstr "No afecta ni interfiere con el comportamiento de otras aplicaciones."
 
 #. (itstool) path: item/p
 #: C/application-basics.page:33
@@ -278,9 +278,8 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/application-basics.page:49
-#, fuzzy
 msgid "Naming your application"
-msgstr "Sale de la aplicación"
+msgstr "Nombrando su aplicación"
 
 #. (itstool) path: section/p
 #: C/application-basics.page:51
@@ -348,9 +347,8 @@ msgstr ""
 
 #. (itstool) path: page/title
 #: C/application-menus.page:14
-#, fuzzy
 msgid "Application menus"
-msgstr "Nombre de la aplicación"
+msgstr "Menús de aplicación"
 
 #. (itstool) path: page/p
 #: C/application-menus.page:18
@@ -376,7 +374,7 @@ msgstr ""
 #: C/visual-layout.page:33
 #, fuzzy
 msgid "General guidelines"
-msgstr "Guías"
+msgstr "Guías Generales"
 
 #. (itstool) path: item/p
 #: C/application-menus.page:31
@@ -512,9 +510,8 @@ msgstr ""
 
 #. (itstool) path: page/title
 #: C/button-menus.page:13
-#, fuzzy
 msgid "Button menus"
-msgstr "Botones"
+msgstr "Botones de menú"
 
 #. (itstool) path: page/p
 #: C/button-menus.page:15
@@ -1311,6 +1308,8 @@ msgid ""
 "Automatically correct potentially invalid input, and always make it possible "
 "to undo destructive operations."
 msgstr ""
+"Corregir automáticamente entradas potencialmente no válidas, y hacer siempre "
+"lo posible para deshacer operaciones destructivas."
 
 #. (itstool) path: section/title
 #: C/design-principles.page:82
@@ -1337,7 +1336,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/design-principles.page:91
 msgid "Provide quick and effective search"
-msgstr ""
+msgstr "Ofrecer una búsqueda rápida y efectiva"
 
 #. (itstool) path: section/p
 #: C/design-principles.page:93
@@ -1360,7 +1359,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/design-principles.page:100
 msgid "Use configuration options sparingly"
-msgstr ""
+msgstr "Utilice las opciones de configuración con moderación"
 
 #. (itstool) path: section/p
 #: C/design-principles.page:102
@@ -1775,7 +1774,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/dialogs.page:158
 msgid "Dialogs should always have a parent window."
-msgstr ""
+msgstr "Los diálogos deberían siempre tener una ventana padre."
 
 #. (itstool) path: item/p
 #: C/dialogs.page:159
@@ -2142,6 +2141,9 @@ msgid ""
 "using your application. Ordering content according to most recently used is "
 "often the best arrangement."
 msgstr ""
+"Ordene los elementos en la cuadrícula de acuerdo a lo que sea mas útil para "
+"las personas al usar su aplicación. Ordenar el contenido de acuerdo a lo que "
+"se uso recientemente es a veces la mejor opción."
 
 #. (itstool) path: item/p
 #: C/grids.page:35
@@ -2149,6 +2151,8 @@ msgid ""
 "Selecting an item in the grid will typically switch to a dedicated view of "
 "that item."
 msgstr ""
+"Seleccionar un elemento en la cuadrícula normalmente cambiará a una vista "
+"dedicada de ese elemento."
 
 #. (itstool) path: item/p
 #: C/grids.page:36
@@ -3959,7 +3963,7 @@ msgstr ""
 #. (itstool) path: td/p
 #: C/keyboard-input.page:324
 msgid "<gui>Open…</gui>"
-msgstr ""
+msgstr "<gui>Abrir…</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:325
@@ -4130,7 +4134,7 @@ msgstr ""
 #. (itstool) path: td/p
 #: C/keyboard-input.page:360
 msgid "<gui>Print…</gui>"
-msgstr ""
+msgstr "<gui>Imprimir…</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:361
@@ -5259,6 +5263,8 @@ msgid ""
 "When using column headers, indicate the sort order using arrows on the "
 "header."
 msgstr ""
+"Al usar encabezados de columnas, indique el orden usando las flechas en el "
+"encabezado."
 
 #. (itstool) path: td/p
 #: C/lists.page:76
@@ -5892,6 +5898,7 @@ msgstr "Alertas de confirmación"
 #: C/notifications.page:30
 msgid "Notifications in GNOME 3 have a number of standard components:"
 msgstr ""
+"Las notificaciones en GNOME 3 tienen un número estándar de componentes:"
 
 #. (itstool) path: td/p
 #: C/notifications.page:35
@@ -7581,6 +7588,8 @@ msgid ""
 "The keyboard shortcut for search (<keyseq><key>Ctrl</key><key>F</key></"
 "keyseq>)."
 msgstr ""
+"El atajo de teclado para buscar (<keyseq><key>Ctrl</key><key>F</key></"
+"keyseq>)."
 
 #. (itstool) path: item/p
 #: C/search.page:41
@@ -8523,6 +8532,9 @@ msgid ""
 "If you place an icon in a text entry field (either as an indicator or a "
 "button), use its symbolic variant from the GNOME Symbolic Icon Theme."
 msgstr ""
+"Si coloca un icono en un campo de entrada de texto (ya sea como un indicador "
+"o un botón), use su variante simbólico del tema de iconos simbólicos de "
+"GNOME."
 
 #. (itstool) path: section/p
 #: C/text-fields.page:58
@@ -9046,7 +9058,7 @@ msgstr "Botones adicionales"
 #. (itstool) path: item/p
 #: C/view-switchers.page:38
 msgid "Each view should have a short and clear title."
-msgstr ""
+msgstr "Cada vista debe tener un título corto y claro."
 
 #. (itstool) path: item/p
 #: C/view-switchers.page:39
@@ -9242,7 +9254,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/visual-layout.page:71
 msgid "Visual hierarchy"
-msgstr ""
+msgstr "Jerarquia visual"
 
 #. (itstool) path: section/p
 #: C/visual-layout.page:73
