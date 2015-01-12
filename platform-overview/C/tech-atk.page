@@ -42,7 +42,7 @@ information to ATK.  If you develop custom widgets, you should ensure
 that they expose their properties to ATK.  You should also avoid using
 sound, graphics, or color as the sole means of conveying information
 to the user; have redundant ways of providing this information instead of
-relying on the user being to perceive a particular medium.</p>
+relying on the user being able to perceive a particular medium.</p>
 
 <p>The GNOME desktop ships with a number of accessibility tools which enable
 users with disabilities to take full advantage of their desktop and
