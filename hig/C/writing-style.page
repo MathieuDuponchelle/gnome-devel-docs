@@ -1,11 +1,14 @@
 <page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
       type="topic"
       id="writing-style">
 
   <info>
+    <revision pkgversion="3.15" date="2015-01-14" status="review"/>
+
     <credit type="author">
       <name>Allan Day</name>
-      <email>aday@gnome.org</email>
+      <email its:translate="no">aday@gnome.org</email>
     </credit>
     <credit>
       <name>Calum Benson</name>
@@ -19,8 +22,16 @@
     <credit>
       <name>Colin Robertson</name>
     </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2015</years>
+    </credit>
+
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
     <desc>Writing text for your user interface, including capitalization rules.</desc>    
+
   </info>
 
 <title>Writing style</title>
@@ -85,9 +96,15 @@
 <section id="ellipses">
 <title>Ellipses (…)</title>
 
-<p>Use an ellipsis (…) at the end of a label if the action requires further input from the user before it can be carried out. For example, <gui>Save As…</gui>, <gui>Find…</gui> or <gui>Rename…</gui>.</p>
+  <p>Use an ellipsis (…) at the end of a label if further input or confirmation
+  is required from the user before the action can be carried out. For example,
+  <gui>Save As…</gui>, <gui>Find…</gui> or <gui>Delete…</gui>.</p>
 
-<p>Do not add an ellipsis to commands like <gui>Properties</gui> or <gui>Preferences</gui>. While these commands open windows that can incorporate further functionality, the label does not specify a particular action, and therefore does not need to communicate that further input is required.</p>
+  <p>Do not add an ellipsis to labels such as <gui>Properties</gui> or
+  <gui>Preferences</gui>. While these commands open windows that can
+  incorporate further functionality, the label does not specify an action, and
+  therefore does not need to communicate that further input or confirmation is
+  required.</p>
 
 </section>
 
