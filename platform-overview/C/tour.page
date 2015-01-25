@@ -21,7 +21,8 @@
 
     <include href="cc-by-sa-3-0.xml" xmlns="http://www.w3.org/2001/XInclude"/>
 
-    <desc>Get your GtkApplication started and create a UI using Glade.</desc>
+    <desc>Get your GtkApplication started in JavaScript and create a UI using
+    Glade.</desc>
   </info>
 
   <title>Get started</title>
