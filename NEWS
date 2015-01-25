@@ -1,3 +1,14 @@
+3.14.4
+======
+
+* Fixes and improvements to the platform demos (David King)
+* Fix to the ATK page in the platform overview (Christian Kirbach)
+* Clarification to the HIG regarding ellipses (Ekaterina Gerasimova)
+* Updated translations:
+  de      (Christian Kirbach)
+  es      (Daniel Mustieles, Rosa Elena Pérez, Oscar Rafael
+           Arachi, Miguel Ajuech, Adrian Perez Dominguez)
+
 3.14.3
 ======
 
