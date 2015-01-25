@@ -39,6 +39,13 @@
 <title>Tutorials</title>
 </section>
 
+<section id="prerequisites">
+<title>Prerequisites</title>
+  <p>
+  To begin developing GTK+ 3 applications in C you will need a C compiler, for example <link href="https://gcc.gnu.org/">gcc</link>. You will also need GTK+ 3 including headers and pkg-config files. Linux distributions usually abstract GTK+ 3 headers and pkg-config files into separate packages called <em>gtk3-devel</em>, <em>gtk3-dev</em> or similar.
+  </p>
+</section>
+
 <section id="samples">
 <title>Code samples</title>
   <p>
