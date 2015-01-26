@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      type="guide" style="task"
+      id="buildsystem">
+
+  <info>
+    <!-- The text title is used on the help.gnome.org -->
+    <title type='link'>Setting up the build system (C)</title>
+    <link type="guide" xref="c#examples"/>
+    <revision version="0.1" date="2013-06-17" status="review"/>
+
+    <credit type="author copyright">
+      <name>Susanna Huhtanen</name>
+      <email its:translate="no">ihmis.suski@gmail.com</email>
+      <years>2012</years>
+    </credit>
+    <credit type="editor">
+      <name>Tiffany Antopolski</name>
+      <email its:translate="no">tiffany.antopolski@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Bastian Ilsø</name>
+      <email its:translate="no">bastianilso@gnome.org</email>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc>Using autotools to set up a build system for your project.</desc>
+  </info>
+
+  <title>Setting up the build system</title>
+
+  <p>To make your application truly a part of the GNOME 3 system you need
+  to install it with the help of autotools.
+  The autotools build will install all the necessary files to all the right places. </p>
+
+  <p>For this you need to have the following files in your project folder:</p>
+
+  <links type="section"/>
+
+  <section id="autogen">
+    <title>autogen.sh</title>
+
+    <code mime="application/x-shellscript" style="numbered">
+      <xi:include href="samples/hello-in-C/autogen.sh" parse="text"><xi:fallback/></xi:include>
+    </code>
+
+    <p>After the <file>autogen.sh</file> file is ready and saved, run:</p>
+    <screen><output style="prompt">$ </output><input>chmod +x autogen.sh</input></screen>
+  </section>
+
+  <section id="makefile">
+    <title>Makefile.am</title>
+
+    <code mime="application/x-shellscript" style="numbered">
+      <xi:include href="samples/hello-in-C/Makefile.am" parse="text"><xi:fallback/></xi:include>
+    </code>
+  </section>
+
+  <section id="configure">
+    <title>configure.ac</title>
+
+    <code mime="application/x-shellscript" style="numbered">
+      <xi:include href="samples/hello-in-C/configure.ac" parse="text"><xi:fallback/></xi:include>
+    </code>
+  </section>
+
+  <section id="readme">
+    <title>README</title>
+    <p>Information users should read first. This file can be blank.</p>
+
+    <p>When you have the <file>hello-world.c</file>, <file>hello-world.desktop.in</file>,
+    <file>Makefile.am</file>, <file>configure.ac</file> and <file>autogen.sh</file>
+    files with correct information and rights, the <file>README</file> file
+    can include the following instructions:</p>
+
+    <code mime="text/readme" style="numbered">
+      <xi:include href="samples/hello-in-C/README" parse="text"><xi:fallback/></xi:include>
+    </code>
+  </section>
+
+  <!-- TODO: How to make a custom icon with autotools -->
+</page>
