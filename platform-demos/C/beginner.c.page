@@ -40,10 +40,29 @@
 </section>
 
 <section id="prerequisites">
-<title>Prerequisites</title>
-  <p>
-  To begin developing GTK+ 3 applications in C you will need a C compiler, for example <link href="https://gcc.gnu.org/">gcc</link>. You will also need GTK+ 3 including headers and pkg-config files. Linux distributions usually abstract GTK+ 3 headers and pkg-config files into separate packages called <em>gtk3-devel</em>, <em>gtk3-dev</em> or similar.
-  </p>
+  <title>Prerequisites</title>
+
+  <p>To begin developing GTK+ 3 applications in C you will need a C compiler, for example <link href="https://gcc.gnu.org/">gcc</link>. You will also need GTK+ 3 including headers and pkg-config files. Linux distributions usually abstract GTK+ 3 headers and pkg-config files into separate packages called <em>gtk3-devel</em>, <em>gtk3-dev</em> or similar.</p>
+
+  <section id="recommended-tools">
+  <title>Other recommended tools</title>
+
+  <list>
+    <item>
+      <p><link href="https://wiki.gnome.org/Apps/Devhelp">DevHelp</link>: An API documentation browser for GNOME.</p>
+    </item>
+    <item>
+      <p>A GNOME IDE (Integrated Development Environment). An IDE can assist you in writing and debugging C code, for example <link href="https://wiki.gnome.org/Apps/Builder">Builder</link> or <link href="https://wiki.gnome.org/Apps/Anjuta">Anjuta</link>.</p>
+    </item>
+    <item>
+      <p><link href="http://glade.gnome.org/">Glade</link>: A user interface designer for GTK+ Applications.</p>
+    </item>
+    <item>
+      <p>An IRC Client, for example <link href="https://wiki.gnome.org/Apps/Polari">Polari</link> or <link href="https://wiki.gnome.org/Apps/Empathy">Empathy</link>. If you run into problems while following the beginner tutorials, join #gnome on GimpNet.</p>
+    </item>
+  </list>
+
+  </section>
 </section>
 
 <section id="samples">
