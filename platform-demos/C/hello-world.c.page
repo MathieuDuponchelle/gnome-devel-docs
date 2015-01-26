@@ -25,7 +25,6 @@
   </info>
 
   <title>Writing a Hello World application in C with GTK+ 3. </title>
-    <media type="image" mime="image/png" style="floatend" src="media/hello-world.png"/>
     <synopsis>
       <p>This tutorial will demonstrate how to:</p>
       <list style="numbered">
@@ -34,6 +33,7 @@
         <item><p>how to set up the build system</p></item>
       </list>
     </synopsis>
+    <media type="image" mime="image/png" style="floatend" src="media/hello-world.png"/>
 
   <links type="section" />
 
