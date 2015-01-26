@@ -13,22 +13,50 @@
   </credit>
 </info>
 
-<title>Tutorials, code samples and plaform demos in C</title>
+<title>Platform Demos in C</title>
 
 <links type="section" />
 
-<section id="code-samples">
-<title>Code samples and tutorial</title>
-
-
-</section>
-
-
 <section id="examples">
-<title>Examples of applications</title>
+<title>Application Demos</title>
 
 
 </section>
 
+<section id="samples">
+<title>Widget Demos</title>
+ <section id="windows" style="2column"><title>Windows</title>
+    <p></p>
+  </section>
+  <section id="display-widgets" style="2column"><title>Display widgets</title>
+  </section>
+  <section id="buttons" style="2column"><title>Buttons and toggles</title>
+  </section>
+  <section id="entry" style="2column"><title>Numeric and text data entry</title>
+  </section>
+  <section id="multiline" style="2column"><title>Multiline text editor</title>
+  </section>
+  <section id="menu-combo-toolbar" style="2column"><title>Menu, combo box and toolbar widgets</title>
+  </section>
+  <section id="treeview" style="2column"><title>TreeView widget</title>
+  </section>
+  <section id="selectors"><title>Selectors</title>
+    <section id="file-selectors" style="2column"><title>File selectors</title>
+    </section>
+    <section id="font-selectors" style="2column"><title>Font selectors</title>
+    </section>
+    <section id="color-selectors" style="2column"><title>Color Selectors</title>
+    </section>
+  </section>
+  <section id="layout" style="2column"><title>Layout containers</title>
+  </section>
+  <section id="ornaments" style="2column"><title>Ornaments</title>
+  </section>
+  <section id="scrolling" style="2column"><title>Scrolling</title>
+  </section>
+  <section id="misc" style="2column"><title>Miscellaneous</title>
+  </section>
+
+</section>
 
 </page>

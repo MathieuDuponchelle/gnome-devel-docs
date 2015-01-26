@@ -6,7 +6,7 @@
       id="togglebutton.c">
   <info>
     <title type="text">ToggleButton (C)</title>
-    <link type="guide" xref="beginner.c#buttons"/>
+    <link type="guide" xref="c#buttons"/>
     <link type="seealso" xref="grid.c"/>
     <link type="seealso" xref="switch.c"/>
 

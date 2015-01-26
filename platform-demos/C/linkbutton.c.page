@@ -6,7 +6,7 @@
       id="linkbutton.c">
   <info>
     <title type="text">LinkButton (C)</title>
-    <link type="guide" xref="beginner.c#buttons"/>
+    <link type="guide" xref="c#buttons"/>
     <revision version="0.1" date="2012-05-31" status="draft"/>
 
     <credit type="author copyright">

@@ -6,7 +6,7 @@
       id="separator.c">
   <info>
     <title type="text">Separator (C)</title>
-    <link type="guide" xref="beginner.c#ornaments"/>
+    <link type="guide" xref="c#ornaments"/>
     <link type="seealso" xref="grid.c"/>
     <revision version="0.1" date="2013-07-02" status="review"/>
 

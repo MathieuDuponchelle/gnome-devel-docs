@@ -6,7 +6,7 @@
       id="button.c">
   <info>
     <title type="text">Button (C)</title>
-    <link type="guide" xref="beginner.c#buttons"/>
+    <link type="guide" xref="c#buttons"/>
     <link type="seealso" xref="dialog.c"/>
     <link type="seealso" xref="grid.c"/>
     <revision version="0.2" date="2012-06-22" status="draft"/>

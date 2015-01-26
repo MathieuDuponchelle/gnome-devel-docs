@@ -6,7 +6,7 @@
       id="menubutton.c">
   <info>
   <title type="text">MenuButton</title>
-    <link type="guide" xref="beginner.c#buttons"/>
+    <link type="guide" xref="c#buttons"/>
     <revision version="0.1" date="2013-07-01" status="review"/>
 
     <credit type="author copyright">
