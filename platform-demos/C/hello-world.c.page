@@ -21,10 +21,10 @@
       <email its:translate="no">tiffany.antopolski@gmail.com</email>
     </credit>
 
-    <desc>A basic "hello, world" application</desc>
+    <desc>How to build, install and create a <file>tar.xz</file> of a Hello World program</desc>
   </info>
 
-  <title>How to build, install and create a <file>tar.xz</file> of a Hello World program</title>
+  <title>Writing a Hello World application in C with GTK+ 3. </title>
     <media type="image" mime="image/png" style="floatend" src="media/hello-world.png"/>
     <synopsis>
       <p>This tutorial will demonstrate how to:</p>
