@@ -3,28 +3,118 @@
       xmlns:ui="http://projectmallard.org/experimental/ui/"
       type="guide"
       id="c">
-<info>
-  <title type='link'>C</title>
-  <link type="guide" xref="index#tutorials"/>
-  <revision version="3.4" date="2012-04-28" status="stub"/>
-  <credit type="editor">
-    <name>Tiffany Antopolski</name>
-    <email its:translate="no">tiffany.antopolski@gmail.com</email>
-  </credit>
-</info>
 
-<title>Platform Demos in C</title>
+  <info>
+    <!-- The text title is used on the help.gnome.org -->
+    <title type='link'>C</title>
+    <link type="guide" xref="index#tutorials"/>
+    <revision version="3.4" date="2012-04-28" status="stub"/>
 
-<links type="section" />
+    <credit type="editor">
+      <name>Tiffany Antopolski</name>
+      <email its:translate="no">tiffany.antopolski@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Bastian Ilso</name>
+      <email its:translate="no">bastianilso@gnome.org</email>
+    </credit>
 
-<section id="examples">
-<title>Application Demos</title>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
 
+    <desc>Tutorials and code samples in C.</desc>
+  </info>
 
-</section>
+  <title>Platform Demos in C</title>
+
+  <section id="prerequisites">
+
+    <title>Prerequisites</title>
+
+    <p>To compile these platform demos you will need a C compiler, for example
+    <link href="https://gcc.gnu.org/">gcc</link>.
+    You will also need GTK+ 3 including headers and pkg-config files.
+    Linux distributions usually abstract GTK+ 3 headers and pkg-config files
+    into separate packages called <em>gtk3-devel</em>, <em>gtk3-dev</em>
+    or similar.</p>
+
+  </section>
+
+  <section id="for-beginners" ui:expanded="false">
+
+    <title>Guidelines for new developers</title>
+
+    <p>Beyond the prerequisites mentioned above, several tools has been
+    developed to assist you further in developing your GNOME application.
+    GNOME also recommends a specific coding style and conventions which this
+    section will elaborate further upon.</p>
+
+    <section id="recommended-tools">
+      <title>Recommended tools</title>
+
+      <list>
+        <item>
+          <p><link href="https://wiki.gnome.org/Apps/Devhelp">DevHelp</link>:
+            An API documentation browser for GNOME.</p>
+        </item>
+        <item>
+          <p>A GNOME IDE (Integrated Development Environment).
+          An IDE can assist you in writing and debugging C code,
+          for example <link href="https://wiki.gnome.org/Apps/Builder">Builder</link>
+          or <link href="https://wiki.gnome.org/Apps/Anjuta">Anjuta</link>.</p>
+        </item>
+        <item>
+          <p><link href="http://glade.gnome.org/">Glade</link>:
+          A user interface designer for GTK+ Applications.</p>
+        </item>
+        <item>
+          <p>An IRC Client, for example
+          <link href="https://wiki.gnome.org/Apps/Polari">Polari</link> or
+          <link href="https://wiki.gnome.org/Apps/Empathy">Empathy</link>.
+          If you run into problems while following the beginner tutorials,
+          join #gnome on <em>irc.gnome.org</em>.</p>
+        </item>
+      </list>
+    </section>
+
+    <section id="coding-style">
+      <title>Coding Style</title>
+
+      <p>Most applications in the GNOME project is written in the
+      <link href="http://en.wikipedia.org/wiki/Indent_style#GNU_style">GNU style</link>
+      of indentation. The tutorials and code examples presented are following
+      this convention and you are recommended to do so too.</p>
+    </section>
+
+    <section id="executing-code">
+      <title>Executing Code</title>
+
+      <p>To run the code samples:</p>
+
+      <steps>
+        <item>
+          <p>Copy and paste the code into <var>filename</var>.c</p>
+        </item>
+        <item>
+          <p>In the terminal type:</p>
+          <screen>gcc <var>filename</var>.c `pkg-config --cflags --libs gtk+-3.0` -o <var>filename</var></screen>
+          <screen>./<var>filename</var></screen>
+        </item>
+      </steps>
+
+      <note>
+        <p>For more information about compiling GTK+ programs see
+        <link href="http://developer.gnome.org/gtk3/3.4/gtk-compiling.html">Compiling GTK+ Applications on UNIX</link>.</p>
+      </note>
+    </section>
+
+  </section>
+
+  <section id="examples">
+    <title>Tutorials</title>
+  </section>
 
 <section id="samples">
-<title>Widget Demos</title>
+<title>Widget Code Examples</title>
  <section id="windows" style="2column"><title>Windows</title>
     <p></p>
   </section>
