@@ -6,7 +6,7 @@
       id="paned.c">
   <info>
     <title type="text">Paned (C)</title>
-    <link type="guide" xref="beginner.c#layout"/>
+    <link type="guide" xref="c#layout"/>
     <revision version="0.1" date="2013-07-04" status="review"/>
 
     <credit type="author copyright">

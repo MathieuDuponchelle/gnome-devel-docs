@@ -6,7 +6,7 @@
       id="toolbar.c">
   <info>
     <title type="text">Toolbar (C)</title>
-    <link type="guide" xref="beginner.c#menu-combo-toolbar"/>
+    <link type="guide" xref="c#menu-combo-toolbar"/>
     <link type="seealso" xref="menubar.c"/>
     <link type="seealso" xref="grid.c"/>
     <revision version="0.1" date="2012-08-19" status="draft"/>

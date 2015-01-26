@@ -6,7 +6,7 @@
       id="scale.c">
   <info>
     <title type="text">Scale (C)</title>
-    <link type="guide" xref="beginner.c#entry"/>
+    <link type="guide" xref="c#entry"/>
     <link type="seealso" xref="grid.c"/>
     <link type="seealso" xref="label.c"/>
     <revision version="0.2" date="2012-07-04" status="draft"/>

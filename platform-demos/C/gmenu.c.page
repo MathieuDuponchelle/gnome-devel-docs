@@ -6,7 +6,7 @@
       id="gmenu.c">
   <info>
     <title type="text">GMenu (C)</title>
-    <link type="guide" xref="beginner.c#menu-combo-toolbar"/>
+    <link type="guide" xref="c#menu-combo-toolbar"/>
     <revision version="0.1" date="2012-04-28" status="draft"/>
 
     <credit type="author copyright">

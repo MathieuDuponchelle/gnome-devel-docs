@@ -6,7 +6,7 @@
       id="tooltip.c">
   <info>
   <title type="text">Tooltip (C)</title>
-    <link type="guide" xref="beginner.c#misc"/>
+    <link type="guide" xref="c#misc"/>
     <link type="seealso" xref="toolbar.c"/>
     <revision version="0.1" date="2013-07-02" status="review"/>
 

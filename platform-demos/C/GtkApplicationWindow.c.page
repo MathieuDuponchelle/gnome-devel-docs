@@ -6,7 +6,7 @@
       id="GtkApplicationWindow.c">
   <info>
     <title type="text">ApplicationWindow (C)</title>
-    <link type="guide" xref="beginner.c#windows"/>
+    <link type="guide" xref="c#windows"/>
     <revision version="0.1" date="2012-04-28" status="draft"/>
 
     <credit type="author copyright">

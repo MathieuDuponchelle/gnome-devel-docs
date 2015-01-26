@@ -6,7 +6,7 @@
       id="dialog.c">
   <info>
     <title type="text">Dialog (C)</title>
-    <link type="guide" xref="beginner.c#windows"/>
+    <link type="guide" xref="c#windows"/>
     <link type="seealso" xref="label.c"/>
     <link type="seealso" xref="button.c"/>
     <revision version="0.1" date="2012-06-14" status="draft"/>

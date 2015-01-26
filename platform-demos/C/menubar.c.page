@@ -6,7 +6,7 @@
       id="menubar.c">
   <info>
     <title type="text">MenuBar (C)</title>
-    <link type="guide" xref="beginner.c#menu-combo-toolbar"/>
+    <link type="guide" xref="c#menu-combo-toolbar"/>
     <link type="seealso" xref="aboutdialog.c"/>
     <link type="seealso" xref="gmenu.c"/>
     <revision version="0.2" date="2012-08-19" status="draft"/>

@@ -6,7 +6,7 @@
       id="scrolledwindow.c">
   <info>
     <title type="text">ScrolledWindow (C)</title>
-    <link type="guide" xref="beginner.c#scrolling"/>
+    <link type="guide" xref="c#scrolling"/>
     <link type="seealso" xref="textview.c"/>
     <link type="seealso" xref="image.c"/>
     <revision version="0.1" date="2012-08-20" status="draft"/>
