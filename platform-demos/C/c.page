@@ -15,16 +15,71 @@
 
 <title>Platform Demos in C</title>
 
-<links type="section" />
+<section id="prerequisites" >
+  <title>Prerequisites</title>
 
-<section id="examples">
-<title>Application Demos</title>
-
+  <p>To compile these platform demos you will need a C compiler, for example
+  <link href="https://gcc.gnu.org/">gcc</link>. You will also need GTK+ 3
+  including headers and pkg-config files. Linux distributions usually abstract
+  GTK+ 3 headers and pkg-config files into separate packages called
+  <em>gtk3-devel</em>, <em>gtk3-dev</em> or similar.</p>
 
 </section>
 
+<section id="For beginners" ui:expanded="false">
+  <title>Guidelines for new developers</title>
+
+  <p>Several tools has been developed to assist you in developing your GNOME
+  application. GNOME also recommends a specific coding style and conventions
+  which this section will elaborate further upon.</p>
+
+  <section id="recommended-tools">
+    <title>Recommended tools</title>
+
+    <list>
+      <item>
+        <p><link href="https://wiki.gnome.org/Apps/Devhelp">DevHelp</link>: an
+        API documentation browser for GNOME.</p>
+      </item>
+      <item>
+        <p>A GNOME IDE (Integrated Development Environment). An IDE can assist
+        you in writing and debugging C code, for example
+        <link href="https://wiki.gnome.org/Apps/Builder">Builder</link> or
+        <link href="https://wiki.gnome.org/Apps/Anjuta">Anjuta</link>.</p>
+      </item>
+      <item>
+        <p><link href="http://glade.gnome.org/">Glade</link>: a user interface
+        designer for GTK+ Applications.</p>
+      </item>
+      <item>
+        <p>An IRC Client, for example
+        <link href="https://wiki.gnome.org/Apps/Polari">Polari</link> or
+        <link href="https://wiki.gnome.org/Apps/Empathy">Empathy</link>. If you
+        run into problems while following the beginner tutorials, join #gnome
+        on GimpNet.</p>
+      </item>
+      </list>
+    </section>
+
+  <section id="coding-style">
+    <title>Coding Style</title>
+
+    <p>Most applications in the GNOME project is written in the
+    <link href="http://en.wikipedia.org/wiki/Indent_style#GNU_style">GNU
+    style</link> of indentation. The tutorials and code examples presented are
+    following this convention and you are recommended to do so too.</p>
+
+  </section>
+</section>
+
+<links type="section" />
+
+<section id="examples">
+  <title>Tutorials</title>
+</section>
+
 <section id="samples">
-<title>Widget Demos</title>
+  <title>Widget Code Examples</title>
  <section id="windows" style="2column"><title>Windows</title>
     <p></p>
   </section>
