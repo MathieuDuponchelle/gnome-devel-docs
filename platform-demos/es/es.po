@@ -4,13 +4,13 @@
 # This file is distributed under the same license as the gnome-devel-docs package.
 # Jorge González <jorgegonz@svn.gnome.org>, 2011.
 # Nicolás Satragno <nsatragno@gnome.org>, 2012, 2013.
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011, 2012, 2013, 2014.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011, 2012, 2013, 2014, 2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs.platform-demos.master\n"
-"POT-Creation-Date: 2014-12-22 07:36+0000\n"
-"PO-Revision-Date: 2014-12-22 12:28+0100\n"
+"POT-Creation-Date: 2015-01-27 07:35+0000\n"
+"PO-Revision-Date: 2015-02-02 11:38+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "Language: \n"
@@ -24,7 +24,7 @@ msgstr ""
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
-"Daniel Mustieles <daniel.mustieles@gmail.com>, 2011 - 2014\n"
+"Daniel Mustieles <daniel.mustieles@gmail.com>, 2011 - 2015\n"
 "Nicolás Satragno <nsatragno@gmail.com>, 2012 - 2013\n"
 "Jorge González <jorgegonz@svn.gnome.org>, 2011"
 
@@ -4689,40 +4689,116 @@ msgid "Tutorials"
 msgstr "Tutoriales"
 
 #. (itstool) path: section/title
-#: C/beginner.c.page:43 C/beginner.js.page:46 C/beginner.vala.page:46
+#: C/beginner.c.page:43
+msgid "Prerequisites"
+msgstr "Prerrequisitos"
+
+#. (itstool) path: section/p
+#: C/beginner.c.page:45
+msgid ""
+"To begin developing GTK+ 3 applications in C you will need a C compiler, for "
+"example <link href=\"https://gcc.gnu.org/\">gcc</link>. You will also need "
+"GTK+ 3 including headers and pkg-config files. Linux distributions usually "
+"abstract GTK+ 3 headers and pkg-config files into separate packages called "
+"<em>gtk3-devel</em>, <em>gtk3-dev</em> or similar."
+msgstr ""
+"Para empezar a desarrollar aplicación de GTK+ 3 en C necesitará un "
+"compilador de C, por ejemplo <link href=\"https://gcc.gnu.org/\">gcc</link>. "
+"También necesitará las cabeceras de GTK+3 y los archivos pkg-config. "
+"Normalmente, las distribuciones de Linux proporcionan las cabeceras de GTK+ "
+"3y los archivos pkg-config en paquetes separados llamados <em>gtk3-devel</"
+"em>, <em>gtk3-dev</em> o similar."
+
+#. (itstool) path: section/title
+#: C/beginner.c.page:48
+msgid "Other recommended tools"
+msgstr "Otras herramientas recomendadas"
+
+#. (itstool) path: item/p
+#: C/beginner.c.page:52
+#| msgid ""
+#| "<link href=\"https://wiki.gnome.org/Apps/DeveloperTools/Installation"
+#| "\">Others</link>"
+msgid ""
+"<link href=\"https://wiki.gnome.org/Apps/Devhelp\">DevHelp</link>: An API "
+"documentation browser for GNOME."
+msgstr ""
+"<link href=\"https://wiki.gnome.org/Apps/Devhelp\">DevHelp</link>: un "
+"explorador de la documentación de la API para GNOME."
+
+#. (itstool) path: item/p
+#: C/beginner.c.page:55
+msgid ""
+"A GNOME IDE (Integrated Development Environment). An IDE can assist you in "
+"writing and debugging C code, for example <link href=\"https://wiki.gnome."
+"org/Apps/Builder\">Builder</link> or <link href=\"https://wiki.gnome.org/"
+"Apps/Anjuta\">Anjuta</link>."
+msgstr ""
+"Un EID para GNOME (Entorno integrado de desarrollo). Un EID puede ayudarle a "
+"escribir y depurar código en C, por ejemplo <link href=\"https://wiki.gnome."
+"org/Apps/Builder\">Builder</link> o <link href=\"https://wiki.gnome.org/Apps/"
+"Anjuta\">Anjuta</link>."
+
+#. (itstool) path: item/p
+#: C/beginner.c.page:58
+#| msgid ""
+#| "To create the toolbar using the <link href=\"http://glade.gnome.org/"
+#| "\">Glade Interface Designer</link>:"
+msgid ""
+"<link href=\"http://glade.gnome.org/\">Glade</link>: A user interface "
+"designer for GTK+ Applications."
+msgstr ""
+"<link href=\"http://glade.gnome.org/\">Glade</link>: un diseñador de "
+"interfaces para aplicaciones en GTK+."
+
+#. (itstool) path: item/p
+#: C/beginner.c.page:61
+msgid ""
+"An IRC Client, for example <link href=\"https://wiki.gnome.org/Apps/Polari"
+"\">Polari</link> or <link href=\"https://wiki.gnome.org/Apps/Empathy"
+"\">Empathy</link>. If you run into problems while following the beginner "
+"tutorials, join #gnome on GimpNet."
+msgstr ""
+"Un cliente de IRC, por ejemplo <link href=\"https://wiki.gnome.org/Apps/"
+"Polari\">Polari</link> o <link href=\"https://wiki.gnome.org/Apps/Empathy"
+"\">Empathy</link>. Si tiene problemas al seguir los tutoriales para "
+"principiantes, únase a #gnome en GimpNet."
+
+#. (itstool) path: section/title
+#: C/beginner.c.page:69 C/beginner.js.page:46 C/beginner.vala.page:46
 #: C/py.page:32
 msgid "Code samples"
 msgstr "Ejemplos de código"
 
 #. (itstool) path: section/p
-#: C/beginner.c.page:44 C/beginner.js.page:48 C/beginner.vala.page:47
+#: C/beginner.c.page:70 C/beginner.js.page:48 C/beginner.vala.page:47
 msgid "To run the code samples:"
 msgstr "Para ejecutar los ejemplos de código:"
 
 #. (itstool) path: item/p
-#: C/beginner.c.page:48
+#: C/beginner.c.page:74
 msgid "Copy and paste the code into <var>filename</var>.c"
 msgstr "Copie y pegue el código en <var>nombre_archivo</var>.c"
 
 #. (itstool) path: item/p
-#: C/beginner.c.page:49 C/beginner.c.page:62 C/beginner.vala.page:52
+#: C/beginner.c.page:75 C/beginner.vala.page:52
 msgid "In the terminal type:"
 msgstr "Escriba en la terminal:"
 
 #. (itstool) path: item/screen
-#: C/beginner.c.page:50
+#: C/beginner.c.page:76
 #, no-wrap
 msgid "gcc <var>filename</var>.c `pkg-config --cflags --libs gtk+-3.0` -o <var>filename</var>\n"
 msgstr "gcc <var>nombre_archivo</var>.c `pkg-config --cflags --libs gtk+-3.0` -o <var>nombre_archivo</var>\n"
 
 #. (itstool) path: item/screen
-#: C/beginner.c.page:52 C/beginner.c.page:66 C/beginner.vala.page:54
+#: C/beginner.c.page:78 C/beginner.vala.page:54
 #, no-wrap
 msgid "./<var>filename</var>"
 msgstr "./<var>nombre_archivo</var>"
 
 #. (itstool) path: note/p
-#: C/beginner.c.page:56
+#: C/beginner.c.page:82
 msgid ""
 "For more information about compiling GTK+ programs see <link href=\"http://"
 "developer.gnome.org/gtk3/3.4/gtk-compiling.html\">Compiling GTK+ "
@@ -4732,115 +4808,99 @@ msgstr ""
 "<link href=\"http://developer.gnome.org/gtk3/3.4/gtk-compiling.html"
 "\">Compilar aplicaciones GTK+ en UNIX</link>."
 
-#. (itstool) path: section/p
-#: C/beginner.c.page:60
-msgid "You can also use the Vala compiler to compile these samples:"
-msgstr "También puede usar el compilador de Vala para compilar estos ejemplos:"
-
-#. (itstool) path: item/screen
-#: C/beginner.c.page:63
-#, no-wrap
-msgid "valac --pkg gtk+-3.0 <var>filename</var>.c"
-msgstr "valac --pkg gtk+-3.0 <var>nombre_archivo</var>.c"
-
-#. (itstool) path: item/p
-#: C/beginner.c.page:65
-msgid "To run:"
-msgstr "Para ejecutarlos:"
-
 #. (itstool) path: section/title
-#: C/beginner.c.page:69 C/beginner.js.page:55 C/beginner.py.page:32
+#: C/beginner.c.page:86 C/beginner.js.page:55 C/beginner.py.page:32
 #: C/beginner.vala.page:58
 msgid "Windows"
 msgstr "Ventanas"
 
 #. (itstool) path: section/title
-#: C/beginner.c.page:72 C/beginner.js.page:57 C/beginner.py.page:34
+#: C/beginner.c.page:89 C/beginner.js.page:57 C/beginner.py.page:34
 #: C/beginner.vala.page:61
 msgid "Display widgets"
 msgstr "Widgets de visualización"
 
 #. (itstool) path: section/title
-#: C/beginner.c.page:74 C/beginner.js.page:59 C/beginner.py.page:36
+#: C/beginner.c.page:91 C/beginner.js.page:59 C/beginner.py.page:36
 #: C/beginner.vala.page:63
 msgid "Buttons and toggles"
 msgstr "Botones y casillas"
 
 #. (itstool) path: section/title
-#: C/beginner.c.page:76 C/beginner.js.page:61 C/beginner.py.page:38
+#: C/beginner.c.page:93 C/beginner.js.page:61 C/beginner.py.page:38
 #: C/beginner.vala.page:65
 msgid "Numeric and text data entry"
 msgstr "Entrada de daos numérica y de texto"
 
 #. (itstool) path: section/title
-#: C/beginner.c.page:78 C/beginner.js.page:63 C/beginner.py.page:40
+#: C/beginner.c.page:95 C/beginner.js.page:63 C/beginner.py.page:40
 #: C/beginner.vala.page:67
 msgid "Multiline text editor"
 msgstr "Editor de texto multilínea"
 
 #. (itstool) path: section/title
-#: C/beginner.c.page:80 C/beginner.js.page:65 C/beginner.py.page:42
+#: C/beginner.c.page:97 C/beginner.js.page:65 C/beginner.py.page:42
 #: C/beginner.vala.page:69
 msgid "Menu, combo box and toolbar widgets"
 msgstr "Widgets de menú, caja combinada y barra de herramientas"
 
 #. (itstool) path: section/title
-#: C/beginner.c.page:82 C/beginner.js.page:67 C/beginner.py.page:44
+#: C/beginner.c.page:99 C/beginner.js.page:67 C/beginner.py.page:44
 #: C/beginner.vala.page:71
 msgid "TreeView widget"
 msgstr "Widget TreeView"
 
 #. (itstool) path: section/title
 #. (itstool) path: steps/title
-#: C/beginner.c.page:84 C/beginner.js.page:69 C/beginner.py.page:46
+#: C/beginner.c.page:101 C/beginner.js.page:69 C/beginner.py.page:46
 #: C/beginner.vala.page:73 C/tutorial.py.page:127
 msgid "Selectors"
 msgstr "Selectores"
 
 #. (itstool) path: section/title
-#: C/beginner.c.page:85 C/beginner.js.page:70 C/beginner.py.page:47
+#: C/beginner.c.page:102 C/beginner.js.page:70 C/beginner.py.page:47
 #: C/beginner.vala.page:74
 msgid "File selectors"
 msgstr "Selectores de archivos"
 
 #. (itstool) path: section/title
-#: C/beginner.c.page:87 C/beginner.js.page:72 C/beginner.py.page:49
+#: C/beginner.c.page:104 C/beginner.js.page:72 C/beginner.py.page:49
 #: C/beginner.vala.page:76
 msgid "Font selectors"
 msgstr "Selectores de tipografías"
 
 #. (itstool) path: section/title
-#: C/beginner.c.page:89 C/beginner.js.page:74 C/beginner.py.page:51
+#: C/beginner.c.page:106 C/beginner.js.page:74 C/beginner.py.page:51
 #: C/beginner.vala.page:78
 msgid "Color Selectors"
 msgstr "Selectores de color"
 
 #. (itstool) path: section/title
-#: C/beginner.c.page:92 C/beginner.js.page:77 C/beginner.py.page:54
+#: C/beginner.c.page:109 C/beginner.js.page:77 C/beginner.py.page:54
 #: C/beginner.vala.page:81
 msgid "Layout containers"
 msgstr "Contenedores de la distribución"
 
 #. (itstool) path: section/title
-#: C/beginner.c.page:94 C/beginner.js.page:79 C/beginner.py.page:56
+#: C/beginner.c.page:111 C/beginner.js.page:79 C/beginner.py.page:56
 #: C/beginner.vala.page:83
 msgid "Ornaments"
 msgstr "Adornos"
 
 #. (itstool) path: section/title
-#: C/beginner.c.page:96 C/beginner.js.page:81 C/beginner.py.page:58
+#: C/beginner.c.page:113 C/beginner.js.page:81 C/beginner.py.page:58
 #: C/beginner.vala.page:85
 msgid "Scrolling"
 msgstr "Desplazamiento"
 
 #. (itstool) path: section/title
-#: C/beginner.c.page:98 C/beginner.js.page:83 C/beginner.py.page:60
+#: C/beginner.c.page:115 C/beginner.js.page:83 C/beginner.py.page:60
 #: C/beginner.vala.page:87
 msgid "Miscellaneous"
 msgstr "Varios"
 
 #. (itstool) path: section/title
-#: C/beginner.c.page:103 C/beginner.js.page:88 C/beginner.vala.page:92
+#: C/beginner.c.page:120 C/beginner.js.page:88 C/beginner.vala.page:92
 #: C/menubar.vala.page:198
 msgid "Exercises"
 msgstr "Ejercicios"
@@ -10972,94 +11032,6 @@ msgstr ""
 #. (itstool) path: page/code
 #: C/dialog.js.page:25
 #, no-wrap
-#| msgid ""
-#| "#!/usr/bin/gjs\n"
-#| "\n"
-#| "const Gio = imports.gi.Gio;\n"
-#| "const GLib = imports.gi.GLib;\n"
-#| "const Gtk = imports.gi.Gtk;\n"
-#| "const Lang = imports.lang;\n"
-#| "\n"
-#| "const DialogExample = new Lang.Class ({\n"
-#| "    Name: 'Dialog Example',\n"
-#| "\n"
-#| "    // Create the application itself\n"
-#| "        _init: function () {\n"
-#| "            this.application = new Gtk.Application ({\n"
-#| "                application_id: 'org.example.jsdialog',\n"
-#| "                flags: Gio.ApplicationFlags.FLAGS_NONE\n"
-#| "            });\n"
-#| "\n"
-#| "    // Connect 'activate' and 'startup' signals to the callback functions\n"
-#| "    this.application.connect('activate', Lang.bind(this, this._onActivate));\n"
-#| "    this.application.connect('startup', Lang.bind(this, this._onStartup));\n"
-#| "    },\n"
-#| "\n"
-#| "    // Callback function for 'activate' signal presents windows when active\n"
-#| "    _onActivate: function () {\n"
-#| "        this._window.present ();\n"
-#| "    },\n"
-#| "\n"
-#| "    // Callback function for 'startup' signal builds the UI\n"
-#| "    _onStartup: function () {\n"
-#| "        this._buildUI ();\n"
-#| "    },\n"
-#| "\n"
-#| "    // Build the application's UI\n"
-#| "    _buildUI: function () {\n"
-#| "\n"
-#| "        // Create the application window\n"
-#| "            this._window = new Gtk.ApplicationWindow  ({ application: this.application,\n"
-#| "                                                         window_position: Gtk.WindowPosition.CENTER,\n"
-#| "                                                         title: \"Gtk.Dialog Example\",\n"
-#| "                                                         default_height: 50,\n"
-#| "                                                         default_width: 250 });\n"
-#| "\n"
-#| "        // Create a button\n"
-#| "        this._button = new Gtk.Button ({label: \"Click Me\"});\n"
-#| "        this._window.add (this._button);\n"
-#| "\n"
-#| "        // Bind it to the function that creates the dialog\n"
-#| "        this._button.connect (\"clicked\", Lang.bind(this, this._createDialog));\n"
-#| "\n"
-#| "                // Show the window and all child widgets\n"
-#| "                this._window.show_all();\n"
-#| "    },\n"
-#| "\n"
-#| "    _createDialog: function () {\n"
-#| "\n"
-#| "        // Create the dialog\n"
-#| "        this._dialog = new Gtk.Dialog ({ transient_for: this._window,\n"
-#| "                         modal: true,\n"
-#| "                         title: \"A Gtk+ dialog\" });\n"
-#| "\n"
-#| "        // Create the dialog's content area, which contains a message\n"
-#| "        this._contentArea = this._dialog.get_content_area();\n"
-#| "        this._message = new Gtk.Label ({label: \"This demonstrates a dialog with a label\"});\n"
-#| "        this._contentArea.add (this._message);\n"
-#| "\n"
-#| "        // Create the dialog's action area, which contains a stock OK button\n"
-#| "        this._actionArea = this._dialog.get_action_area();\n"
-#| "        this._OKButton = new Gtk.Button.new_from_stock (Gtk.STOCK_OK);\n"
-#| "        this._actionArea.add (this._OKButton);\n"
-#| "\n"
-#| "        // Connect the button to the function that handles what it does\n"
-#| "        this._OKButton.connect (\"clicked\", Lang.bind (this, this._OKHandler));\n"
-#| "\n"
-#| "        this._dialog.show_all();\n"
-#| "    },\n"
-#| "\n"
-#| "    _OKHandler: function (dialog, response_id) {\n"
-#| "\n"
-#| "        // Destroy the dialog\n"
-#| "        this._dialog.destroy();\n"
-#| "    }\n"
-#| "\n"
-#| "});\n"
-#| "\n"
-#| "// Run the application\n"
-#| "let app = new DialogExample ();\n"
-#| "app.application.run (ARGV);\n"
 msgid ""
 "#!/usr/bin/gjs\n"
 "\n"
@@ -18179,26 +18151,6 @@ msgstr "Crear sonidos con GStreamer"
 #. (itstool) path: section/code
 #: C/guitar-tuner.js.page:104
 #, no-wrap
-#| msgid ""
-#| "\n"
-#| "var frequencies = {E: 329.63, A: 440,\tD: 587.33,\tG: 783.99,\tB: 987.77,\te: 1318.5}\n"
-#| "\n"
-#| "function playSound(frequency){\n"
-#| "  var pipeline = new Gst.Pipeline({name: \"note\"});\n"
-#| "  var source = new Gst.ElementFactory.make(\"audiotestsrc\",\"source\");\n"
-#| "  var sink = new Gst.ElementFactory.make(\"autoaudiosink\",\"output\");\n"
-#| "\n"
-#| "  source.set_property('freq', frequency);\n"
-#| "  pipeline.add(source);\n"
-#| "  pipeline.add(sink);\n"
-#| "  source.link(sink);\n"
-#| "  pipeline.set_state(Gst.State.PLAYING);\n"
-#| "\n"
-#| "  Mainloop.timeout_add(500, function () {\n"
-#| "    pipeline.set_state(Gst.State.NULL);\n"
-#| "\t  return false;\n"
-#| "  });\n"
-#| "}"
 msgid ""
 "\n"
 "var frequencies = {E: 329.63, A: 440,\tD: 587.33,\tG: 783.99,\tB: 987.77,\te: 1318.5}\n"
@@ -18348,10 +18300,6 @@ msgstr "El programa completo"
 
 #. (itstool) path: section/p
 #: C/guitar-tuner.js.page:158
-#| msgid ""
-#| "So this is what all the parts combined looks like. When running this "
-#| "code, you should be able to tune your guitar(if you have correctly "
-#| "calibrated speakers)."
 msgid ""
 "So this is what all the parts combined looks like. When running this code, "
 "you should be able to tune your guitar (if you have correctly calibrated "
@@ -18364,82 +18312,6 @@ msgstr ""
 #. (itstool) path: section/code
 #: C/guitar-tuner.js.page:159
 #, no-wrap
-#| msgid ""
-#| "\n"
-#| "#!/usr/bin/gjs\n"
-#| "var Gtk = imports.gi.Gtk;\n"
-#| "var Gst = imports.gi.Gst;\n"
-#| "\n"
-#| "const Mainloop = imports.mainloop;\n"
-#| "\n"
-#| "Gtk.init(null, 0);\n"
-#| "Gst.init(null, 0);\n"
-#| "\n"
-#| "var guitarwindow = new Gtk.Window({type: Gtk.WindowType.TOPLEVEL, border_width: 100});\n"
-#| "guitarwindow.title = \"Guitar Tuner\";\n"
-#| "guitarwindow.connect(\"destroy\", function(){Gtk.main_quit()});\n"
-#| "\n"
-#| "var guitar_box = new Gtk.ButtonBox ({orientation: Gtk.Orientation.VERTICAL, spacing: 10});\n"
-#| "\n"
-#| "var E = new Gtk.Button({label: \"E\"});\n"
-#| "var A = new Gtk.Button({label: \"A\"});\n"
-#| "var D = new Gtk.Button({label: \"D\"});\n"
-#| "var G = new Gtk.Button({label: \"G\"});\n"
-#| "var B = new Gtk.Button({label: \"B\"});\n"
-#| "var e = new Gtk.Button({label: \"e\"});\n"
-#| "\n"
-#| "var frequencies = {E: 329.63, A: 440,\tD: 587.33,\tG: 783.99,\tB: 987.77,\te: 1318.5}\n"
-#| "\n"
-#| "\n"
-#| "function playSound(frequency){\n"
-#| "  var pipeline = new Gst.Pipeline({name: \"note\"});\n"
-#| "\n"
-#| "  var source = new Gst.ElementFactory.make(\"audiotestsrc\",\"source\");\n"
-#| "  var sink = new Gst.ElementFactory.make(\"autoaudiosink\",\"output\");\n"
-#| "\n"
-#| "  source.set_property('freq', frequency);\n"
-#| "  pipeline.add(source);\n"
-#| "  pipeline.add(sink);\n"
-#| "  source.link(sink);\n"
-#| "  pipeline.set_state(Gst.State.PLAYING);\n"
-#| "\n"
-#| "  Mainloop.timeout_add(500, function () {\n"
-#| "    pipeline.set_state(Gst.State.NULL);\n"
-#| "\t  return false;\n"
-#| "});\n"
-#| "}\n"
-#| "\n"
-#| "E.connect(\"clicked\", function() {\n"
-#| "  playSound(frequencies.E);\n"
-#| "});\n"
-#| "A.connect(\"clicked\", function(){\n"
-#| "  playSound(frequencies.A);\n"
-#| "});\n"
-#| "D.connect(\"clicked\", function(){\n"
-#| "  playSound(frequencies.D);\n"
-#| "});\n"
-#| "G.connect(\"clicked\", function(){\n"
-#| "  playSound(frequencies.G);\n"
-#| "});\n"
-#| "B.connect(\"clicked\", function(){\n"
-#| "  playSound(frequencies.B);\n"
-#| "});\n"
-#| "e.connect(\"clicked\", function(){\n"
-#| "  playSound(frequencies.e);\n"
-#| "});\n"
-#| "\n"
-#| "guitar_box.add(E);\n"
-#| "guitar_box.add(A);\n"
-#| "guitar_box.add(D);\n"
-#| "guitar_box.add(G);\n"
-#| "guitar_box.add(B);\n"
-#| "guitar_box.add(e);\n"
-#| "\n"
-#| "guitarwindow.add(guitar_box);\n"
-#| "\n"
-#| "guitar_box.show_all();\n"
-#| "guitarwindow.show();\n"
-#| "Gtk.main();"
 msgid ""
 "\n"
 "#!/usr/bin/gjs\n"
@@ -20644,7 +20516,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/hello-world.c.page:28 C/hello-world.js.page:28 C/hello-world.py.page:28
+#: C/hello-world.c.page:36 C/hello-world.js.page:28 C/hello-world.py.page:28
 #: C/hello-world.vala.page:28
 msgctxt "_"
 msgid ""
@@ -20659,13 +20531,8 @@ msgid "Hello World (C)"
 msgstr "Hola mundo (C)"
 
 #. (itstool) path: info/desc
-#: C/hello-world.c.page:24 C/hello-world.js.page:24 C/hello-world.py.page:24
-#: C/hello-world.vala.page:24
-msgid "A basic \"hello, world\" application"
-msgstr "Una aplicación «Hola mundo» básica"
-
 #. (itstool) path: page/title
-#: C/hello-world.c.page:27 C/hello-world.js.page:27 C/hello-world.py.page:27
+#: C/hello-world.c.page:24 C/hello-world.js.page:27 C/hello-world.py.page:27
 #: C/hello-world.vala.page:27
 msgid ""
 "How to build, install and create a <file>tar.xz</file> of a Hello World "
@@ -20674,25 +20541,31 @@ msgstr ""
 "Cómo construir, instalar y crear un <file>tar.xz</file> de un programa Hola "
 "mundo"
 
+#. (itstool) path: page/title
+#: C/hello-world.c.page:27
+#| msgid "create a small \"Hello, World\" application using GTK+"
+msgid "Writing a Hello World application in C with GTK+ 3."
+msgstr "Escribir una pequeña aplicación «Hola, mundo» en C con GTK+"
+
 #. (itstool) path: synopsis/p
-#: C/hello-world.c.page:30 C/hello-world.js.page:30 C/hello-world.py.page:30
+#: C/hello-world.c.page:29 C/hello-world.js.page:30 C/hello-world.py.page:30
 #: C/hello-world.vala.page:30
 msgid "This tutorial will demonstrate how to:"
 msgstr "Este tutorial le demostrará cómo:"
 
 #. (itstool) path: item/p
-#: C/hello-world.c.page:32 C/hello-world.vala.page:32
+#: C/hello-world.c.page:31 C/hello-world.vala.page:32
 msgid "create a small \"Hello, World\" application using GTK+"
 msgstr "crear una pequeña aplicación «Hola, mundo» usando GTK+"
 
 #. (itstool) path: item/p
-#: C/hello-world.c.page:33 C/hello-world.js.page:33 C/hello-world.py.page:33
+#: C/hello-world.c.page:32 C/hello-world.js.page:33 C/hello-world.py.page:33
 #: C/hello-world.vala.page:33
 msgid "make the <file>.desktop</file> file"
 msgstr "hacer el archivo <file>.desktop</file>"
 
 #. (itstool) path: item/p
-#: C/hello-world.c.page:34 C/hello-world.js.page:34 C/hello-world.py.page:34
+#: C/hello-world.c.page:33 C/hello-world.js.page:34 C/hello-world.py.page:34
 #: C/hello-world.vala.page:34
 msgid "how to set up the build system"
 msgstr "configurar el sistema de construcción"
@@ -21411,6 +21284,12 @@ msgstr ""
 msgctxt "text"
 msgid "Hello World (JavaScript)"
 msgstr "Hola mundo (JavaScript)"
+
+#. (itstool) path: info/desc
+#: C/hello-world.js.page:24 C/hello-world.py.page:24
+#: C/hello-world.vala.page:24
+msgid "A basic \"hello, world\" application"
+msgstr "Una aplicación «Hola mundo» básica"
 
 #. (itstool) path: item/p
 #: C/hello-world.js.page:32
@@ -27471,14 +27350,18 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/magic-mirror.vala.page:57
+#| msgid ""
+#| "Choose <gui>GTK+ (simple)</gui> from the <gui>Vala</gui> tab, click "
+#| "<gui>Forward</gui>, and fill out your details on the next few pages. Use "
+#| "<file>guitar-tuner</file> as project name and directory."
 msgid ""
 "Choose <gui>GTK+ (simple)</gui> from the <gui>Vala</gui> tab, click "
 "<gui>Forward</gui>, and fill out your details on the next few pages. Use "
-"<file>guitar-tuner</file> as project name and directory."
+"<file>magic-mirror</file> as project name and directory."
 msgstr ""
 "Elija <gui>GTK+ (simple)</gui> de la pestaña <gui>Vala</gui>, pulse "
 "<gui>Adelante</gui> y rellene los detalles en las siguientes páginas. Use "
-"<file>afinador-guitarra</file> como nombre de proyecto y de carpeta."
+"<file>espejo-magico</file> como nombre de proyecto y de carpeta."
 
 #. (itstool) path: item/p
 #: C/magic-mirror.vala.page:60
@@ -59666,6 +59549,16 @@ msgstr ""
 "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.Window.window_position.html"
 "\">window_position</link>"
 
+#~ msgid "You can also use the Vala compiler to compile these samples:"
+#~ msgstr ""
+#~ "También puede usar el compilador de Vala para compilar estos ejemplos:"
+
+#~ msgid "valac --pkg gtk+-3.0 <var>filename</var>.c"
+#~ msgstr "valac --pkg gtk+-3.0 <var>nombre_archivo</var>.c"
+
+#~ msgid "To run:"
+#~ msgstr "Para ejecutarlos:"
+
 #~ msgid "Creative Commons Share Alike 3.0"
 #~ msgstr "Creative Commons Compartir Igual 3.0"
 
@@ -59852,13 +59745,6 @@ msgstr ""
 #~ "<link href=\"https://wiki.gnome.org/Apps/DeveloperTools/Installation/"
 #~ "OpenSuSE\"> <media type=\"image\" mime=\"image/png\" src=\"media/opensuse."
 #~ "png\">OpenSuSE</media> </link>"
-
-#~ msgid ""
-#~ "<link href=\"https://wiki.gnome.org/Apps/DeveloperTools/Installation"
-#~ "\">Others</link>"
-#~ msgstr ""
-#~ "<link href=\"https://wiki.gnome.org/Apps/DeveloperTools/Installation"
-#~ "\">Otras</link>"
 
 #~ msgid "Required versions"
 #~ msgstr "Versiones necesarias"
