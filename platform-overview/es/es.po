@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: platform-overview.master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-19 07:35+0000\n"
-"PO-Revision-Date: 2015-01-19 18:14+0100\n"
+"POT-Creation-Date: 2015-01-27 07:35+0000\n"
+"PO-Revision-Date: 2015-02-02 11:38+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "Language: \n"
@@ -2447,16 +2447,6 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/tech-atk.page:37
-#| msgid ""
-#| "Nonetheless, you should be aware of accessibility issues when when "
-#| "developing your applications. Although GTK+ interfaces provide reasonable "
-#| "accessibility by default, you can often improve how well your program "
-#| "behaves with accessibility tools by providing additional information to "
-#| "ATK. If you develop custom widgets, you should ensure that they expose "
-#| "their properties to ATK. You should also avoid using sound, graphics, or "
-#| "color as the sole means of conveying information to the user; have "
-#| "redundant ways of providing this information instead of relying on the "
-#| "user being to perceive a particular medium."
 msgid ""
 "Nonetheless, you should be aware of accessibility issues when when "
 "developing your applications. Although GTK+ interfaces provide reasonable "
@@ -4916,7 +4906,7 @@ msgstr "Ejecutar la aplicación"
 
 #. (itstool) path: links/title
 #: C/tour-application.page:29 C/tour-events.page:30 C/tour-get_object.page:30
-#: C/tour-gjs.page:29 C/tour-glade.page:29 C/tour.page:32
+#: C/tour-gjs.page:29 C/tour-glade.page:29 C/tour.page:33
 #: C/tour-summary.page:29
 msgid "Get started with GNOME"
 msgstr "Primeros pasos en GNOME"
@@ -5264,16 +5254,18 @@ msgstr ""
 
 #. (itstool) path: info/desc
 #: C/tour.page:24
-msgid "Get your GtkApplication started and create a UI using Glade."
-msgstr "Empiece su GtkApplication y cree una IU usando Glade."
+#| msgid "Get your GtkApplication started and create a UI using Glade."
+msgid ""
+"Get your GtkApplication started in JavaScript and create a UI using Glade."
+msgstr "Empiece su GtkApplication en JavaScript y cree una IU usando Glade."
 
 #. (itstool) path: page/title
-#: C/tour.page:27
+#: C/tour.page:28
 msgid "Get started"
 msgstr "Primeros pasos"
 
 #. (itstool) path: page/p
-#: C/tour.page:35
+#: C/tour.page:36
 msgid ""
 "User interface (UI) can be constructed with code or created in Glade, the UI "
 "editor for GNOME. Glade produces XML files that describe attributes of an "
@@ -5284,7 +5276,7 @@ msgstr ""
 "atributos de una aplicación."
 
 #. (itstool) path: page/p
-#: C/tour.page:37
+#: C/tour.page:38
 msgid ""
 "You will generate a GtkBuilder file in Glade and access and display a window "
 "based on the contents of that file with a Gjs script. The script is examined "
