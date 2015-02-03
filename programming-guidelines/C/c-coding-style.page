@@ -15,31 +15,31 @@
       <name>The GTK+ Team</name>
     </credit>
 
-    <desc>Our guidelines for C code in Gnome</desc>
+    <desc>Our guidelines for C code in GNOME</desc>
   </info>
 
   <title>C Coding Style</title>
 
   <p>
     This document presents the preferred coding style for C programs
-    in Gnome.  While coding style is very much a matter of taste, in
-    Gnome we favor a coding style that promotes consistency,
+    in GNOME.  While coding style is very much a matter of taste, in
+    GNOME we favor a coding style that promotes consistency,
     readability, and maintainability.
   </p>
 
   <p>
     We present examples of good coding style as well as examples of
-    bad style that is not acceptable in Gnome.  Please try to submit
-    patches that conform to Gnome's coding style; this indicates that
+    bad style that is not acceptable in GNOME.  Please try to submit
+    patches that conform to GNOME's coding style; this indicates that
     you have done your homework to respect the project's goal of
-    long-term maintainability.  Patches with Gnome's coding style will
+    long-term maintainability.  Patches with GNOME's coding style will
     also be easier to review!
   </p>
 
   <note>
     <p>
       This document is for C code.  For other languages, check the
-      <link xref="index">main page</link> of the Gnome Programming
+      <link xref="index">main page</link> of the GNOME Programming
       Guidelines.
     </p>
   </note>
@@ -49,7 +49,7 @@
     document, the Linux Kernel's CodingStyle, and the GNU Coding
     Standards.  These are slight variations of each other, with
     particular modifications for each project's particular needs and
-    culture, and Gnome's version is no different.
+    culture, and GNOME's version is no different.
   </p>
 
   <section id="most-important-rule">
@@ -92,7 +92,7 @@
 
     <p>
       In general there are two preferred indentation styles for code
-      in Gnome.
+      in GNOME.
     </p>
 
     <list type="ordered">
@@ -146,8 +146,8 @@ for (i = 0; i &lt; num_elements; i++)
     <p>
       Both styles have their pros and cons.  The most important things
       is to <em>be consistent</em> with the surrounding code.  For
-      example, the GTK+ library, which is Gnome's widget toolkit, is
-      written with the GNU style.  Nautilus, Gnome's file manager, is
+      example, the GTK+ library, which is GNOME's widget toolkit, is
+      written with the GNU style.  Nautilus, GNOME's file manager, is
       written in Linux kernel style.  Both styles are perfectly
       readable and consistent when you get used to them.
     </p>
