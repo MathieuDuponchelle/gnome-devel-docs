@@ -17,6 +17,11 @@
       <name>Morten Welinder</name>
       <email its:translate="no">mortenw@gnome.org</email>
     </credit>
+    <credit type="author copyright">
+      <name>Philip Withnall</name>
+      <email its:translate="no">philip.withnall@collabora.co.uk</email>
+      <years>2015</years>
+    </credit>
     <credit type="publisher">
       <name>GNOME Foundation</name>
       <page xmlns="http://xmlns.com/foaf/0.1/">http://foundation.gnome.org/</page>
@@ -24,23 +29,22 @@
 
     <include href="cc-by-sa-3-0.xml" xmlns="http://www.w3.org/2001/XInclude"/>
 
-    <desc>Gnome Programming Guidelines</desc>
+    <desc>GNOME Programming Guidelines</desc>
 
     <title type="link" role="trail">Programming Guidelines</title>
   </info>
 
-  <title>Gnome Programming Guidelines</title>
+  <title>GNOME Programming Guidelines</title>
 
   <p>
-    This article contains several guidelines and suggestions for Gnome
-    programmers, as well as certain policies that should be followed
-    when writing Gnome programs.  This is intended for programmers to
-    know about Gnome's development process and its philosophy.
-    Gnome is a team effort, so it will be useful for programmers to
-    know "the way things are done".  Think of this document not as a
-    book of laws, but rather as a manual of etiquette for writing
-    legible code that an be maintained by large, diverse teams over a
-    long period of time.
+    This article contains several guidelines and suggestions for programmers
+    working in and with the GNOME stack.  This is intended for programmers to
+    know about the development processes, conventions and philosophies behind
+    GNOME applications and the stack of libraries supporting them.  By knowing
+    “the way things are done” in the GNOME ecosystem, it is hoped that
+    programmers will find use of GNOME APIs and development of new applications
+    easier and more natural, and will produce code which is legible and
+    maintainable over a long period of time by a diverse team of programmers.
   </p>
 
   <p>
@@ -50,19 +54,18 @@
   <list>
     <item>
       <p>
-	To give you good suggestions on how to write code for Gnome.
-	This will help you write code that is consistent with Gnome's
-	practices, and that is well-accepted by the members of the
-	Gnome community.  This will also lead to code that is a
-	pleasure to work on.
+        To give you good suggestions on how to write code for GNOME or using
+        GNOME technologies. This will help you write code that is consistent
+        with best practices, and that will be accepted by the community.  This
+        will also lead to code that is a pleasure to work on.
       </p>
     </item>
 
     <item>
       <p>
-	To transmit the knowledge we have gotten over the years on how
-	to keep the Gnome project sustainable, even when people's
-	contributions increase or decrease.
+        To transmit the knowledge we have gotten over the years on how
+        to keep the GNOME project sustainable, even when people’s
+        contributions increase or decrease.
       </p>
     </item>
   </list>
