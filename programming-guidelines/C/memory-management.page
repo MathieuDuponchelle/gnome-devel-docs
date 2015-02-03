@@ -1,0 +1,938 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic"
+      id="memory-management">
+
+  <info>
+    <link type="guide" xref="index#coding-style"/>
+
+    <credit type="author copyright">
+      <name>Philip Withnall</name>
+      <email its:translate="no">philip.withnall@collabora.co.uk</email>
+      <years>2015</years>
+    </credit>
+
+    <include href="cc-by-sa-3-0.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc>Managing memory allocation and deallocation in C</desc>
+  </info>
+
+  <title>Memory Management</title>
+
+  <comment>
+    <p>
+      FIXME:
+    </p>
+    <list>
+      <item><p>
+        g_autoptr() (https://bugzilla.gnome.org/show_bug.cgi?id=743640)
+      </p></item>
+      <item><p>
+        Reference counted memory areas
+        (https://bugzilla.gnome.org/show_bug.cgi?id=622721)
+      </p></item>
+      <item><p>
+        Integrate
+        https://tecnocode.co.uk/2013/09/03/const-gchar-vs-gchar-and-other-memory-management-stories/
+      </p></item>
+    </list>
+  </comment>
+
+  <p>
+    The GNOME stack is predominantly written in C, so dynamically allocated
+    memory has to be managed manually. Through use of GLib convenience APIs,
+    memory management can be trivial, but programmers always need to keep memory
+    in mind when writing code.
+  </p>
+
+  <p>
+    It is assumed that the reader is familiar with the idea of heap allocation
+    of memory using <code>malloc()</code> and <code>free()</code>, and knows of
+    the paired GLib equivalents, <code>g_malloc()</code> and
+    <code>g_free()</code>.
+  </p>
+
+  <synopsis>
+    <title>Summary</title>
+
+    <p>
+      There are three situations to avoid, in order of descending importance:
+    </p>
+
+    <list type="numbered">
+      <item><p>Using memory after freeing it (use-after-free).</p></item>
+      <item><p>Using memory before allocating it.</p></item>
+      <item><p>Not freeing memory after allocating it (leaking).</p></item>
+    </list>
+
+    <p>
+      Key principles, in no particular order:
+    </p>
+
+    <list>
+      <item><p>
+        Determine and document whether each variable is owned or unowned. They
+        must never change from one to the other at runtime.
+        (<link xref="#principles"/>)
+      </p></item>
+      <item><p>
+        Determine and document the ownership transfers at function boundaries.
+        (<link xref="#principles"/>)
+      </p></item>
+      <item><p>
+        Ensure that each assignment, function call and function return respects
+        the relevant ownership transfers. (<link xref="#assignments"/>,
+        <link xref="#function-calls"/>, <link xref="#function-returns"/>)
+      </p></item>
+      <item><p>
+        Use reference counting rather than explicit finalization where possible.
+        (<link xref="#reference-counting"/>)
+      </p></item>
+      <item><p>
+        Use GLib convenience functions like
+        <link xref="#g-clear-object"><code>g_clear_object()</code></link> where
+        possible. (<link xref="#convenience-functions"/>)
+      </p></item>
+      <item><p>
+        Do not split memory management across code paths.
+        (<link xref="#principles"/>)
+      </p></item>
+      <item><p>
+        Use the single-path cleanup pattern for large or complex functions.
+        (<link xref="#single-path-cleanup"/>)
+      </p></item>
+      <item><p>
+        Leaks should be checked for using Valgrind or the address sanitizer.
+        (<link xref="#verification"/>)
+      </p></item>
+    </list>
+  </synopsis>
+
+  <section id="principles">
+    <title>Principles of Memory Management</title>
+
+    <p>
+      The normal approach to memory management is for the programmer to keep
+      track of which variables point to allocated memory, and to manually free
+      them when they are no longer needed. This is correct, but can be clarified
+      by introducing the concept of <em>ownership</em>, which is the piece of
+      code (such as a function, struct or object) which is responsible for
+      freeing a piece of allocated memory (an <em>allocation</em>). Each
+      allocation has exactly one owner; this owner may change as the program
+      runs, by <em>transferring</em> ownership to another piece of code. Each
+      variable is <em>owned</em> or <em>unowned</em>, according to whether the
+      scope containing it is always its owner. Each function parameter and
+      return type either transfers ownership of the values passed to it, or it
+      doesn’t. If code which owns some memory doesn’t deallocate that memory,
+      that’s a memory leak. If code which doesn’t own some memory frees it,
+      that’s a double-free. Both are bad.
+    </p>
+
+    <p>
+      By statically calculating which variables are owned, memory
+      management becomes a simple task of unconditionally freeing the owned
+      variables before they leave their scope, and <em>not</em> freeing the
+      unowned variables (see <link xref="#single-path-cleanup"/>). The key
+      question to answer for all memory is: which code has ownership of this
+      memory?
+    </p>
+
+    <p>
+      There is an important restriction here: variables must
+      <em style="strong">never</em> change from owned to unowned (or vice-versa)
+      at runtime. This restriction is key to simplifying memory management.
+    </p>
+
+    <p>
+      For example, consider the functions:
+    </p>
+
+    <code mime="text/x-csrc">gchar *generate_string (const gchar *template);
+void print_string (const gchar *str);</code>
+
+    <p>
+      The following code has been annotated to note where the ownership
+      transfers happen:
+    </p>
+
+    <code mime="text/x-csrc">gchar *my_str = NULL;  /* owned */
+const gchar *template;  /* unowned */
+GValue value = G_VALUE_INIT;  /* owned */
+g_value_init (&amp;value, G_TYPE_STRING);
+
+/* Transfers ownership of a string from the function to the variable. */
+template = "XXXXXX";
+my_str = generate_string (template);
+
+/* No ownership transfer. */
+print_string (my_str);
+
+/* Transfer ownership. We no longer have to free @my_str. */
+g_value_take_string (&amp;value, my_str);
+
+/* We still have ownership of @value, so free it before it goes out of scope. */
+g_value_unset (&amp;value);</code>
+
+    <p>
+      There are a few points here: Firstly, the ‘owned’ comments by the variable
+      declarations denote that those variables are owned by the local scope, and
+      hence need to be freed before they go out of scope. The alternative is
+      ‘unowned’, which means the local scope does <em>not</em> have ownership,
+      and <em>must not</em> free the variables before going out of scope.
+      Similarly, ownership <em>must not</em> be transferred to them on
+      assignment.
+    </p>
+
+    <p>
+      Secondly, the variable type modifiers reflect whether they transfer
+      ownership: because <code>my_str</code> is owned by the local scope, it has
+      type <code>gchar</code>, whereas <code>template</code> is
+      <code>const</code> to denote it is unowned. Similarly, the
+      <code>template</code> parameter of <code>generate_string()</code> and the
+      <code>str</code> parameter of <code>print_string()</code> are
+      <code>const</code> because no ownership is transferred when those
+      functions are called. As ownership <em>is</em> transferred for the string
+      parameter of <code>g_value_take_string()</code>, we can expect its type to
+      be <code>gchar</code>.
+    </p>
+
+    <p>
+      (Note that this is not the case for
+      <link href="https://developer.gnome.org/gobject/stable/gobject-The-Base-Object-Type.html">
+      <code>GObject</code></link>s and subclasses, which can never be
+      <code>const</code>. It is only the case for strings and simple
+      <code>struct</code>s.)
+    </p>
+
+    <p>
+      Finally, a few libraries use a function naming convention to indicate
+      ownership transfer, for example using ‘take’ in a function name to
+      indicate full transfer of parameters, as with
+      <code>g_value_take_string()</code>. Note that different libraries use
+      different conventions, as shown below:
+    </p>
+
+    <table shade="rows cols">
+      <colgroup><col/></colgroup>
+      <colgroup><col/><col/><col/></colgroup>
+      <thead>
+        <tr>
+          <td><p>Function name</p></td>
+          <td><p>Convention 1 (standard)</p></td>
+          <td><p>Convention 2 (alternate)</p></td> <!-- get for everything -->
+          <td><p>Convention 3 (<cmd>gdbus-codegen</cmd>)</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>get</p></td>
+          <td><p>No transfer</p></td>
+          <td><p>Any transfer</p></td>
+          <td><p>Full transfer</p></td>
+        </tr>
+
+        <tr>
+          <td><p>dup</p></td>
+          <td><p>Full transfer</p></td>
+          <td><p>Unused</p></td>
+          <td><p>Unused</p></td>
+        </tr>
+
+        <tr>
+          <td><p>peek</p></td>
+          <td><p>Unused</p></td>
+          <td><p>Unused</p></td>
+          <td><p>No transfer</p></td>
+        </tr>
+
+        <tr>
+          <td><p>set</p></td>
+          <td><p>No transfer</p></td>
+          <td><p>No transfer</p></td>
+          <td><p>No transfer</p></td>
+        </tr>
+
+        <tr>
+          <td><p>take</p></td>
+          <td><p>Full transfer</p></td>
+          <td><p>Unused</p></td>
+          <td><p>Unused</p></td>
+        </tr>
+
+        <tr>
+          <td><p>steal</p></td>
+          <td><p>Full transfer</p></td>
+          <td><p>Full transfer</p></td>
+          <td><p>Full transfer</p></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>
+      Ideally, all functions have a <code>(transfer)</code>
+      <link xref="introspection">introspection annotation</link> for all
+      relevant parameters and the return value. Failing that, here is a set of
+      guidelines to use to determine whether ownership of a return value is
+      transferred:
+    </p>
+    <steps>
+      <item><p>
+        If the type has an introspection <code>(transfer)</code> annotation,
+        look at that.
+      </p></item>
+      <item><p>
+        Otherwise, if the type is <code>const</code>, there is no transfer.
+      </p></item>
+      <item><p>
+        Otherwise, if the function documentation explicitly specifies the return
+        value must be freed, there is full or container transfer.
+      </p></item>
+      <item><p>
+        Otherwise, if the function is named ‘dup’, ‘take’ or ‘steal’, there is
+        full or container transfer.
+      </p></item>
+      <item><p>
+        Otherwise, if the function is named ‘peek’, there is no transfer.
+      </p></item>
+      <item><p>
+        Otherwise, you need to look at the function’s code to determine whether
+        it intends ownership to be transferred. Then file a bug against the
+        documentation for that function, and ask for an introspection annotation
+        to be added.
+      </p></item>
+    </steps>
+
+    <p>
+      Given this ownership and transfer infrastructure, the correct approach to
+      memory allocation can be mechanically determined for each situation. In
+      each case, the <code>copy()</code> function must be appropriate to the
+      data type, for example <code>g_strdup()</code> for strings, or
+      <code>g_object_ref()</code> for GObjects.
+    </p>
+
+    <p>
+      When thinking about ownership transfer,
+      <code>malloc()</code>/<code>free()</code> and reference counting are
+      equivalent: in the former case, a newly allocated piece of heap memory is
+      transferred; in the latter, a newly incremented reference.
+      See <link xref="#reference-counting"/>.
+    </p>
+
+    <section id="assignments">
+      <title>Assignments</title>
+
+      <table shade="rows colgroups">
+        <colgroup><col/></colgroup>
+        <colgroup><col/><col/></colgroup>
+        <thead>
+          <tr>
+            <td><p>Assignment from/to</p></td>
+            <td><p>Owned destination</p></td>
+            <td><p>Unowned destination</p></td>
+          </tr>
+        </thead>
+        <tbody>
+
+          <tr>
+            <td><p>Owned source</p></td>
+            <td>
+              <p>
+                Copy or move the source to the destination.
+              </p>
+              <code>owned_dest = copy (owned_src)</code>
+              <code>owned_dest = owned_src; owned_src = NULL</code>
+            </td>
+            <td>
+              <p>
+                Pure assignment, assuming the unowned variable is not used after
+                the owned one is freed.
+              </p>
+              <code>unowned_dest = owned_src</code>
+            </td>
+          </tr>
+
+          <tr>
+            <td><p>Unowned source</p></td>
+            <td>
+              <p>Copy the source to the destination.</p>
+              <code>owned_dest = copy (unowned_src)</code>
+            </td>
+            <td>
+              <p>Pure assignment.</p>
+              <code>unowned_dest = unowned_src</code>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="function-calls">
+      <title>Function Calls</title>
+
+      <table shade="rows colgroups">
+        <colgroup><col/></colgroup>
+        <colgroup><col/><col/></colgroup>
+        <thead>
+          <tr>
+            <td><p>Call from/to</p></td>
+            <td><p>Transfer full parameter</p></td>
+            <td><p>Transfer none parameter</p></td>
+          </tr>
+        </thead>
+        <tbody>
+
+          <tr>
+            <td><p>Owned source</p></td>
+            <td>
+              <p>
+                Copy or move the source for the parameter.
+              </p>
+              <code>function_call (copy (owned_src))</code>
+              <code>function_call (owned_src); owned_src = NULL</code>
+            </td>
+            <td>
+              <p>
+                Pure parameter passing.
+              </p>
+              <code>function_call (owned_src)</code>
+            </td>
+          </tr>
+
+          <tr>
+            <td><p>Unowned source</p></td>
+            <td>
+              <p>Copy the source for the parameter.</p>
+              <code>function_call (copy (unowned_src))</code>
+            </td>
+            <td>
+              <p>Pure parameter passing.</p>
+              <code>function_call (unowned_src)</code>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="function-returns">
+      <title>Function Returns</title>
+
+      <table shade="rows colgroups">
+        <colgroup><col/></colgroup>
+        <colgroup><col/><col/></colgroup>
+        <thead>
+          <tr>
+            <td><p>Return from/to</p></td>
+            <td><p>Transfer full return</p></td>
+            <td><p>Transfer none return</p></td>
+          </tr>
+        </thead>
+        <tbody>
+
+          <tr>
+            <td><p>Owned source</p></td>
+            <td>
+              <p>
+                Pure variable return.
+              </p>
+              <code>return owned_src</code>
+            </td>
+            <td>
+              <p>
+                Invalid. The source needs to be freed, so the return value would
+                use freed memory — a use-after-free error.
+              </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td><p>Unowned source</p></td>
+            <td>
+              <p>Copy the source for the return.</p>
+              <code>return copy (unowned_src)</code>
+            </td>
+            <td>
+              <p>Pure variable passing.</p>
+              <code>return unowned_src</code>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </section>
+
+  <section id="documentation">
+    <title>Documentation</title>
+
+    <p>
+      Documenting the ownership transfer for each function parameter and return,
+      and the ownership for each variable, is important. While they may be clear
+      when writing the code, they are not clear a few months later; and may
+      never be clear to users of an API. They should always be documented.
+    </p>
+
+    <p>
+      The best way to document ownership transfer is to use the
+      <link href="https://wiki.gnome.org/Projects/GObjectIntrospection/Annotations#Memory_and_lifecycle_management">
+      <code>(transfer)</code></link> annotation introduced by
+      <link xref="introspection">gobject-introspection</link>. Include this in
+      the API documentation comment for each function parameter and return type.
+      If a function is not public API, write a documentation comment for it
+      anyway and include the <code>(transfer)</code> annotations. By doing so,
+      the introspection tools can also read the annotations and use them to
+      correctly introspect the API.
+    </p>
+
+    <p>
+      For example:
+    </p>
+    <code mime="text/x-csrc">/**
+ * g_value_take_string:
+ * @value: (transfer none): an initialized #GValue
+ * @str: (transfer full): string to set it to
+ *
+ * Function documentation goes here.
+ */
+
+/**
+ * generate_string:
+ * @template: (transfer none): a template to follow when generating the string
+ *
+ * Function documentation goes here.
+ *
+ * Returns: (transfer full): a newly generated string
+ */</code>
+
+    <p>
+      Ownership for variables can be documented using inline comments. These are
+      non-standard, and not read by any tools, but can form a convention if used
+      consistently.
+    </p>
+    <code mime="text/x-csrc">GObject *some_owned_object = NULL;  /* owned */
+GObject *some_unowned_object;  /* unowned */</code>
+
+    <p>
+      The documentation for <link xref="#container-types"/> is similarly only a
+      convention; it includes the type of the contained elements too:
+    </p>
+    <code mime="text/x-csrc">GPtrArray/*&lt;owned gchar*&gt;*/ *some_unowned_string_array;  /* unowned */
+GPtrArray/*&lt;owned gchar*&gt;*/ *some_owned_string_array = NULL;  /* owned */
+GPtrArray/*&lt;unowned GObject*&gt;*/ *some_owned_object_array = NULL;  /* owned */</code>
+
+    <p>
+      Note also that owned variables should always be initialized so that
+      freeing them is more convenient. See
+      <link xref="#convenience-functions"/>.
+    </p>
+
+    <p>
+      Also note that some types, for example basic C types like strings, can
+      have the <code>const</code> modifier added if they are unowned, to take
+      advantage of compiler warnings resulting from assigning those variables to
+      owned variables (which must <em>not</em> use the <code>const</code>
+      modifier). If so, the <code>/* unowned */</code> comment may be omitted.
+    </p>
+  </section>
+
+  <section id="reference-counting">
+    <title>Reference Counting</title>
+
+    <p>
+      As well as conventional <code>malloc()</code>/<code>free()</code>-style
+      types, GLib has various reference counted types —
+      <link href="https://developer.gnome.org/gobject/stable/gobject-The-Base-Object-Type.html">
+      <code>GObject</code></link> being a prime example.
+    </p>
+
+    <p>
+      The concepts of ownership and transfer apply just as well to reference
+      counted types as they do to allocated types. A scope <em>owns</em> a
+      reference counted type if it holds a strong reference to the instance
+      (for example by calling
+      <link href="https://developer.gnome.org/gobject/stable/gobject-The-Base-Object-Type.html#g-object-ref">
+      <code>g_object_ref()</code></link>). An instance can be ‘copied’ by
+      calling <code>g_object_ref()</code> again. Ownership can be freed with
+      <link href="https://developer.gnome.org/gobject/stable/gobject-The-Base-Object-Type.html#g-object-unref">
+      <code>g_object_unref()</code></link> — even though this may not actually
+      finalize the instance, it frees the current scope’s ownership of that
+      instance.
+    </p>
+
+    <p>
+      See <link xref="#g-clear-object"/> for a convenient way of handling
+      GObject references.
+    </p>
+
+    <p>
+      There are other reference counted types in GLib, such as
+      <link href="https://developer.gnome.org/glib/stable/glib-Hash-Tables.html">
+      <code>GHashTable</code></link> (using
+      <link href="https://developer.gnome.org/glib/stable/glib-Hash-Tables.html#g-hash-table-ref">
+      <code>g_hash_table_ref()</code></link> and
+      <link href="https://developer.gnome.org/glib/stable/glib-Hash-Tables.html#g-hash-table-unref">
+      <code>g_hash_table_unref()</code></link>), or
+      <link href="https://developer.gnome.org/glib/stable/glib-GVariant.html">
+      <code>GVariant</code></link>
+      (<link href="https://developer.gnome.org/glib/stable/glib-GVariant.html#g-variant-ref">
+      <code>g_variant_ref()</code></link>,
+      <link href="https://developer.gnome.org/glib/stable/glib-GVariant.html#g-variant-unref">
+      <code>g_variant_unref()</code></link>). Some types, like
+      <code>GHashTable</code>, support both reference counting and explicit
+      finalization. Reference counting should always be used in preference,
+      because it allows instances to be easily shared between multiple scopes
+      (each holding their own reference) without having to allocate multiple
+      copies of the instance. This saves memory.
+    </p>
+
+    <section id="floating-references">
+      <title>Floating References</title>
+
+      <p>
+        Classes which are derived from
+        <link href="https://developer.gnome.org/gobject/stable/gobject-The-Base-Object-Type.html#GInitiallyUnowned"><code>GInitiallyUnowned</code></link>,
+        as opposed to
+        <link href="https://developer.gnome.org/gobject/stable/gobject-The-Base-Object-Type.html#GObject-struct"><code>GObject</code></link>
+        have an initial reference which is <em>floating</em>, meaning that no
+        code owns the reference. As soon as
+        <link href="https://developer.gnome.org/gobject/stable/gobject-The-Base-Object-Type.html#g-object-ref-sink"><code>g_object_ref_sink()</code></link>
+        is called on the object, the floating reference is converted to a strong
+        reference, and the calling code assumes ownership of the object.
+      </p>
+
+      <p>
+        Floating references are a convenience for use in C in APIs, such as
+        GTK+, where large numbers of objects must be created and organized into
+        a hierarchy. In these cases, calling <code>g_object_unref()</code> to
+        drop all the strong references would result in a lot of code.
+      </p>
+
+      <example>
+        <p>
+          Floating references allow the following code to be simplified:
+        </p>
+        <code mime="text/x-csrc" style="invalid">GtkWidget *new_widget;
+
+new_widget = gtk_some_widget_new ();
+gtk_container_add (some_container, new_widget);
+g_object_unref (new_widget);</code>
+
+        <p>
+          Instead, the following code can be used, with the
+          <code>GtkContainer</code> assuming ownership of the floating
+          reference:
+        </p>
+        <code mime="text/x-csrc" style="valid">
+gtk_container_add (some_container, gtk_some_widget_new ());</code>
+      </example>
+
+      <p>
+        Floating references are only used by a few APIs — in particular,
+        <code>GtkWidget</code> and all its subclasses. You must learn which APIs
+        support it, and which APIs consume floating references, and only use
+        them together.
+      </p>
+
+      <p>
+        Note that <code>g_object_ref_sink()</code> is equivalent to
+        <code>g_object_ref()</code> when called on a non-floating reference,
+        making <code>gtk_container_add()</code> no different from any other
+        function in such cases.
+      </p>
+
+      <p>
+        See the <link href="https://developer.gnome.org/gobject/stable/gobject-The-Base-Object-Type.html#floating-ref">GObject
+        manual</link> for more information on floating references.
+      </p>
+    </section>
+  </section>
+
+  <section id="convenience-functions">
+    <title>Convenience Functions</title>
+
+    <p>
+      GLib provides various convenience functions for memory management,
+      especially for GObjects. Three will be covered here, but others exist —
+      check the GLib API documentation for more. They typically follow similar
+      naming schemas to these three (using ‘_full’ suffixes, or the verb ‘clear’
+      in the function name).
+    </p>
+
+    <section id="g-clear-object">
+      <title><code>g_clear_object()</code></title>
+
+      <p>
+        <link href="https://developer.gnome.org/gobject/stable/gobject-The-Base-Object-Type.html#g-clear-object">
+        <code>g_clear_object()</code></link> is a version of
+        <link href="https://developer.gnome.org/gobject/stable/gobject-The-Base-Object-Type.html#g-object-unref">
+        <code>g_object_unref()</code></link> which unrefs a GObject and then
+        clears the pointer to it to <code>NULL</code>.
+      </p>
+
+      <p>
+        This makes it easier to implement code that guarantees a GObject pointer
+        is always either <code>NULL</code>, or has ownership of a GObject (but
+        which never points to a GObject it no longer owns).
+      </p>
+
+      <p>
+        By initialising all owned GObject pointers to <code>NULL</code>, freeing
+        them at the end of the scope is as simple as calling
+        <code>g_clear_object()</code> without any checks, as discussed in
+        <link xref="#single-path-cleanup"/>:
+      </p>
+      <code mime="text/x-csrc" style="valid">void
+my_function (void)
+{
+  GObject *some_object = NULL;  /* owned */
+
+  if (rand ())
+    {
+      some_object = create_new_object ();
+      /* do something with the object */
+    }
+
+  g_clear_object (&amp;some_object);
+}</code>
+    </section>
+
+    <section id="g-list-free-full">
+      <title><code>g_list_free_full()</code></title>
+
+      <p>
+        <link href="https://developer.gnome.org/glib/stable/glib-Doubly-Linked-Lists.html#g-list-free-full">
+        <code>g_list_free_full()</code></link> frees all the elements in a
+        linked list, <em>and all their data</em>. It is much more convenient
+        than iterating through the list to free all the elements’ data, then
+        calling <link href="https://developer.gnome.org/glib/stable/glib-Doubly-Linked-Lists.html#g-list-free">
+        <code>g_list_free()</code></link> to free the <code>GList</code>
+        elements themselves.
+      </p>
+    </section>
+
+    <section id="g-hash-table-new-full">
+      <title><code>g_hash_table_new_full()</code></title>
+
+      <p>
+        <link href="https://developer.gnome.org/glib/stable/glib-Hash-Tables.html#g-hash-table-new-full">
+        <code>g_hash_table_new_full()</code></link> is a newer version of
+        <link href="https://developer.gnome.org/glib/stable/glib-Hash-Tables.html#g-hash-table-new">
+        <code>g_hash_table_new()</code></link> which allows setting functions to
+        destroy each key and value in the hash table when they are removed.
+        These functions are then automatically called for all keys and values
+        when the hash table is destroyed, or when an entry is removed using
+        <code>g_hash_table_remove()</code>.
+      </p>
+
+      <p>
+        Essentially, it simplifies memory management of keys and values to the
+        question of whether they are present in the hash table. See
+        <link xref="#container-types"/> for a discussion on ownership of
+        elements within container types.
+      </p>
+
+      <p>
+        A similar function exists for <code>GPtrArray</code>:
+        <link href="https://developer.gnome.org/glib/stable/glib-Pointer-Arrays.html#g-ptr-array-new-with-free-func">
+        <code>g_ptr_array_new_with_free_func()</code></link>.
+      </p>
+    </section>
+  </section>
+
+  <section id="container-types">
+    <title>Container Types</title>
+
+    <p>
+      When using container types, such as <code>GPtrArray</code> or
+      <code>GList</code>, an additional level of ownership is introduced: as
+      well as the ownership of the container instance, each element in the
+      container is either owned or unowned too. By nesting containers, multiple
+      levels of ownership must be tracked. Ownership of owned elements belongs
+      to the container; ownership of the container belongs to the scope it’s in
+      (which may be another container).
+    </p>
+
+    <p>
+      A key principle for simplifying this is to ensure that all elements in a
+      container have the same ownership: they are either all owned, or all
+      unowned. This happens automatically if the normal
+      <link xref="#convenience-functions"/> are used for types like
+      <code>GPtrArray</code> and <code>GHashTable</code>.
+    </p>
+
+    <p>
+      If elements in a container are <em>owned</em>, adding them to the
+      container is essentially an ownership transfer. For example, for an array
+      of strings, if the elements are owned, the definition of
+      <code>g_ptr_array_add()</code> is effectively:
+    </p>
+    <code mime="text/x-csrc">/**
+ * g_ptr_array_add:
+ * @array: a #GPtrArray
+ * @str: (transfer full): string to add
+ */
+void
+g_ptr_array_add (GPtrArray *array,
+                 gchar     *str);</code>
+
+    <p>
+      So, for example, constant (unowned) strings must be added to the array
+      using <code>g_ptr_array_add (array, g_strdup ("constant string"))</code>.
+    </p>
+
+    <p>
+      Whereas if the elements are unowned, the definition is effectively:
+    </p>
+    <code mime="text/x-csrc">/**
+ * g_ptr_array_add:
+ * @array: a #GPtrArray
+ * @str: (transfer none): string to add
+ */
+void
+g_ptr_array_add (GPtrArray   *array,
+                 const gchar *str);</code>
+
+    <p>
+      Here, constant strings can be added without copying them:
+      <code>g_ptr_array_add (array, "constant string")</code>.
+    </p>
+
+    <p>
+      See <link xref="#documentation"/> for examples of comments to add to
+      variable definitions to annotate them with the element type and ownership.
+    </p>
+  </section>
+
+  <section id="single-path-cleanup">
+    <title>Single-Path Cleanup</title>
+
+    <p>
+      A useful design pattern for more complex functions is to have a single
+      control path which cleans up (frees) allocations and returns to the
+      caller. This vastly simplifies tracking of allocations, as it’s no longer
+      necessary to mentally work out which allocations have been freed on each
+      code path — all code paths end at the same point, so perform all the frees
+      then. The benefits of this approach rapidly become greater for larger
+      functions with more owned local variables; it may not make sense to apply
+      the pattern to smaller functions.
+    </p>
+
+    <p>
+      This approach has two requirements:
+    </p>
+    <list type="numbered">
+      <item><p>
+        The function returns from a single point, and uses <code>goto</code> to
+        reach that point from other paths.
+      </p></item>
+      <item><p>
+        All owned variables are set to <code>NULL</code> when initialized or
+        when ownership is transferred away from them.
+      </p></item>
+    </list>
+
+    <p>
+      The example below is for a small function (for brevity), but should
+      illustrate the principles for application of the pattern to larger
+      functions:
+    </p>
+
+    <listing>
+      <title>Single-Path Cleanup Example</title>
+      <desc>
+        Example of implementing single-path cleanup for a simple function
+      </desc>
+      <code mime="text/x-csrc">GObject *
+some_function (GError **error)
+{
+  gchar *some_str = NULL;  /* owned */
+  GObject *temp_object = NULL;  /* owned */
+  const gchar *temp_str;
+  GObject *my_object = NULL;  /* owned */
+  GError *child_error = NULL;  /* owned */
+
+  temp_object = generate_object ();
+  temp_str = "example string";
+
+  if (rand ())
+    {
+      some_str = g_strconcat (temp_str, temp_str, NULL);
+    }
+  else
+    {
+      some_operation_which_might_fail (&amp;child_error);
+
+      if (child_error != NULL)
+        {
+          goto done;
+        }
+
+      my_object = generate_wrapped_object (temp_object);
+    }
+
+done:
+  /* Here, @some_str is either NULL or a string to be freed, so can be passed to
+   * g_free() unconditionally.
+   *
+   * Similarly, @temp_object is either NULL or an object to be unreffed, so can
+   * be passed to g_clear_object() unconditionally. */
+  g_free (some_str);
+  g_clear_object (&amp;temp_object);
+
+  /* The pattern can also be used to ensure that the function always returns
+   * either an error or a return value (but never both). */
+  if (child_error != NULL)
+    {
+      g_propagate_error (error, child_error);
+      g_clear_object (&amp;my_object);
+    }
+
+  return my_object;
+}</code>
+    </listing>
+  </section>
+
+  <section id="verification">
+    <title>Verification</title>
+
+    <p>
+      Memory leaks can be checked for in two ways: static analysis, and runtime
+      leak checking.
+    </p>
+
+    <p>
+      Static analysis with tools like
+      <link xref="tooling#coverity">Coverity</link>, the
+      <link xref="tooling#clang-static-analyzer">Clang static analyzer</link> or
+      <link xref="tooling#tartan">Tartan</link> can
+      catch some leaks, but require knowledge of the ownership transfer of every
+      function called in the code. Domain-specific static analyzers like Tartan
+      (which knows about GLib memory allocation and transfer) can perform better
+      here, but Tartan is quite a young project and still misses things (a low
+      true positive rate). It is recommended that code be put through a static
+      analyzer, but the primary tool for detecting leaks should be runtime leak
+      checking.
+    </p>
+
+    <p>
+      Runtime leak checking is done using
+      <link xref="tooling#valgrind">Valgrind</link>, using its
+      <link xref="tooling#memcheck">memcheck</link> tool. Any leak it detects as
+      ‘definitely losing memory’ should be fixed. Many of the leaks which
+      ‘potentially’ lose memory are not real leaks, and should be added to the
+      suppression file.
+    </p>
+
+    <p>
+      If compiling with a recent version of Clang or GCC, the
+      <link xref="tooling#address-sanitizer">address sanitizer</link> can be
+      enabled instead, and it will detect memory leaks and overflow problems at
+      runtime, but without the difficulty of running Valgrind in the right
+      environment. Note, however, that it is still a young tool, so may fail in
+      some cases.
+    </p>
+
+    <p>
+      See <link xref="tooling#valgrind"/> for more information on using
+      Valgrind.
+    </p>
+  </section>
+</page>

@@ -12,6 +12,7 @@ HELP_FILES = \
 	c-coding-style.page \
 	documentation.page \
 	index.page \
+	memory-management.page \
 	writing-good-code.page \
 	$(NULL)
 
