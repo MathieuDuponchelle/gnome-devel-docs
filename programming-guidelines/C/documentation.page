@@ -1,0 +1,100 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="guide" style="task"
+      id="documentation">
+
+  <info>
+    <link type="guide" xref="index#coding-style"/>
+
+    <credit type="author copyright">
+      <name>Federico Mena-Quintero</name>
+      <email its:translate="no">federico@gnome.org</email>
+      <years>2013</years>
+    </credit>
+    <credit type="author copyright">
+      <name>The GTK+ Team</name>
+    </credit>
+
+    <include href="cc-by-sa-3-0.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc>Adding documentation to libraries and APIs</desc>
+  </info>
+
+  <title>Documentation</title>
+
+  <p>
+    The preferred documentation system for GNOME libraries is <link
+    xref="http://www.gtk.org/gtk-doc/">gtk-doc</link>, which
+    extracts inline comments from the code to let you build a <link
+    xref="http://docbook.org/">DocBook</link> document.  A lot of
+    GNOME's infrastructure is built to handle with documentation
+    written using gtk-doc.
+  </p>
+
+  <section id="public-api">
+    <title>Public APIs</title>
+
+    <p>
+      All public APIs must have gtk-doc comments. For functions, these should
+      be placed in the source file, directly above the function.
+    </p>
+
+    <code>
+/* valid */
+/**
+ * gtk_get_flow:
+ * @widget: a #GtkWidget
+ *
+ * Gets the flow of a widget.
+ *
+ * Note that flows may be laminar or turbulent...
+ *
+ * Returns: (transfer none): the flow of @widget
+ */
+GtkFlow *
+gtk_get_flow (GtkWidget *widget)
+{
+
+  ...
+
+}
+    </code>
+
+    <p>
+      Documentation comments for macros, function types, class
+      structs, etc. should be placed next to the definitions, typically
+      in header files.
+    </p>
+
+    <p>
+      Section introductions should be placed in the source file they describe,
+      after the license header:
+    </p>
+
+    <code>
+/* valid */
+/**
+ * SECTION:gtksizerequest
+ * @Short_Description: Height-for-width geometry management
+ * @Title: GtkSizeRequest
+ *
+ * The GtkSizeRequest interface is GTK+'s height-for-width (and
+ * width-for-height) geometry management system.
+ * ...
+ */
+    </code>
+
+    <p>
+      Keep in mind that in order to include a function, macro,
+      function type, or struct type, it needs to be listed in your
+      documentation's modulename-sections.txt file.
+    </p>
+
+    <p>
+      To properly document a new class, it needs to be given its own
+      section in modulename-sections.txt, needs to be included in your
+      toplevel modulename-docs.sgml, and the get_type() function for
+      your class needs to listed in your modulename.types.
+    </p>
+  </section>
+</page>
