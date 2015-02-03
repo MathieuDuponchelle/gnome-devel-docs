@@ -28,16 +28,54 @@
 
   <title>Documentation</title>
 
-  <p>
-    The preferred documentation system for GNOME libraries is <link
-    xref="http://www.gtk.org/gtk-doc/">gtk-doc</link>, which
-    extracts inline comments from the code to let you build a <link
-    xref="http://docbook.org/">DocBook</link> document and collection of HTML
-    pages.  These can then be read in
-    <link xref="https://wiki.gnome.org/Apps/Devhelp">Devhelp</link>.  A lot of
-    GNOME’s infrastructure is built to handle with documentation written using
-    gtk-doc.
-  </p>
+  <synopsis>
+    <title>Summary</title>
+
+    <list>
+      <item><p>
+        Use gtk-doc with up-to-date settings for API documentation.
+        (<link xref="#gtk-doc"/>)
+      </p></item>
+      <item><p>
+        Use XML entities for including external symbols into the documentation.
+        (<link xref="#build-system"/>)
+      </p></item>
+      <item><p>
+        Use a consistent, standard, table of contents for all API documentation
+        to maintain familiarity. (<link xref="#standard-layout"/>)
+      </p></item>
+      <item><p>
+        Use <cmd>gdbus-codegen</cmd> to generate D-Bus API documentation to
+        include in the gtk-doc build. (<link xref="#dbus-api"/>)
+      </p></item>
+      <item><p>
+        Add introspection annotations to all API documentation.
+        (<link xref="#introspection-annotations"/>)
+      </p></item>
+      <item><p>
+        Add <code>Since</code> lines to all API documentation.
+        (<link xref="#symbol-versioning"/>)
+      </p></item>
+      <item><p>
+        Enable gtk-doc tests. (<link xref="#keeping-up-to-date"/>)
+      </p></item>
+    </list>
+  </synopsis>
+
+  <section id="gtk-doc">
+    <title>gtk-doc</title>
+
+    <p>
+      The preferred documentation system for GNOME libraries is <link
+      xref="http://www.gtk.org/gtk-doc/">gtk-doc</link>, which
+      extracts inline comments from the code to let you build a <link
+      xref="http://docbook.org/">DocBook</link> document and collection of HTML
+      pages.  These can then be read in
+      <link xref="https://wiki.gnome.org/Apps/Devhelp">Devhelp</link>.  A lot of
+      GNOME’s infrastructure is built to handle with documentation written using
+      gtk-doc.
+    </p>
+  </section>
 
   <section id="build-system">
     <title>Build System</title>
