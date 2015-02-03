@@ -1,5 +1,6 @@
 <page xmlns="http://projectmallard.org/1.0/"
       xmlns:its="http://www.w3.org/2005/11/its"
+      xmlns:xi="http://www.w3.org/2003/XInclude"
       type="guide" style="task"
       id="documentation">
 
@@ -10,6 +11,11 @@
       <name>Federico Mena-Quintero</name>
       <email its:translate="no">federico@gnome.org</email>
       <years>2013</years>
+    </credit>
+    <credit type="author copyright">
+      <name>Philip Withnall</name>
+      <email its:translate="no">philip.withnall@collabora.co.uk</email>
+      <years>2015</years>
     </credit>
     <credit type="author copyright">
       <name>The GTK+ Team</name>
@@ -26,10 +32,92 @@
     The preferred documentation system for GNOME libraries is <link
     xref="http://www.gtk.org/gtk-doc/">gtk-doc</link>, which
     extracts inline comments from the code to let you build a <link
-    xref="http://docbook.org/">DocBook</link> document.  A lot of
-    GNOME's infrastructure is built to handle with documentation
-    written using gtk-doc.
+    xref="http://docbook.org/">DocBook</link> document and collection of HTML
+    pages.  These can then be read in
+    <link xref="https://wiki.gnome.org/Apps/Devhelp">Devhelp</link>.  A lot of
+    GNOME’s infrastructure is built to handle with documentation written using
+    gtk-doc.
   </p>
+
+  <section id="build-system">
+    <title>Build System</title>
+
+    <p>
+      To integrate gtk-doc into a project’s build system, follow the
+      <link href="https://developer.gnome.org/gtk-doc-manual/stable/settingup.html.en">
+      instructions in the gtk-doc manual</link>. Note that while the
+      <file>sections.txt</file> file is automatically generated the first time
+      gtk-doc is run, it is not generated subsequently, and should be kept up to
+      date manually. It should also be
+      <link href="https://developer.gnome.org/gtk-doc-manual/stable/settingup_vcs.html.en">
+      in version control</link>.
+    </p>
+
+    <p>
+      gtk-doc’s <code>no-tmpl</code> flavour should be used, and XML mode should
+      be used instead of SGML. (tmpl mode and SGML are both outdated and slower
+      than XML.)
+    </p>
+
+    <!-- FIXME: This should be updated once
+         https://bugzilla.gnome.org/show_bug.cgi?id=743182 lands. -->
+    <p>
+      If the package version is needed to be substituted into the documentation,
+      create a file named <file>docs/version.xml.in</file>, containing:
+    </p>
+    <code>@PACKAGE_VERSION@</code>
+    <p>
+      Add it to <code>AC_CONFIG_FILES</code> in <file>configure.ac</file>, then
+      include it into the main documentation file (<file>*-docs.xml</file>)
+      using: <code>&lt;!ENTITY version SYSTEM "version.xml"&gt;</code> in the
+      <code>DOCTYPE</code> at the top of the document. The package version can
+      then be used inline as <code>&amp;version;</code>.
+    </p>
+  </section>
+
+  <section id="standard-layout">
+    <title>Standard Layout</title>
+
+    <p>
+      Using a standard layout for the table of contents, sections, appendices,
+      etc. means the same <file><var>project-name</var>-docs.xml</file> template
+      can be reused with few changes between projects. It also means the
+      documentation layout is similar across all projects, making it more
+      familiar to developers.
+    </p>
+
+    <p>
+      The following layout is suggested:
+    </p>
+    <listing>
+      <title><file><var>project-name</var>-docs.xml</file></title>
+      <desc>A template top-level gtk-doc file for a project</desc>
+      <code mime="application/docbook+xml"><xi:include href="example-docs.xml" parse="text" /></code>
+    </listing>
+  </section>
+
+  <section id="licensing">
+    <title>Licensing</title>
+
+    <!-- FIXME: Update this once
+         https://bugzilla.gnome.org/show_bug.cgi?id=742580 is fixed. -->
+    <p>
+      It is important to make the license used for API references clear,
+      especially if they contain code examples which could be copied around.
+    </p>
+
+    <p>
+      Typically, projects use the same license for their API reference as for 
+      the project’s code itself, to avoid confusion. Some other projects use
+      CC-BY-SA 3.0 for all their reference documentation. The choice is yours.
+    </p>
+
+    <p>
+      As shown in the <link xhref="#standard-layout">Standard Layout</link> you
+      should include a <file>license.xml</file> in the top-level gtk-doc DocBook
+      file which gives the full text of your documentation license.
+    </p>
+  </section>
 
   <section id="public-api">
     <title>Public APIs</title>
@@ -95,6 +183,165 @@ gtk_get_flow (GtkWidget *widget)
       section in modulename-sections.txt, needs to be included in your
       toplevel modulename-docs.sgml, and the get_type() function for
       your class needs to listed in your modulename.types.
+    </p>
+  </section>
+
+  <section id="introspection-annotations">
+    <title>Introspection Annotations</title>
+
+    <p>
+      Each gtk-doc comment should have appropriate
+      <link href="https://wiki.gnome.org/Projects/GObjectIntrospection/Annotations">
+      GObject introspection annotations</link>. These are useful for two
+      reasons:
+    </p>
+    <list type="numbered">
+      <item><p>
+        They add important information about parameter types, nullability and
+        memory management to the C API documentation generated by gtk-doc.
+      </p></item>
+      <item><p>
+        They allow public APIs to be automatically bound in other languages,
+        such as Python or JavaScript.
+      </p></item>
+    </list>
+
+    <p>
+      Introspection annotations add information to APIs (functions, function
+      parameters, function return values, structures, GObject properties,
+      GObject signals) which is otherwise not present in the machine readable C
+      API and only exists in the form of human readable documentation or
+      convention. They are very important.
+    </p>
+
+    <p>
+      In gtk-doc comments, annotations should be preferred over human-readable
+      equivalents. For example, when documenting a function parameter which may
+      be <code>NULL</code>, use the <code>(nullable)</code> annotation rather
+      than some text:
+    </p>
+    <code mime="text/x-csrc" style="valid">/**
+ * my_function:
+ * @parameter: (nullable): some parameter which affects something
+ *
+ * Body of the function documentation.
+ */</code>
+
+    <p>
+      Instead of:
+    </p>
+    <code mime="text/x-csrc" style="invalid">/**
+ * my_bad_function:
+ * @parameter: some parameter which affects something, or %NULL to ignore
+ *
+ * Bad body of the function documentation.
+ */</code>
+
+    <p>
+      For more information on introspection, see the
+      <link xref="introspection">introspection guidelines</link>.
+    </p>
+  </section>
+
+  <section id="symbol-versioning">
+    <title>Symbol Versioning</title>
+
+    <p>
+      Whenever a symbol is added to the public API, it should have a
+      documentation comment added. This comment should always contain a
+      <code>Since</code> line with the package version number of the release
+      which will first contain the new API. This should be the number currently
+      in <file>configure.ac</file> if
+      <link xref="versioning#release-process">post-release version
+      incrementing</link> is being used.
+    </p>
+
+    <p>
+      For example:
+    </p>
+    <code mime="text/x-csrc" style="valid">/**
+ * my_function:
+ * @param: some parameter
+ *
+ * Body of the function documentation.
+ *
+ * Since: 0.5.0
+ */</code>
+
+    <p>
+      gtk-doc uses this information to generate indexes of the APIs added in
+      each release. These should be added to the main <file>*-docs.xml</file> as
+      an appendix:
+    </p>
+    <code mime="application/docbook+xml"><![CDATA[<part>
+	<title>Appendices</title>
+	<index id="api-index-full">
+		<title>API Index</title>
+		<xi:include href="xml/api-index-full.xml"><xi:fallback/></xi:include>
+	</index>
+	<index id="api-index-deprecated">
+		<title>Index of deprecated symbols</title>
+		<xi:include href="xml/api-index-deprecated.xml"><xi:fallback/></xi:include>
+	</index>
+	<index role="0.1.0">
+		<title>Index of new symbols in 0.1.0</title>
+		<xi:include href="xml/api-index-0.1.0.xml"><xi:fallback/></xi:include>
+	</index>
+	<!-- More versions here. -->
+	<xi:include href="xml/annotation-glossary.xml"><xi:fallback /></xi:include>
+</part>]]></code>
+  </section>
+
+  <section id="dbus-api">
+    <title>D-Bus APIs</title>
+
+    <p>
+      D-Bus interface descriptions contain documentation comments, and these can
+      be extracted from the XML using <cmd>gdbus-codegen</cmd>, and turned into
+      DocBook files to be included by gtk-doc. Generate the documentation using
+      the rules described in the <link xref="dbus">D-Bus guidelines</link>.
+    </p>
+
+    <p>
+      The DocBook files can be included in the main <file>*-docs.xml</file> file
+      using:
+    </p>
+    <code mime="application/docbook+xml"><![CDATA[<chapter>
+  <title>C Interfaces</title>
+  <partintro>
+    <para>C wrappers for the D-Bus interfaces.</para>
+  </partintro>
+
+  <xi:include href="xml/SomeDBusService.xml"/>
+  <xi:include href="xml/SomeOtherService.xml"/>
+</chapter>]]></code>
+
+    <p>
+      The generated XML files must be included in the <code>content_files</code>
+      variable in your gtk-doc <file>Makefile.am</file>, otherwise the build
+      will fail. (This is to fix situations where the <code>builddir</code> does
+      not equal the <code>srcdir</code>.)
+    </p>
+  </section>
+
+  <section id="keeping-up-to-date">
+    <title>Keeping Documentation Up to Date</title>
+
+    <p>
+      gtk-doc comes with support for checking the documentation with some basic
+      tests. These check that all version indexes are included in the main
+      <file>*-docs.xml</file> file and that all symbols are documented, amongst
+      other things.
+    </p>
+
+    <p>
+      These tests should always be enabled, by adding the following to your
+      gtk-doc <file>Makefile.am</file>:
+    </p>
+    <code>TESTS = $(GTKDOC_CHECK)</code>
+
+    <p>
+      They will then be run as part of <cmd>make check</cmd>.
     </p>
   </section>
 </page>
