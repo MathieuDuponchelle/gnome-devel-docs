@@ -127,9 +127,7 @@
       be placed in the source file, directly above the function.
     </p>
 
-    <code>
-/* valid */
-/**
+    <code mime="text/x-csrc" style="valid">/**
  * gtk_get_flow:
  * @widget: a #GtkWidget
  *
@@ -145,8 +143,7 @@ gtk_get_flow (GtkWidget *widget)
 
   ...
 
-}
-    </code>
+}</code>
 
     <p>
       Documentation comments for macros, function types, class
@@ -159,9 +156,7 @@ gtk_get_flow (GtkWidget *widget)
       after the license header:
     </p>
 
-    <code>
-/* valid */
-/**
+    <code mime="text/x-csrc" style="valid">/**
  * SECTION:gtksizerequest
  * @Short_Description: Height-for-width geometry management
  * @Title: GtkSizeRequest
@@ -169,8 +164,7 @@ gtk_get_flow (GtkWidget *widget)
  * The GtkSizeRequest interface is GTK+'s height-for-width (and
  * width-for-height) geometry management system.
  * ...
- */
-    </code>
+ */</code>
 
     <p>
       Keep in mind that in order to include a function, macro,
