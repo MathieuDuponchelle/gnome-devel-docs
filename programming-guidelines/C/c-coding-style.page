@@ -758,7 +758,8 @@ G_END_DECLS
 
     <p>
       GObject class definitions and implementations require some
-      additional coding style notices.
+      additional coding style notices, and should always be
+      <link xref="namespacing#gobject">correctly namespaced</link>.
     </p>
 
     <p>

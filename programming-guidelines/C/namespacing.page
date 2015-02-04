@@ -1,0 +1,131 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic"
+      id="namespacing">
+
+  <info>
+    <link type="guide" xref="index#coding-style"/>
+
+    <credit type="author copyright">
+      <name>Philip Withnall</name>
+      <email its:translate="no">philip.withnall@collabora.co.uk</email>
+      <years>2015</years>
+    </credit>
+
+    <include href="cc-by-sa-3-0.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc>
+      Avoiding symbol conflicts between libraries by namespacing all APIs
+    </desc>
+  </info>
+
+  <title>Namespacing</title>
+
+  <synopsis>
+    <title>Summary</title>
+
+    <p>
+      If a library is namespaced correctly, it can define types and methods in
+      its API which have the same names as those in another library, and a
+      program can use both without conflicts. This is achieved by prefixing all
+      types and method names with a namespace unique to the library.
+    </p>
+  </synopsis>
+
+  <section id="gobject">
+    <title>GObject APIs</title>
+
+    <p>
+      Consistent and complete namespacing of symbols (functions and types) and
+      files is important for two key reasons:
+    </p>
+    <list type="numbered">
+      <item><p>
+        Establishing a convention which means developers have to learn fewer
+        symbol names to use the library — they can guess them reliably instead.
+      </p></item>
+      <item><p>
+        Ensuring symbols from two projects do not conflict if included in the
+        same file.
+      </p></item>
+    </list>
+
+    <p>
+      The second point is important — imagine what would happen if every project
+      exported a function called <code>create_object()</code>. The headers
+      defining them could not be included in the same file, and even if that
+      were overcome, the programmer would not know which project each function
+      comes from. Namespacing eliminates these problems by using a unique,
+      consistent prefix for every symbol and filename in a project, grouping
+      symbols into their projects and separating them from others.
+    </p>
+
+    <p>
+      The conventions below should be used for namespacing all symbols. They are
+      <link href="https://developer.gnome.org/gobject/stable/gtype-conventions.html">
+      used in all GLib-based projects</link>, so should be familiar to a lot of
+      developers:
+    </p>
+    <list>
+      <item><p>
+        Functions should use <code>lower_case_with_underscores</code>.
+      </p></item>
+      <item><p>
+        Structures, types and objects should use
+        <code>CamelCaseWithoutUnderscores</code>.
+      </p></item>
+      <item><p>
+        Macros and constants should use
+        <code>UPPER_CASE_WITH_UNDERSCORES</code>.
+      </p></item>
+      <item><p>
+        All symbols should be prefixed with a short (2–4 characters) version of
+        the namespace. This is shortened purely for ease of typing, but should
+        still be unique.
+      </p></item>
+      <item><p>
+        All methods of an object should also be prefixed with the object name.
+      </p></item>
+    </list>
+
+    <p>
+      Additionally, public headers should be included from a subdirectory,
+      effectively namespacing the header files. For example, instead of
+      <code>#include &lt;abc.h&gt;</code>, a project should allow its users to
+      use <code>#include &lt;namespace/ns-abc.h&gt;</code>.
+    </p>
+
+    <p>
+      For example, for a project called ‘Walbottle’, the short namespace ‘Wbl’
+      would be chosen. If it has a ‘schema’ object and a ‘writer’ object, it
+      would install headers:
+    </p>
+    <list>
+      <item><p>
+        <file><var>$(includedir)</var>/walbottle-<var>$API_MAJOR</var>/walbottle/wbl-schema.h</file>
+      </p></item>
+      <item><p>
+        <file><var>$(includedir)</var>/walbottle-<var>$API_MAJOR</var>/walbottle/wbl-writer.h</file>
+      </p></item>
+    </list>
+
+    <p>
+      (The use of <var>$API_MAJOR</var> above is for
+      <link xref="parallel-installability">parallel installability</link>.)
+    </p>
+
+    <p>
+      For the schema object, the following symbols would be exported (amongst
+      others), following GObject conventions:
+    </p>
+    <list>
+      <item><p><code>WblSchema</code> structure</p></item>
+      <item><p><code>WblSchemaClass</code> structure</p></item>
+      <item><p><code>WBL_TYPE_SCHEMA</code> macro</p></item>
+      <item><p><code>WBL_IS_SCHEMA</code> macro</p></item>
+      <item><p><code>wbl_schema_get_type</code> function</p></item>
+      <item><p><code>wbl_schema_new</code> function</p></item>
+      <item><p><code>wbl_schema_load_from_data</code> function</p></item>
+    </list>
+  </section>
+</page>

@@ -13,6 +13,7 @@ HELP_FILES = \
 	documentation.page \
 	index.page \
 	memory-management.page \
+	namespacing.page \
 	parallel-installability.page \
 	threading.page \
 	tooling.page \
