@@ -20,6 +20,8 @@
       <email its:translate="no">mortenw@gnome.org</email>
     </credit>
 
+    <include href="cc-by-sa-3-0.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
     <desc>Good, readable code keeps the project maintainable</desc>
   </info>
 
