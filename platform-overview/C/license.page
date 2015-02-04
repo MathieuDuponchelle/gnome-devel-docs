@@ -25,7 +25,7 @@
 
   <p>Libraries which are used in GNOME are usually licensed under the
   <link href="http://www.gnu.org/">GNU</link>
-  <link href="https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL 2.1</link>.</p>
+  <link href="https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">LGPL 2.1+</link>.</p>
 
   <p>Most newer GNOME applications are licensed under
   <link href="http://www.gnu.org/licenses/gpl-3.0.html">GPL3+</link>, while
