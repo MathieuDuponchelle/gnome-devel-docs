@@ -1,0 +1,555 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic"
+      id="parallel-installability">
+
+  <info>
+    <link type="guide" xref="index#coding-style"/>
+
+    <credit type="author copyright">
+      <name>Havoc Pennington</name>
+      <email its:translate="no">hp@pobox.com</email>
+      <years>2002</years>
+      <!-- Heavily based off Havoc’s original article about parallel
+           installability: http://ometer.com/parallel.html.
+           Licence CC-BY-SA 3.0 confirmed by e-mail with him. -->
+    </credit>
+    <credit type="author copyright">
+      <name>Philip Withnall</name>
+      <email its:translate="no">philip.withnall@collabora.co.uk</email>
+      <years>2015</years>
+    </credit>
+
+    <include href="cc-by-sa-3-0.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc>
+      Writing libraries to be future proof through parallel installation
+    </desc>
+  </info>
+
+  <title>Parallel Installability</title>
+
+  <synopsis>
+    <title>Summary</title>
+
+    <p>
+      If two packages can be parallel installed, then they have no filenames in
+      common, and people developing against the package always compile against
+      the version they expected. This applies to daemons, utility programs and
+      configuration files as it does to header files and library binaries.
+    </p>
+
+    <list>
+      <item><p>
+        Ensure all versions of a library are parallel installable.
+        (<link xref="#justification"/>)
+      </p></item>
+      <item><p>
+        Version all files installed by a library.
+        (<link xref="#solution"/>)
+      </p></item>
+      <item><p>
+        Keep package version numbers separate from soname or libtool version
+        numbers. Be clear which part of the package version number changes with
+        the API.
+        (<link xref="#version-numbers"/>)
+      </p></item>
+      <item><p>
+        Install C header files to
+        <file><var>$(includedir)</var>/lib<var>library</var>-<var>version</var>/<var>library</var>/</file>.
+        (<link xref="#header-files"/>)
+      </p></item>
+      <item><p>
+        Install library binaries to
+        <file><var>$(libdir)</var>/lib<var>library</var>-<var>version</var>.so.<var>soname</var></file>.
+        (<link xref="#libraries"/>)
+      </p></item>
+      <item><p>
+        Install pkg-config files to
+        <file><var>$(libdir)</var>/pkgconfig/<var>library</var>-<var>version</var>.pc</file>.
+        (<link xref="#pkg-config"/>)
+      </p></item>
+      <item><p>
+        Make configuration files forwards and backwards compatible, or install
+        them to
+        <file><var>$(sysconfdir)</var>/<var>library</var>-<var>version</var>/</file>.
+        (<link xref="#configuration-files"/>)
+      </p></item>
+      <item><p>
+        Set <code>GETTEXT_PACKAGE</code> to
+        <code><var>library</var>-<var>version</var></code>.
+        (<link xref="#gettext"/>)
+      </p></item>
+      <item><p>
+        Include a version number in all D-Bus interface names, service names and
+        object paths. For example:
+        <code>org.domain.<var>Library</var><var>Version</var>.<var>Interface</var></code>,
+        <code>org.domain.<var>Library</var><var>Version</var></code> and
+        <code>/org/domain/<var>Library</var><var>Version</var>/</code>.
+        (<link xref="#dbus"/>)
+      </p></item>
+      <item><p>
+        Install daemon binaries to
+        <file><var>$(libexecdir)</var>/<var>library</var>-daemon-<var>version</var></file>.
+        (<link xref="#programs"/>)
+      </p></item>
+      <item><p>
+        Install utility binaries to
+        <file><var>$(bindir)</var>/<var>library</var>-utility-<var>version</var></file>
+        and install symbolic links to <file><var>$(bindir)</var>/<var>library</var>-utility</file>.
+        (<link xref="#programs"/>)
+      </p></item>
+    </list>
+  </synopsis>
+
+  <section id="justification">
+    <title>Justification</title>
+
+    <p>
+      All public libraries should be designed to be parallel installed to ease
+      API breaks later in the life of the library. If a library is used by
+      multiple projects, and wants to break API, either all of the projects must
+      be ported to the new API in parallel, or some of them will no longer be
+      installable at the same time as the others, due to depending on
+      conflicting versions of this library.
+    </p>
+
+    <p>
+      This is unmaintainable, and asking all the projects to port to a new API
+      at the same time is hard to organize and demoralizing, as most API breaks
+      do not bring large new features which would motivate porting.
+    </p>
+
+    <p>
+      The solution is to ensure that all libraries are parallel installable,
+      allowing the old and new versions of the API to be installed and compiled
+      against at the same time, without conflicts. Building in support for this
+      kind of parallel installation is much easier to do at the start of a
+      project than it is to do retroactively.
+    </p>
+
+    <p>
+      This eliminates the ‘chicken and egg’ problem of porting a collection of
+      applications from one version of a library to the next, and makes breaking
+      API a lot simpler for library maintainers, which can allow for more rapid
+      iteration and development of new features if they desire.
+    </p>
+
+    <p>
+      The alternative, and equally valid, solution is for the library to never
+      break API — the approach taken by <code>libc</code>.
+    </p>
+  </section>
+
+  <section id="solution">
+    <title>Solution</title>
+
+    <p>
+      The solution to the problem is essentially to rename the library, and in
+      most cases the nicest way to do so is to include the version number in the
+      path of every file it installs. This means multiple versions of the
+      library can be installed at the same time.
+    </p>
+
+    <p>
+      For example, say that library <code>Foo</code> traditionally installs
+      these files:
+    </p>
+    <list>
+      <item><p><file>/usr/include/foo.h</file></p></item>
+      <item><p><file>/usr/include/foo-utils.h</file></p></item>
+      <item><p><file>/usr/lib/libfoo.so</file></p></item>
+      <item><p><file>/usr/lib/pkgconfig/foo.pc</file></p></item>
+      <item><p><file>/usr/share/doc/foo/foo-manual.txt</file></p></item>
+      <item><p><file>/usr/bin/foo-utility</file></p></item>
+    </list>
+
+    <p>
+      You might modify <code>Foo</code> version 4 to install these files
+      instead:
+    </p>
+    <list>
+      <item><p><file>/usr/include/foo-4/foo/foo.h</file></p></item>
+      <item><p><file>/usr/include/foo-4/foo/utils.h</file></p></item>
+      <item><p><file>/usr/lib/libfoo-4.so</file></p></item>
+      <item><p><file>/usr/lib/pkgconfig/foo-4.pc</file></p></item>
+      <item><p><file>/usr/share/doc/foo-4/foo-manual.txt</file></p></item>
+      <item><p><file>/usr/bin/foo-utility-4</file></p></item>
+    </list>
+
+    <p>
+      It could then be parallel installed with version 5:
+    </p>
+    <list>
+      <item><p><file>/usr/include/foo-5/foo/foo.h</file></p></item>
+      <item><p><file>/usr/include/foo-5/foo/utils.h</file></p></item>
+      <item><p><file>/usr/lib/libfoo-5.so</file></p></item>
+      <item><p><file>/usr/lib/pkgconfig/foo-5.pc</file></p></item>
+      <item><p><file>/usr/share/doc/foo-5/foo-manual.txt</file></p></item>
+      <item><p><file>/usr/bin/foo-utility-5</file></p></item>
+    </list>
+
+    <p>
+      This is easily supported using
+      <link href="http://www.freedesktop.org/wiki/Software/pkg-config/">
+      <cmd>pkg-config</cmd></link>: <file>foo-4.pc</file> would add
+      <file>/usr/include/foo-4</file> to the include path and
+      <file>libfoo-4.so</file> to the list of libraries to link;
+      <file>foo-5.pc</file> would add <file>/usr/include/foo-5</file> and
+      <file>libfoo-5.so</file>.
+    </p>
+  </section>
+
+  <section id="version-numbers">
+    <title>Version Numbers</title>
+
+    <p>
+      The version number that goes in filenames is an <em>ABI/API</em> version.
+      It should not be the full version number of your package — just the part
+      which signifies an API break. If using the standard
+      <code><var>major</var>.<var>minor</var>.<var>micro</var></code> scheme for
+      project versioning, the API version is typically the major version number.
+    </p>
+
+    <p>
+      Minor releases (typically where API is added but <em>not</em> changed or
+      removed) and micro releases (typically bug fixes) do not affect API
+      backwards compatibility so do not require moving all the files.
+    </p>
+
+    <p>
+      The examples in the following sections assume that the API version and
+      soname are exported from <file>configure.ac</file> using the following
+      code:
+    </p>
+    <listing>
+      <title>API Versioning in Autoconf</title>
+      <desc>
+        Code to export the API version and soname from <file>configure.ac</file>
+      </desc>
+      <code># Before making a release, the <var>LIBRARY</var>_LT_VERSION string should be modified.
+# The string is of the form c:r:a. Follow these instructions sequentially:
+#
+#  1. If the library source code has changed at all since the last update,
+#     then increment revision (‘c:r:a’ becomes ‘c:r+1:a’).
+#  2. If any interfaces have been added, removed, or changed since the last update,
+#     increment current, and set revision to 0.
+#  3. If any interfaces have been added since the last public release,
+#     then increment age.
+#  4. If any interfaces have been removed or changed since the last public release,
+#     then set age to 0.
+AC_SUBST([<var>LIBRARY</var>_LT_VERSION],[1:0:0])
+
+AC_SUBST([<var>LIBRARY</var>_API_VERSION],[4])</code>
+    </listing>
+  </section>
+
+  <section id="header-files">
+    <title>C Header Files</title>
+
+    <p>
+      Header files should always be installed in a versioned subdirectory that
+      requires an <cmd>-I</cmd> flag to the C compiler. For example, if my
+      header is <file>foo.h</file>, and applications do this:
+    </p>
+    <code mime="text/x-csrc">#include &lt;foo/foo.h&gt;</code>
+    <p>
+      then I should install these files:
+    </p>
+    <list>
+      <item><p><file>/usr/include/foo-4/foo/foo.h</file></p></item>
+      <item><p><file>/usr/include/foo-5/foo/foo.h</file></p></item>
+    </list>
+
+    <p>
+      Applications should pass the flag <cmd>-I/usr/include/foo-4</cmd> or
+      <cmd>-I/usr/include/foo-5</cmd> to the C compiler. Again, this is
+      facilitated by using <cmd>pkg-config</cmd>.
+    </p>
+
+    <p>
+      Note the extra <file>foo/</file> subdirectory. This namespaces the
+      <code mime="text/x-csrc">#include</code> to avoid file naming collisions
+      with other libraries. For example, if two different libraries install
+      headers called <file>utils.h</file>, which one gets included when you
+      use <code mime="text/x-csrc">#include &lt;utils.h&gt;</code>?
+    </p>
+
+    <p>
+      There’s some temptation to keep one of the header files outside of any
+      subdirectory:
+    </p>
+    <list>
+      <item><p><file>/usr/include/foo.h</file></p></item>
+      <item><p><file>/usr/include/foo-5/foo.h</file></p></item>
+    </list>
+
+    <p>
+      The problem there is that users are always accidentally getting the wrong
+      header, since <cmd>-I/usr/include</cmd> seems to find its way onto compile
+      command lines with some regularity. If you must do this, at least add a
+      check to the library that detects applications using the wrong header file
+      when the library is initialized.
+    </p>
+
+    <p>
+      Versioned header files can be installed from automake using the following
+      code:
+    </p>
+    <listing>
+      <title>Header Files in Automake</title>
+      <desc>
+        Code to install versioned header files from <file>Makefile.am</file>
+      </desc>
+      <code><var>library</var>includedir = $(includedir)/lib<var>library</var>-@<var>LIBRARY</var>_API_VERSION@/<var>library</var>
+<var>library</var>_headers = \
+	lib<var>library</var>/example1.h \
+	lib<var>library</var>/example2.h \
+	$(NULL)
+
+# The following headers are private, and shouldn't be installed:
+private_headers = \
+	lib<var>library</var>/example-private.h \
+	$(NULL)
+# The main header simply #includes all other public headers:
+main_header = lib<var>library</var>/<var>library</var>.h
+public_headers = \
+	$(main_header) \
+	$(<var>library</var>_headers) \
+	$(NULL)
+
+<var>library</var>include_HEADERS = $(public_headers)</code>
+    </listing>
+
+    <p>
+      As well as correct versioning, all APIs in installed headers should be
+      <link xref="namespacing">namespaced correctly</link>.
+    </p>
+  </section>
+
+  <section id="libraries">
+    <title>Libraries</title>
+
+    <p>
+      Library object files should have a versioned name. For example:
+    </p>
+    <list>
+      <item><p><file>/usr/lib/libfoo-4.so</file></p></item>
+      <item><p><file>/usr/lib/libfoo-5.so</file></p></item>
+    </list>
+
+    <p>
+      This allows applications to get exactly the one they want at compile time,
+      and ensures that versions 4 and 5 have no files in common.
+    </p>
+
+    <p>
+      Versioned libraries can be built and installed from automake using the
+      following code:
+    </p>
+    <listing>
+      <title>Libraries in Automake</title>
+      <desc>
+        Code to build a#nd install versioned libraries from
+        <file>Makefile.am</file>
+      </desc>
+      <code>lib_LTLIBRARIES = lib<var>library</var>/lib<var>library</var>-@<var>LIBRARY</var>_API_VERSION@.la
+
+lib<var>library</var>_lib<var>library</var>_@<var>LIBRARY</var>_API_VERSION@_la_SOURCES = \
+	$(private_headers) \
+	$(<var>library</var>_sources) \
+	$(NULL)
+lib<var>library</var>_lib<var>library</var>_@<var>LIBRARY</var>_API_VERSION@_la_CPPFLAGS = …
+lib<var>library</var>_lib<var>library</var>_@<var>LIBRARY</var>_API_VERSION@_la_CFLAGS = …
+lib<var>library</var>_lib<var>library</var>_@<var>LIBRARY</var>_API_VERSION@_la_LIBADD = …
+lib<var>library</var>_lib<var>library</var>_@<var>LIBRARY</var>_API_VERSION@_la_LDFLAGS = \
+	-version-info $(<var>LIBRARY</var>_LT_VERSION) \
+	$(AM_LDFLAGS) \
+	$(NULL)</code>
+    </listing>
+
+    <section id="library-sonames">
+      <title>Library sonames</title>
+
+      <p>
+        Library sonames (also known as libtool version numbers) only address the
+        problem of runtime linking previously-compiled applications. They don’t
+        address the issue of compiling applications that require a previous
+        version, and they don’t address anything other than libraries.
+      </p>
+
+      <p>
+        For this reason, sonames should be used, but <em>in addition</em> to
+        versioned names for libraries. The two solutions address different
+        problems.
+      </p>
+    </section>
+  </section>
+
+  <section id="pkg-config">
+    <title>pkg-config Files</title>
+
+    <p>
+      pkg-config files should have a versioned name. For example:
+    </p>
+    <list>
+      <item><p><file>/usr/lib/pkgconfig/foo-4.pc</file></p></item>
+      <item><p><file>/usr/lib/pkgconfig/foo-5.pc</file></p></item>
+    </list>
+
+    <p>
+      Since each pkg-config file contains versioned information about the
+      library name and include paths, any project which depends on the library
+      should be able to switch from one version to another simply by changing
+      their pkg-config check from <file>foo-4</file> to <file>foo-5</file> (and
+      doing any necessary API porting).
+    </p>
+
+    <p>
+      Versioned pkg-config files can be installed from autoconf and automake
+      using the following code:
+    </p>
+    <listing>
+      <title>pkg-config Files in Autoconf and Automake</title>
+      <desc>
+        Code to install versioned pkg-config files from
+        <file>configure.ac</file> and <file>Makefile.am</file>
+      </desc>
+
+      <code>AC_CONFIG_FILES([
+lib<var>library</var>/<var>library</var>-$<var>LIBRARY</var>_API_VERSION.pc:lib<var>library</var>/<var>library</var>.pc.in
+],[],
+[<var>LIBRARY</var>_API_VERSION='$<var>LIBRARY</var>_API_VERSION'])</code>
+
+      <code># Note that the template file is called <var>library</var>.pc.in, but generates a
+# versioned .pc file using some magic in AC_CONFIG_FILES.
+pkgconfigdir = $(libdir)/pkgconfig
+pkgconfig_DATA = lib<var>library</var>/<var>library</var>-$(<var>LIBRARY</var>_API_VERSION).pc
+
+DISTCLEANFILES += $(pkgconfig_DATA)
+EXTRA_DIST += lib<var>library</var>/<var>library</var>.pc.in</code>
+    </listing>
+  </section>
+
+  <section id="configuration-files">
+    <title>Configuration Files</title>
+
+    <p>
+      From a user standpoint, the best approach to configuration files is to
+      keep the format both forward and backward compatible (both library
+      versions understand exactly the same configuration file syntax and
+      semantics). Then the same configuration file can be used for all versions
+      of the library, and no versioning is needed on the configuration file
+      itself.
+    </p>
+
+    <p>
+      If you can’t do that, the configuration files should simply be renamed,
+      and users will have to configure each version of the library separately.
+    </p>
+  </section>
+
+  <section id="gettext">
+    <title>Gettext Translations</title>
+
+    <p>
+      If you use gettext for translations in combination with autoconf and
+      automake, normally things are set up to install the translations to
+      <file>/usr/share/locale/<var>lang</var>/LC_MESSAGES/<var>package</var></file>.
+      You’ll need to change <var>package</var>. The convention used in GNOME is
+      to put this in <file>configure.ac</file>:
+    </p>
+
+    <code>GETTEXT_PACKAGE=foo-4
+AC_SUBST([GETTEXT_PACKAGE])
+AC_DEFINE_UNQUOTED([GETTEXT_PACKAGE],["$GETTEXT_PACKAGE"])</code>
+
+    <p>
+      Then use <code>GETTEXT_PACKAGE</code> as the package name to pass to
+      <code mime="text/x-csrc">bindtextdomain()</code>,
+      <code mime="text/x-csrc">textdomain()</code>, and
+      <code mime="text/x-csrc">dgettext()</code>.
+    </p>
+
+    <comment>
+      <p>FIXME: Cross-reference to i18n pages.</p>
+    </comment>
+  </section>
+
+  <section id="dbus">
+    <title>D-Bus Interfaces</title>
+
+    <p>
+      A D-Bus interface is another form of API, similar to a C API except that
+      resolution of the version is done at runtime rather than compile time.
+      Versioning D-Bus interfaces is otherwise no different to C APIs: version
+      numbers must be included in interface names, service names and object
+      paths.
+    </p>
+
+    <p>
+      For example, for a service <code>org.example.Foo</code> exposing
+      interfaces <code>A</code> and <code>B</code> on objects
+      <code>Controller</code> and <code>Client</code>, versions 4 and 5 of the
+      D-Bus API would look like this:
+    </p>
+    <list>
+      <title>Service Names</title>
+      <item><p><code>org.example.Foo4</code></p></item>
+      <item><p><code>org.example.Foo5</code></p></item>
+    </list>
+    <list>
+      <title>Interface Names</title>
+      <item><p><code>org.example.Foo4.InterfaceA</code></p></item>
+      <item><p><code>org.example.Foo4.InterfaceB</code></p></item>
+      <item><p><code>org.example.Foo5.InterfaceA</code></p></item>
+      <item><p><code>org.example.Foo5.InterfaceB</code></p></item>
+    </list>
+    <list>
+      <title>Object Paths</title>
+      <item><p><code>/org/example/Foo4/Controller</code></p></item>
+      <item><p><code>/org/example/Foo4/Client</code></p></item>
+      <item><p><code>/org/example/Foo5/Controller</code></p></item>
+      <item><p><code>/org/example/Foo5/Client</code></p></item>
+    </list>
+
+    <comment>
+      <p>
+        FIXME: Link to the upstream D-Bus guide to writing a good API:
+        https://bugs.freedesktop.org/show_bug.cgi?id=88994
+      </p>
+    </comment>
+  </section>
+
+  <section id="programs">
+    <title>Programs, Daemons and Utilities</title>
+
+    <p>
+      Desktop applications generally do not need to be versioned, as they are
+      not depended on by any other modules. Daemons and utility programs,
+      however, interact with other parts of the system and hence need
+      versioning.
+    </p>
+
+    <p>
+      Given a daemon and utility program:
+    </p>
+    <list>
+      <item><p><file>/usr/libexec/foo-daemon</file></p></item>
+      <item><p><file>/usr/bin/foo-lookup-utility</file></p></item>
+    </list>
+    <p>
+      these should be versioned as:
+    </p>
+    <list>
+      <item><p><file>/usr/libexec/foo-daemon-4</file></p></item>
+      <item><p><file>/usr/bin/foo-lookup-utility-4</file></p></item>
+    </list>
+
+    <p>
+      You may want to install a symbolic link from
+      <file>/usr/bin/foo-lookup-utility</file> to the recommended versioned
+      copy of the utility, to make it more convenient for users to use.
+    </p>
+  </section>
+</page>

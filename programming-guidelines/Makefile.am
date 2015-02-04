@@ -13,6 +13,7 @@ HELP_FILES = \
 	documentation.page \
 	index.page \
 	memory-management.page \
+	parallel-installability.page \
 	tooling.page \
 	writing-good-code.page \
 	$(NULL)
