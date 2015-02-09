@@ -1,0 +1,325 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      xmlns:xi="http://www.w3.org/2003/XInclude"
+      type="topic"
+      id="threading">
+
+  <info>
+    <link type="guide" xref="index#coding-style"/>
+
+    <credit type="author copyright">
+      <name>Philip Withnall</name>
+      <email its:translate="no">philip.withnall@collabora.co.uk</email>
+      <years>2015</years>
+    </credit>
+
+    <include href="cc-by-sa-3-0.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc>Moving computation out of the main thread into worker threads</desc>
+  </info>
+
+  <title>Threading</title>
+
+  <synopsis>
+    <title>Summary</title>
+
+    <comment>
+      <p>
+        FIXME: Incorporate
+        https://tecnocode.co.uk/2014/03/27/what-is-gmaincontext/ and
+        https://tecnocode.co.uk/2014/04/19/ensuring-functions-are-called-in-the-right-context/
+        into the page.
+      </p>
+    </comment>
+
+    <list>
+      <item><p>
+        Do not use threads if at all possible.
+        (<link xref="#when-to-use-threading"/>)
+      </p></item>
+      <item><p>
+        If threads have to be used, use <code>GTask</code> or
+        <code>GThreadPool</code> and isolate the threaded code as much as
+        possible.
+        (<link xref="#using-threading"/>)
+      </p></item>
+      <item><p>
+        Use <code>g_thread_join()</code> to avoid leaking thread resources if
+        using <code>GThread</code> manually.
+        (<link xref="#using-threading"/>)
+      </p></item>
+      <item><p>
+        Be careful about the <code>GMainContext</code> which code is executed in
+        if using threads. Executing code in the wrong context can cause race
+        conditions, or block the main loop.
+        (<link xref="#using-threading"/>)
+      </p></item>
+    </list>
+  </synopsis>
+
+  <section id="when-to-use-threading">
+    <title>When to Use Threading</title>
+
+    <p>
+      When writing projects using GLib, the default approach should be to
+      <em style="strong">never use threads</em>. Instead, make proper use of the
+      <link href="https://developer.gnome.org/glib/stable/glib-The-Main-Event-Loop.html">GLib
+      main context</link> which, through the use of asynchronous operations,
+      allows most blocking I/O operations to continue in the background while
+      the main context continues to process other events. Analysis, review and
+      debugging of threaded code becomes very hard, very quickly.
+    </p>
+
+    <p>
+      Threading should only be necessary when using an external library which
+      has blocking functions which need to be called from GLib code. If the
+      library provides a non-blocking alternative, or one which integrates with
+      a
+      <link href="http://pubs.opengroup.org/onlinepubs/009695399/functions/poll.html"><code>poll()</code></link>
+      loop, that should be used in preference. If the blocking function really
+      must be used, a thin wrapper should be written for it to convert it to the
+      normal
+      <link href="https://developer.gnome.org/gio/stable/GAsyncResult.html"><code>GAsyncResult</code>
+      style</link> of GLib asynchronous function, running the blocking operation
+      in a worker thread.
+    </p>
+
+    <example>
+      <p>
+        For example:
+      </p>
+      <code mime="text/x-csrc">
+int
+some_blocking_function (void *param1,
+                        void *param2);
+</code>
+      <p>
+        Should be wrapped as:
+      </p>
+      <code mime="text/x-csrc">
+void
+some_blocking_function_async (void                 *param1,
+                              void                 *param2,
+                              GCancellable         *cancellable,
+                              GAsyncReadyCallback   callback,
+                              gpointer              user_data);
+int
+some_blocking_function_finish (GAsyncResult        *result,
+                               GError             **error);
+</code>
+
+      <p>
+        With an implementation something like:
+      </p>
+      <code mime="text/x-csrc">/* Closure for the call’s parameters. */
+typedef struct {
+  void *param1;
+  void *param2;
+} SomeBlockingFunctionData;
+
+static void
+some_blocking_function_data_free (SomeBlockingFunctionData *data)
+{
+  free_param (data->param1);
+  free_param (data->param2);
+
+  g_free (data);
+}
+
+static void
+some_blocking_function_thread_cb (GTask         *task,
+                                  gpointer       source_object,
+                                  gpointer       task_data,
+                                  GCancellable  *cancellable)
+{
+  SomeBlockingFunctionData *data = task_data;
+  int retval;
+
+  /* Handle cancellation. */
+  if (g_task_return_error_if_cancelled (task))
+    {
+      return;
+    }
+
+  /* Run the blocking function. */
+  retval = some_blocking_function (data->param1, data->param2);
+  g_task_return_int (task, retval);
+}
+
+void
+some_blocking_function_async (void                 *param1,
+                              void                 *param2,
+                              GCancellable         *cancellable,
+                              GAsyncReadyCallback   callback,
+                              gpointer              user_data)
+{
+  GTask *task = NULL;  /* owned */
+  SomeBlockingFunctionData *data = NULL;  /* owned */
+
+  g_return_if_fail (validate_param (param1));
+  g_return_if_fail (validate_param (param2));
+  g_return_if_fail (cancellable == NULL || G_IS_CANCELLABLE (cancellable));
+
+  task = g_task_new (NULL, cancellable, callback, user_data);
+  g_task_set_source_tag (task, some_blocking_function_async);
+
+  /* Cancellation should be handled manually using mechanisms specific to
+   * some_blocking_function(). */
+  g_task_set_return_on_cancel (task, FALSE);
+
+  /* Set up a closure containing the call’s parameters. Copy them to avoid
+   * locking issues between the calling thread and the worker thread. */
+  data = g_new0 (SomeBlockingFunctionData, 1);
+  data->param1 = copy_param (param1);
+  data->param2 = copy_param (param2);
+
+  g_task_set_task_data (task, data, some_blocking_function_data_free);
+
+  /* Run the task in a worker thread and return immediately while that continues
+   * in the background. When it’s done it will call @callback in the current
+   * thread default main context. */
+  g_task_run_in_thread (task, some_blocking_function_thread_cb);
+
+  g_object_unref (task);
+}
+
+int
+some_blocking_function_finish (GAsyncResult  *result,
+                               GError       **error)
+{
+  g_return_val_if_fail (g_task_is_valid (result,
+                                         some_blocking_function_async), -1);
+  g_return_val_if_fail (error == NULL || *error == NULL, -1);
+
+  return g_task_propagate_int (G_TASK (result), error);
+}</code>
+      <p>
+        See the
+        <link href="https://developer.gnome.org/gio/stable/GAsyncResult.html"><code>GAsyncResult</code>
+        documentation</link> for more details. A simple way to implement the
+        worker thread is to use
+        <link href="https://developer.gnome.org/gio/stable/GTask.html"><code>GTask</code></link>
+        and <link href="https://developer.gnome.org/gio/stable/GTask.html#g-task-run-in-thread"><code>g_task_run_in_thread()</code></link>.
+      </p>
+    </example>
+  </section>
+
+  <section id="using-threading">
+    <title>Using Threading</title>
+
+    <p>
+      If <code>GTask</code> is not suitable for writing the worker thread, a
+      more low-level approach must be used. This should be considered very
+      carefully, as it is very easy to get threading code wrong in ways which
+      will unpredictably cause bugs at runtime, cause deadlocks, or consume too
+      many resources and terminate the program.
+    </p>
+
+    <p>
+      A full manual on writing threaded code is beyond the scope of this
+      document, but here are a number of guidelines to follow which should
+      reduce the potential for bugs in threading code. The overriding principle
+      is to reduce the amount of code and data which can be affected by
+      threading — for example, reducing the number of threads, the complexity of
+      worker thread implementation, and the amount of data shared between
+      threads.
+    </p>
+
+    <list>
+      <item>
+        <p>
+          Use <link href="https://developer.gnome.org/glib/stable/glib-Thread-Pools.html"><code>GThreadPool</code></link>
+          instead of manually creating
+          <link href="https://developer.gnome.org/glib/stable/glib-Threads.html"><code>GThread</code>s</link>
+          if possible. <code>GThreadPool</code> supports a work queue, limits on
+          the number of spawned threads, and automatically joins finished
+          threads so they are not leaked.
+        </p>
+      </item>
+      <item>
+        <p>
+          If it is not possible to use a <code>GThreadPool</code> (which is
+          rarely the case):
+        </p>
+
+        <list>
+          <item>
+            <p>
+              Use <link href="https://developer.gnome.org/glib/stable/glib-Threads.html#g-thread-try-new"><code>g_thread_try_new()</code></link>
+              to spawn threads, instead of
+              <link href="https://developer.gnome.org/glib/stable/glib-Threads.html#g-thread-new"><code>g_thread_new()</code></link>,
+              so errors due to the system running out of threads can be handled
+              gracefully rather than unconditionally aborting the program.
+            </p>
+          </item>
+          <item>
+            <p>
+              Explicitly join threads using
+              <link href="https://developer.gnome.org/glib/stable/glib-Threads.html#g-thread-join"><code>g_thread_join()</code></link>
+              to avoid leaking the thread resources.
+            </p>
+          </item>
+        </list>
+      </item>
+      <item>
+        <p>
+          Use message passing to transfer data between threads, rather than
+          manual locking with mutexes. <code>GThreadPool</code> explicitly
+          supports this with
+          <link href="https://developer.gnome.org/glib/stable/glib-Thread-Pools.html#g-thread-pool-push"><code>g_thread_pool_push()</code></link>.
+        </p>
+      </item>
+      <item>
+        <p>
+          If mutexes must be used:
+        </p>
+
+        <list>
+          <item>
+            <p>
+              Isolate threading code as much as possible, keeping mutexes
+              private within classes, and tightly bound to very specific class
+              members.
+            </p>
+          </item>
+          <item>
+            <p>
+              All mutexes should be clearly commented beside their declaration,
+              indicating which other structures or variables they protect access
+              to. Similarly, those variables should be commented saying that
+              they should <em>only</em> be accessed with that mutex held.
+            </p>
+          </item>
+        </list>
+      </item>
+      <item>
+        <p>
+          Be careful about interactions between main contexts and threads. For
+          example,
+          <link href="https://developer.gnome.org/glib/stable/glib-The-Main-Event-Loop.html#g-timeout-add-seconds"><code>g_timeout_add_seconds()</code></link>
+          adds a timeout <em>to be executed in the global default main
+          context</em>, which is being run in the main thread, <em>not
+          necessarily</em> the current thread. Getting this wrong can mean that
+          work intended for a worker thread accidentally ends up being executed
+          in the main thread anyway.
+        </p>
+      </item>
+    </list>
+  </section>
+
+  <section id="debugging">
+    <title>Debugging</title>
+
+    <p>
+      Debugging threading issues is tricky, both because they are hard to
+      reproduce, and because they are hard to reason about. This is one of the
+      big reasons for avoiding using threads in the first place.
+    </p>
+
+    <p>
+      However, if a threading issue does arise,
+      <link xref="tooling#helgrind-and-drd">Valgrind’s drd and helgrind tools
+      are useful</link>.
+    </p>
+  </section>
+</page>

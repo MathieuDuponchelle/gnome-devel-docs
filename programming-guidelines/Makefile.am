@@ -14,6 +14,7 @@ HELP_FILES = \
 	index.page \
 	memory-management.page \
 	parallel-installability.page \
+	threading.page \
 	tooling.page \
 	writing-good-code.page \
 	$(NULL)
