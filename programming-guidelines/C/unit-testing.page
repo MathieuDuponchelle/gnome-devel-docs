@@ -1,0 +1,296 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic"
+      id="unit-testing">
+
+  <info>
+    <link type="guide" xref="index#coding-style"/>
+
+    <credit type="author copyright">
+      <name>Philip Withnall</name>
+      <email its:translate="no">philip.withnall@collabora.co.uk</email>
+      <years>2015</years>
+    </credit>
+
+    <include href="cc-by-sa-3-0.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc>Designing software to be tested and writing unit tests for it</desc>
+  </info>
+
+  <title>Unit Testing</title>
+
+  <synopsis>
+    <title>Summary</title>
+
+    <p>
+      Unit testing should be the primary method of testing the bulk of code
+      written, because a unit test can be written once and run many times —
+      manual tests have to be planned once and then manually run each time.
+    </p>
+
+    <p>
+      Development of unit tests starts with the architecture and API design of
+      the code to be tested: code should be designed to be easily testable, or
+      will potentially be very difficult to test.
+    </p>
+
+    <list>
+      <item><p>
+        Write unit tests to be as small as possible, but no smaller.
+        (<link xref="#writing-unit-tests"/>)
+      </p></item>
+      <item><p>
+        Use code coverage tools to write tests to get high code coverage.
+        (<link xref="#writing-unit-tests"/>)
+      </p></item>
+      <item><p>
+        Run all unit tests under Valgrind to check for leaks and other problems.
+        (<link xref="#leak-checking"/>)
+      </p></item>
+      <item><p>
+        Use appropriate tools to automatically generate unit tests where
+        possible. (<link xref="#test-generation"/>)
+      </p></item>
+      <item><p>
+        Design code to be testable from the beginning.
+        (<link xref="#writing-testable-code"/>)
+      </p></item>
+    </list>
+  </synopsis>
+
+  <section id="writing-unit-tests">
+    <title>Writing Unit Tests</title>
+
+    <p>
+      Unit tests should be written in conjunction with looking at
+      <link xref="tooling#gcov-and-lcov">code coverage information gained from
+      running the tests</link>. This typically means writing an initial set of
+      unit tests, running them to get coverage data, then reworking and
+      expanding them to increase the code coverage levels. Coverage should be
+      increased first by ensuring all functions are covered (at least in part),
+      and then by ensuring all lines of code are covered. By covering functions
+      first, API problems which will prevent effective testing can be found
+      quickly. These typically manifest as internal functions which cannot
+      easily be called from unit tests. Overall, coverage levels of over 90%
+      should be aimed for; don’t just test cases covered by project
+      requirements, test everything.
+    </p>
+
+    <p>
+      Like <link xref="version-control">git commits</link>, each unit test
+      should be ‘as small as possible, but no smaller’, testing a single
+      specific API or behavior. Each test case must be able to be run
+      individually, without depending on state from other test cases. This is
+      important to allow debugging of a single failing test, without having to
+      step through all the other test code as well. It also means that a single
+      test failure can easily be traced back to a specific API, rather than a
+      generic ‘unit tests failed somewhere’ message.
+    </p>
+
+    <p>
+      GLib has support for unit testing with its
+      <link href="https://developer.gnome.org/glib/stable/glib-Testing.html">GTest
+      framework</link>, allowing tests to be arranged in groups and hierarchies.
+      This means that groups of related tests can be run together for enhanced
+      debugging too, by running the test binary with the <cmd>-p</cmd> argument:
+      <cmd>./test-suite-name -p /path/to/test/group</cmd>.
+    </p>
+  </section>
+
+  <section id="installed-tests">
+    <title>Installed Tests</title>
+
+    <p>
+      All unit tests should be installed system-wide, following the
+      <link href="https://wiki.gnome.org/Initiatives/GnomeGoals/InstalledTests">installed-tests
+      standard</link>.
+    </p>
+
+    <p>
+      By installing the unit tests, continuous integration (CI) is made easier,
+      since tests for one project can be re-run after changes to other projects
+      in the CI environment, thus testing the interfaces between modules. That
+      is useful for a highly-coupled set of projects like GNOME.
+    </p>
+
+    <p>
+      To add support for installed-tests, add the following to
+      <file>configure.ac</file>:
+    </p>
+    <code># Installed tests
+AC_ARG_ENABLE([modular_tests],
+              AS_HELP_STRING([--disable-modular-tests],
+                             [Disable build of test programs (default: no)]),,
+              [enable_modular_tests=yes])
+AC_ARG_ENABLE([installed_tests],
+              AS_HELP_STRING([--enable-installed-tests],
+                             [Install test programs (default: no)]),,
+              [enable_installed_tests=no])
+AM_CONDITIONAL([BUILD_MODULAR_TESTS],
+               [test "$enable_modular_tests" = "yes" ||
+                test "$enable_installed_tests" = "yes"])
+AM_CONDITIONAL([BUILDOPT_INSTALL_TESTS],[test "$enable_installed_tests" = "yes"])</code>
+
+    <p>
+      Then in <file>tests/Makefile.am</file>:
+    </p>
+    <code>insttestdir = $(libexecdir)/installed-tests/[project]
+
+all_test_programs = \
+	test-program1 \
+	test-program2 \
+	test-program3 \
+	$(NULL)
+if BUILD_MODULAR_TESTS
+TESTS = $(all_test_programs)
+noinst_PROGRAMS = $(TESTS)
+endif
+
+if BUILDOPT_INSTALL_TESTS
+insttest_PROGRAMS = $(all_test_programs)
+
+testmetadir = $(datadir)/installed-tests/[project]
+testmeta_DATA = $(all_test_programs:=.test)
+
+testdatadir = $(insttestdir)
+testdata_DATA = $(test_files)
+
+testdata_SCRIPTS = $(test_script_files)
+endif
+
+EXTRA_DIST = $(test_files)
+
+%.test: % Makefile
+	$(AM_V_GEN) (echo '[Test]' &gt; $@.tmp; \
+	echo 'Type=session' &gt;&gt; $@.tmp; \
+	echo 'Exec=$(insttestdir)/$&lt;' &gt;&gt; $@.tmp; \
+	mv $@.tmp $@)</code>
+  </section>
+
+  <section id="leak-checking">
+    <title>Leak Checking</title>
+
+    <p>
+      Once unit tests with high code coverage have been written, they can be run
+      under various dynamic analysis tools, such as
+      <link xref="tooling#valgrind">Valgrind</link> to check for leaks,
+      threading errors, allocation problems, etc. across the entire code base.
+      The higher the code coverage of the unit tests, the more confidence the
+      Valgrind results can be treated with. See <link xref="tooling"/> for more
+      information, including build system integration instructions.
+    </p>
+
+    <p>
+      Critically, this means that unit tests should not leak memory or other
+      resources themselves, and similarly should not have any threading
+      problems. Any such problems would effectively be false positives in the
+      analysis of the actual project code. (False positives which need to be
+      fixed by fixing the unit tests.)
+    </p>
+  </section>
+
+  <section id="test-generation">
+    <title>Test Generation</title>
+
+    <p>
+      Certain types of code are quite repetitive, and require a lot of unit
+      tests to gain good coverage; but are appropriate for
+      <link href="http://en.wikipedia.org/wiki/Test_data_generation">test data
+      generation</link>, where a tool is used to automatically generate test
+      vectors for the code. This can drastically reduce the time needed for
+      writing unit tests, for code in these specific domains.
+    </p>
+
+    <section id="json">
+      <title>JSON</title>
+
+      <p>
+        One example of a domain amenable to test data generation is parsing,
+        where the data to be parsed is required to follow a strict schema — this
+        is the case for XML and JSON documents. For JSON, a tool such as
+        <link href="http://people.collabora.com/~pwith/walbottle/">Walbottle</link>
+        can be used to generate test vectors for all types of valid and invalid
+        input according to the schema.
+      </p>
+
+      <p>
+        Every type of JSON document should have a
+        <link href="http://json-schema.org/">JSON Schema</link> defined for it,
+        which can then be passed to Walbottle to generate test vectors:
+      </p>
+      <code mime="application/x-shellscript">
+json-schema-generate --valid-only schema.json
+json-schema-generate --invalid-only schema.json</code>
+
+      <p>
+        These test vectors can then be passed to the code under test in its unit
+        tests. The JSON instances generated by <cmd>--valid-only</cmd> should be
+        accepted; those from <cmd>--invalid-only</cmd> should be rejected.
+      </p>
+    </section>
+  </section>
+
+  <section id="writing-testable-code">
+    <title>Writing Testable Code</title>
+
+    <p>
+      Code should be written with testability in mind from the design stage, as
+      it affects API design and architecture in fundamental ways. A few key
+      principles:
+    </p>
+    <list>
+      <item><p>
+        Do not use global state. Singleton objects are usually a bad idea as
+        they can’t be instantiated separately or controlled in the unit tests.
+      </p></item>
+      <item><p>
+        Separate out use of external state, such as databases, networking, or
+        the file system. The unit tests can then replace the accesses to
+        external state with mocked objects. A common approach to this is to use
+        dependency injection to pass a file system wrapper object to the code
+        under test. For example, a class should not load a global database (from
+        a fixed location in the file system) because the unit tests would then
+        potentially overwrite the running system’s copy of the database, and
+        could never be executed in parallel. They should be passed an object
+        which provides an interface to the database: in a production system,
+        this would be a thin wrapper around the database API; for testing, it
+        would be a mock object which checks the requests given to it and returns
+        hard-coded responses for various tests.
+      </p></item>
+      <item><p>
+        Expose utility functions where they might be generally useful.
+      </p></item>
+      <item><p>
+        Split projects up into collections of small, private libraries which are
+        then linked together with a minimal amount of glue code into the overall
+        executable. Each can be tested separately.
+      </p></item>
+    </list>
+  </section>
+
+  <section id="external-links">
+    <title>External Links</title>
+
+    <p>
+      The topic of software testability is covered in the following articles:
+    </p>
+    <list>
+      <item><p>
+        <link href="http://msdn.microsoft.com/en-us/magazine/dd263069.aspx">Design
+        for testability</link>
+      </p></item>
+      <item><p>
+        <link href="http://en.wikipedia.org/wiki/Software_testability">Software
+        testability</link>
+      </p></item>
+      <item><p>
+        <link href="http://en.wikipedia.org/wiki/Dependency_injection">Dependency
+        injection</link>
+      </p></item>
+      <item><p>
+        <link href="http://c2.com/cgi/wiki?SoftwareDesignForTesting">Software
+        design for testing</link>
+      </p></item>
+    </list>
+  </section>
+</page>

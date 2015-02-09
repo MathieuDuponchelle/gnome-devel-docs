@@ -24,6 +24,7 @@ HELP_FILES = \
 	preconditions.page \
 	threading.page \
 	tooling.page \
+	unit-testing.page \
 	version-control.page \
 	versioning.page \
 	writing-good-code.page \
