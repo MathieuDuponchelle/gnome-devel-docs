@@ -10,6 +10,7 @@ HELP_EXTRA = \
 HELP_FILES = \
 	additional-materials.page \
 	c-coding-style.page \
+	databases.page \
 	documentation.page \
 	index.page \
 	memory-management.page \

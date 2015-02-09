@@ -1,0 +1,129 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      xmlns:xi="http://www.w3.org/2003/XInclude"
+      type="topic"
+      id="databases">
+
+  <info>
+    <link type="guide" xref="index#coding-style"/>
+
+    <credit type="author copyright">
+      <name>Philip Withnall</name>
+      <email its:translate="no">philip.withnall@collabora.co.uk</email>
+      <years>2015</years>
+    </credit>
+
+    <include href="cc-by-sa-3-0.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc>Simple persistent object stores</desc>
+  </info>
+
+  <title>Databases</title>
+
+  <synopsis>
+    <title>Summary</title>
+
+    <list>
+      <item><p>
+        Use databases for appropriate use cases: not configuration data (use
+        GSettings). (<link xref="#when-to-use-databases"/>)
+      </p></item>
+      <item><p>
+        Choose between GOM and GVDB based on whether indexing is required.
+        (<link xref="#when-to-use-databases"/>)
+      </p></item>
+      <item><p>
+        Consider your vacuuming policy before committing to using GOM.
+        (<link xref="#when-to-use-databases"/>)
+      </p></item>
+      <item><p>
+        Avoid SQL injection vulnerabilities by using prepared statements.
+        (<link xref="#sql-injection"/>)
+      </p></item>
+    </list>
+  </synopsis>
+
+  <section id="when-to-use-databases">
+    <title>When to Use Databases</title>
+
+    <p>
+      Configuration data should be stored in
+      <link href="https://developer.gnome.org/gio/stable/GSettings.html">GSettings</link>.
+      As a rule of thumb, if some data needs to be persistent and affects how an
+      application behaves, it is configuration data. If it could potentially be
+      subject to policies imposed by the system administrator (such as proxy or
+      lockdown settings), it is configuration data. If it contains user created
+      content, it is not configuration data, and should not be stored in
+      GSettings.
+    </p>
+
+    <p>
+      For such situations where user data is highly structured, storing it in a
+      database is sensible. There are two main databases suggested for use
+      within GNOME: GOM and GVDB. GOM is a wrapper around SQLite, and hence
+      implements indexing of fields and SQL-style queries. GVDB is a much
+      simpler object store, supporting fast serialization of a dictionary of
+      objects to disk.
+    </p>
+
+    <p>
+      GOM should be used if you need advanced features, especially indexing.
+      GVDB should be used otherwise.
+    </p>
+
+    <p>
+      Before deciding to use GOM (and hence SQLite), you must consider a
+      vacuuming policy for the database, and whether your use case will interact
+      well with SQLite’s vacuuming system. Vacuuming is effectively SQLite’s
+      term for defragmenting the database — if a database is not vacuumed
+      appropriately, performance will degrade and the database size will
+      increase indefinitely. Read
+      <link href="http://blogs.gnome.org/jnelson/2015/01/06/sqlite-vacuum-and-auto_vacuum/">this
+      article</link> on vacuuming for more information; please consider it
+      before choosing to use GOM.
+    </p>
+  </section>
+
+  <section id="gom">
+    <title>Using GOM</title>
+
+    <p>
+      Providing a GOM tutorial is beyond the scope of this document, but a
+      <link href="https://developer.gnome.org/gom/stable/">reference manual is
+      available</link>.
+    </p>
+
+    <section id="sql-injection">
+      <title>SQL Injection</title>
+
+      <p>
+        GOM does allow access to the lower level SQLite query APIs. When using
+        them, queries <em style="strong">must</em> be constructed using
+        SQLite’s <link href="https://www.sqlite.org/c3ref/stmt.html">prepared
+        statement</link> and
+        <link href="https://www.sqlite.org/c3ref/bind_blob.html">value
+        binding</link> API, rather than by constructing SQL strings then passing
+        them to SQLite to parse. Constructing strings makes
+        <link href="http://en.wikipedia.org/wiki/SQL_injection">SQL
+        injection</link> vulnerabilities very likely, which can give attackers
+        access to arbitrary user data from the database.
+      </p>
+    </section>
+  </section>
+
+  <section id="gvdb">
+    <title>Using GVDB</title>
+
+    <p>
+      GVDB has a simple API which mirrors a conventional hash table. Presently,
+      GVDB is only available as a copy-and-paste library; fetch the most recent
+      copy of the code from
+      <link href="https://git.gnome.org/browse/gvdb">GVDB git</link> and copy
+      it into your project. It is licenced under LGPLv2.1+.
+    </p>
+
+    <p>
+      A full GVDB tutorial is beyond the scope of this document.
+    </p>
+  </section>
+</page>
