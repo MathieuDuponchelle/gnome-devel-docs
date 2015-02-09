@@ -21,6 +21,7 @@ HELP_FILES = \
 	parallel-installability.page \
 	threading.page \
 	tooling.page \
+	version-control.page \
 	writing-good-code.page \
 	$(NULL)
 

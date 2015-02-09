@@ -1,0 +1,179 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic"
+      id="version-control">
+
+  <info>
+    <link type="guide" xref="index#coding-style"/>
+
+    <credit type="author copyright">
+      <name>Philip Withnall</name>
+      <email its:translate="no">philip.withnall@collabora.co.uk</email>
+      <years>2015</years>
+    </credit>
+
+    <include href="cc-by-sa-3-0.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc>Source code version control with git</desc>
+  </info>
+
+  <title>Version Control</title>
+
+  <synopsis>
+    <title>Summary</title>
+
+    <p>
+      git is used for version control for all GNOME projects. This page assumes
+      good working knowledge of git; some introductory material is available
+      <link href="https://www.atlassian.com/git/tutorials/">here</link>, and a
+      <link href="https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf">git
+      cheatsheet is here</link>.
+    </p>
+
+    <list>
+      <item><p>
+        Make atomic, revertable commits.
+        (<link xref="#guidelines-for-making-commits"/>)
+      </p></item>
+      <item><p>
+        Include full reasoning in commit messages, plus links to relevant bug
+        reports or specifications.
+        (<link xref="#guidelines-for-making-commits"/>)
+      </p></item>
+      <item><p>
+        Keep large changes, such as renames, in separate commits.
+        (<link xref="#guidelines-for-making-commits"/>)
+      </p></item>
+      <item><p>
+        Merge changes from feature branches by rebasing.
+        (<link xref="#use-of-git"/>)
+      </p></item>
+    </list>
+  </synopsis>
+
+  <section id="use-of-git">
+    <title>Use of Git</title>
+
+    <p>
+      Most GNOME repositories follow these rules:
+    </p>
+    <list>
+      <item><p>
+        No forced pushes.
+      </p></item>
+      <item><p>
+        Rebase commits rather than merging.
+      </p></item>
+      <item><p>
+        Work on feature branches on GNOME git in <code>wip/</code> branches,
+        then rebase on master and fast-forward merge the changes.
+      </p></item>
+      <item><p>
+        Hide <link href="https://sethrobertson.github.io/GitBestPractices/#sausage">sausage
+        making</link> by squashing commits before merging.
+      </p></item>
+    </list>
+  </section>
+
+  <section id="guidelines-for-making-commits">
+    <title>Guidelines for Making Commits</title>
+
+    <p>
+      Commits should be as small as possible, but no smaller. Each commit should
+      address a single issue, containing only changes related to that issue. The
+      message for each commit should describe the issue, explain what causes it,
+      and explain how it has been fixed if it is not obvious. If the commit is
+      associated with a bug report, the full URI for the bug report should be
+      put on a line by itself at the bottom of the commit message. Similarly,
+      the ID for the git commit (from <cmd>git log --oneline</cmd>) should
+      be copied into the bug report once the commit has been pushed, so it is
+      easy to find one from the other.
+    </p>
+
+    <p>
+      The changes in each commit should be easy to read. For example, they
+      should not unnecessarily change whitespace or indentation. Large,
+      mechanical changes, such as renaming a file or function, should be put in
+      separate commits from modifications to code inside that file or function,
+      so that the latter changes do not get buried and lost in the former.
+    </p>
+
+    <p>
+      The following principles give the reasoning for all the advice above:
+    </p>
+    <list>
+      <item><p>
+        Each commit should take the repository from one working state to
+        another, otherwise
+        <link href="http://git-scm.com/book/en/v2/Git-Tools-Debugging-with-Git#Binary-Search">bisection</link>
+        is impossible.
+      </p></item>
+      <item><p>
+        Each commit should be individually revertable. If it later turns out
+        that the commit was a bad idea,
+        <cmd>git revert <var>commit ID</var></cmd> should take the repository
+        from a working state to another working state.
+      </p></item>
+      <item><p>
+        The reasoning for each commit, and its relationship to external
+        resources like specifications and bug reports, should be clear, to the
+        extent that commits written by one developer a year in the past should
+        still be understandable by a second developer without having to trace
+        through the changes and work out what they do.
+      </p></item>
+      <item><p>
+        Each commit should be written once, and designed to be read many times,
+        by many reviewers and future programmers.
+      </p></item>
+    </list>
+  </section>
+
+  <section id="merging-procedure">
+    <title>Merging Procedure</title>
+
+    <p>
+      To merge a feature branch named <code>my-branch</code> into master, use
+      the following commands:
+    </p>
+    <code mime="application/x-shellscript">
+git checkout master
+git pull
+
+git checkout wip/<var>my-branch</var>
+git rebase --interactive master
+# Ensure the rebase is successful; test the changes
+
+git checkout master
+git merge wip/<var>my-branch</var>
+git push
+
+# wip/<var>my-branch</var> can now be deleted
+git push origin :wip/<var>my-branch</var>
+git branch -D wip/<var>my-branch</var></code>
+  </section>
+
+  <section id="external-links">
+    <title>External Links</title>
+
+    <list>
+      <item><p>
+        <link href="https://sethrobertson.github.io/GitBestPractices/">Git best practices</link>
+      </p></item>
+      <item><p>
+        <link href="https://help.github.com/categories/using-git/">Git FAQ</link>
+      </p></item>
+      <item><p>
+        <link href="https://www.atlassian.com/git/tutorials/">Atlassian git tutorial</link>
+      </p></item>
+      <item><p>
+        <link href="http://git-scm.com/docs/gittutorial">Official git tutorial</link>
+      </p></item>
+      <item><p>
+        <link href="https://try.github.io/">Interactive git tutorial</link>
+      </p></item>
+      <item><p>
+        <link href="http://www.git-tower.com/learn/">git-tower tutorial</link>
+      </p></item>
+    </list>
+  </section>
+</page>
