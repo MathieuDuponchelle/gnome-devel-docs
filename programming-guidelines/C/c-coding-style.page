@@ -32,9 +32,9 @@
   <p>
     We present examples of good coding style as well as examples of
     bad style that is not acceptable in GNOME.  Please try to submit
-    patches that conform to GNOME's coding style; this indicates that
-    you have done your homework to respect the project's goal of
-    long-term maintainability.  Patches with GNOME's coding style will
+    patches that conform to GNOME’s coding style; this indicates that
+    you have done your homework to respect the project’s goal of
+    long-term maintainability.  Patches with GNOME’s coding style will
     also be easier to review!
   </p>
 
@@ -47,11 +47,11 @@
   </note>
 
   <p>
-    These guidelines are heavily inspired by GTK's CODING-STYLE
-    document, the Linux Kernel's CodingStyle, and the GNU Coding
+    These guidelines are heavily inspired by GTK’s CODING-STYLE
+    document, the Linux Kernel’s CodingStyle, and the GNU Coding
     Standards.  These are slight variations of each other, with
-    particular modifications for each project's particular needs and
-    culture, and GNOME's version is no different.
+    particular modifications for each project’s particular needs and
+    culture, and GNOME’s version is no different.
   </p>
 
   <section id="most-important-rule">
@@ -148,19 +148,19 @@ for (i = 0; i &lt; num_elements; i++)
     <p>
       Both styles have their pros and cons.  The most important things
       is to <em>be consistent</em> with the surrounding code.  For
-      example, the GTK+ library, which is GNOME's widget toolkit, is
-      written with the GNU style.  Nautilus, GNOME's file manager, is
+      example, the GTK+ library, which is GNOME’s widget toolkit, is
+      written with the GNU style.  Nautilus, GNOME’s file manager, is
       written in Linux kernel style.  Both styles are perfectly
       readable and consistent when you get used to them.
     </p>
 
     <p>
       Your first feeling when having to study or work on a piece of
-      code that doesn't have your preferred indentation style may be,
+      code that doesn’t have your preferred indentation style may be,
       how shall we put it, gut-wrenching.  You should resist your
       inclination to reindent everything, or to use an inconsistent
       style for your patch.  Remember the first rule:  <em>be
-      consistent</em> and respectful of that code's customs, and your
+      consistent</em> and respectful of that code’s customs, and your
       patches will have a much higher chance of being accepted without
       a lot of arguing about the right indentation style.
     </p>
@@ -172,7 +172,7 @@ for (i = 0; i &lt; num_elements; i++)
     <p>
       <em>Do not ever change the size of tabs in your editor</em>;
       leave them as 8 spaces.  Changing the size of tabs means that
-      code that you didn't write yourself will be perpetually misaligned.
+      code that you didn’t write yourself will be perpetually misaligned.
     </p>
 
     <p>
@@ -198,7 +198,7 @@ else
         another_single_statement (arg1);</code>
 
 	<p>
-	  The "no block for single statements" rule has only four
+	  The “no block for single statements” rule has only four
 	  exceptions:
 	</p>
 
@@ -257,7 +257,7 @@ if (condition1 ||
 
           <item>
             <p>
-              Nested if's, in which case the block should be placed on the
+              Nested ifs, in which case the block should be placed on the
               outermost if:
             </p>
 
@@ -376,7 +376,7 @@ my_function (int argument)
 
     <p>
       Do not check boolean values for equality.  The rationale is that
-      a "true" value may not be necessarily equal to whatever the
+      a ‘true’ value may not be necessarily equal to whatever the
       <code>TRUE</code> macro uses.  For example:
     </p>
 
@@ -449,7 +449,7 @@ my_function (some_type_t      type,
     <p>
       If you use Emacs, you can use <code>M-x align</code> to do this
       kind of alignment automatically.  Just put the point and mark
-      around the function's prototype, and invoke that command.
+      around the function’s prototype, and invoke that command.
     </p>
 
     <p>
@@ -652,7 +652,7 @@ switch (condition)
     }
     break;
 
-  ...
+  …
   }
     </code>
   </section>
@@ -729,7 +729,7 @@ gint          gtk_type_update_foobar      (GtkType *type);
 
 G_BEGIN_DECLS
 
-...
+…
 
 G_END_DECLS
 
@@ -779,7 +779,7 @@ typedef void (* GtkCallback) (GtkWidget *widget,
     <p>
       Instance structures should only contain the parent type, and optionally a
       pointer to a private data structure, and they should be annotated as
-      "private" using the gtk-doc trigraph:
+      ‘private’ using the gtk-doc trigraph:
     </p>
 
     <code>
@@ -807,9 +807,9 @@ struct _GtkFoo
 
     <p>
       All the properties should be stored inside the private data
-      structure, which is defined inside the source file - or, if
+      structure, which is defined inside the source file — or, if
       needed, inside a private header file; the private header
-      filename must end with "private.h" and must not be installed.
+      filename must end with ‘private.h’ and must not be installed.
     </p>
 
     <p>
@@ -831,7 +831,7 @@ typedef struct _GtkFoo              GtkFoo;
     </code>
 
     <p>
-      The interface structure should have "Interface" postfixed to the
+      The interface structure should have ‘Interface’ postfixed to the
       dummy typedef:
     </p>
 
@@ -924,7 +924,7 @@ typedef struct _GtkFooInterface         GtkFooInterface;
 
     <p>
       Non-exported functions that are needed in more than one source file
-      should be prefixed with an underscore ("_"), and declared in a
+      should be prefixed with an underscore (‘_’), and declared in a
       private header file.  For example, <code>_mylib_internal_foo()</code>.
     </p>
 
