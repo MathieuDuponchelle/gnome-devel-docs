@@ -206,7 +206,8 @@ else
 	  <item>
 	    <p>
 	      If the single statement covers multiple lines, e.g. for functions with
-	      many arguments, and it is followed by else or else if:
+	      many arguments, and it is followed by <code>else</code> or
+	      <code>else if</code>:
 	    </p>
 
 <code style="valid">
@@ -257,8 +258,8 @@ if (condition1 ||
 
           <item>
             <p>
-              Nested ifs, in which case the block should be placed on the
-              outermost if:
+              Nested <code>if</code>s, in which case the block should be placed
+              on the outermost <code>if</code>:
             </p>
 
 <code style="valid">
@@ -394,8 +395,8 @@ if (another_condition)
         do_bar ();</code>
 
         <p>
-          Even if C handles NULL equality like a boolean, be explicit.
-          This makes it easier to port your C code to something like
+          Even if C handles <code>NULL</code> equality like a boolean, be
+          explicit. This makes it easier to port your C code to something like
           C#, where testing against null explicitly is important:
         </p>
 
@@ -432,6 +433,7 @@ if (some_other_pointer)
 void
 my_function (void)
 {
+  …
 }
     </code>
 
@@ -448,6 +450,7 @@ my_function (some_type_t      type,
              double_ptr_t   **double_pointer,
              final_type_t     another_type)
 {
+  …
 }
     </code>
 
@@ -558,7 +561,7 @@ if (condition) foo (); else bar ();
     <title>The <code>switch</code> Statement</title>
 
     <p>
-      A <code>switch ()</code> should open a block on a new
+      A <code>switch</code> should open a block on a new
       indentation level, and each <code>case</code> should start on
       the same indentation level as the curly braces, with the case
       block on a new indentation level:
@@ -637,7 +640,7 @@ default:
     </code>
 
     <p>
-      The <code>break</code> statement for the default: case is not
+      The <code>break</code> statement for the <code>default</code> case is not
       mandatory.
     </p>
 
@@ -673,9 +676,9 @@ switch (condition)
     </p>
 
     <code style="valid">
-return value          function_name           (type   argument,
-                                               type   argument,
-                                               type   argument);
+return_type          function_name           (type   argument,
+                                              type   argument,
+                                              type   argument);
     </code>
 
     <p>
@@ -805,10 +808,12 @@ struct _GtkFoo
     </p>
 
     <p>
-      Always use the G_DEFINE_TYPE(), G_DEFINE_TYPE_WITH_PRIVATE(),
-      and G_DEFINE_TYPE_WITH_CODE() macros, or their abstract variants
-      G_DEFINE_ABSTRACT_TYPE(), G_DEFINE_ABSTRACT_TYPE_WITH_PRIVATE(),
-      and G_DEFINE_ABSTRACT_TYPE_WITH_CODE(); also, use the similar
+      Always use the <code>G_DEFINE_TYPE()</code>,
+      <code>G_DEFINE_TYPE_WITH_PRIVATE()</code>, and
+      <code>G_DEFINE_TYPE_WITH_CODE()</code> macros, or their abstract variants
+      <code>G_DEFINE_ABSTRACT_TYPE()</code>,
+      <code>G_DEFINE_ABSTRACT_TYPE_WITH_PRIVATE()</code>,
+      and <code>G_DEFINE_ABSTRACT_TYPE_WITH_CODE()</code>; also, use the similar
       macros for defining interfaces and boxed types.
     </p>
 
@@ -824,8 +829,8 @@ struct _GtkFoo
       either using the pointer inside the instance structure, if one
       is available, or the generated instance private data getter
       function for your type. You should never use the
-      G_TYPE_INSTANCE_GET_PRIVATE() macro or the
-      g_type_instance_get_private() function.
+      <code>G_TYPE_INSTANCE_GET_PRIVATE()</code> macro or the
+      <code>g_type_instance_get_private()</code> function.
     </p>
 
     <p>
@@ -859,20 +864,20 @@ typedef struct _GtkFooInterface         GtkFooInterface;
       </thead>
       <tbody>
 	<tr>
-	  <td><p>GTK_TYPE_&lt;iface_name&gt;</p></td>
-	  <td><p>&lt;iface_name&gt;_get_type</p></td>
+	  <td><p><code>GTK_TYPE_<var>iface_name</var></code></p></td>
+	  <td><p><code><var>iface_name</var>_get_type</code></p></td>
 	</tr>
 	<tr>
-	  <td><p>GTK_&lt;iface_name&gt;</p></td>
-	  <td><p>G_TYPE_CHECK_INSTANCE_CAST</p></td>
+	  <td><p><code>GTK_<var>iface_name</var></code></p></td>
+	  <td><p><code>G_TYPE_CHECK_INSTANCE_CAST</code></p></td>
 	</tr>
 	<tr>
-	  <td><p>GTK_IS_&lt;iface_name&gt;</p></td>
-          <td><p>G_TYPE_CHECK_INSTANCE_TYPE</p></td>
+	  <td><p><code>GTK_IS_<var>iface_name</var></code></p></td>
+          <td><p><code>G_TYPE_CHECK_INSTANCE_TYPE</code></p></td>
 	</tr>
 	<tr>
-	  <td><p>GTK_&lt;iface_name&gt;_GET_IFACE</p></td>
-          <td><p>G_TYPE_INSTANCE_GET_INTERFACE</p></td>
+	  <td><p><code>GTK_<var>iface_name</var>_GET_IFACE</code></p></td>
+          <td><p><code>G_TYPE_INSTANCE_GET_INTERFACE</code></p></td>
 	</tr>
       </tbody>
     </table>
@@ -883,14 +888,15 @@ typedef struct _GtkFooInterface         GtkFooInterface;
     <title>Memory Allocation</title>
 
     <p>
-      When dynamically allocating data on the heap either use g_new()
-      or, if allocating multiple small data structures, g_slice_new().
+      When dynamically allocating data on the heap either use
+      <code>g_new()</code> or, if allocating multiple small data structures,
+      <code>g_slice_new()</code>.
     </p>
 
     <p>
       Public structure types should always be returned after being
-      zero-ed, either explicitly for each member, or by using g_new0()
-      or g_slice_new0().
+      zero-ed, either explicitly for each member, or by using
+      <code>g_new0()</code> or <code>g_slice_new0()</code>.
     </p>
   </section>
 
@@ -899,7 +905,7 @@ typedef struct _GtkFooInterface         GtkFooInterface;
 
     <p>
       Try to avoid private macros unless strictly necessary. Remember
-      to #undef them at the end of a block or a series of functions
+      to <code>#undef</code> them at the end of a block or a series of functions
       needing them.
     </p>
 
