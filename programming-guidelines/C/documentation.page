@@ -97,8 +97,12 @@
       than XML.)
     </p>
 
-    <!-- FIXME: This should be updated once
-         https://bugzilla.gnome.org/show_bug.cgi?id=743182 lands. -->
+    <comment>
+      <p>
+        FIXME: This should be updated once
+        https://bugzilla.gnome.org/show_bug.cgi?id=743182 lands.
+      </p>
+    </comment>
     <p>
       If the package version is needed to be substituted into the documentation,
       create a file named <file>docs/version.xml.in</file>, containing:
@@ -137,8 +141,12 @@
   <section id="licensing">
     <title>Licensing</title>
 
-    <!-- FIXME: Update this once
-         https://bugzilla.gnome.org/show_bug.cgi?id=742580 is fixed. -->
+    <comment>
+      <p>
+        FIXME: Update this once
+        https://bugzilla.gnome.org/show_bug.cgi?id=742580 is fixed.
+      </p>
+    </comment>
     <p>
       It is important to make the license used for API references clear,
       especially if they contain code examples which could be copied around.
