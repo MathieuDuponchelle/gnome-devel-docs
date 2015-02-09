@@ -371,8 +371,7 @@ static void
 my_function (int argument)
   {
     do_my_things ();
-  }
-        </code>
+  }</code>
   </section>
 
   <section id="conditions">
@@ -434,8 +433,7 @@ void
 my_function (void)
 {
   …
-}
-    </code>
+}</code>
 
     <p>
       The argument list must be broken into a new line for each
@@ -451,8 +449,7 @@ my_function (some_type_t      type,
              final_type_t     another_type)
 {
   …
-}
-    </code>
+}</code>
 
     <p>
       If you use Emacs, you can use <code>M-x align</code> to do this
@@ -468,8 +465,7 @@ my_function (some_type_t      type,
     <code style="valid">
 align_function_arguments (first_argument,
                           second_argument,
-                          third_argument);
-    </code>
+                          third_argument);</code>
   </section>
 
   <section id="whitespace">
@@ -495,8 +491,7 @@ if(condition)
 
 /* invalid */
 if ( condition )
-        do_my_things ( );
-    </code>
+        do_my_things ( );</code>
 
     <p>
       When declaring a structure type use newlines to separate logical sections
@@ -519,8 +514,7 @@ struct _GtkWrapBoxPrivate
         guint16               natural_line_children;
 
         GList                *children;
-};
-    </code>
+};</code>
 
     <p>
       Do not eliminate whitespace and newlines just because something would
@@ -529,8 +523,7 @@ struct _GtkWrapBoxPrivate
 
     <code style="invalid">
 /* invalid */
-if (condition) foo (); else bar ();
-    </code>
+if (condition) foo (); else bar ();</code>
 
     <p>
       Do eliminate trailing whitespace on any line, preferably as a separate
@@ -553,8 +546,7 @@ if (condition) foo (); else bar ();
 	  (while (re-search-forward "[ 	]+$" nil t)
 	    (setq count (+ count 1))
 	    (replace-match "" t t))
-	  (message "Cleaned %d lines" count)))))
-    </code>
+	  (message "Cleaned %d lines" count)))))</code>
   </section>
 
   <section id="switch">
@@ -616,8 +608,7 @@ switch (condition)
     case BAR:
     do_bar ();
     break;
-  }
-    </code>
+  }</code>
 
     <p>
       It is preferable, though not mandatory, to separate the various
@@ -636,8 +627,7 @@ case BAR:
 
 default:
         do_default ();
-}
-    </code>
+}</code>
 
     <p>
       The <code>break</code> statement for the <code>default</code> case is not
@@ -663,8 +653,7 @@ switch (condition)
     break;
 
   …
-  }
-    </code>
+  }</code>
   </section>
 
   <section id="header-files">
@@ -678,8 +667,7 @@ switch (condition)
     <code style="valid">
 return_type          function_name           (type   argument,
                                               type   argument,
-                                              type   argument);
-    </code>
+                                              type   argument);</code>
 
     <p>
       The maximum width of each column is given by the longest element
@@ -690,8 +678,7 @@ return_type          function_name           (type   argument,
 void         gtk_type_set_property (GtkType      *type,
                                     const gchar  *value,
                                     GError      **error);
-const gchar *gtk_type_get_property (GtkType      *type);
-    </code>
+const gchar *gtk_type_get_property (GtkType      *type);</code>
 
     <p>
       It is also possible to align the columns to the next tab:
@@ -701,8 +688,7 @@ const gchar *gtk_type_get_property (GtkType      *type);
 void          gtk_type_set_prop           (GtkType *type,
                                            gfloat   value);
 gfloat        gtk_type_get_prop           (GtkType *type);
-gint          gtk_type_update_foobar      (GtkType *type);
-    </code>
+gint          gtk_type_update_foobar      (GtkType *type);</code>
 
     <p>
       As before, you can use <code>M-x align</code> in Emacs to do
@@ -722,8 +708,7 @@ gint          gtk_type_update_foobar      (GtkType *type);
     <code style="valid">
 #if !defined (__GTK_H_INSIDE__) &amp;&amp; !defined (GTK_COMPILATION)
 #error "Only &lt;gtk/gtk.h&gt; can be included directly."
-#endif
-    </code>
+#endif</code>
 
     <p>
       For libraries, all headers should have inclusion guards (for
@@ -743,8 +728,7 @@ G_BEGIN_DECLS
 
 G_END_DECLS
 
-#endif /* __MYLIB_FOO_H__ */
-    </code>
+#endif /* __MYLIB_FOO_H__ */</code>
   </section>
 
   <section id="gobject">
@@ -762,8 +746,7 @@ G_END_DECLS
     <code style="valid">
 typedef struct _GtkFoo          GtkFoo;
 typedef struct _GtkFooClass     GtkFooClass;
-typedef struct _GtkFooPrivate   GtkFooPrivate;
-    </code>
+typedef struct _GtkFooPrivate   GtkFooPrivate;</code>
 
     <p>
       This includes enumeration types:
@@ -774,8 +757,7 @@ typedef enum
 {
   GTK_SIZE_REQUEST_WIDTH_FOR_HEIGHT,
   GTK_SIZE_REQUEST_HEIGHT_FOR_WIDTH
-} GtkSizeRequestMode;
-    </code>
+} GtkSizeRequestMode;</code>
 
     <p>
       And callback types:
@@ -783,8 +765,7 @@ typedef enum
 
     <code style="valid">
 typedef void (* GtkCallback) (GtkWidget *widget,
-                              gpointer   user_data);
-    </code>
+                              gpointer   user_data);</code>
 
     <p>
       Instance structures should only contain the parent type, and optionally a
@@ -799,8 +780,7 @@ struct _GtkFoo
   GtkWidget parent_instance;
 
   GtkFooPrivate *priv;
-};
-    </code>
+};</code>
 
     <p>
       The private data pointer is optional and should be omitted in newly
@@ -839,8 +819,7 @@ struct _GtkFoo
     </p>
 
     <code style="valid">
-typedef struct _GtkFoo              GtkFoo;
-    </code>
+typedef struct _GtkFoo              GtkFoo;</code>
 
     <p>
       The interface structure should have ‘Interface’ postfixed to the
@@ -848,8 +827,7 @@ typedef struct _GtkFoo              GtkFoo;
     </p>
 
     <code style="valid">
-typedef struct _GtkFooInterface         GtkFooInterface;
-    </code>
+typedef struct _GtkFooInterface         GtkFooInterface;</code>
 
     <p>
       Interfaces must have the following macros:
