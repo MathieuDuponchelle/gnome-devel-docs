@@ -104,7 +104,7 @@
 	  K&amp;R brace placement:
 	</p>
 
-	<code>
+	<code style="valid">
 for (i = 0; i &lt; num_elements; i++) {
         foo[i] = foo[i] + 42;
 
@@ -125,7 +125,7 @@ for (i = 0; i &lt; num_elements; i++) {
 	  well.
 	</p>
 
-	<code>
+	<code style="valid">
 for (i = 0; i &lt; num_elements; i++)
   {
     foo[i] = foo[i] + 42;
@@ -190,7 +190,7 @@ for (i = 0; i &lt; num_elements; i++)
       Curly braces should not be used for single statement blocks:
     </p>
 
-<code>
+<code style="valid">
 /* valid */
 if (condition)
         single_statement ();
@@ -209,7 +209,7 @@ else
 	      many arguments, and it is followed by else or else if:
 	    </p>
 
-<code>
+<code style="valid">
 /* valid Linux kernel style */
 if (condition) {
         a_single_statement_with_many_arguments (some_lengthy_argument,
@@ -236,7 +236,7 @@ else
               If the condition is composed of many lines:
             </p>
 
-<code>
+<code style="valid">
 /* valid Linux kernel style */
 if (condition1 ||
     (condition2 &amp;&amp; condition3) ||
@@ -261,7 +261,7 @@ if (condition1 ||
               outermost if:
             </p>
 
-<code>
+<code style="valid">
 /* valid Linux kernel style */
 if (condition) {
         if (another_condition)
@@ -277,8 +277,9 @@ if (condition)
       single_statement ();
     else
       another_single_statement ();
-  }
+  }</code>
 
+<code style="invalid">
 /* invalid */
 if (condition)
         if (another_condition)
@@ -293,7 +294,7 @@ if (condition)
               braces, both sides should, to match up indentation:
             </p>
 
-<code>
+<code style="valid">
 /* valid GNU style */
 if (condition)
   {
@@ -303,8 +304,9 @@ if (condition)
 else
   {
     baz ();
-  }
+  }</code>
 
+<code style="invalid">
 /* invalid */
 if (condition)
   {
@@ -321,7 +323,7 @@ else
           like this:
         </p>
 
-        <code>
+        <code style="valid">
 int retval = 0;
 
 statement_1 ();
@@ -341,7 +343,7 @@ statement_2 ();
           new line they should not add an indentation level:
         </p>
 
-        <code>
+        <code style="valid">
 /* valid Linux kernel style*/
 static void
 my_function (int argument)
@@ -354,8 +356,9 @@ static void
 my_function (int argument)
 {
   do_my_things ();
-}
+}</code>
 
+<code style="invalid">
 /* invalid */
 static void
 my_function (int argument) {
@@ -380,11 +383,12 @@ my_function (int argument)
       <code>TRUE</code> macro uses.  For example:
     </p>
 
-    <code>
+    <code style="invalid">
 /* invalid */
 if (condition == TRUE)
-        do_foo ();
+        do_foo ();</code>
 
+<code style="valid">
 /* valid */
 if (another_condition)
         do_bar ();</code>
@@ -395,15 +399,16 @@ if (another_condition)
           C#, where testing against null explicitly is important:
         </p>
 
-        <code>
+        <code style="valid">
 /* valid */
 if (some_pointer == NULL)
         do_blah ();
 
 /* valid */
 if (something != NULL)
-        do_foo ();
+        do_foo ();</code>
 
+<code style="invalid">
 /* invalid */
 if (some_other_pointer)
         do_blurp ();</code>
@@ -423,7 +428,7 @@ if (some_other_pointer)
       separate line from the function name:
     </p>
 
-    <code>
+    <code style="valid">
 void
 my_function (void)
 {
@@ -436,7 +441,7 @@ my_function (void)
       account pointers:
     </p>
 
-    <code>
+    <code style="valid">
 void
 my_function (some_type_t      type,
              another_type_t  *a_pointer,
@@ -457,7 +462,7 @@ my_function (some_type_t      type,
       line length limit:
     </p>
 
-    <code>
+    <code style="valid">
 align_function_arguments (first_argument,
                           second_argument,
                           third_argument);
@@ -471,15 +476,16 @@ align_function_arguments (first_argument,
       Always put a space before an opening parenthesis but never after:
     </p>
 
-    <code>
+    <code style="valid">
 /* valid */
 if (condition)
         do_my_things ();
 
 /* valid */
 switch (condition) {
-}
+}</code>
 
+<code style="invalid">
 /* invalid */
 if(condition)
         do_my_things();
@@ -494,7 +500,7 @@ if ( condition )
       of the structure:
     </p>
 
-    <code>
+    <code style="valid">
 struct _GtkWrapBoxPrivate
 {
         GtkOrientation        orientation;
@@ -518,7 +524,7 @@ struct _GtkWrapBoxPrivate
       fit on a single line:
     </p>
 
-    <code>
+    <code style="invalid">
 /* invalid */
 if (condition) foo (); else bar ();
     </code>
@@ -558,7 +564,7 @@ if (condition) foo (); else bar ();
       block on a new indentation level:
     </p>
 
-    <code>
+    <code style="valid">
 /* valid Linux kernel style */
 switch (condition) {
 case FOO:
@@ -580,8 +586,9 @@ switch (condition)
   case BAR:
     do_bar ();
     break;
-  }
+  }</code>
 
+<code style="invalid">
 /* invalid */
 switch (condition) {
   case FOO: do_foo (); break;
@@ -614,7 +621,7 @@ switch (condition)
       cases with a newline:
     </p>
 
-    <code>
+    <code style="valid">
 switch (condition) {
 case FOO:
         do_foo ();
@@ -640,7 +647,7 @@ default:
       outside of the inner block:
     </p>
 
-    <code>
+    <code style="valid">
 /* valid GNU style */
 switch (condition)
   {
@@ -665,7 +672,7 @@ switch (condition)
       should be vertically aligned in three columns:
     </p>
 
-    <code>
+    <code style="valid">
 return value          function_name           (type   argument,
                                                type   argument,
                                                type   argument);
@@ -676,7 +683,7 @@ return value          function_name           (type   argument,
       in the column:
     </p>
 
-    <code>
+    <code style="valid">
 void         gtk_type_set_property (GtkType      *type,
                                     const gchar  *value,
                                     GError      **error);
@@ -687,7 +694,7 @@ const gchar *gtk_type_get_property (GtkType      *type);
       It is also possible to align the columns to the next tab:
     </p>
 
-    <code>
+    <code style="valid">
 void          gtk_type_set_prop           (GtkType *type,
                                            gfloat   value);
 gfloat        gtk_type_get_prop           (GtkType *type);
@@ -709,7 +716,7 @@ gint          gtk_type_update_foobar      (GtkType *type);
       applications:
     </p>
 
-    <code>
+    <code style="valid">
 #if !defined (__GTK_H_INSIDE__) &amp;&amp; !defined (GTK_COMPILATION)
 #error "Only &lt;gtk/gtk.h&gt; can be included directly."
 #endif
@@ -721,7 +728,7 @@ gint          gtk_type_update_foobar      (GtkType *type);
       "C"</code> magic that C++ requires to include plain C headers:
     </p>
 
-    <code>
+    <code style="valid">
 #ifndef __MYLIB_FOO_H__
 #define __MYLIB_FOO_H__
 
@@ -749,7 +756,7 @@ G_END_DECLS
       Typedef declarations should be placed at the beginning of the file:
     </p>
 
-    <code>
+    <code style="valid">
 typedef struct _GtkFoo          GtkFoo;
 typedef struct _GtkFooClass     GtkFooClass;
 typedef struct _GtkFooPrivate   GtkFooPrivate;
@@ -759,7 +766,7 @@ typedef struct _GtkFooPrivate   GtkFooPrivate;
       This includes enumeration types:
     </p>
 
-    <code>
+    <code style="valid">
 typedef enum
 {
   GTK_SIZE_REQUEST_WIDTH_FOR_HEIGHT,
@@ -771,7 +778,7 @@ typedef enum
       And callback types:
     </p>
 
-    <code>
+    <code style="valid">
 typedef void (* GtkCallback) (GtkWidget *widget,
                               gpointer   user_data);
     </code>
@@ -782,7 +789,7 @@ typedef void (* GtkCallback) (GtkWidget *widget,
       ‘private’ using the gtk-doc trigraph:
     </p>
 
-    <code>
+    <code style="valid">
 struct _GtkFoo
 {
   /*&lt; private &gt;*/
@@ -826,7 +833,7 @@ struct _GtkFoo
       purposes:
     </p>
 
-    <code>
+    <code style="valid">
 typedef struct _GtkFoo              GtkFoo;
     </code>
 
@@ -835,7 +842,7 @@ typedef struct _GtkFoo              GtkFoo;
       dummy typedef:
     </p>
 
-    <code>
+    <code style="valid">
 typedef struct _GtkFooInterface         GtkFooInterface;
     </code>
 
