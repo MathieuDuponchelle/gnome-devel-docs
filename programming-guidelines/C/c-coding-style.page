@@ -55,7 +55,7 @@
   </p>
 
   <section id="most-important-rule">
-    <title>The single most important rule</title>
+    <title>The Single Most Important Rule</title>
 
     <p>
       The single most important rule when writing code is this:
@@ -167,7 +167,7 @@ for (i = 0; i &lt; num_elements; i++)
   </section>
 
   <section id="tab-characters">
-    <title>Tab characters</title>
+    <title>Tab Characters</title>
 
     <p>
       <em>Do not ever change the size of tabs in your editor</em>;
@@ -549,7 +549,7 @@ if (condition) foo (); else bar ();
   </section>
 
   <section id="switch">
-    <title>The switch statement</title>
+    <title>The <code>switch</code> Statement</title>
 
     <p>
       A <code>switch ()</code> should open a block on a new
@@ -658,7 +658,7 @@ switch (condition)
   </section>
 
   <section id="header-files">
-    <title>Header files</title>
+    <title>Header Files</title>
 
     <p>
       The only major rule for headers is that the function definitions
@@ -738,7 +738,7 @@ G_END_DECLS
   </section>
 
   <section id="gobject">
-    <title>GObject classes</title>
+    <title>GObject Classes</title>
 
     <p>
       GObject class definitions and implementations require some
@@ -873,7 +873,7 @@ typedef struct _GtkFooInterface         GtkFooInterface;
   </section>
 
   <section id="memory-allocation">
-    <title>Memory allocation</title>
+    <title>Memory Allocation</title>
 
     <p>
       When dynamically allocating data on the heap either use g_new()
