@@ -766,9 +766,8 @@ G_END_DECLS
     </p>
 
     <code style="valid">
-typedef struct _GtkFoo          GtkFoo;
-typedef struct _GtkFooClass     GtkFooClass;
-typedef struct _GtkFooPrivate   GtkFooPrivate;</code>
+typedef struct _GtkBoxedStruct       GtkBoxedStruct;
+typedef struct _GtkMoreBoxedStruct   GtkMoreBoxedStruct;</code>
 
     <p>
       This includes enumeration types:
@@ -790,24 +789,48 @@ typedef void (* GtkCallback) (GtkWidget *widget,
                               gpointer   user_data);</code>
 
     <p>
-      Instance structures should only contain the parent type, and optionally a
-      pointer to a private data structure, and they should be annotated as
-      ‘private’ using the gtk-doc trigraph:
+      Instance structures should be declared using
+      <code>G_DECLARE_FINAL_TYPE</code> or
+      <code>G_DECLARE_DERIVABLE_TYPE</code>:
+    </p>
+
+    <code style="valid">
+#define GTK_TYPE_FOO (gtk_foo_get_type ())
+G_DECLARE_FINAL_TYPE (GtkFoo, gtk_foo, GTK, FOO, GtkWidget)</code>
+
+    <p>
+      For final types, private data can be stored in the object struct, which
+      should be defined in the C file:
     </p>
 
     <code style="valid">
 struct _GtkFoo
 {
-  /*&lt; private &gt;*/
-  GtkWidget parent_instance;
+  GObject   parent_instance;
 
-  GtkFooPrivate *priv;
+  guint     private_data;
+  gpointer  more_private_data;
 };</code>
 
     <p>
-      The private data pointer is optional and should be omitted in newly
-      written classes.
+      For derivable types, private data must be stored in a private struct in
+      the C file, configured using <code>G_DEFINE_TYPE_WITH_PRIVATE()</code>
+      and accessed using a <code>_get_instance_private()</code> function:
     </p>
+
+    <code style="valid">
+#define GTK_TYPE_FOO gtk_foo_get_type ()
+G_DECLARE_DERIVABLE_TYPE (GtkFoo, gtk_foo, GTK, FOO, GtkWidget)
+
+struct _GtkFooClass
+{
+  GtkWidgetClass parent_class;
+
+  void (* handle_frob)  (GtkFrobber *frobber,
+                         guint       n_frobs);
+
+  gpointer padding[12];
+};</code>
 
     <p>
       Always use the <code>G_DEFINE_TYPE()</code>,
@@ -820,28 +843,12 @@ struct _GtkFoo
     </p>
 
     <p>
-      All the properties should be stored inside the private data
-      structure, which is defined inside the source file — or, if
-      needed, inside a private header file; the private header
-      filename must end with ‘private.h’ and must not be installed.
-    </p>
-
-    <p>
-      The private data structure should only be accessed internally
-      either using the pointer inside the instance structure, if one
-      is available, or the generated instance private data getter
-      function for your type. You should never use the
-      <code>G_TYPE_INSTANCE_GET_PRIVATE()</code> macro or the
-      <code>g_type_instance_get_private()</code> function.
-    </p>
-
-    <p>
       Interface types should always have the dummy typedef for cast
       purposes:
     </p>
 
     <code style="valid">
-typedef struct _GtkFoo              GtkFoo;</code>
+typedef struct _GtkFooable          GtkFooable;</code>
 
     <p>
       The interface structure should have ‘Interface’ postfixed to the
@@ -849,7 +856,7 @@ typedef struct _GtkFoo              GtkFoo;</code>
     </p>
 
     <code style="valid">
-typedef struct _GtkFooInterface         GtkFooInterface;</code>
+typedef struct _GtkFooableInterface     GtkFooableInterface;</code>
 
     <p>
       Interfaces must have the following macros:
