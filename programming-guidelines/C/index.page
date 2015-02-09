@@ -70,12 +70,28 @@
     </item>
   </list>
 
-  <section id="coding-style">
+  <section id="general-guidelines">
     <info>
-      <title type="link" role="trail">Coding Style</title>
+      <title type="link" role="trail">General Guidelines</title>
     </info>
-    <title>Coding Style</title>
-    <links type="topic" groups="coding-style" style="grid center"/>
+    <title>General Guidelines</title>
+    <links type="topic" groups="general-guidelines" style="grid center"/>
+  </section>
+
+  <section id="maintainer-guidelines">
+    <info>
+      <title type="link" role="trail">Maintainer Guidelines</title>
+    </info>
+    <title>Maintainer Guidelines</title>
+    <links type="topic" groups="maintainer-guidelines" style="grid center"/>
+  </section>
+
+  <section id="specific-how-tos">
+    <info>
+      <title type="link" role="trail">Specific How-Tos</title>
+    </info>
+    <title>Specific How-Tos</title>
+    <links type="topic" groups="specific-how-tos" style="grid center"/>
   </section>
 
   <section id="references">
