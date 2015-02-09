@@ -21,6 +21,7 @@ HELP_FILES = \
 	memory-management.page \
 	namespacing.page \
 	parallel-installability.page \
+	preconditions.page \
 	threading.page \
 	tooling.page \
 	version-control.page \

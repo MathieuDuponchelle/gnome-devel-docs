@@ -1,0 +1,105 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      xmlns:xi="http://www.w3.org/2003/XInclude"
+      type="topic"
+      id="preconditions">
+
+  <info>
+    <link type="guide" xref="index#coding-style"/>
+
+    <credit type="author copyright">
+      <name>Philip Withnall</name>
+      <email its:translate="no">philip.withnall@collabora.co.uk</email>
+      <years>2015</years>
+    </credit>
+
+    <include href="cc-by-sa-3-0.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc>Contract programming with checks on function input and output</desc>
+  </info>
+
+  <title>Pre- and Post-Conditions</title>
+
+  <section id="pre-and-post-conditions">
+    <title>Pre- and Post-Conditions</title>
+
+    <p>
+      An important part of secure coding is ensuring that incorrect data does
+      not propagate far through code — the further some malicious input can
+      propagate, the more code it sees, and the greater potential there is for
+      an exploit to be possible.
+    </p>
+
+    <p>
+      A standard way of preventing the propagation of invalid data is to check
+      all inputs to, and outputs from, all publicly visible functions in a
+      library or module. There are two levels of checking:
+    </p>
+    <terms>
+      <item>
+        <title>Assertions</title>
+        <p>
+          Check for programmer errors and abort the program on failure.
+        </p>
+      </item>
+      <item>
+        <title>Validation</title>
+        <p>
+          Check for invalid input and return an error gracefully on failure.
+        </p>
+      </item>
+    </terms>
+
+    <p>
+      Validation is a complex topic, and is handled using
+      <link xref="gerrors">GErrors</link>. The remainder of this section
+      discusses pre- and post-condition assertions, which are purely for
+      catching programmer errors. A programmer error is where a function is
+      called in a way which is documented as disallowed. For example, if
+      <code>NULL</code> is passed to a parameter which is documented as
+      requiring a non-<code>NULL</code> value to be passed; or if a negative
+      value is passed to a function which requires a positive value. Programmer
+      errors can happen on output too — for example, returning <code>NULL</code>
+      when it is not documented to, or not setting a GError output when it
+      fails.
+    </p>
+
+    <p>
+      Adding pre- and post-condition assertions to code is as much about
+      ensuring the behavior of each function is correctly and completely
+      documented as it is about adding the assertions themselves. All assertions
+      should be documented, preferably by using the relevant
+      <link xref="introspection">introspection annotations</link>, such as
+      <code>(nullable)</code>.
+    </p>
+
+    <p>
+      Pre- and post-condition assertions are implemented using
+      <link href="https://developer.gnome.org/glib/stable/glib-Warnings-and-Assertions.html#g-return-if-fail"><code>g_return_if_fail()</code></link>
+      and
+      <link href="https://developer.gnome.org/glib/stable/glib-Warnings-and-Assertions.html#g-return-val-if-fail"><code>g_return_val_if_fail()</code></link>.
+    </p>
+
+    <p>
+      The pre-conditions should check each parameter at the start of the
+      function, before any other code is executed (even retrieving the private
+      data structure from a GObject, for example, since the GObject pointer
+      could be <code>NULL</code>). The post-conditions should check the return
+      value and any output parameters at the end of the function — this requires
+      a single <code>return</code> statement and use of <code>goto</code> to
+      merge other control paths into it. See
+      <link xref="memory-management#single-path-cleanup"/> for an example.
+    </p>
+
+    <comment>
+      <p>
+        FIXME: Incorporate content from
+        https://tecnocode.co.uk/2010/12/19/postconditions-in-c/.
+      </p>
+      <p>
+        FIXME: Mention breaking on criticals and warnings as a debugging tactic,
+        using G_DEBUG=fatal-warnings, etc. Link to relevant GLib documentation.
+      </p>
+    </comment>
+  </section>
+</page>
