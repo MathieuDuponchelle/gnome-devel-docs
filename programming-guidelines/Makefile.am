@@ -14,6 +14,7 @@ HELP_FILES = \
 	documentation.page \
 	file-system.page \
 	gerror.page \
+	glist.page \
 	index.page \
 	introspection.page \
 	logging.page \

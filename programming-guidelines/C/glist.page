@@ -1,0 +1,99 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      xmlns:xi="http://www.w3.org/2003/XInclude"
+      type="topic"
+      id="glist">
+
+  <info>
+    <link type="guide" xref="index#coding-style"/>
+
+    <credit type="author copyright">
+      <name>Philip Withnall</name>
+      <email its:translate="no">philip.withnall@collabora.co.uk</email>
+      <years>2015</years>
+    </credit>
+
+    <include href="cc-by-sa-3-0.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc>Linked lists and container types</desc>
+  </info>
+
+  <title>GList</title>
+
+  <section id="glist-usage">
+    <title>GList Usage</title>
+
+    <p>
+      GLib provides several container types for sets of data:
+      <link href="https://developer.gnome.org/glib/stable/glib-Doubly-Linked-Lists.html"><code>GList</code></link>,
+      <link href="https://developer.gnome.org/glib/stable/glib-Singly-Linked-Lists.html"><code>GSList</code></link>,
+      <link href="https://developer.gnome.org/glib/stable/glib-Pointer-Arrays.html"><code>GPtrArray</code></link> and
+      <link href="https://developer.gnome.org/glib/stable/glib-Arrays.html"><code>GArray</code></link>.
+    </p>
+
+    <p>
+      It has been common practice in the past to use GList in all situations
+      where a sequence or set of data needs to be stored. This is inadvisable —
+      in most situations, a GPtrArray should be used instead. It has lower
+      memory overhead (a third to a half of an equivalent list), better cache
+      locality, and the same or lower algorithmic complexity for all common
+      operations. The only typical situation where a GList may be more
+      appropriate is when dealing with ordered data, which requires expensive
+      insertions at arbitrary indexes in the array.
+    </p>
+
+    <p>
+      If linked lists are used, be careful to keep the complexity of operations
+      on them low, using standard CS complexity analysis. Any operation which
+      uses
+      <link href="https://developer.gnome.org/glib/2.30/glib-Doubly-Linked-Lists.html#g-list-nth"><code>g_list_nth()</code></link> or
+      <link href="https://developer.gnome.org/glib/2.30/glib-Doubly-Linked-Lists.html#g-list-nth-data"><code>g_list_nth_data()</code></link>
+      is almost certainly wrong. For example, iteration over a GList should be
+      implemented using the linking pointers, rather than a incrementing index:
+    </p>
+    <code mime="text/x-csrc" style="valid">GList *some_list, *l;
+
+for (l = some_list; l != NULL; l = l->next)
+  {
+    gpointer element_data = l->data;
+
+    /* Do something with @element_data. */
+  }</code>
+
+    <p>
+      Using an incrementing index instead results in an exponential decrease in
+      performance (<em>O(2×N^2)</em> rather than <em>O(N)</em>):
+    </p>
+    <code mime="text/x-csrc" style="invalid">GList *some_list;
+guint i;
+
+/* This code is inefficient and should not be used in production. */
+for (i = 0; i &lt; g_list_length (some_list); i++)
+  {
+    gpointer element_data = g_list_nth_data (some_list, i);
+
+    /* Do something with @element_data. */
+  }</code>
+
+    <p>
+      The performance penalty comes from <code>g_list_length()</code> and
+      <code>g_list_nth_data()</code> which both traverse the list
+      (<em>O(N)</em>) to perform their operations.
+    </p>
+
+    <p>
+      Implementing the above with a GPtrArray has the same complexity as the
+      first (correct) GList implementation, but better cache locality and lower
+      memory consumption, so will perform better for large numbers of elements:
+    </p>
+    <code mime="text/x-csrc" style="valid">GPtrArray *some_array;
+guint i;
+
+for (i = 0; i &lt; some_array-&gt;len; i++)
+  {
+    gpointer element_data = some_array->pdata[i];
+
+    /* Do something with @element_data. */
+  }</code>
+  </section>
+</page>
