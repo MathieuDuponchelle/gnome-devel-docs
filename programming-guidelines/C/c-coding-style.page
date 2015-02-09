@@ -412,12 +412,6 @@ if (something != NULL)
 /* invalid */
 if (some_other_pointer)
         do_blurp ();</code>
-
-        <!-- FIXME: gtk+/docs/CODING-STYLE mentions where to put
-             logical operators in conditiosn split over multiple
-             lines.  I (Federico) disagree with this, for a good
-             reason. -->
-
   </section>
 
   <section id="functions">
@@ -905,8 +899,6 @@ typedef struct _GtkFooInterface         GtkFooInterface;</code>
       getters and setters instead.  Also, beware global variables in
       general.
     </p>
-
-    <!--FIXME; All public functions must be listed in the gtk.symbols file. -->
   </section>
 
   <section id="private-api">
