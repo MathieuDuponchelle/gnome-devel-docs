@@ -1,0 +1,180 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      xmlns:xi="http://www.w3.org/2003/XInclude"
+      type="topic"
+      id="file-system">
+
+  <info>
+    <link type="guide" xref="index#coding-style"/>
+
+    <credit type="author copyright">
+      <name>Philip Withnall</name>
+      <email its:translate="no">philip.withnall@collabora.co.uk</email>
+      <years>2015</years>
+    </credit>
+
+    <include href="cc-by-sa-3-0.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc>Accessing the file system</desc>
+  </info>
+
+  <title>File System Access</title>
+
+  <synopsis>
+    <title>Summary</title>
+
+    <p>
+      There are a few anti-patterns to consider when accessing the file system.
+      This article assumes knowledge of the standard
+      <link href="https://developer.gnome.org/gio/stable/GFile.html"><code>GFile</code></link>,
+      <link href="https://developer.gnome.org/gio/stable/GInputStream.html"><code>GInputStream</code></link>
+      and
+      <link href="https://developer.gnome.org/gio/stable/GOutputStream.html"><code>GOutputStream</code></link>
+      APIs.
+    </p>
+
+    <list>
+      <item><p>
+        Use asynchronous I/O for file access.
+        (<link xref="#asynchronous-io"/>)
+      </p></item>
+      <item><p>
+        Always use appropriate functions to construct file names and paths.
+        (<link xref="#file-path-construction"/>)
+      </p></item>
+      <item><p>
+        Validate file paths are in the expected directories before using them.
+        (<link xref="#path-validation-and-sandboxing"/>)
+      </p></item>
+      <item><p>
+        Use mandatory access control profiles to enforce constraints on file
+        access.
+        (<link xref="#path-validation-and-sandboxing"/>)
+      </p></item>
+    </list>
+  </synopsis>
+
+  <section id="asynchronous-io">
+    <title>Asynchronous I/O</title>
+
+    <p>
+      Almost all I/O should be performed asynchronously. That is, without
+      blocking the
+      <link href="https://developer.gnome.org/glib/stable/glib-The-Main-Event-Loop.html">GLib
+      main context</link>. This can be achieved by always using the
+      <code>*_async()</code> and <code>*_finish()</code> variants of each I/O
+      function.
+    </p>
+
+    <example>
+      <p>
+        For example,
+        <link href="https://developer.gnome.org/gio/stable/GInputStream.html#g-input-stream-read-async"><code>g_input_stream_read_async()</code></link>
+         rather than
+        <link href="https://developer.gnome.org/gio/stable/GInputStream.html#g-input-stream-read"><code>g_input_stream_read()</code></link>.
+      </p>
+    </example>
+
+    <p>
+      Synchronous I/O blocks the main loop, which means that other events, such
+      as user input, incoming networking packets, timeouts and idle callbacks,
+      are not handled until the blocking function returns.
+    </p>
+
+    <p>
+      Synchronous I/O is acceptable in certain circumstances where the overheads
+      of scheduling an asynchronous operation exceed the costs of local
+      synchronous I/O on Linux. For example, making a small read from a local
+      file, or from a virtual file system such as <file>/proc</file>. For such
+      reads, the low level functions <code>g_open()</code>, <code>read()</code>
+      and <code>g_close()</code> should be used rather than GIO.
+    </p>
+
+    <p>
+      Files in the user’s home directory do <em>not</em> count as local, as they
+      could be on a networked file system.
+    </p>
+
+    <p>
+      Note that the alternative – running synchronous I/O in a separate thread –
+      is highly discouraged; see the
+      <link xref="threading#when-to-use-threading">threading guidelines</link>
+      for more information.
+    </p>
+  </section>
+
+  <section id="file-path-construction">
+    <title>File Path Construction</title>
+
+    <p>
+      File names and paths are not normal strings: on some systems, they can use
+      a character encoding other than UTF-8, while normal strings in GLib are
+      guaranteed to always use UTF-8. For this reason, special functions should
+      be used to build and handle file names and paths. (Modern Linux systems
+      almost universally use UTF-8 for filename encoding, so this is not an
+      issue in practice, but the file path functions should still be used for
+      compatibility with systems such as Windows, which use UTF-16 filenames.)
+    </p>
+
+    <example>
+      <p>
+        For example, file paths should be built using
+        <link href="https://developer.gnome.org/glib/stable/glib-Miscellaneous-Utility-Functions.html#g-build-filename"><code>g_build_filename()</code></link>
+        rather than
+        <link href="https://developer.gnome.org/glib/stable/glib-String-Utility-Functions.html#g-strconcat"><code>g_strconcat()</code></link>.
+      </p>
+    </example>
+
+    <p>
+      Doing so makes it clearer what the code is meant to do, and also
+      eliminates duplicate directory separators, so the returned path is
+      canonical (though not necessarily absolute).
+    </p>
+
+    <example>
+      <p>
+        As another example, paths should be disassembled using
+        <link href="https://developer.gnome.org/glib/stable/glib-Miscellaneous-Utility-Functions.html#g-path-get-basename"><code>g_path_get_basename()</code></link>
+        and
+        <link href="https://developer.gnome.org/glib/stable/glib-Miscellaneous-Utility-Functions.html#g-path-get-dirname"><code>g_path_get_dirname()</code></link>
+        rather than
+        <link href="https://developer.gnome.org/glib/stable/glib-String-Utility-Functions.html#g-strrstr"><code>g_strrstr()</code></link>
+        and other manual searching functions.
+      </p>
+    </example>
+  </section>
+
+  <section id="path-validation-and-sandboxing">
+    <title>Path Validation and Sandboxing</title>
+
+    <p>
+      If a filename or path comes from external input, such as a web page or
+      user input, it should be validated to ensure that putting it into a file
+      path will not produce an arbitrary path. For example if a filename is
+      constructed from the constant string <file>~/</file> plus some user input,
+      if the user inputs <file>../../etc/passwd</file>, they can (potentially)
+      gain access to sensitive account information, depending on which user the
+      program is running as, and what it does with data loaded from the
+      constructed path.
+    </p>
+
+    <p>
+      This can be avoided by validating constructed paths before using them,
+      using
+      <link href="https://developer.gnome.org/gio/stable/GFile.html#g-file-resolve-relative-path"><code>g_file_resolve_relative_path()</code></link>
+      to convert any relative paths to absolute ones, and then validating that
+      the path is beneath a given root sandboxing directory appropriate for the
+      operation. For example, if code downloads a file, it could validate that
+      all paths are beneath <file>~/Downloads</file>, using
+      <link href="https://developer.gnome.org/gio/stable/GFile.html#g-file-has-parent"><code>g_file_has_parent()</code></link>.
+    </p>
+
+    <p>
+      As a second line of defence, all projects which access the file system
+      should consider providing a mandatory access control profile, using a
+      system such as <link href="http://apparmor.net/">AppArmor</link> or
+      <link href="http://selinuxproject.org/">SELinux</link>, which limits the
+      directories and files they can read from and write to.
+    </p>
+  </section>
+</page>

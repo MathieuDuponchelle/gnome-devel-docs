@@ -12,6 +12,7 @@ HELP_FILES = \
 	c-coding-style.page \
 	databases.page \
 	documentation.page \
+	file-system.page \
 	index.page \
 	memory-management.page \
 	namespacing.page \
