@@ -867,14 +867,13 @@ typedef struct _GtkFooInterface         GtkFooInterface;</code>
 
     <p>
       When dynamically allocating data on the heap either use
-      <code>g_new()</code> or, if allocating multiple small data structures,
-      <code>g_slice_new()</code>.
+      <code>g_new()</code>.
     </p>
 
     <p>
       Public structure types should always be returned after being
       zero-ed, either explicitly for each member, or by using
-      <code>g_new0()</code> or <code>g_slice_new0()</code>.
+      <code>g_new0()</code>.
     </p>
   </section>
 
