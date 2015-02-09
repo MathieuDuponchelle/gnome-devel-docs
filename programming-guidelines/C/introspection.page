@@ -1,0 +1,160 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic"
+      id="introspection">
+
+  <info>
+    <link type="guide" xref="index#coding-style"/>
+
+    <credit type="author copyright">
+      <name>Philip Withnall</name>
+      <email its:translate="no">philip.withnall@collabora.co.uk</email>
+      <years>2015</years>
+    </credit>
+
+    <include href="cc-by-sa-3-0.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc>GObject Introspection support in library code</desc>
+  </info>
+
+  <title>Introspection</title>
+
+  <synopsis>
+    <title>Summary</title>
+
+    <p>
+      <link href="https://wiki.gnome.org/Projects/GObjectIntrospection"> GObject
+      introspection</link> (abbreviated ‘GIR’) is a system which extracts APIs
+      from C code and produces binary type libraries which can be used by non-C
+      language bindings, and other tools, to
+      <link href="http://en.wikipedia.org/wiki/Type_introspection">introspect</link>
+      or <link href="http://en.wikipedia.org/wiki/Language_binding">wrap</link>
+      the original C libraries. It uses a system of annotations in documentation
+      comments in the C code to expose extra information about the APIs which is
+      not machine readable from the code itself.
+    </p>
+
+    <p>
+      It should be enabled for all public APIs: so all libraries. It cannot be
+      enabled for programs, since they expose no APIs. However, it is still
+      recommended to <link xref="documentation#introspection-annotations">add
+      introspection annotations to documentation comments</link> in program
+      code, as they clarify the documentation.
+    </p>
+
+    <list>
+      <item><p>
+        Enable introspection for all libraries.
+        (<link xref="#using-introspection"/>)
+      </p></item>
+      <item><p>
+        Pay attention to warnings from <cmd>g-ir-scanner</cmd> and
+        <code>introspectable="0"</code> attributes in GIR files.
+        (<link xref="#using-introspection"/>)
+      </p></item>
+      <item><p>
+        Add introspection annotations to all documentation comments.
+        (<link xref="#using-introspection"/>)
+      </p></item>
+      <item><p>
+        Design APIs to be introspectable from the start.
+        (<link xref="#api-design"/>)
+      </p></item>
+    </list>
+  </synopsis>
+
+  <section id="using-introspection">
+    <title>Using Introspection</title>
+
+    <p>
+      The first step for using introspection is to add it to the build system,
+      following the instructions
+      <link href="https://wiki.gnome.org/Projects/GObjectIntrospection/AutotoolsIntegration#Method_1_-_Recommended_-_most_portable">here</link>,
+      following method 1. This should be done early in the life of a project, as
+      introspectability affects <link xref="#api-design">API design</link>.
+    </p>
+
+    <p>
+      This should result in a <file>.gir</file> and <file>.typelib</file> file
+      being generated for the project. The <file>.gir</file> file is human
+      readable, and can be inspected manually to see if the API has been
+      introspected correctly (although the GIR compilation process will print
+      error messages and warnings for any missing annotations or other
+      problems). APIs with <code>introspectable="0"</code> will not be exposed
+      to language bindings as they are missing annotations or are otherwise not
+      representable in the GIR file.
+    </p>
+
+    <p>
+      The next step is to
+      <link xref="documentation#introspection-annotations">add annotations to
+      the documentation comments for every piece of public API</link>. If a
+      particular piece of API should not be exposed in the GIR file, use the
+      <code>(skip)</code> annotation. Documentation on the available annotations
+      is
+      <link href="https://wiki.gnome.org/Projects/GObjectIntrospection/Annotations">here</link>.
+    </p>
+
+    <p>
+      If annotating the code for a program, a good approach is to split the bulk
+      of the code out into an internal, private convenience library. An internal
+      API reference manual can be built from its documentation comments (see
+      <link xref="documentation"/>). The library is then not installed, but is
+      linked in to the program which is itself installed. This approach for
+      generating internal API documentation is especially useful for large
+      projects where the internal code may be large and hard to navigate.
+    </p>
+
+    <p>
+      Annotations do not have to be added exhaustively: GIR has a set of default
+      annotations which it applies based on various conventions (see
+      <link xref="#api-design" />). For example, a <code>const gchar*</code>
+      parameter does not need an explicit <code>(transfer none)</code>
+      annotation, because the <code>const</code> modifier implies this already.
+      Learning the defaults for annotations is a matter of practice.
+    </p>
+  </section>
+
+  <section id="api-design">
+    <title>API Design</title>
+
+    <p>
+      In order to be introspectable without too many annotations, APIs must
+      follow certain conventions, such as the
+      <link href="https://developer.gnome.org/gobject/stable/gtype-conventions.html">standard
+      GObject naming conventions</link>, and the
+      <link href="https://wiki.gnome.org/Projects/GObjectIntrospection/WritingBindingableAPIs">conventions
+      for bindable APIs</link>. This is necessary because of the flexibility of
+      C: code can be written to behave in any way imaginable, but higher level
+      languages don’t allow this kind of freedom. So in order for a C API to be
+      representable in a higher level language, it has to conform to the
+      behaviors supported by that language.
+    </p>
+
+    <p>
+      For example, GIR expects that if a function can fail, it will have a
+      <code>GError**</code> parameter, which will always be its final parameter.
+      The GIR scanner detects this and automatically converts that parameter to
+      an exception attribute on the method in the GIR file. It cannot do this if
+      the <code>GError*</code> is returned directly, or is not the final
+      function parameter, for example.
+    </p>
+
+    <p>
+      Therefore, APIs must be designed to be introspectable, and the GIR file
+      should be checked as the APIs are being written. If the GIR doesn’t match
+      what you expect for a new API, the API may need extra annotations, or even
+      for its C declaration to be changed (as in the case of
+      <link href="https://wiki.gnome.org/Projects/GObjectIntrospection/WritingBindingableAPIs#va_list"><code>va_list</code></link>).
+    </p>
+
+    <p>
+      <cmd>g-ir-scanner</cmd> emits warnings when it encounters code it does not
+      understand. By passing <cmd>--warn-error</cmd> as well as
+      <cmd>--warn-all</cmd> in <code>INTROSPECTION_SCANNER_ARGS</code> in
+      <file>Makefile.am</file>, compilation will fail when unintrospectable APIs
+      are encountered. This will ensure all new APIs are introspectable, and is
+      highly recommended.
+    </p>
+  </section>
+</page>
