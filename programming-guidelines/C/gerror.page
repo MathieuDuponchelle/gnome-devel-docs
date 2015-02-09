@@ -1,0 +1,72 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      xmlns:xi="http://www.w3.org/2003/XInclude"
+      type="topic"
+      id="gerror">
+
+  <info>
+    <link type="guide" xref="index#coding-style"/>
+
+    <credit type="author copyright">
+      <name>Philip Withnall</name>
+      <email its:translate="no">philip.withnall@collabora.co.uk</email>
+      <years>2015</years>
+    </credit>
+
+    <include href="cc-by-sa-3-0.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc>Runtime error handling and reporting</desc>
+  </info>
+
+  <title>GError</title>
+
+  <section id="gerror-usage">
+    <title>GError Usage</title>
+
+    <p>
+      <link href="https://developer.gnome.org/glib/stable/glib-Error-Reporting.html"><code>GError</code></link>
+      is the standard error reporting mechanism for GLib-using code, and can be
+      thought of as a C implementation of an
+      <link href="http://en.wikipedia.org/wiki/Exception_handling">exception</link>.
+    </p>
+
+    <p>
+      Any kind of runtime failure (anything which is not a
+      <link xref="preconditions">programmer error</link>) must be handled by
+      including a <code>GError**</code> parameter in the function, and setting a
+      useful and relevant GError describing the failure, before returning from
+      the function. Programmer errors must not be handled using GError: use
+      assertions, pre-conditions or post-conditions instead.
+    </p>
+
+    <p>
+      GError should be used in preference to a simple return code, as it can
+      convey more information, and is also supported by all GLib tools. For
+      example, <link xref="introspection">introspecting an API</link> will
+      automatically detect all GError parameters so that they can be converted
+      to exceptions in other languages.
+    </p>
+
+    <p>
+      Printing warnings to the console must not be done in library code: use a
+      GError, and the calling code can propagate it further upwards, decide to
+      handle it, or decide to print it to the console. Ideally, the only code
+      which prints to the console will be top-level application code, and not
+      library code.
+    </p>
+
+    <p>
+      Any function call which can take a <code>GError**</code>, <em>should</em>
+      take such a parameter, and the returned GError should be handled
+      appropriately. There are very few situations where ignoring a potential
+      error by passing <code>NULL</code> to a <code>GError**</code> parameter is
+      acceptable.
+    </p>
+
+    <p>
+      The GLib API documentation contains a
+      <link href="https://developer.gnome.org/glib/stable/glib-Error-Reporting.html#glib-Error-Reporting.description">full
+      tutorial for using GError</link>.
+    </p>
+  </section>
+</page>

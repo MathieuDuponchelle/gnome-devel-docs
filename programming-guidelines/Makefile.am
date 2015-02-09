@@ -13,6 +13,7 @@ HELP_FILES = \
 	databases.page \
 	documentation.page \
 	file-system.page \
+	gerror.page \
 	index.page \
 	introspection.page \
 	logging.page \
