@@ -629,6 +629,34 @@ default:
     </p>
 
     <p>
+      If switching over an enumerated type, a <code>case</code> statement must
+      exist for every member of the enumerated type. For members you do not
+      want to handle, alias their <code>case</code> statements to
+      <code>default</code>:
+    </p>
+
+    <code style="valid">
+switch (enumerated_condition) {
+case HANDLED_1:
+        do_foo ();
+        break;
+
+case HANDLED_2:
+        do_bar ();
+        break;
+
+case IGNORED_1:
+case IGNORED_2:
+default:
+        do_default ();
+}</code>
+
+    <p>
+      If most members of the enumerated type should not be handled, consider
+      using an <code>if</code> statement instead of a <code>switch</code>.
+    </p>
+
+    <p>
       If a <code>case</code> block needs to declare new variables, the same rules as the
       inner blocks apply (see above); the <code>break</code> statement should be placed
       outside of the inner block:
