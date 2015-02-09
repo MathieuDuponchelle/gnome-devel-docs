@@ -1,0 +1,258 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic"
+      id="versioning">
+
+  <info>
+    <link type="guide" xref="index#coding-style"/>
+
+    <credit type="author copyright">
+      <name>Philip Withnall</name>
+      <email its:translate="no">philip.withnall@collabora.co.uk</email>
+      <years>2015</years>
+    </credit>
+
+    <include href="cc-by-sa-3-0.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc>Versioning and releasing libraries and applications</desc>
+  </info>
+
+  <title>Versioning</title>
+
+  <synopsis>
+    <title>Summary</title>
+
+    <p>
+      Module versioning differs for libraries and applications: libraries need a
+      libtool version specified in addition to their package version.
+      Applications just have a package version.
+    </p>
+
+    <list>
+      <item><p>
+        Libraries have a libtool version of the form
+        <em>current:revision:age</em>. (<link xref="#library-versioning"/>)
+      </p></item>
+      <item><p>
+        Libraries have a package version of the form <em>major.minor.micro</em>.
+        (<link xref="#library-versioning"/>)
+      </p></item>
+      <item><p>
+        Applications have a package version of the form <em>major.minor</em>.
+        (<link xref="#application-versioning"/>)
+      </p></item>
+      <item><p>
+        Version numbers should be updated for each release (using pre- and
+        post-release increments). (<link xref="#release-process"/>)
+      </p></item>
+      <item><p>
+        Package versions should be incremented for feature changes or additions.
+        (<link xref="#library-versioning"/>)
+      </p></item>
+      <item><p>
+        Libtool versions should be updated for API changes or additions.
+        (<link xref="#library-versioning"/>)
+      </p></item>
+    </list>
+  </synopsis>
+
+  <section id="library-versioning">
+    <title>Library Versioning</title>
+
+    <p>
+      Libraries have two version numbers: a libtool version which tracks ABI
+      backwards compatibility, and a package version which tracks feature
+      changes. These are normally incremented in synchronization, but should be
+      kept separate because ABI backwards compatibility is not necessarily
+      related to feature changes or bug fixes. Furthermore, the two version
+      numbers have different semantics, and cannot be automatically generated
+      from each other.
+    </p>
+
+    <p>
+      A good overview of libtool versioning, and the differences from package
+      versioning, is given in the
+      <link href="https://autotools.io/libtool/version.html">Autotools
+      Mythbuster</link>; another is in the
+      <link href="http://www.gnu.org/s/libtool/manual/html_node/Updating-version-info.html">libtool
+      manual</link>.
+    </p>
+
+    <p>
+      To update the libtool version, follow the algorithm given in the comments
+      below. This is a typical <file>configure.ac</file> snippet for setting up
+      libtool versioning:
+    </p>
+
+    <code>
+# Before making a release, the LT_VERSION string should be modified. The
+# string is of the form c:r:a. Follow these instructions sequentially:
+#   1. If the library source code has changed at all since the last update, then
+#      increment revision (‘c:r:a’ becomes ‘c:r+1:a’).
+#   2. If any interfaces have been added, removed, or changed since the last
+#      update, increment current, and set revision to 0.
+#   3. If any interfaces have been added since the last public release, then
+#      increment age.
+#   4. If any interfaces have been removed or changed since the last public
+#      release, then set age to 0.
+AC_SUBST([LT_VERSION],[0:0:0])</code>
+
+    <p>
+      The following snippet can be used in a <file>Makefile.am</file> to pass
+      that version info to libtool:
+    </p>
+    <code>my_library_la_LDFLAGS = -version-info $(LT_VERSION)</code>
+
+    <p>
+      The package version number for a library is that passed to
+      <code>AC_INIT()</code>, and the one which is typically known as the
+      project’s version number. For example, the Debian package for a library
+      will use the library’s package version (though may also include the major
+      version number in the package name to allow for
+      <link xref="parallel-installability">parallel installability</link>).
+      Package versions have the form ‘major.minor.micro’, and are updated by the
+      following rules:
+    </p>
+    <steps>
+      <item><p>
+        If breaking API compatibility, increment major and set minor and micro
+        to 0.
+      </p></item>
+      <item><p>
+        Otherwise, if adding a large feature or other big change, or adding any
+        API, increment minor and set micro to 0.
+      </p></item>
+      <item><p>
+        Otherwise (for example, if making a release containing only bug fixes or
+        translation updates), increment micro.
+      </p></item>
+    </steps>
+
+    <p>
+      Note that the minor version number should be updated if any API is added.
+    </p>
+  </section>
+
+  <section id="application-versioning">
+    <title>Application Versioning</title>
+
+    <p>
+      Application versioning is simpler than library versioning: applications
+      only have a package number, and it follows the scheme ‘major.minor’.
+    </p>
+
+    <p>
+      The application package number is updated similarly to the library package
+      number, except the micro version is omitted:
+    </p>
+    <steps>
+      <item><p>
+        If making a large change to the application which affects everything
+        (such as a UI redesign), increment major and set minor to 0.
+      </p></item>
+      <item><p>
+        Otherwise, increment minor.
+      </p></item>
+    </steps>
+  </section>
+
+  <section id="release-process">
+    <title>Release Process</title>
+
+    <p>
+      The standard process for making a release of a module increments the
+      libtool version (if the module is a library) immediately before release,
+      does the release, then increments the package version number immediately
+      afterwards. This is called pre-release increment for libtool versioning
+      and post-release increment for package versioning.
+    </p>
+
+    <p>
+      The use of pre-release increment for libtool versions means that they are
+      only incremented once for all ABI changes in a release. The use of
+      post-release increment for package versions means the package version
+      number is not outdated (still equal to the previous release) during
+      the development cycle.
+    </p>
+
+    <p>
+      The release process (based on the
+      <link href="https://wiki.gnome.org/MaintainersCorner/Releasing">GNOME
+      release process</link>):
+    </p>
+    <steps>
+      <item><p>
+        Make sure code is up to date: <cmd>git pull</cmd>
+      </p></item>
+
+      <item><p>
+        Make sure you have no local changes: <cmd>git status</cmd>
+      </p></item>
+      <item><p>
+        Increment the libtool version number in <file>configure.ac</file> (if it
+        exists)
+      </p></item>
+      <item><p>
+        Add an entry to the <file>NEWS</file> file
+      </p></item>
+      <item>
+        <p>
+          Run
+          <cmd>./autogen.sh &amp;&amp; make &amp;&amp; make install &amp;&amp; make distcheck</cmd>
+          and ensure it succeeds
+        </p>
+        <list>
+          <item><p>
+            Fix any issues which come up, commit those changes, and restart at
+            step 3
+          </p></item>
+        </list>
+      </item>
+      <item><p>
+        If <cmd>make distcheck</cmd> finishes with “[archive] is ready for
+        distribution”, run <cmd>git commit -a -m "Release version x.y.z"</cmd>
+        (where ‘x.y.z’ is the package version number)
+      </p></item>
+      <item>
+        <p>
+          Run <cmd>git push</cmd>
+        </p>
+        <list>
+          <item><p>
+            If that fails due to other commits having been pushed in the
+            meantime, restart at step 1
+          </p></item>
+        </list>
+      </item>
+      <item><p>
+        Tag the release: <cmd>git tag -s x.y.z</cmd> (where ‘x.y.z’ is the
+        package version number)
+      </p></item>
+      <item><p>
+        Run <cmd>git push origin x.y.z</cmd> (where ‘x.y.z’ is the package
+        version number)
+      </p></item>
+    </steps>
+
+    <p>
+      The release is now complete, and the post-release version increment can be
+      done:
+    </p>
+    <steps>
+      <item><p>
+        Increment the package version number in <file>configure.ac</file>
+      </p></item>
+      <item><p>
+        Run <cmd>git commit -a -m "Post-release version increment"</cmd>
+      </p></item>
+      <item><p>
+        Run <cmd>git push</cmd>
+      </p></item>
+    </steps>
+
+    <p>
+      The package archive generated by <cmd>make distcheck</cmd> can now be
+      uploaded to download.gnome.org or distributed in other ways.
+    </p>
+  </section>
+</page>

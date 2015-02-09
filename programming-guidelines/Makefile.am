@@ -22,6 +22,7 @@ HELP_FILES = \
 	threading.page \
 	tooling.page \
 	version-control.page \
+	versioning.page \
 	writing-good-code.page \
 	$(NULL)
 
