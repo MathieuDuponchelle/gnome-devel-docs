@@ -14,6 +14,7 @@ HELP_FILES = \
 	documentation.page \
 	file-system.page \
 	index.page \
+	logging.page \
 	memory-management.page \
 	namespacing.page \
 	parallel-installability.page \
