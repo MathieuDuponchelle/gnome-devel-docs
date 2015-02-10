@@ -302,7 +302,6 @@ HELP_FILES =				\
 	aboutdialog.py.page		\
 	aboutdialog.vala.page		\
 	audio-player.vala.page		\
-	beginner.c.page			\
 	beginner.js.page		\
 	beginner.py.page		\
 	beginner.vala.page		\
