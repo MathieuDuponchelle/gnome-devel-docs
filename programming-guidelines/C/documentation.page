@@ -159,7 +159,7 @@
     </p>
 
     <p>
-      As shown in the <link xhref="#standard-layout">Standard Layout</link> you
+      As shown in the <link xref="#standard-layout">Standard Layout</link> you
       should include a <file>license.xml</file> in the top-level gtk-doc DocBook
       file which gives the full text of your documentation license.
     </p>
