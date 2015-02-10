@@ -23,15 +23,6 @@
   <synopsis>
     <title>Summary</title>
 
-    <comment>
-      <p>
-        FIXME: Incorporate
-        https://tecnocode.co.uk/2014/03/27/what-is-gmaincontext/ and
-        https://tecnocode.co.uk/2014/04/19/ensuring-functions-are-called-in-the-right-context/
-        into the page.
-      </p>
-    </comment>
-
     <list>
       <item><p>
         Do not use threads if at all possible.
@@ -63,8 +54,8 @@
     <p>
       When writing projects using GLib, the default approach should be to
       <em style="strong">never use threads</em>. Instead, make proper use of the
-      <link href="https://developer.gnome.org/glib/stable/glib-The-Main-Event-Loop.html">GLib
-      main context</link> which, through the use of asynchronous operations,
+      <link xref="main-contexts">GLib main context</link> which, through the use
+      of asynchronous operations,
       allows most blocking I/O operations to continue in the background while
       the main context continues to process other events. Analysis, review and
       debugging of threaded code becomes very hard, very quickly.
@@ -200,6 +191,7 @@ some_blocking_function_finish (GAsyncResult  *result,
         worker thread is to use
         <link href="https://developer.gnome.org/gio/stable/GTask.html"><code>GTask</code></link>
         and <link href="https://developer.gnome.org/gio/stable/GTask.html#g-task-run-in-thread"><code>g_task_run_in_thread()</code></link>.
+        (See also: <link xref="main-contexts#gtask"/>.)
       </p>
     </example>
   </section>
@@ -301,7 +293,8 @@ some_blocking_function_finish (GAsyncResult  *result,
           context</em>, which is being run in the main thread, <em>not
           necessarily</em> the current thread. Getting this wrong can mean that
           work intended for a worker thread accidentally ends up being executed
-          in the main thread anyway.
+          in the main thread anyway. (See also:
+          <link xref="main-contexts#default-contexts"/>.)
         </p>
       </item>
     </list>

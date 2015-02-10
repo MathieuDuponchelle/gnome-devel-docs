@@ -18,6 +18,7 @@ HELP_FILES = \
 	index.page \
 	introspection.page \
 	logging.page \
+	main-contexts.page \
 	memory-management.page \
 	namespacing.page \
 	parallel-installability.page \

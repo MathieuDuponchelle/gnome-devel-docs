@@ -1,0 +1,955 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      xmlns:xi="http://www.w3.org/2003/XInclude"
+      type="topic"
+      id="main-contexts">
+
+  <info>
+    <link type="guide" xref="index#specific-how-tos"/>
+
+    <credit type="author copyright">
+      <name>Philip Withnall</name>
+      <email its:translate="no">philip.withnall@collabora.co.uk</email>
+      <years>2014–2015</years>
+    </credit>
+
+    <include href="cc-by-sa-3-0.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc>
+      GLib main contexts, invoking functions in other threads, and the event
+      loop
+    </desc>
+  </info>
+
+  <title>GLib Main Contexts</title>
+
+  <synopsis>
+    <title>Summary</title>
+
+    <comment>
+      <p>
+        FIXME: Write a tutorial on integrating a custom poll()-loop using
+        function into a GSource and hence into GMainContext.
+      </p>
+    </comment>
+
+    <list>
+      <item><p>
+        Use
+        <link href="https://developer.gnome.org/glib/stable/glib-The-Main-Event-Loop.html#g-main-context-invoke-full"><code>g_main_context_invoke_full()</code></link>
+        to invoke functions in other threads, assuming every thread has a thread
+        default main context which runs throughout the lifetime of that thread
+        (<link xref="#g-main-context-invoke-full"/>)
+      </p></item>
+      <item><p>
+        Use
+        <link href="https://developer.gnome.org/gio/stable/GTask.html"><code>GTask</code></link>
+        to run a function in the background without caring about the specific
+        thread used (<link xref="#gtask"/>)
+      </p></item>
+      <item><p>
+        Liberally use assertions to check which context executes each function,
+        and add these assertions when first writing the code
+        (<link xref="#checking-threading"/>)
+      </p></item>
+      <item><p>
+        Explicitly document contexts a function is expected to be called in, a
+        callback will be invoked in, or a signal will be emitted in
+        (<link xref="#using-gmaincontext-in-a-library"/>)
+      </p></item>
+      <item><p>
+        Beware of <code>g_idle_add()</code> and similar functions which
+        implicitly use the global-default main context
+        (<link xref="#implicit-use-of-the-global-default-main-context"/>)
+      </p></item>
+    </list>
+  </synopsis>
+
+  <section id="what-is-gmaincontext">
+    <title>What is <code>GMainContext</code>?</title>
+
+    <p>
+      <link href="https://developer.gnome.org/glib/stable/glib-The-Main-Event-Loop.html#GMainContext"><code>GMainContext</code></link>
+      is a generalized implementation of an
+      <link href="http://en.wikipedia.org/wiki/Event_loop">event loop</link>,
+      useful for implementing polled file I/O or event-based widget systems
+      (such as GTK+). It is at the core of almost every GLib application. To
+      understand <code>GMainContext</code> requires understanding
+      <link href="man:poll(2)">poll()</link> and polled I/O.
+    </p>
+
+    <p>
+      A <code>GMainContext</code> has a set of
+      <link href="https://developer.gnome.org/glib/stable/glib-The-Main-Event-Loop.html#GSource"><code>GSource</code></link>s
+      which are ‘attached’ to it, each of which can be thought of as an expected
+      event with an associated callback function which will be invoked when that
+      event is received; or equivalently as a set of file descriptors (FDs) to
+      check. An event could be a timeout or data being received on a socket, for
+      example. One iteration of the event loop will:
+    </p>
+    <list type="enumerated">
+      <item><p>
+        Prepare sources, determining if any of them are ready to dispatch
+        immediately.
+      </p></item>
+      <item><p>
+        Poll the sources, blocking the current thread until an event is received
+        for one of the sources.
+      </p></item>
+      <item><p>
+        Check which of the sources received an event (several could have).
+      </p></item>
+      <item><p>
+        Dispatch callbacks from those sources.
+      </p></item>
+    </list>
+
+    <p>
+      This is
+      <link href="https://developer.gnome.org/glib/stable/glib-The-Main-Event-Loop.html#mainloop-states">explained
+      very well</link> in the
+      <link href="https://developer.gnome.org/glib/stable/glib-The-Main-Event-Loop.html#GSourceFuncs">GLib
+      documentation</link>.
+    </p>
+
+    <p>
+      At its core, <code>GMainContext</code> is just a <code>poll()</code> loop,
+      with the preparation, check and dispatch stages of the loop corresponding
+      to the normal preamble and postamble in a typical <code>poll()</code> loop
+      implementation, such as listing 1 from
+      <link href="http://www.linux-mag.com/id/357/">this article</link>.
+      Typically, some complexity is needed in non-trivial
+      <code>poll()</code>-using applications to track the lists of FDs which are
+      being polled. Additionally, <code>GMainContext</code> adds a lot of useful
+      functionality which vanilla <code>poll()</code> doesn’t support. Most
+      importantly, it adds thread safety.
+    </p>
+
+    <p>
+      <code>GMainContext</code> is completely thread safe, meaning that a
+      <code>GSource</code> can be created in one thread and attached to a
+      <code>GMainContext</code> running in another thread. (See
+      also: <link xref="threading"/>.) A typical use for this might be to allow
+      worker threads to control which sockets are being listened to by a
+      <code>GMainContext</code> in a central I/O thread. Each
+      <code>GMainContext</code> is ‘acquired’ by a thread for each iteration
+      it’s put through. Other threads cannot iterate a <code>GMainContext</code>
+      without acquiring it, which guarantees that a <code>GSource</code> and its
+      FDs will only be polled by one thread at once (since each
+      <code>GSource</code> is attached to at most one
+      <code>GMainContext</code>). A <code>GMainContext</code> can be swapped
+      between threads across iterations, but this is expensive.
+    </p>
+
+    <p>
+      <code>GMainContext</code> is used instead of <code>poll()</code> mostly
+      for convenience, as it transparently handles dynamically managing
+      the array of FDs to pass to <code>poll()</code>, especially when operating
+      over multiple threads. This is done by encapsulating FDs in
+      <code>GSource</code>s, which decide whether those FDs should be passed to
+      the <code>poll()</code> call on each ‘prepare’ stage of the main context
+      iteration.
+    </p>
+  </section>
+
+  <section id="what-is-gmainloop">
+    <title>What is <code>GMainLoop</code>?</title>
+
+    <p>
+      <link href="https://developer.gnome.org/glib/stable/glib-The-Main-Event-Loop.html#GMainLoop"><code>GMainLoop</code></link>
+      is essentially the following few lines of code, once reference counting
+      and locking have been removed (from
+      <link href="https://developer.gnome.org/glib/stable/glib-The-Main-Event-Loop.html#g-main-loop-run"><code>g_main_loop_run()</code></link>):
+    </p>
+    <code mime="text/x-csrc">loop->is_running = TRUE;
+while (loop->is_running)
+  {
+    g_main_context_iteration (context, TRUE);
+  }</code>
+
+    <p>
+      Plus a fourth line in
+      <link href="https://developer.gnome.org/glib/stable/glib-The-Main-Event-Loop.html#g-main-loop-quit"><code>g_main_loop_quit()</code></link>
+      which sets <code>loop-&gt;is_running = FALSE</code> and which will cause
+      the loop to terminate once the current main context iteration ends.
+    </p>
+
+    <p>
+      Hence, <code>GMainLoop</code> is a convenient, thread-safe way of running
+      a <code>GMainContext</code> to process events until a desired exit
+      condition is met, at which point <code>g_main_loop_quit()</code> should be
+      called. Typically, in a UI program, this will be the user clicking ‘exit’.
+      In a socket handling program, this might be the final socket closing.
+    </p>
+
+    <p>
+      It is important not to confuse main contexts with main loops. Main
+      contexts do the bulk of the work: preparing source lists, waiting for
+      events, and dispatching callbacks. A main loop simply iterates a context.
+    </p>
+  </section>
+
+  <section id="default-contexts">
+    <title>Default Contexts</title>
+
+    <p>
+      One of the important features of <code>GMainContext</code> is its support
+      for ‘default’ contexts. There are two levels of default context: the
+      thread-default, and the global-default. The global-default (accessed using
+      <code>g_main_context_default()</code>) is run by GTK+ when
+      <code>gtk_main()</code> is called. It’s also used for timeouts
+      (<code>g_timeout_add()</code>) and idle callbacks
+      (<code>g_idle_add()</code>) — these won’t be dispatched unless the default
+      context is running! (See:
+      <link xref="#implicit-use-of-the-global-default-main-context"/>.)
+    </p>
+
+    <p>
+      Thread-default contexts are a later addition to GLib (since version 2.22),
+      and are generally used for I/O operations which need to run and dispatch
+      callbacks in a thread. By calling
+      <code>g_main_context_push_thread_default()</code> before starting an I/O
+      operation, the thread-default context is set and the I/O operation can add
+      its sources to that context. The context can then be run in a new main
+      loop in an I/O thread, causing the callbacks to be dispatched on that
+      thread’s stack rather than on the stack of the thread running the
+      global-default main context. This allows I/O operations to be run entirely
+      in a separate thread without explicitly passing a specific
+      <code>GMainContext</code> pointer around everywhere.
+    </p>
+
+    <p>
+      Conversely, by starting a long-running operation with a specific
+      thread-default context set, the calling code can guarantee that the
+      operation’s callbacks will be emitted in that context, even if the
+      operation itself runs in a worker thread. This is the principle behind
+      <link href="https://developer.gnome.org/gio/stable/GTask.html"><code>GTask</code></link>:
+      when a new <code>GTask</code> is created, it stores a reference to the
+      current thread-default context, and dispatches its completion callback in
+      that context, even if the task itself is run using
+      <link href="https://developer.gnome.org/gio/stable/GTask.html#g-task-run-in-thread"><code>g_task_run_in_thread()</code></link>.
+    </p>
+
+    <example>
+      <p>
+        For example, the code below will run a <code>GTask</code> which performs
+        two writes in parallel from a thread. The callbacks for the writes will
+        be dispatched in the worker thread, whereas the callback from the task
+        as a whole will be dispatched in the <code>interesting_context</code>.
+      </p>
+
+      <code mime="text/x-csrc" style="valid">
+typedef struct {
+  GMainLoop *main_loop;
+  guint n_remaining;
+} WriteData;
+
+/* This is always called in the same thread as thread_cb() because
+ * it’s always dispatched in the @worker_context. */
+static void
+write_cb (GObject      *source_object,
+          GAsyncResult *result,
+          gpointer      user_data)
+{
+  WriteData *data = user_data;
+  GOutputStream *stream = G_OUTPUT_STREAM (source_object);
+  GError *error = NULL;
+  gssize len;
+
+  /* Finish the write. */
+  len = g_output_stream_write_finish (stream, result, &amp;error);
+  if (error != NULL)
+    {
+      g_error ("Error: %s", error->message);
+      g_error_free (error);
+    }
+
+  /* Check whether all parallel operations have finished. */
+  write_data->n_remaining--;
+
+  if (write_data->n_remaining == 0)
+    {
+      g_main_loop_quit (write_data->main_loop);
+    }
+}
+
+/* This is called in a new thread. */
+static void
+thread_cb (GTask        *task,
+           gpointer      source_object,
+           gpointer      task_data,
+           GCancellable *cancellable)
+{
+  /* These streams come from somewhere else in the program: */
+  GOutputStream *output_stream1, *output_stream;
+  GMainContext *worker_context;
+  GBytes *data;
+  const guint8 *buf;
+  gsize len;
+
+  /* Set up a worker context for the writes’ callbacks. */
+  worker_context = g_main_context_new ();
+  g_main_context_push_thread_default (worker_context);
+
+  /* Set up the writes. */
+  write_data.n_remaining = 2;
+  write_data.main_loop = g_main_loop_new (worker_context, FALSE);
+
+  data = g_task_get_task_data (task);
+  buf = g_bytes_get_data (data, &amp;len);
+
+  g_output_stream_write_async (output_stream1, buf, len,
+                               G_PRIORITY_DEFAULT, NULL, write_cb,
+                               &amp;write_data);
+  g_output_stream_write_async (output_stream2, buf, len,
+                               G_PRIORITY_DEFAULT, NULL, write_cb,
+                               &amp;write_data);
+
+  /* Run the main loop until both writes have finished. */
+  g_main_loop_run (write_data.main_loop);
+  g_task_return_boolean (task, TRUE);  /* ignore errors */
+
+  g_main_loop_unref (write_data.main_loop);
+
+  g_main_context_pop_thread_default (worker_context);
+  g_main_context_unref (worker_context);
+}
+
+/* This can be called from any thread. Its @callback will always be
+ * dispatched in the thread which currently owns
+ * @interesting_context. */
+void
+parallel_writes_async (GBytes              *data,
+                       GMainContext        *interesting_context,
+                       GCancellable        *cancellable,
+                       GAsyncReadyCallback  callback,
+                       gpointer             user_data)
+{
+  GTask *task;
+
+  task = g_task_new (NULL, cancellable, callback, user_data);
+  g_task_set_task_data (task, data,
+                        (GDestroyNotify) g_bytes_unref);
+  g_task_run_in_thread (task, thread_cb);
+  g_object_unref (task);
+}</code>
+    </example>
+
+    <section id="implicit-use-of-the-global-default-main-context">
+      <title>Implicit Use of the Global-Default Main Context</title>
+
+      <p>
+        Several functions implicitly add sources to the global-default main
+        context. They should <em>not</em> be used in threaded code. Instead, use
+        <code>g_source_attach()</code> with the <code>GSource</code> created by
+        the replacement function from the table below.
+      </p>
+
+      <p>
+        Implicit use of the global-default main context means the callback
+        functions are invoked in the main thread, typically resulting in work
+        being brought back from a worker thread into the main thread.
+      </p>
+
+      <table shade="rows">
+        <colgroup><col /></colgroup>
+        <colgroup><col /><col /></colgroup>
+        <thead>
+          <tr>
+            <td><p>Do not use</p></td>
+            <td><p>Use instead</p></td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><p><code>g_timeout_add()</code></p></td>
+            <td><p><code>g_timeout_source_new()</code></p></td>
+          </tr>
+          <tr>
+            <td><p><code>g_idle_add()</code></p></td>
+            <td><p><code>g_idle_source_new()</code></p></td>
+          </tr>
+          <tr>
+            <td><p><code>g_child_watch_add()</code></p></td>
+            <td><p><code>g_child_watch_source_new()</code></p></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <example>
+        <p>
+          So to delay some computation in a worker thread, use the following
+          code:
+        </p>
+        <code mime="text/x-csrc">
+static guint
+schedule_computation (guint delay_seconds)
+{
+  GSource *source = NULL;
+  GMainContext *context;
+  guint id;
+
+  /* Get the calling context. */
+  context = g_main_context_get_thread_default ();
+
+  source = g_timeout_source_new_seconds (delay_seconds);
+  g_source_set_callback (source, do_computation, NULL, NULL);
+  id = g_source_attach (source, context);
+  g_source_unref (source);
+
+  /* The ID can be used with the same @context to
+   * cancel the scheduled computation if needed. */
+  return id;
+}
+
+static void
+do_computation (gpointer user_data)
+{
+  /* … */
+}</code>
+      </example>
+    </section>
+  </section>
+
+  <section id="using-gmaincontext-in-a-library">
+    <title>Using <code>GMainContext</code> in a Library</title>
+
+    <p>
+      At a high level, library code must not make changes to main contexts which
+      could affect the execution of an application using the library, for
+      example by changing when the application’s <code>GSource</code>s are
+      dispatched. There are various best practices which can be followed to aid
+      this.
+    </p>
+
+    <p>
+      Never iterate a context created outside the library, including the
+      global-default or thread-default contexts. Otherwise,
+      <code>GSource</code>s created in the application may be dispatched
+      when the application is not expecting it, causing
+      <link href="http://en.wikipedia.org/wiki/Reentrancy_%28computing%29">re-entrancy
+      problems</link> for the application code.
+    </p>
+
+    <p>
+      Always remove <code>GSource</code>s from a main context before dropping
+      the library’s last reference to the context, especially if it may have
+      been exposed to the application (for example, as a thread-default).
+      Otherwise the application may keep a reference to the main context and
+      continue iterating it after the library has returned, potentially causing
+      unexpected source dispatches in the library. This is equivalent to not
+      assuming that dropping the library’s last reference to a main context will
+      finalize that context.
+    </p>
+
+    <p>
+      If the library is designed to be used from multiple threads, or in a
+      context-aware fashion, always document which context each callback will be
+      dispatched in. For example, “callbacks will always be dispatched in the
+      context which is the thread-default at the time of the object’s
+      construction”. Developers using the library’s API need to know this
+      information.
+    </p>
+
+    <p>
+      Use <code>g_main_context_invoke()</code> to ensure callbacks are
+      dispatched in the right context. It’s much easier than manually using
+      <code>g_idle_source_new()</code> to transfer work between contexts.
+      (See: <link xref="#ensuring-functions-are-called-in-the-right-context"/>.)
+    </p>
+
+    <p>
+      Libraries should never use <code>g_main_context_default()</code> (or,
+      equivalently, pass <code>NULL</code> to a <code>GMainContext</code>-typed
+      parameter). Always store and explicitly use a specific
+      <code>GMainContext</code>, even if it often points to some default
+      context. This makes the code easier to split out into threads in future,
+      if needed, without causing hard-to-debug problems caused by callbacks
+      being invoked in the wrong context.
+    </p>
+
+    <p>
+      Always write things asynchronously internally (using
+      <link xref="#gtask"><code>GTask</code></link> where appropriate), and keep
+      synchronous wrappers at the very top level of an API, where they can be
+      implemented by calling <code>g_main_context_iteration()</code> on a
+      specific <code>GMainContext</code>. Again, this makes future refactoring
+      easier. This is demonstrated in the above example: the thread uses
+      <code>g_output_stream_write_async()</code> rather than
+      <code>g_output_stream_write()</code>.
+    </p>
+
+    <p>
+      Always match pushes and pops of the thread-default main context:
+      <code>g_main_context_push_thread_default()</code> and
+      <code>g_main_context_pop_thread_default()</code>.
+    </p>
+  </section>
+
+  <section id="ensuring-functions-are-called-in-the-right-context">
+    <title>Ensuring Functions are Called in the Right Context</title>
+
+    <p>
+      The ‘right context’ is the thread-default main context of the <em>thread
+      the function should be executing in</em>. This assumes the typical case
+      that every thread has a <em>single</em> main context running in a main
+      loop. A main context effectively provides a work or
+      <link href="http://en.wikipedia.org/wiki/Message_queue">message
+      queue</link> for the thread — something which the thread can
+      periodically check to determine if there is work pending from
+      another thread. Putting a message on this queue – invoking a function in
+      another main context – will result in it eventually being dispatched in
+      that thread.
+    </p>
+
+    <example>
+      <p>
+        For example, if an application does a long and CPU-intensive computation
+        it should schedule this in a background thread so that UI updates in the
+        main thread are not blocked. The results of the computation, however,
+        might need to be displayed in the UI, so some UI update function must be
+        called in the main thread once the computation’s complete.
+      </p>
+
+      <p>
+        Furthermore, if the computation function can be limited to a single
+        thread, it becomes easy to eliminate the need for locking a lot of the
+        data it accesses. This assumes that other threads are implemented
+        similarly and hence most data is only accessed by a single thread, with
+        threads communicating by
+        <link href="http://en.wikipedia.org/wiki/Message_passing">message
+        passing</link>. This allows each thread to update its data at its
+        leisure, which significantly simplifies locking.
+     </p>
+   </example>
+
+    <p>
+      For some functions, there might be no reason to care which context they’re
+      executed in, perhaps because they’re asynchronous and hence do not block
+      the context. However, it is still advisable to be explicit about which
+      context is used, since those functions may emit signals or invoke
+      callbacks, and for reasons of thread safety it’s necessary to know which
+      threads those signal handlers or callbacks are going to be invoked in.
+    </p>
+
+    <example>
+      <p>
+        For example, the progress callback in
+        <link href="https://developer.gnome.org/gio/stable/GFile.html#g-file-copy-async"><code>g_file_copy_async()</code></link>
+        is documented as being called in the thread-default main context
+        at the time of the initial call.
+      </p>
+    </example>
+
+    <section id="invocation-core-principle">
+      <title>Principles of Invocation</title>
+
+      <p>
+        The core principle of invoking a function in a specific context is
+        simple, and is walked through below to explain the concepts. In practice
+        the <link xref="g-main-context-invoke-full">convenience method,
+        <code>g_main_context_invoke_full()</code></link> should be used instead.
+      </p>
+
+      <p>
+        A
+        <link href="https://developer.gnome.org/glib/stable/glib-The-Main-Event-Loop.html#GSource"><code>GSource</code></link>
+        has to be added to the target <code>GMainContext</code>, which will invoke
+        the function when it’s dispatched. This <code>GSource</code> should almost
+        always be an idle source created with
+        <link href="https://developer.gnome.org/glib/stable/glib-The-Main-Event-Loop.html#g-idle-source-new"><code>g_idle_source_new()</code></link>,
+        but this doesn’t have to be the case. It could be a timeout source
+        so that the function is executed after a delay, for example.
+      </p>
+
+      <p>
+        The <code>GSource</code> will be
+        <link xref="what-is-gmaincontext">dispatched as soon as it’s ready</link>,
+        calling the function on the thread’s stack. In the case of an idle source,
+        this will be as soon as all sources at a higher priority have been
+        dispatched — this can be tweaked using the idle source’s priority
+        parameter with
+        <link href="https://developer.gnome.org/glib/stable/glib-The-Main-Event-Loop.html#g-source-set-priority"><code>g_source_set_priority()</code></link>.
+        The source will typically then be destroyed so the function is only
+        executed once (though again, this doesn’t have to be the case).
+      </p>
+
+      <p>
+        Data can be passed between threads as the <code>user_data</code> passed to
+        the <code>GSource</code>’s callback. This is set on the source using
+        <link href="https://developer.gnome.org/glib/stable/glib-The-Main-Event-Loop.html#g-source-set-callback"><code>g_source_set_callback()</code></link>,
+        along with the callback function to invoke. Only a single pointer
+        is provided, so if multiple data fields need passing, they must be wrapped
+        in an allocated structure.
+      </p>
+
+      <example>
+        <p>
+          The example below demonstrates the underlying principles, but there are
+          convenience methods explained below which simplify things.
+        </p>
+
+        <code mime="text/x-csrc">
+/* Main function for the background thread, thread1. */
+static gpointer
+thread1_main (gpointer user_data)
+{
+  GMainContext *thread1_main_context = user_data;
+  GMainLoop *main_loop;
+
+  /* Set up the thread’s context and run it forever. */
+  g_main_context_push_thread_default (thread1_main_context);
+
+  main_loop = g_main_loop_new (thread1_main_context, FALSE);
+  g_main_loop_run (main_loop);
+  g_main_loop_unref (main_loop);
+
+  g_main_context_pop_thread_default (thread1_main_context);
+  g_main_context_unref (thread1_main_context);
+
+  return NULL;
+}
+
+/* A data closure structure to carry multiple variables between
+ * threads. */
+typedef struct {
+  gchar   *some_string;  /* owned */
+  guint    some_int;
+  GObject *some_object;  /* owned */
+} MyFuncData;
+
+static void
+my_func_data_free (MyFuncData *data)
+{
+  g_free (data->some_string);
+  g_clear_object (&amp;data->some_object);
+  g_free (data);
+}
+
+static void
+my_func (const gchar *some_string,
+         guint        some_int,
+         GObject     *some_object)
+{
+  /* Do something long and CPU intensive! */
+}
+
+/* Convert an idle callback into a call to my_func(). */
+static gboolean
+my_func_idle (gpointer user_data)
+{
+  MyFuncData *data = user_data;
+
+  my_func (data->some_string, data->some_int, data->some_object);
+
+  return G_SOURCE_REMOVE;
+}
+
+/* Function to be called in the main thread to schedule a call to
+ * my_func() in thread1, passing the given parameters along. */
+static void
+invoke_my_func (GMainContext *thread1_main_context,
+                const gchar  *some_string,
+                guint         some_int,
+                GObject      *some_object)
+{
+  GSource *idle_source;
+  MyFuncData *data;
+
+  /* Create a data closure to pass all the desired variables
+   * between threads. */
+  data = g_new0 (MyFuncData, 1);
+  data->some_string = g_strdup (some_string);
+  data->some_int = some_int;
+  data->some_object = g_object_ref (some_object);
+
+  /* Create a new idle source, set my_func() as the callback with
+   * some data to be passed between threads, bump up the priority
+   * and schedule it by attaching it to thread1’s context. */
+  idle_source = g_idle_source_new ();
+  g_source_set_callback (idle_source, my_func_idle, data,
+                         (GDestroyNotify) my_func_data_free);
+  g_source_set_priority (idle_source, G_PRIORITY_DEFAULT);
+  g_source_attach (idle_source, thread1_main_context);
+  g_source_unref (idle_source);
+}
+
+/* Main function for the main thread. */
+static void
+main (void)
+{
+  GThread *thread1;
+  GMainContext *thread1_main_context;
+
+  /* Spawn a background thread and pass it a reference to its
+   * GMainContext. Retain a reference for use in this thread
+   * too. */
+  thread1_main_context = g_main_context_new ();
+  g_thread_new ("thread1", thread1_main,
+                g_main_context_ref (thread1_main_context));
+
+  /* Maybe set up your UI here, for example. */
+
+  /* Invoke my_func() in the other thread. */
+  invoke_my_func (thread1_main_context,
+                  "some data which needs passing between threads",
+                  123456, some_object);
+
+  /* Continue doing other work. */
+}</code>
+
+        <p>
+          This invocation is <em style="strong">uni-directional</em>: it calls
+          <code>my_func()</code> in <code>thread1</code>, but there’s no way to
+          return a value to the main thread. To do that, the same principle needs
+          to be used again, invoking a callback function in the main thread. It’s
+          a straightforward extension which isn’t covered here.
+        </p>
+
+        <p>
+          To maintain thread safety, data which is potentially accessed by
+          multiple threads must make those accesses mutually exclusive using a
+          <link href="http://en.wikipedia.org/wiki/Mutual_exclusion">mutex</link>.
+          Data potentially accessed by multiple threads:
+          <code>thread1_main_context</code>, passed in the fork call to
+          <code>thread1_main</code>; and <code>some_object</code>, a reference to
+          which is passed in the data closure. Critically, GLib guarantees that
+          <code>GMainContext</code> is thread safe, so sharing
+          <code>thread1_main_context</code> between threads is safe. The example
+          assumes that other code accessing <code>some_object</code> is thread
+          safe.
+        </p>
+
+        <p>
+          Note that <code>some_string</code> and <code>some_int</code> cannot be
+          accessed from both threads, because <em>copies</em> of them are passed
+          to <code>thread1</code>, rather than the originals. This is a standard
+          technique for making cross-thread calls thread safe without requiring
+          locking. It also avoids the problem of synchronizing freeing
+          <code>some_string</code>.
+        </p>
+
+        <p>
+          Similarly, a reference to <code>some_object</code> is transferred to
+          <code>thread1</code>, which works around the issue of synchronizing
+          destruction of the object (see <link xref="memory-management"/>).
+        </p>
+
+        <p>
+          <code>g_idle_source_new()</code> is used rather than the simpler
+          <code>g_idle_add()</code> so the <code>GMainContext</code> to attach to
+          can be specified.
+        </p>
+      </example>
+    </section>
+
+    <section id="g-main-context-invoke-full">
+      <title>
+        Convenience Method: <code>g_main_context_invoke_full()</code>
+      </title>
+
+      <p>
+        This is simplified greatly by the convenience method,
+        <link href="https://developer.gnome.org/glib/stable/glib-The-Main-Event-Loop.html#g-main-context-invoke-full"><code>g_main_context_invoke_full()</code></link>.
+        It invokes a callback so that the specified <code>GMainContext</code> is
+        owned during the invocation. Owning a main context is almost always
+        equivalent to running it, and hence the function is invoked in the
+        thread for which the specified context is the thread-default.
+      </p>
+
+      <p>
+        <code>g_main_context_invoke()</code> can be used instead if the user
+        data does not need to be freed by a <code>GDestroyNotify</code> callback
+        after the invocation returns.
+      </p>
+
+      <example>
+        <p>
+          Modifying the earlier example, the <code>invoke_my_func()</code>
+          function can be replaced by the following:
+        </p>
+
+        <code mime="text/x-csrc">
+static void
+invoke_my_func (GMainContext *thread1_main_context,
+                const gchar  *some_string,
+                guint         some_int,
+                GObject      *some_object)
+{
+  MyFuncData *data;
+
+  /* Create a data closure to pass all the desired variables
+   * between threads. */
+  data = g_new0 (MyFuncData, 1);
+  data->some_string = g_strdup (some_string);
+  data->some_int = some_int;
+  data->some_object = g_object_ref (some_object);
+
+  /* Invoke the function. */
+  g_main_context_invoke_full (thread1_main_context,
+                              G_PRIORITY_DEFAULT, my_func_idle,
+                              data,
+                              (GDestroyNotify) my_func_data_free);
+}</code>
+
+        <p>
+          Consider what happens if <code>invoke_my_func()</code> were called
+          from <code>thread1</code>, rather than from the main thread. With the
+          original implementation, the idle source would be added to
+          <code>thread1</code>’s context and dispatched on the context’s next
+          iteration (assuming no pending dispatches with higher priorities).
+          With the improved implementation,
+          <code>g_main_context_invoke_full()</code> will notice that the
+          specified context is already owned by the thread (or ownership can be
+          acquired by it), and will call <code>my_func_idle()</code> directly,
+          rather than attaching a source to the context and delaying the
+          invocation to the next context iteration.
+        </p>
+
+        <p>
+          This subtle behavior difference doesn’t matter in most cases, but is
+          worth bearing in mind since it can affect blocking behavior
+          (<code>invoke_my_func()</code> would go from taking negligible time,
+          to taking the same amount of time as <code>my_func()</code> before
+          returning).
+        </p>
+      </example>
+    </section>
+  </section>
+
+  <section id="checking-threading">
+    <title>Checking Threading</title>
+
+    <p>
+      It is useful to document which thread each function should be called in,
+      in the form of an assertion:
+    </p>
+    <code mime="text/x-csrc">
+g_assert (g_main_context_is_owner (expected_main_context));</code>
+
+    <p>
+      If that’s put at the top of each function, any assertion failure will
+      highlight a case where a function has been called from the wrong
+      thread. It is much easier to write these assertions when initially
+      developing code, rather than debuging race conditions which can easily
+      result from a function being called in the wrong thread.
+    </p>
+
+    <p>
+      This technique can also be applied to signal emissions and callbacks,
+      improving type safety as well as asserting the right context is used. Note
+      that signal emission via
+      <link href="https://developer.gnome.org/gobject/stable/gobject-Signals.html#g-signal-emit"><code>g_signal_emit()</code></link>
+      is synchronous, and doesn’t involve a main context at all.
+    </p>
+
+    <example>
+      <p>
+        For example, instead of using the following when emitting a signal:
+      </p>
+      <code mime="text/x-csrc" style="invalid">
+guint param1;  /* arbitrary example parameters */
+gchar *param2;
+guint retval = 0;
+
+g_signal_emit_by_name (my_object, "some-signal",
+                       param1, param2, &amp;retval);</code>
+
+      <p>
+        The following can be used:
+      </p>
+      <code mime="text/x-csrc" style="valid">
+static guint
+emit_some_signal (GObject     *my_object,
+                  guint        param1,
+                  const gchar *param2)
+{
+  guint retval = 0;
+
+  g_assert (g_main_context_is_owner (expected_main_context));
+
+  g_signal_emit_by_name (my_object, "some-signal",
+                         param1, param2, &amp;retval);
+
+  return retval;
+}</code>
+    </example>
+  </section>
+
+  <section id="gtask">
+    <title><code>GTask</code></title>
+
+    <p>
+      <link href="https://developer.gnome.org/gio/stable/GTask.html"><code>GTask</code></link>
+      provides a slightly different approach to invoking functions in other
+      threads, which is more suited to the case where a function should be
+      executed in <em>some</em> background thread, but not a specific one.
+    </p>
+
+    <p>
+      <code>GTask</code> takes a data closure and a function to execute, and
+      provides ways to return the result from this function. It handles
+      everything necessary to run that function in an arbitrary thread belonging
+      to some thread pool internal to GLib.
+    </p>
+
+    <example>
+      <p>
+        By combining
+        <link xref="g-main-context-invoke-full"><code>g_main_context_invoke_full()</code></link>
+        and <code>GTask</code>, it is possible to run a task in a specific context
+        and effortlessly return its result to the current context:
+      </p>
+      <code mime="text/x-csrc">
+/* This will be invoked in thread1. */
+static gboolean
+my_func_idle (gpointer user_data)
+{
+  GTask *task = G_TASK (user_data);
+  MyFuncData *data;
+  gboolean retval;
+
+  /* Call my_func() and propagate its returned boolean to
+   * the main thread. */
+  data = g_task_get_task_data (task);
+  retval = my_func (data->some_string, data->some_int,
+                    data->some_object);
+  g_task_return_boolean (task, retval);
+
+  return G_SOURCE_REMOVE;
+}
+
+/* Whichever thread this is invoked in, the @callback will be
+ * invoked in, once my_func() has finished and returned a result. */
+static void
+invoke_my_func_with_result (GMainContext        *thread1_main_context,
+                            const gchar         *some_string,
+                            guint                some_int,
+                            GObject             *some_object,
+                            GAsyncReadyCallback  callback,
+                            gpointer             user_data)
+{
+  MyFuncData *data;
+
+  /* Create a data closure to pass all the desired variables
+   * between threads. */
+  data = g_new0 (MyFuncData, 1);
+  data->some_string = g_strdup (some_string);
+  data->some_int = some_int;
+  data->some_object = g_object_ref (some_object);
+
+  /* Create a GTask to handle returning the result to the current
+   * thread-default main context. */
+  task = g_task_new (NULL, NULL, callback, user_data);
+  g_task_set_task_data (task, data,
+                        (GDestroyNotify) my_func_data_free);
+
+  /* Invoke the function. */
+  g_main_context_invoke_full (thread1_main_context,
+                              G_PRIORITY_DEFAULT, my_func_idle,
+                              task,
+                              (GDestroyNotify) g_object_unref);
+}</code>
+    </example>
+  </section>
+</page>
