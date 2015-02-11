@@ -1,3 +1,13 @@
+3.15.4
+======
+
+* Overhaul the programming guidelines (Philip Withnall)
+* Restructuring of the C platform demos (Bastian Ilsø)
+* Improvements to the platform overview (Bastian Ilsø, Philip Withnall)
+* Updated translations:
+  el      (Dimitris Spingos)
+  es      (Daniel Mustieles, Adrian Perez Dominguez)
+
 3.14.4
 ======
 
