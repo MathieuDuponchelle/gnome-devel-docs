@@ -75,7 +75,7 @@
       <title type="link" role="trail">General Guidelines</title>
     </info>
     <title>General Guidelines</title>
-    <links type="topic" groups="general-guidelines" style="grid center"/>
+    <links type="topic" groups="general-guidelines" style="grid"/>
   </section>
 
   <section id="maintainer-guidelines">
@@ -83,7 +83,7 @@
       <title type="link" role="trail">Maintainer Guidelines</title>
     </info>
     <title>Maintainer Guidelines</title>
-    <links type="topic" groups="maintainer-guidelines" style="grid center"/>
+    <links type="topic" groups="maintainer-guidelines" style="grid"/>
   </section>
 
   <section id="specific-how-tos">
@@ -91,7 +91,7 @@
       <title type="link" role="trail">Specific How-Tos</title>
     </info>
     <title>Specific How-Tos</title>
-    <links type="topic" groups="specific-how-tos" style="grid center"/>
+    <links type="topic" groups="specific-how-tos" style="grid"/>
   </section>
 
   <section id="references">
@@ -99,7 +99,7 @@
       <title type="link" role="trail">References</title>
     </info>
     <title>References</title>
-    <links type="topic" groups="references" style="grid center"/>
+    <links type="topic" groups="references" style="grid"/>
   </section>
 
 </page>
