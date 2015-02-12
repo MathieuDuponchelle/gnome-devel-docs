@@ -9,8 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs.platform-demos.master\n"
-"POT-Creation-Date: 2015-01-27 07:35+0000\n"
-"PO-Revision-Date: 2015-02-02 11:38+0100\n"
+"POT-Creation-Date: 2015-02-12 07:37+0000\n"
+"PO-Revision-Date: 2015-02-12 19:02+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "Language: \n"
@@ -4070,20 +4070,19 @@ msgid "AboutDialog (Python)"
 msgstr "AboutDialog (Python)"
 
 #. (itstool) path: credit/name
-#: C/aboutdialog.py.page:14 C/beginner.c.page:20 C/beginner.js.page:16
-#: C/beginner.py.page:19 C/beginner.vala.page:19 C/button.py.page:15
-#: C/buttonbox.py.page:15 C/checkbutton.py.page:14 C/colorbutton.py.page:14
-#: C/combobox.py.page:15 C/combobox_multicolumn.py.page:14 C/dialog.py.page:15
-#: C/entry.py.page:15 C/filechooserdialog.py.page:17
-#: C/fontchooserwidget.py.page:15 C/gmenu.py.page:21 C/grid.py.page:21
-#: C/GtkApplicationWindow.py.page:20 C/guitar-tuner.c.page:23
-#: C/guitar-tuner.cpp.page:21 C/guitar-tuner.py.page:23
-#: C/guitar-tuner.py.page:28 C/guitar-tuner.vala.page:26 C/image.py.page:15
-#: C/image-viewer.c.page:23 C/image-viewer.cpp.page:21
-#: C/image-viewer.js.page:23 C/image-viewer.py.page:23
-#: C/image-viewer.vala.page:31 C/js.page:16 C/label.py.page:17
-#: C/linkbutton.py.page:14 C/magic-mirror.vala.page:23 C/menubar.py.page:20
-#: C/menubutton.py.page:20 C/message-board.c.page:20
+#: C/aboutdialog.py.page:14 C/beginner.js.page:16 C/beginner.py.page:19
+#: C/beginner.vala.page:19 C/button.py.page:15 C/buttonbox.py.page:15
+#: C/checkbutton.py.page:14 C/colorbutton.py.page:14 C/combobox.py.page:15
+#: C/combobox_multicolumn.py.page:14 C/dialog.py.page:15 C/entry.py.page:15
+#: C/filechooserdialog.py.page:17 C/fontchooserwidget.py.page:15
+#: C/gmenu.py.page:21 C/grid.py.page:21 C/GtkApplicationWindow.py.page:20
+#: C/guitar-tuner.c.page:23 C/guitar-tuner.cpp.page:21
+#: C/guitar-tuner.py.page:23 C/guitar-tuner.py.page:28
+#: C/guitar-tuner.vala.page:26 C/image.py.page:15 C/image-viewer.c.page:23
+#: C/image-viewer.cpp.page:21 C/image-viewer.js.page:23
+#: C/image-viewer.py.page:23 C/image-viewer.vala.page:31 C/js.page:16
+#: C/label.py.page:17 C/linkbutton.py.page:14 C/magic-mirror.vala.page:23
+#: C/menubar.py.page:20 C/menubutton.py.page:20 C/message-board.c.page:20
 #: C/messagedialog.py.page:14 C/model-view-controller.py.page:21
 #: C/paned.py.page:14 C/photo-wall.c.page:22 C/progressbar.py.page:14
 #: C/properties.py.page:21 C/py.page:15 C/radiobutton.py.page:15
@@ -4404,7 +4403,7 @@ msgstr "Ryan Lortie"
 
 #. (itstool) path: credit/name
 #: C/aboutdialog.vala.page:21 C/beginner.py.page:15 C/beginner.vala.page:15
-#: C/button.vala.page:14 C/c.page:11 C/checkbutton.c.page:13
+#: C/button.vala.page:14 C/c.page:14 C/checkbutton.c.page:13
 #: C/checkbutton.vala.page:13 C/colorbutton.vala.page:15 C/combobox.c.page:18
 #: C/combobox.vala.page:13 C/combobox_multicolumn.vala.page:14 C/cpp.page:11
 #: C/dialog.vala.page:13 C/entry.vala.page:13 C/filechooserdialog.vala.page:16
@@ -4614,24 +4613,18 @@ msgstr "Proyecto de documentación de GNOME"
 msgid "Audio player"
 msgstr "Reproductor de sonido"
 
-#. (itstool) path: info/title
-#: C/beginner.c.page:9
-msgctxt "text"
-msgid "Tutorial for beginners (C)"
-msgstr "Tutorial para principiantes (C)"
-
-#. (itstool) path: info/desc
-#: C/beginner.c.page:13 C/beginner.vala.page:13
-msgid ""
-"A beginner's guide to GUI programming using GTK+, including code samples and "
-"practice exercises."
-msgstr ""
-"Una guía de programación de interfaces usuario en GTK+ para principiantes, "
-"incluyendo ejemplos de código y ejercicios prácticos."
+#. (itstool) path: credit/name
+#: C/beginner.js.page:11 C/grid.js.page:13 C/guitar-tuner.js.page:12
+#: C/hello-world.c.page:15 C/hello-world.js.page:15 C/hello-world.py.page:15
+#: C/hello-world.vala.page:15 C/weatherApp.js.page:12
+#: C/weatherAppMain.js.page:11 C/weatherAutotools.js.page:11
+#: C/weatherGeonames.js.page:11
+msgid "Susanna Huhtanen"
+msgstr "Susanna Huhtanen"
 
 #. (itstool) path: credit/years
-#: C/beginner.c.page:22 C/beginner.js.page:18 C/beginner.py.page:21
-#: C/beginner.vala.page:21 C/buttonbox.js.page:16 C/colorbutton.js.page:15
+#: C/beginner.js.page:18 C/beginner.py.page:21 C/beginner.vala.page:21
+#: C/buttonbox.js.page:16 C/colorbutton.js.page:15
 #: C/combobox_multicolumn.vala.page:16 C/fontchooserwidget.js.page:15
 #: C/fontchooserwidget.vala.page:15 C/guitar-tuner.c.page:25
 #: C/guitar-tuner.cpp.page:23 C/guitar-tuner.py.page:25
@@ -4648,272 +4641,6 @@ msgstr ""
 msgid "2013"
 msgstr "2013"
 
-#. (itstool) path: page/title
-#: C/beginner.c.page:26 C/beginner.js.page:24 C/beginner.vala.page:25
-msgid "Tutorial for beginners and code samples"
-msgstr "Tutorial para principiantes y ejemplos de código"
-
-#. (itstool) path: synopsis/p
-#: C/beginner.c.page:28 C/beginner.vala.page:27
-msgid ""
-"Although these tutorials are designed for beginners, we can't cover all the "
-"basics. Before attempting to follow these tutorials, you are expected to be "
-"familiar with the following concepts:"
-msgstr ""
-"Aunque estos tutoriales están diseñados para principiantes, no se pueden "
-"cubrir todos los conceptos básicos. Antes de intentar seguir estos "
-"tutoriales, debe estar familiarizado con los siguientes conceptos:"
-
-#. (itstool) path: item/p
-#: C/beginner.c.page:30 C/beginner.vala.page:29
-msgid "Object oriented programming"
-msgstr "Programación orientada a objetos"
-
-#. (itstool) path: item/p
-#: C/beginner.c.page:31
-msgid "The C programming language"
-msgstr "El lenguaje de programación C:"
-
-#. (itstool) path: synopsis/p
-#: C/beginner.c.page:35 C/beginner.vala.page:38
-msgid ""
-"By following these tutorials you will learn the basics of GUI programming "
-"using GTK+."
-msgstr ""
-"Siguiendo estos tutoriales, aprenderá los conceptos básicos de la "
-"programación de IGU usando GTK+."
-
-#. (itstool) path: section/title
-#: C/beginner.c.page:39 C/beginner.js.page:42 C/beginner.vala.page:42
-msgid "Tutorials"
-msgstr "Tutoriales"
-
-#. (itstool) path: section/title
-#: C/beginner.c.page:43
-msgid "Prerequisites"
-msgstr "Prerrequisitos"
-
-#. (itstool) path: section/p
-#: C/beginner.c.page:45
-msgid ""
-"To begin developing GTK+ 3 applications in C you will need a C compiler, for "
-"example <link href=\"https://gcc.gnu.org/\">gcc</link>. You will also need "
-"GTK+ 3 including headers and pkg-config files. Linux distributions usually "
-"abstract GTK+ 3 headers and pkg-config files into separate packages called "
-"<em>gtk3-devel</em>, <em>gtk3-dev</em> or similar."
-msgstr ""
-"Para empezar a desarrollar aplicación de GTK+ 3 en C necesitará un "
-"compilador de C, por ejemplo <link href=\"https://gcc.gnu.org/\">gcc</link>. "
-"También necesitará las cabeceras de GTK+3 y los archivos pkg-config. "
-"Normalmente, las distribuciones de Linux proporcionan las cabeceras de GTK+ "
-"3y los archivos pkg-config en paquetes separados llamados <em>gtk3-devel</"
-"em>, <em>gtk3-dev</em> o similar."
-
-#. (itstool) path: section/title
-#: C/beginner.c.page:48
-msgid "Other recommended tools"
-msgstr "Otras herramientas recomendadas"
-
-#. (itstool) path: item/p
-#: C/beginner.c.page:52
-#| msgid ""
-#| "<link href=\"https://wiki.gnome.org/Apps/DeveloperTools/Installation"
-#| "\">Others</link>"
-msgid ""
-"<link href=\"https://wiki.gnome.org/Apps/Devhelp\">DevHelp</link>: An API "
-"documentation browser for GNOME."
-msgstr ""
-"<link href=\"https://wiki.gnome.org/Apps/Devhelp\">DevHelp</link>: un "
-"explorador de la documentación de la API para GNOME."
-
-#. (itstool) path: item/p
-#: C/beginner.c.page:55
-msgid ""
-"A GNOME IDE (Integrated Development Environment). An IDE can assist you in "
-"writing and debugging C code, for example <link href=\"https://wiki.gnome."
-"org/Apps/Builder\">Builder</link> or <link href=\"https://wiki.gnome.org/"
-"Apps/Anjuta\">Anjuta</link>."
-msgstr ""
-"Un EID para GNOME (Entorno integrado de desarrollo). Un EID puede ayudarle a "
-"escribir y depurar código en C, por ejemplo <link href=\"https://wiki.gnome."
-"org/Apps/Builder\">Builder</link> o <link href=\"https://wiki.gnome.org/Apps/"
-"Anjuta\">Anjuta</link>."
-
-#. (itstool) path: item/p
-#: C/beginner.c.page:58
-#| msgid ""
-#| "To create the toolbar using the <link href=\"http://glade.gnome.org/"
-#| "\">Glade Interface Designer</link>:"
-msgid ""
-"<link href=\"http://glade.gnome.org/\">Glade</link>: A user interface "
-"designer for GTK+ Applications."
-msgstr ""
-"<link href=\"http://glade.gnome.org/\">Glade</link>: un diseñador de "
-"interfaces para aplicaciones en GTK+."
-
-#. (itstool) path: item/p
-#: C/beginner.c.page:61
-msgid ""
-"An IRC Client, for example <link href=\"https://wiki.gnome.org/Apps/Polari"
-"\">Polari</link> or <link href=\"https://wiki.gnome.org/Apps/Empathy"
-"\">Empathy</link>. If you run into problems while following the beginner "
-"tutorials, join #gnome on GimpNet."
-msgstr ""
-"Un cliente de IRC, por ejemplo <link href=\"https://wiki.gnome.org/Apps/"
-"Polari\">Polari</link> o <link href=\"https://wiki.gnome.org/Apps/Empathy"
-"\">Empathy</link>. Si tiene problemas al seguir los tutoriales para "
-"principiantes, únase a #gnome en GimpNet."
-
-#. (itstool) path: section/title
-#: C/beginner.c.page:69 C/beginner.js.page:46 C/beginner.vala.page:46
-#: C/py.page:32
-msgid "Code samples"
-msgstr "Ejemplos de código"
-
-#. (itstool) path: section/p
-#: C/beginner.c.page:70 C/beginner.js.page:48 C/beginner.vala.page:47
-msgid "To run the code samples:"
-msgstr "Para ejecutar los ejemplos de código:"
-
-#. (itstool) path: item/p
-#: C/beginner.c.page:74
-msgid "Copy and paste the code into <var>filename</var>.c"
-msgstr "Copie y pegue el código en <var>nombre_archivo</var>.c"
-
-#. (itstool) path: item/p
-#: C/beginner.c.page:75 C/beginner.vala.page:52
-msgid "In the terminal type:"
-msgstr "Escriba en la terminal:"
-
-#. (itstool) path: item/screen
-#: C/beginner.c.page:76
-#, no-wrap
-msgid "gcc <var>filename</var>.c `pkg-config --cflags --libs gtk+-3.0` -o <var>filename</var>\n"
-msgstr "gcc <var>nombre_archivo</var>.c `pkg-config --cflags --libs gtk+-3.0` -o <var>nombre_archivo</var>\n"
-
-#. (itstool) path: item/screen
-#: C/beginner.c.page:78 C/beginner.vala.page:54
-#, no-wrap
-msgid "./<var>filename</var>"
-msgstr "./<var>nombre_archivo</var>"
-
-#. (itstool) path: note/p
-#: C/beginner.c.page:82
-msgid ""
-"For more information about compiling GTK+ programs see <link href=\"http://"
-"developer.gnome.org/gtk3/3.4/gtk-compiling.html\">Compiling GTK+ "
-"Applications on UNIX</link>."
-msgstr ""
-"Para obtener más información sobre cómo compilar programas en GTK+, consulte "
-"<link href=\"http://developer.gnome.org/gtk3/3.4/gtk-compiling.html"
-"\">Compilar aplicaciones GTK+ en UNIX</link>."
-
-#. (itstool) path: section/title
-#: C/beginner.c.page:86 C/beginner.js.page:55 C/beginner.py.page:32
-#: C/beginner.vala.page:58
-msgid "Windows"
-msgstr "Ventanas"
-
-#. (itstool) path: section/title
-#: C/beginner.c.page:89 C/beginner.js.page:57 C/beginner.py.page:34
-#: C/beginner.vala.page:61
-msgid "Display widgets"
-msgstr "Widgets de visualización"
-
-#. (itstool) path: section/title
-#: C/beginner.c.page:91 C/beginner.js.page:59 C/beginner.py.page:36
-#: C/beginner.vala.page:63
-msgid "Buttons and toggles"
-msgstr "Botones y casillas"
-
-#. (itstool) path: section/title
-#: C/beginner.c.page:93 C/beginner.js.page:61 C/beginner.py.page:38
-#: C/beginner.vala.page:65
-msgid "Numeric and text data entry"
-msgstr "Entrada de daos numérica y de texto"
-
-#. (itstool) path: section/title
-#: C/beginner.c.page:95 C/beginner.js.page:63 C/beginner.py.page:40
-#: C/beginner.vala.page:67
-msgid "Multiline text editor"
-msgstr "Editor de texto multilínea"
-
-#. (itstool) path: section/title
-#: C/beginner.c.page:97 C/beginner.js.page:65 C/beginner.py.page:42
-#: C/beginner.vala.page:69
-msgid "Menu, combo box and toolbar widgets"
-msgstr "Widgets de menú, caja combinada y barra de herramientas"
-
-#. (itstool) path: section/title
-#: C/beginner.c.page:99 C/beginner.js.page:67 C/beginner.py.page:44
-#: C/beginner.vala.page:71
-msgid "TreeView widget"
-msgstr "Widget TreeView"
-
-#. (itstool) path: section/title
-#. (itstool) path: steps/title
-#: C/beginner.c.page:101 C/beginner.js.page:69 C/beginner.py.page:46
-#: C/beginner.vala.page:73 C/tutorial.py.page:127
-msgid "Selectors"
-msgstr "Selectores"
-
-#. (itstool) path: section/title
-#: C/beginner.c.page:102 C/beginner.js.page:70 C/beginner.py.page:47
-#: C/beginner.vala.page:74
-msgid "File selectors"
-msgstr "Selectores de archivos"
-
-#. (itstool) path: section/title
-#: C/beginner.c.page:104 C/beginner.js.page:72 C/beginner.py.page:49
-#: C/beginner.vala.page:76
-msgid "Font selectors"
-msgstr "Selectores de tipografías"
-
-#. (itstool) path: section/title
-#: C/beginner.c.page:106 C/beginner.js.page:74 C/beginner.py.page:51
-#: C/beginner.vala.page:78
-msgid "Color Selectors"
-msgstr "Selectores de color"
-
-#. (itstool) path: section/title
-#: C/beginner.c.page:109 C/beginner.js.page:77 C/beginner.py.page:54
-#: C/beginner.vala.page:81
-msgid "Layout containers"
-msgstr "Contenedores de la distribución"
-
-#. (itstool) path: section/title
-#: C/beginner.c.page:111 C/beginner.js.page:79 C/beginner.py.page:56
-#: C/beginner.vala.page:83
-msgid "Ornaments"
-msgstr "Adornos"
-
-#. (itstool) path: section/title
-#: C/beginner.c.page:113 C/beginner.js.page:81 C/beginner.py.page:58
-#: C/beginner.vala.page:85
-msgid "Scrolling"
-msgstr "Desplazamiento"
-
-#. (itstool) path: section/title
-#: C/beginner.c.page:115 C/beginner.js.page:83 C/beginner.py.page:60
-#: C/beginner.vala.page:87
-msgid "Miscellaneous"
-msgstr "Varios"
-
-#. (itstool) path: section/title
-#: C/beginner.c.page:120 C/beginner.js.page:88 C/beginner.vala.page:92
-#: C/menubar.vala.page:198
-msgid "Exercises"
-msgstr "Ejercicios"
-
-#. (itstool) path: credit/name
-#: C/beginner.js.page:11 C/grid.js.page:13 C/guitar-tuner.js.page:12
-#: C/hello-world.c.page:15 C/hello-world.js.page:15 C/hello-world.py.page:15
-#: C/hello-world.vala.page:15 C/weatherApp.js.page:12
-#: C/weatherAppMain.js.page:11 C/weatherAutotools.js.page:11
-#: C/weatherGeonames.js.page:11
-msgid "Susanna Huhtanen"
-msgstr "Susanna Huhtanen"
-
 #. (itstool) path: info/desc
 #: C/beginner.js.page:21
 msgid ""
@@ -4922,6 +4649,11 @@ msgid ""
 msgstr ""
 "Una guía para principiantes sobre escribir aplicaciones de GNOME en "
 "JavaScript, incluyendo ejemplos de código y ejercicios de práctica."
+
+#. (itstool) path: page/title
+#: C/beginner.js.page:24 C/beginner.vala.page:25
+msgid "Tutorial for beginners and code samples"
+msgstr "Tutorial para principiantes y ejemplos de código"
 
 #. (itstool) path: synopsis/p
 #: C/beginner.js.page:26
@@ -5009,6 +4741,16 @@ msgstr ""
 "aplicaciones. El editor de texto de GNOME, gedit, a veces solo se llama "
 "«editor de texto»."
 
+#. (itstool) path: section/title
+#: C/beginner.js.page:42 C/beginner.vala.page:42 C/c.page:113
+msgid "Tutorials"
+msgstr "Tutoriales"
+
+#. (itstool) path: section/title
+#: C/beginner.js.page:46 C/beginner.vala.page:46 C/py.page:32
+msgid "Code samples"
+msgstr "Ejemplos de código"
+
 #. (itstool) path: section/p
 #: C/beginner.js.page:47
 msgid ""
@@ -5021,6 +4763,11 @@ msgstr ""
 "uno demuestra una aplicación completa que exhibe el widget presentado. Al "
 "final de cada ejemplo, encontrará enlaces a material de referencia más "
 "detallado."
+
+#. (itstool) path: section/p
+#: C/beginner.js.page:48 C/beginner.vala.page:47 C/c.page:91
+msgid "To run the code samples:"
+msgstr "Para ejecutar los ejemplos de código:"
 
 #. (itstool) path: item/p
 #: C/beginner.js.page:50
@@ -5037,6 +4784,102 @@ msgstr "Escriba en la terminal:"
 #, no-wrap
 msgid "gjs <var>filename</var>.js"
 msgstr "gjs <var>nombre_archivo</var>.js"
+
+#. (itstool) path: section/title
+#: C/beginner.js.page:55 C/beginner.py.page:32 C/beginner.vala.page:58
+#: C/c.page:118
+msgid "Windows"
+msgstr "Ventanas"
+
+#. (itstool) path: section/title
+#: C/beginner.js.page:57 C/beginner.py.page:34 C/beginner.vala.page:61
+#: C/c.page:121
+msgid "Display widgets"
+msgstr "Widgets de visualización"
+
+#. (itstool) path: section/title
+#: C/beginner.js.page:59 C/beginner.py.page:36 C/beginner.vala.page:63
+#: C/c.page:123
+msgid "Buttons and toggles"
+msgstr "Botones y casillas"
+
+#. (itstool) path: section/title
+#: C/beginner.js.page:61 C/beginner.py.page:38 C/beginner.vala.page:65
+#: C/c.page:125
+msgid "Numeric and text data entry"
+msgstr "Entrada de daos numérica y de texto"
+
+#. (itstool) path: section/title
+#: C/beginner.js.page:63 C/beginner.py.page:40 C/beginner.vala.page:67
+#: C/c.page:127
+msgid "Multiline text editor"
+msgstr "Editor de texto multilínea"
+
+#. (itstool) path: section/title
+#: C/beginner.js.page:65 C/beginner.py.page:42 C/beginner.vala.page:69
+#: C/c.page:129
+msgid "Menu, combo box and toolbar widgets"
+msgstr "Widgets de menú, caja combinada y barra de herramientas"
+
+#. (itstool) path: section/title
+#: C/beginner.js.page:67 C/beginner.py.page:44 C/beginner.vala.page:71
+#: C/c.page:131
+msgid "TreeView widget"
+msgstr "Widget TreeView"
+
+#. (itstool) path: section/title
+#. (itstool) path: steps/title
+#: C/beginner.js.page:69 C/beginner.py.page:46 C/beginner.vala.page:73
+#: C/c.page:133 C/tutorial.py.page:127
+msgid "Selectors"
+msgstr "Selectores"
+
+#. (itstool) path: section/title
+#: C/beginner.js.page:70 C/beginner.py.page:47 C/beginner.vala.page:74
+#: C/c.page:134
+msgid "File selectors"
+msgstr "Selectores de archivos"
+
+#. (itstool) path: section/title
+#: C/beginner.js.page:72 C/beginner.py.page:49 C/beginner.vala.page:76
+#: C/c.page:136
+msgid "Font selectors"
+msgstr "Selectores de tipografías"
+
+#. (itstool) path: section/title
+#: C/beginner.js.page:74 C/beginner.py.page:51 C/beginner.vala.page:78
+#: C/c.page:138
+msgid "Color Selectors"
+msgstr "Selectores de color"
+
+#. (itstool) path: section/title
+#: C/beginner.js.page:77 C/beginner.py.page:54 C/beginner.vala.page:81
+#: C/c.page:141
+msgid "Layout containers"
+msgstr "Contenedores de la distribución"
+
+#. (itstool) path: section/title
+#: C/beginner.js.page:79 C/beginner.py.page:56 C/beginner.vala.page:83
+#: C/c.page:143
+msgid "Ornaments"
+msgstr "Adornos"
+
+#. (itstool) path: section/title
+#: C/beginner.js.page:81 C/beginner.py.page:58 C/beginner.vala.page:85
+#: C/c.page:145
+msgid "Scrolling"
+msgstr "Desplazamiento"
+
+#. (itstool) path: section/title
+#: C/beginner.js.page:83 C/beginner.py.page:60 C/beginner.vala.page:87
+#: C/c.page:147
+msgid "Miscellaneous"
+msgstr "Varios"
+
+#. (itstool) path: section/title
+#: C/beginner.js.page:88 C/beginner.vala.page:92 C/menubar.vala.page:198
+msgid "Exercises"
+msgstr "Ejercicios"
 
 #. (itstool) path: info/title
 #: C/beginner.py.page:9
@@ -5082,6 +4925,31 @@ msgctxt "text"
 msgid "Tutorial for beginners (Vala)"
 msgstr "Tutorial para principiantes (Vala)"
 
+#. (itstool) path: info/desc
+#: C/beginner.vala.page:13
+msgid ""
+"A beginner's guide to GUI programming using GTK+, including code samples and "
+"practice exercises."
+msgstr ""
+"Una guía de programación de interfaces usuario en GTK+ para principiantes, "
+"incluyendo ejemplos de código y ejercicios prácticos."
+
+#. (itstool) path: synopsis/p
+#: C/beginner.vala.page:27
+msgid ""
+"Although these tutorials are designed for beginners, we can't cover all the "
+"basics. Before attempting to follow these tutorials, you are expected to be "
+"familiar with the following concepts:"
+msgstr ""
+"Aunque estos tutoriales están diseñados para principiantes, no se pueden "
+"cubrir todos los conceptos básicos. Antes de intentar seguir estos "
+"tutoriales, debe estar familiarizado con los siguientes conceptos:"
+
+#. (itstool) path: item/p
+#: C/beginner.vala.page:29
+msgid "Object oriented programming"
+msgstr "Programación orientada a objetos"
+
 #. (itstool) path: item/p
 #: C/beginner.vala.page:30
 msgid "The Vala programming language:"
@@ -5104,16 +4972,36 @@ msgstr ""
 "<link href=\"https://live.gnome.org/Vala/Documentation#Sample_Code\">Código "
 "de ejemplo de Vala</link>"
 
+#. (itstool) path: synopsis/p
+#: C/beginner.vala.page:38
+msgid ""
+"By following these tutorials you will learn the basics of GUI programming "
+"using GTK+."
+msgstr ""
+"Siguiendo estos tutoriales, aprenderá los conceptos básicos de la "
+"programación de IGU usando GTK+."
+
 #. (itstool) path: item/p
 #: C/beginner.vala.page:51
 msgid "Copy and paste the code into <var>filename</var>.vala"
 msgstr "Copie y pegue el código en <var>nombre_archivo</var>.vala"
+
+#. (itstool) path: item/p
+#: C/beginner.vala.page:52 C/c.page:98
+msgid "In the terminal type:"
+msgstr "Escriba en la terminal:"
 
 #. (itstool) path: item/screen
 #: C/beginner.vala.page:53
 #, no-wrap
 msgid "valac --pkg gtk+-3.0 <var>filename</var>.vala"
 msgstr "valac --pkg gtk+-3.0 <var>nombre_archivo</var>.vala"
+
+#. (itstool) path: item/screen
+#: C/beginner.vala.page:54 C/c.page:100
+#, no-wrap
+msgid "./<var>filename</var>"
+msgstr "./<var>nombre_archivo</var>"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -6643,25 +6531,179 @@ msgstr ""
 "link>"
 
 #. (itstool) path: info/title
-#: C/c.page:7
+#: C/c.page:9
 msgctxt "link"
 msgid "C"
 msgstr "C"
 
+#. (itstool) path: credit/name
+#: C/c.page:18
+msgid "Bastian Ilso"
+msgstr "Bastian Ilso"
+
+#. (itstool) path: info/desc
+#: C/c.page:24
+#| msgid "Tutorial for beginners and code samples"
+msgid "Tutorials and code samples in C."
+msgstr "Tutoriales y ejemplos de código en C."
+
 #. (itstool) path: page/title
-#: C/c.page:16
-msgid "Tutorials, code samples and plaform demos in C"
-msgstr "Tutoriales, ejemplos de código y demostraciones de la plataforma en C"
+#: C/c.page:27
+#| msgid "Platform demos in C++"
+msgid "Platform Demos in C"
+msgstr "Demostraciones de la plataforma en C"
 
 #. (itstool) path: section/title
-#: C/c.page:21 C/vala.page:26
-msgid "Code samples and tutorial"
-msgstr "Ejemplos de código y tutorial"
+#: C/c.page:31
+msgid "Prerequisites"
+msgstr "Prerrequisitos"
+
+#. (itstool) path: section/p
+#: C/c.page:33
+#| msgid ""
+#| "To begin developing GTK+ 3 applications in C you will need a C compiler, "
+#| "for example <link href=\"https://gcc.gnu.org/\">gcc</link>. You will also "
+#| "need GTK+ 3 including headers and pkg-config files. Linux distributions "
+#| "usually abstract GTK+ 3 headers and pkg-config files into separate "
+#| "packages called <em>gtk3-devel</em>, <em>gtk3-dev</em> or similar."
+msgid ""
+"To compile these platform demos you will need a C compiler, for example "
+"<link href=\"https://gcc.gnu.org/\">gcc</link>. You will also need GTK+ 3 "
+"including headers and pkg-config files. Linux distributions usually abstract "
+"GTK+ 3 headers and pkg-config files into separate packages called <em>gtk3-"
+"devel</em>, <em>gtk3-dev</em> or similar."
+msgstr ""
+"Para estas demostraciones de la plataforma necesitará un compilador de C, "
+"por ejemplo <link href=\"https://gcc.gnu.org/\">gcc</link>. También "
+"necesitará las cabeceras de GTK+3 y los archivos pkg-config. Normalmente, "
+"las distribuciones de Linux proporcionan las cabeceras de GTK+ 3y los "
+"archivos pkg-config en paquetes separados llamados <em>gtk3-devel</em>, "
+"<em>gtk3-dev</em> o similar."
 
 #. (itstool) path: section/title
-#: C/c.page:28 C/cpp.page:21 C/js.page:36 C/py.page:39 C/vala.page:30
-msgid "Examples of applications"
-msgstr "Ejemplos de aplicaciones"
+#: C/c.page:44
+msgid "Guidelines for new developers"
+msgstr "Guías para nuevos desarrolladores"
+
+#. (itstool) path: section/p
+#: C/c.page:46
+msgid ""
+"Beyond the prerequisites mentioned above, several tools has been developed "
+"to assist you further in developing your GNOME application. GNOME also "
+"recommends a specific coding style and conventions which this section will "
+"elaborate further upon."
+msgstr ""
+"Más allá de los requisitos mencionados anteriormente, se han desarrollado "
+"varias herramientas para ayudarle a desarrollar su aplicación para GNOME. Se "
+"recomienda un estilo de codificación determinado y unos convenios que se "
+"detallarán más adelante en esta sección."
+
+#. (itstool) path: section/title
+#: C/c.page:52
+#| msgid "Other recommended tools"
+msgid "Recommended tools"
+msgstr "Herramientas recomendadas"
+
+#. (itstool) path: item/p
+#: C/c.page:56
+msgid ""
+"<link href=\"https://wiki.gnome.org/Apps/Devhelp\">DevHelp</link>: An API "
+"documentation browser for GNOME."
+msgstr ""
+"<link href=\"https://wiki.gnome.org/Apps/Devhelp\">DevHelp</link>: un "
+"explorador de la documentación de la API para GNOME."
+
+#. (itstool) path: item/p
+#: C/c.page:60
+msgid ""
+"A GNOME IDE (Integrated Development Environment). An IDE can assist you in "
+"writing and debugging C code, for example <link href=\"https://wiki.gnome."
+"org/Apps/Builder\">Builder</link> or <link href=\"https://wiki.gnome.org/"
+"Apps/Anjuta\">Anjuta</link>."
+msgstr ""
+"Un EID para GNOME (Entorno integrado de desarrollo). Un EID puede ayudarle a "
+"escribir y depurar código en C, por ejemplo <link href=\"https://wiki.gnome."
+"org/Apps/Builder\">Builder</link> o <link href=\"https://wiki.gnome.org/Apps/"
+"Anjuta\">Anjuta</link>."
+
+#. (itstool) path: item/p
+#: C/c.page:66
+msgid ""
+"<link href=\"http://glade.gnome.org/\">Glade</link>: A user interface "
+"designer for GTK+ Applications."
+msgstr ""
+"<link href=\"http://glade.gnome.org/\">Glade</link>: un diseñador de "
+"interfaces para aplicaciones en GTK+."
+
+#. (itstool) path: item/p
+#: C/c.page:70
+#| msgid ""
+#| "An IRC Client, for example <link href=\"https://wiki.gnome.org/Apps/Polari"
+#| "\">Polari</link> or <link href=\"https://wiki.gnome.org/Apps/Empathy"
+#| "\">Empathy</link>. If you run into problems while following the beginner "
+#| "tutorials, join #gnome on GimpNet."
+msgid ""
+"An IRC Client, for example <link href=\"https://wiki.gnome.org/Apps/Polari"
+"\">Polari</link> or <link href=\"https://wiki.gnome.org/Apps/Empathy"
+"\">Empathy</link>. If you run into problems while following the beginner "
+"tutorials, join #gnome on <em>irc.gnome.org</em>."
+msgstr ""
+"Un cliente de IRC, por ejemplo <link href=\"https://wiki.gnome.org/Apps/"
+"Polari\">Polari</link> o <link href=\"https://wiki.gnome.org/Apps/Empathy"
+"\">Empathy</link>. Si tiene problemas al seguir los tutoriales para "
+"principiantes, únase a #gnome en <em>irc.gnome.org</em>."
+
+#. (itstool) path: section/title
+#: C/c.page:80
+msgid "Coding Style"
+msgstr "Estilo del código"
+
+#. (itstool) path: section/p
+#: C/c.page:82
+msgid ""
+"Most applications in the GNOME project is written in the <link href=\"http://"
+"en.wikipedia.org/wiki/Indent_style#GNU_style\">GNU style</link> of "
+"indentation. The tutorials and code examples presented are following this "
+"convention and you are recommended to do so too."
+msgstr ""
+"La mayoría de las aplicaciones del proyecto GNOME están escritas siguiendo "
+"el estilo de sangrado de <link href=\"http://en.wikipedia.org/wiki/"
+"Indent_style#GNU_style\">GNU</link>. Los tutoriales y los códigos de ejemplo "
+"mostrados siguen este convenio y se recomienda que haga lo mismo."
+
+#. (itstool) path: section/title
+#: C/c.page:89
+msgid "Executing Code"
+msgstr "Ejecutar el código"
+
+#. (itstool) path: item/p
+#: C/c.page:95
+msgid "Copy and paste the code into <var>filename</var>.c"
+msgstr "Copie y pegue el código en <var>nombre_archivo</var>.c"
+
+#. (itstool) path: item/screen
+#: C/c.page:99
+#, no-wrap
+#| msgid "gcc <var>filename</var>.c `pkg-config --cflags --libs gtk+-3.0` -o <var>filename</var>\n"
+msgid "gcc <var>filename</var>.c `pkg-config --cflags --libs gtk+-3.0` -o <var>filename</var>"
+msgstr "gcc <var>nombre_archivo</var>.c `pkg-config --cflags --libs gtk+-3.0` -o <var>nombre_archivo</var>"
+
+#. (itstool) path: note/p
+#: C/c.page:105
+msgid ""
+"For more information about compiling GTK+ programs see <link href=\"http://"
+"developer.gnome.org/gtk3/3.4/gtk-compiling.html\">Compiling GTK+ "
+"Applications on UNIX</link>."
+msgstr ""
+"Para obtener más información sobre cómo compilar programas en GTK+, consulte "
+"<link href=\"http://developer.gnome.org/gtk3/3.4/gtk-compiling.html"
+"\">Compilar aplicaciones GTK+ en UNIX</link>."
+
+#. (itstool) path: section/title
+#: C/c.page:117
+#| msgid "Code samples"
+msgid "Widget Code Examples"
+msgstr "Ejemplos de código de widget"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -6838,12 +6880,11 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/checkbutton.js.page:28 C/comboboxtext.js.page:30 C/combobox.js.page:33
-#: C/guitar-tuner.js.page:55 C/hello-world.c.page:44 C/hello-world.js.page:53
-#: C/hello-world.py.page:46 C/messagedialog.js.page:31
-#: C/radiobutton.js.page:28 C/scale.js.page:28 C/spinbutton.js.page:31
-#: C/statusbar.js.page:28 C/switch.js.page:35 C/textview.js.page:38
-#: C/togglebutton.js.page:28 C/treeview_simple_liststore.js.page:37
-#: C/weatherAppMain.js.page:41
+#: C/guitar-tuner.js.page:55 C/hello-world.js.page:53 C/hello-world.py.page:46
+#: C/messagedialog.js.page:31 C/radiobutton.js.page:28 C/scale.js.page:28
+#: C/spinbutton.js.page:31 C/statusbar.js.page:28 C/switch.js.page:35
+#: C/textview.js.page:38 C/togglebutton.js.page:28
+#: C/treeview_simple_liststore.js.page:37 C/weatherAppMain.js.page:41
 msgid "Libraries to import"
 msgstr "Bibliotecas que importar"
 
@@ -10750,6 +10791,11 @@ msgstr "C++"
 #: C/cpp.page:16
 msgid "Code samples and platform demos in C++"
 msgstr "Ejemplos de código y demostraciones de la plataforma en C++"
+
+#. (itstool) path: section/title
+#: C/cpp.page:21 C/js.page:36 C/py.page:39 C/vala.page:30
+msgid "Examples of applications"
+msgstr "Ejemplos de aplicaciones"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -18014,9 +18060,8 @@ msgstr ""
 "usar para los tonos de afinación."
 
 #. (itstool) path: section/title
-#: C/guitar-tuner.js.page:64 C/hello-world.c.page:49 C/hello-world.js.page:59
-#: C/hello-world.py.page:52 C/hello-world.vala.page:44
-#: C/weatherAppMain.js.page:49
+#: C/guitar-tuner.js.page:64 C/hello-world.js.page:59 C/hello-world.py.page:52
+#: C/hello-world.vala.page:44 C/weatherAppMain.js.page:49
 msgid "Creating the main window for the application"
 msgstr "Crear la ventana principal de la aplicación"
 
@@ -20516,7 +20561,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/hello-world.c.page:36 C/hello-world.js.page:28 C/hello-world.py.page:28
+#: C/hello-world.c.page:51 C/hello-world.js.page:28 C/hello-world.py.page:28
 #: C/hello-world.vala.page:28
 msgctxt "_"
 msgid ""
@@ -20525,759 +20570,179 @@ msgstr ""
 "external ref='media/hello-world.png' md5='4c88a27211dfd1b33e504c9f78602f2d'"
 
 #. (itstool) path: info/title
-#: C/hello-world.c.page:9
-msgctxt "text"
+#: C/hello-world.c.page:10
+#| msgctxt "text"
+#| msgid "Hello World (C)"
+msgctxt "link"
 msgid "Hello World (C)"
 msgstr "Hola mundo (C)"
 
+#. (itstool) path: credit/name
+#: C/hello-world.c.page:24
+msgid "Bastian Ilsø"
+msgstr "Bastian Ilsø"
+
 #. (itstool) path: info/desc
-#. (itstool) path: page/title
-#: C/hello-world.c.page:24 C/hello-world.js.page:27 C/hello-world.py.page:27
-#: C/hello-world.vala.page:27
-msgid ""
-"How to build, install and create a <file>tar.xz</file> of a Hello World "
-"program"
-msgstr ""
-"Cómo construir, instalar y crear un <file>tar.xz</file> de un programa Hola "
-"mundo"
-
-#. (itstool) path: page/title
-#: C/hello-world.c.page:27
+#: C/hello-world.c.page:28
 #| msgid "create a small \"Hello, World\" application using GTK+"
-msgid "Writing a Hello World application in C with GTK+ 3."
-msgstr "Escribir una pequeña aplicación «Hola, mundo» en C con GTK+"
+msgid "Creating a small \"Hello, World\" application using GTK+."
+msgstr "Crear una pequeña aplicación «Hola, mundo» usando GTK+."
 
-#. (itstool) path: synopsis/p
-#: C/hello-world.c.page:29 C/hello-world.js.page:30 C/hello-world.py.page:30
-#: C/hello-world.vala.page:30
-msgid "This tutorial will demonstrate how to:"
-msgstr "Este tutorial le demostrará cómo:"
+#. (itstool) path: page/title
+#: C/hello-world.c.page:31
+#| msgctxt "text"
+#| msgid "Hello World (C)"
+msgid "Hello world"
+msgstr "Hola mundo"
 
-#. (itstool) path: item/p
-#: C/hello-world.c.page:31 C/hello-world.vala.page:32
-msgid "create a small \"Hello, World\" application using GTK+"
-msgstr "crear una pequeña aplicación «Hola, mundo» usando GTK+"
-
-#. (itstool) path: item/p
-#: C/hello-world.c.page:32 C/hello-world.js.page:33 C/hello-world.py.page:33
-#: C/hello-world.vala.page:33
-msgid "make the <file>.desktop</file> file"
-msgstr "hacer el archivo <file>.desktop</file>"
-
-#. (itstool) path: item/p
-#: C/hello-world.c.page:33 C/hello-world.js.page:34 C/hello-world.py.page:34
-#: C/hello-world.vala.page:34
-msgid "how to set up the build system"
-msgstr "configurar el sistema de construcción"
-
-#. (itstool) path: section/title
-#: C/hello-world.c.page:40 C/hello-world.js.page:42 C/hello-world.py.page:42
-#: C/hello-world.vala.page:40
-msgid "Create the program"
-msgstr "Crear el programa"
-
-#. (itstool) path: section/code
-#: C/hello-world.c.page:45
-#, no-wrap
-msgid "#include &lt;gtk/gtk.h&gt;\n"
-msgstr "#include &lt;gtk/gtk.h&gt;\n"
-
-#. (itstool) path: section/code
-#: C/hello-world.c.page:50
-#, no-wrap
+#. (itstool) path: note/p
+#: C/hello-world.c.page:34
+#| msgid ""
+#| "You can find signal definitions for any object in the <link href="
+#| "\"https://developer.gnome.org/gtk3/stable/gtkobjects.html\">GTK class "
+#| "reference</link>."
 msgid ""
-"static void\n"
-"activate (GtkApplication* app,\n"
-"          gpointer        user_data)\n"
-"{\n"
-"  GtkWidget *window;\n"
-"\n"
-"  window = gtk_application_window_new (app);\n"
-"  gtk_window_set_title (GTK_WINDOW (window), \"Hello World\");\n"
-"  gtk_window_set_default_size (GTK_WINDOW (window), 200, 100);\n"
-"  gtk_widget_show_all (window);\n"
-"}\n"
+"For a detailed walk-through of creating a GTK+ dialog in C, see <link href="
+"\"https://developer.gnome.org/gtk3/stable/gtk-getting-started.html\">Getting "
+"Started with GTK+</link>"
 msgstr ""
+"Para obtener una explicación paso a paso sobre cómo crear un diálogo de GTK+ "
+"en C, consulte <link href=\"https://developer.gnome.org/gtk3/stable/gtk-"
+"getting-started.html\">Primeros pasos con GTK+</link>"
+
+#. (itstool) path: page/p
+#: C/hello-world.c.page:38
+msgid ""
+"Writing a hello world GTK+ dialog in C can be done as seen in the code "
+"sample below:"
+msgstr ""
+"Escribir un diálogo Hola mundo de GTK+ en C se puede hacer como se ve en "
+"siguiente código de ejemplo:"
+
+#. (itstool) path: page/code
+#: C/hello-world.c.page:39
+#, no-wrap
+#| msgid ""
+#| "#include &lt;gtk/gtk.h&gt;\n"
+#| "\n"
+#| "static void\n"
+#| "activate (GtkApplication* app,\n"
+#| "          gpointer        user_data)\n"
+#| "{\n"
+#| "  GtkWidget *window;\n"
+#| "  GtkWidget *label;\n"
+#| "\n"
+#| "  window = gtk_application_window_new (app);\n"
+#| "  label = gtk_label_new (\"Hello GNOME!\");\n"
+#| "  gtk_container_add (GTK_CONTAINER (window), label);\n"
+#| "  gtk_window_set_title (GTK_WINDOW (window), \"Welcome to GNOME\");\n"
+#| "  gtk_window_set_default_size (GTK_WINDOW (window), 200, 100);\n"
+#| "  gtk_widget_show_all (window);\n"
+#| "}\n"
+#| "\n"
+#| "int\n"
+#| "main (int    argc,\n"
+#| "      char **argv)\n"
+#| "{\n"
+#| "  GtkApplication *app;\n"
+#| "  int status;\n"
+#| "\n"
+#| "  app = gtk_application_new (NULL, G_APPLICATION_FLAGS_NONE);\n"
+#| "  g_signal_connect (app, \"activate\", G_CALLBACK (activate), NULL);\n"
+#| "  status = g_application_run (G_APPLICATION (app), argc, argv);\n"
+#| "  g_object_unref (app);\n"
+#| "\n"
+#| "  return status;\n"
+#| "}\n"
+msgid ""
+"\n"
+"    #include &lt;gtk/gtk.h&gt;\n"
+"\n"
 "static void\n"
 "activate (GtkApplication* app,\n"
 "          gpointer        user_data)\n"
 "{\n"
 "  GtkWidget *window;\n"
+"  GtkWidget *label;\n"
 "\n"
 "  window = gtk_application_window_new (app);\n"
-"  gtk_window_set_title (GTK_WINDOW (window), \"Hello World\");\n"
+"  label = gtk_label_new (\"Hello GNOME!\");\n"
+"  gtk_container_add (GTK_CONTAINER (window), label);\n"
+"  gtk_window_set_title (GTK_WINDOW (window), \"Welcome to GNOME\");\n"
 "  gtk_window_set_default_size (GTK_WINDOW (window), 200, 100);\n"
 "  gtk_widget_show_all (window);\n"
 "}\n"
+"\n"
+"int\n"
+"main (int    argc,\n"
+"      char **argv)\n"
+"{\n"
+"  GtkApplication *app;\n"
+"  int status;\n"
+"\n"
+"  app = gtk_application_new (NULL, G_APPLICATION_FLAGS_NONE);\n"
+"  g_signal_connect (app, \"activate\", G_CALLBACK (activate), NULL);\n"
+"  status = g_application_run (G_APPLICATION (app), argc, argv);\n"
+"  g_object_unref (app);\n"
+"\n"
+"  return status;\n"
+"}\n"
+"\n"
+"  "
+msgstr ""
+"\n"
+"    #include &lt;gtk/gtk.h&gt;\n"
+"\n"
+"static void\n"
+"activate (GtkApplication* app,\n"
+"          gpointer        user_data)\n"
+"{\n"
+"  GtkWidget *window;\n"
+"  GtkWidget *label;\n"
+"\n"
+"  window = gtk_application_window_new (app);\n"
+"  label = gtk_label_new (\"Hello GNOME!\");\n"
+"  gtk_container_add (GTK_CONTAINER (window), label);\n"
+"  gtk_window_set_title (GTK_WINDOW (window), \"Welcome to GNOME\");\n"
+"  gtk_window_set_default_size (GTK_WINDOW (window), 200, 100);\n"
+"  gtk_widget_show_all (window);\n"
+"}\n"
+"\n"
+"int\n"
+"main (int    argc,\n"
+"      char **argv)\n"
+"{\n"
+"  GtkApplication *app;\n"
+"  int status;\n"
+"\n"
+"  app = gtk_application_new (NULL, G_APPLICATION_FLAGS_NONE);\n"
+"  g_signal_connect (app, \"activate\", G_CALLBACK (activate), NULL);\n"
+"  status = g_application_run (G_APPLICATION (app), argc, argv);\n"
+"  g_object_unref (app);\n"
+"\n"
+"  return status;\n"
+"}\n"
+"\n"
+"  "
 
-#. (itstool) path: section/p
-#: C/hello-world.c.page:63 C/hello-world.js.page:92
+#. (itstool) path: page/p
+#: C/hello-world.c.page:43
 msgid ""
 "GtkApplication initializes GTK+. It also connects the <gui>x</gui> button "
 "that's automatically generated along with the window to the \"destroy\" "
-"signal."
+"signal. We can start building our first window. We do this by creating a "
+"variable called <var>window</var> and assigning it a "
+"gtk_application_window_new. The window title can be any string you want it "
+"to be. To be on the safe side, it's best to stick to UTF-8 encoding. The "
+"code above will create a dialog window similar to what can be seen below:"
 msgstr ""
-"«GtkApplication» inicializa GTK+. También conecta el botón <gui>x</gui> que "
-"se genera automáticamente junto con la ventana a la señal «destroy»."
-
-#. (itstool) path: section/p
-#: C/hello-world.c.page:64
-msgid ""
-"We can start building our first window. We do this by creating a variable "
-"called <var>window</var> and assigning it a gtk_application_window_new"
-msgstr ""
-"Se puede empezar a construir la primera ventana. Esto se hace creando una "
-"variable llamada <var>window</var> y asignándole una "
-"gtk_application_window_new"
-
-#. (itstool) path: section/p
-#: C/hello-world.c.page:65
-msgid ""
-"The window title can be any string you want it to be. To be on the safe "
-"side, it's best to stick to UTF-8 encoding."
-msgstr ""
-"El título de la ventana puede ser la cadena que quiera pero, para estar "
-"seguro, es conveniente que tenga una codificación UTF-8."
-
-#. (itstool) path: section/p
-#: C/hello-world.c.page:66 C/hello-world.js.page:95 C/hello-world.py.page:74
-#: C/hello-world.vala.page:57
-msgid ""
-"Now we have a window which has a title and a working \"close\" button. Let's "
-"add the actual \"Hello World\" text."
-msgstr ""
-"Ya tiene una ventana que contiene un título y un botón «cerrar» que "
-"funciona. Ahora, añada el texto «Hola mundo»."
-
-#. (itstool) path: section/title
-#: C/hello-world.c.page:69 C/hello-world.js.page:98 C/hello-world.py.page:77
-#: C/hello-world.vala.page:60
-msgid "Label for the window"
-msgstr "Etiqueta para la ventana"
-
-#. (itstool) path: section/code
-#: C/hello-world.c.page:70
-#, no-wrap
-msgid ""
-"GtkWidget *label;\n"
-"\n"
-"  label = gtk_label_new (\"Hello World!\");\n"
-"  gtk_container_add (GTK_CONTAINER (window), label);\n"
-msgstr ""
-"GtkWidget *label;\n"
-"\n"
-"  label = gtk_label_new (\"Hello World!\");\n"
-"  gtk_container_add (GTK_CONTAINER (window), label);\n"
-
-#. (itstool) path: section/p
-#: C/hello-world.c.page:76 C/hello-world.vala.page:65
-msgid "Finally, we create and run the application:"
-msgstr "Por último, se crea y ejecuta la aplicación"
-
-#. (itstool) path: section/code
-#: C/hello-world.c.page:78
-#, no-wrap
-msgid ""
-"int\n"
-"main (int    argc,\n"
-"      char **argv)\n"
-"{\n"
-"  GtkApplication *app;\n"
-"  int status;\n"
-"\n"
-"  app = gtk_application_new (NULL, G_APPLICATION_FLAGS_NONE);\n"
-"  g_signal_connect (app, \"activate\", G_CALLBACK (activate), NULL);\n"
-"  status = g_application_run (G_APPLICATION (app), argc, argv);\n"
-"  g_object_unref (app);\n"
-"\n"
-"  return status;\n"
-"}"
-msgstr ""
-"int\n"
-"main (int    argc,\n"
-"      char **argv)\n"
-"{\n"
-"  GtkApplication *app;\n"
-"  int status;\n"
-"\n"
-"  app = gtk_application_new (NULL, G_APPLICATION_FLAGS_NONE);\n"
-"  g_signal_connect (app, \"activate\", G_CALLBACK (activate), NULL);\n"
-"  status = g_application_run (G_APPLICATION (app), argc, argv);\n"
-"  g_object_unref (app);\n"
-"\n"
-"  return status;\n"
-"}"
-
-#. (itstool) path: section/p
-#: C/hello-world.c.page:93
-msgid ""
-"GtkApplicationWindow can only hold one widget at a time. To construct more "
-"elaborate programs you need to create a holder widget like GtkGrid inside "
-"the window, and then add all the other widgets to it."
-msgstr ""
-"«GtkApplicationWindow» sólo puede contener un widget a la vez. Para "
-"construir programas más elaborados necesita crear un widget contenedor como "
-"«GtkGrid» dentro de la ventana, y después añadirle los otros."
-
-#. (itstool) path: section/title
-#: C/hello-world.c.page:97
-msgid "hello-world.c"
-msgstr "hello-world.c"
-
-#. (itstool) path: section/p
-#: C/hello-world.c.page:98 C/hello-world.js.page:115 C/hello-world.py.page:102
-#: C/hello-world.vala.page:76
-msgid "The complete file:"
-msgstr "El archivo completo:"
-
-#. (itstool) path: section/code
-#: C/hello-world.c.page:99
-#, no-wrap
-msgid ""
-"#include &lt;gtk/gtk.h&gt;\n"
-"\n"
-"static void\n"
-"activate (GtkApplication* app,\n"
-"          gpointer        user_data)\n"
-"{\n"
-"  GtkWidget *window;\n"
-"  GtkWidget *label;\n"
-"\n"
-"  window = gtk_application_window_new (app);\n"
-"  label = gtk_label_new (\"Hello GNOME!\");\n"
-"  gtk_container_add (GTK_CONTAINER (window), label);\n"
-"  gtk_window_set_title (GTK_WINDOW (window), \"Welcome to GNOME\");\n"
-"  gtk_window_set_default_size (GTK_WINDOW (window), 200, 100);\n"
-"  gtk_widget_show_all (window);\n"
-"}\n"
-"\n"
-"int\n"
-"main (int    argc,\n"
-"      char **argv)\n"
-"{\n"
-"  GtkApplication *app;\n"
-"  int status;\n"
-"\n"
-"  app = gtk_application_new (NULL, G_APPLICATION_FLAGS_NONE);\n"
-"  g_signal_connect (app, \"activate\", G_CALLBACK (activate), NULL);\n"
-"  status = g_application_run (G_APPLICATION (app), argc, argv);\n"
-"  g_object_unref (app);\n"
-"\n"
-"  return status;\n"
-"}\n"
-msgstr ""
-"#include &lt;gtk/gtk.h&gt;\n"
-"\n"
-"static void\n"
-"activate (GtkApplication* app,\n"
-"          gpointer        user_data)\n"
-"{\n"
-"  GtkWidget *window;\n"
-"  GtkWidget *label;\n"
-"\n"
-"  window = gtk_application_window_new (app);\n"
-"  label = gtk_label_new (\"Hello GNOME!\");\n"
-"  gtk_container_add (GTK_CONTAINER (window), label);\n"
-"  gtk_window_set_title (GTK_WINDOW (window), \"Welcome to GNOME\");\n"
-"  gtk_window_set_default_size (GTK_WINDOW (window), 200, 100);\n"
-"  gtk_widget_show_all (window);\n"
-"}\n"
-"\n"
-"int\n"
-"main (int    argc,\n"
-"      char **argv)\n"
-"{\n"
-"  GtkApplication *app;\n"
-"  int status;\n"
-"\n"
-"  app = gtk_application_new (NULL, G_APPLICATION_FLAGS_NONE);\n"
-"  g_signal_connect (app, \"activate\", G_CALLBACK (activate), NULL);\n"
-"  status = g_application_run (G_APPLICATION (app), argc, argv);\n"
-"  g_object_unref (app);\n"
-"\n"
-"  return status;\n"
-"}\n"
-
-#. (itstool) path: section/title
-#: C/hello-world.c.page:102 C/hello-world.js.page:119
-#: C/hello-world.py.page:106 C/hello-world.vala.page:80
-msgid "Running the application from terminal"
-msgstr "Ejecutar la aplicación desde la terminal"
-
-#. (itstool) path: section/p
-#: C/hello-world.c.page:103
-msgid ""
-"To run this application, first save it as hello-world.c. Then open Terminal, "
-"go to the folder where your application is stored."
-msgstr ""
-"Para ejecutar esta aplicación, primero guárdela como «hello-world.c». Luego, "
-"vaya a la carpeta donde está la aplicación."
-
-#. (itstool) path: section/p
-#: C/hello-world.c.page:104 C/hello-world.vala.page:82
-msgid "Compile the program:"
-msgstr "Compilar el programa:"
-
-#. (itstool) path: section/screen
-#: C/hello-world.c.page:105
-#, no-wrap
-msgid "gcc <var>hello-world</var>.c `pkg-config --cflags --libs gtk+-3.0` -o <var>hello-world</var>"
-msgstr "gcc <var>hello-world</var>.c `pkg-config --cflags --libs gtk+-3.0` -o <var>hello-world</var>"
-
-#. (itstool) path: section/p
-#: C/hello-world.c.page:106 C/hello-world.vala.page:84
-msgid "Run the program:"
-msgstr "Ejecutar el programa:"
-
-#. (itstool) path: section/screen
-#: C/hello-world.c.page:107 C/hello-world.vala.page:85
-#, no-wrap
-msgid "./<var>hello-world</var>"
-msgstr "./<var>hello-world</var>"
-
-#. (itstool) path: section/title
-#: C/hello-world.c.page:111 C/hello-world.js.page:127
-#: C/hello-world.py.page:112 C/hello-world.vala.page:89
-msgid "The <file>.desktop.in</file> file"
-msgstr "El archivo <file>.desktop.in</file>"
-
-#. (itstool) path: section/p
-#: C/hello-world.c.page:112 C/hello-world.js.page:128
-#: C/hello-world.py.page:113 C/hello-world.vala.page:90
-msgid ""
-"Running applications from the Terminal is useful at the beginning of the "
-"application making process. To have fully working <link href=\"https://"
-"developer.gnome.org/integration-guide/stable/mime.html.en\">application "
-"integration</link> in GNOME 3 requires a desktop launcher. For this you need "
-"to create a <file>.desktop</file> file. The <file>.desktop</file> file "
-"describes the application name, the used icon and various integration bits. "
-"A deeper insight into the <file>.desktop</file> file can be found <link href="
-"\"http://developer.gnome.org/desktop-entry-spec/\">here</link>. The <file>."
-"desktop.in</file> file will create the <file>.desktop</file>."
-msgstr ""
-"Ejecutar aplicaciones desde la terminal es útil al principio del proceso de "
-"crear la aplicación. Para tener una <link href=\"https://developer.gnome.org/"
-"integration-guide/stable/mime.html.en\">integración con la aplicación</link> "
-"completa en GNOME 3, se necesita un lanzador en el escritorio. Para esto, "
-"necesita crear un archivo <file>.desktop</file>. El archivo «.desktop» "
-"describe el nombre de la aplicación, el icono que usa y varios campos de "
-"integración. Puede encontrar una descripción de los archivos <file>.desktop</"
-"file> <link href=\"http://developer.gnome.org/desktop-entry-spec/\">aquí</"
-"link>. El archivo <file>.desktop.in</file> creará el <file>.desktop</file>."
-
-#. (itstool) path: section/p
-#: C/hello-world.c.page:114 C/hello-world.js.page:135
-#: C/hello-world.py.page:115 C/hello-world.vala.page:92
-msgid ""
-"The example shows you the minimum requirements for a <code>.desktop.in</"
-"code> file."
-msgstr ""
-"El ejemplo muestra los requerimientos mínimos de un archivo <code>.desktop."
-"in</code>."
-
-#. (itstool) path: section/code
-#: C/hello-world.c.page:115 C/hello-world.js.page:136
-#: C/hello-world.py.page:116 C/hello-world.vala.page:93
-#, no-wrap
-msgid ""
-"[Desktop Entry]\n"
-"Version=1.0\n"
-"Encoding=UTF-8\n"
-"Name=Hello World\n"
-"Comment=Say Hello\n"
-"Exec=@prefix@/bin/hello-world\n"
-"Icon=application-default-icon\n"
-"Terminal=false\n"
-"Type=Application\n"
-"StartupNotify=true\n"
-"Categories=GNOME;GTK;Utility;\n"
-msgstr ""
-"[Desktop Entry]\n"
-"Version=1.0\n"
-"Encoding=UTF-8\n"
-"Name=Hello World\n"
-"Comment=Say Hello\n"
-"Exec=@prefix@/bin/hello-world\n"
-"Icon=application-default-icon\n"
-"Terminal=false\n"
-"Type=Application\n"
-"StartupNotify=true\n"
-"Categories=GNOME;GTK;Utility;\n"
-
-#. (itstool) path: section/p
-#: C/hello-world.c.page:117 C/hello-world.js.page:138
-#: C/hello-world.py.page:118 C/hello-world.vala.page:95
-msgid "Now let's go through some parts of the <code>.desktop.in</code> file."
-msgstr "Ahora se verán algunas partes del archivo <code>.desktop.in</code>."
-
-#. (itstool) path: item/title
-#. (itstool) path: td/p
-#: C/hello-world.c.page:119 C/hello-world.js.page:140
-#: C/hello-world.py.page:120 C/hello-world.vala.page:97
-#: C/toolbar_builder.py.page:95 C/toolbar_builder.vala.page:78
-msgid "Name"
-msgstr "Name"
-
-#. (itstool) path: item/p
-#: C/hello-world.c.page:119 C/hello-world.js.page:140
-#: C/hello-world.py.page:120 C/hello-world.vala.page:97
-msgid "The application name."
-msgstr "El nombre de la aplicación."
-
-#. (itstool) path: item/title
-#: C/hello-world.c.page:120 C/hello-world.js.page:141
-#: C/hello-world.py.page:121 C/hello-world.vala.page:98
-msgid "Comment"
-msgstr "Comment"
-
-#. (itstool) path: item/p
-#: C/hello-world.c.page:120 C/hello-world.js.page:141
-#: C/hello-world.py.page:121 C/hello-world.vala.page:98
-msgid "A short description of the application."
-msgstr "Una descripción corta de la aplicación."
-
-#. (itstool) path: item/title
-#: C/hello-world.c.page:121 C/hello-world.js.page:142
-#: C/hello-world.py.page:122 C/hello-world.vala.page:99
-msgid "Exec"
-msgstr "Exec"
-
-#. (itstool) path: item/p
-#: C/hello-world.c.page:121 C/hello-world.js.page:142
-#: C/hello-world.py.page:122 C/hello-world.vala.page:99
-msgid ""
-"Specifies a command to execute when you choose the application from the "
-"menu. In this example exec just tells where to find the <file>hello-world</"
-"file> file and the file takes care of the rest."
-msgstr ""
-"Especifica un comando que ejecutar cuando se elige la aplicación en el menú. "
-"En este ejemplo, «exec» sólo indica dónde encontrar el archivo <code>hello-"
-"world</code> y el archivo se hace cargo del resto."
-
-#. (itstool) path: item/title
-#: C/hello-world.c.page:122 C/hello-world.js.page:143
-#: C/hello-world.py.page:123 C/hello-world.vala.page:100
-msgid "Terminal"
-msgstr "Terminal"
-
-#. (itstool) path: item/p
-#: C/hello-world.c.page:122 C/hello-world.js.page:143
-#: C/hello-world.py.page:123 C/hello-world.vala.page:100
-msgid ""
-"Specifies whether the command in the Exec key runs in a terminal window."
-msgstr ""
-"Especifica si el comando del campo «Exec» se ejecuta en una ventana de la "
-"terminal."
-
-#. (itstool) path: section/p
-#: C/hello-world.c.page:125 C/hello-world.js.page:146
-#: C/hello-world.py.page:126 C/hello-world.vala.page:103
-msgid ""
-"To put your application into the appropriate category, you need to add the "
-"necessary categories to the Categories line. More information on the "
-"different categories can be found in the <link href=\"http://standards."
-"freedesktop.org/menu-spec/latest/apa.html\">menu specification</link>."
-msgstr ""
-"Para incluir su aplicación en la categoría correcta, debe añadir las "
-"categorías necesarias a la línea «Categories». Puede encontrar más "
-"información sobre las distintas categorías en la <link href=\"http://"
-"standards.freedesktop.org/menu-spec/latest/apa.html\">especificación del "
-"menú</link>."
-
-#. (itstool) path: section/p
-#: C/hello-world.c.page:126 C/hello-world.js.page:147
-#: C/hello-world.py.page:127 C/hello-world.vala.page:104
-msgid ""
-"In this example we use an existing icon. For a custom icon you need to have "
-"a .svg file of your icon, stored in <file>/usr/share/icons/hicolor/scalable/"
-"apps</file>. Write the name of your icon file to the .desktop.in file, on "
-"line 7. More information on icons in: <link href=\"https://live.gnome.org/"
-"GnomeGoals/AppIcon\">Installing Icons for Themes</link> and <link href="
-"\"http://freedesktop.org/wiki/Specifications/icon-theme-spec\">on "
-"freedesktop.org: Specifications/icon-theme-spec</link>."
-msgstr ""
-"En este ejemplo se ha usado un icono existente. Para usar un icono "
-"personalizado, necesita un archivo «.svg» con su icono guardado en <file>/"
-"usr/share/icons/hicolor/scalable/apps</file>. Escriba el nombre del archivo "
-"del icono en el archivo «.desktop.in», en la línea 7. Puede obtener más "
-"información sobre los iconos en <link href=\"http://freedesktop.org/wiki/"
-"Specifications/icon-theme-spec\">Instalar iconos para temas</link>, <link "
-"href=\"https://live.gnome.org/GnomeGoals/AppIcon\">Instalar iconos para "
-"temas</link> y en <link href=\"http://freedesktop.org/wiki/Specifications/"
-"icon-theme-spec\">freedesktop.org: especificaciones/icon-theme-spec</link>."
-
-#. (itstool) path: section/title
-#: C/hello-world.c.page:129 C/hello-world.js.page:150
-#: C/hello-world.py.page:130 C/hello-world.vala.page:107
-msgid "The build system"
-msgstr "El sistema de construcción"
-
-#. (itstool) path: section/p
-#: C/hello-world.c.page:130 C/hello-world.js.page:151
-#: C/hello-world.py.page:131 C/hello-world.vala.page:108
-msgid ""
-"To make your application truly a part of the GNOME 3 system you need to "
-"install it with the help of autotools. The autotools build will install all "
-"the necessary files to all the right places."
-msgstr ""
-"Para que su aplicación forme parte realmente del sistema GNOME 3 debe "
-"instalarla con la ayuda de autotools. La construcción autotools instalará "
-"todos los archivos necesarios en las ubicaciones correctas."
-
-#. (itstool) path: section/p
-#: C/hello-world.c.page:131 C/hello-world.js.page:152
-#: C/hello-world.py.page:132 C/hello-world.vala.page:109
-msgid "For this you need to have the following files:"
-msgstr "Para esto deberá tener los siguientes archivos:"
-
-#. (itstool) path: section/title
-#. (itstool) path: item/p
-#: C/hello-world.c.page:134 C/hello-world.js.page:155
-#: C/hello-world.py.page:135 C/hello-world.vala.page:112
-#: C/weatherAutotools.js.page:40
-msgid "autogen.sh"
-msgstr "autogen.sh"
-
-#. (itstool) path: section/code
-#: C/hello-world.c.page:135 C/hello-world.js.page:156
-#: C/hello-world.py.page:136 C/hello-world.vala.page:113
-#, no-wrap
-msgid ""
-"#!/bin/sh\n"
-"\n"
-"set -e\n"
-"\n"
-"test -n \"$srcdir\" || srcdir=`dirname \"$0\"`\n"
-"test -n \"$srcdir\" || srcdir=.\n"
-"\n"
-"olddir=`pwd`\n"
-"cd \"$srcdir\"\n"
-"\n"
-"# This will run autoconf, automake, etc. for us\n"
-"autoreconf --force --install\n"
-"\n"
-"cd \"$olddir\"\n"
-"\n"
-"if test -z \"$NOCONFIGURE\"; then\n"
-"  \"$srcdir\"/configure \"$@\"\n"
-"fi\n"
-msgstr ""
-"#!/bin/sh\n"
-"\n"
-"set -e\n"
-"\n"
-"test -n \"$srcdir\" || srcdir=`dirname \"$0\"`\n"
-"test -n \"$srcdir\" || srcdir=.\n"
-"\n"
-"olddir=`pwd`\n"
-"cd \"$srcdir\"\n"
-"\n"
-"# This will run autoconf, automake, etc. for us\n"
-"autoreconf --force --install\n"
-"\n"
-"cd \"$olddir\"\n"
-"\n"
-"if test -z \"$NOCONFIGURE\"; then\n"
-"  \"$srcdir\"/configure \"$@\"\n"
-"fi\n"
-
-#. (itstool) path: section/p
-#: C/hello-world.c.page:137 C/hello-world.js.page:158
-#: C/hello-world.py.page:138 C/hello-world.vala.page:115
-msgid "After the <file>autogen.sh</file> file is ready and saved, run:"
-msgstr ""
-"Una vez que el archivo <file>autogen.sh</file> esté listo y guardado, "
-"ejecute:"
-
-#. (itstool) path: section/screen
-#: C/hello-world.c.page:138 C/hello-world.js.page:159
-#: C/hello-world.py.page:139 C/hello-world.vala.page:116
-#, no-wrap
-msgid "<output style=\"prompt\">$ </output><input>chmod +x autogen.sh</input>"
-msgstr "<output style=\"prompt\">$ </output><input>chmod +x autogen.sh</input>"
-
-#. (itstool) path: section/title
-#. (itstool) path: item/p
-#. (itstool) path: section/p
-#: C/hello-world.c.page:142 C/hello-world.js.page:163
-#: C/hello-world.py.page:143 C/hello-world.vala.page:120
-#: C/weatherAutotools.js.page:38 C/weatherAutotools.js.page:64
-msgid "Makefile.am"
-msgstr "Makefile.am"
-
-#. (itstool) path: section/code
-#: C/hello-world.c.page:143
-#, no-wrap
-msgid ""
-"# The actual runnable program is set to the SCRIPTS primitive.\n"
-"# # Prefix bin_ tells where to copy this\n"
-"bin_PROGRAMS = hello-world\n"
-"hello_world_CFLAGS = $(gtk_CFLAGS)\n"
-"hello_world_LDADD = $(gtk_LIBS)\n"
-"hello_world_SOURCES = hello-world.c\n"
-"\n"
-"desktopdir = $(datadir)/applications\n"
-"desktop_DATA = \\\n"
-"\thello-world.desktop\n"
-msgstr ""
-"# The actual runnable program is set to the SCRIPTS primitive.\n"
-"# # Prefix bin_ tells where to copy this\n"
-"bin_PROGRAMS = hello-world\n"
-"hello_world_CFLAGS = $(gtk_CFLAGS)\n"
-"hello_world_LDADD = $(gtk_LIBS)\n"
-"hello_world_SOURCES = hello-world.c\n"
-"\n"
-"desktopdir = $(datadir)/applications\n"
-"desktop_DATA = \\\n"
-"\thello-world.desktop\n"
-
-#. (itstool) path: section/title
-#. (itstool) path: item/p
-#. (itstool) path: section/p
-#: C/hello-world.c.page:147 C/hello-world.js.page:168
-#: C/hello-world.py.page:148 C/hello-world.vala.page:125
-#: C/weatherAutotools.js.page:39 C/weatherAutotools.js.page:131
-msgid "configure.ac"
-msgstr "configure.ac"
-
-#. (itstool) path: section/code
-#: C/hello-world.c.page:148 C/hello-world.vala.page:126
-#, no-wrap
-msgid ""
-"# This file is processed by autoconf to create a configure script\n"
-"AC_INIT([Hello World], 1.0)\n"
-"AM_INIT_AUTOMAKE([1.10 no-define foreign dist-xz no-dist-gzip])\n"
-"AC_PROG_CC\n"
-"AM_PROG_VALAC([0.16])\n"
-"PKG_CHECK_MODULES(gtk, gtk+-3.0)\n"
-"AC_CONFIG_FILES([Makefile hello-world.desktop])\n"
-"\n"
-"AC_OUTPUT\n"
-msgstr ""
-"# This file is processed by autoconf to create a configure script\n"
-"AC_INIT([Hello World], 1.0)\n"
-"AM_INIT_AUTOMAKE([1.10 no-define foreign dist-xz no-dist-gzip])\n"
-"AC_PROG_CC\n"
-"AM_PROG_VALAC([0.16])\n"
-"PKG_CHECK_MODULES(gtk, gtk+-3.0)\n"
-"AC_CONFIG_FILES([Makefile hello-world.desktop])\n"
-"\n"
-"AC_OUTPUT\n"
-
-#. (itstool) path: section/title
-#: C/hello-world.c.page:152 C/hello-world.js.page:173
-#: C/hello-world.py.page:153 C/hello-world.vala.page:130
-msgid "README"
-msgstr "README"
-
-#. (itstool) path: section/p
-#: C/hello-world.c.page:153 C/hello-world.js.page:174
-#: C/hello-world.py.page:154 C/hello-world.vala.page:131
-msgid "Information users should read first. This file can be blank."
-msgstr ""
-"Información que los usuarios deben leer primero. Este archivo puede estar "
-"vacío."
-
-#. (itstool) path: section/p
-#: C/hello-world.c.page:155 C/hello-world.vala.page:133
-msgid ""
-"When you have the <file>hello-world.c</file>, <file>hello-world.desktop.in</"
-"file>, <file>Makefile.am</file>, <file>configure.ac</file> and <file>autogen."
-"sh</file> files with correct information and rights, the <file>README</file> "
-"file can include the following instructions:"
-msgstr ""
-"Cuando tenga los archivos <file>hello-world</file>, <file>hello-world."
-"desktop.in</file>, <file>Makefile.am</file>, <file>configure.ac</file> y "
-"<file>autogen.sh</file> con la información y los permisos correctos, el "
-"archivo <file>README</file> puede incluir las siguientes instrucciones:"
-
-#. (itstool) path: section/code
-#: C/hello-world.c.page:156
-#, no-wrap
-msgid ""
-"To build and install this program:\n"
-"\n"
-"./autogen.sh --prefix=/home/your_username/.local\n"
-"make\n"
-"make install\n"
-"\n"
-"-------------\n"
-"Running the first line above creates the following files:\n"
-"\n"
-"aclocal.m4\n"
-"autom4te.cache\n"
-"config.log\n"
-"config.status\n"
-"configure\n"
-"depcomp\n"
-"hello-world\n"
-"hello-world.desktop\n"
-"hello_world-hello-world.o\n"
-"install-sh\n"
-"missing\n"
-"Makefile.in\n"
-"Makefile\n"
-"\n"
-"Running \"make\" links all the appropriate libraries.\n"
-"\n"
-"Running \"make install\", installs the application in /home/your_username/.local/bin\n"
-"and installs the hello-world.desktop file in /home/your_username/.local/share/applications\n"
-"\n"
-"You can now run the application by typing \"Hello World\" in the Overview.\n"
-"\n"
-"----------------\n"
-"To uninstall, type:\n"
-"\n"
-"make uninstall\n"
-"\n"
-"----------------\n"
-"To create a tarball type:\n"
-"\n"
-"make distcheck\n"
-"\n"
-"This will create hello-world-1.0.tar.xz\n"
-msgstr ""
-"Para construir y ejecutar este programa:\n"
-"\n"
-"./autogen.sh --prefix=/home/usuario/.local\n"
-"make\n"
-"make install\n"
-"\n"
-"-------------\n"
-"Al ejecutar la primera línea se crean los siguientes archivos:\n"
-"\n"
-"aclocal.m4\n"
-"autom4te.cache\n"
-"config.log\n"
-"config.status\n"
-"configure\n"
-"depcomp\n"
-"hello-world\n"
-"hello-world.desktop\n"
-"hello_world-hello-world.o\n"
-"install-sh\n"
-"missing\n"
-"Makefile.in\n"
-"Makefile\n"
-"\n"
-"Al ejecutar «make» se enlazan todas las bibliotecas necesarias.\n"
-"\n"
-"Al ejecutar «make install», la aplicación se instala en /home/usuario/.local/bin\n"
-"y se crear un archivo hello-world.desktop en /home/usuario/.local/share/applications\n"
-"\n"
-"Ahora puede ejecutar la aplicación escribiendo «Hello World» en la vista general.\n"
-"\n"
-"----------------\n"
-"Para desinstalarla, escriba:\n"
-"\n"
-"make uninstall\n"
-"\n"
-"----------------\n"
-"Para crear un archivador tar escriba:\n"
-"\n"
-"make distcheck\n"
-"\n"
-"Esto creará el archivo hello-world-1.0.tar.xz\n"
+"GtkApplication inicializa GTK+. También conecta el botón <gui>x</gui> que se "
+"genera automáticamente junto con la ventana a la señal «destroy». Puede "
+"empezar a construir su primera ventana. PAra hacer esto, cree una variable "
+"llamada <var>window</var> y asígnela a gtk_application_window_new. El título "
+"de la ventana puede ser la cadena que quiera. Para asegurarse, es mejor usar "
+"la codificación UTF-8. El código anterior creará una ventana de diálogo "
+"similar a la que se ve a continuación:"
 
 #. (itstool) path: info/title
 #: C/hello-world.js.page:9
@@ -21291,10 +20756,44 @@ msgstr "Hola mundo (JavaScript)"
 msgid "A basic \"hello, world\" application"
 msgstr "Una aplicación «Hola mundo» básica"
 
+#. (itstool) path: page/title
+#: C/hello-world.js.page:27 C/hello-world.py.page:27
+#: C/hello-world.vala.page:27
+msgid ""
+"How to build, install and create a <file>tar.xz</file> of a Hello World "
+"program"
+msgstr ""
+"Cómo construir, instalar y crear un <file>tar.xz</file> de un programa Hola "
+"mundo"
+
+#. (itstool) path: synopsis/p
+#: C/hello-world.js.page:30 C/hello-world.py.page:30
+#: C/hello-world.vala.page:30
+msgid "This tutorial will demonstrate how to:"
+msgstr "Este tutorial le demostrará cómo:"
+
 #. (itstool) path: item/p
 #: C/hello-world.js.page:32
 msgid "create a small \"Hello, World\" application using JavaScript and GTK+"
 msgstr "crear una pequeña aplicación «Hola, mundo» usando JavaScript y GTK+"
+
+#. (itstool) path: item/p
+#: C/hello-world.js.page:33 C/hello-world.py.page:33
+#: C/hello-world.vala.page:33
+msgid "make the <file>.desktop</file> file"
+msgstr "hacer el archivo <file>.desktop</file>"
+
+#. (itstool) path: item/p
+#: C/hello-world.js.page:34 C/hello-world.py.page:34
+#: C/hello-world.vala.page:34
+msgid "how to set up the build system"
+msgstr "configurar el sistema de construcción"
+
+#. (itstool) path: section/title
+#: C/hello-world.js.page:42 C/hello-world.py.page:42
+#: C/hello-world.vala.page:40
+msgid "Create the program"
+msgstr "Crear el programa"
 
 #. (itstool) path: section/p
 #: C/hello-world.js.page:47
@@ -21406,6 +20905,16 @@ msgstr ""
 "});\n"
 
 #. (itstool) path: section/p
+#: C/hello-world.js.page:92
+msgid ""
+"GtkApplication initializes GTK+. It also connects the <gui>x</gui> button "
+"that's automatically generated along with the window to the \"destroy\" "
+"signal."
+msgstr ""
+"«GtkApplication» inicializa GTK+. También conecta el botón <gui>x</gui> que "
+"se genera automáticamente junto con la ventana a la señal «destroy»."
+
+#. (itstool) path: section/p
 #: C/hello-world.js.page:93
 msgid ""
 "We can start building our first window. We do this by creating a variable "
@@ -21425,6 +20934,22 @@ msgstr ""
 "Se le asignara una propiedad llamada <var>title</var>. El título puede ser "
 "la cadena que quiera pero, para estar seguro, es conveniente que tenga una "
 "codificación UTF-8."
+
+#. (itstool) path: section/p
+#: C/hello-world.js.page:95 C/hello-world.py.page:74
+#: C/hello-world.vala.page:57
+msgid ""
+"Now we have a window which has a title and a working \"close\" button. Let's "
+"add the actual \"Hello World\" text."
+msgstr ""
+"Ya tiene una ventana que contiene un título y un botón «cerrar» que "
+"funciona. Ahora, añada el texto «Hola mundo»."
+
+#. (itstool) path: section/title
+#: C/hello-world.js.page:98 C/hello-world.py.page:77
+#: C/hello-world.vala.page:60
+msgid "Label for the window"
+msgstr "Etiqueta para la ventana"
 
 #. (itstool) path: section/code
 #: C/hello-world.js.page:99
@@ -21483,6 +21008,12 @@ msgstr ""
 #: C/hello-world.js.page:114
 msgid "hello-world.js"
 msgstr "hello-world.js"
+
+#. (itstool) path: section/p
+#: C/hello-world.js.page:115 C/hello-world.py.page:102
+#: C/hello-world.vala.page:76
+msgid "The complete file:"
+msgstr "El archivo completo:"
 
 #. (itstool) path: section/code
 #: C/hello-world.js.page:116
@@ -21574,6 +21105,12 @@ msgstr ""
 "let app = new Application();\n"
 "app.application.run(ARGV);\n"
 
+#. (itstool) path: section/title
+#: C/hello-world.js.page:119 C/hello-world.py.page:106
+#: C/hello-world.vala.page:80
+msgid "Running the application from terminal"
+msgstr "Ejecutar la aplicación desde la terminal"
+
 #. (itstool) path: section/p
 #: C/hello-world.js.page:120
 msgid ""
@@ -21589,6 +21126,36 @@ msgstr ""
 msgid "<output style=\"prompt\">$ </output><input>gjs hello-world.js</input>"
 msgstr "<output style=\"prompt\">$ </output><input>gjs hello-world.js</input>"
 
+#. (itstool) path: section/title
+#: C/hello-world.js.page:127 C/hello-world.py.page:112
+#: C/hello-world.vala.page:89
+msgid "The <file>.desktop.in</file> file"
+msgstr "El archivo <file>.desktop.in</file>"
+
+#. (itstool) path: section/p
+#: C/hello-world.js.page:128 C/hello-world.py.page:113
+#: C/hello-world.vala.page:90
+msgid ""
+"Running applications from the Terminal is useful at the beginning of the "
+"application making process. To have fully working <link href=\"https://"
+"developer.gnome.org/integration-guide/stable/mime.html.en\">application "
+"integration</link> in GNOME 3 requires a desktop launcher. For this you need "
+"to create a <file>.desktop</file> file. The <file>.desktop</file> file "
+"describes the application name, the used icon and various integration bits. "
+"A deeper insight into the <file>.desktop</file> file can be found <link href="
+"\"http://developer.gnome.org/desktop-entry-spec/\">here</link>. The <file>."
+"desktop.in</file> file will create the <file>.desktop</file>."
+msgstr ""
+"Ejecutar aplicaciones desde la terminal es útil al principio del proceso de "
+"crear la aplicación. Para tener una <link href=\"https://developer.gnome.org/"
+"integration-guide/stable/mime.html.en\">integración con la aplicación</link> "
+"completa en GNOME 3, se necesita un lanzador en el escritorio. Para esto, "
+"necesita crear un archivo <file>.desktop</file>. El archivo «.desktop» "
+"describe el nombre de la aplicación, el icono que usa y varios campos de "
+"integración. Puede encontrar una descripción de los archivos <file>.desktop</"
+"file> <link href=\"http://developer.gnome.org/desktop-entry-spec/\">aquí</"
+"link>. El archivo <file>.desktop.in</file> creará el <file>.desktop</file>."
+
 #. (itstool) path: note/p
 #: C/hello-world.js.page:131
 msgid ""
@@ -21603,6 +21170,245 @@ msgstr ""
 #, no-wrap
 msgid "<output style=\"prompt\">$ </output><input>chmod +x hello-world</input>"
 msgstr "<output style=\"prompt\">$ </output><input>chmod +x hello-world</input>"
+
+#. (itstool) path: section/p
+#: C/hello-world.js.page:135 C/hello-world.py.page:115
+#: C/hello-world.vala.page:92
+msgid ""
+"The example shows you the minimum requirements for a <code>.desktop.in</"
+"code> file."
+msgstr ""
+"El ejemplo muestra los requerimientos mínimos de un archivo <code>.desktop."
+"in</code>."
+
+#. (itstool) path: section/code
+#: C/hello-world.js.page:136 C/hello-world.py.page:116
+#: C/hello-world.vala.page:93
+#, no-wrap
+msgid ""
+"[Desktop Entry]\n"
+"Version=1.0\n"
+"Encoding=UTF-8\n"
+"Name=Hello World\n"
+"Comment=Say Hello\n"
+"Exec=@prefix@/bin/hello-world\n"
+"Icon=application-default-icon\n"
+"Terminal=false\n"
+"Type=Application\n"
+"StartupNotify=true\n"
+"Categories=GNOME;GTK;Utility;\n"
+msgstr ""
+"[Desktop Entry]\n"
+"Version=1.0\n"
+"Encoding=UTF-8\n"
+"Name=Hello World\n"
+"Comment=Say Hello\n"
+"Exec=@prefix@/bin/hello-world\n"
+"Icon=application-default-icon\n"
+"Terminal=false\n"
+"Type=Application\n"
+"StartupNotify=true\n"
+"Categories=GNOME;GTK;Utility;\n"
+
+#. (itstool) path: section/p
+#: C/hello-world.js.page:138 C/hello-world.py.page:118
+#: C/hello-world.vala.page:95
+msgid "Now let's go through some parts of the <code>.desktop.in</code> file."
+msgstr "Ahora se verán algunas partes del archivo <code>.desktop.in</code>."
+
+#. (itstool) path: item/title
+#. (itstool) path: td/p
+#: C/hello-world.js.page:140 C/hello-world.py.page:120
+#: C/hello-world.vala.page:97 C/toolbar_builder.py.page:95
+#: C/toolbar_builder.vala.page:78
+msgid "Name"
+msgstr "Name"
+
+#. (itstool) path: item/p
+#: C/hello-world.js.page:140 C/hello-world.py.page:120
+#: C/hello-world.vala.page:97
+msgid "The application name."
+msgstr "El nombre de la aplicación."
+
+#. (itstool) path: item/title
+#: C/hello-world.js.page:141 C/hello-world.py.page:121
+#: C/hello-world.vala.page:98
+msgid "Comment"
+msgstr "Comment"
+
+#. (itstool) path: item/p
+#: C/hello-world.js.page:141 C/hello-world.py.page:121
+#: C/hello-world.vala.page:98
+msgid "A short description of the application."
+msgstr "Una descripción corta de la aplicación."
+
+#. (itstool) path: item/title
+#: C/hello-world.js.page:142 C/hello-world.py.page:122
+#: C/hello-world.vala.page:99
+msgid "Exec"
+msgstr "Exec"
+
+#. (itstool) path: item/p
+#: C/hello-world.js.page:142 C/hello-world.py.page:122
+#: C/hello-world.vala.page:99
+msgid ""
+"Specifies a command to execute when you choose the application from the "
+"menu. In this example exec just tells where to find the <file>hello-world</"
+"file> file and the file takes care of the rest."
+msgstr ""
+"Especifica un comando que ejecutar cuando se elige la aplicación en el menú. "
+"En este ejemplo, «exec» sólo indica dónde encontrar el archivo <code>hello-"
+"world</code> y el archivo se hace cargo del resto."
+
+#. (itstool) path: item/title
+#: C/hello-world.js.page:143 C/hello-world.py.page:123
+#: C/hello-world.vala.page:100
+msgid "Terminal"
+msgstr "Terminal"
+
+#. (itstool) path: item/p
+#: C/hello-world.js.page:143 C/hello-world.py.page:123
+#: C/hello-world.vala.page:100
+msgid ""
+"Specifies whether the command in the Exec key runs in a terminal window."
+msgstr ""
+"Especifica si el comando del campo «Exec» se ejecuta en una ventana de la "
+"terminal."
+
+#. (itstool) path: section/p
+#: C/hello-world.js.page:146 C/hello-world.py.page:126
+#: C/hello-world.vala.page:103
+msgid ""
+"To put your application into the appropriate category, you need to add the "
+"necessary categories to the Categories line. More information on the "
+"different categories can be found in the <link href=\"http://standards."
+"freedesktop.org/menu-spec/latest/apa.html\">menu specification</link>."
+msgstr ""
+"Para incluir su aplicación en la categoría correcta, debe añadir las "
+"categorías necesarias a la línea «Categories». Puede encontrar más "
+"información sobre las distintas categorías en la <link href=\"http://"
+"standards.freedesktop.org/menu-spec/latest/apa.html\">especificación del "
+"menú</link>."
+
+#. (itstool) path: section/p
+#: C/hello-world.js.page:147 C/hello-world.py.page:127
+#: C/hello-world.vala.page:104
+msgid ""
+"In this example we use an existing icon. For a custom icon you need to have "
+"a .svg file of your icon, stored in <file>/usr/share/icons/hicolor/scalable/"
+"apps</file>. Write the name of your icon file to the .desktop.in file, on "
+"line 7. More information on icons in: <link href=\"https://live.gnome.org/"
+"GnomeGoals/AppIcon\">Installing Icons for Themes</link> and <link href="
+"\"http://freedesktop.org/wiki/Specifications/icon-theme-spec\">on "
+"freedesktop.org: Specifications/icon-theme-spec</link>."
+msgstr ""
+"En este ejemplo se ha usado un icono existente. Para usar un icono "
+"personalizado, necesita un archivo «.svg» con su icono guardado en <file>/"
+"usr/share/icons/hicolor/scalable/apps</file>. Escriba el nombre del archivo "
+"del icono en el archivo «.desktop.in», en la línea 7. Puede obtener más "
+"información sobre los iconos en <link href=\"http://freedesktop.org/wiki/"
+"Specifications/icon-theme-spec\">Instalar iconos para temas</link>, <link "
+"href=\"https://live.gnome.org/GnomeGoals/AppIcon\">Instalar iconos para "
+"temas</link> y en <link href=\"http://freedesktop.org/wiki/Specifications/"
+"icon-theme-spec\">freedesktop.org: especificaciones/icon-theme-spec</link>."
+
+#. (itstool) path: section/title
+#: C/hello-world.js.page:150 C/hello-world.py.page:130
+#: C/hello-world.vala.page:107
+msgid "The build system"
+msgstr "El sistema de construcción"
+
+#. (itstool) path: section/p
+#: C/hello-world.js.page:151 C/hello-world.py.page:131
+#: C/hello-world.vala.page:108
+msgid ""
+"To make your application truly a part of the GNOME 3 system you need to "
+"install it with the help of autotools. The autotools build will install all "
+"the necessary files to all the right places."
+msgstr ""
+"Para que su aplicación forme parte realmente del sistema GNOME 3 debe "
+"instalarla con la ayuda de autotools. La construcción autotools instalará "
+"todos los archivos necesarios en las ubicaciones correctas."
+
+#. (itstool) path: section/p
+#: C/hello-world.js.page:152 C/hello-world.py.page:132
+#: C/hello-world.vala.page:109
+msgid "For this you need to have the following files:"
+msgstr "Para esto deberá tener los siguientes archivos:"
+
+#. (itstool) path: section/title
+#. (itstool) path: item/p
+#: C/hello-world.js.page:155 C/hello-world.py.page:135
+#: C/hello-world.vala.page:112 C/weatherAutotools.js.page:40
+msgid "autogen.sh"
+msgstr "autogen.sh"
+
+#. (itstool) path: section/code
+#: C/hello-world.js.page:156 C/hello-world.py.page:136
+#: C/hello-world.vala.page:113
+#, no-wrap
+msgid ""
+"#!/bin/sh\n"
+"\n"
+"set -e\n"
+"\n"
+"test -n \"$srcdir\" || srcdir=`dirname \"$0\"`\n"
+"test -n \"$srcdir\" || srcdir=.\n"
+"\n"
+"olddir=`pwd`\n"
+"cd \"$srcdir\"\n"
+"\n"
+"# This will run autoconf, automake, etc. for us\n"
+"autoreconf --force --install\n"
+"\n"
+"cd \"$olddir\"\n"
+"\n"
+"if test -z \"$NOCONFIGURE\"; then\n"
+"  \"$srcdir\"/configure \"$@\"\n"
+"fi\n"
+msgstr ""
+"#!/bin/sh\n"
+"\n"
+"set -e\n"
+"\n"
+"test -n \"$srcdir\" || srcdir=`dirname \"$0\"`\n"
+"test -n \"$srcdir\" || srcdir=.\n"
+"\n"
+"olddir=`pwd`\n"
+"cd \"$srcdir\"\n"
+"\n"
+"# This will run autoconf, automake, etc. for us\n"
+"autoreconf --force --install\n"
+"\n"
+"cd \"$olddir\"\n"
+"\n"
+"if test -z \"$NOCONFIGURE\"; then\n"
+"  \"$srcdir\"/configure \"$@\"\n"
+"fi\n"
+
+#. (itstool) path: section/p
+#: C/hello-world.js.page:158 C/hello-world.py.page:138
+#: C/hello-world.vala.page:115
+msgid "After the <file>autogen.sh</file> file is ready and saved, run:"
+msgstr ""
+"Una vez que el archivo <file>autogen.sh</file> esté listo y guardado, "
+"ejecute:"
+
+#. (itstool) path: section/screen
+#: C/hello-world.js.page:159 C/hello-world.py.page:139
+#: C/hello-world.vala.page:116
+#, no-wrap
+msgid "<output style=\"prompt\">$ </output><input>chmod +x autogen.sh</input>"
+msgstr "<output style=\"prompt\">$ </output><input>chmod +x autogen.sh</input>"
+
+#. (itstool) path: section/title
+#. (itstool) path: item/p
+#. (itstool) path: section/p
+#: C/hello-world.js.page:163 C/hello-world.py.page:143
+#: C/hello-world.vala.page:120 C/weatherAutotools.js.page:38
+#: C/weatherAutotools.js.page:64
+msgid "Makefile.am"
+msgstr "Makefile.am"
 
 #. (itstool) path: section/code
 #: C/hello-world.js.page:164
@@ -21632,6 +21438,15 @@ msgstr ""
 "desktop_DATA = \\\n"
 "\thello-world.desktop\n"
 
+#. (itstool) path: section/title
+#. (itstool) path: item/p
+#. (itstool) path: section/p
+#: C/hello-world.js.page:168 C/hello-world.py.page:148
+#: C/hello-world.vala.page:125 C/weatherAutotools.js.page:39
+#: C/weatherAutotools.js.page:131
+msgid "configure.ac"
+msgstr "configure.ac"
+
 #. (itstool) path: section/code
 #: C/hello-world.js.page:169 C/hello-world.py.page:149
 #, no-wrap
@@ -21647,6 +21462,20 @@ msgstr ""
 "AM_INIT_AUTOMAKE([1.10 no-define foreign dist-xz no-dist-gzip])\n"
 "AC_CONFIG_FILES([Makefile hello-world.desktop])\n"
 "AC_OUTPUT\n"
+
+#. (itstool) path: section/title
+#: C/hello-world.js.page:173 C/hello-world.py.page:153
+#: C/hello-world.vala.page:130
+msgid "README"
+msgstr "README"
+
+#. (itstool) path: section/p
+#: C/hello-world.js.page:174 C/hello-world.py.page:154
+#: C/hello-world.vala.page:131
+msgid "Information users should read first. This file can be blank."
+msgstr ""
+"Información que los usuarios deben leer primero. Este archivo puede estar "
+"vacío."
 
 #. (itstool) path: section/p
 #: C/hello-world.js.page:176 C/hello-world.py.page:156
@@ -22001,6 +21830,11 @@ msgctxt "text"
 msgid "Hello World (Vala)"
 msgstr "Hola mundo (Vala)"
 
+#. (itstool) path: item/p
+#: C/hello-world.vala.page:32
+msgid "create a small \"Hello, World\" application using GTK+"
+msgstr "crear una pequeña aplicación «Hola, mundo» usando GTK+"
+
 #. (itstool) path: section/code
 #: C/hello-world.vala.page:45
 #, no-wrap
@@ -22052,6 +21886,11 @@ msgid ""
 msgstr ""
 "var label = new Gtk.Label (\"Hello GNOME!\");\n"
 "                window.add (label);\n"
+
+#. (itstool) path: section/p
+#: C/hello-world.vala.page:65
+msgid "Finally, we create and run the application:"
+msgstr "Por último, se crea y ejecuta la aplicación"
 
 #. (itstool) path: section/code
 #: C/hello-world.vala.page:67
@@ -22113,11 +21952,27 @@ msgstr ""
 "Para ejecutar esta aplicación, primero guárdela como hello-world.vala. "
 "Luego, vaya a la carpeta donde está la aplicación."
 
+#. (itstool) path: section/p
+#: C/hello-world.vala.page:82
+msgid "Compile the program:"
+msgstr "Compilar el programa:"
+
 #. (itstool) path: section/screen
 #: C/hello-world.vala.page:83
 #, no-wrap
 msgid "valac --pkg gtk+-3.0 <file>hello-world.vala</file>"
 msgstr "valac --pkg gtk+-3.0 <file>hello-world.vala</file>"
+
+#. (itstool) path: section/p
+#: C/hello-world.vala.page:84
+msgid "Run the program:"
+msgstr "Ejecutar el programa:"
+
+#. (itstool) path: section/screen
+#: C/hello-world.vala.page:85
+#, no-wrap
+msgid "./<var>hello-world</var>"
+msgstr "./<var>hello-world</var>"
 
 #. (itstool) path: section/code
 #: C/hello-world.vala.page:121
@@ -22146,6 +22001,43 @@ msgstr ""
 "desktopdir = $(datadir)/applications\n"
 "desktop_DATA = \\\n"
 "\thello-world.desktop\n"
+
+#. (itstool) path: section/code
+#: C/hello-world.vala.page:126
+#, no-wrap
+msgid ""
+"# This file is processed by autoconf to create a configure script\n"
+"AC_INIT([Hello World], 1.0)\n"
+"AM_INIT_AUTOMAKE([1.10 no-define foreign dist-xz no-dist-gzip])\n"
+"AC_PROG_CC\n"
+"AM_PROG_VALAC([0.16])\n"
+"PKG_CHECK_MODULES(gtk, gtk+-3.0)\n"
+"AC_CONFIG_FILES([Makefile hello-world.desktop])\n"
+"\n"
+"AC_OUTPUT\n"
+msgstr ""
+"# This file is processed by autoconf to create a configure script\n"
+"AC_INIT([Hello World], 1.0)\n"
+"AM_INIT_AUTOMAKE([1.10 no-define foreign dist-xz no-dist-gzip])\n"
+"AC_PROG_CC\n"
+"AM_PROG_VALAC([0.16])\n"
+"PKG_CHECK_MODULES(gtk, gtk+-3.0)\n"
+"AC_CONFIG_FILES([Makefile hello-world.desktop])\n"
+"\n"
+"AC_OUTPUT\n"
+
+#. (itstool) path: section/p
+#: C/hello-world.vala.page:133
+msgid ""
+"When you have the <file>hello-world.c</file>, <file>hello-world.desktop.in</"
+"file>, <file>Makefile.am</file>, <file>configure.ac</file> and <file>autogen."
+"sh</file> files with correct information and rights, the <file>README</file> "
+"file can include the following instructions:"
+msgstr ""
+"Cuando tenga los archivos <file>hello-world</file>, <file>hello-world."
+"desktop.in</file>, <file>Makefile.am</file>, <file>configure.ac</file> y "
+"<file>autogen.sh</file> con la información y los permisos correctos, el "
+"archivo <file>README</file> puede incluir las siguientes instrucciones:"
 
 #. (itstool) path: section/code
 #: C/hello-world.vala.page:134
@@ -27350,10 +27242,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/magic-mirror.vala.page:57
-#| msgid ""
-#| "Choose <gui>GTK+ (simple)</gui> from the <gui>Vala</gui> tab, click "
-#| "<gui>Forward</gui>, and fill out your details on the next few pages. Use "
-#| "<file>guitar-tuner</file> as project name and directory."
 msgid ""
 "Choose <gui>GTK+ (simple)</gui> from the <gui>Vala</gui> tab, click "
 "<gui>Forward</gui>, and fill out your details on the next few pages. Use "
@@ -57449,6 +57337,11 @@ msgid "Tutorials, code samples and platform demos in Vala"
 msgstr ""
 "Tutoriales, ejemplos de código y demostraciones de la plataforma en Vala"
 
+#. (itstool) path: section/title
+#: C/vala.page:26
+msgid "Code samples and tutorial"
+msgstr "Ejemplos de código y tutorial"
+
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
@@ -59549,6 +59442,246 @@ msgstr ""
 "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.Window.window_position.html"
 "\">window_position</link>"
 
+#~ msgctxt "text"
+#~ msgid "Tutorial for beginners (C)"
+#~ msgstr "Tutorial para principiantes (C)"
+
+#~ msgid "The C programming language"
+#~ msgstr "El lenguaje de programación C:"
+
+#~ msgid "Tutorials, code samples and plaform demos in C"
+#~ msgstr ""
+#~ "Tutoriales, ejemplos de código y demostraciones de la plataforma en C"
+
+#~| msgid "create a small \"Hello, World\" application using GTK+"
+#~ msgid "Writing a Hello World application in C with GTK+ 3."
+#~ msgstr "Escribir una pequeña aplicación «Hola, mundo» en C con GTK+"
+
+#~ msgid "#include &lt;gtk/gtk.h&gt;\n"
+#~ msgstr "#include &lt;gtk/gtk.h&gt;\n"
+
+#~ msgid ""
+#~ "static void\n"
+#~ "activate (GtkApplication* app,\n"
+#~ "          gpointer        user_data)\n"
+#~ "{\n"
+#~ "  GtkWidget *window;\n"
+#~ "\n"
+#~ "  window = gtk_application_window_new (app);\n"
+#~ "  gtk_window_set_title (GTK_WINDOW (window), \"Hello World\");\n"
+#~ "  gtk_window_set_default_size (GTK_WINDOW (window), 200, 100);\n"
+#~ "  gtk_widget_show_all (window);\n"
+#~ "}\n"
+#~ msgstr ""
+#~ "static void\n"
+#~ "activate (GtkApplication* app,\n"
+#~ "          gpointer        user_data)\n"
+#~ "{\n"
+#~ "  GtkWidget *window;\n"
+#~ "\n"
+#~ "  window = gtk_application_window_new (app);\n"
+#~ "  gtk_window_set_title (GTK_WINDOW (window), \"Hello World\");\n"
+#~ "  gtk_window_set_default_size (GTK_WINDOW (window), 200, 100);\n"
+#~ "  gtk_widget_show_all (window);\n"
+#~ "}\n"
+
+#~ msgid ""
+#~ "We can start building our first window. We do this by creating a variable "
+#~ "called <var>window</var> and assigning it a gtk_application_window_new"
+#~ msgstr ""
+#~ "Se puede empezar a construir la primera ventana. Esto se hace creando una "
+#~ "variable llamada <var>window</var> y asignándole una "
+#~ "gtk_application_window_new"
+
+#~ msgid ""
+#~ "The window title can be any string you want it to be. To be on the safe "
+#~ "side, it's best to stick to UTF-8 encoding."
+#~ msgstr ""
+#~ "El título de la ventana puede ser la cadena que quiera pero, para estar "
+#~ "seguro, es conveniente que tenga una codificación UTF-8."
+
+#~ msgid ""
+#~ "GtkWidget *label;\n"
+#~ "\n"
+#~ "  label = gtk_label_new (\"Hello World!\");\n"
+#~ "  gtk_container_add (GTK_CONTAINER (window), label);\n"
+#~ msgstr ""
+#~ "GtkWidget *label;\n"
+#~ "\n"
+#~ "  label = gtk_label_new (\"Hello World!\");\n"
+#~ "  gtk_container_add (GTK_CONTAINER (window), label);\n"
+
+#~ msgid ""
+#~ "int\n"
+#~ "main (int    argc,\n"
+#~ "      char **argv)\n"
+#~ "{\n"
+#~ "  GtkApplication *app;\n"
+#~ "  int status;\n"
+#~ "\n"
+#~ "  app = gtk_application_new (NULL, G_APPLICATION_FLAGS_NONE);\n"
+#~ "  g_signal_connect (app, \"activate\", G_CALLBACK (activate), NULL);\n"
+#~ "  status = g_application_run (G_APPLICATION (app), argc, argv);\n"
+#~ "  g_object_unref (app);\n"
+#~ "\n"
+#~ "  return status;\n"
+#~ "}"
+#~ msgstr ""
+#~ "int\n"
+#~ "main (int    argc,\n"
+#~ "      char **argv)\n"
+#~ "{\n"
+#~ "  GtkApplication *app;\n"
+#~ "  int status;\n"
+#~ "\n"
+#~ "  app = gtk_application_new (NULL, G_APPLICATION_FLAGS_NONE);\n"
+#~ "  g_signal_connect (app, \"activate\", G_CALLBACK (activate), NULL);\n"
+#~ "  status = g_application_run (G_APPLICATION (app), argc, argv);\n"
+#~ "  g_object_unref (app);\n"
+#~ "\n"
+#~ "  return status;\n"
+#~ "}"
+
+#~ msgid ""
+#~ "GtkApplicationWindow can only hold one widget at a time. To construct "
+#~ "more elaborate programs you need to create a holder widget like GtkGrid "
+#~ "inside the window, and then add all the other widgets to it."
+#~ msgstr ""
+#~ "«GtkApplicationWindow» sólo puede contener un widget a la vez. Para "
+#~ "construir programas más elaborados necesita crear un widget contenedor "
+#~ "como «GtkGrid» dentro de la ventana, y después añadirle los otros."
+
+#~ msgid "hello-world.c"
+#~ msgstr "hello-world.c"
+
+#~ msgid ""
+#~ "To run this application, first save it as hello-world.c. Then open "
+#~ "Terminal, go to the folder where your application is stored."
+#~ msgstr ""
+#~ "Para ejecutar esta aplicación, primero guárdela como «hello-world.c». "
+#~ "Luego, vaya a la carpeta donde está la aplicación."
+
+#~ msgid ""
+#~ "gcc <var>hello-world</var>.c `pkg-config --cflags --libs gtk+-3.0` -o "
+#~ "<var>hello-world</var>"
+#~ msgstr ""
+#~ "gcc <var>hello-world</var>.c `pkg-config --cflags --libs gtk+-3.0` -o "
+#~ "<var>hello-world</var>"
+
+#~ msgid ""
+#~ "# The actual runnable program is set to the SCRIPTS primitive.\n"
+#~ "# # Prefix bin_ tells where to copy this\n"
+#~ "bin_PROGRAMS = hello-world\n"
+#~ "hello_world_CFLAGS = $(gtk_CFLAGS)\n"
+#~ "hello_world_LDADD = $(gtk_LIBS)\n"
+#~ "hello_world_SOURCES = hello-world.c\n"
+#~ "\n"
+#~ "desktopdir = $(datadir)/applications\n"
+#~ "desktop_DATA = \\\n"
+#~ "\thello-world.desktop\n"
+#~ msgstr ""
+#~ "# The actual runnable program is set to the SCRIPTS primitive.\n"
+#~ "# # Prefix bin_ tells where to copy this\n"
+#~ "bin_PROGRAMS = hello-world\n"
+#~ "hello_world_CFLAGS = $(gtk_CFLAGS)\n"
+#~ "hello_world_LDADD = $(gtk_LIBS)\n"
+#~ "hello_world_SOURCES = hello-world.c\n"
+#~ "\n"
+#~ "desktopdir = $(datadir)/applications\n"
+#~ "desktop_DATA = \\\n"
+#~ "\thello-world.desktop\n"
+
+#~ msgid ""
+#~ "To build and install this program:\n"
+#~ "\n"
+#~ "./autogen.sh --prefix=/home/your_username/.local\n"
+#~ "make\n"
+#~ "make install\n"
+#~ "\n"
+#~ "-------------\n"
+#~ "Running the first line above creates the following files:\n"
+#~ "\n"
+#~ "aclocal.m4\n"
+#~ "autom4te.cache\n"
+#~ "config.log\n"
+#~ "config.status\n"
+#~ "configure\n"
+#~ "depcomp\n"
+#~ "hello-world\n"
+#~ "hello-world.desktop\n"
+#~ "hello_world-hello-world.o\n"
+#~ "install-sh\n"
+#~ "missing\n"
+#~ "Makefile.in\n"
+#~ "Makefile\n"
+#~ "\n"
+#~ "Running \"make\" links all the appropriate libraries.\n"
+#~ "\n"
+#~ "Running \"make install\", installs the application in /home/"
+#~ "your_username/.local/bin\n"
+#~ "and installs the hello-world.desktop file in /home/your_username/.local/"
+#~ "share/applications\n"
+#~ "\n"
+#~ "You can now run the application by typing \"Hello World\" in the "
+#~ "Overview.\n"
+#~ "\n"
+#~ "----------------\n"
+#~ "To uninstall, type:\n"
+#~ "\n"
+#~ "make uninstall\n"
+#~ "\n"
+#~ "----------------\n"
+#~ "To create a tarball type:\n"
+#~ "\n"
+#~ "make distcheck\n"
+#~ "\n"
+#~ "This will create hello-world-1.0.tar.xz\n"
+#~ msgstr ""
+#~ "Para construir y ejecutar este programa:\n"
+#~ "\n"
+#~ "./autogen.sh --prefix=/home/usuario/.local\n"
+#~ "make\n"
+#~ "make install\n"
+#~ "\n"
+#~ "-------------\n"
+#~ "Al ejecutar la primera línea se crean los siguientes archivos:\n"
+#~ "\n"
+#~ "aclocal.m4\n"
+#~ "autom4te.cache\n"
+#~ "config.log\n"
+#~ "config.status\n"
+#~ "configure\n"
+#~ "depcomp\n"
+#~ "hello-world\n"
+#~ "hello-world.desktop\n"
+#~ "hello_world-hello-world.o\n"
+#~ "install-sh\n"
+#~ "missing\n"
+#~ "Makefile.in\n"
+#~ "Makefile\n"
+#~ "\n"
+#~ "Al ejecutar «make» se enlazan todas las bibliotecas necesarias.\n"
+#~ "\n"
+#~ "Al ejecutar «make install», la aplicación se instala en /home/usuario/."
+#~ "local/bin\n"
+#~ "y se crear un archivo hello-world.desktop en /home/usuario/.local/share/"
+#~ "applications\n"
+#~ "\n"
+#~ "Ahora puede ejecutar la aplicación escribiendo «Hello World» en la vista "
+#~ "general.\n"
+#~ "\n"
+#~ "----------------\n"
+#~ "Para desinstalarla, escriba:\n"
+#~ "\n"
+#~ "make uninstall\n"
+#~ "\n"
+#~ "----------------\n"
+#~ "Para crear un archivador tar escriba:\n"
+#~ "\n"
+#~ "make distcheck\n"
+#~ "\n"
+#~ "Esto creará el archivo hello-world-1.0.tar.xz\n"
+
 #~ msgid "You can also use the Vala compiler to compile these samples:"
 #~ msgstr ""
 #~ "También puede usar el compilador de Vala para compilar estos ejemplos:"
@@ -59948,9 +60081,6 @@ msgstr ""
 #~ msgstr ""
 #~ "Para ver una discusión sobre señales y funciones de retorno de llamada, "
 #~ "consulte <link xref=\"signals-callbacks.py\">esta página</link>."
-
-#~ msgid "Platform demos in C++"
-#~ msgstr "Demostraciones de la plataforma en C++"
 
 #~ msgid "2 Guitar Tuner"
 #~ msgstr "2. Afinador de guitarra"
