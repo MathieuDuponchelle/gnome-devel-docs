@@ -21,6 +21,15 @@
 
   <comment>
     <p>
+      Note: GSlice is deliberately not mentioned on this page because we don’t
+      want to encourage its use. GLib developers are moving towards deprecating
+      it due to its performance slipping significantly behind the libc
+      allocator’s on Linux in recent years.
+    </p>
+  </comment>
+
+  <comment>
+    <p>
       FIXME:
     </p>
     <list>
