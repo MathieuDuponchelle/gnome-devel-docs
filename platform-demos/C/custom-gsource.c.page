@@ -1,0 +1,301 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      xmlns:xi="http://www.w3.org/2003/XInclude"
+      type="guide" style="task"
+      id="custom-gsource.c">
+
+  <info>
+    <link type="guide" xref="c#examples"/>
+
+    <credit type="author copyright">
+      <name>Philip Withnall</name>
+      <email its:translate="no">philip.withnall@collabora.co.uk</email>
+      <years>2015</years>
+    </credit>
+
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc>
+      Tutorial for writing a custom <code>GSource</code> implementation
+    </desc>
+  </info>
+
+  <title>Custom GSources</title>
+
+  <synopsis>
+    <title>Summary</title>
+
+    <p>
+      This article is a tutorial on creating a custom <code>GSource</code>. For
+      the reference documentation, see the
+      <link href="https://developer.gnome.org/glib/stable/glib-The-Main-Event-Loop.html#GSource">GLib
+      API reference</link>.
+    </p>
+  </synopsis>
+
+  <section id="what-is-gsource">
+    <title>What is <code>GSource</code>?</title>
+
+    <p>
+      A <link href="https://developer.gnome.org/glib/stable/glib-The-Main-Event-Loop.html#GSource"><code>GSource</code></link>
+      is an expected event with an associated callback function which will be
+      invoked when that event is received. An event could be a timeout or data
+      being received on a socket, for example.
+    </p>
+
+    <p>
+      GLib contains various types of <code>GSource</code>, but also allows
+      applications to define their own, allowing custom events to be integrated
+      into the main loop.
+    </p>
+
+    <p>
+      The structure of a <code>GSource</code> and its virtual functions are
+      documented in detail in the
+      <link href="https://developer.gnome.org/glib/stable/glib-The-Main-Event-Loop.html#GSourceFuncs">GLib
+      API reference</link>.
+    </p>
+  </section>
+
+  <section id="queue-source">
+    <title>A Message Queue Source</title>
+
+    <p>
+      As a running example, a message queue source will be used which dispatches
+      its callback whenever a message is enqueued to a queue internal to the
+      source (potentially from another thread).
+    </p>
+
+    <p>
+      This type of source is useful for efficiently transferring large numbers
+      of messages between main contexts. The alternative is transferring each
+      message as a separate idle <code>GSource</code> using
+      <code>g_source_attach()</code>. For large numbers of messages, this means
+      a lot of allocations and frees of <code>GSource</code>s.
+    </p>
+
+    <section id="gsource-structure">
+      <title>Structure</title>
+
+      <p>
+        Firstly, a structure for the source needs to be declared. This must
+        contain a <code>GSource</code> as its parent, followed by the private
+        fields for the source: the queue and a function to call to free each
+        message once finished with.
+      </p>
+      <code mime="text/x-csrc">
+typedef struct {
+  GSource         parent;
+  GAsyncQueue    *queue;  /* owned */
+  GDestroyNotify  destroy_message;
+} MessageQueueSource;</code>
+    </section>
+
+    <section id="prepare-function">
+      <title>Prepare Function</title>
+
+      <p>
+        Next, the prepare function for the source must be defined. This determines
+        whether the source is ready to be dispatched. As this source is using an
+        in-memory queue, this can be determined by checking the queue’s length: if
+        there are elements in the queue, the source can be dispatched to handle
+        them.
+      </p>
+      <code mime="text/x-csrc">
+return (g_async_queue_length (message_queue_source->queue) > 0);</code>
+    </section>
+
+    <section id="check-function">
+      <title>Check Function</title>
+
+      <p>
+        As this source has no file descriptors, the prepare and check functions
+        essentially have the same job, so a check function is not needed.
+        Setting the field to <code>NULL</code> in <code>GSourceFuncs</code>
+        bypasses the check function for this source type.
+      </p>
+    </section>
+
+    <section id="dispatch-function">
+      <title>Dispatch Function</title>
+
+      <p>
+        For this source, the dispatch function is where the complexity lies. It
+        needs to dequeue a message from the queue, then pass that message to the
+        <code>GSource</code>’s callback function. No messages may be queued: even
+        through the prepare function returned true, another source wrapping the
+        same queue may have been dispatched in the mean time and taken the final
+        message from the queue. Further, if no callback has been set for the
+        <code>GSource</code> (which is allowed), the message must be destroyed and
+        silently dropped.
+      </p>
+
+      <p>
+        If both a message and callback are set, the callback can be invoked on the
+        message and its return value propagated as the return value of the
+        dispatch function. This is <code>FALSE</code> to destroy the
+        <code>GSource</code> and <code>TRUE</code> to keep it alive, just as for
+        <code>GSourceFunc</code> — these semantics are the same for all dispatch
+        function implementations.
+      </p>
+      <code mime="text/x-csrc">
+/* Pop a message off the queue. */
+message = g_async_queue_try_pop (message_queue_source->queue);
+
+/* If there was no message, bail. */
+if (message == NULL)
+  {
+    /* Keep the source around to handle the next message. */
+    return TRUE;
+  }
+
+/* @func may be %NULL if no callback was specified.
+ * If so, drop the message. */
+if (func == NULL)
+  {
+    if (message_queue_source->destroy_message != NULL)
+      {
+        message_queue_source->destroy_message (message);
+      }
+
+    /* Keep the source around to consume the next message. */
+    return TRUE;
+  }
+
+return func (message, user_data);</code>
+    </section>
+
+    <section id="callback">
+      <title>Callback Functions</title>
+
+      <p>
+        The callback from a <code>GSource</code> does not have to have type
+        <code>GSourceFunc</code>. It can be whatever function type is called in
+        the source’s dispatch function, as long as that type is sufficiently
+        documented.
+      </p>
+
+      <p>
+        Normally, <code>g_source_set_callback()</code> is used to set the
+        callback function for a source instance. With its
+        <code>GDestroyNotify</code>, a strong reference can be held to keep an
+        object alive while the source is still alive:
+      </p>
+      <code mime="text/x-csrc">
+g_source_set_callback (source, callback_func,
+                       g_object_ref (object_to_strong_ref),
+                       (GDestroyNotify) g_object_unref);</code>
+
+      <p>
+        However, <code>GSource</code> has a layer of indirection for retrieving
+        this callback, exposed as <code>g_source_set_callback_indirect()</code>.
+        This allows GObject to set a <code>GClosure</code> as the callback for a
+        source, which allows for sources which are automatically destroyed when
+        an object is finalized — a <em>weak</em> reference, in contrast to the
+        <em>strong</em> reference above:
+      </p>
+      <code mime="text/x-csrc">
+g_source_set_closure (source,
+                      g_cclosure_new_object (callback_func,
+                                             object_to_weak_ref));</code>
+
+      <p>
+        It also allows for a generic, closure-based ‘dummy’ callback, which can
+        be used when a source needs to exist but no action needs to be performed
+        in its callback:
+      </p>
+      <code mime="text/x-csrc">
+g_source_set_dummy_callback (source);</code>
+    </section>
+
+    <section id="constructor">
+      <title>Constructor</title>
+
+      <p>
+        Finally, the <code>GSourceFuncs</code> definition of the
+        <code>GSource</code> can be written, alongside a construction function.
+        It is typical practice to expose new source types simply as
+        <code>GSource</code>s, not as the subtype structure; so the constructor
+        returns a <code>GSource*</code>.
+      </p>
+
+      <p>
+        The example constructor here also demonstrates use of a child source to
+        support cancellation conveniently. If the <code>GCancellable</code> is
+        cancelled, the applicationj’s callback will be dispatched and can check
+        for cancellation. (The application code will need to make a pointer to
+        the <code>GCancellable</code> available to its callback, as a field of the
+        callback’s user data set in <code>g_source_set_callback()</code>.)
+      </p>
+      <code mime="text/x-csrc">
+GSource *
+message_queue_source_new (GAsyncQueue    *queue,
+                          GDestroyNotify  destroy_message,
+                          GCancellable   *cancellable)
+{
+  GSource *source;  /* alias of @message_queue_source */
+  MessageQueueSource *message_queue_source;  /* alias of @source */
+
+  g_return_val_if_fail (queue != NULL, NULL);
+  g_return_val_if_fail (cancellable == NULL ||
+                        G_IS_CANCELLABLE (cancellable), NULL);
+
+  source = g_source_new (&amp;message_queue_source_funcs,
+                         sizeof (MessageQueueSource));
+  message_queue_source = (MessageQueueSource *) source;
+
+  /* The caller can overwrite this name with something more useful later. */
+  g_source_set_name (source, "MessageQueueSource");
+
+  message_queue_source->queue = g_async_queue_ref (queue);
+  message_queue_source->destroy_message = destroy_message;
+
+  /* Add a cancellable source. */
+  if (cancellable != NULL)
+    {
+      GSource *cancellable_source;
+
+      cancellable_source = g_cancellable_source_new (cancellable);
+      g_source_set_dummy_callback (cancellable_source);
+      g_source_add_child_source (source, cancellable_source);
+      g_source_unref (cancellable_source);
+    }
+
+  return source;
+}</code>
+    </section>
+  </section>
+
+  <section id="full-listing">
+    <title>Complete Example</title>
+
+    <listing>
+      <title>Complete Example Code</title>
+
+      <code mime="text/x-csrc"><include xmlns="http://www.w3.org/2001/XInclude"
+                                        href="samples/example-custom-gsource.c"
+                                        parse="text"/></code>
+    </listing>
+  </section>
+
+  <section id="further-examples">
+    <title>Further Examples</title>
+
+    <p>
+      Sources can be more complex than the example given above. In
+      <link href="http://nice.freedesktop.org/">libnice</link>, a custom
+      <code>GSource</code> is needed to poll a set of sockets which changes
+      dynamically. The implementation is given as <code>ComponentSource</code>
+      in <link href="http://cgit.freedesktop.org/libnice/libnice/tree/agent/component.c#n941">component.c</link>
+      and demonstrates a more complex use of the prepare function.
+    </p>
+
+    <p>
+      Another example is a custom source to interface GnuTLS with GLib in its
+      <code>GTlsConnection</code> implementation.
+      <link href="https://git.gnome.org/browse/glib-networking/tree/tls/gnutls/gtlsconnection-gnutls.c#n871"><code>GTlsConnectionGnutlsSource</code></link>
+      synchronizes the main thread and a TLS worker thread which performs the
+      blocking TLS operations.
+    </p>
+  </section>
+</page>

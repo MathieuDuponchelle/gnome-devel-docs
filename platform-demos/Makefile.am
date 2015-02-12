@@ -478,6 +478,23 @@ HELP_FILES =				\
 	window.c.page			\
 	window.js.page			\
 	window.py.page			\
-	window.vala.page
+	window.vala.page		\
+	custom-gsource.c.page
 
 HELP_LINGUAS = ca de el es fr gl pt_BR
+
+# Tooling to compile and run unit tests for example code.
+demo_sources += samples/example-custom-gsource.c
+EXTRA_DIST = C/samples/test-custom-gsource.c
+WARN_CFLAGS = -Wall -Wextra -Wno-unused-parameter
+
+if BUILD_TESTS
+C/samples/test-custom-gsource: C/samples/test-custom-gsource.c C/samples/example-custom-gsource.c
+	$(CC) -o $@ $(WARN_CFLAGS) $(GLIB_CFLAGS) $(GLIB_LIBS) $<
+
+check: C/samples/test-custom-gsource
+	C/samples/test-custom-gsource
+.PHONY: check
+
+CLEANFILES = C/samples/test-custom-gsource
+endif BUILD_TESTS

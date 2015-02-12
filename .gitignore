@@ -33,3 +33,5 @@ Makefile.in
 /platform-overview/??*/*.mo
 /platform-overview/??*/*.page
 /platform-overview/??*/*.xml
+
+/platform-demos/C/samples/test-custom-gsource
