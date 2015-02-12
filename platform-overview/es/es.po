@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: platform-overview.master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-27 07:35+0000\n"
-"PO-Revision-Date: 2015-02-02 11:38+0100\n"
+"POT-Creation-Date: 2015-02-12 07:38+0000\n"
+"PO-Revision-Date: 2015-02-12 19:03+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "Language: \n"
@@ -1309,14 +1309,18 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/license.page:26
+#| msgid ""
+#| "Libraries which are used in GNOME are usually licensed under the <link "
+#| "href=\"http://www.gnu.org/\">GNU</link> <link href=\"https://www.gnu.org/"
+#| "licenses/old-licenses/lgpl-2.1.html\">LGPL 2.1</link>."
 msgid ""
 "Libraries which are used in GNOME are usually licensed under the <link href="
 "\"http://www.gnu.org/\">GNU</link> <link href=\"https://www.gnu.org/licenses/"
-"old-licenses/lgpl-2.1.html\">LGPL 2.1</link>."
+"old-licenses/lgpl-2.1.html\">LGPL 2.1+</link>."
 msgstr ""
 "Las bibliotecas que se usan en GNOME se licencian generalmente bajo la <link "
-"href=\"https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html\">LGPL 2.1</"
-"link> de <link href=\"http://www.gnu.org/\">GNU</link>."
+"href=\"https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html\">LGPL 2.1+</"
+"link>. de <link href=\"http://www.gnu.org/\">GNU</link>."
 
 #. (itstool) path: page/p
 #: C/license.page:30
@@ -5254,7 +5258,6 @@ msgstr ""
 
 #. (itstool) path: info/desc
 #: C/tour.page:24
-#| msgid "Get your GtkApplication started and create a UI using Glade."
 msgid ""
 "Get your GtkApplication started in JavaScript and create a UI using Glade."
 msgstr "Empiece su GtkApplication en JavaScript y cree una IU usando Glade."
