@@ -377,6 +377,7 @@ HELP_FILES =				\
 	label.js.page			\
 	label.py.page			\
 	label.vala.page			\
+	legal.xml			\
 	license.page			\
 	linkbutton.c.page		\
 	linkbutton.js.page		\
