@@ -203,6 +203,35 @@ else
 	</p>
 
 	<list type="ordered">
+          <item>
+            <p>
+              In GNU style, if either side of an if-else statement has
+              braces, both sides should, to match up indentation:
+            </p>
+
+<code style="valid">
+/* valid GNU style */
+if (condition)
+  {
+    foo ();
+    bar ();
+  }
+else
+  {
+    baz ();
+  }</code>
+
+<code style="invalid">
+/* invalid */
+if (condition)
+  {
+    foo ();
+    bar ();
+  }
+else
+  baz ();</code>
+          </item>
+
 	  <item>
 	    <p>
 	      If the single statement covers multiple lines, e.g. for functions with
@@ -229,7 +258,9 @@ if (condition)
                                             plus_one);
   }
 else
-  another_single_statement (arg1, arg2);</code>
+  {
+    another_single_statement (arg1, arg2);
+  }</code>
           </item>
 
           <item>
@@ -287,35 +318,6 @@ if (condition)
 		single_statement ();
 	else if (yet_another_condition)
 		another_single_statement ();</code>
-          </item>
-
-          <item>
-            <p>
-              In GNU style, if either side of an if-else statement has
-              braces, both sides should, to match up indentation:
-            </p>
-
-<code style="valid">
-/* valid GNU style */
-if (condition)
-  {
-    foo ();
-    bar ();
-  }
-else
-  {
-    baz ();
-  }</code>
-
-<code style="invalid">
-/* invalid */
-if (condition)
-  {
-    foo ();
-    bar ();
-  }
-else
-  baz ();</code>
           </item>
         </list>
 
