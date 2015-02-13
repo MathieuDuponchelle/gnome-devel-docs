@@ -106,15 +106,15 @@
 
 	<code style="valid">
 for (i = 0; i &lt; num_elements; i++) {
-        foo[i] = foo[i] + 42;
+	foo[i] = foo[i] + 42;
 
-        if (foo[i] &lt; 35) {
-                printf ("Foo!");
-                foo[i]--;
-        } else {
-                printf ("Bar!");
-                foo[i]++;
-        }
+	if (foo[i] &lt; 35) {
+		printf ("Foo!");
+		foo[i]--;
+	} else {
+		printf ("Bar!");
+		foo[i]++;
+	}
 }</code>
       </item>
 
@@ -193,9 +193,9 @@ for (i = 0; i &lt; num_elements; i++)
 <code style="valid">
 /* valid */
 if (condition)
-        single_statement ();
+	single_statement ();
 else
-        another_single_statement (arg1);</code>
+	another_single_statement (arg1);</code>
 
 	<p>
 	  The “no block for single statements” rule has only four
@@ -213,12 +213,12 @@ else
 <code style="valid">
 /* valid Linux kernel style */
 if (condition) {
-        a_single_statement_with_many_arguments (some_lengthy_argument,
-                                                another_lengthy_argument,
-                                                and_another_one,
-                                                plus_one);
+	a_single_statement_with_many_arguments (some_lengthy_argument,
+						another_lengthy_argument,
+						and_another_one,
+						plus_one);
 } else
-        another_single_statement (arg1, arg2);
+	another_single_statement (arg1, arg2);
 
 /* valid GNU style */
 if (condition)
@@ -243,7 +243,7 @@ if (condition1 ||
     (condition2 &amp;&amp; condition3) ||
     condition4 ||
     (condition5 &amp;&amp; (condition6 || condition7))) {
-        a_single_statement ();
+	a_single_statement ();
 }
 
 /* valid GNU style */
@@ -265,10 +265,10 @@ if (condition1 ||
 <code style="valid">
 /* valid Linux kernel style */
 if (condition) {
-        if (another_condition)
-                single_statement ();
-        else
-                another_single_statement ();
+	if (another_condition)
+		single_statement ();
+	else
+		another_single_statement ();
 }
 
 /* valid GNU style */
@@ -283,10 +283,10 @@ if (condition)
 <code style="invalid">
 /* invalid */
 if (condition)
-        if (another_condition)
-                single_statement ();
-        else if (yet_another_condition)
-                another_single_statement ();</code>
+	if (another_condition)
+		single_statement ();
+	else if (yet_another_condition)
+		another_single_statement ();</code>
           </item>
 
           <item>
@@ -331,12 +331,12 @@ statement_1 ();
 statement_2 ();
 
 {
-        int var1 = 42;
-        gboolean res = FALSE;
+	int var1 = 42;
+	gboolean res = FALSE;
 
-        res = statement_3 (var1);
+	res = statement_3 (var1);
 
-        retval = res ? -1 : 1;
+	retval = res ? -1 : 1;
 }</code>
 
         <p>
@@ -349,7 +349,7 @@ statement_2 ();
 static void
 my_function (int argument)
 {
-        do_my_things ();
+	do_my_things ();
 }
 
 /* valid GNU style*/
@@ -363,7 +363,7 @@ my_function (int argument)
 /* invalid */
 static void
 my_function (int argument) {
-        do_my_things ();
+	do_my_things ();
 }
 
 /* invalid */
@@ -386,12 +386,12 @@ my_function (int argument)
     <code style="invalid">
 /* invalid */
 if (condition == TRUE)
-        do_foo ();</code>
+	do_foo ();</code>
 
 <code style="valid">
 /* valid */
 if (another_condition)
-        do_bar ();</code>
+	do_bar ();</code>
 
         <p>
           Even if C handles <code>NULL</code> equality like a boolean, be
@@ -402,16 +402,16 @@ if (another_condition)
         <code style="valid">
 /* valid */
 if (some_pointer == NULL)
-        do_blah ();
+	do_blah ();
 
 /* valid */
 if (something != NULL)
-        do_foo ();</code>
+	do_foo ();</code>
 
 <code style="invalid">
 /* invalid */
 if (some_other_pointer)
-        do_blurp ();</code>
+	do_blurp ();</code>
   </section>
 
   <section id="functions">
@@ -472,7 +472,7 @@ align_function_arguments (first_argument,
     <code style="valid">
 /* valid */
 if (condition)
-        do_my_things ();
+	do_my_things ();
 
 /* valid */
 switch (condition) {
@@ -481,11 +481,11 @@ switch (condition) {
 <code style="invalid">
 /* invalid */
 if(condition)
-        do_my_things();
+	do_my_things();
 
 /* invalid */
 if ( condition )
-        do_my_things ( );</code>
+	do_my_things ( );</code>
 
     <p>
       When declaring a structure type use newlines to separate logical sections
@@ -495,19 +495,19 @@ if ( condition )
     <code style="valid">
 struct _GtkWrapBoxPrivate
 {
-        GtkOrientation        orientation;
-        GtkWrapAllocationMode mode;
+	GtkOrientation        orientation;
+	GtkWrapAllocationMode mode;
 
-        GtkWrapBoxSpreading   horizontal_spreading;
-        GtkWrapBoxSpreading   vertical_spreading;
+	GtkWrapBoxSpreading   horizontal_spreading;
+	GtkWrapBoxSpreading   vertical_spreading;
 
-        guint16               vertical_spacing;
-        guint16               horizontal_spacing;
+	guint16               vertical_spacing;
+	guint16               horizontal_spacing;
 
-        guint16               minimum_line_children;
-        guint16               natural_line_children;
+	guint16               minimum_line_children;
+	guint16               natural_line_children;
 
-        GList                *children;
+	GList                *children;
 };</code>
 
     <p>
@@ -557,12 +557,12 @@ if (condition) foo (); else bar ();</code>
 /* valid Linux kernel style */
 switch (condition) {
 case FOO:
-        do_foo ();
-        break;
+	do_foo ();
+	break;
 
 case BAR:
-        do_bar ();
-        break;
+	do_bar ();
+	break;
 }
 
 /* valid GNU style */
@@ -612,15 +612,15 @@ switch (condition)
     <code style="valid">
 switch (condition) {
 case FOO:
-        do_foo ();
-        break;
+	do_foo ();
+	break;
 
 case BAR:
-        do_bar ();
-        break;
+	do_bar ();
+	break;
 
 default:
-        do_default ();
+	do_default ();
 }</code>
 
     <p>
@@ -638,17 +638,17 @@ default:
     <code style="valid">
 switch (enumerated_condition) {
 case HANDLED_1:
-        do_foo ();
-        break;
+	do_foo ();
+	break;
 
 case HANDLED_2:
-        do_bar ();
-        break;
+	do_bar ();
+	break;
 
 case IGNORED_1:
 case IGNORED_2:
 default:
-        do_default ();
+	do_default ();
 }</code>
 
     <p>
