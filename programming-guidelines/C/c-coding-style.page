@@ -285,6 +285,13 @@ if (condition1 ||
   {
     a_single_statement ();
   }</code>
+
+            <p>
+              Note that such long conditions are usually hard to understand.  A
+              good practice is to set the condition to a boolean variable, with
+              a good name for that variable.  Another way is to move the long
+              condition to a function.
+            </p>
           </item>
 
           <item>
