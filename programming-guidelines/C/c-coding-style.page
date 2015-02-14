@@ -178,7 +178,7 @@ for (i = 0; i &lt; num_elements; i++)
     <p>
       Instead, set the <em>indentation size</em> as appropriate for
       the code you are editing.  When writing in something other than
-      Linux kernel style, You may even want to tell your editor to
+      Linux kernel style, you may even want to tell your editor to
       automatically convert all tabs to 8 spaces, so that there is no
       ambiguity about the intended amount of space.
     </p>
