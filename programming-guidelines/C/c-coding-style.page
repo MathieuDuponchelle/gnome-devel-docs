@@ -100,8 +100,8 @@
     <list type="ordered">
       <item>
 	<p>
-	  Linux Kernel style.  This is 8-space indentations, with
-	  K&amp;R brace placement:
+	  Linux Kernel style.  Tabs with a length of 8 characters are
+	  used for the indentation, with K&amp;R brace placement:
 	</p>
 
 	<code style="valid">
