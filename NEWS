@@ -1,3 +1,14 @@
+3.15.90
+=======
+
+* Add a page on GMainContext to the programming guidelines (Philip Withnall)
+* Clarifications to indentation style in programming guidelines (Sébastien
+  Wilmet, David King)
+* Fixes to HIG translations (David King)
+* Update translations:
+  es      (Daniel Mustieles)
+  ru      (Yuri Myasoedov)
+
 3.15.4
 ======
 
