@@ -547,7 +547,7 @@ do_computation (gpointer user_data)
       <p>
         The core principle of invoking a function in a specific context is
         simple, and is walked through below to explain the concepts. In practice
-        the <link xref="g-main-context-invoke-full">convenience method,
+        the <link xref="#g-main-context-invoke-full">convenience method,
         <code>g_main_context_invoke_full()</code></link> should be used instead.
       </p>
 
@@ -564,7 +564,7 @@ do_computation (gpointer user_data)
 
       <p>
         The <code>GSource</code> will be
-        <link xref="what-is-gmaincontext">dispatched as soon as it’s ready</link>,
+        <link xref="#what-is-gmaincontext">dispatched as soon as it’s ready</link>,
         calling the function on the thread’s stack. In the case of an idle source,
         this will be as soon as all sources at a higher priority have been
         dispatched — this can be tweaked using the idle source’s priority
@@ -896,7 +896,7 @@ emit_some_signal (GObject     *my_object,
     <example>
       <p>
         By combining
-        <link xref="g-main-context-invoke-full"><code>g_main_context_invoke_full()</code></link>
+        <link xref="#g-main-context-invoke-full"><code>g_main_context_invoke_full()</code></link>
         and <code>GTask</code>, it is possible to run a task in a specific context
         and effortlessly return its result to the current context:
       </p>

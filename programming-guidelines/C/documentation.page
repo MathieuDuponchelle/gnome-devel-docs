@@ -67,11 +67,11 @@
 
     <p>
       The preferred documentation system for GNOME libraries is <link
-      xref="http://www.gtk.org/gtk-doc/">gtk-doc</link>, which
+      href="http://www.gtk.org/gtk-doc/">gtk-doc</link>, which
       extracts inline comments from the code to let you build a <link
-      xref="http://docbook.org/">DocBook</link> document and collection of HTML
+      href="http://docbook.org/">DocBook</link> document and collection of HTML
       pages.  These can then be read in
-      <link xref="https://wiki.gnome.org/Apps/Devhelp">Devhelp</link>.  A lot of
+      <link href="https://wiki.gnome.org/Apps/Devhelp">Devhelp</link>.  A lot of
       GNOME’s infrastructure is built to handle with documentation written using
       gtk-doc.
     </p>
@@ -338,9 +338,15 @@ gtk_get_flow (GtkWidget *widget)
     <p>
       D-Bus interface descriptions contain documentation comments, and these can
       be extracted from the XML using <cmd>gdbus-codegen</cmd>, and turned into
-      DocBook files to be included by gtk-doc. Generate the documentation using
-      the rules described in the <link xref="dbus">D-Bus guidelines</link>.
+      DocBook files to be included by gtk-doc.
     </p>
+
+    <comment>
+      <p>
+        FIXME: Create a page on D-Bus and link to it. Put automake rules to
+        generate the documentation somewhere.
+      </p>
+    </comment>
 
     <p>
       The DocBook files can be included in the main <file>*-docs.xml</file> file

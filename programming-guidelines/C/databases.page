@@ -89,9 +89,16 @@
 
     <p>
       Providing a GOM tutorial is beyond the scope of this document, but a
-      <link href="https://developer.gnome.org/gom/stable/">reference manual is
+      <link href="https://developer.gnome.org/gom/0.2/">reference manual is
       available</link>.
     </p>
+
+    <comment>
+      <p>
+        FIXME: Update this link to https://developer.gnome.org/gom/stable/ once
+        it’s available.
+      </p>
+    </comment>
 
     <section id="sql-injection">
       <title>SQL Injection</title>

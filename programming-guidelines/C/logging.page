@@ -174,8 +174,7 @@ g_log_set_handler ("log-domain",
         </p></item>
         <item><p>
           Do not use  <code>g_warning()</code> in library code. Use
-          <link xref="coding-conventions#gerror-usage"><code>GError</code>s</link>
-          instead.
+          <link xref="gerror"><code>GError</code>s</link> instead.
         </p></item>
         <item><p>
           Similarly, do not set up log handlers in library code. Log messages

@@ -52,7 +52,7 @@
 
     <p>
       Validation is a complex topic, and is handled using
-      <link xref="gerrors">GErrors</link>. The remainder of this section
+      <link xref="gerror">GErrors</link>. The remainder of this section
       discusses pre- and post-condition assertions, which are purely for
       catching programmer errors. A programmer error is where a function is
       called in a way which is documented as disallowed. For example, if
