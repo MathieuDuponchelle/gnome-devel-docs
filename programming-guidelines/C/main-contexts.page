@@ -26,13 +26,6 @@
   <synopsis>
     <title>Summary</title>
 
-    <comment>
-      <p>
-        FIXME: Write a tutorial on integrating a custom poll()-loop using
-        function into a GSource and hence into GMainContext.
-      </p>
-    </comment>
-
     <list>
       <item><p>
         Use
