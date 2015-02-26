@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs.platform-demos.master\n"
-"POT-Creation-Date: 2015-02-24 07:38+0000\n"
+"POT-Creation-Date: 2015-02-25 07:40+0000\n"
 "PO-Revision-Date: 2015-02-24 18:57+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
@@ -59405,7 +59405,6 @@ msgstr ""
 
 #. (itstool) path: credit/name
 #: C/custom-gsource.c.page:11
-#| msgid "Philip Chimento"
 msgid "Philip Withnall"
 msgstr "Philip Withnall"
 
@@ -59503,7 +59502,6 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/custom-gsource.c.page:78
-#| msgid "Program Structure"
 msgid "Structure"
 msgstr "Estructura"
 
@@ -59841,13 +59839,11 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/custom-gsource.c.page:270
-#| msgid "Complete code sample"
 msgid "Complete Example"
 msgstr "Ejemplo completo"
 
 #. (itstool) path: listing/title
 #: C/custom-gsource.c.page:273
-#| msgid "Complete code sample"
 msgid "Complete Example Code"
 msgstr "Código de ejemplo completo"
 
