@@ -9,8 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs.platform-demos.master\n"
-"POT-Creation-Date: 2015-02-25 07:40+0000\n"
-"PO-Revision-Date: 2015-02-24 18:57+0100\n"
+"POT-Creation-Date: 2015-03-02 07:42+0000\n"
+"PO-Revision-Date: 2015-03-02 19:18+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "Language: \n"
@@ -59417,11 +59417,13 @@ msgstr "2015"
 #: C/custom-gsource.c.page:18
 msgid "Tutorial for writing a custom <code>GSource</code> implementation"
 msgstr ""
+"Tutorial para escribir una implementación de <code>GSource</code> "
+"personalizada"
 
 #. (itstool) path: page/title
 #: C/custom-gsource.c.page:23
 msgid "Custom GSources"
-msgstr ""
+msgstr "GSources personalizadas"
 
 #. (itstool) path: synopsis/title
 #: C/custom-gsource.c.page:26
@@ -59436,6 +59438,10 @@ msgid ""
 "org/glib/stable/glib-The-Main-Event-Loop.html#GSource\">GLib API reference</"
 "link>."
 msgstr ""
+"Este artículo es un tutorial para escribir una <code>GSource</code> "
+"personalizada. Para ver la documentación de referencia, consulte la <link "
+"href=\"https://developer.gnome.org/glib/stable/glib-The-Main-Event-Loop."
+"html#GSource\"> referencia de la API de GLib</link>."
 
 #. (itstool) path: section/title
 #: C/custom-gsource.c.page:37
@@ -59451,6 +59457,11 @@ msgid ""
 "received. An event could be a timeout or data being received on a socket, "
 "for example."
 msgstr ""
+"Una <link href=\"https://developer.gnome.org/glib/stable/glib-The-Main-Event-"
+"Loop.html#GSource\"><code>GSource</code></link> es un evento esperado con "
+"una función de retorno de llamada asociada que se invocará cuando se reciba "
+"un evento. Un evento puede ser una expiración de tiempo o datos que se "
+"reciben en un socket, por ejemplo."
 
 #. (itstool) path: section/p
 #: C/custom-gsource.c.page:46
@@ -59459,10 +59470,12 @@ msgid ""
 "applications to define their own, allowing custom events to be integrated "
 "into the main loop."
 msgstr ""
+"GLib contiene varios tipos de <code>GSource</code>, pero también permite que "
+"las aplicaciones definan las suyas propias, permitiendo integrar eventos "
+"personalizados en el bucle principal."
 
 #. (itstool) path: section/p
 #: C/custom-gsource.c.page:52
-#, fuzzy
 #| msgid ""
 #| "You can find signal definitions for any object in the <link href="
 #| "\"https://developer.gnome.org/gtk3/stable/gtkobjects.html\">GTK class "
@@ -59473,9 +59486,10 @@ msgid ""
 "stable/glib-The-Main-Event-Loop.html#GSourceFuncs\">GLib API reference</"
 "link>."
 msgstr ""
-"Puede encontrar definiciones de señales para cualquier objeto en la <link "
-"href=\"https://developer.gnome.org/gtk3/stable/gtkobjects.html\">referencia "
-"de clases de GTK+</link>."
+"La estructura de una <code>GSource</code> y sus funciones virtuales están "
+"documentadas detalladamente en la <link href=\"https://developer.gnome.org/"
+"glib/stable/glib-The-Main-Event-Loop.html#GSourceFuncs\">referencia de la "
+"API GLib</link>."
 
 #. (itstool) path: section/title
 #: C/custom-gsource.c.page:61
@@ -59489,6 +59503,9 @@ msgid ""
 "its callback whenever a message is enqueued to a queue internal to the "
 "source (potentially from another thread)."
 msgstr ""
+"Como ejemplo de ejecución, se usará una cola de fuentes de mensajes que "
+"ejecuta su función de retorno de llamada cuando se mete en la cola un "
+"mensaje en la cola interna de la fuente (potencialmente de otro hilo)."
 
 #. (itstool) path: section/p
 #: C/custom-gsource.c.page:69
@@ -59499,6 +59516,11 @@ msgid ""
 "code>. For large numbers of messages, this means a lot of allocations and "
 "frees of <code>GSource</code>s."
 msgstr ""
+"Este tipo de fuente es útil para transferir de manera eficiente un gran "
+"número de mensajes entre contextos principales. LA alternativa es transferir "
+"cada mensaje en una <code>GSource</code> libre separada, usando "
+"<code>g_source_attach()</code>. Para un gran número de mensajes esto implica "
+"reservar y liberar muchas <code>GSource</code>."
 
 #. (itstool) path: section/title
 #: C/custom-gsource.c.page:78
@@ -59513,6 +59535,10 @@ msgid ""
 "source: the queue and a function to call to free each message once finished "
 "with."
 msgstr ""
+"Primero se debe declarar una estructura para la fuente. Esta debe contener "
+"una <code>GSource</code> como su padre, seguida de los campos privados para "
+"la fuente: la cola y una función para llamar a cada mensaje libre cuando "
+"termine con él."
 
 #. (itstool) path: section/code
 #: C/custom-gsource.c.page:86
@@ -59535,7 +59561,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/custom-gsource.c.page:95
 msgid "Prepare Function"
-msgstr ""
+msgstr "Función de preparación"
 
 #. (itstool) path: section/p
 #: C/custom-gsource.c.page:97
@@ -59545,6 +59571,10 @@ msgid ""
 "memory queue, this can be determined by checking the queue’s length: if "
 "there are elements in the queue, the source can be dispatched to handle them."
 msgstr ""
+"Lo siguiente es definir la función de preparación para la fuente. Esto "
+"determina si la fuente está lista para servirse. Dado que esta fuente usa "
+"una cola en memoria, se puede determinar comprobando la longitud de la cola: "
+"si hay elementos en la cola, se puede usar la fuente para gestionarlos."
 
 #. (itstool) path: section/code
 #: C/custom-gsource.c.page:104
@@ -59558,10 +59588,9 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/custom-gsource.c.page:109
-#, fuzzy
 #| msgid "CheckButton"
 msgid "Check Function"
-msgstr "CheckButton"
+msgstr "Función de comprobación"
 
 #. (itstool) path: section/p
 #: C/custom-gsource.c.page:111
@@ -59571,11 +59600,16 @@ msgid ""
 "the field to <code>NULL</code> in <code>GSourceFuncs</code> bypasses the "
 "check function for this source type."
 msgstr ""
+"Como esta fuente no tiene descriptores de archivos, las funciones de "
+"preparación y comprobación tienen esencialmente el mismo trabajo, por lo que "
+"no se necesita la función de comprobación. Establecer el campo a <code>NULL</"
+"code> en <code>GSourceFuncs</code> evita la función de comprobación para "
+"este tipo de fuente."
 
 #. (itstool) path: section/title
 #: C/custom-gsource.c.page:120
 msgid "Dispatch Function"
-msgstr ""
+msgstr "Función de gestión"
 
 #. (itstool) path: section/p
 #: C/custom-gsource.c.page:122
@@ -59588,6 +59622,14 @@ msgid ""
 "from the queue. Further, if no callback has been set for the <code>GSource</"
 "code> (which is allowed), the message must be destroyed and silently dropped."
 msgstr ""
+"Para esta fuente, es en la función de gestión donde reside la complejidad. "
+"Debe sacar de la cola un mensaje y pasarlo a la función de retorno de "
+"llamada de la <code>GSource</code>. No se deben quedar mensajes en la cola: "
+"aunque la función devuelva verdadero, otra fuente que abstraiga la misma "
+"cola se puede haber gestionado en este tiempo y haber tomado el mensaje "
+"final de la cola. Además, si no se ha establecido una función de retorno de "
+"llamada para la <code>GSource</code> (algo que está permitido), el mensaje "
+"puede destruirse y descartarse silenciosamente."
 
 #. (itstool) path: section/p
 #: C/custom-gsource.c.page:133
@@ -59598,6 +59640,12 @@ msgid ""
 "<code>TRUE</code> to keep it alive, just as for <code>GSourceFunc</code> — "
 "these semantics are the same for all dispatch function implementations."
 msgstr ""
+"Si se han definido el mensaje y la función de retorno de llamada, se puede "
+"llamar a esta última sobre el mensaje y devolverá el valor propagado como "
+"valor de retorno de la función de gestión. Este es <code>FALSE</code> para "
+"destruir la <code>GSource</code> y <code>TRUE</code> para mantenerla, igual "
+"que para <code>GSourceFunc</code>: estas consideraciones semánticas son las "
+"mismas para todas las implementaciones de las funciones de gestión."
 
 #. (itstool) path: section/code
 #: C/custom-gsource.c.page:141
@@ -59667,6 +59715,10 @@ msgid ""
 "<code>GSourceFunc</code>. It can be whatever function type is called in the "
 "source’s dispatch function, as long as that type is sufficiently documented."
 msgstr ""
+"La función de retorno de llamada de una <code>GSource</code> no tiene que "
+"tener un tipo <code>GSourceFunc</code>. Puede ser una función de cualquier "
+"tipo a la que se llame en la función de gestión de la fuente, ya que este "
+"tipo está suficientemente documentado."
 
 #. (itstool) path: section/p
 #: C/custom-gsource.c.page:178
@@ -59676,6 +59728,10 @@ msgid ""
 "strong reference can be held to keep an object alive while the source is "
 "still alive:"
 msgstr ""
+"Normalmente se usa <code>g_source_set_callback()</code> para configurar la "
+"función de retorno de llamada para una instancia de una fuente. Cuando es "
+"<code>GDestroyNotify</code> se hace una referencia fuerte para mantener vivo "
+"un objeto mientras la fuente sigue viva:"
 
 #. (itstool) path: section/code
 #: C/custom-gsource.c.page:184
@@ -59701,6 +59757,13 @@ msgid ""
 "finalized — a <em>weak</em> reference, in contrast to the <em>strong</em> "
 "reference above:"
 msgstr ""
+"Sin embargo, <code>GSource</code> tiene una capa de indirección para obtener "
+"esta función de retorno de llamada, disponible mediante "
+"<code>g_source_set_callback_indirect()</code>. Esto permite a GObject "
+"establecer una <code>GClosure</code> como función de retorno de llamada de "
+"una fuente, lo que permite que las fuentes se destruyan automáticamente "
+"cuando un objeto termina: una referencia <em>débil</em>, en contraste con la "
+"referencia <em>fuerte</em> mencionada anteriormente:"
 
 #. (itstool) path: section/code
 #: C/custom-gsource.c.page:197
@@ -59723,6 +59786,9 @@ msgid ""
 "used when a source needs to exist but no action needs to be performed in its "
 "callback:"
 msgstr ""
+"También permite una función de retorno de llamada «tonta» basada en el "
+"cierre, que se puede usar cuando una fuente debe existir pero no se necesita "
+"realizar ninguna acción en su retorno:"
 
 #. (itstool) path: section/code
 #: C/custom-gsource.c.page:207
@@ -59747,17 +59813,29 @@ msgid ""
 "practice to expose new source types simply as <code>GSource</code>s, not as "
 "the subtype structure; so the constructor returns a <code>GSource*</code>."
 msgstr ""
+"Finalmente se puede escribir la definición de las <code>GSourceFuncs</code> "
+"de la <code>GSource</code> junto con la función de construcción de las "
+"<code>GSource</code>. Normalmente es práctico exponer los nuevos tipos de "
+"fuentes como <code>GSource</code> y no como el subtipo de la estructura; de "
+"este modo, el constructor devuelve un <code>GSource*</code>."
 
 #. (itstool) path: section/p
 #: C/custom-gsource.c.page:222
 msgid ""
 "The example constructor here also demonstrates use of a child source to "
 "support cancellation conveniently. If the <code>GCancellable</code> is "
-"cancelled, the applicationj’s callback will be dispatched and can check for "
+"cancelled, the application’s callback will be dispatched and can check for "
 "cancellation. (The application code will need to make a pointer to the "
 "<code>GCancellable</code> available to its callback, as a field of the "
-"callback’s user data set in <code>g_source_set_callback()</code>.)"
+"callback’s user data set in <code>g_source_set_callback()</code>)."
 msgstr ""
+"Aquí el constructor de ejemplo también muestra el uso de una fuente hija "
+"para soportar la cancelación adecuadamente. Si se cancela la "
+"<code>GCancellable</code> se gestiona el retorno de la aplicación y se puede "
+"comprobar la cancelación. (El código de la aplicación deberá crear un "
+"puntero a la <code>GCancellable</code> disponible para la función de "
+"retorno, como un campo de los datos de usuario de la función de retorno "
+"configurada en <code>g_source_set_callback()</code>)."
 
 #. (itstool) path: section/code
 #: C/custom-gsource.c.page:230
@@ -60187,10 +60265,9 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/custom-gsource.c.page:282
-#, fuzzy
 #| msgid "Furthermore:"
 msgid "Further Examples"
-msgstr "Además:"
+msgstr "Ejemplos adicionales"
 
 #. (itstool) path: section/p
 #: C/custom-gsource.c.page:284
@@ -60203,6 +60280,13 @@ msgid ""
 "c#n941\">component.c</link> and demonstrates a more complex use of the "
 "prepare function."
 msgstr ""
+"Las fuentes pueden ser más complejas que las dadas en el ejemplo anterior. "
+"En <link href=\"http://nice.freedesktop.org/\">libnice</link>, se necesita "
+"una <code>GSource</code> personalizada para sondear un conjunto de sockets "
+"que cambia dinámicamente. La implementación se da como "
+"<code>ComponentSource</code> en <link href=\"http://cgit.freedesktop.org/"
+"libnice/libnice/tree/agent/component.c#n941\">component.c</link> y muestra "
+"un uso más complejo de la función de preparación."
 
 #. (itstool) path: section/p
 #: C/custom-gsource.c.page:293
@@ -60214,6 +60298,12 @@ msgid ""
 "main thread and a TLS worker thread which performs the blocking TLS "
 "operations."
 msgstr ""
+"Otro ejemplo es una fuente personalizada para que sirva de interfaz de "
+"GnuTLS con GLib en su implementación de <code>GTlsConnection</code>. <link "
+"href=\"https://git.gnome.org/browse/glib-networking/tree/tls/gnutls/"
+"gtlsconnection-gnutls.c#n871\"><code>GTlsConnectionGnutlsSource</code></"
+"link> sincroniza el hilo principal y un hilo trabajador TLS que realiza las "
+"operaciones de bloqueo de TLS."
 
 #~ msgctxt "text"
 #~ msgid "Tutorial for beginners (C)"
