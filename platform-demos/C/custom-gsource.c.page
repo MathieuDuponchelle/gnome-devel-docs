@@ -222,10 +222,10 @@ g_source_set_dummy_callback (source);</code>
       <p>
         The example constructor here also demonstrates use of a child source to
         support cancellation conveniently. If the <code>GCancellable</code> is
-        cancelled, the applicationj’s callback will be dispatched and can check
+        cancelled, the application’s callback will be dispatched and can check
         for cancellation. (The application code will need to make a pointer to
         the <code>GCancellable</code> available to its callback, as a field of the
-        callback’s user data set in <code>g_source_set_callback()</code>.)
+        callback’s user data set in <code>g_source_set_callback()</code>).
       </p>
       <code mime="text/x-csrc">
 GSource *
