@@ -7,14 +7,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2014-11-22 07:31+0000\n"
-"PO-Revision-Date: 2015-02-12 14:42+0300\n"
+"POT-Creation-Date: 2015-03-03 19:38+0000\n"
+"PO-Revision-Date: 2015-03-04 15:09+0300\n"
 "Last-Translator: Yuri Myasoedov <ymyasoedov@yandex.ru>\n"
 "Language-Team: русский <gnome-cyr@gnome.org>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 "X-Generator: Gtranslator 2.91.6\n"
@@ -62,7 +62,7 @@ msgstr ""
 #: C/sliders.page:7 C/spin-boxes.page:7 C/switches.page:7 C/tabs.page:7
 #: C/text-fields.page:7 C/toolbars.page:7 C/typography.page:7
 #: C/ui-elements.page:7 C/view-switchers.page:8 C/visual-layout.page:7
-#: C/writing-style.page:7
+#: C/writing-style.page:10
 msgid "Allan Day"
 msgstr "Алан Дэй (Allan Day)"
 
@@ -120,7 +120,7 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/action-bars.page:30 C/check-boxes.page:32 C/radio-buttons.page:32
-#: C/sidebar-lists.page:42 C/sliders.page:48 C/writing-style.page:31
+#: C/sidebar-lists.page:42 C/sliders.page:48 C/writing-style.page:42
 msgid "Guidelines"
 msgstr "Рекомендации"
 
@@ -733,7 +733,7 @@ msgstr ""
 #: C/keyboard-input.page:11 C/menu-bars.page:11 C/menus.page:11
 #: C/progress-bars.page:11 C/radio-buttons.page:11 C/sliders.page:11
 #: C/spin-boxes.page:11 C/tabs.page:11 C/text-fields.page:11
-#: C/toolbars.page:11 C/visual-layout.page:11 C/writing-style.page:11
+#: C/toolbars.page:11 C/visual-layout.page:11 C/writing-style.page:14
 msgid "Calum Benson"
 msgstr "Калум Бенсон (Calum Benson)"
 
@@ -742,7 +742,7 @@ msgstr "Калум Бенсон (Calum Benson)"
 #: C/keyboard-input.page:14 C/menu-bars.page:14 C/menus.page:14
 #: C/progress-bars.page:14 C/radio-buttons.page:14 C/sliders.page:14
 #: C/spin-boxes.page:14 C/tabs.page:14 C/text-fields.page:14
-#: C/toolbars.page:14 C/visual-layout.page:14 C/writing-style.page:14
+#: C/toolbars.page:14 C/visual-layout.page:14 C/writing-style.page:17
 msgid "Adam Elman"
 msgstr "Адам Элман (Adam Elman)"
 
@@ -751,7 +751,7 @@ msgstr "Адам Элман (Adam Elman)"
 #: C/keyboard-input.page:17 C/menu-bars.page:17 C/menus.page:17
 #: C/progress-bars.page:17 C/radio-buttons.page:17 C/sliders.page:17
 #: C/spin-boxes.page:17 C/tabs.page:17 C/text-fields.page:17
-#: C/toolbars.page:17 C/visual-layout.page:17 C/writing-style.page:17
+#: C/toolbars.page:17 C/visual-layout.page:17 C/writing-style.page:20
 msgid "Seth Nickell"
 msgstr "Сэт Никел (Seth Nickell)"
 
@@ -760,7 +760,7 @@ msgstr "Сэт Никел (Seth Nickell)"
 #: C/keyboard-input.page:20 C/menu-bars.page:20 C/menus.page:20
 #: C/progress-bars.page:20 C/radio-buttons.page:20 C/sliders.page:20
 #: C/spin-boxes.page:20 C/tabs.page:20 C/text-fields.page:20
-#: C/toolbars.page:20 C/visual-layout.page:20 C/writing-style.page:20
+#: C/toolbars.page:20 C/visual-layout.page:20 C/writing-style.page:23
 msgid "Colin Robertson"
 msgstr "Колин Робертсон (Colin Robertson)"
 
@@ -2426,7 +2426,7 @@ msgstr ""
 
 #. (itstool) path: td/p
 #. (itstool) path: info/desc
-#: C/essentials.page:48 C/writing-style.page:23
+#: C/essentials.page:48 C/writing-style.page:33
 msgid "Writing text for your user interface, including capitalization rules."
 msgstr "Использование текста в пользовательском интерфейсе."
 
@@ -3149,6 +3149,9 @@ msgid ""
 "Convention establishes which icons will be recognized. If you are in doubt, "
 "stick to icons which are frequently used in other applications."
 msgstr ""
+"При выборе значков следуйте устоявшимся соглашениям об использовании "
+"значков. Если сомневатесь, посмотрите, какие значки используются в других "
+"приложениях."
 
 #. (itstool) path: item/p
 #: C/icons-and-artwork.page:30
@@ -3837,13 +3840,12 @@ msgstr ""
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:64
-#, fuzzy
 msgid ""
 "Moves keyboard focus out of the enclosing widget to the next/previous "
 "control, in those situations where Tab alone has another function"
 msgstr ""
-"Переводит фокус клавиатуры с на следующий управляющий элемент (в тех "
-"случаях, когда Tab используется для других функций)."
+"Переводит фокус клавиатуры с ограничивающего виджета на следующий/предыдущий "
+"элемент управления (в случаях, когда Tab зарезервирован для других функций)"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:68
@@ -3871,6 +3873,8 @@ msgstr "<keyseq><key>Shift</key><key>F1</key></keyseq>"
 #: C/keyboard-input.page:76
 msgid "Show context-sensitive help for the currently-focused window or control"
 msgstr ""
+"Показать контекстно-зависимую справку по текущему окну или элементу "
+"управления с фокусом"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:79
@@ -4058,25 +4062,23 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/keyboard-input.page:137
-#, fuzzy
 msgid ""
 "Do not assign system-level shortcut keys for use in your application. See "
 "below for details on these."
 msgstr ""
-"Не назначайте в своём приложении быстрые клавиши, зарезервированные под "
-"системные нужды. "
+"Не назначайте в приложении быстрые клавиши, зарезервированные под системные "
+"нужды. Подробнее см. ниже."
 
 #. (itstool) path: item/p
 #: C/keyboard-input.page:138
-#, fuzzy
 msgid ""
 "Use the standard GNOME shortcut keys (see below) if your application "
 "supports those functions. This ensures consistency between GNOME "
 "applications and aids discoverability."
 msgstr ""
-"Используйте стандартные быстрые клавиши GNOME, если ваше приложение "
-"поддерживает связанные с ними функции. Это обеспечит непротиворечивость "
-"между приложениями GNOME и "
+"Используйте стандартные быстрые клавиши GNOME (см. ниже), если ваше "
+"приложение поддерживает эту функции. Это сохранит понятность и "
+"непротиворечивость между приложениями GNOME."
 
 #. (itstool) path: item/p
 #: C/keyboard-input.page:139
@@ -4479,7 +4481,6 @@ msgstr "Изменить размер текущего окна"
 
 #. (itstool) path: section/p
 #: C/keyboard-input.page:259
-#, fuzzy
 msgid ""
 "In addition, the shortcuts for Unicode character entry should also be "
 "avoided. This includes <keyseq><key>Shift</key><key>Ctrl</key><key>A</key></"
@@ -4487,9 +4488,9 @@ msgid ""
 "keyseq>, or <keyseq><key>Shift</key><key>Ctrl</key><key>0</key></keyseq> "
 "through to <keyseq><key>Shift</key><key>Ctrl</key><key>9</key></keyseq>."
 msgstr ""
-"Также не используйте быстрые клавиши для полей ввода символов Юникода: от "
-"<keyseq><key>Shift</key><key>Ctrl</key><key>A</key></keyseq> до "
-"<keyseq><key>Shift</key><key>Ctrl</key><key>F</key></keyseq> или от "
+"Также не используйте быстрые клавиши в полях ввода, принимающих символы "
+"Юникода: от <keyseq><key>Shift</key><key>Ctrl</key><key>A</key></keyseq> до "
+"<keyseq><key>Shift</key><key>Ctrl</key><key>F</key></keyseq> и от "
 "<keyseq><key>Shift</key><key>Ctrl</key><key>0</key></keyseq> до "
 "<keyseq><key>Shift</key><key>Ctrl</key><key>9</key></keyseq>."
 
@@ -4637,7 +4638,7 @@ msgstr ""
 #. (itstool) path: td/p
 #: C/keyboard-input.page:329
 msgid "<gui>Open Recent</gui>"
-msgstr ""
+msgstr "<gui>Недавние файлы</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:331
@@ -4645,6 +4646,8 @@ msgid ""
 "A submenu which contains a list of no more than six recently used files, "
 "ordered according to most recently used."
 msgstr ""
+"Подменю со списком не более 6 недавно используемых файлов, упорядоченным по "
+"дате использования файлов."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:334
@@ -4966,7 +4969,6 @@ msgstr ""
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:424
-#, fuzzy
 msgid "<gui>Paste Special…</gui>"
 msgstr "<gui>Специальная вставка…</gui>"
 
@@ -4985,6 +4987,12 @@ msgid ""
 "inserted so that changes to the image on disk are always reflected in the "
 "document."
 msgstr ""
+"Вставляет представление содержимого из буфера обмена. Открывает диалог со "
+"списком доступных форматов, из которых пользователь выбирает нужный ему "
+"формат. Например, если в буфере обмена находится файл PNG, скопированный из "
+"файлового менеджера, вы можете встроить изображение в документ или вставить "
+"ссылку на файл с изображением (любое изменение файла с изображением на диске "
+"будет автоматически отображено в документе)."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:429
@@ -6153,6 +6161,10 @@ msgid ""
 "incorporate space for a menu bar in their user environment, and a menu model "
 "can be desirable for cross-platform integration purposes."
 msgstr ""
+"В то же время, применение панели меню уместно в сложных приложениях, в "
+"которых уже есть панель меню. Кроме того, некоторые платформы включают "
+"область для панели меню в свои пользовательские окружения, и модель меню "
+"может оказаться полезной при кросс-платформенной интеграции."
 
 #. (itstool) path: section/title
 #: C/menu-bars.page:41
@@ -6543,6 +6555,11 @@ msgid ""
 "Label menu items with verbs for commands and adjectives for settings, using "
 "<link xref=\"writing-style#capitalization\">header capitalization</link>."
 msgstr ""
+"В качестве меток в меню используйте глаголы, если это команда, или "
+"существительные, если это параметр. При использовании английского языка "
+"текстовые метки должны записываться согласно <link xref=\"writing-"
+"style#capitalization\">правилу использования прописных букв в заголовках</"
+"link>."
 
 #. (itstool) path: item/p
 #: C/menus.page:61
@@ -6550,6 +6567,8 @@ msgid ""
 "Use <link xref=\"writing-style#ellipses\">ellipses</link> when a menu item "
 "requires further input from the user to complete an action."
 msgstr ""
+"Применяйте <link xref=\"writing-style#ellipses\">многоточие</link>, если для "
+"выполнения действия элементу меню требуется ввод от пользователя."
 
 #. (itstool) path: item/p
 #: C/menus.page:62
@@ -6560,6 +6579,12 @@ msgid ""
 "are logical opposites which are obvious to users. Likewise, do not use this "
 "technique for settings - use check boxes or radio buttons instead."
 msgstr ""
+"Два связанных действия можно объединить в один элемент меню, изменяя текст "
+"метки при выборе элемента. Например, элемент <gui>Воспроизвести</gui> можно "
+"изменять на <gui>Приостановить</gui>. Применяйте подобные элементы только в "
+"тех случаях, когда оба действия по смыслу противоположны друг другу и "
+"очевидны для пользователя. В противном случае применяйте флажки или радио-"
+"кнопки."
 
 #. (itstool) path: page/title
 #: C/notifications.page:14
@@ -6705,11 +6730,16 @@ msgid ""
 "notification about a new email should show the relevant email message when "
 "activated, for example."
 msgstr ""
+"Действие по умолчанию должно всегда закрывать уведомление и показывать окно "
+"приложения, которое отправило уведомление. Если уведомление относится к "
+"определённой части интерфейса в вашем приложении, действие по умолчанию "
+"должно открывать эту часть интерфейса. Например, действие по умолчанию для "
+"уведомлений о новых письмах должно открывать соответствующее письмо."
 
 #. (itstool) path: section/title
 #: C/notifications.page:72
 msgid "Notification actions"
-msgstr ""
+msgstr "Действия уведомлений"
 
 #. (itstool) path: section/p
 #: C/notifications.page:74
@@ -6717,6 +6747,8 @@ msgid ""
 "You can provide useful functionality by embedding buttons in notifications. "
 "This allows users to quickly and easily respond to the notification."
 msgstr ""
+"В уведомления можно встраивать полезные кнопки, с помощью которых "
+"пользователи могут быстро обрабатывать уведомления."
 
 #. (itstool) path: item/p
 #: C/notifications.page:77
@@ -6725,6 +6757,9 @@ msgid ""
 "and should not provide generic actions for your application. This ensures "
 "that each notification has a clear focus and purpose."
 msgstr ""
+"Действия в уведомлениях должны относиться к содержимому уведомлений и не "
+"должны предоставлять общий действий для вашего приложения. Таким образом "
+"любое уведомление будет иметь понятное назначение."
 
 #. (itstool) path: item/p
 #: C/notifications.page:78
@@ -6732,6 +6767,7 @@ msgid ""
 "Only use notification actions when the functionality that they provide is "
 "commonly required."
 msgstr ""
+"Используйте действия в уведомлениях, когда они действительно необходимы."
 
 #. (itstool) path: item/p
 #: C/notifications.page:79
@@ -6739,6 +6775,9 @@ msgid ""
 "Actions shold not replace user interface controls elsewhere - it should be "
 "possible to take the same actions from your application’s windows."
 msgstr ""
+"Действия не должны заменять какие-либо элементы управления пользовательского "
+"интерфейса, любое действие уведомления должно быть доступно в интерфейсе "
+"приложения."
 
 #. (itstool) path: item/p
 #: C/notifications.page:80
@@ -6746,6 +6785,8 @@ msgid ""
 "It is not necessary to always use notification actions, and many "
 "notifications will not require them."
 msgstr ""
+"Необязательно всегда использовать действия в уведомлениях, многим "
+"уведомлениях не нужны действия."
 
 #. (itstool) path: item/p
 #: C/notifications.page:81
@@ -6754,11 +6795,14 @@ msgid ""
 "new email notification does not need to include an Open button, since the "
 "default action should already perform this action."
 msgstr ""
+"Действия в уведомлениях не должны дублировать действие по умолчанию. "
+"Например, в уведомление о новом письме не нужно добавлять кнопку для "
+"открытия письма, поскольку действие по умолчанию уже выполняет это действие."
 
 #. (itstool) path: section/title
 #: C/notifications.page:88
 msgid "General guidance"
-msgstr ""
+msgstr "Общие рекомендации"
 
 #. (itstool) path: item/p
 #: C/notifications.page:91
@@ -6769,6 +6813,10 @@ msgid ""
 "notifications, and question whether users really need to be informed about "
 "the events you want to communicate."
 msgstr ""
+"Не отвлекайте пользователей уведомлениями понапрасну. Уведомления могут "
+"надоедать и не заставят пользователей больше любить ваше приложение. Поэтому "
+"всегда с осторожностью подходите к использованию уведомлений, подумайте, "
+"действительно ли нужно информировать пользователей о событиях."
 
 #. (itstool) path: item/p
 #: C/notifications.page:92
@@ -6780,6 +6828,12 @@ msgid ""
 "notification for each new message, it is a good idea for each notification "
 "to provide a summary of new messages."
 msgstr ""
+"Приложениях, в которых появляется множество уведомлений, например в клиентах "
+"для электронной почты или мессенджерах, существует риск завалить "
+"пользователя уведомлениями. В подобных приложениях должны быть реализованы "
+"функции по ограничению частоты отправляемых уведомлений. Вместо того, чтобы "
+"показывать по одному уведомлению для каждого нового сообщения, можно "
+"показать одно уведомление с кратким списком всех новых сообщений."
 
 #. (itstool) path: item/p
 #: C/notifications.page:93
@@ -6788,6 +6842,9 @@ msgid ""
 "It is therefore important to remove notification messages that are no longer "
 "relevant to the user."
 msgstr ""
+"В GNOME 3 все уведомления после того, как они появились на экране, "
+"сохраняются. Поэтому важно удалять сообщения, которые больше неактуальны для "
+"пользователя."
 
 #. (itstool) path: item/p
 #: C/notifications.page:95
@@ -6797,6 +6854,10 @@ msgid ""
 "window is focused, notification messages should be treated as having been "
 "read, and should be removed."
 msgstr ""
+"Окно вашего приложения должно обеспечивать обратную связь со всеми "
+"событиями, о которых сообщают уведомления. То есть когда окно вашего "
+"приложения находится в фокусе, сообщения уведомлений должны обрабатываться "
+"как прочитанные и должны удаляться."
 
 #. (itstool) path: item/p
 #: C/notifications.page:96
@@ -6805,6 +6866,9 @@ msgid ""
 "For example, a notification for a weather warning that has been revoked "
 "should be removed."
 msgstr ""
+"Убедитесь, что ваше приложение удаляет неактуальные уведомления. Например, "
+"предупреждение о неблагоприятных погодных условиях должно быть удалено, как "
+"только оно будет отозвано."
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -7951,6 +8015,9 @@ msgid ""
 "remaining progress bar, followed by typical-time. Try to avoid using "
 "indeterminate progress bars."
 msgstr ""
+"Индикаторы выполнения должны быть по возможности точными. Применяйте "
+"индикаторы на основе времени с указанием типичного времени, если это "
+"возможно. Избегайте неопределённых индикаторов."
 
 #. (itstool) path: section/title
 #: C/progress-bars.page:56
@@ -7996,6 +8063,12 @@ msgid ""
 "\"typography\">typographic conventions</link> to differente the most useful "
 "information."
 msgstr ""
+"Для длительных задач в тексте индикатора можно показывать приблизительное "
+"оставшееся время. Текст может состоять только из этого времени, если по "
+"задаче нет другой информации. Второй вариант — располагать текст с временем "
+"над индикатором задачи, но будьте осторожны, не перегрузите пользователя "
+"информацией, следуйте <link xref=\"typography\">типографическим соглашениям</"
+"link> для выделения наиболее важной информации."
 
 #. (itstool) path: item/p
 #: C/progress-bars.page:64
@@ -8003,6 +8076,9 @@ msgid ""
 "If the time remaining is an estimate, use the word <gui>about</gui>. For "
 "example: <gui>About 3 minutes left</gui>."
 msgstr ""
+"Если оставшееся время известно лишь приблизительно, используйте слово "
+"«<gui>около</gui>» (<gui>about</gui>). Например: <gui>Осталось около 3 "
+"минут</gui> (<gui>About 3 minutes left</gui>)."
 
 #. (itstool) path: section/title
 #: C/progress-bars.page:70
@@ -8052,6 +8128,11 @@ msgid ""
 "attempt to keep the number of progress bar mode changes to an absolute "
 "minimum. Avoid indeterminate progress wherever possible."
 msgstr ""
+"Если задача содержит этап с неопределённой степенью исполнения, для части "
+"задачи индикатор выполнения можно показать в виде неопределённого "
+"выполнения. Однако не следует показывать неопределённый индикатор длительное "
+"время, старайтесь свести к минимуму изменения режима индикатора выполнения. "
+"Применяйте неопределённый индикатор только в крайнем случае."
 
 #. (itstool) path: section/title
 #: C/progress-bars.page:83
@@ -8078,6 +8159,9 @@ msgid ""
 "individual sub-task. (As an alternative, completion of each sub-task can be "
 "indicated with progress text.)"
 msgstr ""
+"Есть пользователю необходимо видеть степень выполнения каждой отдельной "
+"подзадачи. (Как вариант, выполнение каждой подзадачи можно отображать с "
+"помощью текста в индикаторе выполнения)."
 
 #. (itstool) path: item/p
 #: C/progress-bars.page:89
@@ -8520,14 +8604,15 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/search.page:25
-#, fuzzy
 msgid ""
 "Search is a great way to make it easy for users to find what it is they are "
 "looking for, and its consistent availability means that users can rely on "
 "and expect it to be present."
 msgstr ""
-"С помощью поиска пользователи легко могут находить нужные им элементы. "
-"Пользователи полагаются на поиск и ожидают, что он реализован в приложении."
+"Поиск — это великолепное средство, с помощью которого пользователи могут "
+"находить интересующую их информацию. Принцип постоянной доступности поиска в "
+"приложениях GNOME подразумевает, что пользователи могут положиться на поиск "
+"и ожидают, что он реализован в приложении."
 
 #. (itstool) path: section/p
 #: C/search.page:27
@@ -9747,7 +9832,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/toolbars.page:36
-#, fuzzy
 msgid ""
 "While toolbars are a common approach, there are cases where they are not the "
 "most effective. Interfaces that focus on direct manipulation, or which make "
@@ -9756,8 +9840,13 @@ msgid ""
 "should only be pursued by those who are confident in pursuing more original "
 "design solutions."
 msgstr ""
-"Поскольку панели инструментов являются общим , существуют, где они не. "
-"Интерфейсы, рассчитанные на прямое управление"
+"Панели инструментов применяются очень часто, но есть случаи, когда они "
+"неэффективны. Иногда более подходящим решением являются интерфейсы, которые "
+"рассчитанны на прямое управление или в которых активно используется "
+"последовательное раскрытие (progressive disclosure). На реализацию каждого "
+"из этих подходов требуется больше времени и усилий на этапе проектирования, "
+"они должны применяться только в том случае, если вы уверены, что вам нужно "
+"такое оригинальное дизайнерское решение."
 
 #. (itstool) path: item/p
 #: C/toolbars.page:44
@@ -9783,7 +9872,7 @@ msgstr ""
 "Придерживайтесь существующих соглашений для панелей инструментов. Например, "
 "главная панель инструментов в офисных приложениях почти всегда начинается с "
 "кнопок создания, открытия и сохранения. Аналогично, в браузерах панель "
-"инструментов начинается с кнопок <gui>Назад</gui> и </gui>Вперёд</gui>."
+"инструментов начинается с кнопок <gui>Назад</gui> и <gui>Вперёд</gui>."
 "используются."
 
 #. (itstool) path: item/p
@@ -9845,7 +9934,7 @@ msgstr "Уильям Джон МакКанн (William Jon McCann)"
 #. (itstool) path: info/desc
 #: C/typography.page:14
 msgid "Font sizes, weights and styles, and special characters."
-msgstr ""
+msgstr "Размеры, насыщенности и стили шрифтов. Специальные символы."
 
 #. (itstool) path: page/title
 #: C/typography.page:17
@@ -10527,13 +10616,23 @@ msgstr ""
 "будут расположены выше и левее подчинённых им элементов. Ключевым шаблоном в "
 "решении данной задачи являются панели заголовков."
 
-#. (itstool) path: page/title
+#. (itstool) path: credit/name
 #: C/writing-style.page:26
+msgid "Ekaterina Gerasimova"
+msgstr "Екатерина Герасимова"
+
+#. (itstool) path: credit/years
+#: C/writing-style.page:28
+msgid "2015"
+msgstr "2015"
+
+#. (itstool) path: page/title
+#: C/writing-style.page:37
 msgid "Writing style"
 msgstr "Использование текста"
 
 #. (itstool) path: page/p
-#: C/writing-style.page:28
+#: C/writing-style.page:39
 msgid ""
 "Text plays an important role in user interfaces. Take the time to ensure "
 "that any text you use is clearly written and easy to understand."
@@ -10542,7 +10641,7 @@ msgstr ""
 "время, чтобы убедиться, что весь текст написан понятно."
 
 #. (itstool) path: section/p
-#: C/writing-style.page:33
+#: C/writing-style.page:44
 msgid ""
 "Your main goal should be to ensure that text is easy to understand and quick "
 "to read."
@@ -10550,7 +10649,7 @@ msgstr ""
 "Главное, чтобы текст легко и быстро читался, его смысл должен быть понятен."
 
 #. (itstool) path: item/p
-#: C/writing-style.page:36
+#: C/writing-style.page:47
 msgid ""
 "Keep text short and to the point. This improves speed of comprehension for "
 "the user. It also reduces the expansion of text when translated (remember "
@@ -10562,7 +10661,7 @@ msgstr ""
 "до 30%)."
 
 #. (itstool) path: item/p
-#: C/writing-style.page:37
+#: C/writing-style.page:48
 msgid ""
 "Do not shorten your text to the point of losing meaning. A three-word label "
 "that provides clear information is better than a one-word label that is "
@@ -10575,7 +10674,7 @@ msgstr ""
 "передадут смысл текстовой метки."
 
 #. (itstool) path: item/p
-#: C/writing-style.page:38
+#: C/writing-style.page:49
 msgid ""
 "Use words, phrases, and concepts that are familiar to the people who will be "
 "using your application, rather than terms from the underlying system. This "
@@ -10592,7 +10691,7 @@ msgstr ""
 "болезни, а не запись о пациенте в базе данных."
 
 #. (itstool) path: item/p
-#: C/writing-style.page:39
+#: C/writing-style.page:50
 msgid ""
 "Use the standard GNOME terms when referring to parts of the user interface, "
 "such as ‘pointer’ and ‘window’. You can find a full list of these in the "
@@ -10604,17 +10703,17 @@ msgstr ""
 "Terminology)."
 
 #. (itstool) path: item/p
-#: C/writing-style.page:40
+#: C/writing-style.page:51
 msgid "Avoid repetition where possible."
 msgstr "Избегайте по возможности повторов."
 
 #. (itstool) path: section/title
-#: C/writing-style.page:46
+#: C/writing-style.page:57
 msgid "Capitalization"
 msgstr "Использование прописных букв"
 
 #. (itstool) path: section/p
-#: C/writing-style.page:48
+#: C/writing-style.page:59
 msgid ""
 "Two styles of capitalization are used in GNOME user interfaces: header "
 "capitalization and sentence capitalization."
@@ -10626,12 +10725,12 @@ msgstr ""
 "вида использования прописных букв: в заголовке и в предложении."
 
 #. (itstool) path: section/title
-#: C/writing-style.page:51
+#: C/writing-style.page:62
 msgid "Header Capitalization"
 msgstr "Прописные буквы в заголовке"
 
 #. (itstool) path: section/p
-#: C/writing-style.page:53
+#: C/writing-style.page:64
 msgid ""
 "Header capitalization should be used for any headings, including header bar "
 "headings and page, tab and menu titles. It should also be used for short "
@@ -10644,32 +10743,32 @@ msgstr ""
 "метки на кнопка, переключателях и элементах меню)."
 
 #. (itstool) path: section/p
-#: C/writing-style.page:55 C/writing-style.page:73
+#: C/writing-style.page:66 C/writing-style.page:84
 msgid "Capitalize the first letter of:"
 msgstr "Используйте прописную букву:"
 
 #. (itstool) path: item/p
-#: C/writing-style.page:58
+#: C/writing-style.page:69
 msgid "All words with four or more letters."
 msgstr "для всех слов меньше четырёх букв;"
 
 #. (itstool) path: item/p
-#: C/writing-style.page:59
+#: C/writing-style.page:70
 msgid "Verbs of any length, such as “Be”, “Are”, “Is”, “See” and “Add”."
 msgstr "глаголов любой длины («Be», «Are», «Is», «See» и «Add»)."
 
 #. (itstool) path: item/p
-#: C/writing-style.page:60
+#: C/writing-style.page:71
 msgid "The first and last word."
 msgstr "в первом и последнем слове."
 
 #. (itstool) path: item/p
-#: C/writing-style.page:61
+#: C/writing-style.page:72
 msgid "Hyphenated words; for example: “Self-Test” or “Post-Install”."
 msgstr "в словах, содержащих дефис («Self-Test» или «Post-Install»)."
 
 #. (itstool) path: section/p
-#: C/writing-style.page:64
+#: C/writing-style.page:75
 msgid ""
 "For example: “Create a Document”, “Find and Replace”, “Document Cannot Be "
 "Found”."
@@ -10678,12 +10777,12 @@ msgstr ""
 "Found»."
 
 #. (itstool) path: section/title
-#: C/writing-style.page:69
+#: C/writing-style.page:80
 msgid "Sentence Capitalization"
 msgstr "Прописные буквы в предложении"
 
 #. (itstool) path: section/p
-#: C/writing-style.page:71
+#: C/writing-style.page:82
 msgid ""
 "Sentence capitalization should be used for labels that form sentences or "
 "that run on to other text, including labels for check boxes, radio buttons, "
@@ -10697,19 +10796,19 @@ msgstr ""
 "окнах, уведомлениях и т. п."
 
 #. (itstool) path: item/p
-#: C/writing-style.page:76
+#: C/writing-style.page:87
 msgid "The first word."
 msgstr "в первом слове предложения;"
 
 #. (itstool) path: item/p
-#: C/writing-style.page:77
+#: C/writing-style.page:88
 msgid "Any words normally capitalized in sentences, such as proper nouns."
 msgstr ""
 "во всех словах, которые обычно пишутся в предложениях с прописной буквы, "
 "например имена собственные."
 
 #. (itstool) path: section/p
-#: C/writing-style.page:80
+#: C/writing-style.page:91
 msgid ""
 "For example: “The document cannot be found in this location.” “Finding "
 "results for London.”"
@@ -10718,33 +10817,43 @@ msgstr ""
 "results for London.»."
 
 #. (itstool) path: section/title
-#: C/writing-style.page:86
+#: C/writing-style.page:97
 msgid "Ellipses (…)"
 msgstr "Использование многоточия (…)"
 
 #. (itstool) path: section/p
-#: C/writing-style.page:88
+#: C/writing-style.page:99
+#| msgid ""
+#| "Use an ellipsis (…) at the end of a label if the action requires further "
+#| "input from the user before it can be carried out. For example, <gui>Save "
+#| "As…</gui>, <gui>Find…</gui> or <gui>Rename…</gui>."
 msgid ""
-"Use an ellipsis (…) at the end of a label if the action requires further "
-"input from the user before it can be carried out. For example, <gui>Save As…"
-"</gui>, <gui>Find…</gui> or <gui>Rename…</gui>."
+"Use an ellipsis (…) at the end of a label if further input or confirmation "
+"is required from the user before the action can be carried out. For example, "
+"<gui>Save As…</gui>, <gui>Find…</gui> or <gui>Delete…</gui>."
 msgstr ""
-"Используйте многоточие (…) в конце текстовых меток, если для выполнения "
-"действия от пользователя требуется ввести какую-то информацию. Например, "
-"<gui>Сохранить как…</gui>, <gui>Найти…</gui> или <gui>Переименовать…</gui>."
+"Добавляйте многоточие (…) в конец текстовых меток, если для выполнения "
+"соответствующего действия от пользователя требуется получить какую-либо "
+"информацию. Например, <gui>Сохранить как…</gui>, <gui>Найти…</gui> или "
+"<gui>Удалить…</gui>."
 
 #. (itstool) path: section/p
-#: C/writing-style.page:90
+#: C/writing-style.page:103
+#| msgid ""
+#| "Do not add an ellipsis to commands like <gui>Properties</gui> or "
+#| "<gui>Preferences</gui>. While these commands open windows that can "
+#| "incorporate further functionality, the label does not specify a "
+#| "particular action, and therefore does not need to communicate that "
+#| "further input is required."
 msgid ""
-"Do not add an ellipsis to commands like <gui>Properties</gui> or "
+"Do not add an ellipsis to labels such as <gui>Properties</gui> or "
 "<gui>Preferences</gui>. While these commands open windows that can "
-"incorporate further functionality, the label does not specify a particular "
-"action, and therefore does not need to communicate that further input is "
+"incorporate further functionality, the label does not specify an action, and "
+"therefore does not need to communicate that further input or confirmation is "
 "required."
 msgstr ""
-"Не используйте многоточие в командах наподобие <gui>Свойства</gui> "
-"(Properties) или <gui>Параметры</gui> (Preferences), так как эти команды "
-"открывают окна, которые могут включать дополнительную функциональность. "
-"Текстовая метка не определяет какое-то конкретное действие, поэтому она не "
-"должна показывать, что от пользователя потребуется какой-то дополнительный "
-"ввод."
+"Не добавляйте многоточия к таким меткам как <gui>Свойства</gui> (Properties) "
+"или <gui>Параметры</gui> (Preferences), так как эти команды открывают окна, "
+"которые могут включать дополнительную функциональность. Текстовая метка не "
+"определяет какое-то конкретное действие, поэтому она не должна показывать, "
+"что от пользователя требуется какой-либо ввод."
