@@ -490,6 +490,7 @@ WARN_CFLAGS = -Wall -Wextra -Wno-unused-parameter
 
 if BUILD_TESTS
 C/samples/test-custom-gsource: C/samples/test-custom-gsource.c C/samples/example-custom-gsource.c
+	$(MKDIR_P) "$(dir $@)"
 	$(CC) -o $@ $(WARN_CFLAGS) $(GLIB_CFLAGS) $(GLIB_LIBS) $<
 
 check: C/samples/test-custom-gsource
