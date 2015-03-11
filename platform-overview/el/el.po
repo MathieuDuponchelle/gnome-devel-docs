@@ -1,20 +1,22 @@
 # Jennie Petoumenou <epetoumenou@gmail.com>, 2009.
 # Marios Zindilis <m.zindilis@dmajor.org>, 2010.
 # Dimitris Spingos (Δημήτρης Σπίγγος) <dmtrs32@gmail.com>, 2012, 2013, 2014.
+# Efstathios Iosifidis <iosifidis@opensuse.org>, 2015.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: packagename\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-21 06:33+0000\n"
-"PO-Revision-Date: 2014-09-21 20:29+0200\n"
-"Last-Translator: Tom Tryfonidis <tomtryf@gmail.com>\n"
-"Language-Team: www.gnome.gr\n"
+"POT-Creation-Date: 2015-03-02 07:43+0000\n"
+"PO-Revision-Date: 2015-03-02 13:54+0200\n"
+"Last-Translator: Efstathios Iosifidis <iosifidis@opensuse.org>\n"
+"Language-Team: Greek, Modern (1453-) <opensuse-translation-el@opensuse.org>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.6.9\n"
+"X-Generator: Gtranslator 2.91.6\n"
 
 #. (itstool) path: p/link
 #: C/cc-by-sa-3-0.xml:4
@@ -1322,14 +1324,18 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/license.page:26
+#| msgid ""
+#| "Libraries which are used in GNOME are usually licensed under the <link "
+#| "href=\"http://www.gnu.org/\">GNU</link> <link href=\"https://www.gnu.org/"
+#| "licenses/old-licenses/lgpl-2.1.html\">LGPL 2.1</link>."
 msgid ""
 "Libraries which are used in GNOME are usually licensed under the <link href="
 "\"http://www.gnu.org/\">GNU</link> <link href=\"https://www.gnu.org/licenses/"
-"old-licenses/lgpl-2.1.html\">LGPL 2.1</link>."
+"old-licenses/lgpl-2.1.html\">LGPL 2.1+</link>."
 msgstr ""
 "Οι βιβλιοθήκες που χρησιμοποιούνται στο GNOME συνήθως έχουν αδειοδοτηθεί υπό "
 "την <link href=\"http://www.gnu.org/\">GNU</link> <link href=\"https://www."
-"gnu.org/licenses/old-licenses/lgpl-2.1.html\">LGPL 2.1</link>."
+"gnu.org/licenses/old-licenses/lgpl-2.1.html\">LGPL 2.1+</link>."
 
 #. (itstool) path: page/p
 #: C/license.page:30
@@ -2469,6 +2475,16 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/tech-atk.page:37
+#| msgid ""
+#| "Nonetheless, you should be aware of accessibility issues when when "
+#| "developing your applications. Although GTK+ interfaces provide reasonable "
+#| "accessibility by default, you can often improve how well your program "
+#| "behaves with accessibility tools by providing additional information to "
+#| "ATK. If you develop custom widgets, you should ensure that they expose "
+#| "their properties to ATK. You should also avoid using sound, graphics, or "
+#| "color as the sole means of conveying information to the user; have "
+#| "redundant ways of providing this information instead of relying on the "
+#| "user being to perceive a particular medium."
 msgid ""
 "Nonetheless, you should be aware of accessibility issues when when "
 "developing your applications. Although GTK+ interfaces provide reasonable "
@@ -2477,8 +2493,8 @@ msgid ""
 "If you develop custom widgets, you should ensure that they expose their "
 "properties to ATK. You should also avoid using sound, graphics, or color as "
 "the sole means of conveying information to the user; have redundant ways of "
-"providing this information instead of relying on the user being to perceive "
-"a particular medium."
+"providing this information instead of relying on the user being able to "
+"perceive a particular medium."
 msgstr ""
 "Παρόλα αυτά, θα πρέπει να λαμβάνετε υπόψη σας την τα θέματα προσβασιμότητας "
 "κατά την ανάπτυξη των εφαρμογών σας. Αν και οι διεπαφές GTK+ παρέχουν ένα "
@@ -4965,7 +4981,7 @@ msgstr "Εκτέλεση της εφαρμογής"
 
 #. (itstool) path: links/title
 #: C/tour-application.page:29 C/tour-events.page:30 C/tour-get_object.page:30
-#: C/tour-gjs.page:29 C/tour-glade.page:29 C/tour.page:32
+#: C/tour-gjs.page:29 C/tour-glade.page:29 C/tour.page:33
 #: C/tour-summary.page:29
 msgid "Get started with GNOME"
 msgstr "Ξεκινώντας με το GNOME"
@@ -5320,18 +5336,20 @@ msgstr ""
 
 #. (itstool) path: info/desc
 #: C/tour.page:24
-msgid "Get your GtkApplication started and create a UI using Glade."
+#| msgid "Get your GtkApplication started and create a UI using Glade."
+msgid ""
+"Get your GtkApplication started in JavaScript and create a UI using Glade."
 msgstr ""
-"Ξεκινήστε μια εφαρμογή Gtk και δημιουργήστε μια διεπαφή χρήστη "
+"Ξεκινήστε μια εφαρμογή Gtk με JavaScript και δημιουργήστε μια διεπαφή χρήστη "
 "χρησιμοποιώντας το Glade."
 
 #. (itstool) path: page/title
-#: C/tour.page:27
+#: C/tour.page:28
 msgid "Get started"
 msgstr "Ξεκινήστε"
 
 #. (itstool) path: page/p
-#: C/tour.page:35
+#: C/tour.page:36
 msgid ""
 "User interface (UI) can be constructed with code or created in Glade, the UI "
 "editor for GNOME. Glade produces XML files that describe attributes of an "
@@ -5342,7 +5360,7 @@ msgstr ""
 "XML που περιγράφουν τα γνωρίσματα μιας εφαρμογής."
 
 #. (itstool) path: page/p
-#: C/tour.page:37
+#: C/tour.page:38
 msgid ""
 "You will generate a GtkBuilder file in Glade and access and display a window "
 "based on the contents of that file with a Gjs script. The script is examined "
