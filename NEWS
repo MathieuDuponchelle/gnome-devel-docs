@@ -1,3 +1,13 @@
+3.15.92
+=======
+
+* Add a demo of writing GSource implementations (Philip Withnall)
+* Updated translations:
+  el      (Efstathios Iosifidis)
+  es      (Daniel Mustieles)
+  ru      (Yuri Myasoedov)
+  sv      (Josef Andersson)
+
 3.15.90
 =======
 
