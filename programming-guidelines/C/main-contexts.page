@@ -320,11 +320,15 @@ parallel_writes_async (GBytes              *data,
 {
   GTask *task;
 
+  g_main_context_push_thread_default (interesting_context);
+
   task = g_task_new (NULL, cancellable, callback, user_data);
   g_task_set_task_data (task, data,
                         (GDestroyNotify) g_bytes_unref);
   g_task_run_in_thread (task, thread_cb);
   g_object_unref (task);
+
+  g_main_context_pop_thread_default (interesting_context);
 }</code>
     </example>
 
