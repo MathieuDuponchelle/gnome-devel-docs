@@ -1,3 +1,11 @@
+3.16.0
+======
+
+* Fix context pushing in programming guidelines example (Philip Withnall)
+* Updated translations:
+  cs      (Marek Černocký)
+  es      (Daniel Mustieles)
+
 3.15.92
 =======
 
