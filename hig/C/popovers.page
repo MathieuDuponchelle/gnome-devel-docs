@@ -39,7 +39,7 @@
 <list>
 <item><p>A popover is a generic container, and can include a wide variety of controls, such as buttons, sliders, lists, switches and text fields. However, don’t mix too many different types of control within the same popover, and try to group controls of the same type together.</p></item>
 <item><p>Popovers can function as a container for a menu, or for a menu in combination with a small number of supplementary controls.</p></item>
-<item><p>If the purpose of a popover’s controls is ambigious, the popover can be given a heading.</p></item>
+<item><p>If the purpose of a popover’s controls is ambiguous, the popover can be given a heading.</p></item>
 <item><p><gui>Close</gui> or <gui>Done</gui> buttons are not usually required in a popover.</p></item>
 </list>
 

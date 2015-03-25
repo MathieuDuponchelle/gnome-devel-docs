@@ -60,7 +60,7 @@
 <list>
 <item><p>Always consider what is most relevant and interesting for the user.</p></item>
 <item><p>It is often better to provide specific information rather than a unitless percentage. For example, <gui>13 of 19 images rotated</gui> or <gui>12.1 of 30 MB downloaded</gui> rather than <gui>13% complete</gui>.</p></item>
-<item><p>For long-running tasks, it can be desirable to show an estimate of the time remaining in the progress bar text. If other relevant information isn't available, this can be shown on its own. Alternatively, it can appear alongside text about task progress; however, be careful not to overwhelm the user with too much information when doing this, and use <link xref="typography">typographic conventions</link> to differente the most useful information.</p></item>
+<item><p>For long-running tasks, it can be desirable to show an estimate of the time remaining in the progress bar text. If other relevant information isn't available, this can be shown on its own. Alternatively, it can appear alongside text about task progress; however, be careful not to overwhelm the user with too much information when doing this, and use <link xref="typography">typographic conventions</link> to differentiate the most useful information.</p></item>
 <item><p>If the time remaining is an estimate, use the word <gui>about</gui>. For example: <gui>About 3 minutes left</gui>.</p></item>
 </list>
 

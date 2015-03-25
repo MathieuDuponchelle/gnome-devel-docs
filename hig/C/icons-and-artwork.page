@@ -91,7 +91,7 @@
 <section id="custom-symbolic-icons">
 <title>Custom Symbolic Icons</title>
 
-<p>Symbolic icons have a simple form and are drawn within a 16x16 pixel grid. They are then programatically scaled and colored within the user interface itself.</p>
+<p>Symbolic icons have a simple form and are drawn within a 16x16 pixel grid. They are then programmatically scaled and colored within the user interface itself.</p>
 
 <list>
 <item><p>Identify a single property when looking for an appropriate metaphor for an icon, and focus on what distinguishes the idea you want to communicate. For example, when describing an action to be performed on an image, it isn’t necessary to repeat the idea of an image in every icon. Instead, focus on what is distinct about each action (for example: rotate, tag, align).</p></item>

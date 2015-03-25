@@ -77,7 +77,7 @@
 </tr>
 <tr>
 <td><p><key>F6</key> and <keyseq><key>Shift</key><key>F6</key></keyseq></p></td>
-<td><p>Give focus to the next/preivous pane in a GtkPaned window</p></td>
+<td><p>Give focus to the next/previous pane in a GtkPaned window</p></td>
 </tr>
 <tr>
 <td><p><key>F8</key></p></td>
@@ -263,7 +263,7 @@
 <section id="application-shortcuts">
 <title>Standard application shortcuts</title>
 
-<p>This section details common application keyboard shortcuts. With the exception of applicaiton shortcuts, these shortcuts only need to be followed when the corresponding action is included in your application. Standard shortcuts can be assigned to other actions if the standard action is not available.</p>
+<p>This section details common application keyboard shortcuts. With the exception of application shortcuts, these shortcuts only need to be followed when the corresponding action is included in your application. Standard shortcuts can be assigned to other actions if the standard action is not available.</p>
 
 <p>This section also provides guidance on standard menu items in a <link xref="menu-bars">menu bar</link>, should one be used.</p>
 

@@ -35,7 +35,7 @@
 
 <p>Use fixed tabs when a <link xref="dialogs">dialog window</link> contains too many controls (or too much information) to be comfortably presented at once.</p>
 
-<p>Dynamic tabs are primarily useful for browser or editor applications, where a user might want to use several locations or content items simulatenously.</p>
+<p>Dynamic tabs are primarily useful for browser or editor applications, where a user might want to use several locations or content items simultaneously.</p>
 
 </section>
 
