@@ -55,7 +55,7 @@ hand-eye coordination (such as moving the mouse) can cause problems for these us
 The Accessibility Toolkit (ATK) describes a set of interfaces that need to be implemented by GUI components to make them accessible. The interfaces are toolkit-independent - implementations could be written for any widget set, such as GTK, Motif or Qt.
 </para>
 <para>
-The implementation for the GTK widgets is in a module called	GAIL (GNOME Accessbility Implementation Library), which is dynamically loadable at runtime by a GTK application. Once
+The implementation for the GTK widgets is in a module called GAIL (GNOME Accessibility Implementation Library), which is dynamically loadable at runtime by a GTK application. Once
 loaded, those parts of your application that use standard GTK widgets will have a basic level of accessibility, without you having to modify your application at all. If GAIL is not
 loaded, GTK widgets will have a default accessibility implementation that essentially returns no information, though it nominally conforms to the ATK API. Applications which use
 Bonobo controls, particularly out-of-process ones, also load accessibility support code from module libgail-gnome. Whether or not applications on the GNOME desktop automatically load these accessibility support libraries depends on the value of a <application>gconf</application> key, "/desktop/gnome/interface/accessibility"; a boolean value of "true" enables support for assistive technologies and applications which call gnome_program_init will automatically load the appropriate accessibility libraries at runtime. "Pure GTK+ applications", e.g. those that use gtk+ but do not link to libgnome, rely on the value of the GTK_MODULES environment variable, which must be set to "gail:atk-bridge" in order to enable assistive technology support.
@@ -84,7 +84,7 @@ A gtk+/GNOME widget is accessible if its use follows the general accessibility g
 trivially from existing GTK+ or GNOME widgets will also inherit suitable accessibility support.
 </para>
 <para>
-Though GNOME's built-in accessibility support provides significant functionality without any accessibility-specific code changes on the part of the application, applications can often improve on the default descriptions provided for some of the widgets, and tailor them to that widget's specific purpose in your application, via straightforward calls to ATK methods in the application. For instance, in most cases applications should add or change the textual descriptions for these widgets with the appropriate ATK function call, so that an assisitive technology can describe their purpose or state to the user. See <link linkend="gad-coding-guidelines">Coding Guidelines for Supporting Accessibility</link> for more information.
+Though GNOME's built-in accessibility support provides significant functionality without any accessibility-specific code changes on the part of the application, applications can often improve on the default descriptions provided for some of the widgets, and tailor them to that widget's specific purpose in your application, via straightforward calls to ATK methods in the application. For instance, in most cases applications should add or change the textual descriptions for these widgets with the appropriate ATK function call, so that an assistive technology can describe their purpose or state to the user. See <link linkend="gad-coding-guidelines">Coding Guidelines for Supporting Accessibility</link> for more information.
 </para>
 <para>
 If your application uses custom widgets, you may have to do some work to expose those widgets' properties to assistive technologies. See <link linkend="gad-custom">Making Custom Components Accessible</link> and <link linkend="gad-api-examples">Examples that Use the Accessibility API</link> for more information.
@@ -166,7 +166,7 @@ For additional, in-depth information regarding GTK/GTK+, see the <ulink url="htt
 If your application only uses standard GTK widgets, you will probably have to do little or nothing to make your application (reasonably) accessible. But do watch out for objects in your GUI that don't have a textual description associated with them, such as graphical buttons or status indicators that don't have labels or tooltips.
 </para>
 <para>
-You can probably also improve on the default descriptions provided for some of the widgets, and tailor them to that widget's specific purpose in your application. You should add or change the textual descriptions for these widgets with the appropriate ATK function call, so that an assisitive technology can describe their purpose or state to the user. See <link linkend="gad-coding-guidelines">Coding Guidelines for Supporting Accessibility</link> for more information.
+You can probably also improve on the default descriptions provided for some of the widgets, and tailor them to that widget's specific purpose in your application. You should add or change the textual descriptions for these widgets with the appropriate ATK function call, so that an assistive technology can describe their purpose or state to the user. See <link linkend="gad-coding-guidelines">Coding Guidelines for Supporting Accessibility</link> for more information.
 </para>
 <para>
 If your application uses custom widgets, you may have to do some work to expose those widgets' properties to assistive technologies.  See <link linkend="gad-custom">Making Custom Components Accessible</link> and <link linkend="gad-api-examples">Examples that Use the Accessibility API</link> for more information. Additional detailed information can be found in Marc Mulcahy's 2002 GUADEC presentation, <ulink url="https://projects.gnome.org/accessibility/talks/GUAD3C/making-apps-accessible/start.html">"Making GNOME Applications Accessible".</ulink>
@@ -434,7 +434,7 @@ Access the ATK top-level object with the following function call.
 </para>
 <programlisting>AtkObject *root_obj = atk_get_root();</programlisting>
 <para>
-This returns an <type>AtkObject</type> which contains all toplevel windows in the currently running program. The user could then navigate through the object heirarchy by accessing the root object's children, which corresponds to the toplevel windows.
+This returns an <type>AtkObject</type> which contains all toplevel windows in the currently running program. The user could then navigate through the object hierarchy by accessing the root object's children, which corresponds to the toplevel windows.
 </para>
 </listitem>
 </orderedlist>
@@ -547,7 +547,7 @@ The factory must be implemented as a child of class type <type>ATK_TYPE_OBJECT_F
 </section>
 
 <section>
-<title>ATK Implemetation for a Specific Object</title>
+<title>ATK Implementation for a Specific Object</title>
 <para>
 All <type>GObject</type>s implement a <function>get_type()</function> function.  Using the above example the naming convention for this function name would be <function>myatkimp_mytype_get_type()</function>.
 </para>
@@ -1056,7 +1056,7 @@ Provide an option to hide graphics that don't convey essential information. Grap
 <section>
 <title>Fonts and Text</title>
 <para>
-Even to a user with normal vision, textual output provides the majority of the information and feedback in most applications. It is therefore critical to choose and position text carefully on the screen, and leave the choice of font and size to the user, to ensure that people with vision impaiments can also use your application effectively.
+Even to a user with normal vision, textual output provides the majority of the information and feedback in most applications. It is therefore critical to choose and position text carefully on the screen, and leave the choice of font and size to the user, to ensure that people with vision impairments can also use your application effectively.
 </para>
 <itemizedlist>
 <listitem>
@@ -1309,7 +1309,7 @@ Make all animations optional. The animated information should be available in at
 Showing the keyboard focus position clearly at all times is important, both for users with vision impairments as well as "power-users" who prefer to use the keyboard rather than the mouse. There should never be any confusion as to which control on the desktop has focus at any given time. You ought to be able to leave your computer with the focus on any widget in your application, then go off and phone your girlfriend or walk the dog until you've forgotten which widget you left it on. When you return, you should be able to tell straight away exactly which widget it was.
 </para>
 <para>
-A visual focus indicator is an audio representation of the cursor position relative to the other objects on the desktop. This allows the user to move among objects interactively as the focus changes. The visual focus must be programatically exposed to assistive technologies. Note that in most cases, this is handled automatically by the ATK, without requiring you to do any additional work. However, you will need to be aware of this requirement when writing your own custom widgets, for example.
+A visual focus indicator is an audio representation of the cursor position relative to the other objects on the desktop. This allows the user to move among objects interactively as the focus changes. The visual focus must be programmatically exposed to assistive technologies. Note that in most cases, this is handled automatically by the ATK, without requiring you to do any additional work. However, you will need to be aware of this requirement when writing your own custom widgets, for example.
 </para>
 <itemizedlist>
 <listitem>
