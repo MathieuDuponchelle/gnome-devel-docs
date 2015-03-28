@@ -8,13 +8,14 @@
 # Gladys Guerero <gguerrer@redhat.com>, 2012.
 # Nicolás Satragno <nsatragno@gnome.org>, 2013.
 # Javi Ribera <javiribera@gmail.com>, 2013.
+# Alex Puchades <alex94puchades@gmail.com>, 2015.
 # Daniel Mustieles <daniel.mustieles@gmail.com>, 2011, 2012, 2013, 2014, 2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: hig.master\n"
-"POT-Creation-Date: 2015-03-17 07:36+0000\n"
-"PO-Revision-Date: 2015-03-17 18:29+0100\n"
+"POT-Creation-Date: 2015-03-26 07:24+0000\n"
+"PO-Revision-Date: 2015-03-28 19:06+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "Language: es\n"
@@ -39,6 +40,7 @@ msgstr "Este trabajo está licenciado bajo la <_:link-1/>."
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
+"Alex Puchades <alex94puchades@gmail.com>, 2015\n"
 "Daniel Mustieles <daniel.mustieles@gmail.com>, 2011 - 2015\n"
 "Nicolás Satragno <nsatragno@gnome.org>, 2013\n"
 "Benjamín Valero Espinosa <benjavalero@gmail.com>, 2011\n"
@@ -352,6 +354,12 @@ msgid ""
 "cultural references, inside jokes and acronyms. Instead, pick a name that "
 "references what your application does, or the domain in which it operates."
 msgstr ""
+"Además, elija un nombre de aplicación que sea fácil de entender y que "
+"exprese la funcionalidad de su aplicación. Evite referencias que puedan no "
+"entenderse o resultar poco familiares a algunos de sus usuarios potenciales, "
+"tales como referencias culturales poco conocidas, chistes privados o "
+"acrónimos. En su lugar, elija un nombre que haga referencia a lo que su "
+"aplicación hace o el ámbito al que pertenece."
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -462,6 +470,12 @@ msgid ""
 "performs an action, rename it to be less generic. For example: <gui>New "
 "Connection</gui> or <gui>New Document</gui>."
 msgstr ""
+"Abre una ventana nueva. Sólo las <link xref=\"primary-windows#application-"
+"types\">aplicaciones con varias instancias</link> deberían incluir este "
+"elemento de menú. Si la nueva ventana contiene un elemento de tipo "
+"específico de contenido, o si realiza alguna acción de forma simultánea, "
+"cambie su nombre por otro menos genérico. Por ejemplo: <gui>Nueva conexión</"
+"gui> o <gui>Nuevo documento</gui>."
 
 #. (itstool) path: td/p
 #: C/application-menus.page:49
@@ -474,8 +488,8 @@ msgid ""
 "Opens the application's preferences dialog. Only show this menu item if your "
 "application has a preferences dialog."
 msgstr ""
-"Abre el dialogo de preferencias de la aplicación. Muestre este elemento de "
-"menú solo si su aplicación tiene un diálogo de preferencias."
+"Abre el diálogo de preferencias de la aplicación. Muestre este elemento de "
+"menú sólo si su aplicación tiene un diálogo de preferencias."
 
 #. (itstool) path: td/p
 #: C/application-menus.page:53 C/keyboard-input.page:285
@@ -489,6 +503,9 @@ msgid ""
 "application. Only show this menu item if your application has user "
 "documentation."
 msgstr ""
+"Abre la documentación del usuario de la aplicación en el programa de "
+"<app>Ayuda</app>. Muestre este elemento de menú sólo si su aplicación tiene "
+"documentación del usuario."
 
 #. (itstool) path: td/p
 #: C/application-menus.page:57 C/keyboard-input.page:290
@@ -559,6 +576,10 @@ msgid ""
 "toolbars. <link xref=\"header-bar-menus\">Header bar menus</link> are the "
 "most common example."
 msgstr ""
+"Un menú que aparece pulsando un botón. Pueden incorporarse en diferentes "
+"contenedores de widgets, tales como barras de cabecera, barras de acción, "
+"barras laterales o barras de herramientas. Los <link xref=\"header-bar-menus"
+"\">menús de barra de cabecera</link> son el ejemplo más común."
 
 #. (itstool) path: section/p
 #: C/button-menus.page:22
@@ -568,6 +589,10 @@ msgid ""
 "which cannot be comfortably incorporated into your primary user interface. "
 "There are two primary types of button menu:"
 msgstr ""
+"Un botón de menú es una forma de presentar acciones u opciones adicionales. "
+"Están indicadas cuando sea necesario presentar una serie de acciones u "
+"opciones secundarias que no puedan incorporarse de manera adecuada en la "
+"interfaz principal de usuario. Hay dos tipos principales de botones de menú:"
 
 #. (itstool) path: item/p
 #: C/button-menus.page:25
@@ -610,7 +635,7 @@ msgid ""
 "sliders, spin buttons, switches and text entries provide functionality that "
 "cannot be easily reproduced with a menu. Likewise, some entries might be "
 "better represented as icons rather than text - in which case, buttons could "
-"be more appropropriate than a menu."
+"be more appropriate than a menu."
 msgstr ""
 
 #. (itstool) path: item/p
@@ -734,6 +759,10 @@ msgid ""
 "Buttons can be used to perform actions, toggle settings or views, activate "
 "tools, or to display dialogs, popovers, or other user interface elements."
 msgstr ""
+"Los botones son uno de los elementos básicos de interfaz de usuario más "
+"conocidos. Los botones pueden usarse para realizar acciones, activar "
+"opciones o vistas, activar herramientas o mostrar diálogos, cuadros "
+"emergentes u otros elementos de la interfaz."
 
 #. (itstool) path: section/title
 #: C/buttons.page:32 C/text-fields.page:32
@@ -746,6 +775,9 @@ msgid ""
 "A button can contain an icon, button, or - more unusually - an image. Follow "
 "the icons and artwork guidelines when deciding which to use."
 msgstr ""
+"Un botón puede contener un icono, un botón o - de forma menos frecuente - "
+"una imagen. Siga las guías en cuanto a iconos e ilustraciones para decidir "
+"qué usar."
 
 #. (itstool) path: item/p
 #: C/buttons.page:36
@@ -763,6 +795,10 @@ msgid ""
 "window, and make all of them the same height. This will help give a pleasing "
 "uniform visual appearance to your window that makes it easier to use."
 msgstr ""
+"No utilice más de una o dos anchuras distintas de botón en una misma "
+"ventana, y procure que todos tengan la misma altura. Ésto ayudará a darle a "
+"la ventana una apariencia visual más uniforme y agradable, haciéndola más "
+"fácil de usar."
 
 #. (itstool) path: item/p
 #: C/buttons.page:38
@@ -788,6 +824,9 @@ msgid ""
 "the same width. This is particularly important for pairs of Cancel and OK "
 "buttons."
 msgstr ""
+"Cuando coloque distintos botones próximos entre sí, procure que todos tengan "
+"la misma anchura. Esto es especialmente importante con las parejas de "
+"botones de Aceptar y Cancelar."
 
 #. (itstool) path: item/p
 #: C/buttons.page:41
@@ -797,6 +836,12 @@ msgid ""
 "the OK or equivalent button. However, if pressing this button by mistake "
 "could cause a loss of data, do not set a default button for the window."
 msgstr ""
+"En un diálogo, puede establecer uno de los botones como predeterminado, de "
+"forma que se presente con un borde distinto y se active al pulsar Intro. "
+"Normalmente, éste será un botón de Aceptar o similar. Sin embargo, en el "
+"caso de que pulsar el botón por error pudiera causar una pérdida "
+"irreversible de los datos, no establezca un botón predeterminado para la "
+"ventana."
 
 #. (itstool) path: section/title
 #: C/buttons.page:47
@@ -1814,7 +1859,6 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/dialogs.page:118
-#| msgid "Primary button"
 msgid "Primary buttons"
 msgstr "Botones primarios"
 
@@ -3025,7 +3069,7 @@ msgstr ""
 #: C/icons-and-artwork.page:94
 msgid ""
 "Symbolic icons have a simple form and are drawn within a 16x16 pixel grid. "
-"They are then programatically scaled and colored within the user interface "
+"They are then programmatically scaled and colored within the user interface "
 "itself."
 msgstr ""
 
@@ -3465,7 +3509,7 @@ msgstr "<key>F6</key> <keyseq><key>Mayús</key><key>F6</key></keyseq>"
 #. (itstool) path: td/p
 #: C/keyboard-input.page:80
 #, fuzzy
-msgid "Give focus to the next/preivous pane in a GtkPaned window"
+msgid "Give focus to the next/previous pane in a GtkPaned window"
 msgstr "Dar el foco al siguiente/anterior panel en una ventana GtkPaned"
 
 #. (itstool) path: td/p
@@ -3726,7 +3770,6 @@ msgstr ""
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:167
-#| msgid "<key>Space</key>"
 msgid "<key>Super</key>"
 msgstr "<key>Súper</key>"
 
@@ -3762,7 +3805,6 @@ msgstr "Vista de aplicaciones"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:173
-#| msgid "<keyseq><key>Ctrl</key><key>A</key></keyseq>"
 msgid "<keyseq><key>Super</key><key>A</key></keyseq>"
 msgstr "<keyseq><key>Súper</key><key>A</key></keyseq>"
 
@@ -3778,7 +3820,6 @@ msgstr "Bandeja de mensajes"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:179
-#| msgid "<keyseq><key>Ctrl</key><key>M</key></keyseq>"
 msgid "<keyseq><key>Super</key><key>M</key></keyseq>"
 msgstr "<keyseq><key>Súper</key><key>M</key></keyseq>"
 
@@ -3794,7 +3835,6 @@ msgstr ""
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:185
-#| msgid "<keyseq><key>Ctrl</key><key>S</key></keyseq>"
 msgid "<keyseq><key>Super</key><key/></keyseq>"
 msgstr "<keyseq><key>Súper</key><key/></keyseq>"
 
@@ -3812,9 +3852,6 @@ msgstr "Cambiar entre aplicaciones"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:191
-#| msgid ""
-#| "<keyseq><key>Ctrl</key><key>Tab</key></keyseq> and <keyseq><key>Shift</"
-#| "key><key>Ctrl</key><key>Tab</key></keyseq>"
 msgid ""
 "<keyseq><key>Super</key><key>Tab</key></keyseq> and <keyseq><key>Shift</"
 "key><key>Super</key><key>Tab</key></keyseq>"
@@ -3846,9 +3883,6 @@ msgstr "Cambiar entre ventanas"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:197
-#| msgid ""
-#| "<keyseq><key>Ctrl</key><key>Tab</key></keyseq> and <keyseq><key>Shift</"
-#| "key><key>Ctrl</key><key>Tab</key></keyseq>"
 msgid ""
 "<keyseq><key>Super</key><key>`</key></keyseq> and <keyseq><key>Shift</"
 "key><key>Super</key><key>`</key></keyseq>"
@@ -3882,7 +3916,6 @@ msgstr "<gui>Maximizar</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:203
-#| msgid "<keyseq><key>Ctrl</key><key>S</key></keyseq>"
 msgid "<keyseq><key>Super</key><key>↑</key></keyseq>"
 msgstr "<keyseq><key>Súper</key><key>↑</key></keyseq>"
 
@@ -3903,7 +3936,6 @@ msgstr "<gui>Restaurar</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:209
-#| msgid "<keyseq><key>Ctrl</key><key>S</key></keyseq>"
 msgid "<keyseq><key>Super</key><key>↓</key></keyseq>"
 msgstr "<keyseq><key>Súper</key><key>↓</key></keyseq>"
 
@@ -3925,7 +3957,6 @@ msgstr "<gui>Ocultar</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:215
-#| msgid "<keyseq><key>Ctrl</key><key>H</key></keyseq>"
 msgid "<keyseq><key>Super</key><key>H</key></keyseq>"
 msgstr "<keyseq><key>Súper</key><key>H</key></keyseq>"
 
@@ -4059,7 +4090,7 @@ msgstr "Teclas rápidas de navegación estándar para los widgets"
 #: C/keyboard-input.page:266
 msgid ""
 "This section details common application keyboard shortcuts. With the "
-"exception of applicaiton shortcuts, these shortcuts only need to be followed "
+"exception of application shortcuts, these shortcuts only need to be followed "
 "when the corresponding action is included in your application. Standard "
 "shortcuts can be assigned to other actions if the standard action is not "
 "available."
@@ -5363,7 +5394,7 @@ msgstr ""
 #: C/lists.page:34
 msgid ""
 "In standard lists, each row is divided by separators, and changing the sort "
-"order is acheived by using a control outside the list itself."
+"order is achieved by using a control outside the list itself."
 msgstr ""
 
 #. (itstool) path: section/title
@@ -5894,7 +5925,6 @@ msgstr ""
 
 #. (itstool) path: td/p
 #: C/menu-bars.page:79
-#| msgid "<gui>Undo</gui>"
 msgid "<gui>Windows</gui>"
 msgstr "<gui>Ventanas</gui>"
 
@@ -6047,7 +6077,7 @@ msgstr ""
 msgid ""
 "Order groups and group items logically, either by importance, task order, or "
 "expected frequency of use. Items at the top and bottom of the menu are more "
-"noticable and easily targetted, so reserve these locations for particularly "
+"noticeable and easily targetted, so reserve these locations for particularly "
 "important or interesting functionality."
 msgstr ""
 
@@ -6285,7 +6315,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/notifications.page:79
 msgid ""
-"Actions shold not replace user interface controls elsewhere - it should be "
+"Actions should not replace user interface controls elsewhere - it should be "
 "possible to take the same actions from your application’s windows."
 msgstr ""
 
@@ -7080,7 +7110,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/popovers.page:42
 msgid ""
-"If the purpose of a popover’s controls is ambigious, the popover can be "
+"If the purpose of a popover’s controls is ambiguous, the popover can be "
 "given a heading."
 msgstr ""
 
@@ -7257,10 +7287,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/progress-bars.page:29 C/ui-elements.page:40
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/ui-elements/progress-bars.svg' "
-#| "md5='41b786a9c179cb2075973fd75aa80ba4'"
 msgctxt "_"
 msgid ""
 "external ref='figures/ui-elements/progress-bars.svg' "
@@ -7382,8 +7408,8 @@ msgid ""
 "available, this can be shown on its own. Alternatively, it can appear "
 "alongside text about task progress; however, be careful not to overwhelm the "
 "user with too much information when doing this, and use <link xref="
-"\"typography\">typographic conventions</link> to differente the most useful "
-"information."
+"\"typography\">typographic conventions</link> to differentiate the most "
+"useful information."
 msgstr ""
 
 #. (itstool) path: item/p
@@ -7489,7 +7515,6 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/progress-bars.page:103
-#| msgid "Progress Windows"
 msgid "Progress windows"
 msgstr "Ventanas de progreso"
 
@@ -7632,7 +7657,7 @@ msgstr ""
 #: C/progress-spinners.page:38
 msgid ""
 "Generally, only one progress spinner should be displayed at once. Avoid "
-"showing a large number of spinners simulatenously - this will often be "
+"showing a large number of spinners simultaneously - this will often be "
 "visually overwhelming."
 msgstr ""
 
@@ -8518,7 +8543,7 @@ msgstr ""
 #: C/tabs.page:38
 msgid ""
 "Dynamic tabs are primarily useful for browser or editor applications, where "
-"a user might want to use several locations or content items simulatenously."
+"a user might want to use several locations or content items simultaneously."
 msgstr ""
 
 #. (itstool) path: section/title
@@ -8616,7 +8641,6 @@ msgstr ""
 
 #. (itstool) path: td/p
 #: C/tabs.page:72
-#| msgid "<keyseq><key>Ctrl</key><key>Q</key></keyseq>"
 msgid "<keyseq><key>Ctrl</key><key>T</key></keyseq>"
 msgstr "<keyseq><key>Ctrl</key><key>T</key></keyseq>"
 
@@ -8629,13 +8653,11 @@ msgstr "Crear un documento nuevo"
 
 #. (itstool) path: td/p
 #: C/tabs.page:77
-#| msgid "Close the current document"
 msgid "Close the current tab"
 msgstr "Cerrar la pestaña actual"
 
 #. (itstool) path: td/p
 #: C/tabs.page:80
-#| msgid "<keyseq><key>Ctrl</key><key>P</key></keyseq>"
 msgid "<keyseq><key>Ctrl</key><key>Page Up</key></keyseq>"
 msgstr "<keyseq><key>Ctrl</key><key>Re Pág</key></keyseq>"
 
@@ -8646,7 +8668,6 @@ msgstr "Cambiar a la siguiente pestaña"
 
 #. (itstool) path: td/p
 #: C/tabs.page:84
-#| msgid "<keyseq><key>Ctrl</key><key>P</key></keyseq>"
 msgid "<keyseq><key>Ctrl</key><key>Page Down</key></keyseq>"
 msgstr "<keyseq><key>Ctrl</key><key>Av Pág</key></keyseq>"
 
