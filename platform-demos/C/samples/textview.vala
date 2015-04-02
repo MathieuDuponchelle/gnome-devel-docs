@@ -2,7 +2,7 @@
 public class MyApplication : Gtk.Application {
 	/* Override the 'activate' signal of GLib.Application. */
 	protected override void activate () {
-		/* Create the window of this applicationt. */
+		/* Create the window of this application. */
 		new MyWindow (this).show_all ();
 	}
 }

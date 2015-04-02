@@ -45,7 +45,7 @@ class MyApplication : Gtk.Application {
 
 }
 
-/* The main function creats and runs the application. */
+/* The main function creates and runs the application. */
 int main (string[] args) {
 	return new MyApplication ().run (args);
 }

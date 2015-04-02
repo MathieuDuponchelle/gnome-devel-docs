@@ -188,7 +188,7 @@ state_callback (GSimpleAction *simple,
          GVariant      *parameter,
          gpointer       user_data)
 {
-   /* The two possibilies in this case for the "answer" variable are either
+   /* The two possibilities in this case for the "answer" variable are either
     * "on" or "off".
     */
    const gchar *answer = g_variant_get_string (parameter, NULL);

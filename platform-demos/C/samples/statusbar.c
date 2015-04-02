@@ -20,7 +20,7 @@ push_item (GtkWidget *widget,
   char hold_output[20];
   
   /*This is a safer form of the standard sprintf () function. The output is 
-  gauranteed in this case to not exceed 20 characters, and the result is stored 
+  guaranteed in this case to not exceed 20 characters, and the result is stored
   into the 'hold_output' variable*/
   g_snprintf (hold_output, 20, "Item %d", count++);
   gtk_statusbar_push (GTK_STATUSBAR (status_bar), 

@@ -58,7 +58,7 @@ public class MyWindow : Gtk.ApplicationWindow {
 /* This is the application. */
 public class MyApplication : Gtk.Application {
 
-	/* The constructore of the application. */
+	/* The constructor of the application. */
 	internal MyApplication () {
 		Object (application_id: "org.example.MyApplication");
 	}

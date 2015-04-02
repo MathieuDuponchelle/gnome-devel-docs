@@ -39,7 +39,7 @@
     <code>
 button1 = Gtk.RadioButton()
 button1.set_label("Button 1").</code>
-    <p>Yet another way to create a new RadioButton with a label is <code>button1 = Gtk.RadioButton.new_with_label(None, "Button 1")</code> (the first arguement is the group of the radiobuttons, which we can get with <code>get_group()</code>, the second argument is the label).</p>
+    <p>Yet another way to create a new RadioButton with a label is <code>button1 = Gtk.RadioButton.new_with_label(None, "Button 1")</code> (the first argument is the group of the radiobuttons, which we can get with <code>get_group()</code>, the second argument is the label).</p>
   </section>
 
   <section id="references">

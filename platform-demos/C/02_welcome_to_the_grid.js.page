@@ -125,7 +125,7 @@ const WelcomeToTheGrid = new Lang.Class({
     <p>This code looks awfully complicated, but it's not. Here's what those numbers mean:</p>
     <list type="numbered">
       <item><p>The <em>first</em> number is what left-to-right position to put things in, starting from 0. Any widget that uses a 0 here goes all the way to the left.</p></item>
-      <item><p>The <em>second</em> number is what top-to-botton position to put a given widget in, starting from 0. The Label goes beneath the Image, so we give the Image a 0 and the Label a 1 here.</p></item>
+      <item><p>The <em>second</em> number is what top-to-bottom position to put a given widget in, starting from 0. The Label goes beneath the Image, so we give the Image a 0 and the Label a 1 here.</p></item>
       <item><p>The <em>third</em> and <em>fourth</em> numbers are how many columns and rows a widget should take up. We'll see how these work in a minute.</p></item>
     </list>
 
@@ -205,7 +205,7 @@ app.application.run (ARGV);
     <p>There are at least three ways we can get around that last one. First, we can set a margin_left or margin_right on one of the Labels:</p>
     <media type="image" mime="image/png" src="media/02_jsgrid_05.png"/>
 
-    <p>Second, we can set the Grid's column_homogenous property to true.</p>
+    <p>Second, we can set the Grid's column_homogeneous property to true.</p>
     <code mime="application/javascript"><![CDATA[
         // Create the Grid
         this._grid = new Gtk.Grid ({

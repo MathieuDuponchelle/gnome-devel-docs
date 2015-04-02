@@ -36,7 +36,7 @@ public class MyApplication : Gtk.Application {
 	}
 
 	/* Callback function for "value-changed" signal.
-	 * The paramter refers to the scale which emitted the signal.
+	 * The parameter refers to the scale which emitted the signal.
 	 * Since we are accessing the values of not one, but two scales,
 	 * we made the ranges instance variables, and ignore the
 	 * parameter.

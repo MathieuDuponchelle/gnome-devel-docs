@@ -16,7 +16,7 @@
       <email its:translate="no">tiffany.antopolski@gmail.com</email>
       <years>2012</years>
     </credit>
-    <credit type="author coyright">
+    <credit type="author copyright">
       <name>Marta Maria Casetti</name>
       <email its:translate="no">mmcasetti@gmail.com</email>
       <years>2012</years>
@@ -124,7 +124,7 @@ self.add_action(new_action)</code>
 
     <p>Some actions, such as "copy" and "paste" deal with the window, not the application. Window actions should be created as part of the window class.</p>
 
-    <p>The complete example files contain both application actions and window actions.  The window actions are the ones usually included in the <link xref="gmenu.py">application menu</link> also.  It is not good practice to include window actions in the applcation menu. For demonstration purposes, the complete example files which follow include XML in the UI file which creates the application menu which includes a "New" and "Open" item, and these are hooked up to the same actions as the menubar items of the same name.</p>
+    <p>The complete example files contain both application actions and window actions.  The window actions are the ones usually included in the <link xref="gmenu.py">application menu</link> also.  It is not good practice to include window actions in the application menu. For demonstration purposes, the complete example files which follow include XML in the UI file which creates the application menu which includes a "New" and "Open" item, and these are hooked up to the same actions as the menubar items of the same name.</p>
   </section>
 
   <section id="choices">
@@ -173,7 +173,7 @@ self.add_action(shape_action)</code>
 
   <section id="translatable"><title>Translatable strings</title>
    <p>
-   Since GNOME applications are being translated into <link href="http://l10n.gnome.org/languages/">many languages</link>, it is important that the strings in your application are translable.  To make a label translatable, simple set <code>translatable="yes"</code>:
+   Since GNOME applications are being translated into <link href="http://l10n.gnome.org/languages/">many languages</link>, it is important that the strings in your application are translatable.  To make a label translatable, simple set <code>translatable="yes"</code>:
    </p>
 
      <code mime="application/xml"><![CDATA[<attribute name="label" translatable="yes">Quit</attribute>]]></code>
