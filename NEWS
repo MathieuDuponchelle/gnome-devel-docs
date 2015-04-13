@@ -1,3 +1,12 @@
+3.16.1
+======
+
+* Fix typos in platform demos, HIG and accessibility devel guide (Anders
+  Jonsson)
+* Updated translations:
+  el      (Tom Tryfonidis)
+  es      (Alex Puchades)
+
 3.16.0
 ======
 
