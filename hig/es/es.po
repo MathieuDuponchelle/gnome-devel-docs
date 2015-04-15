@@ -14,8 +14,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: hig.master\n"
-"POT-Creation-Date: 2015-03-26 07:24+0000\n"
-"PO-Revision-Date: 2015-03-28 19:06+0100\n"
+"POT-Creation-Date: 2015-04-13 12:05+0000\n"
+"PO-Revision-Date: 2015-04-15 17:22+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "Language: es\n"
@@ -213,7 +213,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/application-basics.page:21
 msgid "Defining an application"
-msgstr "Definiendo una aplicacion"
+msgstr "Definiendo una aplicación"
 
 #. (itstool) path: quote/p
 #: C/application-basics.page:23
@@ -676,6 +676,11 @@ msgid ""
 "your users. The <link xref=\"icons-and-artwork\">icon usage guidelines</"
 "link> provide more advice on this."
 msgstr ""
+"Asegúrese que los botones de propósito único estén correctamente "
+"etiquetados. A pesar de que un icono resulta más compacto, utilícelos sólo "
+"cuando esté seguro de que sus usuarios vayan a entenderlos. Las <link xref="
+"\"icons-and-artwork\">guías de uso de iconos</link> contienen más consejos "
+"acerca de este tema."
 
 #. (itstool) path: item/p
 #: C/button-menus.page:47
@@ -696,6 +701,11 @@ msgid ""
 "these that you introduce, the harder it will be for users to find the "
 "controls they need, and human error will be increased."
 msgstr ""
+"Aunque pueden usarse múltiples botones de menú simultáneamente, tenga "
+"cuidado de no introducir demasiados puntos de revelación en su interfaz de "
+"usuario. Cuantos más puntos de revelación aparezcan, más difícil será para "
+"los usuarios encontrar los controles que buscan, y las posibilidades de "
+"cometer un error aumentan."
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -807,6 +817,10 @@ msgid ""
 "are unlikely to discover these actions, and if they do, it will distort "
 "their expectations of other buttons on the desktop."
 msgstr ""
+"No asigne acciones a la doble pulsación o a la pulsación con el botón "
+"derecho del ratón sobre un botón. Es probable que los usuarios no descubran "
+"estas acciones, y si lo hacen, puede que esto distorsione lo que esperan del "
+"resto de botones del escritorio."
 
 #. (itstool) path: item/p
 #: C/buttons.page:39
@@ -814,8 +828,8 @@ msgid ""
 "Make invalid buttons insensitive, rather than popping up an error message "
 "when the user clicks them."
 msgstr ""
-"Haga botones no válidos insensibles, en lugar de mostrar un mensaje de error "
-"cuando el usuario los pulsa. "
+"Haga los botones no válidos insensibles, en lugar de mostrar un mensaje de "
+"error cuando el usuario los pulsa. "
 
 #. (itstool) path: item/p
 #: C/buttons.page:40
@@ -866,6 +880,8 @@ msgid ""
 "Use <link xref=\"writing-style#ellipses\">ellipses</link> when a button "
 "requires further input from the user to complete an action."
 msgstr ""
+"Utilice <link xref=\"writing-style#ellipses\">elipses</link> cuando un botón "
+"requiera la entrada de más datos del usuario para completar una acción."
 
 #. (itstool) path: item/p
 #: C/buttons.page:52
@@ -874,6 +890,9 @@ msgid ""
 "the label that allows the user to directly activate the button from the "
 "keyboard."
 msgstr ""
+"Proporcione una <link xref=\"keyboard-input#access-keys\">tecla de acceso</"
+"link> en la etiqueta que permita al usuario activar el botón directamente "
+"desde el teclado."
 
 #. (itstool) path: item/p
 #: C/buttons.page:53
@@ -898,6 +917,10 @@ msgid ""
 "set and unset, are shown by its appearing “pushed in” or “popped out” "
 "respectively."
 msgstr ""
+"Los botones conmutables tienen la misma apariencia que los botones normales, "
+"pero se usan para mostrar o cambiar un estado en lugar de para iniciar una "
+"acción. Los dos estados de un botón de selección, activado o desactivado, se "
+"muestran por su apariencia de pulsado o no pulsado, respectivamente."
 
 #. (itstool) path: section/title
 #: C/buttons.page:66
@@ -911,6 +934,9 @@ msgid ""
 "communicate their similarity. Linking is a common technique for sets of "
 "toggle buttons."
 msgstr ""
+"Se puede agrupar un conjunto de botones con una función similar. Esto ayuda "
+"a transmitir su semejanza. El enlazado es una técnica común para la "
+"agrupación de botones de selección."
 
 #. (itstool) path: section/title
 #: C/buttons.page:73
@@ -924,6 +950,9 @@ msgid ""
 "can be given a suggested style. This highlights the button, and helps to "
 "distinguish it from other visible controls."
 msgstr ""
+"En casos en que un botón tenga un papel afirmativo especialmente importante, "
+"se le puede dar asignar un estilo de sugerido. De esta manera se resalta el "
+"botón, lo que ayuda a distinguirlo del resto de controles visibles."
 
 #. (itstool) path: section/p
 #: C/buttons.page:77
@@ -932,6 +961,10 @@ msgid ""
 "content item, can be given a destructive style. This highlights the button "
 "by coloring it, and acts as a warning to the user."
 msgstr ""
+"A los botones que tengan alguna consecuencia destructiva, como por ejemplo "
+"eliminar o quitar algún elemento, se les puede asignar un estilo "
+"destructivo. De esta manera se resalta el botón con un color distinto, lo "
+"que actúa como un aviso al usuario."
 
 #. (itstool) path: section/p
 #: C/buttons.page:79
@@ -959,7 +992,6 @@ msgstr "Casillas"
 
 #. (itstool) path: page/p
 #: C/check-boxes.page:27
-#, fuzzy
 msgid ""
 "Check boxes are used to show or change a setting. Its two states, set and "
 "unset, are shown by the presence or absence of a checkmark in the labeled "
@@ -967,7 +999,7 @@ msgid ""
 msgstr ""
 "Las casillas se usan para mostrar o cambiar una configuración. Tienen dos "
 "estados, activada y desactivada, y se distinguen por la presencia de una "
-"marca en la caja etiquetada."
+"marca en la casilla etiquetada."
 
 #. (itstool) path: item/p
 #: C/check-boxes.page:35
@@ -975,6 +1007,9 @@ msgid ""
 "Clicking a check box should not affect the values of any other controls. It "
 "may sensitize, insensitize, hide or show other controls, however."
 msgstr ""
+"Pulsar sobre una casilla no debería alterar los valores de los demás "
+"controles. No obstante, sí puede sensibilizar, desensibilizar, ocultar o "
+"mostrar otros controles."
 
 #. (itstool) path: item/p
 #: C/check-boxes.page:36
@@ -984,6 +1019,10 @@ msgid ""
 "This helps to indicate that the controls are dependent on the state of the "
 "check box."
 msgstr ""
+"Si la activación de una casilla afectará a la sensibilidad de otros "
+"controles, coloque la casilla inmediatamente por encima o a la izquierda de "
+"los controles a los que afecte. Esto indica que dichos controles son "
+"dependientes del estado en que se encuentre la casilla."
 
 #. (itstool) path: item/p
 #: C/check-boxes.page:37
@@ -991,6 +1030,9 @@ msgid ""
 "Use <link xref=\"writing-style#capitalization\">sentence capitalization</"
 "link> for check box labels, for example <gui>Use custom font</gui>."
 msgstr ""
+"<link xref=\"writing-style#capitalization\">Escriba en mayúsculas la primera "
+"letra de las etiquetas</link> de sus casillas, por ejemplo, <gui>Utilizar "
+"tipografía personalizada</gui>."
 
 #. (itstool) path: item/p
 #: C/check-boxes.page:38
@@ -1164,6 +1206,9 @@ msgid ""
 "without requiring a major redesign, and all GTK+ and GNOME applications can "
 "benefit from them."
 msgstr ""
+"La incorporación de los elementos presentes en esta guías pueden mejorar su "
+"aplicación sin necesidad de un rediseño completo, de forma que todas las "
+"aplicaciones GTK+ y GNOME pueden beneficiarse de ellas."
 
 #. (itstool) path: section/p
 #: C/compatibility.page:42
@@ -1185,6 +1230,12 @@ msgid ""
 "recommend <link xref=\"header-bars\">header bars</link> over <link xref="
 "\"menu-bars\">menu bars</link>, they provide guidance on both approaches."
 msgstr ""
+"Estas Guías de Interfaz Humana se han diseñado para ayudarle a determinar el "
+"mejor diseño para su aplicación, en lugar de proponer una plantilla única "
+"que usar para todas las aplicaciones. De esta forma, aunque se recomienda el "
+"uso de <link xref=\"header-bars\">barras de cabecera</link> en lugar de "
+"<link xref=\"menu-bars\">barras de menú</link>, se proporcionan consejos "
+"para ambos enfoques."
 
 #. (itstool) path: info/desc
 #. (itstool) path: td/p
