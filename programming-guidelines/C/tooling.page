@@ -556,7 +556,7 @@ EXTRA_DIST = $(VALGRIND_SUPPRESSIONS_FILES)</code>
       recommended approach is to run these scripts regularly on a server
       (typically as a cronjob), using a clean checkout of the project’s git
       repository. Coverity automatically e-mails project members about new
-      static analysis problems it finds, so the same approch as for
+      static analysis problems it finds, so the same approach as for
       <link xref="#gcc-and-clang">compiler warnings</link> can be taken:
       eliminate all the static analysis warnings, then eliminate new ones as
       they are detected.

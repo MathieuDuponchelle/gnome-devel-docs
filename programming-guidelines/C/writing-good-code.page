@@ -36,7 +36,7 @@
     percentage of our contributors.  Programmers may come and go at
     any time and they will be able to dedicate different amounts of
     time to the GNOME project.  People's "real world" responsibilities
-    may change, and this will be reflected in the amount of time and
+    may change, and this will be reflected in the amount of time that
     they can devote to GNOME.
   </p>
 
@@ -59,10 +59,10 @@
     Messy code is hard to read, and people may lose interest if they
     cannot decipher what the code tries to do.  Also, it is important
     that programmers be able to understand the code quickly so that
-    they cna start contributing with bug fixes and enhancements in a
+    they can start contributing with bug fixes and enhancements in a
     short amount of time.  Source code is a form of
     <em>communication</em>, and it is more for people than for
-    computers.  Just as someone would not like to read a nvoel with
+    computers.  Just as someone would not like to read a novel with
     spelling errors, bad grammar, and sloppy punctuation, programmers
     should strive to write good code that is easy to understand and
     modify by others.
@@ -87,7 +87,7 @@
       <title>Consistency</title>
       <p>
 	Consistent code makes it easy for people to understand how a
-	program works.  When reading cnsistent code, one
+	program works.  When reading consistent code, one
 	subconsciously forms a number of assumptions and expectations
 	about how the code works, so it is easier and safer to make
 	modifications to it.  Code that <em>looks</em> the same in two
@@ -113,7 +113,7 @@
       <p>
 	Finally, code that is designed to be correct lets people spend
 	less time worrying about bugs, and more time enhancing the
-	features of a program.  Users also apprciate correct code,
+	features of a program.  Users also appreciate correct code,
 	since nobody likes software that crashes.  Code that is
 	written for correctness and safety (i.e. code that explicitly
 	tries to ensure that the program remains in a consistent
@@ -121,6 +121,4 @@
       </p>
     </item>
   </terms>
-
-
 </page>
