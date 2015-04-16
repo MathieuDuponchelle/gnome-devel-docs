@@ -59,14 +59,19 @@
     </p>
     <list>
       <item><p>
-        No forced pushes.
+        No forced pushes. Except for branches with the <code>wip/</code> prefix
+        (work-in-progress), the commits' history must not be modified, as
+        contributors rely on it.
       </p></item>
       <item><p>
-        Rebase commits rather than merging.
+        Rebase commits rather than merging, to have a linear history (which is
+        easier to follow).
       </p></item>
       <item><p>
         Work on feature branches on GNOME git in <code>wip/</code> branches,
-        then rebase on master and fast-forward merge the changes.
+        then rebase on master and fast-forward merge the changes. It is a good
+        practice to also add your nickname to the branch name, as
+        <code>wip/nickname/feature</code>.
       </p></item>
       <item><p>
         Hide <link href="https://sethrobertson.github.io/GitBestPractices/#sausage">sausage
