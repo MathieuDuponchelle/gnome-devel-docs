@@ -121,4 +121,29 @@
       </p>
     </item>
   </terms>
+
+  <section id="book-references">
+    <title>Book References</title>
+
+    <list>
+      <item><p>
+        <link href="http://www.cc2e.com">Code Complete</link>, by Steve McConnell.
+      </p></item>
+      <item><p>
+        <link href="http://martinfowler.com/books/refactoring.html">
+          Refactoring: Improving the Design of Existing Code
+        </link>, by Martin Fowler.
+      </p></item>
+      <item><p>
+        <link href="http://en.wikipedia.org/wiki/Design_Patterns">
+          Design Patterns: Elements of Reusable Object-Oriented Software
+        </link>, by Erich Gamma, Richard Helm, Ralph Johnson and John Vlissides.
+      </p></item>
+      <item><p>
+        <link href="http://astore.amazon.com/gnomestore-20/detail/020163385X">
+          Object-Oriented Design Heuristics
+        </link>, by Arthur Riel.
+      </p></item>
+    </list>
+  </section>
 </page>
