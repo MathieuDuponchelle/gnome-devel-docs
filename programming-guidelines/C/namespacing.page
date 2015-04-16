@@ -84,7 +84,7 @@
         still be unique.
       </p></item>
       <item><p>
-        All methods of an object should also be prefixed with the object name.
+        All methods of a class should also be prefixed with the class name.
       </p></item>
     </list>
 
@@ -97,7 +97,7 @@
 
     <p>
       For example, for a project called ‘Walbottle’, the short namespace ‘Wbl’
-      would be chosen. If it has a ‘schema’ object and a ‘writer’ object, it
+      would be chosen. If it has a ‘schema’ class and a ‘writer’ class, it
       would install headers:
     </p>
     <list>
@@ -115,7 +115,7 @@
     </p>
 
     <p>
-      For the schema object, the following symbols would be exported (amongst
+      For the schema class, the following symbols would be exported (amongst
       others), following GObject conventions:
     </p>
     <list>
