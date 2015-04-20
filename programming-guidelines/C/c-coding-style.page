@@ -749,8 +749,8 @@ gint          gtk_type_update_foobar      (GtkType *type);</code>
     </p>
 
     <code style="valid">
-#ifndef __MYLIB_FOO_H__
-#define __MYLIB_FOO_H__
+#ifndef MYLIB_FOO_H_
+#define MYLIB_FOO_H_
 
 #include &lt;gtk/gtk.h&gt;
 
@@ -760,7 +760,7 @@ G_BEGIN_DECLS
 
 G_END_DECLS
 
-#endif /* __MYLIB_FOO_H__ */</code>
+#endif /* MYLIB_FOO_H_ */</code>
   </section>
 
   <section id="gobject">
