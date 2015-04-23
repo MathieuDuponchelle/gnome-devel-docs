@@ -3,21 +3,21 @@
 # This file is distributed under the same license as the gnome-devel-docs package.
 # Francisco Javier F. Serrador <fserrador@gmail.com>, 2010.
 # Jorge González <jorgegonz@svn.gnome.org>, 2009, 2010, 2011.
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011, 2012, 2013.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011, 2012, 2013, 2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: accessibility-devel-guide.master\n"
-"POT-Creation-Date: 2013-08-25 17:03+0000\n"
-"PO-Revision-Date: 2013-09-02 18:02+0200\n"
+"POT-Creation-Date: 2015-04-23 07:00+0000\n"
+"PO-Revision-Date: 2015-04-23 10:59+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
-"Language-Team: Español <gnome-es-list@gnome.org>\n"
+"Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"X-Generator: Gtranslator 2.91.5\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Gtranslator 2.91.6\n"
 "X-Poedit-Language: Spanish\n"
 "X-Poedit-Country: SPAIN\n"
 "X-Poedit-SourceCharset: utf-8\n"
@@ -26,20 +26,16 @@ msgstr ""
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
-"Daniel Mustieles <daniel.mustieles@gmail.com>, 2011 - 2013\n"
+"Daniel Mustieles <daniel.mustieles@gmail.com>, 2011 - 2015\n"
 "Jorge González <jorgegonz@svn.gnome.org>, 2009-2010\n"
 "Francisco Javier F. Serrador <fserrador@gmail.com>, 2010"
 
+#. (itstool) path: imagedata
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#.
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:72(imagedata)
+#: C/index.docbook:72
 msgctxt "_"
 msgid ""
 "external ref='figures/GNOME_desktop_Accessibility.png' "
@@ -48,126 +44,94 @@ msgstr ""
 "external ref='figures/GNOME_desktop_Accessibility.png' "
 "md5='76a706b0a4d4e184d7951fce04ccec59'"
 
+#. (itstool) path: imagedata
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#.
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:136(imagedata)
+#: C/index.docbook:136
 msgctxt "_"
 msgid "external ref='figures/gaa.jpg' md5='32d75c79ddd3b2f4ccad189ea67dbfaa'"
 msgstr "external ref='figures/gaa.jpg' md5='32d75c79ddd3b2f4ccad189ea67dbfaa'"
 
+#. (itstool) path: imagedata
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#.
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:1012(imagedata)
+#: C/index.docbook:1012
 msgctxt "_"
 msgid ""
 "external ref='figures/nodrop.png' md5='16b315fbe17b719998a057ba560c22e2'"
 msgstr ""
 "external ref='figures/nodrop.png' md5='16b315fbe17b719998a057ba560c22e2'"
 
+#. (itstool) path: imagedata
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#.
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:1115(imagedata)
+#: C/index.docbook:1115
 msgctxt "_"
 msgid ""
 "external ref='figures/label_above.png' md5='5b7a6f236b676802e62807b8d63bbf10'"
 msgstr ""
 "external ref='figures/label_above.png' md5='5b7a6f236b676802e62807b8d63bbf10'"
 
+#. (itstool) path: imagedata
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#.
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:1126(imagedata)
+#: C/index.docbook:1126
 msgctxt "_"
 msgid ""
 "external ref='figures/label_below.png' md5='1ab1facdd4ace09c84b415eb0e581891'"
 msgstr ""
 "external ref='figures/label_below.png' md5='1ab1facdd4ace09c84b415eb0e581891'"
 
+#. (itstool) path: imagedata
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#.
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:1137(imagedata)
+#: C/index.docbook:1137
 msgctxt "_"
 msgid ""
 "external ref='figures/label_right.png' md5='c0d4328a48ec9a6889b4b1ec8e5548d6'"
 msgstr ""
 "external ref='figures/label_right.png' md5='c0d4328a48ec9a6889b4b1ec8e5548d6'"
 
+#. (itstool) path: imagedata
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#.
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:1148(imagedata)
+#: C/index.docbook:1148
 msgctxt "_"
 msgid ""
 "external ref='figures/label_left.png' md5='186cae86a97426a6c9034d0c2091b5d9'"
 msgstr ""
 "external ref='figures/label_left.png' md5='186cae86a97426a6c9034d0c2091b5d9'"
 
+#. (itstool) path: imagedata
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#.
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:1206(imagedata)
+#: C/index.docbook:1206
 msgctxt "_"
 msgid ""
 "external ref='figures/color_only.png' md5='d4f964fc9b557eda6f4bfab0793d7964'"
 msgstr ""
 "external ref='figures/color_only.png' md5='d4f964fc9b557eda6f4bfab0793d7964'"
 
+#. (itstool) path: imagedata
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#.
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:1221(imagedata)
+#: C/index.docbook:1221
 msgctxt "_"
 msgid ""
 "external ref='figures/color_and_arrows.png' "
@@ -176,123 +140,97 @@ msgstr ""
 "external ref='figures/color_and_arrows.png' "
 "md5='a9a1eb5f1f902f388e717f4ef7882c22'"
 
+#. (itstool) path: imagedata
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#.
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:1352(imagedata)
+#: C/index.docbook:1352
 msgctxt "_"
 msgid ""
 "external ref='figures/badfocus1.png' md5='48c81ba9110bcbbec7e2664658a8a4ef'"
 msgstr ""
 "external ref='figures/badfocus1.png' md5='48c81ba9110bcbbec7e2664658a8a4ef'"
 
+#. (itstool) path: imagedata
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#.
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:1367(imagedata)
+#: C/index.docbook:1367
 msgctxt "_"
 msgid ""
 "external ref='figures/badfocus2.png' md5='5ced4392a665b97154f0b7b220d36351'"
 msgstr ""
 "external ref='figures/badfocus2.png' md5='5ced4392a665b97154f0b7b220d36351'"
 
+#. (itstool) path: imagedata
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#.
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:1382(imagedata)
+#: C/index.docbook:1382
 msgctxt "_"
 msgid ""
 "external ref='figures/goodfocus.png' md5='5f8c020c3d8382bfd3e70448591ec0f4'"
 msgstr ""
 "external ref='figures/goodfocus.png' md5='5f8c020c3d8382bfd3e70448591ec0f4'"
 
+#. (itstool) path: imagedata
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#.
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:1406(imagedata)
+#: C/index.docbook:1406
 msgctxt "_"
 msgid ""
 "external ref='figures/badfocus3.png' md5='bb0f9a1309bb05c0d9e9cd719625c8a0'"
 msgstr ""
 "external ref='figures/badfocus3.png' md5='bb0f9a1309bb05c0d9e9cd719625c8a0'"
 
+#. (itstool) path: imagedata
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#.
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:1421(imagedata)
+#: C/index.docbook:1421
 msgctxt "_"
 msgid ""
 "external ref='figures/goodfocus3.png' md5='f95f59dcfb337d2f811ac04025141ae2'"
 msgstr ""
 "external ref='figures/goodfocus3.png' md5='f95f59dcfb337d2f811ac04025141ae2'"
 
+#. (itstool) path: imagedata
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#.
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:1436(imagedata)
+#: C/index.docbook:1436
 msgctxt "_"
 msgid ""
 "external ref='figures/goodfocus2.png' md5='86b2a96f4142edb59a3ef22f433a4504'"
 msgstr ""
 "external ref='figures/goodfocus2.png' md5='86b2a96f4142edb59a3ef22f433a4504'"
 
+#. (itstool) path: imagedata
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#.
-#. This is a reference to an external file such as an image or video. When
-#. the file changes, the md5 hash will change to let you know you need to
-#. update your localized copy. The msgstr is not used at all. Set it to
-#. whatever you like once you have updated your copy of the file.
-#: C/index.docbook:786(imagedata)
+#: C/index.docbook:786
 msgctxt "_"
 msgid ""
 "external ref='figures/at-arch.png' md5='e429cadb2e11d42d7437e999de175c3f'"
 msgstr ""
 "external ref='figures/at-arch.png' md5='e429cadb2e11d42d7437e999de175c3f'"
 
-#: C/index.docbook:12(book/title)
+#. (itstool) path: book/title
+#: C/index.docbook:12
 msgid "GNOME Accessibility Developers Guide"
 msgstr "Guía de accesibilidad para los desarrolladores de GNOME"
 
-#: C/index.docbook:15(abstract/para)
+#. (itstool) path: abstract/para
+#: C/index.docbook:15
 msgid ""
 "The GNOME Accessibility Guide is for developers who want to ensure their "
 "programming efforts are accessible to the widest audience of users. This "
@@ -303,11 +241,13 @@ msgstr ""
 "de usuarios. Esta guía también cubre muchos de los requisitos de la Sección "
 "508."
 
-#: C/index.docbook:19(bookinfo/copyright)
+#. (itstool) path: bookinfo/copyright
+#: C/index.docbook:19
 msgid "<year>2008</year> <holder>Vincent Alexander</holder>"
 msgstr "<year>2008</year> <holder>Vincent Alexander</holder>"
 
-#: C/index.docbook:23(bookinfo/copyright)
+#. (itstool) path: bookinfo/copyright
+#: C/index.docbook:23
 msgid ""
 "<year>2001, 2002</year> <holder>Calum Benson, Brian Cameron, Bill Haneman, "
 "Padraig O'Briain, Sharon Snider</holder>"
@@ -315,15 +255,15 @@ msgstr ""
 "<year>2001, 2002</year> <holder>Calum Benson, Brian Cameron, Bill Haneman, "
 "Padraig O'Briain, Sharon Snider</holder>"
 
-#: C/index.docbook:28(publisher/publishername)
-#: C/index.docbook:85(revdescription/para)
-#: C/index.docbook:88(revdescription/para)
-#: C/index.docbook:99(revdescription/para)
-#: C/index.docbook:102(revdescription/para)
+#. (itstool) path: publisher/publishername
+#. (itstool) path: revdescription/para
+#: C/index.docbook:28 C/index.docbook:85 C/index.docbook:88 C/index.docbook:99
+#: C/index.docbook:102
 msgid "GNOME Documentation Project"
 msgstr "Proyecto de documentación de GNOME"
 
-#: C/index.docbook:2(legalnotice/para)
+#. (itstool) path: legalnotice/para
+#: C/index.docbook:2
 msgid ""
 "Permission is granted to copy, distribute and/or modify this document under "
 "the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
@@ -339,7 +279,8 @@ msgstr ""
 "Encontrará una copia de la GFDL en este <ulink type=\"help\" url=\"ghelp:fdl"
 "\">enlace</ulink> o en el archivo COPYING-DOCS distribuido con este manual."
 
-#: C/index.docbook:6(legalnotice/para)
+#. (itstool) path: legalnotice/para
+#: C/index.docbook:6
 msgid ""
 "This manual is part of a collection of GNOME manuals distributed under the "
 "GFDL. If you want to distribute this manual separately from the collection, "
@@ -351,7 +292,8 @@ msgstr ""
 "hacerlo añadiendo una copia de la licencia al manual, como está descrito en "
 "la sección 6 de la licencia."
 
-#: C/index.docbook:10(legalnotice/para)
+#. (itstool) path: legalnotice/para
+#: C/index.docbook:10
 msgid ""
 "Many of the names used by companies to distinguish their products and "
 "services are claimed as trademarks. Where those names appear in any GNOME "
@@ -366,7 +308,8 @@ msgstr ""
 "comerciales, los nombres aparecerán en mayúsculas o con las iniciales en "
 "mayúsculas."
 
-#: C/index.docbook:17(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:17
 msgid ""
 "DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, "
 "EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT "
@@ -393,7 +336,8 @@ msgstr ""
 "NI VERSIÓN MODIFICADA DE ÉSTE POR EL PRESENTE, SALVO DENTRO DEL CUMPLIMIENTO "
 "DE LA RENUNCIA;Y"
 
-#: C/index.docbook:23(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:23
 msgid ""
 "UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING "
 "NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
@@ -419,7 +363,8 @@ msgstr ""
 "ELLO, INCLUSO SI SE HABÍA COMUNICADO A AQUELLA PARTE LA POSIBILIDAD DE TALES "
 "DAÑOS."
 
-#: C/index.docbook:13(legalnotice/para)
+#. (itstool) path: legalnotice/para
+#: C/index.docbook:13
 msgid ""
 "DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS "
 "OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
@@ -429,7 +374,8 @@ msgstr ""
 "SUJECIÓN A LOS TÉRMINOS DE LA GFDL, QUEDANDO BIEN ENTENDIDO, ADEMÁS, QUE: <_:"
 "orderedlist-1/>"
 
-#: C/index.docbook:34(authorgroup/author)
+#. (itstool) path: authorgroup/author
+#: C/index.docbook:34
 msgid ""
 "<firstname>Vincent</firstname> <surname>Alexander</surname> <affiliation> "
 "<orgname>GNOME Documentation Project</orgname> </affiliation>"
@@ -437,7 +383,8 @@ msgstr ""
 "<firstname>Vincent</firstname> <surname>Alexander</surname> <affiliation> "
 "<orgname>Proyecto de documentación de GNOME</orgname> </affiliation>"
 
-#: C/index.docbook:41(authorgroup/author)
+#. (itstool) path: authorgroup/author
+#: C/index.docbook:41
 msgid ""
 "<firstname>Calum</firstname> <surname>Benson</surname> <affiliation> "
 "<orgname>GNOME Documentation Project</orgname> </affiliation>"
@@ -445,7 +392,8 @@ msgstr ""
 "<firstname>Calum</firstname> <surname>Benson</surname> <affiliation> "
 "<orgname>Proyecto de documentación de GNOME</orgname> </affiliation>"
 
-#: C/index.docbook:48(authorgroup/author)
+#. (itstool) path: authorgroup/author
+#: C/index.docbook:48
 msgid ""
 "<firstname>Brian</firstname> <surname>Cameron</surname> <affiliation> "
 "<orgname>GNOME Documentation Project</orgname> </affiliation>"
@@ -453,7 +401,8 @@ msgstr ""
 "<firstname>Brian</firstname> <surname>Cameron</surname> <affiliation> "
 "<orgname>Proyecto de documentación de GNOME</orgname> </affiliation>"
 
-#: C/index.docbook:55(authorgroup/author)
+#. (itstool) path: authorgroup/author
+#: C/index.docbook:55
 msgid ""
 "<firstname>Bill</firstname> <surname>Haneman</surname> <affiliation> "
 "<orgname>GNOME Documentation Project</orgname> </affiliation>"
@@ -461,7 +410,8 @@ msgstr ""
 "<firstname>Bill</firstname> <surname>Haneman</surname> <affiliation> "
 "<orgname>Proyecto de documentación de GNOME</orgname> </affiliation>"
 
-#: C/index.docbook:62(authorgroup/author)
+#. (itstool) path: authorgroup/author
+#: C/index.docbook:62
 msgid ""
 "<firstname>Padraig</firstname> <surname>O'Briain</surname> <affiliation> "
 "<orgname>GNOME Documentation Project</orgname> </affiliation>"
@@ -469,7 +419,8 @@ msgstr ""
 "<firstname>Padraig</firstname> <surname>O'Briain</surname> <affiliation> "
 "<orgname>Proyecto de documentación de GNOME</orgname> </affiliation>"
 
-#: C/index.docbook:69(authorgroup/author)
+#. (itstool) path: authorgroup/author
+#: C/index.docbook:69
 msgid ""
 "<firstname>Sharon</firstname> <surname>Snider</surname> <affiliation> "
 "<orgname>GNOME Documentation Project</orgname> </affiliation>"
@@ -477,8 +428,8 @@ msgstr ""
 "<firstname>Sharon</firstname> <surname>Snider</surname> <affiliation> "
 "<orgname>Proyecto de documentación de GNOME</orgname> </affiliation>"
 
-#: C/index.docbook:78(revhistory/revision)
-#: C/index.docbook:93(revhistory/revision)
+#. (itstool) path: revhistory/revision
+#: C/index.docbook:78 C/index.docbook:93
 msgid ""
 "<revnumber> GNOME 2.24 Accessibility Developers Guide V2.24.0 </revnumber> "
 "<date>September 2008</date> <_:revdescription-1/>"
@@ -486,15 +437,18 @@ msgstr ""
 "<revnumber> Guía de accesibilidad para desarrolladores de GNOME 2.24, "
 "V2.24.0 </revnumber> <date>septiembre de 2008</date> <_:revdescription-1/>"
 
-#: C/index.docbook:108(bookinfo/releaseinfo)
+#. (itstool) path: bookinfo/releaseinfo
+#: C/index.docbook:108
 msgid "This manual describes version 2.24 of the GNOME Desktop."
 msgstr "Este manual describe la versión 2.24 del Escritorio GNOME."
 
-#: C/index.docbook:112(legalnotice/title)
+#. (itstool) path: legalnotice/title
+#: C/index.docbook:112
 msgid "Feedback"
 msgstr "Comentarios"
 
-#: C/index.docbook:113(legalnotice/para)
+#. (itstool) path: legalnotice/para
+#: C/index.docbook:113
 msgid ""
 "To report a bug or make a suggestion regarding the GNOME Desktop or this "
 "manual, follow the directions in the <ulink type=\"help\" url=\"ghelp:user-"
@@ -504,11 +458,13 @@ msgstr ""
 "GNOME o este manual, siga las indicaciones en la <ulink type=\"help\" url="
 "\"ghelp:user-guide?feedback\">Página de comentarios de GNOME</ulink>."
 
-#: C/index.docbook:2(chapter/title)
+#. (itstool) path: chapter/title
+#: C/index.docbook:2
 msgid "What is Accessibility?"
 msgstr "¿Qué es la accesibilidad?"
 
-#: C/index.docbook:3(chapter/para)
+#. (itstool) path: chapter/para
+#: C/index.docbook:3
 msgid ""
 "Accessibility means helping people with disabilities to participate in "
 "substantial life activities. That includes work, and the use of services, "
@@ -522,7 +478,8 @@ msgstr ""
 "entorno de trabajo que permite que personas con discapacidades utilicen toda "
 "la funcionalidad del entorno de usuario de GNOME."
 
-#: C/index.docbook:6(chapter/para)
+#. (itstool) path: chapter/para
+#: C/index.docbook:6
 msgid ""
 "In conjunction with assistive technologies if necessary - voice interfaces, "
 "screen readers, alternate input devices, and so on - people with permanent "
@@ -539,7 +496,8 @@ msgstr ""
 "está en un atasco de tráfico puede utilizar la entrada y salida de voz para "
 "comprobar su correo electrónico."
 
-#: C/index.docbook:9(chapter/para)
+#. (itstool) path: chapter/para
+#: C/index.docbook:9
 msgid ""
 "Assistive technologies receive information from applications via the "
 "Accessibility Toolkit (ATK) API, which you can find in the atk module in the "
@@ -566,7 +524,8 @@ msgstr ""
 "encontrarse si hay cualquier descripción de texto asociada con un widget, y "
 "usarlo para describir el widget al usuario."
 
-#: C/index.docbook:12(chapter/para)
+#. (itstool) path: chapter/para
+#: C/index.docbook:12
 msgid ""
 "With a little extra effort, however, you can make your program function even "
 "more smoothly with assistive technologies. Besides helping individual users, "
@@ -580,11 +539,13 @@ msgstr ""
 "del gobierno y educativo, muchos de los cuales ahora requieren que sus "
 "aplicaciones sean accesibles por ley."
 
-#: C/index.docbook:17(section/title)
+#. (itstool) path: section/title
+#: C/index.docbook:17
 msgid "Types of Disability"
 msgstr "Tipos de discapacidades"
 
-#: C/index.docbook:18(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:18
 msgid ""
 "In the US alone, there are an estimated 30,000,000 people whose ability to "
 "use computers may be compromised by inaccessible design. Globally, around 8% "
@@ -597,7 +558,8 @@ msgstr ""
 "tiene algún tipo de discapacidad. Las discapacidades pueden ser de una de "
 "estas categorías:"
 
-#: C/index.docbook:23(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:23
 msgid ""
 "<emphasis>Visual Impairments</emphasis> - these can range from low-vision "
 "(including dim or hazy vision, extreme far- or near-sightedness, color-"
@@ -612,7 +574,8 @@ msgstr ""
 "implican una buena coordinación mano-ojo (tales como mover el ratón) pueden "
 "causan problemas para estos usuarios."
 
-#: C/index.docbook:30(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:30
 msgid ""
 "<emphasis>Movement Impairments</emphasis> - users with poor muscle control "
 "or weaknesses can find it hard to use a standard keyboard or mouse. For "
@@ -625,7 +588,8 @@ msgstr ""
 "mantener pulsadas dos teclas a la vez, o pueden ser más propensos a pulsar "
 "teclas accidentalmente."
 
-#: C/index.docbook:35(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:35
 msgid ""
 "<emphasis>Hearing Impairments</emphasis> - these can range from being able "
 "to hear some sounds but not distinguish spoken words, to profound deafness. "
@@ -638,7 +602,8 @@ msgstr ""
 "exclusivamente a través del sonido pueden causar problemas para estos "
 "usuarios."
 
-#: C/index.docbook:40(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:40
 msgid ""
 "<emphasis>Cognitive and Language Impairments</emphasis> - these can range "
 "from dyslexia to difficulties remembering things, solving problems or "
@@ -652,7 +617,8 @@ msgstr ""
 "exposición compleja o inconsistente, o la selección pobre de palabras usando "
 "ordenadores para estos usuarios."
 
-#: C/index.docbook:45(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:45
 msgid ""
 "<emphasis>Seizure disorders</emphasis> - certain light or sound patterns can "
 "cause epileptic seizures in some susceptible users."
@@ -660,11 +626,13 @@ msgstr ""
 "<emphasis>Trastornos convulsivos</emphasis>: cierta luz o patrones de sonido "
 "pueden causar ataques epilépticos en algunos usuarios susceptibles."
 
-#: C/index.docbook:53(section/title)
+#. (itstool) path: section/title
+#: C/index.docbook:53
 msgid "How Accessibility Works in GNOME"
 msgstr "Cómo funciona la accesibilidad en GNOME"
 
-#: C/index.docbook:54(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:54
 msgid ""
 "The Accessibility Toolkit (ATK) describes a set of interfaces that need to "
 "be implemented by GUI components to make them accessible. The interfaces are "
@@ -678,10 +646,31 @@ msgstr ""
 "conjunto de widgets, como GTK, Motif o Qt."
 
 # Muy largo!!
-#: C/index.docbook:57(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:57
+#| msgid ""
+#| "The implementation for the GTK widgets is in a module called GAIL (GNOME "
+#| "Accessbility Implementation Library), which is dynamically loadable at "
+#| "runtime by a GTK application. Once loaded, those parts of your "
+#| "application that use standard GTK widgets will have a basic level of "
+#| "accessibility, without you having to modify your application at all. If "
+#| "GAIL is not loaded, GTK widgets will have a default accessibility "
+#| "implementation that essentially returns no information, though it "
+#| "nominally conforms to the ATK API. Applications which use Bonobo "
+#| "controls, particularly out-of-process ones, also load accessibility "
+#| "support code from module libgail-gnome. Whether or not applications on "
+#| "the GNOME desktop automatically load these accessibility support "
+#| "libraries depends on the value of a <application>gconf</application> key, "
+#| "\"/desktop/gnome/interface/accessibility\"; a boolean value of \"true\" "
+#| "enables support for assistive technologies and applications which call "
+#| "gnome_program_init will automatically load the appropriate accessibility "
+#| "libraries at runtime. \"Pure GTK+ applications\", e.g. those that use gtk"
+#| "+ but do not link to libgnome, rely on the value of the GTK_MODULES "
+#| "environment variable, which must be set to \"gail:atk-bridge\" in order "
+#| "to enable assistive technology support."
 msgid ""
 "The implementation for the GTK widgets is in a module called GAIL (GNOME "
-"Accessbility Implementation Library), which is dynamically loadable at "
+"Accessibility Implementation Library), which is dynamically loadable at "
 "runtime by a GTK application. Once loaded, those parts of your application "
 "that use standard GTK widgets will have a basic level of accessibility, "
 "without you having to modify your application at all. If GAIL is not loaded, "
@@ -700,10 +689,10 @@ msgid ""
 "must be set to \"gail:atk-bridge\" in order to enable assistive technology "
 "support."
 msgstr ""
-"La implementación para los widgets GTK está en un módulo llamado GAIL («GNOME "
-"Accessibility Implementation Library», Biblioteca de implementación de "
-"accesibilidad de GNOME), cargada dinámicamente, en tiempo de ejecución, por "
-"una aplicación GTK. Una vez cargadas, dichas partes de su aplicación que "
+"La implementación para los widgets GTK está en un módulo llamado GAIL "
+"(«GNOME Accessibility Implementation Library», Biblioteca de implementación "
+"de accesibilidad de GNOME), cargada dinámicamente, en tiempo de ejecución, "
+"por una aplicación GTK. Una vez cargadas, dichas partes de su aplicación que "
 "usan widgets estándar GTK tendrán un nivel básico de accesibilidad, sin "
 "tener que modificar nada de su aplicación. Si no se carga GAIL, los widgets "
 "GTK tendrán una implementación de accesibilidad predeterminada que "
@@ -721,7 +710,8 @@ msgstr ""
 "valor de la variable de entorno GTK_MODULES, las cual debe establecerse a "
 "«gail:atk-bridge» para activar el soporte de las tecnologías de asistencia."
 
-#: C/index.docbook:63(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:63
 msgid ""
 "Most assistive technologies running on other desktops have historically "
 "found it necessary to maintain a complex off-screen model of the desktop "
@@ -756,18 +746,20 @@ msgstr ""
 "magnificadores de pantalla, para obtener información sobre la accesibilidad "
 "de la ejecución de aplicaciones a través de una API consistente y estable, y "
 "en muchos casos puede eliminar la necesidad de un modelo fuera de la "
-"pantalla. El soporte de accesibilidad para las solicitudes está «incluída» en "
-"los kits de herramientas de aplicaciones a través del conjunto del API de "
+"pantalla. El soporte de accesibilidad para las solicitudes está «incluída» "
+"en los kits de herramientas de aplicaciones a través del conjunto del API de "
 "herramientas adecuadas (por ejemplo, ATK para la mayoría de las aplicaciones "
 "nativas de C y el API de accesibilidad de Java para las aplicaciones Java), "
 "y exportados al interfaz común «AT-SPI» a través del correspondiente "
 "«bridge» (vea el diagrama abajo)."
 
-#: C/index.docbook:69(figure/title)
+#. (itstool) path: figure/title
+#: C/index.docbook:69
 msgid "GNOME Accessibility Architecture"
 msgstr "Arquitectura de accesibilidad de GNOME"
 
-#: C/index.docbook:70(figure/mediaobject)
+#. (itstool) path: figure/mediaobject
+#: C/index.docbook:70
 msgid ""
 "<imageobject> <imagedata fileref=\"figures/GNOME_desktop_Accessibility.png\" "
 "format=\"PNG\"/> </imageobject> <textobject> <phrase>Diagram of GNOME's "
@@ -777,7 +769,8 @@ msgstr ""
 "format=\"PNG\"/> </imageobject> <textobject> <phrase>Diagrama de la "
 "arquitectura de accesibilidad de GNOME</phrase> </textobject>"
 
-#: C/index.docbook:79(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:79
 msgid ""
 "GNOME's built-in accessibility support means that applications created using "
 "stock GNOME widgets get support for assistive technologies \"for free\", "
@@ -790,7 +783,8 @@ msgstr ""
 "no se utilicen de forma inusual utilizan y entre en conflicto con este "
 "soporte integrado."
 
-#: C/index.docbook:82(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:82
 msgid ""
 "A gtk+/GNOME widget is accessible if its use follows the general "
 "accessibility guidelines elsewhere in this document, and it implements the "
@@ -809,7 +803,20 @@ msgstr ""
 "los widgets de GTK+ y GNOME existentes que también heredarán el soporte "
 "adecuado de accesibilidad."
 
-#: C/index.docbook:86(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:86
+#| msgid ""
+#| "Though GNOME's built-in accessibility support provides significant "
+#| "functionality without any accessibility-specific code changes on the part "
+#| "of the application, applications can often improve on the default "
+#| "descriptions provided for some of the widgets, and tailor them to that "
+#| "widget's specific purpose in your application, via straightforward calls "
+#| "to ATK methods in the application. For instance, in most cases "
+#| "applications should add or change the textual descriptions for these "
+#| "widgets with the appropriate ATK function call, so that an assisitive "
+#| "technology can describe their purpose or state to the user. See <link "
+#| "linkend=\"gad-coding-guidelines\">Coding Guidelines for Supporting "
+#| "Accessibility</link> for more information."
 msgid ""
 "Though GNOME's built-in accessibility support provides significant "
 "functionality without any accessibility-specific code changes on the part of "
@@ -818,9 +825,9 @@ msgid ""
 "purpose in your application, via straightforward calls to ATK methods in the "
 "application. For instance, in most cases applications should add or change "
 "the textual descriptions for these widgets with the appropriate ATK function "
-"call, so that an assisitive technology can describe their purpose or state "
-"to the user. See <link linkend=\"gad-coding-guidelines\">Coding Guidelines "
-"for Supporting Accessibility</link> for more information."
+"call, so that an assistive technology can describe their purpose or state to "
+"the user. See <link linkend=\"gad-coding-guidelines\">Coding Guidelines for "
+"Supporting Accessibility</link> for more information."
 msgstr ""
 "Aunque el soporte integrado de accesibilidad de GNOME proporciona una "
 "funcionalidad significativa, sin cambios de código específicos de "
@@ -835,7 +842,8 @@ msgstr ""
 "información consulte las <link linkend=\"gad-coding-guidelines"
 "\">Instrucciones de programación para soporte de accesibilidad</link>."
 
-#: C/index.docbook:89(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:89
 msgid ""
 "If your application uses custom widgets, you may have to do some work to "
 "expose those widgets' properties to assistive technologies. See <link "
@@ -849,7 +857,8 @@ msgstr ""
 "\">Creación de componentes personalizados accesibles</link> y <link linkend="
 "\"gad-api-examples\">Ejemplos de uso de la API de accesibilidad</link>."
 
-#: C/index.docbook:92(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:92
 msgid ""
 "For additional, in-depth information regarding GTK/GTK+, see the <ulink url="
 "\"http://library.gnome.org/devel/gtk\">GTK+ Reference Manual</ulink>, <ulink "
@@ -866,27 +875,23 @@ msgstr ""
 "de GTK+ 2.0</ulink> y las <ulink url=\"http://library.gnome.org/devel/gtk-"
 "faq/stable/\">P+F de GTK+</ulink>."
 
-#: C/index.docbook:98(section/title)
+#. (itstool) path: section/title
+#: C/index.docbook:98
 msgid "Developer Quick Start"
 msgstr "Inicio rápido para desarrolladores"
 
-#: C/index.docbook:99(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:99
 msgid "Here are some common starting points:"
 msgstr "Aquí hay algunos puntos comunes de inicio:"
 
-#: C/index.docbook:104(section/title)
+#. (itstool) path: section/title
+#: C/index.docbook:104
 msgid "How do I check to see if my application is accessible or not?"
 msgstr "¿Cómo compruebo si mi aplicación es accesible o no?"
 
-#: C/index.docbook:105(section/para)
-#| msgid ""
-#| "To start right in, see <link linkend=\"gad-overview\">Making a GNOME "
-#| "Application Accessible - Overview</link>. For a pre-codng perspective, "
-#| "see <link linkend=\"gad-ui-guidelines\">User Interface Guidelines for "
-#| "Supporting Accessibility</link> or <link linkend=\"gad-coding-guidelines"
-#| "\">Coding Guidelines for Supporting Accessibility</link>. For a checklist "
-#| "of post-design test items, see <link linkend=\"gad-checklist\">User "
-#| "Interface Checklist</link>."
+#. (itstool) path: section/para
+#: C/index.docbook:105
 msgid ""
 "To start right in, see <link linkend=\"gad-overview\">Making a GNOME "
 "Application Accessible - Overview</link>. For a pre-coding perspective, see "
@@ -905,11 +910,13 @@ msgstr ""
 "lista de elementos de prueba de post-diseño consulte la <link linkend=\"gad-"
 "checklist\">Lista de comprobación de la interfaz de usuario</link>."
 
-#: C/index.docbook:111(section/title)
+#. (itstool) path: section/title
+#: C/index.docbook:111
 msgid "What are the common pitfalls?"
 msgstr "¿Cuáles son las principales dificultades?"
 
-#: C/index.docbook:112(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:112
 msgid ""
 "The <link linkend=\"gad-checklist\">User Interface Checklist</link> covers "
 "all the areas that sometimes get overlooked in the design stage."
@@ -918,11 +925,13 @@ msgstr ""
 "usuario</link> cubre todas las áreas y algunas veces ignoradas en la fase de "
 "diseño."
 
-#: C/index.docbook:118(section/title)
+#. (itstool) path: section/title
+#: C/index.docbook:118
 msgid "How do I do common ATK things?"
 msgstr "¿Cómo hago cosas ATK comunes?"
 
-#: C/index.docbook:119(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:119
 msgid ""
 "An abbreviated listing of common ATK calls can be found <link linkend=\"gad-"
 "api\">here</link>."
@@ -930,11 +939,13 @@ msgstr ""
 "Una lista abreviada de llamadas a ATK se puede encontrar <link linkend=\"gad-"
 "api\">aquí</link>."
 
-#: C/index.docbook:125(section/title)
+#. (itstool) path: section/title
+#: C/index.docbook:125
 msgid "How do I do more complex ATK things?"
 msgstr "¿Cómo hago cosas ATK complejas?"
 
-#: C/index.docbook:126(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:126
 msgid ""
 "See <link linkend=\"gad-custom\">Making Custom Components Accessible</link> "
 "and <link linkend=\"gad-api-examples\">Examples that Use the Accessibility "
@@ -944,11 +955,13 @@ msgstr ""
 "componentes personalizados accesibles</link> y <link linkend=\"gad-api-"
 "examples\">Ejemplos que usano la API de accesibilidad</link>."
 
-#: C/index.docbook:132(section/title)
+#. (itstool) path: section/title
+#: C/index.docbook:132
 msgid "Introducing ATK, AT-SPI, GAIL and GTK+"
 msgstr "Introducción a ATK, AT-SPI, GAIL y GTK+"
 
-#: C/index.docbook:134(screenshot/mediaobject)
+#. (itstool) path: screenshot/mediaobject
+#: C/index.docbook:134
 msgid ""
 "<imageobject> <imagedata fileref=\"figures/gaa.jpg\"/> </imageobject> "
 "<textobject> <phrase> GNOME Accessibility Architecture </phrase> </"
@@ -958,16 +971,8 @@ msgstr ""
 "<textobject> <phrase> Arquitectura de accesibilidad de GNOME </phrase> </"
 "textobject>"
 
-#: C/index.docbook:145(section/para)
-#| msgid ""
-#| "ATK is the toolkit that GNOME uses to enable accessibility for users "
-#| "needing extra support to make the most of their computers. ATK is used by "
-#| "tools such as screen readers, magnifiers, and input devices to permit a "
-#| "rich interaction with the desktop through alternative means. See <ulink "
-#| "url=\"http://java-gnome.sourceforge.net/4.0/doc/api/org/gnome/atk/package-"
-#| "summary.html\">the ATK SourceForge Project</ulink> and <ulink url="
-#| "\"http://library.gnome.org/devel/atk/stable/atk.html\">the ATK Library</"
-#| "ulink> for more information."
+#. (itstool) path: section/para
+#: C/index.docbook:145
 msgid ""
 "ATK is the toolkit that GNOME uses to enable accessibility for users needing "
 "extra support to make the most of their computers. ATK is used by tools such "
@@ -988,7 +993,8 @@ msgstr ""
 "ATK en SourceForge</ulink> y la <ulink url=\"http://library.gnome.org/devel/"
 "atk/stable/\">biblioteca de ATK</ulink>."
 
-#: C/index.docbook:148(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:148
 msgid ""
 "AT-SPI is the primary service interface by which assistive technologies "
 "query and receive notifications from running applications. The full API can "
@@ -1004,7 +1010,8 @@ msgstr ""
 "la <ulink url=\"http://accessibility.kde.org/developer/atk.php#coreclasses"
 "\">Comunidad de desarrollo de accesibilidad de KDE</ulink>."
 
-#: C/index.docbook:151(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:151
 msgid ""
 "GAIL (GNOME Accessibility Implementation Library) is an implementation of "
 "the accessibility interfaces defined by ATK. GTK is a toolkit which is "
@@ -1027,7 +1034,8 @@ msgstr ""
 "Además, puede interesarle el <ulink url=\"http://library.gnome.org/devel/"
 "gail-libgail-util/stable/\">Manual de Referencia de GAIL</ulink>."
 
-#: C/index.docbook:154(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:154
 msgid ""
 "GTK+ is a library for creating graphical user interfaces. It works on many "
 "UNIX-like platforms, Windows, and on framebuffer devices. GTK+ is released "
@@ -1046,15 +1054,8 @@ msgstr ""
 "incluyendo C++, Objective-C, Guile/Scheme, Perl, Python, TOM, Ada95, Free "
 "Pascal y Eiffel."
 
-#: C/index.docbook:157(section/para)
-#| msgid ""
-#| "For additional, in-depth information regarding GTK/GTK+, see the <ulink "
-#| "url=\"http://library.gnome.org/devel/gtk\">GTK+ Reference Manual</ulink>, "
-#| "<ulink url=\"http://live.gnome.org/GAP/AtkGuide/Gtk\">the GTK section of "
-#| "the ATK Guide</ulink>, the GNOME-hosted <ulink url=\"http://library.gnome."
-#| "org/devel/gtk-tutorial/stable/\">GTK+ 2.0 Tutorial</ulink> and the "
-#| "official <ulink url=\"http://library.gnome.org/devel/gtk-faq/stable/\">GTK"
-#| "+ FAQ</ulink>."
+#. (itstool) path: section/para
+#: C/index.docbook:157
 msgid ""
 "For additional, in-depth information regarding GTK/GTK+, see the <ulink url="
 "\"http://library.gnome.org/devel/gtk\">GTK+ Reference Manual</ulink>, <ulink "
@@ -1072,11 +1073,13 @@ msgstr ""
 "tutorial/stable/\">Tutorial de GTK+ 2.0</ulink> y las <ulink url=\"http://"
 "library.gnome.org/devel/gtk-faq/stable/\">P+F de GTK+</ulink>."
 
-#: C/index.docbook:164(section/title)
+#. (itstool) path: section/title
+#: C/index.docbook:164
 msgid "Making a GNOME Application Accessible - Overview"
 msgstr "Hacer que una aplicación de GNOME sea accesible: Visión general"
 
-#: C/index.docbook:165(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:165
 msgid ""
 "If your application only uses standard GTK widgets, you will probably have "
 "to do little or nothing to make your application (reasonably) accessible. "
@@ -1091,12 +1094,21 @@ msgstr ""
 "indicadores de estado que no tienen etiquetas o información sobre "
 "herramientas."
 
-#: C/index.docbook:168(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:168
+#| msgid ""
+#| "You can probably also improve on the default descriptions provided for "
+#| "some of the widgets, and tailor them to that widget's specific purpose in "
+#| "your application. You should add or change the textual descriptions for "
+#| "these widgets with the appropriate ATK function call, so that an "
+#| "assisitive technology can describe their purpose or state to the user. "
+#| "See <link linkend=\"gad-coding-guidelines\">Coding Guidelines for "
+#| "Supporting Accessibility</link> for more information."
 msgid ""
 "You can probably also improve on the default descriptions provided for some "
 "of the widgets, and tailor them to that widget's specific purpose in your "
 "application. You should add or change the textual descriptions for these "
-"widgets with the appropriate ATK function call, so that an assisitive "
+"widgets with the appropriate ATK function call, so that an assistive "
 "technology can describe their purpose or state to the user. See <link "
 "linkend=\"gad-coding-guidelines\">Coding Guidelines for Supporting "
 "Accessibility</link> for more information."
@@ -1109,16 +1121,8 @@ msgstr ""
 "<link linkend=\"gad-coding-guidelines\">Guías de codificación para soportar "
 "accesibilidad</link> para obtener más información."
 
-#: C/index.docbook:171(section/para)
-#| msgid ""
-#| "If your application uses custom widgets, you may have to do some work to "
-#| "expose those widgets' properties to assistive technologies. See <link "
-#| "linkend=\"gad-custom\">Making Custom Components Accessible</link> and "
-#| "<link linkend=\"gad-api-examples\">Examples that Use the Accessibility "
-#| "API</link> for more information. Additional detailed information can be "
-#| "found in Marc Mulcahy's 2002 GUADEC presentation, <ulink url=\"http://"
-#| "developer.gnome.org/projects/gap/presentations/GUAD3C/making-apps-"
-#| "accessible/start.html\">\"Making GNOME Applications Accessible\".</ulink>"
+#. (itstool) path: section/para
+#: C/index.docbook:171
 msgid ""
 "If your application uses custom widgets, you may have to do some work to "
 "expose those widgets' properties to assistive technologies. See <link "
@@ -1139,11 +1143,13 @@ msgstr ""
 "gnome.org/accessibility/talks/GUAD3C/making-apps-accessible/start.html"
 "\">Making GNOME Applications Accessible.</ulink>"
 
-#: C/index.docbook:177(section/title)
+#. (itstool) path: section/title
+#: C/index.docbook:177
 msgid "Coding Guidelines for Supporting Accessibility"
 msgstr "Guías de programación para soporte de accesibilidad"
 
-#: C/index.docbook:178(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:178
 msgid ""
 "Here are some things you can do in your code to make your program work as "
 "well as possible with assistive technologies. (You can find a list of things "
@@ -1157,7 +1163,8 @@ msgstr ""
 "sección <link linkend=\"gad-ui-guidelines\">Guías de la interfaz de usuario "
 "para soportar accesibilidad</link> más tarde en sus documentos):"
 
-#: C/index.docbook:183(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:183
 msgid ""
 "For components that don't display a short string (such as a graphical "
 "button), specify a name for it with <function>atk_object_set_name()</"
@@ -1165,11 +1172,13 @@ msgid ""
 "provide logical groupings, text areas, and so on."
 msgstr ""
 "Para los componentes que no muestren una cadena corta (tales como un botón "
-"gráfico), especifique un nombre para ellos con <function>atk_object_set_name"
-"()</function>. Puede querer hacerlo para botones con imagen exclusivamente, "
-"paneles que proporcionen agrupaciones lógicas, áreas de texto y demás."
+"gráfico), especifique un nombre para ellos con "
+"<function>atk_object_set_name()</function>. Puede querer hacerlo para "
+"botones con imagen exclusivamente, paneles que proporcionen agrupaciones "
+"lógicas, áreas de texto y demás."
 
-#: C/index.docbook:188(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:188
 msgid ""
 "If you can't provide a tooltip for a component, use "
 "<function>atk_object_set_description()</function> instead to provide a "
@@ -1182,11 +1191,13 @@ msgstr ""
 "proporcionar al usuario. Por ejemplo, para proporcionar una descripción "
 "accesible para un botón <function>Cerrar</function>."
 
-#: C/index.docbook:192(example/title)
+#. (itstool) path: example/title
+#: C/index.docbook:192
 msgid "Providing an accessible description for a GtkButton"
 msgstr "Proporcionar una descripción accesible para un GtkButton"
 
-#: C/index.docbook:193(example/programlisting)
+#. (itstool) path: example/programlisting
+#: C/index.docbook:193
 #, no-wrap
 msgid ""
 "\n"
@@ -1203,7 +1214,8 @@ msgstr ""
 "  atk_object_set_description(obj,_(\"Cierra la ventana\"));\n"
 "}\n"
 
-#: C/index.docbook:203(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:203
 msgid ""
 "Use <function>atk_image_set_description()</function> to provide a text "
 "description for all images and icons in your program."
@@ -1211,14 +1223,16 @@ msgstr ""
 "Use <function>atk_image_set_description()</function> para proporcionar una "
 "descripción de texto para todas las imágenes e iconos de su programa."
 
-#: C/index.docbook:208(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:208
 msgid ""
 "If several components form a logical group, try to put them in one container."
 msgstr ""
 "Si varios componentes forman un grupo lógico, intente ponerlos en un "
 "contenedor."
 
-#: C/index.docbook:213(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:213
 msgid ""
 "Whenever you have a label that describes another component, use "
 "<function>atk_relation_set_add_relation()</function> so that assistive "
@@ -1236,11 +1250,13 @@ msgstr ""
 "relación de <constant>ATK_RELATION_LABEL_FOR</constant> se genera "
 "automáticamente, así que el siguiente código podría no ser necesario):"
 
-#: C/index.docbook:217(example/title)
+#. (itstool) path: example/title
+#: C/index.docbook:217
 msgid "Relating a GtkLabel to a GtkWidget"
 msgstr "Relacionar un GtkLabel con un GtkWidget"
 
-#: C/index.docbook:218(example/programlisting)
+#. (itstool) path: example/programlisting
+#: C/index.docbook:218
 #, no-wrap
 msgid ""
 "\n"
@@ -1285,7 +1301,8 @@ msgstr ""
 "  g_object_unref(G_OBJECT(relation));\n"
 "}\n"
 
-#: C/index.docbook:242(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:242
 msgid ""
 "If you create a custom widget, make sure it supports accessibility. Custom "
 "components that are descendants of other GTK widgets should override "
@@ -1298,7 +1315,8 @@ msgstr ""
 "Para obtener más información, consulte la <link linkend=\"gad-custom"
 "\">Creación de componentes accesibles personalizados</link>."
 
-#: C/index.docbook:247(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:247
 msgid ""
 "Don't break what you get for free! If your GUI has an inaccessible "
 "container, any components inside that container may become inaccessible."
@@ -1306,11 +1324,13 @@ msgstr ""
 "No rompa lo que consigue gratis. Si su IGU tiene un contenedor inaccesible, "
 "cualquier componente dentro de ese contenedor puede resultar inaccesible."
 
-#: C/index.docbook:255(section/title)
+#. (itstool) path: section/title
+#: C/index.docbook:255
 msgid "The Accessibility API"
 msgstr "La API de accesibilidad"
 
-#: C/index.docbook:256(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:256
 msgid ""
 "Here are a few of the basic API calls you may need to use in your "
 "application to ensure it works well with assistive technologies. The full "
@@ -1322,23 +1342,28 @@ msgstr ""
 "asistencia. La API completa de accesibilidad es extensible, para permitirle "
 "escribir sus propios widgets personalizados de accesibilidad, por ejemplo."
 
-#: C/index.docbook:260(table/title)
+#. (itstool) path: table/title
+#: C/index.docbook:260
 msgid "Commonly used ATK API calls"
 msgstr "Llamadas a la API de ATK comúnmente usadas"
 
-#: C/index.docbook:264(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:264
 msgid "API"
 msgstr "API"
 
-#: C/index.docbook:265(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:265
 msgid "Description"
 msgstr "Descripción"
 
-#: C/index.docbook:271(entry/para)
+#. (itstool) path: entry/para
+#: C/index.docbook:271
 msgid "<function>AtkObject* gtk_widget_get_accessible (GtkWidget*)</function>"
 msgstr "<function>AtkObject* gtk_widget_get_accessible (GtkWidget*)</function>"
 
-#: C/index.docbook:276(entry/para)
+#. (itstool) path: entry/para
+#: C/index.docbook:276
 msgid ""
 "Returns the accessible object that describes the specified GTK widget to an "
 "assistive technology."
@@ -1346,13 +1371,15 @@ msgstr ""
 "Devuelve a una tecnología accesible el objeto accesible que describe el "
 "widget GTK especificado."
 
-#: C/index.docbook:283(entry/para)
+#. (itstool) path: entry/para
+#: C/index.docbook:283
 msgid ""
 "<function>void atk_object_set_name (AtkObject*, const gchar*)</function>"
 msgstr ""
 "<function>void atk_object_set_name (AtkObject*, const gchar*)</function>"
 
-#: C/index.docbook:288(entry/para)
+#. (itstool) path: entry/para
+#: C/index.docbook:288
 msgid ""
 "Sets the name of the accessible object. For example, if the object is a "
 "graphical button that quits the application when pressed, the name might be "
@@ -1362,7 +1389,8 @@ msgstr ""
 "botón gráfico que sale de la aplicación al pulsarlo, el nombre puede ser "
 "«Salir»."
 
-#: C/index.docbook:295(entry/para)
+#. (itstool) path: entry/para
+#: C/index.docbook:295
 msgid ""
 "<function>void atk_object_set_description (AtkObject*, const gchar*)</"
 "function>"
@@ -1370,7 +1398,8 @@ msgstr ""
 "<function>void atk_object_set_description (AtkObject*, const gchar*)</"
 "function>"
 
-#: C/index.docbook:300(entry/para)
+#. (itstool) path: entry/para
+#: C/index.docbook:300
 msgid ""
 "Sets the textual description of the accessible object. For example, if the "
 "object is a graphical \"Close\" button, the description might be \"Closes "
@@ -1380,15 +1409,17 @@ msgstr ""
 "objeto es un botón gráfico «Cerrar», la descripción puede ser «Cierra la "
 "ventana»."
 
-#: C/index.docbook:307(entry/para)
+#. (itstool) path: entry/para
+#: C/index.docbook:307
 msgid ""
-"<function>AtkRelation* atk_relation_new (AtkObject**, gint, AtkRelationType)"
-"</function>"
+"<function>AtkRelation* atk_relation_new (AtkObject**, gint, "
+"AtkRelationType)</function>"
 msgstr ""
-"<function>AtkRelation* atk_relation_new (AtkObject**, gint, AtkRelationType)"
-"</function>"
+"<function>AtkRelation* atk_relation_new (AtkObject**, gint, "
+"AtkRelationType)</function>"
 
-#: C/index.docbook:312(entry/para)
+#. (itstool) path: entry/para
+#: C/index.docbook:312
 msgid ""
 "Creates a new relation between the specified key and the specified list of "
 "target objects. A relationship normally indicates to the assistive "
@@ -1402,13 +1433,15 @@ msgstr ""
 "ejemplo, que un widget GtkLabel en particular es el título de un GtkTreeView "
 "en la misma ventana."
 
-#: C/index.docbook:319(entry/para)
+#. (itstool) path: entry/para
+#: C/index.docbook:319
 msgid ""
 "<function>void atk_image_set_description (AtkImage*, const gchar*)</function>"
 msgstr ""
 "<function>void atk_image_set_description (AtkImage*, const gchar*)</function>"
 
-#: C/index.docbook:324(entry/para)
+#. (itstool) path: entry/para
+#: C/index.docbook:324
 msgid ""
 "Sets the textual description of the accessible image object. For example, if "
 "the object is a thumbnail of a virtual desktop in a panel applet, the "
@@ -1419,11 +1452,13 @@ msgstr ""
 "miniaplicación del panel, la descripción puede ser «Imagen mostrando la "
 "organización de las ventanas en el escritorio 1»."
 
-#: C/index.docbook:335(section/title)
+#. (itstool) path: section/title
+#: C/index.docbook:335
 msgid "Examples that Use the Accessibility API"
 msgstr "Ejemplos que usan la API de accesibilidad"
 
-#: C/index.docbook:336(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:336
 msgid ""
 "As noted earlier, you should have little or no work to do to make your "
 "application accessible if you use the GTK widget set, or any other widget "
@@ -1435,7 +1470,8 @@ msgstr ""
 "otra biblioteca de widgets que implemente las interfaces de ATK. Las dos "
 "cosas más comunes que debe hacer en este caso son:"
 
-#: C/index.docbook:341(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:341
 msgid ""
 "provide descriptions of some controls and images using "
 "<function>atk_object_set_description()</function> or "
@@ -1445,11 +1481,13 @@ msgstr ""
 "<function>atk_object_set_description()</function> o "
 "<function>atk_image_set_description():</function>"
 
-#: C/index.docbook:345(example/title)
+#. (itstool) path: example/title
+#: C/index.docbook:345
 msgid "Setting the accessible description for a button"
 msgstr "Establecer la descripción accesible para un botón"
 
-#: C/index.docbook:346(example/programlisting)
+#. (itstool) path: example/programlisting
+#: C/index.docbook:346
 #, no-wrap
 msgid ""
 "\n"
@@ -1466,21 +1504,24 @@ msgstr ""
 "   atk_object_set_description(obj,_(\"Abre el diálogo de preferencias\"));\n"
 "}\n"
 
-#: C/index.docbook:358(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:358
 msgid ""
 "Specify relationships between any unusual groupings of widgets using "
-"<function>atk_relation_new()</function> and <function>atk_relation_set_add()"
-"</function>:"
+"<function>atk_relation_new()</function> and "
+"<function>atk_relation_set_add()</function>:"
 msgstr ""
 "Especifique la relación entre cualquier agrupación inusual de widgets usando "
 "<function>atk_relation_new()</function> y <function>atk_relation_set_add()</"
 "function>:"
 
-#: C/index.docbook:362(example/title)
+#. (itstool) path: example/title
+#: C/index.docbook:362
 msgid "Specifying accessible relationship between two controls"
 msgstr "Especificar la relación accesible entre dos controles"
 
-#: C/index.docbook:363(example/programlisting)
+#. (itstool) path: example/programlisting
+#: C/index.docbook:363
 #, no-wrap
 msgid ""
 "\n"
@@ -1525,16 +1566,8 @@ msgstr ""
 "  g_object_unref(G_OBJECT(relation));\n"
 "}\n"
 
-#: C/index.docbook:387(section/para)
-#| msgid ""
-#| "The examples in the rest of this section are mostly to give you a flavor "
-#| "of the scope of the ATK. They cover techniques that you may never need to "
-#| "use as an application developer, although they may be of interest if you "
-#| "are writing your own custom widgets (see <link linkend=\"gad-custom"
-#| "\">Making Custom Components Accessible</link>) or if you want to write an "
-#| "assistive technology application. Whatever the purpose, the <ulink url="
-#| "\"ftp://ftp.gnome.org/pub/GNOME/sources/gail/\">GAIL source code</ulink> "
-#| "serves as an excellent tutorial for advanced ATK usage."
+#. (itstool) path: section/para
+#: C/index.docbook:387
 msgid ""
 "The examples in the rest of this section are mostly to give you a flavor of "
 "the scope of the ATK. They cover techniques that you may never need to use "
@@ -1558,11 +1591,13 @@ msgstr ""
 "desde la versión 3.1.10 de GTK+, Gail se ha incluido en GTK+ y ya no es un "
 "módulo independiente."
 
-#: C/index.docbook:392(section/title)
+#. (itstool) path: section/title
+#: C/index.docbook:392
 msgid "Gtk Modules"
 msgstr "Módulos GTK"
 
-#: C/index.docbook:393(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:393
 msgid ""
 "Programs that make use of GAIL (the accessibility implementation library for "
 "GTK widgets) are written as GTK modules. GTK modules are loaded into the "
@@ -1577,21 +1612,25 @@ msgstr ""
 "la biblioteca del módulo. Si hay varias bibliotecas de módulos, sepárelas "
 "con dos puntos (:). Por ejemplo:"
 
-#: C/index.docbook:396(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:396
 msgid "<userinput>setenv GTK_MODULES \"libgail:libtestprops\"</userinput>"
 msgstr "<userinput>setenv GTK_MODULES \"libgail:libtestprops\"</userinput>"
 
-#: C/index.docbook:399(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:399
 msgid "All GTK modules have a <function>gtk_module_init()</function> function."
 msgstr ""
 "Todos los módulos GTK tienen una función <function>gtk_module_init()</"
 "function>."
 
-#: C/index.docbook:405(section/title)
+#. (itstool) path: section/title
+#: C/index.docbook:405
 msgid "Gathering accessibility information from an application"
 msgstr "Obtener la información de accesibilidad de una aplicación"
 
-#: C/index.docbook:406(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:406
 msgid ""
 "A program that wishes to make use of ATK calls would likely need to do one "
 "(or more) of the following things:"
@@ -1599,20 +1638,23 @@ msgstr ""
 "Un programa que quiera hacer llamadas ATK debería hacer una, o más, de las "
 "siguientes:"
 
-#: C/index.docbook:411(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:411
 msgid ""
-"Create an event watcher, for example with the <function>atk_add_focus_tracker"
-"()</function> function:"
+"Create an event watcher, for example with the "
+"<function>atk_add_focus_tracker()</function> function:"
 msgstr ""
 "Crear un vigilante de eventos, por ejemplo con la función "
 "<function>atk_add_focus_tracker()</function>:"
 
-#: C/index.docbook:414(listitem/programlisting)
+#. (itstool) path: listitem/programlisting
+#: C/index.docbook:414
 #, no-wrap
 msgid "atk_add_focus_tracker (_my_focus_tracker);"
 msgstr "atk_add_focus_tracker (_my_focus_tracker);"
 
-#: C/index.docbook:415(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:415
 msgid ""
 "where <function>_my_focus_tracker()</function> is a function with this "
 "prototype:"
@@ -1620,18 +1662,21 @@ msgstr ""
 "donde <function>_my_focus_tracker()</function> es una función con este "
 "prototipo:"
 
-#: C/index.docbook:418(listitem/programlisting)
+#. (itstool) path: listitem/programlisting
+#: C/index.docbook:418
 #, no-wrap
 msgid "void _my_focus_tracker (AtkObject *aobject);"
 msgstr "void _my_focus_tracker (AtkObject *aobject);"
 
-#: C/index.docbook:421(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:421
 msgid "Set up a global event listener, with atk_add_global_event_listener():"
 msgstr ""
-"Configurar un detector de eventos globales, con atk_add_global_event_listener"
-"():"
+"Configurar un detector de eventos globales, con "
+"atk_add_global_event_listener():"
 
-#: C/index.docbook:424(listitem/programlisting)
+#. (itstool) path: listitem/programlisting
+#: C/index.docbook:424
 #, no-wrap
 msgid ""
 "\n"
@@ -1640,7 +1685,8 @@ msgstr ""
 "\n"
 "mouse_watcher_focus_id =   atk_add_global_event_listener(_my_global_listener,\"Gtk:GtkWidget:enter_notify_event\");\n"
 
-#: C/index.docbook:427(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:427
 msgid ""
 "where <function>_my_global_listener</function> has the prototype of a Glib "
 "<type>GSignalEmissionHook</type>. This example would cause the "
@@ -1652,21 +1698,29 @@ msgstr ""
 "función <function>_my_global_listener()</function> se llamara cada vez que "
 "ocurra una señal «enter_notify_even» en un objeto <type>GtkWidget</type>."
 
-#: C/index.docbook:432(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:432
 msgid "Access the ATK top-level object with the following function call."
 msgstr ""
 "Acceder al objeto ATK de nivel superior con la siguiente llamada de función."
 
-#: C/index.docbook:435(listitem/programlisting)
+#. (itstool) path: listitem/programlisting
+#: C/index.docbook:435
 #, no-wrap
 msgid "AtkObject *root_obj = atk_get_root();"
 msgstr "AtkObject *root_obj = atk_get_root();"
 
-#: C/index.docbook:436(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:436
+#| msgid ""
+#| "This returns an <type>AtkObject</type> which contains all toplevel "
+#| "windows in the currently running program. The user could then navigate "
+#| "through the object heirarchy by accessing the root object's children, "
+#| "which corresponds to the toplevel windows."
 msgid ""
 "This returns an <type>AtkObject</type> which contains all toplevel windows "
 "in the currently running program. The user could then navigate through the "
-"object heirarchy by accessing the root object's children, which corresponds "
+"object hierarchy by accessing the root object's children, which corresponds "
 "to the toplevel windows."
 msgstr ""
 "Esto devuelve un <type>AtkObject</type> que contiene todos las ventanas de "
@@ -1674,11 +1728,13 @@ msgstr ""
 "de la jerarquía de objetos accediendo a la raíz de los objetos hijos, que "
 "con las ventanas del nivel superior."
 
-#: C/index.docbook:444(section/title)
+#. (itstool) path: section/title
+#: C/index.docbook:444
 msgid "Querying an <type>AtkObject</type>'s Interfaces"
 msgstr "Preguntar a la interfaz de un <type>AtkObject</type>"
 
-#: C/index.docbook:445(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:445
 msgid ""
 "Having located the <type>AtkObject</type> associated with an object in the "
 "application (e.g. by using <function>gtk_widget_get_accessible()</"
@@ -1688,24 +1744,29 @@ msgstr ""
 "aplicación (ej. usando <function>gtk_widget_get_accessible()</function>), "
 "puede averiguar qué interfaces implementa de varias formas:"
 
-#: C/index.docbook:450(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:450
 msgid "Use the supplied <function>ATK_IS_...</function> macros, for example:"
 msgstr ""
 "Use las macros proporcionadas <function>ATK_IS_...</function>, por ejemplo:"
 
-#: C/index.docbook:455(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:455
 msgid "<function>ATK_IS_ACTION(atkobj)</function>"
 msgstr "<function>ATK_IS_ACTION(atkobj)</function>"
 
-#: C/index.docbook:460(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:460
 msgid "<function>ATK_IS_COMPONENT(atkobj)</function>"
 msgstr "<function>ATK_IS_COMPONENT(atkobj)</function>"
 
-#: C/index.docbook:465(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:465
 msgid "etc. (there is one for each interface)"
 msgstr "etc. (existe uno para cada interfaz)"
 
-#: C/index.docbook:470(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:470
 msgid ""
 "If the macro returns <function>TRUE</function>, the interface calls can "
 "safely be made on that ATK object."
@@ -1713,7 +1774,8 @@ msgstr ""
 "Si la macro devuelve <function>TRUE</function>, las llamadas a la interfaz "
 "se pueden hacer de forma segura sobre ese objeto ATK."
 
-#: C/index.docbook:475(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:475
 msgid ""
 "Test the role of the <type>AtkObject</type> by calling "
 "<function>atk_object_get_role()</function>. Any given role implements a "
@@ -1723,20 +1785,19 @@ msgstr ""
 "<function>atk_object_get_role()</function>. Cualquier tipo asignado "
 "implementa un número específico de API de ATK."
 
-#: C/index.docbook:483(section/title)
+#. (itstool) path: section/title
+#: C/index.docbook:483
 msgid "Setting up an ATK Signal Handler"
 msgstr "Establecer un manejador de señal ATK"
 
-#: C/index.docbook:484(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:484
 msgid "Using the <constant>column_inserted</constant> signal as an example:"
 msgstr "Usando la señal <constant>column_inserted</constant> como un ejemplo:"
 
-#: C/index.docbook:487(section/programlisting)
+#. (itstool) path: section/programlisting
+#: C/index.docbook:487
 #, no-wrap
-#| msgid ""
-#| "\n"
-#| "table_column_inserted_id = g_signal_connect_closure_by_id(my_atk_obj, \n"
-#| "g_signal_lookup(\"column_inserted\", G_OBJECT_TYPE(my_atk_obj)),0,g_cclosure_new(G_CALLBACK (_my_table_column_inserted_func),NULL,NULL), FALSE);\n"
 msgid ""
 "\n"
 "table_column_inserted_id = g_signal_connect_closure_by_id (my_atk_obj, \n"
@@ -1748,17 +1809,20 @@ msgstr ""
 "g_signal_lookup(\"column_inserted\", G_OBJECT_TYPE(my_atk_obj)), 0, \n"
 "g_cclosure_new(G_CALLBACK (_my_table_column_inserted_func), NULL, NULL), FALSE);\n"
 
-#: C/index.docbook:492(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:492
 msgid ""
 "This will cause <function>_my_table_column_inserted_func()</function> to be "
 "called whenever a column_inserted signal is emitted on the <type>AtkObject</"
 "type> <varname>my_atk_object</varname>."
 msgstr ""
-"Esto hará que se llame a la función <function>_my_table_column_inserted_func"
-"()</function> cada vez que se emita una señal «column_inserted» en el "
-"<type>AtkObject</type> <varname>my_atk_object</varname>."
+"Esto hará que se llame a la función "
+"<function>_my_table_column_inserted_func()</function> cada vez que se emita "
+"una señal «column_inserted» en el <type>AtkObject</type> "
+"<varname>my_atk_object</varname>."
 
-#: C/index.docbook:494(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:494
 msgid ""
 "Connecting to a signal is slightly different if the signal supports detail. "
 "The <constant>children_changed</constant> signal supports the "
@@ -1770,11 +1834,9 @@ msgstr ""
 "<parameter>add</parameter>. Para conectar a una señal cuando el detalle "
 "<parameter>add</parameter> también está especificado, se usa esta técnica:"
 
-#: C/index.docbook:497(section/programlisting)
+#. (itstool) path: section/programlisting
+#: C/index.docbook:497
 #, no-wrap
-#| msgid ""
-#| "\n"
-#| "child_added_id = g_signal_connect_closure (my_atk_obj,\"children_changed::add\",   g_cclosure_new (G_CALLBACK(_my_children_changed_func),NULL,NULL),FALSE); \n"
 msgid ""
 "\n"
 "child_added_id = g_signal_connect_closure (my_atk_obj,\"children_changed::add\",\n"
@@ -1784,7 +1846,8 @@ msgstr ""
 "child_added_id = g_signal_connect_closure (my_atk_obj,\"children_changed::add\",\n"
 "g_cclosure_new (G_CALLBACK(_my_children_changed_func), NULL, NULL), FALSE);\n"
 
-#: C/index.docbook:501(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:501
 msgid ""
 "This will cause <function>_my_children_changed_func()</function> to be "
 "called whenever a <constant>children_changed</constant> signal with the "
@@ -1796,11 +1859,13 @@ msgstr ""
 "constant> con el detalle <parameter>add</parameter> en el <type>AtkObject</"
 "type> <varname>my_atk_obj</varname>."
 
-#: C/index.docbook:507(section/title)
+#. (itstool) path: section/title
+#: C/index.docbook:507
 msgid "Implementing an ATK Object"
 msgstr "Implementar un objeto ATK"
 
-#: C/index.docbook:508(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:508
 msgid ""
 "You will need to implement your own ATK objects for any widgets that do not "
 "already have an accessible implementation in GAIL (or the equivalent library "
@@ -1814,11 +1879,13 @@ msgstr ""
 "un módulo de GTK, que, como antes, debe incluirse en la variable de entorno "
 "<envar>GTK_MODULES</envar> ya que se carga en tiempo de ejecución."
 
-#: C/index.docbook:513(section/title)
+#. (itstool) path: section/title
+#: C/index.docbook:513
 msgid "Registry"
 msgstr "Registro"
 
-#: C/index.docbook:514(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:514
 msgid ""
 "For this example we will assume there is an object called GTK_TYPE_MYTYPE. "
 "The ATK implementation will be called <type>MYATKIMP_TYPE_MYTYPE</type>. A "
@@ -1830,7 +1897,8 @@ msgstr ""
 "necesaria una factoría, que se llamará <type>MYATKIMP_TYPE_MYTYPE_FACTORY</"
 "type>."
 
-#: C/index.docbook:517(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:517
 msgid ""
 "To register an ATK implementation of a GTK object, these steps must be "
 "followed in the module's <function>gtk_module_init()</function> function:"
@@ -1838,11 +1906,13 @@ msgstr ""
 "Para registrar una implementación ATK de un objeto GTK, se deben seguir "
 "estos pasos en la función <function>gtk_module_init()</function> del módulo:"
 
-#: C/index.docbook:522(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:522
 msgid "Access the default registry:"
 msgstr "Acceso al registro predeterminado:"
 
-#: C/index.docbook:525(listitem/programlisting)
+#. (itstool) path: listitem/programlisting
+#: C/index.docbook:525
 #, no-wrap
 msgid ""
 "\n"
@@ -1851,7 +1921,8 @@ msgstr ""
 "\n"
 "default_registry = atk_get_default_registry();\n"
 
-#: C/index.docbook:529(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:529
 msgid ""
 "Register the ATK object in the <function>gtk_module_init()</function> "
 "function of this module by making this function call:"
@@ -1859,11 +1930,9 @@ msgstr ""
 "Registrar el objeto ATK en la función <function>gtk_module_init()</function> "
 "de este módulo haciendo esta llamada a la función:"
 
-#: C/index.docbook:531(listitem/programlisting)
+#. (itstool) path: listitem/programlisting
+#: C/index.docbook:531
 #, no-wrap
-#| msgid ""
-#| "\n"
-#| "atk_registry_set_factory_type (default_registry, GTK_TYPE_MYTYPE, MYATKIMP_TYPE_MYTYPE_FACTORY); \n"
 msgid ""
 "\n"
 "atk_registry_set_factory_type (default_registry, GTK_TYPE_MYTYPE, \n"
@@ -1873,7 +1942,8 @@ msgstr ""
 "atk_registry_set_factory_type (default_registry, GTK_TYPE_MYTYPE, \n"
 "MYATKIMP_TYPE_MYTYPE_FACTORY); \n"
 
-#: C/index.docbook:537(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:537
 msgid ""
 "This will register the AtkObject implementation of <type>GTK_TYPE_MYTYPE</"
 "type> to <type>MYATKIMP_TYPE_MYTYPE_FACTORY</type>. This factory will be "
@@ -1885,11 +1955,13 @@ msgstr ""
 "para que sepa cómo construir objetos de tipo <type>MYATKIMP_TYPE_MYTYPE</"
 "type>."
 
-#: C/index.docbook:543(section/title)
+#. (itstool) path: section/title
+#: C/index.docbook:543
 msgid "Factory"
 msgstr "Fábrica"
 
-#: C/index.docbook:544(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:544
 msgid ""
 "The factory must be implemented as a child of class type "
 "<type>ATK_TYPE_OBJECT_FACTORY</type> and must implement the function "
@@ -1907,11 +1979,14 @@ msgstr ""
 "function> necesitará ser suficientemente inteligente para construir y "
 "devolver el <type>AtkObject</type> correcto."
 
-#: C/index.docbook:550(section/title)
-msgid "ATK Implemetation for a Specific Object"
+#. (itstool) path: section/title
+#: C/index.docbook:550
+#| msgid "ATK Implemetation for a Specific Object"
+msgid "ATK Implementation for a Specific Object"
 msgstr "Implementación ATK para un objeto específico"
 
-#: C/index.docbook:551(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:551
 msgid ""
 "All <type>GObject</type>s implement a <function>get_type()</function> "
 "function. Using the above example the naming convention for this function "
@@ -1921,7 +1996,8 @@ msgstr ""
 "function>. Usando el ejemplo anterior, la convención de nombres para el "
 "nombre de esta función sería <function>myatkimp_mytype_get_type()</function>."
 
-#: C/index.docbook:554(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:554
 msgid ""
 "In this function, you specify which interfaces your object implements. If "
 "the following logic were included in this <function>get_type()</function> "
@@ -1932,11 +2008,13 @@ msgstr ""
 "function>, este objeto podría implementar la interfaz del tipo "
 "<type>ATK_TEXT</type>:"
 
-#: C/index.docbook:558(example/title)
+#. (itstool) path: example/title
+#: C/index.docbook:558
 msgid "Sample <function>get_type()</function> function"
 msgstr "Ejemplo de función <function>get_type()</function>"
 
-#: C/index.docbook:559(example/programlisting)
+#. (itstool) path: example/programlisting
+#: C/index.docbook:559
 #, no-wrap
 msgid ""
 "\n"
@@ -1961,7 +2039,8 @@ msgstr ""
 "g_type_add_interface_static (type, ATK_TYPE_TEXT, \n"
 "                             &amp;atk_text_info); \n"
 
-#: C/index.docbook:571(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:571
 msgid ""
 "The function <function>atk_text_interface_init()</function>, which has the "
 "following prototype, would need to be implemented:"
@@ -1969,7 +2048,8 @@ msgstr ""
 "La función <function>atl_text_interface_init()</function>, que tiene el "
 "siguiente prototipo, deberá implementarse:"
 
-#: C/index.docbook:574(section/programlisting)
+#. (itstool) path: section/programlisting
+#: C/index.docbook:574
 #, no-wrap
 msgid ""
 "\n"
@@ -1978,7 +2058,8 @@ msgstr ""
 "\n"
 "void atk_text_interface_init (AtkTextIface *iface); \n"
 
-#: C/index.docbook:577(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:577
 msgid ""
 "This function would connect the interface function calls to the specific "
 "implementation as follows:"
@@ -1986,13 +2067,15 @@ msgstr ""
 "Esta función conectará las llamadas de función de interfaz con la "
 "implementación específica tal y como sigue:"
 
-#: C/index.docbook:581(example/title)
+#. (itstool) path: example/title
+#: C/index.docbook:581
 msgid "Connecting custom interface calls to an AtkObject implementation"
 msgstr ""
 "Conectar llamadas de interfaz personalizadas con una implementación de un "
 "AtkObject"
 
-#: C/index.docbook:582(example/programlisting)
+#. (itstool) path: example/programlisting
+#: C/index.docbook:582
 #, no-wrap
 msgid ""
 "\n"
@@ -2015,7 +2098,8 @@ msgstr ""
 "   ... \n"
 "}\n"
 
-#: C/index.docbook:593(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:593
 msgid ""
 "Then the functions <function>myatkimp_mytype_get_text()</function>, "
 "<function>myatkimp_mytype_get_character_at_offset()</function>, and the rest "
@@ -2027,11 +2111,13 @@ msgstr ""
 "<function>myatkimp_mytype_get_character_at_offset()</function>, y el resto "
 "de las funciones <type>ATK_TEXT</type> de la interfaz."
 
-#: C/index.docbook:599(section/title)
+#. (itstool) path: section/title
+#: C/index.docbook:599
 msgid "<type>AtkObject</type> Implementation"
 msgstr "Implementación de <type>AtkObject</type>"
 
-#: C/index.docbook:600(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:600
 msgid ""
 "<type>AtkObject</type>s are <type>GObjects</type>, and all <type>GObject</"
 "type>s need to specify the <function>get_type()</function> function. Here is "
@@ -2047,11 +2133,13 @@ msgstr ""
 "que el objeto implementa <type>ATK_TEXT</type> y especifica el objeto padre "
 "para ser <type>MYATKIMP_MYPARENTTYPE</type>."
 
-#: C/index.docbook:604(example/title)
+#. (itstool) path: example/title
+#: C/index.docbook:604
 msgid "Sample <function>get_type()</function> implementation"
 msgstr "Ejemplo de implementación de <function>get_type()</function>"
 
-#: C/index.docbook:605(example/programlisting)
+#. (itstool) path: example/programlisting
+#: C/index.docbook:605
 #, no-wrap
 msgid ""
 "\n"
@@ -2136,11 +2224,13 @@ msgstr ""
 "   return type; \n"
 "} \n"
 
-#: C/index.docbook:650(section/title)
+#. (itstool) path: section/title
+#: C/index.docbook:650
 msgid "Class/Instance Initializers"
 msgstr "Inicializadores de clases/instancias"
 
-#: C/index.docbook:651(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:651
 msgid ""
 "You will have to set up a class initializer for the <type>GObject</type> if "
 "your <type>AtkObject</type> implementation either:"
@@ -2148,7 +2238,8 @@ msgstr ""
 "Deberá tener creada un inicializador de clases para el <type>GObject</type> "
 "si su implementación de <type>AtkObject</type>:"
 
-#: C/index.docbook:656(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:656
 msgid ""
 "Redefines any function calls defined by the object's parent. This is "
 "typically necessary when an object needs to implement a function like "
@@ -2161,7 +2252,8 @@ msgstr ""
 "<function>atk_object_get_n_accessible_children()</function>. Es necesario si "
 "el objeto tiene hijos pero no están representados con los widgets."
 
-#: C/index.docbook:659(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:659
 msgid ""
 "For example, if your ATK implementation needs to over-ride the "
 "<type>AtkObject</type> function <function>get_name()</function>, then the "
@@ -2171,15 +2263,17 @@ msgstr ""
 "<type>AtkObject</type> de la función <function>get_name()</function>, "
 "entonces las clases inicializadas podrían ser así:"
 
-#: C/index.docbook:663(example/title)
+#. (itstool) path: example/title
+#: C/index.docbook:663
 msgid ""
 "Class initializer that overrides parent's <function>get_name()</function> "
 "function"
 msgstr ""
-"Inicializador de clase que sobreescribe la función padre <function>get_name()"
-"</function>"
+"Inicializador de clase que sobreescribe la función padre "
+"<function>get_name()</function>"
 
-#: C/index.docbook:664(example/programlisting)
+#. (itstool) path: example/programlisting
+#: C/index.docbook:664
 #, no-wrap
 msgid ""
 "\n"
@@ -2196,7 +2290,8 @@ msgstr ""
 "  class-&gt;get_name = myatkimp_mytype_get_name; \n"
 "} \n"
 
-#: C/index.docbook:673(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:673
 msgid ""
 "Requires a <function>parent-&gt;init</function>, <function>parent-&gt;"
 "notify_gtk</function>, or <function>parent-&gt;finalize</function> function. "
@@ -2206,7 +2301,8 @@ msgstr ""
 "&gt;notify_gtk</function>, o <function>parent-&gt;finalize</function>. Este "
 "ejemplo define las tres:"
 
-#: C/index.docbook:676(example/title)
+#. (itstool) path: example/title
+#: C/index.docbook:676
 msgid ""
 "Class initializer that defines its own <function>init()</function>, "
 "<function>notify_gtk()</function> and <function>finalize()</function> "
@@ -2216,7 +2312,8 @@ msgstr ""
 "function>, <function>notify_gtk()</function> y <function>finalize()</"
 "function>"
 
-#: C/index.docbook:677(example/programlisting)
+#. (itstool) path: example/programlisting
+#: C/index.docbook:677
 #, no-wrap
 msgid ""
 "\n"
@@ -2255,11 +2352,13 @@ msgstr ""
 "    parent_class-&gt;finalize = myatkimp_mytype_finalize; \n"
 "}\n"
 
-#: C/index.docbook:698(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:698
 msgid "parent-&gt;init"
 msgstr "parent-&gt;init"
 
-#: C/index.docbook:701(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:701
 msgid ""
 "A <function>parent-&gt;init()</function> function may be necessary if the "
 "ATK implementation needs to do either of the following:"
@@ -2267,23 +2366,28 @@ msgstr ""
 "Se puede necesitar una función <function>parent-&gt;init()</function> si la "
 "implementación de ATK necesita hacer cualquiera de las siguientes:"
 
-#: C/index.docbook:706(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:706
 msgid "Cache any data obtained from a backing GTK widget."
 msgstr "Cachear cualquier dato obtenido desde un respaldo del widget de GTK."
 
-#: C/index.docbook:711(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:711
 msgid "Listen to any signals from the backing GTK widget."
 msgstr "Escuche cualquier señal desde el widget GTK de respaldo."
 
-#: C/index.docbook:716(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:716
 msgid "Here is an example of both:"
 msgstr "Aquí hay un ejemplo de ambas:"
 
-#: C/index.docbook:720(example/title)
+#. (itstool) path: example/title
+#: C/index.docbook:720
 msgid "A custom <function>init()</function> function"
 msgstr "Una función <function>init()</function> personalizada"
 
-#: C/index.docbook:721(example/programlisting)
+#. (itstool) path: example/programlisting
+#: C/index.docbook:721
 #, no-wrap
 msgid ""
 "\n"
@@ -2322,7 +2426,8 @@ msgstr ""
 "                       NULL); \n"
 "} \n"
 
-#: C/index.docbook:740(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:740
 msgid ""
 "In this example, if the specified <type>signal-type</type> signal were "
 "generated on the backing <varname>gtk_widget</varname>, then the "
@@ -2332,11 +2437,13 @@ msgstr ""
 "generase en el respaldo de <varname>gtk_widget</varname>, entonces se podría "
 "llamar a la función <function>_myatkimp_mytype_signal_type()</function>."
 
-#: C/index.docbook:745(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:745
 msgid "parent-&gt;notify_gtk"
 msgstr "parent-&gt;notify_gtk"
 
-#: C/index.docbook:748(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:748
 msgid ""
 "If the ATK implementation needs to listen to any property notifications on "
 "the backing GTK object, a <function>parent-&gt;notify_gtk()</function> "
@@ -2346,11 +2453,13 @@ msgstr ""
 "propiedad en el respaldo del objeto GTK, podría ser necesaria una función "
 "<function>parent-&gt;notify_gtk()</function>. Por ejemplo:"
 
-#: C/index.docbook:752(example/title)
+#. (itstool) path: example/title
+#: C/index.docbook:752
 msgid "A custom <function>notify_gtk()</function> function"
 msgstr "Una función <function>notify_gtk()</function> personalizada"
 
-#: C/index.docbook:753(example/programlisting)
+#. (itstool) path: example/programlisting
+#: C/index.docbook:753
 #, no-wrap
 msgid ""
 "\n"
@@ -2389,25 +2498,29 @@ msgstr ""
 "   } \n"
 "} \n"
 
-#: C/index.docbook:774(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:774
 msgid "parent-&gt;finalize"
 msgstr "parent-&gt;finalize"
 
-#: C/index.docbook:777(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:777
 msgid ""
 "If it is necessary to free any data when a <type>GObject</type> instance is "
 "destroyed, then a <function>finalize()</function> function is needed to free "
 "the memory. For example:"
 msgstr ""
 "Si es necesario para liberar cualquier dato cuando se destruye una instancia "
-"de <type>GObject</type>, entonces se necesita una función <function>finalize"
-"()</function> para liberar la memoria. Por ejemplo:"
+"de <type>GObject</type>, entonces se necesita una función "
+"<function>finalize()</function> para liberar la memoria. Por ejemplo:"
 
-#: C/index.docbook:781(example/title)
+#. (itstool) path: example/title
+#: C/index.docbook:781
 msgid "A custom <function>finalize()</function> function"
 msgstr "Una función <function>finalize()</function> personalizada"
 
-#: C/index.docbook:782(example/programlisting)
+#. (itstool) path: example/programlisting
+#: C/index.docbook:782
 #, no-wrap
 msgid ""
 "\n"
@@ -2430,11 +2543,13 @@ msgstr ""
 "   G_OBJECT_CLASS (parent_class)-&gt;finalize (object); \n"
 "} \n"
 
-#: C/index.docbook:802(section/title)
+#. (itstool) path: section/title
+#: C/index.docbook:802
 msgid "Making Custom Components Accessible"
 msgstr "Hacer accesibles componentes personalizados"
 
-#: C/index.docbook:803(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:803
 msgid ""
 "Adding ATK support to your custom widget will assure its cooperation with "
 "the accessibility infrastructure. These are the general steps that are "
@@ -2444,7 +2559,8 @@ msgstr ""
 "con la infraestructura de accesibilidad. Estos son los pasos generales "
 "necesarios:"
 
-#: C/index.docbook:808(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:808
 msgid ""
 "assess a custom widget according to the applicable <link linkend=\"gad-ui-"
 "guidelines\">User Interface Guidelines</link>;"
@@ -2452,7 +2568,8 @@ msgstr ""
 "evaluar un widget personalizado de acuerdo a las <link linkend=\"gad-ui-"
 "guidelines\">Guías de la interfaz de usuario</link>;"
 
-#: C/index.docbook:813(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:813
 msgid ""
 "determine which <ulink url=\"http://library.gnome.org/devel/atk/stable/atk."
 "html\">ATK interfaces</ulink> a custom widget should implement, according to "
@@ -2463,7 +2580,8 @@ msgstr ""
 "personalizado, de acuerdo a la característica del widget establecido y la "
 "funcionalidad;"
 
-#: C/index.docbook:818(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:818
 msgid ""
 "assess which <ulink url=\"http://library.gnome.org/devel/atk/stable/atk.html"
 "\">ATK interfaces</ulink> can be inherited from the parent widget class;"
@@ -2472,7 +2590,8 @@ msgstr ""
 "\">interfaces de ATK</ulink> pueden heredarse desde la clase del widget "
 "padre;"
 
-#: C/index.docbook:823(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:823
 msgid ""
 "implement the appropriate ATK interfaces for the widget class in one of two "
 "ways:"
@@ -2480,11 +2599,13 @@ msgstr ""
 "implementar las interfaces apropiadas de ATK para la clase de widget de una "
 "o dos formas:"
 
-#: C/index.docbook:828(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:828
 msgid "directly by the custom widget, or"
 msgstr "directamente a través del widget personalizado o"
 
-#: C/index.docbook:833(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:833
 msgid ""
 "in an <ulink url=\"http://library.gnome.org/devel/atk/stable/AtkObject.html"
 "\"><type>AtkObject</type></ulink> subtype created by a new <ulink url="
@@ -2496,7 +2617,8 @@ msgstr ""
 "subclase <ulink url=\"http://library.gnome.org/devel/atk/stable/"
 "AtkObjectFactory.html\"><type>AtkObjectFactory</type></ulink>"
 
-#: C/index.docbook:838(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:838
 msgid ""
 "If the second method is used, the appropriate factory type must be "
 "registered with the <type>AtkObjectFactoryRegistry</type> at runtime."
@@ -2504,7 +2626,8 @@ msgstr ""
 "Si se usa el segundo método, se debe registrar el tipo de factor apropiado "
 "con el <type>AtkObjectFactoryRegistry</type> en tiempo de ejecución."
 
-#: C/index.docbook:843(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:843
 msgid ""
 "The <ulink url=\"ftp://ftp.gnome.org/pub/GNOME/sources/gail/\">GAIL source "
 "code</ulink> serves as an excellent tutorial for advanced ATK usage."
@@ -2512,11 +2635,13 @@ msgstr ""
 "El <ulink url=\"ftp://ftp.gnome.org/pub/GNOME/sources/gail/\">código fuente "
 "de GAIL</ulink> sirve como un excelente turorial para el uso avanzado de ATK."
 
-#: C/index.docbook:849(section/title)
+#. (itstool) path: section/title
+#: C/index.docbook:849
 msgid "User Interface Guidelines for Supporting Accessibility"
 msgstr "Guías de interfaz de usuario para soportar accesibilidad"
 
-#: C/index.docbook:850(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:850
 msgid ""
 "When designing your application's GUI, there are a number of simple "
 "guidelines you should follow to ensure that it can be used by as wide an "
@@ -2536,11 +2661,13 @@ msgstr ""
 "aplicación. Siguiendo estas directrices mejorará la usabilidad general de su "
 "aplicación para todos los que lo usen, incluyéndole a usted."
 
-#: C/index.docbook:855(section/title)
+#. (itstool) path: section/title
+#: C/index.docbook:855
 msgid "General"
 msgstr "General"
 
-#: C/index.docbook:856(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:856
 msgid ""
 "We all get frustrated if we can't find a feature in an application, or make "
 "a mistake from which it takes a couple of minutes to recover, if it's "
@@ -2556,18 +2683,20 @@ msgstr ""
 "Siguiendo algunas pautas básicas puede ayudar a prevenir este tipo de "
 "situaciones para todos los usuarios."
 
-#: C/index.docbook:861(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:861
 msgid ""
 "Provide Undo for every action that changes the user's data or the "
 "application's settings. If possible, provide more than one level of undo and "
 "redo, and a history list to allow preview of what actions will be undone."
 msgstr ""
-"Proporcione «Deshacer» para cada acción que cambie los datos del usuario o la "
-"configuración de la aplicación. Si es posible, proporcione más de un nivel "
-"de deshacer y rehacer, y una lista del histórico para permitir un vista "
-"previa de qué acciones se pueden deshacer."
+"Proporcione «Deshacer» para cada acción que cambie los datos del usuario o "
+"la configuración de la aplicación. Si es posible, proporcione más de un "
+"nivel de deshacer y rehacer, y una lista del histórico para permitir un "
+"vista previa de qué acciones se pueden deshacer."
 
-#: C/index.docbook:866(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:866
 msgid ""
 "Provide commands to restore default settings. If a particular setting could "
 "make the application completely unusable for an individual, e.g. by making "
@@ -2582,7 +2711,8 @@ msgstr ""
 "predeterminada fuera de la propia aplicación. Esto podría hacerse, por "
 "ejemplo, mediante un interruptor de línea de comandos."
 
-#: C/index.docbook:871(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:871
 msgid ""
 "Help prevent users from doing the wrong thing. This is particularly "
 "important for actions that could be done by accident (e.g. mouse actions) or "
@@ -2597,7 +2727,8 @@ msgstr ""
 "confirmación o forzar al usuario para entrar en un modo particular para "
 "llevar a cabo acciones potencialmente destructivas."
 
-#: C/index.docbook:876(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:876
 msgid ""
 "Minimize users' memory load. For example, let the user view multiple "
 "documents at the same time, and ensure online help or other instructions can "
@@ -2611,7 +2742,8 @@ msgstr ""
 "el procedimiento que se describe. Déjeles copiar toda la información "
 "mostrada, y pegarla en cualquier parte donde se puedan introducir los datos."
 
-#: C/index.docbook:881(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:881
 msgid ""
 "Don't make users insert disks. Depending on a user's particular disability, "
 "they may find it difficult to physically insert or change a disk, or they "
@@ -2626,7 +2758,8 @@ msgstr ""
 "proporcione una opción para copiar todos los ficheros que sean necesarios en "
 "el disco duro del usuario."
 
-#: C/index.docbook:886(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:886
 msgid ""
 "Don't place frequently used functions deep in a menu structure. Whether "
 "you're using a mouse, keyboard or some other input device, deeply-nested "
@@ -2639,7 +2772,8 @@ msgstr ""
 "de memoria sobre su localización, siempre es más difícil y cuesta mucho "
 "tiempo para acceder a él."
 
-#: C/index.docbook:891(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:891
 msgid ""
 "Don't lead users through unnecessary steps. For example, wizards are useful "
 "for users who have trouble handling large numbers of options at one time, "
@@ -2663,12 +2797,14 @@ msgstr ""
 "pasos, considere preguntar al usuario al inicio si se quiere atravesar todos "
 "los pasos, o simplemente los más comúnmente utilizados."
 
-#: C/index.docbook:899(section/title) C/index.docbook:11(section/title)
-#: C/index.docbook:293(row/entry)
+#. (itstool) path: section/title
+#. (itstool) path: row/entry
+#: C/index.docbook:899 C/index.docbook:11 C/index.docbook:293
 msgid "Keyboard Navigation"
 msgstr "Navegación por teclado"
 
-#: C/index.docbook:900(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:900
 msgid ""
 "A well-designed keyboard user interface plays a key role when you are "
 "designing accessible software. Blind users can navigate software more "
@@ -2685,7 +2821,8 @@ msgstr ""
 "usando el ratón, debido a las habilidades necesarias para la motricidad "
 "final de control."
 
-#: C/index.docbook:903(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:903
 msgid ""
 "It is therefore important to make all mouse actions available from the "
 "keyboard, and include keyboard access to all toolbars, menus, links and "
@@ -2699,7 +2836,8 @@ msgstr ""
 "aplicación puede está disponible usando sólo el teclado. Si es necesario, su "
 "ratón se oculta mientras está utilizando su aplicación."
 
-#: C/index.docbook:906(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:906
 msgid ""
 "Most functionality should be easy to make accessible by using keyboard "
 "mnemonics and accelerators, and the toolkit's built-in navigation features. "
@@ -2712,7 +2850,8 @@ msgstr ""
 "dependen de arrastrar y colocar, por ejemplo, puede requerir un mayor "
 "conocimiento."
 
-#: C/index.docbook:911(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:911
 msgid ""
 "Provide efficient keyboard access to all application features. Some users "
 "may be unable to use a mouse, and many \"power-users\" prefer to use the "
@@ -2731,7 +2870,8 @@ msgstr ""
 "importante proporcionar un interfaz del teclado que minimize el número de "
 "las pulsaciones requeridas para cualquier tarea."
 
-#: C/index.docbook:916(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:916
 msgid ""
 "Use a logical keyboard navigation order. When navigating around a window "
 "with the <keycap>Tab</keycap> key, keyboard focus should move between "
@@ -2744,7 +2884,8 @@ msgstr ""
 "regionales occidentales, ésto normalmente es de izquierda a derecha y de "
 "arriba a abajo."
 
-#: C/index.docbook:921(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:921
 msgid ""
 "Ensure correct tab order for controls whose enabled state is dependent on "
 "checkbox, radio button or toggle button state. When such a button is "
@@ -2763,7 +2904,8 @@ msgstr ""
 "de alternar que tiene controles dependientes, no da automáticamente el foco "
 "al primer control dependiente, pero en su lugar deja el foco en el botón."
 
-#: C/index.docbook:926(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:926
 msgid ""
 "Don't override existing system-level accessibility features. For example, "
 "<ulink url=\"http://www.rehab.uiuc.edu/accessx/overview.html\">AccessX</"
@@ -2782,7 +2924,8 @@ msgstr ""
 "acceder pulsando las teclas en el teclado, ya que los usuarios basándose en "
 "la característica «MouseKeys» no podrán usarlas."
 
-#: C/index.docbook:931(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:931
 msgid ""
 "Provide more than one method to perform keyboard tasks where possible. Some "
 "users may find some keys and key combinations easier to use than others."
@@ -2791,7 +2934,8 @@ msgstr ""
 "que sea posible. Algunos usuarios pueden encontrar algunas claves y "
 "combinaciones de teclas más fáciles de usar que otras."
 
-#: C/index.docbook:936(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:936
 msgid ""
 "Provide both keyboard and mouse access to functions where possible. Some "
 "users may only be able to use either the mouse or the keyboard, but not both."
@@ -2800,7 +2944,8 @@ msgstr ""
 "donde sea posible. Algunos usuarios quizás sólo pueden usar el teclado o el "
 "ratón, pero no ambos."
 
-#: C/index.docbook:941(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:941
 msgid ""
 "Don't assign awkward reaches to frequently performed keyboard operations. "
 "Some people may only be able to use one hand on the keyboard, so shortcuts "
@@ -2817,7 +2962,8 @@ msgstr ""
 "puede aumentar la tensión del músculo para todos los usuarios, aumentando el "
 "riesgo de dolor o lesión."
 
-#: C/index.docbook:946(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:946
 msgid ""
 "Don't require repetitive use of simultaneous keypresses. Some users are only "
 "able to press and hold one key at a time. Assistive technologies such as "
@@ -2831,7 +2977,8 @@ msgstr ""
 "teclas de forma secuencial y no simultáneamente, pero esto, por supuesto, "
 "significa que la operación tomará más tiempo para ellos."
 
-#: C/index.docbook:951(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:951
 msgid ""
 "Ensure that any text that can be selected with the mouse can also be "
 "selected with the keyboard. This is a convenience for all users, but "
@@ -2842,7 +2989,8 @@ msgstr ""
 "todos los usuarios, pero especialmente para aquellos para quienes un control "
 "preciso del ratón es difícil."
 
-#: C/index.docbook:956(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:956
 msgid ""
 "Ensure that objects that can be resized or moved by drag and drop can also "
 "be resized or moved with the keyboard. For example, icons and windows on the "
@@ -2858,7 +3006,8 @@ msgstr ""
 "diálogo en el que puede escribir las coordenadas, o un medio para ajustar de "
 "objetos a una cuadrícula definida por el usuario."
 
-#: C/index.docbook:961(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:961
 msgid ""
 "Don't use general navigation functions to trigger operations. For example, "
 "do not use basic <keycap>Tab</keycap> keyboard navigation in a dialog to "
@@ -2868,7 +3017,8 @@ msgstr ""
 "Por ejemplo, la navegación básica de <keycap>Tab</keycap> con el teclado en "
 "un cuadro de diálogo para activar las acciones asociadas a un control."
 
-#: C/index.docbook:966(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:966
 msgid ""
 "Show keyboard-invoked menus, windows and tooltips near the object they "
 "relate to. In GNOME 2.0, users can call up popup menus with "
@@ -2885,11 +3035,14 @@ msgstr ""
 "no oculte u oscurezca completamente el objeto al que el menú o la "
 "descripción se refiere."
 
-#: C/index.docbook:974(section/title) C/index.docbook:372(row/entry)
+#. (itstool) path: section/title
+#. (itstool) path: row/entry
+#: C/index.docbook:974 C/index.docbook:372
 msgid "Mouse Interaction"
 msgstr "Interacción del ratón"
 
-#: C/index.docbook:975(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:975
 msgid ""
 "Remember that not everybody can use a mouse with equal dexterity, and that "
 "some users may have difficulty seeing or following the mouse pointer."
@@ -2898,7 +3051,8 @@ msgstr ""
 "algunos usuarios pueden tener dificultad viendo o siguiendo el puntero del "
 "ratón."
 
-#: C/index.docbook:980(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:980
 msgid ""
 "Don't depend on input from mouse button 2 or button 3. As well as being "
 "physically more difficult to click, some pointing devices and many assistive "
@@ -2911,7 +3065,8 @@ msgstr ""
 "Algunas tecnologías de asistencia pueden no emular el ratón en absoluto, "
 "pero generan eventos de teclas del teclado en su lugar."
 
-#: C/index.docbook:985(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:985
 msgid ""
 "Allow all mouse operations to be cancelled. Pressing the <keycap>Esc</"
 "keycap> key should cancel any mouse operation in progress, such as dragging "
@@ -2923,7 +3078,8 @@ msgstr ""
 "arrastrar y soltar un fichero en un administrador de ficheros, o dibujar una "
 "forma en un programa de dibujo."
 
-#: C/index.docbook:990(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:990
 msgid ""
 "Provide visual feedback throughout a drag and drop operation. As the mouse "
 "passes over valid targets, highlight them and change the mouse pointer. Use "
@@ -2932,11 +3088,12 @@ msgid ""
 msgstr ""
 "Proporcione realimentación visual a través de una operación de arrastrar y "
 "soltar. A medida que el ratón pasa por encima de objetivos válidos, "
-"selecciónelos y cambie el puntero del ratón. Utilice el puntero «no drop» del "
-"ratón al pasar sobre los destinos de arrastre válidos. Consulte <link "
+"selecciónelos y cambie el puntero del ratón. Utilice el puntero «no drop» "
+"del ratón al pasar sobre los destinos de arrastre válidos. Consulte <link "
 "linkend=\"gad-mouse-examples\">Ejemplos de iteración del ratón</link>."
 
-#: C/index.docbook:995(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:995
 msgid ""
 "Don't warp the mouse pointer, or restrict mouse movement to part of the "
 "screen. This can interfere with assistive technologies, and is usually "
@@ -2946,7 +3103,8 @@ msgstr ""
 "parte de la pantalla. Esto puede interferir con las ayudas técnicas, y suele "
 "ser confusa incluso para los usuarios que no dependen de la AT."
 
-#: C/index.docbook:1000(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1000
 msgid ""
 "Don't make mouse targets too small. In general, mouse targets should be at "
 "least the size of the \"hot area\" around the resizable window border in the "
@@ -2960,15 +3118,18 @@ msgstr ""
 "en cuenta que un usuario con motricidad disminuida o visión puede estar "
 "utilizando un gestor de ventanas con áreas más grandes de la predeterminada."
 
-#: C/index.docbook:1007(section/title)
+#. (itstool) path: section/title
+#: C/index.docbook:1007
 msgid "Mouse Interaction Examples"
 msgstr "Ejemplos de interacción con el ratón"
 
-#: C/index.docbook:1009(figure/title)
+#. (itstool) path: figure/title
+#: C/index.docbook:1009
 msgid "Example of \"no-drop\" pointer from CDE/Motif"
 msgstr "Ejemplo del puntero «no-drop» desde CDE/Motif"
 
-#: C/index.docbook:1010(figure/mediaobject)
+#. (itstool) path: figure/mediaobject
+#: C/index.docbook:1010
 msgid ""
 "<imageobject> <imagedata fileref=\"figures/nodrop.png\" format=\"PNG\"/> </"
 "imageobject> <textobject> <phrase>Example of an \"invalid drop target\" "
@@ -2978,12 +3139,14 @@ msgstr ""
 "imageobject> <textobject> <phrase>Ejemplo de forma del puntero «objetivo de "
 "arrastre no válido»</phrase> </textobject>"
 
-#: C/index.docbook:1023(section/title) C/index.docbook:55(section/title)
-#: C/index.docbook:404(row/entry)
+#. (itstool) path: section/title
+#. (itstool) path: row/entry
+#: C/index.docbook:1023 C/index.docbook:55 C/index.docbook:404
 msgid "Graphical Elements"
 msgstr "Elementos gráficos"
 
-#: C/index.docbook:1024(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:1024
 msgid ""
 "Provide options to customize the presentation of all the important graphical "
 "elements in your application. This will make it easier for people with "
@@ -2993,7 +3156,8 @@ msgstr ""
 "elementos importantes en su aplicación gráfica. Esto hará que sea más fácil "
 "de usar para las personas con discapacidades visuales o cognitivas."
 
-#: C/index.docbook:1029(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1029
 msgid ""
 "Don't hard-code graphic attributes such as line, border or shadow thickness. "
 "These elements should ideally be read from the GTK or window manager theme. "
@@ -3005,7 +3169,8 @@ msgstr ""
 "de ventanas. Si esto no es posible, ofrezca opciones dentro de su aplicación "
 "para cambiarlos."
 
-#: C/index.docbook:1034(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1034
 msgid ""
 "Provide descriptive names for all interface components. The GAIL library "
 "provides default accessible descriptions for many GTK widgets, but you will "
@@ -3023,7 +3188,8 @@ msgstr ""
 "los valores predeterminados, con descripciones más útiles o específicas de "
 "la aplicación siempre que sea posible."
 
-#: C/index.docbook:1039(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1039
 msgid ""
 "Allow multi-color graphical elements (e.g. toolbar icons) to be shown in "
 "monochrome only, if possible. These monochrome images should be shown in the "
@@ -3036,7 +3202,8 @@ msgstr ""
 "sistema, que cada usuario habrá elegido (al elegir el tema de GTK), para una "
 "legibilidad máxima."
 
-#: C/index.docbook:1044(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1044
 msgid ""
 "Make interactive GUI elements easily identifiable. For example, do not make "
 "the user hover the mouse over an object to determine whether it is clickable "
@@ -3051,7 +3218,8 @@ msgstr ""
 "IGU que son bonitos, pero en realidad no hacen nada, a menos que también "
 "proporcione una opción para desactivarlos."
 
-#: C/index.docbook:1049(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1049
 msgid ""
 "Provide an option to hide graphics that don't convey essential information. "
 "Graphical images can be distracting to users with some cognitive disorders. "
@@ -3064,17 +3232,25 @@ msgstr ""
 "por ejemplo, se pueden quitar mientras sigue dejando los menús completamente "
 "funcionales."
 
-#: C/index.docbook:1057(section/title) C/index.docbook:100(section/title)
-#: C/index.docbook:438(row/entry)
+#. (itstool) path: section/title
+#. (itstool) path: row/entry
+#: C/index.docbook:1057 C/index.docbook:100 C/index.docbook:438
 msgid "Fonts and Text"
 msgstr "Tipografías y textos"
 
-#: C/index.docbook:1058(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:1058
+#| msgid ""
+#| "Even to a user with normal vision, textual output provides the majority "
+#| "of the information and feedback in most applications. It is therefore "
+#| "critical to choose and position text carefully on the screen, and leave "
+#| "the choice of font and size to the user, to ensure that people with "
+#| "vision impaiments can also use your application effectively."
 msgid ""
 "Even to a user with normal vision, textual output provides the majority of "
 "the information and feedback in most applications. It is therefore critical "
 "to choose and position text carefully on the screen, and leave the choice of "
-"font and size to the user, to ensure that people with vision impaiments can "
+"font and size to the user, to ensure that people with vision impairments can "
 "also use your application effectively."
 msgstr ""
 "Incluso para un usuario con visión normal, la salida textual proporciona la "
@@ -3084,7 +3260,8 @@ msgstr ""
 "usuario, para garantizar que las personas con visión deteriorada puede "
 "también utilizar su aplicación eficazmente."
 
-#: C/index.docbook:1063(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1063
 msgid ""
 "Don't hard-code font styles and sizes. The user should be able to adjust all "
 "sizes and typefaces. If for some reason you cannot make this functionality "
@@ -3095,7 +3272,8 @@ msgstr ""
 "hacer esta funcionalidad disponible, nunca programe una tipografía con un "
 "tamaño inferior a 10 puntos."
 
-#: C/index.docbook:1068(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1068
 msgid ""
 "Provide options to turn off any graphical backdrops or \"watermarks\" behind "
 "text. Such images interfere with the contrast between the text and its "
@@ -3106,7 +3284,8 @@ msgstr ""
 "contraste entre el texto y el fondo, lo que puede causar dificultad para los "
 "usuarios con impedimentos visuales."
 
-#: C/index.docbook:1073(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1073
 msgid ""
 "Label objects with names that make sense when taken out of context. Users "
 "relying on screen readers or similar assistive technologies will not "
@@ -3118,7 +3297,8 @@ msgstr ""
 "tecnologías de apoyo similares no necesariamente serán capaces de comprender "
 "inmediatamente la relación entre un control y aquellos que lo rodean."
 
-#: C/index.docbook:1078(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1078
 msgid ""
 "Don't use the same label more than once in the same window. If you use the "
 "same label in different windows, it will help if it means the same thing in "
@@ -3129,11 +3309,12 @@ msgstr ""
 "No use la misma etiqueta más de una vez en la misma ventana. Si utiliza la "
 "misma etiqueta en diferentes ventanas, ayudará si significa lo mismo en "
 "ambas ventanas. Además, no use etiquetas que se deletrean diferentemente, "
-"pero suenan igual, por ejemplo, «Read» y «Red», (N. del T.: «Leer» y «Rojo»\t\t) "
-"ya que esto puede ser confuso para los usuarios dependientes de lectores de "
-"pantalla."
+"pero suenan igual, por ejemplo, «Read» y «Red», (N. del T.: «Leer» y «Rojo»\t"
+"\t) ya que esto puede ser confuso para los usuarios dependientes de lectores "
+"de pantalla."
 
-#: C/index.docbook:1083(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1083
 msgid ""
 "Position labels consistently throughout your application. This normally "
 "means immediately below large icons, immediately to the right of small "
@@ -3146,7 +3327,8 @@ msgstr ""
 "encima o a la izquierda de otros controles. Consulte <link linkend=\"gad-"
 "font-examples\">Ejemplos de tipografías y de texto</link>."
 
-#: C/index.docbook:1088(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1088
 msgid ""
 "When you use static text to label a control, end the label with a colon. For "
 "example, <guilabel>Username:</guilabel> to label a text field into which the "
@@ -3159,7 +3341,8 @@ msgstr ""
 "su nombre. Esto ayuda a identificarlo como una etiqueta de control, en lugar "
 "de un elemento de texto independiente."
 
-#: C/index.docbook:1093(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1093
 msgid ""
 "When you use static text to label a control, ensure that the label "
 "immediately precedes that control in the Tab order. This will ensure that "
@@ -3171,7 +3354,8 @@ msgstr ""
 "asegurará que el mnemónico (carácter subrayado) que asigna a la etiqueta "
 "moverá el foco a o activará el control correcto al pulsarlo."
 
-#: C/index.docbook:1098(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1098
 msgid ""
 "Provide alternatives to WYSIWYG. Some users may need to print text in a "
 "small font but edit in a larger screen font, for example. Possible "
@@ -3196,15 +3380,18 @@ msgstr ""
 "paneles con controles secundarios, considere la posibilidad de cambiar el "
 "tamaño de los paneles junto a la ventana madre."
 
-#: C/index.docbook:1105(section/title)
+#. (itstool) path: section/title
+#: C/index.docbook:1105
 msgid "Fonts and Text Examples"
 msgstr "Ejemplos de tipografías y textos"
 
-#: C/index.docbook:1107(figure/title)
+#. (itstool) path: figure/title
+#: C/index.docbook:1107
 msgid "Correct label placement for various GUI elements"
 msgstr "Ubicación correcta de etiquetas para varios elementos de la IGU"
 
-#: C/index.docbook:1113(entry/mediaobject)
+#. (itstool) path: entry/mediaobject
+#: C/index.docbook:1113
 msgid ""
 "<imageobject> <imagedata fileref=\"figures/label_above.png\" format=\"PNG\"/"
 "> </imageobject> <textobject> <phrase>List control with label above</phrase> "
@@ -3214,11 +3401,13 @@ msgstr ""
 "> </imageobject> <textobject> <phrase>Control de lista con etiqueta por "
 "encima</phrase> </textobject>"
 
-#: C/index.docbook:1112(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:1112
 msgid "<_:mediaobject-1/> List control with label above"
 msgstr "<_:mediaobject-1/> Lista de control con etiqueta arriba"
 
-#: C/index.docbook:1124(entry/mediaobject)
+#. (itstool) path: entry/mediaobject
+#: C/index.docbook:1124
 msgid ""
 "<imageobject> <imagedata fileref=\"figures/label_below.png\" format=\"PNG\"/"
 "> </imageobject> <textobject> <phrase>Large file manager icon with label "
@@ -3228,13 +3417,15 @@ msgstr ""
 "> </imageobject> <textobject> <phrase>Icono grande de gestor de archivos con "
 "etiqueta debajo</phrase> </textobject>"
 
-#: C/index.docbook:1123(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:1123
 msgid "<_:mediaobject-1/> Large file manager icon with label underneath"
 msgstr ""
 "<_:mediaobject-1/> Icono del gestor de archivos de gran tamaño con etiqueta "
 "debajo de él"
 
-#: C/index.docbook:1135(entry/mediaobject)
+#. (itstool) path: entry/mediaobject
+#: C/index.docbook:1135
 msgid ""
 "<imageobject> <imagedata fileref=\"figures/label_right.png\" format=\"PNG\"/"
 "> </imageobject> <textobject> <phrase>Small toolbar icon with label to its "
@@ -3244,13 +3435,15 @@ msgstr ""
 "> </imageobject> <textobject> <phrase>Pequeño icono de barra de herramientas "
 "con etiqueta a su derecha</phrase> </textobject>"
 
-#: C/index.docbook:1134(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:1134
 msgid "<_:mediaobject-1/> Small toolbar icon with label to its right"
 msgstr ""
 "<_:mediaobject-1/> Icono pequeño de barra de herramientas con etiqueta a su "
 "derecha"
 
-#: C/index.docbook:1146(entry/mediaobject)
+#. (itstool) path: entry/mediaobject
+#: C/index.docbook:1146
 msgid ""
 "<imageobject> <imagedata fileref=\"figures/label_left.png\" format=\"PNG\"/> "
 "</imageobject> <textobject> <phrase>Spinbox control with label to its left</"
@@ -3260,17 +3453,20 @@ msgstr ""
 "</imageobject> <textobject> <phrase>Control incremental con etiqueta a su "
 "izquierda</phrase> </textobject>"
 
-#: C/index.docbook:1145(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:1145
 msgid "<_:mediaobject-1/> Spinbox control with label to its left"
 msgstr ""
 "<_:mediaobject-1/> Caja de control incremental con etiqueta a su izquierda"
 
-#: C/index.docbook:1165(section/title) C/index.docbook:121(section/title)
-#: C/index.docbook:490(row/entry)
+#. (itstool) path: section/title
+#. (itstool) path: row/entry
+#: C/index.docbook:1165 C/index.docbook:121 C/index.docbook:490
 msgid "Color and Contrast"
 msgstr "Color y contraste"
 
-#: C/index.docbook:1166(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:1166
 msgid ""
 "Poor choice of colors on the screen can cause problems for users with color "
 "blindness (for whom hue is important) or low-vision (for whom brightness/"
@@ -3284,7 +3480,8 @@ msgstr ""
 "permitir al usuario personalizar los colores en cualquier parte de su "
 "aplicación que transmita información importante."
 
-#: C/index.docbook:1169(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:1169
 msgid ""
 "Users with visual impairments may require a high level of contrast between "
 "the background and text colors. Often a black background and white text is "
@@ -3293,10 +3490,11 @@ msgid ""
 msgstr ""
 "Los usuarios con impedimentos visuales pueden requerir un alto nivel de "
 "contraste entre los colores de fondo y texto. A menudo se usa un fondo negro "
-"y texto en blanco para prevenir el fondo de «sangrado» más. Estos ajustes son "
-"críticos para los usuarios con impedimentos visuales."
+"y texto en blanco para prevenir el fondo de «sangrado» más. Estos ajustes "
+"son críticos para los usuarios con impedimentos visuales."
 
-#: C/index.docbook:1174(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1174
 msgid ""
 "Don't hard-code application colors. Some users need to use particular "
 "combinations of colors and levels of contrast to be able to read the screen "
@@ -3315,7 +3513,8 @@ msgstr ""
 "necesita usar colores que no están disponibles en el tema, asegúrese de que "
 "se pueden personalizar en la propia aplicación."
 
-#: C/index.docbook:1179(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1179
 msgid ""
 "Don't use color as the only means to distinguish items of information. All "
 "such information should be provided by at least one other method, such as "
@@ -3327,7 +3526,8 @@ msgstr ""
 "método, tales como forma, posición o descripción textual. Consulte los <link "
 "linkend=\"gad-color-examples\">Ejemplos de color y contraste</link>."
 
-#: C/index.docbook:1184(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1184
 msgid ""
 "Support all the high contrast GNOME themes. Ensure that when one of these "
 "themes is selected, all the text in your application appears in the high "
@@ -3338,7 +3538,8 @@ msgstr ""
 "los colores de primer plano y de fondo de alto contraste especificados por "
 "el tema."
 
-#: C/index.docbook:1189(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1189
 msgid ""
 "Ensure your application is not dependent on a particular high-contrast "
 "theme. Test it with different high-contrast themes to ensure your "
@@ -3348,15 +3549,18 @@ msgstr ""
 "particular. Pruebe con diferentes temas de alto contraste para asegurarse de "
 "que su aplicación respeta la configuración."
 
-#: C/index.docbook:1196(section/title)
+#. (itstool) path: section/title
+#: C/index.docbook:1196
 msgid "Color and Contrast Examples"
 msgstr "Ejemplos de color y contraste"
 
-#: C/index.docbook:1198(example/title)
+#. (itstool) path: example/title
+#: C/index.docbook:1198
 msgid "Example illustrating redundant use of color"
 msgstr "Ejemplo que ilustra el uso redundante de color"
 
-#: C/index.docbook:1204(entry/mediaobject)
+#. (itstool) path: entry/mediaobject
+#: C/index.docbook:1204
 msgid ""
 "<imageobject> <imagedata fileref=\"figures/color_only.png\" format=\"PNG\"/> "
 "</imageobject> <textobject> <phrase>Example showing changes in stock price "
@@ -3366,7 +3570,8 @@ msgstr ""
 "</imageobject> <textobject> <phrase>Ejemplo que muestra los cambios en el "
 "precio usando sólo el color</phrase> </textobject>"
 
-#: C/index.docbook:1213(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:1213
 msgid ""
 "This display could cause problems for a red-green color-blind user (color-"
 "blindness affects as many as 1 in 7 males in some parts of the world). The "
@@ -3379,7 +3584,8 @@ msgstr ""
 "que sea difícil de leer para un usuario con visión baja, incluso con un "
 "magnificador de pantalla."
 
-#: C/index.docbook:1219(entry/mediaobject)
+#. (itstool) path: entry/mediaobject
+#: C/index.docbook:1219
 msgid ""
 "<imageobject> <imagedata fileref=\"figures/color_and_arrows.png\" format="
 "\"PNG\"/> </imageobject> <textobject> <phrase>Example showing changes in "
@@ -3389,7 +3595,8 @@ msgstr ""
 "\"PNG\"/> </imageobject> <textobject> <phrase>Ejemplo que muestra los "
 "cambios en el precio usando colores y flechas</phrase> </textobject>"
 
-#: C/index.docbook:1228(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:1228
 msgid ""
 "This display reinforces the color-coding with arrows to show the stock price "
 "movement, and uses darker shades of green and red on a lighter background to "
@@ -3407,11 +3614,14 @@ msgstr ""
 "mediante un tema o a través del diálogo <guilabel>Preferencias</guilabel> de "
 "la aplicación."
 
-#: C/index.docbook:1240(section/title) C/index.docbook:525(row/entry)
+#. (itstool) path: section/title
+#. (itstool) path: row/entry
+#: C/index.docbook:1240 C/index.docbook:525
 msgid "Magnification"
 msgstr "Aumento"
 
-#: C/index.docbook:1241(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:1241
 msgid ""
 "Many users, even those not visually impaired, benefit from magnification of "
 "text and graphics. However, without magnification, a visually impaired user "
@@ -3422,12 +3632,14 @@ msgstr ""
 "magnificación, un usuario con discapacidad visual no puede acceder ni "
 "utilizar el programa el absoluto."
 
-#: C/index.docbook:1246(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1246
 msgid "Provide the ability for the user to magnify the work area."
 msgstr ""
 "Proporcione al usuario la posibilidad de magnificar el área de trabajo."
 
-#: C/index.docbook:1251(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1251
 msgid ""
 "Provide options in the application to scale the work area. Users need to "
 "have an option to magnify the work area 150% to 400% or more. Test the "
@@ -3440,12 +3652,14 @@ msgstr ""
 "está viendo no se ve afectado al cambiar la configuración de la "
 "magnificación."
 
-#: C/index.docbook:1259(section/title) C/index.docbook:152(section/title)
-#: C/index.docbook:554(row/entry)
+#. (itstool) path: section/title
+#. (itstool) path: row/entry
+#: C/index.docbook:1259 C/index.docbook:152 C/index.docbook:554
 msgid "Audio"
 msgstr "Sonido"
 
-#: C/index.docbook:1260(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:1260
 msgid ""
 "People who have difficulty hearing, as well as those who work with the sound "
 "on their computers turned off, will be disadvantaged if your application "
@@ -3458,7 +3672,8 @@ msgstr ""
 "asegúrese de que el usuario puede recibir la información audible de otras "
 "maneras."
 
-#: C/index.docbook:1265(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1265
 msgid ""
 "Don't assume that a user will hear audio information. This applies as much "
 "to users with broken soundcards as it does to those with hearing impairments!"
@@ -3467,7 +3682,8 @@ msgstr ""
 "tanto a usuarios con tarjetas de sonido estropeadas como a aquellos que "
 "tienen problemas auditivos."
 
-#: C/index.docbook:1270(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1270
 msgid ""
 "Don't use audio as the only means of conveying information. Give the user "
 "the option to have all audio information provided in a visual way as well. "
@@ -3479,7 +3695,8 @@ msgstr ""
 "visual. Esto implica proporcionar subtítulos o transcripciones de todos los "
 "fragmentos de sonido hablados importantes."
 
-#: C/index.docbook:1275(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1275
 msgid ""
 "Allow users to configure frequency and volume of all warning beeps and other "
 "sounds. This includes being able to turn off sound altogether."
@@ -3487,12 +3704,14 @@ msgstr ""
 "Permita a los usuarios configurar la frecuencia y el volumen de los pitidos "
 "de aviso y otros sonidos. Esto incluye poder apagar el sonido por completo."
 
-#: C/index.docbook:1283(section/title) C/index.docbook:179(section/title)
-#: C/index.docbook:578(row/entry)
+#. (itstool) path: section/title
+#. (itstool) path: row/entry
+#: C/index.docbook:1283 C/index.docbook:179 C/index.docbook:578
 msgid "Animation"
 msgstr "Animación"
 
-#: C/index.docbook:1284(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:1284
 msgid ""
 "Used sparingly, animation can be useful for drawing attention to important "
 "information in your application - and it can look cool, too. However, it can "
@@ -3503,7 +3722,8 @@ msgstr ""
 "Sin embargo, puede ser problemático para algunos usuarios, así que asegúrese "
 "de que se puede desactivar."
 
-#: C/index.docbook:1289(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1289
 msgid ""
 "Don't use flashing or blinking elements having a frequency greater than 2 Hz "
 "and lower than 55 Hz. This includes text as well as any graphical objects. "
@@ -3522,7 +3742,8 @@ msgstr ""
 "ser configurable), o permitir a los usuarios configurar la frecuencia ellos "
 "mismos."
 
-#: C/index.docbook:1294(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1294
 msgid ""
 "Don't flash or blink large areas of the screen. Small areas are less likely "
 "to trigger seizures in those susceptible to them."
@@ -3531,7 +3752,8 @@ msgstr ""
 "pequeñas son menos propensas a provocar convulsiones en quienes son "
 "susceptibles a ellas."
 
-#: C/index.docbook:1299(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1299
 msgid ""
 "Make all animations optional. The animated information should be available "
 "in at least one non-animated format, at the user's request."
@@ -3539,12 +3761,14 @@ msgstr ""
 "Haga todas las animaciones opcionales. La información animada debería estar "
 "disponible en al menos un formato no animado, a elección del usuario."
 
-#: C/index.docbook:1307(section/title) C/index.docbook:189(section/title)
-#: C/index.docbook:607(row/entry)
+#. (itstool) path: section/title
+#. (itstool) path: row/entry
+#: C/index.docbook:1307 C/index.docbook:189 C/index.docbook:607
 msgid "Keyboard Focus"
 msgstr "Foco del teclado"
 
-#: C/index.docbook:1308(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:1308
 msgid ""
 "Showing the keyboard focus position clearly at all times is important, both "
 "for users with vision impairments as well as \"power-users\" who prefer to "
@@ -3564,12 +3788,22 @@ msgstr ""
 "novia o pasear al perro hasta olvidar en que widget lo dejó en. Cuando "
 "vuelva, debería ser capaz de decir exactamente en qué widget estaba."
 
-#: C/index.docbook:1311(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:1311
+#| msgid ""
+#| "A visual focus indicator is an audio representation of the cursor "
+#| "position relative to the other objects on the desktop. This allows the "
+#| "user to move among objects interactively as the focus changes. The visual "
+#| "focus must be programatically exposed to assistive technologies. Note "
+#| "that in most cases, this is handled automatically by the ATK, without "
+#| "requiring you to do any additional work. However, you will need to be "
+#| "aware of this requirement when writing your own custom widgets, for "
+#| "example."
 msgid ""
 "A visual focus indicator is an audio representation of the cursor position "
 "relative to the other objects on the desktop. This allows the user to move "
 "among objects interactively as the focus changes. The visual focus must be "
-"programatically exposed to assistive technologies. Note that in most cases, "
+"programmatically exposed to assistive technologies. Note that in most cases, "
 "this is handled automatically by the ATK, without requiring you to do any "
 "additional work. However, you will need to be aware of this requirement when "
 "writing your own custom widgets, for example."
@@ -3583,7 +3817,8 @@ msgstr ""
 "adicional. Sin embargo, tendrá que tener en cuenta este requisito al "
 "escribir sus propios widgets personalizados, por ejemplo."
 
-#: C/index.docbook:1316(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1316
 msgid ""
 "Start focus at the most commonly used control. If no control in a window is "
 "deemed to be the \"most\" useful, start the focus at the first control in "
@@ -3594,13 +3829,15 @@ msgid ""
 "keycap>."
 msgstr ""
 "Inicie el foco en el control mas usado habitualmente. Si no hay control en "
-"una ventana considerada la «más» útil, inicie el foco en el primer control de "
-"la ventana cuando esta se abra. El foco no debería iniciarse en los botones "
-"<guilabel>Aceptar</guilabel> ni <guilabel>Cancelar</guilabel> de un diálogo, "
-"aunque sean los controles más usados habitualmente, ya que se pueden activar "
-"inmediatamente pulsando <keycap>Intro</keycap> o <keycap>Esc</keycap>."
+"una ventana considerada la «más» útil, inicie el foco en el primer control "
+"de la ventana cuando esta se abra. El foco no debería iniciarse en los "
+"botones <guilabel>Aceptar</guilabel> ni <guilabel>Cancelar</guilabel> de un "
+"diálogo, aunque sean los controles más usados habitualmente, ya que se "
+"pueden activar inmediatamente pulsando <keycap>Intro</keycap> o <keycap>Esc</"
+"keycap>."
 
-#: C/index.docbook:1321(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1321
 msgid ""
 "Show current input focus clearly at all times. Remember that in controls "
 "that include a scrolling element, it is not always sufficient to highlight "
@@ -3614,7 +3851,8 @@ msgstr ""
 "que puede no ser visible. Consulte los <link linkend=\"gad-focus-examples"
 "\">ejemplos de foco del teclado</link>."
 
-#: C/index.docbook:1326(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1326
 msgid ""
 "Show input focus only in the active window. Hide all primary visual focus "
 "indicators in all windows that do not have the focus and activation. If a "
@@ -3633,7 +3871,8 @@ msgstr ""
 "seleccionado, por ejemplo, use un indicador de foco secundario. Consulte los "
 "<link linkend=\"gad-focus-examples\">ejemplos de foco del teclado</link>."
 
-#: C/index.docbook:1331(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1331
 msgid ""
 "Provide appropriate feedback when the user attempts to navigate past the end "
 "of a group of related objects. When navigating a list, for example, stopping "
@@ -3654,7 +3893,8 @@ msgstr ""
 "le preguntará si quiere reanudar la búsqueda desde el principio del "
 "documento."
 
-#: C/index.docbook:1336(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1336
 msgid ""
 "Play the system default audio or visual warning signal when the user presses "
 "an inappropriate key, or when a navigation key fails to move the focus. For "
@@ -3673,15 +3913,18 @@ msgstr ""
 "audición debe ser capaz de configurar un equivalente visual de todo el "
 "sistema con la alerta sonora predeterminada.)"
 
-#: C/index.docbook:1343(section/title)
+#. (itstool) path: section/title
+#: C/index.docbook:1343
 msgid "Keyboard Focus Examples"
 msgstr "Ejemplos de foco del teclado"
 
-#: C/index.docbook:1344(example/title)
+#. (itstool) path: example/title
+#: C/index.docbook:1344
 msgid "Example illustrating need to show focus clearly"
 msgstr "Ejemplo que ilustra la necesidad de mostrar el foco con claridad"
 
-#: C/index.docbook:1350(entry/mediaobject)
+#. (itstool) path: entry/mediaobject
+#: C/index.docbook:1350
 msgid ""
 "<imageobject> <imagedata fileref=\"figures/badfocus1.png\" format=\"PNG\"/> "
 "</imageobject> <textobject> <phrase>The focused item in this window cannot "
@@ -3692,7 +3935,8 @@ msgstr ""
 "no se puede ver porque se ha desplazado fuera de la ventana</phrase> </"
 "textobject>"
 
-#: C/index.docbook:1359(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:1359
 msgid ""
 "One of the controls in this window has focus, but it's impossible to tell "
 "which..."
@@ -3700,7 +3944,8 @@ msgstr ""
 "Uno de los controles de esta ventana tiene el foco, pero es imposible decir "
 "cuál..."
 
-#: C/index.docbook:1365(entry/mediaobject)
+#. (itstool) path: entry/mediaobject
+#: C/index.docbook:1365
 msgid ""
 "<imageobject> <imagedata fileref=\"figures/badfocus2.png\" format=\"PNG\"/> "
 "</imageobject> <textobject> <phrase>The focused item in the list has been "
@@ -3710,7 +3955,8 @@ msgstr ""
 "</imageobject> <textobject> <phrase>El elemento con el foco en la lista se "
 "ha traído a la vista desplazando la vista</phrase> </textobject>"
 
-#: C/index.docbook:1374(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:1374
 msgid ""
 "...until you scroll the list, which reveals that one of its items is "
 "currently selected."
@@ -3718,7 +3964,8 @@ msgstr ""
 "...hasta que desplaza la lista, lo que revela que uno de los elementos está "
 "actualmente seleccionado."
 
-#: C/index.docbook:1380(entry/mediaobject)
+#. (itstool) path: entry/mediaobject
+#: C/index.docbook:1380
 msgid ""
 "<imageobject> <imagedata fileref=\"figures/goodfocus.png\" format=\"PNG\"/> "
 "</imageobject> <textobject> <phrase>The list control in this example has a "
@@ -3730,19 +3977,22 @@ msgstr ""
 "tiene un borde sólido que indica el foco, si su elemento seleccionado está "
 "visible actualmente o no.</phrase> </textobject>"
 
-#: C/index.docbook:1389(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:1389
 msgid ""
 "If the list control itself is given a \"focused\" border, it's easy to tell "
 "it has focus even when the currently-selected item isn't visible."
 msgstr ""
-"Si el control de lista tiene un borde «enfocado», es fácil decir que tiene el "
-"foco incluso cuando el elemento seleccionado actualmente no es visible."
+"Si el control de lista tiene un borde «enfocado», es fácil decir que tiene "
+"el foco incluso cuando el elemento seleccionado actualmente no es visible."
 
-#: C/index.docbook:1398(example/title)
+#. (itstool) path: example/title
+#: C/index.docbook:1398
 msgid "Example illustrating use of secondary focus"
 msgstr "Ejemplo que ilustra el uso de foco secundario"
 
-#: C/index.docbook:1404(entry/mediaobject)
+#. (itstool) path: entry/mediaobject
+#: C/index.docbook:1404
 msgid ""
 "<imageobject> <imagedata fileref=\"figures/badfocus3.png\" format=\"PNG\"/> "
 "</imageobject> <textobject> <phrase>Split-paned window in which both panes "
@@ -3752,7 +4002,8 @@ msgstr ""
 "</imageobject> <textobject> <phrase>Ventana dividida en paneles en la que "
 "ambos paneles parecen tener el foco</phrase> </textobject>"
 
-#: C/index.docbook:1413(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:1413
 msgid ""
 "In this example, it's impossible to tell just by looking which of the two "
 "panes actually has keyboard focus."
@@ -3760,7 +4011,8 @@ msgstr ""
 "En este ejemplo, es imposible decir, simplemente mirando, cuál de los dos "
 "paneles tiene actualmente el foco del teclado."
 
-#: C/index.docbook:1419(entry/mediaobject)
+#. (itstool) path: entry/mediaobject
+#: C/index.docbook:1419
 msgid ""
 "<imageobject> <imagedata fileref=\"figures/goodfocus3.png\" format=\"PNG\"/> "
 "</imageobject> <textobject> <phrase>Split-pane window in which secondary "
@@ -3771,7 +4023,8 @@ msgstr ""
 "resaltado secundario se usa para mostrar qué panel tiene el foco</phrase> </"
 "textobject>"
 
-#: C/index.docbook:1428(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:1428
 msgid ""
 "By using a secondary selection highlight color in the inactive pane, it's "
 "immediately obvious that the tree control has focus here..."
@@ -3779,7 +4032,8 @@ msgstr ""
 "Usando un color de selección de relieve secundario en el panel inactivo, es "
 "obvio que el control de árbol tiene el foco aquí..."
 
-#: C/index.docbook:1434(entry/mediaobject)
+#. (itstool) path: entry/mediaobject
+#: C/index.docbook:1434
 msgid ""
 "<imageobject> <imagedata fileref=\"figures/goodfocus2.png\" format=\"PNG\"/> "
 "</imageobject> <textobject> <phrase>Split-pane window in which secondary "
@@ -3790,15 +4044,19 @@ msgstr ""
 "resaltado secundario se usa para mostrar qué panel tiene el foco</phrase> </"
 "textobject>"
 
-#: C/index.docbook:1443(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:1443
 msgid "...and that the list control has focus here."
 msgstr "... y que el control de lista tiene el foco aquí."
 
-#: C/index.docbook:1455(section/title) C/index.docbook:656(row/entry)
+#. (itstool) path: section/title
+#. (itstool) path: row/entry
+#: C/index.docbook:1455 C/index.docbook:656
 msgid "Timing"
 msgstr "Sincronización"
 
-#: C/index.docbook:1456(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:1456
 msgid ""
 "Interfaces in which things appear, disappear or happen according to some "
 "hard-coded time limit are often a hindrance to accessibility. Some users may "
@@ -3815,7 +4073,8 @@ msgstr ""
 "información que aparece sin que la soliciten expresamente, la aplicación "
 "será muy frustrante o imposible de usar."
 
-#: C/index.docbook:1461(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1461
 msgid ""
 "Don't hard-code timeouts or other time-based features. Examples include "
 "automatic scrolling when dragging an object towards the edge of a window, "
@@ -3835,7 +4094,8 @@ msgstr ""
 "desde la línea de comandos a través de un archivo de configuración o una "
 "entrada de GConf."
 
-#: C/index.docbook:1466(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1466
 msgid ""
 "Don't briefly show or hide information based on the movement of the mouse "
 "pointer. (Exception: system-provided features such as tooltips, which the "
@@ -3850,12 +4110,14 @@ msgstr ""
 "para que los usuarios puedan desactivarlas cuando se instala una utilidad "
 "para revisar la pantalla."
 
-#: C/index.docbook:1474(section/title) C/index.docbook:205(section/title)
-#: C/index.docbook:680(row/entry)
+#. (itstool) path: section/title
+#. (itstool) path: row/entry
+#: C/index.docbook:1474 C/index.docbook:205 C/index.docbook:680
 msgid "Documentation"
 msgstr "Documentación"
 
-#: C/index.docbook:1475(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:1475
 msgid ""
 "People with disabilities cannot use the application effectively if they do "
 "not have access to the required manuals and help files. Of particular "
@@ -3867,7 +4129,8 @@ msgstr ""
 "Especialmente importante es la navegación con el teclado, ya que es la única "
 "manera en que muchos usuarios puede moverse por la aplicación."
 
-#: C/index.docbook:1480(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1480
 msgid ""
 "Provide all documentation in an accessible format. ASCII text and HTML are "
 "both excellent formats for assistive technologies."
@@ -3875,14 +4138,16 @@ msgstr ""
 "Proporcione toda la documentación en un formato accesible. HTML y texto en "
 "ASCII son formatos excelentes para las tecnologías de asistencia."
 
-#: C/index.docbook:1485(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1485
 msgid ""
 "Provide alternative text descriptions for all graphics in the documentation."
 msgstr ""
 "Proporcione descripciones de texto alternativas para todos los gráficos de "
 "la documentación."
 
-#: C/index.docbook:1490(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:1490
 msgid ""
 "Document all your application's accessibility features. Keyboard navigation "
 "and shortcuts are particularly important to document. Include an "
@@ -3895,17 +4160,13 @@ msgstr ""
 "se pueda encontrar información sobre todas las características de "
 "accesibilidad."
 
-#: C/index.docbook:2(chapter/title)
+#. (itstool) path: chapter/title
+#: C/index.docbook:2
 msgid "Testing"
 msgstr "Pruebas"
 
-#: C/index.docbook:3(chapter/para)
-#| msgid ""
-#| "There are several points of review to conduct before declaring an "
-#| "application accessible. Over the course of development you may want to "
-#| "consider automated testing techniques. <ulink url=\"http://people.redhat."
-#| "com/zcerza/dogtail\">Dogtail</ulink>, for example, may complement your "
-#| "automated testing plan."
+#. (itstool) path: chapter/para
+#: C/index.docbook:3
 msgid ""
 "There are several points of review to conduct before declaring an "
 "application accessible. Over the course of development you may want to "
@@ -3917,7 +4178,8 @@ msgstr ""
 "de pruebas automatizadas. <ulink url=\"http://ldtp.freedesktop.org/\">LDTP</"
 "ulink>, por ejemplo, puede complementar su plan de pruebas automatizadas."
 
-#: C/index.docbook:6(chapter/para)
+#. (itstool) path: chapter/para
+#: C/index.docbook:6
 msgid ""
 "This section describes a number of tests you can perform manually on an "
 "application to test its accessibility. Passing all the tests does not "
@@ -3931,7 +4193,8 @@ msgstr ""
 "si la aplicación falla en alguna de estas pruebas, el futuro trabajo debe "
 "ser mejorar estos aspectos de la accesibilidad."
 
-#: C/index.docbook:12(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:12
 msgid ""
 "The following keyboard operations should be tested. Do not use the mouse in "
 "any part of this test."
@@ -3939,7 +4202,8 @@ msgstr ""
 "Se deberían probar las siguientes operaciones con el teclado. No use el "
 "ratón en ninguna parte de esta prueba."
 
-#: C/index.docbook:17(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:17
 msgid ""
 "Using only keyboard commands, move the focus through all menu bars in the "
 "application."
@@ -3947,22 +4211,26 @@ msgstr ""
 "Usando sólo comandos del teclado, mueva el foco a través de todas las barras "
 "de menús de la aplicación."
 
-#: C/index.docbook:22(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:22
 msgid "Confirm that:"
 msgstr "Confirme que:"
 
-#: C/index.docbook:25(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:25
 msgid "Context sensitive menus display correctly."
 msgstr "Los menús sensitivos de contexto se muestran correctamente."
 
-#: C/index.docbook:30(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:30
 msgid ""
 "Any functions listed on the toolbar can be performed using the keyboard."
 msgstr ""
 "Cualquier función listada en la barra de herramientas se puede realizar "
 "usando el teclado."
 
-#: C/index.docbook:35(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:35
 msgid ""
 "You can operate every control in the client area of the application and "
 "dialog boxes."
@@ -3970,33 +4238,40 @@ msgstr ""
 "Puede manejar todos los controles en el área de cliente de la aplicación y "
 "en los cuadros de diálogo."
 
-#: C/index.docbook:40(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:40
 msgid "Text and objects within the client area can be selected."
 msgstr "El texto y los objetos en el área del cliente se pueden seleccionar."
 
-#: C/index.docbook:45(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:45
 msgid "Any keyboard enhancements or shortcuts are working as designed."
 msgstr "Cualquier atajo o mejora de teclado funciona como se ha diseñado."
 
-#: C/index.docbook:56(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:56
 msgid "Test the application using a screen reader and confirm that:"
 msgstr "Pruebe la aplicación usando un lector de pantalla y confirme que:"
 
-#: C/index.docbook:61(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:61
 msgid "Labels and text are being read correctly, including menus and toolbars."
 msgstr ""
 "Las etiquetas y el texto se leen correctamente, incluyendo los menús y las "
 "barras de heramientas."
 
-#: C/index.docbook:66(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:66
 msgid "Object information is read correctly."
 msgstr "La información del objeto se lee correctamente."
 
-#: C/index.docbook:74(section/title)
+#. (itstool) path: section/title
+#: C/index.docbook:74
 msgid "Visual Focus Indicator"
 msgstr "Indicador visual del foco"
 
-#: C/index.docbook:77(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:77
 msgid ""
 "Verify that when moving among objects that the visual focus indicator is "
 "easy to identify."
@@ -4004,7 +4279,8 @@ msgstr ""
 "Verifique que cuando se mueve entre objetos el indicador visual del foco es "
 "fácil de identificar."
 
-#: C/index.docbook:82(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:82
 msgid ""
 "Keyboard navigation through the software and menus should be clearly visible "
 "when the focus moves."
@@ -4012,7 +4288,8 @@ msgstr ""
 "La navegación con el teclado a través del software y de los menús debería "
 "ser claramente visible cuando se mueve el foco."
 
-#: C/index.docbook:87(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:87
 msgid ""
 "Confirm that the screen reader is tracking the visual focus indicator as you "
 "navigate using a keyboard."
@@ -4020,7 +4297,8 @@ msgstr ""
 "Confirme que el lector de pantalla sigue el indicador de foco visual a "
 "medida que navega usando el teclado."
 
-#: C/index.docbook:92(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:92
 msgid ""
 "Run a screen magnification program (if available) and verify that the "
 "magnifier can track the visual focus indicator as you navigate using the "
@@ -4030,7 +4308,8 @@ msgstr ""
 "compruebe que el magnificador puede seguir el indicador de foco visual a "
 "medida que navega usando el teclado y el ratón."
 
-#: C/index.docbook:103(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:103
 msgid ""
 "Change the font in the application and confirm that the settings are "
 "maintained."
@@ -4038,7 +4317,8 @@ msgstr ""
 "Cambie la tipografía en la aplicación y confirme que los cambios se "
 "mantienen."
 
-#: C/index.docbook:108(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:108
 msgid ""
 "Test the application by changing colors and confirm that all settings are "
 "maintained."
@@ -4046,7 +4326,8 @@ msgstr ""
 "Pruebe la aplicación cambiando los colores y confirme que toda la "
 "configuración se mantiene."
 
-#: C/index.docbook:113(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:113
 msgid ""
 "If magnification is available, test the font, color, and size using the "
 "magnification option."
@@ -4054,7 +4335,8 @@ msgstr ""
 "Si la magnificación está disponible, comprobar la tipografía, color y tamaño "
 "al usar la opción de magnificación."
 
-#: C/index.docbook:124(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:124
 msgid ""
 "Print screenshots to a black and white printer and confirm that all "
 "information is visible."
@@ -4062,7 +4344,8 @@ msgstr ""
 "Imprima capturas de pantalla en una impresora en blanco y negro y confirme "
 "que toda la información es visible."
 
-#: C/index.docbook:129(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:129
 msgid ""
 "Test applications using only black and white, high-contrast settings and "
 "confirm that all information is conveyed correctly."
@@ -4070,7 +4353,8 @@ msgstr ""
 "Pruebe aplicaciones usando sólo los ajustes de alto contraste de blanco y "
 "negro y confirme que toda la información se transmite correctamente."
 
-#: C/index.docbook:134(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:134
 msgid ""
 "Test that the application provides at least three combinations of color "
 "schemes and that high-contrast schemes are available (e.g. white on black or "
@@ -4080,7 +4364,8 @@ msgstr ""
 "esquemas de color y que están disponibles los esquemas de alto contraste "
 "(ej. blanco sobre negro o amarillo sobre azul)."
 
-#: C/index.docbook:139(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:139
 msgid ""
 "Turn on high-contrast settings in the GNOME Control Center and confirm that "
 "the application respects these settings."
@@ -4088,7 +4373,8 @@ msgstr ""
 "Active las características de contraste alto en el Centro de control de "
 "GNOME y confirmar que la aplicación respeta esos ajustes."
 
-#: C/index.docbook:144(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:144
 msgid ""
 "Test various themes to ensure that the software is working for all the "
 "available settings."
@@ -4096,14 +4382,16 @@ msgstr ""
 "Pruebe varios temas para asegurarse de que el software funciona para todos "
 "los ajustes disponibles."
 
-#: C/index.docbook:153(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:153
 msgid ""
 "There should be an option in the application to show audio alerts visually."
 msgstr ""
 "Debe existir una opción en la aplicación para mostrar visualmente las "
 "alertas de sonido."
 
-#: C/index.docbook:156(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:156
 msgid ""
 "Test that the audio is working correctly by enabling sound in the GNOME "
 "Control Center and then perform the following actions:"
@@ -4111,7 +4399,8 @@ msgstr ""
 "Compruebe que el sonido funciona correctamente activando el sonido en el "
 "Centro de control de GNOME y realizando después las siguientes acciones:"
 
-#: C/index.docbook:161(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:161
 msgid ""
 "Perform an action that should generate an audio alert and confirm that the "
 "application is working as designed."
@@ -4119,7 +4408,8 @@ msgstr ""
 "Realice una acción que debe generar una alerta de sonido y confirme que la "
 "aplicación funciona como se ha diseñado."
 
-#: C/index.docbook:166(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:166
 msgid ""
 "Verify that the application works correctly when increasing or decreasing "
 "the volume."
@@ -4127,7 +4417,8 @@ msgstr ""
 "Compruebe que la aplicación funciona correctamente al aumentar o reducir el "
 "volumen."
 
-#: C/index.docbook:171(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:171
 msgid ""
 "Confirm that warning messages and alerts can be heard correctly in a noisy "
 "work environment."
@@ -4135,7 +4426,8 @@ msgstr ""
 "Confirme que los mensajes de advertencia y alertas se pueden oír "
 "correctamente en un entorno de trabajo ruidoso."
 
-#: C/index.docbook:180(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:180
 msgid ""
 "Verify that an option is available to stop animation and that it is working "
 "as designed."
@@ -4143,7 +4435,8 @@ msgstr ""
 "Compruebe que existe una opción disponible para detener la animación y que "
 "funciona como se ha diseñado."
 
-#: C/index.docbook:183(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:183
 msgid ""
 "Turn the animation off. Confirm that all information is still conveyed "
 "correctly."
@@ -4151,7 +4444,8 @@ msgstr ""
 "Desactive la animación. Confirme que aún así se hace llegar correctamente "
 "toda la información."
 
-#: C/index.docbook:192(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:192
 msgid ""
 "Test all messages to confirm that the user is notified before a message "
 "times out and is given the option to indicate that more time is needed."
@@ -4160,7 +4454,8 @@ msgstr ""
 "antes de que un mensaje caduque y se da la opción de indicar que se necesita "
 "más tiempo."
 
-#: C/index.docbook:197(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:197
 msgid ""
 "Make sure an option has been included to adjust the response time and "
 "confirm that it is working as designed."
@@ -4168,7 +4463,8 @@ msgstr ""
 "Asegúrese de que se ha incluido una opción para ajustar el tiempo de "
 "respuesta y confirme que funciona como se ha diseñado."
 
-#: C/index.docbook:206(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:206
 msgid ""
 "Test ASCII text documentation with a screen reader to confirm that it is "
 "clear and precise and can be read by assistive technologies."
@@ -4177,7 +4473,8 @@ msgstr ""
 "comprobar que es limpia y precisa y las tecnologías de asistencia la pueden "
 "leer."
 
-#: C/index.docbook:209(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:209
 msgid ""
 "Test HTML applications using a web browser and screen reader to confirm that "
 "the documentation is accessible to assistive technologies."
@@ -4186,7 +4483,8 @@ msgstr ""
 "pantalla confirman que la documentación es accesible a las tecnologías de "
 "asistencia."
 
-#: C/index.docbook:212(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:212
 msgid ""
 "Note: There are web accessibility guidelines available at <ulink url="
 "\"http://www.w3.org/TR/WAI-WEBCONTENT/\">http://www.w3.org/TR/WAI-WEBCONTENT/"
@@ -4195,11 +4493,13 @@ msgstr ""
 "Nota: existen guías de accesibilidad web disponibles en <ulink url=\"http://"
 "www.w3.org/TR/WAI-WEBCONTENT/\">http://www.w3.org/TR/WAI-WEBCONTENT/</ulink>."
 
-#: C/index.docbook:215(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:215
 msgid "Confirm the following information is included in the documentation:"
 msgstr "Confirme que la siguiente información se incluye en la documentación:"
 
-#: C/index.docbook:220(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:220
 msgid ""
 "State if the application does not support the standard keyboard access used "
 "by the OS."
@@ -4207,15 +4507,18 @@ msgstr ""
 "Plantee si la aplicación no soporta los accesos de teclado estándar usados "
 "por el Sistema Operativo."
 
-#: C/index.docbook:225(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:225
 msgid "Identify if there are unique keyboard commands."
 msgstr "Identifique si existen comandos únicos de teclado."
 
-#: C/index.docbook:230(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:230
 msgid "Identify any unique accessibility features."
 msgstr "Identifique cualquier característica única de accesibilidad."
 
-#: C/index.docbook:235(listitem/para)
+#. (itstool) path: listitem/para
+#: C/index.docbook:235
 msgid ""
 "If an action is documented for the mouse, make sure there is an alternative "
 "for using the keyboard."
@@ -4223,11 +4526,13 @@ msgstr ""
 "Si una acción se documenta para el ratón, asegúrese de que existe una "
 "alternativa para usar el teclado."
 
-#: C/index.docbook:243(section/title)
+#. (itstool) path: section/title
+#: C/index.docbook:243
 msgid "User Interface Checklist"
 msgstr "Lista de comprobación de la interfaz de usuario"
 
-#: C/index.docbook:244(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:244
 msgid ""
 "This section summarizes the guidelines given in <link linkend=\"gad-ui-"
 "guidelines\">User Interface Guidelines for Supporting Accessibility</link>. "
@@ -4240,7 +4545,8 @@ msgstr ""
 "detallada sobre cualquiera de los elementos de la lista de comprobación aquí "
 "proporcionados."
 
-#: C/index.docbook:247(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:247
 msgid ""
 "When testing an application for accessibility, you should go through each of "
 "the items in the list. Note whether the application passes or fails each "
@@ -4250,32 +4556,36 @@ msgstr ""
 "cada uno de los elementos de la lista. Notar si la aplicación pasa o falla "
 "cada comprobación o no se aplica a dicha comprobación."
 
-#: C/index.docbook:251(table/title)
+#. (itstool) path: table/title
+#: C/index.docbook:251
 msgid "General Principles checklist"
 msgstr "Lista de comprobación de los principios generales"
 
-#: C/index.docbook:255(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:255
 msgid "GP"
 msgstr "PG"
 
-#: C/index.docbook:256(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:256
 msgid "General Principles"
 msgstr "Principios generales"
 
-#: C/index.docbook:257(row/entry) C/index.docbook:294(row/entry)
-#: C/index.docbook:373(row/entry) C/index.docbook:405(row/entry)
-#: C/index.docbook:439(row/entry) C/index.docbook:491(row/entry)
-#: C/index.docbook:526(row/entry) C/index.docbook:555(row/entry)
-#: C/index.docbook:579(row/entry) C/index.docbook:608(row/entry)
-#: C/index.docbook:657(row/entry) C/index.docbook:681(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:257 C/index.docbook:294 C/index.docbook:373
+#: C/index.docbook:405 C/index.docbook:439 C/index.docbook:491
+#: C/index.docbook:526 C/index.docbook:555 C/index.docbook:579
+#: C/index.docbook:608 C/index.docbook:657 C/index.docbook:681
 msgid "Pass/Fail/NA"
 msgstr "Pasa/Falla/No aplicable"
 
-#: C/index.docbook:262(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:262
 msgid "GP.1"
 msgstr "PG.1"
 
-#: C/index.docbook:263(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:263
 msgid ""
 "Every action that alters the user's data or application's settings can be "
 "undone."
@@ -4283,11 +4593,13 @@ msgstr ""
 "Se puede deshacer cada acción que altera los datos del usuario o la "
 "configuración de una aplicación."
 
-#: C/index.docbook:268(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:268
 msgid "GP.2"
 msgstr "PG.2"
 
-#: C/index.docbook:269(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:269
 msgid ""
 "All application settings can be restored to their defaults without the user "
 "having to remember what those defaults were."
@@ -4296,11 +4608,13 @@ msgstr ""
 "predeterminados sin que el usuario tenga que recordar cuáles eran esos "
 "valores."
 
-#: C/index.docbook:274(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:274
 msgid "GP.3"
 msgstr "PG.3"
 
-#: C/index.docbook:275(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:275
 msgid ""
 "After installation, the application can be used without the user having to "
 "insert a disk or CD at any time."
@@ -4308,11 +4622,13 @@ msgstr ""
 "Después de la instalación, la aplicación se puede usar sin que el usuario "
 "tenga que introducir un disco o CD en ningún momento."
 
-#: C/index.docbook:279(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:279
 msgid "GP.4"
 msgstr "PG.4"
 
-#: C/index.docbook:280(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:280
 msgid ""
 "The most frequently used functions are found at the top level of the menu "
 "structure."
@@ -4320,37 +4636,45 @@ msgstr ""
 "Las funciones más frecuentemente usadas se encuentran en la parte superior "
 "de la estructura del menú."
 
-#: C/index.docbook:288(table/title)
+#. (itstool) path: table/title
+#: C/index.docbook:288
 msgid "Keyboard navigation checklist"
 msgstr "Lista de comprobación de la navegación por teclado"
 
-#: C/index.docbook:292(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:292
 msgid "KN"
 msgstr "NT"
 
-#: C/index.docbook:299(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:299
 msgid "KN.1"
 msgstr "NT.1"
 
-#: C/index.docbook:300(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:300
 msgid "Efficient keyboard access is provided to all application features."
 msgstr ""
 "Se proporciona acceso eficiente al teclado para todas las características de "
 "la aplicación."
 
-#: C/index.docbook:304(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:304
 msgid "KN.2"
 msgstr "NT.2"
 
-#: C/index.docbook:305(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:305
 msgid "All windows have a logical keyboard navigation order."
 msgstr "Todas las ventanas tienen un orden lógico de navegación por teclado."
 
-#: C/index.docbook:308(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:308
 msgid "KN.3"
 msgstr "NT.3"
 
-#: C/index.docbook:309(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:309
 msgid ""
 "The correct tab order is used for controls whose enabled state is dependent "
 "on checkboxes, radio buttons or toggle buttons."
@@ -4359,11 +4683,13 @@ msgstr ""
 "activados dependen de cajas de verificación, botones de radio o botones de "
 "conmutación."
 
-#: C/index.docbook:313(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:313
 msgid "KN.4"
 msgstr "NT.4"
 
-#: C/index.docbook:314(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:314
 msgid ""
 "Keyboard access to application-specific functions does not override existing "
 "system accessibility features."
@@ -4371,11 +4697,13 @@ msgstr ""
 "El acceso a las funciones específicas de la aplicación a través del teclado "
 "no anulan las características de accesibilidad del sistema."
 
-#: C/index.docbook:318(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:318
 msgid "KN.5"
 msgstr "NT.5"
 
-#: C/index.docbook:319(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:319
 msgid ""
 "The application provides more than one method to perform keyboard tasks "
 "whenever possible."
@@ -4383,49 +4711,59 @@ msgstr ""
 "La aplicación proporciona más de un método para realizar tareas con el "
 "teclado, siempre que sea posible."
 
-#: C/index.docbook:323(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:323
 msgid "KN.6"
 msgstr "NT.6"
 
-#: C/index.docbook:324(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:324
 msgid "There are alternative key combinations wherever possible."
 msgstr "Existen combinaciones de teclas alternativas siempre que sea posible."
 
-#: C/index.docbook:328(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:328
 msgid "KN.7"
 msgstr "NT.7"
 
-#: C/index.docbook:329(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:329
 msgid ""
 "There are no awkward reaches for frequently performed keyboard operations."
 msgstr ""
 "No existen combinaciones incómodas de alcanzar para operaciones de teclado "
 "realizadas frecuentemente."
 
-#: C/index.docbook:333(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:333
 msgid "KN.8"
 msgstr "NT.8"
 
-#: C/index.docbook:334(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:334
 msgid "The application does not use repetitive, simultaneous keypresses."
 msgstr ""
 "La aplicación no usa pulsaciones de teclado simultáneas y/o repetitivas."
 
-#: C/index.docbook:338(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:338
 msgid "KN.9"
 msgstr "NT.9"
 
-#: C/index.docbook:339(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:339
 msgid "The application provides keyboard equivalents for all mouse functions."
 msgstr ""
 "La aplicación proporciona equivalentes de teclado para todas las funciones "
 "del ratón."
 
-#: C/index.docbook:343(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:343
 msgid "KN.10"
 msgstr "NT.10"
 
-#: C/index.docbook:344(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:344
 msgid ""
 "Any text or object that can be selected with the mouse can also be selected "
 "with the keyboard alone."
@@ -4433,11 +4771,13 @@ msgstr ""
 "Cualquier texto u objeto que se puede seleccionar con el ratón también se "
 "puede seleccionar sólo con el teclado."
 
-#: C/index.docbook:348(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:348
 msgid "KN.11"
 msgstr "NT.11"
 
-#: C/index.docbook:349(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:349
 msgid ""
 "Any object that can be resized or moved with the mouse can also be resized "
 "or moved with the keyboard alone."
@@ -4445,11 +4785,13 @@ msgstr ""
 "Cualquier objeto que se puede redimensionar o mover con el ratón también se "
 "puede redimensionar y mover sólo con el teclado."
 
-#: C/index.docbook:353(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:353
 msgid "KN.12"
 msgstr "NT.12"
 
-#: C/index.docbook:354(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:354
 msgid ""
 "The application does not use any general navigation functions to trigger "
 "operations."
@@ -4457,11 +4799,13 @@ msgstr ""
 "La aplicación no usa funciones de navegación generales para disparar "
 "operaciones."
 
-#: C/index.docbook:358(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:358
 msgid "KN.13"
 msgstr "NT.13"
 
-#: C/index.docbook:359(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:359
 msgid ""
 "All keyboard-invoked menus, windows and tooltips appear near the object they "
 "relate to."
@@ -4469,19 +4813,23 @@ msgstr ""
 "Todos los menús, ventanas y consejos invocados con el teclado aparecen junto "
 "al objeto al que están relacionados."
 
-#: C/index.docbook:367(table/title)
+#. (itstool) path: table/title
+#: C/index.docbook:367
 msgid "Mouse Interaction checklist"
 msgstr "Lista de comprobación de la interacción con el ratón"
 
-#: C/index.docbook:371(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:371
 msgid "MI"
 msgstr "IR"
 
-#: C/index.docbook:377(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:377
 msgid "MI.1"
 msgstr "IR.1"
 
-#: C/index.docbook:378(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:378
 msgid ""
 "No operations depend on input from the <mousebutton>right</mousebutton> or "
 "<mousebutton>middle</mousebutton> mouse buttons."
@@ -4489,31 +4837,37 @@ msgstr ""
 "Ninguna operación depende de la entrada de los botones <mousebutton>derecho</"
 "mousebutton> o <mousebutton>central</mousebutton> del ratón."
 
-#: C/index.docbook:381(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:381
 msgid "MI.2"
 msgstr "IR.2"
 
-#: C/index.docbook:382(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:382
 msgid "All mouse operations can be cancelled before they are complete."
 msgstr ""
 "Todas las operaciones con el ratón se pueden cancelar antes de que se "
 "completen."
 
-#: C/index.docbook:385(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:385
 msgid "MI.3"
 msgstr "IR.3"
 
-#: C/index.docbook:386(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:386
 msgid "Visual feedback is provided throughout drag and drop operations"
 msgstr ""
 "Se proporciona contexto visual a en todas las operaciones de arrastrar y "
 "soltar"
 
-#: C/index.docbook:390(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:390
 msgid "MI.4"
 msgstr "IR.4"
 
-#: C/index.docbook:391(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:391
 msgid ""
 "The mouse pointer is never warped under application control, or its movement "
 "restricted to part of the screen by the application."
@@ -4521,19 +4875,23 @@ msgstr ""
 "El puntero del ratón nunca se ajusta bajo el control de la aplicación, o la "
 "aplicación restringe su movimiento se restringe a parte de la pantalla."
 
-#: C/index.docbook:399(table/title)
+#. (itstool) path: table/title
+#: C/index.docbook:399
 msgid "Graphical Elements checklist"
 msgstr "Lista de comprobación de los elementos gráficos"
 
-#: C/index.docbook:403(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:403
 msgid "GE"
 msgstr "EG"
 
-#: C/index.docbook:409(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:409
 msgid "GE.1"
 msgstr "EG.1"
 
-#: C/index.docbook:410(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:410
 msgid ""
 "There are no hard-coded graphical attributes such as line, border or shadow "
 "thickness."
@@ -4541,11 +4899,13 @@ msgstr ""
 "No existen atributos gráficos incrustados e inmutables («hard-coded») tales "
 "como el grosor de las líneas, bordes o sombras."
 
-#: C/index.docbook:414(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:414
 msgid "GE.2"
 msgstr "EG.2"
 
-#: C/index.docbook:415(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:415
 msgid ""
 "All multi-color graphical elements can be shown in monochrome only, where "
 "possible."
@@ -4553,11 +4913,13 @@ msgstr ""
 "Todos los elementos gráficos multicolor se pueden mostrar en monocromo, "
 "siempre que sea posible."
 
-#: C/index.docbook:419(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:419
 msgid "GE.3"
 msgstr "EG.3"
 
-#: C/index.docbook:420(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:420
 msgid ""
 "All interactive GUI elements are easily distinguishable from static GUI "
 "elements."
@@ -4565,82 +4927,100 @@ msgstr ""
 "Todos los elementos interactivos del IGU son fácilmente distinguibles desde "
 "elementos del IGU estáticos."
 
-#: C/index.docbook:424(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:424
 msgid "GE.4"
 msgstr "EG.4"
 
-#: C/index.docbook:425(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:425
 msgid "An option to hide non-essential graphics is provided."
 msgstr "Se proporciona una opción para ocultar los gráficos no esenciales."
 
-#: C/index.docbook:433(table/title)
+#. (itstool) path: table/title
+#: C/index.docbook:433
 msgid "Fonts and Text checklist"
 msgstr "Lista de comprobación de las tipografías y del texto"
 
-#: C/index.docbook:437(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:437
 msgid "FT"
 msgstr "TT"
 
-#: C/index.docbook:443(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:443
 msgid "FT.1"
 msgstr "TT.1"
 
-#: C/index.docbook:444(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:444
 msgid "No font styles or sizes are hard-coded."
 msgstr "No hay estilos o tamaños incrustados e inmutables («hard-coded»)"
 
-#: C/index.docbook:446(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:446
 msgid "FT.2"
 msgstr "TT.2"
 
-#: C/index.docbook:447(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:447
 msgid "An option to turn off graphical backdrops behind text is provided."
 msgstr ""
 "Se proporciona una opción para desactivar los fondos gráficos detrás del "
 "texto."
 
-#: C/index.docbook:451(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:451
 msgid "FT.3"
 msgstr "TT.3"
 
-#: C/index.docbook:452(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:452
 msgid "All labels have names that make sense when taken out of context."
 msgstr ""
 "Todas las etiquetas deben tener nombres que tengan sentido al sacarlas de "
 "contexto."
 
-#: C/index.docbook:456(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:456
 msgid "FT.4"
 msgstr "TT.4"
 
-#: C/index.docbook:457(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:457
 msgid "No label names are used more than once in the same window."
 msgstr ""
 "No se usa más de una vez el mismo nombre de etiqueta en la misma ventana."
 
-#: C/index.docbook:461(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:461
 msgid "FT.5"
 msgstr "TT.5"
 
-#: C/index.docbook:462(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:462
 msgid "Label positioning is consistent throughout the application."
 msgstr "La posición de las etiquetas es consistente en toda la aplicación."
 
-#: C/index.docbook:466(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:466
 msgid "FT.6"
 msgstr "TT.6"
 
-#: C/index.docbook:467(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:467
 msgid "All static text labels that identify other controls end in a colon (:)."
 msgstr ""
 "Todas las etiquetas de texto estático que identifican otros controles "
 "terminan con dos puntos (:)."
 
-#: C/index.docbook:471(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:471
 msgid "FT.7"
 msgstr "TT.7"
 
-#: C/index.docbook:472(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:472
 msgid ""
 "Static text labels that identify other controls immediately precede those "
 "controls in the tab order."
@@ -4648,11 +5028,13 @@ msgstr ""
 "Las etiquetas de texto estático que identifican otros controles preceden "
 "inmediatamente a esos controles en el orden de las pestañas."
 
-#: C/index.docbook:476(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:476
 msgid "FT.8"
 msgstr "TT.8"
 
-#: C/index.docbook:477(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:477
 msgid ""
 "An alternative to WYSIWYG is provided. For example, the ability to specify "
 "different screen and printer fonts in a text editor."
@@ -4661,19 +5043,23 @@ msgstr ""
 "obtiene). Por ejemplo, la capacidad de especificar una pantalla diferente o "
 "tipografías de impresión diferentes en un editor de textos."
 
-#: C/index.docbook:485(table/title)
+#. (itstool) path: table/title
+#: C/index.docbook:485
 msgid "Color and Contrast checklist"
 msgstr "Lista de comprobación del color y contraste"
 
-#: C/index.docbook:489(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:489
 msgid "CC"
 msgstr "CC"
 
-#: C/index.docbook:495(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:495
 msgid "CC.1"
 msgstr "CC.1"
 
-#: C/index.docbook:496(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:496
 msgid ""
 "Application colors are not hard-coded, but are drawn either from the current "
 "desktop theme or an application setting."
@@ -4682,11 +5068,13 @@ msgstr ""
 "coded»), sino que se dibujan desde el tema actual del escritorio o desde un "
 "ajuste de la aplicación."
 
-#: C/index.docbook:500(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:500
 msgid "CC.2"
 msgstr "CC.2"
 
-#: C/index.docbook:501(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:501
 msgid ""
 "Color is only used as an enhancement, and not as the only means to convey "
 "information or actions."
@@ -4694,22 +5082,26 @@ msgstr ""
 "El color sólo se usa como mejora y no como el único medio de comunicar "
 "información u acciones."
 
-#: C/index.docbook:506(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:506
 msgid "CC.3"
 msgstr "CC.3"
 
-#: C/index.docbook:507(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:507
 msgid ""
 "The application supports all available high- contrast themes and settings."
 msgstr ""
 "La aplicación soporta todos los temas y ajustes de los temas de alto "
 "contraste."
 
-#: C/index.docbook:511(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:511
 msgid "CC.4"
 msgstr "CC.4"
 
-#: C/index.docbook:512(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:512
 msgid ""
 "The software is not dependent on any particular high-contrast themes or "
 "settings."
@@ -4717,36 +5109,44 @@ msgstr ""
 "El software no depende de ningún tema de alto contraste o ajuste en "
 "particular."
 
-#: C/index.docbook:520(table/title)
+#. (itstool) path: table/title
+#: C/index.docbook:520
 msgid "Magnification checklist"
 msgstr "Lista de comprobación de la magnificación"
 
-#: C/index.docbook:524(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:524
 msgid "MG"
 msgstr "MG"
 
-#: C/index.docbook:530(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:530
 msgid "MG.1"
 msgstr "MG.1"
 
-#: C/index.docbook:531(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:531
 msgid "The application provides the ability to magnify the work area."
 msgstr ""
 "La aplicación proporciona la capacidad de magnificar el área de trabajo."
 
-#: C/index.docbook:535(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:535
 msgid "MG.2"
 msgstr "MG.2"
 
-#: C/index.docbook:536(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:536
 msgid "The application provides the option to scale the work area."
 msgstr "La aplicación proporciona la opción de escalar el área de trabajo."
 
-#: C/index.docbook:540(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:540
 msgid "MG.3"
 msgstr "MG.3"
 
-#: C/index.docbook:541(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:541
 msgid ""
 "The application's functionality is not affected by changing the "
 "magnification or scale settings."
@@ -4754,30 +5154,36 @@ msgstr ""
 "La funcionalidad de la aplicación no se ve afectada por cambiar la "
 "magnificación o los ajustes de escala."
 
-#: C/index.docbook:549(table/title)
+#. (itstool) path: table/title
+#: C/index.docbook:549
 msgid "Audio checklist"
 msgstr "Lista de comprobación del sonido"
 
-#: C/index.docbook:553(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:553
 msgid "AU"
 msgstr "SO"
 
-#: C/index.docbook:559(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:559
 msgid "AU.1"
 msgstr "SO.1"
 
-#: C/index.docbook:560(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:560
 msgid ""
 "Sound is not used as the only means of conveying any items of information."
 msgstr ""
 "El sonido no se usa como el único medio de comunicación de cualquier "
 "elemento de información."
 
-#: C/index.docbook:564(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:564
 msgid "AU.2"
 msgstr "SO.2"
 
-#: C/index.docbook:565(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:565
 msgid ""
 "The user can configure the frequency and volume of all sounds and warning "
 "beeps."
@@ -4785,19 +5191,23 @@ msgstr ""
 "El usuario puede configurar la frecuencia y volumen de todos los sonidos y "
 "pitidos de advertencia."
 
-#: C/index.docbook:573(table/title)
+#. (itstool) path: table/title
+#: C/index.docbook:573
 msgid "Animation checklist"
 msgstr "Lista de comprobación de animaciones"
 
-#: C/index.docbook:577(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:577
 msgid "AN"
 msgstr "AN"
 
-#: C/index.docbook:583(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:583
 msgid "AN.1"
 msgstr "AN.1"
 
-#: C/index.docbook:584(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:584
 msgid ""
 "There are no flashing or blinking elements with a frequency greater than 2Hz "
 "or lower than 55Hz."
@@ -4805,21 +5215,25 @@ msgstr ""
 "No existe ningún elemento que destelle o parpadee con una frecuencia mayor "
 "de 2Hz o menor de 55Hz."
 
-#: C/index.docbook:588(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:588
 msgid "AN.2"
 msgstr "AN.2"
 
-#: C/index.docbook:589(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:589
 msgid "Any flashing or blinking is confined to small areas of the screen."
 msgstr ""
 "Cualquier destello o parpadeo está confinado en pequeñas áreas de la "
 "pantalla."
 
-#: C/index.docbook:593(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:593
 msgid "AN.3"
 msgstr "AN.3"
 
-#: C/index.docbook:594(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:594
 msgid ""
 "If animation is used, an option is available to turn it off before it is "
 "first shown."
@@ -4827,46 +5241,56 @@ msgstr ""
 "Si se usa una animación existe una opción disponible para desactivarla antes "
 "de que se muestre por primera vez."
 
-#: C/index.docbook:602(table/title)
+#. (itstool) path: table/title
+#: C/index.docbook:602
 msgid "Keyboard Focus checklist"
 msgstr "Lista de comprobación del foco del teclado"
 
-#: C/index.docbook:606(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:606
 msgid "KF"
 msgstr "FT"
 
-#: C/index.docbook:612(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:612
 msgid "KF.1"
 msgstr "FT.1"
 
-#: C/index.docbook:613(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:613
 msgid ""
 "When a window is opened, focus starts at the most commonly-used control."
 msgstr "Al abrir una ventana el foco está en el control más usado."
 
-#: C/index.docbook:617(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:617
 msgid "KF.2"
 msgstr "FT.2"
 
-#: C/index.docbook:618(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:618
 msgid "Current input focus position is clearly displayed at all times."
 msgstr ""
 "La posición del foco de entrada está claramente mostrada en todo momento."
 
-#: C/index.docbook:622(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:622
 msgid "KF.3"
 msgstr "FT.3"
 
-#: C/index.docbook:623(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:623
 msgid "Input focus is shown in exactly one window at all times."
 msgstr ""
 "El foco de entrada se muestra exactamente en una ventana en todo momento."
 
-#: C/index.docbook:627(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:627
 msgid "KF.4"
 msgstr "FT.4"
 
-#: C/index.docbook:628(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:628
 msgid ""
 "Appropriate audio or visual feedback is provided when the user attempts to "
 "navigate past either end of a group of related objects."
@@ -4874,11 +5298,13 @@ msgstr ""
 "Se proporciona el contexto sonoro o visual apropiado cuando el usuario "
 "intenta navegar más allá del límite de un grupo de objetos relacionados."
 
-#: C/index.docbook:632(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:632
 msgid "KF.5"
 msgstr "FT.5"
 
-#: C/index.docbook:633(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:633
 msgid ""
 "The default audio or visual warning signal is played when the user presses "
 "an inappropriate key."
@@ -4886,11 +5312,13 @@ msgstr ""
 "La señal de advertencia sonora o visual predeterminada se reproduce cuando "
 "el usuario pulsa una tecla inapropiada."
 
-#: C/index.docbook:637(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:637
 msgid "KF.6"
 msgstr "FT.6"
 
-#: C/index.docbook:638(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:638
 msgid ""
 "There is sufficient audio information for the visual focus that the user can "
 "figure out what to do next."
@@ -4898,11 +5326,13 @@ msgstr ""
 "Existe suficiente información sonora para el foco visual tal que el usuario "
 "puede intuir qué hacer a continuación."
 
-#: C/index.docbook:642(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:642
 msgid "KF.7"
 msgstr "FT.7"
 
-#: C/index.docbook:643(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:643
 msgid ""
 "When using assistive technologies, such as a screen reader or braille "
 "device, the current program indicates the position and content of the visual "
@@ -4912,30 +5342,36 @@ msgstr ""
 "dispositivo braille, el programa actual indica la posición y contenido del "
 "indicador visual del foco."
 
-#: C/index.docbook:651(table/title)
+#. (itstool) path: table/title
+#: C/index.docbook:651
 msgid "Timing checklist"
 msgstr "Lista de comprobación de los tiempos"
 
-#: C/index.docbook:655(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:655
 msgid "TM"
 msgstr "TM"
 
-#: C/index.docbook:661(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:661
 msgid "TM.1"
 msgstr "TM.1"
 
-#: C/index.docbook:662(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:662
 msgid ""
 "There are no hard-coded time-outs or time-based features in the application."
 msgstr ""
 "En la aplicación no existen tiempos de expiración invariables en el código o "
 "características basadas en tiempo."
 
-#: C/index.docbook:666(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:666
 msgid "TM.2"
 msgstr "TM.2"
 
-#: C/index.docbook:667(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:667
 msgid ""
 "The display or hiding of important information is not triggered solely by "
 "movement of the mouse pointer."
@@ -4943,19 +5379,23 @@ msgstr ""
 "El mostrado u ocultación de información importante no se dispara "
 "exclusivamente por el movimiento del puntero del ratón."
 
-#: C/index.docbook:675(table/title)
+#. (itstool) path: table/title
+#: C/index.docbook:675
 msgid "Documentation checklist"
 msgstr "Lista de comprobación de la documentación"
 
-#: C/index.docbook:679(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:679
 msgid "DC"
 msgstr "DC"
 
-#: C/index.docbook:685(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:685
 msgid "DC.1"
 msgstr "DC.1"
 
-#: C/index.docbook:686(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:686
 msgid ""
 "All documentation is in an accessible format, with textual alternate "
 "descriptions provided for all figures and diagrams."
@@ -4963,11 +5403,13 @@ msgstr ""
 "Toda la documentación está en un formato accesible, con descripciones "
 "textuales alternativas proporcionadas para todas las figuras y diagramas."
 
-#: C/index.docbook:690(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:690
 msgid "DC.2"
 msgstr "DC.2"
 
-#: C/index.docbook:691(row/entry)
+#. (itstool) path: row/entry
+#: C/index.docbook:691
 msgid ""
 "The documentation includes a section that covers all the application's "
 "accessibility features."
@@ -4975,11 +5417,13 @@ msgstr ""
 "La documentación incluye una sección que cubre las características de "
 "accesibilidad de la aplicación."
 
-#: C/index.docbook:701(section/title)
+#. (itstool) path: section/title
+#: C/index.docbook:701
 msgid "GOK (GNOME Onscreen Keyboard)"
 msgstr "GOK (Teclado en pantalla de GNOME)"
 
-#: C/index.docbook:703(note/para)
+#. (itstool) path: note/para
+#: C/index.docbook:703
 msgid ""
 "The information on this page is partially outdated: GNOME 3's "
 "<application><ulink url=\"http://wiki.gnome.org/Caribou\">Caribou</ulink></"
@@ -4991,7 +5435,8 @@ msgstr ""
 "application> de GNOME 3 ha reemplazado a <application>gok</application> de "
 "GNOME 2."
 
-#: C/index.docbook:708(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:708
 msgid ""
 "Your application should be usable via <application>gok</application>; key "
 "input should be generated entirely by <application>gok</application>, not "
@@ -5005,7 +5450,8 @@ msgstr ""
 "con su aplicación y el escritorio, en general, asegurándose que se puede "
 "escribir cualquier carácter de entrada con el teclado en pantalla."
 
-#: C/index.docbook:711(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:711
 msgid ""
 "The <application>gok</application> application ships with the GNOME Desktop "
 "so should already be present. For full documentation, refer to <ulink url="
@@ -5015,7 +5461,8 @@ msgstr ""
 "así que debería estar presente. Consulte el <ulink url=\"http://www.gok.ca"
 "\">sitio oficial de gok</ulink> para obtener la documentación completa."
 
-#: C/index.docbook:714(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:714
 msgid ""
 "Follow these steps to verify the correct operation of <application>gok</"
 "application> with your application:"
@@ -5023,19 +5470,23 @@ msgstr ""
 "Siga estos pasos para comprobar el correcto funcionamiento de "
 "<application>gok</application> con su aplicación:"
 
-#: C/index.docbook:719(step/para)
+#. (itstool) path: step/para
+#: C/index.docbook:719
 msgid "Login into the GNOME desktop"
 msgstr "Inicie sesión en el Escritorio GNOME"
 
-#: C/index.docbook:724(step/para)
+#. (itstool) path: step/para
+#: C/index.docbook:724
 msgid "Run <application>gok</application>"
 msgstr "Ejecute <application>gok</application>"
 
-#: C/index.docbook:729(step/para)
+#. (itstool) path: step/para
+#: C/index.docbook:729
 msgid "Start your application"
 msgstr "Inicie su aplicación"
 
-#: C/index.docbook:734(step/para)
+#. (itstool) path: step/para
+#: C/index.docbook:734
 msgid ""
 "Provide input to your application with a pointing device (e.g., mouse or "
 "head-tracker) and <application>gok</application>."
@@ -5043,7 +5494,8 @@ msgstr ""
 "Proporcione entrada a su aplicación con un dispositivo apuntador (ej. un "
 "ratón o seguidor de mirada) y <application>gok</application>."
 
-#: C/index.docbook:739(step/para)
+#. (itstool) path: step/para
+#: C/index.docbook:739
 msgid ""
 "Work using the auto-completion and word prediction features of "
 "<application>gok</application>."
@@ -5051,7 +5503,8 @@ msgstr ""
 "Trabaje usando las características de autocompletado y predicción de "
 "palabras de <application>gok</application>."
 
-#: C/index.docbook:744(step/para)
+#. (itstool) path: step/para
+#: C/index.docbook:744
 msgid ""
 "Verify that <application>gok</application> enables and disables the "
 "<guibutton>Menus</guibutton> and <guibutton>Toolbars</guibutton> buttons "
@@ -5064,11 +5517,12 @@ msgstr ""
 "de los <guibutton>Menús</guibutton> y <guibutton>Barras de herramientas</"
 "guibutton> basadas en la clase de aplicación invocada; por ejemplo, los "
 "botones de los <guibutton>Menús</guibutton> y <guibutton>Barras de "
-"Herramientas</guibutton> están desactivados para el «capplet» «Propiedades de "
-"las tipografías», pero los mismos botones están activados para la aplicación "
-"<application>gedit</application>."
+"Herramientas</guibutton> están desactivados para el «capplet» «Propiedades "
+"de las tipografías», pero los mismos botones están activados para la "
+"aplicación <application>gedit</application>."
 
-#: C/index.docbook:749(step/para)
+#. (itstool) path: step/para
+#: C/index.docbook:749
 msgid ""
 "Verify that the <application>gok</application> on-screen keyboard provided "
 "by the <guibutton>Compose</guibutton> button can be used to type in any text "
@@ -5086,7 +5540,8 @@ msgstr ""
 "Seleccione las teclas necesarias en el teclado en pantalla. Los caracteres "
 "deberían aparecer en el área de texto de <application>gedit</application>."
 
-#: C/index.docbook:754(step/para)
+#. (itstool) path: step/para
+#: C/index.docbook:754
 msgid ""
 "Verify that the <guibutton>Launcher</guibutton> button allows the user to "
 "launch any of the <application>Terminal</application>, <application>Web "
@@ -5097,7 +5552,8 @@ msgstr ""
 "application>, <application>Navegador web</application> o <application>Editor "
 "de textos</application>."
 
-#: C/index.docbook:759(step/para)
+#. (itstool) path: step/para
+#: C/index.docbook:759
 msgid ""
 "Verify that the <guibutton>Activate</guibutton> button allows the user to "
 "activate any of the currently running application windows on the user's "
@@ -5108,7 +5564,8 @@ msgstr ""
 "ejecución en el escritorio del usuario, incluyendo los paneles de GNOME y el "
 "escritorio GNOME."
 
-#: C/index.docbook:764(step/para)
+#. (itstool) path: step/para
+#: C/index.docbook:764
 msgid ""
 "Verify that the <guibutton>Menus</guibutton> button lists all the available "
 "menus in the current application. Verify that clicking on a menu button "
@@ -5136,7 +5593,8 @@ msgstr ""
 "mostrarán los botones <guibutton>Ventana nueva</guibutton> and "
 "<guibutton>Cerrar ventana</guibutton> (elementos del menú)."
 
-#: C/index.docbook:769(step/para)
+#. (itstool) path: step/para
+#: C/index.docbook:769
 msgid ""
 "Verify that the <guibutton>Toolbars</guibutton> button lists all the "
 "available buttons in the application toolbar. For example, click on the "
@@ -5153,7 +5611,8 @@ msgstr ""
 "<application>GOK</application> muestra los botones <guibutton>Atrás</"
 "guibutton>, <guibutton>Adelante</guibutton> e <guibutton>Inicio</guibutton>."
 
-#: C/index.docbook:774(step/para)
+#. (itstool) path: step/para
+#: C/index.docbook:774
 msgid ""
 "Verify that the <guibutton>UI Grab</guibutton> button displays all the "
 "button objects for the selected application window. For example, open the "
@@ -5172,11 +5631,13 @@ msgstr ""
 "<guibutton>Sans-serif</guibutton>, <guibutton>Cerrar</guibutton> y "
 "<guibutton>Ayuda</guibutton>."
 
-#: C/index.docbook:782(section/title)
+#. (itstool) path: section/title
+#: C/index.docbook:782
 msgid "Accerciser"
 msgstr "Accerciser"
 
-#: C/index.docbook:784(screenshot/mediaobject)
+#. (itstool) path: screenshot/mediaobject
+#: C/index.docbook:784
 msgid ""
 "<imageobject> <imagedata fileref=\"figures/at-arch.png\" format=\"PNG\"/> </"
 "imageobject> <textobject> <phrase> Accerciser and the GNOME Accessibility "
@@ -5186,7 +5647,8 @@ msgstr ""
 "imageobject> <textobject> <phrase> Accerciser y la arquitectura de "
 "accesibilidad de GNOME </phrase> </textobject>"
 
-#: C/index.docbook:796(section/para)
+#. (itstool) path: section/para
+#: C/index.docbook:796
 msgid ""
 "<application>Accerciser</application> is an interactive Python accessibility "
 "explorer for the GNOME Desktop. It uses AT-SPI to inspect and control "
@@ -5221,7 +5683,8 @@ msgstr ""
 "url=\"http://www.linuxjournal.com/article/9991\">Make Your Application "
 "Accessible with Accerciser</ulink>."
 
-#: C/index.docbook:800(note/para)
+#. (itstool) path: note/para
+#: C/index.docbook:800
 msgid ""
 "<application>Accerciser</application> has effectively replaced the older "
 "<application>at-poke</application> tool."
