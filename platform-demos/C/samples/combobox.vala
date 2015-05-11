@@ -36,7 +36,7 @@ class MyWindow : Gtk.ApplicationWindow {
 		combobox.set_active (0);
 
 		/* Connect the 'changed' signal of the combobox
-		 * to the signal handler (aka. callback function.
+		 * to the signal handler (aka. callback function).
 		 */
 		combobox.changed.connect (this.item_changed);
 
