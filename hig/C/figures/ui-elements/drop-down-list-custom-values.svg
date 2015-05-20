@@ -13,8 +13,8 @@
    height="387"
    id="svg19494"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="New document 72">
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="drop-down-list-custom-values.svg">
   <defs
      id="defs19496">
     <marker
@@ -39,9 +39,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.3207031"
-     inkscape:cx="311.37859"
-     inkscape:cy="277.55896"
+     inkscape:zoom="1"
+     inkscape:cx="278.75911"
+     inkscape:cy="165.7031"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -51,7 +51,7 @@
      fit-margin-bottom="0"
      inkscape:showpageshadow="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1133"
+     inkscape:window-height="1136"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1" />
@@ -63,7 +63,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -73,28 +73,25 @@
      id="layer1"
      transform="translate(-64,-338.875)">
     <g
-       transform="translate(-5354,3285.5127)"
-       inkscape:export-ydpi="90"
-       inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/drop-down-list-custom-values.png"
-       id="g19184">
+       id="g4448"
+       transform="translate(0,6)">
       <rect
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
          inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/drop-down-list-custom-values.png"
          ry="3"
          rx="3.0000002"
-         y="-2924.1377"
-         x="5475.5"
+         y="349.375"
+         x="121.5"
          height="33"
          width="163.99976"
          id="rect19186"
-         style="color:#000000;fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#dbdbdb;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
       <text
          xml:space="preserve"
-         style="font-size:14.30000019px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-         x="5489.3921"
-         y="-2902.7471"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.30000019px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:Cantarell;letter-spacing:0px;word-spacing:0px;display:inline;fill:#2e3436;fill-opacity:1;stroke:none"
+         x="135.39209"
+         y="370.76562"
          id="text19188"
          sodipodi:linespacing="125%"
          inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/drop-down-list-custom-values.png"
@@ -102,23 +99,23 @@
          inkscape:export-ydpi="90"><tspan
            sodipodi:role="line"
            id="tspan19190"
-           x="5489.3921"
-           y="-2902.7471">Preset Value 1</tspan></text>
+           x="135.39209"
+           y="370.76562">Preset Value 1</tspan></text>
       <g
          id="g19192"
-         transform="translate(5610.9995,-2915.5753)"
+         transform="translate(256.9995,357.9374)"
          style="fill:#2e3436"
          inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/drop-down-list-custom-values.png"
          inkscape:export-xdpi="90"
          inkscape:export-ydpi="90">
         <g
            transform="translate(-341.0002,-807.00001)"
-           style="fill:#2e3436;display:inline"
+           style="display:inline;fill:#2e3436"
            inkscape:label="status"
            id="g19194" />
         <g
            transform="translate(-341.0002,-807.00001)"
-           style="fill:#2e3436;display:inline"
+           style="display:inline;fill:#2e3436"
            inkscape:label="devices"
            id="g19196" />
         <g
@@ -128,7 +125,7 @@
            style="fill:#2e3436" />
         <g
            transform="translate(-341.0002,-807.00001)"
-           style="fill:#2e3436;display:inline"
+           style="display:inline;fill:#2e3436"
            inkscape:label="places"
            id="g19200" />
         <g
@@ -138,22 +135,22 @@
            style="fill:#2e3436" />
         <g
            transform="translate(-341.0002,-807.00001)"
-           style="fill:#2e3436;display:inline"
+           style="display:inline;fill:#2e3436"
            inkscape:label="emblems"
            id="g19204" />
         <g
            transform="translate(-341.0002,-807.00001)"
-           style="fill:#2e3436;display:inline"
+           style="display:inline;fill:#2e3436"
            inkscape:label="emotes"
            id="g19206" />
         <g
            transform="translate(-341.0002,-807.00001)"
-           style="fill:#2e3436;display:inline"
+           style="display:inline;fill:#2e3436"
            inkscape:label="categories"
            id="g19208" />
         <g
            transform="translate(-341.0002,-807.00001)"
-           style="fill:#2e3436;display:inline"
+           style="display:inline;fill:#2e3436"
            inkscape:label="actions"
            id="g19210">
           <path
@@ -168,34 +165,34 @@
          sodipodi:nodetypes="scccssssssss"
          inkscape:connector-curvature="0"
          id="path19214"
-         d="m 5448.5,-2884.1377 94,0 14,-12 14,12 98,0 c 3.324,0 6,2.676 6,6 l 0,289 c 0,3.324 -2.676,6 -6,6 l -220,0 c -3.324,0 -6,-2.676 -6,-6 l 0,-289 c 0,-3.324 2.676,-6 6,-6 z"
-         style="fill:#eeeeec;fill-opacity:1;stroke:#babdb6;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1"
+         d="m 94.5,401.375 94,0 14,-12 14,12 98,0 c 3.324,0 6,2.676 6,6 l 0,289 c 0,3.324 -2.676,6 -6,6 l -220,0 c -3.324,0 -6,-2.676 -6,-6 l 0,-289 c 0,-3.324 2.676,-6 6,-6 z"
+         style="fill:#f2f2f2;fill-opacity:1;stroke:#babdb6;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1"
          inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/drop-down-list-custom-values.png"
          inkscape:export-xdpi="90"
          inkscape:export-ydpi="90" />
       <rect
-         y="-2872.1377"
-         x="5454.5"
+         y="413.375"
+         x="100.5"
          height="234"
          width="209.00002"
          id="rect19216"
-         style="fill:#ffffff;fill-opacity:1;stroke:#babdb6;stroke-width:0.99999988;stroke-linecap:square;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+         style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#babdb6;stroke-width:0.99999988;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/drop-down-list-custom-values.png"
          inkscape:export-xdpi="90"
          inkscape:export-ydpi="90" />
       <path
          inkscape:connector-curvature="0"
          id="path19218"
-         d="m 5454.5,-2833.1377 209,0"
-         style="fill:none;stroke:#babdb6;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+         d="m 100.5,452.375 209,0"
+         style="display:inline;fill:none;stroke:#babdb6;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1"
          inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/drop-down-list-custom-values.png"
          inkscape:export-xdpi="90"
          inkscape:export-ydpi="90" />
       <text
          xml:space="preserve"
-         style="font-size:14.30000019px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-         x="5469.7876"
-         y="-2808.7617"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.30000019px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:Cantarell;letter-spacing:0px;word-spacing:0px;display:inline;fill:#2e3436;fill-opacity:1;stroke:none"
+         x="115.7876"
+         y="476.75098"
          id="text19220"
          sodipodi:linespacing="125%"
          inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/drop-down-list-custom-values.png"
@@ -203,11 +200,11 @@
          inkscape:export-ydpi="90"><tspan
            sodipodi:role="line"
            id="tspan19222"
-           x="5469.7876"
-           y="-2808.7617">Preset Value 2</tspan></text>
+           x="115.7876"
+           y="476.75098">Preset Value 2</tspan></text>
       <path
-         style="fill:none;stroke:#babdb6;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;display:inline"
-         d="m 5455.199,-2794.1377 207.602,0"
+         style="display:inline;fill:none;stroke:#babdb6;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 101.199,491.375 207.602,0"
          id="path19224"
          inkscape:connector-curvature="0"
          inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/drop-down-list-custom-values.png"
@@ -219,19 +216,19 @@
          inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/drop-down-list-custom-values.png"
          sodipodi:linespacing="125%"
          id="text19226"
-         y="-2769.7617"
-         x="5469.7876"
-         style="font-size:14.30000019px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         y="515.75098"
+         x="115.7876"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.30000019px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:Cantarell;letter-spacing:0px;word-spacing:0px;display:inline;fill:#2e3436;fill-opacity:1;stroke:none"
          xml:space="preserve"><tspan
-           y="-2769.7617"
-           x="5469.7876"
+           y="515.75098"
+           x="115.7876"
            id="tspan19228"
            sodipodi:role="line">Preset Value 3</tspan></text>
       <path
          inkscape:connector-curvature="0"
          id="path19230"
-         d="m 5455.3727,-2755.138 207.2546,0"
-         style="fill:none;stroke:#888a85;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+         d="m 101.3727,530.3747 207.2546,0"
+         style="display:inline;fill:none;stroke:#888a85;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1"
          inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/drop-down-list-custom-values.png"
          inkscape:export-xdpi="90"
          inkscape:export-ydpi="90" />
@@ -241,19 +238,19 @@
          inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/drop-down-list-custom-values.png"
          sodipodi:linespacing="125%"
          id="text19232"
-         y="-2847.7617"
-         x="5469.7876"
-         style="font-size:14.30000019px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         y="437.75098"
+         x="115.7876"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.30000019px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:Cantarell;letter-spacing:0px;word-spacing:0px;display:inline;fill:#2e3436;fill-opacity:1;stroke:none"
          xml:space="preserve"><tspan
-           y="-2847.7617"
-           x="5469.7876"
+           y="437.75098"
+           x="115.7876"
            id="tspan19234"
            sodipodi:role="line">Preset Value 1</tspan></text>
       <g
          inkscape:label="actions"
-         transform="translate(5515.9376,-3647.5752)"
+         transform="translate(161.9376,-362.0625)"
          id="g19236"
-         style="fill:#2e3436;display:inline"
+         style="display:inline;fill:#2e3436"
          inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/drop-down-list-custom-values.png"
          inkscape:export-xdpi="90"
          inkscape:export-ydpi="90">
@@ -261,7 +258,7 @@
            inkscape:connector-curvature="0"
            d="M 72.9375,790.9375 68,795.875 l -1.9375,-1.9375 -2.125,2.125 3,3 1.0625,1.0625 1.0625,-1.0625 6,-6 -2.125,-2.125 z"
            id="path19238"
-           style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#2e3436;fill-opacity:1;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans" />
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#2e3436;fill-opacity:1;stroke:none;stroke-width:3;marker:none;enable-background:accumulate" />
       </g>
       <text
          inkscape:export-ydpi="90"
@@ -269,29 +266,29 @@
          inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/drop-down-list-custom-values.png"
          sodipodi:linespacing="125%"
          id="text19240"
-         y="-2730.7615"
-         x="5469.7876"
-         style="font-size:14.30000019px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         y="554.75122"
+         x="115.7876"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.30000019px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:Cantarell;letter-spacing:0px;word-spacing:0px;display:inline;fill:#2e3436;fill-opacity:1;stroke:none"
          xml:space="preserve"><tspan
-           y="-2730.7615"
-           x="5469.7876"
+           y="554.75122"
+           x="115.7876"
            id="tspan19242"
            sodipodi:role="line">Custom Value 1</tspan></text>
       <path
          inkscape:connector-curvature="0"
          id="path19244"
-         d="m 5455.199,-2716.1377 207.602,0"
-         style="fill:none;stroke:#babdb6;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+         d="m 101.199,569.375 207.602,0"
+         style="display:inline;fill:none;stroke:#babdb6;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1"
          inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/drop-down-list-custom-values.png"
          inkscape:export-xdpi="90"
          inkscape:export-ydpi="90" />
       <rect
-         style="color:#000000;fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#eaeaea;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
          id="rect19246"
          width="209"
          height="33"
-         x="5454.5"
-         y="-2628.1377"
+         x="100.5"
+         y="657.375"
          rx="3.0000002"
          ry="3"
          inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/drop-down-list-custom-values.png"
@@ -299,9 +296,9 @@
          inkscape:export-ydpi="90" />
       <text
          xml:space="preserve"
-         style="font-size:14.30000019px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-         x="5558.9551"
-         y="-2606.697"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.30000019px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:Cantarell;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#2e3436;fill-opacity:1;stroke:none"
+         x="204.95508"
+         y="678.81567"
          id="text19248"
          sodipodi:linespacing="125%"
          inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/drop-down-list-custom-values.png"
@@ -309,37 +306,37 @@
          inkscape:export-ydpi="90"><tspan
            sodipodi:role="line"
            id="tspan19250"
-           x="5558.9551"
-           y="-2606.697">Add Custom Value</tspan></text>
+           x="204.95508"
+           y="678.81567">Add Custom Value</tspan></text>
       <path
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
          inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/drop-down-list-custom-values.png"
          inkscape:connector-curvature="0"
          id="path19252"
-         d="m 5455.199,-2716.1378 207.602,0"
-         style="fill:none;stroke:#babdb6;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;display:inline" />
+         d="m 101.199,569.3749 207.602,0"
+         style="display:inline;fill:none;stroke:#babdb6;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1" />
       <path
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
          inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/drop-down-list-custom-values.png"
-         style="fill:none;stroke:#babdb6;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;display:inline"
-         d="m 5455.3727,-2677.138 207.2546,0"
+         style="display:inline;fill:none;stroke:#babdb6;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 101.3727,608.3747 207.2546,0"
          id="path19254"
          inkscape:connector-curvature="0" />
       <path
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
          inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/drop-down-list-custom-values.png"
-         style="fill:none;stroke:#babdb6;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;display:inline"
-         d="m 5455.199,-2638.1377 207.602,0"
+         style="display:inline;fill:none;stroke:#babdb6;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 101.199,647.375 207.602,0"
          id="path19256"
          inkscape:connector-curvature="0" />
       <text
          xml:space="preserve"
-         style="font-size:14.30000019px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-         x="5469.7876"
-         y="-2690.7615"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.30000019px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:Cantarell;letter-spacing:0px;word-spacing:0px;display:inline;fill:#2e3436;fill-opacity:1;stroke:none"
+         x="115.7876"
+         y="594.75122"
          id="text19258"
          sodipodi:linespacing="125%"
          inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/drop-down-list-custom-values.png"
@@ -347,53 +344,29 @@
          inkscape:export-ydpi="90"><tspan
            sodipodi:role="line"
            id="tspan19260"
-           x="5469.7876"
-           y="-2690.7615">Custom Value 2</tspan></text>
+           x="115.7876"
+           y="594.75122">Custom Value 2</tspan></text>
       <text
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
          inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/drop-down-list-custom-values.png"
          sodipodi:linespacing="125%"
          id="text19262"
-         y="-2650.7615"
-         x="5469.7876"
-         style="font-size:14.30000019px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         y="634.75122"
+         x="115.7876"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.30000019px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:Cantarell;letter-spacing:0px;word-spacing:0px;display:inline;fill:#2e3436;fill-opacity:1;stroke:none"
          xml:space="preserve"><tspan
-           y="-2650.7615"
-           x="5469.7876"
+           y="634.75122"
+           x="115.7876"
            id="tspan19264"
            sodipodi:role="line">Custom Value 3</tspan></text>
       <rect
-         inkscape:export-ydpi="90"
-         inkscape:export-xdpi="90"
-         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/drop-down-list-custom-values.png"
-         ry="0"
-         rx="0"
-         y="-2871.6377"
-         x="5651.0205"
-         height="232.99989"
-         width="12.000019"
-         id="rect19266"
-         style="color:#000000;fill:#d6d6d6;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new" />
-      <rect
-         inkscape:export-ydpi="90"
-         inkscape:export-xdpi="90"
-         inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/drop-down-list-custom-values.png"
-         style="opacity:0.8;color:#000000;fill:#9b9d9e;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
-         id="rect19268"
-         width="5.9795446"
-         height="92.229691"
-         x="5654.0205"
-         y="-2868.6377"
-         rx="3.4764707"
-         ry="3.5" />
-      <rect
-         style="color:#000000;fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#dbdbdb;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
          id="rect19270"
          width="163.99976"
          height="33"
-         x="5815.5"
-         y="-2924.1377"
+         x="461.5"
+         y="349.375"
          rx="3.0000002"
          ry="3"
          inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/drop-down-list-custom-values.png"
@@ -405,17 +378,17 @@
          inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/drop-down-list-custom-values.png"
          sodipodi:linespacing="125%"
          id="text19272"
-         y="-2902.7471"
-         x="5829.3921"
-         style="font-size:14.30000019px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         y="370.76562"
+         x="475.39209"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.30000019px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:Cantarell;letter-spacing:0px;word-spacing:0px;display:inline;fill:#2e3436;fill-opacity:1;stroke:none"
          xml:space="preserve"><tspan
-           y="-2902.7471"
-           x="5829.3921"
+           y="370.76562"
+           x="475.39209"
            id="tspan19274"
            sodipodi:role="line">Value 1</tspan></text>
       <g
          style="fill:#2e3436"
-         transform="translate(5950.9995,-2915.5753)"
+         transform="translate(596.9995,357.9374)"
          id="g19276"
          inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/drop-down-list-custom-values.png"
          inkscape:export-xdpi="90"
@@ -423,12 +396,12 @@
         <g
            id="g19278"
            inkscape:label="status"
-           style="fill:#2e3436;display:inline"
+           style="display:inline;fill:#2e3436"
            transform="translate(-341.0002,-807.00001)" />
         <g
            id="g19280"
            inkscape:label="devices"
-           style="fill:#2e3436;display:inline"
+           style="display:inline;fill:#2e3436"
            transform="translate(-341.0002,-807.00001)" />
         <g
            style="fill:#2e3436"
@@ -438,7 +411,7 @@
         <g
            id="g19284"
            inkscape:label="places"
-           style="fill:#2e3436;display:inline"
+           style="display:inline;fill:#2e3436"
            transform="translate(-341.0002,-807.00001)" />
         <g
            style="fill:#2e3436"
@@ -448,22 +421,22 @@
         <g
            id="g19288"
            inkscape:label="emblems"
-           style="fill:#2e3436;display:inline"
+           style="display:inline;fill:#2e3436"
            transform="translate(-341.0002,-807.00001)" />
         <g
            id="g19290"
            inkscape:label="emotes"
-           style="fill:#2e3436;display:inline"
+           style="display:inline;fill:#2e3436"
            transform="translate(-341.0002,-807.00001)" />
         <g
            id="g19292"
            inkscape:label="categories"
-           style="fill:#2e3436;display:inline"
+           style="display:inline;fill:#2e3436"
            transform="translate(-341.0002,-807.00001)" />
         <g
            id="g19294"
            inkscape:label="actions"
-           style="fill:#2e3436;display:inline"
+           style="display:inline;fill:#2e3436"
            transform="translate(-341.0002,-807.00001)">
           <path
              inkscape:connector-curvature="0"
@@ -477,30 +450,30 @@
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
          inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/drop-down-list-custom-values.png"
-         style="fill:#eeeeec;fill-opacity:1;stroke:#babdb6;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1"
-         d="m 5788.5,-2884.1377 94,0 14,-12 14,12 98,0 c 3.324,0 6,2.676 6,6 l 0,113 c 0,3.324 -2.676,6 -6,6 l -220,0 c -3.324,0 -6,-2.676 -6,-6 l 0,-113 c 0,-3.324 2.676,-6 6,-6 z"
+         style="fill:#f2f2f2;fill-opacity:1;stroke:#babdb6;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1"
+         d="m 434.5,401.375 94,0 14,-12 14,12 98,0 c 3.324,0 6,2.676 6,6 l 0,113 c 0,3.324 -2.676,6 -6,6 l -220,0 c -3.324,0 -6,-2.676 -6,-6 l 0,-113 c 0,-3.324 2.676,-6 6,-6 z"
          id="path19298"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="scccssssssss" />
       <rect
-         style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#729fcf;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#4a90d9;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:new"
          id="rect19300"
          width="209"
          height="30.999998"
-         x="5794.5"
-         y="-2844.1377"
+         x="440.5"
+         y="441.375"
          rx="3.8039246"
          ry="3.8039243"
          inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/drop-down-list-custom-values.png"
          inkscape:export-xdpi="90"
          inkscape:export-ydpi="90" />
       <rect
-         style="color:#000000;fill:#f4f4f2;fill-opacity:1;fill-rule:nonzero;stroke:#babdb6;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#f4f4f2;fill-opacity:1;fill-rule:nonzero;stroke:#babdb6;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
          id="rect19302"
          width="99"
          height="33"
-         x="5904.5"
-         y="-2804.1377"
+         x="550.5"
+         y="481.375"
          rx="3.0000002"
          ry="3"
          inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/drop-down-list-custom-values.png"
@@ -508,23 +481,23 @@
          inkscape:export-ydpi="90" />
       <text
          xml:space="preserve"
-         style="font-size:14.30000019px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#919494;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-         x="5953.748"
-         y="-2782.772"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.30000019px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:Cantarell;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#919494;fill-opacity:1;stroke:none"
+         x="599.74805"
+         y="502.74072"
          id="text19304"
          sodipodi:linespacing="125%"
          inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/drop-down-list-custom-values.png"
          inkscape:export-xdpi="90"
          inkscape:export-ydpi="90"><tspan
            sodipodi:role="line"
-           x="5953.748"
-           y="-2782.772"
+           x="599.74805"
+           y="502.74072"
            id="tspan19306">Done</tspan></text>
       <text
          xml:space="preserve"
-         style="font-size:14.30000019px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
-         x="5797.686"
-         y="-2854.697"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.30000019px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:Cantarell;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:#2e3436;fill-opacity:1;stroke:none"
+         x="443.68604"
+         y="430.81567"
          id="text19308"
          sodipodi:linespacing="125%"
          inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/drop-down-list-custom-values.png"
@@ -532,37 +505,37 @@
          inkscape:export-ydpi="90"><tspan
            sodipodi:role="line"
            id="tspan19310"
-           x="5797.686"
-           y="-2854.697">Enter a custom value:</tspan></text>
+           x="443.68604"
+           y="430.81567">Enter a custom value:</tspan></text>
       <rect
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
          inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/drop-down-list-custom-values.png"
          ry="3"
          rx="3.0000002"
-         y="-2804.1377"
-         x="5794.5"
+         y="481.375"
+         x="440.5"
          height="33"
          width="99"
          id="rect19312"
-         style="color:#000000;fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#eaeaea;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
       <text
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
          inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/drop-down-list-custom-values.png"
          sodipodi:linespacing="125%"
          id="text19314"
-         y="-2782.772"
-         x="5843.6802"
-         style="font-size:14.30000019px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#2e3436;fill-opacity:1;stroke:none;display:inline;font-family:Cantarell;-inkscape-font-specification:Cantarell"
+         y="502.74072"
+         x="489.68018"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.30000019px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:Cantarell;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#2e3436;fill-opacity:1;stroke:none"
          xml:space="preserve"><tspan
-           y="-2782.772"
-           x="5843.6802"
+           y="502.74072"
+           x="489.68018"
            id="tspan19316"
            sodipodi:role="line">Cancel</tspan></text>
       <path
          style="fill:none;stroke:#2e3436;stroke-width:0.99999994px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 5800.5,-2839.1491 0,21.0335"
+         d="m 446.5,447.32885 0,19.09229"
          id="path19318"
          inkscape:connector-curvature="0"
          inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/drop-down-list-custom-values.png"
@@ -570,7 +543,7 @@
          inkscape:export-ydpi="90" />
       <path
          style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#TriangleOutL)"
-         d="m 5692.5,-2612.1378 30,3e-4 0,-210.0001 33.5382,-3e-4"
+         d="m 338.5,673.3749 30,3e-4 0,-210.0001 33.5382,-3e-4"
          id="path19320"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="cccc"
@@ -581,13 +554,13 @@
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
          inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/drop-down-list-custom-values.png"
-         style="fill:#2e3436;display:inline"
-         transform="translate(5624,-2743.6378)"
+         style="display:inline;fill:#2e3436"
+         transform="translate(282,541.8749)"
          id="g19322">
         <g
            transform="translate(-60,-518)"
            id="g19324"
-           style="fill:#2e3436;display:inline" />
+           style="display:inline;fill:#2e3436" />
         <g
            style="fill:#2e3436"
            transform="translate(-60,-518)"
@@ -603,12 +576,12 @@
           <g
              transform="translate(19,-242)"
              id="g19332"
-             style="fill:#2e3436;display:inline">
+             style="display:inline;fill:#2e3436">
             <path
                inkscape:connector-curvature="0"
                d="m 45,764 1,0 c 0.01037,-1.2e-4 0.02079,-4.6e-4 0.03125,0 0.254951,0.0112 0.50987,0.12858 0.6875,0.3125 L 49,766.59375 51.3125,764.3125 C 51.578125,764.082 51.759172,764.007 52,764 l 1,0 0,1 c 0,0.28647 -0.03434,0.55065 -0.25,0.75 l -2.28125,2.28125 2.25,2.25 C 52.906938,770.46942 52.999992,770.7347 53,771 l 0,1 -1,0 c -0.265301,-10e-6 -0.530586,-0.0931 -0.71875,-0.28125 L 49,769.4375 46.71875,771.71875 C 46.530586,771.90694 46.26529,772 46,772 l -1,0 0,-1 c -3e-6,-0.26529 0.09306,-0.53058 0.28125,-0.71875 l 2.28125,-2.25 L 45.28125,765.75 C 45.070508,765.55537 44.97809,765.28075 45,765 l 0,-1 z"
                id="path19334"
-               style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#bebebe;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.78124988;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Andale Mono;-inkscape-font-specification:Andale Mono" />
+               style="color:#bebebe;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:'Andale Mono';-inkscape-font-specification:'Andale Mono';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.78124988;marker:none;enable-background:new" />
           </g>
         </g>
         <g
@@ -626,13 +599,13 @@
       </g>
       <g
          id="g19342"
-         transform="translate(5624,-2704.6378)"
-         style="fill:#2e3436;display:inline"
+         transform="translate(282,580.8749)"
+         style="display:inline;fill:#2e3436"
          inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/drop-down-list-custom-values.png"
          inkscape:export-xdpi="90"
          inkscape:export-ydpi="90">
         <g
-           style="fill:#2e3436;display:inline"
+           style="display:inline;fill:#2e3436"
            id="g19344"
            transform="translate(-60,-518)" />
         <g
@@ -648,11 +621,11 @@
            transform="translate(-60,-518)"
            style="fill:#2e3436">
           <g
-             style="fill:#2e3436;display:inline"
+             style="display:inline;fill:#2e3436"
              id="g19352"
              transform="translate(19,-242)">
             <path
-               style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#bebebe;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.78124988;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Andale Mono;-inkscape-font-specification:Andale Mono"
+               style="color:#bebebe;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:'Andale Mono';-inkscape-font-specification:'Andale Mono';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.78124988;marker:none;enable-background:new"
                id="path19354"
                d="m 45,764 1,0 c 0.01037,-1.2e-4 0.02079,-4.6e-4 0.03125,0 0.254951,0.0112 0.50987,0.12858 0.6875,0.3125 L 49,766.59375 51.3125,764.3125 C 51.578125,764.082 51.759172,764.007 52,764 l 1,0 0,1 c 0,0.28647 -0.03434,0.55065 -0.25,0.75 l -2.28125,2.28125 2.25,2.25 C 52.906938,770.46942 52.999992,770.7347 53,771 l 0,1 -1,0 c -0.265301,-10e-6 -0.530586,-0.0931 -0.71875,-0.28125 L 49,769.4375 46.71875,771.71875 C 46.530586,771.90694 46.26529,772 46,772 l -1,0 0,-1 c -3e-6,-0.26529 0.09306,-0.53058 0.28125,-0.71875 l 2.28125,-2.25 L 45.28125,765.75 C 45.070508,765.55537 44.97809,765.28075 45,765 l 0,-1 z"
                inkscape:connector-curvature="0" />
@@ -675,13 +648,13 @@
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
          inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/drop-down-list-custom-values.png"
-         style="fill:#2e3436;display:inline"
-         transform="translate(5624,-2665.6378)"
+         style="display:inline;fill:#2e3436"
+         transform="translate(282,619.8749)"
          id="g19362">
         <g
            transform="translate(-60,-518)"
            id="g19364"
-           style="fill:#2e3436;display:inline" />
+           style="display:inline;fill:#2e3436" />
         <g
            style="fill:#2e3436"
            transform="translate(-60,-518)"
@@ -697,12 +670,12 @@
           <g
              transform="translate(19,-242)"
              id="g19372"
-             style="fill:#2e3436;display:inline">
+             style="display:inline;fill:#2e3436">
             <path
                inkscape:connector-curvature="0"
                d="m 45,764 1,0 c 0.01037,-1.2e-4 0.02079,-4.6e-4 0.03125,0 0.254951,0.0112 0.50987,0.12858 0.6875,0.3125 L 49,766.59375 51.3125,764.3125 C 51.578125,764.082 51.759172,764.007 52,764 l 1,0 0,1 c 0,0.28647 -0.03434,0.55065 -0.25,0.75 l -2.28125,2.28125 2.25,2.25 C 52.906938,770.46942 52.999992,770.7347 53,771 l 0,1 -1,0 c -0.265301,-10e-6 -0.530586,-0.0931 -0.71875,-0.28125 L 49,769.4375 46.71875,771.71875 C 46.530586,771.90694 46.26529,772 46,772 l -1,0 0,-1 c -3e-6,-0.26529 0.09306,-0.53058 0.28125,-0.71875 l 2.28125,-2.25 L 45.28125,765.75 C 45.070508,765.55537 44.97809,765.28075 45,765 l 0,-1 z"
                id="path19374"
-               style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#bebebe;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.78124988;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Andale Mono;-inkscape-font-specification:Andale Mono" />
+               style="color:#bebebe;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:'Andale Mono';-inkscape-font-specification:'Andale Mono';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.78124988;marker:none;enable-background:new" />
           </g>
         </g>
         <g

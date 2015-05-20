@@ -13,7 +13,7 @@
    height="280"
    id="svg11709"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="spin-boxes.svg">
   <defs
      id="defs11711">
@@ -57,18 +57,18 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.9997383"
-     inkscape:cx="112.93841"
-     inkscape:cy="284.91088"
+     inkscape:zoom="1.4138435"
+     inkscape:cx="26.187136"
+     inkscape:cy="191.40116"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:showpageshadow="false"
-     inkscape:window-width="1410"
-     inkscape:window-height="874"
-     inkscape:window-x="234"
-     inkscape:window-y="144"
-     inkscape:window-maximized="0" />
+     inkscape:window-width="1920"
+     inkscape:window-height="1136"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata11714">
     <rdf:RDF>
@@ -77,7 +77,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -466,7 +466,7 @@
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
        inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/spin-boxes.png"
-       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="color:#000000;fill:#dbdbdb;fill-opacity:1;fill-rule:nonzero;stroke:#919191;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect14649"
        width="125"
        height="2.9999974"
@@ -486,19 +486,19 @@
        height="3"
        width="60.750004"
        id="rect14651"
-       style="color:#bebebe;fill:#729fcf;stroke:#3465a4;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter12000-4-9-2);enable-background:new" />
+       style="color:#bebebe;fill:#4a90d9;stroke:#1c5288;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter12000-4-9-2);enable-background:new;fill-opacity:1" />
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
        inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/spin-boxes.png"
        sodipodi:type="arc"
-       style="color:#000000;fill:#eeeeec;fill-opacity:1;fill-rule:nonzero;stroke:#888a85;stroke-width:0.86724788;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="color:#000000;fill:#eaeaea;fill-opacity:1;fill-rule:nonzero;stroke:#919191;stroke-width:0.86724788;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="path14653"
        sodipodi:cx="312.375"
        sodipodi:cy="290.25"
        sodipodi:rx="6.875"
        sodipodi:ry="6.875"
-       d="m 319.25,290.25 a 6.875,6.875 0 1 1 -13.75,0 6.875,6.875 0 1 1 13.75,0 z"
+       d="m 319.25,290.25 a 6.875,6.875 0 0 1 -6.875,6.875 6.875,6.875 0 0 1 -6.875,-6.875 6.875,6.875 0 0 1 6.875,-6.875 6.875,6.875 0 0 1 6.875,6.875 z"
        transform="matrix(1.1530729,0,0,1.1530729,-149.9744,606.2553)" />
     <rect
        transform="scale(1,-1)"
@@ -518,7 +518,7 @@
        inkscape:export-xdpi="90"
        inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/spin-boxes.png"
        transform="matrix(1.1530729,0,0,1.1530729,-149.9744,652.2553)"
-       d="m 319.25,290.25 a 6.875,6.875 0 1 1 -13.75,0 6.875,6.875 0 1 1 13.75,0 z"
+       d="m 319.25,290.25 a 6.875,6.875 0 0 1 -6.875,6.875 6.875,6.875 0 0 1 -6.875,-6.875 6.875,6.875 0 0 1 6.875,-6.875 6.875,6.875 0 0 1 6.875,6.875 z"
        sodipodi:ry="6.875"
        sodipodi:rx="6.875"
        sodipodi:cy="290.25"

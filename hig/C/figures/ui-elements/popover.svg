@@ -13,7 +13,7 @@
    height="280"
    id="svg11709"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="popover.svg">
   <defs
      id="defs11711" />
@@ -25,7 +25,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="252.51905"
+     inkscape:cx="83.51905"
      inkscape:cy="182.96756"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -58,6 +58,6 @@
        inkscape:connector-curvature="0"
        id="path13588"
        d="m 43.5,801.86218 82,0 14,-12 14,12 82,0 c 3.324,0 6,2.676 6,6 l 0,217.00002 c 0,3.324 -2.676,6 -6,6 l -192,0 c -3.324,0 -6,-2.676 -6,-6 l 0,-217.00002 c 0,-3.324 2.6768,-6.0707 6,-6 z"
-       style="fill:#eeeeec;fill-opacity:1;stroke:#babdb6;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1" />
+       style="fill:#f2f2f2;fill-opacity:1;stroke:#babdb6;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1" />
   </g>
 </svg>

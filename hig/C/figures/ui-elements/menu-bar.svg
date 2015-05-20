@@ -13,43 +13,10 @@
    height="280"
    id="svg11709"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="menu-bar.svg">
   <defs
-     id="defs11711">
-    <inkscape:path-effect
-       is_visible="true"
-       id="path-effect8047"
-       effect="spiro" />
-    <inkscape:path-effect
-       effect="spiro"
-       id="path-effect8044"
-       is_visible="true" />
-    <inkscape:path-effect
-       effect="spiro"
-       id="path-effect8124"
-       is_visible="true" />
-    <inkscape:path-effect
-       is_visible="true"
-       id="path-effect8126"
-       effect="spiro" />
-    <inkscape:path-effect
-       effect="spiro"
-       id="path-effect38831"
-       is_visible="true" />
-    <inkscape:path-effect
-       is_visible="true"
-       id="path-effect38833"
-       effect="spiro" />
-    <inkscape:path-effect
-       is_visible="true"
-       id="path-effect38835"
-       effect="spiro" />
-    <inkscape:path-effect
-       effect="spiro"
-       id="path-effect38837"
-       is_visible="true" />
-  </defs>
+     id="defs11711" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -58,7 +25,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.9997383"
-     inkscape:cx="271.98003"
+     inkscape:cx="102.93579"
      inkscape:cy="184.88471"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -77,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -102,7 +69,7 @@
        height="80"
        width="239"
        id="rect16260"
-       style="color:#000000;fill:#ededed;fill-opacity:1;fill-rule:nonzero;stroke:#babdb6;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="color:#000000;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:#babdb6;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/menu-bar.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />

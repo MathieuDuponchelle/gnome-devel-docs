@@ -13,43 +13,10 @@
    height="280"
    id="svg11709"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="progress-bars.svg">
   <defs
-     id="defs11711">
-    <inkscape:path-effect
-       is_visible="true"
-       id="path-effect8047"
-       effect="spiro" />
-    <inkscape:path-effect
-       effect="spiro"
-       id="path-effect8044"
-       is_visible="true" />
-    <inkscape:path-effect
-       effect="spiro"
-       id="path-effect8124"
-       is_visible="true" />
-    <inkscape:path-effect
-       is_visible="true"
-       id="path-effect8126"
-       effect="spiro" />
-    <inkscape:path-effect
-       effect="spiro"
-       id="path-effect38831"
-       is_visible="true" />
-    <inkscape:path-effect
-       is_visible="true"
-       id="path-effect38833"
-       effect="spiro" />
-    <inkscape:path-effect
-       is_visible="true"
-       id="path-effect38835"
-       effect="spiro" />
-    <inkscape:path-effect
-       effect="spiro"
-       id="path-effect38837"
-       is_visible="true" />
-  </defs>
+     id="defs11711" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -58,14 +25,14 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="125.18413"
-     inkscape:cy="222.85046"
+     inkscape:cx="129.88544"
+     inkscape:cy="127.0891"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:showpageshadow="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1133"
+     inkscape:window-height="1136"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1" />
@@ -87,7 +54,7 @@
      id="layer1"
      transform="translate(0,-772.36218)">
     <rect
-       style="color:#000000;fill:#d2d2d2;fill-opacity:1;fill-rule:nonzero;stroke:#a1a1a1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
+       style="color:#000000;fill:#dbdbdb;fill-opacity:1;fill-rule:nonzero;stroke:#919191;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
        id="rect16720"
        width="239"
        height="5"
@@ -103,7 +70,7 @@
        inkscape:connector-curvature="0"
        id="path16722"
        d="m 22.5,950.86219 93,0 c 0.483,0 1,0.5014 1,1 l 0,3 c 0,0.5198 -0.5014,1 -1,1 l -93,0 c -1.108,0 -2,-0.892 -2,-2 l 0,-1 c 0,-1.108 0.892,-2 2,-2 z"
-       style="color:#000000;fill:#5094da;fill-opacity:1;fill-rule:nonzero;stroke:#184472;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new" />
+       style="color:#000000;fill:#4a90d9;fill-opacity:1;fill-rule:nonzero;stroke:#1c5288;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new" />
     <text
        xml:space="preserve"
        style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#888a85;fill-opacity:1;stroke:none;font-family:Cantarell;-inkscape-font-specification:Cantarell"

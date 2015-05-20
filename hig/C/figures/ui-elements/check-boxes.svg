@@ -7,13 +7,14 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="280"
    height="280"
    id="svg11709"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="check-boxes.svg">
   <defs
      id="defs11711" />
@@ -24,18 +25,26 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.9997383"
-     inkscape:cx="112.93841"
-     inkscape:cy="124.869"
+     inkscape:zoom="1"
+     inkscape:cx="88.30669"
+     inkscape:cy="98.992913"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:showpageshadow="false"
-     inkscape:window-width="1410"
-     inkscape:window-height="874"
-     inkscape:window-x="234"
-     inkscape:window-y="144"
-     inkscape:window-maximized="0" />
+     inkscape:window-width="1920"
+     inkscape:window-height="1136"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-nodes="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid7252" />
+  </sodipodi:namedview>
   <metadata
      id="metadata11714">
     <rdf:RDF>
@@ -44,7 +53,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -57,77 +66,44 @@
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
        inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/check-boxes.png"
-       style="fill:#eeeeec;stroke:#888a85;display:inline"
-       id="g14381"
-       transform="matrix(0.5089163,0,0,0.51739823,56.7997,868.9241)">
-      <g
-         id="g14383"
-         style="fill:#eeeeec;stroke:#888a85">
-        <rect
-           ry="5.7982421"
-           style="color:#000000;fill:#eeeeec;fill-opacity:1;stroke:#888a85;stroke-width:1.94878697;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-           id="rect14385"
-           width="29.5"
-           height="29"
-           x="50.5"
-           y="125.5"
-           rx="5.8948789" />
-      </g>
-    </g>
-    <g
-       inkscape:export-ydpi="90"
-       inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/check-boxes.png"
-       style="fill:#eeeeec;fill-opacity:1;stroke:#888a85;display:inline"
+       style="display:inline;fill:#e4e4e4;fill-opacity:1;stroke:#a1a1a1;stroke-width:1.07188046;stroke-opacity:1"
        id="g14387"
-       transform="matrix(0.5089163,0,0,0.51739823,56.7997,812.9241)">
+       transform="matrix(0.47469792,0,0,0.48279337,59.528376,817.26636)">
       <g
          id="g14389"
-         style="fill:#eeeeec;fill-opacity:1;stroke:#888a85">
+         style="fill:#e4e4e4;fill-opacity:1;stroke:#a1a1a1;stroke-width:1.07188046;stroke-opacity:1">
         <rect
-           ry="5.7982421"
-           style="color:#000000;fill:#eeeeec;fill-opacity:1;stroke:#888a85;stroke-width:1.94878697;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           ry="6.2138391"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#e4e4e4;fill-opacity:1;stroke:#a1a1a1;stroke-width:2.08886647;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
            id="rect14391"
            width="29.5"
            height="29"
            x="50.5"
            y="125.5"
-           rx="5.8948789" />
+           rx="6.3198085" />
       </g>
     </g>
-    <path
-       inkscape:export-ydpi="90"
-       inkscape:export-xdpi="90"
+    <g
+       transform="matrix(0.47469792,0,0,0.48279337,59.528376,845.27134)"
+       id="g7261"
+       style="display:inline;fill:#e4e4e4;fill-opacity:1;stroke:#a1a1a1;stroke-width:1.07188046;stroke-opacity:1"
        inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/check-boxes.png"
-       style="fill:none;stroke:#3465a4;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
-       d="m 87.0065,884.3599 3,3 8,-8"
-       id="path14393"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccc" />
-    <rect
-       inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/check-boxes.png"
-       ry="3.0000002"
-       style="color:#000000;fill:#eeeeec;fill-opacity:1;stroke:#888a85;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="rect14395"
-       width="15.013031"
-       height="15.004549"
-       x="82.500244"
-       y="905.85767"
-       rx="3" />
-    <rect
-       inkscape:export-ydpi="90"
-       inkscape:export-xdpi="90"
-       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/check-boxes.png"
-       style="color:#000000;fill:#588dc6;fill-opacity:1;stroke:#3465a4;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="rect14397"
-       width="9"
-       height="3"
-       x="85.506592"
-       y="911.85986"
-       rx="1.5"
-       ry="1.5" />
+       inkscape:export-ydpi="90">
+      <g
+         style="fill:#e4e4e4;fill-opacity:1;stroke:#a1a1a1;stroke-width:1.07188046;stroke-opacity:1"
+         id="g7263">
+        <rect
+           rx="6.3198085"
+           y="125.5"
+           x="50.5"
+           height="29"
+           width="29.5"
+           id="rect7265"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#e4e4e4;fill-opacity:1;stroke:#a1a1a1;stroke-width:2.08886647;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+           ry="6.2138391" />
+      </g>
+    </g>
     <text
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
@@ -170,5 +146,94 @@
          x="111.73901"
          id="tspan14413"
          sodipodi:role="line">Property 3</tspan></text>
+    <use
+       transform="translate(65.982094,846.99999)"
+       style="display:inline"
+       x="0"
+       y="0"
+       xlink:href="#g5400"
+       id="use7080"
+       width="1"
+       height="1" />
+    <rect
+       y="877.36218"
+       x="83.014137"
+       height="15.999999"
+       width="15.967987"
+       id="rect7082"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:2;marker:none;enable-background:accumulate" />
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#2e3436;fill-opacity:1;stroke:none;stroke-width:3;marker:none;enable-background:accumulate"
+       d="m 96.927885,878.40792 -6.956724,6.83005 -1.86536,-1.8691 -2.130958,-0.0156 0.01118,1.69626 2.926733,2.93261 c 0.584627,0.58556 1.532228,0.58556 2.116855,0 l 7.968395,-8.0625 0.002,-1.56778 z"
+       id="path7088"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccc" />
+    <use
+       transform="translate(32.302015,845.88739)"
+       style="display:inline"
+       x="0"
+       y="0"
+       xlink:href="#g5400"
+       id="use7092"
+       width="1"
+       height="1" />
+    <rect
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
+       id="rect7094"
+       width="16"
+       height="16"
+       x="49.297745"
+       y="876.24957" />
+    <rect
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.5;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.99191427;marker:none;enable-background:accumulate"
+       id="rect7098"
+       width="9"
+       height="2.9687538"
+       x="52.302017"
+       y="883.28076"
+       rx="1.4843769"
+       ry="1.4843769" />
+    <rect
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#2e3436;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.99191427;marker:none;enable-background:accumulate"
+       id="rect7100"
+       width="9"
+       height="2.9687538"
+       x="86.002419"
+       y="911.37805"
+       rx="1.4843769"
+       ry="1.4843769" />
+    <g
+       style="display:inline"
+       id="g7104"
+       transform="matrix(0.92951982,0,0,0.92914368,-164.44867,632.92559)">
+      <g
+         transform="matrix(0.5089163,0,0,0.51739823,161.7932,197.56426)"
+         id="g7106"
+         style="display:inline">
+        <g
+           id="g7108" />
+      </g>
+    </g>
+    <g
+       transform="matrix(0.47469792,0,0,0.48279337,59.528376,873.26711)"
+       id="g7341"
+       style="display:inline;fill:#e4e4e4;fill-opacity:1;stroke:#a1a1a1;stroke-width:1.07188046;stroke-opacity:1"
+       inkscape:export-filename="/home/aday/checkout/gnome-devel-docs/hig3/C/figures/check-boxes.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         style="fill:#e4e4e4;fill-opacity:1;stroke:#a1a1a1;stroke-width:1.07188046;stroke-opacity:1"
+         id="g7343">
+        <rect
+           rx="6.3198085"
+           y="125.5"
+           x="50.5"
+           height="29"
+           width="29.5"
+           id="rect7345"
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#e4e4e4;fill-opacity:1;stroke:#a1a1a1;stroke-width:2.08886647;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+           ry="6.2138391" />
+      </g>
+    </g>
   </g>
 </svg>

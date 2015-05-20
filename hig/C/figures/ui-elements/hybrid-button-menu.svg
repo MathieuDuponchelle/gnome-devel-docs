@@ -13,8 +13,8 @@
    height="280"
    id="svg11709"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="popover-with-buttons.svg">
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="hybrid-button-menu.svg">
   <defs
      id="defs11711" />
   <sodipodi:namedview
@@ -24,18 +24,18 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2"
-     inkscape:cx="128.47291"
-     inkscape:cy="126.13398"
+     inkscape:zoom="1"
+     inkscape:cx="108.47291"
+     inkscape:cy="145.63398"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:showpageshadow="false"
-     inkscape:window-width="1410"
-     inkscape:window-height="874"
-     inkscape:window-x="234"
-     inkscape:window-y="144"
-     inkscape:window-maximized="0" />
+     inkscape:window-width="1920"
+     inkscape:window-height="1136"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata11714">
     <rdf:RDF>
@@ -44,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -58,9 +58,9 @@
        inkscape:connector-curvature="0"
        id="path13588"
        d="m 43.5,801.8622 82,0 14,-12 14,12 82,0 c 3.324,0 6,2.676 6,6 l 0,217 c 0,3.324 -2.676,6 -6,6 l -192,0 c -3.324,0 -6,-2.676 -6,-6 l 0,-217 c 0,-3.324 2.6768,-6.0707 6,-6 z"
-       style="fill:#eeeeec;fill-opacity:1;stroke:#babdb6;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1" />
+       style="fill:#f2f2f2;fill-opacity:1;stroke:#babdb6;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1" />
     <rect
-       style="color:#000000;fill:#d3d7cf;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="color:#000000;fill:#eaeaea;fill-opacity:1;fill-rule:nonzero;stroke:#a7a7a7;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect13590"
        width="177"
        height="33"
@@ -408,7 +408,7 @@
          transform="translate(-261.0002,-317)" />
     </g>
     <path
-       style="fill:none;stroke:#babdb6;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:none;stroke:#dbdbdb;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        d="m 50.6025,931.8623 176.9117,0"
        id="path13724"
        inkscape:connector-curvature="0" />
@@ -416,7 +416,7 @@
        inkscape:connector-curvature="0"
        id="path13726"
        d="m 50.6908,862.8622 176.9117,0"
-       style="fill:none;stroke:#babdb6;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="fill:none;stroke:#dbdbdb;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <g
        style="fill:#2e3436"
        transform="translate(72.0001,825.349)"
