@@ -9,6 +9,7 @@ HELP_EXTRA = \
 
 HELP_FILES = \
 	additional-materials.page \
+	api-stability.page \
 	c-coding-style.page \
 	databases.page \
 	documentation.page \

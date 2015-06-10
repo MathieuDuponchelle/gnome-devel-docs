@@ -61,7 +61,8 @@
 
     <p>
       Libraries have two version numbers: a libtool version which tracks ABI
-      backwards compatibility, and a package version which tracks feature
+      backwards compatibility (see <link xref="api-stability"/>), and a package
+      version which tracks feature
       changes. These are normally incremented in synchronization, but should be
       kept separate because ABI backwards compatibility is not necessarily
       related to feature changes or bug fixes. Furthermore, the two version
@@ -115,8 +116,8 @@ AC_SUBST([LT_VERSION],[0:0:0])</code>
     </p>
     <steps>
       <item><p>
-        If breaking API compatibility, increment major and set minor and micro
-        to 0.
+        If breaking <link xref="api-stability">API compatibility</link>,
+        increment major and set minor and micro to 0.
       </p></item>
       <item><p>
         Otherwise, if adding a large feature or other big change, or adding any

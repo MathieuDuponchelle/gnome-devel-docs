@@ -213,8 +213,9 @@
 
     <p>
       Minor releases (typically where API is added but <em>not</em> changed or
-      removed) and micro releases (typically bug fixes) do not affect API
-      backwards compatibility so do not require moving all the files.
+      removed) and micro releases (typically bug fixes) do not affect
+      <link xref="api-stability">API backwards compatibility</link> so do not
+      require moving all the files.
     </p>
 
     <p>
@@ -436,7 +437,8 @@ EXTRA_DIST += lib<var>library</var>/<var>library</var>.pc.in</code>
 
     <p>
       From a user standpoint, the best approach to configuration files is to
-      keep the format both forward and backward compatible (both library
+      keep the format both <link xref="api-stability">forward and backward
+      compatible</link> (both library
       versions understand exactly the same configuration file syntax and
       semantics). Then the same configuration file can be used for all versions
       of the library, and no versioning is needed on the configuration file

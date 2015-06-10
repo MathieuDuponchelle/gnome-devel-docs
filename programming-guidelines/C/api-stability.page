@@ -1,0 +1,199 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic"
+      id="api-stability">
+
+  <info>
+    <link type="guide" xref="index#maintainer-guidelines"/>
+
+    <credit type="author copyright">
+      <name>Philip Withnall</name>
+      <email its:translate="no">philip.withnall@collabora.co.uk</email>
+      <years>2015</years>
+    </credit>
+
+    <include href="cc-by-sa-3-0.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc>Backwards compatibility in APIs</desc>
+  </info>
+
+  <title>API stability</title>
+
+  <synopsis>
+    <title>Summary</title>
+
+    <list>
+      <item><p>
+        Define API stability guarantees for your project.
+        (<link xref="#stability"/>)
+      </p></item>
+      <item><p>
+        Ensure version numbers are changed as appropriate when API changes.
+        (<link xref="#versioning"/>)
+      </p></item>
+    </list>
+  </synopsis>
+
+  <section id="api-and-abi">
+    <title>API and ABI</title>
+
+    <p>
+      At a high level, an API – <em>Application Programming Interface</em> – is
+      the boundary between two components when developing against them. It is
+      closely related to an ABI – <em>Application Binary Interface</em> – which
+      is the boundary at runtime. It defines the possible ways in which other
+      components can interact with a component. More concretely, this normally
+      means the C headers of a library form its API, and compiled library
+      symbols its ABI. The difference between an API and ABI is given by
+      compilation of the code: there are certain things in a C header, such as
+      <code>#define</code>s, which can cause a library's API to change without
+      changing its ABI. But these differences are mostly academic, and for all
+      practical purposes, API and ABI can be treated interchangeably.
+    </p>
+
+    <p>
+      Examples of API-incompatible changes to a C function would be to add a
+      new parameter, change the function's return type, or remove a parameter.
+    </p>
+
+    <p>
+      However, many other parts of a project can form an API. If a daemon
+      exposes itself on D-Bus, the interfaces exported there form an API.
+      Similarly, if a C API is exposed in higher level languages by use of
+      GIR, the GIR file forms another API — if it changes, any higher level
+      code using it must also change.
+    </p>
+
+    <p>
+      Other examples of more unusual APIs are configuration file locations and
+      formats, and GSettings schemas. Any changes to these could require code
+      using your library to change.
+    </p>
+  </section>
+
+  <section id="stability">
+    <title>Stability</title>
+
+    <p>
+      API stability refers to some level of guarantee from a project that its
+      API will only change in defined ways in the future, or will not change at
+      all. Generally, an API is considered ‘stable’ if it commits to
+      backwards-compatibility (defined below); but APIs could also commit to
+      being unstable or even forwards-compatible. The purpose of API stability
+      guarantees is to allow people to use your project from their own code
+      without worrying about constantly updating their code to keep up with
+      API changes. Typical API stability guarantees mean that code which is
+      compiled against one version of a library will run without problems
+      against all future versions of that library with the same minor version
+      number — or similarly that code which runs against a daemon will
+      continue to run against all future versions of that daemon with the same
+      minor version number.
+    </p>
+
+    <p>
+      It is possible to apply different levels of API stability to components
+      within a project. For example, the core functions in a library could be
+      stable, and hence their API left unchanged in future; while the newer,
+      less core functions could be left unstable and allowed to change wildly
+      until the right design is found, at which point they could be marked as
+      stable.
+    </p>
+
+    <p>
+      Several types of stability commonly considered:
+    </p>
+    <terms>
+      <item>
+        <title>Unstable</title>
+        <p>The API could change or be removed in future.</p>
+      </item>
+      <item>
+        <title>Backwards compatible</title>
+        <p>
+          Only changes which permit code compiled against the unmodified API
+          to continue running against the modified API are allowed (for
+          example, functions cannot be removed).
+        </p>
+      </item>
+      <item>
+        <title>Forwards compatible</title>
+        <p>
+          Only changes which permit code compiled against the modified API to
+          run against the unmodified API are allowed (for example, functions
+          cannot be added).
+        </p>
+      </item>
+      <item>
+        <title>Totally stable</title>
+        <p>No changes are allowed to the API, only to the implementation.</p>
+      </item>
+    </terms>
+
+    <p>
+      Typically, projects commit to backwards-compatibility when they say an
+      API is ‘stable’. Very few projects commit to total stability because it
+      would prevent almost all further development of the project.
+    </p>
+  </section>
+
+  <section id="versioning">
+    <title>Versioning</title>
+
+    <p>
+      API stability guarantees are strongly linked to project versioning; both
+      package versioning and libtool versioning. Libtool versioning exists
+      entirely for the purpose of tracking ABI stability, and is explained in
+      detail on the
+      <link href="https://autotools.io/libtool/version.html">Autotools
+      Mythbuster</link> or <link xref="versioning"/>.
+    </p>
+
+    <p>
+      Package versioning (<em>major.minor.micro</em>) is strongly linked to API
+      stability: typically, the major version number is incremented when
+      backwards-incompatible changes are made (for example, when functions are
+      renamed, parameters are changed, or functions are removed). The minor
+      version number is incremented when forwards-incompatible changes are
+      made (for example, when new public API is added). The micro version
+      number is incremented when code changes are made without modifying API.
+      See <link xref="versioning"/> for more information.
+    </p>
+
+    <p>
+      API versioning is just as important for D-Bus APIs and GSettings schemas
+      (if they are likely to change) as for C APIs. See the
+      <link href="http://dbus.freedesktop.org/doc/dbus-api-design.html#api-versioning">documentation
+      on D-Bus API versioning</link> for details.
+    </p>
+
+    <p>
+      For GIR APIs, their stability typically follows the C API stability, as
+      they are generated from the C API. One complexity is that their stability
+      additionally depends on the version of gobject-introspection used in
+      generating the GIR, but recent versions have not changed much so this is
+      not a major concern.
+    </p>
+  </section>
+
+  <section id="external-links">
+    <title>External Links</title>
+
+    <p>
+      The topic of API stability is covered in the following articles:
+    </p>
+    <list>
+      <item><p>
+        <link href="http://en.wikipedia.org/wiki/Application_programming_interface">Wikipedia
+        page on APIs</link>
+      </p></item>
+      <item><p>
+        <link href="http://en.wikipedia.org/wiki/Application_binary_interface">Wikipedia
+        page on ABIs</link>
+      </p></item>
+      <item><p>
+        <link href="http://dbus.freedesktop.org/doc/dbus-api-design.html#api-versioning">D-Bus
+        API versioning documentation</link>
+      </p></item>
+    </list>
+  </section>
+</page>
