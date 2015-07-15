@@ -42,6 +42,8 @@
 <section id="unicode">
 <title>Take Advantage of Unicode</title>
 
+<p>Unicode provides a wide variety of characters which, when used correctly, can dramatically improve the impression given by your application. The following Unicode characters are recommended:</p>
+
 <table>
 <thead>
 <tr>
