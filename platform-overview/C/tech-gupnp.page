@@ -1,14 +1,24 @@
 <page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
       type="topic"
       id="tech-gupnp">
-<info>
-  <link type="guide" xref="tech" group="gupnp"/>
-  <desc>Wireless, peer-to-peer, plug-and-play RPC</desc>
-  <revision pkgversion="1.0" date="2011-05-17" status="candidate"/>
-</info>
+
+  <info>
+    <link type="guide" xref="tech" group="gupnp"/>
+    <revision pkgversion="1.0" date="2011-05-17" status="candidate"/>
+
+    <credit type="author copyright">
+      <name>Zeeshan Ali (Khattak)</name>
+      <email its:translate="no">zeeshanak@gnome.org</email>
+      <years>2011</years>
+    </credit>
+
+    <include href="cc-by-sa-3-0.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc>Wireless, peer-to-peer, plug-and-play RPC</desc>
+  </info>
 
 <title>GUPnP</title>
-
 
   <p>
     Many "consumer electronics" devices that can make use of a house's local
