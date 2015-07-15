@@ -1,10 +1,20 @@
 <page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
       type="topic"
       id="tech-gobject">
-<info>
-  <link type="guide" xref="tech" group="gobject"/>
-  <desc>C-based object and type system with signals and slots</desc>
-</info>
+  <info>
+    <link type="guide" xref="tech" group="gobject"/>
+
+    <credit type="author copyright">
+      <name>Federico Mena Quintero</name>
+      <email its:translate="no">federico@gnome.org</email>
+      <years>2013</years>
+    </credit>
+
+    <include href="cc-by-sa-3-0.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc>C-based object and type system with signals and slots</desc>
+  </info>
 
 <title>GObject</title>
 

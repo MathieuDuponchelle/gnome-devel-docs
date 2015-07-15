@@ -1,10 +1,21 @@
 <page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
       type="topic"
       id="tech-canberra">
-<info>
-  <link type="guide" xref="tech" group="canberra"/>
-  <desc>Simple audio API for notifications and events</desc>
-  <revision pkgversion="3.0" date="2011-04-05" status="incomplete"/>
+
+  <info>
+    <link type="guide" xref="tech" group="canberra"/>
+    <revision pkgversion="3.0" date="2011-04-05" status="incomplete"/>
+
+    <credit type="author copyright">
+      <name>Federico Mena Quintero</name>
+      <email its:translate="no">federico@gnome.org</email>
+      <years>2013</years>
+    </credit>
+
+    <include href="cc-by-sa-3-0.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc>Simple audio API for notifications and events</desc>
 </info>
 
 <title>Canberra</title>

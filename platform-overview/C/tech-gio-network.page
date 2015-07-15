@@ -1,11 +1,22 @@
 <page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
       type="topic"
       id="tech-gio-network">
-<info>
-  <link type="guide" xref="tech" group="gio-network"/>
-  <desc>Networking and sockets API with streams</desc>
-  <revision pkgversion="3.0" date="2011-04-05" status="review"/>
-</info>
+
+  <info>
+    <link type="guide" xref="tech" group="gio-network"/>
+    <revision pkgversion="3.0" date="2011-04-05" status="review"/>
+
+    <credit type="author copyright">
+      <name>Federico Mena Quintero</name>
+      <email its:translate="no">federico@gnome.org</email>
+      <years>2013</years>
+    </credit>
+
+    <include href="cc-by-sa-3-0.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc>Networking and sockets API with streams</desc>
+  </info>
 
 <title>GIO Networking</title>
 
