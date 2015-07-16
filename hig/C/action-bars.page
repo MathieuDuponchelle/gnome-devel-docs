@@ -36,4 +36,11 @@
 
 </section>
 
+<section id="api-reference">
+<title>API reference</title>
+<list>
+<item><p><link href="https://developer.gnome.org/gtk3/stable/GtkActionBar.html">GtkActionBar</link></p></item>
+</list>
+</section>
+
 </page>

@@ -98,4 +98,12 @@
 </list>
 
 </section>
+
+<section id="api-reference">
+<title>API reference</title>
+<list>
+<item><p><link href="https://developer.gnome.org/gio/stable/GNotification.html">GNotification</link></p></item>
+</list>
+</section>
+
 </page>

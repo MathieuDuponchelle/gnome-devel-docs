@@ -140,4 +140,13 @@
 </list>
 
 </section>
+
+<section id="api-reference">
+<title>API reference</title>
+<list>
+<item><p><link href="https://developer.gnome.org/gtk3/stable/GtkListBox.html">GtkListBox</link></p></item>
+<item><p><link href="https://developer.gnome.org/gtk3/stable/GtkTreeView.html">GtkTreeView</link></p></item>
+</list>
+</section>
+
 </page>

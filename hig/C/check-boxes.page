@@ -48,6 +48,14 @@
 <item><p>Do not place more than about eight check boxes under the same group heading. If you need more than eight, try to use blank space or heading labels to divide them into smaller groups. Otherwise, consider using a check box list instead— but you probably also need to think about how to simplify your user interface.</p></item>
 <item><p>Try to align groups of check boxes vertically rather than horizontally, as this makes them easier to scan visually. Use horizontal or rectangular alignments only if they greatly improve the layout of the window.</p></item>
 </list>
-
 </section>
+
+<section id="api-reference">
+<title>API reference</title>
+
+<list>
+<item><p><link href="https://developer.gnome.org/gtk3/stable/GtkCheckButton.html">GtkCheckButton</link></p></item>
+</list>
+</section>
+
 </page>

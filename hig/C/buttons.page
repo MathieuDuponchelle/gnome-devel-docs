@@ -79,4 +79,15 @@
 <p>Each view should only include a single suggested or destructive button.</p>
 
 </section>
+
+<section id="api-reference">
+<title>API reference</title>
+
+<list>
+<item><p><link href="https://developer.gnome.org/gtk3/stable/GtkButton.html">GtkButton</link></p></item>
+<item><p><link href="https://developer.gnome.org/gtk3/stable/GtkToggleButton.html">GtkToggleButton</link></p></item>
+</list>
+
+</section>
+
 </page>

@@ -67,4 +67,11 @@ In primary windows, the search bar is typically hidden until it is activated by 
 
 </section>
 
+<section id="api-reference">
+<title>API reference</title>
+<list>
+<item><p><link href="https://developer.gnome.org/gtk3/stable/GtkSearchEntry.html">GtkSearchEntry</link></p></item>
+</list>
+</section>
+
 </page>

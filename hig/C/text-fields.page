@@ -58,4 +58,14 @@
 <p>When a user would benefit from additional information in order to use a text entry field, it can be prefilled with a hint text. As with any decision to display additional information, this should only be done when it is necessary.</p>
 
 </section>
+
+<section id="api-reference">
+<title>API reference</title>
+
+<list>
+<item><p><link href="https://developer.gnome.org/gtk3/stable/GtkEntry.html">GtkEntry</link></p></item>
+<item><p><link href="https://developer.gnome.org/gtk3/stable/GtkSearchEntry.html">GtkSearchEntry</link></p></item>
+</list>
+
+</section>
 </page>

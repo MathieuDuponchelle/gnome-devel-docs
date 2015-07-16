@@ -40,4 +40,13 @@
 </list>
 
 </section>
+
+<section id="api-reference">
+<title>API reference</title>
+<list>
+<item><p><link href="https://developer.gnome.org/gtk3/stable/GtkStack.html">GtkStack</link></p></item>
+<item><p><link href="https://developer.gnome.org/gtk3/stable/GtkStackSwitcher.html">GtkStackSwitcher</link></p></item>
+</list>
+</section>
+
 </page>

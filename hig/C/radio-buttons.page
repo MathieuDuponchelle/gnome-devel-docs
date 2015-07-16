@@ -43,4 +43,13 @@
 </list>
 
 </section>
+
+<section id="api-reference">
+<title>API reference</title>
+
+<list>
+<item><p><link href="https://developer.gnome.org/gtk3/stable/GtkRadioButton.html">GtkRadioButton</link></p></item>
+</list>
+
+</section>
 </page>

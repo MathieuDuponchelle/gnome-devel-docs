@@ -164,4 +164,13 @@
 
 </section>
 
+<section id="api-reference">
+<title>API reference</title>
+<list>
+<item><p><link href="https://developer.gnome.org/gtk3/stable/GtkAboutDialog.html">GtkAboutDialog</link></p></item>
+<item><p><link href="https://developer.gnome.org/gtk3/stable/GtkDialog.html">GtkDialog</link></p></item>
+<item><p><link href="https://developer.gnome.org/gtk3/stable/GtkMessageDialog.html">GtkMessageDialog</link></p></item>
+</list>
+</section>
+
 </page>
