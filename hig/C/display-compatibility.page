@@ -1,0 +1,38 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="display-compatibility">
+
+  <info>
+    <credit type="author">
+      <name>Allan Day</name>
+      <email>aday@gnome.org</email>
+    </credit>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+    <desc></desc>  
+  </info>
+
+<title>Display compatibility</title>
+
+<p>GNOME 3 supports a variety of device types, including desktops, laptops and convertibles. This requires that applications be compatible with displays with different sizes ad orientations.</p>
+
+<section id="general">
+<title>General guidelines</title>
+
+<list>
+<item><p>It should be possible for all application windows to fit on the smallest recommended displays for GNOME 3. Currently, this is 1280×720 pixels.</p></item>
+<item><p>Ensure that your application works well in portrait orientation. The minimum recommended dimensions for portrait mode are 768×1366 pixels.</p></item>
+<item><p>All primary windows should be resizable. This ensures that transitions between landscape and portrait mode can be automatically handled by the window manager.</p></item>
+<item><p>Test to make sure that your interface works well on large displays. Where possible, scale content to make the best use of available space, or used fixed width layouts to ensure that interface elements maintain effective grouping and alignment.</p></item>
+</list>
+
+</section>
+
+<section id="half-screen-snap">
+<title>Half-screen snap</title>
+
+<p>GNOME 3 allows windows to be snapped to occupy half the width of a display. This functionality is useful for using windows alongside each other. As the minimum recommended screen size for GNOME 3 is 1280×720 pixels, windows supporting half-screen snap should have a minimum width of no less than 640 pixels.</p>
+
+<p>Since half-screen snap is only useful when windows are used in parallel, applications that are used in isolation do not need to support half-screen snap (a music player is a good example of this).</p>
+
+</section>
+</page>

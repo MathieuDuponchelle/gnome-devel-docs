@@ -63,6 +63,10 @@
 <td><p><link xref="keyboard-input"><em style="strong">Keyboard input</em></link></p></td>
 <td><p>Keyboard navigation, access and shortcut keys.</p></td>
 </tr>
+<tr>
+<td><p><link xref="display-compatibility"><em style="strong">Display compatibility</em></link></p></td>
+<td><p>How to support different device and display types.</p></td>
+</tr>
 </table>
 
 </section>
