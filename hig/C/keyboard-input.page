@@ -374,7 +374,7 @@
 <tr>
 <td><p><gui>Close</gui></p></td>
 <td><p><keyseq><key>Ctrl</key><key>W</key></keyseq></p></td>
-<td><p>Closes the current content item or tab. If there are unsaved changes, present the user with a confirmation alert giving the option to save changes, discard them, or cancel the action without closing or saving the document.</p></td>
+<td><p>Closes the current tab or window. If the window uses tabs and there is only one open, the shortcut should close the window.</p></td>
 </tr>
 </tbody>
 </table>
