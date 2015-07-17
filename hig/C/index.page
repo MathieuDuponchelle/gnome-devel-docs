@@ -41,13 +41,6 @@
 
 </section>
 
-<section id="version">
-<title>Version</title>
-
-<p>This is version 3.14 of the GNOME Human Interface Guidelines, and is compatible with GTK+ and GNOME 3.14.</p>
-
-<!-- In future releases, can insert details of changes here. -->
-
-</section>
+<!-- Could add details of changes to each version here, after branching? -->
 	
 </page>
