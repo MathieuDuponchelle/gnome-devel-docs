@@ -49,6 +49,19 @@
 <item><p>Organizing sets of content into different windows (if using tabs).</p></item>
 </list>
 
+<section id="parent-child-primary-windows">
+<title>Parent/child primary windows</title>
+
+<p>Multiple instance applications typically have identical primary windows (in the case multiple web browser windows, for example). However, this is not always the case.</p>
+
+<p>Primary windows can have a parent/child relationship. In this type of application, there is only ever one parent window. This typically contains an overview of content items which can be opened in the parent window, or in a separate child window. This allows multiple content items to be simultaneously open.</p>
+
+<p>While child windows can only be opened through a parent window, they are not dependent on them in order to stay open: closing the parent window does not result in the closure of the application's child windows.</p>
+
+<p>GNOME's <app>Notes</app> application is a good example of parent/child primary windows.</p>
+
+</section>
+
 </section>
 </section>
 
