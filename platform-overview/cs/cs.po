@@ -6,15 +6,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: user-guide\n"
-"POT-Creation-Date: 2015-02-09 07:39+0000\n"
-"PO-Revision-Date: 2015-02-16 20:41+0100\n"
+"POT-Creation-Date: 2015-07-18 06:59+0000\n"
+"PO-Revision-Date: 2015-07-18 16:15+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Gtranslator 2.91.6\n"
+"X-Generator: Gtranslator 2.91.7\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 #. (itstool) path: p/link
@@ -57,11 +57,18 @@ msgstr "Radina Matic"
 #: C/dev-translate.page:14 C/dev-translate-setup.page:13
 #: C/dev-translate-tools.page:12 C/overview-io.page:17
 #: C/overview-media.page:12 C/overview-net.page:12 C/overview-settings.page:12
-#: C/overview-ui.page:12 C/tour-application.page:13 C/tour-application.page:18
-#: C/tour-events.page:13 C/tour-events.page:18 C/tour-get_object.page:13
-#: C/tour-get_object.page:18 C/tour-gjs.page:13 C/tour-gjs.page:18
-#: C/tour-glade.page:13 C/tour-glade.page:18 C/tour.page:14 C/tour.page:19
-#: C/tour-summary.page:12 C/tour-summary.page:17
+#: C/overview-ui.page:12 C/tech-avahi.page:12 C/tech-canberra.page:13
+#: C/tech-champlain.page:12 C/tech-enchant.page:12 C/tech-folks.page:12
+#: C/tech-gda.page:13 C/tech-geoclue2.page:12 C/tech-geocode-glib.page:12
+#: C/tech-gio-network.page:13 C/tech-gio.page:18 C/tech-glib.page:12
+#: C/tech-gobject.page:11 C/tech-gsettings.page:13
+#: C/tech-network-manager.page:12 C/tech-notify.page:18 C/tech-polkit.page:12
+#: C/tech-poppler.page:12 C/tech-soup.page:12 C/tech-telepathy.page:18
+#: C/tech-tracker.page:12 C/tech-webkit.page:18 C/tour-application.page:13
+#: C/tour-application.page:18 C/tour-events.page:13 C/tour-events.page:18
+#: C/tour-get_object.page:13 C/tour-get_object.page:18 C/tour-gjs.page:13
+#: C/tour-gjs.page:18 C/tour-glade.page:13 C/tour-glade.page:18 C/tour.page:14
+#: C/tour.page:19 C/tour-summary.page:12 C/tour-summary.page:17
 msgid "2013"
 msgstr "2013"
 
@@ -1180,7 +1187,12 @@ msgstr ""
 "<app>Pootle</app>."
 
 #. (itstool) path: credit/name
-#: C/index.page:12
+#: C/index.page:12 C/tech-atk.page:12 C/tech-cairo.page:11
+#: C/tech-clutter.page:11 C/tech-d-bus.page:11 C/tech-eds.page:11
+#: C/tech-gdk.page:11 C/tech-gio.page:11 C/tech-gstreamer.page:11
+#: C/tech-gtk.page:11 C/tech-help.page:11 C/tech-notify.page:11
+#: C/tech-packagekit.page:10 C/tech-pango.page:11 C/tech-pulseaudio.page:10
+#: C/tech-secret.page:11 C/tech-telepathy.page:11 C/tech-webkit.page:11
 msgid "Shaun McCance"
 msgstr "Shaun McCance"
 
@@ -1217,7 +1229,9 @@ msgid "Germán Póo-Caamaño"
 msgstr "Germán Póo-Caamaño"
 
 #. (itstool) path: credit/years
-#: C/index.page:29
+#: C/index.page:29 C/tech-gio.page:13 C/tech-gupnp.page:13
+#: C/tech-notify.page:13 C/tech-pulseaudio.page:12 C/tech-secret.page:13
+#: C/tech-webkit.page:13
 msgid "2011"
 msgstr "2011"
 
@@ -2343,8 +2357,16 @@ msgstr ""
 "( <link href=\"https://wiki.gnome.org/Apps/Videos\">Webové stránky</link> | "
 "<link href=\"https://git.gnome.org/browse/totem/\">Zdrojový kód</link> )"
 
+#. (itstool) path: credit/years
+#: C/tech-atk.page:14 C/tech-cairo.page:13 C/tech-clutter.page:13
+#: C/tech-d-bus.page:13 C/tech-eds.page:13 C/tech-gdk.page:13
+#: C/tech-gstreamer.page:13 C/tech-gtk.page:13 C/tech-help.page:13
+#: C/tech-packagekit.page:12 C/tech-pango.page:13 C/tech-telepathy.page:13
+msgid "2011–2012"
+msgstr "2011 – 2012"
+
 #. (itstool) path: info/desc
-#: C/tech-atk.page:6
+#: C/tech-atk.page:19
 msgid ""
 "Accessibility toolkit to implement support for screen readers and other tools"
 msgstr ""
@@ -2352,12 +2374,12 @@ msgstr ""
 "a dalších nástrojů"
 
 #. (itstool) path: page/title
-#: C/tech-atk.page:10
+#: C/tech-atk.page:23
 msgid "ATK"
 msgstr "ATK"
 
 #. (itstool) path: page/p
-#: C/tech-atk.page:12
+#: C/tech-atk.page:25
 msgid ""
 "Accessibility is the process of ensuring your application can be used by "
 "people with various disabilities. Disabilities come in many forms: visual "
@@ -2373,7 +2395,7 @@ msgstr ""
 "více lidí, ať už postižení jsou nebo ne."
 
 #. (itstool) path: page/p
-#: C/tech-atk.page:19
+#: C/tech-atk.page:32
 msgid ""
 "GNOME provides support for accessibility devices using the ATK framework, "
 "which stands for Accessibility Tool Kit. This framework defines a set of "
@@ -2391,7 +2413,7 @@ msgstr ""
 "mají rozumnou podporu přístupnosti volně k dispozici."
 
 #. (itstool) path: page/p
-#: C/tech-atk.page:27
+#: C/tech-atk.page:40
 msgid ""
 "ATK solves the problem of plugging many different kinds of widgets (text "
 "entries, text areas, buttons, menus) with many different types of "
@@ -2414,7 +2436,7 @@ msgstr ""
 "pro všechny widgety, které obsahují textové informace."
 
 #. (itstool) path: page/p
-#: C/tech-atk.page:37
+#: C/tech-atk.page:50
 msgid ""
 "Nonetheless, you should be aware of accessibility issues when when "
 "developing your applications. Although GTK+ interfaces provide reasonable "
@@ -2437,7 +2459,7 @@ msgstr ""
 "konkrétní médium."
 
 #. (itstool) path: page/p
-#: C/tech-atk.page:47
+#: C/tech-atk.page:60
 msgid ""
 "The GNOME desktop ships with a number of accessibility tools which enable "
 "users with disabilities to take full advantage of their desktop and "
@@ -2454,7 +2476,7 @@ msgstr ""
 "zadávání textu s pomocí předvídání."
 
 #. (itstool) path: item/p
-#: C/tech-atk.page:55
+#: C/tech-atk.page:68
 msgid ""
 "<link href=\"http://developer.gnome.org/accessibility-devel-guide/\">GNOME "
 "Accessibility for Developers</link>"
@@ -2463,25 +2485,38 @@ msgstr ""
 "\">Přístupnost GNOME pro vývojáře</link>"
 
 #. (itstool) path: item/p
-#: C/tech-atk.page:56
+#: C/tech-atk.page:69
 msgid ""
 "<link href=\"https://developer.gnome.org/atk/stable/\">ATK Reference</link>"
 msgstr ""
 "<link href=\"https://developer.gnome.org/atk/stable/\">Referenční příručka "
 "ATK</link>"
 
+#. (itstool) path: credit/name
+#: C/tech-avahi.page:10 C/tech-canberra.page:11 C/tech-champlain.page:10
+#: C/tech-enchant.page:10 C/tech-folks.page:10 C/tech-gda.page:11
+#: C/tech-geoclue2.page:10 C/tech-geocode-glib.page:10
+#: C/tech-gio-network.page:11 C/tech-gio.page:16 C/tech-glib.page:10
+#: C/tech-gobject.page:9 C/tech-gsettings.page:11
+#: C/tech-network-manager.page:10 C/tech-notify.page:16 C/tech-polkit.page:10
+#: C/tech-poppler.page:10 C/tech-soup.page:10 C/tech-telepathy.page:16
+#: C/tech-tracker.page:10 C/tech-webkit.page:16
+#| msgid "Federico Mena-Quintero"
+msgid "Federico Mena Quintero"
+msgstr "Federico Mena Quintero"
+
 #. (itstool) path: info/desc
-#: C/tech-avahi.page:6
+#: C/tech-avahi.page:17
 msgid "Zeroconf service discovery on local networks"
 msgstr "Vyhledávání v místní síti pomocí služby Zeroconf"
 
 #. (itstool) path: page/title
-#: C/tech-avahi.page:9
+#: C/tech-avahi.page:20
 msgid "Avahi"
 msgstr "Avahi"
 
 #. (itstool) path: page/p
-#: C/tech-avahi.page:11
+#: C/tech-avahi.page:22
 msgid ""
 "Avahi implements <link href=\"http://www.zeroconf.org/\">Zeroconf</link> "
 "Networking. It allows programs to discover services like printers on local "
@@ -2498,7 +2533,7 @@ msgstr ""
 "musel nejprve nastavit centrální diskuzní server."
 
 #. (itstool) path: page/p
-#: C/tech-avahi.page:18
+#: C/tech-avahi.page:29
 msgid ""
 "Avahi is an implementation of the <link href=\"http://www.dns-sd.org/\">DNS "
 "Service Discovery</link> and <link href=\"http://www.multicastdns.org/"
@@ -2511,7 +2546,7 @@ msgstr ""
 "www.zeroconf.org/\">Zeroconf</link>."
 
 #. (itstool) path: page/p
-#: C/tech-avahi.page:24
+#: C/tech-avahi.page:35
 msgid ""
 "Various programs in GNOME use Avahi to discover services. Gnome-user-share "
 "(a module for the Nautilus file manager) lets users of a local network to "
@@ -2530,7 +2565,7 @@ msgstr ""
 "Avahi k možnému směrování zvuku skrz místní sítě."
 
 #. (itstool) path: item/p
-#: C/tech-avahi.page:33
+#: C/tech-avahi.page:44
 msgid ""
 "<link href=\"http://avahi.org/wiki/ProgrammingDocs\">Avahi reference "
 "documentation</link>"
@@ -2539,17 +2574,17 @@ msgstr ""
 "Avahi</link>"
 
 #. (itstool) path: info/desc
-#: C/tech-cairo.page:6
+#: C/tech-cairo.page:18
 msgid "2D, vector-based drawing for high-quality graphics"
 msgstr "Vektorové vykreslování ve 2D pro vysoce kvalitní grafiku"
 
 #. (itstool) path: page/title
-#: C/tech-cairo.page:10
+#: C/tech-cairo.page:21
 msgid "Cairo"
 msgstr "Cairo"
 
 #. (itstool) path: page/p
-#: C/tech-cairo.page:12
+#: C/tech-cairo.page:23
 msgid ""
 "Cairo is a 2D graphics library featuring a sophisticated API for drawing "
 "vector graphics, compositing images, and rendering anti-aliased text. Cairo "
@@ -2564,7 +2599,7 @@ msgstr ""
 "vykreslující grafiku na různá média nezávisle na platformě."
 
 #. (itstool) path: page/p
-#: C/tech-cairo.page:19
+#: C/tech-cairo.page:30
 msgid ""
 "Cairo's drawing model is similar to those provided by PostScript and PDF. "
 "The Cairo API provides such drawing operations as stroking and filling cubic "
@@ -2577,7 +2612,7 @@ msgstr ""
 "transformací. Tyto vektorové operace počítají s kvalitní vyhlazenou grafikou."
 
 #. (itstool) path: page/p
-#: C/tech-cairo.page:25
+#: C/tech-cairo.page:36
 msgid ""
 "Cairo's rich drawing model allows for high-quality rendering to multiple "
 "media. The same API can be used to create on-screen graphics and text, to "
@@ -2589,7 +2624,7 @@ msgstr ""
 "pro tisk."
 
 #. (itstool) path: page/p
-#: C/tech-cairo.page:30
+#: C/tech-cairo.page:41
 msgid ""
 "You should use Cairo whenever you need to draw graphics in your application "
 "beyond the widgets provided by GTK+. Almost all of the drawing inside GTK+ "
@@ -2603,31 +2638,31 @@ msgstr ""
 "vaší aplikaci vysoce kvalitní, vyhlazené a nezávislé na rozlišení."
 
 #. (itstool) path: item/p
-#: C/tech-cairo.page:37
+#: C/tech-cairo.page:48
 msgid "<link href=\"http://www.cairographics.org/manual/\">Cairo Manual</link>"
 msgstr ""
 "<link href=\"http://www.cairographics.org/manual/\">Příručka knihovny Cairo</"
 "link>"
 
 #. (itstool) path: item/p
-#: C/tech-cairo.page:38
+#: C/tech-cairo.page:49
 msgid "<link href=\"http://www.cairographics.org\">The Cairo web site</link>"
 msgstr ""
 "<link href=\"http://www.cairographics.org\">Webové stránky knihovny Cairo</"
 "link>"
 
 #. (itstool) path: info/desc
-#: C/tech-canberra.page:6
+#: C/tech-canberra.page:18
 msgid "Simple audio API for notifications and events"
 msgstr "Jednoduché zvukové API pro oznamování a události"
 
 #. (itstool) path: page/title
-#: C/tech-canberra.page:10
+#: C/tech-canberra.page:21
 msgid "Canberra"
 msgstr "Canberra"
 
 #. (itstool) path: page/p
-#: C/tech-canberra.page:12
+#: C/tech-canberra.page:23
 msgid ""
 "Canberra is a simple library for playing audio events and notifications, "
 "such as when the user has received a message or an error has occurred. As "
@@ -2642,7 +2677,7 @@ msgstr ""
 "alternativní oznámení pro sluchově postižené uživatele."
 
 #. (itstool) path: item/p
-#: C/tech-canberra.page:19
+#: C/tech-canberra.page:30
 msgid ""
 "<link href=\"https://developer.gnome.org/libcanberra/unstable/\">Canberra "
 "Reference</link>"
@@ -2651,17 +2686,17 @@ msgstr ""
 "příručka knihovny Canberra</link>"
 
 #. (itstool) path: info/desc
-#: C/tech-champlain.page:6
+#: C/tech-champlain.page:17
 msgid "Map rendering"
 msgstr "Vykreslování map"
 
 #. (itstool) path: page/title
-#: C/tech-champlain.page:9
+#: C/tech-champlain.page:20
 msgid "Champlain"
 msgstr "Champlain"
 
 #. (itstool) path: page/p
-#: C/tech-champlain.page:11
+#: C/tech-champlain.page:22
 msgid ""
 "Champlain is a library that provides widgets to render maps. Maps can be "
 "obtained from various source, including <link href=\"http://www."
@@ -2672,7 +2707,7 @@ msgstr ""
 "openstreetmap.org/\">Open Street Map</link>."
 
 #. (itstool) path: note/p
-#: C/tech-champlain.page:16
+#: C/tech-champlain.page:27
 msgid ""
 "libchamplain is named after Samuel de Champlain, famous French navigator, "
 "explorer and cartographer. He is the “father of New-France” and founder of "
@@ -2685,7 +2720,7 @@ msgstr ""
 "knihovny."
 
 #. (itstool) path: item/p
-#: C/tech-champlain.page:25
+#: C/tech-champlain.page:36
 msgid ""
 "<link href=\"https://wiki.gnome.org/Projects/libchamplain\">Champlain home "
 "page</link>"
@@ -2694,17 +2729,17 @@ msgstr ""
 "knihovny Champlain</link>"
 
 #. (itstool) path: info/desc
-#: C/tech-clutter.page:6
+#: C/tech-clutter.page:18
 msgid "Animations and scene graph"
 msgstr "Animace a scénická grafika"
 
 #. (itstool) path: page/title
-#: C/tech-clutter.page:10
+#: C/tech-clutter.page:21
 msgid "Clutter"
 msgstr "Clutter"
 
 #. (itstool) path: page/p
-#: C/tech-clutter.page:12
+#: C/tech-clutter.page:23
 msgid ""
 "Clutter is a library for doing animations and using a 2.5-D canvas. You "
 "create graphical objects out of images, and you can manipulate them later to "
@@ -2715,7 +2750,7 @@ msgstr ""
 "přesouvat je, otáčet je a dávat jim efekty zdánlivě ve 3D."
 
 #. (itstool) path: page/p
-#: C/tech-clutter.page:17
+#: C/tech-clutter.page:28
 msgid ""
 "Clutter uses the <link href=\"http://www.khronos.org/opengl/\">OpenGL</link> "
 "and <link href=\"http://www.khronos.org/opengles/\">OpenGL|ES</link> "
@@ -2730,7 +2765,7 @@ msgstr ""
 "programování GPU."
 
 #. (itstool) path: page/p
-#: C/tech-clutter.page:23
+#: C/tech-clutter.page:34
 msgid ""
 "Clutter does not specify any visual style, and does not provide any pre-"
 "defined complex user interface control; it lets the developer define what is "
@@ -2744,7 +2779,7 @@ msgstr ""
 "<em>scény</em>/<em>stage</em>)."
 
 #. (itstool) path: page/p
-#: C/tech-clutter.page:28
+#: C/tech-clutter.page:39
 msgid ""
 "Clutter comes with pre-defined actors for displaying solid colors, image "
 "data, text and custom high-precision 2D drawing using the <link xref=\"tech-"
@@ -2760,7 +2795,7 @@ msgstr ""
 "<em>constraints</em>."
 
 #. (itstool) path: page/p
-#: C/tech-clutter.page:35
+#: C/tech-clutter.page:46
 msgid ""
 "Clutter provides an extensible animation framework and graphical effects. An "
 "animation is associated with a timeline and changes one or more properties "
@@ -2773,7 +2808,7 @@ msgstr ""
 "v konkrétních osách, změnu velikosti, průhlednosti atd."
 
 #. (itstool) path: page/p
-#: C/tech-clutter.page:40
+#: C/tech-clutter.page:51
 msgid ""
 "A number of third-party libraries allow integration with other technologies, "
 "such as: Clutter-GTK, for embedding a Clutter stage inside a GTK+ "
@@ -2787,7 +2822,7 @@ msgstr ""
 "Bullet pro přidání fyzické interakce v prostředích 2D a 3D."
 
 #. (itstool) path: item/p
-#: C/tech-clutter.page:47
+#: C/tech-clutter.page:58
 msgid ""
 "<link href=\"https://developer.gnome.org/clutter-cookbook/stable/\">The "
 "Clutter Cookbook</link>"
@@ -2796,7 +2831,7 @@ msgstr ""
 "knihovny Clutter</link>"
 
 #. (itstool) path: item/p
-#: C/tech-clutter.page:48
+#: C/tech-clutter.page:59
 msgid ""
 "<link href=\"http://developer.gnome.org/clutter/stable\">Clutter Reference "
 "Manual</link>"
@@ -2805,7 +2840,7 @@ msgstr ""
 "knihovny Clutter</link>"
 
 #. (itstool) path: item/p
-#: C/tech-clutter.page:49
+#: C/tech-clutter.page:60
 msgid ""
 "<link href=\"http://www.clutter-project.org\">The Clutter web site</link>"
 msgstr ""
@@ -2813,17 +2848,17 @@ msgstr ""
 "Clutter</link>"
 
 #. (itstool) path: info/desc
-#: C/tech-d-bus.page:6
+#: C/tech-d-bus.page:18
 msgid "Inter-process communication bus to provide APIs to other processes"
 msgstr "Sběrnice meziprocesové komunikace poskytující API k ostatním procesům"
 
 #. (itstool) path: page/title
-#: C/tech-d-bus.page:10
+#: C/tech-d-bus.page:22
 msgid "D-Bus"
 msgstr "D-Bus"
 
 #. (itstool) path: page/p
-#: C/tech-d-bus.page:12
+#: C/tech-d-bus.page:24
 msgid ""
 "D-Bus is a message bus for sending messages between various applications, "
 "the desktop, and low-level components of the system. D-Bus provides a simple "
@@ -2840,7 +2875,7 @@ msgstr ""
 "a poskytuje lepší komunikaci i přívětivost směrem k uživateli."
 
 #. (itstool) path: page/p
-#: C/tech-d-bus.page:20
+#: C/tech-d-bus.page:32
 msgid ""
 "D-Bus provides a session bus and a system bus. The session bus is used by "
 "applications in a single user session, allowing them to share data and event "
@@ -2855,7 +2890,7 @@ msgstr ""
 "aktivaci šetřiče obrazovky po dobu, co uživatel sleduje film."
 
 #. (itstool) path: page/p
-#: C/tech-d-bus.page:26
+#: C/tech-d-bus.page:38
 msgid ""
 "The system bus is a single message bus which runs independently of any user "
 "sessions. It can communicate with applications in any session, enabling "
@@ -2875,7 +2910,7 @@ msgstr ""
 "notebooku."
 
 #. (itstool) path: page/p
-#: C/tech-d-bus.page:35
+#: C/tech-d-bus.page:47
 msgid ""
 "D-Bus is developed jointly on <link href=\"http://www.freedesktop.org/"
 "\">freedesktop.org</link>, so you can use it with different desktop "
@@ -2891,7 +2926,7 @@ msgstr ""
 "pracovním prostředím uživatele, nezávisle na tom, o které prostředí se jedná."
 
 #. (itstool) path: page/p
-#: C/tech-d-bus.page:42
+#: C/tech-d-bus.page:54
 msgid ""
 "GNOME provides full support for D-Bus using the GDBus APIs in <link xref="
 "\"tech-gio\">GIO</link>."
@@ -2900,7 +2935,7 @@ msgstr ""
 "gio\">GIO</link>."
 
 #. (itstool) path: item/p
-#: C/tech-d-bus.page:46 C/tech-gio-network.page:20
+#: C/tech-d-bus.page:58 C/tech-gio-network.page:31
 msgid ""
 "<link href=\"https://developer.gnome.org/gio/stable/\">GIO Reference Manual</"
 "link>"
@@ -2909,7 +2944,7 @@ msgstr ""
 "knihovny GIO</link>"
 
 #. (itstool) path: item/p
-#: C/tech-d-bus.page:47
+#: C/tech-d-bus.page:59
 msgid ""
 "<link href=\"http://dbus.freedesktop.org/doc/dbus-tutorial.html\">D-Bus "
 "Tutorial</link>"
@@ -2918,7 +2953,7 @@ msgstr ""
 "Bus</link>"
 
 #. (itstool) path: item/p
-#: C/tech-d-bus.page:48
+#: C/tech-d-bus.page:60
 msgid ""
 "<link href=\"http://dbus.freedesktop.org/doc/dbus-specification.html\">D-Bus "
 "Specification</link>"
@@ -2927,17 +2962,17 @@ msgstr ""
 "\">Specifikace D-Bus</link>"
 
 #. (itstool) path: info/desc
-#: C/tech-eds.page:6
+#: C/tech-eds.page:18
 msgid "Desktop-wide addressbook for contacts and calendar"
 msgstr "Adresář s kontakty a kalendářem k dispozici napříč celým systémem"
 
 #. (itstool) path: page/title
-#: C/tech-eds.page:10
+#: C/tech-eds.page:21
 msgid "Evolution Data Server"
 msgstr "Datový server Evolution"
 
 #. (itstool) path: page/p
-#: C/tech-eds.page:12
+#: C/tech-eds.page:23
 msgid ""
 "With Evolution Data Server, GNOME provides a single address book and "
 "calendar that all applications can use to store and retrieve information. "
@@ -2952,7 +2987,7 @@ msgstr ""
 "události mezi kalendáři těchto aplikací."
 
 #. (itstool) path: page/p
-#: C/tech-eds.page:18
+#: C/tech-eds.page:29
 msgid ""
 "People use computers increasingly to interact with their friends and "
 "colleagues. Applications such as email programs, instant messengers, and "
@@ -2971,7 +3006,7 @@ msgstr ""
 "kontaktech."
 
 #. (itstool) path: page/p
-#: C/tech-eds.page:26
+#: C/tech-eds.page:37
 msgid ""
 "Applications can also use Evolution Data Server to store and retrieve "
 "appointments on the user's calendar. For example, the clock on the panel "
@@ -2986,7 +3021,7 @@ msgstr ""
 "nadcházející události, aniž by musel otevírat celou kalendářovou aplikaci."
 
 #. (itstool) path: item/p
-#: C/tech-eds.page:33
+#: C/tech-eds.page:44
 msgid ""
 "<link href=\"http://developer.gnome.org/libebook/stable/\">Evolution API "
 "Reference: libebook</link>"
@@ -2995,7 +3030,7 @@ msgstr ""
 "příručka API Evolution: knihovna libebook</link>"
 
 #. (itstool) path: item/p
-#: C/tech-eds.page:34
+#: C/tech-eds.page:45
 msgid ""
 "<link href=\"http://developer.gnome.org/libecal/stable/\">Evolution API "
 "Reference: libecal</link>"
@@ -3004,17 +3039,17 @@ msgstr ""
 "příručka API Evolution: knihovna libecal</link>"
 
 #. (itstool) path: info/desc
-#: C/tech-enchant.page:6
+#: C/tech-enchant.page:17
 msgid "Real-time spell checking for text widgets"
 msgstr "Kontrola pravopisu v reálném čase pro textové widgety"
 
 #. (itstool) path: page/title
-#: C/tech-enchant.page:9
+#: C/tech-enchant.page:20
 msgid "Enchant"
 msgstr "Enchant"
 
 #. (itstool) path: page/p
-#: C/tech-enchant.page:11
+#: C/tech-enchant.page:22
 msgid ""
 "Enchant provides an API to do spell-checking related tasks. You can ask it "
 "if a word is misspelled, or ask for suggestions for a misspelled word. On a "
@@ -3027,7 +3062,7 @@ msgstr ""
 "GtkSpell, přidá podtrhávání chybných slov vlnovkou v textových widgetech."
 
 #. (itstool) path: page/p
-#: C/tech-enchant.page:18
+#: C/tech-enchant.page:29
 msgid ""
 "In GNOME, Enchant gets used in text-heavy applications like Empathy (an "
 "instant messaging client) and Epiphany (a web browser, for text entry in web "
@@ -3038,7 +3073,7 @@ msgstr ""
 "app> (webový prohlížeč; pro textová pole ve webových formulářích)."
 
 #. (itstool) path: item/p
-#: C/tech-enchant.page:25
+#: C/tech-enchant.page:36
 msgid ""
 "<link href=\"http://www.abisource.com/projects/enchant/\">Enchant home page</"
 "link>"
@@ -3047,17 +3082,17 @@ msgstr ""
 "Enchant</link>"
 
 #. (itstool) path: info/desc
-#: C/tech-folks.page:6
+#: C/tech-folks.page:17
 msgid "Aggregate contacts from multiple local and online sources"
 msgstr "Sdružování kontaktů z různých místních i on-line zdrojů"
 
 #. (itstool) path: page/title
-#: C/tech-folks.page:9
+#: C/tech-folks.page:20
 msgid "Folks"
 msgstr "Folks"
 
 #. (itstool) path: page/p
-#: C/tech-folks.page:11
+#: C/tech-folks.page:22
 msgid ""
 "Various systems have different representations for user accounts. For "
 "example, <link xref=\"tech-eds\">Evolution Data Server</link> has the user's "
@@ -3079,7 +3114,7 @@ msgstr ""
 "lidí duplicitně pokaždé, když mají přiřazen víc než jeden účet."
 
 #. (itstool) path: page/p
-#: C/tech-folks.page:21
+#: C/tech-folks.page:32
 msgid ""
 "In GNOME, Empathy (the instant messaging client) uses Folks to present a "
 "unified view of people (\"Person X has these IM accounts\"), rather than "
@@ -3092,7 +3127,7 @@ msgstr ""
 "Osoba X na Yahoo! Messenger“)."
 
 #. (itstool) path: item/p
-#: C/tech-folks.page:29
+#: C/tech-folks.page:40
 msgid ""
 "<link href=\"https://wiki.gnome.org/Projects/Folks\">Libfolks home page</"
 "link>"
@@ -3101,17 +3136,17 @@ msgstr ""
 "knihovny libfolks</link>"
 
 #. (itstool) path: info/desc
-#: C/tech-gda.page:6
+#: C/tech-gda.page:18
 msgid "Unified access to relational databases"
 msgstr "Jednotný přístup k relačním databázím"
 
 #. (itstool) path: page/title
-#: C/tech-gda.page:10
+#: C/tech-gda.page:21
 msgid "GNOME Data Access"
 msgstr "GNOME Data Access"
 
 #. (itstool) path: page/p
-#: C/tech-gda.page:12
+#: C/tech-gda.page:23
 msgid ""
 "GNOME Data Access, or GDA for short, offers a wrapper around relational "
 "databases, which allows you to easily store and retrieve data in many "
@@ -3122,7 +3157,7 @@ msgstr ""
 "databázových systémech."
 
 #. (itstool) path: page/p
-#: C/tech-gda.page:16
+#: C/tech-gda.page:27
 msgid ""
 "Instead of worrying about the vagaries of different database systems, GDA "
 "provides a unified interface to them. GDA supports SQLite, MySQL, PostreSQL, "
@@ -3133,7 +3168,7 @@ msgstr ""
 "Access, Berkeley DB, Oracle a JDBC."
 
 #. (itstool) path: item/p
-#: C/tech-gda.page:22
+#: C/tech-gda.page:33
 msgid ""
 "<link href=\"https://developer.gnome.org/libgda/stable/\">GNOME Data Access "
 "Manual</link>"
@@ -3142,23 +3177,23 @@ msgstr ""
 "Data Access</link>"
 
 #. (itstool) path: item/p
-#: C/tech-gda.page:23
+#: C/tech-gda.page:34
 msgid "<link href=\"http://www.gnome-db.org/\">GDA Home Page</link>"
 msgstr ""
 "<link href=\"http://www.gnome-db.org/\">Domovská stránka knihovny GDA</link>"
 
 #. (itstool) path: info/desc
-#: C/tech-gdk.page:6
+#: C/tech-gdk.page:18
 msgid "Low-level abstraction for the windowing system"
 msgstr "Nízkoúrovňová abstrakce pro okenní systém"
 
 #. (itstool) path: page/title
-#: C/tech-gdk.page:10
+#: C/tech-gdk.page:21
 msgid "GDK"
 msgstr "GDK"
 
 #. (itstool) path: page/p
-#: C/tech-gdk.page:12
+#: C/tech-gdk.page:23
 msgid ""
 "GDK is the low-level library used by <link xref=\"tech-gtk\">GTK+</link> to "
 "interact with the windowing system for graphics and input devices. Although "
@@ -3178,7 +3213,7 @@ msgstr ""
 "Quartz."
 
 #. (itstool) path: page/p
-#: C/tech-gdk.page:20
+#: C/tech-gdk.page:31
 msgid ""
 "GDK enables you to access events from keyboards, mice, and other input "
 "devices. Implementations of widgets in GTK+ use this functionality, and "
@@ -3198,7 +3233,7 @@ msgstr ""
 "code>, když uživatel zmáčkně nebo uvolní tlačítko na správném místě."
 
 #. (itstool) path: page/p
-#: C/tech-gdk.page:29
+#: C/tech-gdk.page:40
 msgid ""
 "GDK also provides low-level routines to access drag and drop and clipboard "
 "data from the system. When implementing custom controls, you may need to "
@@ -3210,7 +3245,7 @@ msgstr ""
 "spolupráci s uživatelem."
 
 #. (itstool) path: page/p
-#: C/tech-gdk.page:34
+#: C/tech-gdk.page:45
 msgid ""
 "GDK provides other functionality which is needed to implement a complete "
 "graphical toolkit like GTK+. Since GDK acts as a platform abstraction, "
@@ -3226,7 +3261,7 @@ msgstr ""
 "kurzorech."
 
 #. (itstool) path: page/p
-#: C/tech-gdk.page:41
+#: C/tech-gdk.page:52
 msgid ""
 "You should use GDK whenever you need low-level access to the underlying "
 "windowing system, including low-level access to events, windows, and the "
@@ -3248,7 +3283,7 @@ msgstr ""
 "ve 2D."
 
 #. (itstool) path: item/p
-#: C/tech-gdk.page:51
+#: C/tech-gdk.page:62
 msgid ""
 "<link href=\"https://developer.gnome.org/gdk3/stable/\">GDK Reference "
 "Manual</link>"
@@ -3257,17 +3292,17 @@ msgstr ""
 "ke knihovně GDK</link>"
 
 #. (itstool) path: info/desc
-#: C/tech-geoclue2.page:6
+#: C/tech-geoclue2.page:17
 msgid "Geolocation - finding the user's geographical location"
 msgstr "Geolokace – jak zjistit geografickou polohu uživatele"
 
 #. (itstool) path: page/title
-#: C/tech-geoclue2.page:9
+#: C/tech-geoclue2.page:20
 msgid "Geoclue2"
 msgstr "Geoclue2"
 
 #. (itstool) path: page/p
-#: C/tech-geoclue2.page:11
+#: C/tech-geoclue2.page:22
 msgid ""
 "Geoclue2 provides <em>geolocation</em> services, that is, it lets "
 "applications find the user's geographical position. A mapping application "
@@ -3278,7 +3313,7 @@ msgstr ""
 "například využít k zobrazení „Kde se nacházím“."
 
 #. (itstool) path: page/p
-#: C/tech-geoclue2.page:18
+#: C/tech-geoclue2.page:29
 msgid ""
 "Geoclue2 intends to be able to provide positioning information in several "
 "ways: from the GPS in a WWAN modem, from a Wi-Fi access point's data, or "
@@ -3289,7 +3324,7 @@ msgstr ""
 "z adresy IP počítače."
 
 #. (itstool) path: page/p
-#: C/tech-geoclue2.page:24
+#: C/tech-geoclue2.page:35
 msgid ""
 "Geoclue2 also intends to provide privacy for users who do not want to reveal "
 "their geographical location. Only applications allowed by the user will be "
@@ -3300,7 +3335,7 @@ msgstr ""
 "budou moci získat geolokační údaje."
 
 #. (itstool) path: info/desc
-#: C/tech-geocode-glib.page:6
+#: C/tech-geocode-glib.page:17
 msgid ""
 "Geocoding and reverse geocoding - conversion of street addresses to/from "
 "geographical coordinates"
@@ -3309,12 +3344,12 @@ msgstr ""
 "souřadnic"
 
 #. (itstool) path: page/title
-#: C/tech-geocode-glib.page:9
+#: C/tech-geocode-glib.page:21
 msgid "Geocode-glib"
 msgstr "Geocode-glib"
 
 #. (itstool) path: page/p
-#: C/tech-geocode-glib.page:11
+#: C/tech-geocode-glib.page:23
 msgid ""
 "Geocode-glib provides <em>geocoding</em> and <em>reverse geocoding</em>. "
 "Geocoding is the process of translating an address (\"123 High Street, "
@@ -3327,7 +3362,7 @@ msgstr ""
 "geokódování probíhá v opačném směru."
 
 #. (itstool) path: page/p
-#: C/tech-geocode-glib.page:18
+#: C/tech-geocode-glib.page:30
 msgid ""
 "Geocode-glib uses the Yahoo! Place Finder API internally to do its work. In "
 "the future it will support the free Nominatim service and OpenStreetMap data."
@@ -3337,7 +3372,7 @@ msgstr ""
 "OpenStreetMap."
 
 #. (itstool) path: item/p
-#: C/tech-geocode-glib.page:25
+#: C/tech-geocode-glib.page:37
 msgid ""
 "<link href=\"https://developer.gnome.org/geocode-glib/unstable/index.html"
 "\">Geocode-glib reference documentation</link>"
@@ -3346,17 +3381,17 @@ msgstr ""
 "\">Referenční dokumentace knihovny Geocode-glib</link>"
 
 #. (itstool) path: info/desc
-#: C/tech-gio-network.page:6
+#: C/tech-gio-network.page:18
 msgid "Networking and sockets API with streams"
 msgstr "API pro síťování a sokety pracující s proudy dat"
 
 #. (itstool) path: page/title
-#: C/tech-gio-network.page:10
+#: C/tech-gio-network.page:21
 msgid "GIO Networking"
 msgstr "Síťové GIO"
 
 #. (itstool) path: page/p
-#: C/tech-gio-network.page:12
+#: C/tech-gio-network.page:23
 msgid ""
 "GIO Networking is built on top of the stream APIs <link xref=\"tech-gio"
 "\">used for files</link>. It provides high-level APIs to communicate over "
@@ -3373,7 +3408,7 @@ msgstr ""
 "blokována čekáním na odezvu od sítě."
 
 #. (itstool) path: item/p
-#: C/tech-gio-network.page:21
+#: C/tech-gio-network.page:32
 msgid ""
 "<link href=\"https://developer.gnome.org/gio/stable/networking.html"
 "\">Lowlevel network support</link>"
@@ -3382,7 +3417,7 @@ msgstr ""
 "\">Podpora nízkoúrovňového síťování</link>"
 
 #. (itstool) path: item/p
-#: C/tech-gio-network.page:22
+#: C/tech-gio-network.page:33
 msgid ""
 "<link href=\"https://developer.gnome.org/gio/stable/highlevel-socket.html"
 "\">Highlevel network functionality</link>"
@@ -3391,18 +3426,18 @@ msgstr ""
 "\">Vysokoúrovňové funkce síťování</link>"
 
 #. (itstool) path: info/desc
-#: C/tech-gio.page:6
+#: C/tech-gio.page:23
 msgid "File and URI handling, asynchronous file operations, volume handling"
 msgstr ""
 "Práce se soubory a URI, asynchronní operace se soubory, práce se svazky"
 
 #. (itstool) path: page/title
-#: C/tech-gio.page:10
+#: C/tech-gio.page:27
 msgid "GIO Files"
 msgstr "Souborové GIO"
 
 #. (itstool) path: page/p
-#: C/tech-gio.page:12
+#: C/tech-gio.page:29
 msgid ""
 "GIO provides APIs for asynchronously reading and writing files and other "
 "streams. Files are referenced by URIs (uniform resource locators), and "
@@ -3420,7 +3455,7 @@ msgstr ""
 "dispozici všem aplikacím používajícím GIO."
 
 #. (itstool) path: page/p
-#: C/tech-gio.page:19
+#: C/tech-gio.page:36
 msgid ""
 "The GIO file APIs were designed to be used in event-driven graphical "
 "interfaces. The non-blocking, asynchronous design means your user interface "
@@ -3434,7 +3469,7 @@ msgstr ""
 "verze API, která je vhodnější pro vlákna a procesy."
 
 #. (itstool) path: page/p
-#: C/tech-gio.page:25
+#: C/tech-gio.page:42
 msgid ""
 "GIO also provides routines for managing drives and volumes, querying file "
 "types and icons, and finding applications to open files."
@@ -3443,7 +3478,7 @@ msgstr ""
 "ikonu souboru a vyhledávání aplikací, které umí otevřít daný typ souboru."
 
 #. (itstool) path: item/p
-#: C/tech-gio.page:29
+#: C/tech-gio.page:46
 msgid ""
 "<link href=\"http://developer.gnome.org/gio/stable/\">GIO Reference Manual</"
 "link>"
@@ -3452,17 +3487,17 @@ msgstr ""
 "knihovny GIO</link>"
 
 #. (itstool) path: info/desc
-#: C/tech-glib.page:6
+#: C/tech-glib.page:17
 msgid "Data structures and utilities for C programs"
 msgstr "Datové struktury a nástroje pro programy v jazyce C"
 
 #. (itstool) path: page/title
-#: C/tech-glib.page:9
+#: C/tech-glib.page:20
 msgid "GLib"
 msgstr "GLib"
 
 #. (itstool) path: page/p
-#: C/tech-glib.page:11
+#: C/tech-glib.page:22
 msgid ""
 "GLib is the most fundamental of all the GNOME libraries. It provides simple "
 "data structures for C programs (linked lists, binary trees, hash tables) and "
@@ -3473,7 +3508,7 @@ msgstr ""
 "hašovací tabuly) a různorodé nástroje, jako jsou funkce pro práci s řetězci."
 
 #. (itstool) path: page/p
-#: C/tech-glib.page:17
+#: C/tech-glib.page:28
 msgid ""
 "If you are not writing C programs, you normally don't need to be concerned "
 "with GLib. If you are, however, GLib will make your life as a C programmer "
@@ -3483,7 +3518,7 @@ msgstr ""
 "zabývat. Pokud však ano, GLib vám jako programátorovi v C usnadní život."
 
 #. (itstool) path: item/p
-#: C/tech-glib.page:24
+#: C/tech-glib.page:35
 msgid ""
 "<link href=\"http://developer.gnome.org/glib/stable/\">GLib reference "
 "manual</link>"
@@ -3492,17 +3527,17 @@ msgstr ""
 "knihovny GLib</link>"
 
 #. (itstool) path: info/desc
-#: C/tech-gobject.page:6
+#: C/tech-gobject.page:16
 msgid "C-based object and type system with signals and slots"
 msgstr "Objekty a typy v jazyce C se signály a sloty"
 
 #. (itstool) path: page/title
-#: C/tech-gobject.page:9
+#: C/tech-gobject.page:19
 msgid "GObject"
 msgstr "GObject"
 
 #. (itstool) path: page/p
-#: C/tech-gobject.page:11
+#: C/tech-gobject.page:21
 msgid ""
 "GObject is the part of the <link xref=\"tech-glib\">GLib</link> library that "
 "provides an object and type system for C programs. Although C as a language "
@@ -3515,7 +3550,7 @@ msgstr ""
 "objektově orientované programy v jazyce C."
 
 #. (itstool) path: page/p
-#: C/tech-gobject.page:16
+#: C/tech-gobject.page:26
 msgid ""
 "GObject provides a fundamental GType, the base for the whole type system, "
 "from which types such as ints and strings are derived. Then, there is "
@@ -3532,7 +3567,7 @@ msgstr ""
 "<code>clicked</code>, aby sdělil, že byl zmáčknut nebo uvolněn."
 
 #. (itstool) path: page/p
-#: C/tech-gobject.page:25
+#: C/tech-gobject.page:35
 msgid ""
 "GObject is <em>introspectible</em>, which means that you can ask the GObject "
 "system for the class types that are defined, the methods they support, their "
@@ -3551,7 +3586,7 @@ msgstr ""
 "generování obalujících funkcí sama osobě."
 
 #. (itstool) path: page/p
-#: C/tech-gobject.page:35
+#: C/tech-gobject.page:45
 msgid ""
 "You normally don't need to be concerned with GObject itself if you are "
 "programming for GNOME with an object-oriented language. However, making "
@@ -3564,7 +3599,7 @@ msgstr ""
 "programovat snáze."
 
 #. (itstool) path: item/p
-#: C/tech-gobject.page:43
+#: C/tech-gobject.page:53
 msgid ""
 "<link href=\"http://developer.gnome.org/gobject/stable/\">GObject reference "
 "manual</link>"
@@ -3573,17 +3608,17 @@ msgstr ""
 "příručka knihovny GObject</link>"
 
 #. (itstool) path: info/desc
-#: C/tech-gsettings.page:6
+#: C/tech-gsettings.page:18
 msgid "Configuration storage for application preferences"
 msgstr "Úložiště nastavení pro předvolby aplikace"
 
 #. (itstool) path: page/title
-#: C/tech-gsettings.page:11
+#: C/tech-gsettings.page:21
 msgid "GSettings"
 msgstr "GSettings"
 
 #. (itstool) path: page/p
-#: C/tech-gsettings.page:13
+#: C/tech-gsettings.page:23
 msgid ""
 "GSettings is the part of <link xref=\"tech-glib\">GLib</link> that allows "
 "applications to save their configuration settings and user's preferences in "
@@ -3594,7 +3629,7 @@ msgstr ""
 "způsobem."
 
 #. (itstool) path: page/p
-#: C/tech-gsettings.page:17
+#: C/tech-gsettings.page:27
 msgid ""
 "An application that uses GSettings defines a <em>schema</em> of "
 "configuration keys. The schema for each key contains the key's name, a human-"
@@ -3606,7 +3641,7 @@ msgstr ""
 "klíč slouží, typ klíče (řetězec, celé číslo atd.) a výchozí hodnotu."
 
 #. (itstool) path: page/p
-#: C/tech-gsettings.page:24
+#: C/tech-gsettings.page:34
 msgid ""
 "GSettings uses the operating system's storage for configuration data. On GNU "
 "systems this is DConf; on Windows it is the Registry, and on Mac OS it is "
@@ -3617,7 +3652,7 @@ msgstr ""
 "mechanizmum seznamu vlastností NextStep."
 
 #. (itstool) path: page/p
-#: C/tech-gsettings.page:30
+#: C/tech-gsettings.page:40
 msgid ""
 "GSettings lets you monitor changes in keys' values, so your application can "
 "respond dynamically to global changes in configuration. For example, all "
@@ -3631,7 +3666,7 @@ msgstr ""
 "uživatel restartovat."
 
 #. (itstool) path: item/p
-#: C/tech-gsettings.page:38
+#: C/tech-gsettings.page:48
 msgid ""
 "<link href=\"http://developer.gnome.org/gio/stable/GSettings.html"
 "\">GSettings Reference Manual</link>"
@@ -3640,17 +3675,17 @@ msgstr ""
 "\">Referenční příručka knihovny GSettings</link>"
 
 #. (itstool) path: info/desc
-#: C/tech-gstreamer.page:6
+#: C/tech-gstreamer.page:18
 msgid "Playing, mixing, and manipulating sound and video"
 msgstr "Přehrávání, mixování a další činnosti se zvukem a videem"
 
 #. (itstool) path: page/title
-#: C/tech-gstreamer.page:10
+#: C/tech-gstreamer.page:21
 msgid "GStreamer"
 msgstr "GStreamer"
 
 #. (itstool) path: page/p
-#: C/tech-gstreamer.page:12
+#: C/tech-gstreamer.page:23
 msgid ""
 "GStreamer is a powerful multimedia library for playing, creating, and "
 "manipulating sound, video, and other media. You can use GStreamer to provide "
@@ -3667,7 +3702,7 @@ msgstr ""
 "modulů."
 
 #. (itstool) path: page/p
-#: C/tech-gstreamer.page:19
+#: C/tech-gstreamer.page:30
 msgid ""
 "GStreamer provides a flexible architecture wherein media is processed "
 "through a pipeline of elements. Each element may apply filters to the "
@@ -3687,7 +3722,7 @@ msgstr ""
 "vysokými požadavky na minimální spoždění."
 
 #. (itstool) path: page/p
-#: C/tech-gstreamer.page:28
+#: C/tech-gstreamer.page:39
 msgid ""
 "While GStreamer provides a powerful API for manipulating multimedia, it also "
 "provides convenient routines for simple playback. GStreamer can "
@@ -3701,7 +3736,7 @@ msgstr ""
 "takže ve své aplikaci můžete jednoduše použít zvuky a videa."
 
 #. (itstool) path: page/p
-#: C/tech-gstreamer.page:34
+#: C/tech-gstreamer.page:45
 msgid ""
 "The GStreamer architecture allows plugins to add encoders, decoders, and all "
 "sorts of content filters. Third-party developers can provide GStreamer "
@@ -3717,7 +3752,7 @@ msgstr ""
 "efekty."
 
 #. (itstool) path: page/p
-#: C/tech-gstreamer.page:41
+#: C/tech-gstreamer.page:52
 msgid ""
 "You should use GStreamer whenever you need to read or play multimedia "
 "content in your application, or if your application needs to manipulate "
@@ -3730,7 +3765,7 @@ msgstr ""
 "nabídne dobře otestované prvky pro většinu toho, co potřebujete."
 
 #. (itstool) path: item/p
-#: C/tech-gstreamer.page:48
+#: C/tech-gstreamer.page:59
 msgid ""
 "<link href=\"http://gstreamer.freedesktop.org/data/doc/gstreamer/head/manual/"
 "html/index.html\">The GStreamer Application Development Manual</link>"
@@ -3739,7 +3774,7 @@ msgstr ""
 "html/index.html\">Příručka k vývoji aplikací využívajících GStreamer</link>"
 
 #. (itstool) path: item/p
-#: C/tech-gstreamer.page:49
+#: C/tech-gstreamer.page:60
 msgid ""
 "<link href=\"http://gstreamer.freedesktop.org/data/doc/gstreamer/head/"
 "gstreamer/html/\">The GStreamer 1.0 Core Reference Manual</link>"
@@ -3748,7 +3783,7 @@ msgstr ""
 "gstreamer/html/\">Základní příručka knihovny GStreamer 1.0</link>"
 
 #. (itstool) path: item/p
-#: C/tech-gstreamer.page:50
+#: C/tech-gstreamer.page:61
 msgid ""
 "<link href=\"http://gstreamer.freedesktop.org/documentation/\">The GStreamer "
 "documentation page</link>"
@@ -3757,7 +3792,7 @@ msgstr ""
 "dokumentací knihovny GStreamer</link>"
 
 #. (itstool) path: item/p
-#: C/tech-gstreamer.page:51
+#: C/tech-gstreamer.page:62
 msgid ""
 "<link href=\"http://gstreamer.freedesktop.org\">The GStreamer web site</link>"
 msgstr ""
@@ -3765,17 +3800,17 @@ msgstr ""
 "GStreamer</link>"
 
 #. (itstool) path: info/desc
-#: C/tech-gtk.page:6
+#: C/tech-gtk.page:18
 msgid "Widget toolkit for graphical interfaces"
 msgstr "Vývojářský nástroj wedgetů pro grafické rozhraní"
 
 #. (itstool) path: page/title
-#: C/tech-gtk.page:10
+#: C/tech-gtk.page:21
 msgid "GTK+"
 msgstr "GTK+"
 
 #. (itstool) path: page/p
-#: C/tech-gtk.page:12
+#: C/tech-gtk.page:23
 msgid ""
 "GTK+ is the primary library used to construct user interfaces in GNOME. Its "
 "name stands for \"GIMP Tool Kit\", as originally it was explicitly written "
@@ -3795,7 +3830,7 @@ msgstr ""
 "vykreslování nebo spolupráce se zařízeními."
 
 #. (itstool) path: page/p
-#: C/tech-gtk.page:21
+#: C/tech-gtk.page:32
 msgid ""
 "In addition to basic widgets, such as buttons, check boxes, and text "
 "entries, GTK+ also provides Model-View-Controller (MVC) APIs for tree views, "
@@ -3806,7 +3841,7 @@ msgstr ""
 "víceřádková textová pole a operace s nástrojovými lištami a nabídkami."
 
 #. (itstool) path: page/p
-#: C/tech-gtk.page:26
+#: C/tech-gtk.page:37
 msgid ""
 "Widgets in GTK+ are placed on windows using a <em>box-packing model</em>. "
 "Programmers specify only how to pack widgets together in container boxes, "
@@ -3826,7 +3861,7 @@ msgstr ""
 "očekávané pořadí."
 
 #. (itstool) path: page/p
-#: C/tech-gtk.page:34
+#: C/tech-gtk.page:45
 msgid ""
 "GTK+ allows you to develop custom widgets for use in applications. Similar "
 "to native or stock widgets, these custom widgets can support all the "
@@ -3839,7 +3874,7 @@ msgstr ""
 "rozhraní, ovládání z klávesnice a automatická změna velikosti."
 
 #. (itstool) path: item/p
-#: C/tech-gtk.page:40
+#: C/tech-gtk.page:51
 msgid ""
 "<link href=\"http://developer.gnome.org/gnome-devel-demos/stable/\">GTK+ "
 "demo tutorial</link>"
@@ -3848,7 +3883,7 @@ msgstr ""
 "ukázkami knihovny GTK+</link>"
 
 #. (itstool) path: item/p
-#: C/tech-gtk.page:41
+#: C/tech-gtk.page:52
 msgid ""
 "<link href=\"http://developer.gnome.org/gtk3/stable/\">GTK+ Reference "
 "Manual</link>"
@@ -3857,22 +3892,27 @@ msgstr ""
 "ke knihovně GTK+</link>"
 
 #. (itstool) path: item/p
-#: C/tech-gtk.page:42
+#: C/tech-gtk.page:53
 msgid "<link href=\"http://gtk.org/\">The GTK+ web site</link>"
 msgstr "<link href=\"http://gtk.org/\">Webové stránky knihovny GTK+</link>"
 
+#. (itstool) path: credit/name
+#: C/tech-gupnp.page:11
+msgid "Zeeshan Ali (Khattak)"
+msgstr "Zeeshan Ali (Khattak)"
+
 #. (itstool) path: info/desc
-#: C/tech-gupnp.page:6
+#: C/tech-gupnp.page:18
 msgid "Wireless, peer-to-peer, plug-and-play RPC"
 msgstr "Bezdrávová připojení, peer-to-peer, plug-and-play"
 
 #. (itstool) path: page/title
-#: C/tech-gupnp.page:10
+#: C/tech-gupnp.page:21
 msgid "GUPnP"
 msgstr "GUPnP"
 
 #. (itstool) path: page/p
-#: C/tech-gupnp.page:13
+#: C/tech-gupnp.page:23
 msgid ""
 "Many \"consumer electronics\" devices that can make use of a house's local "
 "network support device and service discovery via a protocol called UPnP "
@@ -3886,7 +3926,7 @@ msgstr ""
 "služby."
 
 #. (itstool) path: page/p
-#: C/tech-gupnp.page:20
+#: C/tech-gupnp.page:30
 msgid ""
 "DLNA is a set of standards that let devices share multimedia content in "
 "standard formats. GUPnP can also perform DLNA-related tasks such as media "
@@ -3898,7 +3938,7 @@ msgstr ""
 "profilu apod."
 
 #. (itstool) path: page/p
-#: C/tech-gupnp.page:26
+#: C/tech-gupnp.page:36
 msgid ""
 "In GNOME, GUPnP is one of the basic building blocks of home-multimedia "
 "software like Rygel, a home media server."
@@ -3907,22 +3947,22 @@ msgstr ""
 "multimédia, jako je domácí multimediální server Rygel."
 
 #. (itstool) path: item/p
-#: C/tech-gupnp.page:32
+#: C/tech-gupnp.page:42
 msgid "<link href=\"http://www.gupnp.org\">GUPnP home page</link>"
 msgstr "<link href=\"http://www.gupnp.org\">Domovská stránka GUPnP</link>"
 
 #. (itstool) path: info/desc
-#: C/tech-help.page:6
+#: C/tech-help.page:18
 msgid "Topic-oriented online help system"
 msgstr "Systém nápovědy cílící na témata"
 
 #. (itstool) path: page/title
-#: C/tech-help.page:10
+#: C/tech-help.page:21
 msgid "Help"
 msgstr "Nápověda"
 
 #. (itstool) path: page/p
-#: C/tech-help.page:12
+#: C/tech-help.page:23
 msgid ""
 "Users sometimes need a little help, even with the best-designed "
 "applications. GNOME provides a built-in topic-oriented help system that uses "
@@ -3944,7 +3984,7 @@ msgstr ""
 "nápovědou výrobců v jednom dokumentu."
 
 #. (itstool) path: page/p
-#: C/tech-help.page:22
+#: C/tech-help.page:33
 msgid ""
 "When you do need linear manuals, GNOME also supports the industry-standard "
 "<link href=\"http://docbook.org/\">DocBook</link> format."
@@ -3954,7 +3994,7 @@ msgstr ""
 "je průmyslovým standardem."
 
 #. (itstool) path: item/p
-#: C/tech-help.page:27
+#: C/tech-help.page:38
 msgid ""
 "<link href=\"http://projectmallard.org/about/learn/tenminutes.html\">Ten "
 "Minute Mallard Tour</link>"
@@ -3963,30 +4003,30 @@ msgstr ""
 "\">Desetiminutový průvodce formátem Mallard</link>"
 
 #. (itstool) path: item/p
-#: C/tech-help.page:28
+#: C/tech-help.page:39
 msgid "<link href=\"http://projectmallard.org/\">The Mallard web site</link>"
 msgstr ""
 "<link href=\"http://projectmallard.org/\">Webové stránky formátu Mallard</"
 "link>"
 
 #. (itstool) path: item/p
-#: C/tech-help.page:29
+#: C/tech-help.page:40
 msgid "<link href=\"http://docbook.org/\">The DocBook web site</link>"
 msgstr ""
 "<link href=\"http://docbook.org/\">Webové stránky formátu DocBook</link>"
 
 #. (itstool) path: info/desc
-#: C/tech-network-manager.page:6
+#: C/tech-network-manager.page:17
 msgid "Manage network connections and monitor online/offline status"
 msgstr "Jak spravovat síťová připojení a sledovat stav připojení/odpojení"
 
 #. (itstool) path: page/title
-#: C/tech-network-manager.page:9
+#: C/tech-network-manager.page:20
 msgid "NetworkManager"
 msgstr "NetworkManager"
 
 #. (itstool) path: page/p
-#: C/tech-network-manager.page:11
+#: C/tech-network-manager.page:22
 msgid ""
 "NetworkManager manages a computer's network connections. It takes care of "
 "DHCP negotiation to get an IP address for the computer when its networking "
@@ -4001,7 +4041,7 @@ msgstr ""
 "pomocí modemu."
 
 #. (itstool) path: page/p
-#: C/tech-network-manager.page:19
+#: C/tech-network-manager.page:30
 msgid ""
 "NetworkManager provides an extensive API that lets applications control "
 "network connections. However, this is mostly only of interest to the "
@@ -4016,7 +4056,7 @@ msgstr ""
 "úloh vztahujících se k síti."
 
 #. (itstool) path: page/p
-#: C/tech-network-manager.page:27
+#: C/tech-network-manager.page:38
 msgid ""
 "The core desktop shell in GNOME has a prominent NetworkManager icon; "
 "internally it uses the NetworkManager API to change network settings based "
@@ -4029,7 +4069,7 @@ msgstr ""
 "znát, jestli je počítač připojen/odpojen, používají NetworkManager také."
 
 #. (itstool) path: item/p
-#: C/tech-network-manager.page:36
+#: C/tech-network-manager.page:47
 msgid ""
 "<link href=\"https://wiki.gnome.org/Projects/NetworkManager\">NetworkManager "
 "home page</link>"
@@ -4038,7 +4078,7 @@ msgstr ""
 "stránka NetworkManager</link>"
 
 #. (itstool) path: item/p
-#: C/tech-network-manager.page:37
+#: C/tech-network-manager.page:48
 msgid ""
 "<link href=\"https://wiki.gnome.org/Projects/NetworkManager/Developers"
 "\">NetworkManager API reference</link>"
@@ -4047,17 +4087,17 @@ msgstr ""
 "\">Referenční příručka API NetworkManager</link>"
 
 #. (itstool) path: info/desc
-#: C/tech-notify.page:6
+#: C/tech-notify.page:23
 msgid "Interactive notifications in the desktop's message tray"
 msgstr "Interaktivní oznámení v pořadači zpráv pracovní plochy"
 
 #. (itstool) path: page/title
-#: C/tech-notify.page:10
+#: C/tech-notify.page:26
 msgid "Notify"
 msgstr "Oznamování"
 
 #. (itstool) path: page/p
-#: C/tech-notify.page:12
+#: C/tech-notify.page:28
 msgid ""
 "Libnotify provides an API for presenting notifications to the user. "
 "Notifications can be simple messages or they can allow the user to respond. "
@@ -4078,7 +4118,7 @@ msgstr ""
 "mohou zobrazit odlišným způsobem."
 
 #. (itstool) path: item/p
-#: C/tech-notify.page:24
+#: C/tech-notify.page:40
 msgid ""
 "<link href=\"http://developer.gnome.org/libnotify/unstable/\">Libnotify "
 "Reference Manual</link>"
@@ -4087,17 +4127,17 @@ msgstr ""
 "příručka ke knihovně Libnotify</link>"
 
 #. (itstool) path: info/desc
-#: C/tech-packagekit.page:6
+#: C/tech-packagekit.page:17
 msgid "Software installation and management"
 msgstr "Instalace a správa softwaru"
 
 #. (itstool) path: page/title
-#: C/tech-packagekit.page:9
+#: C/tech-packagekit.page:20
 msgid "PackageKit"
 msgstr "PackageKit"
 
 #. (itstool) path: page/p
-#: C/tech-packagekit.page:11
+#: C/tech-packagekit.page:22
 msgid ""
 "PackageKit lets applications query whether other packages are installed, "
 "regardless of the GNU/Linux distribution in which they are running. If your "
@@ -4114,7 +4154,7 @@ msgstr ""
 "potřebovat stáhnout písmo."
 
 #. (itstool) path: page/p
-#: C/tech-packagekit.page:20
+#: C/tech-packagekit.page:31
 msgid ""
 "Various Gnome applications use PackageKit in similar situations. Totem, the "
 "media player, uses PackageKit to request installation of codecs when it "
@@ -4130,7 +4170,7 @@ msgstr ""
 "potřebných ovladačů."
 
 #. (itstool) path: item/p
-#: C/tech-packagekit.page:29
+#: C/tech-packagekit.page:40
 msgid "<link href=\"http://www.packagekit.org/\">PackageKit home page</link>"
 msgstr ""
 "<link href=\"http://www.packagekit.org/\">Domovská stránka PackageKit</link>"
@@ -4195,17 +4235,17 @@ msgid "Foundational C utilities and object system"
 msgstr "Základní nástroje jazyka C a systém objektů"
 
 #. (itstool) path: info/desc
-#: C/tech-pango.page:6
+#: C/tech-pango.page:18
 msgid "International text rendering with full Unicode support"
 msgstr "Vykreslování vícejazyčného textu s plnou podporou Unikódu"
 
 #. (itstool) path: page/title
-#: C/tech-pango.page:10
+#: C/tech-pango.page:21
 msgid "Pango"
 msgstr "Pango"
 
 #. (itstool) path: page/p
-#: C/tech-pango.page:12
+#: C/tech-pango.page:23
 msgid ""
 "Pango is the core text and font handling library in the GNOME platform. It "
 "is responsible for laying out and rendering text, and is used throughout GTK"
@@ -4215,7 +4255,7 @@ msgstr ""
 "Zodpovídá za rozvržení a vykreslení textu a je používána napříč celým GTK+."
 
 #. (itstool) path: note/p
-#: C/tech-pango.page:16
+#: C/tech-pango.page:27
 msgid ""
 "The Pango layout engine can be used with different font backends and drawing "
 "backends. On most GNOME systems, Pango will use FreeType, fontconfig, and "
@@ -4230,7 +4270,7 @@ msgstr ""
 "Uniscribe v Microsoft Windows nebo ATSUI na Mac OS."
 
 #. (itstool) path: page/p
-#: C/tech-pango.page:23
+#: C/tech-pango.page:34
 msgid ""
 "Pango has extensive support for the various writing systems used throughout "
 "the world. Many of the writing systems used for languages have complex rules "
@@ -4248,7 +4288,7 @@ msgstr ""
 "automatická, vývojář aplikace nemusí pro další jazyky vytvářet speciální kód."
 
 #. (itstool) path: page/p
-#: C/tech-pango.page:32
+#: C/tech-pango.page:43
 msgid ""
 "Pango supports the kind of text styling used in typical documents and "
 "interfaces, including italics, font weights, and underlines. Pango uses a "
@@ -4267,7 +4307,7 @@ msgstr ""
 "stylovat text ve svém grafickém rozhraní."
 
 #. (itstool) path: page/p
-#: C/tech-pango.page:41
+#: C/tech-pango.page:52
 msgid ""
 "You should use Pango directly whenever you need to lay text out on the "
 "screen or on a different medium. Using Pango will allow your text layout to "
@@ -4282,7 +4322,7 @@ msgstr ""
 "vaše aplikace bude vykreslovat text správně pro stovky různých jazyků."
 
 #. (itstool) path: item/p
-#: C/tech-pango.page:50
+#: C/tech-pango.page:61
 msgid ""
 "<link href=\"https://developer.gnome.org/pango/stable/\">Pango Reference "
 "Manual</link>"
@@ -4291,23 +4331,23 @@ msgstr ""
 "knihovny Pango</link>"
 
 #. (itstool) path: item/p
-#: C/tech-pango.page:51
+#: C/tech-pango.page:62
 msgid "<link href=\"http://www.pango.org\">The Pango web site</link>"
 msgstr ""
 "<link href=\"http://www.pango.org\">Webové stránky knihovny Pango</link>"
 
 #. (itstool) path: info/desc
-#: C/tech-polkit.page:6
+#: C/tech-polkit.page:17
 msgid "Access control for system-level services provided through D-Bus"
 msgstr "Řízení přístupu pro služby na systémové úrovni poskytované přes D-Bus"
 
 #. (itstool) path: page/title
-#: C/tech-polkit.page:9
+#: C/tech-polkit.page:20
 msgid "Polkit"
 msgstr "Polkit"
 
 #. (itstool) path: page/p
-#: C/tech-polkit.page:11
+#: C/tech-polkit.page:22
 msgid ""
 "Polkit, or Policy Kit, handles the policies that let unprivileged processes "
 "talk to privileged ones via <link xref=\"tech-d-bus\">D-Bus</link> APIs. For "
@@ -4322,7 +4362,7 @@ msgstr ""
 "\"tech-network-manager\">NetworkManager</link>."
 
 #. (itstool) path: page/p
-#: C/tech-polkit.page:17
+#: C/tech-polkit.page:28
 msgid ""
 "Polkit lets the system administrator define different policies for different "
 "services. For example, only a user with physical access to the console may "
@@ -4339,7 +4379,7 @@ msgstr ""
 "budou zásady více omezující."
 
 #. (itstool) path: page/p
-#: C/tech-polkit.page:27
+#: C/tech-polkit.page:38
 msgid ""
 "GNOME uses PolicyKit whenever applications need to request privileged "
 "operations."
@@ -4348,7 +4388,7 @@ msgstr ""
 "operaci."
 
 #. (itstool) path: item/p
-#: C/tech-polkit.page:33
+#: C/tech-polkit.page:44
 msgid ""
 "<link href=\"http://www.freedesktop.org/wiki/Software/polkit\">Polkit home "
 "page</link>"
@@ -4357,17 +4397,17 @@ msgstr ""
 "stránka Polkit</link>"
 
 #. (itstool) path: info/desc
-#: C/tech-poppler.page:6
+#: C/tech-poppler.page:17
 msgid "PDF rendering"
 msgstr "Vykreslování PDF"
 
 #. (itstool) path: page/title
-#: C/tech-poppler.page:9
+#: C/tech-poppler.page:20
 msgid "Poppler"
 msgstr "Poppler"
 
 #. (itstool) path: page/p
-#: C/tech-poppler.page:11
+#: C/tech-poppler.page:22
 msgid ""
 "Poppler is a specialized library to render PDF documents. This can be used "
 "for various purposes. For example, Evince is GNOME'S PDF viewer, and it uses "
@@ -4383,24 +4423,24 @@ msgstr ""
 "stránek v PDF nebo z něj získávat jednotlivé stránky."
 
 #. (itstool) path: item/p
-#: C/tech-poppler.page:20
+#: C/tech-poppler.page:31
 msgid "<link href=\"http://poppler.freedesktop.org/\">Poppler home page</link>"
 msgstr ""
 "<link href=\"http://poppler.freedesktop.org/\">Domovská stránka Poppler</"
 "link>"
 
 #. (itstool) path: info/desc
-#: C/tech-pulseaudio.page:6
+#: C/tech-pulseaudio.page:17
 msgid "Low-level audio API"
 msgstr "Nízkoúrovňové API pro zvuk"
 
 #. (itstool) path: page/title
-#: C/tech-pulseaudio.page:9
+#: C/tech-pulseaudio.page:20
 msgid "PulseAudio"
 msgstr "PulseAudio"
 
 #. (itstool) path: page/p
-#: C/tech-pulseaudio.page:11
+#: C/tech-pulseaudio.page:22
 msgid ""
 "PulseAudio is GNOME's low-level audio API. It is what sits between "
 "applications and the kernel's audio API. PulseAudio lets you re-route sound "
@@ -4413,7 +4453,7 @@ msgstr ""
 "mění vzorkovací frekvenci proudu zvukových dat."
 
 #. (itstool) path: page/p
-#: C/tech-pulseaudio.page:18
+#: C/tech-pulseaudio.page:29
 msgid ""
 "All the parts of Gnome that produce audio use PulseAudio in one way or "
 "another, either directly, or indirectly through higher-level sound "
@@ -4424,7 +4464,7 @@ msgstr ""
 "pro práci se zvukem, jako je <link xref=\"tech-gstreamer\">GStreamer</link>."
 
 #. (itstool) path: item/p
-#: C/tech-pulseaudio.page:23
+#: C/tech-pulseaudio.page:34
 msgid ""
 "<link href=\"http://www.freedesktop.org/wiki/Software/PulseAudio"
 "\">PulseAudio home page</link>"
@@ -4433,17 +4473,17 @@ msgstr ""
 "stránka PulseAudio</link>"
 
 #. (itstool) path: info/desc
-#: C/tech-secret.page:6
+#: C/tech-secret.page:18
 msgid "Secure storage for passwords and other data"
 msgstr "Bezpečné úložiště pro hesla a další data"
 
 #. (itstool) path: page/title
-#: C/tech-secret.page:10
+#: C/tech-secret.page:21
 msgid "Secret"
 msgstr "Secret"
 
 #. (itstool) path: page/p
-#: C/tech-secret.page:12
+#: C/tech-secret.page:23
 msgid ""
 "GNOME uses libsecret as a secure keyring manager, to store users' passwords "
 "and other sensitive data. Applications can use the keyring manager library "
@@ -4456,7 +4496,7 @@ msgstr ""
 "mohou ke správě svých hesel používat aplikaci GNOME <app>Seahorse</app>."
 
 #. (itstool) path: page/p
-#: C/tech-secret.page:18
+#: C/tech-secret.page:29
 msgid ""
 "The keyring manager provides any number of keyrings, where each keyring can "
 "contain any number of keyring items. Items in a keyring store some piece of "
@@ -4471,7 +4511,7 @@ msgstr ""
 "přístup ke všem jejím položkám."
 
 #. (itstool) path: page/p
-#: C/tech-secret.page:25
+#: C/tech-secret.page:36
 msgid ""
 "The keyring manager provides access control lists for each keyring item, "
 "controlling which applications are allowed access to that item. If an "
@@ -4488,7 +4528,7 @@ msgstr ""
 "datům uživatele."
 
 #. (itstool) path: page/p
-#: C/tech-secret.page:32
+#: C/tech-secret.page:43
 msgid ""
 "Keyring data stored on the file system is encrypted with the AES block "
 "cipher, and SHA1 is used for hashes of the item's attributes. Using the "
@@ -4503,7 +4543,7 @@ msgstr ""
 "provede, jen když je položka nalezena a je k ní požadován přístup."
 
 #. (itstool) path: page/p
-#: C/tech-secret.page:39
+#: C/tech-secret.page:50
 msgid ""
 "The keyring manager also provides a session keyring. Items in the session "
 "keyring are never stored on disk, and are lost as soon as the user's session "
@@ -4516,7 +4556,7 @@ msgstr ""
 "se použijí jen v aktuálním sezení."
 
 #. (itstool) path: page/p
-#: C/tech-secret.page:44
+#: C/tech-secret.page:55
 msgid ""
 "If you use <link xref=\"tech-gio\">GIO</link> to access remote servers, you "
 "automatically get the benefits of the keyring manager. Whenever GIO needs to "
@@ -4529,7 +4569,7 @@ msgstr ""
 "ve výchozí klíčence nebo v klíčence sezení."
 
 #. (itstool) path: page/p
-#: C/tech-secret.page:49
+#: C/tech-secret.page:60
 msgid ""
 "You should use libsecret's keyring manager whenever your application needs "
 "to store passwords or other sensitive data for users. Using the keyring "
@@ -4542,7 +4582,7 @@ msgstr ""
 "dat."
 
 #. (itstool) path: note/p
-#: C/tech-secret.page:55
+#: C/tech-secret.page:66
 msgid ""
 "Gnome used a library called gnome-keyring before version 3.6 was released. "
 "In version 3.6 onward, libsecret is used instead. This allows sharing the "
@@ -4554,7 +4594,7 @@ msgstr ""
 "mezi GNOME a ostatními pracovními prostředími a aplikacemi."
 
 #. (itstool) path: item/p
-#: C/tech-secret.page:64
+#: C/tech-secret.page:75
 msgid ""
 "<link href=\"http://developer.gnome.org/libsecret/unstable/\">Libsecret "
 "Reference Manual</link>"
@@ -4563,17 +4603,17 @@ msgstr ""
 "příručka knihovny Libsecret</link>"
 
 #. (itstool) path: info/desc
-#: C/tech-soup.page:6
+#: C/tech-soup.page:17
 msgid "Asynchronous HTTP library with cookies, SSL, and XML-RPC"
 msgstr "Knihovna pro asynchronní HTTP podporující cookies, SSL a XML-RPC"
 
 #. (itstool) path: page/title
-#: C/tech-soup.page:9
+#: C/tech-soup.page:20
 msgid "Soup"
 msgstr "Soup"
 
 #. (itstool) path: page/p
-#: C/tech-soup.page:11
+#: C/tech-soup.page:22
 msgid ""
 "Soup, or libsoup as it is commonly called, is an HTTP library designed to be "
 "used in graphical applications which need asynchronous operations to avoid "
@@ -4585,7 +4625,7 @@ msgstr ""
 "požadavků na síť."
 
 #. (itstool) path: page/p
-#: C/tech-soup.page:17
+#: C/tech-soup.page:28
 msgid ""
 "Soup provides functionality for using HTTP cookies, SSL encrypted "
 "connections, and the XML-RPC protocol based on HTTP."
@@ -4594,7 +4634,7 @@ msgstr ""
 "šifrovaných přes SSL a protokolu XML-RPC založeného na HTTP."
 
 #. (itstool) path: note/p
-#: C/tech-soup.page:23
+#: C/tech-soup.page:34
 msgid ""
 "Trivia: Soup is called \"soup\" because it started as a library for doing "
 "SOAP requests over HTTP. Spanish speakers who are learning English "
@@ -4607,7 +4647,7 @@ msgstr ""
 "který by se mohl použít."
 
 #. (itstool) path: item/p
-#: C/tech-soup.page:32
+#: C/tech-soup.page:43
 msgid ""
 "<link href=\"https://developer.gnome.org/libsoup/stable/\">Soup reference "
 "manual</link>"
@@ -4616,17 +4656,17 @@ msgstr ""
 "příručka knihovny Soup</link>"
 
 #. (itstool) path: info/desc
-#: C/tech-telepathy.page:6
+#: C/tech-telepathy.page:23
 msgid "Unified instant-messaging and communications service"
 msgstr "Jednotné služby rychlé komunikace a komunikace po síti obecně"
 
 #. (itstool) path: page/title
-#: C/tech-telepathy.page:10
+#: C/tech-telepathy.page:26
 msgid "Telepathy"
 msgstr "Telepathy"
 
 #. (itstool) path: page/p
-#: C/tech-telepathy.page:12
+#: C/tech-telepathy.page:28
 msgid ""
 "Telepathy provides a powerful framework for interacting with the user's "
 "instant messaging contacts. With Telepathy, all accounts and connections are "
@@ -4641,7 +4681,7 @@ msgstr ""
 "Aplikace se mohou připojit k této službě, aby měly ke kontaktům přístup."
 
 #. (itstool) path: page/p
-#: C/tech-telepathy.page:18
+#: C/tech-telepathy.page:34
 msgid ""
 "With the Telepathy Tubes API, you can even tunnel an arbitrary protocol over "
 "modern instant messaging protocols like Jabber to create interactive "
@@ -4655,7 +4695,7 @@ msgstr ""
 "fungující napříč celým systémem."
 
 #. (itstool) path: item/p
-#: C/tech-telepathy.page:25
+#: C/tech-telepathy.page:41
 msgid ""
 "<link href=\"http://telepathy.freedesktop.org/doc/book/\">Telepathy "
 "Developer's Manual</link>"
@@ -4664,7 +4704,7 @@ msgstr ""
 "příručka Telepathy</link>"
 
 #. (itstool) path: item/p
-#: C/tech-telepathy.page:26
+#: C/tech-telepathy.page:42
 msgid ""
 "<link href=\"http://telepathy.freedesktop.org\">The Telepathy web site</link>"
 msgstr ""
@@ -4672,17 +4712,17 @@ msgstr ""
 "link>"
 
 #. (itstool) path: info/desc
-#: C/tech-tracker.page:6
+#: C/tech-tracker.page:17
 msgid "Storage and retrieval for document metadata"
 msgstr "Uchovávání a získávání metadat dokumentů"
 
 #. (itstool) path: page/title
-#: C/tech-tracker.page:9
+#: C/tech-tracker.page:20
 msgid "Tracker"
 msgstr "Tracker"
 
 #. (itstool) path: page/p
-#: C/tech-tracker.page:11
+#: C/tech-tracker.page:22
 msgid ""
 "Tracker is an RDF (resource data format) storage engine. RDF consists of "
 "<em>triplets</em> such as subject:verb:object. For example, there could be "
@@ -4697,7 +4737,7 @@ msgstr ""
 "se nazývá <em>ontologie</em>."
 
 #. (itstool) path: page/p
-#: C/tech-tracker.page:19
+#: C/tech-tracker.page:30
 msgid ""
 "Tracker provides a storage for such triplets, and a query engine in the form "
 "of the SPARQL query language."
@@ -4706,7 +4746,7 @@ msgstr ""
 "dotazů v jazyce SPARQL."
 
 #. (itstool) path: page/p
-#: C/tech-tracker.page:24
+#: C/tech-tracker.page:35
 msgid ""
 "GNOME uses Tracker as a storage for document metadata. A document's metadata "
 "may include its title, authors, copyright, modification date, and keywords. "
@@ -4728,7 +4768,7 @@ msgstr ""
 "další položky."
 
 #. (itstool) path: item/p
-#: C/tech-tracker.page:35
+#: C/tech-tracker.page:46
 msgid ""
 "<link href=\"https://wiki.gnome.org/Projects/Tracker\">Tracker Home Page</"
 "link>"
@@ -4737,7 +4777,7 @@ msgstr ""
 "Tracker</link>"
 
 #. (itstool) path: item/p
-#: C/tech-tracker.page:36
+#: C/tech-tracker.page:47
 msgid ""
 "<link href=\"https://wiki.gnome.org/Projects/Tracker/Documentation\">Tracker "
 "documentation</link>"
@@ -4746,17 +4786,17 @@ msgstr ""
 "\">Dokumentace Tracker</link>"
 
 #. (itstool) path: info/desc
-#: C/tech-webkit.page:6
+#: C/tech-webkit.page:23
 msgid "HTML5 web page rendering"
 msgstr "Vykreslování webových stránke v HTML5"
 
 #. (itstool) path: page/title
-#: C/tech-webkit.page:10
+#: C/tech-webkit.page:26
 msgid "WebKit"
 msgstr "WebKit"
 
 #. (itstool) path: page/p
-#: C/tech-webkit.page:12
+#: C/tech-webkit.page:28
 msgid ""
 "WebKit is a powerful, multi-platform HTML engine used in open source and "
 "commercial/proprietary products alike. WebKitGTK+ is the port of WebKit "
@@ -4772,7 +4812,7 @@ msgstr ""
 "HTML5."
 
 #. (itstool) path: page/p
-#: C/tech-webkit.page:18
+#: C/tech-webkit.page:34
 msgid ""
 "WebKitGTK+ makes it easy to add web functionality to your application, or to "
 "use HTML5 and associated technologies to create dynamic user interfaces "
@@ -4783,7 +4823,7 @@ msgstr ""
 "dynamického uživatelského rozhraní."
 
 #. (itstool) path: item/p
-#: C/tech-webkit.page:23
+#: C/tech-webkit.page:39
 msgid ""
 "<link href=\"http://developer.gnome.org/gnome-devel-demos/stable/message-"
 "board.c.html\">WebKitGTK+ demo tutorial</link>"
@@ -4792,7 +4832,7 @@ msgstr ""
 "board.c.html\">Průvodce ukázkami WebKitGTK+</link>"
 
 #. (itstool) path: item/p
-#: C/tech-webkit.page:24
+#: C/tech-webkit.page:40
 msgid ""
 "<link href=\"http://webkitgtk.org/reference/webkit2gtk/stable/\">WebKitGTK+ "
 "Reference Manual</link>"
@@ -4801,7 +4841,7 @@ msgstr ""
 "příručka knihovny WebKitGTK+</link>"
 
 #. (itstool) path: item/p
-#: C/tech-webkit.page:25
+#: C/tech-webkit.page:41
 msgid "<link href=\"http://webkitgtk.org/\">The WebKitGTK+ web site</link>"
 msgstr ""
 "<link href=\"http://webkitgtk.org/\">Webové stránky knihovny WebKitGTK+</"
