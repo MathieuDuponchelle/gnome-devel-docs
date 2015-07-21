@@ -16,7 +16,7 @@
 
 <p>Once you have decided which patterns to use, the <link xref="ui-elements">user interface elements pages</link> provide details of individual elements that you can use to fill out your design.</p>
 
-<links type="topic" style="2column" groups="application-menus primary-windows header-bars header-bar-menus grids lists selection-mode search view-switchers sidebar-lists dialogs notifications action-bars"/>
+<links type="topic" style="2column" groups="application-menus primary-windows header-bars header-bar-menus grids lists selection-mode search view-switchers sidebar-lists dialogs notifications action-bars overlaid-controls"/>
 
 <media type="image" mime="image/svg" src="figures/patterns/patterns.svg"/>
 
