@@ -1,3 +1,15 @@
+3.17.4
+======
+
+* Improvements to the HIG (Allan Day)
+* Improved  licensing of the platform overview (Ekaterina Gerasimova)
+* Port Python demos to Python 3 (David King)
+* Add a page on API stability to the programming guidelines (Philip Withnall)
+* Updated translations:
+  cs      (Marek Černocký)
+  el      (Dimitris Spingos)
+  es      (Daniel Mustieles)
+
 3.16.2
 ======
 
