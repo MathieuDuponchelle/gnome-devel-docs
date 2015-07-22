@@ -14,33 +14,88 @@
 <title>GNOME Human Interface Guidelines</title>
 <media type="image" its:translate="no" src="figures/hig.png"/>
 
-<p>The GNOME Human Interface Guidelines contain guidance on how to design an effective application using GTK+. The guidelines give access to a complete set of design guidance, from high-level design of your application, through to specific arrangements of user interface elements. It incorporates a blend of modern design thinking, along with a concern for practicality and ease of use.</p>
+<p>Whether you are a developer or a designer, these guidelines contain everything you need to design effective applications using GTK+. They cover design principles for GNOME 3, common guidelines such as how to write text and use images and icons, as well as a library of design patterns which you can use in your application.</p>
 
-<section id="audience">
-<title>Audience</title>
+<p>While the guidelines have an emphasis on designing for GNOME 3, they can also be used to create cross-platform applications and for applications that have previously followed the GNOME 2 Human Interface Guidelines (HIG).</p>
 
-<p>If you are a developer with limited design experience, the HIG is intended to assist you in easily creating an effective user interface. For designers, the HIG provides an introduction to the possibilities in using GTK+, as well as common design patterns that are used in GNOME applications.</p>
+<section id="getting-started">
+<title>Getting started</title>
 
-<p>GTK+ is a flexible user interface toolkit. As such, these guidelines do not cover every possible design. Instead, they document recommended practices for creating desktop applications.</p>
+<p>Essential guidelines for GTK+ and GNOME design.</p>
 
-<p>Similarly, while the HIG does provide guidance on GNOME 3 integration, and can be used to ensure consistency with other GNOME 3 applications, it can be used as a resource for those creating cross-platform applications, or applications which do not closely follow GNOME 3 application design practices.</p>
+<table>
+<tr>
+<td><p><link xref="design-principles"><em style="strong">Design principles</em></link></p></td>
+<td><p>General design guidelines and advice.</p></td>
+</tr>
+<tr>
+<td><p><link xref="application-basics"><em style="strong">Application basics</em></link></p></td>
+<td><p>Basic application behavior and characteristics.</p></td>
+</tr>
+<tr>
+<td><p><link xref="compatibility"><em style="strong">Compatibility</em></link></p></td>
+<td><p>Using the HIG for cross-platform or GNOME 2 style applications.</p></td>
+</tr>
+
+</table>
+
 </section>
 
-<section id="structure">
-<title>Structure of the HIG</title>
+<section id="common-guidelines">
+<title>Common guidelines</title>
 
-<p>The Human Interface Guidelines can be read from beginning to end or used as a reference resource that can be returned to again and again. They have three main sections:</p>
+<p>General information that applies to the full range of design patterns and user interface elements.</p>
 
-<list>
-<item><p><link xref="essentials">Essentials</link> - these pages include overarching guidance on thematic topics. They include sections on recommended design principles, as well as guidance on themes like writing style and artwork.</p></item>
-<item><p><link xref="patterns">Patterns</link> - design patterns make up the core of the HIG. Each pattern is a particular arrangement of user interface elements which can be used to construct an application design. The patterns allow key design decisions to be abstracted away from the nitty gritty of individual user interface elements.</p></item>
-<item><p><link xref="ui-elements">Interface elements</link> - guidance on the various interface elements, such as buttons, switches, and sliders, that you can use in your application.</p></item>
-</list>
-
-<p>If you have never read the Human Interface Guidelines before, it is recommended that you start with the essentials section, in particular the design principles page, before continuing to learn about the design patterns.</p>
+<table>
+<tr>
+<td><p><link xref="visual-layout"><em style="strong">Visual layout</em></link></p></td>
+<td><p>Arranging elements within user interfaces.</p></td>
+</tr>
+<tr>
+<td><p><link xref="writing-style"><em style="strong">Writing style</em></link></p></td>
+<td><p>Writing text for your user interface, including capitalization rules.</p></td>
+</tr>
+<tr>
+<td><p><link xref="icons-and-artwork"><em style="strong">Icons and artwork</em></link></p></td>
+<td><p>Guidelines on selecting and creating icons.</p></td>
+</tr>
+<tr>
+<td><p><link xref="typography"><em style="strong">Typography</em></link></p></td>
+<td><p>Advice on font sizes, weights and styles, as well as special characters.</p></td>
+</tr>
+<tr>
+<td><p><link xref="pointer-and-touch-input"><em style="strong">Pointer and touch input</em></link></p></td>
+<td><p>Mouse, touchpad and touchscreen interaction.</p></td>
+</tr>
+<tr>
+<td><p><link xref="keyboard-input"><em style="strong">Keyboard input</em></link></p></td>
+<td><p>Keyboard navigation, access and shortcut keys.</p></td>
+</tr>
+<tr>
+<td><p><link xref="display-compatibility"><em style="strong">Display compatibility</em></link></p></td>
+<td><p>How to support different device and display types.</p></td>
+</tr>
+</table>
 
 </section>
 
-<!-- Could add details of changes to each version here, after branching? -->
-	
+<section id="patterns-and-elements">
+<title>Design patterns and user interface elements</title>
+
+<p>Patterns and user interface elements form the core of the HIG. Together, they form the building blocks for application design.</p>
+
+<table>
+<tr>
+<td><p><link xref="patterns"><em style="strong">Design patterns</em></link></p></td>
+<td><p>Essential and optional design components.</p></td>
+</tr>
+<tr>
+<td><p><link xref="ui-elements"><em style="strong">User interface elements</em></link></p></td>
+<td><p>Guidelines on common elements, such as buttons, progress bars and popovers.</p></td>
+</tr>
+
+</table>
+
+</section>
+
 </page>
