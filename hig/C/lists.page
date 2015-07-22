@@ -1,9 +1,11 @@
 <page xmlns="http://projectmallard.org/1.0/"
+      xmlns:uix="http://projectmallard.org/experimental/ui/"
       type="topic"
       id="lists">
 
   <info>
-    <link type="guide" xref="patterns" group="lists"/>   
+    <link type="guide" xref="patterns#primary"/>
+    <desc>Rows of information or content items.</desc>
     <credit type="author">
       <name>Allan Day</name>
       <email>aday@gnome.org</email>

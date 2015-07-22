@@ -3,7 +3,8 @@
       id="overlaid-controls">
 
   <info>
-    <link type="guide" xref="patterns" group="overlaid-controls"/>   
+    <link type="guide" xref="patterns#secondary"/>
+    <desc>Floating controls, often used for images and video controls</desc>
     <credit type="author">
       <name>Allan Day</name>
       <email>aday@gnome.org</email>

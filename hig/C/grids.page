@@ -1,9 +1,11 @@
 <page xmlns="http://projectmallard.org/1.0/"
+      xmlns:uix="http://projectmallard.org/experimental/ui/"
       type="topic"
       id="grids">
 
   <info>
-    <link type="guide" xref="patterns" group="grids"/>   
+    <link type="guide" xref="patterns#primary"/>   
+    <desc>Grids of thumbnails or icons</desc>
     <credit type="author">
       <name>Allan Day</name>
       <email>aday@gnome.org</email>

@@ -3,7 +3,8 @@
       id="dialogs">
 
   <info>
-    <link type="guide" xref="patterns" group="dialogs"/>   
+    <link type="guide" xref="patterns#primary"/>
+    <desc>Secondary windows that appear over primary, parent windows</desc>  
     <credit type="author">
       <name>Allan Day</name>
       <email>aday@gnome.org</email>
@@ -23,7 +24,7 @@
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
   </info>
 
-<title>Dialogs</title>
+<title>Dialog windows</title>
 
 <p>Dialogs are secondary windows that appear over a primary, parent window. They are used to present additional information or controls, including preferences and properties, or to present messages or questions.</p>
 

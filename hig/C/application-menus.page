@@ -3,7 +3,8 @@
       id="application-menus">
 
   <info>
-    <link type="guide" xref="patterns" group="application-menus"/>   
+    <link type="guide" xref="patterns#primary"/>
+    <desc>Global application menu that is accessed from the top bar</desc>
     <credit type="author">
       <name>Allan Day</name>
       <email>aday@gnome.org</email>

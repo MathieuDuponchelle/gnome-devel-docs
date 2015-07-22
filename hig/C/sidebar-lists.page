@@ -3,7 +3,8 @@
       id="sidebar-lists">
 
   <info>
-    <link type="guide" xref="patterns" group="sidebar-lists"/>
+    <link type="guide" xref="patterns#secondary"/>
+    <desc>Navigation sidebar that contains a list</desc>
     <credit type="author">
       <name>Allan Day</name>
       <email>aday@gnome.org</email>

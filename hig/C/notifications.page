@@ -1,9 +1,11 @@
 <page xmlns="http://projectmallard.org/1.0/"
+      xmlns:uix="http://projectmallard.org/experimental/ui/"
       type="topic"
       id="notifications">
 
   <info>
-    <link type="guide" xref="patterns" group="notifications"/>   
+    <link type="guide" xref="patterns#primary"/>
+    <desc>System-wide event notifications</desc>
     <credit type="author">
       <name>Allan Day</name>
       <email>aday@gnome.org</email>

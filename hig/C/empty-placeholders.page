@@ -1,9 +1,11 @@
 <page xmlns="http://projectmallard.org/1.0/"
+      xmlns:uix="http://projectmallard.org/experimental/ui/"
       type="topic"
       id="empty-placeholder">
 
   <info>
-    <link type="guide" xref="patterns" group="empty-placeholder"/>   
+    <link type="guide" xref="patterns#secondary"/>
+    <desc>Image and text shown when a grid or list is empty</desc>
     <credit type="author">
       <name>Allan Day</name>
       <email>aday@gnome.org</email>

@@ -10,14 +10,25 @@
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
   </info>
 
-<title>Patterns</title>
+<title>Design patterns</title>
 
-<p>Patterns are the primary elements that make up an application design. Some patterns, like <link xref="application-menus">application menus</link> or <link xref="header-bars">header bars</link>, are highly recommended. Others are optional, and deciding on which patterns you want to use forms a core part of the design process. To help with this, each pattern page details the appropriate uses of each pattern, and suggests alternatives that might be applicable.</p>
+<p>Patterns are the primary elements that make up an application design. Some patterns, like application menus or header bars, are highly recommended. Others are optional, and deciding on which patterns you want to use forms a core part of the design process. To help with this, each pattern page details the appropriate uses of each pattern, and suggests alternatives that might be applicable.</p>
 
-<p>Once you have decided which patterns to use, the <link xref="ui-elements">user interface elements pages</link> provide details of individual elements that you can use to fill out your design.</p>
-
-<links type="topic" style="2column" groups="application-menus primary-windows header-bars header-bar-menus grids lists selection-mode search view-switchers sidebar-lists dialogs notifications action-bars overlaid-controls empty-placeholders"/>
-
+<section id="anatomy">
+<title>Anatomy of a GNOME 3 application</title>
+<p>A visual reference for some of the most common GNOME 3 design patterns.</p>
 <media type="image" mime="image/svg" src="figures/patterns/patterns.svg"/>
+</section>
+
+<section id="primary">
+<title>Core design patterns</title>
+<links type="topic" style="2column"/>
+
+</section>
+
+<section id="secondary">
+<title>Supplementary design patterns</title>
+<links type="topic" style="2column"/>
+</section>
 
 </page>
