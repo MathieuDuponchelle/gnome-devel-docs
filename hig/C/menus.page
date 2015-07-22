@@ -1,4 +1,5 @@
 <page xmlns="http://projectmallard.org/1.0/"
+      xmlns:uix="http://projectmallard.org/experimental/ui/"
       type="topic"
       id="menus">
 
@@ -19,6 +20,10 @@
     <credit>
       <name>Colin Robertson</name>
     </credit>
+
+    <link type="guide" xref="ui-elements"/>
+    <uix:thumb mime="image/svg" src="figures/ui-elements/menu.svg"/>
+
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
   </info>
 
