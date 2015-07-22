@@ -13,14 +13,16 @@
 
 <title>Display compatibility</title>
 
-<p>GNOME 3 supports a variety of device types, including desktops, laptops and convertibles. This requires that applications be compatible with displays with different sizes ad orientations.</p>
+<p>GNOME 3 supports a variety of device types, including desktops, laptops and convertibles. This requires that applications be compatible with displays that have different sizes and orientations.</p>
+
+<p>The size requirements stated on this page should be doubled for high-resolution displays (those with greater than 96 PPI).</p>
 
 <section id="general">
 <title>General guidelines</title>
 
 <list>
-<item><p>It should be possible for all application windows to fit on the smallest recommended displays for GNOME 3. Currently, this is 1280×720 pixels.</p></item>
-<item><p>Ensure that your application works well in portrait orientation. The minimum recommended dimensions for portrait mode are 768×1366 pixels.</p></item>
+<item><p>It should be possible for all application windows to fit on the smallest recommended displays for GNOME 3. Currently, this is 1024×600 pixels.</p></item>
+<item><p>Ensure that your application works well in portrait orientation. The minimum recommended width for portrait mode is 768 pixels.</p></item>
 <item><p>All primary windows should be resizable. This ensures that transitions between landscape and portrait mode can be automatically handled by the window manager.</p></item>
 <item><p>Test to make sure that your interface works well on large displays. Where possible, scale content to make the best use of available space, or used fixed width layouts to ensure that interface elements maintain effective grouping and alignment.</p></item>
 </list>
@@ -30,7 +32,7 @@
 <section id="half-screen-snap">
 <title>Half-screen snap</title>
 
-<p>GNOME 3 allows windows to be snapped to occupy half the width of a display. This functionality is useful for using windows alongside each other. As the minimum recommended screen size for GNOME 3 is 1280×720 pixels, windows supporting half-screen snap should have a minimum width of no less than 640 pixels.</p>
+<p>GNOME 3 allows windows to be snapped to occupy half the width of the display, allowing two windows to be used alongside each other. Half-screen snap is impractical on very small displays. As a rule of thumb, it should be supported on screens that are 1280 pixels or wider, meaning that windows should have a minimum width of no less than 640 pixels.</p>
 
 <p>Since half-screen snap is only useful when windows are used in parallel, applications that are used in isolation do not need to support half-screen snap (a music player is a good example of this).</p>
 
