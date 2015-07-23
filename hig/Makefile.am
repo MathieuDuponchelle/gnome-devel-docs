@@ -14,7 +14,6 @@ HELP_FILES = \
 	design-principles.page \
 	dialogs.page \
 	drop-down-lists.page \
-	essentials.page \
 	grids.page \
 	header-bar-menus.page \
 	header-bars.page \
