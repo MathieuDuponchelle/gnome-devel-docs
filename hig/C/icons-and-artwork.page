@@ -14,12 +14,12 @@
     <desc>Selecting and creating icons.</desc>   
   </info>
 
-<title>Icons and Artwork</title>
+<title>Icons and artwork</title>
 
 <p>Icons play an important role in user interfaces: selecting the correct icon is therefore vital to making sure that your application is usable. An identifying icon is also an essential part of any application, and is a crucial part of its identity.</p>
 
 <section id="using-icons">
-<title>Using Icons in Your User Interface</title>
+<title>Using icons in your user interface</title>
 
 <p>There are many situations when it is necessary to decide between using an icon and a text label, particularly for buttons. Icons have the advantage of being smaller, and not requiring translation. At the same time, the incorrect use of an icon can make your interface hard - or even impossible - to understand.</p>
 
@@ -35,7 +35,7 @@
 </section>
 
 <section id="stock-icons">
-<title>Choosing Stock GNOME Icons</title>
+<title>Choosing stock GNOME icons</title>
 
 <p>GNOME provides a full set of standard icons. These should be used where ever appropriate; try to avoid creating custom icons unless they are absolutely necessary.</p>
 
@@ -44,7 +44,7 @@
 <p>You can use the GTK+ icon browser to find recommended icons.</p>
 
 <section id="color-vs-symbolic">
-<title>Color vs. Symbolic Icons</title>
+<title>Color vs. symbolic icons</title>
 
 <p>GNOME 3 provides two types of icon: full-color and monochrome symbolic icons. The guidelines in this HIG indicate when to use which type of icon. The following is a a general guide.</p>
 
@@ -70,7 +70,7 @@
 </section>
 
 <section id="application-icons">
-<title>Application Icons</title>
+<title>Application icons</title>
 
 <p>Every application should have a unique and beautiful application icon. It is the face of the application, and the first visual element a user sees when browsing for new applications. The <link xref="application-basics">application basics page</link> includes details on what an application is, and when to provide an application icon.</p>
 
@@ -89,7 +89,7 @@
 </section>
 
 <section id="custom-symbolic-icons">
-<title>Custom Symbolic Icons</title>
+<title>Custom symbolic icons</title>
 
 <p>Symbolic icons have a simple form and are drawn within a 16x16 pixel grid. They are then programmatically scaled and colored within the user interface itself.</p>
 
@@ -113,7 +113,7 @@
 </section>
 
 <section id="custom-full-color-icons">
-<title>Custom Full-Color Icons</title>
+<title>Custom full-color icons</title>
 
 <p>Full-color icons are drawn and rendered at a variety of preset sizes.</p>
 
@@ -168,7 +168,7 @@
 </section>
 
 <section id="see-also">
-<title>See Also</title>
+<title>See also</title>
 
 <p><link href="http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines">Tango Icon Guidelines</link></p>
 

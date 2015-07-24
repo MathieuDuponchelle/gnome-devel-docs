@@ -19,14 +19,14 @@
 <p>Text is an important part of any user interface. Text size, positioning and weight all contribute to the ability for text to convey information effectively, and also play an important role in creating a beautiful appearance.</p>
 
 <section id="default-fonts">
-<title>Default Fonts</title>
+<title>Default fonts</title>
 
 <p>Wherever possible, use the default system fonts as provided by the distribution or operating system on which your application is running. In GNOME 3, the default font is Cantarell, which was originally designed and developed by David Crossland.</p>
 
 </section>
 
 <section id="variants-sizes-weights">
-<title>Variants, Sizes and Weights</title>
+<title>Variants, sizes and weights</title>
 
 <p>Different text weights and colors can and should be used to distinguish different kinds of information. At the same time, too many variants, sizes, and weights can make text harder to read and isn't an efficient or elegant way to convey information. Make an effort to minimize the range of font variants, sizes and weights.</p>
 
@@ -40,7 +40,7 @@
 </section>
 
 <section id="unicode">
-<title>Take Advantage of Unicode</title>
+<title>Take advantage of unicode</title>
 
 <p>Unicode provides a wide variety of characters which, when used correctly, can dramatically improve the impression given by your application. The following Unicode characters are recommended:</p>
 

@@ -25,7 +25,7 @@
 </section>
 
 <section id="gnome-2-compatibility">
-<title>GNOME 2 Compatibility</title>
+<title>GNOME 2 compatibility</title>
 
 <p>These Human Interface Guidelines are an evolution of the GNOME 2 HIG, and represent an improvement on the previous version. Applications that follow the new version of the HIG will use space more efficiently, will provide a more focused user experience, and will use modern interpretations of key functionality, such as search, online integration, or notifications.</p>
 
