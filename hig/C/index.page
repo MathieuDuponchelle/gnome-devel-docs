@@ -16,18 +16,36 @@
 
 <p>Whether you are a developer or a designer, these guidelines contain everything you need to design effective applications using GTK+. They cover design principles for GNOME 3, common guidelines such as how to write text and use images and icons, as well as a library of design patterns which you can use in your application.</p>
 
-<p>While the guidelines have an emphasis on designing for GNOME 3, they can also be used to create cross-platform applications, as well as for applications that have previously followed the GNOME 2 Human Interface Guidelines.</p>
+<p>While the HIG places an emphasis on designing for GNOME 3, it can also be used to create cross-platform applications, as well as for applications that have previously followed the GNOME 2 Human Interface Guidelines. The <link xref="compatibility">compatibility guidelines</link> contain more information on this.</p>
 
-<section id="getting-started">
-<title>Getting started</title>
+<section id="core-material">
+<title>Core material</title>
 
-<p>Essential guidelines for GTK+ and GNOME design.</p>
+<p>Patterns and user interface elements form the core of the HIG. Together, they are the building blocks for application design. If you are new to the HIG, it is recommended that you start with the page on design principles and then browse the patterns, before going on to other material.</p>
 
 <table>
 <tr>
 <td><p><link xref="design-principles"><em style="strong">Design principles</em></link></p></td>
 <td><p>General design guidelines and advice.</p></td>
 </tr>
+<tr>
+<td><p><link xref="patterns"><em style="strong">Patterns</em></link></p></td>
+<td><p>Essential and optional design components.</p></td>
+</tr>
+<tr>
+<td><p><link xref="ui-elements"><em style="strong">User interface elements</em></link></p></td>
+<td><p>Guidelines on common elements, such as buttons, progress bars and popovers.</p></td>
+</tr>
+</table>
+
+</section>
+
+<section id="common-guidelines">
+<title>Common guidelines</title>
+
+<p>These guidelines apply to the full range of design elements. It is recommended that you familiarize yourself with them.</p>
+
+<table>
 <tr>
 <td><p><link xref="application-basics"><em style="strong">Application basics</em></link></p></td>
 <td><p>Basic application behavior and characteristics.</p></td>
@@ -36,17 +54,6 @@
 <td><p><link xref="compatibility"><em style="strong">Compatibility</em></link></p></td>
 <td><p>Using the HIG for cross-platform or GNOME 2 style applications.</p></td>
 </tr>
-
-</table>
-
-</section>
-
-<section id="common-guidelines">
-<title>Common guidelines</title>
-
-<p>General information that applies to the full range of design patterns and user interface elements.</p>
-
-<table>
 <tr>
 <td><p><link xref="visual-layout"><em style="strong">Visual layout</em></link></p></td>
 <td><p>Arranging elements within user interfaces.</p></td>
@@ -75,25 +82,6 @@
 <td><p><link xref="display-compatibility"><em style="strong">Display compatibility</em></link></p></td>
 <td><p>How to support different device and display types.</p></td>
 </tr>
-</table>
-
-</section>
-
-<section id="design-components">
-<title>Design components</title>
-
-<p>Patterns and user interface elements form the core of the HIG. Together, they are the building blocks for application design.</p>
-
-<table>
-<tr>
-<td><p><link xref="patterns"><em style="strong">Design patterns</em></link></p></td>
-<td><p>Essential and optional design components.</p></td>
-</tr>
-<tr>
-<td><p><link xref="ui-elements"><em style="strong">User interface elements</em></link></p></td>
-<td><p>Guidelines on common elements, such as buttons, progress bars and popovers.</p></td>
-</tr>
-
 </table>
 
 </section>
