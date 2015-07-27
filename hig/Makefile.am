@@ -13,17 +13,22 @@ HELP_FILES = \
 	compatibility.page \
 	design-principles.page \
 	dialogs.page \
+        display-compatibility.page \
 	drop-down-lists.page \
+        empty-placeholders.page \
 	grids.page \
 	header-bar-menus.page \
 	header-bars.page \
 	icons-and-artwork.page \
 	index.page \
+        in-app-notifications.page \
+        info-bars.page \
 	keyboard-input.page \
 	lists.page \
 	menu-bars.page \
 	menus.page \
 	notifications.page \
+        overlaid-controls.page \
 	patterns.page \
 	pointer-and-touch-input.page \
 	popovers.page \
@@ -71,8 +76,11 @@ HELP_MEDIA = \
         figures/patterns/grid.svg \
         figures/patterns/header-bar.svg \
         figures/patterns/header-bar-menu.svg \
+        figures/patterns/in-app-notifications.svg \
+        figures/patterns/info-bars.svg \
         figures/patterns/list-styles.svg \
         figures/patterns/message-dialog.svg \
+        figures/patterns/overlaid-controls.svg \
         figures/patterns/patterns.svg \
         figures/patterns/presentation-dialog.svg \
         figures/patterns/primary-windows.svg \
