@@ -13,22 +13,22 @@ HELP_FILES = \
 	compatibility.page \
 	design-principles.page \
 	dialogs.page \
-        display-compatibility.page \
+	display-compatibility.page \
 	drop-down-lists.page \
-        empty-placeholders.page \
+	empty-placeholders.page \
 	grids.page \
 	header-bar-menus.page \
 	header-bars.page \
 	icons-and-artwork.page \
 	index.page \
-        in-app-notifications.page \
-        info-bars.page \
+	in-app-notifications.page \
+	info-bars.page \
 	keyboard-input.page \
 	lists.page \
 	menu-bars.page \
 	menus.page \
 	notifications.page \
-        overlaid-controls.page \
+	overlaid-controls.page \
 	patterns.page \
 	pointer-and-touch-input.page \
 	popovers.page \
