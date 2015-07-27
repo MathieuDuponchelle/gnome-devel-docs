@@ -1,0 +1,54 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:uix="http://projectmallard.org/experimental/ui/"
+      type="topic"
+      id="info-bars">
+
+  <info>
+    <link type="guide" xref="patterns#secondary"/>
+    <desc>Application event notifications</desc>
+    <credit type="author">
+      <name>Allan Day</name>
+      <email>aday@gnome.org</email>
+    </credit>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>Info bars</title>
+
+<media type="image" mime="image/svg" src="figures/patterns/info-bar.svg"/>
+
+<p>An info bar is a strip that is placed above a content view, directly below the header bar or tool bar. It contains text, and can also include controls. Info bars persist: they can be permanent, or they can be dismissed by the user.</p>
+
+<section id="when-to-use">
+<title>When to use</title>
+
+<p>Info bars can be used to communicate ongoing states or supplementary information about a particular content item or location. For example, an info bar could indicate that a document is out of date or being edited by other, or that a service relating to a location is not operating.</p>
+
+<p>Since info bars are persistent, they are generally more appropriate for communicating ongoing states rather than events (<link xref="notifications">notifications</link> or <link xref="in-app-notifications">in-app notifications</link> are more appropriate here). Info bars should generally not be shown for short periods of time.</p>
+
+<p>Info bars primarily communicate by using text, and have the advantage that they can include both a heading and a longer explanation. However, they also take up space and attract attention. If the state you want to communicate is not critical, or can be communicated through a simple string or icon, you might want to consider alternative approaches: text or icons can be added elsewhere in your interface, or the appearance of navigation controls (such as <link xref="view-switchers">view switchers</link>, <link xref="tabs">tabs</link> or <link xref="sidebar-lists">sidebar</link> lists) can be changed.</p>
+
+</section>
+
+<section id="guidelies">
+<title>Guidelines</title>
+
+<list>
+<item><p>Beware of info bar over-use: they should be an exceptional presence in your interface.</p></item>
+<item><p>Only one info bar should be visable at any one time.</p></item>
+<item><p>Only include a longer explanation if it is really needed: a simple heading can often be sufficient.</p></item>
+<item><p>Generally speaking, info bars do not require an icon.</p></item>
+</list>
+
+</section>
+
+<section id="api-reference">
+<title>API reference</title>
+
+<list>
+<item><p><link xref="https://developer.gnome.org/gtk3/stable/GtkInfoBar.html">GtkInfoBar</link></p></item>
+</list>
+
+</section>
+
+</page>
