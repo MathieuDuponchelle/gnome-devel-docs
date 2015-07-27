@@ -22,9 +22,9 @@
 <section id="when-to-use">
 <title>When to use</title>
 
-<p>Info bars can be used to communicate ongoing states or supplementary information about a particular content item or location. For example, an info bar could indicate that a document is out of date or being edited by other, or that a service relating to a location is not operating.</p>
+<p>Info bars can be used to communicate a particular state about a particular content item or location. For example, an info bar could indicate that a document is out of date or being edited by other, or that a service relating to a location is not operating. In some situations, they can also be used to present supplementary information, such as user guidance.</p>
 
-<p>Since info bars are persistent, they are generally more appropriate for communicating ongoing states rather than events (<link xref="notifications">notifications</link> or <link xref="in-app-notifications">in-app notifications</link> are more appropriate here). Info bars should generally not be shown for short periods of time.</p>
+<p>Since info bars are persistent, they are generally more appropriate for communicating ongoing states rather than events (<link xref="notifications">notifications</link> or <link xref="in-app-notifications">in-app notifications</link> are more appropriate here).</p>
 
 <p>Info bars primarily communicate by using text, and have the advantage that they can include both a heading and a longer explanation. However, they also take up space and attract attention. If the state you want to communicate is not critical, or can be communicated through a simple string or icon, you might want to consider alternative approaches: text or icons can be added elsewhere in your interface, or the appearance of navigation controls (such as <link xref="view-switchers">view switchers</link>, <link xref="tabs">tabs</link> or <link xref="sidebar-lists">sidebar</link> lists) can be changed.</p>
 
@@ -34,7 +34,7 @@
 <title>Guidelines</title>
 
 <list>
-<item><p>Beware of info bar over-use: they should be an exceptional presence in your interface.</p></item>
+<item><p>Beware of info bar overuse: they should be an exceptional presence in your interface.</p></item>
 <item><p>Only one info bar should be visable at any one time.</p></item>
 <item><p>Only include a longer explanation if it is really needed: a simple heading can often be sufficient.</p></item>
 <item><p>Generally speaking, info bars do not require an icon.</p></item>
