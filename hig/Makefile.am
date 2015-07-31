@@ -76,8 +76,8 @@ HELP_MEDIA = \
         figures/patterns/grid.svg \
         figures/patterns/header-bar.svg \
         figures/patterns/header-bar-menu.svg \
-        figures/patterns/in-app-notifications.svg \
-        figures/patterns/info-bars.svg \
+        figures/patterns/in-app-notification.svg \
+        figures/patterns/info-bar.svg \
         figures/patterns/list-styles.svg \
         figures/patterns/message-dialog.svg \
         figures/patterns/overlaid-controls.svg \
