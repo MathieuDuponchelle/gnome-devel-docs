@@ -7,10 +7,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2015-07-24 10:26+0000\n"
-"PO-Revision-Date: 2015-07-26 13:03+0300\n"
+"POT-Creation-Date: 2015-08-03 07:00+0000\n"
+"PO-Revision-Date: 2015-08-07 19:47+0300\n"
 "Last-Translator: Dimitris Spingos (Δημήτρης Σπίγγος) <dmtrs32@gmail.com>\n"
-"Language-Team: www.gnome.gr\n"
+"Language-Team: team@lists.gnome.gr\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,7 +33,7 @@ msgstr "Αυτό το έργο έχει αδειοδοτηθεί από την <
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
-"Ελληνική μεταφραστική ομάδα GNOME <team@gnome.gr>, 2014, 2015\n"
+"Ελληνική μεταφραστική ομάδα GNOME <team@gnome.gr>\n"
 "Δημήτρης Σπίγγος <dmtrs32@gmail.com>, 2015\n"
 "Θάνος Τρυφωνίδης <tomtryf@gmail.com>, 2014"
 
@@ -60,10 +60,12 @@ msgstr "Η κάτω γραμμή που περιέχει ενέργειες"
 #: C/action-bars.page:10 C/application-basics.page:7
 #: C/application-menus.page:9 C/button-menus.page:8 C/buttons.page:8
 #: C/check-boxes.page:8 C/compatibility.page:7 C/design-principles.page:7
-#: C/dialogs.page:9 C/drop-down-lists.page:8 C/grids.page:10
-#: C/header-bar-menus.page:10 C/header-bars.page:10 C/icons-and-artwork.page:7
-#: C/index.page:8 C/keyboard-input.page:7 C/lists.page:10 C/menu-bars.page:8
-#: C/menus.page:8 C/notifications.page:10 C/patterns.page:7
+#: C/dialogs.page:9 C/display-compatibility.page:7 C/drop-down-lists.page:8
+#: C/empty-placeholders.page:10 C/grids.page:10 C/header-bar-menus.page:10
+#: C/header-bars.page:10 C/icons-and-artwork.page:7 C/index.page:8
+#: C/in-app-notifications.page:10 C/info-bars.page:10 C/keyboard-input.page:7
+#: C/lists.page:10 C/menu-bars.page:8 C/menus.page:8 C/notifications.page:10
+#: C/overlaid-controls.page:9 C/patterns.page:7
 #: C/pointer-and-touch-input.page:7 C/popovers.page:8 C/primary-windows.page:9
 #: C/progress-bars.page:8 C/progress-spinners.page:8 C/radio-buttons.page:8
 #: C/search.page:9 C/selection-mode.page:9 C/sidebar-lists.page:9
@@ -92,9 +94,11 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/action-bars.page:23 C/application-menus.page:22 C/button-menus.page:25
-#: C/dialogs.page:36 C/grids.page:23 C/header-bar-menus.page:27
-#: C/header-bars.page:29 C/lists.page:23 C/menu-bars.page:37 C/menus.page:37
-#: C/notifications.page:21 C/popovers.page:25 C/primary-windows.page:22
+#: C/dialogs.page:36 C/empty-placeholders.page:23 C/grids.page:23
+#: C/header-bar-menus.page:27 C/header-bars.page:29
+#: C/in-app-notifications.page:23 C/info-bars.page:23 C/lists.page:23
+#: C/menu-bars.page:37 C/menus.page:37 C/notifications.page:21
+#: C/overlaid-controls.page:22 C/popovers.page:25 C/primary-windows.page:22
 #: C/progress-bars.page:37 C/progress-spinners.page:25 C/search.page:22
 #: C/selection-mode.page:24 C/sidebar-lists.page:26 C/sliders.page:37
 #: C/spin-boxes.page:37 C/switches.page:25 C/tabs.page:39 C/toolbars.page:37
@@ -128,8 +132,10 @@ msgstr ""
 "λειτουργία <link xref=\"selection-mode\">επιλογής</link> ή επεξεργασίας."
 
 #. (itstool) path: section/title
-#: C/action-bars.page:32 C/check-boxes.page:37 C/radio-buttons.page:37
-#: C/sidebar-lists.page:43 C/sliders.page:53 C/writing-style.page:42
+#: C/action-bars.page:32 C/check-boxes.page:37 C/empty-placeholders.page:34
+#: C/in-app-notifications.page:34 C/info-bars.page:34
+#: C/overlaid-controls.page:31 C/radio-buttons.page:37 C/sidebar-lists.page:43
+#: C/sliders.page:53 C/writing-style.page:42
 msgid "Guidelines"
 msgstr "Οδηγίες"
 
@@ -157,13 +163,13 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/action-bars.page:42 C/application-menus.page:70 C/buttons.page:89
 #: C/check-boxes.page:59 C/dialogs.page:169 C/grids.page:44
-#: C/header-bar-menus.page:48 C/header-bars.page:72 C/lists.page:147
-#: C/menu-bars.page:106 C/menus.page:73 C/notifications.page:105
-#: C/popovers.page:64 C/primary-windows.page:86 C/progress-bars.page:129
-#: C/progress-spinners.page:51 C/radio-buttons.page:53 C/search.page:72
-#: C/sidebar-lists.page:54 C/sliders.page:69 C/spin-boxes.page:68
-#: C/switches.page:43 C/tabs.page:99 C/text-fields.page:68 C/toolbars.page:60
-#: C/view-switchers.page:46
+#: C/header-bar-menus.page:48 C/header-bars.page:72 C/info-bars.page:46
+#: C/lists.page:147 C/menu-bars.page:106 C/menus.page:73
+#: C/notifications.page:105 C/popovers.page:64 C/primary-windows.page:86
+#: C/progress-bars.page:129 C/progress-spinners.page:51
+#: C/radio-buttons.page:53 C/search.page:72 C/sidebar-lists.page:54
+#: C/sliders.page:69 C/spin-boxes.page:68 C/switches.page:43 C/tabs.page:99
+#: C/text-fields.page:68 C/toolbars.page:60 C/view-switchers.page:46
 msgid "API reference"
 msgstr "Αναφορά API"
 
@@ -173,8 +179,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkActionBar.html"
 "\">GtkActionBar</link>"
 msgstr ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkActionBar.html\">GtkAc"
-"tionBar</link>"
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkActionBar.html"
+"\">GtkActionBar</link>"
 
 #. (itstool) path: info/desc
 #: C/application-basics.page:11
@@ -415,9 +421,10 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/application-menus.page:29 C/button-menus.page:47 C/dialogs.page:155
-#: C/drop-down-lists.page:34 C/grids.page:32 C/lists.page:132
-#: C/menu-bars.page:93 C/menus.page:61 C/pointer-and-touch-input.page:40
-#: C/popovers.page:55 C/primary-windows.page:70 C/progress-bars.page:117
+#: C/display-compatibility.page:21 C/drop-down-lists.page:34 C/grids.page:32
+#: C/lists.page:132 C/menu-bars.page:93 C/menus.page:61
+#: C/pointer-and-touch-input.page:40 C/popovers.page:55
+#: C/primary-windows.page:70 C/progress-bars.page:117
 #: C/progress-spinners.page:38 C/spin-boxes.page:58 C/toolbars.page:46
 #: C/visual-layout.page:33
 msgid "General guidelines"
@@ -554,8 +561,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkApplication.html"
 "\">GtkApplication</link>"
 msgstr ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkApplication.html\">Gtk"
-"Application</link>"
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkApplication.html"
+"\">GtkApplication</link>"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -1042,8 +1049,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkButton.html"
 "\">GtkButton</link>"
 msgstr ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkButton.html\">GtkButto"
-"n</link>"
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkButton.html"
+"\">GtkButton</link>"
 
 #. (itstool) path: item/p
 #: C/buttons.page:93
@@ -1051,8 +1058,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkToggleButton.html"
 "\">GtkToggleButton</link>"
 msgstr ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkToggleButton.html\">Gt"
-"kToggleButton</link>"
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkToggleButton.html"
+"\">GtkToggleButton</link>"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -1238,8 +1245,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkCheckButton.html"
 "\">GtkCheckButton</link>"
 msgstr ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkCheckButton.html\">Gtk"
-"CheckButton</link>"
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkCheckButton.html"
+"\">GtkCheckButton</link>"
 
 #. (itstool) path: info/desc
 #. (itstool) path: td/p
@@ -1274,11 +1281,6 @@ msgstr "Διαλειτουργική συμβατότητα"
 
 #. (itstool) path: section/p
 #: C/compatibility.page:21
-#| msgid ""
-#| "Cross-platform guidance is provided for those design patterns and UI "
-#| "elements that require special treatment in cross-platform cases. "
-#| "Otherwise, all the design patterns provided in these guidelines can be "
-#| "used in a cross-platform manner."
 msgid ""
 "The HIG provides cross-platform for those design patterns and UI elements "
 "that require special treatment in cross-platform cases. Otherwise, all the "
@@ -1303,19 +1305,11 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/compatibility.page:28
-#| msgid "GNOME 2 Compatibility"
 msgid "GNOME 2 compatibility"
 msgstr "Συμβατότητα με το GNOME 2"
 
 #. (itstool) path: section/p
 #: C/compatibility.page:30
-#| msgid ""
-#| "These Human Interface Guidelines are an evolution of the GNOME 2 HIG. The "
-#| "design patterns provided improve upon the previous version of the HIG, "
-#| "and encourage more modern application design. Applications that follow "
-#| "this version of the HIG will use space more efficiently, provide a more "
-#| "focused user experience, and will use modern interpretations of key "
-#| "functionality, such as search, online integration, or notifications."
 msgid ""
 "These Human Interface Guidelines are an evolution of the GNOME 2 HIG, and "
 "represent an improvement on the previous version. Applications that follow "
@@ -1332,13 +1326,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/compatibility.page:32
-#| msgid ""
-#| "At the same time, following some of the design patterns in these "
-#| "guidelines may imply larger-scale design changes for GNOME 2 style "
-#| "applications, particularly if those applications are complex. In "
-#| "particular, replacing window title bars and <link xref=\"menu-bars\">menu "
-#| "bars</link> with a <link xref=\"header-bars\">header bar</link> could be "
-#| "a big change for your application."
 msgid ""
 "Following some of the design patterns in these guidelines may imply larger-"
 "scale design changes for GNOME 2 style applications, particularly if those "
@@ -1349,16 +1336,12 @@ msgstr ""
 "Ακολουθώντας κάποια από τα υποδείγματα σχεδίασης σε αυτές τις οδηγίες "
 "ενδέχεται να εμπεριέχουν αλλαγές σχεδιασμού μεγαλύτερης κλίμακας για τις "
 "εφαρμογές τεχνοτροπίας GNOME 2, ιδιαίτερα αν αυτές οι αλλαγές είναι "
-"σύνθετες. Ειδικά, η αντικατάσταση γραμμών τίτλου παραθύρου και <link xref"
-"=\"menu-bars\">γραμμών μενού</link> με μια <link xref=\"header-bars\">γραμμή "
+"σύνθετες. Ειδικά, η αντικατάσταση γραμμών τίτλου παραθύρου και <link xref="
+"\"menu-bars\">γραμμών μενού</link> με μια <link xref=\"header-bars\">γραμμή "
 "κεφαλίδας</link> μπορεί να είναι μια μεγάλη αλλαγή για την εφαρμογή σας."
 
 #. (itstool) path: section/p
 #: C/compatibility.page:34
-#| msgid ""
-#| "Much of the advice contained within this HIG can be incorporated into "
-#| "GNOME 2 style applications with minimal disruption, and will lead to an "
-#| "improved experience for users. This includes:"
 msgid ""
 "However, much of the advice contained within this HIG can be incorporated "
 "into GNOME 2 style applications with minimal disruption, and will lead to an "
@@ -1370,21 +1353,16 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/compatibility.page:37
-#| msgid "New user interface elements, such as popovers."
 msgid "Utilizing new user interface elements, such as popovers."
 msgstr "Χρήση νέων στοιχείων διεπαφής χρήστη, όπως αναδυόμενα παράθυρα."
 
 #. (itstool) path: item/p
 #: C/compatibility.page:38
-#| msgid "Improved GTK+ abilities, like animations."
 msgid "Guidance on new GTK+ abilities, like animations."
 msgstr "Οδηγίες στις νέες δυνατότητες GTK+, όπως εφέ κίνησης."
 
 #. (itstool) path: item/p
 #: C/compatibility.page:39
-#| msgid ""
-#| "Updated guidance on subjects such as visual layout, typography and icon "
-#| "usage."
 msgid ""
 "Modernized guidance on subjects such as visual layout, typography and icon "
 "usage."
@@ -1839,7 +1817,6 @@ msgstr ""
 
 #. (itstool) path: page/title
 #: C/dialogs.page:27
-#| msgid "List of windows"
 msgid "Dialog windows"
 msgstr "Παράθυρα διαλόγων"
 
@@ -1910,8 +1887,8 @@ msgstr ""
 #: C/dialogs.page:46
 msgid "In-application notifications are an alternative to message dialogs."
 msgstr ""
-"Οι ειδοποιήσεις στη διεπαφή μιας εφαρμογής είναι μια εναλλακτική λύση των "
-"διαλόγων μηνυμάτων."
+"Οι ειδοποιήσεις εντός εφαρμογής είναι μια εναλλακτική λύση των διαλόγων "
+"μηνυμάτων."
 
 #. (itstool) path: item/p
 #: C/dialogs.page:47
@@ -2313,8 +2290,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkAboutDialog.html"
 "\">GtkAboutDialog</link>"
 msgstr ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkAboutDialog.html\">Gtk"
-"AboutDialog</link>"
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkAboutDialog.html"
+"\">GtkAboutDialog</link>"
 
 #. (itstool) path: item/p
 #: C/dialogs.page:172
@@ -2322,8 +2299,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkDialog.html"
 "\">GtkDialog</link>"
 msgstr ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkDialog.html\">GtkDialo"
-"g</link>"
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkDialog.html"
+"\">GtkDialog</link>"
 
 #. (itstool) path: item/p
 #: C/dialogs.page:173
@@ -2331,8 +2308,114 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkMessageDialog.html"
 "\">GtkMessageDialog</link>"
 msgstr ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkMessageDialog.html\">G"
-"tkMessageDialog</link>"
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkMessageDialog.html"
+"\">GtkMessageDialog</link>"
+
+#. (itstool) path: page/title
+#: C/display-compatibility.page:14
+#| msgid "Cross-platform compatibility"
+msgid "Display compatibility"
+msgstr "Εμφάνιση συμβατότητας"
+
+#. (itstool) path: page/p
+#: C/display-compatibility.page:16
+msgid ""
+"GNOME 3 supports a variety of device types, including desktops, laptops and "
+"convertibles. This requires that applications be compatible with displays "
+"that have different sizes and orientations."
+msgstr ""
+"Το GNOME 3 υποστηρίζει μια ποικιλία τύπων συσκευών, συμπεριλαμβανομένων των "
+"υπολογιστών γραφείου, φορητών και μετατρέψιμων. Αυτό απαιτεί οι εφαρμογές να "
+"είναι συμβατές με τις οθόνες που έχουν διαφορετικά μεγέθη και "
+"προσανατολισμούς."
+
+#. (itstool) path: page/p
+#: C/display-compatibility.page:18
+msgid ""
+"The size requirements stated on this page should be doubled for high-"
+"resolution displays (those with greater than 96 PPI)."
+msgstr ""
+"Οι δηλωμένες απαιτήσεις μεγέθους σε αυτήν τη σελίδα πρέπει να διπλασιαστούν "
+"για οθόνες υψηλής ανάλυσης (αυτές που είναι μεγαλύτερες από 96 PPI)."
+
+#. (itstool) path: item/p
+#: C/display-compatibility.page:24
+msgid ""
+"It should be possible for all application windows to fit on the smallest "
+"recommended displays for GNOME 3. Currently, this is 1024×600 pixels."
+msgstr ""
+"Θα πρέπει να είναι δυνατό όλες οι εφαρμογές παραθύρων να προσαρμόζονται στις "
+"ελάχιστες συνιστώμενες οθόνες για το GNOME 3. Προς το παρόν, αυτό είναι "
+"1024×600 εικονοστοιχεία."
+
+#. (itstool) path: item/p
+#: C/display-compatibility.page:25
+msgid ""
+"Ensure that your application works well in portrait orientation. The minimum "
+"recommended width for portrait mode is 768 pixels."
+msgstr ""
+"Εξασφαλίστε ότι η εφαρμογή σας δουλεύει καλά σε προσανατολισμό πορτρέτου. Το "
+"ελάχιστο συνιστώμενο πλάτος για κατάσταση πορτρέτου είναι 768 "
+"εικονοστοιχεία."
+
+#. (itstool) path: item/p
+#: C/display-compatibility.page:26
+msgid ""
+"All primary windows should be resizable. This ensures that transitions "
+"between landscape and portrait mode can be automatically handled by the "
+"window manager."
+msgstr ""
+"Όλα τα πρωτεύοντα παράθυρα πρέπει να είναι κλιμακώσιμα. Αυτό διασφαλίζει ότι "
+"οι μεταβάσεις μεταξύ κατάστασης τοπίου και πορτρέτου μπορεί να επεξεργαστεί "
+"αυτόματα από τον διαχειριστή παραθύρου."
+
+#. (itstool) path: item/p
+#: C/display-compatibility.page:27
+msgid ""
+"Test to make sure that your interface works well on large displays. Where "
+"possible, scale content to make the best use of available space, or used "
+"fixed width layouts to ensure that interface elements maintain effective "
+"grouping and alignment."
+msgstr ""
+"Ελέγξτε για να διασφαλίσετε ότι η διεπαφή δουλεύει καλά σε μεγάλες οθόνες. "
+"Όπου είναι δυνατό, κλιμακώστε το περιεχόμενο για να κάνετε τη βέλτιστη χρήση "
+"του διαθέσιμου χώρου, ή χρησιμοποιήστε διατάξεις σταθερού πλάτους για να "
+"διασφαλίσετε ότι τα στοιχεία διεπαφής διατηρούν αποτελεσματική ομαδοποίηση "
+"και στοίχιση."
+
+#. (itstool) path: section/title
+#: C/display-compatibility.page:33
+msgid "Half-screen snap"
+msgstr "Προσκόλληση μισής οθόνης"
+
+#. (itstool) path: section/p
+#: C/display-compatibility.page:35
+msgid ""
+"GNOME 3 allows windows to be snapped to occupy half the width of the "
+"display, allowing two windows to be used alongside each other. Half-screen "
+"snap is impractical on very small displays. As a rule of thumb, it should be "
+"supported on screens that are 1280 pixels or wider, meaning that windows "
+"should have a minimum width of no less than 640 pixels."
+msgstr ""
+"Το GNOME 3 επιτρέπει στα παράθυρα να προσκολλώνται ώστε να καταλάβουν το "
+"μισό πλάτος της οθόνης, επιτρέποντας σε δύο παράθυρα να χρησιμοποιηθούν "
+"παραπλεύρως μεταξύ τους. Η προσκόλληση μισής οθόνης δεν είναι πρακτική σε "
+"πολύ μικρές οθόνες. Ως πρόχειρος κανόνας, θα πρέπει να υποστηρίζεται σε "
+"οθόνες που είναι 1280 εικονοστοιχείων ή πιο πλατιές, που σημαίνει ότι τα "
+"παράθυρα θα πρέπει να έχουν ένα ελάχιστο πλάτος όχι μικρότερο από 640 "
+"εικονοστοιχεία."
+
+#. (itstool) path: section/p
+#: C/display-compatibility.page:37
+msgid ""
+"Since half-screen snap is only useful when windows are used in parallel, "
+"applications that are used in isolation do not need to support half-screen "
+"snap (a music player is a good example of this)."
+msgstr ""
+"Επειδή η προσκόλληση μισής οθόνης είναι χρήσιμη μόνο όταν τα παράθυρα "
+"χρησιμοποιούνται παράλληλα, οι εφαρμογές που χρησιμοποιούνται μεμονωμένα δεν "
+"χρειάζεται να υποστηρίζουν προσκόλληση μισής οθόνης (ια συσκευή "
+"αναπαραγωγής μουσικής είναι ένα καλό παράδειγμα)."
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -2530,6 +2613,127 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
+#: C/empty-placeholders.page:18
+#| msgctxt "_"
+#| msgid ""
+#| "external ref='figures/patterns/header-bar.svg' "
+#| "md5='74a8ae325891151985097003f5a43534'"
+msgctxt "_"
+msgid ""
+"external ref='figures/patterns/empty-placeholder.svg' "
+"md5='aca2a26f04c8d0dc035bfd5c83569a4a'"
+msgstr ""
+"external ref='figures/patterns/empty-placeholder.svg' "
+"md5='aca2a26f04c8d0dc035bfd5c83569a4a'"
+
+#. (itstool) path: info/desc
+#: C/empty-placeholders.page:8
+msgid "Image and text shown when a grid or list is empty"
+msgstr "Εικόνα και κείμενο εμφανίζονται όταν ένα πλέγμα ή κατάλογος είναι κενοί"
+
+#. (itstool) path: page/title
+#: C/empty-placeholders.page:16
+msgid "Empty placeholders"
+msgstr "Κενά δεσμευτικά θέσεων"
+
+#. (itstool) path: page/p
+#: C/empty-placeholders.page:20
+msgid ""
+"An empty placeholder is an image, accompanied by text, which fills the space "
+"in an empty list or grid."
+msgstr ""
+"Ένα κενό δεσμευτικό θέσης είναι μια εικόνα, που συνοδεύεται από κείμενο, που "
+"συμπληρώνει τον χώρο σε έναν κενό κατάλογο ή πλέγμα."
+
+#. (itstool) path: section/p
+#: C/empty-placeholders.page:25
+msgid ""
+"Empty placeholders perform a number of important functions: they prevent "
+"confusion and guide the user, and they make your interface look better and "
+"more cohesive. They are also one of those nice touches which helps to "
+"communicate an attention to detail."
+msgstr ""
+"Τα κενά δεσμευτικά θέσεων εκτελούν έναν αριθμό από σημαντικές λειτουργίες: "
+"αποτρέπουν τη σύγχυση, οδηγούν τον χρήστη και κάνουν τη διεπαφή σας να "
+"φαίνεται καλύτερη και πιο συνεκτική. Είναι επίσης μία από τα όμορφες "
+"αισθήσεις που βοηθά την επικοινωνία με προσοχή στη λεπτομέρεια."
+
+#. (itstool) path: section/p
+#: C/empty-placeholders.page:27
+msgid ""
+"An empty placeholder should be displayed whenever a list or grid is empty."
+msgstr ""
+"Ένα κενό δεσμευτικό θέσης πρέπει να εμφανίζεται όποτε ένας κατάλογος ή ένα "
+"πλέγμα είναι κενά."
+
+#. (itstool) path: section/p
+#: C/empty-placeholders.page:29
+msgid ""
+"Empty placeholders should not be displayed when an application is being run "
+"for the first time. In these situations empty states are often to be "
+"expected, and it is more appropriate to provide a richer, more characterful "
+"and upbeat experience."
+msgstr ""
+"Τα κενά δεσμευτικά θέσεων δεν πρέπει να εμφανίζονται όταν μια εφαρμογή "
+"εκτελείται για πρώτη φορά. Σε αυτές τις περιπτώσεις αναμένονται συχνά κενές "
+"καταστάσεις και είναι πιο κατάλληλο να παρέχεται μια πιο πλούσια, πιο "
+"χαρακτηριστική και πιο χαρούμενη εμπειρία."
+
+#. (itstool) path: item/p
+#: C/empty-placeholders.page:37
+msgid ""
+"Follow the standard layout for the size and placement of the image and "
+"labels, so that your application is consistent with other GNOME 3 "
+"applications."
+msgstr ""
+"Ακολουθήστε την τυπική διάταξη για το μέγεθος και την τοποθέτηση της εικόνας "
+"και των ετικετών, έτσι ώστε η εφαρμογή σας να είναι ομοιόμορφη με τις άλλες "
+"εφαρμογές του GNOME 3."
+
+#. (itstool) path: item/p
+#: C/empty-placeholders.page:38
+msgid ""
+"For the image, use a <link xref=\"icons-and-artwork#color-vs-symbolic"
+"\">symbolic icon</link> that either represents your application, or the type "
+"of content that would ordinarily appear in the grid or list."
+msgstr ""
+"Για την εικόνα, χρησιμοποιήστε ένα <link xref=\"icons-and-artwork#color-vs-"
+"symbolic\">συμβολικό εικονίδιο</link> που είτε αντιπροσωπεύει την εφαρμογή "
+"σας ή τον τύπο του περιεχομένου που θα φαίνεται κανονικά στο πλέγμα ή τον "
+"κατάλογο."
+
+#. (itstool) path: item/p
+#: C/empty-placeholders.page:39
+msgid ""
+"An empty placeholder should always include a label which communicates the "
+"empty state. It is often appropriate to include a smaller subtext which "
+"provides additional guidance (such as how to add items). However, this "
+"should only be included if there is additional information that it is useful "
+"to provide."
+msgstr ""
+"Ένα κενό δεσμευτικό θέσης πρέπει να περιλαμβάνει πάντα μια ετικέτα που "
+"επικοινωνεί με την κενή κατάσταση. Είναι συχνά κατάλληλη η συμπερίληψη ενός "
+"μικρότερου υποκειμένου που δίνει πρόσθετες οδηγίες (όπως πώς να προσθέσετε "
+"στοιχεία). Όμως, αυτό θα πρέπει να συμπεριληφθεί μόνο αν υπάρχουν πρόσθετες "
+"πληροφορίες που είναι χρήσιμο να δοθούν."
+
+#. (itstool) path: item/p
+#: C/empty-placeholders.page:40
+msgid ""
+"If there are controls that allow items to be added, it can be appropriate to "
+"highlight them using a <link xref=\"buttons#suggested-and-destructive"
+"\">suggested style</link> while the list/grid is empty."
+msgstr ""
+"Αν υπάρχουν στοιχεία ελέγχου που επιτρέπουν την προσθήκη στοιχείων, μπορεί "
+"να είναι κατάλληλη η επισήμανσή τους χρησιμοποιώντας μια <link xref=\"buttons"
+"#suggested-and-destructive\">προτεινόμενη τεχνοτροπία</link> ενώ ο "
+"κατάλογος/το πλέγμα είναι κενά."
+
+#. (itstool) path: media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
 #: C/grids.page:18
 msgctxt "_"
 msgid ""
@@ -2630,8 +2834,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkFlowBox.html"
 "\">GtkFlowBox</link>"
 msgstr ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkFlowBox.html\">GtkFlow"
-"Box</link>"
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkFlowBox.html"
+"\">GtkFlowBox</link>"
 
 #. (itstool) path: item/p
 #: C/grids.page:47
@@ -2639,8 +2843,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkIconView.html"
 "\">GtkIconView</link>"
 msgstr ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkIconView.html\">GtkIco"
-"nView</link>"
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkIconView.html"
+"\">GtkIconView</link>"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -2784,8 +2988,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkMenuButton.html"
 "\">GtkMenuButton</link>"
 msgstr ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkMenuButton.html\">GtkM"
-"enuButton</link>"
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkMenuButton.html"
+"\">GtkMenuButton</link>"
 
 #. (itstool) path: item/p
 #: C/header-bar-menus.page:52 C/menus.page:83 C/popovers.page:68
@@ -2793,8 +2997,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkPopoverMenu.html"
 "\">GtkPopoverMenu</link>"
 msgstr ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkPopoverMenu.html\">Gtk"
-"PopoverMenu</link>"
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkPopoverMenu.html"
+"\">GtkPopoverMenu</link>"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -3024,8 +3228,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkHeaderBar.html"
 "\">GtkHeaderBar</link>"
 msgstr ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkHeaderBar.html\">GtkHe"
-"aderBar</link>"
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkHeaderBar.html"
+"\">GtkHeaderBar</link>"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -3205,7 +3409,6 @@ msgstr "Επιλέξτε και δημιουργήστε εικονίδια."
 
 #. (itstool) path: page/title
 #: C/icons-and-artwork.page:17
-#| msgid "Icons and Artwork"
 msgid "Icons and artwork"
 msgstr "Εικονίδια και καλλιτεχνία"
 
@@ -3224,7 +3427,6 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/icons-and-artwork.page:22
-#| msgid "Using Icons in Your User Interface"
 msgid "Using icons in your user interface"
 msgstr "Χρήση εικονιδίων στη διεπαφή χρήστη σας"
 
@@ -3295,7 +3497,6 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/icons-and-artwork.page:38
-#| msgid "Choosing Stock GNOME Icons"
 msgid "Choosing stock GNOME icons"
 msgstr "Επιλογή από εικονίδια παρακαταθήκης GNOME"
 
@@ -3331,7 +3532,6 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/icons-and-artwork.page:47
-#| msgid "Color vs. Symbolic Icons"
 msgid "Color vs. symbolic icons"
 msgstr "Χρωματιστά - συμβολικά εικονιδία"
 
@@ -3402,7 +3602,6 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/icons-and-artwork.page:73
-#| msgid "Application Icons"
 msgid "Application icons"
 msgstr "Εικονίδια εφαρμογής"
 
@@ -3472,7 +3671,6 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/icons-and-artwork.page:92
-#| msgid "Custom Symbolic Icons"
 msgid "Custom symbolic icons"
 msgstr "Προσαρμοσμένα συμβολικά εικονίδια"
 
@@ -3570,7 +3768,6 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/icons-and-artwork.page:116
-#| msgid "Custom Full-Color Icons"
 msgid "Custom full-color icons"
 msgstr "Προσαρμοσμένα εικονίδια πλήρους χρώματος"
 
@@ -3670,7 +3867,6 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/icons-and-artwork.page:171
-#| msgid "See Also"
 msgid "See also"
 msgstr "Δείτε επίσης"
 
@@ -3716,8 +3912,8 @@ msgstr ""
 "Ενώ το HIG δίνει έμφαση στον σχεδιασμό για το GNOME 3, μπορεί επίσης να "
 "χρησιμοποιηθεί στη δημιουργία διαλειτουργικών εφαρμογών, καθώς και για "
 "εφαρμογές που ακολουθούσαν προηγουμένως τις οδηγίες ανθρώπινης διεπαφής του "
-"GNOME 2. Οι <link xref=\"compatibility\">οδηγίες συμβατότητας</link> περιέχουν "
-"περισσότερες πληροφορίες για αυτό."
+"GNOME 2. Οι <link xref=\"compatibility\">οδηγίες συμβατότητας</link> "
+"περιέχουν περισσότερες πληροφορίες για αυτό."
 
 #. (itstool) path: section/title
 #: C/index.page:22
@@ -3734,8 +3930,8 @@ msgid ""
 msgstr ""
 "Υποδείγματα και στοιχεία διεπαφής χρήστη σχηματίζουν τον πυρήνα του HIG. "
 "Μαζί, αποτελούν τα δομικά στοιχεία για τη σχεδίαση των εφαρμογών. Αν είσαστε "
-"νέος στο HIG, συνιστάται να αρχίσετε με τη σελίδα σχεδίασης αρχών και "
-"έπειτα να περιηγηθείτε στα υποδείγματα, πριν συνεχίσετε με άλλο υλικό."
+"νέος στο HIG, συνιστάται να αρχίσετε με τη σελίδα σχεδίασης αρχών και έπειτα "
+"να περιηγηθείτε στα υποδείγματα, πριν συνεχίσετε με άλλο υλικό."
 
 #. (itstool) path: td/p
 #: C/index.page:28
@@ -3748,9 +3944,6 @@ msgstr ""
 
 #. (itstool) path: td/p
 #: C/index.page:32
-#| msgid ""
-#| "<link xref=\"compatibility\"><em style=\"strong\">Compatibility</em></"
-#| "link>"
 msgid "<link xref=\"patterns\"><em style=\"strong\">Patterns</em></link>"
 msgstr "<link xref=\"patterns\"><em style=\"strong\">Υποδείγματα</em></link>"
 
@@ -3761,15 +3954,12 @@ msgstr "Στοιχειώδη και προαιρετικά συστατικά σ
 
 #. (itstool) path: td/p
 #: C/index.page:36
-#| msgid ""
-#| "<link xref=\"design-principles\"><em style=\"strong\">Design principles</"
-#| "em></link>"
 msgid ""
 "<link xref=\"ui-elements\"><em style=\"strong\">User interface elements</"
 "em></link>"
 msgstr ""
-"<link xref=\"ui-elements\"><em style=\"strong\">Στοιχεία διεπαφής "
-"χρήστη</em></link>"
+"<link xref=\"ui-elements\"><em style=\"strong\">Στοιχεία διεπαφής χρήστη</"
+"em></link>"
 
 #. (itstool) path: td/p
 #: C/index.page:37
@@ -3898,9 +4088,6 @@ msgstr "Περιήγηση με πληκτρολόγιο, πρόσβαση κα�
 
 #. (itstool) path: td/p
 #: C/index.page:82
-#| msgid ""
-#| "<link xref=\"compatibility\"><em style=\"strong\">Compatibility</em></"
-#| "link>"
 msgid ""
 "<link xref=\"display-compatibility\"><em style=\"strong\">Display "
 "compatibility</em></link>"
@@ -3912,6 +4099,255 @@ msgstr ""
 #: C/index.page:83
 msgid "How to support different device and display types."
 msgstr "Πώς να υποστηρίξετε διαφορετικές συσκευές και τύπους εμφάνισης."
+
+#. (itstool) path: media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/in-app-notifications.page:18
+#| msgctxt "_"
+#| msgid ""
+#| "external ref='figures/patterns/application-menu.svg' "
+#| "md5='8bea5133bb3717c30f4719c98cf38180'"
+msgctxt "_"
+msgid ""
+"external ref='figures/patterns/in-app-notification.svg' "
+"md5='48a9959dd176471c8fdfc412683c3abf'"
+msgstr ""
+"external ref='figures/patterns/in-app-notification.svg' "
+"md5='48a9959dd176471c8fdfc412683c3abf'"
+
+#. (itstool) path: info/desc
+#: C/in-app-notifications.page:8 C/info-bars.page:8
+#| msgid "System-wide event notifications"
+msgid "Application event notifications"
+msgstr "Ειδοποιήσεις συμβάντος της εφαρμογής"
+
+#. (itstool) path: page/title
+#: C/in-app-notifications.page:16
+#| msgid "Notifications"
+msgid "In-app notifications"
+msgstr "Ειδοποιήσεις εντός εφαρμογής"
+
+#. (itstool) path: page/p
+#: C/in-app-notifications.page:20
+msgid ""
+"In-app notifications are information popups which can be displayed inside an "
+"application. They include a label which describes an event that has "
+"happened, and can also include a button that allows the user to respond. "
+"They are always transient and user dismissable."
+msgstr ""
+"Οι ειδοποιήσεις εντός εφαρμογής είναι αναδυόμενες πληροφορίες που μπορούν να "
+"εμφανιστούν μέσα σε μια εφαρμογή. Περιλαμβάνουν μια ετικέτα που περιγράφει "
+"ένα συμβάν που έχει συμβεί και μπορούν επίσης να περιλαμβάνουν ένα κουμπί "
+"που επιτρέπει στον χρήστη να απαντήσει. Είναι πάντα προσωρινές και με "
+"δυνατότητα απόρριψης από τον χρήστη."
+
+#. (itstool) path: section/p
+#: C/in-app-notifications.page:25
+msgid ""
+"In-app notifications are appropriate when you want to inform the user about "
+"an event that is relevant to their ongoing use of an application. They are "
+"best used to provide immediate feedback. This contrasts with <link xref="
+"\"notifications\">standard notifications</link>, which provide system-wide "
+"alerts, and which persist after the notification has been initially "
+"displayed."
+msgstr ""
+"Οι ειδοποιήσεις εντός εφαρμογής είναι κατάλληλες όταν θέλετε να "
+"πληροφορήσετε τον χρήστη για ένα συμβάν που είναι σχετικό με την "
+"συνεχιζόμενη χρήση μιας εφαρμογής. Χρησιμοποιούνται άριστα για να δώσουν "
+"άμεση ανάδραση. Αυτό αντιπαραβάλλεται με τις <link "
+"xref=\"notifications\">τυπικές ειδοποιήσεις</link>, που παρέχουν ειδοποιήσεις "
+"όλου του συστήματος και που επιμένουν μετά την αρχική εμφάνιση της "
+"ειδοποίησης."
+
+#. (itstool) path: section/p
+#: C/in-app-notifications.page:27
+msgid ""
+"Allowing the user to undo a destructive action is an example of a good use "
+"of in-app notifications: the notification is not needed outside of the "
+"application window, and is immediately relevant. The button that allows the "
+"user to respond to the event, by pressing ."
+msgstr ""
+"Η δυνατότητα του χρήστη να αναιρέσει μια καταστροφική ενέργεια είναι ένα "
+"παράδειγμα μιας καλής χρήσης στις ειδοποιήσεις εντός εφαρμογής: η ειδοποίηση "
+"δεν χρειάζεται έξω από το παράθυρο της εφαρμογής και είναι άμεσα σχετική. "
+"Το κουμπί επιτρέπει στον χρήστη να απαντήσει στο συμβάν, πατώντας το ."
+
+#. (itstool) path: section/p
+#: C/in-app-notifications.page:29
+msgid ""
+"In-app notifications are not a good solution for communicating ongoing "
+"states. <link xref=\"info-bars\">Info bars</link> offer one alternative you "
+"can consider."
+msgstr ""
+"Οι ειδοποιήσεις εντός εφαρμογής δεν είναι μια καλή λύση για επικοινωνία σε "
+"συνεχιζόμενες καταστάσεις. Οι <link xref=\"info-bars\">γραμμές "
+"πληροφοριών</link> προσφέρουν μια εναλλακτική λύση που μπορείτε να "
+"εξετάσετε."
+
+#. (itstool) path: item/p
+#: C/in-app-notifications.page:37
+msgid ""
+"It isn't always necessary to include an action button in an in-app "
+"notification: only include one if it is directly related to the event and is "
+"generally useful."
+msgstr ""
+"Δεν είναι πάντα απαραίτητο να περιλαμβάνετε ένα πλήκτρο ενέργειας σε μια "
+"ειδοποίηση εντός εφαρμογής: να περιλαμβάνετε ένα μόνο αν είναι άμεσα "
+"συσχετισμένο με ένα συμβάν και είναι γενικά χρήσιμο."
+
+#. (itstool) path: item/p
+#: C/in-app-notifications.page:38
+msgid ""
+"Don't distract with unnecessary in-app notifications, and be careful not to "
+"overuse them: they can be annoying if they pop up frequently."
+msgstr ""
+"Μην αποσπάτε την προσοχή με περιττές ειδοποιήσεις εντός εφαρμογής και να "
+"προσέχετε να μην τις καταχράστε: μπορούν να γίνουν ενοχλητικές αν αναδύονται "
+"συχνά."
+
+#. (itstool) path: item/p
+#: C/in-app-notifications.page:39
+msgid ""
+"Only one in-app notification can be displayed at a time, and new instances "
+"should replace existing ones."
+msgstr ""
+"Μόνο μια ειδοποίηση εντός εφαρμογής μπορεί να εμφανίζεται τη φορά και νέα "
+"στιγμιότυπα πρέπει να αντικαθιστούν τα υφιστάμενα."
+
+#. (itstool) path: media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/info-bars.page:18
+#| msgctxt "_"
+#| msgid ""
+#| "external ref='figures/patterns/action-bar.svg' "
+#| "md5='02ad08b5400b1c64273fde96008043f6'"
+msgctxt "_"
+msgid ""
+"external ref='figures/patterns/info-bar.svg' "
+"md5='8182fc0c20fd860a617c8b382579e6f2'"
+msgstr ""
+"external ref='figures/patterns/info-bar.svg' "
+"md5='8182fc0c20fd860a617c8b382579e6f2'"
+
+#. (itstool) path: page/title
+#: C/info-bars.page:16
+#| msgid "Menu bars"
+msgid "Info bars"
+msgstr "Γραμμές πληροφοριών"
+
+#. (itstool) path: page/p
+#: C/info-bars.page:20
+msgid ""
+"An info bar is a strip that is placed above a content view, directly below "
+"the header bar or tool bar. It contains text, and can also include controls. "
+"Info bars persist: they can be permanent, or they can be dismissed by the "
+"user."
+msgstr ""
+"Μια γραμμή πληροφοριών είναι μια λουρίδα που τοποθετείται πάνω από την "
+"προβολή περιεχομένου, αμέσως κάτω από τη γραμμή κεφαλίδας ή μια "
+"εργαλειοθήκη. Περιέχει κείμενο και μπορεί επίσης να περιλαμβάνει στοιχεία "
+"ελέγχου. Οι γραμμές πληροφοριών παραμένουν: μπορούν να είναι μόνιμες, ή "
+"μπορούν να απορριφθούν από τον χρήστη."
+
+#. (itstool) path: section/p
+#: C/info-bars.page:25
+msgid ""
+"Info bars can be used to communicate a particular state about a particular "
+"content item or location. For example, an info bar could indicate that a "
+"document is out of date or being edited by other, or that a service relating "
+"to a location is not operating. In some situations, they can also be used to "
+"present supplementary information, such as user guidance."
+msgstr ""
+"Οι γραμμές πληροφοριών μπορούν να χρησιμοποιηθούν για την επικοινωνία μιας "
+"ειδικής κατάστασης για ένα ειδικό στοιχείο περιεχομένου ή θέση. "
+"Παραδείγματος χάρη, μια γραμμή πληροφοριών μπορεί να δείχνει ότι ένα έγγραφο "
+"είναι ξεπερασμένο ή επεξεργάζεται από άλλον, ή ότι μια υπηρεσία που "
+"σχετίζεται με μια θέση δεν λειτουργεί. Σε κάποιες καταστάσεις, μπορεί επίσης "
+"να χρησιμοποιηθεί για να εμφανίσει συμπληρωματικές πληροφορίες, όπως "
+"οδηγίες χρήστη."
+
+#. (itstool) path: section/p
+#: C/info-bars.page:27
+msgid ""
+"Since info bars are persistent, they are generally more appropriate for "
+"communicating ongoing states rather than events (<link xref=\"notifications"
+"\">notifications</link> or <link xref=\"in-app-notifications\">in-app "
+"notifications</link> are more appropriate here)."
+msgstr ""
+"Επειδή οι γραμμές πληροφοριών είναι μόνιμες, είναι γενικά πιο κατάλληλες για "
+"επικοινωνία με συνεχιζόμενες καταστάσεις παρά για συμβάντα (οι <link "
+"xref=\"notifications\">ειδοποιήσεις</link> ή οι <link xref=\"in-app-"
+"notifications\">ειδοποιήσεις στις εφαρμογές</link> είναι πιο κατάλληλες εδώ)."
+
+#. (itstool) path: section/p
+#: C/info-bars.page:29
+msgid ""
+"Info bars primarily communicate by using text, and have the advantage that "
+"they can include both a heading and a longer explanation. However, they also "
+"take up space and attract attention. If the state you want to communicate is "
+"not critical, or can be communicated through a simple string or icon, you "
+"might want to consider alternative approaches: text or icons can be added "
+"elsewhere in your interface, or the appearance of navigation controls (such "
+"as <link xref=\"view-switchers\">view switchers</link>, <link xref=\"tabs"
+"\">tabs</link> or <link xref=\"sidebar-lists\">sidebar</link> lists) can be "
+"changed."
+msgstr ""
+"Οι γραμμές πληροφοριών κυρίως επικοινωνούν με τη χρήση κειμένου και έχουν το "
+"πλεονέκτημα ότι μπορούν να περιλαμβάνουν και την κεφαλίδα και μια "
+"μεγαλύτερη εξήγηση. Όμως, καταναλώνουν επίσης χώρο και έλκουν την προσοχή. "
+"Αν η κατάσταση που Θέλετε να επικοινωνήσετε δεν είναι κρίσιμη, ή μπορεί να "
+"επικοινωνήσει μέσα από μια απλή συμβολοσειρά ή εικονίδιο, μπορεί να θελήσετε "
+"να εξετάσετε εναλλακτικές προσεγγίσεις: κείμενο ή εικονίδια μπορούν να "
+"προστεθούν αλλού στη διεπαφήσας, ή η εμφάνιση των στοιχείων ελέγχου "
+"περιήγησης (όπως κατάλογοι <link xref=\"view-switchers\">διακοπτών "
+"προβολής</link> <link xref=\"tabs\">καρτελών</link> ή <link xref=\"sidebar-"
+"lists\">πλευρικών στηλών</link>) μπορούν να αλλαχθούν."
+
+#. (itstool) path: item/p
+#: C/info-bars.page:37
+msgid ""
+"Beware of info bar overuse: they should be an exceptional presence in your "
+"interface."
+msgstr ""
+"Προφυλαχτείτε από την υπερβολική χρήση: πρέπει να είναι μια παρουσία κατ' "
+"εξαίρεση στη διεπαφή σας."
+
+#. (itstool) path: item/p
+#: C/info-bars.page:38
+msgid "Only one info bar should be visable at any one time."
+msgstr "Μόνο μια γραμμή πληροφοριών πρέπει να είναι ορατή οποτεδήποτε."
+
+#. (itstool) path: item/p
+#: C/info-bars.page:39
+msgid ""
+"Only include a longer explanation if it is really needed: a simple heading "
+"can often be sufficient."
+msgstr ""
+"Να περιλαμβάνεται μόνο μια μεγαλύτερη επεξήγηση, αν χρειάζεται πραγματικά: "
+"μια απλή κεφαλίδα μπορεί συχνά να είναι αρκετή."
+
+#. (itstool) path: item/p
+#: C/info-bars.page:40
+msgid "Generally speaking, info bars do not require an icon."
+msgstr "Μιλώντας γενικά, οι γραμμές πληροφοριών δεν απαιτούν ένα εικονίδιο."
+
+#. (itstool) path: item/p
+#: C/info-bars.page:49
+#| msgid ""
+#| "<link href=\"https://developer.gnome.org/gtk3/stable/GtkMenuBar.html"
+#| "\">GtkMenuBar</link>"
+msgid ""
+"<link xref=\"https://developer.gnome.org/gtk3/stable/GtkInfoBar.html"
+"\">GtkInfoBar</link>"
+msgstr ""
+"<link xref=\"https://developer.gnome.org/gtk3/stable/GtkInfoBar.html\">GtkInfo"
+"Bar</link>"
 
 #. (itstool) path: page/title
 #: C/keyboard-input.page:26
@@ -6382,8 +6818,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkListBox.html"
 "\">GtkListBox</link>"
 msgstr ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkListBox.html\">GtkList"
-"Box</link>"
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkListBox.html"
+"\">GtkListBox</link>"
 
 #. (itstool) path: item/p
 #: C/lists.page:150
@@ -6391,8 +6827,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkTreeView.html"
 "\">GtkTreeView</link>"
 msgstr ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkTreeView.html\">GtkTre"
-"eView</link>"
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkTreeView.html"
+"\">GtkTreeView</link>"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -6723,8 +7159,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkMenu.html\">GtkMenu</"
 "link>"
 msgstr ""
-"<link "
-"href=\"https://developer.gnome.org/gtk3/stable/GtkMenu.html\">GtkMenu</link>"
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkMenu.html\">GtkMenu</"
+"link>"
 
 #. (itstool) path: item/p
 #: C/menu-bars.page:110 C/menus.page:77
@@ -6732,8 +7168,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkMenuBar.html"
 "\">GtkMenuBar</link>"
 msgstr ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkMenuBar.html\">GtkMenu"
-"Bar</link>"
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkMenuBar.html"
+"\">GtkMenuBar</link>"
 
 #. (itstool) path: item/p
 #: C/menu-bars.page:111 C/menus.page:79
@@ -6741,8 +7177,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkMenuItem.html"
 "\">GtkMenuItem</link>"
 msgstr ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkMenuItem.html\">GtkMen"
-"uItem</link>"
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkMenuItem.html"
+"\">GtkMenuItem</link>"
 
 #. (itstool) path: item/p
 #: C/menu-bars.page:112 C/menus.page:80
@@ -6750,8 +7186,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkRadioMenuItem.html"
 "\">GtkRadioMenuItem</link>"
 msgstr ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkRadioMenuItem.html\">G"
-"tkRadioMenuItem</link>"
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkRadioMenuItem.html"
+"\">GtkRadioMenuItem</link>"
 
 #. (itstool) path: item/p
 #: C/menu-bars.page:113 C/menus.page:81
@@ -6759,8 +7195,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkCheckMenuItem.html"
 "\">GtkCheckMenuItem</link>"
 msgstr ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkCheckMenuItem.html\">G"
-"tkCheckMenuItem</link>"
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkCheckMenuItem.html"
+"\">GtkCheckMenuItem</link>"
 
 #. (itstool) path: item/p
 #: C/menu-bars.page:114 C/menus.page:82
@@ -6768,8 +7204,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkSeparatorMenuItem."
 "html\">GtkSeparatorMenuItem</link>"
 msgstr ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkSeparatorMenuItem.htm"
-"l\">GtkSeparatorMenuItem</link>"
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkSeparatorMenuItem."
+"html\">GtkSeparatorMenuItem</link>"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -7248,8 +7684,112 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gio/stable/GNotification.html"
 "\">GNotification</link>"
 msgstr ""
-"<link href=\"https://developer.gnome.org/gio/stable/GNotification.html\">GNoti"
-"fication</link>"
+"<link href=\"https://developer.gnome.org/gio/stable/GNotification.html"
+"\">GNotification</link>"
+
+#. (itstool) path: media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/overlaid-controls.page:17
+#| msgctxt "_"
+#| msgid ""
+#| "external ref='figures/patterns/list-styles.svg' "
+#| "md5='61f37ec31df8748207a9152ea0589da0'"
+msgctxt "_"
+msgid ""
+"external ref='figures/patterns/overlaid-controls.svg' "
+"md5='14e776e3385eeafe86fbdd64c9efe595'"
+msgstr ""
+"external ref='figures/patterns/overlaid-controls.svg' "
+"md5='14e776e3385eeafe86fbdd64c9efe595'"
+
+#. (itstool) path: info/desc
+#: C/overlaid-controls.page:7
+msgid "Floating controls, often used for images and video controls"
+msgstr ""
+"Αιωρούμενα στοιχεία ελέγχου, χρησιμοποιούνται συχνά για στοιχεία ελέγχου "
+"εικόνων και βίντεο"
+
+#. (itstool) path: page/title
+#: C/overlaid-controls.page:15
+msgid "Overlaid controls"
+msgstr "Στοιχεία ελέγχου επικάλυψης"
+
+#. (itstool) path: page/p
+#: C/overlaid-controls.page:19
+msgid ""
+"Transient controls that float over content are a common pattern for "
+"applications that show images or video."
+msgstr ""
+"Παροδικά στοιχεία ελέγχου που αιωρούνται πάνω από το περιεχόμενο είναι ένα "
+"κοινό μοτίβο για εφαρμογές που εμφανίζουν εικόνες ή βίντεο."
+
+#. (itstool) path: section/p
+#: C/overlaid-controls.page:24
+msgid ""
+"Since overlaid controls hide when they are not in use, they help to provide "
+"an uncluttered viewing experience. They are appropriate when it is desirable "
+"to present a clean and distraction-free view on a content item - this is "
+"particularly (although not exclusively) appropriate for images and video."
+msgstr ""
+"Επειδή τα στοιχεία ελέγχου επικάλυψης κρύβονται όταν δεν είναι σε χρήση, "
+"βοηθούν στην παροχή μιας εμπειρίας προβολής με τάξη. Είναι κατάλληλα όταν "
+"είναι επιθυμητή η παρουσίαση μιας προβολής καθαρής και χωρίς απόσπαση "
+"προσοχής σε ένα στοιχείο περιεχομένου - αυτό είναι ιδιαίτερα κατάλληλο (αν "
+"και όχι αποκλειστικό) για εικόνες και βίντεο."
+
+#. (itstool) path: section/p
+#: C/overlaid-controls.page:26
+msgid ""
+"Overlaid controls may be inappropriate if they obscure relevant parts of the "
+"content below. Image editing controls may interfere with the ability to see "
+"their effects, for example. In these cases, controls should not be overlaid."
+msgstr ""
+"Τα στοιχεία ελέγχου επικάλυψης μπορεί να είναι ακατάλληλα αν αποκρύπτουν "
+"συναφή τμήματα του παρακάτω περιεχομένου. Τα στοιχεία ελέγχου επεξεργασίας "
+"εικόνας μπορεί να παρεμβαίνουν στη δυνατότητα εμφάνισης των αποτελεσμάτων "
+"τους, παραδείγματος χάρη. Σε αυτές τις περιπτώσεις, τα στοιχεία ελέγχου δεν "
+"πρέπει να επικαλύπτονται."
+
+#. (itstool) path: item/p
+#: C/overlaid-controls.page:34
+msgid ""
+"Follow established conventions for this type of control, such as left/right "
+"browse buttons in image viewers, and player controls at the bottom for video."
+msgstr ""
+"Ακολουθήστε τις καθιερωμένες συμβάσεις για αυτόν τον τύπο στοιχείων ελέγχου, "
+"όπως αριστερά/δεξιά πλήκτρα περιήγησης σε προβολή εικόνων και στοιχεία "
+"ελέγχου αναπαραγωγής στο τέλος για βίντεο."
+
+#. (itstool) path: item/p
+#: C/overlaid-controls.page:35
+msgid ""
+"Controls should be displayed when the pointer is moved over the content, or "
+"when it is tapped (on touch devices)."
+msgstr ""
+"Τα στοιχεία ελέγχου πρέπει να εμφανίζονται, όταν ο δείκτης μετακινείται πάνω "
+"από το περιεχόμενο, ή όταν πληκτρολογείται (σε συσκευές αφής)."
+
+#. (itstool) path: item/p
+#: C/overlaid-controls.page:36
+msgid ""
+"Overlaid controls can be attached to the edge of the content/window, or can "
+"be free-floating. <link xref=\"action-bars\">Action bars</link> can be "
+"treated as overlaid controls."
+msgstr ""
+"Τα στοιχεία ελέγχου επικάλυψης μπορούν να προσαρτηθούν στην άκρη του "
+"περιεχομένου/παραθύρου, ή μπορούν να αιωρούνται ελεύθερα. Οι <link xref"
+"=\"action-bars\">γραμμές ενεργειών</link> μπορούν να αντιμετωπιστούν ως "
+"στοιχεία ελέγχου επικάλυψης."
+
+#. (itstool) path: item/p
+#: C/overlaid-controls.page:37
+msgid "Use the standard \"OSD\" theme style for overlaid controls."
+msgstr ""
+"Χρησιμοποιήστε την τυπική τεχνοτροπία θέματος \"OSD\" για στοιχεία ελέγχου "
+"επικάλυψης."
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -7267,20 +7807,11 @@ msgstr ""
 
 #. (itstool) path: page/title
 #: C/patterns.page:13
-#| msgid "Design principles"
 msgid "Design patterns"
 msgstr "Υποδείγματα σχεδίασης"
 
 #. (itstool) path: page/p
 #: C/patterns.page:15
-#| msgid ""
-#| "Patterns are the primary elements that make up an application design. "
-#| "Some patterns, like <link xref=\"application-menus\">application menus</"
-#| "link> or <link xref=\"header-bars\">header bars</link>, are highly "
-#| "recommended. Others are optional, and deciding on which patterns you want "
-#| "to use forms a core part of the design process. To help with this, each "
-#| "pattern page details the appropriate uses of each pattern, and suggests "
-#| "alternatives that might be applicable."
 msgid ""
 "Patterns are the primary elements that make up an application design. Some "
 "patterns, like application menus or header bars, are highly recommended. "
@@ -8162,8 +8693,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkPopover.html"
 "\">GtkPopover</link>"
 msgstr ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkPopover.html\">GtkPopo"
-"ver</link>"
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkPopover.html"
+"\">GtkPopover</link>"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -8181,7 +8712,6 @@ msgstr ""
 
 #. (itstool) path: info/desc
 #: C/primary-windows.page:7
-#| msgid "Naming your application"
 msgid "The main window(s) for your application"
 msgstr "Τα κύρια παράθυρα της εφαρμογής σας"
 
@@ -8282,7 +8812,6 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/primary-windows.page:54
-#| msgid "Primary windows"
 msgid "Parent/child primary windows"
 msgstr "Γονικά/θυγατρικά πρωτεύοντα παράθυρα"
 
@@ -8344,9 +8873,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/primary-windows.page:74
-#| msgid ""
-#| "If your application launcher is selected while your application is "
-#| "running, all its primary windows should be displayed."
 msgid ""
 "If your application launcher is activated while your application is running, "
 "all its primary windows should be displayed."
@@ -8401,10 +8927,10 @@ msgid ""
 "careful to ensure that they follow the advice on minimum display sizes, "
 "display orientation, and half-screen snap."
 msgstr ""
-"Οι οδηγίες στην <link xref=\"display-compatibility\">συμβατότητα "
-"εμφάνισης</link> είναι ιδιαίτερα κατάλληλες για πρωτεύοντα παράθυρα: "
-"προσέξτε να εξασφαλίσετε ότι ακολουθούν τη συμβουλή για ελάχιστα μεγέθη "
-"εμφάνισης, προσανατολισμό εμφάνισης και προσκόλληση σε μισή οθόνη."
+"Οι οδηγίες στην <link xref=\"display-compatibility\">συμβατότητα εμφάνισης</"
+"link> είναι ιδιαίτερα κατάλληλες για πρωτεύοντα παράθυρα: προσέξτε να "
+"εξασφαλίσετε ότι ακολουθούν τη συμβουλή για ελάχιστα μεγέθη εμφάνισης, "
+"προσανατολισμό εμφάνισης και προσκόλληση σε μισή οθόνη."
 
 #. (itstool) path: item/p
 #: C/primary-windows.page:80
@@ -8417,8 +8943,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkWindow.html"
 "\">GtkWindow</link>"
 msgstr ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkWindow.html\">GtkWindo"
-"w</link>"
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkWindow.html"
+"\">GtkWindow</link>"
 
 #. (itstool) path: item/p
 #: C/primary-windows.page:90
@@ -8426,8 +8952,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkApplicationWindow."
 "html\">GtkApplicationWindow</link>"
 msgstr ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkApplicationWindow.htm"
-"l\">GtkApplicationWindow</link>"
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkApplicationWindow."
+"html\">GtkApplicationWindow</link>"
 
 #. (itstool) path: item/p
 #: C/primary-windows.page:91 C/sidebar-lists.page:57
@@ -8435,8 +8961,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkScrolledWindow.html"
 "\">GtkScrolledWindow</link>"
 msgstr ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkScrolledWindow.html\">"
-"GtkScrolledWindow</link>"
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkScrolledWindow.html"
+"\">GtkScrolledWindow</link>"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -8820,8 +9346,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkProgressBar.html"
 "\">GtkProgressBar</link>"
 msgstr ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkProgressBar.html\">Gtk"
-"ProgressBar</link>"
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkProgressBar.html"
+"\">GtkProgressBar</link>"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -8979,8 +9505,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkSpinner.html"
 "\">GtkSpinner</link>"
 msgstr ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkSpinner.html\">GtkSpin"
-"ner</link>"
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkSpinner.html"
+"\">GtkSpinner</link>"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -9117,8 +9643,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkRadioButton.html"
 "\">GtkRadioButton</link>"
 msgstr ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkRadioButton.html\">Gtk"
-"RadioButton</link>"
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkRadioButton.html"
+"\">GtkRadioButton</link>"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -9331,8 +9857,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkSearchEntry.html"
 "\">GtkSearchEntry</link>"
 msgstr ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkSearchEntry.html\">Gtk"
-"SearchEntry</link>"
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkSearchEntry.html"
+"\">GtkSearchEntry</link>"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -9646,8 +10172,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkStackSidebar.html"
 "\">GtkStackSidebar</link>"
 msgstr ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkStackSidebar.html\">Gt"
-"kStackSidebar</link>"
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkStackSidebar.html"
+"\">GtkStackSidebar</link>"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -9804,8 +10330,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkHScale.html"
 "\">GtkHSCale</link>"
 msgstr ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkHScale.html\">GtkHSCal"
-"e</link>"
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkHScale.html"
+"\">GtkHSCale</link>"
 
 #. (itstool) path: item/p
 #: C/sliders.page:73
@@ -9813,8 +10339,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkHScale.html"
 "\">GtkVSCale</link>"
 msgstr ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkHScale.html\">GtkVSCal"
-"e</link>"
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkHScale.html"
+"\">GtkVSCale</link>"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -9938,8 +10464,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkSpinButton.html"
 "\">GtkSpinButton</link>"
 msgstr ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkSpinButton.html\">GtkS"
-"pinButton</link>"
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkSpinButton.html"
+"\">GtkSpinButton</link>"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -10038,8 +10564,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkSwitch.html"
 "\">GtkSwitch</link>"
 msgstr ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkSwitch.html\">GtkSwitc"
-"h</link>"
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkSwitch.html"
+"\">GtkSwitch</link>"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -10274,8 +10800,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkNotebook.html"
 "\">GtkNotebook</link>"
 msgstr ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkNotebook.html\">GtkNot"
-"ebook</link>"
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkNotebook.html"
+"\">GtkNotebook</link>"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -10464,8 +10990,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkEntry.html"
 "\">GtkEntry</link>"
 msgstr ""
-"<link "
-"href=\"https://developer.gnome.org/gtk3/stable/GtkEntry.html\">GtkEntry</link>"
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkEntry.html"
+"\">GtkEntry</link>"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -10615,8 +11141,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkToolbar.html"
 "\">GtkToolbar</link>"
 msgstr ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkToolbar.html\">GtkTool"
-"bar</link>"
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkToolbar.html"
+"\">GtkToolbar</link>"
 
 #. (itstool) path: credit/name
 #: C/typography.page:11
@@ -10649,7 +11175,6 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/typography.page:22
-#| msgid "Default Fonts"
 msgid "Default fonts"
 msgstr "Προεπιλεγμένες γραμματοσειρές"
 
@@ -10668,7 +11193,6 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/typography.page:29
-#| msgid "Variants, Sizes and Weights"
 msgid "Variants, sizes and weights"
 msgstr "Παραλλαγές, μεγέθη και πάχη"
 
@@ -10728,7 +11252,6 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/typography.page:43
-#| msgid "Take Advantage of Unicode"
 msgid "Take advantage of unicode"
 msgstr "Εκμετάλλευση του Unicode"
 
@@ -11023,8 +11546,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkStack.html"
 "\">GtkStack</link>"
 msgstr ""
-"<link "
-"href=\"https://developer.gnome.org/gtk3/stable/GtkStack.html\">GtkStack</link>"
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkStack.html"
+"\">GtkStack</link>"
 
 #. (itstool) path: item/p
 #: C/view-switchers.page:49
@@ -11032,8 +11555,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkStackSwitcher.html"
 "\">GtkStackSwitcher</link>"
 msgstr ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkStackSwitcher.html\">G"
-"tkStackSwitcher</link>"
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkStackSwitcher.html"
+"\">GtkStackSwitcher</link>"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -11041,10 +11564,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/visual-layout.page:51
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/visual-alignment-correct.svg' "
-#| "md5='e3c39ae2afd325d6d472b81e335c161a'"
 msgctxt "_"
 msgid ""
 "external ref='figures/visual-alignment-incorrect.svg' "
@@ -11059,10 +11578,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/visual-layout.page:54
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/visual-alignment-correct.svg' "
-#| "md5='e3c39ae2afd325d6d472b81e335c161a'"
 msgctxt "_"
 msgid ""
 "external ref='figures/visual-alignment-correct.svg' "
@@ -11077,10 +11592,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/visual-layout.page:57
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/visual-alignment-spacing.svg' "
-#| "md5='b03186d63d106a76bb8485b3f858146f'"
 msgctxt "_"
 msgid ""
 "external ref='figures/visual-alignment-spacing.svg' "
@@ -11095,10 +11606,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/visual-layout.page:66
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/label-alignment.svg' "
-#| "md5='54434a2a98b7d7dda18baac74b94f51d'"
 msgctxt "_"
 msgid ""
 "external ref='figures/label-alignment.svg' "
@@ -11372,15 +11879,18 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/writing-style.page:50
+#| msgid ""
+#| "Use the standard GNOME terms when referring to parts of the user "
+#| "interface, such as ‘pointer’ and ‘window’. You can find a full list of "
+#| "these in the GNOME Documentation Style Guide, Recommended Terminology."
 msgid ""
 "Use the standard GNOME terms when referring to parts of the user interface, "
-"such as ‘pointer’ and ‘window’. You can find a full list of these in the "
-"GNOME Documentation Style Guide, Recommended Terminology."
+"such as ‘pointer’ and ‘window’. The HIG can be used as a reference in this "
+"regard."
 msgstr ""
 "Χρησιμοποιήστε τους τυπικούς όρους GNOME, όταν αναφερόσαστε σε τμήματα "
-"διεπαφής χρήστη, όπως ‘δείκτης’ και ‘παράθυρο’. Μπορείτε να βρείτε έναν "
-"πλήρη κατάλογο αυτών στον οδηγό τεκμηρίωσης τεχνοτροπίας του GNOME, "
-"συνιστώμενη ορολογία."
+"διεπαφής χρήστη, όπως ‘δείκτης’ και ‘παράθυρο’. Το HIG μπορεί να "
+"χρησιμοποιηθεί ως αναφορά σε αυτό το θέμα."
 
 #. (itstool) path: item/p
 #: C/writing-style.page:51
@@ -11403,7 +11913,6 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/writing-style.page:62
-#| msgid "Header Capitalization"
 msgid "Header capitalization"
 msgstr "Κεφαλαιοποίηση επικεφαλίδας"
 
@@ -11457,7 +11966,6 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/writing-style.page:80
-#| msgid "Sentence Capitalization"
 msgid "Sentence capitalization"
 msgstr "Κεφαλαιοποίηση πρότασης"
 
