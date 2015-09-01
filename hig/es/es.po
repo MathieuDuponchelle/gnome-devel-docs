@@ -14,10 +14,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: hig.master\n"
-"POT-Creation-Date: 2015-08-18 06:57+0000\n"
-"PO-Revision-Date: 2015-08-18 14:05+0200\n"
+"POT-Creation-Date: 2015-08-31 07:00+0000\n"
+"PO-Revision-Date: 2015-09-01 \n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
-"Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
+"Language-Team: Spanish <gnome-es-list@gnome.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -65,10 +65,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/action-bars.page:18
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/patterns/action-bar.svg' "
-#| "md5='921589af646dfe99ee3755ea2bf8bf2e'"
 msgctxt "_"
 msgid ""
 "external ref='figures/patterns/action-bar.svg' "
@@ -80,7 +76,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/action-bars.page:8
 msgid "Bottom bar that contains actions"
-msgstr ""
+msgstr "Barra inferior que contiene acciones"
 
 #. (itstool) path: credit/name
 #: C/action-bars.page:10 C/application-basics.page:7
@@ -195,10 +191,9 @@ msgstr ""
 #: C/radio-buttons.page:53 C/search.page:72 C/sidebar-lists.page:54
 #: C/sliders.page:69 C/spin-boxes.page:68 C/switches.page:43 C/tabs.page:99
 #: C/text-fields.page:68 C/toolbars.page:60 C/view-switchers.page:46
-#, fuzzy
 #| msgid "Preferences Windows"
 msgid "API reference"
-msgstr "Ventanas de preferencias"
+msgstr "Referencia de la API"
 
 #. (itstool) path: item/p
 #: C/action-bars.page:44
@@ -349,9 +344,8 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/application-basics.page:53
-#, fuzzy
 msgid "An application name plays a number of functions:"
-msgstr "Usar nombres de aplicaciones como títulos de ventanas"
+msgstr "El nombre una aplicación tiene varias funciones:"
 
 #. (itstool) path: item/p
 #: C/application-basics.page:56
@@ -406,10 +400,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/application-menus.page:17
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/patterns/application-menu.svg' "
-#| "md5='4a1da9ff4e204a200059142bbe64b05e'"
 msgctxt "_"
 msgid ""
 "external ref='figures/patterns/application-menu.svg' "
@@ -421,7 +411,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/application-menus.page:7
 msgid "Global application menu that is accessed from the top bar"
-msgstr ""
+msgstr "Menú global de la aplicación al que se accede desde la barra superior"
 
 #. (itstool) path: page/title
 #: C/application-menus.page:15
@@ -599,10 +589,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/button-menus.page:22
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/ui-elements/hybrid-button-menu.svg' "
-#| "md5='2bf79478aff9bd8c9935a21f6a37f7ea'"
 msgctxt "_"
 msgid ""
 "external ref='figures/ui-elements/button-menu.svg' "
@@ -617,10 +603,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/button-menus.page:42
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/ui-elements/hybrid-button-menu.svg' "
-#| "md5='2bf79478aff9bd8c9935a21f6a37f7ea'"
 msgctxt "_"
 msgid ""
 "external ref='figures/ui-elements/hybrid-button-menu.svg' "
@@ -779,10 +761,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/buttons.page:34
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/ui-elements/tabs.svg' "
-#| "md5='13001ed8763650a8b243319d6f816d0d'"
 msgctxt "_"
 msgid ""
 "external ref='figures/ui-elements/buttons.svg' "
@@ -1011,7 +989,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/buttons.page:78
 msgid "Suggested and destructive actions"
-msgstr ""
+msgstr "Acciones sugeridas y destructivas"
 
 #. (itstool) path: section/p
 #: C/buttons.page:80
@@ -1065,10 +1043,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/check-boxes.page:34
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/ui-elements/check-boxes.svg' "
-#| "md5='382dd468f45c24019a90e939a6408885'"
 msgctxt "_"
 msgid ""
 "external ref='figures/ui-elements/check-boxes.svg' "
@@ -1260,7 +1234,6 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/compatibility.page:28
-#, fuzzy
 #| msgid "GNOME 2 Compatibility"
 msgid "GNOME 2 compatibility"
 msgstr "Compatibilidad con GNOME 2"
@@ -1314,6 +1287,8 @@ msgid ""
 "Modernized guidance on subjects such as visual layout, typography and icon "
 "usage."
 msgstr ""
+"Guía modernizada en temas tales como aspecto visual, tipografía e uso de "
+"iconos."
 
 #. (itstool) path: section/p
 #: C/compatibility.page:42
@@ -1699,10 +1674,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/dialogs.page:55
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/patterns/message-dialog.svg' "
-#| "md5='90729fe23f0b92787c18b6e28c6a6cc2'"
 msgctxt "_"
 msgid ""
 "external ref='figures/patterns/message-dialog.svg' "
@@ -1717,10 +1688,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/dialogs.page:76
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/patterns/action-dialog.svg' "
-#| "md5='c2db9e3e6b79ca288a97693a18e79351'"
 msgctxt "_"
 msgid ""
 "external ref='figures/patterns/action-dialog.svg' "
@@ -1735,10 +1702,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/dialogs.page:93
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/patterns/presentation-dialog.svg' "
-#| "md5='9ccfb75ebd08866610557bdc158d8de4'"
 msgctxt "_"
 msgid ""
 "external ref='figures/patterns/presentation-dialog.svg' "
@@ -1750,14 +1713,13 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/dialogs.page:7
 msgid "Secondary windows that appear over primary, parent windows"
-msgstr ""
+msgstr "Ventanas secundarias que aparecen sobre las ventanas padre, primarias"
 
 #. (itstool) path: page/title
 #: C/dialogs.page:27
-#, fuzzy
 #| msgid "List of windows"
 msgid "Dialog windows"
-msgstr "Lista de ventanas"
+msgstr "Ventanas de diálogo"
 
 #. (itstool) path: page/p
 #: C/dialogs.page:29
@@ -2163,6 +2125,8 @@ msgid ""
 "Use <link xref=\"view-switchers\">view switchers</link> or <link xref=\"tabs"
 "\">tabs</link> to break up controls and information."
 msgstr ""
+"Use <link xref=\"view-switchers\">conmutadores de vista</link> o <link xref="
+"\"tabs\">pestañas</link> para dividir controles e información."
 
 #. (itstool) path: item/p
 #: C/dialogs.page:162
@@ -2292,10 +2256,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/drop-down-lists.page:22
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/ui-elements/drop-down-list.svg' "
-#| "md5='d68eba5939c4fb1b042eac5dbb8a9188'"
 msgctxt "_"
 msgid ""
 "external ref='figures/ui-elements/drop-down-list.svg' "
@@ -2310,10 +2270,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/drop-down-lists.page:48
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/ui-elements/drop-down-list-custom-values.svg' "
-#| "md5='73b56014f889329ee9b214156875fb15'"
 msgctxt "_"
 msgid ""
 "external ref='figures/ui-elements/drop-down-list-custom-values.svg' "
@@ -2414,6 +2370,9 @@ msgid ""
 "A drop-down list can allow custom values to be added to a number of presets, "
 "or can be used to enter and select from custom values alone."
 msgstr ""
+"Una lista desplegable puede permitir que se añadan valores personalizados a "
+"un número de configuración prestablecidas, o se puede usar para introducir y "
+"seleccionar desde valores personalizados aislados."
 
 #. (itstool) path: item/p
 #: C/drop-down-lists.page:53
@@ -2455,10 +2414,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/empty-placeholders.page:18
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/patterns/search.svg' "
-#| "md5='c593a0848d305226ce4f85056355af8e'"
 msgctxt "_"
 msgid ""
 "external ref='figures/patterns/empty-placeholder.svg' "
@@ -2470,12 +2425,12 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/empty-placeholders.page:8
 msgid "Image and text shown when a grid or list is empty"
-msgstr ""
+msgstr "Imagen y texto mostrados cuando una rejilla o lista está vacía"
 
 #. (itstool) path: page/title
 #: C/empty-placeholders.page:16
 msgid "Empty placeholders"
-msgstr ""
+msgstr "Marcadores de posición vacíos"
 
 #. (itstool) path: page/p
 #: C/empty-placeholders.page:20
@@ -2483,6 +2438,8 @@ msgid ""
 "An empty placeholder is an image, accompanied by text, which fills the space "
 "in an empty list or grid."
 msgstr ""
+"Un marcador de posición vacío es una imagen, acompañada de un texto, que "
+"rellena el espacio en una lista o rejilla vacía."
 
 #. (itstool) path: section/p
 #: C/empty-placeholders.page:25
@@ -2498,6 +2455,8 @@ msgstr ""
 msgid ""
 "An empty placeholder should be displayed whenever a list or grid is empty."
 msgstr ""
+"Siempre que haya una lista o rejilla vacía se debe mostrar un marcador de "
+"posición vacío."
 
 #. (itstool) path: section/p
 #: C/empty-placeholders.page:29
@@ -2548,10 +2507,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/grids.page:18
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/patterns/grid.svg' "
-#| "md5='c9f908165d533250747c56d6e1dc0f99'"
 msgctxt "_"
 msgid ""
 "external ref='figures/patterns/grid.svg' "
@@ -2563,7 +2518,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/grids.page:8
 msgid "Grids of thumbnails or icons"
-msgstr ""
+msgstr "Rejillas de miniaturas o iconos"
 
 #. (itstool) path: page/title
 #: C/grids.page:16
@@ -2653,10 +2608,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/header-bar-menus.page:18
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/patterns/header-bar-menu.svg' "
-#| "md5='89c52a435586440ef2780fec50e96dd6'"
 msgctxt "_"
 msgid ""
 "external ref='figures/patterns/header-bar-menu.svg' "
@@ -2668,7 +2619,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/header-bar-menus.page:8
 msgid "Common menus shown on the right side of a header bar"
-msgstr ""
+msgstr "Menús comunes mostrados en el lateral derecho de una barra de cabecera"
 
 #. (itstool) path: page/title
 #: C/header-bar-menus.page:16
@@ -2809,10 +2760,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/header-bars.page:18
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/patterns/header-bar-menu.svg' "
-#| "md5='89c52a435586440ef2780fec50e96dd6'"
 msgctxt "_"
 msgid ""
 "external ref='figures/patterns/header-bar.svg' "
@@ -3174,7 +3121,7 @@ msgstr "Seleccionar y crear iconos."
 #. (itstool) path: page/title
 #: C/icons-and-artwork.page:17
 msgid "Icons and artwork"
-msgstr ""
+msgstr "Iconos y diseño"
 
 #. (itstool) path: page/p
 #: C/icons-and-artwork.page:19
@@ -3328,7 +3275,6 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/icons-and-artwork.page:73
-#, fuzzy
 #| msgid "Application Icons"
 msgid "Application icons"
 msgstr "Iconos de aplicación"
@@ -3546,7 +3492,6 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/icons-and-artwork.page:171
-#, fuzzy
 #| msgid "See Also"
 msgid "See also"
 msgstr "Consulte también"
@@ -3608,9 +3553,6 @@ msgstr ""
 
 #. (itstool) path: td/p
 #: C/index.page:32
-#| msgid ""
-#| "<link xref=\"compatibility\"><em style=\"strong\">Compatibility</em></"
-#| "link>"
 msgid "<link xref=\"patterns\"><em style=\"strong\">Patterns</em></link>"
 msgstr "<link xref=\"patterns\"><em style=\"strong\">Patrones</em></link>"
 
@@ -3621,9 +3563,6 @@ msgstr ""
 
 #. (itstool) path: td/p
 #: C/index.page:36
-#| msgid ""
-#| "<link xref=\"design-principles\"><em style=\"strong\">Design principles</"
-#| "em></link>"
 msgid ""
 "<link xref=\"ui-elements\"><em style=\"strong\">User interface elements</"
 "em></link>"
@@ -3746,9 +3685,8 @@ msgstr ""
 #. (itstool) path: td/p
 #. (itstool) path: info/desc
 #: C/index.page:79 C/keyboard-input.page:23
-#, fuzzy
 msgid "Keyboard navigation, access and shortcut keys."
-msgstr "Acceso y foco del teclado"
+msgstr "Navegación con el teclado, acceso y atajos del teclado."
 
 #. (itstool) path: td/p
 #: C/index.page:82
@@ -3773,10 +3711,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/in-app-notifications.page:18
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/patterns/application-menu.svg' "
-#| "md5='4a1da9ff4e204a200059142bbe64b05e'"
 msgctxt "_"
 msgid ""
 "external ref='figures/patterns/in-app-notification.svg' "
@@ -3787,9 +3721,8 @@ msgstr ""
 
 #. (itstool) path: info/desc
 #: C/in-app-notifications.page:8 C/info-bars.page:8
-#, fuzzy
 msgid "Application event notifications"
-msgstr "Iconos de aplicación"
+msgstr "Notificaciones de eventos de aplicaciones"
 
 #. (itstool) path: page/title
 #: C/in-app-notifications.page:16
@@ -3863,10 +3796,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/info-bars.page:18
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/patterns/action-bar.svg' "
-#| "md5='921589af646dfe99ee3755ea2bf8bf2e'"
 msgctxt "_"
 msgid ""
 "external ref='figures/patterns/info-bar.svg' "
@@ -3877,10 +3806,9 @@ msgstr ""
 
 #. (itstool) path: page/title
 #: C/info-bars.page:16
-#, fuzzy
 #| msgid "Menu bars"
 msgid "Info bars"
-msgstr "Barras de menú"
+msgstr "Barras de información"
 
 #. (itstool) path: page/p
 #: C/info-bars.page:20
@@ -4110,7 +4038,6 @@ msgstr ""
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:79
-#| msgid "<key>F6</key> <keyseq><key>Shift</key><key>F6</key></keyseq>"
 msgid "<key>F6</key> and <keyseq><key>Shift</key><key>F6</key></keyseq>"
 msgstr "<key>F6</key> y <keyseq><key>Mayús</key><key>F6</key></keyseq>"
 
@@ -4195,7 +4122,6 @@ msgstr ""
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:107
-#| msgid "<key>Space</key>"
 msgid "<key>Escape</key>"
 msgstr "<key>Esc</key>"
 
@@ -4355,10 +4281,9 @@ msgstr ""
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:160
-#, fuzzy
 #| msgid "Shortcut"
 msgid "Legacy Shortcut"
-msgstr "Combinación de teclas"
+msgstr "Atajo heredado"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:161 C/keyboard-input.page:280
@@ -4373,7 +4298,7 @@ msgstr "Descripción"
 #. (itstool) path: td/p
 #: C/keyboard-input.page:166
 msgid "Activities Overview"
-msgstr ""
+msgstr "Vista de actividades"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:167
@@ -4403,7 +4328,7 @@ msgstr "Ninguno"
 #. (itstool) path: td/p
 #: C/keyboard-input.page:169
 msgid "Opens and closes the Activities Overview"
-msgstr ""
+msgstr "Abre y cierra la vista de actividades"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:172
@@ -4433,7 +4358,7 @@ msgstr "<keyseq><key>Súper</key><key>M</key></keyseq>"
 #. (itstool) path: td/p
 #: C/keyboard-input.page:181
 msgid "Toggles the visibility of the Message Tray."
-msgstr ""
+msgstr "Cambia la visibilidad de la bandeja de mensajes."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:184
@@ -4757,7 +4682,7 @@ msgstr "<keyseq><key>Ctrl</key><key>Q</key></keyseq>"
 #. (itstool) path: td/p
 #: C/keyboard-input.page:297
 msgid "Closes the application, including all application windows."
-msgstr ""
+msgstr "Cierra la aplicación, incluyendo todas sus ventanas."
 
 #. (itstool) path: section/title
 #: C/keyboard-input.page:305
@@ -5224,7 +5149,7 @@ msgstr "<keyseq><key>Ctrl</key><key>U</key></keyseq>"
 #. (itstool) path: td/p
 #: C/keyboard-input.page:431
 msgid "Creates a duplicate copy of the selected object."
-msgstr ""
+msgstr "Crea una copia duplicada del objeto seleccionado."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:434
@@ -5241,8 +5166,8 @@ msgstr "<key>Supr</key>"
 #, fuzzy
 msgid "Removes the selected content without placing it on the clipboard."
 msgstr ""
-"Quita el contenido seleccionado sin colocarlo en el portapapeles. <_:"
-"remark-1/>"
+"Quita el contenido seleccionado sin colocarlo en el portapapeles. <_:remark-"
+"1/>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:439
@@ -5915,10 +5840,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/lists.page:51
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/patterns/list-styles.svg' "
-#| "md5='f0d36f61a5d6e7f980e42c65aefa69c5'"
 msgctxt "_"
 msgid ""
 "external ref='figures/patterns/list-styles.svg' "
@@ -5933,10 +5854,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/lists.page:62
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/patterns/editable-lists.svg' "
-#| "md5='c9e5be503e9cea3d6ca45d15c3e96197'"
 msgctxt "_"
 msgid ""
 "external ref='figures/patterns/editable-lists.svg' "
@@ -6327,10 +6244,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/menu-bars.page:34
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/ui-elements/menu-bar.svg' "
-#| "md5='b27a9fa81c37203e8cfdd99458539dfd'"
 msgctxt "_"
 msgid ""
 "external ref='figures/ui-elements/menu-bar.svg' "
@@ -7094,10 +7007,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/overlaid-controls.page:17
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/patterns/action-bar.svg' "
-#| "md5='921589af646dfe99ee3755ea2bf8bf2e'"
 msgctxt "_"
 msgid ""
 "external ref='figures/patterns/overlaid-controls.svg' "
@@ -7175,10 +7084,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/patterns.page:20
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/patterns/patterns.svg' "
-#| "md5='39c238652d4e620f0bd5975dd5e7dd2e'"
 msgctxt "_"
 msgid ""
 "external ref='figures/patterns/patterns.svg' "
@@ -7189,10 +7094,9 @@ msgstr ""
 
 #. (itstool) path: page/title
 #: C/patterns.page:13
-#, fuzzy
 #| msgid "Design principles"
 msgid "Design patterns"
-msgstr "Principios de diseño"
+msgstr "Patrones de diseño"
 
 #. (itstool) path: page/p
 #: C/patterns.page:15
@@ -7207,10 +7111,9 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/patterns.page:18
-#, fuzzy
 #| msgid "Example tooltips for GNOME applications"
 msgid "Anatomy of a GNOME 3 application"
-msgstr "Ejemplos de consejos para aplicaciones GNOME"
+msgstr "Anatomía de una aplicación de GNOME 3"
 
 #. (itstool) path: section/p
 #: C/patterns.page:19
@@ -7390,9 +7293,8 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/pointer-and-touch-input.page:27
-#, fuzzy
 msgid "Primary and secondary buttons"
-msgstr "Ubicación de texto primario y secundario"
+msgstr "Botones primario y secundario"
 
 #. (itstool) path: section/p
 #: C/pointer-and-touch-input.page:29
@@ -7567,6 +7469,8 @@ msgid ""
 "Any of the following: <key>←</key> <key>↑</key> <key>→</key> <key>↓</key> "
 "<key>Home</key> <key>End</key> <key>PageUp</key> <key>PageDown</key>"
 msgstr ""
+"Cualquiera de las siguientes: <key>←</key> <key>↑</key> <key>→</key> <key>↓</"
+"key> <key>Inicio</key> <key>Fin</key> <key>Re Pág</key> <key>Av Pág</key>"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:90
@@ -7778,7 +7682,7 @@ msgstr ""
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:200
 msgid "Opens the Activities Overview."
-msgstr ""
+msgstr "Abre la vista de actividades."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:203
@@ -7818,10 +7722,6 @@ msgstr "Sale de la aplicación"
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/popovers.page:22
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/ui-elements/popover.svg' "
-#| "md5='905d21b5892d9ee6b4acaafa8192fdf7'"
 msgctxt "_"
 msgid ""
 "external ref='figures/ui-elements/popover.svg' "
@@ -7958,10 +7858,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/primary-windows.page:17
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/patterns/primary-windows.svg' "
-#| "md5='087b7dbf4e5512736d2b688e05d3a40c'"
 msgctxt "_"
 msgid ""
 "external ref='figures/patterns/primary-windows.svg' "
@@ -8049,7 +7945,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/primary-windows.page:49
 msgid "Placing content on different workspaces."
-msgstr ""
+msgstr "Colocar contenido en distintas áreas de trabajo."
 
 #. (itstool) path: item/p
 #: C/primary-windows.page:50
@@ -8189,10 +8085,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/progress-bars.page:34
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/ui-elements/progress-bars.svg' "
-#| "md5='9fc07e246ba8988d9fde0ecd4af79426'"
 msgctxt "_"
 msgid ""
 "external ref='figures/ui-elements/progress-bars.svg' "
@@ -8607,10 +8499,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/radio-buttons.page:34
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/ui-elements/radio-buttons.svg' "
-#| "md5='7a96508578ca5723e09f2a6349b3a51d'"
 msgctxt "_"
 msgid ""
 "external ref='figures/ui-elements/radio-buttons.svg' "
@@ -8721,10 +8609,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/search.page:17
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/patterns/search.svg' "
-#| "md5='c593a0848d305226ce4f85056355af8e'"
 msgctxt "_"
 msgid ""
 "external ref='figures/patterns/search.svg' "
@@ -8913,10 +8797,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/selection-mode.page:17
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/patterns/selection-mode.svg' "
-#| "md5='e0f92df0cff169d85e6f27373f92f85a'"
 msgctxt "_"
 msgid ""
 "external ref='figures/patterns/selection-mode.svg' "
@@ -9033,10 +8913,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/sidebar-lists.page:17
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/patterns/sidebar-list.svg' "
-#| "md5='56acac866e8e5d057fdcb727df4a75a2'"
 msgctxt "_"
 msgid ""
 "external ref='figures/patterns/sidebar-list.svg' "
@@ -9165,10 +9041,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/sliders.page:34
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/ui-elements/sliders.svg' "
-#| "md5='88426d7d09e03a828b136a61b0d4046c'"
 msgctxt "_"
 msgid ""
 "external ref='figures/ui-elements/sliders.svg' "
@@ -9327,10 +9199,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/spin-boxes.page:34
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/ui-elements/spin-boxes.svg' "
-#| "md5='cbb3d747ae6bf644c7e0539d03aaba38'"
 msgctxt "_"
 msgid ""
 "external ref='figures/ui-elements/spin-boxes.svg' "
@@ -9446,10 +9314,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/switches.page:22
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/ui-elements/sliders.svg' "
-#| "md5='88426d7d09e03a828b136a61b0d4046c'"
 msgctxt "_"
 msgid ""
 "external ref='figures/ui-elements/switches.svg' "
@@ -9528,10 +9392,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/tabs.page:36
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/ui-elements/tabs.svg' "
-#| "md5='13001ed8763650a8b243319d6f816d0d'"
 msgctxt "_"
 msgid ""
 "external ref='figures/ui-elements/tabs.svg' "
@@ -9580,7 +9440,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/tabs.page:48
 msgid "Fixed tabs"
-msgstr ""
+msgstr "Pestañas fijas"
 
 #. (itstool) path: item/p
 #: C/tabs.page:51
@@ -9677,7 +9537,6 @@ msgstr "<keyseq><key>Ctrl</key><key>T</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/tabs.page:78
-#| msgid "Create a new document"
 msgid "Create a new tab"
 msgstr "Crear una pestaña nueva"
 
@@ -9724,10 +9583,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/text-fields.page:34
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/ui-elements/text-fields.svg' "
-#| "md5='7e401f906f207a206c92eab34699d73d'"
 msgctxt "_"
 msgid ""
 "external ref='figures/ui-elements/text-fields.svg' "
@@ -9806,7 +9661,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/text-fields.page:50
 msgid "Embedding information and controls"
-msgstr ""
+msgstr "Empotrar información y controles"
 
 #. (itstool) path: section/p
 #: C/text-fields.page:52
@@ -9884,10 +9739,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/toolbars.page:34
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/ui-elements/toolbar.svg' "
-#| "md5='6ff605bcff3484f2e04dcd6d0d34bce9'"
 msgctxt "_"
 msgid ""
 "external ref='figures/ui-elements/toolbar.svg' "
@@ -10064,7 +9915,6 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/typography.page:22
-#| msgid "Default Fonts"
 msgid "Default fonts"
 msgstr "Tipografías predeterminadas"
 
@@ -10083,7 +9933,6 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/typography.page:29
-#| msgid "Variants, Sizes and Weights"
 msgid "Variants, sizes and weights"
 msgstr "Variantes, tamaños y grosores"
 
@@ -10329,10 +10178,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/view-switchers.page:17
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/patterns/view-switcher.svg' "
-#| "md5='709975647d96c42479379c74f4bc34c3'"
 msgctxt "_"
 msgid ""
 "external ref='figures/patterns/view-switcher.svg' "
@@ -10428,10 +10273,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/visual-layout.page:51
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/visual-alignment-correct.svg' "
-#| "md5='e3c39ae2afd325d6d472b81e335c161a'"
 msgctxt "_"
 msgid ""
 "external ref='figures/visual-alignment-incorrect.svg' "
@@ -10446,10 +10287,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/visual-layout.page:54
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/visual-alignment-correct.svg' "
-#| "md5='e3c39ae2afd325d6d472b81e335c161a'"
 msgctxt "_"
 msgid ""
 "external ref='figures/visual-alignment-correct.svg' "
@@ -10464,10 +10301,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/visual-layout.page:57
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/visual-alignment-spacing.svg' "
-#| "md5='b03186d63d106a76bb8485b3f858146f'"
 msgctxt "_"
 msgid ""
 "external ref='figures/visual-alignment-spacing.svg' "
@@ -10482,10 +10315,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/visual-layout.page:66
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/label-alignment.svg' "
-#| "md5='54434a2a98b7d7dda18baac74b94f51d'"
 msgctxt "_"
 msgid ""
 "external ref='figures/label-alignment.svg' "
@@ -10733,8 +10562,8 @@ msgstr ""
 "en lugar de términos del sistema subyacente. Use términos relacionados con "
 "el conocimiento del usuario sobre las tareas que soporta su aplicación. Por "
 "ejemplo, en medicina, a la carpeta que contiene toda la información sobre un "
-"paciente específico se le llama «historial». Por tanto, una aplicación "
-"médica podría referirse al registro de un paciente que contiene la misma "
+"paciente específico se le llama «historial». Por tanto, una aplicación médica "
+"podría referirse al registro de un paciente que contiene la misma "
 "información que un historial como «historial del paciente» en lugar de "
 "«registro del paciente de la base de datos»."
 
@@ -10765,7 +10594,6 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/writing-style.page:62
-#, fuzzy
 msgid "Header capitalization"
 msgstr "Capitalización de la cabecera"
 
@@ -10814,7 +10642,6 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/writing-style.page:80
-#, fuzzy
 msgid "Sentence capitalization"
 msgstr "Capitalización de frase"
 
@@ -11210,8 +11037,8 @@ msgstr ""
 #~ "Crea un documento nuevo. Abra una ventana primaria nueva, con el título "
 #~ "<replaceable>Nombre del documento</replaceable>, conteniendo un documento "
 #~ "vacío. Cómo se muestra esta ventana, por ejemplo, como pestaña o ventana "
-#~ "separada, lo tiene que decidir el gestor de ventanas. <_:para-1/> <_:"
-#~ "para-2/>"
+#~ "separada, lo tiene que decidir el gestor de ventanas. <_:para-1/> <_:para-"
+#~ "2/>"
 
 #~ msgid ""
 #~ "Note: A blank document will not necessarily be completely blank. For "
@@ -13619,8 +13446,8 @@ msgstr ""
 #~ "copia de la licencia <citetitle>Licencia de Documentación Libre de GNU</"
 #~ "citetitle> de la Free Software Foundation visitando <ulink type=\"http\" "
 #~ "url=\"http://www.fsf.org\">su página web</ulink> o escribiendo a: Free "
-#~ "Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA "
-#~ "02111-1307, EE. UU."
+#~ "Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-"
+#~ "1307, EE. UU."
 
 #~ msgid ""
 #~ "Many of the names used by companies to distinguish their products and "
@@ -14475,8 +14302,8 @@ msgstr ""
 #~ "revelaron que los usuarios tenían dificultades para encontrar el gestor "
 #~ "de archivos porque no estaban familiarizados con el nombre «Nautilus». "
 #~ "Dado que los usuarios no asocian la palabra «Nautilus» con el concepto "
-#~ "«gestor de archivos» el elemento del menú no les ayuda. Este es un "
-#~ "ejemplo para no usar el lenguaje de usuario. Consulte la <xref linkend="
+#~ "«gestor de archivos» el elemento del menú no les ayuda. Este es un ejemplo "
+#~ "para no usar el lenguaje de usuario. Consulte la <xref linkend="
 #~ "\"principles-match\"/> para obtener más información sobre este tema."
 
 #~ msgid "Including functional description in menu names"
@@ -14576,8 +14403,8 @@ msgstr ""
 #~ "información que debería aparecer en el nombre del menú. Por ejemplo, un "
 #~ "usuario que quiera reproducir una película, probablemente no buscará la "
 #~ "palabra «Cliente». Por otro lado, un usuario que quiera enviar películas "
-#~ "desde su equipo, sí puede buscar la palabra «Servidor». Evite pensar en "
-#~ "el menú de aplicaciones como una ontología."
+#~ "desde su equipo, sí puede buscar la palabra «Servidor». Evite pensar en el "
+#~ "menú de aplicaciones como una ontología."
 
 #~ msgid "Menu name formats"
 #~ msgstr "Formatos de nombres de menú"
@@ -15081,8 +14908,8 @@ msgstr ""
 #~ "png\" format=\"PNG\" width=\"379\"/> </imageobject> <imageobject> "
 #~ "<imagedata fileref=\"images/windows-titlebar.eps\" format=\"EPS\"/> </"
 #~ "imageobject> <textobject> <phrase>Captura de pantalla mostrando una barra "
-#~ "de título de ventana con el texto «Partes de las ventanas y del sistema "
-#~ "de interacción - Mozilla Firefox»</phrase> </textobject>"
+#~ "de título de ventana con el texto «Partes de las ventanas y del sistema de "
+#~ "interacción - Mozilla Firefox»</phrase> </textobject>"
 
 #~ msgid ""
 #~ "See the description of each particular window type for title formats."
@@ -15099,9 +14926,9 @@ msgstr ""
 #~ "provide hints to the window manager for the desired border type."
 #~ msgstr ""
 #~ "La mayoría de las ventanas tiene bordes, excepto cierto tipo de ventanas "
-#~ "con formas y algunas ventanas «arrancadas». No intente dibujar sus "
-#~ "propias ventanas sin bordes, en su lugar proporcione sugerencias al "
-#~ "gestor de ventanas para el tipo de borde que quiere."
+#~ "con formas y algunas ventanas «arrancadas». No intente dibujar sus propias "
+#~ "ventanas sin bordes, en su lugar proporcione sugerencias al gestor de "
+#~ "ventanas para el tipo de borde que quiere."
 
 #~ msgid ""
 #~ "Different window commands are appropriate to different types of window. "
@@ -15707,8 +15534,8 @@ msgstr ""
 #~ "Para ventanas que permiten al usuario cambiar valores o configuraciones, "
 #~ "como las propiedades y las ventanas de preferencias, actualice esos "
 #~ "valores o configuraciones inmediatamente para reflejar los cambios hechos "
-#~ "en la ventana. Esto se conoce como «aplicación instantánea». No obligue "
-#~ "al usuario pulse un botón <guibutton>Aceptar</guibutton> o "
+#~ "en la ventana. Esto se conoce como «aplicación instantánea». No obligue al "
+#~ "usuario pulse un botón <guibutton>Aceptar</guibutton> o "
 #~ "<guibutton>Aplicar</guibutton> para aplicar los cambios, a menos que:"
 
 #~ msgid ""
@@ -16144,8 +15971,8 @@ msgstr ""
 #~ "width=\"251\" depth=\"123\" format=\"PNG\"/> </imageobject> <imageobject> "
 #~ "<imagedata fileref=\"images/windows-alert-information.eps\" format=\"EPS"
 #~ "\"/> </imageobject> <textobject> <phrase>Un ejemplo de una alerta, "
-#~ "mostrando el texto «Tiene una cita con George Wells en 15 minutos», con "
-#~ "un botón «Aceptar» para cerrar la ventana.</phrase> </textobject>"
+#~ "mostrando el texto «Tiene una cita con George Wells en 15 minutos», con un "
+#~ "botón «Aceptar» para cerrar la ventana.</phrase> </textobject>"
 
 #~ msgid "Title Format"
 #~ msgstr "Formato del título"
@@ -16178,8 +16005,8 @@ msgstr ""
 #~ "Alerts do not appear in the system window list. Consequently, take care "
 #~ "to ensure that alerts stay above their parent window. Otherwise, users "
 #~ "will be likely to lose the alert and find your application unresponsive "
-#~ "for no apparent reason. Modal windows should always stay above the "
-#~ "window(s) they block."
+#~ "for no apparent reason. Modal windows should always stay above the window"
+#~ "(s) they block."
 #~ msgstr ""
 #~ "Las alertas no aparecen en la lista de ventanas del sistema. Entonces, "
 #~ "asegúrese de que se mantienen sobre su ventana madre. De lo contrario, "
@@ -16483,15 +16310,15 @@ msgstr ""
 #~ msgstr ""
 #~ "Cree una ventana «GtkDialog» nueva especificando el número de botones que "
 #~ "quiere que la alerta contenga (y un botón «Ayuda» si es apropiado). El "
-#~ "«GtkDialog» contendrá una «GtkVBox» con una fila superior vacía, y una "
-#~ "fila inferior conteniendo una «GtkButtonBox» con botones dentro. En la "
-#~ "fila superior, ponga una «GtkHBox» nueva. En su columna izquierda, "
-#~ "agregue una «GtkImage». En la derecha, una «GtkLabel». Dentro de ella "
-#~ "escriba el <replaceable>Texto primario</replaceable> primero (usando el "
-#~ "marcado Pango apropiado, consulte <xref linkend=\"alert-text\"/>), "
-#~ "después ponga dos saltos de línea (retornos), y el <replaceable>Texto "
-#~ "secundario</replaceable>. Ahora cambie las propiedades para cada control "
-#~ "de acuerdo a estas tablas:"
+#~ "«GtkDialog» contendrá una «GtkVBox» con una fila superior vacía, y una fila "
+#~ "inferior conteniendo una «GtkButtonBox» con botones dentro. En la fila "
+#~ "superior, ponga una «GtkHBox» nueva. En su columna izquierda, agregue una "
+#~ "«GtkImage». En la derecha, una «GtkLabel». Dentro de ella escriba el "
+#~ "<replaceable>Texto primario</replaceable> primero (usando el marcado "
+#~ "Pango apropiado, consulte <xref linkend=\"alert-text\"/>), después ponga "
+#~ "dos saltos de línea (retornos), y el <replaceable>Texto secundario</"
+#~ "replaceable>. Ahora cambie las propiedades para cada control de acuerdo a "
+#~ "estas tablas:"
 
 #~ msgid "Properties for the GtkDialog"
 #~ msgstr "Propiedades para el GtkDialog"
@@ -16662,8 +16489,8 @@ msgstr ""
 #~ msgstr ""
 #~ "puede presentar un botón de comodidad para permitir gestionar el error "
 #~ "inmediatamente. Por ejemplo, un botón <guibutton>Formatear…</guibutton> "
-#~ "en una alerta «El disco no tiene formato». Ponga este botón a la "
-#~ "izquierda del botón afirmativo."
+#~ "en una alerta «El disco no tiene formato». Ponga este botón a la izquierda "
+#~ "del botón afirmativo."
 
 #~ msgid ""
 #~ "Present a confirmation alert when the user's command may destroy their "
@@ -16975,9 +16802,9 @@ msgstr ""
 #~ msgstr ""
 #~ "Inmediatamente debajo de la barra de progreso, ubique texto en cursiva "
 #~ "indicando la suboperación ejecutándose. Esta puede ser un paso de una "
-#~ "secuencia, «Contactando a la torre de control para aterrizar», o puede "
-#~ "ser el objeto actual en una operación por lotes, como «Rotando MonaLisa."
-#~ "png», «Rotando NocheEstrellada.png»."
+#~ "secuencia, «Contactando a la torre de control para aterrizar», o puede ser "
+#~ "el objeto actual en una operación por lotes, como «Rotando MonaLisa.png», "
+#~ "«Rotando NocheEstrellada.png»."
 
 #~ msgid ""
 #~ "If the operation in progress is potentially hazardous (destructive, "
@@ -17143,8 +16970,8 @@ msgstr ""
 #~ msgstr ""
 #~ "<emphasis>No</emphasis> use una ventana de lista de comprobación para una "
 #~ "serie de pasos programáticos internos, use una ventana de progreso "
-#~ "regular. Por ejemplo, «Conectando al servidor de correo», «Autenticando "
-#~ "con el servidor de correo», «Descargando mensajes», «Desconectando» "
+#~ "regular. Por ejemplo, «Conectando al servidor de correo», «Autenticando con "
+#~ "el servidor de correo», «Descargando mensajes», «Desconectando» "
 #~ "<emphasis>no</emphasis> sería una serie de pasos apropiada para una "
 #~ "ventana de lista de comprobación, sino para suboperaciones de una ventana "
 #~ "de progreso regular."
@@ -17562,8 +17389,8 @@ msgstr ""
 #~ "<imageobject><imagedata fileref=\"images/menus-application.eps\" format="
 #~ "\"EPS\"/></imageobject> <textobject><phrase>Una barra de menú de "
 #~ "aplicación típica, mostrando los menús «Archivo», «Editar», «Ver», "
-#~ "«Insertar», «Formatear», «Ir», «Marcadores», «Herramientas», «Ventanas», "
-#~ "y «Ayuda»</phrase></textobject>"
+#~ "«Insertar», «Formatear», «Ir», «Marcadores», «Herramientas», «Ventanas», y "
+#~ "«Ayuda»</phrase></textobject>"
 
 #~ msgid ""
 #~ "The menubar provides a number of drop-down menus. Only the menu titles "
