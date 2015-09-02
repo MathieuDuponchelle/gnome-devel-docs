@@ -2,22 +2,23 @@
 # Spanish translation for gnome-devel-docs.
 # Copyright (C) 2009 gnome-devel-docs's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-devel-docs package.
-#
+# 
 # Benjamín Valero Espinosa <benjavalero@gmail.com>, 2011.
 # Jorge González <jorgegonz@svn.gnome.org>, 2009, 2010, 2011.
 # Gladys Guerero <gguerrer@redhat.com>, 2012.
 # Nicolás Satragno <nsatragno@gnome.org>, 2013.
 # Javi Ribera <javiribera@gmail.com>, 2013.
 # Alex Puchades <alex94puchades@gmail.com>, 2015.
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011, 2012, 2013, 2014, 2015.
+# 
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011, 2012, 2013, 2014, 2015., 2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: hig.master\n"
-"POT-Creation-Date: 2015-08-31 07:00+0000\n"
-"PO-Revision-Date: 2015-09-01 \n"
+"POT-Creation-Date: 2015-09-02 06:59+0000\n"
+"PO-Revision-Date: 2015-09-02 19:23+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
-"Language-Team: Spanish <gnome-es-list@gnome.org>\n"
+"Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -191,7 +192,6 @@ msgstr ""
 #: C/radio-buttons.page:53 C/search.page:72 C/sidebar-lists.page:54
 #: C/sliders.page:69 C/spin-boxes.page:68 C/switches.page:43 C/tabs.page:99
 #: C/text-fields.page:68 C/toolbars.page:60 C/view-switchers.page:46
-#| msgid "Preferences Windows"
 msgid "API reference"
 msgstr "Referencia de la API"
 
@@ -1124,6 +1124,9 @@ msgid ""
 "all check box labels that allows the user to set or unset the check box "
 "directly from the keyboard."
 msgstr ""
+"Proporcione una <link xref=\"keyboard-input#access-keys\">tecla de acceso</"
+"link> en todas las etiquetas de casillas, que permita al usuario marcar o "
+"desmarcar la casilla directamente desde el teclado."
 
 #. (itstool) path: item/p
 #: C/check-boxes.page:46
@@ -1223,6 +1226,10 @@ msgid ""
 "design patterns provided in these guidelines can be used in a cross-platform "
 "manner."
 msgstr ""
+"Las GIH proporcionan soporte multiplataforma para patrones de diseño y "
+"elementos de la IU que requieren un tratamiento especial en casos "
+"multiplataforma. De otro modo, todos los patrones de diseño proporcionados "
+"en esta guía se pueden usar de manera multiplataforma."
 
 #. (itstool) path: section/p
 #: C/compatibility.page:23
@@ -1231,10 +1238,12 @@ msgid ""
 "bars\">menu bars</link>, this pattern is of special relevance for cross-"
 "platform applications."
 msgstr ""
+"Dado que algunas plataformas proporcionan una integración a nivel del "
+"sistema de las <link xref=\"menu-bars\">barras de menú</link>, este patrón "
+"es de especial relevancia para las aplicaciones multiplataforma."
 
 #. (itstool) path: section/title
 #: C/compatibility.page:28
-#| msgid "GNOME 2 Compatibility"
 msgid "GNOME 2 compatibility"
 msgstr "Compatibilidad con GNOME 2"
 
@@ -1247,6 +1256,12 @@ msgid ""
 "more focused user experience, and will use modern interpretations of key "
 "functionality, such as search, online integration, or notifications."
 msgstr ""
+"Estas guías de interfaz humana son una evolución de las GIU de GNOME 2, y "
+"representan una mejora respecto a la versión anterior. Las aplicaciones que "
+"siguen la nueva versión de las GIU usarán el espacio de manera más "
+"eficiente, proporcionarán una experiencia más orientada al usuario y usarán "
+"interpretaciones modernas clave, tales como búsqueda, integración en línea o "
+"notificaciones."
 
 #. (itstool) path: section/p
 #: C/compatibility.page:32
@@ -1265,21 +1280,24 @@ msgid ""
 "into GNOME 2 style applications with minimal disruption, and will lead to an "
 "improved experience for users. This includes:"
 msgstr ""
+"Sin embargo, una gran parte del contenido recomendado en esta guía se puede "
+"incorporar en las aplicaciones de GNOME 2 con un trastorno mínimo, y "
+"resultarán en una experiencia de los usuarios mejorada. Esto incluye:"
 
 #. (itstool) path: item/p
 #: C/compatibility.page:37
-#, fuzzy
 #| msgid "New user interface elements, such as popovers."
 msgid "Utilizing new user interface elements, such as popovers."
 msgstr ""
-"Nuevos elementos de interfaz de usuario, tales como las ventanas emergentes."
+"Utilizar nuevos elementos de interfaz de usuario, tales como las ventanas "
+"emergentes."
 
 #. (itstool) path: item/p
 #: C/compatibility.page:38
-#, fuzzy
 #| msgid "Improved GTK+ abilities, like animations."
 msgid "Guidance on new GTK+ abilities, like animations."
-msgstr "Capacidades de GTK+ mejoradas, tales como las animaciones."
+msgstr ""
+"Orientación hacia las nuevas capacidades de GTK+, tales como las animaciones."
 
 #. (itstool) path: item/p
 #: C/compatibility.page:39
@@ -1717,7 +1735,6 @@ msgstr "Ventanas secundarias que aparecen sobre las ventanas padre, primarias"
 
 #. (itstool) path: page/title
 #: C/dialogs.page:27
-#| msgid "List of windows"
 msgid "Dialog windows"
 msgstr "Ventanas de diálogo"
 
@@ -1814,6 +1831,11 @@ msgid ""
 "dialogs are an appropriate choice when it is essential that the user sees "
 "and responds to a message."
 msgstr ""
+"Los diálogos de mensajes son el tipo más sencillo de diálogo. Muestran un "
+"mensaje o una pregunta, junto con 1-3 botones con los que responder. Son "
+"siempre modales, lo que significa que evitan el acceso a la ventana padre. "
+"Los diálogos de mensajes son una elección apropiada cuando es imprescindible "
+"que el usuario vea y responda a un mensaje."
 
 #. (itstool) path: section/title
 #: C/dialogs.page:60 C/dialogs.page:83 C/dialogs.page:98
@@ -1960,9 +1982,8 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/dialogs.page:107
-#, fuzzy
 msgid "Instant and Explicit Apply"
-msgstr "Botones en una ventana explícita de aplicar"
+msgstr "Aplicar instantánea y explícitamente"
 
 #. (itstool) path: section/p
 #: C/dialogs.page:109
@@ -2176,10 +2197,9 @@ msgstr ""
 
 #. (itstool) path: page/title
 #: C/display-compatibility.page:14
-#, fuzzy
 #| msgid "Cross-platform compatibility"
 msgid "Display compatibility"
-msgstr "Compatibilidad con otras plataformas"
+msgstr "Compatibilidad de la pantalla"
 
 #. (itstool) path: page/p
 #: C/display-compatibility.page:16
@@ -2188,6 +2208,9 @@ msgid ""
 "convertibles. This requires that applications be compatible with displays "
 "that have different sizes and orientations."
 msgstr ""
+"GNOME 3 soporta una amplia variedad de tipos de dispositivos, incluyendo "
+"escritorios, portátiles y convertibles. Esto requiere que las aplicaciones "
+"sean compatibles con pantallas que tienen diferentes tamaños y orientaciones."
 
 #. (itstool) path: page/p
 #: C/display-compatibility.page:18
@@ -2195,6 +2218,8 @@ msgid ""
 "The size requirements stated on this page should be doubled for high-"
 "resolution displays (those with greater than 96 PPI)."
 msgstr ""
+"Los requisitos de tamaño indicados en esta página se deben multiplicar por "
+"dos para pantallas de alta resolución (las que son superiores a 96 PPP)."
 
 #. (itstool) path: item/p
 #: C/display-compatibility.page:24
@@ -2202,6 +2227,9 @@ msgid ""
 "It should be possible for all application windows to fit on the smallest "
 "recommended displays for GNOME 3. Currently, this is 1024×600 pixels."
 msgstr ""
+"Debería ser posible que todas las ventanas de aplicaciones se ajustasen a "
+"las pantallas más pequeñas recomendadas para GNOME 3. Actualmente, esto es "
+"1024×600 píxeles."
 
 #. (itstool) path: item/p
 #: C/display-compatibility.page:25
@@ -2209,6 +2237,8 @@ msgid ""
 "Ensure that your application works well in portrait orientation. The minimum "
 "recommended width for portrait mode is 768 pixels."
 msgstr ""
+"Asegúrese de que su aplicación funciona bien en orientación vertical. La "
+"anchura mínima recomendada para el modo vertical es de 768 píxeles."
 
 #. (itstool) path: item/p
 #: C/display-compatibility.page:26
@@ -2217,6 +2247,9 @@ msgid ""
 "between landscape and portrait mode can be automatically handled by the "
 "window manager."
 msgstr ""
+"Todas las ventanas primarias deben ser redimensionables. Esto asegura que "
+"las transiciones entre el modo vertical y apaisado lo gestione "
+"automáticamente el gestor de ventanas."
 
 #. (itstool) path: item/p
 #: C/display-compatibility.page:27
@@ -2290,6 +2323,9 @@ msgid ""
 "from a list of mutually exclusive options. It appears as a button which, "
 "when clicked, reveals a list."
 msgstr ""
+"Una lista desplegable es un elemento de la interfaz de usuario que le "
+"permite seleccionar de una lista opciones mutuamente excluyentes. Aparece "
+"como un botón que, cuando se pulsa, muestra una lista."
 
 #. (itstool) path: page/p
 #: C/drop-down-lists.page:24
@@ -2380,6 +2416,9 @@ msgid ""
 "Ensure that custom values are ordered in a way that is most useful to users. "
 "Alphabetical or recency ordering is common."
 msgstr ""
+"Asegúrese de que los valores personalizados se ordenan de una manera útil "
+"para la mayoría de los usuarios. Alfabéticamente o más recientes son las "
+"ordenaciones más comunes."
 
 #. (itstool) path: item/p
 #: C/drop-down-lists.page:54
@@ -2387,6 +2426,8 @@ msgid ""
 "When a drop-down list includes both preset and custom values, separate them "
 "into separate groups within the list."
 msgstr ""
+"Cuando una lista desplegable incluya valores prestablecidos y valores "
+"personalizados, sepárelos en grupos dentro de la lista."
 
 #. (itstool) path: item/p
 #: C/drop-down-lists.page:55
@@ -2407,6 +2448,10 @@ msgid ""
 "previously, present the custom value entry when the drop-down is opened, "
 "instead of showing an empty list."
 msgstr ""
+"Si el desplegable sólo acepta valores personalizados, y no se han "
+"introducido valores previamente, muestre el valor de la entrada "
+"personalizada cuando el desplegable se abra, en lugar de mostrar una lista "
+"vacía."
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -2550,11 +2595,17 @@ msgid ""
 "content. This can be useful if content items have additional metadata "
 "associated with them, such as creation dates or authorship."
 msgstr ""
+"Las rejillas y las listas se pueden combinar para ofrecer diferentes vistas "
+"del mismo contenido. Esto puede ser útil si los elementos del contenido "
+"tienen metadatos adicionales asociados, tales como la fecha de creación o la "
+"autoría."
 
 #. (itstool) path: item/p
 #: C/grids.page:35
 msgid "Wherever possible, each item of content should have a unique thumbnail."
 msgstr ""
+"Siempre que sea posible, cada elemento de contenido debe tener una miniatura "
+"única."
 
 #. (itstool) path: item/p
 #: C/grids.page:36
@@ -2771,7 +2822,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/header-bars.page:8
 msgid "Element that runs along the top of windows"
-msgstr ""
+msgstr "Elementos que se ejecutan en la parte superior de las ventanas"
 
 #. (itstool) path: page/title
 #: C/header-bars.page:16
@@ -2870,7 +2921,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/header-bars.page:49
 msgid "Header bars are dynamic"
-msgstr ""
+msgstr "Las barras de cabecera son dinámicas"
 
 #. (itstool) path: section/p
 #: C/header-bars.page:51
@@ -2897,9 +2948,8 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/header-bars.page:60
-#, fuzzy
 msgid "Additional guidance"
-msgstr "Botones adicionales"
+msgstr "Ayuda adicional"
 
 #. (itstool) path: item/p
 #: C/header-bars.page:63
@@ -2925,6 +2975,8 @@ msgid ""
 "<gui>New</gui> and back buttons should be placed on the left side of the "
 "header bar."
 msgstr ""
+"Los botones <gui>Nuevo</gui> y «Atrás» se deben colocar en la parte "
+"izquierda de la barra de cabecera."
 
 #. (itstool) path: item/p
 #: C/header-bars.page:66
@@ -3275,7 +3327,6 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/icons-and-artwork.page:73
-#| msgid "Application Icons"
 msgid "Application icons"
 msgstr "Iconos de aplicación"
 
@@ -3492,7 +3543,6 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/icons-and-artwork.page:171
-#| msgid "See Also"
 msgid "See also"
 msgstr "Consulte también"
 
@@ -3806,7 +3856,6 @@ msgstr ""
 
 #. (itstool) path: page/title
 #: C/info-bars.page:16
-#| msgid "Menu bars"
 msgid "Info bars"
 msgstr "Barras de información"
 
@@ -4281,7 +4330,6 @@ msgstr ""
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:160
-#| msgid "Shortcut"
 msgid "Legacy Shortcut"
 msgstr "Atajo heredado"
 
@@ -5166,8 +5214,8 @@ msgstr "<key>Supr</key>"
 #, fuzzy
 msgid "Removes the selected content without placing it on the clipboard."
 msgstr ""
-"Quita el contenido seleccionado sin colocarlo en el portapapeles. <_:remark-"
-"1/>"
+"Quita el contenido seleccionado sin colocarlo en el portapapeles. <_:"
+"remark-1/>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:439
@@ -7094,7 +7142,6 @@ msgstr ""
 
 #. (itstool) path: page/title
 #: C/patterns.page:13
-#| msgid "Design principles"
 msgid "Design patterns"
 msgstr "Patrones de diseño"
 
@@ -7111,7 +7158,6 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/patterns.page:18
-#| msgid "Example tooltips for GNOME applications"
 msgid "Anatomy of a GNOME 3 application"
 msgstr "Anatomía de una aplicación de GNOME 3"
 
@@ -10562,8 +10608,8 @@ msgstr ""
 "en lugar de términos del sistema subyacente. Use términos relacionados con "
 "el conocimiento del usuario sobre las tareas que soporta su aplicación. Por "
 "ejemplo, en medicina, a la carpeta que contiene toda la información sobre un "
-"paciente específico se le llama «historial». Por tanto, una aplicación médica "
-"podría referirse al registro de un paciente que contiene la misma "
+"paciente específico se le llama «historial». Por tanto, una aplicación "
+"médica podría referirse al registro de un paciente que contiene la misma "
 "información que un historial como «historial del paciente» en lugar de "
 "«registro del paciente de la base de datos»."
 
@@ -11037,8 +11083,8 @@ msgstr ""
 #~ "Crea un documento nuevo. Abra una ventana primaria nueva, con el título "
 #~ "<replaceable>Nombre del documento</replaceable>, conteniendo un documento "
 #~ "vacío. Cómo se muestra esta ventana, por ejemplo, como pestaña o ventana "
-#~ "separada, lo tiene que decidir el gestor de ventanas. <_:para-1/> <_:para-"
-#~ "2/>"
+#~ "separada, lo tiene que decidir el gestor de ventanas. <_:para-1/> <_:"
+#~ "para-2/>"
 
 #~ msgid ""
 #~ "Note: A blank document will not necessarily be completely blank. For "
@@ -13446,8 +13492,8 @@ msgstr ""
 #~ "copia de la licencia <citetitle>Licencia de Documentación Libre de GNU</"
 #~ "citetitle> de la Free Software Foundation visitando <ulink type=\"http\" "
 #~ "url=\"http://www.fsf.org\">su página web</ulink> o escribiendo a: Free "
-#~ "Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-"
-#~ "1307, EE. UU."
+#~ "Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA "
+#~ "02111-1307, EE. UU."
 
 #~ msgid ""
 #~ "Many of the names used by companies to distinguish their products and "
@@ -14302,8 +14348,8 @@ msgstr ""
 #~ "revelaron que los usuarios tenían dificultades para encontrar el gestor "
 #~ "de archivos porque no estaban familiarizados con el nombre «Nautilus». "
 #~ "Dado que los usuarios no asocian la palabra «Nautilus» con el concepto "
-#~ "«gestor de archivos» el elemento del menú no les ayuda. Este es un ejemplo "
-#~ "para no usar el lenguaje de usuario. Consulte la <xref linkend="
+#~ "«gestor de archivos» el elemento del menú no les ayuda. Este es un "
+#~ "ejemplo para no usar el lenguaje de usuario. Consulte la <xref linkend="
 #~ "\"principles-match\"/> para obtener más información sobre este tema."
 
 #~ msgid "Including functional description in menu names"
@@ -14403,8 +14449,8 @@ msgstr ""
 #~ "información que debería aparecer en el nombre del menú. Por ejemplo, un "
 #~ "usuario que quiera reproducir una película, probablemente no buscará la "
 #~ "palabra «Cliente». Por otro lado, un usuario que quiera enviar películas "
-#~ "desde su equipo, sí puede buscar la palabra «Servidor». Evite pensar en el "
-#~ "menú de aplicaciones como una ontología."
+#~ "desde su equipo, sí puede buscar la palabra «Servidor». Evite pensar en "
+#~ "el menú de aplicaciones como una ontología."
 
 #~ msgid "Menu name formats"
 #~ msgstr "Formatos de nombres de menú"
@@ -14908,8 +14954,8 @@ msgstr ""
 #~ "png\" format=\"PNG\" width=\"379\"/> </imageobject> <imageobject> "
 #~ "<imagedata fileref=\"images/windows-titlebar.eps\" format=\"EPS\"/> </"
 #~ "imageobject> <textobject> <phrase>Captura de pantalla mostrando una barra "
-#~ "de título de ventana con el texto «Partes de las ventanas y del sistema de "
-#~ "interacción - Mozilla Firefox»</phrase> </textobject>"
+#~ "de título de ventana con el texto «Partes de las ventanas y del sistema "
+#~ "de interacción - Mozilla Firefox»</phrase> </textobject>"
 
 #~ msgid ""
 #~ "See the description of each particular window type for title formats."
@@ -14926,9 +14972,9 @@ msgstr ""
 #~ "provide hints to the window manager for the desired border type."
 #~ msgstr ""
 #~ "La mayoría de las ventanas tiene bordes, excepto cierto tipo de ventanas "
-#~ "con formas y algunas ventanas «arrancadas». No intente dibujar sus propias "
-#~ "ventanas sin bordes, en su lugar proporcione sugerencias al gestor de "
-#~ "ventanas para el tipo de borde que quiere."
+#~ "con formas y algunas ventanas «arrancadas». No intente dibujar sus "
+#~ "propias ventanas sin bordes, en su lugar proporcione sugerencias al "
+#~ "gestor de ventanas para el tipo de borde que quiere."
 
 #~ msgid ""
 #~ "Different window commands are appropriate to different types of window. "
@@ -15534,8 +15580,8 @@ msgstr ""
 #~ "Para ventanas que permiten al usuario cambiar valores o configuraciones, "
 #~ "como las propiedades y las ventanas de preferencias, actualice esos "
 #~ "valores o configuraciones inmediatamente para reflejar los cambios hechos "
-#~ "en la ventana. Esto se conoce como «aplicación instantánea». No obligue al "
-#~ "usuario pulse un botón <guibutton>Aceptar</guibutton> o "
+#~ "en la ventana. Esto se conoce como «aplicación instantánea». No obligue "
+#~ "al usuario pulse un botón <guibutton>Aceptar</guibutton> o "
 #~ "<guibutton>Aplicar</guibutton> para aplicar los cambios, a menos que:"
 
 #~ msgid ""
@@ -15971,8 +16017,8 @@ msgstr ""
 #~ "width=\"251\" depth=\"123\" format=\"PNG\"/> </imageobject> <imageobject> "
 #~ "<imagedata fileref=\"images/windows-alert-information.eps\" format=\"EPS"
 #~ "\"/> </imageobject> <textobject> <phrase>Un ejemplo de una alerta, "
-#~ "mostrando el texto «Tiene una cita con George Wells en 15 minutos», con un "
-#~ "botón «Aceptar» para cerrar la ventana.</phrase> </textobject>"
+#~ "mostrando el texto «Tiene una cita con George Wells en 15 minutos», con "
+#~ "un botón «Aceptar» para cerrar la ventana.</phrase> </textobject>"
 
 #~ msgid "Title Format"
 #~ msgstr "Formato del título"
@@ -16005,8 +16051,8 @@ msgstr ""
 #~ "Alerts do not appear in the system window list. Consequently, take care "
 #~ "to ensure that alerts stay above their parent window. Otherwise, users "
 #~ "will be likely to lose the alert and find your application unresponsive "
-#~ "for no apparent reason. Modal windows should always stay above the window"
-#~ "(s) they block."
+#~ "for no apparent reason. Modal windows should always stay above the "
+#~ "window(s) they block."
 #~ msgstr ""
 #~ "Las alertas no aparecen en la lista de ventanas del sistema. Entonces, "
 #~ "asegúrese de que se mantienen sobre su ventana madre. De lo contrario, "
@@ -16310,15 +16356,15 @@ msgstr ""
 #~ msgstr ""
 #~ "Cree una ventana «GtkDialog» nueva especificando el número de botones que "
 #~ "quiere que la alerta contenga (y un botón «Ayuda» si es apropiado). El "
-#~ "«GtkDialog» contendrá una «GtkVBox» con una fila superior vacía, y una fila "
-#~ "inferior conteniendo una «GtkButtonBox» con botones dentro. En la fila "
-#~ "superior, ponga una «GtkHBox» nueva. En su columna izquierda, agregue una "
-#~ "«GtkImage». En la derecha, una «GtkLabel». Dentro de ella escriba el "
-#~ "<replaceable>Texto primario</replaceable> primero (usando el marcado "
-#~ "Pango apropiado, consulte <xref linkend=\"alert-text\"/>), después ponga "
-#~ "dos saltos de línea (retornos), y el <replaceable>Texto secundario</"
-#~ "replaceable>. Ahora cambie las propiedades para cada control de acuerdo a "
-#~ "estas tablas:"
+#~ "«GtkDialog» contendrá una «GtkVBox» con una fila superior vacía, y una "
+#~ "fila inferior conteniendo una «GtkButtonBox» con botones dentro. En la "
+#~ "fila superior, ponga una «GtkHBox» nueva. En su columna izquierda, "
+#~ "agregue una «GtkImage». En la derecha, una «GtkLabel». Dentro de ella "
+#~ "escriba el <replaceable>Texto primario</replaceable> primero (usando el "
+#~ "marcado Pango apropiado, consulte <xref linkend=\"alert-text\"/>), "
+#~ "después ponga dos saltos de línea (retornos), y el <replaceable>Texto "
+#~ "secundario</replaceable>. Ahora cambie las propiedades para cada control "
+#~ "de acuerdo a estas tablas:"
 
 #~ msgid "Properties for the GtkDialog"
 #~ msgstr "Propiedades para el GtkDialog"
@@ -16489,8 +16535,8 @@ msgstr ""
 #~ msgstr ""
 #~ "puede presentar un botón de comodidad para permitir gestionar el error "
 #~ "inmediatamente. Por ejemplo, un botón <guibutton>Formatear…</guibutton> "
-#~ "en una alerta «El disco no tiene formato». Ponga este botón a la izquierda "
-#~ "del botón afirmativo."
+#~ "en una alerta «El disco no tiene formato». Ponga este botón a la "
+#~ "izquierda del botón afirmativo."
 
 #~ msgid ""
 #~ "Present a confirmation alert when the user's command may destroy their "
@@ -16802,9 +16848,9 @@ msgstr ""
 #~ msgstr ""
 #~ "Inmediatamente debajo de la barra de progreso, ubique texto en cursiva "
 #~ "indicando la suboperación ejecutándose. Esta puede ser un paso de una "
-#~ "secuencia, «Contactando a la torre de control para aterrizar», o puede ser "
-#~ "el objeto actual en una operación por lotes, como «Rotando MonaLisa.png», "
-#~ "«Rotando NocheEstrellada.png»."
+#~ "secuencia, «Contactando a la torre de control para aterrizar», o puede "
+#~ "ser el objeto actual en una operación por lotes, como «Rotando MonaLisa."
+#~ "png», «Rotando NocheEstrellada.png»."
 
 #~ msgid ""
 #~ "If the operation in progress is potentially hazardous (destructive, "
@@ -16970,8 +17016,8 @@ msgstr ""
 #~ msgstr ""
 #~ "<emphasis>No</emphasis> use una ventana de lista de comprobación para una "
 #~ "serie de pasos programáticos internos, use una ventana de progreso "
-#~ "regular. Por ejemplo, «Conectando al servidor de correo», «Autenticando con "
-#~ "el servidor de correo», «Descargando mensajes», «Desconectando» "
+#~ "regular. Por ejemplo, «Conectando al servidor de correo», «Autenticando "
+#~ "con el servidor de correo», «Descargando mensajes», «Desconectando» "
 #~ "<emphasis>no</emphasis> sería una serie de pasos apropiada para una "
 #~ "ventana de lista de comprobación, sino para suboperaciones de una ventana "
 #~ "de progreso regular."
@@ -17389,8 +17435,8 @@ msgstr ""
 #~ "<imageobject><imagedata fileref=\"images/menus-application.eps\" format="
 #~ "\"EPS\"/></imageobject> <textobject><phrase>Una barra de menú de "
 #~ "aplicación típica, mostrando los menús «Archivo», «Editar», «Ver», "
-#~ "«Insertar», «Formatear», «Ir», «Marcadores», «Herramientas», «Ventanas», y "
-#~ "«Ayuda»</phrase></textobject>"
+#~ "«Insertar», «Formatear», «Ir», «Marcadores», «Herramientas», «Ventanas», "
+#~ "y «Ayuda»</phrase></textobject>"
 
 #~ msgid ""
 #~ "The menubar provides a number of drop-down menus. Only the menu titles "
