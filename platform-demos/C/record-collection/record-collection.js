@@ -70,14 +70,14 @@ Demo.prototype = {
     this.connection.open ();
 
     try {
-      var dm = Gda.execute_select_command (this.connection, "select * from demo");
+      var dm = this.connection.execute_select_command ("select * from demo");
     } catch (e) {
-      Gda.execute_non_select_command (this.connection, "create table demo (id integer, name varchar(100))");
+      this.connection.execute_non_select_command ("create table demo (id integer, name varchar(100))");
     }
   },
 
   selectData: function () {
-    var dm = Gda.execute_select_command (this.connection, "select * from demo order by 1, 2");
+    var dm = this.connection.execute_select_command  ("select * from demo order by 1, 2");
     var iter = dm.create_iter ();
 
     var text = "";
