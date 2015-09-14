@@ -1,3 +1,16 @@
+3.17.92
+=======
+
+* Improvements to the HIG (Allan Day)
+* Use thumbnails for topic links on ui-elements (Shaun McCance)
+* Fix typo in the HIG (Anders Jonsson)
+* Fix filename in Makefile (Ting-Wei Lan)
+* Fix keyboard shortcuts (Marius Gedminas)
+* Fixes to JavaScript record collection demo (Mike Gray, David King)
+* Updated translations:
+  cs      (Marek Černocký)
+  el      (Dimitris Spingos)
+
 3.17.4
 ======
 
