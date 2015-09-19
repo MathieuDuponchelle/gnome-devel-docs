@@ -1,6 +1,6 @@
-This is the Gnome Programming Guidelines, a style guide for writing
-code for Gnome, and things we have learned over the years that make
-the Gnome project easier to follow.
+This is the GNOME Programming Guidelines, a style guide for writing
+code for GNOME, and things we have learned over the years that make
+the GNOME project easier to follow.
 
 The original Programming Guidelines document is included, for
 nostalgia, as old-programming-guidelines.ps - I couldn't find the
