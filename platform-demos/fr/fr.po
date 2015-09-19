@@ -1559,10 +1559,8 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/03_getting_the_signal.js.page:227
-#, fuzzy
-#| msgid "Creating the radiobuttons"
 msgid "Tuning the radio"
-msgstr "Création des boutons de radio"
+msgstr "Choisir le bouton de radio"
 
 #. (itstool) path: section/p
 #: C/03_getting_the_signal.js.page:229
@@ -4514,16 +4512,12 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/buttonbox.py.page:41
-#, fuzzy
-#| msgid ""
-#| "<code>set_digits(digits)</code> sets the precision to be displayed by the "
-#| "spinbutton, up to 20 digits."
 msgid ""
 "<code>set_spacing(spacing)</code> sets the spacing, in pixels, between the "
 "buttons of the box."
 msgstr ""
-"La méthode <code>set_digits(caracteres)</code> définit la précision "
-"d'affichage du BoutonDactivité, jusqu'à 20 caractères."
+"<code>set_spacing(spacing)</code> fixe l'espacement, en pixels, entre les "
+"boutons de la boîte."
 
 #. (itstool) path: item/p
 #: C/buttonbox.py.page:49
@@ -4556,21 +4550,15 @@ msgstr ""
 #: C/buttonbox.py.page:53 C/grid.c.page:36 C/radiobutton.c.page:37
 #: C/spinbutton.c.page:40 C/statusbar.c.page:40 C/switch.c.page:37
 #: C/togglebutton.c.page:40
-#, fuzzy
-#| msgid ""
-#| "<link href=\"http://developer.gnome.org/gobject/stable/signal.html"
-#| "\">Signals</link> in GObject documentation"
 msgid ""
 "<link href=\"http://developer.gnome.org/gtk3/stable/GtkGrid.html\">GtkGrid</"
 "link>"
 msgstr ""
-"<link href=\"http://developer.gnome.org/gobject/stable/signal.html\">Les "
-"signaux</link> dans la documentation GObject"
+"<link href=\"http://developer.gnome.org/gtk3/stable/GtkGrid.html\">GtkGrid</"
+"link>"
 
 #. (itstool) path: info/title
 #: C/c.page:9
-#, fuzzy
-#| msgid "C"
 msgctxt "link"
 msgid "C"
 msgstr "C"
@@ -4699,19 +4687,13 @@ msgstr "gcc <var>nomdufichier</var>.c `pkg-config --cflags --libs gtk+-3.0` -o <
 
 #. (itstool) path: note/p
 #: C/c.page:105
-#, fuzzy
-#| msgid ""
-#| "For more information about compiling Gtk+ programs see <link href="
-#| "\"http://developer.gnome.org/gtk3/3.4/gtk-compiling.html\">Compiling Gtk+ "
-#| "Applications on UNIX</link>."
 msgid ""
 "For more information about compiling GTK+ programs see <link href=\"http://"
 "developer.gnome.org/gtk3/3.4/gtk-compiling.html\">Compiling GTK+ "
 "Applications on UNIX</link>."
 msgstr ""
-"Pour davantage d'informations sur la compilation des programmes Gtk+, "
-"consultez <link href=\"http://developer.gnome.org/gtk3/3.4/gtk-compiling.html"
-"\">Compilation d'applications Gtk+ sur UNIX</link>."
+"Pour plus d'informations, consultez <link href=\"http://developer.gnome.org/"
+"gtk3/3.4/gtk-compiling.html\">Compiler des applications GTK+ sur UNIX</link>."
 
 #. (itstool) path: section/title
 #: C/c.page:117
@@ -4737,22 +4719,20 @@ msgstr "@@image: 'media/checkbutton.png'; md5=7921a6812c87dd2b3781f4fad241e858"
 
 #. (itstool) path: info/title
 #: C/checkbutton.c.page:8
-#, fuzzy
-#| msgid "CheckButton"
 msgctxt "text"
 msgid "CheckButton (C)"
-msgstr "CaseAcocher"
+msgstr "CheckButton (C)"
 
 #. (itstool) path: info/desc
 #: C/checkbutton.c.page:18
 msgid "Create widgets with a discrete ToggleButton"
-msgstr "Créer des éléments graphiques avec un bouton de basculement discret"
+msgstr "Créer des composants graphiques avec un ToggleButton"
 
 #. (itstool) path: page/title
 #: C/checkbutton.c.page:21 C/checkbutton.js.page:21 C/checkbutton.py.page:22
 #: C/checkbutton.vala.page:21
 msgid "CheckButton"
-msgstr "CaseAcocher"
+msgstr "CheckButton"
 
 #. (itstool) path: page/p
 #: C/checkbutton.c.page:23 C/checkbutton.py.page:24 C/checkbutton.vala.page:23
@@ -4813,29 +4793,23 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/checkbutton.c.page:30
-#, fuzzy
-#| msgid ""
-#| "In this sample we used the following: <link href=\"http://www.valadoc.org/"
-#| "gtk+-3.0/Gtk.Button.html\">Gtk.Button</link>"
 msgid ""
 "<link href=\"http://developer.gnome.org/gtk3/3.2/GtkCheckButton.html"
 "\">GtkCheckButton</link>"
 msgstr ""
-"Dans cet exemple, nous avons utilisé le <link href=\"http://www.valadoc.org/"
-"gtk+-3.0/Gtk.Button.html\">Gtk.Button</link>"
+"<link href=\"http://developer.gnome.org/gtk3/3.2/GtkCheckButton.html"
+"\">GtkCheckButton</link>"
 
 #. (itstool) path: info/title
 #: C/checkbutton.js.page:8
-#, fuzzy
-#| msgid "CheckButton"
 msgctxt "text"
 msgid "CheckButton (JavaScript)"
-msgstr "CaseAcocher"
+msgstr "CheckButton (JavaScript)"
 
 #. (itstool) path: info/desc
 #: C/checkbutton.js.page:18
 msgid "A box which can be checked or unchecked"
-msgstr "Une case qui peut être cochée ou décochée"
+msgstr "Une case que l'on peut cocher ou décocher"
 
 #. (itstool) path: page/p
 #: C/checkbutton.js.page:23
@@ -4843,9 +4817,9 @@ msgid ""
 "This application has a CheckButton. Whether the box is checked dictates "
 "whether the window's title bar shows anything."
 msgstr ""
-"Cette application possède une CaseAcocher. Selon que la case soit cochée ou "
-"non dicte l'affichage ou non de quelque chose dans la barre de titre de la "
-"fenêtre."
+"Cette application possède un CheckButton. L'état de la case – cochée ou "
+"non – indique s'il y a quelque chose d'affiché ou non dans la barre de titre "
+"de la fenêtre."
 
 #. (itstool) path: page/p
 #: C/checkbutton.js.page:24
@@ -4854,9 +4828,9 @@ msgid ""
 "While it's checked, the \"active\" property is true. While it's not, \"active"
 "\" tests as false."
 msgstr ""
-"Une CaseAcocher envoie le signal d'inversion « toggled » quand elle cochée "
-"ou décochée. Pendant qu'elle est cochée, la valeur de la propriété "
-"« active » est sur vrai et quand elle ne l'est pas, elle est sur faux."
+"Un CheckButton envoie le signal d'inversion « toggled » quand il est cochée "
+"ou décochée. Tant qu'il est coché, la propriété « active » est vraie et tant "
+"qu'elle ne l'est pas, elle est fausse."
 
 #. (itstool) path: section/title
 #: C/checkbutton.js.page:28 C/comboboxtext.js.page:30 C/combobox.js.page:33
@@ -4869,9 +4843,9 @@ msgid "Libraries to import"
 msgstr "Bibliothèques à importer"
 
 #. (itstool) path: section/code
-#: C/checkbutton.js.page:29 C/messagedialog.js.page:32 C/radiobutton.js.page:29
-#: C/scale.js.page:29 C/spinbutton.js.page:32 C/statusbar.js.page:29
-#: C/switch.js.page:36 C/togglebutton.js.page:29
+#: C/checkbutton.js.page:29 C/messagedialog.js.page:32
+#: C/radiobutton.js.page:29 C/scale.js.page:29 C/spinbutton.js.page:32
+#: C/statusbar.js.page:29 C/switch.js.page:36 C/togglebutton.js.page:29
 #, no-wrap
 msgid ""
 "\n"
@@ -4947,8 +4921,8 @@ msgid ""
 msgstr ""
 "Tout le code de cet exemple va dans la classe CheckButtonExample. Le code ci-"
 "dessus crée une <link href=\"http://www.roojs.com/seed/gir-1.2-gtk-3.0/gjs/"
-"Gtk.Application.html\">Gtk.Application</link> pour nos éléments graphiques "
-"et la fenêtre qui les contient."
+"Gtk.Application.html\">Gtk.Application</link> qui contiendra la fenêtre et "
+"nos composants graphiques."
 
 #. (itstool) path: section/code
 #: C/checkbutton.js.page:68
@@ -4979,12 +4953,12 @@ msgstr ""
 "Mettons tout le code nécessaire à la création de l'interface utilisateur "
 "dans la fonction _buildUI. Créons maintenant une nouvelle <link href="
 "\"GtkApplicationWindow.js.page\">Gtk.ApplicationWindow</link> pour y mettre "
-"tous nos éléments graphiques."
+"tous nos composants graphiques."
 
 #. (itstool) path: section/title
 #: C/checkbutton.js.page:85
 msgid "Creating the checkbutton"
-msgstr "Création de la CaseAcocher"
+msgstr "Création de la case à cocher"
 
 #. (itstool) path: section/code
 #: C/checkbutton.js.page:86
@@ -5004,14 +4978,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/checkbutton.js.page:97
-#, fuzzy
-#| msgid ""
-#| "This code creates the checkbutton itself. The label next to the "
-#| "checkbutton is created by giving the checkbutton the \"label\" property "
-#| "and assigning a string value to it. Since this checkbutton toggles "
-#| "whether the window title is on or off, and the window title will be on to "
-#| "start with, we want the box to be checked by default. Whenever the user "
-#| "checks or unchecks the box, we call the ._toggledCB function."
 msgid ""
 "This code creates the checkbutton itself. The label next to the checkbutton "
 "is created by giving the checkbutton the \"label\" property and assigning a "
@@ -5020,13 +4986,13 @@ msgid ""
 "to be checked by default. Whenever the user checks or unchecks the box, we "
 "call the _toggledCB function."
 msgstr ""
-"Ce code ne génère que la CaseAcocher. Pour créer l'étiquette à côté de la "
-"CaseAcocher, il faut donner à la CaseAcocher la propriété « label » et lui "
-"assigner une valeur de chaîne. Comme la CaseAcocher s'inverse selon que le "
-"titre de la fenêtre s'affiche ou non (et nous le mettons en position affiché "
-"pour commencer), il faut que la case soit cochée par défaut. Ensuite, à "
-"chaque fois que l'utilisateur coche ou décoche la case, cela appelle la "
-"fonction ._toggledCB."
+"Ce code ne génère que la case à cocher. Pour créer l'étiquette à côté de la "
+"case à cocher, il faut donner à la case à cocher la propriété « label » et "
+"lui assigner une valeur de chaîne. Comme la case à cocher s'inverse selon "
+"que le titre de la fenêtre s'affiche ou non (et nous le mettons en position "
+"affiché pour commencer), il faut que la case soit cochée par défaut. "
+"Ensuite, à chaque fois que l'utilisateur coche ou décoche la case, nous "
+"appelons la fonction _toggledCB."
 
 #. (itstool) path: section/code
 #: C/checkbutton.js.page:98 C/radiobutton.js.page:170
@@ -5045,13 +5011,13 @@ msgid ""
 "and all child widgets (which is just the checkbutton in this case)."
 msgstr ""
 "Ce code termine la création de l'interface utilisateur en indiquant à la "
-"fenêtre de s'afficher toute seule avec tous ses éléments graphiques enfants "
-"(il n'y a que la CaseAcocher dans cet exemple)."
+"fenêtre de s'afficher toute seule avec tous ses composants graphiques "
+"enfants (il n'y a que la case à cocher dans cet exemple)."
 
 #. (itstool) path: section/title
 #: C/checkbutton.js.page:107
 msgid "Function which handles the checkbutton's toggling"
-msgstr "Fonction prenant en charge l'inversion de la CaseAcocher"
+msgstr "Fonction prenant en charge l'inversion de la case à cocher"
 
 #. (itstool) path: section/code
 #: C/checkbutton.js.page:108
@@ -5080,11 +5046,10 @@ msgid ""
 "(checked) or not afterwards. A simple if / else statement which calls the "
 "checkbutton's get_active() method will work for this."
 msgstr ""
-"Quand la CaseAcocher est décochée, nous voulons que le titre de la fenêtre "
-"disparaisse. Quand elle est cochée, nous voulons qu'elle réapparaisse. Pour "
-"savoir quel est son état, il nous faut la tester. C'est l'instruction if ou "
-"else qui va appeler la méthode get_active() de la CaseAcocher et qui fera ce "
-"travail."
+"Nous voulons que le titre de la fenêtre disparaisse quand la case à cocher "
+"devient décochée, et qu'elle réapparaisse quand elle devient cochée. Pour "
+"savoir quel est son état, il nous faut la tester. Nous appellerons pour cela "
+"la méthode get_active() dans un bloc if ou else."
 
 #. (itstool) path: section/code
 #: C/checkbutton.js.page:122
@@ -5198,24 +5163,18 @@ msgstr "Documentation approfondie"
 
 #. (itstool) path: item/p
 #: C/checkbutton.js.page:140
-#, fuzzy
-#| msgid ""
-#| "In this sample we used the following: <link href=\"http://www.valadoc.org/"
-#| "gtk+-3.0/Gtk.Button.html\">Gtk.Button</link>"
 msgid ""
 "<link href=\"http://www.roojs.org/seed/gir-1.2-gtk-3.0/gjs/Gtk.CheckButton."
 "html\">Gtk.CheckButton</link>"
 msgstr ""
-"Dans cet exemple, nous avons utilisé le <link href=\"http://www.valadoc.org/"
-"gtk+-3.0/Gtk.Button.html\">Gtk.Button</link>"
+"<link href=\"http://www.roojs.org/seed/gir-1.2-gtk-3.0/gjs/Gtk.CheckButton."
+"html\">Gtk.CheckButton</link>"
 
 #. (itstool) path: info/title
 #: C/checkbutton.py.page:8
-#, fuzzy
-#| msgid "CheckButton"
 msgctxt "text"
 msgid "CheckButton (Python)"
-msgstr "CaseAcocher"
+msgstr "CheckButton (Python)"
 
 #. (itstool) path: info/desc
 #: C/checkbutton.py.page:19
@@ -5282,7 +5241,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/checkbutton.py.page:36
 msgid "Useful methods for a CheckButton widget"
-msgstr "Méthodes utiles pour un élément graphique CaseAcocher"
+msgstr "Méthodes utiles pour un composant graphique CheckButton"
 
 #. (itstool) path: section/p
 #: C/checkbutton.py.page:37
@@ -5295,37 +5254,27 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/checkbutton.py.page:47 C/togglebutton.py.page:44
-#, fuzzy
-#| msgid ""
-#| "<link href=\"http://developer.gnome.org/gobject/stable/signal.html"
-#| "\">Signals</link> in GObject documentation"
 msgid ""
 "<link href=\"http://developer.gnome.org/gtk3/unstable/GtkToggleButton.html"
 "\">GtkToggleButton</link>"
 msgstr ""
-"<link href=\"http://developer.gnome.org/gobject/stable/signal.html\">Les "
-"signaux</link> dans la documentation GObject"
+"<link href=\"http://developer.gnome.org/gtk3/unstable/GtkToggleButton.html"
+"\">GtkToggleButton</link>"
 
 #. (itstool) path: item/p
 #: C/checkbutton.py.page:48
-#, fuzzy
-#| msgid ""
-#| "<link href=\"http://developer.gnome.org/gobject/stable/signal.html"
-#| "\">Signals</link> in GObject documentation"
 msgid ""
 "<link href=\"http://developer.gnome.org/gtk3/unstable/GtkCheckButton.html"
 "\">GtkCheckButton</link>"
 msgstr ""
-"<link href=\"http://developer.gnome.org/gobject/stable/signal.html\">Les "
-"signaux</link> dans la documentation GObject"
+"<link href=\"http://developer.gnome.org/gtk3/unstable/GtkCheckButton.html"
+"\">GtkCheckButton</link>"
 
 #. (itstool) path: info/title
 #: C/checkbutton.vala.page:8
-#, fuzzy
-#| msgid "CheckButton"
 msgctxt "text"
 msgid "CheckButton (Vala)"
-msgstr "CaseAcocher"
+msgstr "CheckButton (Vala)"
 
 #. (itstool) path: info/desc
 #: C/checkbutton.vala.page:18
@@ -5394,23 +5343,20 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/checkbutton.vala.page:30
-#, fuzzy
-#| msgid ""
-#| "The widget <link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.Window.html"
-#| "\">Gtk.Window</link>"
 msgid ""
 "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.CheckButton.html\">Gtk."
 "CheckButton</link>"
 msgstr ""
-"L'élément graphique <link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.Window."
-"html\">Gtk.Window</link>"
+"<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.CheckButton.html\">Gtk."
+"CheckButton</link>"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/colorbutton.js.page:22 C/colorbutton.py.page:23 C/colorbutton.vala.page:24
+#: C/colorbutton.js.page:22 C/colorbutton.py.page:23
+#: C/colorbutton.vala.page:24
 #, fuzzy
 #| msgid ""
 #| "@@image: 'media/colorbutton.png'; md5=904539d26fe367bf99f9a0961cfc9a03"
@@ -5421,21 +5367,21 @@ msgstr "@@image: 'media/colorbutton.png'; md5=904539d26fe367bf99f9a0961cfc9a03"
 
 #. (itstool) path: info/title
 #: C/colorbutton.js.page:8
-#, fuzzy
-#| msgid "JavaScript"
 msgctxt "text"
 msgid "ColorButton (JavaScript)"
-msgstr "JavaScript"
+msgstr "ColorButton (JavaScript)"
 
 #. (itstool) path: info/desc
-#: C/colorbutton.js.page:18 C/colorbutton.py.page:19 C/colorbutton.vala.page:20
+#: C/colorbutton.js.page:18 C/colorbutton.py.page:19
+#: C/colorbutton.vala.page:20
 msgid "A button to launch a color selection dialog"
 msgstr "Un bouton pour ouvrir une boîte de dialogue de sélection de couleur"
 
 #. (itstool) path: page/title
-#: C/colorbutton.js.page:21 C/colorbutton.py.page:22 C/colorbutton.vala.page:23
+#: C/colorbutton.js.page:21 C/colorbutton.py.page:22
+#: C/colorbutton.vala.page:23
 msgid "ColorButton"
-msgstr "BoutonDeCouleur"
+msgstr "ColorButton"
 
 #. (itstool) path: page/p
 #: C/colorbutton.js.page:23 C/colorbutton.py.page:24
@@ -5443,8 +5389,8 @@ msgid ""
 "This ColorButton launches a color selection dialog and prints in the "
 "terminal the RGB values of the color selected."
 msgstr ""
-"Ce BoutonDeCouleur ouvre une boîte de dialogue pour sélectionner une couleur "
-"et affiche dans le terminal les valeurs RVB de la couleur sélectionnée."
+"Ce ColorButton ouvre une boîte de dialogue pour sélectionner une couleur et "
+"affiche dans le terminal les valeurs RVB de la couleur sélectionnée."
 
 #. (itstool) path: section/code
 #: C/colorbutton.js.page:29
@@ -5521,37 +5467,27 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/colorbutton.js.page:36
-#, fuzzy
-#| msgid ""
-#| "The enum <link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.WindowPosition."
-#| "html\">Gtk.WindowPosition</link>"
 msgid ""
 "<link href=\"http://www.roojs.com/seed/gir-1.2-gtk-3.0/gjs/Gtk.ColorButton."
 "html\">GtkColorButton</link>"
 msgstr ""
-"L'énumération <link href=\"http://www.valadoc.org/gtk+-3.0/Gtk."
-"WindowPosition.html\">Gtk.WindowPosition</link>"
+"<link href=\"http://www.roojs.com/seed/gir-1.2-gtk-3.0/gjs/Gtk.ColorButton."
+"html\">GtkColorButton</link>"
 
 #. (itstool) path: item/p
 #: C/colorbutton.js.page:37 C/colorbutton.py.page:45
-#, fuzzy
-#| msgid ""
-#| "<link href=\"http://developer.gnome.org/gobject/stable/signal.html"
-#| "\">Signals</link> in GObject documentation"
 msgid ""
 "<link href=\"http://developer.gnome.org/gdk3/stable/gdk3-RGBA-Colors.html"
 "\">RGBA Colors</link>"
 msgstr ""
-"<link href=\"http://developer.gnome.org/gobject/stable/signal.html\">Les "
-"signaux</link> dans la documentation GObject"
+"<link href=\"http://developer.gnome.org/gdk3/stable/gdk3-RGBA-Colors.html"
+"\">RGBA Colors</link>"
 
 #. (itstool) path: info/title
 #: C/colorbutton.py.page:8
-#, fuzzy
-#| msgid "ColorButton"
 msgctxt "text"
 msgid "ColorButton (Python)"
-msgstr "BoutonDeCouleur"
+msgstr "ColorButton (Python)"
 
 #. (itstool) path: section/code
 #: C/colorbutton.py.page:30
@@ -5617,10 +5553,8 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/colorbutton.py.page:34
-#, fuzzy
-#| msgid "Useful methods for a Button widget"
 msgid "Useful methods for a ColorButton widget"
-msgstr "Méthode utiles pour un élément graphique Bouton"
+msgstr "Méthode utiles pour un composant graphique ColorButton"
 
 #. (itstool) path: section/p
 #: C/colorbutton.py.page:35
@@ -5641,37 +5575,27 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/colorbutton.py.page:43
-#, fuzzy
-#| msgid ""
-#| "<link href=\"http://developer.gnome.org/gobject/stable/signal.html"
-#| "\">Signals</link> in GObject documentation"
 msgid ""
 "<link href=\"http://developer.gnome.org/gtk3/unstable/GtkColorButton.html"
 "\">GtkColorButton</link>"
 msgstr ""
-"<link href=\"http://developer.gnome.org/gobject/stable/signal.html\">Les "
-"signaux</link> dans la documentation GObject"
+"<link href=\"http://developer.gnome.org/gtk3/unstable/GtkColorButton.html"
+"\">GtkColorButton</link>"
 
 #. (itstool) path: item/p
 #: C/colorbutton.py.page:44
-#, fuzzy
-#| msgid ""
-#| "<link href=\"http://developer.gnome.org/gobject/stable/signal.html"
-#| "\">Signals</link> in GObject documentation"
 msgid ""
 "<link href=\"http://developer.gnome.org/gtk3/unstable/GtkColorChooser.html"
 "\">GtkColorChooser</link>"
 msgstr ""
-"<link href=\"http://developer.gnome.org/gobject/stable/signal.html\">Les "
-"signaux</link> dans la documentation GObject"
+"<link href=\"http://developer.gnome.org/gtk3/unstable/GtkColorChooser.html"
+"\">GtkColorChooser</link>"
 
 #. (itstool) path: info/title
 #: C/colorbutton.vala.page:8
-#, fuzzy
-#| msgid "ColorButton"
 msgctxt "text"
 msgid "ColorButton (Vala)"
-msgstr "BoutonDeCouleur"
+msgstr "ColorButton (Vala)"
 
 #. (itstool) path: page/p
 #: C/colorbutton.vala.page:25
@@ -5727,27 +5651,18 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/colorbutton.vala.page:32
-#, fuzzy
-#| msgid ""
-#| "The enum <link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.WindowPosition."
-#| "html\">Gtk.WindowPosition</link>"
 msgid ""
 "<link href=\"http://valadoc.org/gtk+-3.0/Gtk.ColorButton.html\">Gtk."
 "ColorButton</link>"
 msgstr ""
-"L'énumération <link href=\"http://www.valadoc.org/gtk+-3.0/Gtk."
-"WindowPosition.html\">Gtk.WindowPosition</link>"
+"<link href=\"http://valadoc.org/gtk+-3.0/Gtk.ColorButton.html\">Gtk."
+"ColorButton</link>"
 
 #. (itstool) path: item/p
 #: C/colorbutton.vala.page:33
-#, fuzzy
-#| msgid ""
-#| "The widget <link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.Window.html"
-#| "\">Gtk.Window</link>"
 msgid "<link href=\"http://valadoc.org/gdk-3.0/Gdk.RGBA.html\">Gdk.RGBA</link>"
 msgstr ""
-"L'élément graphique <link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.Window."
-"html\">Gtk.Window</link>"
+"<link href=\"http://valadoc.org/gdk-3.0/Gdk.RGBA.html\">Gdk.RGBA</link>"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -5765,21 +5680,19 @@ msgstr "@@image: 'media/combobox.png'; md5=ab9e91bc1a58fe866cb00dd52159251d"
 
 #. (itstool) path: info/title
 #: C/comboboxtext.js.page:8
-#, fuzzy
-#| msgid "ComboBoxText"
 msgctxt "text"
 msgid "ComboBoxText (JavaScript)"
-msgstr "BoiteCombineeTexte"
+msgstr "ComboBoxText (JavaScript)"
 
 #. (itstool) path: info/desc
 #: C/comboboxtext.js.page:20
 msgid "A text-only drop-down menu"
-msgstr "Un menu déroulant texte seul"
+msgstr "Un menu déroulant pour texte uniquement"
 
 #. (itstool) path: page/title
 #: C/comboboxtext.js.page:23
 msgid "ComboBoxText"
-msgstr "BoiteCombineeTexte"
+msgstr "ComboBoxText"
 
 #. (itstool) path: page/p
 #: C/comboboxtext.js.page:25
@@ -5790,12 +5703,11 @@ msgid ""
 "TreeStore (which are basically spreadsheets) to show things like branching "
 "options, or pictures to go alongside each choice."
 msgstr ""
-"Une BoiteCombinee est un menu déroulant. La différence entre une <link xref="
-"\"combobox.js\">BoiteCombinee</link> et une BoiteCombineeTexte est que cette "
-"dernière ne possède que des options texte de base, alors que la "
-"BoiteCombinee utilise un ListStore ou un TreeStore (qui sont de simples "
-"feuilles de calcul) pour afficher des éléments arborescents ou des images à "
-"côté de chaque choix."
+"Une ComboBox est un menu déroulant. La différence entre une <link xref="
+"\"combobox.js\">ComboBox</link> et une ComboBoxText est que cette dernière "
+"ne possède que des options texte de base, alors que la ComboBox utilise un "
+"ListStore ou un TreeStore (qui sont en gros des feuilles de calcul) pour "
+"afficher des éléments arborescents ou des images à côté de chaque choix."
 
 #. (itstool) path: note/p
 #: C/comboboxtext.js.page:26
@@ -5804,10 +5716,10 @@ msgid ""
 "working with ListStores and TreeStores, you may find it a lot simpler to use "
 "a ComboBoxText whenever possible."
 msgstr ""
-"À moins que vous n'ayez besoin des fonctions supplémentaires d'une "
-"BoiteCombinee, ou si vous vous sentez à l'aise dans la manipulation des "
-"ListStore et TreeStore, il est préférable d'utiliser la simplicité d'une "
-"BoiteCombineeTexte chaque fois que possible."
+"À moins que vous n'ayez besoin des fonctions supplémentaires d'une ComboBox, "
+"ou si vous vous sentez à l'aise dans la manipulation des ListStore et "
+"TreeStore, il est préférable d'utiliser la simplicité d'une ComboBoxText "
+"chaque fois que possible."
 
 #. (itstool) path: section/code
 #: C/comboboxtext.js.page:42
@@ -5848,7 +5760,7 @@ msgid ""
 msgstr ""
 "Tout le code de cet exemple va dans la classe MessageDialogExample. Le code "
 "ci-dessus crée une <link href=\"http://www.roojs.com/seed/gir-1.2-gtk-3.0/"
-"gjs/Gtk.Application.html\">Gtk.Application</link> pour nos éléments "
+"gjs/Gtk.Application.html\">Gtk.Application</link> pour nos composants "
 "graphiques et la fenêtre qui les contient."
 
 #. (itstool) path: section/code
@@ -5887,7 +5799,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/comboboxtext.js.page:83
 msgid "Creating the ComboBoxText"
-msgstr "Création de la BoiteCombineeTexte"
+msgstr "Création de la ComboBoxText"
 
 #. (itstool) path: section/code
 #: C/comboboxtext.js.page:84
@@ -5916,12 +5828,12 @@ msgid ""
 "create an array for your ComboBoxText entries, then use a for loop to append "
 "them in order, like we did here."
 msgstr ""
-"Après avoir créé la BoiteCombineeTexte, utilisons la méthode "
-"<file>append_text</file> pour lui ajouter des chaînes de texte. Comme les "
-"entrées d'un tableau, les chaînes ont chacune un nombre comme identifiant, "
-"en commençant par 0. Pour simplifier les choses, créons un tableau pour les "
-"entrées de la BoiteCombineeTexte et utilisons une boucle pour les ajouter "
-"dans l'ordre, comme ici."
+"Après avoir créé la ComboBoxText, utilisons la méthode <file>append_text</"
+"file> pour lui ajouter des chaînes de texte. Comme les entrées d'un tableau, "
+"les chaînes ont chacune un nombre comme identifiant, en commençant par 0. "
+"Pour simplifier les choses, créons un tableau pour les entrées de la "
+"ComboBoxText et utilisons une boucle pour les ajouter dans l'ordre, comme "
+"ici."
 
 #. (itstool) path: section/p
 #: C/comboboxtext.js.page:98
@@ -5932,7 +5844,7 @@ msgid ""
 "so that it's called whenever you make a new selection from the drop-down "
 "menu."
 msgstr ""
-"Après avoir garni la BoiteCombineeTexte, définissons sa première entrée pour "
+"Après avoir garni la ComboBoxText, définissons sa première entrée pour "
 "qu'elle devienne active, nous pouvons ainsi voir la ligne « Select "
 "distribution » avant de cliquer dessus. Connectons ensuite son signal "
 "<file>changed</file> à la fonction _onComboChanged, pour qu'elle soit "
@@ -5948,7 +5860,7 @@ msgid ""
 "file> and <file>insert</file> methods. See the links at the bottom of this "
 "tutorial for the details of how to use them."
 msgstr ""
-"Pour ajouter une entrée dans une BoiteCombineeTexte, utilisez la méthode "
+"Pour ajouter une entrée dans une ComboBoxText, utilisez la méthode "
 "<file>insert_text</file>. Pour utiliser une chaîne texte plutôt qu'un "
 "identifiant pour chaque entrée se référant à un nombre seul, utilisez les "
 "méthodes <file>append</file> et <file>insert</file>. Reportez-vous aux liens "
@@ -5973,8 +5885,8 @@ msgid ""
 "Finally, we add the ComboBoxText to the window, and tell the window to show "
 "itself and the widget inside it."
 msgstr ""
-"Enfin, ajoutons la BoiteCombineeTexte à la fenêtre et indiquons à la fenêtre "
-"de s'afficher avec ses éléments graphiques à l'intérieur."
+"Enfin, ajoutons la ComboBoxText à la fenêtre et indiquons à la fenêtre de "
+"s'afficher avec ses éléments graphiques à l'intérieur."
 
 #. (itstool) path: section/title
 #: C/comboboxtext.js.page:113 C/combobox.js.page:170 C/radiobutton.js.page:181
@@ -5997,13 +5909,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/comboboxtext.js.page:123
-#, fuzzy
-#| msgid ""
-#| "We're going to create a pop-up <link xref=\"messagedialog.js"
-#| "\">MessageDialog,</link> which shows you a message based on which distro "
-#| "you select. First, we create the array of responses to use. Since the "
-#| "first string in our ComboBoxText is just the \"Select distribution\" "
-#| "message, we make the first string in our array blank."
 msgid ""
 "We're going to create a pop-up <link xref=\"messagedialog.js"
 "\">MessageDialog</link>, which shows you a message based on which distro you "
@@ -6011,11 +5916,11 @@ msgid ""
 "string in our ComboBoxText is just the \"Select distribution\" message, we "
 "make the first string in our array blank."
 msgstr ""
-"Nous allons créer une <link xref=\"messagedialog.js"
-"\">BoiteDeDialogueDemessage</link> qui affiche un message en fonction de la "
-"distribution sélectionnée. Créons d'abord le tableau des réponses à "
-"utiliser. Comme la première chaîne de notre BoiteCombineeTexte est justement "
-"le message « Select distribution », laissons celle-ci vide."
+"Nous allons créer une <link xref=\"messagedialog.js\">MessageDialog</link> "
+"qui affiche un message en fonction de la distribution sélectionnée. Créons "
+"d'abord le tableau des réponses à utiliser. Comme la première chaîne de "
+"notre ComboBoxText est justement le message « Select distribution », "
+"laissons celle-ci vide."
 
 #. (itstool) path: section/code
 #: C/comboboxtext.js.page:125
@@ -6053,12 +5958,11 @@ msgid ""
 "We do that using the <file>get_active</file> method, which returns the "
 "number ID of your selection."
 msgstr ""
-"Avant d'afficher une BoiteDeDialogueDemessage, vérifions d'abord que vous "
-"n'avez pas choisi le message « Select distribution ». Ensuite, définissons "
-"son texte comme étant l'entrée dans le tableau qui correspond à l'entrée "
-"active de notre BoiteDeDialogueDemessage. Cela se fait avec la méthode "
-"<file>get_active</file>, qui renvoie l'identifiant numérique de votre "
-"sélection."
+"Avant d'afficher une MessageDialog, vérifions d'abord que vous n'avez pas "
+"choisi le message « Select distribution ». Ensuite, définissons son texte "
+"comme étant l'entrée dans le tableau qui correspond à l'entrée active de "
+"notre ComboBoxText. Cela se fait avec la méthode <file>get_active</file>, "
+"qui renvoie l'identifiant numérique de votre sélection."
 
 #. (itstool) path: note/p
 #: C/comboboxtext.js.page:148
@@ -6078,9 +5982,8 @@ msgid ""
 "After we create the MessageDialog, we connect its response signal to the "
 "_onDialogResponse function, then tell it to show itself."
 msgstr ""
-"Une fois la BoiteDeDialogueDemessage terminée, connectons son signal de "
-"retour à la fonction _onDialogResponse et indiquons lui de s'afficher toute "
-"seule."
+"Une fois la MessageDialog terminée, connectons son signal de retour à la "
+"fonction _onDialogResponse et indiquons lui de s'afficher toute seule."
 
 #. (itstool) path: section/code
 #: C/comboboxtext.js.page:151 C/combobox.js.page:208
@@ -6103,9 +6006,9 @@ msgid ""
 "to test its response_id to see which button was clicked. All we do here is "
 "destroy the popup."
 msgstr ""
-"Comme le seul bouton de la BoiteDeDialogueDemessage est le bouton OK, il "
-"n'est pas nécessaire de vérifier son response_id pour savoir quel bouton a "
-"été cliqué. Tout ce que nous faisons ici est détruire le message surgissant."
+"Comme le seul bouton de la MessageDialog est le bouton OK, il n'est pas "
+"nécessaire de vérifier son response_id pour savoir quel bouton a été cliqué. "
+"Tout ce que nous faisons ici est détruire le message surgissant."
 
 #. (itstool) path: section/code
 #: C/comboboxtext.js.page:162
@@ -6238,59 +6141,47 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/comboboxtext.js.page:183
-#, fuzzy
-#| msgid ""
-#| "At the bottom there is a <link href=\"http://www.roojs.org/seed/gir-1.2-"
-#| "gtk-3.0/gjs/Gtk.TextBuffer.html\">TextBuffer</link>. This holds the text "
-#| "itself."
 msgid ""
 "<link href=\"http://www.roojs.org/seed/gir-1.2-gtk-3.0/gjs/Gtk.ComboBoxText."
 "html\">Gtk.ComboBoxText</link>"
 msgstr ""
-"En bas se trouve un tampon <link href=\"http://www.roojs.org/seed/gir-1.2-"
-"gtk-3.0/gjs/Gtk.TextBuffer.html\">TextBuffer</link> qui contient le texte "
-"lui-même."
+"<link href=\"http://www.roojs.org/seed/gir-1.2-gtk-3.0/gjs/Gtk.ComboBoxText."
+"html\">Gtk.ComboBoxText</link>"
 
 #. (itstool) path: item/p
 #: C/comboboxtext.js.page:184 C/combobox.js.page:244 C/entry.js.page:33
 #: C/messagedialog.js.page:198
-#, fuzzy
-#| msgid ""
-#| "The widget <link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.Window.html"
-#| "\">Gtk.Window</link>"
 msgid ""
 "<link href=\"http://www.roojs.com/seed/gir-1.2-gtk-3.0/gjs/Gtk.MessageDialog."
 "html\">Gtk.MessageDialog</link>"
 msgstr ""
-"L'élément graphique <link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.Window."
-"html\">Gtk.Window</link>"
+"<link href=\"http://www.roojs.com/seed/gir-1.2-gtk-3.0/gjs/Gtk.MessageDialog."
+"html\">Gtk.MessageDialog</link>"
 
 #. (itstool) path: info/title
 #: C/combobox.c.page:8
-#, fuzzy
-#| msgid "ComboBox"
 msgctxt "text"
 msgid "ComboBox (C)"
-msgstr "BoiteCombinee"
+msgstr "ComboBox (C)"
 
 #. (itstool) path: info/desc
 #: C/combobox.c.page:22 C/combobox.py.page:20 C/combobox.vala.page:18
 #: C/combobox_multicolumn.py.page:19 C/combobox_multicolumn.vala.page:19
 msgid "A widget used to choose from a list of items"
 msgstr ""
-"Un élément graphique utilisé pour effectuer un choix dans une liste "
+"Un composant graphique utilisé pour effectuer un choix dans une liste "
 "d'éléments"
 
 #. (itstool) path: page/title
 #: C/combobox.c.page:25 C/combobox.js.page:25 C/combobox.vala.page:21
 msgid "ComboBox"
-msgstr "BoiteCombinee"
+msgstr "ComboBox"
 
 #. (itstool) path: page/p
 #: C/combobox.c.page:27 C/combobox.vala.page:23
 msgid "This ComboBox prints to the terminal when you change your selection."
 msgstr ""
-"Cette BoiteCombinee s'affiche dans le terminal quand vous modifiez votre "
+"Cette ComboBox s'affiche dans le terminal quand vous modifiez votre "
 "sélection."
 
 #. (itstool) path: page/code
@@ -6383,16 +6274,12 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/combobox.c.page:37
-#, fuzzy
-#| msgid ""
-#| "<link href=\"http://developer.gnome.org/gobject/stable/signal.html"
-#| "\">Signals</link> in GObject documentation"
 msgid ""
 "<link href=\"http://developer.gnome.org/gtk3/stable/GtkComboBoxText.html"
 "\">GtkComboBoxText</link>"
 msgstr ""
-"<link href=\"http://developer.gnome.org/gobject/stable/signal.html\">Les "
-"signaux</link> dans la documentation GObject"
+"<link href=\"http://developer.gnome.org/gtk3/stable/GtkComboBoxText.html"
+"\">GtkComboBoxText</link>"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -6415,11 +6302,9 @@ msgstr ""
 
 #. (itstool) path: info/title
 #: C/combobox.js.page:8
-#, fuzzy
-#| msgid "JavaScript"
 msgctxt "text"
 msgid "ComboBox (JavaScript)"
-msgstr "JavaScript"
+msgstr "ComboBox (JavaScript)"
 
 #. (itstool) path: info/desc
 #: C/combobox.js.page:22
@@ -6622,10 +6507,8 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/combobox.js.page:125
-#, fuzzy
-#| msgid "Creating the ComboBoxText"
 msgid "Creating the ComboBox"
-msgstr "Création de la BoiteCombineeTexte"
+msgstr "Création de la ComboBox"
 
 #. (itstool) path: section/code
 #: C/combobox.js.page:126
@@ -6731,16 +6614,12 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/combobox.js.page:166
-#, fuzzy
-#| msgid ""
-#| "Finally, we add the ComboBoxText to the window, and tell the window to "
-#| "show itself and the widget inside it."
 msgid ""
 "Finally, we add the ComboBox to the window, and tell the window to show "
 "itself and everything inside it."
 msgstr ""
-"Enfin, ajoutons la BoiteCombineeTexte à la fenêtre et indiquons à la fenêtre "
-"de s'afficher avec ses éléments graphiques à l'intérieur."
+"Enfin, ajoutons la ComboBox à la fenêtre et indiquons à la fenêtre de "
+"s'afficher avec ses éléments graphiques à l'intérieur."
 
 #. (itstool) path: section/code
 #: C/combobox.js.page:171
@@ -6758,13 +6637,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/combobox.js.page:180
-#, fuzzy
-#| msgid ""
-#| "We're going to create a pop-up <link xref=\"messagedialog.js"
-#| "\">MessageDialog,</link> which shows you a message based on which distro "
-#| "you select. First, we create the array of responses to use. Since the "
-#| "first string in our ComboBoxText is just the \"Select distribution\" "
-#| "message, we make the first string in our array blank."
 msgid ""
 "We're going to create a pop-up <link xref=\"messagedialog.js"
 "\">MessageDialog</link>, which shows you a silly haiku based on which distro "
@@ -6772,11 +6644,11 @@ msgid ""
 "string in our ComboBox is just the \"Select\" message, we make the first "
 "string in our array blank."
 msgstr ""
-"Nous allons créer une <link xref=\"messagedialog.js"
-"\">BoiteDeDialogueDemessage</link> qui affiche un message en fonction de la "
-"distribution sélectionnée. Créons d'abord le tableau des réponses à "
-"utiliser. Comme la première chaîne de notre BoiteCombineeTexte est justement "
-"le message « Select distribution », laissons celle-ci vide."
+"Nous allons créer une <link xref=\"messagedialog.js\">MessageDialog</link> "
+"qui affiche un message en fonction de la distribution sélectionnée. Créons "
+"d'abord le tableau des réponses à utiliser. Comme la première chaîne de "
+"notre ComboBox est justement le message « Select distribution », laissons "
+"celle-ci vide."
 
 #. (itstool) path: section/code
 #: C/combobox.js.page:182
@@ -6807,13 +6679,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/combobox.js.page:204
-#, fuzzy
-#| msgid ""
-#| "Before showing a MessageDialog, we first test to make sure you didn't "
-#| "choose the \"Select distribution\" message. After that, we set its text "
-#| "to be the entry in the array that corresponds to the active entry in our "
-#| "ComboBoxText. We do that using the <file>get_active</file> method, which "
-#| "returns the number ID of your selection."
 msgid ""
 "Before showing a MessageDialog, we first test to make sure you didn't choose "
 "the \"Select\" message. After that, we set its text to be the haiku in the "
@@ -6821,12 +6686,11 @@ msgid ""
 "using the <file>get_active</file> method, which returns the number ID of "
 "your selection."
 msgstr ""
-"Avant d'afficher une BoiteDeDialogueDemessage, vérifions d'abord que vous "
-"n'avez pas choisi le message « Select distribution ». Ensuite, définissons "
-"son texte comme étant l'entrée dans le tableau qui correspond à l'entrée "
-"active de notre BoiteDeDialogueDemessage. Cela se fait avec la méthode "
-"<file>get_active</file>, qui renvoie l'identifiant numérique de votre "
-"sélection."
+"Avant d'afficher une MessageDialog, vérifions d'abord que vous n'avez pas "
+"choisi le message « Select distribution ». Ensuite, définissons son texte "
+"comme étant l'entrée dans le tableau qui correspond à l'entrée active de "
+"notre ComboBoxText. Cela se fait avec la méthode <file>get_active</file>, "
+"qui renvoie l'identifiant numérique de votre sélection."
 
 #. (itstool) path: note/p
 #: C/combobox.js.page:205
@@ -7013,59 +6877,39 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/combobox.js.page:240
-#, fuzzy
-#| msgid ""
-#| "At the bottom there is a <link href=\"http://www.roojs.org/seed/gir-1.2-"
-#| "gtk-3.0/gjs/Gtk.TextBuffer.html\">TextBuffer</link>. This holds the text "
-#| "itself."
 msgid ""
 "<link href=\"http://www.roojs.org/seed/gir-1.2-gtk-3.0/gjs/Gtk."
 "CellRendererPixbuf.html\">Gtk.CellRendererPixbuf</link>"
 msgstr ""
-"En bas se trouve un tampon <link href=\"http://www.roojs.org/seed/gir-1.2-"
-"gtk-3.0/gjs/Gtk.TextBuffer.html\">TextBuffer</link> qui contient le texte "
-"lui-même."
+"<link href=\"http://www.roojs.org/seed/gir-1.2-gtk-3.0/gjs/Gtk."
+"CellRendererPixbuf.html\">Gtk.CellRendererPixbuf</link>"
 
 #. (itstool) path: item/p
 #: C/combobox.js.page:241 C/treeview_simple_liststore.js.page:279
-#, fuzzy
-#| msgid ""
-#| "At the bottom there is a <link href=\"http://www.roojs.org/seed/gir-1.2-"
-#| "gtk-3.0/gjs/Gtk.TextBuffer.html\">TextBuffer</link>. This holds the text "
-#| "itself."
 msgid ""
 "<link href=\"http://www.roojs.org/seed/gir-1.2-gtk-3.0/gjs/Gtk."
 "CellRendererText.html\">Gtk.CellRendererText</link>"
 msgstr ""
-"En bas se trouve un tampon <link href=\"http://www.roojs.org/seed/gir-1.2-"
-"gtk-3.0/gjs/Gtk.TextBuffer.html\">TextBuffer</link> qui contient le texte "
-"lui-même."
+"<link href=\"http://www.roojs.org/seed/gir-1.2-gtk-3.0/gjs/Gtk."
+"CellRendererText.html\">Gtk.CellRendererText</link>"
 
 #. (itstool) path: item/p
 #: C/combobox.js.page:242
-#, fuzzy
-#| msgid ""
-#| "The widget <link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.Window.html"
-#| "\">Gtk.Window</link>"
 msgid ""
 "<link href=\"http://www.roojs.org/seed/gir-1.2-gtk-3.0/gjs/Gtk.ComboBox.html"
 "\">Gtk.ComboBox</link>"
 msgstr ""
-"L'élément graphique <link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.Window."
-"html\">Gtk.Window</link>"
+"<link href=\"http://www.roojs.org/seed/gir-1.2-gtk-3.0/gjs/Gtk.ComboBox.html"
+"\">Gtk.ComboBox</link>"
 
 #. (itstool) path: item/p
 #: C/combobox.js.page:243 C/treeview_simple_liststore.js.page:280
-#, fuzzy
-#| msgid ""
-#| "The widget <link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.Window.html"
-#| "\">Gtk.Window</link>"
 msgid ""
 "<link href=\"http://www.roojs.org/seed/gir-1.2-gtk-3.0/gjs/Gtk.ListStore.html"
 "\">Gtk.ListStore</link>"
 msgstr ""
-"L'élément graphique <link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.Window."
-"html\">Gtk.Window</link>"
+"<link href=\"http://www.roojs.org/seed/gir-1.2-gtk-3.0/gjs/Gtk.ListStore.html"
+"\">Gtk.ListStore</link>"
 
 #. (itstool) path: item/p
 #: C/combobox.js.page:245 C/treeview_simple_liststore.js.page:281
@@ -22157,42 +22001,30 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/menubar.c.page:37 C/scrolledwindow.c.page:34
-#, fuzzy
-#| msgid ""
-#| "How to write a <link href=\"http://developer.gnome.org/platform-overview/"
-#| "stable/gtk\">Gtk application</link> in Vala"
 msgid ""
 "<link href=\"http://developer.gnome.org/gtk3/stable/GtkApplication.html"
 "\">GtkApplication</link>"
 msgstr ""
-"comment écrire une <link href=\"http://developer.gnome.org/platform-overview/"
-"stable/gtk\">application Gtk</link> en Vala,"
+"<link href=\"http://developer.gnome.org/gtk3/stable/GtkApplication.html"
+"\">GtkApplication</link>"
 
 #. (itstool) path: item/p
 #: C/menubar.c.page:40
-#, fuzzy
-#| msgid ""
-#| "<link href=\"http://developer.gnome.org/gobject/stable/signal.html"
-#| "\">Signals</link> in GObject documentation"
 msgid ""
 "<link href=\"http://developer.gnome.org/gtk/stable/GtkAboutDialog.html"
 "\">GtkAboutDialog</link>"
 msgstr ""
-"<link href=\"http://developer.gnome.org/gobject/stable/signal.html\">Les "
-"signaux</link> dans la documentation GObject"
+"<link href=\"http://developer.gnome.org/gtk/stable/GtkAboutDialog.html"
+"\">GtkAboutDialog</link>"
 
 #. (itstool) path: item/p
 #: C/menubar.c.page:41
-#, fuzzy
-#| msgid ""
-#| "<link href=\"http://developer.gnome.org/gobject/stable/signal.html"
-#| "\">Signals</link> in GObject documentation"
 msgid ""
 "<link href=\"http://developer.gnome.org/glib/stable/glib-GVariantType.html"
 "\">GtkVariantType</link>"
 msgstr ""
-"<link href=\"http://developer.gnome.org/gobject/stable/signal.html\">Les "
-"signaux</link> dans la documentation GObject"
+"<link href=\"http://developer.gnome.org/glib/stable/glib-GVariantType.html"
+"\">GtkVariantType</link>"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -27184,11 +27016,9 @@ msgstr ""
 
 #. (itstool) path: info/title
 #: C/paned.vala.page:8
-#, fuzzy
-#| msgid "Sample Vala code"
 msgctxt "text"
 msgid "Paned (Vala)"
-msgstr "Exemple de code Vala"
+msgstr "Paned (Vala)"
 
 #. (itstool) path: section/code
 #: C/paned.vala.page:29
@@ -43493,7 +43323,7 @@ msgstr "TreeView tout simple avec ListStore (Vala)"
 #: C/treeview_simple_liststore.vala.page:20
 msgid "A widget can display any TreeModel implementation (lists and trees)"
 msgstr ""
-"Un élément graphique peut afficher n'importe quelle implémentation de "
+"Un composant graphique peut afficher n'importe quelle implémentation de "
 "TreeModel (en listes et arborescentes)"
 
 #. (itstool) path: page/title
@@ -43982,10 +43812,8 @@ msgstr "Tutoriels, exemples de code et plateforme de démonstrations en vala"
 
 #. (itstool) path: section/title
 #: C/vala.page:26
-#, fuzzy
-#| msgid "Code samples"
 msgid "Code samples and tutorial"
-msgstr "Exemples de code"
+msgstr "Exemples de code et tutoriel"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -44100,10 +43928,10 @@ msgstr ""
 "Pour structurer une application pour GNOME 3, vous devez utiliser <link href="
 "\"http://developer.gnome.org/platform-overview/stable/gtk\">GTK+</link>. "
 "Vous devez aussi vous souvenir que la fenêtre principale ne peut comporter "
-"qu'un seul élément graphique, donc organisez votre structure en fonction de "
-"cet impératif (dans cet exemple, nous utilisons Gtk.Grid). Une bonne méthode "
-"consiste à dessiner la boîte « fenêtre principale » et d'y placer chaque "
-"élément graphique nécessaire. En regardant l'image de votre future "
+"qu'un seul composant graphique, donc organisez votre structure en fonction "
+"de cet impératif (dans cet exemple, nous utilisons Gtk.Grid). Une bonne "
+"méthode consiste à dessiner la boîte « fenêtre principale » et d'y placer "
+"chaque composant graphique nécessaire. En regardant l'image de votre future "
 "application, vous pourrez plus facilement déceler les relations existantes "
 "entre les éléments graphiques. Par exemple, Gtk.Grid place vos éléments "
 "graphiques en fonction des autres, donc la position du premier sur la grille "
@@ -44330,8 +44158,8 @@ msgstr ""
 "positionner les éléments graphiques. Tous les boutons, étiquettes et champs "
 "de saisie sont initialisés et positionnés dans la grille. Comme vous pouvez "
 "le voir à partir du positionnement des différents éléments graphiques, ils "
-"ne sont pas nécessairement en relation avec un seul élément graphique. Pour "
-"l'instant, certaines étiquettes n'ont pas de contenu. Le contenu de ces "
+"ne sont pas nécessairement en relation avec un seul composant graphique. "
+"Pour l'instant, certaines étiquettes n'ont pas de contenu. Le contenu de ces "
 "éléments graphiques est appliqué plus tard. Si vous lancez l'application à "
 "cet instant, l'interface graphique est prête mais les éléments graphiques ne "
 "sont connectés à rien. Pour cela, nous avons besoin de construire d'abord la "
@@ -45480,7 +45308,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/window.py.page:52
 msgid "Useful methods for a Window widget"
-msgstr "Méthodes utiles pour un élément graphique fenêtre"
+msgstr "Méthodes utiles pour un composant graphique fenêtre"
 
 #. (itstool) path: info/title
 #: C/window.vala.page:8
@@ -45493,7 +45321,7 @@ msgstr "Fenêtre (Vala)"
 #. (itstool) path: td/p
 #: C/window.vala.page:26
 msgid "The simplest Gtk.Application"
-msgstr "La plus simple des applications Gtk.Application"
+msgstr "L'application Gtk.Application la plus basique"
 
 #. (itstool) path: td/p
 #: C/window.vala.page:29
@@ -45553,8 +45381,8 @@ msgid ""
 "The widget <link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.Window.html"
 "\">Gtk.Window</link>"
 msgstr ""
-"L'élément graphique <link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.Window."
-"html\">Gtk.Window</link>"
+"Le composant graphique <link href=\"http://www.valadoc.org/gtk+-3.0/Gtk."
+"Window.html\">Gtk.Window</link>"
 
 #. (itstool) path: item/p
 #: C/window.vala.page:41
@@ -45584,8 +45412,8 @@ msgid ""
 "<link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.Container.border_width.html"
 "\">border_width</link>"
 msgstr ""
-"L'élément graphique <link href=\"http://www.valadoc.org/gtk+-3.0/Gtk.Window."
-"html\">Gtk.Window</link>"
+"Le composant graphique <link href=\"http://www.valadoc.org/gtk+-3.0/Gtk."
+"Window.html\">Gtk.Window</link>"
 
 #. (itstool) path: item/p
 #: C/window.vala.page:47
