@@ -73,6 +73,7 @@ HELP_MEDIA = \
         figures/patterns/action-dialog.svg \
         figures/patterns/application-menu.svg \
         figures/patterns/editable-lists.svg \
+	figures/patterns/empty-placeholder.svg \
         figures/patterns/grid.svg \
         figures/patterns/header-bar.svg \
         figures/patterns/header-bar-menu.svg \
