@@ -15,7 +15,7 @@ HELP_FILES = \
 	dialogs.page \
 	display-compatibility.page \
 	drop-down-lists.page \
-	empty-placeholder.page \
+	empty-placeholders.page \
 	grids.page \
 	header-bar-menus.page \
 	header-bars.page \
