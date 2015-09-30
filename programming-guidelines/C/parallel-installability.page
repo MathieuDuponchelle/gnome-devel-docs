@@ -351,7 +351,7 @@ public_headers = \
     <listing>
       <title>Libraries in Automake</title>
       <desc>
-        Code to build a#nd install versioned libraries from
+        Code to build and install versioned libraries from
         <file>Makefile.am</file>
       </desc>
       <code>lib_LTLIBRARIES = lib<var>library</var>/lib<var>library</var>-@<var>LIBRARY</var>_API_VERSION@.la
