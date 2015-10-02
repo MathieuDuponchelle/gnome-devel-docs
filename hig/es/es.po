@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hig.master\n"
 "POT-Creation-Date: 2015-09-24 07:20+0000\n"
-"PO-Revision-Date: 2015-09-24 13:10+0200\n"
+"PO-Revision-Date: 2015-10-02 14:06+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "Language: es\n"
@@ -10555,6 +10555,9 @@ msgid ""
 "Text plays an important role in user interfaces. Take the time to ensure "
 "that any text you use is clearly written and easy to understand."
 msgstr ""
+"El texto juega un papel importante en las interfaces de usuario. Tómese su "
+"tiempo para asegurarse de que cualquier texto que use está escrito "
+"claramente y es fácil de entender."
 
 #. (itstool) path: section/p
 #: C/writing-style.page:44
@@ -10562,6 +10565,8 @@ msgid ""
 "Your main goal should be to ensure that text is easy to understand and quick "
 "to read."
 msgstr ""
+"Su objetivo principal debe ser asegurarse de que el texto es fácil de "
+"entender y rápido de leer."
 
 #. (itstool) path: item/p
 #: C/writing-style.page:47
@@ -10570,6 +10575,10 @@ msgid ""
 "the user. It also reduces the expansion of text when translated (remember "
 "that translated English text can expand up to 30% in some languages)."
 msgstr ""
+"Mantenga el texto corto y conciso. Esto mejora la velocidad de comprensión "
+"del usuario. También reduce la expansión del texto cuando se traduce "
+"(recuerde que el texto inglés traducido se puede expandir hasta un 30% en "
+"algunos idiomas)."
 
 #. (itstool) path: item/p
 #: C/writing-style.page:48
@@ -10578,7 +10587,7 @@ msgid ""
 "that provides clear information is better than a one-word label that is "
 "ambiguous or vague. Try to find the fewest possible words to satisfactorily "
 "convey the meaning of your label."
-msgstr ""
+msgstr "No reduzca su texto hasta el punto de perder significado"
 
 #. (itstool) path: item/p
 #: C/writing-style.page:49
@@ -10642,7 +10651,7 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/writing-style.page:66 C/writing-style.page:84
 msgid "Capitalize the first letter of:"
-msgstr ""
+msgstr "Ponga en mayúsculas la primera letra de:"
 
 #. (itstool) path: item/p
 #: C/writing-style.page:69
