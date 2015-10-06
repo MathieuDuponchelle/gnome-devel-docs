@@ -1,7 +1,6 @@
 <page xmlns="http://projectmallard.org/1.0/"
       type="topic"
-      id="action-bars"
-      group="optional">
+      id="action-bars">
 
   <info>
     <link type="guide" xref="patterns#secondary"/>
