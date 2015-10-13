@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hig.master\n"
 "POT-Creation-Date: 2015-09-24 07:20+0000\n"
-"PO-Revision-Date: 2015-10-02 14:06+0200\n"
+"PO-Revision-Date: 2015-10-13 12:36+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "Language: es\n"
@@ -922,15 +922,15 @@ msgstr "Botones de texto"
 
 #. (itstool) path: item/p
 #: C/buttons.page:55
-#, fuzzy
 msgid ""
 "Label all buttons with imperative verbs, using <link xref=\"writing-"
 "style#capitalization\">header capitalization</link>. For example, <gui>Save</"
 "gui>, <gui>Sort</gui> or <gui>Update Now</gui>."
 msgstr ""
-"Nombre a los elementos de los menús con verbos para acciones y adjetivos "
-"para opciones, de acuerdo a las reglas en la <xref linkend=\"layout-"
-"capitalization\"/>."
+"Etiquete todos los botones con verbos imperativos, usando <link xref="
+"\"writing-style#capitalization\">mayúsculas en la primera letra</link>. Por "
+"ejemplo, <gui>Guardar</gui>, <gui>Ordenar</gui> o <gui>Actualizar ahora</"
+"gui>."
 
 #. (itstool) path: item/p
 #: C/buttons.page:56
@@ -2100,7 +2100,6 @@ msgstr "Acción predeterminada y escape"
 
 #. (itstool) path: section/p
 #: C/dialogs.page:144
-#, fuzzy
 msgid ""
 "Assign the return key to activate the primary affirmative button in a dialog "
 "(for example <gui>Print</gui> in a print dialog). This is called the default "
@@ -2109,12 +2108,12 @@ msgid ""
 "inconvenient to the user. If there is no appropriate button to designate as "
 "the default button, do not set one."
 msgstr ""
-"Elija el botón predeterminado para la acción más probable, tal como una "
-"acción de confirmación o una acción que aplica cambios en una ventana de "
-"utilidad. No cree el botón predeterminado si dicha acción es irreversible, "
-"destructiva o de lo contrario inconveniente para el usuario. Si no existe un "
-"botón apropiado en su ventana, para designar como botón predeterminado, no "
-"establezca ninguno. "
+"Asigne la tecla Intro para activar el primer botón afirmativo en un diálogo "
+"(por ejemplo, <gui>Imprimir</gui> en un diálogo de impresión). Esto se "
+"denomina acción predeterminada, y se indica visualmente de manera distinta. "
+"No cree el botón predeterminado si dicha acción es irreversible, destructiva "
+"o de lo contrario será inconveniente para el usuario. Si no existe un botón "
+"apropiado para designarlo como botón predeterminado, no establezca ninguno."
 
 #. (itstool) path: section/p
 #: C/dialogs.page:146
@@ -3787,10 +3786,9 @@ msgstr "Notificaciones de eventos de aplicaciones"
 
 #. (itstool) path: page/title
 #: C/in-app-notifications.page:16
-#, fuzzy
 #| msgid "Notifications"
 msgid "In-app notifications"
-msgstr "Notificaciones"
+msgstr "Notificaciones dentro de la aplicación"
 
 #. (itstool) path: page/p
 #: C/in-app-notifications.page:20
@@ -4067,9 +4065,8 @@ msgstr ""
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:68
-#, fuzzy
 msgid "Moves keyboard focus to the next/previous group of controls"
-msgstr "Mueve el foto del teclado al siguiente/anterior control"
+msgstr "Mueve el foto del teclado al siguiente/anterior grupo de controles"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:71
@@ -4078,11 +4075,8 @@ msgstr "<keyseq><key>Ctrl</key><key>F1</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:72
-#, fuzzy
 msgid "Shows a tooltip for the the currently-focused window or control"
-msgstr ""
-"Mostrar la ayuda sensible a contexto para la ventana o control actualmente "
-"con el foco"
+msgstr "Muestra un consejo para la ventana o control actualmente con el foco"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:75
@@ -4091,7 +4085,6 @@ msgstr "<keyseq><key>Mayús</key><key>F1</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:76
-#, fuzzy
 msgid "Show context-sensitive help for the currently-focused window or control"
 msgstr ""
 "Mostrar la ayuda sensible a contexto para la ventana o control actualmente "
@@ -4104,7 +4097,6 @@ msgstr "<key>F6</key> y <keyseq><key>Mayús</key><key>F6</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:80
-#, fuzzy
 msgid "Give focus to the next/previous pane in a GtkPaned window"
 msgstr "Dar el foco al siguiente/anterior panel en una ventana GtkPaned"
 
@@ -4115,9 +4107,8 @@ msgstr "<key>F8</key>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:84
-#, fuzzy
 msgid "Give focus to the splitter bar in a paned window"
-msgstr "Dar el foco a la barra agrupadora en la ventana del panel"
+msgstr "Dar el foco a la barra agrupadora en la ventana con paneles"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:87
@@ -4126,9 +4117,9 @@ msgstr "<key>F10</key>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:88
-#, fuzzy
 msgid "Give focus to the menu bar or open header bar menu"
-msgstr "Dar el foco a la barra agrupadora en la ventana del panel"
+msgstr ""
+"Dar el foco a la barra de menu o a la barra de menú de la cabecera abierta"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:91 C/pointer-and-touch-input.page:72
@@ -4137,7 +4128,6 @@ msgstr "<key>Espacio</key>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:92
-#, fuzzy
 msgid "Toggle the state of a focused check box, radio button, or toggle button"
 msgstr ""
 "Conmutar el estado de la casilla de verificación, botón de radio o botón de "
@@ -4150,9 +4140,8 @@ msgstr "<key>Intro</key>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:96
-#, fuzzy
 msgid "Activate focused button, menu item, etc"
-msgstr "Activar el botón con el foco, el elemento del menú, etc."
+msgstr "Activar el botón, el elemento del menú, etc. con el foco"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:99
@@ -4161,9 +4150,8 @@ msgstr "<key>Intro</key> y <key>Fin</key>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:100
-#, fuzzy
 msgid "Select/move to the first item in a selected widget"
-msgstr "Seleccionar/moverse al primer elemento en el widget seleccionado"
+msgstr "Seleccionar/moverse al primer elemento en un widget seleccionado"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:103
@@ -4176,7 +4164,6 @@ msgstr ""
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:104
-#, fuzzy
 msgid "Scroll the selected view by one page up/left/down/right"
 msgstr ""
 "Desplazar una página la vista seleccionada arriba/izquierda/abajo/derecha"
@@ -4749,10 +4736,9 @@ msgstr "Archivo"
 
 #. (itstool) path: section/p
 #: C/keyboard-input.page:307
-#, fuzzy
 #| msgid "Standard window manager shortcut keys and access keys"
 msgid "Standard file keyboard shortcuts and menu items."
-msgstr "Teclas rápidas y de acceso para el gestor de ventanas estándar"
+msgstr "Atajos de teclado de archivo y elementos de menú estándar."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:319
@@ -4766,7 +4752,6 @@ msgstr "<keyseq><key>Ctrl</key><key>N</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:321
-#, fuzzy
 msgid ""
 "Creates a new content item, often (but not always) in a new primary window "
 "or tab. If your application can create a number of different types of "
@@ -4775,13 +4760,13 @@ msgid ""
 "first entry in the submenu the most commonly used document type, and give it "
 "the <keyseq><key>Ctrl</key><key>N</key></keyseq> shortcut."
 msgstr ""
-"Si su aplicación puede crear un número de diferentes tipos de documentos, "
-"puede hacer el elemento <guimenuitem><accel>N</accel>uevo</guimenuitem> un "
-"submenú, conteniendo un elemento de menú por cada tipo. Etiquete estos "
-"elementos <guimenuitem>Nuevo <replaceable>tipo de documento</replaceable></"
-"guimenuitem>, haga la primera entrada en el submenú el tipo de documento más "
-"utilizado, y dele el atajo <keycombo><keycap>Ctrl</keycap><keycap>N</"
-"keycap></keycombo>."
+"Crear un elemento de contenido nuevo, a menudo (pero no siempre) en una "
+"ventana primaria o pestaña nuevas. Si su aplicación puede crear varios tipos "
+"de documentos, puede hacer que el elemento <gui>Nuevo</gui> sea un submenú "
+"que contenga un elemtno de menú para cada tipo.. Etiquete estos elementos "
+"<gui>Nuevo</gui> tipo de documento, haga la primera entrada en el submenú el "
+"tipo de documento más utilizado, y asígnele el atajo <keyseq><key>Ctrl</"
+"key><key>N</key></keyseq>."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:324
@@ -4795,16 +4780,14 @@ msgstr "<keyseq><key>Ctrl</key><key>O</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:326
-#, fuzzy
 msgid ""
 "Opens an existing content item, often by presenting the user with a standard "
 "<gui>Open File</gui> dialog. If the chosen file is already open in the "
 "application, raise that window instead of opening a new one."
 msgstr ""
-"Abre un documento existente en una ventana nueva. Preséntele al usuario un "
-"diálogo «Abrir archivo» estándar del que puedan elegir un archivo existente. "
-"Si el archivo elegido ya está abierto en la aplicación, levante su ventana "
-"en lugar de abrir una nueva. <_:remark-1/> <_:remark-2/> <_:remark-3/>"
+"Abre un elemento de contenido existente, a menudo presentando al usuario un "
+"diálogo <gui>Abrir archivo</gui>. Si el archivo elegido ya está abierto en "
+"la aplicación, levante su ventana en lugar de abrir una nueva."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:329
@@ -4860,14 +4843,14 @@ msgstr "<keyseq><key>Mayús</key><key>Ctrl</key><key>S</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:341
-#, fuzzy
 msgid ""
 "Saves the content item with a new filename. Present the user with the "
 "standard <gui>Save As</gui> dialog, and save the file with the chosen file "
 "name."
 msgstr ""
-"Guarda el documento con un nombre de archivo nuevo. Preséntele al usuario un "
-"diálogo «Guardar como» estándar, y guarde el archivo con el nombre elegido."
+"Guarda el elemento de contenido con un nombre de archivo nuevo. Preséntele "
+"al usuario un diálogo <gui>Guardar como</gui> estándar, y guarde el archivo "
+"con el nombre elegido."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:344
@@ -4876,7 +4859,6 @@ msgstr "<gui>Guardar una copia…</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:346
-#, fuzzy
 msgid ""
 "Prompts the user to enter a filename, with which a copy of the document is "
 "then saved. Do not alter either the view or the filename of the original "
@@ -4888,21 +4870,18 @@ msgstr ""
 "documento. No altere la vista o el nombre de archivo en el documento "
 "original. A continuación, todos los cambios se seguirán haciendo sobre el "
 "documento original hasta que el usuario especifique lo contrario, por "
-"ejemplo eligiendo el comando <guimenuitem>Guardar como</guimenuitem>. <_:"
-"para-1/>"
+"ejemplo eligiendo el comando <gui>Guardar como</gui>."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:347
-#, fuzzy
 msgid ""
 "Like the <gui>Save As</gui> dialog, the <gui>Save a Copy</gui> dialog may "
 "present different ways to save the data. For example, an image may be saved "
 "in a native format or as a PNG."
 msgstr ""
-"Al igual que el diálogo <guimenuitem>Guardar como</guimenuitem>, "
-"<guimenuitem>Guardar una copia</guimenuitem> puede presentar distintas "
-"maneras de guardar los datos. Por ejemplo, una imagen puede guardarse en un "
-"formato nativo o como PNG."
+"Al igual que el diálogo <gui>Guardar como</gui>, el diálogo <gui>Guardar una "
+"copia</gui> puede presentar distintas maneras de guardar los datos. Por "
+"ejemplo, una imagen puede guardarse en un formato nativo o como PNG."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:350
@@ -4911,14 +4890,13 @@ msgstr "<gui>Configuración de página</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:352
-#, fuzzy
 msgid ""
 "Allows the user to control print-related settings. Present the user with a "
 "dialog allowing the user to set such options as portrait or landscape "
 "format, margins, and so on."
 msgstr ""
-"Le permite al usuario controlar las opciones relacionadas con la impresión. "
-"Preséntele al usuario un diálogo permitiéndole configurar opciones como "
+"Permite al usuario controlar las opciones relacionadas con la impresión. "
+"Preséntele al usuario un diálogo que le permita configurar opciones como "
 "formato vertical o apaisado, márgenes, etc."
 
 #. (itstool) path: td/p
@@ -4934,17 +4912,14 @@ msgstr "<keyseq><key>Mayús</key><key>Ctrl</key><key>P</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:357
-#, fuzzy
 msgid ""
 "Shows the user what the printed document will look like. Present a new "
 "window containing an accurate representation of the appearance of the "
 "document as it would be printed."
 msgstr ""
-"Le muestra al usuario cómo se verá el documento impreso. Presente una "
-"ventana nueva conteniendo una representación precisa de la apariencia del "
-"documento como si se hubiera impreso. La biblioteca «libgnomeprintui» "
-"proporciona una ventana estándar de previsualización que debe usar de ser "
-"posible."
+"Muestra al usuario cómo se verá el documento impreso. Presente una ventana "
+"nueva que contenga una representación precisa de la apariencia del documento "
+"como si se hubiera impreso."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:360
@@ -4958,7 +4933,6 @@ msgstr "<keyseq><key>Ctrl</key><key>P</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:362
-#, fuzzy
 msgid ""
 "Prints the current document. Present the user with a dialog allowing them to "
 "set options like the page range to be printed, the printer to be used, and "
@@ -4968,9 +4942,7 @@ msgstr ""
 "Imprime el documento actual. Preséntele al usuario un diálogo permitiéndole "
 "establecer opciones como el rango de páginas que imprimir, la impresora que "
 "usar, etc. El diálogo debe contener un botón etiquetado <guibutton>Imprimir</"
-"guibutton> que comience la impresión y lo cierre. La biblioteca "
-"<filename>libgnomeprintui</filename> proporciona un diálogo de impresión "
-"estándar que debe usar de ser posible."
+"guibutton> que comience la impresión y lo cierre."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:365
@@ -5049,10 +5021,9 @@ msgstr "Editar"
 
 #. (itstool) path: section/p
 #: C/keyboard-input.page:387
-#, fuzzy
 #| msgid "Standard window manager shortcut keys and access keys"
 msgid "Standard edit keyboard shortcuts and menu items."
-msgstr "Teclas rápidas y de acceso para el gestor de ventanas estándar"
+msgstr "Atajos de teclado de edición y elementos de menú estándar"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:399
