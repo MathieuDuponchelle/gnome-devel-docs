@@ -2,13 +2,13 @@
 # Copyright (C) 2010 gnome-devel-docs's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-devel-docs package.
 #
-# Marek Černocký <marek@manet.cz>, 2010, 2011, 2013, 2014.
+# Marek Černocký <marek@manet.cz>, 2010, 2011, 2013, 2014, 2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2014-01-26 13:22+0000\n"
-"PO-Revision-Date: 2014-01-27 12:06+0100\n"
+"POT-Creation-Date: 2015-10-18 07:26+0000\n"
+"PO-Revision-Date: 2015-10-18 11:53+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -23,115 +23,14 @@ msgctxt "_"
 msgid "translator-credits"
 msgstr "Marek Černocký <marek@manet.cz>, 2010, 2013"
 
-#. (itstool) path: license/p
-#: C/index.page:7
-msgid ""
-"Permission is granted to copy, distribute and/or modify this document under "
-"the terms of the GNU Free Documentation License, Version 1.1 or any later "
-"version published by the Free Software Foundation with no Invariant "
-"Sections, no Front-Cover Texts, and no Back-Cover Texts. You may obtain a "
-"copy of the GNU Free Documentation License from the Free Software Foundation "
-"by visiting <link href=\"http://www.fsf.org\">their Web site</link> or by "
-"writing to: Free Software Foundation, Inc., 59 Temple Place - Suite 330, "
-"Boston, MA 02111-1307, USA."
-msgstr ""
-"Je povoleno kopírovat, šířit a/nebo upravovat tento dokument za podmínek GNU "
-"Free Documentation License, verze 1.1 nebo jakékoli další verze vydané "
-"nadací Free Software Foundation; bez neměnných oddílů, bez textů předních "
-"desek a bez textů zadních desek. Kopii licence GNU Free Documentation "
-"License od Free Software Foundation můžete získat navštívením <ulink url="
-"\"http://www.fsf.org\">webových stránek</ulink> nebo když si napíšete na: "
-"Free Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA "
-"02111-1307, USA."
-
-#. (itstool) path: license/p
-#: C/index.page:16
-msgid ""
-"Many of the names used by companies to distinguish their products and "
-"services are claimed as trademarks. Where those names appear in any GNOME "
-"documentation, and those trademarks are made aware to the members of the "
-"GNOME Documentation Project, the names have been printed in caps or initial "
-"caps."
-msgstr ""
-"Mnoho názvů použitých firmami k zviditelnění produktů nebo služeb jsou "
-"ochranné známky. Na místech, kde jsou tyto názvy v dokumentaci použity a "
-"členové Dokumentačního projektu GNOME jsou si vědomi skutečnosti, že se "
-"jedná o ochrannou známku, je takovýto název psán velkými písmeny celý nebo "
-"s velkým písmenem na začátku."
-
-#. (itstool) path: credit/years
-#: C/index.page:24 C/index.page:28
-msgid "2004-2005"
-msgstr "2004 – 2005"
-
-#. (itstool) path: credit/name
-#: C/index.page:25
-msgid "Callum McKenzie"
-msgstr "Callum McKenzie"
-
-#. (itstool) path: credit/name
-#: C/index.page:29
-msgid "Robert Love"
-msgstr "Robert Love"
-
-#. (itstool) path: info/desc
-#: C/index.page:32
-msgid ""
-"Software can be optimized in many ways: for speed, program size, or memory "
-"use. This section contains guides and tutorials for optimizing your software."
-msgstr ""
-"Software je možné optimalizovat z řady důvodů: na rychlost, na velikost "
-"programu nebo využití paměti. Tento oddíl obsahuje příručku a průvodce pro "
-"optimalizaci vašeho softwaru."
-
 #. (itstool) path: page/title
-#: C/index.page:35
-msgid "Optimization Guide"
-msgstr "Příručka k optimalizaci"
+#: C/harmful.page:7
+msgid "Disk Seeks Considered Harmful"
+msgstr "Nastavení hlaviček disku má neblahý vliv"
 
-#. (itstool) path: section/title
-#: C/index.page:38 C/massif.page:12
-msgid "Introduction"
-msgstr "Úvod"
-
-#. (itstool) path: section/p
-#: C/index.page:39
-msgid ""
-"This is a brief introduction to optimization, both the hows and thewhys. "
-"Details of individual tools and techniques are left for later articles, but "
-"a collection of hints and tricks is provided."
-msgstr ""
-"Toto je stručný úvod do optimalizace vysvětlující jak i proč. Podrobný popis "
-"jednotlivých nástrojů a technik je ponechán na jiné články, je ale "
-"poskytnuta sbírka rad a triků."
-
-#. (itstool) path: section/title
-#: C/index.page:45
-msgid "Massif"
-msgstr "Massif"
-
-#. (itstool) path: section/p
 #. (itstool) path: page/p
-#: C/index.page:46 C/massif.page:9
-msgid ""
-"This article describes how to use the <app>Massif</app> heap profiler with "
-"GNOME applications. We describe how to invoke, interpret, and act on the "
-"output of <app>Massif</app>. The <app>Swell Foop</app> game is used as an "
-"example."
-msgstr ""
-"Tento článek popisuje jak používat profiler zásobníku <app>Massif</app> s "
-"aplikacemi GNOME. Popisuje jak získat, interpretovat a využít výstup z "
-"aplikace <app>Massif</app>. Jako příklad je použita hra <app>Swell Foop</"
-"app>."
-
-#. (itstool) path: section/title
-#: C/index.page:53
-msgid "Harmfulness"
-msgstr "Nepříznivé vlivy"
-
 #. (itstool) path: section/p
-#. (itstool) path: page/p
-#: C/index.page:54 C/harmful.page:8
+#: C/harmful.page:8 C/index.page:54
 msgid ""
 "Disk seeks are one of the most expensive operations you can possibly "
 "perform. You might not know this from looking at how many of them we "
@@ -142,11 +41,6 @@ msgstr ""
 "jen můžete provádět. Možná byste viditelně nepoznali jak často se provádí, "
 "ale věřte že se dělá. V důsledku toho se prosím vyhněte následujícímu ne "
 "zrovna optimálnímu chování:"
-
-#. (itstool) path: page/title
-#: C/harmful.page:7
-msgid "Disk Seeks Considered Harmful"
-msgstr "Nastavení hlaviček disku má neblahý vliv"
 
 #. (itstool) path: item/p
 #: C/harmful.page:13
@@ -236,6 +130,112 @@ msgstr ""
 "bohužel přesně to co děláme. Pamatujte, že čtení je obecně synchronní, "
 "zatímco zápis asynchronní. To problém jen komplikuje, serializuje každé "
 "čtení a přispívá k prodlouženým odezvám programu"
+
+#. (itstool) path: license/p
+#: C/index.page:7
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License, Version 1.1 or any later "
+"version published by the Free Software Foundation with no Invariant "
+"Sections, no Front-Cover Texts, and no Back-Cover Texts. You may obtain a "
+"copy of the GNU Free Documentation License from the Free Software Foundation "
+"by visiting <link href=\"http://www.fsf.org\">their Web site</link> or by "
+"writing to: Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor "
+"Boston, MA 02110-1335, USA."
+msgstr ""
+"Je povoleno kopírovat, šířit a/nebo upravovat tento dokument za podmínek GNU "
+"Free Documentation License, verze 1.1 nebo jakékoli další verze vydané "
+"nadací Free Software Foundation; bez neměnných oddílů, bez textů předních "
+"desek a bez textů zadních desek. Kopii licence GNU Free Documentation "
+"License od Free Software Foundation můžete získat navštívením <ulink url="
+"\"http://www.fsf.org\">webových stránek</ulink> nebo když si napíšete na: "
+"Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor Boston, MA "
+"02110-1335, USA."
+
+#. (itstool) path: license/p
+#: C/index.page:16
+msgid ""
+"Many of the names used by companies to distinguish their products and "
+"services are claimed as trademarks. Where those names appear in any GNOME "
+"documentation, and those trademarks are made aware to the members of the "
+"GNOME Documentation Project, the names have been printed in caps or initial "
+"caps."
+msgstr ""
+"Mnoho názvů použitých firmami k zviditelnění produktů nebo služeb jsou "
+"ochranné známky. Na místech, kde jsou tyto názvy v dokumentaci použity a "
+"členové Dokumentačního projektu GNOME jsou si vědomi skutečnosti, že se "
+"jedná o ochrannou známku, je takovýto název psán velkými písmeny celý nebo s "
+"velkým písmenem na začátku."
+
+#. (itstool) path: credit/years
+#: C/index.page:24 C/index.page:28
+msgid "2004-2005"
+msgstr "2004 – 2005"
+
+#. (itstool) path: credit/name
+#: C/index.page:25
+msgid "Callum McKenzie"
+msgstr "Callum McKenzie"
+
+#. (itstool) path: credit/name
+#: C/index.page:29
+msgid "Robert Love"
+msgstr "Robert Love"
+
+#. (itstool) path: info/desc
+#: C/index.page:32
+msgid ""
+"Software can be optimized in many ways: for speed, program size, or memory "
+"use. This section contains guides and tutorials for optimizing your software."
+msgstr ""
+"Software je možné optimalizovat z řady důvodů: na rychlost, na velikost "
+"programu nebo využití paměti. Tento oddíl obsahuje příručku a průvodce pro "
+"optimalizaci vašeho softwaru."
+
+#. (itstool) path: page/title
+#: C/index.page:35
+msgid "Optimization Guide"
+msgstr "Příručka k optimalizaci"
+
+#. (itstool) path: section/title
+#: C/index.page:38 C/massif.page:12
+msgid "Introduction"
+msgstr "Úvod"
+
+#. (itstool) path: section/p
+#: C/index.page:39
+msgid ""
+"This is a brief introduction to optimization, both the hows and thewhys. "
+"Details of individual tools and techniques are left for later articles, but "
+"a collection of hints and tricks is provided."
+msgstr ""
+"Toto je stručný úvod do optimalizace vysvětlující jak i proč. Podrobný popis "
+"jednotlivých nástrojů a technik je ponechán na jiné články, je ale "
+"poskytnuta sbírka rad a triků."
+
+#. (itstool) path: section/title
+#: C/index.page:45
+msgid "Massif"
+msgstr "Massif"
+
+#. (itstool) path: section/p
+#. (itstool) path: page/p
+#: C/index.page:46 C/massif.page:9
+msgid ""
+"This article describes how to use the <app>Massif</app> heap profiler with "
+"GNOME applications. We describe how to invoke, interpret, and act on the "
+"output of <app>Massif</app>. The <app>Swell Foop</app> game is used as an "
+"example."
+msgstr ""
+"Tento článek popisuje jak používat profiler zásobníku <app>Massif</app> s "
+"aplikacemi GNOME. Popisuje jak získat, interpretovat a využít výstup z "
+"aplikace <app>Massif</app>. Jako příklad je použita hra <app>Swell Foop</"
+"app>."
+
+#. (itstool) path: section/title
+#: C/index.page:53
+msgid "Harmfulness"
+msgstr "Nepříznivé vlivy"
 
 #. (itstool) path: page/title
 #: C/introduction.page:7
