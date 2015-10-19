@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hig.master\n"
 "POT-Creation-Date: 2015-09-24 07:20+0000\n"
-"PO-Revision-Date: 2015-10-15 13:35+0200\n"
+"PO-Revision-Date: 2015-10-19 12:54+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "Language: es\n"
@@ -1367,6 +1367,9 @@ msgid ""
 "followed, will enable you to produce a high-quality experience for your "
 "users."
 msgstr ""
+"Los siguientes principios de diseño constituyen un conjunto de reglas "
+"generales que, cundo se siguen, le permiten generar una experiencia de alta "
+"calidad a sus usuarios."
 
 #. (itstool) path: section/title
 #: C/design-principles.page:19
@@ -1406,6 +1409,11 @@ msgid ""
 "use. Therefore, only include essential controls and information in your "
 "application interface."
 msgstr ""
+"Cada control o fragmento de información que añade a su aplicación genera "
+"trabajo adicional a los usuarios, e incrementa la complejidad de su "
+"aplicación, haciéndola potencialmente más difícil y menos amigable de usar. "
+"Por lo tanto, incluya sólo los controles y la información esenciales en la "
+"interfaz de su aplicación."
 
 #. (itstool) path: section/p
 #: C/design-principles.page:32
@@ -2083,6 +2091,10 @@ msgid ""
 "example: <gui>Save</gui>, <gui>Print</gui>, <gui>Remove</gui>. This is "
 "clearer than a generic label like <gui>OK</gui> or <gui>Done</gui>."
 msgstr ""
+"Etiquete el botón primario afirmativo con un verbo imperativo específico, "
+"por ejemplo: <gui>Guardar</gui>, <gui>Imprimir</gui>, <gui>Eliminar</gui>. "
+"Esto es más claro que una etiqueta genérica del tipo <gui>Aceptar</gui> o "
+"<gui>Hecho</gui>."
 
 #. (itstool) path: section/p
 #: C/dialogs.page:137
@@ -2122,6 +2134,9 @@ msgid ""
 "button, should either of them be present. Message dialogs with a single "
 "button can have both escape and return bound to the button."
 msgstr ""
+"También debe asegurarse de que la tecla Esc activa el botón de cancelar o el "
+"de cerrar, el que esté presente. Los diálogos de mensajes con un único botón "
+"pueden tener las teclas Esc e Intro asociadas al botón."
 
 #. (itstool) path: section/p
 #: C/dialogs.page:148
@@ -2129,6 +2144,8 @@ msgid ""
 "Binding return and escape in this way provides a predictable and convenient "
 "way to continue through a dialog, or to go back."
 msgstr ""
+"Asociar las teclas de Intro y Esc de esta forma proporciona una manera "
+"predecible y conveniente de continuar por el diálogo o volver atrás."
 
 #. (itstool) path: item/p
 #: C/dialogs.page:158
@@ -2542,6 +2559,9 @@ msgid ""
 "\">symbolic icon</link> that either represents your application, or the type "
 "of content that would ordinarily appear in the grid or list."
 msgstr ""
+"Para la imagen, use un <link xref=\"icons-and-artwork#color-vs-symbolic"
+"\">icono simbólico</link> que represente a su aplicación o el tipo de "
+"contenido que debería aparecer normalmente en la rejilla o en la lista."
 
 #. (itstool) path: item/p
 #: C/empty-placeholders.page:39
@@ -2560,6 +2580,9 @@ msgid ""
 "highlight them using a <link xref=\"buttons#suggested-and-destructive"
 "\">suggested style</link> while the list/grid is empty."
 msgstr ""
+"Si hay controles que permiten añadir elementos, puede resultar apropiado "
+"resaltarlos usando un <link xref=\"buttons#suggested-and-destructive"
+"\">estilo sugerido</link> cuando la lista o la rejilla están vacías."
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -2593,6 +2616,10 @@ msgid ""
 "patterns, including <link xref=\"search\">search</link> and <link xref="
 "\"selection-mode\">selection mode</link>."
 msgstr ""
+"Una rejilla es uno de los métodos primarios de presentar colecciones de "
+"contenido en GNOME 3. Las rejillas se combinan habitualmente con otros "
+"patrones de diseño, incluyendo la <link xref=\"search\">búsqueda</link> y el "
+"<link xref=\"selection-mode\">modo de selección</link>."
 
 #. (itstool) path: section/p
 #: C/grids.page:25
@@ -2916,6 +2943,10 @@ msgid ""
 "include buttons for navigating back and forward, search, and selecting "
 "content."
 msgstr ""
+"Las barras de cabecera pueden contener controles para la ventana, que se "
+"pueden colocar en la parte izquierda o derecha de la barra de cabecera. "
+"Ejemplos de estos controles pueden ser botones para navegar hacia adelante o "
+"hacia atrás, buscar y seleccionar contenido."
 
 #. (itstool) path: section/p
 #: C/header-bars.page:42
@@ -2924,6 +2955,10 @@ msgid ""
 "this will help users to understand the primary functionality provided by the "
 "window, and will ensure that the window can be resized to narrow widths."
 msgstr ""
+"Asegúrese de que su barra de cabecera sólo contiene un pequeño número de "
+"controles clave. Esto ayudará a los usuarios a entender la funcionalidad "
+"principal proporcionada por la ventana, y asegurará que la ventana se pueda "
+"redimensionar a tamaños más estrechos."
 
 #. (itstool) path: section/p
 #: C/header-bars.page:44
@@ -2932,6 +2967,9 @@ msgid ""
 "within the header bar, additional functionality can be included within a "
 "header bar menu."
 msgstr ""
+"Si una ventana requiere más controles de los que se puedan colocar "
+"cómodamente en la barra de cabecera, la funcionalidad adicional se puede "
+"incluir en un menú de la barra de cabecera."
 
 #. (itstool) path: section/title
 #: C/header-bars.page:49
@@ -2944,6 +2982,9 @@ msgid ""
 "A header bar can - and should - update along with view or mode changes. This "
 "ensures that header bar controls are always relevant to the current context."
 msgstr ""
+"Una barra de cabecera puede (y debe) actualizarse de acuerdo a los cambios "
+"de vista o de modo. Esto asegura que los controles de la barra de cabecera "
+"son siempre relevantes al contexto actual."
 
 #. (itstool) path: section/p
 #: C/header-bars.page:53
@@ -2952,6 +2993,9 @@ msgid ""
 "switchers\">view switcher</link>), the header bar can include different "
 "controls for each view."
 msgstr ""
+"Si la ventana incluye varias vistas (accesibles mediante un <link xref="
+"\"view-switchers\">intercambiador de vistas</link>), la barra de cabecera "
+"puede incluir diferentes controles para cada vista."
 
 #. (itstool) path: section/p
 #: C/header-bars.page:55
@@ -2960,6 +3004,10 @@ msgid ""
 "depending on the location displayed in the window itself. It is common to "
 "show a back button on the left side of the header bar when navigating."
 msgstr ""
+"Si la ventana incorpora navegación. se puede mostrar diferentes controles "
+"dependiendo de la ubicación mostrada en la propia ventana. Es habitual "
+"mostrar un botón de Volver en la parte izquierda de la barra de cabecera al "
+"navegar."
 
 #. (itstool) path: section/title
 #: C/header-bars.page:60
@@ -3390,6 +3438,8 @@ msgid ""
 "More information on designing an application icon can be found below, in the "
 "custom full-color icon section."
 msgstr ""
+"A continuación puede encontrar más información sobre el diseño del icono de "
+"una aplicación, en la sección de iconos a todo color personalizados"
 
 #. (itstool) path: section/title
 #: C/icons-and-artwork.page:92
@@ -3403,6 +3453,9 @@ msgid ""
 "They are then programmatically scaled and colored within the user interface "
 "itself."
 msgstr ""
+"Los iconos simbólicos tienen una forma sencilla y están dibujados en una "
+"rejilla de 16x16 píxeles. Se escalan y colorean automáticamente en la propia "
+"interfaz de usuario."
 
 #. (itstool) path: item/p
 #: C/icons-and-artwork.page:97
@@ -3598,7 +3651,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/index.page:22
 msgid "Core material"
-msgstr ""
+msgstr "Material del núcleo"
 
 #. (itstool) path: section/p
 #: C/index.page:24
@@ -3887,6 +3940,11 @@ msgid ""
 "Info bars persist: they can be permanent, or they can be dismissed by the "
 "user."
 msgstr ""
+"Una barra de información es una banda que se coloca por encima del contenido "
+"de una vista, justo debajo de la barra de cabecera o de herramientas. "
+"Contiene texto, y también puede contener controles. Las barras de "
+"información son persistentes: pueden ser permanentes o el usuario puede "
+"descartarlas."
 
 #. (itstool) path: section/p
 #: C/info-bars.page:25
@@ -3931,7 +3989,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/info-bars.page:38
 msgid "Only one info bar should be visable at any one time."
-msgstr ""
+msgstr "Sólo se debe mostrar una única barra de información a la vez."
 
 #. (itstool) path: item/p
 #: C/info-bars.page:39
@@ -3939,6 +3997,8 @@ msgid ""
 "Only include a longer explanation if it is really needed: a simple heading "
 "can often be sufficient."
 msgstr ""
+"Incluya sólo una explicación más larga si es realmente necesario: un simple "
+"encabezado a menudo será suficiente."
 
 #. (itstool) path: item/p
 #: C/info-bars.page:40
@@ -3976,6 +4036,9 @@ msgid ""
 "can be accessed using a keyboard. Trying to use your application with only a "
 "keyboard is a great way to test this."
 msgstr ""
+"Debe asegurarse de que toda la funcionalidad ofrecida por su aplicación es "
+"accesible usando un teclado. Probar a usar su aplicación sólo con el teclado "
+"es una buena manera de probarlo."
 
 #. (itstool) path: page/p
 #: C/keyboard-input.page:32
@@ -3984,6 +4047,9 @@ msgid ""
 "keys, and shortcut keys. <link xref=\"search\">Search</link> is another, "
 "additional aspect."
 msgstr ""
+"La integración del teclado tiene tres aspectos en GNOME y GTK+: navegación, "
+"teclas de acceso y atajos del teclado. La <link xref=\"search\">Búsqueda</"
+"link> es otro aspecto adicional."
 
 #. (itstool) path: section/title
 #: C/keyboard-input.page:35
@@ -3996,6 +4062,8 @@ msgid ""
 "Make sure that it is possible to move around and interact with every part of "
 "your user interface using the keyboard, by following these guidelines."
 msgstr ""
+"Asegúrese de que es posible moverse e interactuar con todas las partes de su "
+"interfaz de usuario usando el teclado, siguiendo esta guía."
 
 #. (itstool) path: item/p
 #: C/keyboard-input.page:40
@@ -4003,6 +4071,8 @@ msgid ""
 "Follow the standard GNOME keys for navigation. <key>Tab</key> is the "
 "standard key for moving around an interface with GTK+ and GNOME."
 msgstr ""
+"Siga las teclas estándar de GNOME para la navegación. <key>Tab</key> es la "
+"tecla estándar para moverse por la interfaz en GTK+ y GNOME."
 
 #. (itstool) path: item/p
 #: C/keyboard-input.page:41
@@ -4020,6 +4090,10 @@ msgid ""
 "movement using the arrow keys, both within user interface elements (such as "
 "lists, icon grids or sidebars), and between them."
 msgstr ""
+"Además de la navegación usando la tecla <key>Tab</key>, haga un esfuerzo "
+"para permitir el movimiento usando las teclas de flechas, tanto en los "
+"elementos de la interfaz del usuario (tales como listas, rejillas de iconos "
+"o barras laterales) como entre ellos."
 
 #. (itstool) path: note/p
 #: C/keyboard-input.page:45
@@ -4073,6 +4147,8 @@ msgid ""
 "Moves keyboard focus out of the enclosing widget to the next/previous "
 "control, in those situations where Tab alone has another function"
 msgstr ""
+"Mueve el foco del teclado fuera del widget hasta el control siguiente/"
+"anterior, en aquellas situaciones en las que Tab tiene otra función."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:68
@@ -4312,6 +4388,8 @@ msgid ""
 "Do not use <key>Alt</key> for shortcut keys, as this may conflict with "
 "access keys."
 msgstr ""
+"No use la tecla <key>Alt</key> para los atajos, ya que puede crear "
+"conflictos con las teclas de acceso."
 
 #. (itstool) path: section/title
 #: C/keyboard-input.page:149
@@ -4336,6 +4414,9 @@ msgid ""
 "key, for system shortcuts. <key>Super</key> should not be used by "
 "applications, therefore."
 msgstr ""
+"GNOME 3 hace un uso exclusivo de la tecla <key>Super</key>, comúnmente "
+"conocida como tecla Windows, para los atajos del sistema. Por lo tanto, la "
+"tecla <key>Super</key> no se debe usar en las aplicaciones."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:160
@@ -4816,6 +4897,8 @@ msgid ""
 "A submenu which contains a list of no more than six recently used files, "
 "ordered according to most recently used."
 msgstr ""
+"Un submenú que contiene una lista de no más de seis archivos usado "
+"recientemente, ordenados por los usados más recientemente."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:334
@@ -5375,6 +5458,8 @@ msgid ""
 "Specifies the criteria by which content should be sorted. Can open a "
 "preference dialog, popover, or sub-menu."
 msgstr ""
+"Especifica los criterios por los que se debe ordenar el contenido. Puede "
+"abrir un diálogo de preferencias, una ventana emergente o un submenú."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:503
@@ -5386,6 +5471,8 @@ msgstr "<gui>Filtrar…</gui>"
 msgid ""
 "Allows content to be filtered, by opening a popover, drop down, or dialog."
 msgstr ""
+"Permite filtrar el contenido, abriendo una ventana emergente, un desplegable "
+"o un diálogo."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:508
@@ -5400,7 +5487,7 @@ msgstr "<keyseq><key>Ctrl</key><key>+</key></keyseq>"
 #. (itstool) path: td/p
 #: C/keyboard-input.page:510
 msgid "Zooms in, making content appear larger."
-msgstr ""
+msgstr "Amplía, mostrando el contenido más grande."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:513
@@ -5415,7 +5502,7 @@ msgstr "<keyseq><key>Ctrl</key><key>-</key></keyseq>"
 #. (itstool) path: td/p
 #: C/keyboard-input.page:515
 msgid "Zooms out, making content appear smaller."
-msgstr ""
+msgstr "Reduce, mostrando el contenido más pequeño."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:518
@@ -5435,7 +5522,7 @@ msgstr "Restaurar el nivel de ampliación a su tamaño predeterminado."
 #. (itstool) path: td/p
 #: C/keyboard-input.page:523
 msgid "<gui>Best Fit</gui>"
-msgstr ""
+msgstr "<gui>Mejor ajuste</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:525
@@ -5488,6 +5575,8 @@ msgid ""
 "Sets the style attributes of the selected text or objects either "
 "individually or to a named, predefined style."
 msgstr ""
+"Establece los atributos de estilo del texto o los objetos seleccionados, "
+"individualmente o con un estilo con nombre, predefinido."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:557
@@ -5498,6 +5587,8 @@ msgstr "<gui>Tipografía…</gui>"
 #: C/keyboard-input.page:559
 msgid "Sets the font properties of the selected text or objects."
 msgstr ""
+"Establece las propiedades de la tipografía del texto o los objetos "
+"seleccionados."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:562
@@ -5507,7 +5598,7 @@ msgstr "<gui>Párrafo…</gui>"
 #. (itstool) path: td/p
 #: C/keyboard-input.page:564
 msgid "Sets the properties of the selected paragraph."
-msgstr ""
+msgstr "Establece las propiedades del párrafo seleccionado."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:567
@@ -5566,7 +5657,7 @@ msgstr "<gui>Celdas…</gui>"
 #. (itstool) path: td/p
 #: C/keyboard-input.page:585
 msgid "Sets the properties of the selected table cells."
-msgstr ""
+msgstr "Establece las propiedades de las celdas de la tabla seleccionada."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:588
@@ -5579,6 +5670,8 @@ msgid ""
 "Sets the properties of the selected list, or turns the selected paragraphs "
 "into a list if they are not already formatted as such."
 msgstr ""
+"Establece las propiedades de la lista seleccionada, o convierte los párrafos "
+"seleccionados en una lista si no están formateados como tal."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:593
@@ -5590,6 +5683,8 @@ msgstr "<gui>Capa…</gui>"
 msgid ""
 "Sets the properties of all or selected layers of a multi-layered document."
 msgstr ""
+"Establece las propiedades de todas las capas seleccionadas de un documento "
+"con varias capas."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:598
@@ -5865,6 +5960,8 @@ msgid ""
 "Each menu item raises the corresponding window to the top of the window "
 "stack."
 msgstr ""
+"Cada elemento del menú muestra la correspondiente ventana en la parte "
+"superior de la pila de ventanas."
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -6741,14 +6838,13 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/menus.page:65
-#, fuzzy
 msgid ""
 "Label menu items with verbs for commands and adjectives for settings, using "
 "<link xref=\"writing-style#capitalization\">header capitalization</link>."
 msgstr ""
 "Nombre a los elementos de los menús con verbos para acciones y adjetivos "
-"para opciones, de acuerdo a las reglas en la <xref linkend=\"layout-"
-"capitalization\"/>."
+"para opciones, usando las <link xref=\"writing-style#capitalization"
+"\">mayúsculas en las cabeceras</link>."
 
 #. (itstool) path: item/p
 #: C/menus.page:66
@@ -6784,6 +6880,10 @@ msgid ""
 "using your application. They also provide the ability for users to quickly "
 "respond to those events, using notification actions."
 msgstr ""
+"Las notificaciones le permiten informar a los usarios sobre eventos cuando "
+"no están usando su aplicación. También proporcionan la posibilidad de "
+"permitir a los usuarios responder rápidamente a estos eventos, usando las "
+"acciones de la notificación."
 
 #. (itstool) path: section/p
 #: C/notifications.page:23
@@ -6801,6 +6901,9 @@ msgid ""
 "provided by your application windows, which should be able to inform the "
 "user about events without the need for notifications."
 msgstr ""
+"Las notificaciones no se deben usar como un sustituto de la información "
+"proporcionada por las ventanas de la aplicación, que debe ser capaz de "
+"informar al usuario sobre eventos sin necesidad de usar las notificaciones."
 
 #. (itstool) path: section/title
 #: C/notifications.page:30
@@ -6927,6 +7030,9 @@ msgid ""
 "You can provide useful functionality by embedding buttons in notifications. "
 "This allows users to quickly and easily respond to the notification."
 msgstr ""
+"Puede proporcionar información útil incluyendo botones en las "
+"notificaciones. Esto permite a los usuarios responder fácil y rápidamente a "
+"la notificación."
 
 #. (itstool) path: item/p
 #: C/notifications.page:79
@@ -6956,6 +7062,8 @@ msgid ""
 "It is not necessary to always use notification actions, and many "
 "notifications will not require them."
 msgstr ""
+"No siempre es necesario usar las acciones de las notificaciones, y muchas no "
+"las necesitan."
 
 #. (itstool) path: item/p
 #: C/notifications.page:83
@@ -7043,6 +7151,7 @@ msgstr ""
 #: C/overlaid-controls.page:7
 msgid "Floating controls, often used for images and video controls"
 msgstr ""
+"Controles flotantes, usados a menudo para imágenes y controles de vídeo."
 
 #. (itstool) path: page/title
 #: C/overlaid-controls.page:15
@@ -7100,7 +7209,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/overlaid-controls.page:37
 msgid "Use the standard \"OSD\" theme style for overlaid controls."
-msgstr ""
+msgstr "Use el estilo «OSD» estándar para los controles superpuestos."
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -7481,6 +7590,8 @@ msgid ""
 "<key>Shift</key> in combination with any of the following: <key>Space</key> "
 "<key>Home</key> <key>End</key> <key>PageUp</key> <key>PageDown</key>"
 msgstr ""
+"<key>Mayús</key> combinada con cualquiera de las siguientes: <key>Espacio</"
+"key> <key>Inicio</key> <key>Fin</key> <key>Av Pág</key> <key>Re Pág</key>"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:85
@@ -7516,7 +7627,7 @@ msgstr "Deseleccionar todo"
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:96
 msgid "Primary click on the container background"
-msgstr ""
+msgstr "Pulsación primaria en el fondo del contenedor"
 
 #. (itstool) path: section/title
 #: C/pointer-and-touch-input.page:106
@@ -7535,9 +7646,8 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/pointer-and-touch-input.page:111
-#, fuzzy
 msgid "Application touch conventions"
-msgstr "Iconos de aplicación"
+msgstr "Convenios táctiles en aplicaciones"
 
 #. (itstool) path: section/p
 #: C/pointer-and-touch-input.page:113
@@ -7572,7 +7682,7 @@ msgstr ""
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:133
 msgid "<em style=\"strong\">Press and hold</em>"
-msgstr ""
+msgstr "<em style=\"strong\">Pulsar y mantener</em>"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:137
@@ -7676,9 +7786,8 @@ msgstr "Arrastrar en la parte inferior abre la bandeja de mensajes"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:190
-#, fuzzy
 msgid "Top-left edge opens the application menu."
-msgstr "El menú de Aplicaciones"
+msgstr "El borde superior izquierdo abre el menú de la aplicación."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:191
@@ -8208,7 +8317,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/progress-bars.page:67
-#, fuzzy
 #| msgid ""
 #| "The progress bar text should provide an idea of how much work has been "
 #| "completed. It is better to provide specific information rather than a "
@@ -8219,10 +8327,9 @@ msgid ""
 "percentage. For example, <gui>13 of 19 images rotated</gui> or <gui>12.1 of "
 "30 MB downloaded</gui> rather than <gui>13% complete</gui>."
 msgstr ""
-"El texto de la barra de progreso deber proporcionar una idea de cuánto "
-"trabajo se ha completado. Es mejor proporcionar información específica que "
-"porcentajes. Por ejemplo, «rotadas 13 de 19 imágenes» o «descargados 12.1 de "
-"30 MB» en lugar de «13% completado»."
+"A menudo es mejor proporcionar información específica que porcentajes. Por "
+"ejemplo, <gui>rotadas 13 de 19 imágenes</gui> o <gui>descargados 12.1 de 30 "
+"MB</gui> en lugar de <gui>13% completado</gui>."
 
 #. (itstool) path: item/p
 #: C/progress-bars.page:68
@@ -8417,9 +8524,8 @@ msgstr ""
 
 #. (itstool) path: page/title
 #: C/progress-spinners.page:18
-#, fuzzy
 msgid "Progress spinners"
-msgstr "Barras de progreso"
+msgstr "Indicadores de progreso"
 
 #. (itstool) path: page/p
 #: C/progress-spinners.page:20
