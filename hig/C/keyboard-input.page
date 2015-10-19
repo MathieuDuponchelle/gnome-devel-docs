@@ -443,7 +443,7 @@
 <tr>
 <td><p><gui>Deselect All</gui></p></td>
 <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>A</key></keyseq></p></td>
-<td><p>Deselects all content in the current document. Only provide this item in situations when no other method of undoing selection is possible or apparent to the user. For example, in complex graphics applications where selection and deselection is not usually possible simply by using the cursor keys. Note: Do not provide <gui>Deselect All</gui> in text entry fields, as <keyseq><key>Shift</key><key>Ctrl</key><key>hex</key></keyseq> digit is used to enter unicode characters so its shortcut will not work.</p></td>
+<td><p>Deselects all content in the current document. Only provide this item in situations when no other method of undoing selection is possible or apparent to the user. For example, in complex graphics applications where selection and deselection is not usually possible simply by using the cursor keys. Note: Do not provide <gui>Deselect All</gui> in text entry fields, as <keyseq><key>Shift</key><key>Ctrl</key><key>hex</key></keyseq> digit is used to enter Unicode characters so its shortcut will not work.</p></td>
 </tr>
 <tr>
 <td><p><gui>Find…</gui></p></td>
