@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hig.master\n"
 "POT-Creation-Date: 2015-09-24 07:20+0000\n"
-"PO-Revision-Date: 2015-10-19 12:54+0200\n"
+"PO-Revision-Date: 2015-10-19 16:41+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "Language: es\n"
@@ -1118,6 +1118,10 @@ msgid ""
 "states of a check box cannot be clearly communicated, consider using two "
 "radio buttons instead so both states can be given labels."
 msgstr ""
+"Etiquete las casillas para indicar claramente el efecto tanto desactivada "
+"como activada, por ejemplo, <gui>Mostrar iconos en los menús</gui>. Si los "
+"dos estados de una casilla no se pueden comunicar claramente, considere usar "
+"dos botones de radio en su lugar, para poder etiquetar los dos estados."
 
 #. (itstool) path: item/p
 #: C/check-boxes.page:44
@@ -1126,6 +1130,9 @@ msgid ""
 "understand. <gui>Play alert sound</gui> is better than <gui>Disable alert "
 "sound</gui>, for example."
 msgstr ""
+"Evite las etiquetas negativas en las casillas, ya que esto puede ser confuso "
+"o difícil de entender. <gui>Reproducir un sonido de alerta</gui> es mejor "
+"que <gui>Desactivar las alertas sonoras</gui>, por ejemplo."
 
 #. (itstool) path: item/p
 #: C/check-boxes.page:45
@@ -1145,6 +1152,10 @@ msgid ""
 "for some objects in the selection and unset for others, show the check box "
 "in its mixed state. When a check box is in its mixed state:"
 msgstr ""
+"Si la casilla representa una opción de configuración en una selección "
+"múltiple activada para varios objetos de la selección, y desactivada para "
+"otros, muestre la casilla en un estado mixto. Cuando una casilla está en un "
+"estado mixto:"
 
 #. (itstool) path: item/p
 #: C/check-boxes.page:48
@@ -1152,6 +1163,8 @@ msgid ""
 "Clicking the box once should check the box, applying that setting (when "
 "confirmed) to all the selected objects."
 msgstr ""
+"Al pulsar una vez en la casilla esta se debería activar, aplicando la "
+"configuración (cuando se confirme) a todos los objetos seleccionados."
 
 #. (itstool) path: item/p
 #: C/check-boxes.page:49
@@ -1159,6 +1172,9 @@ msgid ""
 "Clicking the box a second time should uncheck the box, removing that setting "
 "(when confirmed) to all the selected objects."
 msgstr ""
+"Al pulsar en la casilla por segunda vez, esta se debería desactivar, "
+"eliminando la configuración (cuando se confirme) de todos los objetos "
+"seleccionados."
 
 #. (itstool) path: item/p
 #: C/check-boxes.page:50
@@ -1167,6 +1183,9 @@ msgid ""
 "restoring each selected object’s original value for that setting (when "
 "confirmed)."
 msgstr ""
+"Al pulsar en la casilla una tercera vez, esta debería volver a su estado "
+"mixto, restaurando la configuración original de los objetos seleccionados "
+"(cuando se confirme)."
 
 #. (itstool) path: item/p
 #: C/check-boxes.page:52
@@ -1186,6 +1205,11 @@ msgid ""
 "instead— but you probably also need to think about how to simplify your user "
 "interface."
 msgstr ""
+"No coloque más de ocho casillas bajo en mismo encabezado. Si necesita más de "
+"ocho, puede a usar un espacio en blanco o etiquetas de cabeceras para "
+"dividirlas en grupos más pequeños. De otro modo, considere usar una lista de "
+"casillas en su lugar (aunque probablemente debería pensar en cómo "
+"simplificar su interfaz de usuario)."
 
 #. (itstool) path: item/p
 #: C/check-boxes.page:54
@@ -1228,6 +1252,11 @@ msgid ""
 "older applications, which may have been designed and implemented in "
 "accordance with the GNOME 2 HIG."
 msgstr ""
+"Estas Guías de interfaz humana están dirigidas principalmente a aplicaciones "
+"nuevas en GTK+ y GNOME, con énfasis en la integración con GNOME 3. Sin "
+"embargo, también se pretende que sea útiles en aplicaciones multi-"
+"plataforma, así como en aplicaciones antiguas que se puedan haber diseñado e "
+"implementado siguiendo las guías de GNOME 2."
 
 #. (itstool) path: section/title
 #: C/compatibility.page:19
@@ -1392,7 +1421,7 @@ msgid ""
 "Remember: the best applications provide an elegant solution to a specific "
 "task area."
 msgstr ""
-"Recuerde: las mejores aplicaciones ofrecen una solución elegante a una zona "
+"Recuerde: las mejores aplicaciones ofrecen una solución elegante a un área "
 "de trabajo en concreto."
 
 #. (itstool) path: section/title
@@ -2013,6 +2042,10 @@ msgid ""
 "dialogs, changes to settings or values are immediately updated. In contrast, "
 "explicit apply dialogs include a button for applying changes."
 msgstr ""
+"Los diálogos de presentación son de aplicación instantánea o explícita. En "
+"los diálogos de aplicación instantánea, los cambios en la configuración se "
+"actualizan automáticamente, mientras que los diálogos de aplicación "
+"explícita incluyen un botón para aplicar los cambios."
 
 #. (itstool) path: section/p
 #: C/dialogs.page:111
@@ -2035,6 +2068,12 @@ msgid ""
 "gui> resets all values in the dialog to the state before it was opened and "
 "Done applies all changes and closes the window)."
 msgstr ""
+"La aplicación explícita sólo es necesaria si los cambios en el diálogo se "
+"deben aplicar simultáneamente para ver el comportamiento esperado. Los "
+"diálogos de aplicación explícita incluyen los botones <gui>Hecho</gui> y "
+"<gui>Cancelar</gui> (<gui>Cancelar</gui> restablece todos los valores del "
+"diálogo al estado anterior a cuando se abrió y Hecho aplica todos los "
+"cambios y cierra la ventana)."
 
 #. (itstool) path: section/title
 #: C/dialogs.page:119
@@ -2104,6 +2143,10 @@ msgid ""
 "be a good opportunity to use humor. <gui>Apology Accepted</gui> or <gui>Got "
 "It</gui> are both examples of good labels."
 msgstr ""
+"Normalmente, los diálogos de error incluyen un único botón que descarta el "
+"diálogo. En este caso no es necesario referenciar una acción específica, y "
+"puede ser una buena oportunidad para usar el humor. <gui>Disculpa aceptada</"
+"gui> o <gui>Lo entiendo</gui> son ejemplos de buenas etiquetas."
 
 #. (itstool) path: section/title
 #: C/dialogs.page:142
@@ -2291,6 +2334,11 @@ msgid ""
 "fixed width layouts to ensure that interface elements maintain effective "
 "grouping and alignment."
 msgstr ""
+"Haga pruebas para asegurarse de que su interfaz funciona bien en pantallas "
+"grandes. Cuando sea posible, escale el contenido para hacer un mejor uso del "
+"espacio disponible, o use distribuciones con anchura fija para asegurarse de "
+"que los elementos de la interfaz mantienen su alineación y agrupamiento de "
+"manera efectiva."
 
 #. (itstool) path: section/title
 #: C/display-compatibility.page:33
@@ -2306,6 +2354,12 @@ msgid ""
 "supported on screens that are 1280 pixels or wider, meaning that windows "
 "should have a minimum width of no less than 640 pixels."
 msgstr ""
+"GNOME 3 permite ajustar las ventanas para que ocupen la mitad de la "
+"pantalla, lo que permite que se puedan colocar dos ventanas uno junto a la "
+"otra. La división de media pantalla no es práctica en pantallas muy "
+"pequeñas. Como regla general, debe estar soportado en pantallas de 1280 "
+"píxeles o superior, lo que significa que las ventanas deben tener una "
+"anchura mínima de no menos de 640 píxeles."
 
 #. (itstool) path: section/p
 #: C/display-compatibility.page:37
@@ -2367,6 +2421,10 @@ msgid ""
 "interaction. At the same time, a drop-down list might be a better choice "
 "when:"
 msgstr ""
+"Los botones de radio o una lista a menudo ofrecen una lista despegable "
+"preferible, ya que presentan todas las opciones disponibles de una vez, sin "
+"más interacciones. También una lista desplegable puede ser la mejor opción "
+"cuando:"
 
 #. (itstool) path: item/p
 #: C/drop-down-lists.page:27
@@ -2526,6 +2584,10 @@ msgid ""
 "more cohesive. They are also one of those nice touches which helps to "
 "communicate an attention to detail."
 msgstr ""
+"Los marcadores de posición vacíos realizan varias funciones importantes: "
+"evitan la confusión y guían al usuario, y hacen que su interfaz se vea mejor "
+"y sea más coherente. Son uno de esos toques que ayudan a centrar la atención "
+"en los detalles."
 
 #. (itstool) path: section/p
 #: C/empty-placeholders.page:27
@@ -2543,6 +2605,9 @@ msgid ""
 "expected, and it is more appropriate to provide a richer, more characterful "
 "and upbeat experience."
 msgstr ""
+"Los marcadores de posición vacíos no se deben mostrar cuando la aplicación "
+"se ejecuta por primera vez. En estas situaciones es normal que haya estados "
+"vacíos, y es más adecuado mostrar una experiencia más rica y característica."
 
 #. (itstool) path: item/p
 #: C/empty-placeholders.page:37
@@ -2551,6 +2616,9 @@ msgid ""
 "labels, so that your application is consistent with other GNOME 3 "
 "applications."
 msgstr ""
+"Siga la distribución estándar para el tamaño y la ubicación de las imágenes "
+"y las etiquetas, para que su aplicación sea consistente con otras "
+"aplicaciones de GNOME 3."
 
 #. (itstool) path: item/p
 #: C/empty-placeholders.page:38
@@ -3047,6 +3115,9 @@ msgid ""
 "Always ensure that there is room for a header bar to be dragged. This is "
 "necessary to enable windows to be moved or resized."
 msgstr ""
+"Asegúrese siempre de que hay espacio en la barra de cabecera para "
+"arrastrarla. Esto es necesario para permitir mover o redimensionar las "
+"ventanas."
 
 #. (itstool) path: item/p
 #: C/header-bars.page:75
@@ -3246,6 +3317,10 @@ msgid ""
 "identifying icon is also an essential part of any application, and is a "
 "crucial part of its identity."
 msgstr ""
+"Los iconos juegan un papel importante en las interfaces de usuario: "
+"seleccionar el icono correcto es, por lo tanto, vital para asegurarse de que "
+"su aplicación es usable. Un icono identificativo es una parte esencial de "
+"cualquier aplicación, y es una parte crucial de su identidad."
 
 #. (itstool) path: section/title
 #: C/icons-and-artwork.page:22
@@ -3262,6 +3337,11 @@ msgid ""
 "incorrect use of an icon can make your interface hard - or even impossible - "
 "to understand."
 msgstr ""
+"Hay muchas situaciones en las que es necesario elegir entre usar un icono y "
+"usar una etiqueta de texto, particularmente en los botones. Los iconos "
+"tienen la ventaja de ser más pequeños y no requieren traducción. Al mismo "
+"tiempo, el uso incorrecto de un icono puede hacer que interfaz sea difícil "
+"(o imposible) de entender."
 
 #. (itstool) path: item/p
 #: C/icons-and-artwork.page:27
@@ -3270,6 +3350,9 @@ msgid ""
 "recognized icon is not available, it might be better to use a text label "
 "instead."
 msgstr ""
+"Use sólo iconos cuyo significado es comúnmente reconocido. Si no hay "
+"disponibles un icono reconocido habitualmente, es preferible usar una "
+"etiqueta de texto en su lugar."
 
 #. (itstool) path: item/p
 #: C/icons-and-artwork.page:29
@@ -3277,6 +3360,8 @@ msgid ""
 "Convention establishes which icons will be recognized. If you are in doubt, "
 "stick to icons which are frequently used in other applications."
 msgstr ""
+"El convenio establece qué iconos se reconocerán. Si tiene dudas, elija "
+"iconos que se usen frecuentemente en otras aplicaciones."
 
 #. (itstool) path: item/p
 #: C/icons-and-artwork.page:30
@@ -3285,6 +3370,9 @@ msgid ""
 "application - users of specialist tools will often be familiar with domain-"
 "specific symbols."
 msgstr ""
+"Considere qué iconos serán significativos en el contexto específico de su "
+"aplicación; los usuarios de herramientas específicas estarán a menudo "
+"familiarizados con símbolos específicos de ese área."
 
 #. (itstool) path: item/p
 #: C/icons-and-artwork.page:32
@@ -3309,6 +3397,9 @@ msgid ""
 "appropriate; try to avoid creating custom icons unless they are absolutely "
 "necessary."
 msgstr ""
+"GNOME proporciona un conjunto completo de iconos estándar. Estos se deben "
+"usar donde sea apropiado; intente evitar crear iconos personalizados a menos "
+"que sea absolutamente necesario."
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:42
@@ -3317,6 +3408,9 @@ msgid ""
 "name of the icon should reflect what the icon is intended to communicate. "
 "This is important for those using a screen reader."
 msgstr ""
+"Siga la especificación de nombrado de iconos al selecciona qué iconos usar; "
+"el nombre del icono debe reflejar lo que el icono pretende comunicar. Esto "
+"es importante para aquellas personas que usan un lector de pantalla."
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:44
@@ -3336,6 +3430,9 @@ msgid ""
 "icons. The guidelines in this HIG indicate when to use which type of icon. "
 "The following is a a general guide."
 msgstr ""
+"GNOME 3 proporciona dos tipos de iconos: a todo color y simbólicos "
+"monocromo. Los consejos de esta guía indican cuando usar cada tipo de icono. "
+"Lo siguiente es una guía general."
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:51
@@ -3363,6 +3460,8 @@ msgid ""
 "All other icons should use the symbolic icon style. In addition, symbolic "
 "icons should always be used inside:"
 msgstr ""
+"Todos los demás iconos deben usar el estilo de icono simbólico. Además, los "
+"iconos simbólicos se deben usar siempre en:"
 
 #. (itstool) path: item/p
 #: C/icons-and-artwork.page:62
@@ -3385,6 +3484,8 @@ msgid ""
 "when the background is semi-transparent (such as overlaid media or "
 "fullscreen controls)"
 msgstr ""
+"cuando el fondo sea semi-transparente (como en medios superpuestos o "
+"controles a pantalla completa)"
 
 #. (itstool) path: section/title
 #: C/icons-and-artwork.page:73
@@ -3695,6 +3796,8 @@ msgstr ""
 msgid ""
 "Guidelines on common elements, such as buttons, progress bars and popovers."
 msgstr ""
+"Guías sobre elementos comunes, tales como botones, barras de progreso y "
+"ventanas emergentes."
 
 #. (itstool) path: section/title
 #: C/index.page:44
@@ -3707,6 +3810,8 @@ msgid ""
 "These guidelines apply to the full range of design elements. It is "
 "recommended that you familiarize yourself with them."
 msgstr ""
+"Esta guía aplica a todos los los elementos de diseño. Se recomienda que se "
+"familiarice con ellos."
 
 #. (itstool) path: td/p
 #: C/index.page:50
