@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hig.master\n"
 "POT-Creation-Date: 2015-09-24 07:20+0000\n"
-"PO-Revision-Date: 2015-10-19 16:41+0200\n"
+"PO-Revision-Date: 2015-10-20 13:12+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "Language: es\n"
@@ -1317,6 +1317,12 @@ msgid ""
 "<link xref=\"menu-bars\">menu bars</link> with a <link xref=\"header-bars"
 "\">header bar</link> could be a big change for your application."
 msgstr ""
+"Seguir algunos de los patrones de diseño de esta guía puede implicar cambios "
+"a gran escala para aplicaciones de GNOME 2, especialmente si las "
+"aplicaciones son complejas. En concreto, reemplazar las barras de título de "
+"las ventanas y las <link xref=\"menu-bars\">barras de menú</link> por una "
+"<link xref=\"header-bars\">barra de cabecera</link> puede ser un gran cambio "
+"para su aplicación."
 
 #. (itstool) path: section/p
 #: C/compatibility.page:34
@@ -2368,6 +2374,9 @@ msgid ""
 "applications that are used in isolation do not need to support half-screen "
 "snap (a music player is a good example of this)."
 msgstr ""
+"Dado que el ajuste a media pantalla sólo es útil cuando las ventanas se usan "
+"en paralelo, las aplicaciones que usan de manera aislada no necesitan "
+"soporte para esto (un reproductor de música es un buen ejemplo de esto)."
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -2449,6 +2458,11 @@ msgid ""
 "“Month:” with the item “January” selected, the user might reasonably infer "
 "that the menu contains the 12 months of the year without having to look."
 msgstr ""
+"El contenido de la parte oculta del menú es obvia a partir su etiqueta y del "
+"elemento seleccionado. Por ejemplo, si tiene una opción de menú etiquetada "
+"como «Mes:» con el elemento «Enero» seleccionado, el usuario puede pensar "
+"razonablemente que el menú contiene los 12 meses del año sin tener que "
+"comprobarlo."
 
 #. (itstool) path: item/p
 #: C/drop-down-lists.page:37
@@ -2484,6 +2498,9 @@ msgid ""
 "Use <link xref=\"writing-style#capitalization\">sentence capitalization</"
 "link> for drop-down list items, for example <gui>Switched movement</gui>."
 msgstr ""
+"Use <link xref=\"writing-style#capitalization\">mayúsculas en las frases</"
+"link> para los elementos de las lista desplegables, por ejemplo "
+"<gui>Movimiento desplazado</gui>."
 
 #. (itstool) path: section/title
 #: C/drop-down-lists.page:46
@@ -2640,6 +2657,11 @@ msgid ""
 "should only be included if there is additional information that it is useful "
 "to provide."
 msgstr ""
+"Un marcador de posición vacío siempre debe incluir una etiqueta que indique "
+"su estado vacío. A menudo es apropiado incluir un pequeño texto que "
+"proporcione ayuda adicional (sobre cómo añadir nuevos elementos, por "
+"ejemplo). Sin embargo, esto se debe incluir sólo so hay información "
+"adicional útil que proporcionar."
 
 #. (itstool) path: item/p
 #: C/empty-placeholders.page:40
@@ -2697,6 +2719,10 @@ msgid ""
 "If content items don't have a visual component, a <link xref=\"lists\">list "
 "view</link> might be more appropriate."
 msgstr ""
+"Dado que la vista de rejilla usa una imagen para cada elemento que muestra, "
+"está pensado para contenido que tiene una componente visual, como los "
+"documentos o las fotos. Si el contenido no tiene una componente visual, "
+"puede ser más apropiado usa una <link xref=\"lists\">vista de lista</link>."
 
 #. (itstool) path: section/p
 #: C/grids.page:27
@@ -2988,6 +3014,11 @@ msgid ""
 "and mode changes (such as with <link xref=\"selection-mode\">selection mode</"
 "link>)."
 msgstr ""
+"Las barras de cabecera se recomiendan para todas las ventanas de "
+"aplicaciones. Proporcionan numerosas ventajas frente a la combinación típica "
+"de barra de título, barra de menú y barra de herramientas, incluyendo una "
+"huella más pequeña, una navegación dinámica y cambios de modo (como el <link "
+"xref=\"selection-mode\">modo de selección</link>)."
 
 #. (itstool) path: section/p
 #: C/header-bars.page:33
@@ -2997,6 +3028,10 @@ msgid ""
 "these guidelines. See the <link xref=\"menu-bars\">menu bar guidelines</"
 "link> for more details on this."
 msgstr ""
+"Las barras de cabecera son incompatibles con las barras de menú. Si su "
+"aplicación ya incorpora una barra de menú, debe evaluar la alternativa "
+"sugerida en esta guía. Consulte la <link xref=\"menu-bars\">guía de barras "
+"de menú</link> para obtener más detalles."
 
 #. (itstool) path: section/title
 #: C/header-bars.page:38
@@ -3091,6 +3126,11 @@ msgid ""
 "the header bar, or by including a <link xref=\"view-switchers\">view "
 "switcher</link>."
 msgstr ""
+"Una barra de cabecera siempre debe proporcionar contexto para la ventana a "
+"la que pertenece. Esto ayuda a la identificación de la ventana y aclara qué "
+"es muestra en la propia ventana. Esto se puede hacer colocando un encabezado "
+"en el centro de la barra de cabecera o incluyendo un <link xref=\"view-"
+"switchers\">selector de vista</link>."
 
 #. (itstool) path: item/p
 #: C/header-bars.page:64
@@ -3099,6 +3139,9 @@ msgid ""
 "points described in the <link xref=\"visual-layout\">visual layout "
 "guidelines</link> - left, center and right."
 msgstr ""
+"Ordene los controles en la barra de cabecera siguiendo los tres puntos de "
+"alineación descritos en la <link xref=\"visual-layout\">guía de distribución "
+"visual</link>: izquierda, centro y derecha."
 
 #. (itstool) path: item/p
 #: C/header-bars.page:65
@@ -3384,6 +3427,13 @@ msgid ""
 "from a list is a subtract symbol (ie. a single line), and will not be "
 "recognizable without a corresponding “plus” add icon."
 msgstr ""
+"Recuerde que algunos iconos sólo tienen sentido cuando están junto a otros "
+"del mismo tipo. Por ejemplo, un icono multimedia para detener es simplemente "
+"un cuadrado, y puede no identificarse como un icono de detener sin otros "
+"controles multimedia (como reproducir, pausar u omitir) visibles cercanos a "
+"él. Del mismo modo, el icono de eliminar un elemento de una lista como un "
+"signo menos (una única línea) no se reconocerá sin el correspondiente icono "
+"«+» de añadir."
 
 #. (itstool) path: section/title
 #: C/icons-and-artwork.page:38
@@ -3501,6 +3551,11 @@ msgid ""
 "\">application basics page</link> includes details on what an application "
 "is, and when to provide an application icon."
 msgstr ""
+"Cada aplicación debe tener un icono de aplicación único y bonito. Es la cara "
+"de la aplicación y el primer elemento visual que un usuario ve al buscar "
+"aplicaciones nuevas. La <link xref=\"application-basics\">página de "
+"conceptos básicos de aplicaciones</link> incluye detalles sobre qué es una "
+"aplicación y cuándo proporcionar un icono de aplicación."
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:77
@@ -3510,6 +3565,11 @@ msgid ""
 "your application has a 256x256px icon. With the advent of high-DPI displays, "
 "a 512x512px variant is recommended."
 msgstr ""
+"Dado que los iconos de aplicación se muestran en tamaños más grandes, los "
+"iconos heredados de Tango de 48x48px o los SVG no son suficientes (faltan "
+"detalles). Es esencial que su aplicación tenga un icono de 256x256px. Con la "
+"llegada de las pantallas de alta definición, se recomienda una variante de "
+"512x512px."
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:81
@@ -3532,6 +3592,9 @@ msgid ""
 "To maintain crispness, a lot of detail is discarded for the low resolution "
 "variants and a 1px stroke is used to outline the silhouette of the object."
 msgstr ""
+"Para mantener la frescura, en las versiones de baja resolución se descartan "
+"muchos detalles y se usa una sombra de 1px para bordear la silueta del "
+"objeto."
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:87
@@ -3598,6 +3661,10 @@ msgid ""
 "opacity or creating duotone/pattern dithering, try avoiding these as much as "
 "possible."
 msgstr ""
+"Los iconos simbólicos se colorean en tiempo de ejecución para que coincidan "
+"con el contexto, como si fueran fragmentos de texto. Aunque hay maneras de "
+"«sombrear» partes de un icono usando opacidad o creando un patrón difuminado "
+"o de dos tonos, intente evitarlo siempre que sea posible."
 
 #. (itstool) path: item/p
 #: C/icons-and-artwork.page:101
@@ -3631,6 +3698,8 @@ msgstr "Iconos a todo color personalizados"
 #: C/icons-and-artwork.page:118
 msgid "Full-color icons are drawn and rendered at a variety of preset sizes."
 msgstr ""
+"Los iconos a todo color se dibujan y renderizan en una amplia variedad de "
+"tamaños predefinidos."
 
 #. (itstool) path: section/title
 #: C/icons-and-artwork.page:121
@@ -3887,6 +3956,8 @@ msgstr "<link xref=\"typography\"><em style=\"strong\">Tipografía</em></link>"
 msgid ""
 "Advice on font sizes, weights and styles, as well as special characters."
 msgstr ""
+"Consejo sobre los tamaños, pesos y estilos de las tipografías, así como de "
+"los caracteres especiales."
 
 #. (itstool) path: td/p
 #: C/index.page:74
@@ -4003,6 +4074,9 @@ msgid ""
 "notification: only include one if it is directly related to the event and is "
 "generally useful."
 msgstr ""
+"No siempre es necesario incluir un botón de acción en una notificación "
+"integrada: inclúyalo solo si está relacionado directamente con el evento y "
+"es útil en general."
 
 #. (itstool) path: item/p
 #: C/in-app-notifications.page:38
@@ -4010,6 +4084,8 @@ msgid ""
 "Don't distract with unnecessary in-app notifications, and be careful not to "
 "overuse them: they can be annoying if they pop up frequently."
 msgstr ""
+"No distraiga con notificaciones innecesarias, y tenga cuidado de no usarlas "
+"excesivamente: pueden ser molestas si saltan frecuentemente."
 
 #. (itstool) path: item/p
 #: C/in-app-notifications.page:39
@@ -4017,6 +4093,8 @@ msgid ""
 "Only one in-app notification can be displayed at a time, and new instances "
 "should replace existing ones."
 msgstr ""
+"Sólo se puede mostrar una notificación integrada cada vez, y las nuevas "
+"instancias deben reemplazar a las ya existentes."
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -4060,6 +4138,12 @@ msgid ""
 "to a location is not operating. In some situations, they can also be used to "
 "present supplementary information, such as user guidance."
 msgstr ""
+"Las barras de información se pueden usar para comunicar un estado particular "
+"de un elemento de contenido o de una ubicación en concreto. Por ejemplo, una "
+"barra de información puede indicar que un documento no está actualizado o "
+"que lo está editando otro usuario o que un servicio relativo a una ubicación "
+"no está operativo. En algunas situaciones también se pueden usar para "
+"mostrar información adicional, como una guía al usuario."
 
 #. (itstool) path: section/p
 #: C/info-bars.page:27
@@ -4090,6 +4174,8 @@ msgid ""
 "Beware of info bar overuse: they should be an exceptional presence in your "
 "interface."
 msgstr ""
+"Tenga cuidado con el uso excesivo de las barras de información: deben "
+"mostrarse como algo excepcional en su interfaz."
 
 #. (itstool) path: item/p
 #: C/info-bars.page:38
@@ -4207,6 +4293,9 @@ msgid ""
 "focus to the first dependent control when it is activated, but instead leave "
 "focus in place."
 msgstr ""
+"Si activar un control hace que se activen otros controles, no dé el foco "
+"automáticamente al primer control dependiente cuando se active; deje el foco "
+"donde está."
 
 #. (itstool) path: section/title
 #: C/keyboard-input.page:48
@@ -4390,6 +4479,8 @@ msgstr ""
 #: C/keyboard-input.page:122
 msgid "Where possible, all labelled components should have an access key."
 msgstr ""
+"Cuando sea posible, todos los elementos etiquetados deben tener una tecla de "
+"acceso."
 
 #. (itstool) path: item/p
 #: C/keyboard-input.page:123
@@ -4486,6 +4577,8 @@ msgid ""
 "Shortcuts that can be easily used with one hand are preferable for common "
 "operations."
 msgstr ""
+"Los atajos que se pueden usar fácilmente con una sola mano son preferibles "
+"para las operaciones habituales."
 
 #. (itstool) path: item/p
 #: C/keyboard-input.page:143
@@ -9599,6 +9692,8 @@ msgid ""
 "When in doubt, use switches for important configuration options, and check "
 "boxes for minor sub-options."
 msgstr ""
+"En caso de duda, use interruptores para las opciones importantes de "
+"configuración y casillas para las opciones menores."
 
 #. (itstool) path: section/title
 #: C/switches.page:36
@@ -9738,6 +9833,8 @@ msgid ""
 "If the content of a tab changes or requires attention, a visual hint can be "
 "displayed."
 msgstr ""
+"Si el contenido de una pestaña cambia o requiere atención, se puede mostrar "
+"una pista visual."
 
 #. (itstool) path: item/p
 #: C/tabs.page:66
@@ -9841,6 +9938,11 @@ msgid ""
 "and preferences, or account configuration and setup. A text entry field can "
 "be prefilled with text, and can include additional buttons or icons."
 msgstr ""
+"Un campo de entrada de texto es un elemento de la interfaz para introducir o "
+"editar texto. Es un elemento básico con varios usos, incluyendo la entrada "
+"de una búsqueda, configuración y preferencias, o la configuración de una "
+"cuenta. Un campo de texto se puede rellenar previamente con texto y puede "
+"incluir botones o iconos adicionales."
 
 #. (itstool) path: item/p
 #: C/text-fields.page:40
@@ -10194,6 +10296,8 @@ msgid ""
 "Use smaller and/or lighter text for less important information, and heavier/"
 "darker text to attract attention to important text."
 msgstr ""
+"Use un texto más pequeño y/o ligero para la información más importante y uno "
+"más pesado/oscuro para llamar la atención sobre el texto importante."
 
 #. (itstool) path: item/p
 #: C/typography.page:35
@@ -10201,6 +10305,8 @@ msgid ""
 "Avoid the use of italic or oblique faces, as these are visually more "
 "complex, and can be distracting."
 msgstr ""
+"Evite el uso de letras el cursiva u oblicuas, ya que son visualmente más "
+"complejas y pueden causar distracciones."
 
 #. (itstool) path: item/p
 #: C/typography.page:36
@@ -10208,6 +10314,8 @@ msgid ""
 "Never capitalize every letter in a word or sentence. Shouting at your users "
 "isn't nice."
 msgstr ""
+"No ponga en mayúsculas todas las letras de una palabra o frase. Gritar a los "
+"usuarios no es adecuado."
 
 #. (itstool) path: item/p
 #: C/typography.page:37
@@ -10229,6 +10337,9 @@ msgid ""
 "can dramatically improve the impression given by your application. The "
 "following Unicode characters are recommended:"
 msgstr ""
+"Unicode proporciona una amplia variedad de caracteres que, usados "
+"correctamente, pueden mejorar drásticamente la impresión ofrecida por su "
+"aplicación. Se recomienda el uso de los siguientes caracteres Unicode:"
 
 #. (itstool) path: td/p
 #: C/typography.page:50
@@ -10269,6 +10380,7 @@ msgstr "“cita”"
 #: C/typography.page:55
 msgid "U+201C LEFT DOUBLE QUOTATION MARK, U+201D RIGHT DOUBLE QUOTATION MARK"
 msgstr ""
+"U+201C MARCA DE CITA DOBLE IZQUIERDA, U+201D MARCA DE CITA DOBLE DERECHA"
 
 #. (itstool) path: td/p
 #: C/typography.page:58
@@ -10288,7 +10400,7 @@ msgstr "4∶20"
 #. (itstool) path: td/p
 #: C/typography.page:58
 msgid "U+2236 RATIO"
-msgstr ""
+msgstr "U+2236 RATIO"
 
 #. (itstool) path: td/p
 #: C/typography.page:61
@@ -10348,7 +10460,7 @@ msgstr "Las preferencias del usuario"
 #. (itstool) path: td/p
 #: C/typography.page:67
 msgid "U+2019 RIGHT SINGLE QUOTATION MARK"
-msgstr ""
+msgstr "U+2019 MARCA DE CITA SIMPLE DERECHA"
 
 #. (itstool) path: td/p
 #: C/typography.page:70
@@ -10422,12 +10534,12 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/view-switchers.page:7
 msgid "Toggle buttons that change the view, like tabs"
-msgstr ""
+msgstr "Pulse los botones para cambiar la vista, como si fueran pestañas"
 
 #. (itstool) path: page/title
 #: C/view-switchers.page:15
 msgid "View switchers"
-msgstr ""
+msgstr "Intercambiadores de vistas"
 
 #. (itstool) path: page/p
 #: C/view-switchers.page:19
@@ -10436,11 +10548,16 @@ msgid ""
 "predefined views. It appears as a set of toggle buttons that are placed in "
 "the center of a header bar."
 msgstr ""
+"Un intercambiador de vistas es un control que permite cambiar entre un "
+"número de vistas predefinido. Aparece como un conjunto de botonoes "
+"conmutables que se colocan en el centro de una barra de cabecera."
 
 #. (itstool) path: section/p
 #: C/view-switchers.page:24
 msgid "There are two primary cases when a view switcher is appropriate:"
 msgstr ""
+"Hay dos casos principales en los que un intercambiador de vistas es "
+"apropiado:"
 
 #. (itstool) path: item/p
 #: C/view-switchers.page:27
@@ -10449,6 +10566,9 @@ msgid ""
 "or sub-sets of content. For example, a music application could show "
 "different views for artists, albums and playlists."
 msgstr ""
+"Al presentar contenido, es útil para poder ver diferentes conjuntos o "
+"subconjuntos de contenido. Por ejemplo, una aplicación de música puede "
+"mostrar diferentes vistas de artistas, álbumes y listas de reproducción."
 
 #. (itstool) path: item/p
 #: C/view-switchers.page:28
@@ -10456,6 +10576,8 @@ msgid ""
 "If your application provides discrete groups of functionality which are "
 "typically used independently."
 msgstr ""
+"Si su aplicación proporciona grupos discretos de funcionalidades que "
+"normalmente se usan de manera independiente."
 
 #. (itstool) path: section/p
 #: C/view-switchers.page:31
@@ -10481,6 +10603,8 @@ msgid ""
 "Buttons in the view switcher widget can indicate when there is activity in a "
 "view."
 msgstr ""
+"Los botones en el widget de intercambiar vistas pueden indicar que hay "
+"actividad en una vista."
 
 #. (itstool) path: item/p
 #: C/view-switchers.page:48
@@ -10669,6 +10793,7 @@ msgstr ""
 #: C/visual-layout.page:46
 msgid "Indent elements by 12 pixels to denote hierarchy and association."
 msgstr ""
+"Sangre los elementos 12 píxeles para resaltar la jerarquía y la asociación."
 
 #. (itstool) path: item/p
 #: C/visual-layout.page:47
@@ -10676,6 +10801,8 @@ msgid ""
 "Avoid using frames with visible borders to separate groups of controls - use "
 "spacing and headers instead."
 msgstr ""
+"Evite usar marcos con bordes visibles para separar grupos de controles: use "
+"el espaciado y las cabeceras en su lugar."
 
 #. (itstool) path: section/p
 #: C/visual-layout.page:50
@@ -10690,7 +10817,7 @@ msgstr "Espaciado y alineación correctos:"
 #. (itstool) path: section/p
 #: C/visual-layout.page:56
 msgid "Correct spacing, with units (pixels):"
-msgstr ""
+msgstr "Espaciado correcto, con unidades (píxeles):"
 
 #. (itstool) path: section/title
 #: C/visual-layout.page:62
@@ -10814,6 +10941,9 @@ msgid ""
 "such as ‘pointer’ and ‘window’. The HIG can be used as a reference in this "
 "regard."
 msgstr ""
+"Use los términos estándar de GNOME para referirse a las partes de la "
+"interfaz del usuario, tales como «puntero» o «ventana». La GIH se puede usar "
+"como una referencia para esto."
 
 #. (itstool) path: item/p
 #: C/writing-style.page:51
@@ -10860,8 +10990,7 @@ msgstr "Todas las palabras de cuatro o más letras."
 #: C/writing-style.page:70
 msgid "Verbs of any length, such as “Be”, “Are”, “Is”, “See” and “Add”."
 msgstr ""
-"Verbos de cualquier longitud, tales como «Ser», «Son», «Es», «Ver» y "
-"«Añadir»."
+"Verbos de cualquier longitud, tales como «Be», «Are», «Is», «See» y «Add»."
 
 #. (itstool) path: item/p
 #: C/writing-style.page:71
@@ -10871,7 +11000,7 @@ msgstr "La primera y la última palabra."
 #. (itstool) path: item/p
 #: C/writing-style.page:72
 msgid "Hyphenated words; for example: “Self-Test” or “Post-Install”."
-msgstr ""
+msgstr "Palabras compuestas; por ejemplo: «Self-Test» o «Post-Install»"
 
 #. (itstool) path: section/p
 #: C/writing-style.page:75
@@ -10879,8 +11008,8 @@ msgid ""
 "For example: “Create a Document”, “Find and Replace”, “Document Cannot Be "
 "Found”."
 msgstr ""
-"Por ejemplo: «Crear un documento», «Buscar y reemplazar», «Documento no "
-"encontrado»."
+"Por ejemplo: «Create a Document», «Find and Replace», «Document Cannot Be "
+"Found»."
 
 #. (itstool) path: section/title
 #: C/writing-style.page:80
@@ -10914,6 +11043,8 @@ msgid ""
 "For example: “The document cannot be found in this location.” “Finding "
 "results for London.”"
 msgstr ""
+"Por ejemplo: «No se pudo encontrar el documento en esta ubicación.» "
+"«Buscando resultados para Londres.»"
 
 #. (itstool) path: section/title
 #: C/writing-style.page:97
@@ -10927,6 +11058,9 @@ msgid ""
 "is required from the user before the action can be carried out. For example, "
 "<gui>Save As…</gui>, <gui>Find…</gui> or <gui>Delete…</gui>."
 msgstr ""
+"Use una elipse (…) al final de una etiqueta si se requerirá una confirmación "
+"o más datos por parte del usuario antes de realizar la acción. Por ejemplo, "
+"<gui>Guardar como…</gui>, <gui>Buscar…</gui> o <gui>Eliminar…</gui>."
 
 #. (itstool) path: section/p
 #: C/writing-style.page:103
@@ -10937,6 +11071,11 @@ msgid ""
 "therefore does not need to communicate that further input or confirmation is "
 "required."
 msgstr ""
+"No añada una elipse a etiquetas como <gui>Propiedades</gui> o "
+"<gui>Preferencias</gui>. Aunque estos comandos abren ventanas que pueden "
+"incorporar funcionalidad adicional, la etiqueta no especifica una acción, y "
+"por lo tanto no necesita comunicar que se requerirá una futura entrada o "
+"confirmación."
 
 #~ msgid "<keyseq><key>Super</key><key/></keyseq>"
 #~ msgstr "<keyseq><key>Súper</key><key/></keyseq>"
