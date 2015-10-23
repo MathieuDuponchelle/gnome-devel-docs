@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2015-09-20 15:43+0300\n"
-"PO-Revision-Date: 2015-10-03 15:26+0300\n"
+"POT-Creation-Date: 2015-10-23 07:30+0000\n"
+"PO-Revision-Date: 2015-10-23 13:51+0300\n"
 "Last-Translator: Tom Tryfonidis <tomtryf@gmail.com>\n"
 "Language-Team: team@lists.gnome.gr\n"
 "Language: el\n"
@@ -11273,7 +11273,6 @@ msgstr "Χρήσιμες μέθοδοι για γραφικό στοιχείο �
 
 #. (itstool) path: section/p
 #: C/entry.py.page:41
-#, fuzzy
 msgid ""
 "In line 14 the signal <code>\"activate\"</code> is connected to the callback function <code>cb_activate()</code> "
 "using <code><var>widget</var>.connect(<var>signal</var>, <var>callback function</var>)</code>. See <link xref="
@@ -18958,6 +18957,12 @@ msgid ""
 "string you want it to be. To be on the safe side, it's best to stick to UTF-8 encoding. The code above will create "
 "a dialog window similar to what can be seen below:"
 msgstr ""
+"Το GtkApplication αρχικοποιεί το GTK+. Συνδέει επίσης του κουμπί <gui>x</gui>, το οποίο δημιουργείται αυτόματα "
+"μαζί με το παράθυρο, με το σήμα\"destroy\". Πλέον μπορούμε να δημιουργήσουμε το πρώτο μας παράθυρο. Αυτό γίνεται "
+"δημιουργώντας μια μεταβλητή με όνομα <var>window</var> και την καταχωρούμε στο gtk_application_window_new. Ο "
+"τίτλος του παραθύρου μπορεί να είναι οποιοδήποτε κείμενο επιθυμείτε. Για να είστε σίγουροι, καλό είναι να "
+"χρησιμοποιήσετε ένα σε κωδικοποίηση UTF-8. Ο παραπάνω κώδικας θα δημιουργήσει ένα παράθυρου διαλόγουμ ίδιο με το "
+"παρακάτω:"
 
 #. (itstool) path: info/title
 #: C/hello-world.js.page:9
@@ -35736,6 +35741,11 @@ msgid ""
 "generate the SQL statement dynamically, and it will be valid for the connection provider used (it will use the "
 "same SQL dialect the provider uses). Let's study the code:"
 msgstr ""
+"Μάθαμε πως να χρησιμοποιούμε τις μεθόδους σύνδεσης GDA <code>execute_select_command</code> και "
+"<code>execute_non_select_command</code> για την εκτέλεση εντολών SQL σε μια βάση δεδομένων. Το GDA σας επιτρέπει "
+"να δημιουργήσετε μια εντολή SQL έμμεσα, χρησιμοποιώντας το αντικείμενο <code>SqlBuilder</code>. Ποια είναι τα "
+"πλεονεκτήματα; Το GDA θα δημιουργήσει δυναμικά μια εντολή SQL, και θα είναι έγκυρη για τον πάροχο σύνδεσης που θα "
+"χρησιμοποιηθεί (θα χρησιμοποιήσει την ίδια σύνταξη SQL που θα ορίσει ο πάροχος). Ας μελετήσουμε τον κώδικα:"
 
 #. (itstool) path: item/p
 #: C/record-collection.js.page:278
@@ -54359,7 +54369,7 @@ msgstr "Γραφικό συστατικό"
 #. (itstool) path: page/p
 #: C/widget_drawing.py.page:23
 msgid "Enter an angle, visualize it."
-msgstr ""
+msgstr "Πληκτρολογήστε μια γωνία και εμφανίστε το."
 
 #. (itstool) path: section/code
 #: C/widget_drawing.py.page:30
@@ -55031,7 +55041,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/custom-gsource.c.page:61
 msgid "A Message Queue Source"
-msgstr ""
+msgstr "Πηγή μιας ουράς μηνύματος"
 
 #. (itstool) path: section/p
 #: C/custom-gsource.c.page:63
@@ -55047,6 +55057,10 @@ msgid ""
 "alternative is transferring each message as a separate idle <code>GSource</code> using <code>g_source_attach()</"
 "code>. For large numbers of messages, this means a lot of allocations and frees of <code>GSource</code>s."
 msgstr ""
+"Αυτός ο τύπος πηγής είναι χρήσιμος για την αποτελεσματική μεταφορά μεγάλου αριθμού μηνυμάτων. Ένας εναλλακτικός "
+"τρόπος είναι η μεταφορά κάθε μηνύματος ως ξεχωριστό <code>GSource</code> χρησιμοποιώντας το "
+"<code>g_source_attach()</code>. Για μεγάλο αριθμό μηνυμάτων, αυτό σημαίνει πως θα υπάρχουν πολλές λειτουργίες "
+"κατανομών και ελευθέρωσης των <code>GSource</code>."
 
 #. (itstool) path: section/title
 #: C/custom-gsource.c.page:78
@@ -55252,6 +55266,10 @@ msgid ""
 "for a source, which allows for sources which are automatically destroyed when an object is finalized — a <em>weak</"
 "em> reference, in contrast to the <em>strong</em> reference above:"
 msgstr ""
+"Ωστόσο, το <code>GSource</code> διαθέτει μια στρώση για τη ήψη της επανάκλησης, ως "
+"<code>g_source_set_callback_indirect()</code>. Αυτό επιτρέπει το GObject να ορίσει ένα <code>GClosure</code> ως "
+"επανάκληση για την πηγή, επιτρέποντας τις πηγές να καταστρέφονται αυτόματα όταν οριστοποιηθεί ένα αντικείμενο — "
+"μια <em>χαλαρή</em> αναφορά, σε αντίθεση με την <em>ισχυρή</em> αναφορά παραπάνω:"
 
 #. (itstool) path: section/code
 #: C/custom-gsource.c.page:197
@@ -55298,6 +55316,9 @@ msgid ""
 "construction function. It is typical practice to expose new source types simply as <code>GSource</code>s, not as "
 "the subtype structure; so the constructor returns a <code>GSource*</code>."
 msgstr ""
+"Τέλος, ο ορισμός του <code>GSourceFuncs</code> για το <code>GSource</code> μπορεί να γραφεί μαζί με μια συνάρτηση "
+"κατασκευαστή. Είναι κοινή πρακτική να παρουσιάζονται οι νέοι τύποι πηγών ως  <code>GSource</code>, αλλά όχι ως "
+"τύπο της δομής, έτσι ώστε ο κατασκευαστής να επιστρέφει το <code>GSource*</code>."
 
 #. (itstool) path: section/p
 #: C/custom-gsource.c.page:222
@@ -55307,6 +55328,10 @@ msgid ""
 "cancellation. (The application code will need to make a pointer to the <code>GCancellable</code> available to its "
 "callback, as a field of the callback’s user data set in <code>g_source_set_callback()</code>)."
 msgstr ""
+"Το παράδειγμα του κατασκευαστή παρουσιάζει τη χρήση μιας θυγατρικής πηγής για την υποστήριξη της λειτουργίας "
+"ακύρωσης. Αν ακυρωθεί το <code>GCancellable</code>, η επανάκλαση της εφαρμογής θα σταλθεί και θα ελέγξει για την "
+"ακύρωση. (Ο κώδικας της εφαρμογής θα πρέπει να δημιουργήσει έναν δείκτη στο <code>GCancellable</code> που θα είναι "
+"διαθέσιμο στην επανάκληση ως ένα πεδίο για τα δεδομένα του χρήστη στο <code>g_source_set_callback()</code>)."
 
 #. (itstool) path: section/code
 #: C/custom-gsource.c.page:230

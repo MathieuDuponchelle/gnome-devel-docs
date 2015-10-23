@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2015-09-20 07:07+0000\n"
-"PO-Revision-Date: 2015-09-20 13:46+0300\n"
+"POT-Creation-Date: 2015-10-23 07:29+0000\n"
+"PO-Revision-Date: 2015-10-23 12:57+0300\n"
 "Last-Translator: Tom Tryfonidis <tomtryf@gmail.com>\n"
 "Language-Team: team@lists.gnome.gr\n"
 "Language: el\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.4\n"
+"X-Generator: Poedit 1.8.5\n"
 "X-Project-Style: gnome\n"
 
 #. (itstool) path: p/link
@@ -27,7 +27,7 @@ msgstr "Άδεια Creative Commons Attribution-Share Alike 4.0 International"
 #. (itstool) path: license/p
 #: C/legal.xml:4
 msgid "This work is licensed under a <_:link-1/>."
-msgstr "Αυτό το έργο έχει αδειοδοτηθεί από την <_:link-1/>."
+msgstr "Το έργο αυτό διανέμεται υπό την <_:link-1/>."
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -42,7 +42,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/action-bars.page:18
+#: C/action-bars.page:17
 msgctxt "_"
 msgid ""
 "external ref='figures/patterns/action-bar.svg' "
@@ -52,12 +52,12 @@ msgstr ""
 "md5='02ad08b5400b1c64273fde96008043f6'"
 
 #. (itstool) path: info/desc
-#: C/action-bars.page:8
+#: C/action-bars.page:7
 msgid "Bottom bar that contains actions"
 msgstr "Η κάτω γραμμή που περιέχει ενέργειες"
 
 #. (itstool) path: credit/name
-#: C/action-bars.page:10 C/application-basics.page:7 C/application-menus.page:9
+#: C/action-bars.page:9 C/application-basics.page:7 C/application-menus.page:9
 #: C/button-menus.page:8 C/buttons.page:8 C/check-boxes.page:8
 #: C/compatibility.page:7 C/design-principles.page:7 C/dialogs.page:9
 #: C/display-compatibility.page:7 C/drop-down-lists.page:8
@@ -76,12 +76,12 @@ msgid "Allan Day"
 msgstr "Allan Day"
 
 #. (itstool) path: page/title
-#: C/action-bars.page:16
+#: C/action-bars.page:15
 msgid "Action bars"
 msgstr "Γραμμές ενεργειών"
 
 #. (itstool) path: page/p
-#: C/action-bars.page:20
+#: C/action-bars.page:19
 msgid ""
 "An action bar is a horizontal container that is placed along the bottom edge of "
 "a window. It is used to present actions for the content that is displayed above."
@@ -91,7 +91,7 @@ msgstr ""
 "για το περιεχόμενο που εμφανίζεται από πάνω."
 
 #. (itstool) path: section/title
-#: C/action-bars.page:23 C/application-menus.page:22 C/button-menus.page:25
+#: C/action-bars.page:22 C/application-menus.page:22 C/button-menus.page:25
 #: C/dialogs.page:36 C/empty-placeholders.page:23 C/grids.page:23
 #: C/header-bar-menus.page:27 C/header-bars.page:29 C/in-app-notifications.page:23
 #: C/info-bars.page:23 C/lists.page:23 C/menu-bars.page:37 C/menus.page:37
@@ -104,7 +104,7 @@ msgid "When to use"
 msgstr "Πότε χρησιμοποιούνται"
 
 #. (itstool) path: section/p
-#: C/action-bars.page:25
+#: C/action-bars.page:24
 msgid ""
 "Use an action bar when content items are primarily displayed for editing or "
 "management. Since they prominently display potential actions, action bars are "
@@ -120,7 +120,7 @@ msgstr ""
 "menus\">μενού γραμμής κεφαλίδων</link>."
 
 #. (itstool) path: section/p
-#: C/action-bars.page:27
+#: C/action-bars.page:26
 msgid ""
 "Action bars can be shown temporarily, when a <link xref=\"selection-mode"
 "\">selection</link> or edit mode is active."
@@ -129,7 +129,7 @@ msgstr ""
 "λειτουργία <link xref=\"selection-mode\">επιλογής</link> ή επεξεργασίας."
 
 #. (itstool) path: section/title
-#: C/action-bars.page:32 C/check-boxes.page:37 C/empty-placeholders.page:34
+#: C/action-bars.page:31 C/check-boxes.page:37 C/empty-placeholders.page:34
 #: C/in-app-notifications.page:34 C/info-bars.page:34 C/overlaid-controls.page:31
 #: C/radio-buttons.page:37 C/sidebar-lists.page:43 C/sliders.page:53
 #: C/writing-style.page:42
@@ -137,7 +137,7 @@ msgid "Guidelines"
 msgstr "Οδηγίες"
 
 #. (itstool) path: item/p
-#: C/action-bars.page:35
+#: C/action-bars.page:34
 msgid ""
 "Group sets of similar functionality together, by aligning them to the left and "
 "right of the action bar, or by using separators. The most commonly used items "
@@ -148,7 +148,7 @@ msgstr ""
 "κοινά χρησιμοποιημένα αντικείμενα πρέπει να τοποθετούνται στα αριστερά."
 
 #. (itstool) path: item/p
-#: C/action-bars.page:36
+#: C/action-bars.page:35
 msgid ""
 "Try to separate potentially destructive actions, and <link xref="
 "\"buttons#suggested-and-destructive\">style them appropriately</link>."
@@ -157,7 +157,7 @@ msgstr ""
 "\"buttons#suggested-and-destructive\">μορφοποιήστε τες κατάλληλα</link>."
 
 #. (itstool) path: section/title
-#: C/action-bars.page:42 C/application-menus.page:70 C/buttons.page:89
+#: C/action-bars.page:41 C/application-menus.page:70 C/buttons.page:89
 #: C/check-boxes.page:59 C/dialogs.page:169 C/grids.page:44
 #: C/header-bar-menus.page:48 C/header-bars.page:72 C/info-bars.page:46
 #: C/lists.page:147 C/menu-bars.page:106 C/menus.page:73 C/notifications.page:105
@@ -170,7 +170,7 @@ msgid "API reference"
 msgstr "Αναφορά API"
 
 #. (itstool) path: item/p
-#: C/action-bars.page:44
+#: C/action-bars.page:43
 msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkActionBar.html"
 "\">GtkActionBar</link>"
@@ -2059,10 +2059,10 @@ msgid ""
 msgstr ""
 "Η ρητή εφαρμογή είναι απαραίτητη μόνο αν οι αλλαγές στον διάλογο πρέπει να "
 "εφαρμοστούν ταυτόχρονα για να έχουν την επιθυμητή συμπεριφορά. Οι διάλογοι "
-"ρητής εφαρμογής περιλαμβάνουν ένα κουμπί <gui>Έτοιμο</gui> και <gui>Άκυρο</gui> "
-"(το <gui>Άκυρο</gui> επαναφέρει όλες τις τιμές του διαλόγου στην κατάσταση πριν "
-"το άνοιγμα και το Έτοιμο εφαρμόζεται σε όλες τις αλλαγές και κλείνει το "
-"παράθυρο)."
+"ρητής εφαρμογής περιλαμβάνουν ένα κουμπί <gui>Ολοκλήρωση</gui> και <gui>Άκυρο</"
+"gui> (το <gui>Άκυρο</gui> επαναφέρει όλες τις τιμές του διαλόγου στην κατάσταση "
+"πριν το άνοιγμα και το Ολοκλήρωση εφαρμόζεται σε όλες τις αλλαγές και κλείνει "
+"το παράθυρο)."
 
 #. (itstool) path: section/title
 #: C/dialogs.page:119
@@ -2563,13 +2563,17 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/empty-placeholders.page:18
+#| msgctxt "_"
+#| msgid ""
+#| "external ref='figures/patterns/empty-placeholder.svg' "
+#| "md5='aca2a26f04c8d0dc035bfd5c83569a4a'"
 msgctxt "_"
 msgid ""
 "external ref='figures/patterns/empty-placeholder.svg' "
-"md5='aca2a26f04c8d0dc035bfd5c83569a4a'"
+"md5='3b31c403544a6600dc89db807726fbcd'"
 msgstr ""
 "external ref='figures/patterns/empty-placeholder.svg' "
-"md5='aca2a26f04c8d0dc035bfd5c83569a4a'"
+"md5='3b31c403544a6600dc89db807726fbcd'"
 
 #. (itstool) path: info/desc
 #: C/empty-placeholders.page:8
@@ -3818,7 +3822,7 @@ msgid ""
 "your application."
 msgstr ""
 "Αν είσαστε προγραμματιστής ή σχεδιαστής, αυτές οι οδηγίες περιέχουν καθετί που "
-"χρειάζεστε για να σχεδιάσετε αποτελεσματικές εφαρμογές χρησιμοποιώντας GTK+. "
+"χρειάζεστε για να σχεδιάσετε αποτελεσματικά εφαρμογές χρησιμοποιώντας GTK+. "
 "Καλύπτουν αρχές σχεδίασης για το GNOME 3, συνηθισμένες οδηγίες όπως πώς να "
 "γράψετε κείμενο και να χρησιμοποιήσετε εικόνες και εικονίδια, καθώς και μια "
 "βιβλιοθήκη υποδειγμάτων σχεδίασης, την οποία μπορείτε να χρησιμοποιήσετε στην "
@@ -3852,10 +3856,10 @@ msgid ""
 "is recommended that you start with the page on design principles and then "
 "browse the patterns, before going on to other material."
 msgstr ""
-"Υποδείγματα και στοιχεία διεπαφής χρήστη σχηματίζουν τον πυρήνα του HIG. Μαζί, "
-"αποτελούν τα δομικά στοιχεία για τη σχεδίαση των εφαρμογών. Αν είσαστε νέος στο "
-"HIG, συνιστάται να αρχίσετε με τη σελίδα σχεδίασης αρχών και έπειτα να "
-"περιηγηθείτε στα υποδείγματα, πριν συνεχίσετε με άλλο υλικό."
+"Τα υποδείγματα και τα στοιχεία διεπαφής χρήστη σχηματίζουν τον πυρήνα του HIG. "
+"Μαζί, αποτελούν τα δομικά στοιχεία για τη σχεδίαση των εφαρμογών. Αν είσαστε "
+"νέος στο HIG, συνιστάται να αρχίσετε με τη σελίδα «Αρχές σχεδιασμού» και έπειτα "
+"να περιηγηθείτε στα υποδείγματα, πριν συνεχίσετε με το υπόλοιπο υλικό."
 
 #. (itstool) path: td/p
 #: C/index.page:28
@@ -3874,7 +3878,7 @@ msgstr "<link xref=\"patterns\"><em style=\"strong\">Υποδείγματα</em>
 #. (itstool) path: td/p
 #: C/index.page:33
 msgid "Essential and optional design components."
-msgstr "Στοιχειώδη και προαιρετικά συστατικά σχεδίασης."
+msgstr "Στοιχειώδη και προαιρετικά συστατικά στοιχεία σχεδίασης."
 
 #. (itstool) path: td/p
 #: C/index.page:36
@@ -4796,7 +4800,6 @@ msgstr "Κλείδωμα"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:185
-#| msgid "<keyseq><key>Super</key><key>A</key></keyseq>"
 msgid "<keyseq><key>Super</key><key>L</key></keyseq>"
 msgstr "<keyseq><key>Super</key><key>L</key></keyseq>"
 
@@ -5305,7 +5308,6 @@ msgstr "<gui>Προεπισκόπηση εκτύπωσης</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:356
-#| msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>S</key></keyseq>"
 msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>P</key></keyseq>"
 msgstr "<keyseq><key>Shift</key><key>Ctrl</key><key>P</key></keyseq>"
 
@@ -5606,7 +5608,7 @@ msgid ""
 "deselection is not usually possible simply by using the cursor keys. Note: Do "
 "not provide <gui>Deselect All</gui> in text entry fields, as "
 "<keyseq><key>Shift</key><key>Ctrl</key><key>hex</key></keyseq> digit is used to "
-"enter unicode characters so its shortcut will not work."
+"enter Unicode characters so its shortcut will not work."
 msgstr ""
 "Αποεπιλέγει όλο το περιεχόμενο στο τρέχον έγγραφο. Δώστε αυτό το στοιχείο μόνο "
 "στις περιπτώσεις που καμιά άλλη μέθοδος αναίρεσης της επιλογής δεν είναι δυνατή "
@@ -8494,8 +8496,8 @@ msgid ""
 "<gui>Close</gui> or <gui>Done</gui> buttons are not usually required in a "
 "popover."
 msgstr ""
-"Τα κουμπιά <gui>Κλείσιμο</gui> ή <gui>Έτοιμο</gui> δεν απαιτούνται συνήθως σε "
-"ένα αναδυόμενο παράθυρο."
+"Τα κουμπιά <gui>Κλείσιμο</gui> ή <gui>Ολοκλήρωση</gui> δεν απαιτούνται συνήθως "
+"σε ένα αναδυόμενο παράθυρο."
 
 #. (itstool) path: section/p
 #: C/popovers.page:57
@@ -11037,8 +11039,8 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/typography.page:43
-msgid "Take advantage of unicode"
-msgstr "Εκμετάλλευση του Unicode"
+msgid "Take advantage of Unicode"
+msgstr "Εκμεταλλευτείτε το Unicode"
 
 #. (itstool) path: section/p
 #: C/typography.page:45
