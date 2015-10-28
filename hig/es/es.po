@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hig.master\n"
 "POT-Creation-Date: 2015-09-24 07:20+0000\n"
-"PO-Revision-Date: 2015-10-22 16:19+0200\n"
+"PO-Revision-Date: 2015-10-28 16:32+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "Language: es\n"
@@ -3765,6 +3765,11 @@ msgid ""
 "the shelf” perspective, with the observer looking directly at the object at "
 "eye level."
 msgstr ""
+"La mayoría de los iconos se pueden usar mejor usando la perspectiva «de "
+"tabla», como si el observador estuviera de pie frente al objeto y mirándolo "
+"ligeramente hacia abajo. La mayoría de los iconos se pueden mostrar "
+"simplemente con una perspectiva «recta» o «en estantería», con el observador "
+"mirando directamente al objeto al nivel de los ojos."
 
 #. (itstool) path: section/title
 #: C/icons-and-artwork.page:128
@@ -6529,6 +6534,11 @@ msgid ""
 "is long, the add button can be placed in a <link xref=\"header-bars\">header "
 "bar</link> or or <link xref=\"action-bars\">action bar</link>."
 msgstr ""
+"Cada fila contiene un botón de eliminar. Si el número de elementos es "
+"pequeño, la fila de la lista final se debe usar como un botón de añadir. "
+"Alternativamente, si la lista es larga, el botón de añadir se puede colocar "
+"en una <link xref=\"header-bars\">barra de cabecera</link> o en una <link "
+"xref=\"action-bars\">barra de acción</link>."
 
 #. (itstool) path: section/title
 #: C/lists.page:68
@@ -7197,6 +7207,11 @@ msgid ""
 "as part of a <link xref=\"button-menus\">button menu</link>. Refer to the "
 "relevant pages for advice on when to use these elements."
 msgstr ""
+"Los menús pueden formar parte de una <link xref=\"menu-bars\">barra de menú</"
+"link>, como menús contextuales (consulte el <link xref=\"selection-mode"
+"\">modo de selección</link>), o como parte de un <link xref=\"button-menus"
+"\">menú de botón</link>. Consulte las páginas relacionadas para obtener "
+"consejos sobre cuándo usar esos elementos."
 
 #. (itstool) path: section/title
 #: C/menus.page:44
@@ -7212,6 +7227,11 @@ msgid ""
 "be used. However, they should be avoided if at all possible, as they are "
 "physically difficult to use."
 msgstr ""
+"Los menús deben contener entre 3 y doce elementos de nivel superior. Si el "
+"menú contiene más de doce elementos, considere si todos los elementos son "
+"necesarios y deben pertenecer al menú. Si no puede reducir el número de "
+"elementos, se deben usar submenús. Sin embargo, estos se deben evitar "
+"siempre que sea posible, ya que son físicamente difíciles de usar."
 
 #. (itstool) path: section/p
 #: C/menus.page:48
@@ -7219,6 +7239,8 @@ msgid ""
 "Submenus should contain between three and six items, and should never "
 "contain other submenus."
 msgstr ""
+"Los submenús deben contener entre tres y seis elementos, y nunca deben "
+"contener otros submenús."
 
 #. (itstool) path: section/p
 #: C/menus.page:50
@@ -7237,6 +7259,11 @@ msgid ""
 "noticeable and easily targetted, so reserve these locations for particularly "
 "important or interesting functionality."
 msgstr ""
+"Ordene los grupos y los elementos de los grupos de manera lógica, bien por "
+"importancia, orden de tareas o frecuencia de uso esperada. Los elementos en "
+"la parte superior o inferior son más fáciles de ver y alcanzar, por lo que "
+"debe reservar esas ubicaciones para funcionalidades particularmente "
+"importantes o interesantes."
 
 #. (itstool) path: item/p
 #: C/menus.page:54
@@ -7244,6 +7271,8 @@ msgid ""
 "Place single-item groups at the top or bottom of the menu, or group them "
 "together with other single items."
 msgstr ""
+"Coloque grupos de un único elemento en la parte superior o inferior del "
+"menú, o agrúpelos junto con otros elementos sueltos."
 
 #. (itstool) path: item/p
 #: C/menus.page:55
@@ -7251,6 +7280,8 @@ msgid ""
 "Do not mix different types of menu item within each group - actions, check "
 "box and radio button items should be kept separate."
 msgstr ""
+"No mezcle diferentes tipos de elementos de menú en cada grupo; las acciones, "
+"casillas y botones de radio se deben mantener separados."
 
 #. (itstool) path: item/p
 #: C/menus.page:64
@@ -7298,6 +7329,12 @@ msgid ""
 "are logical opposites which are obvious to users. Likewise, do not use this "
 "technique for settings - use check boxes or radio buttons instead."
 msgstr ""
+"Dos acciones enlazadas se pueden combinar en un único elemento de menú, "
+"cambiando la etiqueta cuando se selecciona el elemento. Por ejemplo, un "
+"elemento <gui>Reproducir</gui> puede cambiar a <gui>Pausar</gui>. Sin "
+"embargo, use este tipo de elemento sólo cuando las acciones son opuestos "
+"lógicos para el usuario. Del mismo modo, no use esta técnica para la "
+"configuración; use casillas o botones de radio en su lugar."
 
 #. (itstool) path: info/desc
 #: C/notifications.page:8
@@ -7638,6 +7675,8 @@ msgid ""
 "Transient controls that float over content are a common pattern for "
 "applications that show images or video."
 msgstr ""
+"Los controles transitorios que flotan sobre el contenido son un patrón común "
+"para aplicaciones que muestran imágenes o vídeo."
 
 #. (itstool) path: section/p
 #: C/overlaid-controls.page:24
@@ -7647,6 +7686,11 @@ msgid ""
 "to present a clean and distraction-free view on a content item - this is "
 "particularly (although not exclusively) appropriate for images and video."
 msgstr ""
+"Dado que los controles superpuestos se ocultan cuando no se están usando, "
+"ayudan a proporcionar una vista de usuario despejada. Son apropiados cuando "
+"se quiere presentar una vista limpia y libre de distracciones de un elemento "
+"de contenido; esto es especialemente útil (pero no exclusivo) para imágenes "
+"y vídeo."
 
 #. (itstool) path: section/p
 #: C/overlaid-controls.page:26
@@ -7655,6 +7699,10 @@ msgid ""
 "content below. Image editing controls may interfere with the ability to see "
 "their effects, for example. In these cases, controls should not be overlaid."
 msgstr ""
+"Los controles superpuestos pueden no ser apropiados si oscurecen partes "
+"relevantes del contenido que tienen debajo. Los controles de edición de "
+"imágenes pueden interferir con la posibilidad de ver sus efectos, por "
+"ejemplo. En estos casos, los controles no se deben superponer."
 
 #. (itstool) path: item/p
 #: C/overlaid-controls.page:34
@@ -7662,6 +7710,9 @@ msgid ""
 "Follow established conventions for this type of control, such as left/right "
 "browse buttons in image viewers, and player controls at the bottom for video."
 msgstr ""
+"Siga los convenios establecidos para este tipo de control, tales como "
+"botones de exploración izquierda/derecha en visores de imágenes y controles "
+"de reproducción en la parte inferior del vídeo."
 
 #. (itstool) path: item/p
 #: C/overlaid-controls.page:35
@@ -7669,6 +7720,8 @@ msgid ""
 "Controls should be displayed when the pointer is moved over the content, or "
 "when it is tapped (on touch devices)."
 msgstr ""
+"Los controles se deben mostrar cuando se mueva el puntero sobre el "
+"contenido, o cuando se pulse (en dispositivos táctiles)."
 
 #. (itstool) path: item/p
 #: C/overlaid-controls.page:36
@@ -7677,6 +7730,9 @@ msgid ""
 "be free-floating. <link xref=\"action-bars\">Action bars</link> can be "
 "treated as overlaid controls."
 msgstr ""
+"Los controles superpuestos se pueden acoplar al borde inferior del contenido/"
+"ventana, o pueden flotar libremente. Las <link xref=\"action-bars\">barras "
+"de acción</link> se pueden tratar como controles superpuestos."
 
 #. (itstool) path: item/p
 #: C/overlaid-controls.page:37
@@ -7712,6 +7768,12 @@ msgid ""
 "details the appropriate uses of each pattern, and suggests alternatives that "
 "might be applicable."
 msgstr ""
+"Los patrones son los elementos primarios que modelan el diseño de una "
+"aplicación. Algunos patrones, como los menús de la aplicación o las barras "
+"de cabecera son altamente recomendables. Otros son opcionales, y decidir qué "
+"patrones quiere usar forma parte del proceso de diseño. Para ayudarle con "
+"esto, cada página de un patrón detalla los usos específicos de cada patrón, "
+"y sugiere maneras alternativas que se pueden aplicar."
 
 #. (itstool) path: section/title
 #: C/patterns.page:18
@@ -7897,6 +7959,11 @@ msgid ""
 "variety of such devices, including graphics tablets, track balls, track "
 "points and joysticks."
 msgstr ""
+"Un dispositivo apuntador es cualquier dispositivo de entrada que permita la "
+"manipulación de un puntero (normalmente representado por una flecha y, a "
+"menudo, llamado «cursor») en la pantalla. Aunque los ratones y los "
+"«touchpad» son los más comunes, hay una amplia variedad de dispositivos, "
+"incluyendo tabletas gráficas, «track balls», «track points» y «joysticks»."
 
 #. (itstool) path: section/title
 #: C/pointer-and-touch-input.page:27
@@ -7913,6 +7980,13 @@ msgid ""
 "translate to touchscreen input. These guidelines therefore refer to primary "
 "and secondary action, rather than left and right."
 msgstr ""
+"Los ratones y los «touchpad» tienen a menudo dos botones principales. Uno de "
+"ellos actúa como botón primario, y el otro como botón secundario. "
+"Normalmente, el botón izquierdo se usa como botón primario y el botón "
+"derecho se usa como secundario. Sin embargo, este orden os configurable por "
+"el usuario y no se traduce a la entrada de la pantalla táctil. Por lo tanto, "
+"esta guía se refiere al botón primario y al botón secundario en lugar del a "
+"los botones derecho e izquierdo."
 
 #. (itstool) path: section/p
 #: C/pointer-and-touch-input.page:31
@@ -7932,6 +8006,9 @@ msgid ""
 "as being physically more difficult to click, some pointing devices and many "
 "assistive technology devices only support or emulate the primary button."
 msgstr ""
+"No dependa de la entrada de botones secundarios o adicionales. Además de ser "
+"físicamente más difíciles de pulsar, algunos dispositivos apuntadores y "
+"muchas tecnologías de asistencia sólo soportan o emulan el botón primario."
 
 #. (itstool) path: section/p
 #: C/pointer-and-touch-input.page:35
@@ -7971,6 +8048,8 @@ msgid ""
 "Do not require the use of chording (pressing multiple mouse buttons "
 "simultaneously) for any operations."
 msgstr ""
+"No requiera el uso de pulsación simultánea de varios botones del ratón a la "
+"vez para ninguna operación."
 
 #. (itstool) path: item/p
 #: C/pointer-and-touch-input.page:46
@@ -7979,6 +8058,9 @@ msgid ""
 "for any operations, unless you also provide an accessible alternative method "
 "of performing the same action."
 msgstr ""
+"No requiera el uso de varias pulsaciones (triple o cuádruple) para ninguna "
+"operación, a menos que proporcione una alternativa accesible para realizar "
+"la misma acción."
 
 #. (itstool) path: item/p
 #: C/pointer-and-touch-input.page:47
@@ -7988,6 +8070,10 @@ msgid ""
 "dragging and dropping a file in a file manager, or drawing a shape in a "
 "drawing application."
 msgstr ""
+"Permita que todas las operaciones hechas con el ratón se puedan cancelar "
+"antes de completarlas. Pulsar <key>Esc</key> debe cancelar cualquier "
+"operación del ratón en curso, tales como arrastrar y soltar en un gestor de "
+"archivos o dibujar una sombra en una aplicación de dibujo."
 
 #. (itstool) path: item/p
 #: C/pointer-and-touch-input.page:48
@@ -7997,6 +8083,10 @@ msgid ""
 "middle and right buttons, so any text or diagrams that refer to those may be "
 "confusing."
 msgstr ""
+"No se refiera a botones del ratón en particular en su interfaz a menos que "
+"sea absolutamente necesario. No todo el mundo usará el mismo ratón "
+"convencional con botones izquierdo, derecho y central, por lo que el texto o "
+"los diagramas a los que se refiera pueden ser confusos."
 
 #. (itstool) path: section/title
 #: C/pointer-and-touch-input.page:54
@@ -8012,6 +8102,11 @@ msgid ""
 "example, controlling movement in some types of action games, or freehand "
 "painting in an image-editing application."
 msgstr ""
+"Asegúrese de que cada operación de su aplicación se puede hacer con el ratón "
+"y con el teclado. Las únicas excepciones son las acciones donde un control "
+"motor preciso es una parte esencial de la tarea. Por ejemplo, controlar el "
+"movimiento en algunos tipos de juegos de acción o dibujar a mano alzada en "
+"una aplicación de edición de imágenes."
 
 #. (itstool) path: section/p
 #: C/pointer-and-touch-input.page:58
@@ -8146,6 +8241,10 @@ msgid ""
 "easily learn how to use your application with a touch screen. The following "
 "conventions are recommended, where relevant."
 msgstr ""
+"Usar la entrada táctil de manera consistente con otras aplicaciones "
+"permitirá a los usuarios aprender fácilmente cómo usar sus aplicaciones con "
+"una pantalla táctil. Se recomiendan los siguientes convenios, cuando "
+"apliquen."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:120
