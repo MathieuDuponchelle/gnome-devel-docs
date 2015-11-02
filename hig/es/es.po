@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hig.master\n"
 "POT-Creation-Date: 2015-10-28 15:38+0000\n"
-"PO-Revision-Date: 2015-10-29 15:46+0100\n"
+"PO-Revision-Date: 2015-11-02 13:21+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "Language: es\n"
@@ -9476,6 +9476,9 @@ msgid ""
 "Search should be “live” wherever possible - the content view should update "
 "to display search results as they are entered."
 msgstr ""
+"La búsqueda debe ser inmediata siempre que sea posible; la vista del "
+"contenido se debe actualizar para mostrar los resultados de la búsqueda "
+"según se introducen."
 
 #. (itstool) path: item/p
 #: C/search.page:54
@@ -9566,6 +9569,8 @@ msgid ""
 "Selection mode is a design pattern for allow actions to be performed on "
 "items of content. It is typically used in conjunction with lists and grids."
 msgstr ""
+"El modo de selección es un patrón de diseño para permitir realizar acciones "
+"en elementos de contenido. Normalmente se usa junto con listas y rejillas."
 
 #. (itstool) path: page/p
 #: C/selection-mode.page:21
@@ -9574,6 +9579,10 @@ msgid ""
 "an action bar is shown at the bottom of the view. This contains the various "
 "actions that can be performed on selected content items."
 msgstr ""
+"Cuando el modo de selección está activo, las casillas permiten seleccionar "
+"los elementos, y se muestra una barra de acción en la parte inferior de la "
+"vista. Esta contiene las diferentes acciones que se pueden realizar en los "
+"elementos de contenido."
 
 #. (itstool) path: section/p
 #: C/selection-mode.page:26
@@ -9585,6 +9594,7 @@ msgstr "El modo de selección es apropiado cuando:"
 msgid ""
 "It is common to perform actions simultaneously on multiple content items."
 msgstr ""
+"Es habitual realizar acciones a la vez en varios elementos de contenido."
 
 #. (itstool) path: item/p
 #: C/selection-mode.page:30
@@ -9599,6 +9609,8 @@ msgid ""
 "It is helpful for users to be able to perform actions on content items "
 "without opening them."
 msgstr ""
+"Es útil para los usuarios poder realizar acciones en elementos de contenido "
+"sin tener que abrirlos."
 
 #. (itstool) path: section/p
 #: C/selection-mode.page:34
@@ -9710,6 +9722,9 @@ msgid ""
 "than can be accommodated by a standard <link xref=\"view-switchers\">view "
 "switcher</link>."
 msgstr ""
+"Use una lista de barra lateral cuando sea necesario mostrar un gran número "
+"de vistas que se pueden colocar con un <link xref=\"view-switchers"
+"\">intercambiador de vistas</link> estándar."
 
 #. (itstool) path: section/p
 #: C/sidebar-lists.page:30
@@ -9717,6 +9732,8 @@ msgid ""
 "Sidebar lists also provide a possible alternative to browser-style "
 "navigation. They have a number of advantages here:"
 msgstr ""
+"Las listas de barra lateral también proporcionan una alternativa posible a "
+"la navegación de tipo explorador. Aquí tienen varias ventajas:"
 
 #. (itstool) path: item/p
 #: C/sidebar-lists.page:33
@@ -9725,6 +9742,9 @@ msgid ""
 "experience. A sidebar would be inappropriate for browsing videos for this "
 "reason, but is well-suited to contacts."
 msgstr ""
+"Cuando los elementos de contenido son estrechos y no necesitan una "
+"experiencia inmersiva. Una barra lateral puede no ser apropiada para "
+"explorar vídeos por esta razón, pero sí es adecuada para contactos."
 
 #. (itstool) path: item/p
 #: C/sidebar-lists.page:34
@@ -9734,6 +9754,11 @@ msgid ""
 "ability for someone to view one item while simultaneously being aware of "
 "updates to the overall message list."
 msgstr ""
+"Cuando los elementos de contenido son dinámicos. Para aplicaciones de "
+"mensajería, cuando el nuevo elemento de contenido aparece o se actualizan "
+"los antiguos, una lista de barra lateral proporciona la posibilidad de ver "
+"un elemento mientras se está pendiente de las actualizaciones de toda la "
+"lista de mensajes."
 
 #. (itstool) path: item/p
 #: C/sidebar-lists.page:35
@@ -9741,6 +9766,8 @@ msgid ""
 "When it is possible to filter a collection of content, and there are a large "
 "number of filters."
 msgstr ""
+"Cuando es posible filtrar una colección por contenido, y hay un gran número "
+"de filtros."
 
 #. (itstool) path: section/p
 #: C/sidebar-lists.page:38
@@ -9748,6 +9775,8 @@ msgid ""
 "Temporary sidebar lists can also be displayed for particular views in your "
 "application."
 msgstr ""
+"También se pueden mostrar listas de barra lateral temporales, para "
+"determinadas vistas en su aplicación."
 
 #. (itstool) path: item/p
 #: C/sidebar-lists.page:46
@@ -9756,6 +9785,9 @@ msgid ""
 "application. It is often best to place recently updated items at the top of "
 "the list."
 msgstr ""
+"Ordene la lista de acuerdo a qué es más importante para los usuarios de su "
+"aplicación. A menudo, lo mejor es colocar lo actualizado más recientemente "
+"en la parte superior de la lista."
 
 #. (itstool) path: item/p
 #: C/sidebar-lists.page:47
@@ -9772,6 +9804,9 @@ msgid ""
 "However, be careful to ensure that the most important information is not "
 "lost, and work to ensure a clean and attractive appearance."
 msgstr ""
+"Cada fila de la lista puede incluir varias líneas de texto, así como "
+"imágenes. Sin embargo, asegúrese de que la información más importante no se "
+"pierde, y trabaje para asegurar un aspecto limpio y claro."
 
 #. (itstool) path: item/p
 #: C/sidebar-lists.page:58
@@ -9815,6 +9850,10 @@ msgid ""
 "seeking through audio or video, changing a zoom or volume level, or setting "
 "values in image editors."
 msgstr ""
+"Los deslizadores se pueden usar para cambiar un valor, o para navegar por un "
+"elemento de contenido, como vídeo, una canción o incluso documentos. Los "
+"usos más habituales son para vídeo o sonidos, cambiar el nivel de ampliación "
+"o de volumen o establecer valores en editores de imágenes."
 
 #. (itstool) path: section/p
 #: C/sliders.page:41
@@ -10161,6 +10200,8 @@ msgid ""
 "Tabs provide a way to break down a window into a series of views. They come "
 "in two primary forms: fixed and dynamic."
 msgstr ""
+"Las pestañas ofrecen una manera de dividir una ventana en varias vistas. Hay "
+"dos tipos principales: fijas y dinámicas."
 
 #. (itstool) path: page/p
 #: C/tabs.page:34
@@ -10179,6 +10220,9 @@ msgid ""
 "too many controls (or too much information) to be comfortably presented at "
 "once."
 msgstr ""
+"Use pestañas fijas cuando una <link xref=\"dialogs\">ventana de diálogo</"
+"link> contenga muchos controles (o mucha información) para mostrarla de "
+"manera cómoda de una sola vez."
 
 #. (itstool) path: section/p
 #: C/tabs.page:43
@@ -10186,6 +10230,9 @@ msgid ""
 "Dynamic tabs are primarily useful for browser or editor applications, where "
 "a user might want to use several locations or content items simultaneously."
 msgstr ""
+"Las pestañas dinámicas se usan principalmente para navegadores o editores, "
+"donde el usuario puede querer usar varias ubicaciones o elementos de "
+"contenido a la vez."
 
 #. (itstool) path: section/title
 #: C/tabs.page:48
@@ -10199,6 +10246,9 @@ msgid ""
 "or splitting them into multiple rows, you are probably using too many and "
 "should use a list control instead."
 msgstr ""
+"No use muchas pestañas. Si no puede ver todas las pestañas sin desplazarse o "
+"sin dividirlas en varias filas, problablemente ese usando demasiadas y "
+"debería usa una lista en su lugar."
 
 #. (itstool) path: item/p
 #: C/tabs.page:52
@@ -10215,6 +10265,8 @@ msgid ""
 "Do not design tabs such that changing controls on one page affects the "
 "controls on any other page. Users are unlikely to discover such dependencies."
 msgstr ""
+"No diseñe pestañas para cambiar controles que afecten a los controles de "
+"otra pestaña. Los usuarios pueden no descubrir estas dependencias."
 
 #. (itstool) path: item/p
 #: C/tabs.page:54
@@ -10269,6 +10321,11 @@ msgid ""
 "applications where tabs will not always be used - keyboard shortcuts and/or "
 "menu items are sufficient in these cases."
 msgstr ""
+"Si las pestañas son una parte importante de la aplicación, se puede poner un "
+"botón de pestaña nueva en la barra de cabecera o en la de herramientas. No "
+"muestre un botón de pestaña nueva en las aplicaciones en las que nunca se "
+"usan pestañas; en estos casos, los atajos del teclado y/o los elementos del "
+"menú son suficientes."
 
 #. (itstool) path: section/title
 #: C/tabs.page:71
@@ -10465,6 +10522,10 @@ msgid ""
 "inside the text field if caps lock is on. This is typically shown on the "
 "right side of the entry."
 msgstr ""
+"Si el texto que introducir es sensible a mayúsculas y minúsculas, se debe "
+"mostrar un icono de advertencia dentro del campo de texto si las mayúsculas "
+"están activadas. Normalmente esto se muestra en la parte derecha de la "
+"entrada."
 
 #. (itstool) path: item/p
 #: C/text-fields.page:59
@@ -10472,6 +10533,8 @@ msgid ""
 "If it is common for the text field to be cleared, a clear icon button can be "
 "placed inside the field, at the right side."
 msgstr ""
+"Si es habitual que se limpie el campo de texto, se puede poner un botón "
+"dentro del campo, en la parte derecha."
 
 #. (itstool) path: item/p
 #: C/text-fields.page:60
@@ -10951,6 +11014,11 @@ msgid ""
 "with the <link xref=\"patterns\">design patterns</link> before you use this "
 "section."
 msgstr ""
+"Los elementos de la interfaz del usuario son los bloques de construcción "
+"para las interfaces de las aplicaciones. La guía en esta sección están "
+"pensada para ayudarle a obtener los detalles sobre el diseño correcto. Se "
+"recomienda que se familiarice con los <link xref=\"patterns\">patrones de "
+"diseño</link>  antes de usar esta sección."
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -11021,6 +11089,10 @@ msgid ""
 "views. If you have more views, a <link xref=\"sidebar-lists\">sidebar list</"
 "link> might be a more appropriate view switching control."
 msgstr ""
+"Como regla general, un intercambiador de vistas debe contener entre tres y "
+"cinco vistas. Si tiene más vistas, puede ser más apropiado usar una <link "
+"xref=\"sidebar-lists\">lista de barra lateral</link> para controlar el "
+"intercambio de vistas."
 
 #. (itstool) path: section/title
 #: C/view-switchers.page:36
@@ -11471,6 +11543,11 @@ msgid ""
 "sliders, text entry boxes, field labels and combobox labels. It should also "
 "be used for explanatory or body text, such as in dialogs or notifications."
 msgstr ""
+"Las mayúsculas en las frases se deben usar en etiquetas que forman frases o "
+"que se refieren a otro texto, incluyendo etiquetas para casillas, botones de "
+"radio, deslizadores, cajas de entrada de texto, etiquetas de campos y "
+"etiquetas de cajas combinadas. También se deben usar para explicaciones o "
+"texto del cuerpo, como el los diálogos o las notificaciones."
 
 #. (itstool) path: item/p
 #: C/writing-style.page:87
