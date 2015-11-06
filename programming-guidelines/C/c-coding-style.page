@@ -388,40 +388,66 @@ my_function (int argument)
     <title>Conditions</title>
 
     <p>
-      Do not check boolean values for equality.  The rationale is that
-      a ‘true’ value may not be necessarily equal to whatever the
-      <code>TRUE</code> macro uses.  For example:
+      Do not check boolean values for equality.  By using implicit
+      comparisons, the resulting code can be read more like conversational
+      English.  Another rationale is that a ‘true’ value may not be necessarily
+      equal to whatever the <code>TRUE</code> macro uses.  For example:
     </p>
 
     <code style="invalid">
 /* invalid */
-if (condition == TRUE)
-	do_foo ();</code>
+if (found == TRUE)
+	do_foo ();
 
-<code style="valid">
-/* valid */
-if (another_condition)
+/* invalid */
+if (found == FALSE)
 	do_bar ();</code>
 
-        <p>
-          Even if C handles <code>NULL</code> equality like a boolean, be
-          explicit. This makes it easier to port your C code to something like
-          C#, where testing against null explicitly is important:
-        </p>
+    <code style="valid">
+/* valid */
+if (found)
+	do_foo ();
 
-        <code style="valid">
+/* valid */
+if (!found)
+	do_bar ();</code>
+
+    <p>
+      The C language uses the value 0 for many purposes.  As a numeric value,
+      the end of a string, a null pointer and the <code>FALSE</code> boolean.
+      To make the code clearer, you should write code that highlights the
+      specific way 0 is used.  So when reading a comparison, it is possible to
+      know the variable type.  For boolean variables, an implicit comparison is
+      appropriate because it's already a logical expression.  Other variable
+      types are not logical expressions by themselves, so an explicit
+      comparison is better:
+    </p>
+
+    <code style="valid">
 /* valid */
 if (some_pointer == NULL)
 	do_blah ();
 
 /* valid */
-if (something != NULL)
-	do_foo ();</code>
+if (number == 0)
+	do_foo ();
 
-<code style="invalid">
+/* valid */
+if (str != NULL &amp;&amp; *str != '\0')
+	do_bar ();</code>
+
+    <code style="invalid">
 /* invalid */
-if (some_other_pointer)
-	do_blurp ();</code>
+if (!some_pointer)
+	do_blah ();
+
+/* invalid */
+if (!number)
+	do_foo ();
+
+/* invalid */
+if (str &amp;&amp; *str)
+	do_bar ();</code>
   </section>
 
   <section id="functions">
