@@ -42,7 +42,7 @@
         (<link xref="#application-versioning"/>)
       </p></item>
       <item><p>
-        Version numbers should be updated for each release (using pre- and
+        Version numbers should be updated for each release (using release and
         post-release increments). (<link xref="#release-process"/>)
       </p></item>
       <item><p>
@@ -162,14 +162,13 @@ AC_SUBST([LT_VERSION],[0:0:0])</code>
 
     <p>
       The standard process for making a release of a module increments the
-      libtool version (if the module is a library) immediately before release,
-      does the release, then increments the package version number immediately
-      afterwards. This is called pre-release increment for libtool versioning
-      and post-release increment for package versioning.
+      libtool version (if the module is a library) at the time of release, then
+      increments the package version number immediately afterwards (this is
+      called a post-release increment).
     </p>
 
     <p>
-      The use of pre-release increment for libtool versions means that they are
+      Updating the libtool versions at the time of release means that they are
       only incremented once for all ABI changes in a release. The use of
       post-release increment for package versions means the package version
       number is not outdated (still equal to the previous release) during
