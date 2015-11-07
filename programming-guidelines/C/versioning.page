@@ -221,7 +221,11 @@ AC_SUBST([LT_VERSION],[0:0:0])</code>
         <list>
           <item><p>
             If that fails due to other commits having been pushed in the
-            meantime, restart at step 1
+            meantime, run <cmd>git pull</cmd> to merge your commit on the
+            branch followed by a second <cmd>git push</cmd>.  This is an
+            exception to the GNOME guideline to have a linear Git history
+            (<link xref="version-control#use-of-git"/>).  If you prefer to have
+            a linear history, you need to restart at step 1.
           </p></item>
         </list>
       </item>
