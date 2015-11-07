@@ -84,10 +84,10 @@
       without worrying about constantly updating their code to keep up with
       API changes. Typical API stability guarantees mean that code which is
       compiled against one version of a library will run without problems
-      against all future versions of that library with the same minor version
+      against all future versions of that library with the same major version
       number — or similarly that code which runs against a daemon will
       continue to run against all future versions of that daemon with the same
-      minor version number.
+      major version number.
     </p>
 
     <p>
