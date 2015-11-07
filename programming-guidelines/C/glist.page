@@ -61,8 +61,8 @@ for (l = some_list; l != NULL; l = l->next)
   }</code>
 
     <p>
-      Using an incrementing index instead results in an exponential decrease in
-      performance (<em>O(2×N^2)</em> rather than <em>O(N)</em>):
+      Using an incrementing index instead results in a quadratic decrease in
+      performance (<em>O(N^2)</em> rather than <em>O(N)</em>):
     </p>
     <code mime="text/x-csrc" style="invalid">GList *some_list;
 guint i;
