@@ -30,16 +30,12 @@
 
     <list>
       <item><p>
-        Libraries have a libtool version of the form
-        <em>current:revision:age</em>. (<link xref="#library-versioning"/>)
+        Libraries and applications have a package version of the form
+        <em>major.minor.micro</em>. (<link xref="#package-versioning"/>)
       </p></item>
       <item><p>
-        Libraries have a package version of the form <em>major.minor.micro</em>.
-        (<link xref="#library-versioning"/>)
-      </p></item>
-      <item><p>
-        Applications have a package version of the form <em>major.minor</em>.
-        (<link xref="#application-versioning"/>)
+        Libraries additionally have a libtool version of the form
+        <em>current:revision:age</em>. (<link xref="#libtool-versioning"/>)
       </p></item>
       <item><p>
         Version numbers should be updated for each release (using release and
@@ -47,17 +43,56 @@
       </p></item>
       <item><p>
         Package versions should be incremented for feature changes or additions.
-        (<link xref="#library-versioning"/>)
+        (<link xref="#package-versioning"/>)
       </p></item>
       <item><p>
         Libtool versions should be updated for API changes or additions.
-        (<link xref="#library-versioning"/>)
+        (<link xref="#libtool-versioning"/>)
       </p></item>
     </list>
   </synopsis>
 
-  <section id="library-versioning">
-    <title>Library Versioning</title>
+  <section id="package-versioning">
+    <title>Package Versioning</title>
+
+    <p>
+      Both libraries and applications have a package version of the form
+      <em>major.minor.micro</em>.
+    </p>
+
+    <p>
+      The package version number is that passed to
+      <code>AC_INIT()</code>, and the one which is typically known as the
+      project’s version number. For example, the Debian package for a library
+      will use the library’s package version (though may also include the major
+      version number in the package name to allow for
+      <link xref="parallel-installability">parallel installability</link>).
+      Package versions are updated by the following rules:
+    </p>
+    <steps>
+      <item><p>
+        If breaking <link xref="api-stability">API compatibility</link> in a
+        library, or making a large change to an application which affects
+        everything (such as a UI redesign), increment major and set minor and
+        micro to 0.
+      </p></item>
+      <item><p>
+        Otherwise, if changing or adding a feature, or adding any API,
+        increment minor and set micro to 0.
+      </p></item>
+      <item><p>
+        Otherwise (if making a release containing only bug fixes and
+        translation updates), increment micro.
+      </p></item>
+    </steps>
+
+    <p>
+      Note that the minor version number should be updated if any API is added.
+    </p>
+  </section>
+
+  <section id="libtool-versioning">
+    <title>Libtool Versioning</title>
 
     <p>
       Libraries have two version numbers: a libtool version which tracks ABI
@@ -103,58 +138,6 @@ AC_SUBST([LT_VERSION],[0:0:0])</code>
       that version info to libtool:
     </p>
     <code>my_library_la_LDFLAGS = -version-info $(LT_VERSION)</code>
-
-    <p>
-      The package version number for a library is that passed to
-      <code>AC_INIT()</code>, and the one which is typically known as the
-      project’s version number. For example, the Debian package for a library
-      will use the library’s package version (though may also include the major
-      version number in the package name to allow for
-      <link xref="parallel-installability">parallel installability</link>).
-      Package versions have the form ‘major.minor.micro’, and are updated by the
-      following rules:
-    </p>
-    <steps>
-      <item><p>
-        If breaking <link xref="api-stability">API compatibility</link>,
-        increment major and set minor and micro to 0.
-      </p></item>
-      <item><p>
-        Otherwise, if adding a large feature or other big change, or adding any
-        API, increment minor and set micro to 0.
-      </p></item>
-      <item><p>
-        Otherwise (for example, if making a release containing only bug fixes or
-        translation updates), increment micro.
-      </p></item>
-    </steps>
-
-    <p>
-      Note that the minor version number should be updated if any API is added.
-    </p>
-  </section>
-
-  <section id="application-versioning">
-    <title>Application Versioning</title>
-
-    <p>
-      Application versioning is simpler than library versioning: applications
-      only have a package number, and it follows the scheme ‘major.minor’.
-    </p>
-
-    <p>
-      The application package number is updated similarly to the library package
-      number, except the micro version is omitted:
-    </p>
-    <steps>
-      <item><p>
-        If making a large change to the application which affects everything
-        (such as a UI redesign), increment major and set minor to 0.
-      </p></item>
-      <item><p>
-        Otherwise, increment minor.
-      </p></item>
-    </steps>
   </section>
 
   <section id="release-process">
