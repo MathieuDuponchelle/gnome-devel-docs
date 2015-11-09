@@ -50,8 +50,7 @@ valgrind --tool=massif --depth=5  --alloc-fn=g_malloc --alloc-fn=g_realloc --all
             <media type="image" src="figures/massif-before.png"/>
          </figure>
         <p>
-            <link xref="optimization-massif-FIG-output-unoptimized" />
-            shows a typical postscript output from
+            The image above shows a typical postscript output from
             <app>Massif</app>. This is the result you would get from
             playing a single game of <app>Swell Foop</app> (version
             2.8.0) and then quitting. The postscript file will have a
@@ -118,7 +117,7 @@ Called from:
 	    pixbuf data in <app>Swell Foop</app> is determined by the
 	    size of the game's graphics and cannot be easily
 	    reduced. However, the amount of time it spends loaded into
-	    memory can be drastically reduced. <link xref="optimization-massif-FIG-output-optimized" /> shows the <app>Massif</app> analysis of <app>Swell Foop</app> after being altered to dispose of the pixbufs once the images have been loaded into the X server.
+	    memory can be drastically reduced. The image below shows the <app>Massif</app> analysis of <app>Swell Foop</app> after being altered to dispose of the pixbufs once the images have been loaded into the X server.
         </p>
         <figure>
             <title><app>Massif</app> output for the optimized <app>Swell Foop</app> program.</title>
