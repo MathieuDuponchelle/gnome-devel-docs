@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2015-10-23 07:30+0000\n"
-"PO-Revision-Date: 2015-10-23 13:51+0300\n"
+"POT-Creation-Date: 2015-11-10 08:53+0000\n"
+"PO-Revision-Date: 2015-11-10 12:41+0200\n"
 "Last-Translator: Tom Tryfonidis <tomtryf@gmail.com>\n"
 "Language-Team: team@lists.gnome.gr\n"
 "Language: el\n"
@@ -55049,6 +55049,8 @@ msgid ""
 "As a running example, a message queue source will be used which dispatches its callback whenever a message is "
 "enqueued to a queue internal to the source (potentially from another thread)."
 msgstr ""
+"Για παράδειγμα, η πηγή μιας ουράς μηνύματος θα χρησιμοποιηθεί για να σταλθεί η επανάκληση της κάθε φορά που ένα "
+"μήνυμα θα μπει στην ουρά της πηγής (συνήθως από άλλο νήμα)."
 
 #. (itstool) path: section/p
 #: C/custom-gsource.c.page:69
@@ -55152,6 +55154,11 @@ msgid ""
 "time and taken the final message from the queue. Further, if no callback has been set for the <code>GSource</code> "
 "(which is allowed), the message must be destroyed and silently dropped."
 msgstr ""
+"Η συνάρτηση αποστολής είναι το πιο πολύπλοκο κομμάτι. Πρέπει να πάρει ένα μήνυμα από την ουρά και να το περάσει "
+"στην συνάρτηση επανάκλησης του <code>GSource</code>. Δεν είναι απαραίτητο να υπάρχουν μηνύματα στην ουρά: ακόμα "
+"και αν η συνάρτηση προετοιμασίας επιστρέψει αληθές, μια άλλη πηγή μπορεί να έχει δεχτεί το τελικό μήνυμα από την "
+"ουρά. Επίσης, αν δεν είχε οριστεί μια συνάρτηση επανάκλησης για το <code>GSource</code> (το οποίο είναι αποδεκτό), "
+"το μήνυμα πρέπει να καταστραφεί."
 
 #. (itstool) path: section/p
 #: C/custom-gsource.c.page:133
@@ -55161,6 +55168,10 @@ msgid ""
 "<code>TRUE</code> to keep it alive, just as for <code>GSourceFunc</code> — these semantics are the same for all "
 "dispatch function implementations."
 msgstr ""
+"Αν έχει οριστεί ένα μήνυμα και μια επανάκληση, η επανάκληση μπορεί να καλεστεί από το μήνυμα και να επιστρέψει μια "
+"τιμή, όπως η τιμή που επιστρέφεται από την συνάρτηση αποστολής. Αυτό ορίζεται ως <code>FALSE</code> για την "
+"καταστροφή του <code>GSource</code> και <code>TRUE</code> για να παραμείνει ως έχει, όπως και το "
+"<code>GSourceFunc</code> — αυτά παραμένουν τα ίδια για όλες τις υλοποιήσεις μιας συνάρτησης αποστολής."
 
 #. (itstool) path: section/code
 #: C/custom-gsource.c.page:141
