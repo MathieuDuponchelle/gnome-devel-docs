@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hig.master\n"
 "POT-Creation-Date: 2015-10-28 15:38+0000\n"
-"PO-Revision-Date: 2015-11-02 13:21+0100\n"
+"PO-Revision-Date: 2015-11-10 16:52+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "Language: es\n"
@@ -3721,6 +3721,9 @@ msgid ""
 "the colors inverted. For example a camera lens spec/highlight will only work "
 "if lighter than the lens itself."
 msgstr ""
+"Cuando una metáfora recae en el espacio negativo, asegúrese de que "
+"funcionará con los colores invertidos. Por ejemplo, el resaltado de la lente "
+"de una cámara sólo funcionará si es más clara que la lente en sí."
 
 #. (itstool) path: section/title
 #: C/icons-and-artwork.page:107
@@ -8899,6 +8902,8 @@ msgid ""
 "Typical-time: these indicate how much time remains, based on an estimate of "
 "the expected duration."
 msgstr ""
+"Tiempo habitual: indica cuánto tiempo queda, basado en una estimación de la "
+"duración esperada."
 
 #. (itstool) path: item/p
 #: C/progress-bars.page:53
@@ -8906,6 +8911,8 @@ msgid ""
 "Indeterminate: these only indicate that an operation is ongoing, not how "
 "long it will take."
 msgstr ""
+"Indeterminado: sólo indica que la operación está en progreso, pero no cuánto "
+"tiempo tardará."
 
 #. (itstool) path: section/p
 #: C/progress-bars.page:56
@@ -8991,6 +8998,8 @@ msgid ""
 "If a task includes time-remaining and typical-time stages, try to create a "
 "single composite typical-time progress bar."
 msgstr ""
+"Si una tarea incluye tiempo restante y fases de tiempo estimado, intente "
+"crear una composición de tiempo habitual y barra de progreso."
 
 #. (itstool) path: item/p
 #: C/progress-bars.page:82
@@ -9087,6 +9096,9 @@ msgid ""
 "intensive, consider placing a pause and/or cancel button close to the "
 "progress bar."
 msgstr ""
+"Si la operación en curso es potencialmente destructiva o usa muchos "
+"recursos, considere el poner un botón de pausa y/o cancelar junto a la barra "
+"de progreso."
 
 #. (itstool) path: item/p
 #: C/progress-bars.page:121
@@ -9101,6 +9113,8 @@ msgid ""
 "Update time-remaining progress bars when changes occur that will cause the "
 "operation to finish more quickly or more slowly."
 msgstr ""
+"Actualice el tiempo restante de las barras de progreso cuando haya cambios "
+"que hacen que la operación vaya más rápida o más lenta."
 
 #. (itstool) path: item/p
 #: C/progress-bars.page:123
@@ -9219,6 +9233,8 @@ msgid ""
 "A label can be shown next to a spinner if it is helpful to clarify the task "
 "which a spinner relates to."
 msgstr ""
+"Se puede mostrar una etiqueta junto a un botón incremental si es útil para "
+"aclarar la tarea al a que se refiere el botón."
 
 #. (itstool) path: item/p
 #: C/progress-spinners.page:45
@@ -9287,6 +9303,9 @@ msgid ""
 "Clicking a radio button should not affect the values of any other controls. "
 "It may sensitize, insensitize, hide or show other controls, however."
 msgstr ""
+"Pulsar en un botón de radio no debe afectar a los valores de otros "
+"controles. Sin embargo, puede activar, desactivar, ocultar o mostrar otros "
+"controles."
 
 #. (itstool) path: item/p
 #: C/radio-buttons.page:43
@@ -9453,6 +9472,8 @@ msgid ""
 "A search button in the header bar should allow the search bar to be "
 "displayed (the search button should toggle)."
 msgstr ""
+"Un botón de búsqueda en la barra de cabecera debe permitir que es muestre la "
+"barra de búsqueda (el botón de búsqueda debe conmutar)."
 
 #. (itstool) path: section/p
 #: C/search.page:45
@@ -9511,6 +9532,10 @@ msgid ""
 "terminology is one way to do this. Presenting suggestions for similar "
 "matches or related content is another."
 msgstr ""
+"Sea tolerante con los errores en los términos de búsqueda. Encontrar "
+"palabras mal escritas o terminología incorrecta es una manera de hacerlo. "
+"Mostrar sugerencias para coincidencias similares o contenido relacionado es "
+"otra manera."
 
 #. (itstool) path: item/p
 #: C/search.page:65
@@ -9665,6 +9690,9 @@ msgid ""
 "toolbar. Destructive actions, like delete, should be placed away from other "
 "controls."
 msgstr ""
+"Los grupos de acciones se pueden distinguir colocándolas al final de la "
+"barra de herramientas. Las acciones destructivas, como eliminar, se deben "
+"colocar alejadas de otros controles."
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -9714,6 +9742,9 @@ msgid ""
 "\">search</link> and <link xref=\"selection-mode\">selection mode</link> "
 "design patterns."
 msgstr ""
+"Las listas de barra lateral se puede usar junto con los patrones de diseño "
+"de <link xref=\"search\">buscar</link> y de <link xref=\"selection-mode"
+"\">modo de selección</link>."
 
 #. (itstool) path: section/p
 #: C/sidebar-lists.page:28
@@ -9796,6 +9827,10 @@ msgid ""
 "the list pane section of the header bar. Controls for search and selection "
 "should be found above the list."
 msgstr ""
+"Los controles de la barra de cabecera que afectan a la lista de barra "
+"lateral se deben colocar en la sección del panel de la lista de la barra de "
+"cabecera. Los controles para buscar y seleccionar deben estar encima de la "
+"lista."
 
 #. (itstool) path: item/p
 #: C/sidebar-lists.page:48
@@ -10165,6 +10200,11 @@ msgid ""
 "Location</gui> or <gui>Notifications</gui> are examples of good switch "
 "labels."
 msgstr ""
+"Las etiquetas de los interruptores se deben escribir usando <link xref="
+"\"writing-style#capitalization\">mayúsculas en las cabeceras</link>. El "
+"nombre de la función afectada por el interruptor se debe usar como la "
+"etiqueta. <gui>Ubicación automática</gui> o <gui>Notificaciones</gui> son "
+"ejemplos de buenas etiquetas de interruptores."
 
 #. (itstool) path: item/p
 #: C/switches.page:46
@@ -10212,6 +10252,12 @@ msgid ""
 "primarily used within <link xref=\"primary-windows\">primary windows</link>, "
 "as a part of editor or browser applications."
 msgstr ""
+"Las pestañas fijas proporcionan un conjunto inmutable de vistas "
+"predefinidas, y se usan principalmente en ventanas de diálogo. Las pestañas "
+"dinámicas permite que una ventana contenga una selección modificable de "
+"elementos de contenido, tales como páginas, documentos o imágenes. Estas se "
+"usan principalmente en las <link xref=\"primary-windows\">ventanas "
+"primarias</link>, como parte de editores o de aplicaciones de exploración."
 
 #. (itstool) path: section/p
 #: C/tabs.page:41
@@ -10258,6 +10304,10 @@ msgid ""
 "<gui>Font</gui> or <gui>Alignment</gui>. Try to give tab labels a similar "
 "length."
 msgstr ""
+"Etiquete las pestañas usando <link xref=\"writing-style#capitalization"
+"\">mayúsculas en las cabeceras</link>, y use nombres en lugar de verbos, por "
+"ejemplo <gui>Tipografía</gui> oo <gui>Alineación</gui>. Intente asignar "
+"etiquetas a las pestañas de una longitud similar."
 
 #. (itstool) path: item/p
 #: C/tabs.page:53
@@ -10282,6 +10332,10 @@ msgid ""
 "harder to scan visually, and limits the number of tabs you can display "
 "without scrolling."
 msgstr ""
+"Con pestañas fijas, haga que la anchura de cada pestaña sea proporcional a "
+"la anchura de su etiqueta. No establezca la misma anchura para todas las "
+"pestañas, ya que esto hace que sean más difíciles de analizar visualmente, y "
+"limita el número de pestañas que puede mostrar sin desplazarse."
 
 #. (itstool) path: section/title
 #: C/tabs.page:61
@@ -10295,6 +10349,10 @@ msgid ""
 "concise, and that the most useful part of the label is displayed first. This "
 "ensures that the label continues to be useful even when ellipsized."
 msgstr ""
+"A menudo, las pestañas ofrecen una anchura restringida, por lo que debe "
+"asegurarse de que sus etiquetas son cortas y concisas, y que la mayor parte "
+"útil de la etiqueta es muestra primero. Esto asegura que la etiqueta sigue "
+"siendo útil incluso cuando se recorta."
 
 #. (itstool) path: item/p
 #: C/tabs.page:65
@@ -10312,6 +10370,10 @@ msgid ""
 "for manipulating the tab itself, such as <gui>Move Left</gui>, <gui>Move "
 "Right</gui>, <gui>Move to New Window</gui>, and <gui>Close</gui>."
 msgstr ""
+"Proporcione un menú contextual en cada pestaña. Este menú sólo debe incluir "
+"acciones para manipular la pestaña en sí, tales como <gui>Mover a la "
+"izquierda</gui>, <gui>Mover a la derecha</gui>, <gui>Mover a una ventana "
+"nueva</gui>, y <gui>Cerrar</gui>."
 
 #. (itstool) path: item/p
 #: C/tabs.page:67
@@ -10465,6 +10527,11 @@ msgid ""
 "a tab character. Pressing <keyseq><key>Ctrl</key><key>Tab</key></keyseq> in "
 "a multi-line entry field should move focus to the next control."
 msgstr ""
+"Normalmente, al pulsar <key>Tab</key> en un campo de entrada de una sola "
+"línea se debería mover el foco al siguiente control, y el un campo de "
+"entrada de varias líneas debe insertar un carácter tabulador. Pulsar "
+"<keyseq><key>Ctrl</key><key>Tab</key></keyseq> un campo de entrada de varias "
+"líneas debe mover el foco al siguiente control."
 
 #. (itstool) path: item/p
 #: C/text-fields.page:44
@@ -11428,7 +11495,6 @@ msgstr "No reduzca su texto hasta el punto de perder significado"
 
 #. (itstool) path: item/p
 #: C/writing-style.page:49
-#, fuzzy
 msgid ""
 "Use words, phrases, and concepts that are familiar to the people who will be "
 "using your application, rather than terms from the underlying system. This "
@@ -11437,14 +11503,14 @@ msgid ""
 "information is called a “chart”. Hence, a medical application might refer to "
 "a patient record as a “chart” rather than as a “patient database record”."
 msgstr ""
-"Use siempre palabras, frases y conceptos que sean familiares para el usuario "
-"en lugar de términos del sistema subyacente. Use términos relacionados con "
-"el conocimiento del usuario sobre las tareas que soporta su aplicación. Por "
-"ejemplo, en medicina, a la carpeta que contiene toda la información sobre un "
-"paciente específico se le llama «historial». Por tanto, una aplicación "
-"médica podría referirse al registro de un paciente que contiene la misma "
-"información que un historial como «historial del paciente» en lugar de "
-"«registro del paciente de la base de datos»."
+"Use palabras, frases y conceptos que sean familiares a la gente que usará su "
+"aplicación, en lugar de términos del sistema subyacente. Use términos "
+"relacionados con las tareas que soporta su aplicación. Por ejemplo, en "
+"medicina, a la carpeta que contiene toda la información sobre un paciente "
+"específico se le llama «historial». Por tanto, una aplicación médica podría "
+"referirse al registro de un paciente que contiene la misma información que "
+"un historial como «historial del paciente» en lugar de «registro del "
+"paciente de la base de datos»."
 
 #. (itstool) path: item/p
 #: C/writing-style.page:50
