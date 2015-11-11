@@ -215,7 +215,7 @@ gtk_get_flow (GtkWidget *widget)
     <p>
       Keep in mind that in order to include a function, macro,
       function type, or struct type, it needs to be listed in your
-      documentation's modulename-sections.txt file.
+      documentation’s modulename-sections.txt file.
     </p>
 
     <p>

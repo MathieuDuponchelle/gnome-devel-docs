@@ -60,7 +60,7 @@
     <list>
       <item><p>
         No forced pushes. Except for branches with the <code>wip/</code> prefix
-        (work-in-progress), the commits' history must not be modified, as
+        (work-in-progress), the commits’ history must not be modified, as
         contributors rely on it.
       </p></item>
       <item><p>

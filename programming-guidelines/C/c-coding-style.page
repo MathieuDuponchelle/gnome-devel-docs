@@ -418,7 +418,7 @@ if (!found)
       To make the code clearer, you should write code that highlights the
       specific way 0 is used.  So when reading a comparison, it is possible to
       know the variable type.  For boolean variables, an implicit comparison is
-      appropriate because it's already a logical expression.  Other variable
+      appropriate because it’s already a logical expression.  Other variable
       types are not logical expressions by themselves, so an explicit
       comparison is better:
     </p>

@@ -46,14 +46,14 @@
       means the C headers of a library form its API, and compiled library
       symbols its ABI. The difference between an API and ABI is given by
       compilation of the code: there are certain things in a C header, such as
-      <code>#define</code>s, which can cause a library's API to change without
+      <code>#define</code>s, which can cause a library’s API to change without
       changing its ABI. But these differences are mostly academic, and for all
       practical purposes, API and ABI can be treated interchangeably.
     </p>
 
     <p>
       Examples of API-incompatible changes to a C function would be to add a
-      new parameter, change the function's return type, or remove a parameter.
+      new parameter, change the function’s return type, or remove a parameter.
     </p>
 
     <p>
