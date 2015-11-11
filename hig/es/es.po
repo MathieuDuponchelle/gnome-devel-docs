@@ -15,8 +15,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: hig.master\n"
-"POT-Creation-Date: 2015-10-28 15:38+0000\n"
-"PO-Revision-Date: 2015-11-10 16:52+0100\n"
+"POT-Creation-Date: 2015-11-11 08:50+0000\n"
+"PO-Revision-Date: 2015-11-11 16:27+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "Language: es\n"
@@ -2608,10 +2608,6 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/empty-placeholders.page:18
-#| msgctxt "_"
-#| msgid ""
-#| "external ref='figures/patterns/empty-placeholder.svg' "
-#| "md5='aca2a26f04c8d0dc035bfd5c83569a4a'"
 msgctxt "_"
 msgid ""
 "external ref='figures/patterns/empty-placeholder.svg' "
@@ -3693,7 +3689,6 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/icons-and-artwork.page:99
-#, fuzzy
 msgid ""
 "Filled shapes are generally faster to process by the human visual system "
 "than wireframe outlines."
@@ -5665,14 +5660,6 @@ msgstr "<keyseq><key>Mayús</key><key>Ctrl</key><key>A</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:446
-#| msgid ""
-#| "Deselects all content in the current document. Only provide this item in "
-#| "situations when no other method of undoing selection is possible or "
-#| "apparent to the user. For example, in complex graphics applications where "
-#| "selection and deselection is not usually possible simply by using the "
-#| "cursor keys. Note: Do not provide <gui>Deselect All</gui> in text entry "
-#| "fields, as <keyseq><key>Shift</key><key>Ctrl</key><key>hex</key></keyseq> "
-#| "digit is used to enter unicode characters so its shortcut will not work."
 msgid ""
 "Deselects all content in the current document. Only provide this item in "
 "situations when no other method of undoing selection is possible or apparent "
@@ -8683,6 +8670,10 @@ msgid ""
 "link> or browser-style navigation. However, multiple windows do offer "
 "additional capabilities, which include:"
 msgstr ""
+"Las aplicaciones con una o varias instancias permiten abrir varios elementos "
+"de contenido, bien mediante el uso de <link xref=\"tabs\">pestañas</link> o "
+"con un estilo de navegación tipo navegador. Sin embargo, las ventanas "
+"múltiples ofrecen opciones adicionales, entre las que se incluyen:"
 
 #. (itstool) path: item/p
 #: C/primary-windows.page:48
@@ -8713,6 +8704,9 @@ msgid ""
 "the case multiple web browser windows, for example). However, this is not "
 "always the case."
 msgstr ""
+"Las aplicaciones con varias instancias normalmente tienen ventanas primarias "
+"idénticas (en el caso de varias ventanas del navegador web, por ejemplo). "
+"Sin embargo, esto no es siempre así."
 
 #. (itstool) path: section/p
 #: C/primary-windows.page:58
@@ -8723,6 +8717,11 @@ msgid ""
 "a separate child window. This allows multiple content items to be "
 "simultaneously open."
 msgstr ""
+"Las ventanas primarias pueden tener una relación padre/hijo. En este tipo de "
+"aplicaciones, sólo hay una ventana padre, que normalmente contiene una vista "
+"general de los elementos de contenido que se pueden abrir en la ventana "
+"padre o en una ventana hija aparte. Esto permite abrir a la vez varios "
+"elementos de contenido."
 
 #. (itstool) path: section/p
 #: C/primary-windows.page:60
@@ -8731,6 +8730,9 @@ msgid ""
 "dependent on them in order to stay open: closing the parent window does not "
 "result in the closure of the application's child windows."
 msgstr ""
+"Aunque las ventanas hijas sólo se puede abrir mediante una ventana padre, no "
+"dependen de ella para permanecer abiertas: cerrar la ventana padre no cierra "
+"necesariamente las ventanas hijas de la aplicación."
 
 #. (itstool) path: section/p
 #: C/primary-windows.page:62
@@ -8784,6 +8786,8 @@ msgid ""
 "Dialog windows should always be dependent on a primary window. See the <link "
 "xref=\"dialogs\">dialogs page</link> guidelines."
 msgstr ""
+"Las ventanas de diálogo deben depender siempre de una ventana padre. "
+"Consulte la guía de <link xref=\"dialogs\">páginas de diálogos</link>."
 
 #. (itstool) path: item/p
 #: C/primary-windows.page:78
@@ -8802,6 +8806,10 @@ msgid ""
 "careful to ensure that they follow the advice on minimum display sizes, "
 "display orientation, and half-screen snap."
 msgstr ""
+"La guía de <link xref=\"display-compatibility\">compatibilidad de la "
+"pantalla</link> es especialmente relevante para las ventanas primarias: "
+"asegúrese de que sigue los consejos sobre tamaños mínimos de pantallas, "
+"orientación y ajuste a media pantalla."
 
 #. (itstool) path: item/p
 #: C/primary-windows.page:80
@@ -8860,6 +8868,8 @@ msgid ""
 "Progress bars indicate that a task is being carried out, along with how much "
 "progress has been made through the task."
 msgstr ""
+"Las barras de progreso indican que se está realizando una tarea, junto con "
+"el progreso que se ha hecho en la misma."
 
 #. (itstool) path: section/p
 #: C/progress-bars.page:39
@@ -8868,6 +8878,9 @@ msgid ""
 "an operation takes more than around three seconds. This ensures that users "
 "understand that they have to wait, and that an error has not occurred."
 msgstr ""
+"Normalmente es necesario indicar que el progreso se está realizando cuando "
+"una operación tarda más de tres segundos. Esto asegura que el usuario "
+"entiende que tiene que esperar, y que no ha ocurrido ningún error."
 
 #. (itstool) path: section/p
 #: C/progress-bars.page:41
@@ -8934,6 +8947,9 @@ msgid ""
 "an idea of how much of the task has been completed. When deciding on "
 "progress text:"
 msgstr ""
+"Cada barra de progreso incluye un texto descriptivo. Este texto debe "
+"proporcionar una idea sobre cuánto queda para terminar la tarea. Al elegir "
+"el texto de la barra de progreso:"
 
 #. (itstool) path: item/p
 #: C/progress-bars.page:66
@@ -8969,6 +8985,8 @@ msgid ""
 "If the time remaining is an estimate, use the word <gui>about</gui>. For "
 "example: <gui>About 3 minutes left</gui>."
 msgstr ""
+"Si el tiempo restante es estimado, use la palabra <gui>about</gui>. Por "
+"ejemplo: <gui>About 3 minutes left</gui>."
 
 #. (itstool) path: section/title
 #: C/progress-bars.page:75
@@ -8983,6 +9001,10 @@ msgid ""
 "the time remaining for part of a task, but not another part, for example. In "
 "these situations:"
 msgstr ""
+"Algunas tareas pueden componerse de una serie de fases, cada una de las "
+"cuales tiene diferentes opciones para estimar el tiempo. Puede ser posible "
+"estimar el tiempo restante para una parte de la tarea, pero no para otra "
+"parte, por ejemplo. En estas situaciones:"
 
 #. (itstool) path: item/p
 #: C/progress-bars.page:80
@@ -8991,6 +9013,9 @@ msgid ""
 "user. Generally speaking, this will not be required, and it is not necessary "
 "or desirable to communicate separate stages in a task."
 msgstr ""
+"Comunique sólo las diferentes fases de una tarea cuando sean relevantes para "
+"el usuario. En general, eso no es necesario, y tampoco es deseable informar "
+"de las diferentes fases de una tareas."
 
 #. (itstool) path: item/p
 #: C/progress-bars.page:81
@@ -9010,6 +9035,12 @@ msgid ""
 "attempt to keep the number of progress bar mode changes to an absolute "
 "minimum. Avoid indeterminate progress wherever possible."
 msgstr ""
+"Si una tarea incluye una fase de progreso indeterminado, la barra de "
+"progreso puede mostrar una parte indeterminada para parte de la tarea. Sin "
+"embargo, debe evitar mostrar barras de progreso indeterminadas durante "
+"largos períodos de tiempo, y debe intentar mantener el número de cambios de "
+"modo de las barras de progreso en un mínimo absoluto. Evite las barras de "
+"progreso indeterminadas siempre que sea posible."
 
 #. (itstool) path: section/title
 #: C/progress-bars.page:88
@@ -9024,6 +9055,10 @@ msgid ""
 "bar which indicates composite progress for the overall task. However, there "
 "are some situations where this might not be the case:"
 msgstr ""
+"Si una tarea se compone de varias subtareas (como descargar varios archivos "
+"a la vez), generalmente es recomendable mostrar una una única barra de "
+"progreso que indica el progreso total de todas las tareas. Sin embargo, ha "
+"algunas situaciones en las que este puede no ser el caso:"
 
 #. (itstool) path: item/p
 #: C/progress-bars.page:93
@@ -9032,6 +9067,9 @@ msgid ""
 "individual sub-task. (As an alternative, completion of each sub-task can be "
 "indicated with progress text.)"
 msgstr ""
+"Si es especialmente útil para el usuario conocer el progreso individual de "
+"cada subtarea. (Como alternativa, el completado de cada subtarea se puede "
+"indicar con un texto de progreso)."
 
 #. (itstool) path: item/p
 #: C/progress-bars.page:94
@@ -9039,6 +9077,8 @@ msgid ""
 "If it might be necessary to pause or stop a sub-task (see the <link xref="
 "\"#general-guidelines\">general guidelines</link> on this, below)."
 msgstr ""
+"Si puede ser necesario pausar o detener una subtarea (consulte la <link xref="
+"\"#general-guidelines\">guía general</link> sobre esto, más abajo)."
 
 #. (itstool) path: item/p
 #: C/progress-bars.page:95
@@ -9046,6 +9086,9 @@ msgid ""
 "If sub-tasks are already indicated in your application's user interface. In "
 "this case, it can be less disruptive to show a progress for each item inline."
 msgstr ""
+"Si las subtareas ya están indicadas en la interfaz de usuario de su "
+"aplicación. En este caso, puede ser menos invasivo mostrar una barra de "
+"progreso para cada elemento en línea."
 
 #. (itstool) path: section/p
 #: C/progress-bars.page:98
@@ -9058,6 +9101,8 @@ msgid ""
 "Each sub-task should conform to the usage guidelines for progress bars (see "
 "<link xref=\"#when-to-use\">when to use</link>, above)."
 msgstr ""
+"Cada subtarea debe cumplir las guís de uso de barras de progreso (consulte "
+"la sección <link xref=\"#when-to-use\">cuándo usar</link>, más arriba)."
 
 #. (itstool) path: item/p
 #: C/progress-bars.page:102
@@ -9065,6 +9110,8 @@ msgid ""
 "Generally speaking, it is not necessary to show a progress bar for overall "
 "progress through the set of tasks."
 msgstr ""
+"En general, no es necesario mostrar una barra de progreso para el progreso "
+"global a través de todas las subtareas."
 
 #. (itstool) path: section/title
 #: C/progress-bars.page:108
@@ -9088,6 +9135,9 @@ msgid ""
 "close visual relationship with the content items or controls which represent "
 "the ongoing task."
 msgstr ""
+"Cuando sea posible, las barras de progreso se deben mostrar en línea, y "
+"deben tener una relación visual cercana con los elementos de contenido o los "
+"controles que representan la tarea en curso."
 
 #. (itstool) path: item/p
 #: C/progress-bars.page:120
@@ -9162,6 +9212,10 @@ msgid ""
 "progress is taking place, and do not display the proportion of the task that "
 "has been completed."
 msgstr ""
+"Los indicadores de progreso son un elemento común de la interfaz de usuario "
+"para indicar el progreso de una tarea. A diferencia de las barras de "
+"progreso, sólo indican el progreso que tiene lugar, y no muestran la "
+"proporción de la tarea que se ha completado."
 
 #. (itstool) path: section/p
 #: C/progress-spinners.page:27
@@ -9171,6 +9225,10 @@ msgid ""
 "really taking place. Otherwise, a user will be left in doubt whether an "
 "error has occurred."
 msgstr ""
+"Generalmente se necesita un indicador de progreso cuando una operación tarda "
+"más de tres segundos, y es necesario indicar que la operación se está "
+"realizando. De otro modo, el usuario puede dudar de si ha ocurrido un error "
+"o no."
 
 #. (itstool) path: section/p
 #: C/progress-spinners.page:29
@@ -9209,6 +9267,9 @@ msgid ""
 "progress spinner after three seconds have elapsed. A progress indication is "
 "not needed for lengths of time below this."
 msgstr ""
+"Si una operación puede variar el tiempo que tarda, use una cuenta atrás para "
+"mostrar un indicador de progreso sólo cuando hayan pasado los tres segundos. "
+"Este indicador no es necesario para tiempos por debajo de este valor."
 
 #. (itstool) path: item/p
 #: C/progress-spinners.page:42
@@ -9280,6 +9341,10 @@ msgid ""
 "options. Only one radio button within a group may be set at any one time. As "
 "with check boxes, do not use radio buttons to initiate actions."
 msgstr ""
+"Los botones de radio se usan en grupos para seleccionar de entre un conjunto "
+"de opciones mutuamente excluyentes. Sólo se puede activar un botón de radio "
+"en un grupo cada vez. Al igual que con las casillas, no use los botones de "
+"radio para iniciar acciones."
 
 #. (itstool) path: item/p
 #: C/radio-buttons.page:40
@@ -9288,6 +9353,9 @@ msgid ""
 "button on its own. To represent a single setting, use a check box or two "
 "radio buttons, one for each state."
 msgstr ""
+"Use botones de radio sólo en grupos de al menos dos botones, nunca use uno "
+"solo como tal. Para representar una única opcion, use una casilla o dos "
+"botones de radio, uno para cada estado."
 
 #. (itstool) path: item/p
 #: C/radio-buttons.page:41
@@ -9345,6 +9413,9 @@ msgid ""
 "instead— but you probably also need to think about how to simplify your user "
 "interface."
 msgstr ""
+"No ponga más de ocho botones de radio en el mismo grupo. Si necesita más de "
+"ocho, considere usar una lista de selección única en su lugar, pero "
+"probablemente necesite pensar en cómo simplificar su interfaz de usuario."
 
 #. (itstool) path: item/p
 #: C/radio-buttons.page:47
@@ -9407,6 +9478,10 @@ msgid ""
 "actual content items, such as documents, contacts or videos, or a list of "
 "options."
 msgstr ""
+"Proporcione una búsqueda siempre que se muestre una gran cantidad de "
+"contenido, y cuando los elementos de contenido tenga un componente de texto. "
+"Esto puede ser una colección de elementos de contenido actuales, tales como "
+"documentos, contactos o vídeos, o una lista de opciones."
 
 #. (itstool) path: section/p
 #: C/search.page:26
@@ -9675,6 +9750,10 @@ msgid ""
 "in this case the relevant controls should only be sensitive when multiple "
 "items are selected."
 msgstr ""
+"Los controles en la barra de acción deben no ser sensibles cuando no haya "
+"elementos seleccionados. Algunas veces, las acciones sólo se aplican a "
+"varios elementos de contenido; en este caso, los controles relevantes sólo "
+"deben ser sensibles cuando se seleccionen varios elementos."
 
 #. (itstool) path: item/p
 #: C/selection-mode.page:50
@@ -9726,6 +9805,11 @@ msgid ""
 "controls. The sidebar divides the window in two, with content being shown on "
 "the opposite pane to the sidebar."
 msgstr ""
+"Una lista en barra lateral permite cambiar entre diferentes vistas. Estas "
+"vistas pueden contener grupos de elementos de contenido, elementos de "
+"contenido único o conjuntos de controles. La barra lateral divide la ventana "
+"en dos, con contenido que se empieza a mostrar en el panel opuesto a la "
+"barra lateral."
 
 #. (itstool) path: page/p
 #: C/sidebar-lists.page:21
@@ -9734,6 +9818,9 @@ msgid ""
 "or an element that is shown on demand. They can also be used in dialog "
 "windows."
 msgstr ""
+"Las listas en barras laterales se pueden usar en ventanas primarias, como un "
+"elemento fijo o como un elemento que se muestra bajo demanda. También se "
+"pueden usar en ventanas de diálogo."
 
 #. (itstool) path: page/p
 #: C/sidebar-lists.page:23
@@ -10891,7 +10978,6 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/typography.page:43
-#| msgid "Take advantage of unicode"
 msgid "Take advantage of Unicode"
 msgstr "Aprovechar las ventajas de Unicode"
 
