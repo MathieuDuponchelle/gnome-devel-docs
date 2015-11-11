@@ -215,14 +215,15 @@ gtk_get_flow (GtkWidget *widget)
     <p>
       Keep in mind that in order to include a function, macro,
       function type, or struct type, it needs to be listed in your
-      documentation’s modulename-sections.txt file.
+      documentation’s <file>modulename-sections.txt</file> file.
     </p>
 
     <p>
       To properly document a new class, it needs to be given its own
-      section in modulename-sections.txt, needs to be included in your
-      toplevel modulename-docs.sgml, and the get_type() function for
-      your class needs to listed in your modulename.types.
+      section in <file>modulename-sections.txt</file>, needs to be
+      included in your toplevel <file>modulename-docs.sgml</file>,
+      and the <code>get_type()</code> function for your class needs
+      to be listed in your <file>modulename.types</file>.
     </p>
   </section>
 
