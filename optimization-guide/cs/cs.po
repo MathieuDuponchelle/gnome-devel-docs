@@ -1,14 +1,13 @@
 # Czech translation for gnome-devel-docs.
 # Copyright (C) 2010 gnome-devel-docs's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-devel-docs package.
-#
 # Marek Černocký <marek@manet.cz>, 2010, 2011, 2013, 2014, 2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2015-10-18 07:26+0000\n"
-"PO-Revision-Date: 2015-10-18 11:53+0200\n"
+"POT-Creation-Date: 2015-11-12 08:51+0000\n"
+"PO-Revision-Date: 2015-11-12 16:32+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -16,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Gtranslator 2.91.6\n"
+"X-Generator: Gtranslator 2.91.7\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -205,7 +204,7 @@ msgstr "Úvod"
 #. (itstool) path: section/p
 #: C/index.page:39
 msgid ""
-"This is a brief introduction to optimization, both the hows and thewhys. "
+"This is a brief introduction to optimization, both the hows and the whys. "
 "Details of individual tools and techniques are left for later articles, but "
 "a collection of hints and tricks is provided."
 msgstr ""
@@ -693,7 +692,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/massif.page:125
+#: C/massif.page:124
 msgctxt "_"
 msgid ""
 "external ref='figures/massif-after.png' "
@@ -873,30 +872,30 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/massif.page:52
 msgid ""
-"<link xref=\"optimization-massif-FIG-output-unoptimized\"/> shows a typical "
-"postscript output from <app>Massif</app>. This is the result you would get "
-"from playing a single game of <app>Swell Foop</app> (version 2.8.0) and then "
-"quitting. The postscript file will have a name like <file>massif.12345.ps</"
-"file> and the text file will be called <file>massif.12345.txt</file>. The "
-"number in the middle is the process ID of the program that was examined. If "
-"you actually try this example you will find two versions of each file, with "
-"slightly different numbers, this is because <app>Swell Foop</app> starts a "
-"second process and <app>Massif</app> follows that too. We will ignore this "
-"second process, it consumes very little memory."
+"The image above shows a typical postscript output from <app>Massif</app>. "
+"This is the result you would get from playing a single game of <app>Swell "
+"Foop</app> (version 2.8.0) and then quitting. The postscript file will have "
+"a name like <file>massif.12345.ps</file> and the text file will be called "
+"<file>massif.12345.txt</file>. The number in the middle is the process ID of "
+"the program that was examined. If you actually try this example you will "
+"find two versions of each file, with slightly different numbers, this is "
+"because <app>Swell Foop</app> starts a second process and <app>Massif</app> "
+"follows that too. We will ignore this second process, it consumes very "
+"little memory."
 msgstr ""
-"<xref linkend=\"optimization-massif-FIG-output-unoptimized\"/> ukazuje "
-"typický postskriptový výstup z aplikace <app>Massif</app>. Toto je výsledek, "
-"který byste získali, když odehrajete jednu hry <app>Swell Foop</app> (verze "
-"2.8.0) a po té ji ukončíte. Postskriptový soubor bude mít název ve stylu "
-"<file>massif.12345.ps</file> a textový soubor bude nazván <file>massif.12345."
-"txt</file>. Číslo uprostřed je ID procesu programu, který byl spuštěn. Pokud "
-"právě zkoušíte tento příklad, najdete dvě verze každého souboru s lehce "
-"odlišnými čísly, což je proto, že aplikace <app>Swell Foop</app> spouští "
-"druhý proces a aplikace <app>Massif</app> jej následuje. Tento druhý proces "
-"budeme ignorovat, protože spotřebovává jen velmi málo paměti."
+"Obrázek výše ukazuje typický postskriptový výstup z aplikace <app>Massif</"
+"app>. Toto je výsledek, který byste získali, když odehrajete jednu hry "
+"<app>Swell Foop</app> (verze 2.8.0) a po té ji ukončíte. Postskriptový "
+"soubor bude mít název ve stylu <file>massif.12345.ps</file> a textový soubor "
+"obdobně <file>massif.12345.txt</file>. Číslo uprostřed je ID procesu "
+"programu, který byl spuštěn. Pokud právě zkoušíte tento příklad, najdete dvě "
+"verze každého souboru s lehce odlišnými čísly, což je proto, že aplikace "
+"<app>Swell Foop</app> spouští druhý proces a aplikace <app>Massif</app> jej "
+"následuje. Tento druhý proces budeme ignorovat, protože spotřebovává jen "
+"velmi málo paměti."
 
 #. (itstool) path: section/p
-#: C/massif.page:67
+#: C/massif.page:66
 msgid ""
 "At the top of the graph we see a large yellow band labelled gdk_pixbuf_new. "
 "This seems like an ideal candidate for optimization, but we will need to use "
@@ -909,7 +908,7 @@ msgstr ""
 "souboru vypadá nějak takto:"
 
 #. (itstool) path: section/code
-#: C/massif.page:70
+#: C/massif.page:69
 #, no-wrap
 msgid ""
 "\n"
@@ -945,7 +944,7 @@ msgstr ""
 "        "
 
 #. (itstool) path: section/p
-#: C/massif.page:85
+#: C/massif.page:84
 msgid ""
 "The line with the '=' signs indicates how far down the stack trace we are, "
 "in this case we are at the top. After this it lists the heaviest users of "
@@ -964,7 +963,7 @@ msgstr ""
 "gdk_pixbuf_new volá, musíme hledat v textovém souboru dále:"
 
 #. (itstool) path: section/code
-#: C/massif.page:88
+#: C/massif.page:87
 #, no-wrap
 msgid ""
 "\n"
@@ -1000,7 +999,7 @@ msgstr ""
 "        "
 
 #. (itstool) path: section/p
-#: C/massif.page:103
+#: C/massif.page:102
 msgid ""
 "The first line tells us we are now four levels deep into the stack. Below it "
 "is a listing of the function calls that leads from here to gdk_pixbuf_new. "
@@ -1018,7 +1017,7 @@ msgstr ""
 "seznamu můžeme ihned vidět, že problémovým kódem je load_scenario."
 
 #. (itstool) path: section/p
-#: C/massif.page:106
+#: C/massif.page:105
 msgid ""
 "Now that we know what part of our code is using all the spacetime we can "
 "look at it and find out why. It turns out that the load_scenario is loading "
@@ -1031,12 +1030,12 @@ msgstr ""
 "problém a muže jej začít opravovat."
 
 #. (itstool) path: section/title
-#: C/massif.page:111
+#: C/massif.page:110
 msgid "Acting on the Results"
 msgstr "Využití výsledků"
 
 #. (itstool) path: section/p
-#: C/massif.page:112
+#: C/massif.page:111
 msgid ""
 "Reducing spacetime consumption is good, but there are two ways of reducing "
 "it and they are not equal. You can either reduce the amount of memory "
@@ -1063,26 +1062,25 @@ msgstr ""
 "množství alokované paměti."
 
 #. (itstool) path: section/p
-#: C/massif.page:115
+#: C/massif.page:114
 msgid ""
 "Unfortunately, the choice of optimization is also constrained by the needs "
 "of the program. The size of the pixbuf data in <app>Swell Foop</app> is "
 "determined by the size of the game's graphics and cannot be easily reduced. "
 "However, the amount of time it spends loaded into memory can be drastically "
-"reduced. <link xref=\"optimization-massif-FIG-output-optimized\"/> shows the "
-"<app>Massif</app> analysis of <app>Swell Foop</app> after being altered to "
-"dispose of the pixbufs once the images have been loaded into the X server."
+"reduced. The image below shows the <app>Massif</app> analysis of <app>Swell "
+"Foop</app> after being altered to dispose of the pixbufs once the images "
+"have been loaded into the X server."
 msgstr ""
 "Bohužel je volba optimalizace odvislá i od potřeb programu. Velikost dat "
 "pixbuf v aplikaci <app>Swell Foop</app> je dána velikostí grafiky hry a "
 "nelze ji jednoduše zmenšit. Může být ale značně omezeno množství času, po "
-"který je načtena v paměti. <xref linkend=\"optimization-massif-FIG-output-"
-"optimized\"/> ukazuje analýzu provedenou aplikací <app>Massif</app> pro "
-"program <app>Swell Foop</app> po úpravě vedoucí k uvolnění pixbuf, jakmile "
-"byly obrázky načteny na X server."
+"který je načtena v paměti. Obrázek níže ukazuje analýzu provedenou aplikací "
+"<app>Massif</app> pro program <app>Swell Foop</app> po úpravě vedoucí k "
+"uvolnění pixbuf, jakmile jsou obrázky načteny na X server."
 
 #. (itstool) path: figure/title
-#: C/massif.page:124
+#: C/massif.page:123
 msgid ""
 "<app>Massif</app> output for the optimized <app>Swell Foop</app> program."
 msgstr ""
@@ -1090,7 +1088,7 @@ msgstr ""
 "<app>Swell Foop</app>."
 
 #. (itstool) path: section/p
-#: C/massif.page:127
+#: C/massif.page:126
 msgid ""
 "The spacetime use of gdk_pixbuf_new is now a thin band that only spikes "
 "briefly (it is now the sixteenth band down and shaded magenta). As a bonus, "
@@ -1107,7 +1105,7 @@ msgstr ""
 "vznikne riziko odkládání na disk, docela malá."
 
 #. (itstool) path: section/p
-#: C/massif.page:130
+#: C/massif.page:129
 msgid ""
 "Can we do better ? A quick examination of <app>Massif</app>'s text output "
 "reveals: g_strdup to be the new major offender."
@@ -1116,7 +1114,7 @@ msgstr ""
 "odhalí že: nový hlavní viník je g_strdup."
 
 #. (itstool) path: section/code
-#: C/massif.page:133
+#: C/massif.page:132
 #, no-wrap
 msgid ""
 "\n"
@@ -1152,7 +1150,7 @@ msgstr ""
 "        "
 
 #. (itstool) path: section/p
-#: C/massif.page:148
+#: C/massif.page:147
 msgid ""
 "If we look closer though we see that it is called from many, many, places."
 msgstr ""
@@ -1160,7 +1158,7 @@ msgstr ""
 "místech."
 
 #. (itstool) path: section/code
-#: C/massif.page:151
+#: C/massif.page:150
 #, no-wrap
 msgid ""
 "\n"
@@ -1198,7 +1196,7 @@ msgstr ""
 "        "
 
 #. (itstool) path: section/p
-#: C/massif.page:167
+#: C/massif.page:166
 msgid ""
 "We now face diminishing returns for our optimization efforts. The graph "
 "hints at another possible approach: Both the \"other\" and \"heap admin\" "
@@ -1214,12 +1212,12 @@ msgstr ""
 "do jediné alokace, může být větší a „správa haldy“ se tím zmenší."
 
 #. (itstool) path: section/title
-#: C/massif.page:172
+#: C/massif.page:171
 msgid "Caveats"
 msgstr "Upozornění"
 
 #. (itstool) path: section/p
-#: C/massif.page:173
+#: C/massif.page:172
 msgid ""
 "There are a couple of things to watch out for: Firstly, spacetime is only "
 "reported as a percentage, you have to compare it to the overall size of the "
@@ -1232,7 +1230,7 @@ msgstr ""
 "Dobrý je k tomu graf s hodnotami v kilobajtech na svislé ose."
 
 #. (itstool) path: section/p
-#: C/massif.page:176
+#: C/massif.page:175
 msgid ""
 "Secondly, <app>Massif</app> only takes into account the memory used by your "
 "own program. Resources like pixmaps are stored in the X server and aren't "
