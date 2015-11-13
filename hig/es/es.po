@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hig.master\n"
 "POT-Creation-Date: 2015-11-11 08:50+0000\n"
-"PO-Revision-Date: 2015-11-11 16:27+0100\n"
+"PO-Revision-Date: 2015-11-13 13:56+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "Language: es\n"
@@ -8505,6 +8505,7 @@ msgid ""
 "requires one of the common conventions for dialog usage, such as a "
 "confirmation dialog."
 msgstr ""
+"Como mecanismo para mostrar controles o información, las ventanas emergentes"
 
 #. (itstool) path: section/title
 #: C/popovers.page:42
@@ -8893,6 +8894,14 @@ msgid ""
 "<link xref=\"progress-spinners\">progress spinners</link> are often a better "
 "choice."
 msgstr ""
+"Al indicar el progreso, la elección principal es entre una barra de progreso "
+"o un <link xref=\"progress-spinners\">indicador de progreso incremental</"
+"link>. Las barras de progreso indica que cantidad de la tarea se ha "
+"completado. Son por lo tanto útiles para tareas que tardan bastante tiempo. "
+"Como regla general, use sólo las barras de progreso para tareas que tardan "
+"más de 30 segundos. Para tareas más cortas, los <link xref=\"progress-"
+"spinners\">indicadores de progreso incrementales</link> son una mejor "
+"elección."
 
 #. (itstool) path: section/title
 #: C/progress-bars.page:46
@@ -8934,6 +8943,9 @@ msgid ""
 "remaining progress bar, followed by typical-time. Try to avoid using "
 "indeterminate progress bars."
 msgstr ""
+"En las barras de progreso es preferible la precisión. Cuando sea posible, "
+"use una barra de progreso de tiempo restante, seguida de un tiempo habitual. "
+"Trate de evitar las barras de progreso indeterminadas."
 
 #. (itstool) path: section/title
 #: C/progress-bars.page:61
@@ -8978,6 +8990,13 @@ msgid ""
 "\"typography\">typographic conventions</link> to differentiate the most "
 "useful information."
 msgstr ""
+"Para tareas muy largas, puede ser interesante mostrar una estimación del "
+"tiempo restante en el texto de la barra de progreso. Si no hay disponibles "
+"otra información, se puede mostrar esto únicamente. Como alternativa, puede "
+"aparecer junto al texto acerca de la tarea; sin embargo, tenga cuidado de no "
+"sobrecargar al usuario con demasiada información al hacer esto, y use los "
+"<link xref=\"typography\">convenios tipográficos</link> para diferenciar la "
+"información más relevante."
 
 #. (itstool) path: item/p
 #: C/progress-bars.page:69
@@ -9127,6 +9146,11 @@ msgid ""
 "recommended, since the consequence of closing the window can be unclear and "
 "they can obscure useful controls and content."
 msgstr ""
+"Antiguamente, las ventanas de progreso eran una manera habitual de mostrar "
+"las barras de progreso. Estas ventanas secundarias mostraban la duración de "
+"la tarea y contenían una o más barras de progreso. En general, las ventanas "
+"de progreso no son recomendables, ya que cerrar la ventana puede no ser muy "
+"claro y puede ocultar controles útiles o contenido."
 
 #. (itstool) path: section/p
 #: C/progress-bars.page:112
@@ -9156,6 +9180,8 @@ msgid ""
 "Ensure that time-remaining and typical-time progress bars measure an "
 "operation’s total time or total work, not just that of a single step."
 msgstr ""
+"Asegúrese de que las barras de tiempo restante y de tiempo habitual miden el "
+"tiempo o el trabajo total, no sólo uno de los pasos individuales."
 
 #. (itstool) path: item/p
 #: C/progress-bars.page:122
@@ -9175,6 +9201,11 @@ msgid ""
 "underestimates how much work is complete, fill the remaining portion of the "
 "bar when the operation is complete."
 msgstr ""
+"Al usar una barra de progreso de tiempo habitual, si su aplicación "
+"sobrestima la cantidad de trabajo terminado, la longitud de la barra puede "
+"indicar <gui>casi completado</gui> hasta que la operación se complete. Si su "
+"aplicación infraestima cuando trabajo se ha completado, rellene la parte "
+"restante de la barra cuando la operación se complete."
 
 #. (itstool) path: item/p
 #: C/progress-bars.page:132
@@ -9239,6 +9270,12 @@ msgid ""
 "spinner, since animated elements that are shown for a very short amount of "
 "time can detract from the overall user experience."
 msgstr ""
+"Al mismo tiempo, las indicaciones de progreso son una potencial fuente de "
+"distracción, especialmente cuando se muestran durante cortos de períodos de "
+"tiempo. Si una operación tarda menos de 3 segundos, es preferible evitar el "
+"uso de un indicador de progreso incremental, ya que los elementos animados "
+"que se muestran durante muy poco tiempo pueden degradar la experiencia "
+"global del usuario."
 
 #. (itstool) path: section/p
 #: C/progress-spinners.page:31
@@ -9248,6 +9285,10 @@ msgid ""
 "take more than a minute, a <link xref=\"progress-bars\">progress bar</link> "
 "might be a better choice."
 msgstr ""
+"Los indicadores incrementales no muestra gráficamente el grado de progreso "
+"de una tarea, y a menudo son más adecuados para operaciones cortas. Si la "
+"tarea va a durar habitualmente más de un minuto, una <link xref=\"progress-"
+"bars\">barra de progreso</link> puede ser una mejor elección."
 
 #. (itstool) path: section/p
 #: C/progress-spinners.page:33
@@ -9259,6 +9300,13 @@ msgid ""
 "within square or rectangular containers. On the other hand, if vertical "
 "space is limited, a progress bar can be a better fit."
 msgstr ""
+"La forma de los indicadores de progreso incrementales también afecta su "
+"idoneidad para diferentes situaciones. Dado que son efectivos en tamaños "
+"pequeños, los indicadores se pueden incorporar fácilmente en elementos "
+"pequeños de la interfaz de usuario, como listas o barras de cabecera. Del "
+"mismo modo, su forma significa que pueden ser eficaces si se integran dentro "
+"de contenedores cuadrados o rectangulares. Por otro lado, si el espacio "
+"vertical es limitado, una barra de progreso puede ser una mejor elección."
 
 #. (itstool) path: item/p
 #: C/progress-spinners.page:41
@@ -9279,6 +9327,11 @@ msgid ""
 "placed next to that button, for example. When loading content, the spinner "
 "should be placed within the area where that content will appear."
 msgstr ""
+"Coloque los indicadores de progreso junto a o dentro de otros elementos de "
+"la interfaz del usuario relacionados. Si un botón desencadena una operación "
+"larga, el indicador se puede colocar junto al botón, por ejemplo. Al cargar "
+"contenido, el indicador se debe colocar dentro del área en la que aparecerá "
+"en contenido."
 
 #. (itstool) path: item/p
 #: C/progress-spinners.page:43
@@ -9287,6 +9340,9 @@ msgid ""
 "showing a large number of spinners simultaneously - this will often be "
 "visually overwhelming."
 msgstr ""
+"Generalmente, sólo se debe mostrar un indicador de progreso incremental a la "
+"vez. Evite mostrar muchos indicadores a la vez, ya que esto puede ser muy "
+"cargante visualmente."
 
 #. (itstool) path: item/p
 #: C/progress-spinners.page:44
@@ -9305,6 +9361,10 @@ msgid ""
 "percentage, an indication of the time remaining or, or progress through sub-"
 "components of the task (eg. modules downloaded, or pages exported)."
 msgstr ""
+"Si es muestra un indicador de progreso durante mucho tiempo, una etiqueta "
+"puede indicar tanto la identidad de la tarea como el proceso que realiza."
+"Esto puede ser en forma de porcentaje, de indicación del tiempo restante o "
+"del progreso de las subtareas (ej. módulos descargados o páginas exportadas)"
 
 #. (itstool) path: item/p
 #: C/progress-spinners.page:54
@@ -9364,6 +9424,9 @@ msgid ""
 "exception is when the group is showing the properties of a multiple "
 "selection, when one or more of the buttons may be in their mixed state."
 msgstr ""
+"Se debe activar exactamente un único botón de radio en el grupo cada vez. La "
+"única excepción es cuando el grupo muestra las propiedades de una selección "
+"múltiple, cuando uno o más botones pueden estar en un estado intermedio."
 
 #. (itstool) path: item/p
 #: C/radio-buttons.page:42
@@ -9383,6 +9446,10 @@ msgid ""
 "This helps to indicate that the controls are dependent on the state of the "
 "radio button."
 msgstr ""
+"Si conmutar un botón de radio afecta a la sensibilidad de otros controles, "
+"coloque un botón de radio inmediatamente a la derecha de los controles a los "
+"que afecta. Esto ayuda a indicar que los los controles dependen del estado "
+"del botón de radio."
 
 #. (itstool) path: item/p
 #: C/radio-buttons.page:44
@@ -9393,6 +9460,11 @@ msgid ""
 "the label that allows the user to set the radio button directly from the "
 "keyboard."
 msgstr ""
+"Use las <link xref=\"writing-style#capitalization\">mayúsculas en las "
+"frases</link> para los botones de radio, por ejemplo <gui>Switched movement</"
+"gui>. Proporcione una <link xref=\"keyboard-input#access-keys\">tecla de "
+"acceso</link> en la etiqueta que permita al usuario usar el botón de radio "
+"directamente desde el teclado."
 
 #. (itstool) path: item/p
 #: C/radio-buttons.page:45
@@ -9469,6 +9541,9 @@ msgid ""
 "displayed on screen. It is distinct from find, which involves moving or "
 "highlighting the content that is being searched for, rather than filtering."
 msgstr ""
+"La búsqueda permite encontrar elementos de contenido filtrando el contenido "
+"que se muestra en la pantalla. Es diferente de otras búsquedas que implican "
+"mover o resaltar el contenido que se está buscando, en lugar de filtrarlo."
 
 #. (itstool) path: section/p
 #: C/search.page:24
@@ -9531,6 +9606,9 @@ msgid ""
 "the entered text should be added to the search field. This is called “type "
 "to search”."
 msgstr ""
+"Escribir cuando un campo de texto no tiene el foco debe activar la búsqueda, "
+"y el texto introducido se debe añadir al campo de búsqueda. Esto se llama "
+"«escribir para buscar»."
 
 #. (itstool) path: item/p
 #: C/search.page:41
@@ -9620,6 +9698,11 @@ msgid ""
 "associated with the item they want to find. A list of cities could return "
 "matches for country or region, for example."
 msgstr ""
+"Permita un amplio rango de términos de búsqueda coincidentes. Esto ayuda a "
+"la gente que no está segura del término exacto que necesitan, pero que "
+"conocen características asociadas con el elemento que quieren buscar. Una "
+"lista de ciudades puede devolver coincidencias por ciudad o región, por "
+"ejemplo."
 
 #. (itstool) path: item/p
 #: C/search.page:66
@@ -9722,6 +9805,13 @@ msgid ""
 "allow the action to be performed on items directly, rather than requiring "
 "them to be selected first, for example)."
 msgstr ""
+"Si es más habitual que los usuarios realicen acciones sobre un único "
+"elemento de contenido, puede querer considerar otro patrón de diseño, como "
+"un menú contextual. Del mismo modo, si sólo se puede realizar una acción "
+"sobre los elementos de contenido, se puede usar una variante del modo de "
+"selección (un control flotante puede permitir realizar la acción sobre los "
+"elementos directamente, en lugar de obligar a seleccionarlos previamente, "
+"por ejemplo):"
 
 #. (itstool) path: section/title
 #: C/selection-mode.page:39
@@ -9736,6 +9826,11 @@ msgid ""
 "check mark icon. Selection mode can also be activated by rubber band "
 "selection, or by holding Ctrl or Shift and clicking/pressing content items."
 msgstr ""
+"La manera principal de activar el modo de selección es mediante el botón del "
+"modo de selección, que se encuentra en la barra de cabecera e que se "
+"identifica con un icono de «tick». El modo de selección también se puede "
+"activar con la selección de banda de goma, o manteniendo pulsadas las teclas "
+"Ctrl o Mayús y pulsando/tocando los elementos de contenido."
 
 #. (itstool) path: section/title
 #: C/selection-mode.page:46
@@ -10196,6 +10291,9 @@ msgid ""
 "capitalization. Provide an access key in the label that allows the user to "
 "give focus directly to the spin box."
 msgstr ""
+"Etiquete la caja incremental con una etiqueta de texto por encima o a su "
+"izquierda, usando mayúsculas. Proporcione una tecla de acceso en la etiqueta "
+"que permita al usuario dar el foco directamente a la caja incremental."
 
 #. (itstool) path: item/p
 #: C/spin-boxes.page:62
@@ -10206,6 +10304,11 @@ msgid ""
 "In this case, ensure the right edges of the relevant controls are also "
 "aligned."
 msgstr ""
+"Justifique al a derecha el contenido de las cajas incrementales, a menos que "
+"el convenio de la configuración regional del usuario indique otra cosa. Esto "
+"es útil en ventanas en las que el usuario puede querer comparar dos valores "
+"numéricos en la misma columna de controles. En este caso, asegúrese de que "
+"los bordes de la derecha de los controles relevantes también están alineados."
 
 #. (itstool) path: item/p
 #: C/spin-boxes.page:71
@@ -10251,6 +10354,11 @@ msgid ""
 "switch being operated and it having an effect), or when they affect the "
 "operation of the application in a significant way."
 msgstr ""
+"Los interruptores se pueden usar para controlar servicios o hardware que "
+"tenga un estado lógico activado/desactivado claro. So especialmente "
+"apropiados cuando estos servicios o hardware no se activan inmediatamente "
+"(es decir, hay un retardo entre la activación del interruptor y su efecto), "
+"o cuando afecta a la operativa de la aplicación de una manera significante."
 
 #. (itstool) path: section/p
 #: C/switches.page:29
@@ -10263,6 +10371,14 @@ msgid ""
 "basis, since alarm repetition is a configuration option, rather than "
 "starting or stopping a particular piece of functionality."
 msgstr ""
+"Cuando el control no activa o desactiva una función, o cuando una función no "
+"tiene un estado activado/desactivado claro, una <link xref=\"check-boxes"
+"\">casilla</link> es una opción mas apropiada. Por ejemplo, una alarma se "
+"puede controlar usando un interruptor, ya que se puede activar o desactivar. "
+"Sin embargo, una casilla es una mejor opción para una opción de repetir esa "
+"alarma en función del día, ya que la repetición de la alarma es una opción "
+"de configuración, en lugar de iniciar o detener una parte concreta de la "
+"funcionalidad."
 
 #. (itstool) path: section/p
 #: C/switches.page:31
