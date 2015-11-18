@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2015-10-23 07:29+0000\n"
-"PO-Revision-Date: 2015-10-23 12:45+0300\n"
+"POT-Creation-Date: 2015-11-18 08:53+0000\n"
+"PO-Revision-Date: 2015-11-18 12:41+0200\n"
 "Last-Translator: Tom Tryfonidis <tomtryf@gmail.com>\n"
 "Language-Team: team@gnome.gr\n"
 "Language: el\n"
@@ -22,13 +22,14 @@ msgstr ""
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
+"Ελληνική μεταφραστική ομάδα GNOME <team@gnome.gr>, 2009-2015\n"
 "Δημήτρης Σπίγγος <dmtrs32@gmail.com>, 2013\n"
-"Γιάννης Κατσαμπίρης <giannis1_86@hotmail.com>\n"
-"Σίμος Ξενιτέλλης <simos@gnome.org>\n"
-"Κωνσταντίνος Κουράτορας <kouratoras@gmail.com>\n"
-"Σωτηρία Τζιούρη <sotitz@gmail.com>\n"
-"Τζένη Πετούμενου <epetoumenou@gmail.com>\n"
-"Τουρνάρης Παύλος-Πέτρος <p.tournaris@gmail.com>"
+"Γιάννης Κατσαμπίρης <giannis1_86@hotmail.com>, 2010\n"
+"Σίμος Ξενιτέλλης <simos@gnome.org>, 2009\n"
+"Κωνσταντίνος Κουράτορας <kouratoras@gmail.com>, 2010\n"
+"Σωτηρία Τζιούρη <sotitz@gmail.com>, 2010\n"
+"Τζένη Πετούμενου <epetoumenou@gmail.com>, 2009\n"
+"Τουρνάρης Παύλος-Πέτρος <p.tournaris@gmail.com>, 2010"
 
 #. (itstool) path: page/title
 #: C/harmful.page:7
@@ -213,7 +214,7 @@ msgstr "Εισαγωγή"
 #. (itstool) path: section/p
 #: C/index.page:39
 msgid ""
-"This is a brief introduction to optimization, both the hows and thewhys. "
+"This is a brief introduction to optimization, both the hows and the whys. "
 "Details of individual tools and techniques are left for later articles, but a "
 "collection of hints and tricks is provided."
 msgstr ""
@@ -713,7 +714,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/massif.page:125
+#: C/massif.page:124
 msgctxt "_"
 msgid ""
 "external ref='figures/massif-after.png' md5='36d1b4ad7ab49b28b69ad3eabbaa7069'"
@@ -895,31 +896,30 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/massif.page:52
 msgid ""
-"<link xref=\"optimization-massif-FIG-output-unoptimized\"/> shows a typical "
-"postscript output from <app>Massif</app>. This is the result you would get from "
-"playing a single game of <app>Swell Foop</app> (version 2.8.0) and then "
-"quitting. The postscript file will have a name like <file>massif.12345.ps</"
-"file> and the text file will be called <file>massif.12345.txt</file>. The "
-"number in the middle is the process ID of the program that was examined. If you "
-"actually try this example you will find two versions of each file, with "
-"slightly different numbers, this is because <app>Swell Foop</app> starts a "
-"second process and <app>Massif</app> follows that too. We will ignore this "
-"second process, it consumes very little memory."
+"The image above shows a typical postscript output from <app>Massif</app>. This "
+"is the result you would get from playing a single game of <app>Swell Foop</app> "
+"(version 2.8.0) and then quitting. The postscript file will have a name like "
+"<file>massif.12345.ps</file> and the text file will be called "
+"<file>massif.12345.txt</file>. The number in the middle is the process ID of "
+"the program that was examined. If you actually try this example you will find "
+"two versions of each file, with slightly different numbers, this is because "
+"<app>Swell Foop</app> starts a second process and <app>Massif</app> follows "
+"that too. We will ignore this second process, it consumes very little memory."
 msgstr ""
-"Το <link xref=\"optimization-massif-FIG-output-unoptimized\"/> παρουσιάζει μία "
-"χαρακτηριστική έξοδο δεδομένων σε μορφή postscript από το <app>Massif</app>. "
-"Αυτό είναι το αποτέλεσμα που θα παίρνατε παίζοντας μία πίστα από το παιχνίδι "
-"<app>Swell Foop</app> (έκδοση 2.8.0) και έπειτα το κλείνατε. Το αρχείο "
-"postscript θα έχει ένα όνομα όπως <file>massif.12345.ps</file> και το αρχείο "
-"κειμένων θα ονομάζεται <file>massif.12345.txt</file>. Ο αριθμός στη μέση είναι "
-"η ταυτότητα διαδικασίας του προγράμματος που εξετάστηκε. Εάν δοκιμάσετε "
-"πραγματικά αυτό το παράδειγμα θα βρείτε δύο εκδόσεις κάθε αρχείου, με ελαφρά "
-"διαφορετικούς νούμερα, αυτό συμβαίνει γιατί το <app>Swell Foop</app> ξεκινά μια "
-"δεύτερη διαδικασία και το <app>Massif</app> ακολουθεί και αυτή επίσης. Θα "
-"αγνοήσουμε αυτήν την δεύτερη διαδικασία, μια που καταναλώνει πολύ λίγη μνήμη."
+"Η εικόνα παραπάνω παρουσιάζει μία χαρακτηριστική έξοδο δεδομένων σε μορφή "
+"postscript από το <app>Massif</app>. Αυτό είναι το αποτέλεσμα που θα παίρνατε "
+"παίζοντας μία πίστα από το παιχνίδι <app>Swell Foop</app> (έκδοση 2.8.0) και "
+"έπειτα το κλείνατε. Το αρχείο postscript θα έχει ένα όνομα όπως "
+"<file>massif.12345.ps</file> και το αρχείο κειμένων θα ονομάζεται "
+"<file>massif.12345.txt</file>. Ο αριθμός στη μέση είναι η ταυτότητα διαδικασίας "
+"του προγράμματος που εξετάστηκε. Εάν δοκιμάσετε πραγματικά αυτό το παράδειγμα "
+"θα βρείτε δύο εκδόσεις κάθε αρχείου, με ελαφρά διαφορετικούς νούμερα, αυτό "
+"συμβαίνει γιατί το <app>Swell Foop</app> ξεκινά μια δεύτερη διαδικασία και το "
+"<app>Massif</app> ακολουθεί και αυτή επίσης. Θα αγνοήσουμε αυτήν την δεύτερη "
+"διαδικασία, μια που καταναλώνει πολύ λίγη μνήμη."
 
 #. (itstool) path: section/p
-#: C/massif.page:67
+#: C/massif.page:66
 msgid ""
 "At the top of the graph we see a large yellow band labelled gdk_pixbuf_new. "
 "This seems like an ideal candidate for optimization, but we will need to use "
@@ -933,7 +933,7 @@ msgstr ""
 "σαν το επόμενο:"
 
 #. (itstool) path: section/code
-#: C/massif.page:70
+#: C/massif.page:69
 #, no-wrap
 msgid ""
 "\n"
@@ -969,7 +969,7 @@ msgstr ""
 "        "
 
 #. (itstool) path: section/p
-#: C/massif.page:85
+#: C/massif.page:84
 msgid ""
 "The line with the '=' signs indicates how far down the stack trace we are, in "
 "this case we are at the top. After this it lists the heaviest users of memory "
@@ -990,7 +990,7 @@ msgstr ""
 "αρχείο κειμένου:"
 
 #. (itstool) path: section/code
-#: C/massif.page:88
+#: C/massif.page:87
 #, no-wrap
 msgid ""
 "\n"
@@ -1026,7 +1026,7 @@ msgstr ""
 "        "
 
 #. (itstool) path: section/p
-#: C/massif.page:103
+#: C/massif.page:102
 msgid ""
 "The first line tells us we are now four levels deep into the stack. Below it is "
 "a listing of the function calls that leads from here to gdk_pixbuf_new. Finally "
@@ -1045,7 +1045,7 @@ msgstr ""
 "αμέσως ότι ο προβληματικός κώδικας είναι ο load_scenario."
 
 #. (itstool) path: section/p
-#: C/massif.page:106
+#: C/massif.page:105
 msgid ""
 "Now that we know what part of our code is using all the spacetime we can look "
 "at it and find out why. It turns out that the load_scenario is loading a pixbuf "
@@ -1059,12 +1059,12 @@ msgstr ""
 "αρχίσουμε να τον διορθώνουμε."
 
 #. (itstool) path: section/title
-#: C/massif.page:111
+#: C/massif.page:110
 msgid "Acting on the Results"
 msgstr "Ενέργειες πάνω στα αποτελέσματα"
 
 #. (itstool) path: section/p
-#: C/massif.page:112
+#: C/massif.page:111
 msgid ""
 "Reducing spacetime consumption is good, but there are two ways of reducing it "
 "and they are not equal. You can either reduce the amount of memory allocated, "
@@ -1092,34 +1092,33 @@ msgstr ""
 "καλύτερο να μειωθεί το ποσό μνήμης που διατίθεται."
 
 #. (itstool) path: section/p
-#: C/massif.page:115
+#: C/massif.page:114
 msgid ""
 "Unfortunately, the choice of optimization is also constrained by the needs of "
 "the program. The size of the pixbuf data in <app>Swell Foop</app> is determined "
 "by the size of the game's graphics and cannot be easily reduced. However, the "
-"amount of time it spends loaded into memory can be drastically reduced. <link "
-"xref=\"optimization-massif-FIG-output-optimized\"/> shows the <app>Massif</app> "
-"analysis of <app>Swell Foop</app> after being altered to dispose of the pixbufs "
-"once the images have been loaded into the X server."
+"amount of time it spends loaded into memory can be drastically reduced. The "
+"image below shows the <app>Massif</app> analysis of <app>Swell Foop</app> after "
+"being altered to dispose of the pixbufs once the images have been loaded into "
+"the X server."
 msgstr ""
 "Δυστυχώς, η επιλογή της βελτιστοποίησης περιορίζεται επίσης από τις ανάγκες του "
 "προγράμματος. Το μέγεθος των δεδομένων του pixbuf στο <app>Swell Foop</app> "
 "καθορίζεται από το μέγεθος των γραφικών του παιχνιδιού και δεν μπορεί να "
 "μειωθεί εύκολα. Εντούτοις, το χρονικό διάστημα που ξοδεύει κατά την φόρτωση του "
-"στη μνήμη μπορεί να μειωθεί δραστικά. Το<link xref=\"optimization-massif-FIG-"
-"output-optimized\"/> παρουσιάζει την ανάλυση του <app>Massif</app> για το "
-"<app>Swell Foop</app> μετά από την αλλαγή του για να απορρίπτει τα pixbufs "
-"μόλις φορτωθούν οι εικόνες στον διακομιστή X."
+"στη μνήμη μπορεί να μειωθεί δραστικά. Η παραπάνω εικόνα παρουσιάζει την ανάλυση "
+"του <app>Massif</app> για το <app>Swell Foop</app> μετά από την αλλαγή του για "
+"να απορρίπτει τα pixbufs μόλις φορτωθούν οι εικόνες στον διακομιστή X."
 
 #. (itstool) path: figure/title
-#: C/massif.page:124
+#: C/massif.page:123
 msgid "<app>Massif</app> output for the optimized <app>Swell Foop</app> program."
 msgstr ""
 "Έξοδος του <app>Massif</app> για την βελτιστοποιημένο πρόγραμμα <app>Swell "
 "Foop</app>."
 
 #. (itstool) path: section/p
-#: C/massif.page:127
+#: C/massif.page:126
 msgid ""
 "The spacetime use of gdk_pixbuf_new is now a thin band that only spikes briefly "
 "(it is now the sixteenth band down and shaded magenta). As a bonus, the peak "
@@ -1135,7 +1134,7 @@ msgstr ""
 "συμπίπτουν, και ως εκ τούτου ο κίνδυνος αντιμετάθεσης, θα είναι αρκετά χαμηλός."
 
 #. (itstool) path: section/p
-#: C/massif.page:130
+#: C/massif.page:129
 msgid ""
 "Can we do better ? A quick examination of <app>Massif</app>'s text output "
 "reveals: g_strdup to be the new major offender."
@@ -1144,7 +1143,7 @@ msgstr ""
 "<app>Massif</app> αποκαλύπτει ότι: το g_strdup είναι ο νέος σημαντικός ένοχος."
 
 #. (itstool) path: section/code
-#: C/massif.page:133
+#: C/massif.page:132
 #, no-wrap
 msgid ""
 "\n"
@@ -1180,14 +1179,14 @@ msgstr ""
 "        "
 
 #. (itstool) path: section/p
-#: C/massif.page:148
+#: C/massif.page:147
 msgid "If we look closer though we see that it is called from many, many, places."
 msgstr ""
 "Εάν το εξετάσουμε ποιο ενδελεχώς θα δούμε ότι καλείται από πολλές, πολλές, "
 "διαφορετικές θέσεις."
 
 #. (itstool) path: section/code
-#: C/massif.page:151
+#: C/massif.page:150
 #, no-wrap
 msgid ""
 "\n"
@@ -1225,7 +1224,7 @@ msgstr ""
 "        "
 
 #. (itstool) path: section/p
-#: C/massif.page:167
+#: C/massif.page:166
 msgid ""
 "We now face diminishing returns for our optimization efforts. The graph hints "
 "at another possible approach: Both the \"other\" and \"heap admin\" bands are "
@@ -1243,12 +1242,12 @@ msgstr ""
 "του \"heap admin\" μπορεί να μειωθεί."
 
 #. (itstool) path: section/title
-#: C/massif.page:172
+#: C/massif.page:171
 msgid "Caveats"
-msgstr "Caveats"
+msgstr "Προειδοποιήσεις"
 
 #. (itstool) path: section/p
-#: C/massif.page:173
+#: C/massif.page:172
 msgid ""
 "There are a couple of things to watch out for: Firstly, spacetime is only "
 "reported as a percentage, you have to compare it to the overall size of the "
@@ -1262,7 +1261,7 @@ msgstr ""
 "τέτοιο."
 
 #. (itstool) path: section/p
-#: C/massif.page:176
+#: C/massif.page:175
 msgid ""
 "Secondly, <app>Massif</app> only takes into account the memory used by your own "
 "program. Resources like pixmaps are stored in the X server and aren't "
