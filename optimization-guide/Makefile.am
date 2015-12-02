@@ -12,4 +12,4 @@ HELP_MEDIA = \
 	figures/massif-after.png \
 	figures/massif-before.png
 
-HELP_LINGUAS = cs de el es fr gl sl zh_CN pt_BR
+HELP_LINGUAS = cs de el es fr gl pt_BR sl sv zh_CN

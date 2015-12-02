@@ -1,0 +1,1249 @@
+# Swedish translation for gnome-devel-docs.
+# Copyright © 2015 gnome-devel-docs's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-devel-docs package.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-devel-docs master\n"
+"POT-Creation-Date: 2015-11-13 20:50+0000\n"
+"PO-Revision-Date: 2015-11-13 22:30+0100\n"
+"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.6\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr "Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015"
+
+#. (itstool) path: page/title
+#: C/harmful.page:7
+msgid "Disk Seeks Considered Harmful"
+msgstr "Disksökningar ansedda skadliga"
+
+#. (itstool) path: page/p
+#. (itstool) path: section/p
+#: C/harmful.page:8 C/index.page:54
+msgid ""
+"Disk seeks are one of the most expensive operations you can possibly "
+"perform. You might not know this from looking at how many of them we "
+"perform, but trust me, they are. Consequently, please refrain from the "
+"following suboptimal behavior:"
+msgstr ""
+"Disksökningar är en av de dyraste operationerna du kan utföra. Det kan vara "
+"svårt att inse om man betänker hur många av dem vi utför, men tro mig, det "
+"är de. Försök därför hålla dig från följande ej optimala beteende:"
+
+#. (itstool) path: item/p
+#: C/harmful.page:13
+msgid "Placing lots of small files all over the disk."
+msgstr "Placera massor av små filer över hela disken."
+
+#. (itstool) path: item/p
+#: C/harmful.page:18
+msgid "Opening, stating, and reading lots of files all over the disk"
+msgstr "Öppna, köra ”stat” på och läsa ett stort antal filer över hela disken"
+
+#. (itstool) path: item/p
+#: C/harmful.page:23
+msgid ""
+"Doing the above on files that are laid out at different times, so as to "
+"ensure that they are fragmented and cause even more seeking."
+msgstr ""
+"Göra det ovanstående på filer som lagts ut vid olika tidpunkter, så att de "
+"säkert är fragmenterade och orsakar än mer sökning."
+
+#. (itstool) path: item/p
+#: C/harmful.page:28
+msgid ""
+"Doing the above on files that are in different directories, so as to ensure "
+"that they are in different cylinder groups and cause even more seeking."
+msgstr ""
+"Göra det ovanstående på filer som är i olika kataloger, så att de säkert är "
+"i olika cylindergrupper och orsakar än mer sökning."
+
+#. (itstool) path: item/p
+#: C/harmful.page:33
+msgid "Repeatedly doing the above when it only needs to be done once."
+msgstr "Att upprepat göra det ovanstående då det bara behöver göras en gång."
+
+#. (itstool) path: page/p
+#: C/harmful.page:38
+msgid "Ways in which you can optimize your code to be seek-friendly:"
+msgstr "Vägar på vilket du kan optimera din kod att bli mer sökvänlig:"
+
+#. (itstool) path: item/p
+#: C/harmful.page:43
+msgid "Consolidate data into a single file."
+msgstr "Samla data i en enda fil."
+
+#. (itstool) path: item/p
+#: C/harmful.page:48
+msgid "Keep data together in the same directory."
+msgstr "Håll data samlat i samma katalog."
+
+#. (itstool) path: item/p
+#: C/harmful.page:53
+msgid "Cache data so as to not need to reread constantly."
+msgstr "Cacha data så att det inte konstant behöver läsas om."
+
+#. (itstool) path: item/p
+#: C/harmful.page:58
+msgid ""
+"Share data so as not to have to reread it from disk when each application "
+"loads."
+msgstr ""
+"Dela data så att det inte behöver läsas om från disk då varje program läses "
+"in."
+
+#. (itstool) path: item/p
+#: C/harmful.page:63
+msgid ""
+"Consider caching all of the data in a single binary file that is properly "
+"aligned and can be mmaped."
+msgstr ""
+"Överväg att cacha alla data i en enstaka binärfil som är korrekt justerad "
+"och du kan köra mmap på."
+
+#. (itstool) path: page/p
+#: C/harmful.page:68
+msgid ""
+"The trouble with disk seeks are compounded for reads, which is unfortunately "
+"what we are doing. Remember, reads are generally synchronous while writes "
+"are asynchronous. This only compounds the problem, serializing each read, "
+"and contributing to program latency."
+msgstr ""
+"Problemet med disksökningar förvärras för läsningar, vilket dessvärre är vad "
+"vi gör. Kom ihåg att läsningar generellt är synkrona medan skrivningar är "
+"asynkrona. Detta förvärrar bara problemet, serialiserar varje läsning och "
+"bidrar till programlatens."
+
+#. (itstool) path: license/p
+#: C/index.page:7
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License, Version 1.1 or any later "
+"version published by the Free Software Foundation with no Invariant "
+"Sections, no Front-Cover Texts, and no Back-Cover Texts. You may obtain a "
+"copy of the GNU Free Documentation License from the Free Software Foundation "
+"by visiting <link href=\"http://www.fsf.org\">their Web site</link> or by "
+"writing to: Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor "
+"Boston, MA 02110-1335, USA."
+msgstr ""
+"Tillstånd att kopiera, distribuera och/eller modifiera detta dokument ges "
+"under villkoren i GNU Free Documentation License, version 1.1 eller senare, "
+"utgivet av Free Software Foundation utan standardavsnitt och omslagstexter.  "
+"Du kan erhålla en kopia av GNU Free Documentation License från Free Software "
+"Foundation genom att besöka <link href=\"http://www.fsf.org\">deras "
+"webbplats</link> eller genom att skriva till: Free Software Foundation, "
+"Inc., 51 Franklin Street, Fifth Floor Boston, MA 02110-1335, USA."
+
+#. (itstool) path: license/p
+#: C/index.page:16
+msgid ""
+"Many of the names used by companies to distinguish their products and "
+"services are claimed as trademarks. Where those names appear in any GNOME "
+"documentation, and those trademarks are made aware to the members of the "
+"GNOME Documentation Project, the names have been printed in caps or initial "
+"caps."
+msgstr ""
+"Många av namnen som används av företag för att skilja på deras produkter och "
+"tjänster är registrerade varumärken. I de fall dessa namn förekommer i GNOME-"
+"dokumentation - och medlemmarna i GNOME-dokumentationsprojektet är medvetna "
+"om dessa varumärken - är de skrivna med versaler eller med inledande versal."
+
+#. (itstool) path: credit/years
+#: C/index.page:24 C/index.page:28
+msgid "2004-2005"
+msgstr "2004-2005"
+
+#. (itstool) path: credit/name
+#: C/index.page:25
+msgid "Callum McKenzie"
+msgstr "Callum McKenzie"
+
+#. (itstool) path: credit/name
+#: C/index.page:29
+msgid "Robert Love"
+msgstr "Robert Love"
+
+#. (itstool) path: info/desc
+#: C/index.page:32
+msgid ""
+"Software can be optimized in many ways: for speed, program size, or memory "
+"use. This section contains guides and tutorials for optimizing your software."
+msgstr ""
+"Programvara kan optimeras på många sätt: för hastighet, programstorlek eller "
+"minnesanvändning. Detta avsnitt innehåller guider och handledningar för att "
+"optimera din programvara."
+
+#. (itstool) path: page/title
+#: C/index.page:35
+msgid "Optimization Guide"
+msgstr "Optimeringsguide"
+
+#. (itstool) path: section/title
+#: C/index.page:38 C/massif.page:12
+msgid "Introduction"
+msgstr "Introduktion"
+
+#. (itstool) path: section/p
+#: C/index.page:39
+msgid ""
+"This is a brief introduction to optimization, both the hows and the whys. "
+"Details of individual tools and techniques are left for later articles, but "
+"a collection of hints and tricks is provided."
+msgstr ""
+"Detta är en kort inledning till optimering, både hur och varför det görs. "
+"Detaljer kring enskilda verktyg och tekniker lämnas till senare artiklar, "
+"men en samling tips och knep tillhandahålls."
+
+#. (itstool) path: section/title
+#: C/index.page:45
+msgid "Massif"
+msgstr "Massif"
+
+#. (itstool) path: section/p
+#. (itstool) path: page/p
+#: C/index.page:46 C/massif.page:9
+msgid ""
+"This article describes how to use the <app>Massif</app> heap profiler with "
+"GNOME applications. We describe how to invoke, interpret, and act on the "
+"output of <app>Massif</app>. The <app>Swell Foop</app> game is used as an "
+"example."
+msgstr ""
+"Denna artikel beskriver hur heap-profileraren <app>Massif</app> kan användas "
+"med GNOME-program. Vi beskriver hur du kan köra, tolka och reagera på utdata "
+"från <app>Massif</app>. Spelet <app>Swell Foop</app> används som ett exempel."
+
+#. (itstool) path: section/title
+#: C/index.page:53
+msgid "Harmfulness"
+msgstr "Skadlighet"
+
+#. (itstool) path: page/title
+#: C/introduction.page:7
+msgid "What are we Optimizing?"
+msgstr "Vad optimerar vi?"
+
+#. (itstool) path: page/p
+#: C/introduction.page:8
+msgid ""
+"When we optimize for GNOME the first thing to remember is this: we are not "
+"trying to make the program better, we are trying to make the person using "
+"the computer happier."
+msgstr ""
+"När vi optimerar för GNOME är den första saken att komma ihåg detta: vi "
+"försöker inte göra programmet bättre, vi försöker göra personen som använder "
+"datorn gladare."
+
+#. (itstool) path: page/p
+#: C/introduction.page:10
+msgid ""
+"Better programs make people happier, but there are some improvements that "
+"will make them a lot happier than others: Responsiveness, start-up time, "
+"easy to access commands and not having the computer go into swap the moment "
+"more than two programs are open."
+msgstr ""
+"Bättre program gör folk gladare, men det finns några förbättringar som "
+"kommer göra dem mycket gladare än andra: svarstid, uppstartstid, "
+"lättåtkomliga kommandon och att datorn inte övergår till växlingsminne så "
+"fort fler än två program är öppna."
+
+#. (itstool) path: page/p
+#: C/introduction.page:13
+msgid ""
+"Traditional optimization tackles concepts like CPU use, code size, the "
+"number of mouse clicks and the memory use of the program. This second list "
+"has been chosen to correlate with the first list, however there is an "
+"important difference: The person using GNOME doesn't care about the second "
+"list, but they care a lot about the first list. When optimizing GNOME "
+"programs we will reduce CPU use, memory use and all those things, but these "
+"are the means to the end, not the final goal. We are optimizing for people."
+msgstr ""
+"Traditionell optimering behandlar koncept som CPU-användning, kodstorlek, "
+"antalet musklick och minnesanvändningen för programmet. Denna andra lista "
+"har valts för att korrelera med den första listan, men det finns en viktig "
+"skillnad: Personen som använder GNOME bryr sig inte om den andra listan, "
+"medan de bryr sig mycket om den första listan. Då vi optimerar GNOME-program "
+"kommer vi minska CPU-användning, minnesanvändning och alla de sakerna, men "
+"dessa är medel för att nå målet, de är inte målet i sig. Vi optimerar för "
+"människor."
+
+#. (itstool) path: section/title
+#: C/introduction.page:18
+msgid "Doing the Optimization"
+msgstr "Göra optimeringen"
+
+#. (itstool) path: section/p
+#: C/introduction.page:19
+msgid ""
+"The previous section omitted one important qualifier: To optimize something "
+"it has to be measurable. You can't measure happiness. However, you can "
+"measure start-up time so you can tell if you have improved it. Happiness "
+"will then, hopefully, follow."
+msgstr ""
+"Det föregående avsnittet förbisåg en viktig egenskap: för att optimera något "
+"måste det vara mätbart. Du kan inte mäta glädje. Om du mäter uppstartstid "
+"kan du dock se om du har förbättrat den. Förhoppningsvis kommer även glädje "
+"att följa på detta."
+
+#. (itstool) path: section/p
+#: C/introduction.page:22
+msgid ""
+"Optimization is the process of measurement, refinement and re-measurement. "
+"So the first thing you must do is find a way to measure what you are "
+"optimizing. Ideally this measurement is a single number, for example: the "
+"time taken to perform a task. This is your benchmark, it is the only way to "
+"tell if you are winning or losing. There is a big difference between a "
+"program that <em>should</em> be fast and a program that <em>is</em> fast."
+msgstr ""
+"Optimering är en process bestående av mätning, förfining och ny mätning. Det "
+"första du måste göra är alltså att hitta ett sätt att mäta det som du "
+"optimerar. I idealfallet är detta mätvärde en enda siffra, till exempel "
+"tiden för att utföra en viss uppgift. Detta är ditt prestandatest, det är "
+"det enda sättet att avgöra om du vinner eller förlorar. Det är stor skillnad "
+"mellan ett program som <em>borde</em> vara snabbt och ett program som "
+"<em>är</em> snabbt."
+
+#. (itstool) path: section/p
+#: C/introduction.page:25
+msgid ""
+"Once you have a basic benchmark you need to find out why your code is not "
+"doing as well as it should. It is tempting to do this by inspection: just "
+"looking at the code and trying to spot something that looks like it needs "
+"improvement. You will invariably be wrong. Using a profiler to get a "
+"detailed break-down of what your program really does is the only way to be "
+"sure."
+msgstr ""
+"Då du väl har ett grundläggande prestandatest behöver du komma på varför din "
+"kod inte fungerar så bra som den borde. Det är frestande att göra detta via "
+"inspektion: att bara titta på koden och försöka hitta något som ser ut som "
+"att det behöver förbättras. Du kommer helt säkert ha fel. Att använda en "
+"profilerare för att få en detaljerad sammanställning över vad ditt program "
+"verkligen gör är enda sättet att vara säker."
+
+#. (itstool) path: section/p
+#: C/introduction.page:28
+msgid ""
+"Usually the problem is isolated to small sections of code. Pick the worst "
+"place and concentrate on that first. Once that is done, rerun the profiler "
+"and repeat. As you proceed the gains made at each step will get less and "
+"less, at some point you will have to decide that the results are good "
+"enough. If your efforts are only extracting 10% improvements then you are "
+"well past the point where you should have stopped."
+msgstr ""
+"Vanligen är problemet isolerat till små stycken kod. Välj det värsta stället "
+"och koncentrera dig på det först. Då det väl är klart kan du köra om "
+"profileraren och upprepa proceduren. Då du fortsätter kommer vinsterna du "
+"gör i varje steg bli mindre och mindre, och vid någon punkt måste du avgöra "
+"om resultaten är bra nog. Om dina ansträngningar endast orsakar "
+"förbättringar på 10% är du sedan länge förbi punkten då du borde ha slutat."
+
+#. (itstool) path: section/p
+#: C/introduction.page:31
+msgid ""
+"Don't forget the big picture. For example, rather than just trying to speed "
+"up a piece of code, ask yourself if it needs to be run at all. Could it be "
+"combined with another piece of code? Can the results of previous "
+"calculations be saved and reused? It won't even need to be optimized if it "
+"is in a place where the user is never going to notice it. Worse still, the "
+"code may already be optimized and is doing the heavy calculations now to "
+"avoid doing them later. Code does not run in isolation and neither does the "
+"optimization process."
+msgstr ""
+"Glöm inte helhetsbilden. Till exempel kan du istället för att försöka göra "
+"ett stycke kod snabbare fråga dig själv om det över huvud taget behöver "
+"köras. Kan det kombineras med annan kod? Kan resultatet från tidigare "
+"beräkningar sparas och återanvändas? Det behöver inte ens optimeras om det "
+"är på ett ställe så att användaren aldrig kommer att upptäcka det. "
+"Optimeringsförsök är än värre om koden redan är optimerad och gör de tunga "
+"beräkningarna nu för att undvika att göra dem senare. Kod körs inte "
+"isolerad, och detsamma gäller även optimeringsprocessen."
+
+#. (itstool) path: section/title
+#: C/introduction.page:37
+msgid "Hints"
+msgstr "Tips"
+
+#. (itstool) path: item/title
+#: C/introduction.page:41
+msgid "The Fundamentals"
+msgstr "Grunderna"
+
+#. (itstool) path: item/p
+#: C/introduction.page:44
+msgid ""
+"Re-run your benchmark after every change you make to the code and keep a log "
+"of everything you change and how it affects the benchmark. This lets you "
+"undo mistakes and also helps you not to repeat mistakes."
+msgstr ""
+"Kör om ditt prestandatest efter varje ändring du gör i koden och behåll en "
+"logg över allt du ändrar och hur det påverkar prestandatestet. Detta låter "
+"dig göra misstag ogjorda och hjälper dig även att inte upprepa misstag."
+
+#. (itstool) path: item/p
+#: C/introduction.page:49
+msgid ""
+"Make sure your code is correct and bug-free before optimizing it. Check that "
+"it remains correct and bug-free after optimization."
+msgstr ""
+"Försäkra dig om att din kod är korrekt och felfri innan du optimerar den. "
+"Kontrollera att den förblir korrekt och felfri efter optimering."
+
+#. (itstool) path: item/p
+#: C/introduction.page:54
+msgid "Optimize at the high level before optimizing the details."
+msgstr "Optimera på hög nivå innan du optimerar detaljerna."
+
+#. (itstool) path: item/p
+#: C/introduction.page:59
+msgid ""
+"Use the right algorithm. The classic text-book example is using quick-sort "
+"instead of bubble-sort. There are many others, some save memory, some save "
+"CPU. Also, see what shortcuts you can make: you can do quicker than quick-"
+"sort if you are prepared to make some compromises."
+msgstr ""
+"Använd rätt algoritm. Det klassiska skolboksexemplet är att använda "
+"kvicksortering istället för bubbelsortering. Det finns många andra, vissa "
+"sparar minne, andra sparar CPU. Se även vad du kan ta för genvägar: du kan "
+"sortera snabbare än kvicksortering om du är redo att göra kompromisser."
+
+#. (itstool) path: item/p
+#: C/introduction.page:64
+msgid ""
+"Optimization is a trade-off. Caching results speeds up calculations, but "
+"increases memory use. Saving data to disk saves memory, but costs time when "
+"it is loaded back from disk."
+msgstr ""
+"Optimering är en avvägning. Att cacha resultat snabbar upp beräkningar, men "
+"ökar minnesanvändning. Att spara data till disk sparar minne, men kostar tid "
+"då det läses tillbaka från disken."
+
+#. (itstool) path: item/p
+#: C/introduction.page:69
+msgid ""
+"Make sure you choose a wide variety of inputs to optimize against. If you "
+"don't it is easy to end up with a piece of code carefully optimized for one "
+"file and no others."
+msgstr ""
+"Säkerställ att du väljer en bred mångfald av indata att optimera mot. Om du "
+"inte gör detta är det lätt hänt att du i slutändan har kod som är noggrant "
+"optimerad mot en fil och inga andra."
+
+#. (itstool) path: item/p
+#: C/introduction.page:74
+msgid ""
+"Avoid expensive operations: Multiple small disk reads. Using up lots of "
+"memory so disk swapping becomes necessary. Avoid anything that writes or "
+"reads from the hard disk unnecessarily. The network is slow too. Also avoid "
+"graphics operations that need a response from the X server."
+msgstr ""
+"Undvik dyra operationer: många små diskläsningar. Att använda upp mycket "
+"minne så att användning av växlingsminne blir nödvändig. Undvik allt som "
+"skriver till eller läser från hårddisken i onödan. Nätverket är också "
+"långsamt. Undvik även grafikåtgärder som behöver ett svar från X-servern."
+
+#. (itstool) path: item/title
+#: C/introduction.page:81
+msgid "Traps for the Unwary"
+msgstr "Fällor för den oförsiktige"
+
+#. (itstool) path: item/p
+#: C/introduction.page:84
+msgid ""
+"Beware of side effects. There can often be strange interactions between "
+"different sections of code, a speed-up in one part can slow another part "
+"down."
+msgstr ""
+"Var uppmärksam på sidoeffekter. Det kan ofta finnas märkliga interaktioner "
+"mellan olika stycken kod, en hastighetsökning i en del kan sakta ner en "
+"annan del."
+
+#. (itstool) path: item/p
+#: C/introduction.page:89
+msgid ""
+"When timing code, even on a quiet system, events outside the program add "
+"noise to the timing results. Average over multiple runs. If the code is very "
+"short, timer resolution is also a problem. In this case measure the time the "
+"computer takes to run the code 100 or 1000 times. If the times you are "
+"recording are longer than a few seconds, you should be OK."
+msgstr ""
+"När du tar tid på kod så bidrar händelser utanför programmet till störningar "
+"till tidtagningsresultaten, detta även på ett system i vila. Ta ett "
+"genomsnitt över flera körningar. Om koden är väldigt kort är även "
+"upplösningen på tidsberäkningen ett problem. I detta fall får du mäta tiden "
+"datorn tar för att köra koden 100 eller 1000 gånger. Om tiderna du mäter är "
+"längre än några få sekunder är det troligen OK."
+
+#. (itstool) path: item/p
+#: C/introduction.page:94
+msgid ""
+"It is very easy to be misled by the profiler. There are stories of people "
+"optimizing the operating system idle-loop because that is where it spent all "
+"its time! Don't optimize code that does nothing the user cares about."
+msgstr ""
+"Det är lätt att bli vilseledd av profileraren. Det finns historier om folk "
+"som optimerat operativsystemets viloslinga för att det är där det "
+"tillbringar all sin tid! Optimera inte kod som inte gör något användaren är "
+"intresserad av."
+
+#. (itstool) path: item/p
+#: C/introduction.page:99
+msgid ""
+"Remember the resources on the X server. Your program's memory usage doesn't "
+"include the pixmaps that are stored in the X server's process, but they are "
+"still using up memory. Use xrestop to see what resources your program is "
+"using."
+msgstr ""
+"Kom ihåg resurserna på X-servern. Ditt programs minnesanvändning inkluderar "
+"inte pixmappar som lagras i X-serverns process, men de använder fortfarande "
+"minne. Använd xrestop för att se vilka resurser ditt program använder."
+
+#. (itstool) path: item/title
+#: C/introduction.page:106
+msgid "Low Level Hints"
+msgstr "Tips på låg nivå"
+
+#. (itstool) path: item/p
+#: C/introduction.page:109
+msgid ""
+"When optimizing memory use, be wary of the difference between peak usage and "
+"average memory usage. Some memory is almost always allocated, this is "
+"usually bad. Some is only briefly allocated, this may be quite acceptable. "
+"Tools like massif use the concept of space-time, the product of memory used "
+"and the duration it was allocated for, instead."
+msgstr ""
+"När du optimerar minnesanvändning får du vara uppmärksam på skillnaden "
+"mellan maximal användning och genomsnittlig minnesanvändning. Visst minne är "
+"nästan alltid allokerat, detta är oftast dåligt. Annat är bara allokerat "
+"kort tid, detta kan vara acceptabelt. Verktyg som massif använder istället "
+"konceptet utrymmestid, produkten av använt minne och tidslängden det var "
+"allokerat."
+
+#. (itstool) path: item/p
+#: C/introduction.page:114
+msgid ""
+"Time simplified bits of code that do only the things you know are essential, "
+"this gives an absolute lower limit on the time your code will take. For "
+"example, when optimizing a loop time the empty loop. If that is still too "
+"long no amount of micro-optimization will help and you will have to change "
+"your design. Make sure the compiler doesn't optimize away your empty loop."
+msgstr ""
+"Ta tid på förenklade kodstycken som endast gör de väsentliga sakerna, detta "
+"ger dig en absolut lägre gräns på tiden din kod kommer ta. Om du till "
+"exempel optimerar en slinga kan du ta tid på en tom slinga. Om detta "
+"fortfarande tar för lång tid kan ingen mikrooptimering hjälpa dig, och du "
+"måste ändra din design. Säkerställ att kompilatorn inte optimerar bort din "
+"tomma slinga."
+
+#. (itstool) path: item/p
+#: C/introduction.page:119
+msgid ""
+"Move code out from inside loops. A slightly more complicated piece of code "
+"that is executed once is far quicker than a simple piece of code executed a "
+"thousand times. Avoid calling slow code often."
+msgstr ""
+"Flytta ut kod som är i slingor. En något mer komplicerad kod som körs en "
+"gång är mycket snabbare än ett enkelt kodstycke som körs tusen gånger. "
+"Undvik att anropa långsam kod ofta."
+
+#. (itstool) path: item/p
+#: C/introduction.page:124
+msgid ""
+"Give the compiler as many hints as possible. Use the const keyword. Use "
+"<code>G_INLINE_FUNC</code> for short, frequently called, functions. Look up "
+"<code>G_GNUC_PURE</code>, <code>G_LIKELY</code> and the other glib "
+"miscellaneous macros. Use the macros instead of gcc-specific keywords to "
+"ensure portability."
+msgstr ""
+"Ge kompilatorn så många tips som möjligt. Använd nyckelordet const. Använd "
+"<code>G_INLINE_FUNC</code> för korta, ofta anropade, funktioner. Ta en titt "
+"på <code>G_GNUC_PURE</code>, <code>G_LIKELY</code> och de andra "
+"diversemakrona hos glib. Använd makrona istället för gcc-specifika nyckelord "
+"för att säkerställa portabilitet."
+
+#. (itstool) path: item/p
+#: C/introduction.page:129
+msgid ""
+"Don't use assembly language. It is not portable and, while it may be fast on "
+"one processor, it is not even guaranteed to be fast on every processor that "
+"supports that architecture (e.g. Athlon vs. Pentium 4)."
+msgstr ""
+"Använd inte assemblerspråk. Det är inte porterbart, och även om det kan vara "
+"snabbt på en processor så är det inte garanterat att vara snabbt på alla "
+"processorer som stöder den arkitekturen (t.ex. Athlon kontra Pentium 4)."
+
+#. (itstool) path: item/p
+#: C/introduction.page:134
+msgid ""
+"Don't rewrite an existing library routine unless you are sure it is "
+"unnecessarily slow. Many CPU-intensive library routines have already been "
+"optimized. Conversely, some library routines are slow, especially ones that "
+"make system calls to the operating system."
+msgstr ""
+"Skriv inte om en existerande biblioteksrutin om du inte är säker på att den "
+"är onödigt långsam. Många CPU-intensiva biblioteksrutiner har redan "
+"optimerats. Omvänt är vissa biblioteksrutiner långsamma, särskilt sådana som "
+"gör systemanrop till operativsystemet."
+
+#. (itstool) path: item/p
+#: C/introduction.page:139
+msgid ""
+"Minimize the number of libraries you link to. The fewer libraries to link "
+"in, the faster the program starts. This is a difficult thing to do with "
+"GNOME."
+msgstr ""
+"Minimera antalet bibliotek som du länkar till. Ju färre program att länka "
+"in, desto snabbare startar programmet. Detta är svårt att göra med GNOME."
+
+#. (itstool) path: item/title
+#: C/introduction.page:146
+msgid "High Level Tricks"
+msgstr "Trick på hög nivå"
+
+#. (itstool) path: item/p
+#: C/introduction.page:149
+msgid ""
+"Take advantage of concurrency. This doesn't just mean using multiple "
+"processors, it also means taking advantage of the time the user spends "
+"thinking about what they are going to do next to perform some calculations "
+"in anticipation. Do calculations while waiting for data to be loaded off "
+"disk. Take advantage of multiple resources, use them all at once."
+msgstr ""
+"Dra nytta av samtidighet. Detta betyder inte bara att använda flera "
+"processorer, det betyder också att dra nytta av tiden användaren använder "
+"för att tänka på vad de ska göra härnäst för att utföra några beräkningar i "
+"förväg. Gör beräkningar under väntan på att data ska läsas från disk. Dra "
+"nytta av flera resurser, använd dem alla samtidigt."
+
+#. (itstool) path: item/p
+#: C/introduction.page:154
+msgid ""
+"Cheat. The user only has to think that the computer is fast, it doesn't "
+"matter whether it actually is or not. It is the time between the command and "
+"the answer that is important, it doesn't matter if the response is pre-"
+"calculated, cached, or will in fact be worked out later at a more convenient "
+"time, as long as the user gets what they expect."
+msgstr ""
+"Fuska. Användaren behöver bara tro att datorn är snabb, det spelar ingen "
+"roll om den faktiskt är det eller inte. Det är tiden mellan kommandot och "
+"svaret som är viktig, det spelar ingen roll om svaret är beräknat i förväg, "
+"cachat, eller faktiskt kommer utarbetas senare vid ett lämpligare tillfälle, "
+"så länge användaren får vad de förväntar sig."
+
+#. (itstool) path: item/p
+#: C/introduction.page:159
+msgid ""
+"Do things in the idle loop. It is easier to program than using full multi-"
+"threading but still gets things done out of the users eye. Be careful "
+"though, if you spend too long in the idle loop your program will become "
+"sluggish. So regularly give control back to the main loop."
+msgstr ""
+"Gör saker i viloslingan. Det är enklare att programmera än fullständig "
+"flertrådning men får ändå saker gjorda utan att användaren märker det. Var "
+"dock försiktig, om du tillbringar för mycket tid i viloslingan kommer ditt "
+"program att kännas trögt. Ge därför med jämna mellanrum kontroll tillbaka "
+"till huvudslingan."
+
+#. (itstool) path: item/p
+#: C/introduction.page:164
+msgid ""
+"If all else fails, tell the user that the code is going to be slow and put "
+"up a progress bar. They won't be as happy as if you had just presented the "
+"results, but they will at least know the program hasn't crashed and they can "
+"go get a cup of coffee."
+msgstr ""
+"Om allt annat misslyckas får du varna användaren att koden kommer vara "
+"långsam och visa en förloppsmätare. De kommer inte vara så glada som om du "
+"bara presenterat resultaten, men de vet i alla fall att programmet inte har "
+"kraschat och att de kan gå och ta sig en kopp kaffe."
+
+#. (itstool) path: media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/massif.page:50
+msgctxt "_"
+msgid ""
+"external ref='figures/massif-before.png' "
+"md5='1a6b2ace548e6789ab8bfacb3727b345'"
+msgstr ""
+"external ref='figures/massif-before.png' "
+"md5='1a6b2ace548e6789ab8bfacb3727b345'"
+
+#. (itstool) path: media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/massif.page:124
+msgctxt "_"
+msgid ""
+"external ref='figures/massif-after.png' "
+"md5='36d1b4ad7ab49b28b69ad3eabbaa7069'"
+msgstr ""
+"external ref='figures/massif-after.png' "
+"md5='36d1b4ad7ab49b28b69ad3eabbaa7069'"
+
+#. (itstool) path: page/title
+#: C/massif.page:7
+msgid "Using <app>Massif</app> for Profiling Memory Use in GNOME Software"
+msgstr ""
+"Använda <app>Massif</app> för att profilera minnesanvändning i GNOME-program"
+
+#. (itstool) path: section/p
+#: C/massif.page:13
+msgid ""
+"<app>Massif</app> is a member of the <link href=\"http://valgrind.org/"
+"\">valgrind</link> suite of memory-profiling tools. Its purpose is to give a "
+"detailed view of dynamic memory usage during the lifetime of the program. "
+"Specifically it records the memory use of the heap and the stack."
+msgstr ""
+"<app>Massif</app> är en medlem av <link href=\"http://valgrind.org/"
+"\">valgrind</link>-sviten av verktyg för minnesprofilering. Dess syfte är "
+"att ge en detaljerad överblick över dynamisk minnesanvändning under "
+"programmets livstid. Specifikt lagrar det minnesanvändningen för heapen och "
+"stacken."
+
+#. (itstool) path: section/p
+#: C/massif.page:16
+msgid ""
+"The heap is the region of memory which is allocated with functions like "
+"malloc. It grows on demand and is usually the largest region of memory in a "
+"program. The stack is where all the local data for functions is stored. This "
+"includes the \"automatic\" variables in C and the return address for "
+"subroutines. The stack is typically a lot smaller and a lot more active than "
+"the heap. We won't consider the stack explicitly since <app>Massif</app> "
+"treats it as though it were just another part of the heap. <app>Massif</app> "
+"also gives information about how much memory is used to manage the heap."
+msgstr ""
+"Heapen är minnesregionen som allokeras med funktioner som malloc. Den växer "
+"enligt efterfrågan och är vanligen den största minnesregionen i ett program. "
+"Stacken är där alla lokala data för funktioner lagras. Detta inkluderar de "
+"”automatiska” variablerna i C och returadressen för subrutiner. Stacken är "
+"vanligen mycket mindre och mycket mer aktiv än heapen. Vi kommer inte "
+"explicit tänka närmare på stacken eftersom <app>Massif</app> behandlar den "
+"som att den bara vore en annan del av heapen. <app>Massif</app> ger också "
+"information om hur mycket minne som används för att hantera heapen."
+
+#. (itstool) path: section/p
+#: C/massif.page:18
+msgid ""
+"<app>Massif</app> produces two output files: a graphical overview in a "
+"postscript file and a detailed breakdown in a text file."
+msgstr ""
+"<app>Massif</app> skapar två utdatafiler: en grafisk överblick i en "
+"postscript-fil och en detaljerad sammanställning i en textfil."
+
+#. (itstool) path: section/title
+#: C/massif.page:23
+msgid "Using <app>Massif</app> with GNOME"
+msgstr "Använda <app>Massif</app> med GNOME"
+
+#. (itstool) path: section/p
+#: C/massif.page:24
+msgid ""
+"<app>Massif</app> has very few options and for many programs does not need "
+"them. However for GNOME applications, where memory allocation might be "
+"buried deep in either glib or GTK, the number of levels down the call-stack "
+"Massif descends needs to be increased. This is achieved using the --depth "
+"parameter. By default this is 3; increasing it to 5 will guarantee the call-"
+"stack reaches down to your code. One or two more levels may also be "
+"desirable to provide your code with some context. Since the level of detail "
+"becomes quickly overwhelming it is best to start with the smaller depth "
+"parameter and only increase it when it becomes apparent that it isn't "
+"sufficient."
+msgstr ""
+"<app>Massif</app> har väldigt få flaggor och behöver dem inte för många "
+"program. För GNOME-program, där minnesallokering kan vara gömd djupt nere i "
+"antingen glib eller GTK, kan dock antalet nivåer som Massif går ner för "
+"anropsstacken behöva ökas. Detta uppnås med parametern --depth. Denna är som "
+"standard 3. Att öka den till 5 garanterar att anropsstacken når ner till din "
+"kod. En eller två ytterligare nivåer kan också vara önskvärda för att "
+"tillhandahålla mer sammanhang till din kod. Eftersom detaljnivån snabbt blir "
+"överväldigande är det bäst att börja med den mindre djupparametern och "
+"endast öka den då det blir uppenbart att den är otillräcklig."
+
+#. (itstool) path: section/p
+#: C/massif.page:27
+msgid ""
+"It is also useful to tell <app>Massif</app> which functions allocate memory "
+"in glib. It removes an unnecessary layer of function calls from the reports "
+"and gives you a clearer idea of what code is allocating memory. The "
+"allocating functions in glib are g_malloc, g_malloc0, g_realloc, "
+"g_try_malloc, and g_mem_chunk_alloc. You use the --alloc-fn option to tell "
+"Massif about them."
+msgstr ""
+"Det är också användbart att berätta för <app>Massif</app> vilka funktioner "
+"som allokerar minne i glib. Det tar bort ett onödigt lager av funktionsanrop "
+"från rapporterna och ger dig en tydligare bild av vilken kod som allokerar "
+"minne. De allokerande funktionerna i glib är g_malloc, g_malloc0, g_realloc, "
+"g_try_malloc och g_mem_chunk_alloc. Du använder flaggan --alloc-fn för att "
+"informera Massif om dem."
+
+#. (itstool) path: section/p
+#: C/massif.page:30
+msgid "Your command-line should therefore look something like:"
+msgstr "Din kommandorad bör därför se ut något i stil med:"
+
+#. (itstool) path: section/code
+#: C/massif.page:33
+#, no-wrap
+msgid ""
+"\n"
+"valgrind --tool=massif --depth=5  --alloc-fn=g_malloc --alloc-fn=g_realloc --alloc-fn=g_try_malloc \\\n"
+"         --alloc-fn=g_malloc0 --alloc-fn=g_mem_chunk_alloc swell-foop\n"
+"        "
+msgstr ""
+"\n"
+"valgrind --tool=massif --depth=5  --alloc-fn=g_malloc --alloc-fn=g_realloc --alloc-fn=g_try_malloc \\\n"
+"         --alloc-fn=g_malloc0 --alloc-fn=g_mem_chunk_alloc swell-foop\n"
+"        "
+
+#. (itstool) path: section/p
+#: C/massif.page:37
+msgid ""
+"<app>Swell Foop</app> is the program we will be using as an example. Be "
+"warned that, since valgrind emulates the CPU, it will run <em>very</em> "
+"slowly. You will also need a lot of memory."
+msgstr ""
+"<app>Swell Foop</app> är programmet vi kommer använda som ett exempel. Var "
+"redo på att eftersom valgrind emulerar processorn så kommer det köra "
+"<em>väldigt</em> långsamt. Du kommer också behöva mycket minne."
+
+#. (itstool) path: section/title
+#: C/massif.page:41
+msgid "Interpreting the Results"
+msgstr "Tolka resultaten"
+
+#. (itstool) path: section/p
+#: C/massif.page:42
+msgid ""
+"The graphical output of <app>Massif</app> is largely self explanatory. Each "
+"band represents the memory allocated by one function over time. Once you "
+"identify which bands are using the most memory, usually the big thick ones "
+"at the top you will have to consult the text file for the details."
+msgstr ""
+"Grafiskt utdata för <app>Massif</app> är i stort självförklarande. Varje "
+"band representerar minnet allokerat av en funktion över tid. Då du väl "
+"identifierat vilka band som använder mest minne, oftast de tjocka banden "
+"högst upp, kommer du att behöva läsa textfilen för detaljer."
+
+#. (itstool) path: section/p
+#: C/massif.page:45
+msgid ""
+"The text file is arranged as a hierarchy of sections, at the top is a list "
+"of the worst memory users arranged in order of decreasing spacetime. Below "
+"this are further sections, each breaking the results down into finer detail "
+"as you proceed down the call-stack. To illustrate this we will use the "
+"output of the command above."
+msgstr ""
+"Textfilen är arrangerad som en hierarki av avsnitt, högst upp är en lista "
+"över de värsta minnesanvändarna arrangerade i ordning efter sjunkande "
+"utrymmestid. Under detta är vidare avsnitt som vardera delar upp resultaten "
+"i större detalj allt efter att du fortsätter ner för anropsstacken. För att "
+"illustrera detta kommer vi visa utdata för kommandot ovan."
+
+#. (itstool) path: figure/title
+#: C/massif.page:49
+msgid ""
+"<app>Massif</app> output for the unoptimized version of the <app>Swell Foop</"
+"app> program."
+msgstr ""
+"Utdata från <app>Massif</app> för den ej optimerade versionen av programmet "
+"<app>Swell Foop</app>."
+
+#. (itstool) path: section/p
+#: C/massif.page:52
+msgid ""
+"The image above shows a typical postscript output from <app>Massif</app>. "
+"This is the result you would get from playing a single game of <app>Swell "
+"Foop</app> (version 2.8.0) and then quitting. The postscript file will have "
+"a name like <file>massif.12345.ps</file> and the text file will be called "
+"<file>massif.12345.txt</file>. The number in the middle is the process ID of "
+"the program that was examined. If you actually try this example you will "
+"find two versions of each file, with slightly different numbers, this is "
+"because <app>Swell Foop</app> starts a second process and <app>Massif</app> "
+"follows that too. We will ignore this second process, it consumes very "
+"little memory."
+msgstr ""
+"Bilden ovan visar typiskt postscript-utdata från <app>Massif</app>. Detta är "
+"resultatet du skulle få av att spela en omgång <app>Swell Foop</app> "
+"(version 2.8.0) och sedan avsluta. Postscript-filen kommer ha ett namn som "
+"<file>massif.12345.ps</file> och textfilen kommer att kallas "
+"<file>massif.12345.txt</file>. Numret i mitten är process-ID:t för "
+"programmet som undersöktes. Om du faktiskt prövar detta exempel kommer du "
+"hitta två versioner av varje fil, med något olika nummer, detta beror på att "
+"<app>Swell Foop</app> startar en andra process och <app>Massif</app> följer "
+"den också. Vi kommer ignorera denna andra process, den förbrukar mycket lite "
+"minne."
+
+#. (itstool) path: section/p
+#: C/massif.page:66
+msgid ""
+"At the top of the graph we see a large yellow band labelled gdk_pixbuf_new. "
+"This seems like an ideal candidate for optimization, but we will need to use "
+"the text file to find out what is calling gdk_pixbuf_new. The top of the "
+"text file will look something like this:"
+msgstr ""
+"Högst upp på grafen ser vi ett stort gult band märkt gdk_pixbuf_new. Detta "
+"verkar vara en ideal kandidat för optimering, men vi kommer behöva använda "
+"textfilen för att få reda på vad som anropar gdk_pixbuf_new. Början på "
+"textfilen kommer se ut något i stil med detta:"
+
+#. (itstool) path: section/code
+#: C/massif.page:69
+#, no-wrap
+msgid ""
+"\n"
+"Command: ./swell-foop\n"
+"\n"
+"== 0 ===========================\n"
+"Heap allocation functions accounted for 90.4% of measured spacetime\n"
+"\n"
+"Called from:\n"
+"  28.8% : 0x6BF83A: gdk_pixbuf_new (in /usr/lib/libgdk_pixbuf-2.0.so.0.400.9)\n"
+"\n"
+"    6.1% : 0x5A32A5: g_strdup (in /usr/lib/libglib-2.0.so.0.400.6)\n"
+"\n"
+"    5.9% : 0x510B3C: (within /usr/lib/libfreetype.so.6.3.7)\n"
+"\n"
+"    3.5% : 0x2A4A6B: __gconv_open (in /lib/tls/libc-2.3.3.so)\n"
+"        "
+msgstr ""
+"\n"
+"Command: ./swell-foop\n"
+"\n"
+"== 0 ===========================\n"
+"Heap allocation functions accounted for 90.4% of measured spacetime\n"
+"\n"
+"Called from:\n"
+"  28.8% : 0x6BF83A: gdk_pixbuf_new (in /usr/lib/libgdk_pixbuf-2.0.so.0.400.9)\n"
+"\n"
+"    6.1% : 0x5A32A5: g_strdup (in /usr/lib/libglib-2.0.so.0.400.6)\n"
+"\n"
+"    5.9% : 0x510B3C: (within /usr/lib/libfreetype.so.6.3.7)\n"
+"\n"
+"    3.5% : 0x2A4A6B: __gconv_open (in /lib/tls/libc-2.3.3.so)\n"
+"        "
+
+#. (itstool) path: section/p
+#: C/massif.page:84
+msgid ""
+"The line with the '=' signs indicates how far down the stack trace we are, "
+"in this case we are at the top. After this it lists the heaviest users of "
+"memory in order of decreasing spacetime. Spacetime is the product of the "
+"amount of memory used and how long it was used for. It corresponds to the "
+"area of the bands in the graph. This part of the file tells us what we "
+"already know: most of the spacetime is dedicated to gdk_pixbuf_new. To find "
+"out what called gdk_pixbuf_new we need to search further down the text file:"
+msgstr ""
+"Raden med ”=”-tecknen indikerar hur långt ner för stackspåret vi är, i detta "
+"fall på toppen. Efter detta listar det de tyngsta användarna av minne "
+"ordnade efter sjunkande utrymmestid. Utrymmestid är produkten av mängden "
+"minne som används och hur länge det användes. Det motsvarar arean av banden "
+"i grafen, Denna del av filen talar om för oss vad vi redan vet: att den "
+"mesta utrymmestiden ägnas åt gdk_pixbuf_new. För att ta reda på vad som "
+"anropade gdk_pixbuf_new måste vi söka längre ner i textfilen:"
+
+#. (itstool) path: section/code
+#: C/massif.page:87
+#, no-wrap
+msgid ""
+"\n"
+"== 4 ===========================\n"
+"Context accounted for 28.8% of measured spacetime\n"
+"  0x6BF83A: gdk_pixbuf_new (in /usr/lib/libgdk_pixbuf-2.0.so.0.400.9)\n"
+"  0x3A998998: (within /usr/lib/gtk-2.0/2.4.0/loaders/libpixbufloader-png.so)\n"
+"  0x6C2760: (within /usr/lib/libgdk_pixbuf-2.0.so.0.400.9)\n"
+"  0x6C285E: gdk_pixbuf_new_from_file (in /usr/lib/libgdk_pixbuf-2.0.so.0.400.9)\n"
+"\n"
+"Called from:\n"
+"  27.8% : 0x804C1A3: load_scenario (swell-foop.c:463)\n"
+"\n"
+"    0.9% : 0x3E8095E: (within /usr/lib/libgnomeui-2.so.0.792.0)\n"
+"\n"
+"  and 1 other insignificant place\n"
+"        "
+msgstr ""
+"\n"
+"== 4 ===========================\n"
+"Context accounted for 28.8% of measured spacetime\n"
+"  0x6BF83A: gdk_pixbuf_new (in /usr/lib/libgdk_pixbuf-2.0.so.0.400.9)\n"
+"  0x3A998998: (within /usr/lib/gtk-2.0/2.4.0/loaders/libpixbufloader-png.so)\n"
+"  0x6C2760: (within /usr/lib/libgdk_pixbuf-2.0.so.0.400.9)\n"
+"  0x6C285E: gdk_pixbuf_new_from_file (in /usr/lib/libgdk_pixbuf-2.0.so.0.400.9)\n"
+"\n"
+"Called from:\n"
+"  27.8% : 0x804C1A3: load_scenario (swell-foop.c:463)\n"
+"\n"
+"    0.9% : 0x3E8095E: (within /usr/lib/libgnomeui-2.so.0.792.0)\n"
+"\n"
+"  and 1 other insignificant place\n"
+"        "
+
+#. (itstool) path: section/p
+#: C/massif.page:102
+msgid ""
+"The first line tells us we are now four levels deep into the stack. Below it "
+"is a listing of the function calls that leads from here to gdk_pixbuf_new. "
+"Finally there is a list of functions that are at the next level down and "
+"call these functions. There are, of course, also entries for levels 1, 2, "
+"and 3, but this is the first level to reach right down through the GDK code "
+"to the <app>Swell Foop</app> code. From this listing, we can see instantly "
+"that the problem code is load_scenario."
+msgstr ""
+"Den första raden säger oss att vi är fyra nivåer ner i stacken. Under den är "
+"en lista över de funktionsanrop som leder härifrån till gdk_pixbuf_new. "
+"Slutligen finns det en lista över funktioner som är på nästa nivå neråt och "
+"anropar dessa funktioner. Det finns förstås även poster för nivå 1, 2 och 3, "
+"men detta är den första nivån som når rakt genom GDK-koden till <app>Swell "
+"Foop</app>-koden. Från denna lista kan vi omedelbart se att problemkoden är "
+"load_scenario."
+
+#. (itstool) path: section/p
+#: C/massif.page:105
+msgid ""
+"Now that we know what part of our code is using all the spacetime we can "
+"look at it and find out why. It turns out that the load_scenario is loading "
+"a pixbuf from file and then never freeing that memory. Having identified the "
+"problem code, we can start to fix it."
+msgstr ""
+"Nu när vi vet vilken del av vår kod som använder all utrymmestid kan vi "
+"titta på den och ta reda på varför. Det visar sig att load_scenario läser in "
+"en pixbuf från fil och sedan aldrig frigör det minnet. Eftersom vi har "
+"identifierat problemkoden så kan vi fixa den."
+
+#. (itstool) path: section/title
+#: C/massif.page:110
+msgid "Acting on the Results"
+msgstr "Agera på resultaten"
+
+#. (itstool) path: section/p
+#: C/massif.page:111
+msgid ""
+"Reducing spacetime consumption is good, but there are two ways of reducing "
+"it and they are not equal. You can either reduce the amount of memory "
+"allocated, or reduce the amount of time it is allocated for. Consider for a "
+"moment a model system with only two processes running. Both processes use up "
+"almost all the physical RAM and if they overlap at all then the system will "
+"swap and everything will slow down. Obviously if we reduce the memory usage "
+"of each process by a factor of two then they can peacefully coexist without "
+"the need for swapping. If instead we reduce the time the memory is allocated "
+"by a factor of two then the two programs can coexist, but only as long as "
+"their periods of high memory use don't overlap. So it is better to reduce "
+"the amount of memory allocated."
+msgstr ""
+"Att reducera användning av utrymmestid är bra, men det finns två sätt att "
+"minska det och de är inte likvärdiga. Du kan antingen minska mängden minne "
+"som allokeras, eller minska tidsperioden som det är allokerat. Tänk dig nu "
+"ett modalt system där bara två processer körs. Båda processerna använder upp "
+"nästan allt fysiskt RAM-minne, och om de någonsin överlappar kommer systemet "
+"använda växlingsutrymme och allt kommer att sakta ner. Uppenbarligen kan de "
+"samexistera utan behov att använda växlingsutrymme om vi minskar "
+"minnesanvändningen för varje process med en faktor två. Om vi istället "
+"minskar tiden minne är allokerat kan programmen samexistera, men bara så "
+"länge deras perioder av hög minnesanvändning inte överlappar. Det är därför "
+"bättre att minska mängden allokerat minne."
+
+#. (itstool) path: section/p
+#: C/massif.page:114
+msgid ""
+"Unfortunately, the choice of optimization is also constrained by the needs "
+"of the program. The size of the pixbuf data in <app>Swell Foop</app> is "
+"determined by the size of the game's graphics and cannot be easily reduced. "
+"However, the amount of time it spends loaded into memory can be drastically "
+"reduced. The image below shows the <app>Massif</app> analysis of <app>Swell "
+"Foop</app> after being altered to dispose of the pixbufs once the images "
+"have been loaded into the X server."
+msgstr ""
+"Dessvärre begränsas valet av optimering även av programmets behov. Storleken "
+"på pixbuf-data i <app>Swell Foop</app> avgörs av storleken på spelets grafik "
+"och kan inte minskas på något lätt sätt. Tidsperioden som det är inläst i "
+"minne kan dock minskas drastiskt. Bilden nedan visar analysen <app>Massif</"
+"app> har gjort av <app>Swell Foop</app> efter att programmet ändrats för att "
+"göra sig av med pixbufar då bilderna har lästs in i X-servern."
+
+#. (itstool) path: figure/title
+#: C/massif.page:123
+msgid ""
+"<app>Massif</app> output for the optimized <app>Swell Foop</app> program."
+msgstr ""
+"<app>Massif</app>-utdata för det optimerade <app>Swell Foop</app>-programmet."
+
+#. (itstool) path: section/p
+#: C/massif.page:126
+msgid ""
+"The spacetime use of gdk_pixbuf_new is now a thin band that only spikes "
+"briefly (it is now the sixteenth band down and shaded magenta). As a bonus, "
+"the peak memory use has dropped by 200 kB since the spike occurs before "
+"other memory is allocated. If two processes like this were run together the "
+"chances of the peak memory usage coinciding, and hence the risk of swapping, "
+"would be quite low."
+msgstr ""
+"Användningen av utrymmestid för gdk_pixbuf_new är nu ett tunt band som "
+"endast tillfälligt når toppar (det är nu det sextonde bandet uppifrån och "
+"har färgen magenta). Som en bonus minskar minnesanvändningstoppen med 200 kB "
+"efter det att toppen inträffat innan annat minne allokeras. Om två processer "
+"som denna körs samtidigt är risken att topparna inträffar samtidigt, och "
+"därmed risken att växlingsutrymme behöver användas, ganska låg."
+
+#. (itstool) path: section/p
+#: C/massif.page:129
+msgid ""
+"Can we do better ? A quick examination of <app>Massif</app>'s text output "
+"reveals: g_strdup to be the new major offender."
+msgstr ""
+"Kan vi göra bättre? En snabb undersökning av textutdata från <app>Massif</"
+"app> visar att g_strdup nu är den största minnestjuven."
+
+#. (itstool) path: section/code
+#: C/massif.page:132
+#, no-wrap
+msgid ""
+"\n"
+"Command: ./swell-foop\n"
+"\n"
+"== 0 ===========================\n"
+"Heap allocation functions accounted for 87.6% of measured spacetime\n"
+"\n"
+"Called from:\n"
+"    7.7% : 0x5A32A5: g_strdup (in /usr/lib/libglib-2.0.so.0.400.6)\n"
+"\n"
+"    7.6% : 0x43BC9F: (within /usr/lib/libgdk-x11-2.0.so.0.400.9)\n"
+"\n"
+"    6.9% : 0x510B3C: (within /usr/lib/libfreetype.so.6.3.7)\n"
+"\n"
+"    5.2% : 0x2A4A6B: __gconv_open (in /lib/tls/libc-2.3.3.so)\n"
+"        "
+msgstr ""
+"\n"
+"Command: ./swell-foop\n"
+"\n"
+"== 0 ===========================\n"
+"Heap allocation functions accounted for 87.6% of measured spacetime\n"
+"\n"
+"Called from:\n"
+"    7.7% : 0x5A32A5: g_strdup (in /usr/lib/libglib-2.0.so.0.400.6)\n"
+"\n"
+"    7.6% : 0x43BC9F: (within /usr/lib/libgdk-x11-2.0.so.0.400.9)\n"
+"\n"
+"    6.9% : 0x510B3C: (within /usr/lib/libfreetype.so.6.3.7)\n"
+"\n"
+"    5.2% : 0x2A4A6B: __gconv_open (in /lib/tls/libc-2.3.3.so)\n"
+"        "
+
+#. (itstool) path: section/p
+#: C/massif.page:147
+msgid ""
+"If we look closer though we see that it is called from many, many, places."
+msgstr ""
+"Om vi tittar närmare ser vi dock att det anropas från många, många ställen."
+
+#. (itstool) path: section/code
+#: C/massif.page:150
+#, no-wrap
+msgid ""
+"\n"
+"== 1 ===========================\n"
+"Context accounted for  7.7% of measured spacetime\n"
+"  0x5A32A5: g_strdup (in /usr/lib/libglib-2.0.so.0.400.6)\n"
+"\n"
+"Called from:\n"
+"    1.8% : 0x8BF606: gtk_icon_source_copy (in /usr/lib/libgtk-x11-2.0.so.0.400.9)\n"
+"\n"
+"    1.1% : 0x67AF6B: g_param_spec_internal (in /usr/lib/libgobject-2.0.so.0.400.6)\n"
+"\n"
+"    0.9% : 0x91FCFC: (within /usr/lib/libgtk-x11-2.0.so.0.400.9)\n"
+"\n"
+"    0.8% : 0x57EEBF: g_quark_from_string (in /usr/lib/libglib-2.0.so.0.400.6)\n"
+"\n"
+"  and 155 other insignificant places\n"
+"        "
+msgstr ""
+"\n"
+"== 1 ===========================\n"
+"Context accounted for  7.7% of measured spacetime\n"
+"  0x5A32A5: g_strdup (in /usr/lib/libglib-2.0.so.0.400.6)\n"
+"\n"
+"Called from:\n"
+"    1.8% : 0x8BF606: gtk_icon_source_copy (in /usr/lib/libgtk-x11-2.0.so.0.400.9)\n"
+"\n"
+"    1.1% : 0x67AF6B: g_param_spec_internal (in /usr/lib/libgobject-2.0.so.0.400.6)\n"
+"\n"
+"    0.9% : 0x91FCFC: (within /usr/lib/libgtk-x11-2.0.so.0.400.9)\n"
+"\n"
+"    0.8% : 0x57EEBF: g_quark_from_string (in /usr/lib/libglib-2.0.so.0.400.6)\n"
+"\n"
+"  and 155 other insignificant places\n"
+"        "
+
+#. (itstool) path: section/p
+#: C/massif.page:166
+msgid ""
+"We now face diminishing returns for our optimization efforts. The graph "
+"hints at another possible approach: Both the \"other\" and \"heap admin\" "
+"bands are quite large. This tells us that there are a lot of small "
+"allocations being made from a variety of places. Eliminating these will be "
+"difficult, but if they can be grouped then the individual allocations can be "
+"larger and the \"heap admin\" overhead can be reduced."
+msgstr ""
+"Vi möter nu avtagande resultat för våra optimeringsförsök. Grafen tipsar om "
+"en annan möjlig infallsvinkel: både bandet ”other” och ”heap admin” är "
+"ganska stort. Detta säger oss att det finns många små allokeringar som görs "
+"från olika ställen. Att eliminera dessa blir svårt, men om de kunde "
+"grupperas skulle individuella allokeringar kunna vara större och kostnaden "
+"för ”heap admin” kunna minskas."
+
+#. (itstool) path: section/title
+#: C/massif.page:171
+msgid "Caveats"
+msgstr "Förbehåll"
+
+#. (itstool) path: section/p
+#: C/massif.page:172
+msgid ""
+"There are a couple of things to watch out for: Firstly, spacetime is only "
+"reported as a percentage, you have to compare it to the overall size of the "
+"program to decide if the amount of memory is worth pursuing. The graph, with "
+"its kilobyte vertical axis, is good for this."
+msgstr ""
+"Det finns några saker att vara uppmärksam på: den första är att utrymmestid "
+"endast rapporteras som en procentsats, du måste jämföra den med programmets "
+"totala storlek för att avgöra om mängden minne är värd titta närmare på. "
+"Grafen är med sin vertikala kilobyteaxel bra för detta."
+
+#. (itstool) path: section/p
+#: C/massif.page:175
+msgid ""
+"Secondly, <app>Massif</app> only takes into account the memory used by your "
+"own program. Resources like pixmaps are stored in the X server and aren't "
+"considered by <app>Massif</app>. In the <app>Swell Foop</app> example we "
+"have actually only moved the memory consumption from client-side pixbufs to "
+"server-side pixmaps. Even though we cheated there are performance gains. "
+"Keeping the image data in the X server makes the graphics routines quicker "
+"and removes a lot of inter-process communication. Also, the pixmaps will be "
+"stored in a native graphics format which is often more compact than the 32-"
+"bit RGBA format used by gdk_pixbuf. To measure the effect of pixmaps, and "
+"other X resources use the <link href=\"http://www.freedesktop.org/Software/"
+"xrestop\">xrestop</link> program."
+msgstr ""
+"Den andra saken är att <app>Massif</app> endast räknar in minne använt av "
+"ditt eget program. Resurser som pixmappar lagras i X-servern och räknas inte "
+"av <app>Massif</app>. I <app>Swell Foop</app>-exemplet har vi faktiskt bara "
+"förflyttat minnesförbrukningen från pixbufar på klientsidan till pixmappar "
+"på serversidan. Även om vi fuskade uppstår det prestandavinster. Att behålla "
+"bilddata i X-servern gör grafikrutinerna snabbare och tar bort mycket "
+"kommunikation mellan processer. Pixmapparna kommer också lagras i ett "
+"inhemskt grafikformat vilket ofta är mer kompakt än det 32-bitars RGBA-"
+"format som används av gdk_pixbuf. För att mäta effekten av pixmappar och "
+"andra X-resurser kan du använda programmet <link href=\"http://www."
+"freedesktop.org/Software/xrestop\">xrestop</link>."
