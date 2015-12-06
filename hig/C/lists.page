@@ -57,7 +57,7 @@
 
 <p>Editable lists allow a user to add or remove items from the list (for this reason, they are sometimes known as add/remove lists). Both full-width and embedded lists can be editable.</p>
 
-<p>Each row contains a remove button. If the number of items is short, the final list row should be used as an add button. Alternatively, if the list is long, the add button can be placed in a <link xref="header-bars">header bar</link> or or <link xref="action-bars">action bar</link>.</p>
+<p>Each row contains a remove button. If the number of items is short, the final list row should be used as an add button. Alternatively, if the list is long, the add button can be placed in a <link xref="header-bars">header bar</link> or <link xref="action-bars">action bar</link>.</p>
 
 <media type="image" mime="image/svg" src="figures/patterns/editable-lists.svg"/>
 
