@@ -1,5 +1,6 @@
 <page xmlns="http://projectmallard.org/1.0/"
       xmlns:uix="http://projectmallard.org/experimental/ui/"
+      xmlns:itst="http://itstool.org/extensions/"
       type="topic"
       id="lists">
 
@@ -118,7 +119,7 @@
 <td><p>The list item is selected when it is clicked or pressed. This approach is often used for selecting one of a series of configuration options. In the case of <link xref="drop-down-lists">drop-down lists</link>, one option is always selected. The selected row is indicated by a check mark.</p></td>
 </tr>
 <tr>
-<td><p>Edit</p></td>
+<td><p itst:context="list-type">Edit</p></td>
 <td><p>Selecting the row item turns the row into a text entry field, which allows the item to be edited.</p></td>
 </tr>
 </tbody>

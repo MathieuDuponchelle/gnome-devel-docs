@@ -1,4 +1,5 @@
 <page xmlns="http://projectmallard.org/1.0/"
+      xmlns:itst="http://itstool.org/extensions/"
       type="topic"
       id="keyboard-input">
 
@@ -382,7 +383,7 @@
 </section>
 
 <section id="edit">
-<title>Edit</title>
+<title itst:context="menu">Edit</title>
 
 <p>Standard edit keyboard shortcuts and menu items.</p>
 
