@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2015-12-07 08:52+0000\n"
-"PO-Revision-Date: 2015-12-07 10:30+0100\n"
+"POT-Creation-Date: 2015-12-23 22:52+0000\n"
+"PO-Revision-Date: 2015-12-23 23:59+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -3530,12 +3530,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:77
-#, fuzzy
-#| msgid ""
-#| "Because application icons are presented at larger sizes, legacy Tango "
-#| "styled 48x48px or SVG icons no longer suffice (lacking detail). It is "
-#| "essential your application has a 256x256px icon. With the advent of high-"
-#| "DPI displays, a 512x512px variant is recommended."
 msgid ""
 "Because application icons are presented at larger sizes, legacy Tango styled "
 "48x48 px or SVG icons no longer suffice (lacking detail). It is essential "
@@ -3550,13 +3544,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:81
-#, fuzzy
-#| msgid ""
-#| "While not as critical, there are still areas where application icons are "
-#| "presented at a small size. To keep the icon sharp and well defined, a "
-#| "specific rendering is required to sizes of 48x48px, 32x32px, 24x24px and "
-#| "16x16px. Many GNOME icons also ship a 22x22px size for legacy reasons, "
-#| "but that isn’t required."
 msgid ""
 "While not as critical, there are still areas where application icons are "
 "presented at a small size. To keep the icon sharp and well defined, a "
