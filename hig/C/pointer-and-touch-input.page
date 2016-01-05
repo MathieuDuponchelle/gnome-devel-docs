@@ -186,8 +186,7 @@
 <tr>
 <td><media type="image" mime="image/svg" src="figures/touch/edge-drag.svg"/></td>
 <td><p>Slide finger starting from a screen edge.</p></td>
-<td><p>Bottom edge opens the Message Tray.</p>
-<p>Top-left edge opens the application menu.</p>
+<td><p>Top-left edge opens the application menu.</p>
 <p>Top-right edge opens the system status menu.</p>
 <p>Left edge opens the Activities Overview with the application view visible.</p></td>
 </tr>
@@ -212,7 +211,7 @@
 </tr>
 <tr>
 <td><media type="image" mime="image/svg" src="figures/touch/3-finger-hold-and-tap.svg"/></td>
-<td><p>Hold two fingers on the surface while tapping with the third.</p></td>
+<td><p>Hold three fingers on the surface while tapping with the fourth.</p></td>
 <td><p>Switches application.</p></td>
 </tr>
 </table>
