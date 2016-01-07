@@ -10,13 +10,13 @@
 # Javi Ribera <javiribera@gmail.com>, 2013.
 # Alex Puchades <alex94puchades@gmail.com>, 2015.
 # 
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011, 2012, 2013, 2014, 2015., 2015.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011, 2012, 2013, 2014, 2015., 2016.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: hig.master\n"
-"POT-Creation-Date: 2015-12-07 08:52+0000\n"
-"PO-Revision-Date: 2015-12-07 11:46+0100\n"
+"POT-Creation-Date: 2016-01-06 20:52+0000\n"
+"PO-Revision-Date: 2016-01-07 09:21+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "Language: es\n"
@@ -41,8 +41,8 @@ msgstr "Este trabajo está licenciado bajo la <_:link-1/>."
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
+"Daniel Mustieles <daniel.mustieles@gmail.com>, 2011 - 2016\n"
 "Alex Puchades <alex94puchades@gmail.com>, 2015\n"
-"Daniel Mustieles <daniel.mustieles@gmail.com>, 2011 - 2015\n"
 "Nicolás Satragno <nsatragno@gnome.org>, 2013\n"
 "Benjamín Valero Espinosa <benjavalero@gmail.com>, 2011\n"
 "Jorge González <jorgegonz@svn.gnome.org>, 2009\n"
@@ -3600,11 +3600,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:77
-#| msgid ""
-#| "Because application icons are presented at larger sizes, legacy Tango "
-#| "styled 48x48px or SVG icons no longer suffice (lacking detail). It is "
-#| "essential your application has a 256x256px icon. With the advent of high-"
-#| "DPI displays, a 512x512px variant is recommended."
 msgid ""
 "Because application icons are presented at larger sizes, legacy Tango styled "
 "48x48 px or SVG icons no longer suffice (lacking detail). It is essential "
@@ -3619,12 +3614,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/icons-and-artwork.page:81
-#| msgid ""
-#| "While not as critical, there are still areas where application icons are "
-#| "presented at a small size. To keep the icon sharp and well defined, a "
-#| "specific rendering is required to sizes of 48x48px, 32x32px, 24x24px and "
-#| "16x16px. Many GNOME icons also ship a 22x22px size for legacy reasons, "
-#| "but that isn’t required."
 msgid ""
 "While not as critical, there are still areas where application icons are "
 "presented at a small size. To keep the icon sharp and well defined, a "
@@ -5486,7 +5475,6 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/keyboard-input.page:386
-#| msgid "Edit"
 msgctxt "menu"
 msgid "Edit"
 msgstr "Editar"
@@ -6504,11 +6492,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/lists.page:61
-#| msgid ""
-#| "Each row contains a remove button. If the number of items is short, the "
-#| "final list row should be used as an add button. Alternatively, if the "
-#| "list is long, the add button can be placed in a <link xref=\"header-bars"
-#| "\">header bar</link> or or <link xref=\"action-bars\">action bar</link>."
 msgid ""
 "Each row contains a remove button. If the number of items is short, the "
 "final list row should be used as an add button. Alternatively, if the list "
@@ -6657,7 +6640,6 @@ msgstr ""
 
 #. (itstool) path: td/p
 #: C/lists.page:122
-#| msgid "Edit"
 msgctxt "list-type"
 msgid "Edit"
 msgstr "Editar"
@@ -7877,7 +7859,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/pointer-and-touch-input.page:198
+#: C/pointer-and-touch-input.page:197
 msgctxt "_"
 msgid ""
 "external ref='figures/touch/3-finger-pinch.svg' "
@@ -7891,7 +7873,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/pointer-and-touch-input.page:206
+#: C/pointer-and-touch-input.page:205
 msgctxt "_"
 msgid ""
 "external ref='figures/touch/4-finger-drag.svg' "
@@ -7905,7 +7887,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/pointer-and-touch-input.page:214
+#: C/pointer-and-touch-input.page:213
 msgctxt "_"
 msgid ""
 "external ref='figures/touch/3-finger-hold-and-tap.svg' "
@@ -8367,22 +8349,17 @@ msgstr "Arrastrar el dedo desde el borde de la pantalla"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:189
-msgid "Bottom edge opens the Message Tray."
-msgstr "Arrastrar en la parte inferior abre la bandeja de mensajes"
-
-#. (itstool) path: td/p
-#: C/pointer-and-touch-input.page:190
 msgid "Top-left edge opens the application menu."
 msgstr "El borde superior izquierdo abre el menú de la aplicación."
 
 #. (itstool) path: td/p
-#: C/pointer-and-touch-input.page:191
+#: C/pointer-and-touch-input.page:190
 msgid "Top-right edge opens the system status menu."
 msgstr ""
 "Arrastrar en la parte superior derecha abre el menú de estado del sistema."
 
 #. (itstool) path: td/p
-#: C/pointer-and-touch-input.page:192
+#: C/pointer-and-touch-input.page:191
 msgid ""
 "Left edge opens the Activities Overview with the application view visible."
 msgstr ""
@@ -8390,47 +8367,48 @@ msgstr ""
 "aplicación visible."
 
 #. (itstool) path: td/p
-#: C/pointer-and-touch-input.page:195
+#: C/pointer-and-touch-input.page:194
 msgid "<em style=\"strong\">Three finger pinch</em>"
 msgstr "<em style=\"strong\">Pellizco con tres dedos</em>"
 
 #. (itstool) path: td/p
-#: C/pointer-and-touch-input.page:199
+#: C/pointer-and-touch-input.page:198
 msgid "Bring three or more fingers closer together while touching the surface."
 msgstr "Juntar tres o más dedos mientras se toca la interfaz."
 
 #. (itstool) path: td/p
-#: C/pointer-and-touch-input.page:200
+#: C/pointer-and-touch-input.page:199
 msgid "Opens the Activities Overview."
 msgstr "Abre la vista de actividades."
 
 #. (itstool) path: td/p
-#: C/pointer-and-touch-input.page:203
+#: C/pointer-and-touch-input.page:202
 msgid "<em style=\"strong\">Four finger drag</em>"
 msgstr "<em style=\"strong\">Arrastrar con cuatro dedos</em>"
 
 #. (itstool) path: td/p
-#: C/pointer-and-touch-input.page:207
+#: C/pointer-and-touch-input.page:206
 msgid "Drag up or down with four fingers touching the surface."
 msgstr "Arrastrar arriba o abajo con cuatro dedos tocando la superficie."
 
 #. (itstool) path: td/p
-#: C/pointer-and-touch-input.page:208
+#: C/pointer-and-touch-input.page:207
 msgid "Switches workspace."
 msgstr "Cambia de área de trabajo."
 
 #. (itstool) path: td/p
-#: C/pointer-and-touch-input.page:211
+#: C/pointer-and-touch-input.page:210
 msgid "<em style=\"strong\">Three finger hold and tap</em>"
 msgstr "<em style=\"strong\">Mantener y pulsar con tres dedos</em>"
 
 #. (itstool) path: td/p
-#: C/pointer-and-touch-input.page:215
-msgid "Hold two fingers on the surface while tapping with the third."
-msgstr "Mantenga dos dedos sobre la superficie mientras pulsa con el tercero."
+#: C/pointer-and-touch-input.page:214
+#| msgid "Hold two fingers on the surface while tapping with the third."
+msgid "Hold three fingers on the surface while tapping with the fourth."
+msgstr "Mantenga tres dedos sobre la superficie mientras pulsa con el cuarto."
 
 #. (itstool) path: td/p
-#: C/pointer-and-touch-input.page:216
+#: C/pointer-and-touch-input.page:215
 msgid "Switches application."
 msgstr "Cambia de aplicación."
 
@@ -11892,6 +11870,9 @@ msgstr ""
 "incorporar funcionalidad adicional, la etiqueta no especifica una acción, y "
 "por lo tanto no necesita comunicar que se requerirá una futura entrada o "
 "confirmación."
+
+#~ msgid "Bottom edge opens the Message Tray."
+#~ msgstr "Arrastrar en la parte inferior abre la bandeja de mensajes"
 
 #~ msgid "<keyseq><key>Super</key><key/></keyseq>"
 #~ msgstr "<keyseq><key>Súper</key><key/></keyseq>"
