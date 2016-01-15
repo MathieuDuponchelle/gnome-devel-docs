@@ -1,13 +1,13 @@
 # Czech translation for gnome-devel-docs.
 # Copyright (C) 2015 gnome-devel-docs's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-devel-docs package.
-# Marek Černocký <marek@manet.cz>, 2015.
+# Marek Černocký <marek@manet.cz>, 2015, 2016.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2015-12-23 22:52+0000\n"
-"PO-Revision-Date: 2015-12-23 23:59+0100\n"
+"POT-Creation-Date: 2016-01-15 08:53+0000\n"
+"PO-Revision-Date: 2016-01-15 16:11+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -7877,7 +7877,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/pointer-and-touch-input.page:198
+#: C/pointer-and-touch-input.page:197
 msgctxt "_"
 msgid ""
 "external ref='figures/touch/3-finger-pinch.svg' "
@@ -7891,7 +7891,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/pointer-and-touch-input.page:206
+#: C/pointer-and-touch-input.page:205
 msgctxt "_"
 msgid ""
 "external ref='figures/touch/4-finger-drag.svg' "
@@ -7905,7 +7905,7 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/pointer-and-touch-input.page:214
+#: C/pointer-and-touch-input.page:213
 msgctxt "_"
 msgid ""
 "external ref='figures/touch/3-finger-hold-and-tap.svg' "
@@ -8363,67 +8363,62 @@ msgstr "Táhněte prstem počínaje na kraji obrazovky."
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:189
-msgid "Bottom edge opens the Message Tray."
-msgstr "Spodní hrana otevře pořadač zpráv."
-
-#. (itstool) path: td/p
-#: C/pointer-and-touch-input.page:190
 msgid "Top-left edge opens the application menu."
 msgstr "Levá horní hrana otevře nabídku aplikace."
 
 #. (itstool) path: td/p
-#: C/pointer-and-touch-input.page:191
+#: C/pointer-and-touch-input.page:190
 msgid "Top-right edge opens the system status menu."
 msgstr "Pravá horní hrana otevře stavovou nabídku systému."
 
 #. (itstool) path: td/p
-#: C/pointer-and-touch-input.page:192
+#: C/pointer-and-touch-input.page:191
 msgid ""
 "Left edge opens the Activities Overview with the application view visible."
 msgstr "Levá hrana otevře přehled činností se zobrazením aplikací."
 
 #. (itstool) path: td/p
-#: C/pointer-and-touch-input.page:195
+#: C/pointer-and-touch-input.page:194
 msgid "<em style=\"strong\">Three finger pinch</em>"
 msgstr "<em style=\"strong\">Štípnutí třemi prsty</em>"
 
 #. (itstool) path: td/p
-#: C/pointer-and-touch-input.page:199
+#: C/pointer-and-touch-input.page:198
 msgid "Bring three or more fingers closer together while touching the surface."
 msgstr "Posouvejte tři nebo více prstů položených na povrchu blíže k sobě."
 
 #. (itstool) path: td/p
-#: C/pointer-and-touch-input.page:200
+#: C/pointer-and-touch-input.page:199
 msgid "Opens the Activities Overview."
 msgstr "Otevře přehled činností."
 
 #. (itstool) path: td/p
-#: C/pointer-and-touch-input.page:203
+#: C/pointer-and-touch-input.page:202
 msgid "<em style=\"strong\">Four finger drag</em>"
 msgstr "<em style=\"strong\">Tažení čtyřmi prsty</em>"
 
 #. (itstool) path: td/p
-#: C/pointer-and-touch-input.page:207
+#: C/pointer-and-touch-input.page:206
 msgid "Drag up or down with four fingers touching the surface."
 msgstr "Táhněte nahoru nebo dolů se čtyřmi prsty položenými na povrchu."
 
 #. (itstool) path: td/p
-#: C/pointer-and-touch-input.page:208
+#: C/pointer-and-touch-input.page:207
 msgid "Switches workspace."
 msgstr "Přepíná pracovní plochy."
 
 #. (itstool) path: td/p
-#: C/pointer-and-touch-input.page:211
+#: C/pointer-and-touch-input.page:210
 msgid "<em style=\"strong\">Three finger hold and tap</em>"
 msgstr "<em style=\"strong\">Držení třemi prsty a klepání</em>"
 
 #. (itstool) path: td/p
-#: C/pointer-and-touch-input.page:215
-msgid "Hold two fingers on the surface while tapping with the third."
-msgstr "Dva prsty držte na povrchu a třetím při tom poklepávejte."
+#: C/pointer-and-touch-input.page:214
+msgid "Hold three fingers on the surface while tapping with the fourth."
+msgstr "Tři prsty držte na povrchu a čtvrtým při tom poklepávejte."
 
 #. (itstool) path: td/p
-#: C/pointer-and-touch-input.page:216
+#: C/pointer-and-touch-input.page:215
 msgid "Switches application."
 msgstr "Přepíná aplikace."
 
