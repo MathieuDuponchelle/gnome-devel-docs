@@ -9,7 +9,7 @@
     <credit type="author copyright">
       <name>Philip Withnall</name>
       <email its:translate="no">philip.withnall@collabora.co.uk</email>
-      <years>2015</years>
+      <years>2015, 2016</years>
     </credit>
 
     <include href="cc-by-sa-3-0.xml" xmlns="http://www.w3.org/2001/XInclude"/>
@@ -92,7 +92,14 @@
       Additionally, public headers should be included from a subdirectory,
       effectively namespacing the header files. For example, instead of
       <code>#include &lt;abc.h&gt;</code>, a project should allow its users to
-      use <code>#include &lt;namespace/ns-abc.h&gt;</code>.
+      use <code>#include &lt;namespace/abc.h&gt;</code>.
+    </p>
+
+    <p>
+      Some projects namespace their headers within this subdirectory — for
+      example, <code>#include &lt;namespace/ns-abc.h&gt;</code> instead of
+      <code>#include &lt;namespace/abc.h&gt;</code>. This is redundant, but
+      harmless.
     </p>
 
     <p>
@@ -102,10 +109,10 @@
     </p>
     <list>
       <item><p>
-        <file><var>$(includedir)</var>/walbottle-<var>$API_MAJOR</var>/walbottle/wbl-schema.h</file>
+        <file><var>$(includedir)</var>/walbottle-<var>$API_MAJOR</var>/walbottle/schema.h</file>
       </p></item>
       <item><p>
-        <file><var>$(includedir)</var>/walbottle-<var>$API_MAJOR</var>/walbottle/wbl-writer.h</file>
+        <file><var>$(includedir)</var>/walbottle-<var>$API_MAJOR</var>/walbottle/writer.h</file>
       </p></item>
     </list>
 
