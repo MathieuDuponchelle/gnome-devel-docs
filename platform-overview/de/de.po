@@ -1,5 +1,5 @@
 # German translation of the platform-overview documentation.
-# Mario Blättermann <mario.blaettermann@gmail.com>, 2009-2012.
+# Mario Blättermann <mario.blaettermann@gmail.com>, 2009-2012, 2016.
 # Wolfgang Stöggl <c72578@yahoo.de>, 2011, 2015.
 # Christian Kirbach <Christian.Kirbach@googlemail.com>, 2011, 2012.
 # Aljosha Papsch <al@papsch.ara.uberspace.de>, 2012.
@@ -7,9 +7,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: platform-overview master\n"
-"POT-Creation-Date: 2015-11-02 20:50+0000\n"
-"PO-Revision-Date: 2015-11-11 18:23+0100\n"
-"Last-Translator: Wolfgang Stoeggl <c72578@yahoo.de>\n"
+"POT-Creation-Date: 2016-01-22 08:56+0000\n"
+"PO-Revision-Date: 2016-01-22 12:46+0100\n"
+"Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
 "Language-Team: Deutsch <>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
@@ -43,8 +43,8 @@ msgstr ""
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
-"Mario Blättermann <mario.blaettermann@gmail.com>, 2009-2012\n"
-"Christian Kirbach <christian.kirbach@gmail.com>, 2011, 2012, 2015.\n"
+"Mario Blättermann <mario.blaettermann@gmail.com>, 2009-2012, 2016\n"
+"Christian Kirbach <christian.kirbach@gmail.com>, 2011, 2012, 2015\n"
 "Aljosha Papsch <al@rpapsch.de>, 2012"
 
 #. (itstool) path: credit/name
@@ -98,6 +98,9 @@ msgid ""
 "\">Help</gui> menu item should go above the <gui style=\"menuitem\">About</gui> menu "
 "item."
 msgstr ""
+"Die meisten GNOME-Anwendungen sollten über ein Anwendungsmenü verfügen. Der <gui style="
+"\"menuitem\">Help</gui>-Menüeintrag sollte dabei oberhalb des <gui style=\"menuitem"
+"\">About</gui>-Eintrags angezeigt werden."
 
 #. (itstool) path: note/p
 #: C/dev-help-appmenu.page:37
@@ -106,6 +109,9 @@ msgid ""
 "main.vala\">Cheese</app>, assumes that your application is written in Vala. It will be "
 "slightly different for other programming languages."
 msgstr ""
+"Dieses auf <app href=\"https://git.gnome.org/browse/cheese/tree/src/cheese-main.vala"
+"\">Cheese</app> basierende Beispiel setzt voraus, dass Ihre Anwendung in Vala "
+"geschrieben ist. Es wird für andere Programmiersprachen etwas abweichen."
 
 #. (itstool) path: example/p
 #: C/dev-help-appmenu.page:43
@@ -166,6 +172,8 @@ msgid ""
 "View the help with <app>Yelp</app> when the <gui style=\"menuitem\">Help</gui> menu item "
 "is clicked:"
 msgstr ""
+"Zeigen Sie die Hilfe mit <app>Yelp</app> an, wenn der Menüeintrag <gui style=\"menuitem"
+"\">Help</gui> angeklickt wird:"
 
 #. (itstool) path: example/code
 #: C/dev-help-appmenu.page:69
@@ -318,6 +326,8 @@ msgid ""
 "You may want to add help, such as an introduction to your application or a list of "
 "keyboard shortcuts, to your application."
 msgstr ""
+"Es ist vorteilhaft, zu Ihrer Anwendung eine Hilfe hinzuzufügen, zum Beispiel eine "
+"Einführung in die Anwendung oder eine Liste der verfügbaren Tastenkombinationen."
 
 #. (itstool) path: page/p
 #: C/dev-help.page:39
@@ -325,11 +335,15 @@ msgid ""
 "Use <app>yelp-tools</app> to build <link href=\"http://www.projectmallard.org/"
 "\">Mallard</link> help which can be discrete or integrated with other application help."
 msgstr ""
+"Verwenden Sie <app>yelp-tools</app>, um eine auf <link href=\"http://www.projectmallard."
+"org/\">Mallard</link> basierende Hilfe zu erstellen, die entweder separat oder "
+"integriert in die Hilfe anderer Anwendungen angezeigt werden kann."
 
 #. (itstool) path: page/p
 #: C/dev-help.page:43
 msgid "Mallard is a markup language which is designed for topic-oriented help."
 msgstr ""
+"Mallard ist eine Markup-Sprache, die für eine themenorientierte Hilfe entworfen wurde."
 
 #. (itstool) path: page/title
 #: C/dev-help-write.page:20
@@ -511,6 +525,8 @@ msgstr "Start Ihrer Anwendung"
 msgid ""
 "Write and install a desktop file so that users can discover and launch your application."
 msgstr ""
+"Schreiben und Installieren Sie eine *.desktop-Datei, über die Benutzer Ihre Anwendung "
+"finden und starten können."
 
 #. (itstool) path: page/p
 #: C/dev-launching-desktop.page:29
@@ -535,6 +551,8 @@ msgid ""
 "For a hypothetical application <app>My Application</app>, a desktop file would look as "
 "follows:"
 msgstr ""
+"Für eine hypothetische Anwendung namens <app>My Application</app> würde eine *.desktop-"
+"Datei folgendermaßen aussehen:"
 
 #. (itstool) path: listing/title
 #: C/dev-launching-desktop.page:45 C/dev-launching-mime.page:33
@@ -636,6 +654,9 @@ msgid ""
 "If your application opens files of a certain type, such as PNG images, you can add an "
 "association with the MIME type of the file. This is added to the desktop file."
 msgstr ""
+"Wenn Ihre Anwendung Dateien eines bestimmten Typs öffnet, zum Beispiel PNG-bilder, "
+"können Sie deren MIME-Typ der Datei zuordnen. Diese Zuordnung wird zur *.desktop-Datei "
+"hinzugefügt."
 
 #. (itstool) path: listing/code
 #: C/dev-launching-mime.page:34
@@ -659,6 +680,7 @@ msgid ""
 "For this hypothetical application, <code>image/png</code> is listed as the supported "
 "MIME type."
 msgstr ""
+"Für diese hypothetische Anwendung ist <code>image/png</code> der unterstützte MIME-Typ."
 
 #. (itstool) path: page/p
 #: C/dev-launching-mime.page:45
@@ -677,6 +699,8 @@ msgstr "Startbenachrichtigung"
 #: C/dev-launching-startupnotify.page:26
 msgid "Notify the user when your application has finished starting up."
 msgstr ""
+"Benachrichtigen Sie den Benutzer, wenn der Startvorgang Ihrer Anwendung abgeschlossen "
+"ist."
 
 #. (itstool) path: page/p
 #: C/dev-launching-startupnotify.page:28
@@ -2805,12 +2829,6 @@ msgstr "Netzwerk mit GIO"
 
 #. (itstool) path: page/p
 #: C/tech-gio-network.page:23
-#, fuzzy
-#| msgid ""
-#| "Built on top of the stream APIs used for files, GIO provides high-level networking "
-#| "APIs to communicate over TCP/IP and UNIX domain sockets. You can use the GIO "
-#| "networking APIs to connect to a server, listen for events, and read resources. The "
-#| "asynchronous API designs means your application doesn't block waiting for a response."
 msgid ""
 "GIO Networking is built on top of the stream APIs <link xref=\"tech-gio\">used for "
 "files</link>. It provides high-level APIs to communicate over TCP/IP and UNIX domain "
@@ -2818,12 +2836,12 @@ msgid ""
 "and read resources. The asynchronous API means your application doesn't block waiting "
 "for a response from the network."
 msgstr ""
-"Aufgebaut auf den Datenstrom-Schnittstellen für Dateien bietet GIO allgemeine Netzwerk-"
-"Programmierschnittstellen zur Kommunikation über TCP/IP und UNIX-Domain-Sockets. Sie "
-"können die GIO-Netzwerk-Programmierschnittstellen dazu benutzen, sich zu einem Server zu "
-"verbinden, auf Ereignisse zu lauschen und Ressourcen zu lesen. Das asynchrone Design der "
-"Programmierschnittstellen bedeutet, dass Ihre Anwendung nicht blockiert während sie auf "
-"eine Antwort wartet."
+"Aufgebaut auf den Datenstrom-Schnittstellen <link xref=\"tech-gio\">für Dateien</link> "
+"bietet GIO allgemeine Netzwerk-Programmierschnittstellen zur Kommunikation über TCP/IP "
+"und UNIX-Domain-Sockets. Sie können die GIO-Netzwerk-Programmierschnittstellen dazu "
+"benutzen, sich zu einem Server zu verbinden, auf Ereignisse zu lauschen und Ressourcen "
+"zu lesen. Das asynchrone Design der Programmierschnittstellen bedeutet, dass Ihre "
+"Anwendung nicht blockiert, während sie auf eine Antwort wartet."
 
 #. (itstool) path: item/p
 #: C/tech-gio-network.page:32
@@ -3530,19 +3548,18 @@ msgstr "Interprozess-Kommunikation"
 
 #. (itstool) path: links/title
 #: C/tech.page:68
-#, fuzzy
 msgid "Geographical"
-msgstr "Die geografische Position"
+msgstr "Geografisch"
 
 #. (itstool) path: links/title
 #: C/tech.page:74
 msgid "Foundational C utilities and object system"
-msgstr ""
+msgstr "Grundlegende C-Werkzeuge und Objektsystem"
 
 #. (itstool) path: info/desc
 #: C/tech-pango.page:18
 msgid "International text rendering with full Unicode support"
-msgstr ""
+msgstr "Internationalisierte Textdarstellung mit vollständiger Unterstützung für Unicode"
 
 #. (itstool) path: page/title
 #: C/tech-pango.page:21
@@ -4351,7 +4368,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/tour-glade.page:23
 msgid "Use Glade to generate a UI file."
-msgstr ""
+msgstr "Verwenden Sie Glade zur Erstellung einer UI-Datei."
 
 #. (itstool) path: page/title
 #: C/tour-glade.page:26
