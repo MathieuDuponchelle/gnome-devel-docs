@@ -227,16 +227,16 @@ app.application.run (ARGV);
     <media type="image" mime="image/png" src="media/02_jsgrid_07.png"/>
   </section>
 
-  <section id="stock">
-    <title>Using stock images</title>
+  <section id="icons">
+    <title>Using built-in icons</title>
 
-    <p>GNOME has a lot of stock images on hand already, that we can use if we don't feel like creating our own or if we want a universally-recognized icon. Here's how we create a stock image, compared to how we create a normal one:</p>
+    <p>GNOME has a lot of icons on hand already, that we can use if we don't feel like creating our own or if we want a universally-recognized icon. Here's how we create an image with an icon, compared to how we create a normal one:</p>
     <code mime="application/javascript"><![CDATA[
         // Create an image
         this._image = new Gtk.Image ({ file: "gnome-image.png" });
 
-        // Create a second image using a stock icon
-        this._icon = new Gtk.Image ({ stock: 'gtk-about' });
+        // Create a second image using an icon
+        this._icon = new Gtk.Image ({ icon_name: 'help-about' });
 ]]></code>
     <p>After that, we attach it to the Grid to the left of the first Label. (We aren't using the second one for this example.)</p>
     <code mime="application/javascript"><![CDATA[
@@ -248,8 +248,8 @@ app.application.run (ARGV);
     <p>That gives us this, when we run it:</p>
     <media type="image" mime="image/png" src="media/02_jsgrid_08.png"/>
 
-    <p>That's what the stock "About" icon looks like. You can see a list of all the stock items starting with gtk-about in <link href="https://developer.gnome.org/gtk3/3.4/gtk3-Stock-Items.html#GTK-STOCK-ABOUT:CAPS">GNOME's developer documentation</link>. It was written for C programmers, but you don't need to know C to use it; just look at the part in quotation marks, like "gtk-about", and copy that part to use the icon next to it.</p>
-    <note style="tip"><p>We put single quotes around 'gtk-about' here because, unlike text strings that have double quotes around them, that part will never need to be translated into another language. In fact, if it <em>were</em> translated it'd break the icon, because its name is still "gtk-about" no matter which language you speak.</p></note>
+    <p>That's what the "About" icon looks like. You can see a list of all the icons by running <link href="https://developer.gnome.org/gtk3/stable/gtk3-icon-browser.html"><cmd>gtk3-icon-browser</cmd></link></p>
+    <note style="tip"><p>We put single quotes around 'help-about' here because, unlike text strings that have double quotes around them, that part will never need to be translated into another language. In fact, if it <em>were</em> translated it'd break the icon, because its name is still "help-about" no matter which language you speak.</p></note>
   </section>
 
 
@@ -268,7 +268,7 @@ app.application.run (ARGV);
 ]]></code>
 
     <p>That's right, we turned the Label into a Button just by changing the name! If you run the application and click on it, though, you'll find that it doesn't do anything. How do we make our Button do something? That's what we'll find out, in <link xref="03_getting_the_signal.js">our next tutorial</link>.</p>
-    <p>If you like, feel free to spend some time experimenting with Grids, Labels, and Images, including stock images.</p>
+    <p>If you like, feel free to spend some time experimenting with Grids, Labels, and Images, including icons.</p>
     <note style="tip"><p>One trick you can use to make more complex layouts is to nest Grids inside of each other. This lets you group together related widgets, and rearrange them easily. Take a look at the <link xref="radiobutton.js">RadioButton</link> code sample if you'd like to see how this is done.</p></note>
   </section>
 
