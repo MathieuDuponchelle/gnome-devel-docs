@@ -12,6 +12,8 @@
       <years>2013</years>
     </credit>
 
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
     <desc>Client and server HTTP communication, portable socket-based networking IO, and network device management.</desc>
   </info>
 
