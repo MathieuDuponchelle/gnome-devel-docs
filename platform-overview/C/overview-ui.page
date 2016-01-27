@@ -50,11 +50,10 @@ custom UI elements that you create.</p>
   that is part of GNOME uses GTK+, so use it to be consistent, and to access
   the many widgets and features such as printing support and CSS theming.</p>
 
-  <p>To create
-  <em style="strong">fast, visually rich graphical interfaces</em>, use
-  <em style="strong"><link xref="tech-clutter">Clutter</link></em>. Animations,
-  effects and fluid layouts are easy with Clutter, and it also supports touch
-  input and gestures.</p>
+  <p><em style="strong">Animations, effects and fluid
+  layouts</em> are easy with
+  <em style="strong"><link xref="tech-clutter">Clutter</link></em>, and it also
+  supports touch input and gestures.</p>
 
   <p><em style="strong">High quality, antialiased and resolution-independent 2D
   graphics</em> are provided by
