@@ -1,0 +1,25 @@
+# NetworkManager
+
+NetworkManager manages a computer's network connections. It takes care
+of DHCP negotiation to get an IP address for the computer when its
+networking is first activated. It lets users select between different
+wired and wireless networks, configure Virtual Private Networks (VPNs),
+and connect to the network with modems.
+
+NetworkManager provides an extensive API that lets applications control
+network connections. However, this is mostly only of interest to the
+software that implements the core desktop itself. Regular applications
+can use NetworkManager's API to monitor the online/offline state of the
+computer, and perform other high-level tasks related to the network.
+
+The core desktop shell in GNOME has a prominent NetworkManager icon;
+internally it uses the NetworkManager API to change network settings
+based on the user's choices. Applications such as Evolution, which need
+to know about the online/offline status of the computer, use
+NetworkManager as well.
+
+  - [NetworkManager home
+    page](https://wiki.gnome.org/Projects/NetworkManager)
+
+  - [NetworkManager API
+    reference](https://wiki.gnome.org/Projects/NetworkManager/Developers)

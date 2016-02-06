@@ -1,0 +1,9 @@
+---
+author-email: 'federico@gnome.org'
+author-name: Federico Mena Quintero
+authoring-date: 2013
+description: Data structures and utilities for C programs
+guide-group: glib
+guide-xref: tech
+title: GLib
+...

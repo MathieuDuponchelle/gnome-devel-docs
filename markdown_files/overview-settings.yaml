@@ -1,0 +1,12 @@
+---
+author-email: 'davidk@gnome.org'
+author-name: David King
+authoring-date: 2013
+description: 'Flexible user configuration system.'
+guide-group: settings
+guide-xref: index
+revision-date: '2013-08-06'
+revision-status: review
+revision-version: '0.1'
+title: Settings management
+...

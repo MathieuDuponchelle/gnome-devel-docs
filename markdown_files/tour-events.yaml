@@ -1,0 +1,11 @@
+---
+author-email: 'caseyweederman@gmail.com'
+author-name: Gordon Hill
+authoring-date: 2013
+description: 'Bind functions to events using Lang.'
+next-xref: 'tour-get\_object'
+revision-date: '2013-06-17'
+revision-status: stub
+revision-version: '0.1'
+title: Actions and signals
+...

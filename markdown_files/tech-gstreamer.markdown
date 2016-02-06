@@ -1,0 +1,45 @@
+# GStreamer
+
+GStreamer is a powerful multimedia library for playing, creating, and
+manipulating sound, video, and other media. You can use GStreamer to
+provide sound and video playback, record input from multiple sources,
+and edit multimedia content. GStreamer supports encoding and decoding
+numerous formats by default, and support for additional formats can be
+added with plug-ins.
+
+GStreamer provides a flexible architecture wherein media is processed
+through a pipeline of elements. Each element may apply filters to the
+content, such as encoding or decoding, combining multiple sources, or
+transforming the multimedia content. This architecture allows for an
+arbitrary arrangement of elements, so that you can accomplish virtually
+any effect using GStreamer. Furthermore, GStreamer is designed to have
+low overhead, so it can be used in applications with high demands on
+latency.
+
+While GStreamer provides a powerful API for manipulating multimedia, it
+also provides convenient routines for simple playback. GStreamer can
+automatically construct a pipeline to read and playback files in any
+supported format, allowing you to use sound and video in your
+application easily.
+
+The GStreamer architecture allows plugins to add encoders, decoders, and
+all sorts of content filters. Third-party developers can provide
+GStreamer plugins which will be automatically available to other
+applications using GStreamer. Plugins can provide support for other
+multimedia formats or provide additional functionality and effects.
+
+You should use GStreamer whenever you need to read or play multimedia
+content in your application, or if your application needs to manipulate
+sound or video. Using GStreamer makes your application development easy,
+and it provides you well-tested elements for many of your needs.
+
+  - [The GStreamer Application Development
+    Manual](http://gstreamer.freedesktop.org/data/doc/gstreamer/head/manual/html/index.html)
+
+  - [The GStreamer 1.0 Core Reference
+    Manual](http://gstreamer.freedesktop.org/data/doc/gstreamer/head/gstreamer/html/)
+
+  - [The GStreamer documentation
+    page](http://gstreamer.freedesktop.org/documentation/)
+
+  - [The GStreamer web site](http://gstreamer.freedesktop.org)

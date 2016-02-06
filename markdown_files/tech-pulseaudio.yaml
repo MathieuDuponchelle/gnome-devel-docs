@@ -1,0 +1,9 @@
+---
+author-email: 'shaunm@gnome.org'
+author-name: Shaun McCance
+authoring-date: 2011
+description: 'Low-level audio API'
+guide-group: pulseaudio
+guide-xref: tech
+title: PulseAudio
+...

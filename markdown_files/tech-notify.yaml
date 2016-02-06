@@ -1,0 +1,11 @@
+---
+author-email: 'federico@gnome.org'
+author-name: Federico Mena Quintero
+authoring-date: 2013
+description: 'Interactive notifications in the desktop''s message tray'
+guide-group: notify
+guide-xref: tech
+revision-date: '2011-04-05'
+revision-status: incomplete
+title: Notify
+...

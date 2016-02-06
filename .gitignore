@@ -35,3 +35,6 @@ Makefile.in
 /platform-overview/??*/*.xml
 
 /platform-demos/C/samples/test-custom-gsource
+
+html
+hotdoc-private

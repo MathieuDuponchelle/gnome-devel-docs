@@ -1,0 +1,11 @@
+---
+author-email: 'federico@gnome.org'
+author-name: Federico Mena Quintero
+authoring-date: 2013
+description: Configuration storage for application preferences
+guide-group: gsettings
+guide-xref: tech
+revision-date: '2013-01-30'
+revision-status: candidate
+title: GSettings
+...

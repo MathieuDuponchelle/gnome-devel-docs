@@ -1,0 +1,11 @@
+---
+author-email: 'shaunm@gnome.org'
+author-name: Shaun McCance
+authoring-date: '2011–2012'
+description: Widget toolkit for graphical interfaces
+guide-group: gtk
+guide-xref: tech
+revision-date: '2011-04-05'
+revision-status: candidate
+title: GTK+
+...

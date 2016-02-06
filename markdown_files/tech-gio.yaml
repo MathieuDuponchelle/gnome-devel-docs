@@ -1,0 +1,11 @@
+---
+author-email: 'federico@gnome.org'
+author-name: Federico Mena Quintero
+authoring-date: 2013
+description: 'File and URI handling, asynchronous file operations, volume handling'
+guide-group: gio
+guide-xref: tech
+revision-date: '2011-04-05'
+revision-status: review
+title: GIO Files
+...

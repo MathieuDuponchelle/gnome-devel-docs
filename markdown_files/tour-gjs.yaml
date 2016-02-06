@@ -1,0 +1,11 @@
+---
+author-email: 'caseyweederman@gmail.com'
+author-name: Gordon Hill
+authoring-date: 2013
+description: 'Include bindings necessary to run your script.'
+next-xref: 'tour-events'
+revision-date: '2013-06-17'
+revision-status: stub
+revision-version: '0.1'
+title: Gjs and Gtk
+...

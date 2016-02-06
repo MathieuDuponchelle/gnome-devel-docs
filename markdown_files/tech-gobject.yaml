@@ -1,0 +1,9 @@
+---
+author-email: 'federico@gnome.org'
+author-name: Federico Mena Quintero
+authoring-date: 2013
+description: 'C-based object and type system with signals and slots'
+guide-group: gobject
+guide-xref: tech
+title: GObject
+...

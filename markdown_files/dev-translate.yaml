@@ -1,0 +1,13 @@
+---
+author-email: 'mdhillca@gmail.com'
+author-name: Michael Hill
+authoring-date: 2013
+description: 'Localization for user-visible application content.'
+guide-group: translate
+guide-xref: index
+next-xref: 'dev-translate-setup'
+revision-date: '2013-06-19'
+revision-status: review
+revision-version: '0.1'
+title: Translations
+...

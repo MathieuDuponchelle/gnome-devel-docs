@@ -1,0 +1,14 @@
+---
+author-email: 'davidk@gnome.org'
+author-name: David King
+authoring-date: 2013
+description: |
+    Multi-format audio and video playback and editing, streaming from the
+    web, and webcam support.
+guide-group: media
+guide-xref: index
+revision-date: '2013-06-19'
+revision-status: draft
+revision-version: '0.1'
+title: Multimedia
+...

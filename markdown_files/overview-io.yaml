@@ -1,0 +1,12 @@
+---
+author-email: 'mdhillca@gmail.com'
+author-name: Michael Hill
+authoring-date: 2013
+description: 'Access structured data storage, networking shares, and files.'
+guide-group: io
+guide-xref: index
+revision-date: '2012-02-24'
+revision-status: review
+revision-version: '0.1'
+title: 'Files & data access'
+...

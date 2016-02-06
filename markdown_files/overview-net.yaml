@@ -1,0 +1,14 @@
+---
+author-email: 'davidk@gnome.org'
+author-name: David King
+authoring-date: 2013
+description: |
+    Client and server HTTP communication, portable socket-based networking
+    IO, and network device management.
+guide-group: net
+guide-xref: index
+revision-date: '2013-08-06'
+revision-status: review
+revision-version: '0.1'
+title: 'Low-level networking'
+...

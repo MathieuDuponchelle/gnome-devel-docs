@@ -1,0 +1,15 @@
+---
+author-email: 'caseyweederman@gmail.com'
+author-name: Gordon Hill
+authoring-date: 2013
+description: |
+    Get your GtkApplication started in JavaScript and create a UI using
+    Glade.
+guide-group: '\#first'
+guide-xref: index
+next-xref: 'tour-glade'
+revision-date: '2013-06-17'
+revision-status: stub
+revision-version: '0.1'
+title: Get started
+...

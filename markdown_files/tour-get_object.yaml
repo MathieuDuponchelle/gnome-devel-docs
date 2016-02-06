@@ -1,0 +1,13 @@
+---
+author-email: 'caseyweederman@gmail.com'
+author-name: Gordon Hill
+authoring-date: 2013
+description: |
+    Add the window specified in the UI file to the application using
+    GtkBuilder.
+next-xref: 'tour-application'
+revision-date: '2013-06-17'
+revision-status: stub
+revision-version: '0.1'
+title: GtkBuilder
+...

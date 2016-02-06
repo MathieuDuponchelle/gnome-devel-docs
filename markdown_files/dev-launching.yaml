@@ -1,0 +1,14 @@
+---
+author-email: 'davidk@gnome.org'
+author-name: David King
+authoring-date: 2014
+description: 'Showing a launcher and starting your application.'
+guide-group: launching
+guide-xref: index
+next-xref: 'dev-launching-desktop'
+revision-date: '2014-01-27'
+revision-status: draft
+revision-version: '0.1'
+seealso-xref: 'dev-translate'
+title: Application launching
+...

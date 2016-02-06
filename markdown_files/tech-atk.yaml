@@ -1,0 +1,13 @@
+---
+author-email: 'shaunm@gnome.org'
+author-name: Shaun McCance
+authoring-date: '2011–2012'
+description: |
+    Accessibility toolkit to implement support for screen readers and other
+    tools
+guide-group: atk
+guide-xref: tech
+revision-date: '2011-04-05'
+revision-status: candidate
+title: ATK
+...

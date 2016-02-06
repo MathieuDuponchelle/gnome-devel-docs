@@ -1,0 +1,11 @@
+---
+author-email: 'shaunm@gnome.org'
+author-name: Shaun McCance
+authoring-date: '2011–2012'
+description: 'Playing, mixing, and manipulating sound and video'
+guide-group: gstreamer
+guide-xref: tech
+revision-date: '2011-04-05'
+revision-status: candidate
+title: GStreamer
+...

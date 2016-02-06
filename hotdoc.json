@@ -1,0 +1,6 @@
+{
+    "output_format": "html", 
+    "git_repo": ".", 
+    "index": "markdown_files/index.markdown", 
+    "output": "html"
+}
