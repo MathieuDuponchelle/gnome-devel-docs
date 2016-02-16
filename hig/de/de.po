@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2016-01-21 20:57+0000\n"
-"PO-Revision-Date: 2016-01-22 00:46+0100\n"
+"POT-Creation-Date: 2016-02-16 08:53+0000\n"
+"PO-Revision-Date: 2016-02-16 21:00+0100\n"
 "Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
 "Language-Team: Deutsch <gnome-de@gnome.org>\n"
 "Language: de\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.6\n"
+"X-Generator: Poedit 1.8.7\n"
 
 #. (itstool) path: p/link
 #: C/legal.xml:5
@@ -31,7 +31,9 @@ msgstr "Dieses Werk ist unter <_:link-1/> lizenziert."
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr "Christian Kirbach <christian.kirbach@gmail.com>, 2014"
+msgstr ""
+"Christian Kirbach <christian.kirbach@gmail.com>, 2014\n"
+"Mario Blättermann <mario.blaettermann@gmail.com>, 2016"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -48,7 +50,7 @@ msgstr "original"
 #. (itstool) path: info/desc
 #: C/action-bars.page:7
 msgid "Bottom bar that contains actions"
-msgstr ""
+msgstr "Fußleiste, die Aktionen enthält"
 
 #. (itstool) path: credit/name
 #: C/action-bars.page:9 C/application-basics.page:7 C/application-menus.page:9
@@ -73,7 +75,7 @@ msgstr "Allan Day"
 #. (itstool) path: page/title
 #: C/action-bars.page:15
 msgid "Action bars"
-msgstr ""
+msgstr "Aktionsleisten"
 
 #. (itstool) path: page/p
 #: C/action-bars.page:19
@@ -82,6 +84,9 @@ msgid ""
 "of a window. It is used to present actions for the content that is displayed "
 "above."
 msgstr ""
+"Eine Aktionsleiste ist ein horizontaler Container, der entlang des unteren "
+"Randes eines Fensters platziert wird. Darin werden Aktionen angezeigt, die "
+"auf den darüber dargestellten Inhalt angewendet werden können."
 
 #. (itstool) path: section/title
 #: C/action-bars.page:22 C/application-menus.page:22 C/button-menus.page:25
@@ -95,7 +100,7 @@ msgstr ""
 #: C/spin-boxes.page:37 C/switches.page:25 C/tabs.page:39 C/toolbars.page:37
 #: C/view-switchers.page:22
 msgid "When to use"
-msgstr ""
+msgstr "Anwendungsfälle"
 
 #. (itstool) path: section/p
 #: C/action-bars.page:24
@@ -106,6 +111,12 @@ msgid ""
 "cases, potential actions can be placed within a <link xref=\"header-bar-menus"
 "\">header bar menu</link> instead."
 msgstr ""
+"Verwenden Sie eine Aktionsleiste, wenn die Objekte des Inhalts primär "
+"Bearbeitungs- oder Verwaltungszwecken dienen. Da potenzielle Aktionen "
+"deutlich sichtbar angezeigt werden, sind Aktionsleisten unangebracht, wenn "
+"der Inhalt allgemein betrachtet und nicht bearbeitet wird. In solchen Fällen "
+"können potenzielle Aktionen in einem <link xref=\"header-bar-menus"
+"\">Kopfleistenmenü</link> angezeigt werden."
 
 #. (itstool) path: section/p
 #: C/action-bars.page:26
@@ -113,6 +124,8 @@ msgid ""
 "Action bars can be shown temporarily, when a <link xref=\"selection-mode"
 "\">selection</link> or edit mode is active."
 msgstr ""
+"Aktionsleisten können temporär angezeigt werden, wenn ein <link xref="
+"\"selection-mode\">Auswahl-</link> oder Bearbeitungsmodus aktiv ist."
 
 #. (itstool) path: section/title
 #: C/action-bars.page:31 C/check-boxes.page:37 C/empty-placeholders.page:34
@@ -129,6 +142,9 @@ msgid ""
 "and right of the action bar, or by using separators. The most commonly used "
 "items should be placed on the left."
 msgstr ""
+"Fassen Sie ähnliche Funktionalitäten zusammen, indem Sie sie an der rechten "
+"und linken Seite der Aktionsleiste zusammen, oder verwenden Sie Trenner. Die "
+"am häufigsten genutzten Objekte sollten links platziert werden."
 
 #. (itstool) path: item/p
 #: C/action-bars.page:35
@@ -136,6 +152,9 @@ msgid ""
 "Try to separate potentially destructive actions, and <link xref="
 "\"buttons#suggested-and-destructive\">style them appropriately</link>."
 msgstr ""
+"Versuchen Sie, potenziell destruktive Aktionen von den anderen zu trennen, "
+"und <link xref=\"buttons#suggested-and-destructive\">machen Sie sie "
+"entsprechend kenntlich</link>."
 
 #. (itstool) path: section/title
 #: C/action-bars.page:41 C/application-menus.page:70 C/buttons.page:89
@@ -212,6 +231,9 @@ msgid ""
 "incorporates useful functionality, and which can be installed on a user’s "
 "system."
 msgstr ""
+"Eine Anwendung ist eine klare und unabhängige Software, die nützliche "
+"Funktionalität bereitstellt und die auf dem System des Benutzers installiert "
+"werden kann."
 
 #. (itstool) path: section/p
 #: C/application-basics.page:25
@@ -268,6 +290,9 @@ msgid ""
 "installation and use of 3rd party software, in a way that avoids dependency "
 "issues and ensures simplicity of use."
 msgstr ""
+"Kern dieser Definition ist ein Modell, dass die modulare Installation von "
+"Software von Drittanbietern ermöglicht, und zwar auf eine Weise, die "
+"Abhängigkeitsprobleme vermeidet und einfache Benutzung gewährleistet."
 
 #. (itstool) path: section/p
 #: C/application-basics.page:38
@@ -303,14 +328,14 @@ msgstr "Ein Anwendungsname erfüllt eine Reihe von Funktionen:"
 #. (itstool) path: item/p
 #: C/application-basics.page:56
 msgid "It must advertise your application to potential users."
-msgstr ""
+msgstr "Er muss bei potenziellen Benutzern für Ihre Anwendung werben."
 
 #. (itstool) path: item/p
 #: C/application-basics.page:57
 msgid ""
 "It should serve to reinforce a positive identity, and have expressive "
 "qualities."
-msgstr ""
+msgstr "Er sollte eine positive Identität übermitteln und ausdrucksstark sein."
 
 #. (itstool) path: item/p
 #: C/application-basics.page:58
@@ -318,6 +343,8 @@ msgid ""
 "It needs to identify your application in the systems where it is installed "
 "and run."
 msgstr ""
+"Er dient zur Identifikation Ihrer Anwendung auf den Systemen, wo diese "
+"installiert ist und ausgeführt wird."
 
 #. (itstool) path: section/p
 #: C/application-basics.page:61
@@ -359,7 +386,7 @@ msgstr "original"
 #. (itstool) path: info/desc
 #: C/application-menus.page:7
 msgid "Global application menu that is accessed from the top bar"
-msgstr ""
+msgstr "Globales Anwendungsmenü, das über die obere Leiste erreichbar ist"
 
 #. (itstool) path: page/title
 #: C/application-menus.page:15
@@ -373,6 +400,9 @@ msgid ""
 "for your application. These include standard items for accessing "
 "documentation and information about the application."
 msgstr ""
+"Anwendungsmenüs gewähren Zugriff auf globale Aktionen der obersten Ebene und "
+"Optionen Ihrer Anwendung. Diese umfassen Standardeinträge wie die "
+"Dokumentation und Informationen zu Ihrer Anwendung."
 
 #. (itstool) path: section/p
 #: C/application-menus.page:24
@@ -396,10 +426,8 @@ msgstr "Allgemeine Richtlinien"
 
 #. (itstool) path: item/p
 #: C/application-menus.page:32
-#, fuzzy
-#| msgid "<link xref=\"menus\">Menus</link>"
 msgid "Follow the standard <link xref=\"menus\">guidance for menus</link>."
-msgstr "<link xref=\"menus\">Menüs</link>"
+msgstr "Folgen Sie dem Standard für <link xref=\"menus\">Menüs</link>."
 
 #. (itstool) path: item/p
 #: C/application-menus.page:33
@@ -409,6 +437,10 @@ msgid ""
 "view, or which act on content within an application window, should not be "
 "included."
 msgstr ""
+"Platzieren Sie dort nur Menüeinträge, die für die Anwendung als Ganzes "
+"gelten, wie beispielsweise die Einstellungen. Einträge, die sich nur auf ein "
+"bestimmtes Fenster oder eine bestimmte Ansicht beziehen oder auf den Inhalt "
+"des Anwendungsfensters angewendet werden, sollten dort nicht zu finden sein."
 
 #. (itstool) path: item/p
 #: C/application-menus.page:34
@@ -416,6 +448,8 @@ msgid ""
 "If an item from the application menu is frequently used, consider moving it "
 "to a more accessible location."
 msgstr ""
+"Wenn ein Eintrag eines Anwendungsmenüs häufig genutzt wird, sollten Sie "
+"erwägen, diesen an einen besser erreichbaren Ort zu verschieben."
 
 #. (itstool) path: section/title
 #: C/application-menus.page:40
@@ -430,6 +464,10 @@ msgid ""
 "gui>. <gui>Help</gui>, <gui>About</gui> and <gui>Quit</gui> should be "
 "contained within their own group at the bottom of the menu."
 msgstr ""
+"Häufig verwendete Einträge für Anwendungsmenüs sind <gui>New Window</gui>, "
+"<gui>Preferences</gui>, <gui>Help</gui>, <gui>About</gui> und <gui>Quit</"
+"gui>. <gui>Help</gui>, <gui>About</gui> und <gui>Quit</gui> sollten in einer "
+"eigenen Gruppe zusammengefasst am unteren Ende des Menüs erscheinen."
 
 #. (itstool) path: td/p
 #: C/application-menus.page:46
@@ -445,6 +483,12 @@ msgid ""
 "performs an action, rename it to be less generic. For example: <gui>New "
 "Connection</gui> or <gui>New Document</gui>."
 msgstr ""
+"Öffnet ein neues Fenster. Nur in Anwendungen, die die Ausführung <link xref="
+"\"primary-windows#application-types\">mehrerer Instanzen</link> erlauben, "
+"sollte eine solcher Menüeintrag sichtbar sein. Wenn das neue Fenster einen "
+"spezifischen Inhaltstyp anzeigt oder eine Aktion simultan ausführt, benennen "
+"Sie es um, um es besser unterscheidbar zu machen. Beispiele:<gui>New "
+"Connection</gui> oder <gui>New Document</gui>."
 
 #. (itstool) path: td/p
 #: C/application-menus.page:50
@@ -457,11 +501,14 @@ msgid ""
 "Opens the application's preferences dialog. Only show this menu item if your "
 "application has a preferences dialog."
 msgstr ""
+"Öffnet den Einstellungsdialog der Anwendung. Verwenden Sie diesen "
+"Menüeintrag nur dann, wenn Ihre Anwendung tatsächlich über einen "
+"Einstellungsdialog verfügt."
 
 #. (itstool) path: td/p
 #: C/application-menus.page:54 C/keyboard-input.page:286
 msgid "<gui>Help</gui>"
-msgstr "<gui>Hilfe</gui>"
+msgstr "<gui>Help</gui>"
 
 #. (itstool) path: td/p
 #: C/application-menus.page:55
@@ -470,11 +517,14 @@ msgid ""
 "application. Only show this menu item if your application has user "
 "documentation."
 msgstr ""
+"Öffnet die Benutzerdokumentation in der Anwendung <app>Help</app>. Verwenden "
+"Sie diesen Menüeintrag nur dann, wenn Ihre Anwendung tatsächlich über einen "
+"Benutzerdokumentation verfügt."
 
 #. (itstool) path: td/p
 #: C/application-menus.page:58 C/keyboard-input.page:291
 msgid "<gui>About</gui>"
-msgstr ""
+msgstr "<gui>About</gui>"
 
 #. (itstool) path: td/p
 #: C/application-menus.page:59
@@ -482,11 +532,13 @@ msgid ""
 "Opens the application's about dialog. Every application menu should include "
 "this item."
 msgstr ""
+"Öffnet den Informationsdialog der Anwendung, den es in jeder Anwendung geben "
+"sollte."
 
 #. (itstool) path: td/p
 #: C/application-menus.page:62 C/keyboard-input.page:296
 msgid "<gui>Quit</gui>"
-msgstr ""
+msgstr "<gui>Quit</gui>"
 
 #. (itstool) path: td/p
 #: C/application-menus.page:63
@@ -494,6 +546,8 @@ msgid ""
 "Closes the application, including all application windows. Every application "
 "menu should include this item."
 msgstr ""
+"Schließt die Anwendung und alle geöffneten Fenster. Dieser Eintrag sollte in "
+"jedem Anwendungsmenü zu finden sein."
 
 #. (itstool) path: item/p
 #: C/application-menus.page:72
@@ -501,6 +555,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkApplication.html"
 "\">GtkApplication</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkApplication.html"
+"\">GtkApplication</link>"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -529,7 +585,7 @@ msgstr "original"
 #. (itstool) path: page/title
 #: C/button-menus.page:18
 msgid "Button menus"
-msgstr ""
+msgstr "Knopfmenüs"
 
 #. (itstool) path: page/p
 #: C/button-menus.page:20
@@ -539,6 +595,10 @@ msgid ""
 "toolbars. <link xref=\"header-bar-menus\">Header bar menus</link> are the "
 "most common example."
 msgstr ""
+"Ein Menü, das durch Anklicken eines Knopfes geöffnet wird. Dieses kann in "
+"eine Reihe von Container-Widgets eingebettet werden, zum Beispiel "
+"Kopfleisten, Aktionsleisten, Seitenleisten oder Werkzeugleisten. <link xref="
+"\"header-bar-menus\">Kopfleistenmenüs</link> sind das bekannteste Beispiel."
 
 #. (itstool) path: section/p
 #: C/button-menus.page:27
@@ -707,11 +767,16 @@ msgid ""
 "Buttons can be used to perform actions, toggle settings or views, activate "
 "tools, or to display dialogs, popovers, or other user interface elements."
 msgstr ""
+"Knöpfe sind eines der häufigsten und grundlegendsten Elemente der "
+"Benutzeroberfläche. Sie können zum Ausführen von Aktionen, Umschalten von "
+"Einstellungen oder Ansichten, Aktivieren von Werkzeugen oder zum Anzeigen "
+"von Dialogen, Einblenddialogen oder anderen Benutzeroberflächenelementen "
+"verwendet werden."
 
 #. (itstool) path: section/title
 #: C/buttons.page:37 C/text-fields.page:37
 msgid "General Guidelines"
-msgstr ""
+msgstr "Allgemeine Richtlinien"
 
 #. (itstool) path: item/p
 #: C/buttons.page:40
@@ -719,6 +784,9 @@ msgid ""
 "A button can contain an icon, button, or - more unusually - an image. Follow "
 "the icons and artwork guidelines when deciding which to use."
 msgstr ""
+"Ein Knopf kann ein Symbol oder - weniger häufig anzutreffen - ein Bild "
+"enthalten. Beachten Sie die Richtlinien für Symbole und Design, wenn Sie "
+"sich entschließen, eines davon zu verwenden."
 
 #. (itstool) path: item/p
 #: C/buttons.page:41
@@ -726,6 +794,8 @@ msgid ""
 "After pressing a button, the user should expect to see the result of their "
 "action within 1 second."
 msgstr ""
+"Nach dem Anklicken eines Knopfes sollte der Benutzer erwarten können, das "
+"Ergebnis der Aktion innerhalb einer Sekunde zu sehen."
 
 #. (itstool) path: item/p
 #: C/buttons.page:42
@@ -734,6 +804,10 @@ msgid ""
 "window, and make all of them the same height. This will help give a pleasing "
 "uniform visual appearance to your window that makes it easier to use."
 msgstr ""
+"Verwenden Sie nicht mehr als zwei verschiedene Knopfbreiten innerhalb des "
+"gleichen Fensters, besser nur eine. Sorgen Sie dafür, dass alle Knöpfe die "
+"gleiche Höhe haben. Die daraus resultierende einheitlichere visuelle "
+"Erscheinung erleichtert die Benutzung."
 
 #. (itstool) path: item/p
 #: C/buttons.page:43
@@ -742,6 +816,11 @@ msgid ""
 "are unlikely to discover these actions, and if they do, it will distort "
 "their expectations of other buttons on the desktop."
 msgstr ""
+"Weisen Sie keine Aktionen Knöpfen zu, die mit der rechten Maustaste oder "
+"durch Doppelklick ausgeführt werden müssen. Es ist eher unwahrscheinlich, "
+"dass Benutzer diese Aktionen erkennen, und wenn doch, werden ihre "
+"Erwartungen bei anderen, nur einfach anklickbaren Knöpfen in der "
+"Arbeitsumgebung nicht erfüllt."
 
 #. (itstool) path: item/p
 #: C/buttons.page:44
@@ -749,6 +828,8 @@ msgid ""
 "Make invalid buttons insensitive, rather than popping up an error message "
 "when the user clicks them."
 msgstr ""
+"Stellen Sie nicht anklickbare Knöpfe entsprechend dar, anstatt beim "
+"Anklicken ein Fenster mit einer Fehlermeldung zu öffnen."
 
 #. (itstool) path: item/p
 #: C/buttons.page:45
@@ -757,6 +838,9 @@ msgid ""
 "the same width. This is particularly important for pairs of Cancel and OK "
 "buttons."
 msgstr ""
+"Wenn Sie mehrere Knöpfe direkt nebeneinander platzieren, sollten diese die "
+"gleiche Breite haben. Dies betrifft insbesondere die Knopfpaare für »Cancel« "
+"und »OK«."
 
 #. (itstool) path: item/p
 #: C/buttons.page:46
@@ -770,7 +854,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/buttons.page:52
 msgid "Text buttons"
-msgstr ""
+msgstr "Textknöpfe"
 
 #. (itstool) path: item/p
 #: C/buttons.page:55
@@ -805,7 +889,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/buttons.page:64
 msgid "Toggle buttons"
-msgstr ""
+msgstr "Umschaltknöpfe"
 
 #. (itstool) path: section/p
 #: C/buttons.page:66
@@ -832,7 +916,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/buttons.page:78
 msgid "Suggested and destructive actions"
-msgstr ""
+msgstr "Vorgeschlagene und destruktive Aktionen"
 
 #. (itstool) path: section/p
 #: C/buttons.page:80
@@ -861,6 +945,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkButton.html"
 "\">GtkButton</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkButton.html"
+"\">GtkButton</link>"
 
 #. (itstool) path: item/p
 #: C/buttons.page:93
@@ -868,6 +954,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkToggleButton.html"
 "\">GtkToggleButton</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkToggleButton.html"
+"\">GtkToggleButton</link>"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -1003,6 +1091,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkCheckButton.html"
 "\">GtkCheckButton</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkCheckButton.html"
+"\">GtkCheckButton</link>"
 
 #. (itstool) path: info/desc
 #. (itstool) path: td/p
@@ -1124,7 +1214,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/design-principles.page:14
 msgid "Design principles"
-msgstr ""
+msgstr "Designprinzipien"
 
 #. (itstool) path: page/p
 #: C/design-principles.page:16
@@ -1495,7 +1585,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/dialogs.page:53
 msgid "Message Dialogs"
-msgstr ""
+msgstr "Meldungsdialoge"
 
 #. (itstool) path: section/p
 #: C/dialogs.page:57
@@ -1546,7 +1636,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/dialogs.page:74
 msgid "Action Dialogs"
-msgstr ""
+msgstr "Aktionsdialoge"
 
 #. (itstool) path: section/p
 #: C/dialogs.page:78
@@ -1642,10 +1732,8 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/dialogs.page:119
-#, fuzzy
-#| msgid "Primary button"
 msgid "Primary buttons"
-msgstr "Primäre Taste"
+msgstr "Primäre Knöpfe"
 
 #. (itstool) path: section/p
 #: C/dialogs.page:121
@@ -1776,6 +1864,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkAboutDialog.html"
 "\">GtkAboutDialog</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkAboutDialog.html"
+"\">GtkAboutDialog</link>"
 
 #. (itstool) path: item/p
 #: C/dialogs.page:172
@@ -1783,6 +1873,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkDialog.html"
 "\">GtkDialog</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkDialog.html"
+"\">GtkDialog</link>"
 
 #. (itstool) path: item/p
 #: C/dialogs.page:173
@@ -1790,13 +1882,13 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkMessageDialog.html"
 "\">GtkMessageDialog</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkMessageDialog.html"
+"\">GtkMessageDialog</link>"
 
 #. (itstool) path: page/title
 #: C/display-compatibility.page:14
-#, fuzzy
-#| msgid "Compatibility"
 msgid "Display compatibility"
-msgstr "Kompatibilität"
+msgstr "Anzeigekompatibilität"
 
 #. (itstool) path: page/p
 #: C/display-compatibility.page:16
@@ -1894,7 +1986,7 @@ msgstr "original"
 #. (itstool) path: page/title
 #: C/drop-down-lists.page:18
 msgid "Drop-down lists"
-msgstr ""
+msgstr "Auswahllisten"
 
 #. (itstool) path: page/p
 #: C/drop-down-lists.page:20
@@ -1903,6 +1995,10 @@ msgid ""
 "from a list of mutually exclusive options. It appears as a button which, "
 "when clicked, reveals a list."
 msgstr ""
+"Eine Auswahlliste ist ein Element der Benutzeroberfläche, das dem Benutzer "
+"die Auswahl aus einer Liste sich gegenseitig ausschließender Optionen "
+"anzeigt. Im Ausgangszustand erscheint eine Auswahlliste als Knopf und klappt "
+"beim Anklicken eine Liste aus."
 
 #. (itstool) path: page/p
 #: C/drop-down-lists.page:24
@@ -1912,21 +2008,25 @@ msgid ""
 "interaction. At the same time, a drop-down list might be a better choice "
 "when:"
 msgstr ""
+"Radioknöpfe oder eine Liste sind häufig einer Auswahlliste vorzuziehen, da "
+"diese sämtliche verfügbaren Optionen gleichzeitig ohne weiteren "
+"Benutzereingriff anzeigen. Andererseits kann eine Auswahlliste vorteilhafter "
+"sein, wenn:"
 
 #. (itstool) path: item/p
 #: C/drop-down-lists.page:27
 msgid "The number of options is large."
-msgstr ""
+msgstr "die Anzahl der Optionen groß ist."
 
 #. (itstool) path: item/p
 #: C/drop-down-lists.page:28
 msgid "There is little available space."
-msgstr ""
+msgstr "wenig Platz verfügbar ist."
 
 #. (itstool) path: item/p
 #: C/drop-down-lists.page:29
 msgid "The list of options may change over time."
-msgstr ""
+msgstr "die Liste der Optionen zeitlich veränderlich ist."
 
 #. (itstool) path: item/p
 #: C/drop-down-lists.page:30
@@ -1973,7 +2073,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/drop-down-lists.page:46
 msgid "Custom values"
-msgstr ""
+msgstr "Benutzerdefinierte Werte"
 
 #. (itstool) path: section/p
 #: C/drop-down-lists.page:50
@@ -2034,7 +2134,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/empty-placeholders.page:16
 msgid "Empty placeholders"
-msgstr ""
+msgstr "Leere Platzhalter"
 
 #. (itstool) path: page/p
 #: C/empty-placeholders.page:20
@@ -2116,7 +2216,7 @@ msgstr "original"
 #. (itstool) path: info/desc
 #: C/grids.page:8
 msgid "Grids of thumbnails or icons"
-msgstr ""
+msgstr "Gitter mit Vorschaubildern oder Symbolen"
 
 #. (itstool) path: page/title
 #: C/grids.page:16
@@ -2181,6 +2281,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkFlowBox.html"
 "\">GtkFlowBox</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkFlowBox.html"
+"\">GtkFlowBox</link>"
 
 #. (itstool) path: item/p
 #: C/grids.page:47
@@ -2188,6 +2290,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkIconView.html"
 "\">GtkIconView</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkIconView.html"
+"\">GtkIconView</link>"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -2209,7 +2313,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/header-bar-menus.page:16
 msgid "Header bar menus"
-msgstr ""
+msgstr "Kopfleistenmenüs"
 
 #. (itstool) path: page/p
 #: C/header-bar-menus.page:20
@@ -2295,6 +2399,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkMenuButton.html"
 "\">GtkMenuButton</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkMenuButton.html"
+"\">GtkMenuButton</link>"
 
 #. (itstool) path: item/p
 #: C/header-bar-menus.page:52 C/menus.page:83 C/popovers.page:68
@@ -2302,6 +2408,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkPopoverMenu.html"
 "\">GtkPopoverMenu</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkPopoverMenu.html"
+"\">GtkPopoverMenu</link>"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -2323,7 +2431,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/header-bars.page:16
 msgid "Header bars"
-msgstr ""
+msgstr "Kopfleisten"
 
 #. (itstool) path: page/p
 #: C/header-bars.page:20
@@ -2406,7 +2514,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/header-bars.page:49
 msgid "Header bars are dynamic"
-msgstr ""
+msgstr "Kopfleisten sind dynamisch"
 
 #. (itstool) path: section/p
 #: C/header-bars.page:51
@@ -2474,6 +2582,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkHeaderBar.html"
 "\">GtkHeaderBar</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkHeaderBar.html"
+"\">GtkHeaderBar</link>"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -2484,7 +2594,7 @@ msgstr ""
 msgctxt "_"
 msgid ""
 "external ref='figures/icons/sizes.png' md5='ffd25334db0c9751862cfb3b56e00b5e'"
-msgstr ""
+msgstr "original"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -3044,7 +3154,6 @@ msgstr ""
 
 #. (itstool) path: td/p
 #: C/index.page:32
-#| msgid "<link xref=\"buttons\">Buttons</link>"
 msgid "<link xref=\"patterns\"><em style=\"strong\">Patterns</em></link>"
 msgstr "<link xref=\"patterns\"><em style=\"strong\">Muster</em></link>"
 
@@ -3370,6 +3479,8 @@ msgid ""
 "<link xref=\"https://developer.gnome.org/gtk3/stable/GtkInfoBar.html"
 "\">GtkInfoBar</link>"
 msgstr ""
+"<link xref=\"https://developer.gnome.org/gtk3/stable/GtkInfoBar.html"
+"\">GtkInfoBar</link>"
 
 #. (itstool) path: page/title
 #: C/keyboard-input.page:27
@@ -3575,7 +3686,6 @@ msgstr ""
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:100
-#| msgid "<keyseq><key>Ctrl</key><key>End</key></keyseq>"
 msgid "<key>Return</key> and <key>End</key>"
 msgstr "<key>Eingabetaste</key> und <key>Ende</key>"
 
@@ -3600,7 +3710,6 @@ msgstr ""
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:108
-#| msgid "<key>Space</key>"
 msgid "<key>Escape</key>"
 msgstr "<key>Escape</key>"
 
@@ -5414,11 +5523,10 @@ msgstr ""
 
 #. (itstool) path: td/p
 #: C/lists.page:122
-#, fuzzy
 #| msgid "Edit"
 msgctxt "list-type"
 msgid "Edit"
-msgstr "Bearbeiten"
+msgstr "Edit"
 
 #. (itstool) path: td/p
 #: C/lists.page:123
@@ -5497,6 +5605,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkListBox.html"
 "\">GtkListBox</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkListBox.html"
+"\">GtkListBox</link>"
 
 #. (itstool) path: item/p
 #: C/lists.page:151
@@ -5504,6 +5614,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkTreeView.html"
 "\">GtkTreeView</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkTreeView.html"
+"\">GtkTreeView</link>"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -5751,6 +5863,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkMenu.html\">GtkMenu</"
 "link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkMenu.html\">GtkMenu</"
+"link>"
 
 #. (itstool) path: item/p
 #: C/menu-bars.page:110 C/menus.page:77
@@ -5758,6 +5872,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkMenuBar.html"
 "\">GtkMenuBar</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkMenuBar.html"
+"\">GtkMenuBar</link>"
 
 #. (itstool) path: item/p
 #: C/menu-bars.page:111 C/menus.page:79
@@ -5765,6 +5881,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkMenuItem.html"
 "\">GtkMenuItem</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkMenuItem.html"
+"\">GtkMenuItem</link>"
 
 #. (itstool) path: item/p
 #: C/menu-bars.page:112 C/menus.page:80
@@ -5772,6 +5890,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkRadioMenuItem.html"
 "\">GtkRadioMenuItem</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkRadioMenuItem.html"
+"\">GtkRadioMenuItem</link>"
 
 #. (itstool) path: item/p
 #: C/menu-bars.page:113 C/menus.page:81
@@ -5779,6 +5899,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkCheckMenuItem.html"
 "\">GtkCheckMenuItem</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkCheckMenuItem.html"
+"\">GtkCheckMenuItem</link>"
 
 #. (itstool) path: item/p
 #: C/menu-bars.page:114 C/menus.page:82
@@ -5786,6 +5908,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkSeparatorMenuItem."
 "html\">GtkSeparatorMenuItem</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkSeparatorMenuItem."
+"html\">GtkSeparatorMenuItem</link>"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -5797,7 +5921,7 @@ msgctxt "_"
 msgid ""
 "external ref='figures/ui-elements/menu.svg' "
 "md5='1997424d43df9bee4a79276f2f7ec305'"
-msgstr ""
+msgstr "original"
 
 #. (itstool) path: page/title
 #: C/menus.page:30
@@ -6149,6 +6273,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gio/stable/GNotification.html"
 "\">GNotification</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/gio/stable/GNotification.html"
+"\">GNotification</link>"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -6237,10 +6363,8 @@ msgstr "original"
 
 #. (itstool) path: page/title
 #: C/patterns.page:13
-#, fuzzy
-#| msgid "Patterns"
 msgid "Design patterns"
-msgstr "Muster"
+msgstr ""
 
 #. (itstool) path: page/p
 #: C/patterns.page:15
@@ -6256,7 +6380,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/patterns.page:18
 msgid "Anatomy of a GNOME 3 application"
-msgstr ""
+msgstr "Anatomie einer GNOME-2-Anwendung"
 
 #. (itstool) path: section/p
 #: C/patterns.page:19
@@ -6340,7 +6464,7 @@ msgstr "original"
 msgctxt "_"
 msgid ""
 "external ref='figures/touch/flick.svg' md5='99705b91124b157c3ffdf0cc8593d787'"
-msgstr ""
+msgstr "original"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -6960,6 +7084,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkPopover.html"
 "\">GtkPopover</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkPopover.html"
+"\">GtkPopover</link>"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -7156,6 +7282,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkWindow.html"
 "\">GtkWindow</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkWindow.html"
+"\">GtkWindow</link>"
 
 #. (itstool) path: item/p
 #: C/primary-windows.page:90
@@ -7163,6 +7291,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkApplicationWindow."
 "html\">GtkApplicationWindow</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkApplicationWindow."
+"html\">GtkApplicationWindow</link>"
 
 #. (itstool) path: item/p
 #: C/primary-windows.page:91 C/sidebar-lists.page:57
@@ -7170,6 +7300,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkScrolledWindow.html"
 "\">GtkScrolledWindow</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkScrolledWindow.html"
+"\">GtkScrolledWindow</link>"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -7452,6 +7584,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkProgressBar.html"
 "\">GtkProgressBar</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkProgressBar.html"
+"\">GtkProgressBar</link>"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -7565,6 +7699,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkSpinner.html"
 "\">GtkSpinner</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkSpinner.html"
+"\">GtkSpinner</link>"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -7664,6 +7800,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkRadioButton.html"
 "\">GtkRadioButton</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkRadioButton.html"
+"\">GtkRadioButton</link>"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -7825,6 +7963,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkSearchEntry.html"
 "\">GtkSearchEntry</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkSearchEntry.html"
+"\">GtkSearchEntry</link>"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -7900,7 +8040,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/selection-mode.page:39
 msgid "Activating selection mode"
-msgstr ""
+msgstr "Aktivieren des Auswahlmodus"
 
 #. (itstool) path: section/p
 #: C/selection-mode.page:41
@@ -7914,7 +8054,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/selection-mode.page:46
 msgid "The action bar"
-msgstr ""
+msgstr "Die Aktionsleiste"
 
 #. (itstool) path: item/p
 #: C/selection-mode.page:49
@@ -8061,6 +8201,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkStackSidebar.html"
 "\">GtkStackSidebar</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkStackSidebar.html"
+"\">GtkStackSidebar</link>"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -8281,6 +8423,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkSpinButton.html"
 "\">GtkSpinButton</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkSpinButton.html"
+"\">GtkSpinButton</link>"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -8354,6 +8498,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkSwitch.html"
 "\">GtkSwitch</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkSwitch.html"
+"\">GtkSwitch</link>"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -8545,6 +8691,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkNotebook.html"
 "\">GtkNotebook</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkNotebook.html"
+"\">GtkNotebook</link>"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -8682,6 +8830,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkEntry.html"
 "\">GtkEntry</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkEntry.html"
+"\">GtkEntry</link>"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -8788,6 +8938,8 @@ msgid ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkToolbar.html"
 "\">GtkToolbar</link>"
 msgstr ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkToolbar.html"
+"\">GtkToolbar</link>"
 
 #. (itstool) path: credit/name
 #: C/typography.page:11
