@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: platform-overview master\n"
-"POT-Creation-Date: 2016-01-22 08:56+0000\n"
-"PO-Revision-Date: 2016-01-22 12:46+0100\n"
+"POT-Creation-Date: 2016-02-18 08:55+0000\n"
+"PO-Revision-Date: 2016-02-18 12:24+0100\n"
 "Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
 "Language-Team: Deutsch <>\n"
 "Language: de_DE\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.6\n"
+"X-Generator: Poedit 1.8.7\n"
 
 #. (itstool) path: p/link
 #: C/cc-by-sa-3-0.xml:4
@@ -366,6 +366,10 @@ msgid ""
 "you may not need an <file>index.page</file> if you are dropping plugin help into another "
 "project."
 msgstr ""
+"Die meisten Projekte sollten eine <file>index.page</file>-Datei und einige Seiten mit "
+"echten Inhalten haben. Wenn Sie Hilfe zu einem Plugin anbieten, die innerhalb der Hilfe "
+"zu einem anderen Projekt angezeigt wird, ist eine <file>index.page</file>-Datei nicht "
+"notwendig."
 
 #. (itstool) path: listing/title
 #: C/dev-help-write.page:35
@@ -544,6 +548,9 @@ msgid ""
 "A desktop file lists your application binary, name and type, and can also list an icon, "
 "description and several other pieces of information about launching an application."
 msgstr ""
+"Eine *.desktop-Datei enthält den Namen und den Typ der Binärdatei Ihrer Anwendung und "
+"kann außerdem ein Symbol, eine Beschreibung und diverse andere Informationen zum Starten "
+"der Anwendung enthalten."
 
 #. (itstool) path: page/p
 #: C/dev-launching-desktop.page:41
@@ -601,6 +608,12 @@ msgid ""
 "should be populated with a list of categories, separated by a semicolon, from the "
 "Desktop Menu Specification."
 msgstr ""
+"Weitere Felder in der *.desktop-Datei sind optional, aber zu empfehlen. Anwendungen "
+"sollten ein Symbol installieren und dessen Namen (ohne Erweiterung) im Schlüssel "
+"<code>Icon</code> anzeigen. Der <code>Comment</code> (Kommentar) ist eine "
+"Kurzbeschreibung der Anwendung. Um den Benutzern beim Suchen nach passenden Anwendungen "
+"zu helfen, sollte der Schlüssel <code>Categories</code> eine durch Semikola getrennte "
+"Kategorienliste enthalten, die der »Desktop Menu Specification« entsprechen."
 
 #. (itstool) path: page/p
 #: C/dev-launching-desktop.page:73
@@ -608,6 +621,8 @@ msgid ""
 "There are several other keys that can be added to desktop files, which are listed and "
 "described in the Desktop Entry Specification."
 msgstr ""
+"In der »Desktop Entry Specification« sind weitere Schlüssel beschrieben, die zu *."
+"desktop-Dateien hinzugefügt werden können."
 
 #. (itstool) path: page/title
 #: C/dev-launching-icons.page:20
@@ -689,6 +704,10 @@ msgid ""
 "scope of this guide. The <link href=\"http://standards.freedesktop.org/shared-mime-info-"
 "spec/latest/\">Shared MIME-Info Database</link> specification for more details."
 msgstr ""
+"Benutzerdefinierte MIME-Typen können zur systemweiten MIME-Datenbank hinzugefügt werden, "
+"aber das würde den Rahmen dieser Anleitung sprengen. In der Spezifikation der <link href="
+"\"http://standards.freedesktop.org/shared-mime-info-spec/latest/\">Shared MIME-Info "
+"Database</link> finden Sie weitere Details."
 
 #. (itstool) path: page/title
 #: C/dev-launching-startupnotify.page:20
@@ -709,6 +728,9 @@ msgid ""
 "latest/index.html\">Startup Notification protocol</link>, to give feedback to the user "
 "when application startup finishes."
 msgstr ""
+"GNOME implementiert das <link href=\"http://standards.freedesktop.org/desktop-entry-spec/"
+"latest/index.html\">Startup Notification protocol</link>, um dem Benutzer Rückmeldungen "
+"zu geben, wenn der Start einer Anwendung abgeschlossen ist."
 
 #. (itstool) path: page/p
 #: C/dev-launching-startupnotify.page:33
@@ -718,6 +740,10 @@ msgid ""
 "declare that it supports startup notification by adding <code>StartupNotify=true</code> "
 "to its desktop file."
 msgstr ""
+"GTK+-Anwendungen unterstützen Startbenachrichtigungen automatisch. In der Voreinstellung "
+"erfolgt die Benachrichtigung dann, wenn das erste Fenster angezeigt wird. In der *."
+"desktop-Datei Ihrer Anwendung zeigt die Zeile <code>StartupNotify=true</code> an, dass "
+"Startbenachrichtigungen unterstützt werden."
 
 #. (itstool) path: page/p
 #: C/dev-launching-startupnotify.page:38
@@ -726,6 +752,10 @@ msgid ""
 "would need custom handling with <code href=\"https://developer.gnome.org/gdk3/stable/"
 "gdk3-General.html#gdk-notify-startup-complete\">gdk_notify_startup_complete()</code>."
 msgstr ""
+"Kompliziertere Startszenarien, wie die Anzeige eines Begrüßungsbildschirms beim Start, "
+"erfordern tiefgreifendere Anpassungen mittels <code href=\"https://developer.gnome.org/"
+"gdk3/stable/gdk3-General.html#gdk-notify-startup-complete"
+"\">gdk_notify_startup_complete()</code>."
 
 #. (itstool) path: info/desc
 #: C/dev-launching.page:21
@@ -744,11 +774,14 @@ msgid ""
 "freedesktop.org Desktop Entry Specification standard to create a desktop file, giving "
 "your application name, icon and a brief description."
 msgstr ""
+"Ein Symbol im Anwendungsstarter ist der häufigste Weg, Ihre Anwendung zu starten. Die "
+"»Desktop Entry Specification« von freedesktop.org beschreibt, wie Sie Ihrer Anwendung "
+"einen Namen, ein Symbol und eine Kurzbeschreibung geben."
 
 #. (itstool) path: info/desc
 #: C/dev-thumbnailer.page:20
 msgid "Thumbnails for document-like files."
-msgstr ""
+msgstr "Vorschaubilder für Dokument-artige Dateien."
 
 #. (itstool) path: page/title
 #: C/dev-thumbnailer.page:24
@@ -762,6 +795,9 @@ msgid ""
 "a document, adding a thumbnailer makes the files show up in <app>Files</app> with images "
 "that correspond to the document."
 msgstr ""
+"Wenn Ihre Anwendung mit Dateien umgehen kann, die ausgedruckt oder als Dokument "
+"angezeigt werden können, fügen Sie einen Thumbnailer hinzu, damit diese in der "
+"Dateiverwaltung mit Vorschaubildern angezeigt werden können."
 
 #. (itstool) path: page/p
 #: C/dev-thumbnailer.page:30
@@ -779,22 +815,27 @@ msgid ""
 "generation, is <link href=\"https://github.com/hadess/gnome-thumbnailer-skeleton\">gnome-"
 "thumbnailer-skeleton</link>."
 msgstr ""
+"Ein häufig verwendetes Hilfsprogramm für Vorschaubilder, das die Auswertung der "
+"Befehlszeile vornimmt und die Ausgabedatei erzeugt, ist <link href=\"https://github.com/"
+"hadess/gnome-thumbnailer-skeleton\">gnome-thumbnailer-skeleton</link>."
 
 #. (itstool) path: page/title
 #: C/dev-translate-build.page:21
 msgid "Set up your build system for translation"
-msgstr ""
+msgstr "Einrichten Ihres Buildsystems für Übersetzungen"
 
 #. (itstool) path: links/title
 #: C/dev-translate-build.page:24 C/dev-translate.page:25 C/dev-translate-setup.page:24
-#: C/dev-translate-tools.page:21
+#: C/dev-translate-tools.page:23
 msgid "Set up translations"
-msgstr ""
+msgstr "Übersetzungen einrichten"
 
 #. (itstool) path: page/p
 #: C/dev-translate-build.page:27
 msgid "You will need to set up your project and build system to work with translations."
 msgstr ""
+"Sie sollten das Buildsystem Ihres Projekts so einrichten, dass es mit Übersetzungen "
+"umgehen kann."
 
 #. (itstool) path: page/p
 #: C/dev-translate-build.page:30
@@ -803,11 +844,15 @@ msgid ""
 "which have translatable strings in <file>po/POTFILES.in</file>. List files <em>without</"
 "em> translatable strings in <file>po/POTFILES.skip</file>."
 msgstr ""
+"Erstellen Sie einen Unterordner namens <file>po/</file> in Ihrem Projektordner und "
+"listen Sie in der Datei <file>po/POTFILES.in</file> jene Dateien auf, die übersetzbare "
+"Zeichenketten enthalten. Dateien <em>ohne</em> übersetzbare Zeichenketten listen Sie in "
+"<file>po/POTFILES.skip</file> auf."
 
 #. (itstool) path: page/p
 #: C/dev-translate-build.page:35
 msgid "Add the following lines to your <file>configure.ac</file>:"
-msgstr ""
+msgstr "Fügen Sie die folgenden Zeilen zur Datei <file>configure.ac</file> hinzu:"
 
 #. (itstool) path: page/code
 #: C/dev-translate-build.page:36
@@ -826,7 +871,7 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/dev-translate-build.page:41
 msgid "Add the following lines to your <file>Makefile.am</file>:"
-msgstr ""
+msgstr "Fügen Sie die folgenden Zeilen zur Datei <file>Makefile.am</file> hinzu:"
 
 #. (itstool) path: page/code
 #: C/dev-translate-build.page:42
@@ -870,6 +915,8 @@ msgid ""
 "Run <cmd>intltoolize</cmd> to copy the intltool build infrastructure to the build tree "
 "before running <cmd>autoreconf</cmd>."
 msgstr ""
+"Führen Sie <cmd>intltoolize</cmd> aus, um die Build-Infrastruktur von intltool zum Build-"
+"Tree hinzuzufügen, bevor Sie <cmd>autoreconf</cmd> aufrufen."
 
 #. (itstool) path: page/p
 #: C/dev-translate-build.page:58
@@ -877,21 +924,23 @@ msgid ""
 "Now that your build system and your source strings are ready for translation, you need "
 "to tell <app>gettext</app> three things:"
 msgstr ""
+"Ihre Buildsystem ist und Ihre Quellzeichenketten sind nun bereit für die Übersetzung. "
+"Sie müssen noch <app>gettext</app> über drei Dinge informieren:"
 
 #. (itstool) path: item/p
 #: C/dev-translate-build.page:62
 msgid "the <em>translation domain</em>, generally the same as the application name"
-msgstr ""
+msgstr "die <em>translation domain</em>, im Allgemeinen der Name der Anwendung"
 
 #. (itstool) path: item/p
 #: C/dev-translate-build.page:64
 msgid "the location where the built translations are installed"
-msgstr ""
+msgstr "den Ort, wo die erstellten Übersetzungen installiert werden sollen"
 
 #. (itstool) path: item/p
 #: C/dev-translate-build.page:65
 msgid "the character encoding of the translations, generally UTF-8"
-msgstr ""
+msgstr "und die Zeichenkodierung der Übersetzungen, allgemein UTF-8"
 
 #. (itstool) path: note/p
 #: C/dev-translate-build.page:71
@@ -899,6 +948,8 @@ msgid ""
 "This example assumes that your application is written in C. It will be slightly "
 "different for other programming languages."
 msgstr ""
+"Das Beispiel nimmt an, dass Ihre Anwendung in C geschrieben ist. Für andere "
+"Programmiersprachen wird es etwas abweichen."
 
 #. (itstool) path: example/p
 #: C/dev-translate-build.page:75
@@ -906,6 +957,8 @@ msgid ""
 "Add the following line to the source file which contains your <code>main()</code> "
 "function:"
 msgstr ""
+"Fügen Sie die folgende Zeile zu der Quelldatei hinzu, die Ihre <code>main()</code>-"
+"Funktion enthält:"
 
 #. (itstool) path: example/code
 #: C/dev-translate-build.page:78
@@ -916,7 +969,7 @@ msgstr "#include \"config.h\""
 #. (itstool) path: example/p
 #: C/dev-translate-build.page:80
 msgid "Then, add the following lines to your <code>main()</code> function:"
-msgstr ""
+msgstr "Dann fügen Sie folgende Zeilen zur <code>main()</code>-Funktion hinzu:"
 
 #. (itstool) path: example/code
 #: C/dev-translate-build.page:82
@@ -939,6 +992,9 @@ msgid ""
 "This runs <cmd>intltool-extract</cmd> to extract the translatable strings and put them "
 "in a po template (POT) file."
 msgstr ""
+"Rufen Sie <cmd>make <input>Projektname</input>.pot</cmd> im Ordner <file>po</file> auf. "
+"Dadurch extrahiert <cmd>intltool-extract</cmd> die übersetzbaren Zeichenketten und "
+"schreibt diese in eine po-Vorlage (POT-Datei)."
 
 #. (itstool) path: credit/name
 #: C/dev-translate.page:12 C/dev-translate-setup.page:11 C/dev-translate-tools.page:10
@@ -949,7 +1005,7 @@ msgstr "Michael Hill"
 #. (itstool) path: info/desc
 #: C/dev-translate.page:19
 msgid "Localization for user-visible application content."
-msgstr ""
+msgstr "Lokalisierung für Inhalte, die für den Benutzer sichtbar sind."
 
 #. (itstool) path: page/title
 #: C/dev-translate.page:22
@@ -988,7 +1044,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/dev-translate-setup.page:21
 msgid "Mark strings for translation"
-msgstr ""
+msgstr "Zeichenketten für die Übersetzung markieren"
 
 #. (itstool) path: page/p
 #: C/dev-translate-setup.page:27
@@ -1029,12 +1085,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: page/title
-#: C/dev-translate-tools.page:18
+#: C/dev-translate-tools.page:20
 msgid "Translation tools"
 msgstr "Übersetzungswerkzeuge"
 
 #. (itstool) path: page/p
-#: C/dev-translate-tools.page:24
+#: C/dev-translate-tools.page:26
 msgid ""
 "At this point the strings are ready for translation, or <em>localization</em>. For "
 "projects hosted in the GNOME Git repositories, this task is handled by the GNOME "
@@ -1107,13 +1163,13 @@ msgstr "2013, 2014"
 #. (itstool) path: info/desc
 #: C/index.page:43
 msgid "Guide to the GNOME platform and libraries for developers."
-msgstr ""
+msgstr "Anleitung zur GNOME-Plattform und den Bibliotheken für Entwickler."
 
 #. (itstool) path: info/title
 #: C/index.page:45
 msgctxt "link:trail"
-msgid "GNOME"
-msgstr "GNOME"
+msgid "Platform overview"
+msgstr "Plattform-Überblick"
 
 #. (itstool) path: page/title
 #: C/index.page:48
@@ -1142,15 +1198,37 @@ msgstr "Integrationsanleitungen"
 msgid "Develop for the platform"
 msgstr "Entwicklung für die Plattform"
 
+#. (itstool) path: p/link
+#: C/legal.xml:5
+#| msgid "Creative Commons Attribution-Share Alike 3.0 United States License"
+msgid "Creative Commons Attribution-ShareAlike 4.0 International"
+msgstr "Creative Commons Attribution-ShareAlike 4.0 International"
+
+#. (itstool) path: license/p
+#: C/legal.xml:4
+msgid "This work is licensed under a <_:link-1/> license."
+msgstr "Dieses Werk wird unter einer <_:link-1/>-Lizenz verbreitet."
+
+#. (itstool) path: license/p
+#: C/legal.xml:8
+msgid ""
+"As a special exception, the copyright holders give you permission to copy, modify, and "
+"distribute the example code contained in this documentation under the terms of your "
+"choosing, without restriction."
+msgstr ""
+"Als besondere Ausnahme gewähren die Besitzer des Urheberrechts Erlaubnis, den Beispiel-"
+"Code in diesem Dokument zu kopieren, verändern und weiterzugeben, unter den Bedingungen "
+"Ihrer Wahl, ohne Einschränkungen."
+
 #. (itstool) path: info/desc
 #: C/license.page:17
 msgid "Which license should you use for your application?"
-msgstr ""
+msgstr "Welche Lizenz sollten Sie für Ihre Anwendung verwenden?"
 
 #. (itstool) path: page/title
 #: C/license.page:21
 msgid "License your application"
-msgstr "Lizenzieren Sie Ihrer Anwendung"
+msgstr "Lizenzieren Ihrer Anwendung"
 
 #. (itstool) path: page/p
 #: C/license.page:23
@@ -1213,7 +1291,7 @@ msgstr ""
 #: C/overview-communication.page:35
 msgctxt "_"
 msgid "external ref='test_comm1.png' md5='47677860b23d89d6f428f1dc454bdb08'"
-msgstr ""
+msgstr "external ref='test_comm1.png' md5='47677860b23d89d6f428f1dc454bdb08'"
 
 #. (itstool) path: info/title
 #: C/overview-communication.page:15
@@ -1224,7 +1302,7 @@ msgstr "Kommunikation"
 #. (itstool) path: info/desc
 #: C/overview-communication.page:16
 msgid "Instant messaging, networking, social media, email, and calendaring support."
-msgstr ""
+msgstr "Unterstützung für Sofortnachrichten, soziale Netzwerke, E-Mail und Kalender."
 
 #. (itstool) path: page/title
 #: C/overview-communication.page:19
@@ -1267,8 +1345,8 @@ msgid "Empathy instant messaging client"
 msgstr "Empathy Sofortnachrichten-Programm"
 
 #. (itstool) path: section/title
-#: C/overview-communication.page:40 C/overview-io.page:40 C/overview-media.page:42
-#: C/overview-net.page:44 C/overview-settings.page:39 C/overview-ui.page:45
+#: C/overview-communication.page:40 C/overview-io.page:42 C/overview-media.page:44
+#: C/overview-net.page:46 C/overview-settings.page:41 C/overview-ui.page:47
 msgid "What can you do?"
 msgstr "Was können Sie tun?"
 
@@ -1329,8 +1407,8 @@ msgstr ""
 "Videokommunikation."
 
 #. (itstool) path: section/title
-#: C/overview-communication.page:80 C/overview-io.page:64 C/overview-media.page:90
-#: C/overview-net.page:74 C/overview-settings.page:61 C/overview-ui.page:89
+#: C/overview-communication.page:80 C/overview-io.page:66 C/overview-media.page:92
+#: C/overview-net.page:76 C/overview-settings.page:63 C/overview-ui.page:91
 msgid "Real-world examples"
 msgstr "Reale Beispiele"
 
@@ -1390,27 +1468,27 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: info/desc
-#: C/overview-io.page:20
+#: C/overview-io.page:22
 msgid "Access structured data storage, networking shares, and files."
 msgstr ""
 
 #. (itstool) path: page/title
-#: C/overview-io.page:23
+#: C/overview-io.page:25
 msgid "Files &amp; data access"
 msgstr "Datei- und Datenzugriff"
 
 #. (itstool) path: item/p
-#: C/overview-io.page:27
+#: C/overview-io.page:29
 msgid "<em style=\"strong\">Asynchronously read and write files and other streams</em>"
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/overview-io.page:30
+#: C/overview-io.page:32
 msgid "<em style=\"strong\">Store and retrieve document metadata</em>"
 msgstr ""
 
 #. (itstool) path: page/p
-#: C/overview-io.page:34
+#: C/overview-io.page:36
 msgid ""
 "Seamlessly access local and remote files using the core GNOME IO libraries. Make your "
 "application responsive by using the extensive support for asynchronous IO operations. "
@@ -1418,7 +1496,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/overview-io.page:42
+#: C/overview-io.page:44
 msgid ""
 "To <em style=\"strong\">asynchronously read and write files and other streams</em>, use "
 "<em style=\"strong\" xref=\"tech-gio\">GIO</em>. A high-level VFS (virtual filesystem) "
@@ -1426,7 +1504,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/overview-io.page:47
+#: C/overview-io.page:49
 msgid ""
 "Use <em style=\"strong\" xref=\"tech-tracker\">Tracker</em> to <em style=\"strong"
 "\">store and retrieve document metadata</em>, as well as <em style=\"strong\">structured "
@@ -1434,21 +1512,21 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/overview-io.page:66
+#: C/overview-io.page:68
 msgid ""
 "You can see lots of real-world applications of GNOME IO technologies in open source "
 "projects, like the examples given below."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/overview-io.page:70
+#: C/overview-io.page:72
 msgid ""
 "<em style=\"strong\">Documents</em> makes it easy to find your files with <em style="
 "\"strong\">Tracker</em>."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/overview-io.page:72
+#: C/overview-io.page:74
 msgid ""
 "( <link href=\"https://wiki.gnome.org/Apps/Documents\">Website</link> | <link href="
 "\"https://git.gnome.org/browse/gnome-documents\">Source code</link> )"
@@ -1457,14 +1535,14 @@ msgstr ""
 "\"https://git.gnome.org/browse/gnome-documents\">Quellcode</link> )"
 
 #. (itstool) path: item/p
-#: C/overview-io.page:75
+#: C/overview-io.page:77
 msgid ""
 "<em style=\"strong\">Files</em> leverages <em style=\"strong\">GIO</em> to make it easy "
 "to manage both local and remote files."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/overview-io.page:77
+#: C/overview-io.page:79
 msgid ""
 "( <link href=\"https://wiki.gnome.org/Apps/Nautilus\">Website</link> | <link href="
 "\"https://wiki.gnome.org/Apps/Nautilus/Screenshots\">Screenshots</link> | <link href="
@@ -1479,13 +1557,13 @@ msgstr ""
 #. the file changes, the md5 hash will change to let you know you need to
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
-#: C/overview-media.page:37
+#: C/overview-media.page:39
 msgctxt "_"
 msgid "external ref='media/totem-screenshot.png' md5='50a5ee1863edda5f15bc3d6f5c0552cd'"
 msgstr ""
 
 #. (itstool) path: info/desc
-#: C/overview-media.page:15
+#: C/overview-media.page:17
 msgid ""
 "Multi-format audio and video playback and editing, streaming from the web, and webcam "
 "support."
@@ -1493,28 +1571,28 @@ msgstr ""
 
 #. (itstool) path: page/title
 #. (itstool) path: links/title
-#: C/overview-media.page:18 C/tech.page:56
+#: C/overview-media.page:20 C/tech.page:56
 msgid "Multimedia"
 msgstr "Multimedia"
 
 #. (itstool) path: item/p
-#: C/overview-media.page:22
+#: C/overview-media.page:24
 msgid "<em style=\"strong\">Play and record a multitude of audio and video formats</em>"
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/overview-media.page:25
+#: C/overview-media.page:27
 msgid ""
 "<em style=\"strong\">Access webcams and other media devices connected to the system</em>"
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/overview-media.page:28
+#: C/overview-media.page:30
 msgid "<em style=\"strong\">Share and stream media with remote devices</em>"
 msgstr ""
 
 #. (itstool) path: page/p
-#: C/overview-media.page:32
+#: C/overview-media.page:34
 msgid ""
 "Add multimedia to your application so that users can easily play their content. Consume "
 "and share content with other devices attached to a system or remotely over the network. "
@@ -1522,12 +1600,12 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: media/p
-#: C/overview-media.page:38
+#: C/overview-media.page:40
 msgid "Videos"
 msgstr "Videos"
 
 #. (itstool) path: section/p
-#: C/overview-media.page:44
+#: C/overview-media.page:46
 msgid ""
 "<em style=\"strong\">Multimedia</em> in GNOME is built on the <em style=\"strong\"><link "
 "xref=\"tech-gstreamer\">GStreamer</link></em> framework. With GStreamer, flexible "
@@ -1536,7 +1614,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/overview-media.page:50
+#: C/overview-media.page:52
 msgid ""
 "GStreamer uses <em style=\"strong\"><link xref=\"tech-pulseaudio\">PulseAudio</link></"
 "em> when outputting audio, and therefore can target many types of output hardware. "
@@ -1544,7 +1622,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/overview-media.page:61
+#: C/overview-media.page:63
 msgid ""
 "For <em style=\"strong\">webcams</em>, use <em style=\"strong\">Cheese</em>. It provides "
 "a simple interface to webcams connected to the system, and an easy way to add an avatar "
@@ -1552,7 +1630,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/overview-media.page:66
+#: C/overview-media.page:68
 msgid ""
 "Use <em style=\"strong\">Rygel</em> to <em style=\"strong\">share content over the "
 "network</em> to devices such as TVs and games consoles. Rygel uses <em style=\"strong"
@@ -1561,7 +1639,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/overview-media.page:72
+#: C/overview-media.page:74
 msgid ""
 "For simple <em style=\"strong\">event sounds</em>, such as a shutter sound when taking a "
 "photo, use <em style=\"strong\"><link xref=\"tech-canberra\">libcanberra</link></em>, "
@@ -1569,19 +1647,19 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/overview-media.page:92
+#: C/overview-media.page:94
 msgid ""
 "You can see lots of real-world applications of GNOME multimedia technologies in open "
 "source projects, like the examples given below."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/overview-media.page:96
+#: C/overview-media.page:98
 msgid "<em style=\"strong\">Videos</em> is the GNOME multimedia player."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/overview-media.page:97
+#: C/overview-media.page:99
 msgid ""
 "( <link href=\"https://wiki.gnome.org/Apps/Videos\">Website</link> | <link href="
 "\"https://git.gnome.org/browse/totem/plain/data/appdata/ss-main.png\">Screenshot</link> "
@@ -1592,14 +1670,14 @@ msgstr ""
 "link> | <link href=\"https://git.gnome.org/browse/totem/\">Quellcode</link> )"
 
 #. (itstool) path: item/p
-#: C/overview-media.page:100
+#: C/overview-media.page:102
 msgid ""
 "<em style=\"strong\">PiTiVi</em> is a non-linear video editor, which makes extensive use "
 "of GStreamer."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/overview-media.page:102
+#: C/overview-media.page:104
 msgid ""
 "( <link href=\"http://www.pitivi.org/\">Website</link> | <link href=\"http://www.pitivi."
 "org/?go=screenshots\">Screenshots</link> | <link href=\"http://www.pitivi.org/?"
@@ -1610,34 +1688,34 @@ msgstr ""
 "org/?go=download\">Quellcode</link> )"
 
 #. (itstool) path: info/desc
-#: C/overview-net.page:15
+#: C/overview-net.page:17
 msgid ""
 "Client and server HTTP communication, portable socket-based networking IO, and network "
 "device management."
 msgstr ""
 
 #. (itstool) path: page/title
-#: C/overview-net.page:18
+#: C/overview-net.page:20
 msgid "Low-level networking"
 msgstr "Systemnahe Netzwerkunterstützung"
 
 #. (itstool) path: item/p
-#: C/overview-net.page:22
+#: C/overview-net.page:24
 msgid "<em style=\"strong\">Create powerful and flexible HTTP servers and clients</em>"
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/overview-net.page:25
+#: C/overview-net.page:27
 msgid "<em style=\"strong\">Use portable socket-based APIs in a UI without blocking</em>"
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/overview-net.page:28
+#: C/overview-net.page:30
 msgid "<em style=\"strong\">Detect and manage the network connection state</em>"
 msgstr ""
 
 #. (itstool) path: page/p
-#: C/overview-net.page:32
+#: C/overview-net.page:34
 msgid ""
 "Take advantage of the portable networking APIs for accessing network services. "
 "Asynchronous IO keeps your application UI responsive while IO is in progress. Detect "
@@ -1646,7 +1724,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/overview-net.page:46
+#: C/overview-net.page:48
 msgid ""
 "To <em style=\"strong\">asynchronously access low-level networking APIs</em>, use <em "
 "style=\"strong\" xref=\"tech-gio-network\">GIO networking</em>. Higher-level API is "
@@ -1655,7 +1733,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/overview-net.page:52
+#: C/overview-net.page:54
 msgid ""
 "Simple monitoring of network state is available in GIO, but <em style=\"strong\" xref="
 "\"tech-network-manager\">NetworkManager</em> provides <em style=\"strong\">comprehensive "
@@ -1663,7 +1741,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/overview-net.page:57
+#: C/overview-net.page:59
 msgid ""
 "<em style=\"strong\" xref=\"tech-soup\">Libsoup</em> provides a flexible interface for "
 "<em style=\"strong\">HTTP servers and clients</em>. Both synchronous and asynchronous "
@@ -1671,21 +1749,21 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/overview-net.page:76
+#: C/overview-net.page:78
 msgid ""
 "You can see lots of real-world applications of GNOME networking technologies in open "
 "source projects, like the examples given below."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/overview-net.page:80
+#: C/overview-net.page:82
 msgid ""
 "<em style=\"strong\">Web</em> is the GNOME browser, which uses libsoup to access HTTP "
 "services."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/overview-net.page:82
+#: C/overview-net.page:84
 msgid ""
 "( <link href=\"https://wiki.gnome.org/Apps/Web\">Website</link> | <link href=\"https://"
 "git.gnome.org/browse/epiphany/plain/data/screenshot.png\">Screenshot</link> | <link href="
@@ -1696,7 +1774,7 @@ msgstr ""
 "link> | <link href=\"https://git.gnome.org/browse/epiphany/\">Quellcode</link> )"
 
 #. (itstool) path: item/p
-#: C/overview-net.page:85
+#: C/overview-net.page:87
 msgid ""
 "<em style=\"strong\">GNOME Shell</em> is the user-visible GNOME desktop, which uses "
 "NetworkManager for the network status menu, including managing wired, wireless, 3G modem "
@@ -1704,7 +1782,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/overview-net.page:88
+#: C/overview-net.page:90
 msgid ""
 "( <link href=\"https://wiki.gnome.org/Projects/GnomeShell\">Website</link> | <link href="
 "\"http://www.gnome.org/gnome-3/\">Screenshot</link> | <link href=\"https://git.gnome.org/"
@@ -1715,33 +1793,33 @@ msgstr ""
 "gnome.org/browse/gnome-shell/\">Quellcode</link> )"
 
 #. (itstool) path: info/desc
-#: C/overview-settings.page:15
+#: C/overview-settings.page:17
 msgid "Flexible user configuration system."
 msgstr ""
 
 #. (itstool) path: page/title
-#: C/overview-settings.page:18
+#: C/overview-settings.page:20
 msgid "Settings management"
 msgstr "Einstellungsverwaltung"
 
 #. (itstool) path: item/p
-#: C/overview-settings.page:22
+#: C/overview-settings.page:24
 msgid "<em style=\"strong\">High-level access for application settings</em>"
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/overview-settings.page:25
+#: C/overview-settings.page:27
 msgid "<em style=\"strong\">Easily bind settings to UI elements</em>"
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/overview-settings.page:28
+#: C/overview-settings.page:30
 msgid ""
 "<em style=\"strong\">Flexible overrides for packagers and system administrators</em>"
 msgstr ""
 
 #. (itstool) path: page/p
-#: C/overview-settings.page:33
+#: C/overview-settings.page:35
 msgid ""
 "Store user settings and make your application respond to them automatically with "
 "GSettings. Easily override settings defaults as a system administrator. Store a wide "
@@ -1749,7 +1827,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/overview-settings.page:41
+#: C/overview-settings.page:43
 msgid ""
 "Use the <em style=\"strong\" xref=\"tech-gsettings\">GSettings</em> API of GIO to read "
 "and write <em style=\"strong\">application settings</em>. GSettings <em style=\"strong"
@@ -1759,19 +1837,19 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/overview-settings.page:63
+#: C/overview-settings.page:65
 msgid "Nearly all GNOME applications use GSettings."
-msgstr ""
+msgstr "Fast alle GNOME-Anwendungen nutzen GSettings."
 
 #. (itstool) path: item/p
-#: C/overview-settings.page:66
+#: C/overview-settings.page:68
 msgid ""
 "<em style=\"strong\">Dconf editor</em> is the GUI tool for managing preferences stored "
 "in the dconf database with GSettings."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/overview-settings.page:68
+#: C/overview-settings.page:70
 msgid ""
 "( <link href=\"https://developer.gnome.org/dconf/unstable/dconf-editor.html\">Website</"
 "link> | <link href=\"https://git.gnome.org/browse/dconf/tree/editor\">Source code</"
@@ -1782,46 +1860,46 @@ msgstr ""
 "\">Quellcode</link> )"
 
 #. (itstool) path: info/desc
-#: C/overview-ui.page:15
+#: C/overview-ui.page:17
 msgid "Standard user interface elements, rendering, and animation."
-msgstr ""
+msgstr "Standardelemente der Benutzeroberfläche, Darstellung und Animation."
 
 #. (itstool) path: page/title
-#: C/overview-ui.page:18
+#: C/overview-ui.page:20
 msgid "User interface &amp; graphics"
 msgstr "Benutzerschnittstelle und Grafiken"
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:22
+#: C/overview-ui.page:24
 msgid ""
 "<em style=\"strong\">Use a single toolkit for all the standard widgets in your "
 "application</em>"
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:25
+#: C/overview-ui.page:27
 msgid "<em style=\"strong\">Create fast, visually rich graphical interfaces</em>"
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:28
+#: C/overview-ui.page:30
 msgid ""
 "<em style=\"strong\">Have high quality, antialiased and resolution-independent graphics</"
 "em>"
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:31
+#: C/overview-ui.page:33
 msgid "<em style=\"strong\">Easily add web functionality to your application</em>"
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:34
+#: C/overview-ui.page:36
 msgid "<em style=\"strong\">Access built-in assistive technologies</em>"
 msgstr ""
 
 #. (itstool) path: page/p
-#: C/overview-ui.page:38
+#: C/overview-ui.page:40
 msgid ""
 "Use the powerful foundations of the GNOME platform to create consistent and flexible "
 "user interfaces. Make your applications available to the widest audience by deploying "
@@ -1830,7 +1908,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/overview-ui.page:47
+#: C/overview-ui.page:49
 msgid ""
 "For applications with <em style=\"strong\">standard controls</em> which would be "
 "familiar to most users, use <em style=\"strong\"><link xref=\"tech-gtk\">GTK+</link></"
@@ -1839,7 +1917,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/overview-ui.page:53
+#: C/overview-ui.page:55
 msgid ""
 "To create <em style=\"strong\">fast, visually rich graphical interfaces</em>, use <em "
 "style=\"strong\"><link xref=\"tech-clutter\">Clutter</link></em>. Animations, effects "
@@ -1847,7 +1925,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/overview-ui.page:59
+#: C/overview-ui.page:61
 msgid ""
 "<em style=\"strong\">High quality, antialiased and resolution-independent 2D graphics</"
 "em> are provided by <em style=\"strong\"><link xref=\"tech-cairo\">Cairo</link></em>. "
@@ -1855,7 +1933,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/overview-ui.page:65
+#: C/overview-ui.page:67
 msgid ""
 "<em style=\"strong\"><link xref=\"tech-webkit\">WebKitGTK+</link></em> makes it easy to "
 "add <em style=\"strong\">web functionality</em> to your application, whether that is "
@@ -1863,7 +1941,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/overview-ui.page:70
+#: C/overview-ui.page:72
 msgid ""
 "GTK+, Clutter and WebKitGTK+ have <em style=\"strong\">built-in support for assistive "
 "technologies</em> with <em style=\"strong\"><link xref=\"tech-atk\">ATK</link></em>. Use "
@@ -1872,21 +1950,21 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/overview-ui.page:91
+#: C/overview-ui.page:93
 msgid ""
 "You can see lots of real-world applications of GNOME UI technologies in open source "
 "projects, like the examples given below."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:95
+#: C/overview-ui.page:97
 msgid ""
 "<em style=\"strong\">Web</em> is the GNOME browser, which uses GTK+ and WebKitGTK+, and "
 "is fully accessible."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:97
+#: C/overview-ui.page:99
 msgid ""
 "( <link href=\"https://wiki.gnome.org/Apps/Web\">Website</link> | <link href=\"https://"
 "git.gnome.org/browse/epiphany/\">Source code</link> )"
@@ -1895,14 +1973,14 @@ msgstr ""
 "\"https://git.gnome.org/browse/epiphany/\">Quellcode</link> )"
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:100
+#: C/overview-ui.page:102
 msgid ""
 "<em style=\"strong\">MonoDevelop</em> is a cross-platform IDE designed for C# and other ."
 "NET languages. It works on Linux, Mac OS X and Windows"
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:103
+#: C/overview-ui.page:105
 msgid ""
 "( <link href=\"http://monodevelop.com/\">Website</link> | <link href=\"http://"
 "monodevelop.com/Screenshots\">Screenshots</link> | <link href=\"https://github.com/mono/"
@@ -1913,14 +1991,14 @@ msgstr ""
 "mono/monodevelop\">Quellcode</link> )"
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:106
+#: C/overview-ui.page:108
 msgid ""
 "<em style=\"strong\">Videos</em> is the GNOME multimedia player, and uses Clutter to "
 "display video content."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:107
+#: C/overview-ui.page:109
 msgid ""
 "( <link href=\"https://wiki.gnome.org/Apps/Videos\">Website</link> | <link href="
 "\"https://git.gnome.org/browse/totem/\">Source code</link> )"
@@ -4513,952 +4591,4 @@ msgstr ""
 "let app = new HelloWorld();\n"
 "app.application.run(ARGV);\n"
 
-#~ msgid "Overview of the powerful technologies inside the GNOME platform."
-#~ msgstr "Überblick über die mächtigen Technologien der GNOME-Plattform."
 
-#~ msgid ""
-#~ "GNOME is a powerful but simple desktop environment with a strong focus on usability, "
-#~ "accessibility, and internationalization. GNOME is designed to be usable by everybody, "
-#~ "regardless of technical expertise, disabilitites, or native language. GNOME makes it "
-#~ "easy for people to use their computers."
-#~ msgstr ""
-#~ "GNOME ist eine leistungsfähige aber einfache Arbeitsumgebung mit einem starken "
-#~ "Augenmerk auf Benutzbarkeit, Barrierefreiheit und Internationalisierung. GNOME wurde "
-#~ "dazu entworfen für alle benutzbar zu sein, unabhängig von technischer Kompetenz, "
-#~ "Behinderung oder Muttersprache. GNOME macht es für Sie einfach ihren Rechner "
-#~ "einzusetzen."
-
-#~ msgid ""
-#~ "The GNOME platform provides a comprehensive development environment for graphical "
-#~ "applications and other software. GNOME provides a comprehensive developer platform "
-#~ "that allow developers to create professional software that is easy to use and "
-#~ "aesthetically pleasing. Using the technologies in GNOME, you can create high-quality "
-#~ "software to meet and exceed your users' expectations. This document provides a high-"
-#~ "level overview of the GNOME platform along with links to detailed documentation on "
-#~ "each part of the platform."
-#~ msgstr ""
-#~ "Die GNOME-Plattform bietet eine Entwicklungsumgebung für grafische Anwendungen und "
-#~ "andere Software. GNOME stellt eine umfassende Entwicklerplattform bereit, die die "
-#~ "Erstellung professioneller Software erlaubt, welche leicht zu bedienen ist und auch "
-#~ "ästhetischen Ansprüchen genügt. Unter Verwendung der GNOME-Technologien können Sie "
-#~ "qualitativ hochwertige Software erstellen, welche die Erwartungen Ihrer Benutzer "
-#~ "erfüllt und sogar übersteigt. Dieses Dokument bietet einen ausführlichen Überblick "
-#~ "über die Plattform, begleitet von Links zu detaillierteren Informationen zu jedem der "
-#~ "Bestandteile."
-
-#~ msgid "Graphics and Multimedia"
-#~ msgstr "Grafik und Multimedia"
-
-#~ msgid "Under the Hood"
-#~ msgstr "Unter der Haube"
-
-#~ msgid "Modern 2D vector drawing canvas"
-#~ msgstr "Moderne Zeichenfläche für zweidimensionale Vektorgrafik"
-
-#~ msgid ""
-#~ "<link href=\"http://library.gnome.org/devel/libcanberra/unstable/libcanberra-canberra."
-#~ "html\">Canberra Reference</link>"
-#~ msgstr ""
-#~ "<link href=\"http://library.gnome.org/devel/libcanberra/unstable/libcanberra-canberra."
-#~ "html\">Canberra-Referenz</link>"
-
-# Szenengrafik ist etwas unglücklich, aber ich weiß auch nichts besseres aus der Computergrafik
-#~ msgid "Stunning graphics and animations with a scene-graph API"
-#~ msgstr "Überwältigende Grafiken und Animationen mit einer Szenengrafik-API"
-
-#~ msgid ""
-#~ "Clutter is a library that allows creating fast, portable, dynamic, compelling user "
-#~ "interfaces."
-#~ msgstr ""
-#~ "Clutter ist eine Bibliothek zum Erstellen von schnellen, portierbaren, dynamischen "
-#~ "und ansprechenden Benutzerschnittstellen."
-
-#~ msgid "GDA"
-#~ msgstr "GDA"
-
-#~ msgid "Underlying windowing and event handling"
-#~ msgstr "Darunterliegendes Handling von Fenstern und Ereignissen"
-
-#~ msgid ""
-#~ "<link href=\"http://library.gnome.org/devel/gdk/stable/\">GDK Reference Manual</link>"
-#~ msgstr ""
-#~ "<link href=\"http://library.gnome.org/devel/gdk/stable/\">Das Referenzhandbuch von "
-#~ "GDK</link>"
-
-#~ msgid "Powerful networking API built on the GIO stream classes"
-#~ msgstr "Mächtige Netzwerk-API, die auf den GIO-Stream-Klassen aufsetzt"
-
-#~ msgid ""
-#~ "Because GTK+ offers a flexible API, developing additional widgets for use in GTK+ "
-#~ "applications is easy. A number of third-party libraries exist which provide "
-#~ "additional widgets, and many developers have created custom, special-purpose widgets "
-#~ "for their applications."
-#~ msgstr ""
-#~ "Weil GTK+ eine flexible API anbietet, ist es einfach, weitere Bedienelemente zur "
-#~ "Benutzung in GTK+-Anwendungen zu entwickeln. Es gibt einige Bibliotheken von "
-#~ "Drittanbietern die zusätzliche Bedienelemente bereitstellen und viele Entwickler "
-#~ "haben eigene, spezielle Bedienelemente für ihre Anwendungen erstellt."
-
-#~ msgid ""
-#~ "GTK+ handles the difficult details of user interfaces and user interaction, and "
-#~ "provides a simple yet powerful API which allows you to focus on the details of your "
-#~ "application. Applications developed with GTK+ will automatically follow the user's "
-#~ "theme and font settings, will interact properly with accessibility technologies, and "
-#~ "will behave as users expect."
-#~ msgstr ""
-#~ "GTK+ geht mit den schwierigen Details der Benutzerschnittstelle und "
-#~ "Benutzerinteraktion um und stellt eine einfache, aber leistungsfähige Schnittelle "
-#~ "bereit, die es Ihnen erlaubt sich voll auf die Details Ihrer Anwendung zu "
-#~ "fokussieren. Mit GTK+ entwickelte Anwendungen folgen automatisch den "
-#~ "Benutzereinstellungen zum Thema und der Schrift, interagieren korrekt mit "
-#~ "barrierefreien Technologien und verhalten sich so, wie es der Benutzer erwartet."
-
-#~ msgid "An easy to use, efficient and flexible UPnP framework"
-#~ msgstr "Ein einfach zu benutzendes, effizientes und flexibles UPnP-Framework"
-
-#~ msgid ""
-#~ "GUPnP is an object-oriented open source framework for creating UPnP devices and "
-#~ "control points, written in C using GObject and libsoup. The GUPnP API is intended to "
-#~ "be easy to use, efficient and flexible."
-#~ msgstr ""
-#~ "GUPnP ist ein objektorientiertes Open-Source-Framework zum Erstellen von UPnP-Geräten "
-#~ "und Kontrollpunkten. Es ist in C geschrieben und benutzt GObject und libsoup. Die "
-#~ "GUPnP-API soll einfach zu benutzen, effizient und flexibel sein."
-
-#~ msgid "The GUPnP framework consists of the following components/packages:"
-#~ msgstr "Das GUPnP-Framework besteht aus den folgenden Komponenten bzw. Paketen:"
-
-#~ msgid ""
-#~ "GSSDP: The low-level library implementing resource discovery and announcement on the "
-#~ "network through SSDP protocol."
-#~ msgstr ""
-#~ "GSSDP: Die systemnahe Bibliothek, die Ressourcenermittlung und Ankündigung im "
-#~ "Netzwerk durch das SSDP-Protokoll implementiert."
-
-#~ msgid ""
-#~ "GUPnP: The core library that implements the UPnP specification: resource announcement "
-#~ "and discovery, description, control, event notification, and presentation (GUPnP "
-#~ "includes basic web server functionality through libsoup). GUPnP does not include "
-#~ "helpers for construction or control of specific standardized resources (e.g. "
-#~ "MediaServer); this is left for higher level libraries utilizing the GUPnP framework."
-#~ msgstr ""
-#~ "GUPnP: Kernbibliothek, welche die UPnP-Spezifikation implementiert: "
-#~ "Ressourcenermittlung und Ankündigung, Beschreibung, Kontrolle, "
-#~ "Ereignisbenachrichtigung und Darstellung (GUPnP beinhaltet grundlegende "
-#~ "Webserverfunktionalität durch libsoup). GUPnP beinhaltet keine Helfer für die "
-#~ "Konstruktion oder Kontrolle bestimmter standardisierter Ressourcen (z.B. "
-#~ "MediaServer); das wird höheren Bibliotheken überlassen, die das GUPnP-Framework "
-#~ "einsetzen."
-
-#~ msgid ""
-#~ "GUPnP A/V: A small utility library that aims to ease the handling and implementation "
-#~ "of UPnP A/V profiles."
-#~ msgstr ""
-#~ "GUPnP A/V: Eine kleine Hilfsbibliothek mit der die Implementation von UPnP-A/V-"
-#~ "Profilen vereinfacht werden soll."
-
-#~ msgid "GUPnP IGD: A library to handle UPnP Internet Gateway Device port mappings."
-#~ msgstr ""
-#~ "GUPnP IGD: Eine Bibliothek mit der Port-Zuordnungen bei UPnP-Internet-Gateway-Geräten "
-#~ "gehandhabt werden."
-
-#~ msgid "GUPnP Vala: Vala bindings for GUPnP libraries."
-#~ msgstr "GUPnP Vala: Vala-Bindungen für GUPnP-Bibliotheken."
-
-#~ msgid ""
-#~ "GUPnP Tools: Free replacements of Intel UPnP tools, that use GUPnP. They provides the "
-#~ "following client and server side tools which enable one to easily test and debug "
-#~ "one's UPnP devices and control points:"
-#~ msgstr ""
-#~ "GUPnP-Werkzeuge: Freie Werkzeuge unter Verwendung von GUPnP als Ersatz für UPnP-"
-#~ "Werkzeuge von Intel. Sie stellen die folgenden Werkzeuge für Clients und Server "
-#~ "bereit, mit denen das Testen und Diagnostizieren von UPnP-Geräten und Kontrollpunkten "
-#~ "ganz einfach ist:"
-
-#~ msgid ""
-#~ "Universal Control Point: a tool that enables one to discover UPnP devices and "
-#~ "services, retrieve information about them, subscribe to events and invoke actions."
-#~ msgstr ""
-#~ "Universal Control Point (etwa »Universeller Kontrollpunkt«): Ein Werkzeug das UPnP-"
-#~ "Geräte und Dienste entdeckt, Informationen über diese empfängt, Ereignisse abonniert "
-#~ "und Aktionen aktiviert."
-
-#~ msgid ""
-#~ "Network Light: a virtual light bulb that allows control points to switch it on and "
-#~ "off, change its dimming level and query its current status. It also provides a simple "
-#~ "UI to control all the network lights available on the network."
-#~ msgstr ""
-#~ "Network Light (etwa »Netzwerklampe«): Eine virtuelle Glühlampe die es Kontrollpunkten "
-#~ "erlaubt sie an- und auszuschalten, ihren Helligkeitsregler zu ändern und ihren "
-#~ "aktuellen Status abzurufen. Sie stellt auch eine einfache Benutzeroberfläche bereit, "
-#~ "mit der alle im Netzwerk verfügbaren Netzwerklampen kontrolliert werden können."
-
-#~ msgid ""
-#~ "AV Control Point: a simple media player UI that enables one to discover and play "
-#~ "multimedia contents available on a network. It is strictly a control point and "
-#~ "therefore does not have any playback capabilities of it's own and relies on external "
-#~ "UPnP MediaRenderer devices for actual playback."
-#~ msgstr ""
-#~ "AV Control Point (etwa »AV-Kontrollpunkt«): Eine einfache Oberfläche für einen "
-#~ "Medienabspieler mit dem im Netzwerk verfügbare Multimediainhalte entdeckt werden und "
-#~ "abspielt werden können. Es ist streng genommen ein Kontrollpunkt und verfügt daher "
-#~ "selbst über keinerlei Abspielmöglichkeiten, sondern verlässt sich auf externe UPnP-"
-#~ "MediaRenderer-Geräte für die Wiedergabe."
-
-#~ msgid ""
-#~ "Upload: a simple commandline utility that uploads files to known MediaServers. Use "
-#~ "Universal Control Point for discovering the MediaServers."
-#~ msgstr ""
-#~ "Upload: Ein einfaches Dienstprogramm für die Befehlszeile um Dateien zu bekannten "
-#~ "MediaServers hochzuladen. Benutzen Sie Universal Control Point zum Entdecken der "
-#~ "MediaServers."
-
-#~ msgid ""
-#~ "The GUPnP framework was born out of frustration with libupnp and its mess of threads. "
-#~ "GUPnP is entirely single-threaded (though asynchronous), integrates with the GLib "
-#~ "main loop, and provides the same set of features as libupnp while hiding most of the "
-#~ "UPnP internals through an elegant object-oriented design."
-#~ msgstr ""
-#~ "Das GUPnP-Framework wurde aus Frustration mit libupnp und der einhergehenden "
-#~ "Benutzung von Threads geboren. GUPnP ist vollständig ein einziger Thread (jedoch "
-#~ "asynchron), integriert sich in die GLib-Hauptschleife und stellt die gleichen "
-#~ "Funktionen wie libupnp bereit, während die meisten Internas von UPnP durch ein "
-#~ "elegantes objektorientiertes Design versteckt werden."
-
-#~ msgid ""
-#~ "GUPnP is free software. All libraries are released under the GNU LGPL, while GUPnP "
-#~ "Tools are licensed under GNU GPL."
-#~ msgstr ""
-#~ "GUPnP ist freie Software. Alle Bibliotheken sind unter der GNU LGPL veröffentlicht, "
-#~ "während Werkzeuge von GUPnP unter der GNU GPL lizenziert sind."
-
-#~ msgid ""
-#~ "You should use GUPnP whenever you need your code to communicate with any UPnP or DLNA "
-#~ "devices. Examples of such devices includes Sony Playstation 3 and Bravia model TVs, "
-#~ "Samsung TVs and phones, Microsoft XBox and all modern router etc. The list of such "
-#~ "devices is huge and its increasing."
-#~ msgstr ""
-#~ "Sie sollten GUPnP immer dann benutzen, wenn Ihr Code mit UPnP- oder DLNA-Geräten "
-#~ "kommunizieren soll. Beispiele für solche Geräte sind z.B. Sony Playstation 3 und "
-#~ "Bravia Fernsehgeräte, Samsung Fernseher und Mobiltelefone, Microsoft XBox und alle "
-#~ "modernen Router etc. Eine Liste solcher Geräte ist riesig und ständig wachsend."
-
-#~ msgid ""
-#~ "Apart from dealing with existing UPnP devices, GUPnP can very effectively be used to "
-#~ "easily create custom home network solutions where devices/services are able to "
-#~ "discover and interact with each other without any configuration from user."
-#~ msgstr ""
-#~ "Neben der Benutzung existierender UPnP-Geräte, kann GUPnP sehr effektiv dazu "
-#~ "eingesetzt werden, einfach benutzerdefinierte Heimnetzwerklösungen zu erstellen, in "
-#~ "denen sich Geräte/Dienste ohne Konfiguration durch den Benutzer ermitteln und "
-#~ "interagieren können."
-
-#~ msgid ""
-#~ "For comprehensive information on GUPnP, please visit the <link href=\"http://www."
-#~ "gupnp.org\">project home page</link>."
-#~ msgstr ""
-#~ "Für umfassende Informationen über GUPnP besuchen Sie bitte die <link href=\"http://ww."
-#~ "gupnp.org\">Projekt-Startseite</link>."
-
-#~ msgid "Keyring"
-#~ msgstr "Schlüsselbund"
-
-#~ msgid ""
-#~ "<link href=\"http://developer.gnome.org/gnome-keyring/stable/\">gnome-keyring "
-#~ "Reference Manual</link>"
-#~ msgstr ""
-#~ "<link href=\"http://developer.gnome.org/gnome-keyring/stable/\">Das Referenzhandbuch "
-#~ "von gnome-keyring</link>"
-
-#~ msgid "Fully internationalized text layout and rendering"
-#~ msgstr "Vollständig internationalisiertes Text-Layout und Darstellung"
-
-#~ msgid ""
-#~ "<link href=\"http://library.gnome.org/devel/pango/stable/\">Pango Reference Manual</"
-#~ "link>"
-#~ msgstr ""
-#~ "<link href=\"http://library.gnome.org/devel/pango/stable/\">Das Referenzhandbuch von "
-#~ "Pango</link>"
-
-#~ msgid "link"
-#~ msgstr "Verknüpfung"
-
-#~ msgid ""
-#~ "Permission is granted to copy, distribute and/or modify this document under the terms "
-#~ "of the GNU Free Documentation License (GFDL), Version 1.1 or any later version "
-#~ "published by the Free Software Foundation with no Invariant Sections, no Front-Cover "
-#~ "Texts, and no Back-Cover Texts. You can find a copy of the GFDL at this <_:ulink-1/> "
-#~ "or in the file COPYING-DOCS distributed with this manual."
-#~ msgstr ""
-#~ "Das vorliegende Dokument kann gemäß den Bedingungen der GNU Free Documentation "
-#~ "License (GFDL), Version 1.1 oder jeder späteren, von der Free Software Foundation "
-#~ "veröffentlichten Version ohne unveränderbare Abschnitte sowie ohne Texte auf dem "
-#~ "vorderen und hinteren Buchdeckel kopiert, verteilt und/oder modifiziert werden. Eine "
-#~ "Kopie der GFDL finden Sie unter diesem <_:ulink-1/> oder in der mit diesem Handbuch "
-#~ "gelieferten Datei COPYING-DOCS."
-
-#~ msgid ""
-#~ "This manual is part of a collection of GNOME manuals distributed under the GFDL. If "
-#~ "you want to distribute this manual separately from the collection, you can do so by "
-#~ "adding a copy of the license to the manual, as described in section 6 of the license."
-#~ msgstr ""
-#~ "Dieses Handbuch ist Teil einer Sammlung von GNOME-Handbüchern, die unter der GFDL "
-#~ "veröffentlicht werden. Wenn Sie dieses Handbuch getrennt von der Sammlung "
-#~ "weiterverbreiten möchten, können Sie das tun, indem Sie eine Kopie der Lizenz zum "
-#~ "Handbuch hinzufügen wie es in Abschnitt 6 der Lizenz beschrieben ist."
-
-#~ msgid ""
-#~ "Many of the names used by companies to distinguish their products and services are "
-#~ "claimed as trademarks. Where those names appear in any GNOME documentation, and the "
-#~ "members of the GNOME Documentation Project are made aware of those trademarks, then "
-#~ "the names are in capital letters or initial capital letters."
-#~ msgstr ""
-#~ "Viele der Namen, die von Unternehmen verwendet werden um ihre Produkte und "
-#~ "Dienstleistungen von anderen zu unterscheiden, sind eingetragene Warenzeichen. An den "
-#~ "Stellen, an denen diese Namen in einer GNOME-Dokumentation erscheinen, werden die "
-#~ "Namen in Großbuchstaben oder mit einem großen Anfangsbuchstaben geschrieben, wenn das "
-#~ "GNOME-Dokumentationsprojekt auf diese Warenzeichen hingewiesen wird."
-
-#~ msgid ""
-#~ "DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, EITHER "
-#~ "EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT THE DOCUMENT OR "
-#~ "MODIFIED VERSION OF THE DOCUMENT IS FREE OF DEFECTS MERCHANTABLE, FIT FOR A "
-#~ "PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE RISK AS TO THE QUALITY, ACCURACY, "
-#~ "AND PERFORMANCE OF THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS WITH YOU. "
-#~ "SHOULD ANY DOCUMENT OR MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE "
-#~ "INITIAL WRITER, AUTHOR OR ANY CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY "
-#~ "SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN ESSENTIAL "
-#~ "PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS "
-#~ "AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
-#~ msgstr ""
-#~ "DIESES DOKUMENT WIRD »WIE VORLIEGEND« GELIEFERT, OHNE GARANTIEN IRGENDEINER ART, "
-#~ "SOWOHL AUSDRÜCKLICH GENANNTE ALS AUCH ANGEDEUTETE. DIES BEZIEHT SICH AUCH OHNE "
-#~ "EINSCHRÄNKUNG AUF GARANTIEN, DASS DIESES DOKUMENT ODER VERÄNDERTE FASSUNGEN DIESES "
-#~ "DOKUMENTS FREI VON HANDELSDEFEKTEN, FÜR EINEN BESTIMMTEN ZWECK GEEIGNET IST ODER DASS "
-#~ "ES KEINE RECHTE DRITTER VERLETZT. DAS VOLLE RISIKO WAS QUALITÄT, GENAUIGKEIT UND "
-#~ "LEISTUNG DES DOKUMENTS ODER VERÄNDERTE FASSUNGEN DES DOKUMENTS LIEGT BEI IHNEN. "
-#~ "SOLLTE EIN DOKUMENT ODER EINE VERÄNDERTE FASSUNG DAVON FEHLER IRGENDEINER ART "
-#~ "BEINHALTEN, TRAGEN SIE (NICHT DER URSPRUNGSAUTOR, DER AUTOR ODER EIN MITWIRKENDER) "
-#~ "DIE KOSTEN FÜR NOTWENDIGE DIENSTLEISTUNGEN, REPARATUREN ODER FEHLERKORREKTUREN. "
-#~ "DIESER HAFTUNGSAUSSCHLUSS IST EIN ESSENZIELLER TEIL DIESER LIZENZ. DIE VERWENDUNG "
-#~ "EINES DOKUMENTS ODER EINER VERÄNDERTEN VERSION DES DOKUMENTS IST NICHT GESTATTET "
-#~ "AUßER UNTER BEACHTUNG DIESES HAFTUNGSAUSSCHLUSSES UND"
-
-#~ msgid ""
-#~ "UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING "
-#~ "NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
-#~ "CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT, "
-#~ "OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON FOR ANY DIRECT, "
-#~ "INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF ANY CHARACTER INCLUDING, "
-#~ "WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR "
-#~ "MALFUNCTION, OR ANY AND ALL OTHER DAMAGES OR LOSSES ARISING OUT OF OR RELATING TO USE "
-#~ "OF THE DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE "
-#~ "BEEN INFORMED OF THE POSSIBILITY OF SUCH DAMAGES."
-#~ msgstr ""
-#~ "UNTER KEINEN UMSTÄNDEN UND AUF BASIS KEINER RECHTSGRUNDLAGE, EGAL OB DURCH "
-#~ "UNERLAUBTEN HANDLUNGEN (EINSCHLIEßLICH FAHRLÄSSIGKEIT), VERTRAG ODER ANDERWEITIG KANN "
-#~ "DER AUTOR, URSPRUNGSAUTOR, EIN MITWIRKENDER ODER EIN VERTRIEBSPARTNER DIESES "
-#~ "DOKUMENTS ODER EINER VERÄNDERTEN FASSUNG DES DOKUMENTS ODER EIN ZULIEFERER EINER "
-#~ "DIESER PARTEIEN, HAFTBAR GEMACHT WERDEN FÜR DIREKTE, INDIREKTE, SPEZIELLE, "
-#~ "VERSEHENTLICHE ODER FOLGESCHÄDEN JEGLICHER ART, EINSCHLIEßLICH UND OHNE "
-#~ "EINSCHRÄNKUNGEN SCHÄDEN DURCH VERLUST VON KULANZ, ARBEITSAUSFALL, COMPUTERVERSAGEN "
-#~ "ODER COMPUTERFEHLFUNKTIONEN ODER ALLE ANDEREN SCHÄDEN ODER VERLUSTE, DIE SICH AUS "
-#~ "ODER IN VERBINDUNG MIT DER VERWENDUNG DES DOKUMENTS UND VERÄNDERTER FASSUNGEN DES "
-#~ "DOKUMENTS ERGEBEN, AUCH WENN DIE OBEN GENANNTEN PARTEIEN ÜBER DIE MÖGLICHKEIT SOLCHER "
-#~ "SCHÄDEN INFORMIERT WAREN."
-
-#~ msgid ""
-#~ "DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS OF THE "
-#~ "GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: <_:orderedlist-1/>"
-#~ msgstr ""
-#~ "DAS DOKUMENT UND VERÄNDERTE FASSUNGEN DES DOKUMENTS WERDEN UNTER DEN BEDINGUNGEN DER "
-#~ "GNU FREE DOCUMENTATION LICENSE ZUR VERFÜGUNG GESTELLT MIT DEM WEITERGEHENDEN "
-#~ "VERSTÄNDNIS, DASS: <_:orderedlist-1/>"
-
-#, fuzzy
-#~ msgid "WebKitGTK+ demo tutorial"
-#~ msgstr "WebKitGTK+ Tutorial"
-
-#~ msgid "WebKitGTK+ Reference Manual"
-#~ msgstr "WebKitGTK+-Referenzhandbuch"
-
-#~ msgid "The WebKitGTK+ web site"
-#~ msgstr "Die WebKitGTK+-Webseite"
-
-#~ msgid "Telepathy Developer's Manual"
-#~ msgstr "Telepathy-Entwicklerhandbuch"
-
-#~| msgid "The GTK+ web site"
-#~ msgid "The Telepathy web site"
-#~ msgstr "Die Telepathy-Webseite"
-
-#~ msgid "Pango Reference Manual"
-#~ msgstr "Pango-Referenzhandbuch"
-
-#~| msgid "The GTK+ web site"
-#~ msgid "The Pango web site"
-#~ msgstr "Die Pango-Webseite"
-
-#~ msgid "Libnotify Reference Manual"
-#~ msgstr "Libnotify-Referenzhandbuch"
-
-#~ msgid "gnome-keyring Reference Manual"
-#~ msgstr "Referenzhandbuch für gnome-keyring"
-
-#~| msgid "Clutter Reference Manual"
-#~ msgid "libseahorse Reference Manual"
-#~ msgstr "libseahorse-Referenzhandbuch"
-
-#~ msgid "shaunm@gnome.org"
-#~ msgstr "shaunm@gnome.org"
-
-#~ msgid "gpoo@gnome.org"
-#~ msgstr "gpoo@gnome.org"
-
-#~ msgid "Ten Minute Mallard Tour"
-#~ msgstr "Zehn-Minuten-Tour in Mallard"
-
-#~ msgid "The Mallard web site"
-#~ msgstr "Die Mallard-Webseite"
-
-#~ msgid "The DocBook web site"
-#~ msgstr "Die DocBook-Webseite"
-
-#, fuzzy
-#~ msgid "GTK+ demo tutorial"
-#~ msgstr "GTK+ Tutorial"
-
-#~ msgid "GTK+ Reference Manual"
-#~ msgstr "GTK+-Referenzhandbuch"
-
-#~ msgid "The GTK+ web site"
-#~ msgstr "Die GTK+-Webseite"
-
-#~| msgid "Telepathy Developer's Manual"
-#~ msgid "The GStreamer Application Development Manual"
-#~ msgstr "Das Handbuch für GStreamer Anwendungsentwicklung"
-
-#~| msgid "Clutter Reference Manual"
-#~ msgid "The GStreamer 0.10 Core Reference Manual"
-#~ msgstr "Das Hauptreferenzhandbuch von GStreamer 0.10"
-
-#, fuzzy
-#~ msgid "The GStreamer documentation page"
-#~ msgstr "Die Dokumentationsseite von GStreamer"
-
-#~| msgid "The Clutter web site"
-#~ msgid "The GStreamer web site"
-#~ msgstr "Die GStreamer-Webseite"
-
-#~ msgid "GIO Reference Manual"
-#~ msgstr "GIO-Referenzhandbuch"
-
-#, fuzzy
-#~ msgid "Highlevel network functionality"
-#~ msgstr "Allgemeine Netzwerkunterstützung"
-
-#~ msgid "GDK Reference Manual"
-#~ msgstr "GDK-Referenzhandbuch"
-
-#~ msgid "Evolution API Reference: libebook"
-#~ msgstr "Evolution-API-Referenz: libebook"
-
-#~ msgid "Evolution API Reference: libecal"
-#~ msgstr "Evolution-API-Referenz: libecal"
-
-#~ msgid "D-Bus Tutorial"
-#~ msgstr "D-Bus-Tutorial"
-
-#~ msgid "D-Bus Specification"
-#~ msgstr "D-Bus-Spezifikation"
-
-#~ msgid "The Clutter Cookbook"
-#~ msgstr "Das Clutter-Kochbuch"
-
-#~ msgid "Clutter Reference Manual"
-#~ msgstr "Clutter-Referenzhandbuch"
-
-#~ msgid "The Clutter web site"
-#~ msgstr "Die Webseite von Clutter"
-
-#~ msgid "Canberra Reference"
-#~ msgstr "Canberra-Referenz"
-
-#~ msgid "Cairo Manual"
-#~ msgstr "Cairo-Handbuch"
-
-#~| msgid "The Clutter web site"
-#~ msgid "The Cairo web site"
-#~ msgstr "Die Webseite von Cairo"
-
-#~ msgid "GNOME Accessibility for Developers"
-#~ msgstr "GNOME-Barrierefreiheit für Entwickler"
-
-#~ msgid "ATK Reference"
-#~ msgstr "ATK-Referenz"
-
-#~ msgid ""
-#~ "For API references please see the <link href=\"http://developer.gnome.org/gnome-"
-#~ "keyring/stable/\">gnome-keyring Reference Manual</link> and the <link href=\"http://"
-#~ "developer.gnome.org/libseahorse/stable/\">libseahorse Reference Manual</link>."
-#~ msgstr ""
-#~ "API-Referenzen finden Sie im <link href=\"http://developer.gnome.org/gnome-keyring/"
-#~ "stable/\">Referenzhandbuch zu gnome-keyring</link> und im <link href=\"http://"
-#~ "developer.gnome.org/libseahorse/stable/\">Referenzhandbuch zu libseahorse</link>."
-
-#~ msgid "Graphical interfaces and core application support"
-#~ msgstr "Grafische Schnittstellen und Unterstützung für zentrale Anwendungen"
-
-#~ msgid "Plugin-based rich multimedia creation and delivery"
-#~ msgstr "Plugin-basierte, reichhaltige Multimedia-Erzeugung und Wiedergabe"
-
-#~ msgid "Example image"
-#~ msgstr "Beispielbild"
-
-#~ msgid "Telepathy-Glib"
-#~ msgstr "Telepathy-Glib"
-
-#~ msgid "Further reading"
-#~ msgstr "Weitere Informationen"
-
-#~ msgid "philbull@gmail.com"
-#~ msgstr "philbull@gmail.com"
-
-#~ msgid "glib"
-#~ msgstr "glib"
-
-#~ msgid "xxx"
-#~ msgstr "xxx"
-
-#~ msgid ""
-#~ "\n"
-#~ "import telepathy\n"
-#~ "status = telepathy.get_im_status_or_whatever()\n"
-#~ msgstr ""
-#~ "\n"
-#~ "import telepathy\n"
-#~ "status = telepathy.get_im_status_or_whatever()\n"
-
-#~ msgid "Technology"
-#~ msgstr "Technologie"
-
-#~ msgid ""
-#~ "\n"
-#~ "import avahi\n"
-#~ "do_something()\n"
-#~ msgstr ""
-#~ "\n"
-#~ "import avahi\n"
-#~ "do_something()\n"
-
-#~ msgid "Help and assistive technologies"
-#~ msgstr "Hilfe und Barrierefreiheitstechnologien"
-
-#~ msgid "Yelp help viewer, yelp-xsl and yelp-tools"
-#~ msgstr "Hilfebetrachter Yelp, yelp-xsl und yelp-tools"
-
-#~ msgid "Learn what you need to get started with GNOME development."
-#~ msgstr "Erfahren Sie hier, was Sie für den Einstieg in die GNOME-Entwicklung benötigen."
-
-#~ msgid "Check OS support"
-#~ msgstr "Überprüfen Sie die Betriebssystemunterstützung"
-
-#~ msgid ""
-#~ "Make sure that you're running an operating system that supports the GNOME library "
-#~ "versions that you want to target. Major Linux distributions tend to have up-to-date "
-#~ "support."
-#~ msgstr ""
-#~ "Stellen Sie sicher, das Ihr Betriebssystem die GNOME-Bibliotheksversionen "
-#~ "unterstützt, für die Sie entwickeln wollen. Die wichtigsten Linux-Distributionen sind "
-#~ "dafür bekannt, hinreichend aktuell zu sein."
-
-#~ msgid "Get support and documentation"
-#~ msgstr "Unterstützung und Dokumentation erhalten"
-
-#~ msgid "@@image: 'equation.png'; md5=3f9de1175d8de332977ee67890e2cb6d"
-#~ msgstr "original"
-
-#, fuzzy
-#~ msgid "GNOME equation"
-#~ msgstr "GNOME-Foundation"
-
-#~ msgid "Tools for developers"
-#~ msgstr "Werkzeuge für Entwickler"
-
-#~ msgid "Examples and documentation"
-#~ msgstr "Beispiele und Dokumentation"
-
-#~ msgid "Conceptual foundations"
-#~ msgstr "Konzeptuelle Grundlagen"
-
-#~ msgid ""
-#~ "Learn about some of the concepts that differentiate GNOME from other development "
-#~ "platforms."
-#~ msgstr ""
-#~ "Erfahren Sie hier mehr über die Konzepte, die GNOME von anderen Entwicklerplattformen "
-#~ "unterscheiden."
-
-#~ msgid "@@image: 'media/ubuntu.png'; md5=40845e4a40b335b1958da1403f01c13f"
-#~ msgstr "original"
-
-#~ msgid "@@image: 'media/fedora.png'; md5=19add55f4349fd9e90f3a50b344ba626"
-#~ msgstr "original"
-
-#~ msgid "@@image: 'media/opensuse.png'; md5=a852a94199328e2f978c7f6a55bf8b54"
-#~ msgstr "original"
-
-#~ msgid "Install GNOME development tools"
-#~ msgstr "Die GNOME-Entwicklungswerkzeuge installieren"
-
-#~ msgid "GNOME Documentation Project"
-#~ msgstr "GNOME-Dokumentationsprojekt"
-
-#~ msgid "gnome-doc-list@gnome.org"
-#~ msgstr "gnome-doc-list@gnome.org"
-
-#~ msgid "Install the required tools"
-#~ msgstr "Die benötigten Werkzeuge installieren"
-
-#~ msgid "Automatic installation"
-#~ msgstr "Automatische Installation"
-
-#~ msgid "Manual installation"
-#~ msgstr "Manuelle Installation"
-
-#~ msgid "Ubuntu"
-#~ msgstr "Ubuntu"
-
-#~ msgid "Fedora"
-#~ msgstr "Fedora"
-
-#~ msgid "OpenSuSE"
-#~ msgstr "OpenSuSE"
-
-#~ msgid "Others"
-#~ msgstr "Andere"
-
-#~ msgid "Required versions"
-#~ msgstr "Benötigte Versionen"
-
-#~ msgid "Anjuta - 3.0"
-#~ msgstr "Anjuta - 3.0"
-
-#~ msgid "Devhelp - 3.0"
-#~ msgstr "Devhelp - 3.0"
-
-#~ msgid "Glade - 3.10"
-#~ msgstr "Glade - 3.10"
-
-#~ msgid "Andre Klapper"
-#~ msgstr "Andre Klapper"
-
-#~ msgid "Short introductory text..."
-#~ msgstr "Eine kurze Beschreibung des Inhalts …"
-
-#~ msgid "First step..."
-#~ msgstr "Erster Schritt …"
-
-#~ msgid "Second step..."
-#~ msgstr "Zweiter Schritt …"
-
-#~ msgid "Third step..."
-#~ msgstr "Dritter Schritt …"
-
-#~ msgid "Help and accessibility tools"
-#~ msgstr "Hilfe und Barrierefreiheitswerkzeuge"
-
-#~ msgid "Nemiver"
-#~ msgstr "Nemiver"
-
-#~ msgid "GDB"
-#~ msgstr "GDB"
-
-#~ msgid "Anjuta"
-#~ msgstr "Anjuta"
-
-#~ msgid "Build systems and interpreters"
-#~ msgstr "Build-Systeme und Interpreter"
-
-#~ msgid ""
-#~ "GNOME supports a range of programming languages, so the build tools or interpreter "
-#~ "you use will depend on what you decide to code in."
-#~ msgstr ""
-#~ "GNOME unterstützt eine Reihe von Programmiersprachen, daher werden die Build-"
-#~ "Werkzeuge oder Interpreter davon abhängig sein, in welcher Sprache Ihr Code "
-#~ "geschrieben ist."
-
-#~ msgid "Languages"
-#~ msgstr "Sprachen"
-
-#~ msgid "C"
-#~ msgstr "C"
-
-#~ msgid ""
-#~ "The C language is at the core of GNOME. Much of the stack is built with autotools and "
-#~ "GCC, but other build systems are supported."
-#~ msgstr ""
-#~ "Die Programmiersprache C bildet den Kern von GNOME. Der größte Teil des Stacks wird "
-#~ "mit den Autotools und GCC erstellt, aber weitere Build-Systeme werden unterstützt."
-
-#~ msgid "JavaScript"
-#~ msgstr "JavaScript"
-
-#~ msgid "Python"
-#~ msgstr "Python"
-
-#~ msgid "The libraries"
-#~ msgstr "Die Bibliotheken"
-
-#~ msgid "Vala"
-#~ msgstr "Vala"
-
-#~ msgid "GNOME Documentation Team"
-#~ msgstr "GNOME-Dokumentationsteam"
-
-#~ msgid "2010"
-#~ msgstr "2010"
-
-#~ msgid "Johannes Schmid"
-#~ msgstr "Johannes Schmid"
-
-#~ msgid "jhs@gnome.org"
-#~ msgstr "jhs@gnome.org"
-
-#~ msgid "C++"
-#~ msgstr "C++"
-
-#~ msgid "@@image: 'media/record-collection.png'; md5=2d645997687ed5aacd36aafafc16e072"
-#~ msgstr "original"
-
-#~ msgid "In this tutorial, you will learn:"
-#~ msgstr "In diesem Tutorial lernen Sie,"
-
-#~ msgid "How to connect to a database using libgda"
-#~ msgstr "wie Sie mittels libgda eine Verbindung zu einer Datenbank herstellen"
-
-#~ msgid "How to insert and browse records in a database table"
-#~ msgstr "wie Sie Datensätze in eine Datenbanktabelle einfügen und durch diese navigieren"
-
-#~ msgid "Introduction"
-#~ msgstr "Einführung"
-
-#~ msgid "Create a project in Anjuta"
-#~ msgstr "Ein Projekt in Anjuta erstellen"
-
-#~ msgid "Program Structure"
-#~ msgstr "Programmstruktur"
-
-#~ msgid "Designing the application"
-#~ msgstr "Entwurf der Anwendung"
-
-#~ msgid "Connecting to and initializing the database"
-#~ msgstr "Verbindung zur Datenbank und Initialisierung"
-
-#, fuzzy
-#~ msgid "Inserting"
-#~ msgstr "Schlüsselbund"
-
-#~ msgid "@@image: 'media/photo-wall.png'; md5=f19590d97e8ec029cda3c44b769c11cd"
-#~ msgstr "original"
-
-#~ msgid "@@image: 'media/photo-wall-focused.png'; md5=9f1ceecf3a28c1e468597b093a10cbae"
-#~ msgstr "original"
-
-#~ msgid "A Clutter image viewer"
-#~ msgstr "Ein Clutter-Bildbetrachter"
-
-#~ msgid "Chris Kühl"
-#~ msgstr "Chris Kühl"
-
-#~ msgid "chrisk@openismus.com"
-#~ msgstr "chrisk@openismus.com"
-
-#~ msgid "Photo Wall"
-#~ msgstr "Fotowand"
-
-#~ msgid "@@image: 'media/message-board.ogv'; md5=beb80c4538776dc2cdd26c95abea5027"
-#~ msgstr "original"
-
-#~ msgid "\"&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;\""
-#~ msgstr "\"&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;\""
-
-#~ msgid "\"text/html\""
-#~ msgstr "\"text/html\""
-
-#~ msgid "\"UTF-8\""
-#~ msgstr "\"UTF-8\""
-
-#~ msgid "shaunm"
-#~ msgstr "shaunm"
-
-#~ msgid ""
-#~ "\n"
-#~ "gchar *tmp, *css;\n"
-#~ msgstr ""
-#~ "\n"
-#~ "gchar *tmp, *css;\n"
-
-#~ msgid "@@image: 'media/magic-mirror.png'; md5=8171faea6ed3b6ddac0da084c29e4e22"
-#~ msgstr "original"
-
-#~ msgid "Daniel G. Siegel"
-#~ msgstr "Daniel G. Siegel"
-
-#~ msgid "dgsiegel@gnome.org"
-#~ msgstr "dgsiegel@gnome.org"
-
-#~ msgid "Magic Mirror"
-#~ msgstr "Magischer Spiegel"
-
-#~ msgid ""
-#~ "Your mirror just fell off the wall and broke into a thousand pieces — but you need a "
-#~ "mirror to shave your beard off or add some makeup! You only have 15 minutes left "
-#~ "before catching the bus to work. So what can you do?"
-#~ msgstr ""
-#~ "Ihr Spiegel ist soeben von der Wand gefallen und in tausend Stücke zersprungen — aber "
-#~ "Sie brauchen einen Spiegel, um sich zu rasieren oder für Ihr Makeup! Ihnen bleiben "
-#~ "gerade noch fünfzehn Minuten, sonst verpassen Sie den Bus und kommen zu spät zur "
-#~ "Arbeit. Was nun?"
-
-#~ msgid ""
-#~ "In this tutorial, we're going to make a program which lets you use your webcam as a "
-#~ "mirror. You will learn how to:"
-#~ msgstr ""
-#~ "In diesem Tutorial erstellen wir ein Programm, mit dem Sie Ihre Webcam als Spiegel "
-#~ "verwenden können. Sie lernen, wie Sie"
-
-#~ msgid "Create a GTK+ application"
-#~ msgstr "eine GTK+-Anwendung erstellen"
-
-#~ msgid "Access your webcam using GStreamer and embed the result into a window"
-#~ msgstr ""
-#~ "auf Ihre Webcam mit GStreamer zugreifen und das Ergebnis in ein Fenster einbetten"
-
-#~ msgid "Grab photos off your webcam"
-#~ msgstr "Fotos von Ihrer Webcam holen"
-
-#~ msgid "You'll need the following to be able to follow this tutorial:"
-#~ msgstr "Folgendes benötigen Sie, um diesem Tutorial folgen zu können:"
-
-#~ msgid "An installed copy of the <link xref=\"getting-ready\">Anjuta IDE</link>"
-#~ msgstr "Eine installierte Version der <link xref=\"getting-ready\">Anjuta-IDE</link>"
-
-#~ msgid "Installed copies of GTK, GStreamer, and a Vala compiler"
-#~ msgstr "Installierte Pakete von GTK und GStreamer sowie den Vala-Compiler"
-
-#~ msgid "Basic knowledge of an object-oriented programming language"
-#~ msgstr "Grundlegende Kenntnisse einer objektorientierten Programmiersprache"
-
-#~ msgid "Access the webcam video stream with GStreamer"
-#~ msgstr "Auf den Videostream der Webcam mit GStreamer zugreifen"
-
-#~ msgid "@@image: 'media/image-viewer.png'; md5=7720360611243b14283b83527be968c2"
-#~ msgstr "original"
-
-#~ msgid "Philip Chimento"
-#~ msgstr "Philip Chimento"
-
-#~ msgid "philip.chimento@gmail.com"
-#~ msgstr "philip.chimento@gmail.com"
-
-#~ msgid "Tiffany Antopolski"
-#~ msgstr "Tiffany Antopolski"
-
-#~ msgid "tiffany.antopolski@gmail.com"
-#~ msgstr "tiffany.antopolski@gmail.com"
-
-#~ msgid "Image Viewer"
-#~ msgstr "Bildbetrachter"
-
-#~ msgid "Creating the user interface"
-#~ msgstr "Erstellung der Benutzeroberfläche"
-
-#~ msgid "Next steps"
-#~ msgstr "Nächste Schritte"
-
-#~ msgid "Jonh Wendell"
-#~ msgstr "Jonh Wendell"
-
-#~ msgid "jwendell@gnome.org"
-#~ msgstr "jwendell@gnome.org"
-
-#~ msgid "A first Gtk application"
-#~ msgstr "Eine erste Gtk-Anwendung"
-
-#~ msgid "Signals"
-#~ msgstr "Signale"
-
-#~ msgid "JavaScript basics: Hello World"
-#~ msgstr "JavaScript-Grundlagen: Hello World"
-
-#~ msgid "print (\"Hello world!\");"
-#~ msgstr "print (\"Hello world!\");"
-
-#~ msgid "Classes in JavaScript"
-#~ msgstr "Klassen in JavaScript"
-
-#~ msgid "_init: function ()"
-#~ msgstr "_init: function ()"
-
-#~ msgid "Adding classes"
-#~ msgstr "Klassen hinzufügen"
-
-#~ msgid "Closing the window"
-#~ msgstr "Das Fenster schließen"
-
-#~ msgid "this.window.connect (\"hide\", Gtk.main_quit);"
-#~ msgstr "this.window.connect (\"hide\", Gtk.main_quit);"
-
-#~ msgid "this.window.show_all ();"
-#~ msgstr "this.window.show_all ();"
-
-#~ msgid "Some basic concepts of C++/GObject programming"
-#~ msgstr "Einige grundlegende Konzepte der Programmierung mit C++/GObject"
-
-#~ msgid "Some basic concepts of C/GObject programming"
-#~ msgstr "Einige grundlegende Konzepte der Programmierung mit C/GObject"
-
-#~ msgid "@@image: 'media/guitar-tuner.png'; md5=f0b7ed4cdc2729d2d0f4d38b829db61e"
-#~ msgstr "original"
-
-#~ msgid "@@image: 'media/guitar-tuner-glade.png'; md5=f6606525443ab2160f53a87a454364d0"
-#~ msgstr "original"
-
-#~ msgid "@@image: 'media/guitar-tuner-pipeline.png'; md5=5adc952909d92af5dae6954781b4ad5f"
-#~ msgstr "original"
-
-#~ msgid "Guitar Tuner"
-#~ msgstr "Gitarrenstimmgerät"
-
-#~ msgid "GStreamer pipelines"
-#~ msgstr "GStreamer-Pipelines"
-
-#~ msgid "An example GStreamer pipeline."
-#~ msgstr "Eine Beispiel-Pipeline mit GStreamer."
-
-#~ msgid "Basic knowledge of the C++ programming language"
-#~ msgstr "Grundlagen der Programmiersprache C++"
-
-#~ msgid "Using GStreamermm"
-#~ msgstr "GStreamermm verwenden"
-
-#~ msgid "\tGst::init (argc, argv);"
-#~ msgstr "\tGst::init (argc, argv);"
-
-#~ msgid "The code has the following purpose:"
-#~ msgstr "Der Code hat den folgenden Zweck:"
-
-#~ msgid "Basic knowledge of the C programming language"
-#~ msgstr "Grundlagen der Programmiersprache C"
-
-#~ msgid "XXXX"
-#~ msgstr "XXXX"
-
-#~ msgid "Audio Player"
-#~ msgstr "Audio-Player"
-
-#~ msgid "GObject and introspection"
-#~ msgstr "GObject und Introspection"
-
-#~ msgid "RPM and DEB. OpenSuSE build service."
-#~ msgstr "RPM und DEB. OpenSuSE-Buildservice."
