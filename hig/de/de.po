@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2016-02-16 08:53+0000\n"
-"PO-Revision-Date: 2016-02-16 21:00+0100\n"
+"POT-Creation-Date: 2016-02-18 08:54+0000\n"
+"PO-Revision-Date: 2016-02-18 14:16+0100\n"
 "Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
 "Language-Team: Deutsch <gnome-de@gnome.org>\n"
 "Language: de\n"
@@ -3405,7 +3405,7 @@ msgstr "original"
 #. (itstool) path: page/title
 #: C/info-bars.page:16
 msgid "Info bars"
-msgstr ""
+msgstr "Informationsleisten"
 
 #. (itstool) path: page/p
 #: C/info-bars.page:20
@@ -3460,6 +3460,7 @@ msgstr ""
 #: C/info-bars.page:38
 msgid "Only one info bar should be visable at any one time."
 msgstr ""
+"Es sollten nicht mehrere Informationsleisten gleichzeitig sichtbar sein."
 
 #. (itstool) path: item/p
 #: C/info-bars.page:39
@@ -3471,7 +3472,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/info-bars.page:40
 msgid "Generally speaking, info bars do not require an icon."
-msgstr ""
+msgstr "Im Allgemeinen benötigen Informationsleisten kein Symbol."
 
 #. (itstool) path: item/p
 #: C/info-bars.page:49
@@ -3562,10 +3563,9 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/keyboard-input.page:49
-#, fuzzy
 #| msgid "Keyboard navigation"
 msgid "Standard navigation keys"
-msgstr "Tastatursteuerung"
+msgstr "Standard-Navigationstasten"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:54 C/keyboard-input.page:160 C/keyboard-input.page:280
@@ -3724,7 +3724,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/keyboard-input.page:118
 msgid "Access keys"
-msgstr ""
+msgstr "Zugriffstasten"
 
 #. (itstool) path: section/p
 #: C/keyboard-input.page:120
@@ -3738,6 +3738,8 @@ msgstr ""
 #: C/keyboard-input.page:123
 msgid "Where possible, all labelled components should have an access key."
 msgstr ""
+"Sofern möglich, sollten alle beschrifteten Komponenten eine Zugriffstaste "
+"haben."
 
 #. (itstool) path: item/p
 #: C/keyboard-input.page:124
@@ -3845,7 +3847,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/keyboard-input.page:150
 msgid "System reserved shortcuts"
-msgstr ""
+msgstr "Für das System reservierte Tastenkürzel"
 
 #. (itstool) path: section/p
 #: C/keyboard-input.page:152
@@ -3881,7 +3883,7 @@ msgstr "Beschreibung"
 #. (itstool) path: td/p
 #: C/keyboard-input.page:167
 msgid "Activities Overview"
-msgstr ""
+msgstr "Aktivitäten-Übersicht"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:168
@@ -3905,19 +3907,18 @@ msgstr "<key>Super</key>"
 #: C/keyboard-input.page:634 C/keyboard-input.page:693
 #: C/keyboard-input.page:727 C/keyboard-input.page:732
 #: C/keyboard-input.page:737
-#, fuzzy
 msgid "None"
-msgstr "Nichts"
+msgstr "Keine"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:170
 msgid "Opens and closes the Activities Overview"
-msgstr ""
+msgstr "Öffnet und schließt die Aktivitäten-Übersicht"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:173
 msgid "Applications View"
-msgstr ""
+msgstr "Anwendungen anzeigen"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:174
@@ -3927,12 +3928,12 @@ msgstr "<keyseq><key>Super</key><key>A</key></keyseq>"
 #. (itstool) path: td/p
 #: C/keyboard-input.page:176
 msgid "Opens and closes the applications view of the Activities Overview"
-msgstr ""
+msgstr "Öffnet und schließt die Anwendungsansicht in der Aktivitäten-Übersicht"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:179
 msgid "Message Tray"
-msgstr ""
+msgstr "Benachrichtigungsfeld"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:180
@@ -3942,12 +3943,12 @@ msgstr "<keyseq><key>Super</key><key>M</key></keyseq>"
 #. (itstool) path: td/p
 #: C/keyboard-input.page:182
 msgid "Toggles the visibility of the Message Tray."
-msgstr ""
+msgstr "Blendet das Benachrichtigungsfeld ein oder aus."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:185
 msgid "Lock"
-msgstr ""
+msgstr "Sperren"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:186
@@ -3963,14 +3964,11 @@ msgstr ""
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:191
-#, fuzzy
-#| msgid "Quit the application"
 msgid "Switch application"
-msgstr "Die Anwendung beenden"
+msgstr "Anwendung wechseln"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:192
-#, fuzzy
 #| msgid ""
 #| "<key>PageUp</key>, <keyseq><key>Ctrl</key><key>PageUp</key></keyseq>, "
 #| "<key>PageDown</key> and <keyseq><key>Ctrl</key><key>PageDown</key></"
@@ -3979,8 +3977,8 @@ msgid ""
 "<keyseq><key>Super</key><key>Tab</key></keyseq> and <keyseq><key>Shift</"
 "key><key>Super</key><key>Tab</key></keyseq>"
 msgstr ""
-"<key>Bild↑</key>, <keyseq><key>Strg</key><key>Bild↑</key></keyseq>, "
-"<key>Bild↓</key> und <keyseq><key>Strg</key><key>Bild↓</key></keyseq>"
+"<keyseq><key>Super</key><key>Tab</key></keyseq> und "
+"<keyseq><key>Umschalttaste</key><key>Super</key><key>Tab</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:193
@@ -3988,6 +3986,8 @@ msgid ""
 "<keyseq><key>Alt</key><key>Tab</key></keyseq> and <keyseq><key>Shift</"
 "key><key>Alt</key><key>Tab</key></keyseq>"
 msgstr ""
+"<keyseq><key>Alt</key><key>Tab</key></keyseq> und "
+"<keyseq><key>Umschalttaste</key><key>Alt</key><key>Tab</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:194
@@ -4088,7 +4088,7 @@ msgstr "Verbirgt das fokussierte Fenster"
 #. (itstool) path: td/p
 #: C/keyboard-input.page:222
 msgid "Switch system area"
-msgstr ""
+msgstr "Systembereich wechseln"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:224
@@ -4096,6 +4096,9 @@ msgid ""
 "<keyseq><key>Ctrl</key><key>Alt</key><key>Tab</key></keyseq> and "
 "<keyseq><key>Shift</key><key>Ctrl</key><key>Alt</key><key>Tab</key></keyseq>"
 msgstr ""
+"<keyseq><key>Strg</key><key>Alt</key><key>Tab</key></keyseq> und "
+"<keyseq><key>Umschalttaste</key><key>Strg</key><key>Alt</key><key>Tab</key></"
+"keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:225
@@ -4169,7 +4172,7 @@ msgstr "Verschiebt das fokussierte Fenster"
 #. (itstool) path: td/p
 #: C/keyboard-input.page:252
 msgid "<gui>Resize</gui>"
-msgstr ""
+msgstr "<gui>Größe ändern</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:254
@@ -4260,7 +4263,7 @@ msgstr "<keyseq><key>Strg</key><key>Q</key></keyseq>"
 #. (itstool) path: td/p
 #: C/keyboard-input.page:298
 msgid "Closes the application, including all application windows."
-msgstr ""
+msgstr "Schließt die Anwendung einschließlich aller zugehörigen Fenster."
 
 #. (itstool) path: section/title
 #: C/keyboard-input.page:306
@@ -4326,7 +4329,7 @@ msgstr ""
 #. (itstool) path: td/p
 #: C/keyboard-input.page:335
 msgid "<gui>Save</gui>"
-msgstr ""
+msgstr "<gui>Save</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:336
@@ -4348,7 +4351,7 @@ msgstr ""
 #. (itstool) path: td/p
 #: C/keyboard-input.page:340
 msgid "<gui>Save As…</gui>"
-msgstr ""
+msgstr "<gui>Save As…</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:341
@@ -4366,7 +4369,7 @@ msgstr ""
 #. (itstool) path: td/p
 #: C/keyboard-input.page:345
 msgid "<gui>Save a Copy…</gui>"
-msgstr ""
+msgstr "<gui>Save a Copy…</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:347
@@ -4389,7 +4392,7 @@ msgstr ""
 #. (itstool) path: td/p
 #: C/keyboard-input.page:351
 msgid "<gui>Page Setup</gui>"
-msgstr ""
+msgstr "<gui>Page Setup</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:353
@@ -4402,14 +4405,12 @@ msgstr ""
 #. (itstool) path: td/p
 #: C/keyboard-input.page:356
 msgid "<gui>Print Preview</gui>"
-msgstr ""
+msgstr "<gui>Print Preview</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:357
-#, fuzzy
-#| msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>Z</key></keyseq>"
 msgid "<keyseq><key>Shift</key><key>Ctrl</key><key>P</key></keyseq>"
-msgstr "<keyseq><key>Umschalttaste</key><key>Strg</key><key>Z</key></keyseq>"
+msgstr "<keyseq><key>Umschalttaste</key><key>Strg</key><key>P</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:358
@@ -4422,7 +4423,7 @@ msgstr ""
 #. (itstool) path: td/p
 #: C/keyboard-input.page:361
 msgid "<gui>Print…</gui>"
-msgstr ""
+msgstr "<gui>Print…</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:362
@@ -4441,7 +4442,7 @@ msgstr ""
 #. (itstool) path: td/p
 #: C/keyboard-input.page:366
 msgid "<gui>Send To…</gui>"
-msgstr ""
+msgstr "<gui>Send To…</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:367
@@ -4463,12 +4464,12 @@ msgstr ""
 #. (itstool) path: td/p
 #: C/keyboard-input.page:371
 msgid "<gui>Properties…</gui>"
-msgstr ""
+msgstr "<gui>Properties…</gui>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:372
 msgid "<keyseq><key>Alt</key><key>Return</key></keyseq>"
-msgstr ""
+msgstr "<keyseq><key>Alt</key><key>Eingabetaste</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:373
@@ -4495,8 +4496,6 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/keyboard-input.page:386
-#, fuzzy
-#| msgid "Edit"
 msgctxt "menu"
 msgid "Edit"
 msgstr "Bearbeiten"
@@ -4568,7 +4567,7 @@ msgstr "<keyseq><key>Strg</key><key>C</key></keyseq>"
 #. (itstool) path: td/p
 #: C/keyboard-input.page:417
 msgid "Copies the selected content onto the clipboard."
-msgstr ""
+msgstr "Kopiert den ausgewählten Inhalt in die Zwischenablage."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:420
@@ -4639,6 +4638,7 @@ msgstr "<key>Delete</key>"
 #: C/keyboard-input.page:437
 msgid "Removes the selected content without placing it on the clipboard."
 msgstr ""
+"Löscht den ausgewählten Inhalt, ohne ihn in die Zwischenablage einzufügen."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:440
@@ -4763,6 +4763,8 @@ msgstr "<gui>Icons</gui>"
 #: C/keyboard-input.page:491
 msgid "Shows content as a grid of icons. This is a radio button menu item."
 msgstr ""
+"Zeigt den Inhalt als Symbolgitter an. Dies ist ein Eintrag eines Radioknopf-"
+"Menüs."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:494
@@ -4773,6 +4775,7 @@ msgstr "<gui>List</gui>"
 #: C/keyboard-input.page:496
 msgid "Shows content as a list. This is a radio button menu item."
 msgstr ""
+"Zeigt den Inhalt als Liste an. Dies ist ein Eintrag eines Radioknopf-Menüs."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:499
@@ -4785,6 +4788,9 @@ msgid ""
 "Specifies the criteria by which content should be sorted. Can open a "
 "preference dialog, popover, or sub-menu."
 msgstr ""
+"Gibt die Kriterien an, nach denen Inhalte sortiert werden sollen. Damit kann "
+"ein Einstellungsdialog, ein Einblenddialog oder ein Untermenü geöffnet "
+"werden."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:504
@@ -4850,7 +4856,7 @@ msgstr "<gui>Best Fit</gui>"
 #. (itstool) path: td/p
 #: C/keyboard-input.page:526
 msgid "Makes the document fill the window."
-msgstr ""
+msgstr "Zeigt das Dokument so an, dass es das Fenster füllt."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:529
@@ -4969,7 +4975,7 @@ msgstr "<gui>Cells…</gui>"
 #. (itstool) path: td/p
 #: C/keyboard-input.page:586
 msgid "Sets the properties of the selected table cells."
-msgstr ""
+msgstr "Legt die Eigenschaften der gewählten Tabellenzellen fest."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:589
@@ -5195,7 +5201,7 @@ msgstr "<keyseq><key>Strg</key><key>Pos1</key></keyseq>"
 #. (itstool) path: td/p
 #: C/keyboard-input.page:699
 msgid "Navigates to the first page in the document."
-msgstr ""
+msgstr "Navigiert zur ersten Seite im Dokument."
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:702
@@ -5210,7 +5216,7 @@ msgstr "<keyseq><key>Strg</key><key>Ende</key></keyseq>"
 #. (itstool) path: td/p
 #: C/keyboard-input.page:704
 msgid "Navigates to the last page in the document."
-msgstr ""
+msgstr "Navigiert zur letzten Seite im Dokument."
 
 #. (itstool) path: section/title
 #: C/keyboard-input.page:712
@@ -5250,7 +5256,7 @@ msgstr ""
 #. (itstool) path: td/p
 #: C/keyboard-input.page:736
 msgid "List of windows"
-msgstr ""
+msgstr "Fensterliste"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:738
@@ -5387,7 +5393,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/lists.page:57
 msgid "Editable lists"
-msgstr ""
+msgstr "Bearbeitbare Listen"
 
 #. (itstool) path: section/p
 #: C/lists.page:59
@@ -5444,7 +5450,6 @@ msgstr "Natürlich"
 
 #. (itstool) path: td/p
 #: C/lists.page:86
-#, fuzzy
 msgid "Down"
 msgstr "Nach unten"
 
@@ -5456,14 +5461,13 @@ msgstr ""
 
 #. (itstool) path: td/p
 #: C/lists.page:90
-#, fuzzy
 msgid "Reverse"
 msgstr "Umkehren"
 
 #. (itstool) path: td/p
 #: C/lists.page:91
 msgid "Up"
-msgstr "Hoch"
+msgstr "Nach oben"
 
 #. (itstool) path: td/p
 #: C/lists.page:92
@@ -5475,7 +5479,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/lists.page:101
 msgid "Row behavior"
-msgstr ""
+msgstr "Verhalten von Spalten"
 
 #. (itstool) path: section/p
 #: C/lists.page:103
@@ -5523,7 +5527,6 @@ msgstr ""
 
 #. (itstool) path: td/p
 #: C/lists.page:122
-#| msgid "Edit"
 msgctxt "list-type"
 msgid "Edit"
 msgstr "Edit"
@@ -5949,7 +5952,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/menus.page:44
 msgid "Size and structure"
-msgstr ""
+msgstr "Größe und Struktur"
 
 #. (itstool) path: section/p
 #: C/menus.page:46
@@ -6364,7 +6367,7 @@ msgstr "original"
 #. (itstool) path: page/title
 #: C/patterns.page:13
 msgid "Design patterns"
-msgstr ""
+msgstr "Designmuster"
 
 #. (itstool) path: page/p
 #: C/patterns.page:15
@@ -6544,7 +6547,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/pointer-and-touch-input.page:27
 msgid "Primary and secondary buttons"
-msgstr ""
+msgstr "Primäre und sekundäre Tasten"
 
 #. (itstool) path: section/p
 #: C/pointer-and-touch-input.page:29
@@ -6669,7 +6672,7 @@ msgstr "Tastatur"
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:70
 msgid "Open an item"
-msgstr ""
+msgstr "Ein Objekt öffnen"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:71 C/pointer-and-touch-input.page:86
@@ -6679,12 +6682,12 @@ msgstr "Primäre Taste"
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:75
 msgid "Add/remove item from selection"
-msgstr ""
+msgstr "Objekt zur Auswahl hinzufügen oder daraus entfernen"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:76
 msgid "<key>Ctrl</key> and primary button"
-msgstr ""
+msgstr "<key>Strg</key> und primäre Maustaste"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:77
@@ -6694,12 +6697,12 @@ msgstr "<keyseq><key>Strg</key><key>Leertaste</key></keyseq>"
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:80
 msgid "Extend selection"
-msgstr ""
+msgstr "Auswahl erweitern"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:81
 msgid "<key>Shift</key> and primary button"
-msgstr ""
+msgstr "<key>Umschalttaste</key> und primäre Maustaste"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:82
@@ -6711,7 +6714,7 @@ msgstr ""
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:85
 msgid "Change selection"
-msgstr ""
+msgstr "Auswahl ändern"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:87
@@ -6740,7 +6743,7 @@ msgstr "Auswahl aufheben"
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:96
 msgid "Primary click on the container background"
-msgstr ""
+msgstr "Klick mit der primären Maustaste auf den Hintergrund des Containers"
 
 #. (itstool) path: section/title
 #: C/pointer-and-touch-input.page:106
@@ -6795,7 +6798,7 @@ msgstr ""
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:133
 msgid "<em style=\"strong\">Press and hold</em>"
-msgstr ""
+msgstr "<em style=\"strong\">Drücken und Halten</em>"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:137
@@ -6968,7 +6971,7 @@ msgstr "original"
 #. (itstool) path: page/title
 #: C/popovers.page:18
 msgid "Popovers"
-msgstr ""
+msgstr "Einblenddialoge"
 
 #. (itstool) path: page/p
 #: C/popovers.page:20
@@ -7031,7 +7034,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/popovers.page:42
 msgid "Popover content"
-msgstr ""
+msgstr "Inhalt von Einblenddialogen"
 
 #. (itstool) path: item/p
 #: C/popovers.page:45
@@ -7062,6 +7065,8 @@ msgid ""
 "<gui>Close</gui> or <gui>Done</gui> buttons are not usually required in a "
 "popover."
 msgstr ""
+"Knöpfe wie <gui>Close</gui> oder <gui>Done</gui> sind in einem "
+"Einblenddialog üblicherweise nicht erforderlich."
 
 #. (itstool) path: section/p
 #: C/popovers.page:57
@@ -7102,12 +7107,12 @@ msgstr "original"
 #. (itstool) path: info/desc
 #: C/primary-windows.page:7
 msgid "The main window(s) for your application"
-msgstr ""
+msgstr "Das oder die Hauptfenster Ihrer Anwendung"
 
 #. (itstool) path: page/title
 #: C/primary-windows.page:15
 msgid "Primary windows"
-msgstr ""
+msgstr "Primäre Fenster"
 
 #. (itstool) path: page/p
 #: C/primary-windows.page:19
@@ -7125,17 +7130,17 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/primary-windows.page:29
 msgid "Application types"
-msgstr ""
+msgstr "Anwendungstypen"
 
 #. (itstool) path: section/p
 #: C/primary-windows.page:31
 msgid "There are two main models for primary windows:"
-msgstr ""
+msgstr "Es gibt zwei Hauptmodelle für primäre Fenster:"
 
 #. (itstool) path: section/title
 #: C/primary-windows.page:34
 msgid "Single instance applications"
-msgstr ""
+msgstr "Anwendungen mit einer Instanz"
 
 #. (itstool) path: section/p
 #: C/primary-windows.page:36
@@ -7147,7 +7152,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/primary-windows.page:41
 msgid "Multiple instance applications"
-msgstr ""
+msgstr "Anwendungen mit mehreren Instanzen"
 
 #. (itstool) path: section/p
 #: C/primary-windows.page:43
@@ -7225,6 +7230,8 @@ msgid ""
 "A single primary window should always be displayed when your application is "
 "launched."
 msgstr ""
+"Ein einzelnes primäres Fenster sollte stets angezeigt werden, wenn Ihre "
+"Anwendung gestartet ist."
 
 #. (itstool) path: item/p
 #: C/primary-windows.page:74
@@ -7318,7 +7325,7 @@ msgstr "original"
 #. (itstool) path: page/title
 #: C/progress-bars.page:30
 msgid "Progress bars"
-msgstr ""
+msgstr "Fortschrittsbalken"
 
 #. (itstool) path: page/p
 #: C/progress-bars.page:32
@@ -7526,7 +7533,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/progress-bars.page:108
 msgid "Progress windows"
-msgstr ""
+msgstr "Forschrittsfenster"
 
 #. (itstool) path: section/p
 #: C/progress-bars.page:110
@@ -8093,12 +8100,12 @@ msgstr "original"
 #. (itstool) path: info/desc
 #: C/sidebar-lists.page:7
 msgid "Navigation sidebar that contains a list"
-msgstr ""
+msgstr "Navigations-Seitenleiste, die eine Liste enthält"
 
 #. (itstool) path: page/title
 #: C/sidebar-lists.page:15
 msgid "Sidebar lists"
-msgstr ""
+msgstr "Listen in der Seitenleiste"
 
 #. (itstool) path: page/p
 #: C/sidebar-lists.page:19
