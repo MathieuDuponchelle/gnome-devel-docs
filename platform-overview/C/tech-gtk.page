@@ -51,5 +51,9 @@ accessibility interfaces, keyboard navigation, and automatic sizing.</p>
   <item><p><link href="http://developer.gnome.org/gnome-devel-demos/stable/">GTK+ demo tutorial</link></p></item>
   <item><p><link href="http://developer.gnome.org/gtk3/stable/">GTK+ Reference Manual</link></p></item>
   <item><p><link href="http://gtk.org/">The GTK+ web site</link></p></item>
+  <item><p><link href="https://git.gnome.org/browse/gtk+/">The GTK+ git repository</link></p></item>
+  <item><p><link href="https://mail.gnome.org/mailman/listinfo/gtk-app-devel-list">Mailing list for application developers using GTK+</link></p></item>
+  <item><p><link href="https://mail.gnome.org/mailman/listinfo/gtk-list">Mailing list for general discussion of GTK+</link></p></item>
+  <item><p><link href="https://mail.gnome.org/mailman/listinfo/gtk-devel-list">Mailing list for discussion of the development of GTK+</link></p></item>
 </list>
 </page>
