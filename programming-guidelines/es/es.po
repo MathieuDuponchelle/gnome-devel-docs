@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2016-02-15 20:56+0000\n"
-"PO-Revision-Date: 2016-02-16 09:04+0100\n"
+"POT-Creation-Date: 2016-02-23 08:51+0000\n"
+"PO-Revision-Date: 2016-02-24 09:21+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "Language: es\n"
@@ -22,7 +22,9 @@ msgstr ""
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr "Daniel Mustieles <daniel.mustieles@gmail.com>"
+msgstr ""
+"Daniel Mustieles <daniel.mustieles@gmail.com>, 2016\n"
+"Javier Mazorra <mazi.debian@gmail.com>, 2016"
 
 #. (itstool) path: credit/name
 #: C/additional-materials.page:10 C/c-coding-style.page:10
@@ -9772,12 +9774,16 @@ msgid ""
 "Otherwise (if making a release containing only bug fixes and translation "
 "updates), increment micro."
 msgstr ""
+"En caso contrario (si se hace una entrega que contenga sólo correcciones de "
+"errores y actualizaciones de traducciones), se incrementa la microversión."
 
 #. (itstool) path: section/p
 #: C/versioning.page:93
 msgid ""
 "Note that the minor version number should be updated if any API is added."
 msgstr ""
+"Tenga en cuenta que el número de versión menor debería actualizarse si se "
+"añade alguna API."
 
 #. (itstool) path: section/title
 #: C/versioning.page:99
@@ -9795,6 +9801,14 @@ msgid ""
 "Furthermore, the two version numbers have different semantics, and cannot be "
 "automatically generated from each other."
 msgstr ""
+"Las bibliotecas tienen dos números de versión: una versión libtool que "
+"rastrea la compatibilidad ABI posterior (<link href=“api-stability”/>). y "
+"una versión de paquete que rastrea los cambios de las características. Estos "
+"normalmente se incrementan sincronizadamente, pero deberían mantenerse "
+"separados porque la compatibilidad ABI posterior no está necesariamente "
+"relacionada con los cambios de las características o las correcciones de "
+"errores. Además, los dos números de versión tienen distintos significados, y "
+"no puede generarse automáticamente el uno desde el otro."
 
 #. (itstool) path: section/p
 #: C/versioning.page:112
@@ -9805,6 +9819,11 @@ msgid ""
 "\"http://www.gnu.org/s/libtool/manual/html_node/Updating-version-info.html"
 "\">libtool manual</link>."
 msgstr ""
+"Un buen resumen del versionado libtool, y las diferencias con el versionado "
+"del paquete, se da en el <link href=“https://autotools.io/libtool/version."
+"html”>cazador de mitos de Autotools</link>; otro está en el <link "
+"href=“http://www.gnu.org/s/libtool/manual/html_node/Updating-version-info."
+"html”>manual de libtool</link>."
 
 #. (itstool) path: section/p
 #: C/versioning.page:121
@@ -9813,6 +9832,9 @@ msgid ""
 "below. This is a typical <file>configure.ac</file> snippet for setting up "
 "libtool versioning:"
 msgstr ""
+"Para actualizar la versión libtool, siga el algoritmo dado en los "
+"comentarios debajo. Este es un fragmento de código <file>configure.ac</file> "
+"típico para configurar el versionado libtool:"
 
 #. (itstool) path: section/code
 #: C/versioning.page:127
@@ -9850,6 +9872,8 @@ msgid ""
 "The following snippet can be used in a <file>Makefile.am</file> to pass that "
 "version info to libtool:"
 msgstr ""
+"El siguiente fragmento de código se puede usar en un <file>Makefile.am</"
+"file> para pasar esa información de versión a libtool:"
 
 #. (itstool) path: section/code
 #: C/versioning.page:144
@@ -9871,6 +9895,11 @@ msgid ""
 "unstable. The 3.19.* versions can be seen as alpha and beta releases of the "
 "3.20 version."
 msgstr ""
+"La mayoría de los módulos de GNOME siguen una convención para entregas "
+"estables e inestables. La versión menor es par para liberaciones estables y "
+"es impar para las inestables. Por ejemplo, las versiones 3.20.* son "
+"estables, pero las versiones 3.19.* son inestables. Las versiones 3.19.* se "
+"pueden ver como entregas alfa y beta de la versión 3.20."
 
 #. (itstool) path: section/p
 #: C/versioning.page:158
@@ -9881,11 +9910,18 @@ msgid ""
 "change or remove API which was added in a previous micro release in that "
 "minor series."
 msgstr ""
+"Una nueva microversión <em>estable</em> (por ejemplo 3.20.0 → 3.20.1) no "
+"añade nuevas características, sólo actualizaciones de traducciones y "
+"corrección de errores. Por otro lado, las microentregas <em>inestables</em> "
+"(por ejemplo 3.19.1 → 3.19.2) pueden añadir API, o cambiar o eliminar la API "
+"que se añadió en la microentrega anterior en esa serie menor."
 
 #. (itstool) path: section/p
 #: C/versioning.page:166
 msgid "The libtool version should be updated only for stable package versions."
 msgstr ""
+"La versión libtool debería actualizarse sólo para versiones de paquete "
+"estables."
 
 #. (itstool) path: section/title
 #: C/versioning.page:172
@@ -9900,6 +9936,11 @@ msgid ""
 "the package version number immediately afterwards (this is called a post-"
 "release increment)."
 msgstr ""
+"El proceso estándar para hacer una publicación de un módulo incrementa la "
+"versión libtool (si el módulo es una biblioteca) en el momento de la "
+"entrega, por lo que incrementa el número de versión del paquete "
+"inmediatamente después (a esto se le llama un incremento posterior a la "
+"publicación)."
 
 #. (itstool) path: section/p
 #: C/versioning.page:181
@@ -9910,6 +9951,12 @@ msgid ""
 "not outdated (still equal to the previous release) during the development "
 "cycle."
 msgstr ""
+"La actualización de las versiones libtool durante el tiempo de entrega "
+"significa que sólo se incrementan una vez para todos los cambios ABI de una "
+"entrega. Usar el incremento posterior a la publicación para las versiones "
+"del paquete significa que el número de versión del paquete no está "
+"desactualizado (aún igual al de la entrega anterior) durante el ciclo de "
+"desarrollo."
 
 #. (itstool) path: section/p
 #: C/versioning.page:189
@@ -9917,11 +9964,13 @@ msgid ""
 "The release process (based on the <link href=\"https://wiki.gnome.org/"
 "MaintainersCorner/Releasing\">GNOME release process</link>):"
 msgstr ""
+"El proceso de la entrega (basado en el <link href=\"https://wiki.gnome.org/"
+"MaintainersCorner/Releasing\">proceso de publicación de GNOME</link>):"
 
 #. (itstool) path: item/p
 #: C/versioning.page:195
 msgid "Make sure code is up to date: <cmd>git pull</cmd>"
-msgstr ""
+msgstr "Asegúrese de que el código está actualizado: <cmd>git pull</cmd>"
 
 #. (itstool) path: item/p
 #: C/versioning.page:199
@@ -9934,11 +9983,13 @@ msgid ""
 "If the release is for a stable package version, increment the libtool "
 "version number in <file>configure.ac</file> (if it exists)"
 msgstr ""
+"Si la publicación es para una versión estable del paquete, incremente el "
+"número de versión libtool en <file>configure.ac</file> (si éste existe)"
 
 #. (itstool) path: item/p
 #: C/versioning.page:206
 msgid "Add an entry to the <file>NEWS</file> file"
-msgstr ""
+msgstr "Añada una entrada al archivo <file>NEWS</file>"
 
 #. (itstool) path: item/p
 #: C/versioning.page:210
