@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2016-02-23 08:51+0000\n"
-"PO-Revision-Date: 2016-02-24 09:21+0100\n"
+"POT-Creation-Date: 2016-02-23 20:55+0000\n"
+"PO-Revision-Date: 2016-03-03 09:15+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "Language: es\n"
@@ -57,6 +57,10 @@ msgid ""
 "will teach you a lot about how to work on large distributed teams of free "
 "software developers, and about good programming style in general."
 msgstr ""
+"Aquí le damos enlaces a otros materiales que puede querer leer. Estos le "
+"enseñarán mucho sobre cómo trabajar en grandes equipos distribuidos de "
+"desarrolladores de software libre, y sobre el buen estilo de programación en "
+"general."
 
 #. (itstool) path: item/p
 #: C/additional-materials.page:32
@@ -69,6 +73,14 @@ msgid ""
 "at any time, \"how should I deal with $human_situation in the project?\", "
 "this book may provide the answer."
 msgstr ""
+"<link href=\"http://producingoss.com/\">Produducing Open Source Software</"
+"link>, de Karl Fogel. Éste realmente es un libro excelente de buenas "
+"prácticas que deberían seguir los proyectos de software libre. Esto es sobre "
+"<em>aspectos sociales</em> del proyecto: cómo tratar a los contribuidores, "
+"cómo organizar y moderar la comunicación, cómo tratar con las fundaciones "
+"sin ánimo de lucro. Si se pregunta alguna vez, «¿Cómo debería tratar con "
+"$human_situation en el proyecto?», este libro puede proporcionarle la "
+"respuesta."
 
 #. (itstool) path: item/p
 #: C/additional-materials.page:46
@@ -79,6 +91,12 @@ msgid ""
 "common option names for command-line programs, conventions for Makefiles, "
 "and some very GNU-ish details like using Texinfo for documentation."
 msgstr ""
+"<link href=\"http://www.gnu.org/prep/standards/\">GNU Coding Standards</"
+"link>. Éste es un viejo documento, pero aún tiene muchos consejos "
+"excelentes. Habla sobre estilo de programación C, problemas al tratar con "
+"sistemas enchufables, nombres de opciones comunes para programas de línea de "
+"comandos, convenciones para Makefiles y algunos detalles muy GNU-ish como el "
+"uso de Texinfo para la documentación."
 
 #. (itstool) path: item/p
 #: C/additional-materials.page:57
@@ -88,6 +106,10 @@ msgid ""
 "brace placement, concise but unambiguous naming, and centralized exit of "
 "functions."
 msgstr ""
+"<link href=\"https://www.kernel.org/doc/Documentation/CodingStyle\">Linux "
+"Kernel Coding Style</link>. Explica la lógica de «la gran sangría», el lugar "
+"de las llaves, denominación concisa pero sin ambigüedades, y la salida "
+"centralizada de funciones."
 
 #. (itstool) path: credit/name
 #: C/api-stability.page:10 C/databases.page:11 C/documentation.page:16
@@ -135,6 +157,8 @@ msgid ""
 "Define API stability guarantees for your project. (<link xref=\"#stability\"/"
 ">)"
 msgstr ""
+"Define las garantías de estabilidad de la API para su proyecto. (<link "
+"xref='#stability'/>)"
 
 #. (itstool) path: item/p
 #: C/api-stability.page:30
@@ -142,6 +166,8 @@ msgid ""
 "Ensure version numbers are changed as appropriate when API changes. (<link "
 "xref=\"#versioning\"/>)"
 msgstr ""
+"Asegúrese de que se cambian los números de versión adecuadamente cuando "
+"cambia la API. (<link xref='#versioning'/>)"
 
 #. (itstool) path: section/title
 #: C/api-stability.page:38
@@ -163,6 +189,19 @@ msgid ""
 "But these differences are mostly academic, and for all practical purposes, "
 "API and ABI can be treated interchangeably."
 msgstr ""
+"En un nivel superior, una API (<em>interfaz de programación de "
+"aplicaciones</ em>) es el límite entre dos componentes cuando se desarrolla "
+"contra ellos. Está estrechamente relacionado con una ABI (<em>interfaz "
+"binaria de aplicación</ em>) que es el límite en tiempo de ejecución. Define "
+"las posibles formas en que otros componentes pueden interactuar con un "
+"componente. Más concretamente, esto significa que normalmente las cabeceras "
+"C de una biblioteca forman su API, y los símbolos compilados de la "
+"biblioteca su ABI. La diferencia entre una API y ABI viene dada por la "
+"compilación del código: hay ciertas cosas en una cabecera C, como "
+"<code>#define</code>, que pueden causar cambiar la API de una biblioteca sin "
+"cambiar su ABI. Sin embargo, estas diferencias son en su mayoría académicas, "
+"y para todos los propósitos prácticos, la API y ABI se pueden tratar de "
+"manera intercambiable."
 
 #. (itstool) path: section/p
 #: C/api-stability.page:54
@@ -170,6 +209,9 @@ msgid ""
 "Examples of API-incompatible changes to a C function would be to add a new "
 "parameter, change the function’s return type, or remove a parameter."
 msgstr ""
+"Ejemplos de cambios API-incompatibles para una función C serían añadir un "
+"nuevo parámetro, cambiar el tipo de retorno de la función, o eliminar un "
+"parámetro."
 
 #. (itstool) path: section/p
 #: C/api-stability.page:59
@@ -179,6 +221,11 @@ msgid ""
 "C API is exposed in higher level languages by use of GIR, the GIR file forms "
 "another API — if it changes, any higher level code using it must also change."
 msgstr ""
+"Sin embargo, muchas otras partes de un proyecto pueden formar una API. Si un "
+"demonio se expone en D-Bus, las interfaces exportadas ahí forman una API. "
+"Del mismo modo, si una API en C se expone en lenguajes de alto nivel usando "
+"GIR, el archivo GIR forma otra API - si cambia, cualquier código de nivel "
+"superior que lo utilice también debe cambiar."
 
 #. (itstool) path: section/p
 #: C/api-stability.page:67
@@ -187,6 +234,9 @@ msgid ""
 "formats, and GSettings schemas. Any changes to these could require code "
 "using your library to change."
 msgstr ""
+"Otros ejemplos de APIs más inusuales son las ubicaciones del archivo de "
+"configuración y sus formatos, y esquemas GSettings. Cualquier cambio en "
+"estos podría requerir cambiar el código que usa su biblioteca."
 
 #. (itstool) path: section/title
 #: C/api-stability.page:75
@@ -9774,8 +9824,8 @@ msgid ""
 "Otherwise (if making a release containing only bug fixes and translation "
 "updates), increment micro."
 msgstr ""
-"En caso contrario (si se hace una entrega que contenga sólo correcciones de "
-"errores y actualizaciones de traducciones), se incrementa la microversión."
+"En caso contrario (si se hace una publicación que contenga sólo correcciones "
+"de errores y actualizaciones de traducciones), se incrementa la microversión."
 
 #. (itstool) path: section/p
 #: C/versioning.page:93
@@ -9895,7 +9945,7 @@ msgid ""
 "unstable. The 3.19.* versions can be seen as alpha and beta releases of the "
 "3.20 version."
 msgstr ""
-"La mayoría de los módulos de GNOME siguen una convención para entregas "
+"La mayoría de los módulos de GNOME siguen una convención para publicaciones "
 "estables e inestables. La versión menor es par para liberaciones estables y "
 "es impar para las inestables. Por ejemplo, las versiones 3.20.* son "
 "estables, pero las versiones 3.19.* son inestables. Las versiones 3.19.* se "
@@ -9912,9 +9962,9 @@ msgid ""
 msgstr ""
 "Una nueva microversión <em>estable</em> (por ejemplo 3.20.0 → 3.20.1) no "
 "añade nuevas características, sólo actualizaciones de traducciones y "
-"corrección de errores. Por otro lado, las microentregas <em>inestables</em> "
-"(por ejemplo 3.19.1 → 3.19.2) pueden añadir API, o cambiar o eliminar la API "
-"que se añadió en la microentrega anterior en esa serie menor."
+"corrección de errores. Por otro lado, las micropublicaciones <em>inestables</"
+"em> (por ejemplo 3.19.1 → 3.19.2) pueden añadir API, o cambiar o eliminar la "
+"API que se añadió en la micropublicación anterior en esa serie menor."
 
 #. (itstool) path: section/p
 #: C/versioning.page:166
@@ -9951,7 +10001,7 @@ msgid ""
 "not outdated (still equal to the previous release) during the development "
 "cycle."
 msgstr ""
-"La actualización de las versiones libtool durante el tiempo de entrega "
+"La actualización de las versiones libtool durante el tiempo de publicación "
 "significa que sólo se incrementan una vez para todos los cambios ABI de una "
 "entrega. Usar el incremento posterior a la publicación para las versiones "
 "del paquete significa que el número de versión del paquete no está "
@@ -9964,8 +10014,8 @@ msgid ""
 "The release process (based on the <link href=\"https://wiki.gnome.org/"
 "MaintainersCorner/Releasing\">GNOME release process</link>):"
 msgstr ""
-"El proceso de la entrega (basado en el <link href=\"https://wiki.gnome.org/"
-"MaintainersCorner/Releasing\">proceso de publicación de GNOME</link>):"
+"El proceso de la publicación (basado en el <link href=\"https://wiki.gnome."
+"org/MaintainersCorner/Releasing\">proceso de publicación de GNOME</link>):"
 
 #. (itstool) path: item/p
 #: C/versioning.page:195
@@ -10016,8 +10066,8 @@ msgid ""
 "(where ‘x.y.z’ is the package version number)"
 msgstr ""
 "Si <cmd>make distcheck</cmd> finaliza con «El [archivo] está listo para su "
-"distribución», ejecute <cmd>git commit -a -m «Versión de la entrega x.y.z»</"
-"cmd>"
+"distribución», ejecute <cmd>git commit -a -m «Versión de la publicación x.y."
+"z»</cmd>"
 
 #. (itstool) path: item/p
 #: C/versioning.page:228 C/versioning.page:263
@@ -10046,8 +10096,8 @@ msgid ""
 "Tag the release: <cmd>git tag -s x.y.z</cmd> (where ‘x.y.z’ is the package "
 "version number)"
 msgstr ""
-"Etiquete la entrega: <cmd>git tag -s x.y.z</cmd> (donde ‘x.y.z’ es el número "
-"de versión del paquete)"
+"Etiquete la publicación: <cmd>git tag -s x.y.z</cmd> (donde ‘x.y.z’ es el "
+"número de versión del paquete)"
 
 #. (itstool) path: item/p
 #: C/versioning.page:246
@@ -10064,8 +10114,8 @@ msgid ""
 "The release is now complete, and the post-release version increment can be "
 "done:"
 msgstr ""
-"Ahora la entrega está completa, y se puede hacer el incremento de versión "
-"posterior a la misma:"
+"Ahora la publicación está completa, y se puede hacer el incremento de "
+"versión posterior a la misma:"
 
 #. (itstool) path: item/p
 #: C/versioning.page:257
