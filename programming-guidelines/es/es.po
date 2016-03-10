@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2016-02-23 20:55+0000\n"
-"PO-Revision-Date: 2016-03-03 09:15+0100\n"
+"POT-Creation-Date: 2016-03-09 08:55+0000\n"
+"PO-Revision-Date: 2016-03-10 10:57+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "Language: es\n"
@@ -234,7 +234,7 @@ msgid ""
 "formats, and GSettings schemas. Any changes to these could require code "
 "using your library to change."
 msgstr ""
-"Otros ejemplos de APIs más inusuales son las ubicaciones del archivo de "
+"Otros ejemplos de API más inusuales son las ubicaciones del archivo de "
 "configuración y sus formatos, y esquemas GSettings. Cualquier cambio en "
 "estos podría requerir cambiar el código que usa su biblioteca."
 
@@ -259,6 +259,21 @@ msgid ""
 "runs against a daemon will continue to run against all future versions of "
 "that daemon with the same major version number."
 msgstr ""
+"La estabilidad de la API se refiere a un cierto nivel de garantía de un "
+"proyecto de que su API no cambiará en formas definidas en el futuro, o no "
+"cambiarán en absoluto. Generalmente, una API se considera «estable» si se "
+"compromete a la compatibilidad con versiones anteriores (definida más "
+"abajo); pero las API también podrían comprometerse a ser inestables o "
+"incluso compatibles hacia adelante. El propósito de las garantías de "
+"estabilidad de la API es permitir a la gente usar su proyecto desde su "
+"propio código sin preocuparse de actualizar constantemente su código para "
+"mantenerse actualizado con los cambios de la API. Normalmente la garantía de "
+"estabilidad de la API significa que el código que se compila contra una "
+"versión de una biblioteca funcionará sin problemas contra futuras versiones "
+"de esa biblioteca con el mismo número de versión principal — o de manera "
+"similar el código que funciona contra un demonio seguirá funcionando contra "
+"todas las futuras versiones de ese demonio con el mismo número de versión "
+"principal."
 
 #. (itstool) path: section/p
 #: C/api-stability.page:93
@@ -269,11 +284,18 @@ msgid ""
 "core functions could be left unstable and allowed to change wildly until the "
 "right design is found, at which point they could be marked as stable."
 msgstr ""
+"Es posible aplicar distintos niveles de estabilidad de API a los componentes "
+"dentro de un proyecto. Por ejemplo, las funciones del núcleo en una "
+"biblioteca podrían ser estables, y por lo tanto sus API dejarse sin cambios "
+"en el futuro; mientras las funciones más nuevas, menos relacionadas con el "
+"núcleo, podrían quedarse inestables y podrían cambiar incontroladamente "
+"hasta que se encuentra el diseño adecuado, momento en el que se podrían "
+"marcar como estables."
 
 #. (itstool) path: section/p
 #: C/api-stability.page:102
 msgid "Several types of stability commonly considered:"
-msgstr ""
+msgstr "Varios tipos de estabilidad comúnmente considerados:"
 
 #. (itstool) path: item/title
 #: C/api-stability.page:107
@@ -297,6 +319,9 @@ msgid ""
 "continue running against the modified API are allowed (for example, "
 "functions cannot be removed)."
 msgstr ""
+"Solo se permiten los cambios que permiten al código compilado contra la API "
+"no modificada continuar ejecutándose contra la API modificada (por ejemplo, "
+"no se pueden eliminar funciones)."
 
 #. (itstool) path: item/title
 #: C/api-stability.page:119
@@ -310,6 +335,9 @@ msgid ""
 "against the unmodified API are allowed (for example, functions cannot be "
 "added)."
 msgstr ""
+"Solo se permiten los cambios que permiten al código compilado contra la API "
+"modificada continuar ejecutándose contra la API no modificada (por ejemplo, "
+"no se pueden añadir funciones)."
 
 #. (itstool) path: item/title
 #: C/api-stability.page:127
@@ -319,7 +347,7 @@ msgstr "Totalmente estable"
 #. (itstool) path: item/p
 #: C/api-stability.page:128
 msgid "No changes are allowed to the API, only to the implementation."
-msgstr ""
+msgstr "No se permiten cambios en la API, sólo en la implementación."
 
 #. (itstool) path: section/p
 #: C/api-stability.page:132
@@ -328,6 +356,10 @@ msgid ""
 "is ‘stable’. Very few projects commit to total stability because it would "
 "prevent almost all further development of the project."
 msgstr ""
+"Normalmente, los proyectos se comprometen a la compatibilidad hacia atrás "
+"cuando dicen que una API es «estable». Muy pocos proyectos se comprometen a "
+"una estabilidad total porque eso frenaría casi todo desarrollo posterior del "
+"proyecto."
 
 #. (itstool) path: section/title
 #. (itstool) path: page/title
@@ -366,6 +398,10 @@ msgid ""
 "freedesktop.org/doc/dbus-api-design.html#api-versioning\">documentation on D-"
 "Bus API versioning</link> for details."
 msgstr ""
+"El versionado de las API es tan importante para las API D-Bus y esquemas "
+"GSettings (si es probable que cambien) como para las API C. Vea la <link "
+"href=\"http://dbus.freedesktop.org/doc/dbus-api-design.html#api-versioning"
+"\">documentación sobre versionado de la API D-Bus</link> para más detalles."
 
 #. (itstool) path: section/p
 #: C/api-stability.page:169
@@ -423,7 +459,7 @@ msgstr "El equipo de GTK+"
 #. (itstool) path: info/desc
 #: C/c-coding-style.page:20
 msgid "Our guidelines for C code in GNOME"
-msgstr ""
+msgstr "Nuestras directrices para el código C en GNOME"
 
 #. (itstool) path: page/title
 #: C/c-coding-style.page:23
@@ -437,6 +473,10 @@ msgid ""
 "While coding style is very much a matter of taste, in GNOME we favor a "
 "coding style that promotes consistency, readability, and maintainability."
 msgstr ""
+"Este documento presenta el estilo de codificación preferido para los "
+"programas en C en GNOME. Mientras que el estilo de codificación es en gran "
+"medida una cuestión de gustos, en GNOME estamos a favor de un estilo de "
+"codificación que promueve la consistencia, legibilidad y mantenibilidad."
 
 #. (itstool) path: page/p
 #: C/c-coding-style.page:32
