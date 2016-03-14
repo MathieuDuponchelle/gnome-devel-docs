@@ -1,0 +1,5268 @@
+# Korean translation for gnome-devel-docs.
+# This file is distributed under the same license as the gnome-devel-docs package.
+# Seong-ho Cho <shcho@gnome.org>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-devel-docs.accesibilty-devel-guide\n"
+"POT-Creation-Date: 2016-03-10 20:55+0000\n"
+"PO-Revision-Date: 2016-03-11 13:32+0900\n"
+"Last-Translator: Seong-ho Cho <shcho@gnome.org>\n"
+"Language-Team: GNOME Korea <gnome-kr@googlegroups.com>\n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Gtranslator 2.91.7\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr "조성호 <shcho@gnome.org>, 2016."
+
+#. (itstool) path: imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:72
+msgctxt "_"
+msgid ""
+"external ref='figures/GNOME_desktop_Accessibility.png' "
+"md5='76a706b0a4d4e184d7951fce04ccec59'"
+msgstr ""
+
+#. (itstool) path: imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:136
+msgctxt "_"
+msgid "external ref='figures/gaa.jpg' md5='32d75c79ddd3b2f4ccad189ea67dbfaa'"
+msgstr ""
+
+#. (itstool) path: imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:1012
+msgctxt "_"
+msgid ""
+"external ref='figures/nodrop.png' md5='16b315fbe17b719998a057ba560c22e2'"
+msgstr ""
+
+#. (itstool) path: imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:1115
+msgctxt "_"
+msgid ""
+"external ref='figures/label_above.png' md5='5b7a6f236b676802e62807b8d63bbf10'"
+msgstr ""
+
+#. (itstool) path: imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:1126
+msgctxt "_"
+msgid ""
+"external ref='figures/label_below.png' md5='1ab1facdd4ace09c84b415eb0e581891'"
+msgstr ""
+
+#. (itstool) path: imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:1137
+msgctxt "_"
+msgid ""
+"external ref='figures/label_right.png' md5='c0d4328a48ec9a6889b4b1ec8e5548d6'"
+msgstr ""
+
+#. (itstool) path: imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:1148
+msgctxt "_"
+msgid ""
+"external ref='figures/label_left.png' md5='186cae86a97426a6c9034d0c2091b5d9'"
+msgstr ""
+
+#. (itstool) path: imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:1206
+msgctxt "_"
+msgid ""
+"external ref='figures/color_only.png' md5='d4f964fc9b557eda6f4bfab0793d7964'"
+msgstr ""
+
+#. (itstool) path: imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:1221
+msgctxt "_"
+msgid ""
+"external ref='figures/color_and_arrows.png' "
+"md5='a9a1eb5f1f902f388e717f4ef7882c22'"
+msgstr ""
+
+#. (itstool) path: imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:1352
+msgctxt "_"
+msgid ""
+"external ref='figures/badfocus1.png' md5='48c81ba9110bcbbec7e2664658a8a4ef'"
+msgstr ""
+
+#. (itstool) path: imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:1367
+msgctxt "_"
+msgid ""
+"external ref='figures/badfocus2.png' md5='5ced4392a665b97154f0b7b220d36351'"
+msgstr ""
+
+#. (itstool) path: imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:1382
+msgctxt "_"
+msgid ""
+"external ref='figures/goodfocus.png' md5='5f8c020c3d8382bfd3e70448591ec0f4'"
+msgstr ""
+
+#. (itstool) path: imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:1406
+msgctxt "_"
+msgid ""
+"external ref='figures/badfocus3.png' md5='bb0f9a1309bb05c0d9e9cd719625c8a0'"
+msgstr ""
+
+#. (itstool) path: imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:1421
+msgctxt "_"
+msgid ""
+"external ref='figures/goodfocus3.png' md5='f95f59dcfb337d2f811ac04025141ae2'"
+msgstr ""
+
+#. (itstool) path: imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:1436
+msgctxt "_"
+msgid ""
+"external ref='figures/goodfocus2.png' md5='86b2a96f4142edb59a3ef22f433a4504'"
+msgstr ""
+
+#. (itstool) path: imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:786
+msgctxt "_"
+msgid ""
+"external ref='figures/at-arch.png' md5='e429cadb2e11d42d7437e999de175c3f'"
+msgstr ""
+
+#. (itstool) path: book/title
+#: C/index.docbook:12
+msgid "GNOME Accessibility Developers Guide"
+msgstr "그놈 접근성 개발자 안내서"
+
+#. (itstool) path: abstract/para
+#: C/index.docbook:15
+msgid ""
+"The GNOME Accessibility Guide is for developers who want to ensure their "
+"programming efforts are accessible to the widest audience of users. This "
+"guide also covers many of the Section 508 requirements."
+msgstr ""
+"그놈 접근성 안내서는 다양한 사용자가 프로그램을 사용할 수 있도록 프로그래밍"
+"에 노력을 기울이고자 하는 개발자용 문서입니다. 이 안내서는 508가지 요구사항"
+"을 다루는 수많은 섹션으로 구성했습니다."
+
+#. (itstool) path: bookinfo/copyright
+#: C/index.docbook:19
+msgid "<year>2008</year> <holder>Vincent Alexander</holder>"
+msgstr "<year>2008</year> <holder>Vincent Alexander</holder>"
+
+#. (itstool) path: bookinfo/copyright
+#: C/index.docbook:23
+msgid ""
+"<year>2001, 2002</year> <holder>Calum Benson, Brian Cameron, Bill Haneman, "
+"Padraig O'Briain, Sharon Snider</holder>"
+msgstr ""
+"<year>2001, 2002</year> <holder>Calum Benson, Brian Cameron, Bill Haneman, "
+"Padraig O'Briain, Sharon Snider</holder>"
+
+#. (itstool) path: publisher/publishername
+#. (itstool) path: revdescription/para
+#: C/index.docbook:28 C/index.docbook:85 C/index.docbook:88 C/index.docbook:99
+#: C/index.docbook:102
+msgid "GNOME Documentation Project"
+msgstr "그놈 문서 프로젝트"
+
+#. (itstool) path: legalnotice/para
+#: C/index.docbook:2
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
+"later version published by the Free Software Foundation with no Invariant "
+"Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy "
+"of the GFDL <ulink type=\"help\" url=\"ghelp:fdl\"> here</ulink> or in the "
+"file COPYING-DOCS distributed with this manual."
+msgstr ""
+"전면 표지와 후면 표지, 그리고 바뀌지 않는 섹션을 제외한 이 문서의 복제, 배"
+"포, 수정은 자유 소프트웨어 재단이 발표한 1.1 버전 이후의 GNU 자유 문서 라이선"
+"스(GFDL) 조항에 따라 허용합니다. GFDL의 사본은 이 <ulink type=\"help\" url="
+"\"ghelp:fdl\">링크</ulink>, 또는 설명서와 배포하는 COPYING-DOCS 파일에서 찾"
+"을 수 있습니다."
+
+#. (itstool) path: legalnotice/para
+#: C/index.docbook:6
+msgid ""
+"This manual is part of a collection of GNOME manuals distributed under the "
+"GFDL. If you want to distribute this manual separately from the collection, "
+"you can do so by adding a copy of the license to the manual, as described in "
+"Section 6 of the license."
+msgstr ""
+"이 설명서는 GFDL에 따라 배포하는 그놈 설명서 모음의 일부입니다. 모음과는 별개"
+"로 이 설명서를 배포하고 싶다면, 라이선스 6장에 명시한대로 설명서에 라이선스 "
+"사본을 추가할 경우 가능합니다."
+
+#. (itstool) path: legalnotice/para
+#: C/index.docbook:10
+msgid ""
+"Many of the names used by companies to distinguish their products and "
+"services are claimed as trademarks. Where those names appear in any GNOME "
+"documentation, and the members of the GNOME Documentation Project are made "
+"aware of those trademarks, then the names are in capital letters or initial "
+"capital letters."
+msgstr ""
+"회사의 제품 및 서비스를 구분할 때 사용하는 여러 이름은 등록상표 입니다. 어떤 "
+"그놈 문서에 나타나는 등록상표 명칭이나 그놈 문서 프로젝트의 구성원의 이름이 "
+"있는 곳에는 대문자로 표기하거나 대문자 약자로 표기합니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:17
+msgid ""
+"DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, "
+"EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT "
+"THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS FREE OF DEFECTS "
+"MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE "
+"RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE OF THE DOCUMENT OR "
+"MODIFIED VERSION OF THE DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR "
+"MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL "
+"WRITER, AUTHOR OR ANY CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY "
+"SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN "
+"ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION "
+"OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
+msgstr ""
+"DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, "
+"EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT "
+"THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS FREE OF DEFECTS "
+"MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE "
+"RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE OF THE DOCUMENT OR "
+"MODIFIED VERSION OF THE DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR "
+"MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL "
+"WRITER, AUTHOR OR ANY CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY "
+"SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN "
+"ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION "
+"OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:23
+msgid ""
+"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING "
+"NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
+"CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE "
+"DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON "
+"FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF "
+"ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, "
+"WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES "
+"OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
+"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE "
+"POSSIBILITY OF SUCH DAMAGES."
+msgstr ""
+"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING "
+"NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
+"CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE "
+"DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON "
+"FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF "
+"ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, "
+"WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES "
+"OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
+"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE "
+"POSSIBILITY OF SUCH DAMAGES."
+
+#. (itstool) path: legalnotice/para
+#: C/index.docbook:13
+msgid ""
+"DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS "
+"OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
+"<_:orderedlist-1/>"
+msgstr ""
+"DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS "
+"OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
+"<_:orderedlist-1/>"
+
+#. (itstool) path: authorgroup/author
+#: C/index.docbook:34
+msgid ""
+"<firstname>Vincent</firstname> <surname>Alexander</surname> <affiliation> "
+"<orgname>GNOME Documentation Project</orgname> </affiliation>"
+msgstr ""
+"<firstname>Vincent</firstname> <surname>Alexander</surname> <affiliation> "
+"<orgname>그놈 문서 프로젝트</orgname> </affiliation>"
+
+#. (itstool) path: authorgroup/author
+#: C/index.docbook:41
+msgid ""
+"<firstname>Calum</firstname> <surname>Benson</surname> <affiliation> "
+"<orgname>GNOME Documentation Project</orgname> </affiliation>"
+msgstr ""
+"<firstname>Calum</firstname> <surname>Benson</surname> <affiliation> "
+"<orgname>그놈 문서 프로젝트</orgname> </affiliation>"
+
+#. (itstool) path: authorgroup/author
+#: C/index.docbook:48
+msgid ""
+"<firstname>Brian</firstname> <surname>Cameron</surname> <affiliation> "
+"<orgname>GNOME Documentation Project</orgname> </affiliation>"
+msgstr ""
+"<firstname>Brian</firstname> <surname>Cameron</surname> <affiliation> "
+"<orgname>그놈 문서 프로젝트</orgname> </affiliation>"
+
+#. (itstool) path: authorgroup/author
+#: C/index.docbook:55
+msgid ""
+"<firstname>Bill</firstname> <surname>Haneman</surname> <affiliation> "
+"<orgname>GNOME Documentation Project</orgname> </affiliation>"
+msgstr ""
+"<firstname>Bill</firstname> <surname>Haneman</surname> <affiliation> "
+"<orgname>그놈 문서 프로젝트</orgname> </affiliation>"
+
+#. (itstool) path: authorgroup/author
+#: C/index.docbook:62
+msgid ""
+"<firstname>Padraig</firstname> <surname>O'Briain</surname> <affiliation> "
+"<orgname>GNOME Documentation Project</orgname> </affiliation>"
+msgstr ""
+"<firstname>Padraig</firstname> <surname>O'Briain</surname> <affiliation> "
+"<orgname>그놈 문서 프로젝트</orgname> </affiliation>"
+
+#. (itstool) path: authorgroup/author
+#: C/index.docbook:69
+msgid ""
+"<firstname>Sharon</firstname> <surname>Snider</surname> <affiliation> "
+"<orgname>GNOME Documentation Project</orgname> </affiliation>"
+msgstr ""
+"<firstname>Sharon</firstname> <surname>Snider</surname> <affiliation> "
+"<orgname>그놈 문서 프로젝트</orgname> </affiliation>"
+
+#. (itstool) path: revhistory/revision
+#: C/index.docbook:78 C/index.docbook:93
+msgid ""
+"<revnumber> GNOME 2.24 Accessibility Developers Guide V2.24.0 </revnumber> "
+"<date>September 2008</date> <_:revdescription-1/>"
+msgstr ""
+"<revnumber> 그놈 2.24 접근성 개발자 안내서 V2.24.0 </revnumber> <date>2008년 "
+"9월</date> <_:revdescription-1/>"
+
+#. (itstool) path: bookinfo/releaseinfo
+#: C/index.docbook:108
+msgid "This manual describes version 2.24 of the GNOME Desktop."
+msgstr "이 설명서는 그놈 데스크톱 버전 2.24를 설명합니다."
+
+#. (itstool) path: legalnotice/title
+#: C/index.docbook:112
+msgid "Feedback"
+msgstr "피드백"
+
+#. (itstool) path: legalnotice/para
+#: C/index.docbook:113
+msgid ""
+"To report a bug or make a suggestion regarding the GNOME Desktop or this "
+"manual, follow the directions in the <ulink type=\"help\" url=\"ghelp:user-"
+"guide?feedback\">GNOME Feedback Page</ulink>."
+msgstr ""
+"그놈 데스크톱과 이 설명서에 대한 버그 보고, 제안이 있다면, <ulink type=\"help"
+"\" url=\"ghelp:user-guide?feedback\">GNOME Feedback 페이지</ulink>를 참고하십"
+"시오."
+
+#. (itstool) path: chapter/title
+#: C/index.docbook:2
+msgid "What is Accessibility?"
+msgstr "접근성이란 무엇입니까?"
+
+#. (itstool) path: chapter/para
+#: C/index.docbook:3
+msgid ""
+"Accessibility means helping people with disabilities to participate in "
+"substantial life activities. That includes work, and the use of services, "
+"products, and information. GNOME includes libraries and a support framework "
+"that allow people with disabilities to utilize all of the functionality of "
+"the GNOME user environment."
+msgstr ""
+"접근성이란 장애우가 실질적인 활동을 할 수 있게 돕는 수단을 말합니다.서비스, "
+"제품, 정보 활용, 업무 활동이 해당합니다. 그놈은 장애우가 그놈 사용자 환경의 "
+"모든 기능을 활용할 수 있도록 라이브러리와 지원 프레임워크를 제공합니다."
+
+#. (itstool) path: chapter/para
+#: C/index.docbook:6
+msgid ""
+"In conjunction with assistive technologies if necessary - voice interfaces, "
+"screen readers, alternate input devices, and so on - people with permanent "
+"or temporary disabilities can therefore use the GNOME desktop and "
+"applications. Assistive technologies are also useful for people using "
+"computers outside their home or office. For example, if you're stuck in "
+"traffic, you might use voice input and output to check your email."
+msgstr ""
+"필요한 경우 보조 기술(음성 인터페이스, 스크린 리더, 입력 장치 등)을 활용하여 "
+"일시/영구적인 장애를 지닌 사람이 그놈 데스크톱을 활용할 수 있습니다. 보조 기"
+"술은 야외 또는 직장에서 컴퓨터를 활용하는 사용자에게도 쓸만합니다. 예를 들"
+"어, 교통 체증 상황인 경우 음성 입출력을 활용하여 전자메일을 확인할 수 있습니"
+"다."
+
+#. (itstool) path: chapter/para
+#: C/index.docbook:9
+msgid ""
+"Assistive technologies receive information from applications via the "
+"Accessibility Toolkit (ATK) API, which you can find in the atk module in the "
+"GNOME repositories. Because support for the accessibility API is built into "
+"the GNOME widgets, your GNOME program should function reasonably well with "
+"assistive technologies with no extra work on your part. For example, "
+"assistive technologies can automatically read the widget labels that you "
+"would normally set in your program anyway (e.g. with GTK function calls such "
+"as <function>gtk_label_set_text()</function> or "
+"<function>gtk_button_new_with_label()</function>). They can also find out if "
+"there is any tooltip text associated with a widget, and use that to describe "
+"the widget to the user."
+msgstr ""
+"보조 기술은 그놈 저장소의 ATK 모듈에서 찾을 수 있는 접근성 도구 모음(ATK) API"
+"로 프로그램에서 정보를 받습니다. 그놈 위젯에 접근성 API 지원을 내장했기 때문"
+"에 그놈 프로그램은 별도의 작업 없이 보조 기술과 상당히 잘 동작해야합니다. 예"
+"를 들어, 보조 기술은 어쨌든 프로그램에(<function>gtk_label_set_text()</"
+"function> 함수 또는 <function>gtk_button_new_with_label()</function> 함수와 "
+"같은 GTK 함수 호출로)설정한 위젯 레이블을 자동으로 읽을 수 있습니다. 게다가 "
+"위젯과 관련한 풍선 도움말 텍스트가 있는지 찾아서 위젯의 기능을 사용자에게 설"
+"명할 때 활용합니다."
+
+#. (itstool) path: chapter/para
+#: C/index.docbook:12
+msgid ""
+"With a little extra effort, however, you can make your program function even "
+"more smoothly with assistive technologies. Besides helping individual users, "
+"this will also make your product more attractive to government and education "
+"markets, many of which now require their applications to be accessible by "
+"law."
+msgstr ""
+"하지만 약간의 노력을 보태면, 보조 기술과 좀 더 잘 어우러진 프로그램 기능을 만"
+"들 수 있습니다. 개인 사용자를 돕는데 앞서, 이 안내서는 관공서, 교육 시장에 매"
+"우 매력적인 제품을 만들 수 있으며, 법적으로 접근성을 요구하는 수많은 프로그램"
+"도 만들 수 있습니다."
+
+#. (itstool) path: section/title
+#: C/index.docbook:17
+msgid "Types of Disability"
+msgstr "장애의 유형"
+
+#. (itstool) path: section/para
+#: C/index.docbook:18
+msgid ""
+"In the US alone, there are an estimated 30,000,000 people whose ability to "
+"use computers may be compromised by inaccessible design. Globally, around 8% "
+"of the people who use the worldwide web have some sort of disability. "
+"Disabilities fall into one of these categories:"
+msgstr ""
+"미국만 보더라도, 약 3천만명 정도의 사람이 접근 불가능한 설계로 인하여 컴퓨터"
+"를 충분히 사용하지 못하고 있으며, 월드 와이드 웹을 사용하는 전세계 8%의 사람"
+"이 유사한 어려움을 겪고 있습니다. 장애 유형은 다음과 같습니다:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:23
+msgid ""
+"<emphasis>Visual Impairments</emphasis> - these can range from low-vision "
+"(including dim or hazy vision, extreme far- or near-sightedness, color-"
+"blindness, and tunnel vision, amongst others) to complete blindness. Poor "
+"choice of text size and color, and tasks that involve good hand-eye "
+"coordination (such as moving the mouse) can cause problems for these users."
+msgstr ""
+"<emphasis>시각 장애</emphasis> - 시작 장에에는 저시력(근시, 난시, 초고도 근/"
+"원시, 색맹, 시야 협착 등)부터 완전한 맹인 단계까지가 여기에 해당합니다. 글자 "
+"크기 및 색상 선택, 손의 움직임 및 시선의 바람직한 연동성을 요구(마우스 커서 "
+"이동)하는 작업은 시각 장애우에게 불편을 초래합니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:30
+msgid ""
+"<emphasis>Movement Impairments</emphasis> - users with poor muscle control "
+"or weaknesses can find it hard to use a standard keyboard or mouse. For "
+"example, they may be unable to hold down two keys simultaneously, or they "
+"may be more likely to strike keys accidentally."
+msgstr ""
+"<emphasis>운동 장애</emphasis> - 근육 제어에 이상이 있거나 힘이 약한 사용자"
+"는 표준 키보드나 마우스를 사용하는 것이 어렵습니다. 예를 들어, 두 키를 동시"
+"에 누를 수 없거나 임의의 키를 실수로 칠 수도 있습니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:35
+msgid ""
+"<emphasis>Hearing Impairments</emphasis> - these can range from being able "
+"to hear some sounds but not distinguish spoken words, to profound deafness. "
+"Applications that convey important information by sound alone will cause "
+"problems for these users."
+msgstr ""
+"<emphasis>청각 장애</emphasis> - 청각 장애는 일부 소리는 들을 수는 있지만 들"
+"은 단어나 문장을 구별하지 못하는 증상부터 심각한 난청 증상까지 포함합니다. 중"
+"요한 정보를 소리로만 다루는 프로그램은 이런 상요자에게 불편을 초래합니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:40
+msgid ""
+"<emphasis>Cognitive and Language Impairments</emphasis> - these can range "
+"from dyslexia to difficulties remembering things, solving problems or "
+"comprehending and using spoken or written language. Complex or inconsistent "
+"displays, or poor choice of words can make using computers difficult for "
+"these users."
+msgstr ""
+"<emphasis>인지 및 언어 장애</emphasis> - 인지 및 언어 장애에는 난독증, 기억, "
+"문제 해결과 이해, 언어 쓰거/말하기에 지장있는 경우가 이에 해당합니다. 복잡하"
+"거나 일관성이 없는 표시, 부적절한 단어의 선택으로 이러한 사용자가 컴퓨터 사용"
+"에 어려움을 겪습니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:45
+msgid ""
+"<emphasis>Seizure disorders</emphasis> - certain light or sound patterns can "
+"cause epileptic seizures in some susceptible users."
+msgstr ""
+"<emphasis>발작 장애</emphasis> - 특정한 빛이나 반복적인 음성은 일부 민감한 사"
+"용자들에게 발작 증세를 일으킵니다."
+
+#. (itstool) path: section/title
+#: C/index.docbook:53
+msgid "How Accessibility Works in GNOME"
+msgstr "그놈의 접근성 동작 방식"
+
+#. (itstool) path: section/para
+#: C/index.docbook:54
+msgid ""
+"The Accessibility Toolkit (ATK) describes a set of interfaces that need to "
+"be implemented by GUI components to make them accessible. The interfaces are "
+"toolkit-independent - implementations could be written for any widget set, "
+"such as GTK, Motif or Qt."
+msgstr ""
+"접근성 도구 모음(ATK)은 GUI 구성 요소에 접근할 수 있도록 필요한 모든 인터페이"
+"스 구현체 모음을 기술했습니다. 인터페이스는 도구 모음과 무관합니다. 구현체는 "
+"GTK, Motif, Qt 등 다양한 위젯으로 작성할 수 있습니다."
+
+#. (itstool) path: section/para
+#: C/index.docbook:57
+msgid ""
+"The implementation for the GTK widgets is in a module called GAIL (GNOME "
+"Accessibility Implementation Library), which is dynamically loadable at "
+"runtime by a GTK application. Once loaded, those parts of your application "
+"that use standard GTK widgets will have a basic level of accessibility, "
+"without you having to modify your application at all. If GAIL is not loaded, "
+"GTK widgets will have a default accessibility implementation that "
+"essentially returns no information, though it nominally conforms to the ATK "
+"API. Applications which use Bonobo controls, particularly out-of-process "
+"ones, also load accessibility support code from module libgail-gnome. "
+"Whether or not applications on the GNOME desktop automatically load these "
+"accessibility support libraries depends on the value of a "
+"<application>gconf</application> key, \"/desktop/gnome/interface/"
+"accessibility\"; a boolean value of \"true\" enables support for assistive "
+"technologies and applications which call gnome_program_init will "
+"automatically load the appropriate accessibility libraries at runtime. "
+"\"Pure GTK+ applications\", e.g. those that use gtk+ but do not link to "
+"libgnome, rely on the value of the GTK_MODULES environment variable, which "
+"must be set to \"gail:atk-bridge\" in order to enable assistive technology "
+"support."
+msgstr ""
+"GTK 위젯 구현체는 GTK 프로그램에서 실행 시간에 동적으로 불러올 수 있는 "
+"GAIL(그놈 접근성 구현체 라이브러리) 모듈에 있습니다. 한 번 불러오고 나면, 프"
+"로그램에서 표준 GTK 위젯을 활용하는 부분프로그램을 전체적으로 수정하지 않아"
+"도 기본적인 수준의 접근성을 확보합니다. GAIL을 불러오지 않으면 GTK 위젯에서 "
+"ATK API와의 일치 여부에 대한 핵심 정보를 전혀 돌려주지 않는 기본 접근성 구현"
+"체를 보유합니다. 부분적으로 처리 영역을 벗어나는 보노보 제어 기술을 활용하는 "
+"프로그램은 libgail-gnome모듈에서 접근성 지원 코드를 불러옵니다. 그놈 데스크"
+"톱 프로그램이 \"/desktop/gnome/interface/accessibility\" <application>gconf</"
+"application> 키 값에 따라 자동으로 이들 접근성 지원 라이브러리를 불러오느냐"
+"에 따라 \"true\" 부울린 값을 설정하면 보조 기술 지원을 활성화하며, "
+"gnome_program_init을 호출하는 프로그램이 런타임에서 적절한 접근성 라이브러리"
+"를 자동으로 불러옵니다. gtk+를 활용하지만 libgnome과 연동하지 않은 \"순수 GTK"
+"+ 프로그램\"의 경우 보조 기술 지원을 활성화하려면 GTK_MODULES 환경 변수에 "
+"\"gail:atk-bridge\" 값을 설정해야합니다."
+
+#. (itstool) path: section/para
+#: C/index.docbook:63
+msgid ""
+"Most assistive technologies running on other desktops have historically "
+"found it necessary to maintain a complex off-screen model of the desktop "
+"applications, based on snooping of OS events, use of unsupported OS and "
+"application features and API, and other highly non-portable techniques. This "
+"has made assistive technology support somewhat \"brittle\" and highly OS- "
+"and application-specific, even application-version specific. In contrast, on "
+"the GNOME Desktop, all the information required by the ATs is provided by "
+"the running applications, via the GNOME Accessibility Framework, to a "
+"toolkit-independent Service Provider Interface (SPI). The SPI provides a "
+"means for UNIX-based ATs, such as screen readers and screen magnifiers, to "
+"obtain accessibility information from running applications via a consistent, "
+"stable API, and can eliminate the need for an off-screen model in many "
+"cases. Accessibility support for applications is \"built in\" to application "
+"toolkits via toolkit-appropriate APIs (for instance, ATK for most native C "
+"applications and the Java Accessibility API for Java apps), and exported to "
+"the common \"AT-SPI\" interface via the relevant \"bridge\" (see diagram "
+"below)."
+msgstr ""
+"다른 데스크톱에서 동작하는 대부분의 보조 기술은 역사적으로 데스크톱의 OS 이벤"
+"트 스누핑을 기반으로 동작하는 복잡한 오프스크린 모델, 비 지원 OS의 사용, 프로"
+"그램 기능 및 API, 기타 이식하기 난해한 기술의 관리가 필요함을 발견했습니다. "
+"이 때문에 OS 및 프로그램별, 프로그램의 버전별로 각자 따로따로 놀아나는 \"허접"
+"한\" 보조기술 지원을 만들어냈습니다. 반면에 그놈 데스크톱에서는 AT에서 필요"
+"한 모든 정보를 프로그램이 실행할 때 그놈 접근성 프레임워크에서, 도구 모음과"
+"는 별개의 서비스 제공 인터페이스로 제공했습니다. SPI는 유닉스 기반 AT에 화면 "
+"리더, 화면 돋보기같은 수단을 제공하여 일관되고 안정적인 API로 실행중인 프로그"
+"램에 접근성 정보를 얻어냈고, 대부분에 경우에 있어 오프스크린 모델의 필요성을 "
+"불식시킬 수 있었습니다. 프로그램에 대한 접근성 지원은 도구 모음에 적절한 API"
+"에서 프로그램 도구 모음에 \"내장\"했고(대부분의 네이티브 C 프로그램에는 ATK"
+"를, 자바 프로그램에는 Java 접근성 API를 활용), 관련 \"브릿지\"(다이어그램 참"
+"고)로 \"AT-SPI\" 일반 인터페이스를 내놓았습니다."
+
+#. (itstool) path: figure/title
+#: C/index.docbook:69
+msgid "GNOME Accessibility Architecture"
+msgstr "GNOME 접근성 구조"
+
+#. (itstool) path: figure/mediaobject
+#: C/index.docbook:70
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/GNOME_desktop_Accessibility.png\" "
+"format=\"PNG\"/> </imageobject> <textobject> <phrase>Diagram of GNOME's "
+"accessibility architecture</phrase> </textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/GNOME_desktop_Accessibility.png\" "
+"format=\"PNG\"/> </imageobject> <textobject> <phrase>GNOME의 접근성 구조도</"
+"phrase> </textobject>"
+
+#. (itstool) path: section/para
+#: C/index.docbook:79
+msgid ""
+"GNOME's built-in accessibility support means that applications created using "
+"stock GNOME widgets get support for assistive technologies \"for free\", "
+"provided the widgets are not used in unusual ways which conflict with this "
+"built-in support."
+msgstr ""
+"그놈의 내장 접근성 지원이란, 내장 지원 방식과 혼동되는 일반적이지 않은 수단"
+"은 활용하지 않도록 \"자유로운\" 보조 기술을 지원하는 보유 그놈 위젯을 활용하"
+"여 프로그램을 만듦을 의미합니다."
+
+#. (itstool) path: section/para
+#: C/index.docbook:82
+msgid ""
+"A gtk+/GNOME widget is accessible if its use follows the general "
+"accessibility guidelines elsewhere in this document, and it implements the "
+"ATK interfaces appropriate to its role in the user interface. ATK "
+"implementations are provided for the \"stock\" GNOME toolkit widgets (i.e. "
+"non-deprecated gtk+ and GNOME widgets), and in many cases new widgets which "
+"derive trivially from existing GTK+ or GNOME widgets will also inherit "
+"suitable accessibility support."
+msgstr ""
+"gtk+/GNOME 위젯은 이 문서 어디든 일반 접근성 지침을 따랐을 경우 접근할 수 있"
+"으며, 사용자 인터페이스의 역할에 맞는 ATK 인터페이스를 구현합니다. ATK 구현체"
+"는 그놈 도구 모음 위젯 \"보유물\"(오래되지 않은 gtk+ 및 그놈 위젯)로 제공하"
+"며, 대부분 기존 gtk+ 또는 그놈 위젯에서 오는 새 위젯도 적절한 접근성 지원을 "
+"물려받습니다."
+
+#. (itstool) path: section/para
+#: C/index.docbook:86
+msgid ""
+"Though GNOME's built-in accessibility support provides significant "
+"functionality without any accessibility-specific code changes on the part of "
+"the application, applications can often improve on the default descriptions "
+"provided for some of the widgets, and tailor them to that widget's specific "
+"purpose in your application, via straightforward calls to ATK methods in the "
+"application. For instance, in most cases applications should add or change "
+"the textual descriptions for these widgets with the appropriate ATK function "
+"call, so that an assistive technology can describe their purpose or state to "
+"the user. See <link linkend=\"gad-coding-guidelines\">Coding Guidelines for "
+"Supporting Accessibility</link> for more information."
+msgstr ""
+"그놈 내장 접근성 지원에서는 프로그램의 일부를 바꾸는 접근성 관련 코드 없이도 "
+"중요한 기능을 제공하지만, 보통 프로그램에서는 일부 위젯에 제공하는 기본 설명"
+"을 종종 개선할 수 있으며 프로그램에서 간단한 ATK 메서드 호출로 위젯의 개별 목"
+"적에 따라 다듬을 수 있습니다. 예를 들면, 대부분의 경우 프로그램에 적당한 ATK "
+"함수 호출로 위젯의 글자 설명을 추가하거나 바꿔서 보조 기술의 결과물이 사용자"
+"에게 기능의 목적이나 상태를 설명할 수 있어야합니다. 자세한 내용은 <link "
+"linkend=\"gad-coding-guidelines\">접근성 지원 코드 작성 지침서</link> 를 참고"
+"하십시오."
+
+#. (itstool) path: section/para
+#: C/index.docbook:89
+msgid ""
+"If your application uses custom widgets, you may have to do some work to "
+"expose those widgets' properties to assistive technologies. See <link "
+"linkend=\"gad-custom\">Making Custom Components Accessible</link> and <link "
+"linkend=\"gad-api-examples\">Examples that Use the Accessibility API</link> "
+"for more information."
+msgstr ""
+"프로그램에 개별 제작 위젯을 사용한다면, 해당 위젯의 속성을 보조 기술에 알려주"
+"어야 합니다. 추가 정보는 <link linkend=\"gad-custom\">개별 구성요소 접근성 처"
+"리</link> 및 <link linkend=\"gad-api-examples\">접근성 API 활용 예제</link>"
+"를 참고하십시오."
+
+#. (itstool) path: section/para
+#: C/index.docbook:92
+msgid ""
+"For additional, in-depth information regarding GTK/GTK+, see the <ulink url="
+"\"http://library.gnome.org/devel/gtk\">GTK+ Reference Manual</ulink>, <ulink "
+"url=\"http://live.gnome.org/GAP/AtkGuide/Gtk\">the GTK section of the ATK "
+"Guide</ulink>, the GNOME-hosted <ulink url=\"http://library.gnome.org/devel/"
+"gtk-tutorial/stable/\">GTK+ 2.0 Tutorial</ulink> and the official <ulink url="
+"\"http://library.gnome.org/devel/gtk-faq/stable/\">GTK+ FAQ</ulink>."
+msgstr ""
+"추가로, GTK/GTK+에 관련된 심층 정보는 <ulink url=\"http://library.gnome.org/"
+"devel/gtk\">GTK+ 참고 설명서</ulink>, <ulink url=\"http://live.gnome.org/GAP/"
+"AtkGuide/Gtk\">ATK 안내서의 GTK 섹션</ulink>, GNOME에서 제공하는 <ulink url="
+"\"http://library.gnome.org/devel/gtk-tutorial/stable/\">GTK+ 2.0 활용 지침서"
+"</ulink>, 공식 문서인 <ulink url=\"http://library.gnome.org/devel/gtk-faq/"
+"stable/\">GTK+ FAQ</ulink>을 참고하십시오."
+
+#. (itstool) path: section/title
+#: C/index.docbook:98
+msgid "Developer Quick Start"
+msgstr "개발자 간편 시작"
+
+#. (itstool) path: section/para
+#: C/index.docbook:99
+msgid "Here are some common starting points:"
+msgstr "시작할 때 몇가지 확인해볼 사항이 있습니다:"
+
+#. (itstool) path: section/title
+#: C/index.docbook:104
+msgid "How do I check to see if my application is accessible or not?"
+msgstr "프로그램에 접근성이 있는지 어떻게 확인합니까?"
+
+#. (itstool) path: section/para
+#: C/index.docbook:105
+msgid ""
+"To start right in, see <link linkend=\"gad-overview\">Making a GNOME "
+"Application Accessible - Overview</link>. For a pre-coding perspective, see "
+"<link linkend=\"gad-ui-guidelines\">User Interface Guidelines for Supporting "
+"Accessibility</link> or <link linkend=\"gad-coding-guidelines\">Coding "
+"Guidelines for Supporting Accessibility</link>. For a checklist of post-"
+"design test items, see <link linkend=\"gad-checklist\">User Interface "
+"Checklist</link>."
+msgstr ""
+"시작하기에 앞서, <link linkend=\"gad-overview\">GNOME 프로그램 접근성 처리 - "
+"개요</link>를 참고하십시오. 코드 작성에 앞서 <link linkend=\"gad-ui-"
+"guidelines\">접근성 지원 사용자 인터페이스 지침서</link>, <link linkend="
+"\"gad-coding-guidelines\">접근성 지원 코드 작성 지침서</link>를 참고하십시"
+"오. 설계 후 시험 항목에 대한 확인 목록을 참고하려면 <link linkend=\"gad-"
+"checklist\">사용자 인터페이스 확인 목록</link>을 참고하십시오."
+
+#. (itstool) path: section/title
+#: C/index.docbook:111
+msgid "What are the common pitfalls?"
+msgstr "공통적인 함정에는 무엇이 있습니까?"
+
+#. (itstool) path: section/para
+#: C/index.docbook:112
+msgid ""
+"The <link linkend=\"gad-checklist\">User Interface Checklist</link> covers "
+"all the areas that sometimes get overlooked in the design stage."
+msgstr ""
+"<link linkend=\"gad-checklist\">사용자 인터페이스 확인 목록</link>에는 설계 "
+"단계에서 가끔씩 살펴볼 광범위한 분야를 다룹니다."
+
+#. (itstool) path: section/title
+#: C/index.docbook:118
+msgid "How do I do common ATK things?"
+msgstr "공통 ATK로 무얼 할 수 있습니까?"
+
+#. (itstool) path: section/para
+#: C/index.docbook:119
+msgid ""
+"An abbreviated listing of common ATK calls can be found <link linkend=\"gad-"
+"api\">here</link>."
+msgstr ""
+"공통 ATK 호출 구성 요소의 약어 목록은 <link linkend=\"gad-api\">여기</link>"
+"에 있습니다."
+
+#. (itstool) path: section/title
+#: C/index.docbook:125
+msgid "How do I do more complex ATK things?"
+msgstr "좀 더 복잡한 ATK로 무얼 할 수 있습니까?"
+
+#. (itstool) path: section/para
+#: C/index.docbook:126
+msgid ""
+"See <link linkend=\"gad-custom\">Making Custom Components Accessible</link> "
+"and <link linkend=\"gad-api-examples\">Examples that Use the Accessibility "
+"API</link> for more information."
+msgstr ""
+"추가 정보는 <link linkend=\"gad-custom\">개별 요소 접근성 처리</link> 및 "
+"<link linkend=\"gad-api-examples\">접근성 API 활용 예제</link> 를 살펴보십시"
+"오."
+
+#. (itstool) path: section/title
+#: C/index.docbook:132
+msgid "Introducing ATK, AT-SPI, GAIL and GTK+"
+msgstr "ATK, AT-SPI, GAIL, GTK+ 소개"
+
+#. (itstool) path: screenshot/mediaobject
+#: C/index.docbook:134
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/gaa.jpg\"/> </imageobject> "
+"<textobject> <phrase> GNOME Accessibility Architecture </phrase> </"
+"textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/gaa.jpg\"/> </imageobject> "
+"<textobject> <phrase> 그놈 접근성 구조 </phrase> </textobject>"
+
+#. (itstool) path: section/para
+#: C/index.docbook:145
+msgid ""
+"ATK is the toolkit that GNOME uses to enable accessibility for users needing "
+"extra support to make the most of their computers. ATK is used by tools such "
+"as screen readers, magnifiers, and input devices to permit a rich "
+"interaction with the desktop through alternative means. See <ulink url="
+"\"http://java-gnome.sourceforge.net/4.0/doc/api/org/gnome/atk/package-"
+"summary.html\">the ATK SourceForge Project</ulink> and <ulink url=\"http://"
+"library.gnome.org/devel/atk/stable/\">the ATK Library</ulink> for more "
+"information."
+msgstr ""
+"ATK는 추가 지원이 필요한 사용자의 컴퓨터에 접근성 추가 지원을 제공하는 그놈 "
+"도구 모음입니다. ATK는 스크린 리더, 돋보기, 대체 수단을 통해 데스크톱과 다양"
+"한 방식으로 상호 반응하는 입력 장치 같은 도구에서 활용합니다. 자세한 정보는 "
+"<ulink url=\"http://java-gnome.sourceforge.net/4.0/doc/api/org/gnome/atk/"
+"package-summary.html\">ATK 소스포지 프로젝트</ulink> 및 <ulink url=\"http://"
+"library.gnome.org/devel/atk/stable/\">ATK 라이브러리</ulink>를 참고하십시오."
+
+#. (itstool) path: section/para
+#: C/index.docbook:148
+msgid ""
+"AT-SPI is the primary service interface by which assistive technologies "
+"query and receive notifications from running applications. The full API can "
+"be explored <ulink url=\"http://library.gnome.org/devel/at-spi-cspi/stable/"
+"\">here</ulink>. Additional material is available from <ulink url=\"http://"
+"accessibility.kde.org/developer/atk.php#coreclasses\">the KDE Accessibility "
+"Development Community</ulink>."
+msgstr ""
+"AT-SPI는 프로그램을 실행하면서 요청하고 알림을 받는 보조 기술의 근본 서비스 "
+"인터페이스입니다. 완전한 API는 <ulink url=\"http://library.gnome.org/devel/"
+"at-spi-cspi/stable/\">이 곳</ulink>에서 찾아볼 수 있습니다. 추가 자료는 "
+"<ulink url=\"http://accessibility.kde.org/developer/atk.php#coreclasses"
+"\">KDE 접근성 개발 커뮤니티</ulink>에 있습니다."
+
+#. (itstool) path: section/para
+#: C/index.docbook:151
+msgid ""
+"GAIL (GNOME Accessibility Implementation Library) is an implementation of "
+"the accessibility interfaces defined by ATK. GTK is a toolkit which is "
+"already mapped to ATK by the GAIL module. License, download and other "
+"information can be found <ulink url=\"http://www.t2-project.org/packages/"
+"gail.html\">here</ulink>. The <ulink url=\"ftp://ftp.gnome.org/pub/GNOME/"
+"sources/gail/\">GAIL source code</ulink> also serves as an excellent "
+"tutorial for advanced ATK usage. In addition, you may be interested in the "
+"<ulink url=\"http://library.gnome.org/devel/gail-libgail-util/stable/\">GAIL "
+"Reference Manual</ulink>."
+msgstr ""
+"GAIL(그놈 접근성 구현 라이브러리)은 ATK에서 정의한 접근성 인터페이스의 구현체"
+"입니다. GTK는 GAIL 모듈에서 ATK로 연동한 도구 모음입니다. 라이선스, 다운로드 "
+"구성 요소, 기타 정보는 <ulink url=\"http://www.t2-project.org/packages/gail."
+"html\">여기</ulink>에 있습니다. <ulink url=\"ftp://ftp.gnome.org/pub/GNOME/"
+"sources/gail/\">GAIL 소스 코드</ulink>도 고급 ATK 사용법과 함께 최고의 활용 "
+"지침서로 제공합니다. 또한 이 안내서를 보는 여러분께서 아마도 <ulink url="
+"\"http://library.gnome.org/devel/gail-libgail-util/stable/\">GAIL 참고 설명서"
+"</ulink>에 관심이 있을지도 모르겠습니다."
+
+#. (itstool) path: section/para
+#: C/index.docbook:154
+msgid ""
+"GTK+ is a library for creating graphical user interfaces. It works on many "
+"UNIX-like platforms, Windows, and on framebuffer devices. GTK+ is released "
+"under the GNU Library General Public License (GNU LGPL), which allows for "
+"flexible licensing of client applications. GTK+ has a C-based object-"
+"oriented architecture that allows for maximum flexibility. Bindings for "
+"other languages have been written, including C++, Objective-C, Guile/Scheme, "
+"Perl, Python, TOM, Ada95, Free Pascal, and Eiffel."
+msgstr ""
+"GTK+는 그래픽 사용자 인터페이스를 만드는 라이브러리입니다. 유닉스 계열 플랫"
+"폼, 윈도우, 프레임버퍼 장치에서 동작합니다. GTK+는 클라이언트 프로그램의 유연"
+"한 라이선싱을 허용하는 GNU 라이브러리 일반 공중 사용 허가서(GNU LGPL)의 계약"
+"에 따라 출시했습니다. GTK+는 유연성을 극대화하는 C 기반 객체지향 구조를 지니"
+"고 있습니다. C++, Objective-C, Guile/Scheme, Perl, Python, TOM, Ada95, 자유 "
+"파스칼, Eiffel 등 다른 언어에 대한 바인딩도 있습니다."
+
+#. (itstool) path: section/para
+#: C/index.docbook:157
+msgid ""
+"For additional, in-depth information regarding GTK/GTK+, see the <ulink url="
+"\"http://library.gnome.org/devel/gtk\">GTK+ Reference Manual</ulink>, <ulink "
+"url=\"http://wiki.gnome.org/Accessibility/Documentation/GNOME2/AtkGuide/Gtk"
+"\">the GTK section of the ATK Guide</ulink>, the GNOME-hosted <ulink url="
+"\"http://library.gnome.org/devel/gtk-tutorial/stable/\">GTK+ 2.0 Tutorial</"
+"ulink> and the official <ulink url=\"http://library.gnome.org/devel/gtk-faq/"
+"stable/\">GTK+ FAQ</ulink>."
+msgstr ""
+"또한 GTK/GTK+와 관련한 심층 정보는 <ulink url=\"http://library.gnome.org/"
+"devel/gtk\">GTK+ 참고 설명서</ulink>, <ulink url=\"http://wiki.gnome.org/"
+"Accessibility/Documentation/GNOME2/AtkGuide/Gtk\">ATK 안내서의 GTK 섹션</"
+"ulink>, 그놈에서 제공하는 <ulink url=\"http://library.gnome.org/devel/gtk-"
+"tutorial/stable/\">GTK+ 2.0 활용 지침서</ulink>, 공식 <ulink url=\"http://"
+"library.gnome.org/devel/gtk-faq/stable/\">GTK+ FAQ</ulink>를 참고하십시오."
+
+#. (itstool) path: section/title
+#: C/index.docbook:164
+msgid "Making a GNOME Application Accessible - Overview"
+msgstr "접근성 있는 GNOME 응용 프로그램 만들기 - 개요"
+
+#. (itstool) path: section/para
+#: C/index.docbook:165
+msgid ""
+"If your application only uses standard GTK widgets, you will probably have "
+"to do little or nothing to make your application (reasonably) accessible. "
+"But do watch out for objects in your GUI that don't have a textual "
+"description associated with them, such as graphical buttons or status "
+"indicators that don't have labels or tooltips."
+msgstr ""
+"프로그램에서 표준 GTK 위젯만 활용한다면, 프로그램에(확실히) 접근성 처리 과정"
+"에 별도로 해야 할 일이 없습니다. 다만, GUI 객체 중에 레이블이나 풍선 도움말"
+"이 없는 그래픽 단추, 상태 표시줄과 같은 구성 요소에 관련 있는 텍스트 설명이 "
+"없는 점에 주목하십시오."
+
+#. (itstool) path: section/para
+#: C/index.docbook:168
+msgid ""
+"You can probably also improve on the default descriptions provided for some "
+"of the widgets, and tailor them to that widget's specific purpose in your "
+"application. You should add or change the textual descriptions for these "
+"widgets with the appropriate ATK function call, so that an assistive "
+"technology can describe their purpose or state to the user. See <link "
+"linkend=\"gad-coding-guidelines\">Coding Guidelines for Supporting "
+"Accessibility</link> for more information."
+msgstr ""
+"일부 위젯에서 제공하는 기본 설명을 개선하고, 프로그램의 위젯별 목적에 맞춰 다"
+"듬을 수도 있습니다. 적당한 ATK 함수 호출로 위젯의 슬 설명을 추가하거나 바꾸"
+"어 보조 기술을 통해 사용자에게 위젯의 존재 목적과 상태를 설명할 수 있어야합니"
+"다. 자세한 내용은 <link linkend=\"gad-coding-guidelines\">접근성 지원 코드 작"
+"성 지침서</link>를 참고하십시오."
+
+#. (itstool) path: section/para
+#: C/index.docbook:171
+msgid ""
+"If your application uses custom widgets, you may have to do some work to "
+"expose those widgets' properties to assistive technologies. See <link "
+"linkend=\"gad-custom\">Making Custom Components Accessible</link> and <link "
+"linkend=\"gad-api-examples\">Examples that Use the Accessibility API</link> "
+"for more information. Additional detailed information can be found in Marc "
+"Mulcahy's 2002 GUADEC presentation, <ulink url=\"https://projects.gnome.org/"
+"accessibility/talks/GUAD3C/making-apps-accessible/start.html\">\"Making "
+"GNOME Applications Accessible\".</ulink>"
+msgstr ""
+"프로그램에 개별 제작 위젯을 사용한다면, 해당 위젯의 속성을 보조 기술에 알려주"
+"어야 합니다. 추가 정보는 <link linkend=\"gad-custom\">개별 구성요소 접근성 처"
+"리</link> 및 <link linkend=\"gad-api-examples\">접근성 API 활용 예제</link>"
+"를 참고하십시오. Marc Mulcahy의 2002년 GUADEC 프리젠테이션 <ulink url="
+"\"https://projects.gnome.org/accessibility/talks/GUAD3C/making-apps-"
+"accessible/start.html\">\"Making GNOME Applications Accessible\"</ulink> 에"
+"서 자세한 내용을 살펴보실 수 있습니다."
+
+#. (itstool) path: section/title
+#: C/index.docbook:177
+msgid "Coding Guidelines for Supporting Accessibility"
+msgstr "접근성 지원 코드 작성 지침"
+
+#. (itstool) path: section/para
+#: C/index.docbook:178
+msgid ""
+"Here are some things you can do in your code to make your program work as "
+"well as possible with assistive technologies. (You can find a list of things "
+"to consider when designing your GUI in the <link linkend=\"gad-ui-guidelines"
+"\">User Interface Guidelines for Supporting Accessibility</link> section "
+"later in this document):"
+msgstr ""
+"가능한한 보조 기술이 프로그램에서 동작하도록 코드에서 처리할 수 있는 일을 여"
+"기에 언급하겠습니다. (이 문서 후반의 <link linkend=\"gad-ui-guidelines\">접근"
+"성 지원 사용자 인터페이스 지침서</link>에서 GUI를 설계할 때 고려해야 할 사항"
+"을 찾아보실 수 있습니다):"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:183
+msgid ""
+"For components that don't display a short string (such as a graphical "
+"button), specify a name for it with <function>atk_object_set_name()</"
+"function>. You might want to do this for image-only buttons, panels that "
+"provide logical groupings, text areas, and so on."
+msgstr ""
+"간단한 문장을 표시하지 않으려는 구성 요소(그래픽 단추의 경우)에 대해서는, "
+"<function>atk_object_set_name()</function> 함수로 이름을 지정하십시오. 이미지"
+"만 있는 단추, 논리 그룹을 붙일 패널, 텍스트 영역 등에 대해 이런 처리를 하고 "
+"싶을 수도 있습니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:188
+msgid ""
+"If you can't provide a tooltip for a component, use "
+"<function>atk_object_set_description()</function> instead to provide a "
+"description that assistive technologies can give the user. For example, to "
+"provide an accessible description for a <guibutton>Close</guibutton> button:"
+msgstr ""
+"구성요소에 풍선 도움말을 제공할 수 없다면 사용자에게 제공할 수 있는 보조 기술"
+"의 설명을 제공하는 대신 <function>atk_object_set_description()</function> 함"
+"수를 사용하십시오. 예를 들자면, <guibutton>닫기</guibutton> 단추에 편의 설명"
+"을 제공하는 경우:"
+
+#. (itstool) path: example/title
+#: C/index.docbook:192
+msgid "Providing an accessible description for a GtkButton"
+msgstr "GtkButton에 편의 설명 제공"
+
+#. (itstool) path: example/programlisting
+#: C/index.docbook:193
+#, no-wrap
+msgid ""
+"\n"
+"{\n"
+"  AtkObject *obj;\n"
+"  obj = gtk_widget_get_accessible(button);\n"
+"  atk_object_set_description(obj,_(\"Closes the window\"));\n"
+"}\n"
+msgstr ""
+"\n"
+"{\n"
+"  AtkObject *obj;\n"
+"  obj = gtk_widget_get_accessible(button);\n"
+"  atk_object_set_description(obj,_(\"Closes the window\"));\n"
+"}\n"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:203
+msgid ""
+"Use <function>atk_image_set_description()</function> to provide a text "
+"description for all images and icons in your program."
+msgstr ""
+"프로그램의 모든 이미지 및 아이콘에 글자 설명을 넣으려면 "
+"<function>atk_image_set_description()</function> 함수를 사용하십시오."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:208
+msgid ""
+"If several components form a logical group, try to put them in one container."
+msgstr "여러 구성 요소가 논리 그룹을 형성한다면 컨테이너 하나에 넣으십시오."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:213
+msgid ""
+"Whenever you have a label that describes another component, use "
+"<function>atk_relation_set_add_relation()</function> so that assistive "
+"technologies can find the component with which the label is associated. (If "
+"you associate the label with the component using "
+"<function>gtk_label_set_mnemonic_widget()</function>, the "
+"<constant>ATK_RELATION_LABEL_FOR</constant> relation is generated "
+"automatically, so the following code would not be necessary):"
+msgstr ""
+"다른 구성 요소를 설명하는 레이블을 언제 넣든지, "
+"<function>atk_relation_set_add_relation()</function> 함수를 사용하여 어떤 레"
+"이블이 구성 요소에 붙었는지 보조 기술에서 확인할 수 있게 하십시오. "
+"(<function>gtk_label_set_mnemonic_widget()</function> 함수를 활용하여 구성요"
+"소의 레이블을 붙였다면 <constant>ATK_RELATION_LABEL_FOR</constant> 관계를 자"
+"동으로 만드므로 다음 코드는 필요하지 않습니다):"
+
+#. (itstool) path: example/title
+#: C/index.docbook:217
+msgid "Relating a GtkLabel to a GtkWidget"
+msgstr "GtkWidget에 GtkLabel 연동"
+
+#. (itstool) path: example/programlisting
+#: C/index.docbook:218
+#, no-wrap
+msgid ""
+"\n"
+"{\n"
+"  GtkWidget *widget;\n"
+"  GtkLabel *label;\n"
+"\n"
+"  AtkObject *atk_widget, *atk_label;\n"
+"  AtkRelationSet *relation_set;\n"
+"  AtkRelation *relation;\n"
+"  AtkObject *targets[1];\n"
+"\n"
+"  atk_widget = gtk_widget_get_accessible(widget);\n"
+"  atk_label = gtk_widget_get_accessible (GTK_WIDGET(label));\n"
+"\n"
+"  relation_set = atk_object_ref_relation_set (atk_label);\n"
+"  targets[0] = atk_widget;\n"
+"\n"
+"  relation = atk_relation_new(targets,1, ATK_RELATION_LABEL_FOR);\n"
+"  atk_relation_set_add(relation_set,relation);\n"
+"  g_object_unref(G_OBJECT(relation));\n"
+"}\n"
+msgstr ""
+"\n"
+"{\n"
+"  GtkWidget *widget;\n"
+"  GtkLabel *label;\n"
+"\n"
+"  AtkObject *atk_widget, *atk_label;\n"
+"  AtkRelationSet *relation_set;\n"
+"  AtkRelation *relation;\n"
+"  AtkObject *targets[1];\n"
+"\n"
+"  atk_widget = gtk_widget_get_accessible(widget);\n"
+"  atk_label = gtk_widget_get_accessible (GTK_WIDGET(label));\n"
+"\n"
+"  relation_set = atk_object_ref_relation_set (atk_label);\n"
+"  targets[0] = atk_widget;\n"
+"\n"
+"  relation = atk_relation_new(targets,1, ATK_RELATION_LABEL_FOR);\n"
+"  atk_relation_set_add(relation_set,relation);\n"
+"  g_object_unref(G_OBJECT(relation));\n"
+"}\n"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:242
+msgid ""
+"If you create a custom widget, make sure it supports accessibility. Custom "
+"components that are descendants of other GTK widgets should override "
+"inherited accessibility information as necessary. For more information, see "
+"<link linkend=\"gad-custom\">Making Custom Components Accessible</link>."
+msgstr ""
+"개별 위젯을 만들 경우, 접근성을 지원하는지 확인하십시오. 다른 GTK 위젯의 파생"
+"요소인 개별 구성요소는 필요한 대로 접근성 정보를 물려받아야합니다. 추가 정보"
+"는 <link linkend=\"gad-custom\">개별 구성요소 접근성 처리</link>를 살펴보십시"
+"오."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:247
+msgid ""
+"Don't break what you get for free! If your GUI has an inaccessible "
+"container, any components inside that container may become inaccessible."
+msgstr ""
+"자유롭게 가져온 위젯을 깨먹지 마십시오! GUI에서 컨테이너에 접근할 수 없으면 "
+"컨테이너의 어떤 구성 요소에도 접근할 수 없습니다."
+
+#. (itstool) path: section/title
+#: C/index.docbook:255
+msgid "The Accessibility API"
+msgstr "접근성 API"
+
+#. (itstool) path: section/para
+#: C/index.docbook:256
+msgid ""
+"Here are a few of the basic API calls you may need to use in your "
+"application to ensure it works well with assistive technologies. The full "
+"accessibility API is extensive, to allow you to write your own accessible "
+"custom widgets, for example."
+msgstr ""
+"보조 기술과 잘 동작하는지 프로그램에서 확인할 때 활용할 몇가지 기본 API 호출"
+"이 있습니다. 예를 들면 여러분이 직접 개별 편의 위젯을 작성할 수 있게 하는 그"
+"런 확장성을 지닌 완전한 접근성 API가 있습니다."
+
+#. (itstool) path: table/title
+#: C/index.docbook:260
+msgid "Commonly used ATK API calls"
+msgstr "일반적으로 활용하는 ATK API 호출"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:264
+msgid "API"
+msgstr "API"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:265
+msgid "Description"
+msgstr "설명"
+
+#. (itstool) path: entry/para
+#: C/index.docbook:271
+msgid "<function>AtkObject* gtk_widget_get_accessible (GtkWidget*)</function>"
+msgstr "<function>AtkObject* gtk_widget_get_accessible (GtkWidget*)</function>"
+
+#. (itstool) path: entry/para
+#: C/index.docbook:276
+msgid ""
+"Returns the accessible object that describes the specified GTK widget to an "
+"assistive technology."
+msgstr "지정 GTK 위젯을 보조 기술로 설명하는 접근성 객체를 반환합니다."
+
+#. (itstool) path: entry/para
+#: C/index.docbook:283
+msgid ""
+"<function>void atk_object_set_name (AtkObject*, const gchar*)</function>"
+msgstr ""
+"<function>void atk_object_set_name (AtkObject*, const gchar*)</function>"
+
+#. (itstool) path: entry/para
+#: C/index.docbook:288
+msgid ""
+"Sets the name of the accessible object. For example, if the object is a "
+"graphical button that quits the application when pressed, the name might be "
+"\"Quit\"."
+msgstr ""
+"접근성 객체의 이름을 지정합니다. 눌렀을 때 프로그램을 끝내는 그래픽 단추 객체"
+"가 있다면 해당 객체의 이름은 \"끝내기\"가 됩니다."
+
+#. (itstool) path: entry/para
+#: C/index.docbook:295
+msgid ""
+"<function>void atk_object_set_description (AtkObject*, const gchar*)</"
+"function>"
+msgstr ""
+"<function>void atk_object_set_description (AtkObject*, const gchar*)</"
+"function>"
+
+#. (itstool) path: entry/para
+#: C/index.docbook:300
+msgid ""
+"Sets the textual description of the accessible object. For example, if the "
+"object is a graphical \"Close\" button, the description might be \"Closes "
+"the window\"."
+msgstr ""
+"접근성 객체의 텍스트 설명을 설정합니다. 그래픽 \"닫기\" 단추 객체가 있다면 객"
+"체 설명은 \"창을 닫습니다\"가 됩니다."
+
+#. (itstool) path: entry/para
+#: C/index.docbook:307
+msgid ""
+"<function>AtkRelation* atk_relation_new (AtkObject**, gint, "
+"AtkRelationType)</function>"
+msgstr ""
+"<function>AtkRelation* atk_relation_new (AtkObject**, gint, "
+"AtkRelationType)</function>"
+
+#. (itstool) path: entry/para
+#: C/index.docbook:312
+msgid ""
+"Creates a new relation between the specified key and the specified list of "
+"target objects. A relationship normally indicates to the assistive "
+"technology that one widget is somehow related to another. For example, that "
+"a particular GtkLabel widget is the caption for a GtkTreeView in the same "
+"window."
+msgstr ""
+"대상 객체의 지정 키 밎 지정 목록의 새 관계를 만듭니다. 보통 어떤 위젯과 보조 "
+"기술의 관계가 어떻게 되는지를 나타냅니다. 예를 들어, 일부 GtkLabel 위젯은 동"
+"일한 창에 있는 GtkTreeView의 설명입니다."
+
+#. (itstool) path: entry/para
+#: C/index.docbook:319
+msgid ""
+"<function>void atk_image_set_description (AtkImage*, const gchar*)</function>"
+msgstr ""
+"<function>void atk_image_set_description (AtkImage*, const gchar*)</function>"
+
+#. (itstool) path: entry/para
+#: C/index.docbook:324
+msgid ""
+"Sets the textual description of the accessible image object. For example, if "
+"the object is a thumbnail of a virtual desktop in a panel applet, the "
+"description might be \"Image showing window arrangement on desktop 1\"."
+msgstr ""
+"접근 가능한 이미지 객체의 텍스트 설명을 설정합니다. 패널 애플릿에서 가상 데스"
+"크톱의 작은 미리보기 그림이 있다면, 이 그림에 대한 설명은 \"1번 데스크톱에서 "
+"정리한 창을 보여주는 이미지\"가 됩니다."
+
+#. (itstool) path: section/title
+#: C/index.docbook:335
+msgid "Examples that Use the Accessibility API"
+msgstr "접근성 API 활용 예제"
+
+#. (itstool) path: section/para
+#: C/index.docbook:336
+msgid ""
+"As noted earlier, you should have little or no work to do to make your "
+"application accessible if you use the GTK widget set, or any other widget "
+"library that implements the ATK interfaces. The two most common things you "
+"may have to do in this case are:"
+msgstr ""
+"앞서 설명한 대로, GTK 위젯을 설정했거나 ATK 인터페이스를 구현한 다른 위젯 라"
+"이브러리를 활용할 경우 프로그램에 접근할 수 있게 약간의 처리 과정을 거치든지 "
+"손을 댈 필요가 없습니다. 보통 손을 대야하는 대부분의 일반적인 경우는 두가지입"
+"니다:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:341
+msgid ""
+"provide descriptions of some controls and images using "
+"<function>atk_object_set_description()</function> or "
+"<function>atk_image_set_description():</function>"
+msgstr ""
+"<function>atk_object_set_description()</function>함수 또는 "
+"<function>atk_image_set_description():</function> 함수로 일부 컨트롤 및 이미"
+"지의 설명을 달아주십시오:"
+
+#. (itstool) path: example/title
+#: C/index.docbook:345
+msgid "Setting the accessible description for a button"
+msgstr "단추에서 볼 수 있는 설명 설정"
+
+#. (itstool) path: example/programlisting
+#: C/index.docbook:346
+#, no-wrap
+msgid ""
+"\n"
+"{\n"
+"   AtkObject *obj;\n"
+"   obj = gtk_widget_get_accessible(button);\n"
+"   atk_object_set_description(obj,_(\"Opens Preferences dialog\"));\n"
+"}\n"
+msgstr ""
+"\n"
+"{\n"
+"   AtkObject *obj;\n"
+"   obj = gtk_widget_get_accessible(button);\n"
+"   atk_object_set_description(obj,_(\"Opens Preferences dialog\"));\n"
+"}\n"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:358
+msgid ""
+"Specify relationships between any unusual groupings of widgets using "
+"<function>atk_relation_new()</function> and "
+"<function>atk_relation_set_add()</function>:"
+msgstr ""
+"<function>atk_relation_new()</function> 함수와 "
+"<function>atk_relation_set_add()</function> 함수로 위젯의 흔치 않은 그룹 관계"
+"를 지정하십시오:"
+
+#. (itstool) path: example/title
+#: C/index.docbook:362
+msgid "Specifying accessible relationship between two controls"
+msgstr "두 컨트롤의 접근 관계 지정"
+
+#. (itstool) path: example/programlisting
+#: C/index.docbook:363
+#, no-wrap
+msgid ""
+"\n"
+"{\n"
+"  GtkWidget *widget;\n"
+"  GtkLabel *label;\n"
+"\n"
+"  AtkObject *atk_widget, *atk_label;\n"
+"  AtkRelationSet *relation_set;\n"
+"  AtkRelation *relation;\n"
+"  AtkObject *targets[1];\n"
+"\n"
+"  atk_widget = gtk_widget_get_accessible (widget);\n"
+"  atk_label = gtk_widget_get_accessible (GTK_WIDGET(label));\n"
+"\n"
+"  relation_set = atk_object_ref_relation_set (atk_label);\n"
+"  targets[0] = atk_widget;\n"
+"\n"
+"  relation = atk_relation_new(targets,1, ATK_RELATION_LABEL_FOR);\n"
+"  atk_relation_set_add(relation_set,relation);\n"
+"  g_object_unref(G_OBJECT(relation));\n"
+"}\n"
+msgstr ""
+"\n"
+"{\n"
+"  GtkWidget *widget;\n"
+"  GtkLabel *label;\n"
+"\n"
+"  AtkObject *atk_widget, *atk_label;\n"
+"  AtkRelationSet *relation_set;\n"
+"  AtkRelation *relation;\n"
+"  AtkObject *targets[1];\n"
+"\n"
+"  atk_widget = gtk_widget_get_accessible (widget);\n"
+"  atk_label = gtk_widget_get_accessible (GTK_WIDGET(label));\n"
+"\n"
+"  relation_set = atk_object_ref_relation_set (atk_label);\n"
+"  targets[0] = atk_widget;\n"
+"\n"
+"  relation = atk_relation_new(targets,1, ATK_RELATION_LABEL_FOR);\n"
+"  atk_relation_set_add(relation_set,relation);\n"
+"  g_object_unref(G_OBJECT(relation));\n"
+"}\n"
+
+#. (itstool) path: section/para
+#: C/index.docbook:387
+msgid ""
+"The examples in the rest of this section are mostly to give you a flavor of "
+"the scope of the ATK. They cover techniques that you may never need to use "
+"as an application developer, although they may be of interest if you are "
+"writing your own custom widgets (see <link linkend=\"gad-custom\">Making "
+"Custom Components Accessible</link>) or if you want to write an assistive "
+"technology application. Whatever the purpose, the <ulink url=\"ftp://ftp."
+"gnome.org/pub/GNOME/sources/gail/\">GAIL source code</ulink> serves as an "
+"excellent tutorial for advanced ATK usage. Please note that since GTK+ "
+"3.1.10, Gail has been merged into GTK+ and is no longer a module on its own."
+msgstr ""
+"이 섹션의 나머지 부분의 예제는 대부분 여러분이 ATK의 범위에서 흥미를 가질만"
+"한 내용을 다룹니다. 여러분이 개별 위젯(see <link linkend=\"gad-custom\">개별 "
+"구성 요소 접근성 처리</link> 참고)을 작성할 경우 흥미를 가지거나 보조 기술 프"
+"로그램을 작성하고 싶겠지만 프로그램 개발자 입장에서 활용할 필요가 없는 기술"
+"도 다룹니다. 어떤 목적이든 <ulink url=\"ftp://ftp.gnome.org/pub/GNOME/"
+"sources/gail/\">GAIL 소스 코드</ulink>는 고급 ATK 활용법을 다루는 최고의 사"
+"용 지침서로 제공합니다. GAIL은 GTK+로 통합했으며 더 이상 모듈 그 자체로는 없"
+"습니다."
+
+#. (itstool) path: section/title
+#: C/index.docbook:392
+msgid "Gtk Modules"
+msgstr "gtk 모듈"
+
+#. (itstool) path: section/para
+#: C/index.docbook:393
+msgid ""
+"Programs that make use of GAIL (the accessibility implementation library for "
+"GTK widgets) are written as GTK modules. GTK modules are loaded into the "
+"program space if the <varname>GTK_MODULES</varname> environment variable "
+"specifies the module library name(s). If there are multiple module "
+"libraries, separate them with colons. For example:"
+msgstr ""
+"GAIL(GTK 위젯 접근성 구현체 라이브러리)을 활용하는 프로그램은 GTK 모듈로 작성"
+"했습니다. GTK 모듈은 <varname>GTK_MODULES</varname> 환경 변수에서 모듈 라이브"
+"러리 이름을 지정했을 경우 프로그램 영역에 불러옵니다. 여러 모듈 라이브러리가 "
+"있다면 다음과 같이 콜론으로 구분하십시오:"
+
+#. (itstool) path: section/para
+#: C/index.docbook:396
+msgid "<userinput>setenv GTK_MODULES \"libgail:libtestprops\"</userinput>"
+msgstr "<userinput>setenv GTK_MODULES \"libgail:libtestprops\"</userinput>"
+
+#. (itstool) path: section/para
+#: C/index.docbook:399
+msgid "All GTK modules have a <function>gtk_module_init()</function> function."
+msgstr ""
+"모든 GTK 모듈에는 <function>gtk_module_init()</function> 함수가 있습니다."
+
+#. (itstool) path: section/title
+#: C/index.docbook:405
+msgid "Gathering accessibility information from an application"
+msgstr "프로그램에서 접근성 정보 가져오기"
+
+#. (itstool) path: section/para
+#: C/index.docbook:406
+msgid ""
+"A program that wishes to make use of ATK calls would likely need to do one "
+"(or more) of the following things:"
+msgstr ""
+"ATK 호출을 활용하려는 프로그램은 다음 지시 사항 중 하나(또는 이상)를 진행해야"
+"합니다:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:411
+msgid ""
+"Create an event watcher, for example with the "
+"<function>atk_add_focus_tracker()</function> function:"
+msgstr ""
+"<function>atk_add_focus_tracker()</function> 함수와 같은 이벤트 감시자를 만드"
+"십시오:"
+
+#. (itstool) path: listitem/programlisting
+#: C/index.docbook:414
+#, no-wrap
+msgid "atk_add_focus_tracker (_my_focus_tracker);"
+msgstr "atk_add_focus_tracker (_my_focus_tracker);"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:415
+msgid ""
+"where <function>_my_focus_tracker()</function> is a function with this "
+"prototype:"
+msgstr "<function>_my_focus_tracker()</function>은 함수 프로토타입입니다:"
+
+#. (itstool) path: listitem/programlisting
+#: C/index.docbook:418
+#, no-wrap
+msgid "void _my_focus_tracker (AtkObject *aobject);"
+msgstr "void _my_focus_tracker (AtkObject *aobject);"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:421
+msgid "Set up a global event listener, with atk_add_global_event_listener():"
+msgstr ""
+"atk_add_global_event_listener() 함수로 전역 이벤트 리스터를 설정하십시오:"
+
+#. (itstool) path: listitem/programlisting
+#: C/index.docbook:424
+#, no-wrap
+msgid ""
+"\n"
+"mouse_watcher_focus_id =   atk_add_global_event_listener(_my_global_listener,\"Gtk:GtkWidget:enter_notify_event\");\n"
+msgstr ""
+"\n"
+"mouse_watcher_focus_id =   atk_add_global_event_listener(_my_global_listener,\"Gtk:GtkWidget:enter_notify_event\");\n"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:427
+msgid ""
+"where <function>_my_global_listener</function> has the prototype of a Glib "
+"<type>GSignalEmissionHook</type>. This example would cause the "
+"<function>_my_global_listener()</function> to be called whenever an "
+"enter_notify_even signal occurs on a <type>GtkWidget</type> object."
+msgstr ""
+"<function>_my_global_listener</function>에는 Glib <type>GSignalEmissionHook</"
+"type> 프로토타입을 지니고 있습니다. 이 예제에서는 <type>GtkWidget</type> 객체"
+"애서 enter_notify_even signal 시그널이 발생했을 때 "
+"<function>_my_global_listener()</function> 함수를 호출합니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:432
+msgid "Access the ATK top-level object with the following function call."
+msgstr "다음 함수를 호출하여 ATK 최상위 객체에 접근하십시오."
+
+#. (itstool) path: listitem/programlisting
+#: C/index.docbook:435
+#, no-wrap
+msgid "AtkObject *root_obj = atk_get_root();"
+msgstr "AtkObject *root_obj = atk_get_root();"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:436
+msgid ""
+"This returns an <type>AtkObject</type> which contains all toplevel windows "
+"in the currently running program. The user could then navigate through the "
+"object hierarchy by accessing the root object's children, which corresponds "
+"to the toplevel windows."
+msgstr ""
+"이 코드에서는 현재 실행중인 프로그램에서 모든 최상위 창 정보를 담은 "
+"<type>AtkObject</type>를 반환합니다. 사용자는 최상위 창에 해당하는 최상위 객"
+"체의 하위 객체로 접근하여 객체 계층을 타고 탐색할 수 있습니다."
+
+#. (itstool) path: section/title
+#: C/index.docbook:444
+msgid "Querying an <type>AtkObject</type>'s Interfaces"
+msgstr "<type>AtkObject</type> 인터페이스 요청"
+
+#. (itstool) path: section/para
+#: C/index.docbook:445
+msgid ""
+"Having located the <type>AtkObject</type> associated with an object in the "
+"application (e.g. by using <function>gtk_widget_get_accessible()</"
+"function>), you can find out what interfaces it implements in various ways:"
+msgstr ""
+"(예: <function>gtk_widget_get_accessible()</function> 함수를 호출하여) 프로그"
+"램의 객체와 관련된 <type>AtkObject</type> 를 찾았다면, 다양한 방식으로 구현"
+"한 인터페이스를 찾을 수 있습니다:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:450
+msgid "Use the supplied <function>ATK_IS_...</function> macros, for example:"
+msgstr ""
+"예를 들자면 이미 존재하는 <function>ATK_IS_...</function> 매크로를 활용합니"
+"다:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:455
+msgid "<function>ATK_IS_ACTION(atkobj)</function>"
+msgstr "<function>ATK_IS_ACTION(atkobj)</function>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:460
+msgid "<function>ATK_IS_COMPONENT(atkobj)</function>"
+msgstr "<function>ATK_IS_COMPONENT(atkobj)</function>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:465
+msgid "etc. (there is one for each interface)"
+msgstr "등(각 인터페이스당 하나를 활용)"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:470
+msgid ""
+"If the macro returns <function>TRUE</function>, the interface calls can "
+"safely be made on that ATK object."
+msgstr ""
+"매크로에서 <function>TRUE</function>를 반환하면 인터페이스에서 안전하게 ATK "
+"객체를 만들 수 있습니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:475
+msgid ""
+"Test the role of the <type>AtkObject</type> by calling "
+"<function>atk_object_get_role()</function>. Any given role implements a "
+"specific number of ATK APIs."
+msgstr ""
+"<function>atk_object_get_role()</function> 함수를 호출하여 <type>AtkObject</"
+"type> 동작을 시험하십시오. 어떤 주어진 동작이든 몇가지 ATK API를 구현합니다."
+
+#. (itstool) path: section/title
+#: C/index.docbook:483
+msgid "Setting up an ATK Signal Handler"
+msgstr "ATK 시그널 처리자 설정"
+
+#. (itstool) path: section/para
+#: C/index.docbook:484
+msgid "Using the <constant>column_inserted</constant> signal as an example:"
+msgstr "예제에서는 <constant>column_inserted</constant> 시그널을 활용합니다:"
+
+#. (itstool) path: section/programlisting
+#: C/index.docbook:487
+#, no-wrap
+msgid ""
+"\n"
+"table_column_inserted_id = g_signal_connect_closure_by_id (my_atk_obj, \n"
+"g_signal_lookup(\"column_inserted\", G_OBJECT_TYPE(my_atk_obj)), 0, \n"
+"g_cclosure_new(G_CALLBACK (_my_table_column_inserted_func), NULL, NULL), FALSE);\n"
+msgstr ""
+"\n"
+"table_column_inserted_id = g_signal_connect_closure_by_id (my_atk_obj, \n"
+"g_signal_lookup(\"column_inserted\", G_OBJECT_TYPE(my_atk_obj)), 0, \n"
+"g_cclosure_new(G_CALLBACK (_my_table_column_inserted_func), NULL, NULL), FALSE);\n"
+
+#. (itstool) path: section/para
+#: C/index.docbook:492
+msgid ""
+"This will cause <function>_my_table_column_inserted_func()</function> to be "
+"called whenever a column_inserted signal is emitted on the <type>AtkObject</"
+"type> <varname>my_atk_object</varname>."
+msgstr ""
+"<type>AtkObject</type> <varname>my_atk_object</varname>에서 column_inserted "
+"시그널이 나오면 <function>_my_table_column_inserted_func()</function> 함수를 "
+"호출합니다."
+
+#. (itstool) path: section/para
+#: C/index.docbook:494
+msgid ""
+"Connecting to a signal is slightly different if the signal supports detail. "
+"The <constant>children_changed</constant> signal supports the "
+"<parameter>add</parameter> detail. To connect to a signal when the "
+"<parameter>add</parameter> detail is also specified, this technique is used:"
+msgstr ""
+"시그널에 세부 속성 값을 지원한다면 시그널에 연결하는 방식이 다를 수 있습니"
+"다. <constant>children_changed</constant> 시그널에는 <parameter>add</"
+"parameter> 세부 속성 값을 지원합니다. <parameter>add</parameter> 세부 속성값"
+"도 지정한 시그널에 연결하려면 다음 코드를 활용하십시오:"
+
+#. (itstool) path: section/programlisting
+#: C/index.docbook:497
+#, no-wrap
+msgid ""
+"\n"
+"child_added_id = g_signal_connect_closure (my_atk_obj,\"children_changed::add\",\n"
+"g_cclosure_new (G_CALLBACK(_my_children_changed_func), NULL, NULL), FALSE);\n"
+msgstr ""
+"\n"
+"child_added_id = g_signal_connect_closure (my_atk_obj,\"children_changed::add\",\n"
+"g_cclosure_new (G_CALLBACK(_my_children_changed_func), NULL, NULL), FALSE);\n"
+
+#. (itstool) path: section/para
+#: C/index.docbook:501
+msgid ""
+"This will cause <function>_my_children_changed_func()</function> to be "
+"called whenever a <constant>children_changed</constant> signal with the "
+"<parameter>add</parameter> detail is emitted on the <type>AtkObject</type> "
+"<varname>my_atk_obj</varname>."
+msgstr ""
+"이 코드에서는 <type>AtkObject</type> <varname>my_atk_obj</varname>에서 나타"
+"난 <constant>children_changed</constant> 시그널에 <parameter>add</parameter> "
+"세부 속성 값이 들어갔을 경우 <function>_my_children_changed_func()</"
+"function> 함수를 호출합니다."
+
+#. (itstool) path: section/title
+#: C/index.docbook:507
+msgid "Implementing an ATK Object"
+msgstr "ATK 객체 구현"
+
+#. (itstool) path: section/para
+#: C/index.docbook:508
+msgid ""
+"You will need to implement your own ATK objects for any widgets that do not "
+"already have an accessible implementation in GAIL (or the equivalent library "
+"for other widget sets). This should be implemented as a GTK module, which, "
+"as before, should be included in the <envar>GTK_MODULES</envar> environment "
+"variable so it is loaded at runtime."
+msgstr ""
+"GAIL(또는 다른 위젯 집합의 동일한 라이브러리)에 편의성 구현을 처리하지 않은 "
+"위젯을 활용한다면 ATK 객체를 구현해야합니다. GTK 모듈 처럼 구현해야 하는데, "
+"그 이전에 <envar>GTK_MODULES</envar> 환경 변수를 설정하여 실행 시간에 불러오"
+"게 해야합니다."
+
+#. (itstool) path: section/title
+#: C/index.docbook:513
+msgid "Registry"
+msgstr "등록"
+
+#. (itstool) path: section/para
+#: C/index.docbook:514
+msgid ""
+"For this example we will assume there is an object called GTK_TYPE_MYTYPE. "
+"The ATK implementation will be called <type>MYATKIMP_TYPE_MYTYPE</type>. A "
+"factory will be needed which will be called "
+"<type>MYATKIMP_TYPE_MYTYPE_FACTORY</type>."
+msgstr ""
+"이 예제에서는 GTK_TYPE_MYTYPE 객체 활용을 예로 들어보겠습니다. ATK 구현체는 "
+"<type>MYATKIMP_TYPE_MYTYPE</type>이라고 하겠습니다. "
+"<type>MYATKIMP_TYPE_MYTYPE_FACTORY</type> 라고 하는 팩토리 객체가 필요합니다."
+
+#. (itstool) path: section/para
+#: C/index.docbook:517
+msgid ""
+"To register an ATK implementation of a GTK object, these steps must be "
+"followed in the module's <function>gtk_module_init()</function> function:"
+msgstr ""
+"GTK 객체의 ATK 구현체를 등록하려면, 모듈의 <function>gtk_module_init()</"
+"function> 함수에서 다음 단계를 따라야합니다:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:522
+msgid "Access the default registry:"
+msgstr "기본 레지스트리에 접근하십시오:"
+
+#. (itstool) path: listitem/programlisting
+#: C/index.docbook:525
+#, no-wrap
+msgid ""
+"\n"
+"default_registry = atk_get_default_registry();\n"
+msgstr ""
+"\n"
+"default_registry = atk_get_default_registry();\n"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:529
+msgid ""
+"Register the ATK object in the <function>gtk_module_init()</function> "
+"function of this module by making this function call:"
+msgstr ""
+"이 함수 호출을 만들어 이 모듈의 <function>gtk_module_init()</function> 함수"
+"에 ATK 객체를 등록하십시오:"
+
+#. (itstool) path: listitem/programlisting
+#: C/index.docbook:531
+#, no-wrap
+msgid ""
+"\n"
+"atk_registry_set_factory_type (default_registry, GTK_TYPE_MYTYPE, \n"
+"MYATKIMP_TYPE_MYTYPE_FACTORY); \n"
+msgstr ""
+"\n"
+"atk_registry_set_factory_type (default_registry, GTK_TYPE_MYTYPE, \n"
+"MYATKIMP_TYPE_MYTYPE_FACTORY); \n"
+
+#. (itstool) path: section/para
+#: C/index.docbook:537
+msgid ""
+"This will register the AtkObject implementation of <type>GTK_TYPE_MYTYPE</"
+"type> to <type>MYATKIMP_TYPE_MYTYPE_FACTORY</type>. This factory will be "
+"implemented so that it knows how to build objects of type "
+"<type>MYATKIMP_TYPE_MYTYPE</type>."
+msgstr ""
+"<type>GTK_TYPE_MYTYPE</type>의 AtkObject 구현체를 "
+"<type>MYATKIMP_TYPE_MYTYPE_FACTORY</type>에 등록합니다. 이 팩토리 객체는 "
+"<type>MYATKIMP_TYPE_MYTYPE</type> 형식 객체를 만드는 방법을 구현합니다."
+
+#. (itstool) path: section/title
+#: C/index.docbook:543
+msgid "Factory"
+msgstr "팩토리 객체"
+
+#. (itstool) path: section/para
+#: C/index.docbook:544
+msgid ""
+"The factory must be implemented as a child of class type "
+"<type>ATK_TYPE_OBJECT_FACTORY</type> and must implement the function "
+"<function>create_accessible()</function>. This function must create an "
+"appropriate <type>AtkObject</type>. A factory can be used to create more "
+"than one type of object, in which case its <function>create_accessible()</"
+"function> function will need to be smart enough to build and return the "
+"correct <type>AtkObject</type>."
+msgstr ""
+"팩토리 객체는 <type>ATK_TYPE_OBJECT_FACTORY</type> 클래스 형식의 하위 형식과 "
+"<function>create_accessible()</function> 함수를 구현해야 합니다. 앞서 언급한 "
+"함수는 적절한 <type>AtkObject</type> 객체를 만들어야합니다. 팩토리 객체는 하"
+"나 이상의 형식 객체를 만들 때 활용할 수 있으며 "
+"<function>create_accessible()</function> 함수는 객체 빌드 과정에서 출분히 알"
+"아서 잘 동작해야 하고 올바른 <type>AtkObject</type> 객체를 반환해야합니다."
+
+#. (itstool) path: section/title
+#: C/index.docbook:550
+msgid "ATK Implementation for a Specific Object"
+msgstr "개별 객체의 ATK 구현 처리"
+
+#. (itstool) path: section/para
+#: C/index.docbook:551
+msgid ""
+"All <type>GObject</type>s implement a <function>get_type()</function> "
+"function. Using the above example the naming convention for this function "
+"name would be <function>myatkimp_mytype_get_type()</function>."
+msgstr ""
+"모든 <type>GObject</type> 객체는 <function>get_type()</function> 함수를 구현"
+"합니다. 이 함수 이름에 대해 이름 규칙을 적용하면 "
+"<function>myatkimp_mytype_get_type()</function>이 됩니다."
+
+#. (itstool) path: section/para
+#: C/index.docbook:554
+msgid ""
+"In this function, you specify which interfaces your object implements. If "
+"the following logic were included in this <function>get_type()</function> "
+"function, this object would implement the <type>ATK_TEXT</type> interface:"
+msgstr ""
+"이 함수에서, 객체 구현체의 인터페이스를 지정합니다. 다음 로직이 "
+"<function>get_type()</function> 함수에 있다면, 이 객체는 <type>ATK_TEXT</"
+"type> 인터페이스를 구현합니다:"
+
+#. (itstool) path: example/title
+#: C/index.docbook:558
+msgid "Sample <function>get_type()</function> function"
+msgstr "<function>get_type()</function> 함수 예제"
+
+#. (itstool) path: example/programlisting
+#: C/index.docbook:559
+#, no-wrap
+msgid ""
+"\n"
+"static const GInterfaceInfo atk_text_info = \n"
+"{ \n"
+"   (GInterfaceInitFunc) atk_text_interface_init, \n"
+"   (GInterfaceFinalizeFunc) NULL, \n"
+"   NULL \n"
+"}; \n"
+"\n"
+"g_type_add_interface_static (type, ATK_TYPE_TEXT, \n"
+"                             &amp;atk_text_info); \n"
+msgstr ""
+"\n"
+"static const GInterfaceInfo atk_text_info = \n"
+"{ \n"
+"   (GInterfaceInitFunc) atk_text_interface_init, \n"
+"   (GInterfaceFinalizeFunc) NULL, \n"
+"   NULL \n"
+"}; \n"
+"\n"
+"g_type_add_interface_static (type, ATK_TYPE_TEXT, \n"
+"                             &amp;atk_text_info); \n"
+
+#. (itstool) path: section/para
+#: C/index.docbook:571
+msgid ""
+"The function <function>atk_text_interface_init()</function>, which has the "
+"following prototype, would need to be implemented:"
+msgstr ""
+"다음 프로토타입을 보유한 <function>atk_text_interface_init()</function> 함수"
+"도 구현해야합니다:"
+
+#. (itstool) path: section/programlisting
+#: C/index.docbook:574
+#, no-wrap
+msgid ""
+"\n"
+"void atk_text_interface_init (AtkTextIface *iface); \n"
+msgstr ""
+"\n"
+"void atk_text_interface_init (AtkTextIface *iface); \n"
+
+#. (itstool) path: section/para
+#: C/index.docbook:577
+msgid ""
+"This function would connect the interface function calls to the specific "
+"implementation as follows:"
+msgstr "이 함수는 다음과 같이 인터페이스 함수 호출을 개별 구현체에 연결합니다:"
+
+#. (itstool) path: example/title
+#: C/index.docbook:581
+msgid "Connecting custom interface calls to an AtkObject implementation"
+msgstr "AtkObject 구현체에 개별 인터페이스 호출 연결"
+
+#. (itstool) path: example/programlisting
+#: C/index.docbook:582
+#, no-wrap
+msgid ""
+"\n"
+"void \n"
+"atk_text_interface_init (AtkTextIface *iface) \n"
+"{ \n"
+"   g_return_if_fail (iface != NULL); \n"
+"   iface-&gt;get_text = myatkimp_mytype_get_text; \n"
+"   iface-&gt;get_character_at_offset = myatkimp_mytype_get_character_at_offset; \n"
+"   ... \n"
+"}\n"
+msgstr ""
+"\n"
+"void \n"
+"atk_text_interface_init (AtkTextIface *iface) \n"
+"{ \n"
+"   g_return_if_fail (iface != NULL); \n"
+"   iface-&gt;get_text = myatkimp_mytype_get_text; \n"
+"   iface-&gt;get_character_at_offset = myatkimp_mytype_get_character_at_offset; \n"
+"   ... \n"
+"}\n"
+
+#. (itstool) path: section/para
+#: C/index.docbook:593
+msgid ""
+"Then the functions <function>myatkimp_mytype_get_text()</function>, "
+"<function>myatkimp_mytype_get_character_at_offset()</function>, and the rest "
+"of the <type>ATK_TEXT</type> interface functions would need to be "
+"implemented."
+msgstr ""
+"그 다음 <function>myatkimp_mytype_get_text()</function> 함수, "
+"<function>myatkimp_mytype_get_character_at_offset()</function> 함수, "
+"<type>ATK_TEXT</type> 인터페이스 함수의 나머지 부분을 구현해야합니다."
+
+#. (itstool) path: section/title
+#: C/index.docbook:599
+msgid "<type>AtkObject</type> Implementation"
+msgstr "<type>AtkObject</type> 구현"
+
+#. (itstool) path: section/para
+#: C/index.docbook:600
+msgid ""
+"<type>AtkObject</type>s are <type>GObjects</type>, and all <type>GObject</"
+"type>s need to specify the <function>get_type()</function> function. Here is "
+"an example that sets up a class and instance initializer. This "
+"<function>get_type()</function> function also specifies that the object "
+"implements <type>ATK_TEXT</type> and specifies the parent object to be "
+"<type>MYATKIMP_MYPARENTTYPE</type>."
+msgstr ""
+"<type>AtkObject</type>는 <type>GObjects</type>이며, 모든 <type>GObject</type>"
+"는 <function>get_type()</function> 함수를 지정해야합니다. 클래스 및 인스턴스 "
+"초기화 처리자를 설정하는 예제를 보여드리겠습니다. 여기서 "
+"<function>get_type()</function> 함수는 <type>ATK_TEXT</type> 객체 구현체를 지"
+"정하며, <type>MYATKIMP_MYPARENTTYPE</type>이 될 상위 객체도 지정합니다."
+
+#. (itstool) path: example/title
+#: C/index.docbook:604
+msgid "Sample <function>get_type()</function> implementation"
+msgstr "<function>get_type()</function> 구현 예제"
+
+#. (itstool) path: example/programlisting
+#: C/index.docbook:605
+#, no-wrap
+msgid ""
+"\n"
+"GType \n"
+"myatkimp_mytype_get_type (void) \n"
+"{ \n"
+"   static GType type = 0; \n"
+"\n"
+"   if (!type) \n"
+"   { \n"
+"      static const GTypeInfo tinfo = \n"
+"      { \n"
+"         sizeof (GailLabelClass), \n"
+"         (GBaseInitFunc) NULL,                              /* base init */ \n"
+"         (GBaseFinalizeFunc) NULL,                          /* base finalize */\n"
+"         (GClassInitFunc) myatkimp_mytype_class_init,       /* class init */ \n"
+"         (GClassFinalizeFunc) NULL,                         /* class finalize */ \n"
+"         NULL,                                              /* class data */ \n"
+"         sizeof (GailLabel),                                /* instance size */ \n"
+"         0,                                                 /* nb preallocs */ \n"
+"         (GInstanceInitFunc) myatkimp_mytype_instance_init, /* instance init */ \n"
+"         NULL                                               /* value table */ \n"
+"      }; \n"
+"\n"
+"      /* Set up atk_text_info structure used below */ \n"
+"      static const GInterfaceInfo atk_text_info = \n"
+"      { \n"
+"         (GInterfaceInitFunc) atk_text_interface_init, \n"
+"         (GInterfaceFinalizeFunc) NULL, \n"
+"         NULL \n"
+"      }; \n"
+"\n"
+"      /* Set up typename and specify parent type */ \n"
+"      type = g_type_register_static (MYATKIMP_MYPARENTTYPE, \n"
+"            \"MyatkimpMytype\", &amp;tinfo, 0); \n"
+"\n"
+"      /* This class implements interface ATK_TYPE_TEXT */ \n"
+"      g_type_add_interface_static (type, ATK_TYPE_TEXT, \n"
+"                                   &amp;atk_text_info); \n"
+"   } \n"
+"   return type; \n"
+"} \n"
+msgstr ""
+"\n"
+"GType \n"
+"myatkimp_mytype_get_type (void) \n"
+"{ \n"
+"   static GType type = 0; \n"
+"\n"
+"   if (!type) \n"
+"   { \n"
+"      static const GTypeInfo tinfo = \n"
+"      { \n"
+"         sizeof (GailLabelClass), \n"
+"         (GBaseInitFunc) NULL,                              /* base init */ \n"
+"         (GBaseFinalizeFunc) NULL,                          /* base finalize */\n"
+"         (GClassInitFunc) myatkimp_mytype_class_init,       /* class init */ \n"
+"         (GClassFinalizeFunc) NULL,                         /* class finalize */ \n"
+"         NULL,                                              /* class data */ \n"
+"         sizeof (GailLabel),                                /* instance size */ \n"
+"         0,                                                 /* nb preallocs */ \n"
+"         (GInstanceInitFunc) myatkimp_mytype_instance_init, /* instance init */ \n"
+"         NULL                                               /* value table */ \n"
+"      }; \n"
+"\n"
+"      /* Set up atk_text_info structure used below */ \n"
+"      static const GInterfaceInfo atk_text_info = \n"
+"      { \n"
+"         (GInterfaceInitFunc) atk_text_interface_init, \n"
+"         (GInterfaceFinalizeFunc) NULL, \n"
+"         NULL \n"
+"      }; \n"
+"\n"
+"      /* Set up typename and specify parent type */ \n"
+"      type = g_type_register_static (MYATKIMP_MYPARENTTYPE, \n"
+"            \"MyatkimpMytype\", &amp;tinfo, 0); \n"
+"\n"
+"      /* This class implements interface ATK_TYPE_TEXT */ \n"
+"      g_type_add_interface_static (type, ATK_TYPE_TEXT, \n"
+"                                   &amp;atk_text_info); \n"
+"   } \n"
+"   return type; \n"
+"} \n"
+
+#. (itstool) path: section/title
+#: C/index.docbook:650
+msgid "Class/Instance Initializers"
+msgstr "클래스/인스턴스 초기화 처리자"
+
+#. (itstool) path: section/para
+#: C/index.docbook:651
+msgid ""
+"You will have to set up a class initializer for the <type>GObject</type> if "
+"your <type>AtkObject</type> implementation either:"
+msgstr ""
+"<type>AtkObject</type> 구현체가 다음에 해당하는 경우 <type>GObject</type>용 "
+"클래스 초기화 처리자를 설정해야합니다:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:656
+msgid ""
+"Redefines any function calls defined by the object's parent. This is "
+"typically necessary when an object needs to implement a function like "
+"<function>atk_object_get_n_accessible_children()</function>. This is "
+"necessary if the object has children, but they are not represented with "
+"widgets."
+msgstr ""
+"상위 객체에서 정의한 함수 호출을 재정의합니다. 객체에 "
+"<function>atk_object_get_n_accessible_children()</function> 함수와 비슷한 함"
+"수를 구현해야 할 때 보통 필요합니다. 객체가 하위 요소지만 위젯을 나타내지 않"
+"는다면 필요합니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:659
+msgid ""
+"For example, if your ATK implementation needs to over-ride the "
+"<type>AtkObject</type> function <function>get_name()</function>, then the "
+"class initializer would look like:"
+msgstr ""
+"예를 들어 ATK 구현체에서 <type>AtkObject</type> 함수 <function>get_name()</"
+"function>을 따로 구현해야 할 경우, 클래스 초기화 처리자는 다음과 같이 구현합"
+"니다:"
+
+#. (itstool) path: example/title
+#: C/index.docbook:663
+msgid ""
+"Class initializer that overrides parent's <function>get_name()</function> "
+"function"
+msgstr ""
+"상위 객체의 <function>get_name()</function> 함수를 재구현하는 클래스 초기화 "
+"처리자"
+
+#. (itstool) path: example/programlisting
+#: C/index.docbook:664
+#, no-wrap
+msgid ""
+"\n"
+"myatkimp_mytype_class_init (GailLabelClass *klass) \n"
+"{ \n"
+"  AtkObjectClass *class = ATK_OBJECT_CLASS (klass); \n"
+"  class-&gt;get_name = myatkimp_mytype_get_name; \n"
+"} \n"
+msgstr ""
+"\n"
+"myatkimp_mytype_class_init (GailLabelClass *klass) \n"
+"{ \n"
+"  AtkObjectClass *class = ATK_OBJECT_CLASS (klass); \n"
+"  class-&gt;get_name = myatkimp_mytype_get_name; \n"
+"} \n"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:673
+msgid ""
+"Requires a <function>parent-&gt;init</function>, <function>parent-&gt;"
+"notify_gtk</function>, or <function>parent-&gt;finalize</function> function. "
+"This example defines all three:"
+msgstr ""
+"<function>parent-&gt;init</function>, <function>parent-&gt;notify_gtk</"
+"function>, <function>parent-&gt;finalize</function> 셋 중 한가지 함수가 필요"
+"합니다. 다음 예제에서는 언급한 세가지 함수를 모두 정의합니다:"
+
+#. (itstool) path: example/title
+#: C/index.docbook:676
+msgid ""
+"Class initializer that defines its own <function>init()</function>, "
+"<function>notify_gtk()</function> and <function>finalize()</function> "
+"functions"
+msgstr ""
+"<function>init()</function>, <function>notify_gtk()</function>, "
+"<function>finalize()</function> 자체 함수를 정의하는 클래스 초기화 처리자"
+
+#. (itstool) path: example/programlisting
+#: C/index.docbook:677
+#, no-wrap
+msgid ""
+"\n"
+"static ParentObjectType *parent_class = NULL; \n"
+"\n"
+"myatkimp_mytype_class_init (GailLabelClass *klass) \n"
+"{ \n"
+"   ParentObjectType *parent_class = (ParentObjectType*)klass; \n"
+"\n"
+"   /* \n"
+"    * Caching the parent_class is necessary if the init, \n"
+"    * notify_gtk, or finalize functions are set up. \n"
+"    */ \n"
+"    parent_class = g_type_class_ref (MYATKIMP_TYPE_PARENT); \n"
+"\n"
+"    parent_class-&gt;init = myatkimp_mytype_widget_init; \n"
+"    parent_class-&gt;notify_gtk = myatkimp_mytype_real_notify_gtk; \n"
+"    parent_class-&gt;finalize = myatkimp_mytype_finalize; \n"
+"}\n"
+msgstr ""
+"\n"
+"static ParentObjectType *parent_class = NULL; \n"
+"\n"
+"myatkimp_mytype_class_init (GailLabelClass *klass) \n"
+"{ \n"
+"   ParentObjectType *parent_class = (ParentObjectType*)klass; \n"
+"\n"
+"   /* \n"
+"    * Caching the parent_class is necessary if the init, \n"
+"    * notify_gtk, or finalize functions are set up. \n"
+"    */ \n"
+"    parent_class = g_type_class_ref (MYATKIMP_TYPE_PARENT); \n"
+"\n"
+"    parent_class-&gt;init = myatkimp_mytype_widget_init; \n"
+"    parent_class-&gt;notify_gtk = myatkimp_mytype_real_notify_gtk; \n"
+"    parent_class-&gt;finalize = myatkimp_mytype_finalize; \n"
+"}\n"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:698
+msgid "parent-&gt;init"
+msgstr "parent-&gt;init"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:701
+msgid ""
+"A <function>parent-&gt;init()</function> function may be necessary if the "
+"ATK implementation needs to do either of the following:"
+msgstr ""
+"ATK 구현체에서 다음 두가지 경우가 필요한 경우 <function>parent-&gt;init()</"
+"function> 함수가 필요할 수도 있습니다:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:706
+msgid "Cache any data obtained from a backing GTK widget."
+msgstr "보조 GTK 위젯에서 가져온 데이터를 캐시할 경우."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:711
+msgid "Listen to any signals from the backing GTK widget."
+msgstr "보조 GTK 위젯에서 보낸 시그널을 기다릴 경우."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:716
+msgid "Here is an example of both:"
+msgstr "두 가지 모두의 경우에 대한 예제입니다:"
+
+#. (itstool) path: example/title
+#: C/index.docbook:720
+msgid "A custom <function>init()</function> function"
+msgstr "<function>init()</function> 개별 구현 함수"
+
+#. (itstool) path: example/programlisting
+#: C/index.docbook:721
+#, no-wrap
+msgid ""
+"\n"
+"void \n"
+"gail_tree_view_widget_init (MyatkimpMytype  *mytype, \n"
+"                            GtkWidget       *gtk_widget) \n"
+"{ \n"
+"   /* Make sure to call the parent's init function */ \n"
+"   parent_class-&gt;init (widget, gtk_widget); \n"
+"   \n"
+"   /* Cache a value in the ATK implementation */ \n"
+"   mytype-&gt;cached_value = gtk_widget_function_call(); \n"
+"\n"
+"   /* Listen to a signal */ \n"
+"   gtk_signal_connect (GTK_OBJECT (gtk_widget), \n"
+"                       \"signal-type\", \n"
+"                       GTK_SIGNAL_FUNC (_myatkimp_mytype_signal_type), \n"
+"                       NULL); \n"
+"} \n"
+msgstr ""
+"\n"
+"void \n"
+"gail_tree_view_widget_init (MyatkimpMytype  *mytype, \n"
+"                            GtkWidget       *gtk_widget) \n"
+"{ \n"
+"   /* Make sure to call the parent's init function */ \n"
+"   parent_class-&gt;init (widget, gtk_widget); \n"
+"   \n"
+"   /* Cache a value in the ATK implementation */ \n"
+"   mytype-&gt;cached_value = gtk_widget_function_call(); \n"
+"\n"
+"   /* Listen to a signal */ \n"
+"   gtk_signal_connect (GTK_OBJECT (gtk_widget), \n"
+"                       \"signal-type\", \n"
+"                       GTK_SIGNAL_FUNC (_myatkimp_mytype_signal_type), \n"
+"                       NULL); \n"
+"} \n"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:740
+msgid ""
+"In this example, if the specified <type>signal-type</type> signal were "
+"generated on the backing <varname>gtk_widget</varname>, then the "
+"<function>_myatkimp_mytype_signal_type()</function> function would be called."
+msgstr ""
+"이 예제에서 <type>signal-type</type> 지정 시그널을 보조 <varname>gtk_widget</"
+"varname>에서 만들었다면,  <function>_myatkimp_mytype_signal_type()</function>"
+"함수를 호출합니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:745
+msgid "parent-&gt;notify_gtk"
+msgstr "parent-&gt;notify_gtk"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:748
+msgid ""
+"If the ATK implementation needs to listen to any property notifications on "
+"the backing GTK object, a <function>parent-&gt;notify_gtk()</function> "
+"function may be necessary. For example:"
+msgstr ""
+"ATK 구현체에서 보조 GTK 객체의 속성 알림을 기다려야 한다면, <function>parent-"
+"&gt;notify_gtk()</function> 함수가 필요할 지도 모르겠습니다. 예를 들어:"
+
+#. (itstool) path: example/title
+#: C/index.docbook:752
+msgid "A custom <function>notify_gtk()</function> function"
+msgstr "<function>notify_gtk()</function> 함수 개별 구현체"
+
+#. (itstool) path: example/programlisting
+#: C/index.docbook:753
+#, no-wrap
+msgid ""
+"\n"
+"void \n"
+"myatkimp_mytype_real_notify_gtk (GObject    *obj, \n"
+"                                 GParamSpec *pspec) \n"
+"{ \n"
+"   GtkWidget *widget = GTK_WIDGET (obj); \n"
+"   AtkObject* atk_obj = gtk_widget_get_accessible (widget); \n"
+"\n"
+"   if (strcmp (pspec-&gt;name, \"property-of-interest\") == 0) \n"
+"   { \n"
+"      /* Handle the property change. */ \n"
+"   } \n"
+"   else \n"
+"   { \n"
+"      parent_class-&gt;notify_gtk (obj, pspec); \n"
+"   } \n"
+"} \n"
+msgstr ""
+"\n"
+"void \n"
+"myatkimp_mytype_real_notify_gtk (GObject    *obj, \n"
+"                                 GParamSpec *pspec) \n"
+"{ \n"
+"   GtkWidget *widget = GTK_WIDGET (obj); \n"
+"   AtkObject* atk_obj = gtk_widget_get_accessible (widget); \n"
+"\n"
+"   if (strcmp (pspec-&gt;name, \"property-of-interest\") == 0) \n"
+"   { \n"
+"      /* Handle the property change. */ \n"
+"   } \n"
+"   else \n"
+"   { \n"
+"      parent_class-&gt;notify_gtk (obj, pspec); \n"
+"   } \n"
+"} \n"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:774
+msgid "parent-&gt;finalize"
+msgstr "parent-&gt;finalize"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:777
+msgid ""
+"If it is necessary to free any data when a <type>GObject</type> instance is "
+"destroyed, then a <function>finalize()</function> function is needed to free "
+"the memory. For example:"
+msgstr ""
+"<type>GObject</type> 인스턴스를 무효화 했을 때 데이터를 버려야 한다면 "
+"<function>finalize()</function> 함수로 메모리를 해제해야합니다. 예를 들면:"
+
+#. (itstool) path: example/title
+#: C/index.docbook:781
+msgid "A custom <function>finalize()</function> function"
+msgstr "<function>finalize()</function> 함수 개별 구현체"
+
+#. (itstool) path: example/programlisting
+#: C/index.docbook:782
+#, no-wrap
+msgid ""
+"\n"
+"void \n"
+"myatkimp_mytype_finalize (GObject *object) \n"
+"{ \n"
+"   MyAtkimpMyType *my_type = MYATKIMP_MYTYPE (object); \n"
+"\n"
+"   g_object_unref (my_type-&gt;cached_value); \n"
+"   G_OBJECT_CLASS (parent_class)-&gt;finalize (object); \n"
+"} \n"
+msgstr ""
+"\n"
+"void \n"
+"myatkimp_mytype_finalize (GObject *object) \n"
+"{ \n"
+"   MyAtkimpMyType *my_type = MYATKIMP_MYTYPE (object); \n"
+"\n"
+"   g_object_unref (my_type-&gt;cached_value); \n"
+"   G_OBJECT_CLASS (parent_class)-&gt;finalize (object); \n"
+"} \n"
+
+#. (itstool) path: section/title
+#: C/index.docbook:802
+msgid "Making Custom Components Accessible"
+msgstr "개별 구성 요소 접근성 처리"
+
+#. (itstool) path: section/para
+#: C/index.docbook:803
+msgid ""
+"Adding ATK support to your custom widget will assure its cooperation with "
+"the accessibility infrastructure. These are the general steps that are "
+"required:"
+msgstr ""
+"개별 구현 위젯에 ATK 지원 기능을 추가하면 틀림없이 편의성 기반과 함께 동작합"
+"니다. 이에 따라 필요한 몇가지 과정이 있습니다:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:808
+msgid ""
+"assess a custom widget according to the applicable <link linkend=\"gad-ui-"
+"guidelines\">User Interface Guidelines</link>;"
+msgstr ""
+"<link linkend=\"gad-ui-guidelines\">사용자 인터페이스 지침</link>에 해당하는 "
+"개별 구현 위젯을 판단합니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:813
+msgid ""
+"determine which <ulink url=\"http://library.gnome.org/devel/atk/stable/atk."
+"html\">ATK interfaces</ulink> a custom widget should implement, according to "
+"the widget's feature set and function;"
+msgstr ""
+"위젯 특징 및 기능에 따라 어떤 <ulink url=\"http://library.gnome.org/devel/"
+"atk/stable/atk.html\">ATK 인터페이스를</ulink> 개별 구현 위젯에 구현해야 할 "
+"지 결정합니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:818
+msgid ""
+"assess which <ulink url=\"http://library.gnome.org/devel/atk/stable/atk.html"
+"\">ATK interfaces</ulink> can be inherited from the parent widget class;"
+msgstr ""
+"어떤 <ulink url=\"http://library.gnome.org/devel/atk/stable/atk.html\">ATK 인"
+"터페이스</ulink>를 상위 위젯 클래스에서 상속할 수 있는지 판단합니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:823
+msgid ""
+"implement the appropriate ATK interfaces for the widget class in one of two "
+"ways:"
+msgstr ""
+"위젯 클래스에 적당한 ATK 인터페이스를 다음 두가지 중 한가지 방법으로 구현하십"
+"시오:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:828
+msgid "directly by the custom widget, or"
+msgstr "개별 구현 위젯으로 바로 처리하거나"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:833
+msgid ""
+"in an <ulink url=\"http://library.gnome.org/devel/atk/stable/AtkObject.html"
+"\"><type>AtkObject</type></ulink> subtype created by a new <ulink url="
+"\"http://library.gnome.org/devel/atk/stable/AtkObjectFactory.html"
+"\"><type>AtkObjectFactory</type></ulink> subclass"
+msgstr ""
+"<ulink url=\"http://library.gnome.org/devel/atk/stable/AtkObjectFactory.html"
+"\"><type>AtkObjectFactory</type></ulink> 하위 클래스로 만든 <ulink url="
+"\"http://library.gnome.org/devel/atk/stable/AtkObject.html"
+"\"><type>AtkObject</type></ulink> 하위 형식에서"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:838
+msgid ""
+"If the second method is used, the appropriate factory type must be "
+"registered with the <type>AtkObjectFactoryRegistry</type> at runtime."
+msgstr ""
+"두번째 방식으로 간다면 적절한 팩토리 객체 형식을 실행 도중에 "
+"<type>AtkObjectFactoryRegistry</type>로 등록해야합니다."
+
+#. (itstool) path: section/para
+#: C/index.docbook:843
+msgid ""
+"The <ulink url=\"ftp://ftp.gnome.org/pub/GNOME/sources/gail/\">GAIL source "
+"code</ulink> serves as an excellent tutorial for advanced ATK usage."
+msgstr ""
+"<ulink url=\"ftp://ftp.gnome.org/pub/GNOME/sources/gail/\">GAIL 소스 코드</"
+"ulink>에서 고급 ATK 활용법을 언급한 최상의 활용 지침을 제공합니다."
+
+#. (itstool) path: section/title
+#: C/index.docbook:849
+msgid "User Interface Guidelines for Supporting Accessibility"
+msgstr "접근성 지원 사용자 인터페이스 지침"
+
+#. (itstool) path: section/para
+#: C/index.docbook:850
+msgid ""
+"When designing your application's GUI, there are a number of simple "
+"guidelines you should follow to ensure that it can be used by as wide an "
+"audience as possible, whether in conjunction with assistive technologies or "
+"not. Don't be fooled into thinking that this is just a case of \"making your "
+"GUI usable by people with disabilities\", though, and that you shouldn't "
+"bother if you know a disabled person is never going to use your application. "
+"Following these guidelines will improve the overall usability of your "
+"application for everyone who uses it - including you!"
+msgstr ""
+"프로그램 GUI를 설계할 때, 보조 기술과의 연계성과는 관계없이 가능한 한 다양한 "
+"사용자가 쓸 수 있도록 따르는 여러 단순 지침서가 있습니다. \"GUI를 장애우가 활"
+"용할 수 있도록 하는\" 경우만 생각하는 어리석음에 빠지지 마시고 장애우가 프로"
+"그램을 사용할 일이 없다는걸 알아도 이런 예외를 신경쓰지 않는게 좋습니다. 여러"
+"분을 비롯한 모두가 프로그램을 사용할 경우 다음 지침이 전반적인 편의성 개선을 "
+"도와줍니다!"
+
+#. (itstool) path: section/title
+#: C/index.docbook:855
+msgid "General"
+msgstr "일반"
+
+#. (itstool) path: section/para
+#: C/index.docbook:856
+msgid ""
+"We all get frustrated if we can't find a feature in an application, or make "
+"a mistake from which it takes a couple of minutes to recover, if it's "
+"possible to recover at all. If you have some sort of disability, the chances "
+"are the effort and time penalties involved will be several times worse. "
+"Following a few basic guidelines can help prevent these sorts of situations "
+"for all users."
+msgstr ""
+"프로그램에서 어떤 기능을 찾을 수 없거나, 모든 설정을 복구할 수 있음에도 설정"
+"을 되돌리는데 상당한 시간을 소비하는 실수를 범하면 심히 당황스럽습니다. 여러"
+"분의 신체에 어떤 장애가 있다면 노력만이 답이고 이런 부당함으로 인해 상당수의 "
+"시간을 허비합니다. 다음 일부 지침은 모든 사용자가 이런 상황을 겪지않게 도와줍"
+"니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:861
+msgid ""
+"Provide Undo for every action that changes the user's data or the "
+"application's settings. If possible, provide more than one level of undo and "
+"redo, and a history list to allow preview of what actions will be undone."
+msgstr ""
+"사용자 데이터 또는 프로그램 설정을 바꾸는 모든 동작을 되돌리는 기능을 제공하"
+"십시오. 가능하다면, 한 단계 이상의 실행 취소 및 다시 실행 동작, 어떤 동작을 "
+"되돌릴 수 없는지 미리 볼 수 있는 기록 목록을 제공하십시오."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:866
+msgid ""
+"Provide commands to restore default settings. If a particular setting could "
+"make the application completely unusable for an individual, e.g. by making "
+"the fonts very small, it would be useful to provide an option to restore the "
+"default settings outside the application itself. This could be done using a "
+"command line switch, for example."
+msgstr ""
+"기본 설정을 복원하는 명령을 제공하십시오. 일부 설정(글꼴이 매우 작아진다거나)"
+"때문에 개인이 프로그램을 완전히 쓰지 못하게 하는 상황을 만들 수 있다면, 프로"
+"그램 자체에서보단 프로그램 외부에서 기본 값으로 설정 항목을 복원하게 하는것"
+"이 좋습니다. 예를 들자면 이런 수단은 명령행 스위치로 처리할 수 있습니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:871
+msgid ""
+"Help prevent users from doing the wrong thing. This is particularly "
+"important for actions that could be done by accident (e.g. mouse actions) or "
+"that cannot easily be undone (e.g. overwriting a file). Consider using "
+"confirmation dialogs or forcing the user to go into a particular mode to "
+"perform potentially destructive actions."
+msgstr ""
+"사용자가 잘못된 동작을 수행하지 못하도록 막아주십시오. 갑작스럽게 일어날 수 "
+"있는 동작(마우스 동작)이나 쉽게 되돌릴 수 없는(파일 덮어쓰기)동작 같은 경우"
+"와 같은 일부의 경우에 중요합니다. 확인 대화상자를 활용하거나 잠재적으로 문제"
+"를 일으키는 동작을 수행하는 개별 모드를 사용자가 개별적으로 처리하도록 강제하"
+"는 방안을 고려하십시오."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:876
+msgid ""
+"Minimize users' memory load. For example, let the user view multiple "
+"documents at the same time, and ensure online help or other instructions can "
+"remain visible while they carry out the procedure being described. Allow "
+"them to copy any information that is displayed, and paste it anywhere that "
+"data can be entered."
+msgstr ""
+"사용자 메모리 사용량을 최소화하십시오. 예를 들어 사용자가 여러 문서를 동시에 "
+"보게 하시고, 사용자가 설명 내용을 따르는 동안 온라인 도움말 또는 다른 절차를 "
+"볼 수 있게 하십시오. 나타난 어떤 내용이든 복사하고 입력할 수 있는 데이터를 어"
+"디든 붙여넣을 수 있게 하십시오."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:881
+msgid ""
+"Don't make users insert disks. Depending on a user's particular disability, "
+"they may find it difficult to physically insert or change a disk, or they "
+"may find it hard to identify the correct disk in the first place. If your "
+"application is installed from CD-ROM, provide an option to copy all the "
+"files that will be required onto the user's hard drive."
+msgstr ""
+"사용자에게 디스크 삽입 동작을 요구하지 마십시오. 사용자의 신체 장애 여부에 따"
+"라 디스크를 넣거나 바꾸는 동작이 실제로 어려울 수 있든지, 그 전에 올바른 디스"
+"크를 알아내는 과정도 어려울 수 있습니다. 프로그램을 CD-ROM으로 설치했다면, 모"
+"든 파일을 사용자의 하드 드라이브에 복사하도록 요구하는 단계를 제공하십시오."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:886
+msgid ""
+"Don't place frequently used functions deep in a menu structure. Whether "
+"you're using a mouse, keyboard or some other input device, deeply-nested "
+"menu items are best avoided. As well as the burden of remembering where to "
+"find them, they are always more difficult and time-consuming to access."
+msgstr ""
+"자주 사용하는 기능을 메뉴 깊숙한 곳에 두지 마십시오. 마우스를 사용하든, 키보"
+"드 또는 어떤 입력장치를 사용하든 깊은 곳에 들어간 메뉴 항목은 가장 꺼려하는 "
+"부분입니다. 해당 항목이 어디있는지 반복해서 기억하는만큼, 언제든 어렵고 접근"
+"하는데 시간이 걸립니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:891
+msgid ""
+"Don't lead users through unnecessary steps. For example, wizards are useful "
+"for users who have trouble handling large numbers of options at one time, "
+"but other users may need to minimize the amount of time or keystrokes they "
+"use. Such users benefit from being able to skip unnecessary steps or go "
+"directly to the one they need. Consider providing a <guibutton>Finish</"
+"guibutton> button in wizards that skips right to the end and assumes default "
+"responses for the intermediate steps. If the process has many steps, "
+"consider asking the user at the start if they want to run through all the "
+"steps, or just the most commonly-used ones."
+msgstr ""
+"사용자로 하여금 불필요한 과정을 거치게 하지 마십시오. 예를 들어, 마법사 도구"
+"는 수많은 설정 항목에 불편을 느끼는 사용자에게 한번에 처리할 수 있도록 하는 "
+"목적으로 요긴하지만, 어떤 사용자에겐 시간을 아끼고, 키 누름 횟수를 최소화할 "
+"목적으로 필요합니다. 어떤 사용자는 불필요한 단계를 건너뛸 수 있거나 필요한 과"
+"정으로 바로 건너뛰는게 이득입니다. 마지막 단계로 바로 건너뛰는 <guibutton>완"
+"료</guibutton>  단추의 배치를 고려하시고 중간 단계의 기본 응답을 가정하십시"
+"오. 여러 단계를 거쳐야 한다면, 사용자가 해당 단계를 다 거쳐갈 지, 일반적인 설"
+"정을 활용할 지 질문하는 방안을 고려하십시오."
+
+#. (itstool) path: section/title
+#. (itstool) path: row/entry
+#: C/index.docbook:899 C/index.docbook:11 C/index.docbook:293
+msgid "Keyboard Navigation"
+msgstr "키보드 탐색"
+
+#. (itstool) path: section/para
+#: C/index.docbook:900
+msgid ""
+"A well-designed keyboard user interface plays a key role when you are "
+"designing accessible software. Blind users can navigate software more "
+"effectively using the keyboard, because using the mouse depends on visual "
+"feedback of the mouse pointer location. Also, mobility impairments can "
+"prevent a user from successfully navigating using the mouse, because of the "
+"fine motor control skills required."
+msgstr ""
+"제대로 설계한 키보드 사용자 인터페이스는 여러분의 편의성을 지닌 프로그램을 설"
+"계할 때 키 동작을 적절하게 수행합니다. 시각 장애우는 키보드를 사용하는 방식"
+"이 프로그램 기능을 탐색하는 방법으로 더 효율적일 수 있는데, 마우스를 활용할 "
+"때 마우스 포인터 위치의 시각 반응에 의지해야 하기 때문입니다. 또한, 거동 장애"
+"우에겐 마우스 활용이 프로그램 탐색기능에 걸림돌이 되는데, 미세한 전동기 조종 "
+"기술이 필요하기 때문입니다."
+
+#. (itstool) path: section/para
+#: C/index.docbook:903
+msgid ""
+"It is therefore important to make all mouse actions available from the "
+"keyboard, and include keyboard access to all toolbars, menus, links and "
+"buttons. Every function your application provides should be available using "
+"the keyboard alone. Hide your mouse while you're testing your application if "
+"you have to!"
+msgstr ""
+"따라서 모든 마우스 동작을 모든 도구 모음, 메뉴, 링크, 단추로의 키보드 접근 동"
+"작으로 처리할 수 있게 조치하는게 중요합니다. 프로그램의 모든 동작은 키보드로"
+"만으로도 사용할 수 있어야합니다. 프로그램을 시험하는 동안 키보드를 시험한다"
+"면 마우스를 숨겨두십시오!"
+
+#. (itstool) path: section/para
+#: C/index.docbook:906
+msgid ""
+"Most functionality should be easy to make accessible by using keyboard "
+"mnemonics and accelerators, and the toolkit's built-in navigation features. "
+"However, operations that rely on drag-and-drop, for example, may require "
+"more thought."
+msgstr ""
+"대부분의 기능은 키보드 단축키, 도구 모음의 내장 탐색 기능으로 쉽게 접근할 수 "
+"있어야 합니다. 허나 끌어다 놓기에 의존하는 동작의 경우는 좀 더 생각이 필요합"
+"니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:911
+msgid ""
+"Provide efficient keyboard access to all application features. Some users "
+"may be unable to use a mouse, and many \"power-users\" prefer to use the "
+"keyboard anyway. Also, some specialized assistive technology input devices "
+"may simulate keyboard events rather than mouse events. Since typing is "
+"difficult or even painful for some users, it is important to provide a "
+"keyboard interface that minimizes the number of keystrokes required for any "
+"given task."
+msgstr ""
+"모든 프로그램 기능에 대한 효율적인 키보드 접근 기능을 제공하십시오. 일부 사용"
+"자는 마우스를 사용할 수 없을지도 모르며, 대부분의 \"고급 사용자\"는 어쨌거나 "
+"키보드 활용을 더 좋아합니다. 게다가 일부 특화된 보조 기술 입력 장치의 경우 마"
+"우스 동작보단 키보드 동작을 흉내냅니다. 일부 사용자에겐 어렵거나 괴로울 수 있"
+"으므로, 주어진 동작을 처리할 경우 키 누름 횟수를 최소화 한 키보드 인터페이스"
+"를 제공하는 것이 중요합니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:916
+msgid ""
+"Use a logical keyboard navigation order. When navigating around a window "
+"with the <keycap>Tab</keycap> key, keyboard focus should move between "
+"controls in a predictable order. In Western locales, this is normally left "
+"to right and top to bottom."
+msgstr ""
+"논리적인 키보드 탐색 순서를 활용하십시오. <keycap>탭</keycap>키고 창을 둘러"
+"볼 때, 키보드 포커스는 예상 가능한 순서대로 컨트롤을 가리키며 움직여야합니"
+"다. 서부 유럽 로캘의 경우, 보통 왼쪽에서 오른쪽으로, 그리고 상단에서 하단으"
+"로 움직입니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:921
+msgid ""
+"Ensure correct tab order for controls whose enabled state is dependent on "
+"checkbox, radio button or toggle button state. When such a button is "
+"selected, all its dependent controls should be enabled, and all the "
+"dependent controls of any other button in the group should be disabled. When "
+"the user selects a checkbox, radio button or toggle button that has "
+"dependent controls, do not automatically give focus to the first dependent "
+"control, but instead leave the focus on the button."
+msgstr ""
+"확인 상자, 라디오 단추, 토글 상태 단추의 활성 여부에 따라 컨트롤 탭 순서가 올"
+"바른지 확인하십시오. 일부 단추를 선택하면, 관련 컨트롤을 활성화해야 하며, 그"
+"룹에 있는 다른 단추와 관련한 컨트롤은 비활성화해야합니다. 사용자가 컨트롤에 "
+"따른 확인 상자, 라디오 단추, 토글 단추를 선택하면 첫번째 관련 컨트롤에 포커스"
+"를 주지 마시고 단추에 포커스가 올라간 상태 그대로 두십시오."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:926
+msgid ""
+"Don't override existing system-level accessibility features. For example, "
+"<ulink url=\"http://www.rehab.uiuc.edu/accessx/overview.html\">AccessX</"
+"ulink> is an Xserver extension that has been supported since X11R6. The "
+"MouseKeys feature of this extension allows mouse movement and button clicks "
+"to be simulated using the keypad. Therefore you should not add features to "
+"your application that can only be accessed by pressing keys on the keypad, "
+"as users relying on the MouseKeys feature will not be able to use them."
+msgstr ""
+"기존의 시스템 차원의 편의 기능을 무시하고 새로 적용하지 마십시오. <ulink url="
+"\"http://www.rehab.uiuc.edu/accessx/overview.html\">AccessX</ulink>은 X11R6부"
+"터 지원하는 X 서버 확장 기능입니다. 이 확장 기능의 마우스 키 기능은 마우스 커"
+"서 이동 및 단추 누르기 동작을 키 패트로 흉내냅니다. 따라서 키 패드의 키를 눌"
+"러 접근할 수 있는 프로그램의 기능을 별도로 추가하면 마우스 키 기능을 활용할 "
+"수 없기 때문에 프로그램에 기능에 접근할 수 있도록 하는 키패드 접근 기능을 추"
+"가하면 안됩니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:931
+msgid ""
+"Provide more than one method to perform keyboard tasks where possible. Some "
+"users may find some keys and key combinations easier to use than others."
+msgstr ""
+"가능하다면 키보드 동작을 처리할 방법을 한가지 이상 제공하십시오. 어떤 사용자"
+"는 일부 키 및 단축키를 찾는게 다른 방편보다 쉬울 수도 있습니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:936
+msgid ""
+"Provide both keyboard and mouse access to functions where possible. Some "
+"users may only be able to use either the mouse or the keyboard, but not both."
+msgstr ""
+"가능하다면 기능을 활용할 때 키보드 마우스 둘 다 활용하여 접근할 수 있도록 하"
+"십시오. 어떤 사용자는 마우스 또는 키보드 둘 다 사용할 수 있거나 둘 중 하나로"
+"만 접근할 수도 있습니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:941
+msgid ""
+"Don't assign awkward reaches to frequently performed keyboard operations. "
+"Some people may only be able to use one hand on the keyboard, so shortcuts "
+"that can be easily used with one hand are preferable for common operations. "
+"In any case, having to frequently perform long or difficult reaches on the "
+"keyboard can increase muscle strain for all users, increasing the risk of "
+"pain or injury."
+msgstr ""
+"자주 활용하는 키보드 동작에 불편한 방식을 할당하지 마십시오. 어떤 사람은 키보"
+"드를 한손으로만 활용할 수 있어, 일반 동작은 한손으로 쉽게 활용할 수 있게 하는"
+"게 적절합니다. 일부 경우에는 길게 누르거나 손이 닿기 어려운 방식으로 자주 사"
+"용하는 기능에 접근할 수 있게 하면, 모든 사용자에게 근육통, 부상 가능성이 늘어"
+"날 수 있습니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:946
+msgid ""
+"Don't require repetitive use of simultaneous keypresses. Some users are only "
+"able to press and hold one key at a time. Assistive technologies such as "
+"AccessX may allow users to press the keys sequentially rather than "
+"simultaneously, but this of course means the operation will take longer for "
+"them."
+msgstr ""
+"동시 키 누름을 반복적으로 요구하지 마십시오. 일부 사용자는 한번에 키 하나만 "
+"누를 수 있습니다. AccessX 같은 보조 기술은 키를 동시에 누르기보단 순차적으로 "
+"누를 수 있게 하는데 이런 방편은 키를 눌러 조작하는데 시간이 좀 더 걸릴 수 있"
+"습니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:951
+msgid ""
+"Ensure that any text that can be selected with the mouse can also be "
+"selected with the keyboard. This is a convenience for all users, but "
+"especially for those for whom fine control of the mouse is difficult."
+msgstr ""
+"마우스로 선택할 수 있는 텍스트를 키보드로도 선택할 수 있는지 확인하십시오. 모"
+"든 사용자의 편의 수단이지만, 특히 마우스 사용이 불편한 이들에게 바람직한 제"
+"어 수단이 될 수 있습니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:956
+msgid ""
+"Ensure that objects that can be resized or moved by drag and drop can also "
+"be resized or moved with the keyboard. For example, icons and windows on the "
+"desktop. Where precision sizing and placement is potentially important, e.g. "
+"shapes in a diagram, also consider providing a dialog into which you can "
+"type co-ordinates, or a means of snapping objects to a user-definable grid."
+msgstr ""
+"마우스 끌어다 놓기 동작으로 크기를 조절하거나 움직일 수 있는 객체를 키보드로"
+"도 크기를 조절하거나 움직일 수 있는지 확인하십시오. 이를테면, 데스크톱의 아이"
+"콘 및 창이 있습니다. 좌표를 입력하는 대화상자를 제공하거나 사용자가 설정할 "
+"수 있는 그리드에 객체를 잡아두는 수단을 제공하여 다이어그램의 모양새를 다루"
+"는 것처럼 객체의 정확한 크기 조절 및 위치 지정은 어쨌든 중요합니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:961
+msgid ""
+"Don't use general navigation functions to trigger operations. For example, "
+"do not use basic <keycap>Tab</keycap> keyboard navigation in a dialog to "
+"activate any actions associated with a control."
+msgstr ""
+"동작을 실행할 때 일반 탐색 기능을 활용하지 마십시오. 예를 들자면, 대화상자 상"
+"에서 기본적인 <keycap>Tab</keycap> 키보드 탐색 기능을 컨트롤과 관련한 어떤 동"
+"작에든 활용하지 마십시오."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:966
+msgid ""
+"Show keyboard-invoked menus, windows and tooltips near the object they "
+"relate to. In GNOME 2.0, users can call up popup menus with "
+"<keycombo><keycap>Shift</keycap><keycap>F10</keycap></keycombo>, and "
+"tooltips with <keycombo><keycap>Shift</keycap><keycap>F1</keycap></"
+"keycombo>. Do not completely hide or obscure the object to which the menu or "
+"tooltip refers, however."
+msgstr ""
+"키보드로 실행한 메뉴, 창, 풍선 도움말을 관련 객체 주위에 나타내십시오. 그놈 "
+"2.0에서는 <keycombo><keycap>Shift</keycap><keycap>F10</keycap></keycombo> 키"
+"로 단축 메뉴를 띄울 수 있고, <keycombo><keycap>Shift</keycap><keycap>F1</"
+"keycap></keycombo> 키로 풍선 도움말을 띄울 수 있습니다. 허나 메뉴 또는 풍선 "
+"도움말을 참고하는 객체를 완전히 숨기거나 애매하게 나타내지 마십시오."
+
+#. (itstool) path: section/title
+#. (itstool) path: row/entry
+#: C/index.docbook:974 C/index.docbook:372
+msgid "Mouse Interaction"
+msgstr "마우스 동작"
+
+#. (itstool) path: section/para
+#: C/index.docbook:975
+msgid ""
+"Remember that not everybody can use a mouse with equal dexterity, and that "
+"some users may have difficulty seeing or following the mouse pointer."
+msgstr ""
+"모든 사람이 동일한 마우스 활용 능력을 갖춘게 아니며 일부 사용자는 마우스 포인"
+"터를 따라가보는데 어려움이 있습니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:980
+msgid ""
+"Don't depend on input from mouse button 2 or button 3. As well as being "
+"physically more difficult to click, some pointing devices and many assistive "
+"technology devices only support button 1. Some assistive technologies may "
+"not emulate the mouse at all, but generate keyboard events instead."
+msgstr ""
+"두번째 또는 세번째 마우스 단추 입력에 의존하지 마십시오. 실제로 누르기 어려"
+"운 만큼 일부 지시 장치 및 많은 보조 기술 장치에서는 단추 하나만 지원합니다. "
+"일부 보조 기술은 마우스 동작을 완전히 흉내내는건 아니지만 키보드 동작을 대신 "
+"흉내냅니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:985
+msgid ""
+"Allow all mouse operations to be cancelled. Pressing the <keycap>Esc</"
+"keycap> key should cancel any mouse operation in progress, such as dragging "
+"and dropping a file in a file manager, or drawing a shape in a drawing "
+"program."
+msgstr ""
+"마우스 동작을 취소할 수 있게 하십시오. 파일 관리자에서 파일을 끌어다 놓거나 "
+"그림 프로그램에서 도형을 그리는 등의 마우스 동작 진행시 <keycap>Esc</keycap> "
+"키를 누르면 취소할 수 있어야합니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:990
+msgid ""
+"Provide visual feedback throughout a drag and drop operation. As the mouse "
+"passes over valid targets, highlight them and change the mouse pointer. Use "
+"the \"no drop\" mouse pointer when passing over invalid drop targets. See "
+"<link linkend=\"gad-mouse-examples\">Mouse Interaction Examples</link>."
+msgstr ""
+"끌어다 놓기 동작을 처리할 때 시각 반응 기능을 넣으십시오. 마우스 커서를 올바"
+"른 대상으로 옮길 때 해당 위치를 강조하고 마우스 포인터 모양새를 바꾸십시오. "
+"잘못된 대상 위치로 마우스 포인터를 옮겼다면 \"놓을 수 없음\" 마우스 포인터 커"
+"서를 활용하십시오. <link linkend=\"gad-mouse-examples\">마우스 동작 예제</"
+"link>를 참고하십시오."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:995
+msgid ""
+"Don't warp the mouse pointer, or restrict mouse movement to part of the "
+"screen. This can interfere with assistive technologies, and is usually "
+"confusing even for users who don't rely on ATs."
+msgstr ""
+"마우스 포인터를 멋대로 옮기거나 화면 일부 영역으로 마우스 움직임을 제한하지 "
+"마십시오. 보조 기술을 활용할 때 혼란감을 줄 수 있으며 AT에 의존하지 않는 사용"
+"자에게도 혼란감을 안겨줍니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1000
+msgid ""
+"Don't make mouse targets too small. In general, mouse targets should be at "
+"least the size of the \"hot area\" around the resizable window border in the "
+"current window manager/theme - bearing in mind that a user with impaired "
+"dexterity or vision may be using a window manager with larger areas than the "
+"default."
+msgstr ""
+"마우스 처리 대상을 너무 작게 만들지 마십시오. 보통 마우스 처리 대상은 현재 "
+"창 관리자/테마의 크기 조절 가능 창 테두리 주변에 있는 \"강조 영역\"의 최소한"
+"의 크기여야 합니다. 거동 또는 시각이 불편한 사용자는 기준치보다 더 크고 넓은 "
+"영역을 차지하는 창 관리자를 사용한다는 사실을 숙지하십시오."
+
+#. (itstool) path: section/title
+#: C/index.docbook:1007
+msgid "Mouse Interaction Examples"
+msgstr "마우스 동작 예제"
+
+#. (itstool) path: figure/title
+#: C/index.docbook:1009
+msgid "Example of \"no-drop\" pointer from CDE/Motif"
+msgstr "CDE/Motif에서 \"놓을 수 없음\" 포인터 예제"
+
+#. (itstool) path: figure/mediaobject
+#: C/index.docbook:1010
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/nodrop.png\" format=\"PNG\"/> </"
+"imageobject> <textobject> <phrase>Example of an \"invalid drop target\" "
+"pointer shape</phrase> </textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/nodrop.png\" format=\"PNG\"/> </"
+"imageobject> <textobject> <phrase>\"잘못된 놓기 대상\" 포인터 모양 예제</"
+"phrase> </textobject>"
+
+#. (itstool) path: section/title
+#. (itstool) path: row/entry
+#: C/index.docbook:1023 C/index.docbook:55 C/index.docbook:404
+msgid "Graphical Elements"
+msgstr "그래픽 요소"
+
+#. (itstool) path: section/para
+#: C/index.docbook:1024
+msgid ""
+"Provide options to customize the presentation of all the important graphical "
+"elements in your application. This will make it easier for people with "
+"visual or cognitive impairments to use."
+msgstr ""
+"프로그램에서 중요한 모든 그래픽 항목을 프리젠테이션하도록 개별 설정하는 항목"
+"을 제공하십시오. 이 설정 항목은 시각 장애우 및 인지 장애우에게 편의성을 제공"
+"합니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1029
+msgid ""
+"Don't hard-code graphic attributes such as line, border or shadow thickness. "
+"These elements should ideally be read from the GTK or window manager theme. "
+"If this is not possible, provide options within your application to change "
+"them."
+msgstr ""
+"선, 테두리, 그림자 두께 같은 그래픽 속성 값을 코드에 넣지 마십시오. 이 항목"
+"은 GTK 또는 창 관리자 테마에서 읽는게 바람직합니다. 만약 그렇게 할 수 없다면 "
+"프로그램에서 설정 항목을 제공하여 값을 바꿀 수 있게 하십시오."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1034
+msgid ""
+"Provide descriptive names for all interface components. The GAIL library "
+"provides default accessible descriptions for many GTK widgets, but you will "
+"still need to add your own in some cases, such as for widgets that use "
+"graphics instead of text (e.g. a well in a color palette, or an icon without "
+"a label). Consider overriding the defaults with more helpful or application-"
+"specific descriptions where possible."
+msgstr ""
+"모든 인터페이스 구성 요소에 알아볼 수 있는 이름을 넣으십시오. GAIL 라이브러리"
+"에서는 GTK 위젯에 기본 편의 설명을 제공하지만, 텍스트 대신 그래픽을 활용하는 "
+"위젯(색상 표 또는 레이블 없는 아이콘 과 같은)어떤 경우에는 여러분이 직접 추가"
+"해야합니다. 가능한 곳마다 식별에 더 도움을 주거나 프로그램별 설명을 기본으로 "
+"넣는 방안을 고려해보십시오."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1039
+msgid ""
+"Allow multi-color graphical elements (e.g. toolbar icons) to be shown in "
+"monochrome only, if possible. These monochrome images should be shown in the "
+"system foreground and background colors, which the user will have chosen for "
+"themselves (by their choice of GTK theme) for maximum legibility."
+msgstr ""
+"가능하다면 다중 색상 그래픽 요소(도구 모음 아이콘)를 흑백으로만 볼 수 있게 허"
+"용 하십시오. 흑백 이미지는 사용자가(GTK 테마 선택으로) 최대 가독성 확보를 목"
+"적으로 선택한 시스템 전경 배경색 사이에서도 나타나야 합니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1044
+msgid ""
+"Make interactive GUI elements easily identifiable. For example, do not make "
+"the user hover the mouse over an object to determine whether it is clickable "
+"or not. Leave sufficient space between objects and clearly delineate object "
+"boundaries. Don't show GUI elements that look pretty but don't actually do "
+"anything, unless you also provide an option to switch them off."
+msgstr ""
+"대화식 GUI 요소를 쉽게 식별할 수 있게 하십시오. 객체 클릭 가능 여부를 결정할 "
+"목적으로 마우스를 올려놓게 하지 마십시오. 객체간 충분한 공간을 남겨두고 객체 "
+"경계를 분명히 하십시오. 실제로 아무 동작도할 수 없는 GUI 요소를 사용할 수 없"
+"게 끄는 설정 항목을 제공하기 전에는 예쁘게 보이지 마십시오."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1049
+msgid ""
+"Provide an option to hide graphics that don't convey essential information. "
+"Graphical images can be distracting to users with some cognitive disorders. "
+"The icons on the GNOME foot menu, for example, can be switched off whilst "
+"still leaving the menus fully functional."
+msgstr ""
+"핵심 정보를 전달하지 않는 그래픽은 숨기는 설정 항목을 제공하십시오. 그래픽 이"
+"미지는 사용자에게 혼란을 안겨줄 수 있습니다. 예를 들어, 그놈 발 메뉴 아이콘"
+"이 없어도 메뉴는 제대로 동작하므로 이 아이콘을 숨길 수 있습니다."
+
+#. (itstool) path: section/title
+#. (itstool) path: row/entry
+#: C/index.docbook:1057 C/index.docbook:100 C/index.docbook:438
+msgid "Fonts and Text"
+msgstr "글꼴 및 텍스트"
+
+#. (itstool) path: section/para
+#: C/index.docbook:1058
+msgid ""
+"Even to a user with normal vision, textual output provides the majority of "
+"the information and feedback in most applications. It is therefore critical "
+"to choose and position text carefully on the screen, and leave the choice of "
+"font and size to the user, to ensure that people with vision impairments can "
+"also use your application effectively."
+msgstr ""
+"사용자의 시력이 정상이라 해도 텍스트 출력은 대부분의 프로그램에서 주요 정보이"
+"자 반응요소로 제공합니다. 그렇기 때문에 화면에 텍스트를 조심스레 선택하고 배"
+"치하는 것이 중요하며, 글꼴 및 크기는 사용자의 선택으로 두고, 시각 장애우가 실"
+"질적으로 프로그램을 활용할 수 있는지 확인해보십시오."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1063
+msgid ""
+"Don't hard-code font styles and sizes. The user should be able to adjust all "
+"sizes and typefaces. If for some reason you cannot make this functionality "
+"available, never hardcode any font sizes smaller than 10 points."
+msgstr ""
+"글꼴 모양새와 크기를 코드에 넣지 마십시오. 사용자는 모든 글꼴 크기 및 모양새 "
+"를 조절할 수 있어야합니다. 어떤 이유로 이 기능을 사용하지 못하게 한다면, 글"
+"꼴 크기 값을 10 포인트보다 작게 코드에 넣지 마십시오."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1068
+msgid ""
+"Provide options to turn off any graphical backdrops or \"watermarks\" behind "
+"text. Such images interfere with the contrast between the text and its "
+"background, which can cause difficulty for users with visual impairments."
+msgstr ""
+"텍스트 뒤에 있는 그래픽 배경 또는 \"워터마크\"를 없애는 설정 항목을 제공하십"
+"시오. 일부 이미지는 텍스트와 배경의 대비 혼동을 주어, 시각 장애우 사용자가 화"
+"면의 내용을 알아보는데 어려움을 줍니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1073
+msgid ""
+"Label objects with names that make sense when taken out of context. Users "
+"relying on screen readers or similar assistive technologies will not "
+"necessarily be able to immediately understand the relationship between a "
+"control and those surrounding it."
+msgstr ""
+"컨텍스트를 벗어났을 때 상황에 맞게 객체에 이름을 레이블로 붙이십시오. 스크린 "
+"리더 또는 유사한 보조 기술에 의지하는 사용자에게는 컨트롤과 컨트롤 주변과의 "
+"관계를 즉시 이해하게 할 필요가 없습니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1078
+msgid ""
+"Don't use the same label more than once in the same window. If you use the "
+"same label in different windows, it will help if it means the same thing in "
+"both windows. Also, don't use labels that are spelled differently but sound "
+"the same, e.g. \"Read\" and \"Red\", as this could be confusing for users "
+"relying on screen-readers."
+msgstr ""
+"동일한 창에 레이블을 하나 이상 붙이지 마십시오. 다른 창에 동일한 레이블을 활"
+"용하면 두 창이 동일하다는 의미로 해석할 수 있게 합니다. 또한(\"Read\"나 \"Red"
+"\"와 같은)동음이의어는 스크린 리더에 의지하는 사용자에게 혼동을 주므로 레이블"
+"로 활용하지 마십시오."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1083
+msgid ""
+"Position labels consistently throughout your application. This normally "
+"means immediately below large icons, immediately to the right of small "
+"icons, and immediately above or to the left of other controls. See <link "
+"linkend=\"gad-font-examples\">Fonts and Text Examples</link>."
+msgstr ""
+"프로그램에 레이블을 제 위치에 두십시오. 보통 큰 아이콘 아래, 작은 아이콘 오른"
+"쪽, 다른 컨트롤의 위 또는 왼쪽에 두라는 의미입니다. <link linkend=\"gad-font-"
+"examples\">글꼴 및 텍스트 예제</link>를 참고하십시오."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1088
+msgid ""
+"When you use static text to label a control, end the label with a colon. For "
+"example, <guilabel>Username:</guilabel> to label a text field into which the "
+"user should type their username. This helps identify it as a control's label "
+"rather than an independent item of text."
+msgstr ""
+"컨트롤에 정적 텍스트로 이름을 붙일 때, 레이블 마지막을 콜론으로 끝내십시오. "
+"예를 들어 사용자 이름(ID)을 입력할 텍스트 필드에 이름을 붙일 때 <guilabel>사"
+"용자 이름:</guilabel>으로 적으십시오. 독립 텍스트, 컨트롤의 레이블의 구분을 "
+"돕습니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1093
+msgid ""
+"When you use static text to label a control, ensure that the label "
+"immediately precedes that control in the Tab order. This will ensure that "
+"the mnemonic (underlined character) you assign to the label will move focus "
+"to or activate the correct control when pressed."
+msgstr ""
+"컨트롤에 정적 텍스트로 이름을 붙일 때 탭 순서에 따라 컨트롤의 바로 앞에 레이"
+"블을 붙였는지 확인하십시오. 개발자 여러분이 레이블에 할당한 니모닉(밑줄 문자)"
+"으로 포커스를 이동하거나 누른 컨트롤을 올바르게 활성화해줍니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1098
+msgid ""
+"Provide alternatives to WYSIWYG. Some users may need to print text in a "
+"small font but edit in a larger screen font, for example. Possible "
+"alternatives include displaying all text in the same font and size (both of "
+"which are chosen by the user); a \"wrap-to-window\" option that allows you "
+"to read all the text in a window without scrolling horizontally; a single "
+"column view that shows the window's contents in a single column even if they "
+"will be printed in multiple columns; and a text-only view, where graphics "
+"are shown as placeholders or text descriptions. If the application has "
+"panels with child controls, consider allowing the panels to resize along "
+"with the parent window."
+msgstr ""
+"WYSIWYG 대응 요소를 제공하십시오. 이를테면, 일부 사용자는 작은 글꼴로 텍스트"
+"를 인쇄하지만, 편집할 때는 큰 화면 글꼴로 편집합니다.  가능한 대응 요소에는 "
+"동일한 글꼴 및 크기(를 사용자가 선택)로 모든 텍스트를 표시하는 방안이 있습니"
+"다. \"창 폭에 따라 줄바꾸기\" 설정 항목은 수평 방향으로 스크롤하지 않아도 창"
+"의 모든 텍스트를 볼 수 있게 합니다. 창의 내용을 단일 컬럼에 보여주는 단일 컬"
+"럼 보기는 여러 컬럼으로 나타나도 단일 컬럼으로만 표시합니다. 텍스트 전용 보기"
+"는 그래픽 요소가 예제 또는 텍스트 설명으로 나타나는 곳에 활용합니다. 프로그램"
+"에 하위 컨트롤을 지닌 창이 있다면 상위 창을 따라 패널 크기 조절이 가능하도록 "
+"하는 방안을 고려해보십시오."
+
+#. (itstool) path: section/title
+#: C/index.docbook:1105
+msgid "Fonts and Text Examples"
+msgstr "글꼴 및 텍스트 예제"
+
+#. (itstool) path: figure/title
+#: C/index.docbook:1107
+msgid "Correct label placement for various GUI elements"
+msgstr "다양한 GUI 요소의 올바른 레이블 위치"
+
+#. (itstool) path: entry/mediaobject
+#: C/index.docbook:1113
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/label_above.png\" format=\"PNG\"/"
+"> </imageobject> <textobject> <phrase>List control with label above</phrase> "
+"</textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/label_above.png\" format=\"PNG\"/"
+"> </imageobject> <textobject> <phrase>레이블이 상단에 있는 리스트 컨트롤</"
+"phrase> </textobject>"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:1112
+msgid "<_:mediaobject-1/> List control with label above"
+msgstr "<_:mediaobject-1/> 레이블이 상단에 있는 리스트 컨트롤"
+
+#. (itstool) path: entry/mediaobject
+#: C/index.docbook:1124
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/label_below.png\" format=\"PNG\"/"
+"> </imageobject> <textobject> <phrase>Large file manager icon with label "
+"underneath</phrase> </textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/label_below.png\" format=\"PNG\"/"
+"> </imageobject> <textobject> <phrase>레이블이 하단에 있는 큰 파일 관리자 아"
+"이콘</phrase> </textobject>"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:1123
+msgid "<_:mediaobject-1/> Large file manager icon with label underneath"
+msgstr "<_:mediaobject-1/> 레이블이 하단에 있는 큰 파일 관리자 아이콘"
+
+#. (itstool) path: entry/mediaobject
+#: C/index.docbook:1135
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/label_right.png\" format=\"PNG\"/"
+"> </imageobject> <textobject> <phrase>Small toolbar icon with label to its "
+"right</phrase> </textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/label_right.png\" format=\"PNG\"/"
+"> </imageobject> <textobject> <phrase>레이블이 우측에 있는 작은 도구 모음 아"
+"이콘</phrase> </textobject>"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:1134
+msgid "<_:mediaobject-1/> Small toolbar icon with label to its right"
+msgstr "<_:mediaobject-1/> 레이블이 우측에 있는 작은 도구 모음 아이콘"
+
+#. (itstool) path: entry/mediaobject
+#: C/index.docbook:1146
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/label_left.png\" format=\"PNG\"/> "
+"</imageobject> <textobject> <phrase>Spinbox control with label to its left</"
+"phrase> </textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/label_left.png\" format=\"PNG\"/> "
+"</imageobject> <textobject> <phrase>레이블이 좌측에 있는 스핀 상자 컨트롤</"
+"phrase> </textobject>"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:1145
+msgid "<_:mediaobject-1/> Spinbox control with label to its left"
+msgstr "<_:mediaobject-1/> 레이블이 좌측에 있는 스핀 상자 컨트롤"
+
+#. (itstool) path: section/title
+#. (itstool) path: row/entry
+#: C/index.docbook:1165 C/index.docbook:121 C/index.docbook:490
+msgid "Color and Contrast"
+msgstr "색상 및 대비"
+
+#. (itstool) path: section/para
+#: C/index.docbook:1166
+msgid ""
+"Poor choice of colors on the screen can cause problems for users with color "
+"blindness (for whom hue is important) or low-vision (for whom brightness/"
+"contrast is important). Generally, you should allow the user to customize "
+"the colors in any part of your application that conveys important "
+"information."
+msgstr ""
+"잘못된 화면 색상 선택은(색상이 중요한) 색맹 사용자 또는 근시 사용자(명도/대비"
+"가 중요)에게 불편을 초래할 수 있습니다. 보통 사용자가 프로그램 일부의 색상을 "
+"직접 설정하여 프로그램에서 중요한 정보를 명확하게 나타낼 수 있게 해야합니다."
+
+#. (itstool) path: section/para
+#: C/index.docbook:1169
+msgid ""
+"Users with visual impairments may require a high level of contrast between "
+"the background and text colors. Often a black background and white text is "
+"used to prevent the background from \"bleeding\" over. These settings are "
+"critical for users with visual impairments."
+msgstr ""
+"시각 장애우 사용자는 배경과 텍스트 색상의 고대비 처리가 필요합니다. 배경 색상"
+"으로 \"충혈\"이 일어나는 상황을 피하려 종종 검은 바탕에 흰 글씨를 사용합니"
+"다. 이 설정은 시각 장애우 사용자에게 매우 중요합니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1174
+msgid ""
+"Don't hard-code application colors. Some users need to use particular "
+"combinations of colors and levels of contrast to be able to read the screen "
+"comfortably. Therefore all the main colors you use in your GNOME application "
+"should be taken from the GTK theme, so the user can set the colors for all "
+"their applications to something legible just by changing the theme. If for "
+"some reason you do need to use colors that are not available in the theme, "
+"ensure they are customizable within the application itself."
+msgstr ""
+"프로그램 색상 설정 값을 코드에 넣지 마십시오. 일부 사용자는 화면을 편하게 보"
+"려고 색상 조합과 대비 값을 설정해야합니다.따라서 그놈 프로그램에서 활용하는 "
+"모든 주요 색상은 GTK 테마에서 가져와야 하며, 단지 테마만 바꾸는 과정을 통해 "
+"프로그램의 모든 내용을 또렷하게 볼 수 있도록 색상을 설정할 수 있습니다. 어떤 "
+"이유로 테마에 없는 색상을 사용해야 한다면, 프로그램 자체에서 설정할 수 있는"
+"지 확인하십시오."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1179
+msgid ""
+"Don't use color as the only means to distinguish items of information. All "
+"such information should be provided by at least one other method, such as "
+"shape, position or textual description. See <link linkend=\"gad-color-"
+"examples\">Color and Contrast Examples</link>."
+msgstr ""
+"정보 항목을 식별하는 목적 만드로 색상을 활용하지 마십시오. 모든 해당 정보는 "
+"최소한 도형, 위치, 텍스트 설명 등 한가지 이상의 방식으로 제공해야합니다. "
+"<link linkend=\"gad-color-examples\">색상 대비 예제</link>를 참고하십시오."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1184
+msgid ""
+"Support all the high contrast GNOME themes. Ensure that when one of these "
+"themes is selected, all the text in your application appears in the high "
+"contrast foreground and background colors specified by the theme."
+msgstr ""
+"모든 고대비 그놈 테마를 지원하십시오. 고대비 테마중 하나를 설정하면 프로그램"
+"의 모든 텍스트를 테마에서 정한 전경, 배경색의 고대비로 나타나는지 확인하십시"
+"오."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1189
+msgid ""
+"Ensure your application is not dependent on a particular high-contrast "
+"theme. Test it with different high-contrast themes to ensure your "
+"application respects the settings."
+msgstr ""
+"프로그램이 일부 고대비 테마에 의존하지 않는지 확인하십시오. 여러가지 고대비 "
+"테마로 시험하여 프로그램이 설정 상태를 만족하는지 확인하십시오."
+
+#. (itstool) path: section/title
+#: C/index.docbook:1196
+msgid "Color and Contrast Examples"
+msgstr "색상 및 대비 예제"
+
+#. (itstool) path: example/title
+#: C/index.docbook:1198
+msgid "Example illustrating redundant use of color"
+msgstr "색상 중복 사용 표현 예제"
+
+#. (itstool) path: entry/mediaobject
+#: C/index.docbook:1204
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/color_only.png\" format=\"PNG\"/> "
+"</imageobject> <textobject> <phrase>Example showing changes in stock price "
+"using color only</phrase> </textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/color_only.png\" format=\"PNG\"/> "
+"</imageobject> <textobject> <phrase>색상만 활용하여 주가 변동을 보여주는 예제"
+"</phrase> </textobject>"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:1213
+msgid ""
+"This display could cause problems for a red-green color-blind user (color-"
+"blindness affects as many as 1 in 7 males in some parts of the world). The "
+"lack of contrast between the red text and black background would also make "
+"it hard to read for a user with low vision, even with a screen magnifier."
+msgstr ""
+"이 화면은 적녹 색맹 사용자(전세계 7명중 1명의 남성에게 생맥 증상이 있음)에게 "
+"문제를 일으킬 수 있습니다. 대비가 떨어지는 적색 글씨와 흑색 배경은 화면 돋보"
+"기를 활용한다 해도 저시력 사용자가 알아보기 어렵게 합니다."
+
+#. (itstool) path: entry/mediaobject
+#: C/index.docbook:1219
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/color_and_arrows.png\" format="
+"\"PNG\"/> </imageobject> <textobject> <phrase>Example showing changes in "
+"stock price using both color and arrows</phrase> </textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/color_and_arrows.png\" format="
+"\"PNG\"/> </imageobject> <textobject> <phrase>색상 및 화살표를 활용하여 주가 "
+"변동을 보여주는 예제</phrase> </textobject>"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:1228
+msgid ""
+"This display reinforces the color-coding with arrows to show the stock price "
+"movement, and uses darker shades of green and red on a lighter background to "
+"provide higher contrast. This needn't be the default color scheme if testing "
+"were to show it to be too distracting for the majority of users, but it "
+"should be possible to customize it in this way either by theming or via the "
+"application's <guilabel>Preferences</guilabel> dialog."
+msgstr ""
+"주가 변동을 보여줄 때 색상 표시에 화살표를 넣어 보강한 화면이며, 녹색, 적색"
+"에 어두운 그림자를 넣고 배경을 밝게 하여 대비를 늘렸습니다. 주요 사용자가 보"
+"기에 꺼림칙한 반응을 보이기에 기본 색상 배치로 둘 필요는 없지만, 테마를 지정"
+"하거나 프로그램 <guilabel>기본 설정</guilabel> 대화상자를 통해 개별적으로 설"
+"정할 수 있습니다."
+
+#. (itstool) path: section/title
+#. (itstool) path: row/entry
+#: C/index.docbook:1240 C/index.docbook:525
+msgid "Magnification"
+msgstr "확대/축소"
+
+#. (itstool) path: section/para
+#: C/index.docbook:1241
+msgid ""
+"Many users, even those not visually impaired, benefit from magnification of "
+"text and graphics. However, without magnification, a visually impaired user "
+"may not be able to access and use the program at all."
+msgstr ""
+"대부분의 사용자는, 심지어 시각 장애우들에게는, 텍스트 및 그래픽 돋보기의 도움"
+"을 받습니다. 허나 돋보기가 없으면 시각 장애우는 프로그램을 찾아 활용할 수 없"
+"을지도 모릅니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1246
+msgid "Provide the ability for the user to magnify the work area."
+msgstr "사용자가 작업 영역을 확대/축소하는 기능을 제공하십시오."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1251
+msgid ""
+"Provide options in the application to scale the work area. Users need to "
+"have an option to magnify the work area 150% to 400% or more. Test the "
+"application to confirm the object you are viewing is not affected by "
+"changing the magnification settings."
+msgstr ""
+"프로그램에서 작업 영역의 크기를 조절하는 설정 항목을 제공하십시오. 사용자는 "
+"작업 영역을 1.5배 내기는 4배 크기로 확대하는 설정 항목이 필요합니다. 돋보기 "
+"설정을 바꿀 때 여러분이 바라보는 대상에 영향을 주지 않는지 확인하여 프로그램"
+"을 시험해보십시오."
+
+#. (itstool) path: section/title
+#. (itstool) path: row/entry
+#: C/index.docbook:1259 C/index.docbook:152 C/index.docbook:554
+msgid "Audio"
+msgstr "음성"
+
+#. (itstool) path: section/para
+#: C/index.docbook:1260
+msgid ""
+"People who have difficulty hearing, as well as those who work with the sound "
+"on their computers turned off, will be disadvantaged if your application "
+"relies on sound to convey information. In general, make sure that the user "
+"is able to have any audible information conveyed in other ways."
+msgstr ""
+"난청 사용자, 컴퓨터의 소리를 끄고 일하는 사용자에겐 프로그램이 정보를 전달할 "
+"때 소리에 의존할 경우 제약을 받습니다. 일반적으로, 사용자가 다른 방식으로 잘 "
+"들리는 정보를 접할 수 있는지 확인하십시오."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1265
+msgid ""
+"Don't assume that a user will hear audio information. This applies as much "
+"to users with broken soundcards as it does to those with hearing impairments!"
+msgstr ""
+"사용자가 음성 정보를 들을 수 있다고 단정하지 마십시오. 망가진 사운드카드를 보"
+"유한 사용자는 물론이고 청각 장애우에게도 해당합니다!"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1270
+msgid ""
+"Don't use audio as the only means of conveying information. Give the user "
+"the option to have all audio information provided in a visual way as well. "
+"This includes providing closed captioning or transcripts for any important "
+"spoken sound clips."
+msgstr ""
+"오디오를 단지 정보전달 수단으로만 사용하지 마십시오. 마찬가지로 모든 음성 정"
+"보를 시각적인 방법으로 전달하는 설정 항목도 제공하십시오. 일부 중요한 음성 사"
+"운드 클립의 자막이나 녹취록도 포함입니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1275
+msgid ""
+"Allow users to configure frequency and volume of all warning beeps and other "
+"sounds. This includes being able to turn off sound altogether."
+msgstr ""
+"모든 경고 비프음과 다른 소리의 재생 주파수와 음량을 사용자가 설정할 수 있게 "
+"하십시오. 소리를 모두 끌 수 있는 기능도 포함입니다."
+
+#. (itstool) path: section/title
+#. (itstool) path: row/entry
+#: C/index.docbook:1283 C/index.docbook:179 C/index.docbook:578
+msgid "Animation"
+msgstr "애니메이션"
+
+#. (itstool) path: section/para
+#: C/index.docbook:1284
+msgid ""
+"Used sparingly, animation can be useful for drawing attention to important "
+"information in your application - and it can look cool, too. However, it can "
+"be problematic for some users, so make sure they can turn it off."
+msgstr ""
+"드물게 활용하는 애니메이션은 프로그램의 중요한 정보를 주목할 요소를 그릴 때 "
+"쓸만합니다. 그리고 멋지게 보일 수 있습니다. 허나, 일부 사용자에겐 이게 문제"
+"가 될 수 있어, 해당 사용자가 끌 수 있는지 확인하십시오."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1289
+msgid ""
+"Don't use flashing or blinking elements having a frequency greater than 2 Hz "
+"and lower than 55 Hz. This includes text as well as any graphical objects. "
+"Anything in this frequency range may cause particular problems for users "
+"susceptible to visually-induced seizures. Note that there is no \"safe\" "
+"frequency, though. If flashing is essential, you should use the system's "
+"cursor blink frequency (which should itself be customizable), or allow users "
+"to configure the frequency themselves."
+msgstr ""
+"번쩍이거나 깜빡이는 요소의 깜빡임 빈도를 초당 2회 이상 55회 미만으로 구현하"
+"지 마십시오. 어떤 그래픽 객체와 마찬가지로 텍스트에도 해당합니다. 이 빈도 범"
+"위는 시각 요소에 의한 발작에 예민한 사용자에게 문제를 일으킵니다. 참고로 \"안"
+"전한\" 깜빡임 빈도란 없습니다. 깜빡임 동작이 중요하다면 시스템 커서 깜짝임 주"
+"기 값(자체적으로 설정할 수 있음)을 활용하거나, 사용자가 깜빡임 빈도를 설정할 "
+"수 있게 하십시오."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1294
+msgid ""
+"Don't flash or blink large areas of the screen. Small areas are less likely "
+"to trigger seizures in those susceptible to them."
+msgstr ""
+"화면의 대부분 영역을 번쩍이거나 깜빡이게 하지 마십시오. 좁은 영역을 깜빡일 수"
+"록 이런 요소에 민감한 사용자의 발작 가능성을 줄입니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1299
+msgid ""
+"Make all animations optional. The animated information should be available "
+"in at least one non-animated format, at the user's request."
+msgstr ""
+"모든 애니메이션을 따로 설정할 수 있게 하십시오. 움직이는 정보는 최소한 사용자"
+"의 요구에 따라 움직이지 않는 형식 하나는 있어야합니다."
+
+#. (itstool) path: section/title
+#. (itstool) path: row/entry
+#: C/index.docbook:1307 C/index.docbook:189 C/index.docbook:607
+msgid "Keyboard Focus"
+msgstr "키보드 포커스"
+
+#. (itstool) path: section/para
+#: C/index.docbook:1308
+msgid ""
+"Showing the keyboard focus position clearly at all times is important, both "
+"for users with vision impairments as well as \"power-users\" who prefer to "
+"use the keyboard rather than the mouse. There should never be any confusion "
+"as to which control on the desktop has focus at any given time. You ought to "
+"be able to leave your computer with the focus on any widget in your "
+"application, then go off and phone your girlfriend or walk the dog until "
+"you've forgotten which widget you left it on. When you return, you should be "
+"able to tell straight away exactly which widget it was."
+msgstr ""
+"시각 장애우 뿐만 아니라 키보드를 마우스보다 더 선호하는 \"고급 사용자\" 들을 "
+"위해 키보드 포커스 위치를 언제나 분명하게 나타내는 것이 중요합니다. 주어진 시"
+"간 언제든 데스크톱의 어떤 컨트롤에든 포커스를 올려놓아 혼동을 주지 말아야합니"
+"다. 프로그램의 어떤 위젯에든 포커스를 올려놓은 상태에서 컴퓨터 앞을 벗어난 "
+"후, 여자친구랑 통화를 한다거나, 다루던 위젯이 어떤 위젯인지 잊을 때까지 개랑 "
+"산책을 할 수 있어야겠지요. 돌아온 다음에는 어떤 위젯을 다루고 있었는지 바로 "
+"알아볼 수 있도록 나타내야합니다."
+
+#. (itstool) path: section/para
+#: C/index.docbook:1311
+msgid ""
+"A visual focus indicator is an audio representation of the cursor position "
+"relative to the other objects on the desktop. This allows the user to move "
+"among objects interactively as the focus changes. The visual focus must be "
+"programmatically exposed to assistive technologies. Note that in most cases, "
+"this is handled automatically by the ATK, without requiring you to do any "
+"additional work. However, you will need to be aware of this requirement when "
+"writing your own custom widgets, for example."
+msgstr ""
+"시각 포커스 표시는 데스크톱의 다른 객체와 관계된 커서 위치의 음성 표현입니"
+"다. 이 수단 덕분에 포커스 위치가 바뀌어도 사용자가 어떤 객체에 대해서든 이리"
+"저리 포커스를 옮길 수 있습니다. 시각 포커스는 보조 기술에 프로그램상에서 노출"
+"해야합니다. 대부분의 경우 ATK에서 별도로 처리해야 할 일 없이 자동으로 처리해"
+"줍니다. 하지만 개별 위젯을 자체적으로 작성한다면 다음 과정이 필요합니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1316
+msgid ""
+"Start focus at the most commonly used control. If no control in a window is "
+"deemed to be the \"most\" useful, start the focus at the first control in "
+"the window when that window is opened. Focus should not be started on the "
+"<guilabel>OK</guilabel> or <guilabel>Cancel</guilabel> buttons of a dialog "
+"even if they are the most commonly used controls, as they can always be "
+"activated immediately by pressing <keycap>Enter</keycap> or <keycap>Escape</"
+"keycap>."
+msgstr ""
+"주로 활용하는 컨트롤에 포커스를 두어 시작하십시오. \"가장\" 쓸모있는 창의 컨"
+"트롤이 없는 것 같다면, 창을 열었을 때 가장 먼저 나타나는 컨트롤에 포커스를 두"
+"십시오. 대화 상자의 <guilabel>확인</guilabel> 단추 또는 <guilabel>취소</"
+"guilabel> 단추는 <keycap>Enter</keycap>키 또는 <keycap>Escape</keycap> 키로 "
+"바로 언제든 활성화할 수 있기 때문에 대부분 주로 활용 하는 컨트롤이라 해도 우"
+"선적으로 포커스를 두면 안됩니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1321
+msgid ""
+"Show current input focus clearly at all times. Remember that in controls "
+"that include a scrolling element, it is not always sufficient to highlight "
+"just the selected element inside that scrolling area, as it may not be "
+"visible. See <link linkend=\"gad-focus-examples\">Keyboard Focus Examples</"
+"link>."
+msgstr ""
+"언제든 현재 입력 위치에 포커스를 분명하게 보여주십시오. 스크롤 요소가 있는 컨"
+"트롤에서는 스크롤 영역안에서 선택하여 강조한 요소를 나타나지 않을 때도 있으므"
+"로 항상 만족스럽진 않을지도 모릅니다. <link linkend=\"gad-focus-examples\">키"
+"보드 포커스 예제</link>를 참고하십시오."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1326
+msgid ""
+"Show input focus only in the active window. Hide all primary visual focus "
+"indicators in all windows that do not have the focus and activation. If a "
+"single window has separate panes, only one pane should have the focus "
+"indicator, and focus indicators should be hidden in all other panes. If it's "
+"important to continue showing which item in an unfocused list is selected, "
+"for example, use a secondary focus indicator. See <link linkend=\"gad-focus-"
+"examples\">Keyboard Focus Examples</link>."
+msgstr ""
+"활성 창의 입력 포커스만 보여주십시오. 포커스가 없거나 활성화하지 않은 모든 창"
+"의 기본 시각 포커스 표시는 숨겨두십시오. 단일 창에 분할 창이 있다면, 하나의 "
+"창에 포커스 표시를 두시고, 다른 창의 포커스 표시는 숨겨야합니다. 포커스를 올"
+"려두지 않은 목록에서 어떤 항목을 계속 선택할 경우 중요한데 이때 2차 포커스 표"
+"시를 활용하십시오. <link linkend=\"gad-focus-examples\">키보드 포커스 예제</"
+"link>를 참고하십시오."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1331
+msgid ""
+"Provide appropriate feedback when the user attempts to navigate past the end "
+"of a group of related objects. When navigating a list, for example, stopping "
+"with audio feedback is usually preferable to moving the focus back to the "
+"first object in the list. Otherwise, users who are blind or have low vision "
+"may not realize they have returned to the beginning. In the case of a text "
+"search in a document, a dialog may pop up to indicate that the end of the "
+"document has been reached, and ask if you want to resume the search at the "
+"start of the document."
+msgstr ""
+"관련 객체 그룹의 마지막 이전을 탐색하려 할 경우 적당한 반응 요소를 제공하십시"
+"오. 목록을 탐색할 경우 음성을 출력하면서 멈추면 목록의 처음 객체로 포커스를 "
+"되돌라는 것보다 낫습니다. 그렇지 않으면, 장님, 저시력자의 경우 처음으로 돌아"
+"왔는지 깨닫지 못합니다. 문서에서 텍스트를 검색할 때 문서의 마지막에 도달하면 "
+"대화 상자가 나타나고 문서의 처음 부분부터 다시 검색할 지 물어봅니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1336
+msgid ""
+"Play the system default audio or visual warning signal when the user presses "
+"an inappropriate key, or when a navigation key fails to move the focus. For "
+"example, when the focus is on the first character in a text field and the "
+"user presses left arrow key, or the user tries to perform multiple selection "
+"in a single selection dialog. (Note that users with hearing difficulties "
+"should be able to configure a system-wide visual equivalent to the default "
+"warning sound.)"
+msgstr ""
+"사용자가 부적절한 키를 눌렀을 때 또는 탐색 키 조작 과정에서 포커스 이동에 실"
+"패했을 경우 시스템 기본 소리 또는 시각 경고 표시를 재생하십시오. 포커스가 텍"
+"스트 필드의 첫번째 문자에 둔 상태에서 왼쪽 화살표 키를 누르거나 단일 선택 대"
+"화상자에서 여러 요소 선택을 시도할 경우를 예로 들어볼 수 있습니다(난청 사용자"
+"는 기본 경고음과 동일한 시스템 시각 알림을 설정할 수 있어야합니다)."
+
+#. (itstool) path: section/title
+#: C/index.docbook:1343
+msgid "Keyboard Focus Examples"
+msgstr "키보드 포커스 예제"
+
+#. (itstool) path: example/title
+#: C/index.docbook:1344
+msgid "Example illustrating need to show focus clearly"
+msgstr "포커스를 분명하게 보여줄 부분을 표현하는 예제"
+
+#. (itstool) path: entry/mediaobject
+#: C/index.docbook:1350
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/badfocus1.png\" format=\"PNG\"/> "
+"</imageobject> <textobject> <phrase>The focused item in this window cannot "
+"be seen because it has been scrolled off-screen</phrase> </textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/badfocus1.png\" format=\"PNG\"/> "
+"</imageobject> <textobject> <phrase>이 창에서 포커스를 올려둔 항목은 화면 밖"
+"으로 스크롤을 통해 나갔기 때문에 나타낼 수 없습니다</phrase> </textobject>"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:1359
+msgid ""
+"One of the controls in this window has focus, but it's impossible to tell "
+"which..."
+msgstr ""
+"이 창에 있는 컨트롤 하나에 포커스를 두었지만 다음과 같이 할 수는 없습니다..."
+
+#. (itstool) path: entry/mediaobject
+#: C/index.docbook:1365
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/badfocus2.png\" format=\"PNG\"/> "
+"</imageobject> <textobject> <phrase>The focused item in the list has been "
+"brought into view by scrolling the list</phrase> </textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/badfocus2.png\" format=\"PNG\"/> "
+"</imageobject> <textobject> <phrase>목록에 포커스를 올려둔 항목은 목록을 스크"
+"롤 하여 뷰에 나타냅니다</phrase> </textobject>"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:1374
+msgid ""
+"...until you scroll the list, which reveals that one of its items is "
+"currently selected."
+msgstr "...현재 선택한 항목을 나타내는 목록을 스크롤 하기 이전까지."
+
+#. (itstool) path: entry/mediaobject
+#: C/index.docbook:1380
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/goodfocus.png\" format=\"PNG\"/> "
+"</imageobject> <textobject> <phrase>The list control in this example has a "
+"solid border indicating focus, whether its selected item is currently "
+"visible or not</phrase> </textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/goodfocus.png\" format=\"PNG\"/> "
+"</imageobject> <textobject> <phrase>이 예제의 리스트 컨트롤은 포커스를 나타내"
+"는 선 테두리가 있으며, 선택한 항목을 볼 수 있는지 없는지를 나타냅니다</"
+"phrase> </textobject>"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:1389
+msgid ""
+"If the list control itself is given a \"focused\" border, it's easy to tell "
+"it has focus even when the currently-selected item isn't visible."
+msgstr ""
+"리스트 컨트롤 자체에 \"포커스\" 테두리가 있다면, 현재 선택한 항목이 나타나지 "
+"않을 경우 포커스가 있음을 쉽게 알릴 수 있습니다."
+
+#. (itstool) path: example/title
+#: C/index.docbook:1398
+msgid "Example illustrating use of secondary focus"
+msgstr "2차 포커스 표현 예제"
+
+#. (itstool) path: entry/mediaobject
+#: C/index.docbook:1404
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/badfocus3.png\" format=\"PNG\"/> "
+"</imageobject> <textobject> <phrase>Split-paned window in which both panes "
+"seem to have focus</phrase> </textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/badfocus3.png\" format=\"PNG\"/> "
+"</imageobject> <textobject> <phrase>두 창에 포커스를 올려놓은 것 같은 분할 창"
+"</phrase> </textobject>"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:1413
+msgid ""
+"In this example, it's impossible to tell just by looking which of the two "
+"panes actually has keyboard focus."
+msgstr ""
+"이 예제에서, 실제로 키보드 포커스를 지닌 두개의 창을 바라보기란 불가능합니다."
+
+#. (itstool) path: entry/mediaobject
+#: C/index.docbook:1419
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/goodfocus3.png\" format=\"PNG\"/> "
+"</imageobject> <textobject> <phrase>Split-pane window in which secondary "
+"highlighting is used to show which pane has focus</phrase> </textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/goodfocus3.png\" format=\"PNG\"/> "
+"</imageobject> <textobject> <phrase>어떤 창에 포커스를 올려놓았는지 보여주는 "
+"2차 강조 분할 창</phrase> </textobject>"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:1428
+msgid ""
+"By using a secondary selection highlight color in the inactive pane, it's "
+"immediately obvious that the tree control has focus here..."
+msgstr ""
+"비활성 창의 2차 선택 강조 색상을 활용하여 트리 컨트롤에 포커스를 올려놓았음"
+"을 단박에 알아채게 했습니다..."
+
+#. (itstool) path: entry/mediaobject
+#: C/index.docbook:1434
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/goodfocus2.png\" format=\"PNG\"/> "
+"</imageobject> <textobject> <phrase>Split-pane window in which secondary "
+"highlighting is used to show which pane has focus</phrase> </textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/goodfocus2.png\" format=\"PNG\"/> "
+"</imageobject> <textobject> <phrase>어떤 창에 포커스를 올려놓았는지 보여주는 "
+"2차 강조 분할 창</phrase> </textobject>"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:1443
+msgid "...and that the list control has focus here."
+msgstr "...그리고 리스트 컨트롤에 포커스를 주었습니다."
+
+#. (itstool) path: section/title
+#. (itstool) path: row/entry
+#: C/index.docbook:1455 C/index.docbook:656
+msgid "Timing"
+msgstr "타이밍"
+
+#. (itstool) path: section/para
+#: C/index.docbook:1456
+msgid ""
+"Interfaces in which things appear, disappear or happen according to some "
+"hard-coded time limit are often a hindrance to accessibility. Some users may "
+"read, type or react very slowly in comparison to others. If information they "
+"require is hidden before they are finished with it, or obscured by other "
+"information popping up which they didn't explicitly request, then your "
+"application will become very frustrating or even impossible to use."
+msgstr ""
+"코드로 직접 제한 시간을 넣어 인터페이스를 나타내거나 숨기거나 하면 종종 접근"
+"성을 떨어트립니다. 일부 사용자는 다른 사용자에 비해 읽고 입력하고 반응하는 일"
+"련의 동작이 상당히 느립니다. 사용자가 필요한 정보를 끝까지 확인하기 전에 숨기"
+"거나 분명하게 요청하지 않은 내용이 떠서 가린다면, 프로그램 사용자는 상당한 불"
+"만을 느끼거나 사용하지 않을 수도 있습니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1461
+msgid ""
+"Don't hard-code timeouts or other time-based features. Examples include "
+"automatic scrolling when dragging an object towards the edge of a window, "
+"holding down a scrollbar button, or automatically expanding a tree node when "
+"an object is dragged over it and held for a short time. These should either "
+"be customizable in the application, the GNOME control center, or at worst, "
+"manually editable from the command line via a configuration file or GConf "
+"entry."
+msgstr ""
+"제한 시간 또는 다른 시간 기반 기능을 코드에 직접 넣지 마십시오. 창 가장자리"
+"를 따라 스크롤 바 단추를 잡고 끌어 내릴 때 자동으로 움직이는 경우 또는 객체"
+"를 트리 구조에 올려놓으면 짧은 시간에 펼쳐지는 경우를 예로 들어보겠습니다. 이"
+"와 같은 경우는 그놈 제어 센터 프로그램에서 자체적으로 설정할 수 있어야 하거"
+"나 최악의 경우에는 설정 파일 또는 GConf 항목을 통해 명령행에서 직접 설정할 "
+"수 있어야합니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1466
+msgid ""
+"Don't briefly show or hide information based on the movement of the mouse "
+"pointer. (Exception: system-provided features such as tooltips, which the "
+"user can configure on a system-wide level). If you must provide such "
+"features, make them optional so users can turn them off when a screen-review "
+"utility is installed."
+msgstr ""
+"마우스 포인터의 움직임에 따라 정보를 간단하게 보이거거나 숨기지 마십시오(예"
+"외: 시스템에서 전반적으로 사용자가 설정할 수 있게 풍선 도움말로 제공하는 기"
+"능).제각각의 기능을 제공해야 한다면, 별도의 설정 항목으로 만들어 사용자가 화"
+"면 검토 유틸리티를 설정했을 때 켜고 끌 수 있게 하십시오."
+
+#. (itstool) path: section/title
+#. (itstool) path: row/entry
+#: C/index.docbook:1474 C/index.docbook:205 C/index.docbook:680
+msgid "Documentation"
+msgstr "문서"
+
+#. (itstool) path: section/para
+#: C/index.docbook:1475
+msgid ""
+"People with disabilities cannot use the application effectively if they do "
+"not have access to the required manuals and help files. Of particular "
+"importance is keyboard navigation, since this is the only way many users can "
+"navigate the application."
+msgstr ""
+"신체적 불편을 지닌 사람은 필요한 설명서와 도움말 파일을 볼 수 없다면 프로그램"
+"을 제대로 활용할 수 없습니다. 대부분의 사용자에게 프로그램을 둘러볼 수 있게 "
+"하는 키보드 탐색 기능은 특히 중요한 측면이 있습니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1480
+msgid ""
+"Provide all documentation in an accessible format. ASCII text and HTML are "
+"both excellent formats for assistive technologies."
+msgstr ""
+"접근 가능한 모든 형식으로 문서를 제공하십시오. ASCII 텍스트 및 HTML 형식 둘 "
+"다 보조 기술에 최적인 형식입니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1485
+msgid ""
+"Provide alternative text descriptions for all graphics in the documentation."
+msgstr "문서에 모든 그래픽 구성요소에 대한 대체 텍스트 설명을 붙이십시오."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:1490
+msgid ""
+"Document all your application's accessibility features. Keyboard navigation "
+"and shortcuts are particularly important to document. Include an "
+"accessibility section in your documentation, where information on all the "
+"accessibility features can be found."
+msgstr ""
+"프로그램의 모든 접근성 기능을 문서로 기록하십시오. 키보드 탐색 기능 및 바로 "
+"가기 키는 문서에서 특히 중요합니다.문서에 모든 편의성 기능 설명을 제공하는 접"
+"근성 부분을 넣으십시오."
+
+#. (itstool) path: chapter/title
+#: C/index.docbook:2
+msgid "Testing"
+msgstr "시험"
+
+#. (itstool) path: chapter/para
+#: C/index.docbook:3
+msgid ""
+"There are several points of review to conduct before declaring an "
+"application accessible. Over the course of development you may want to "
+"consider automated testing techniques. <ulink url=\"http://ldtp.freedesktop."
+"org/\">LDTP</ulink>, for example, may complement your automated testing plan."
+msgstr ""
+"프로그램 접근 가능성을 선언하기 전 몇가지 검토해볼 접점이 있습니다. 개발을 진"
+"행하는 동안 시험 기술 자동화를 고려해볼 수도 있습니다. 예를 들어 <ulink url="
+"\"http://ldtp.freedesktop.org/\">LDTP</ulink>에서는 지동화 시험 계획을 보조합"
+"니다."
+
+#. (itstool) path: chapter/para
+#: C/index.docbook:6
+msgid ""
+"This section describes a number of tests you can perform manually on an "
+"application to test its accessibility. Passing all the tests does not "
+"necessarily imply that the application is fully accessible, but if the "
+"application fails any of these tests, then further work may need to be done "
+"to improve that aspect of its accessibility."
+msgstr ""
+"이 부분에서는 프로그램에서 직접 시험해볼 수 있는 몇가지 접근성 테스트를 언급"
+"합니다. 프로그램의 편의성을 완벽하게 갖추는데 있어 모든 시험을 통과할 필요는 "
+"없지만, 어떤 시험 항목을 통과하지 못하면 편의성 관점에서 개선해야 할 어떤 일"
+"이 있을 수도 있습니다."
+
+#. (itstool) path: section/para
+#: C/index.docbook:12
+msgid ""
+"The following keyboard operations should be tested. Do not use the mouse in "
+"any part of this test."
+msgstr ""
+"다음 키보드 동작을 시험하십시오. 어떤 부분에 있어서도 시험 과정에서 마우스를 "
+"사용하지 마십시오."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:17
+msgid ""
+"Using only keyboard commands, move the focus through all menu bars in the "
+"application."
+msgstr ""
+"키보드 명령만 사용하여 프로그램의 모든 메뉴 표시줄의 포커스를 이동하십시오."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:22
+msgid "Confirm that:"
+msgstr "다음을 확인하십시오:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:25
+msgid "Context sensitive menus display correctly."
+msgstr "상황 기반 메뉴를 올바르게 표시합니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:30
+msgid ""
+"Any functions listed on the toolbar can be performed using the keyboard."
+msgstr "도구 모음에 나타난 어떤 기능도 키보드로 처리할 수 있습니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:35
+msgid ""
+"You can operate every control in the client area of the application and "
+"dialog boxes."
+msgstr "프로그램의 클라이언트 영역 및 대화상자를 모두 제어할 수 있습니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:40
+msgid "Text and objects within the client area can be selected."
+msgstr "클라이언트 영역의 모든 텍스트 및 객체를 선택할 수 있습니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:45
+msgid "Any keyboard enhancements or shortcuts are working as designed."
+msgstr "키보드 부가 기능 또는 바로 가기 키가 설계대로 동작합니다."
+
+#. (itstool) path: section/para
+#: C/index.docbook:56
+msgid "Test the application using a screen reader and confirm that:"
+msgstr "스크린 리더를 활용하는 프로그램을 시험하여 다음을 확인하십시오:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:61
+msgid "Labels and text are being read correctly, including menus and toolbars."
+msgstr "메뉴 및 도구모음에 레이블과 텍스트를 올바르게 읽습니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:66
+msgid "Object information is read correctly."
+msgstr "객체 정보를 올바르게 읽습니다."
+
+#. (itstool) path: section/title
+#: C/index.docbook:74
+msgid "Visual Focus Indicator"
+msgstr "시각 포커스 표시자"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:77
+msgid ""
+"Verify that when moving among objects that the visual focus indicator is "
+"easy to identify."
+msgstr "객체간 이동하는 시각 포커스 표시를 쉽게 알아볼 수 있는지 확인하십시오."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:82
+msgid ""
+"Keyboard navigation through the software and menus should be clearly visible "
+"when the focus moves."
+msgstr ""
+"포커스를 이동할 때 프로그램 및 메뉴의 키보드 탐색 표시가 분명하게 나타나야합"
+"니다."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:87
+msgid ""
+"Confirm that the screen reader is tracking the visual focus indicator as you "
+"navigate using a keyboard."
+msgstr ""
+"여러분이 키보드로 이리저리 둘러보는 동안 스크린 리더가 시각 포커스 표시자를 "
+"따라가는지 확인하십시오."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:92
+msgid ""
+"Run a screen magnification program (if available) and verify that the "
+"magnifier can track the visual focus indicator as you navigate using the "
+"keyboard and mouse."
+msgstr ""
+"(가능하다면)화면 확대 프로그램을 실행하고, 여러분이 키보드로 이리저리 둘러보"
+"는 동안 돋보기가 시각 포커스 표시를 따라갈 수 있는지 확인하십시오."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:103
+msgid ""
+"Change the font in the application and confirm that the settings are "
+"maintained."
+msgstr "프로그램에서 글꼴을 바꾸고 설정 여부를 확인하십시오."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:108
+msgid ""
+"Test the application by changing colors and confirm that all settings are "
+"maintained."
+msgstr "프로그램의 색상 바꾸기를 시험하고 설정 여부를 확인하십시오."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:113
+msgid ""
+"If magnification is available, test the font, color, and size using the "
+"magnification option."
+msgstr ""
+"돋보기를 활용할 수 있다면, 돋보기 옵션을 활용하여 글꼴, 색상, 크기를 시험하십"
+"시오."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:124
+msgid ""
+"Print screenshots to a black and white printer and confirm that all "
+"information is visible."
+msgstr ""
+"흑백 인쇄기로 화면 사진을 인쇄하여 모든 정보가 나타나는지 확인하십시오."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:129
+msgid ""
+"Test applications using only black and white, high-contrast settings and "
+"confirm that all information is conveyed correctly."
+msgstr ""
+"흑백, 고대비 설정 상태에서 프로그램을 시험하고 모든 정보를 올바르게 보여주는"
+"지 확인하십시오."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:134
+msgid ""
+"Test that the application provides at least three combinations of color "
+"schemes and that high-contrast schemes are available (e.g. white on black or "
+"yellow on blue)."
+msgstr ""
+"최소한 세가지 이상의 색상 설정 조합과 고대비 색상 설정(흑백, 황청) 상태에서 "
+"프로그램을 시험하십시오."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:139
+msgid ""
+"Turn on high-contrast settings in the GNOME Control Center and confirm that "
+"the application respects these settings."
+msgstr ""
+"그놈 제어 센터에서 고대비 설정을 활성화하고 프로그램이 이 설정을 소화하는지 "
+"확인하십시오."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:144
+msgid ""
+"Test various themes to ensure that the software is working for all the "
+"available settings."
+msgstr ""
+"다양한 테마를 시험하여 프로그램이 가능한 모든 설정에서 동작하는지 확인하십시"
+"오."
+
+#. (itstool) path: section/para
+#: C/index.docbook:153
+msgid ""
+"There should be an option in the application to show audio alerts visually."
+msgstr "음성 알림을 시각으로 보여주는 프로그램의 설정 항목이 있어야합니다."
+
+#. (itstool) path: section/para
+#: C/index.docbook:156
+msgid ""
+"Test that the audio is working correctly by enabling sound in the GNOME "
+"Control Center and then perform the following actions:"
+msgstr ""
+"그놈 제어 센터의 소리 기능을 활성화하여 음성 재생이 동작하는지 시험하시고 다"
+"음 과정을 수행하십시오:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:161
+msgid ""
+"Perform an action that should generate an audio alert and confirm that the "
+"application is working as designed."
+msgstr ""
+"음성 경고가 뜨는  동작을 수행해보시고 프로그램이 의도 대로 동작하는지 확인하"
+"십시오."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:166
+msgid ""
+"Verify that the application works correctly when increasing or decreasing "
+"the volume."
+msgstr ""
+"음량을 증가하거나 감소할 때 프로그램이 올바르게 동작하는지 확인하십시오."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:171
+msgid ""
+"Confirm that warning messages and alerts can be heard correctly in a noisy "
+"work environment."
+msgstr ""
+"경고 메시지 및 경고음이 시끄러운 환경에서 분명하기 들리는지 확인하십시오."
+
+#. (itstool) path: section/para
+#: C/index.docbook:180
+msgid ""
+"Verify that an option is available to stop animation and that it is working "
+"as designed."
+msgstr ""
+"애니메이션을 멈출 수 있는 설정 항목이 있는지 확인하시고 의도 대로 동작하는지 "
+"확인하십시오."
+
+#. (itstool) path: section/para
+#: C/index.docbook:183
+msgid ""
+"Turn the animation off. Confirm that all information is still conveyed "
+"correctly."
+msgstr ""
+"애니메이션을 끄십시오. 모든 정보를 여전히 올바르게 보여주는지 확인하십시오."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:192
+msgid ""
+"Test all messages to confirm that the user is notified before a message "
+"times out and is given the option to indicate that more time is needed."
+msgstr ""
+"모든 메시지를 확인하여 메시지 표시 제한 시간을 넘기기 전 사용자가 인지하는"
+"지, 메시지를 나타낼 시간이 더 필요할 때 설정할 항목이 있는지 확인하십시오."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:197
+msgid ""
+"Make sure an option has been included to adjust the response time and "
+"confirm that it is working as designed."
+msgstr ""
+"응답 시간을 조절할 설정 항목을 넣었는지 확인하시고 의도 대로 동작하는지 확인"
+"하십시오."
+
+#. (itstool) path: section/para
+#: C/index.docbook:206
+msgid ""
+"Test ASCII text documentation with a screen reader to confirm that it is "
+"clear and precise and can be read by assistive technologies."
+msgstr ""
+"ASCII 텍스트 문서를 스크린 리더에서 읽게 시험하고, 분명하고  정확하게 읽는"
+"지, 보조 기술로 읽을 수 있는지 확인하십시오."
+
+#. (itstool) path: section/para
+#: C/index.docbook:209
+msgid ""
+"Test HTML applications using a web browser and screen reader to confirm that "
+"the documentation is accessible to assistive technologies."
+msgstr ""
+"웹 브라우저 및 스크린 리터로 HTML 프로그램을 시험하시고 보조 기술로 문서에 접"
+"근할 수 있는지 확인하십시오."
+
+#. (itstool) path: section/para
+#: C/index.docbook:212
+msgid ""
+"Note: There are web accessibility guidelines available at <ulink url="
+"\"http://www.w3.org/TR/WAI-WEBCONTENT/\">http://www.w3.org/TR/WAI-WEBCONTENT/"
+"</ulink>."
+msgstr ""
+"참고: <ulink url=\"http://www.w3.org/TR/WAI-WEBCONTENT/\">http://www.w3.org/"
+"TR/WAI-WEBCONTENT/</ulink> 링크에 웹 접근성 지침서가 있습니다."
+
+#. (itstool) path: section/para
+#: C/index.docbook:215
+msgid "Confirm the following information is included in the documentation:"
+msgstr "문서에 다음 내용을 넣었는지 확인하십시오:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:220
+msgid ""
+"State if the application does not support the standard keyboard access used "
+"by the OS."
+msgstr ""
+"운영체제에서 사용하는 표준 키보드 단축키 접근에 대해 프로그램의 지원 여부를 "
+"분명히 나타내는가."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:225
+msgid "Identify if there are unique keyboard commands."
+msgstr "유일 키보드 명령이 있는 경우를 나타내는가."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:230
+msgid "Identify any unique accessibility features."
+msgstr "접근성 기능 동작이 유일함을 나타내는가."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:235
+msgid ""
+"If an action is documented for the mouse, make sure there is an alternative "
+"for using the keyboard."
+msgstr ""
+"마우스 동작을 문서화했다면 키보드를 사용한 대체 방안이 있는지 확인하십시오."
+
+#. (itstool) path: section/title
+#: C/index.docbook:243
+msgid "User Interface Checklist"
+msgstr "사용자 인터페이스 확인 목록"
+
+#. (itstool) path: section/para
+#: C/index.docbook:244
+msgid ""
+"This section summarizes the guidelines given in <link linkend=\"gad-ui-"
+"guidelines\">User Interface Guidelines for Supporting Accessibility</link>. "
+"You should refer to that section of the guide for more detailed information "
+"on any of the checklist items given here."
+msgstr ""
+"이 섹션은 <link linkend=\"gad-ui-guidelines\">사용자 인터페이스의 접근성 지"
+"원 지침서</link>에 제시한 지침의 요약 부분입니다. 여기에 제시한 확인 목록의 "
+"항목에 띄운 자세한 정보의 섹션별 안내를 참고하십시오."
+
+#. (itstool) path: section/para
+#: C/index.docbook:247
+msgid ""
+"When testing an application for accessibility, you should go through each of "
+"the items in the list. Note whether the application passes or fails each "
+"test, or does not apply to that application."
+msgstr ""
+"프로그램의 편의성을 시험하려면, 목록의 각 항목을 따라야합니다. 프로그램이 각 "
+"항목의 요구사항을 만족하는지, 프로그램에 적용하지 않았는지 확인하십시오."
+
+#. (itstool) path: table/title
+#: C/index.docbook:251
+msgid "General Principles checklist"
+msgstr "일반 원리 확인 목록"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:255
+msgid "GP"
+msgstr "GP"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:256
+msgid "General Principles"
+msgstr "일반 원리"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:257 C/index.docbook:294 C/index.docbook:373
+#: C/index.docbook:405 C/index.docbook:439 C/index.docbook:491
+#: C/index.docbook:526 C/index.docbook:555 C/index.docbook:579
+#: C/index.docbook:608 C/index.docbook:657 C/index.docbook:681
+msgid "Pass/Fail/NA"
+msgstr "통과/확인/없음"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:262
+msgid "GP.1"
+msgstr "GP.1"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:263
+msgid ""
+"Every action that alters the user's data or application's settings can be "
+"undone."
+msgstr ""
+"사용자의 데이터 또는 프로그램 설정을 바꾸는 모든 동작은 도중에 멈출 수 있습니"
+"다."
+
+#. (itstool) path: row/entry
+#: C/index.docbook:268
+msgid "GP.2"
+msgstr "GP.2"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:269
+msgid ""
+"All application settings can be restored to their defaults without the user "
+"having to remember what those defaults were."
+msgstr ""
+"사용자가 기본 설정을 기억하지 않아도 모든 포르개렘 설정을 기본 값으로 복원할 "
+"수 있습니다."
+
+#. (itstool) path: row/entry
+#: C/index.docbook:274
+msgid "GP.3"
+msgstr "GP.3"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:275
+msgid ""
+"After installation, the application can be used without the user having to "
+"insert a disk or CD at any time."
+msgstr ""
+"설치가 끝나면, 사용자가 디스크 또는 CD를 언제든 직접 넣지 않아도 프로그램을 "
+"사용할 수 있습니다."
+
+#. (itstool) path: row/entry
+#: C/index.docbook:279
+msgid "GP.4"
+msgstr "GP.4"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:280
+msgid ""
+"The most frequently used functions are found at the top level of the menu "
+"structure."
+msgstr "가장 자주 사용하는 기능은 메뉴 구조상 최상단에서 찾을 수 있습니다."
+
+#. (itstool) path: table/title
+#: C/index.docbook:288
+msgid "Keyboard navigation checklist"
+msgstr "키보드 탐색 확인 목록"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:292
+msgid "KN"
+msgstr "KN"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:299
+msgid "KN.1"
+msgstr "KN.1"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:300
+msgid "Efficient keyboard access is provided to all application features."
+msgstr "모든 프로그램의 기능에 대해 효율적인 키보드 접근 수단을 제공합니다."
+
+#. (itstool) path: row/entry
+#: C/index.docbook:304
+msgid "KN.2"
+msgstr "KN.2"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:305
+msgid "All windows have a logical keyboard navigation order."
+msgstr "모든 창에 논리적인 키보드 탐색 순서를 부여합니다."
+
+#. (itstool) path: row/entry
+#: C/index.docbook:308
+msgid "KN.3"
+msgstr "KN.3"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:309
+msgid ""
+"The correct tab order is used for controls whose enabled state is dependent "
+"on checkboxes, radio buttons or toggle buttons."
+msgstr ""
+"확인 상자, 라디오 단추, 토글 단추에 대해 어떤 상태를 활성화할 지 컨트롤에 올"
+"바른 탭 순서를 적용합니다."
+
+#. (itstool) path: row/entry
+#: C/index.docbook:313
+msgid "KN.4"
+msgstr "KN.4"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:314
+msgid ""
+"Keyboard access to application-specific functions does not override existing "
+"system accessibility features."
+msgstr ""
+"프로그램별 기능에 접근할 키보드는 기존의 시스템 접근성 기능을 무력화하지 않습"
+"니다."
+
+#. (itstool) path: row/entry
+#: C/index.docbook:318
+msgid "KN.5"
+msgstr "KN.5"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:319
+msgid ""
+"The application provides more than one method to perform keyboard tasks "
+"whenever possible."
+msgstr ""
+"가능할 경우 프로그램에서 처리할 키보드 처리 수단을 하나 이상 제공합니다."
+
+#. (itstool) path: row/entry
+#: C/index.docbook:323
+msgid "KN.6"
+msgstr "KN.6"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:324
+msgid "There are alternative key combinations wherever possible."
+msgstr "가능한 어디든 대체 단축키가 있습니다."
+
+#. (itstool) path: row/entry
+#: C/index.docbook:328
+msgid "KN.7"
+msgstr "KN.7"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:329
+msgid ""
+"There are no awkward reaches for frequently performed keyboard operations."
+msgstr "주로 실행하는 키보드 동작을 다룰 때 불편함이 없습니다."
+
+#. (itstool) path: row/entry
+#: C/index.docbook:333
+msgid "KN.8"
+msgstr "KN.8"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:334
+msgid "The application does not use repetitive, simultaneous keypresses."
+msgstr "프로그램은 반복적인, 동시 키 누름 동작을 활용하지 않습니다."
+
+#. (itstool) path: row/entry
+#: C/index.docbook:338
+msgid "KN.9"
+msgstr "KN.9"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:339
+msgid "The application provides keyboard equivalents for all mouse functions."
+msgstr ""
+"프로그램에서는 키보드 누름과 동일한 동작을 하는 모든 마우스 기능을 제공합니"
+"다."
+
+#. (itstool) path: row/entry
+#: C/index.docbook:343
+msgid "KN.10"
+msgstr "KN.10"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:344
+msgid ""
+"Any text or object that can be selected with the mouse can also be selected "
+"with the keyboard alone."
+msgstr ""
+"마우스로 선택할 수 있는 어떤 텍스트 및 객체든 키보드 만으로도 선택할 수 있습"
+"니다."
+
+#. (itstool) path: row/entry
+#: C/index.docbook:348
+msgid "KN.11"
+msgstr "KN.11"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:349
+msgid ""
+"Any object that can be resized or moved with the mouse can also be resized "
+"or moved with the keyboard alone."
+msgstr ""
+"마우스로 크기를 조절하거나 이동할 수 있는 객체는 키보드만드로도 크기를 조절하"
+"거나 옮길 수 있습니다."
+
+#. (itstool) path: row/entry
+#: C/index.docbook:353
+msgid "KN.12"
+msgstr "KN.12"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:354
+msgid ""
+"The application does not use any general navigation functions to trigger "
+"operations."
+msgstr "프로그램에서 동작을 처리할 때 어떤 일반 탐색 기능도 활용하지 않습니다."
+
+#. (itstool) path: row/entry
+#: C/index.docbook:358
+msgid "KN.13"
+msgstr "KN.13"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:359
+msgid ""
+"All keyboard-invoked menus, windows and tooltips appear near the object they "
+"relate to."
+msgstr ""
+"키보드로 실행하는 모든 메뉴, 창, 풍선 도움말은 관련 대상 객체 근처에 나타냅니"
+"다."
+
+#. (itstool) path: table/title
+#: C/index.docbook:367
+msgid "Mouse Interaction checklist"
+msgstr "마우스 동작 확인 목록"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:371
+msgid "MI"
+msgstr "MI"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:377
+msgid "MI.1"
+msgstr "MI.1"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:378
+msgid ""
+"No operations depend on input from the <mousebutton>right</mousebutton> or "
+"<mousebutton>middle</mousebutton> mouse buttons."
+msgstr ""
+"마우스 <mousebutton>오른쪽</mousebutton> 단추 또는 <mousebutton>가운데</"
+"mousebutton> 단추 입력에 의존하도록 처리하지 않습니다."
+
+#. (itstool) path: row/entry
+#: C/index.docbook:381
+msgid "MI.2"
+msgstr "MI.2"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:382
+msgid "All mouse operations can be cancelled before they are complete."
+msgstr "모든 마우스 동작은 처리가 끝나기 전에 취소할 수 있습니다."
+
+#. (itstool) path: row/entry
+#: C/index.docbook:385
+msgid "MI.3"
+msgstr "MI.3"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:386
+msgid "Visual feedback is provided throughout drag and drop operations"
+msgstr "끌어다 놓기 동작시 시각적 반응 효과를 제공합니다."
+
+#. (itstool) path: row/entry
+#: C/index.docbook:390
+msgid "MI.4"
+msgstr "MI.4"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:391
+msgid ""
+"The mouse pointer is never warped under application control, or its movement "
+"restricted to part of the screen by the application."
+msgstr ""
+"마우스 포인터는 프로그램 컨트롤을 건너뛰거나 프로그램으로 화면 일부 영역 안에"
+"서 움직이도록 제한하지 않습니다."
+
+#. (itstool) path: table/title
+#: C/index.docbook:399
+msgid "Graphical Elements checklist"
+msgstr "그래픽 요소 확인 목록"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:403
+msgid "GE"
+msgstr "GE"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:409
+msgid "GE.1"
+msgstr "GE.1"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:410
+msgid ""
+"There are no hard-coded graphical attributes such as line, border or shadow "
+"thickness."
+msgstr "선, 테두리, 그림자 두께 같은 그래픽 속성값을 코드에 넣지 않습니다."
+
+#. (itstool) path: row/entry
+#: C/index.docbook:414
+msgid "GE.2"
+msgstr "GE.2"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:415
+msgid ""
+"All multi-color graphical elements can be shown in monochrome only, where "
+"possible."
+msgstr ""
+"모든 다중 색상 그래픽 요소는 가능한 경우 흑백만으로도 나타낼 수 있습니다."
+
+#. (itstool) path: row/entry
+#: C/index.docbook:419
+msgid "GE.3"
+msgstr "GE.3"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:420
+msgid ""
+"All interactive GUI elements are easily distinguishable from static GUI "
+"elements."
+msgstr ""
+"모든 대화식 GUI 구성 요소는 정적 GUI 요소와 쉽게 구별할 수 있어야 합니다."
+
+#. (itstool) path: row/entry
+#: C/index.docbook:424
+msgid "GE.4"
+msgstr "GE.4"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:425
+msgid "An option to hide non-essential graphics is provided."
+msgstr "중요하지 않은 그래픽 요소를 숨기는 설정 항목을 제공합니다."
+
+#. (itstool) path: table/title
+#: C/index.docbook:433
+msgid "Fonts and Text checklist"
+msgstr "글꼴 및 글자 확인 목록"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:437
+msgid "FT"
+msgstr "FT"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:443
+msgid "FT.1"
+msgstr "FT.1"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:444
+msgid "No font styles or sizes are hard-coded."
+msgstr "글꼴 모양새나 크기를 코드에 직접 넣지 않습니다."
+
+#. (itstool) path: row/entry
+#: C/index.docbook:446
+msgid "FT.2"
+msgstr "FT.2"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:447
+msgid "An option to turn off graphical backdrops behind text is provided."
+msgstr "텍스트 뒤에 나타나는 그래픽 배경을 끄는 설정 항목을 제공합니다."
+
+#. (itstool) path: row/entry
+#: C/index.docbook:451
+msgid "FT.3"
+msgstr "FT.3"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:452
+msgid "All labels have names that make sense when taken out of context."
+msgstr ""
+"모든 레이블은 컨텍스트를 벗어났을 때 알아차리 수 있도록 이름을 가집니다."
+
+#. (itstool) path: row/entry
+#: C/index.docbook:456
+msgid "FT.4"
+msgstr "FT.4"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:457
+msgid "No label names are used more than once in the same window."
+msgstr "동일한 창에서 레이블 이름을 두 번 이상 활용하지 않습니다."
+
+#. (itstool) path: row/entry
+#: C/index.docbook:461
+msgid "FT.5"
+msgstr "FT.5"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:462
+msgid "Label positioning is consistent throughout the application."
+msgstr "프로그램의 레이블 위치는 이곳 저곳에 정해놓습니다."
+
+#. (itstool) path: row/entry
+#: C/index.docbook:466
+msgid "FT.6"
+msgstr "FT.6"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:467
+msgid "All static text labels that identify other controls end in a colon (:)."
+msgstr "다른 컨트롤을 식별하는 모든 정적 텍스트 레이블은 콜론(:)으로 끝납니다."
+
+#. (itstool) path: row/entry
+#: C/index.docbook:471
+msgid "FT.7"
+msgstr "FT.7"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:472
+msgid ""
+"Static text labels that identify other controls immediately precede those "
+"controls in the tab order."
+msgstr ""
+"다른 컨트롤을 식별하는 정적 텍스트 레이블은 탭 순서상 바로 앞에 위치합니다."
+
+#. (itstool) path: row/entry
+#: C/index.docbook:476
+msgid "FT.8"
+msgstr "FT.8"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:477
+msgid ""
+"An alternative to WYSIWYG is provided. For example, the ability to specify "
+"different screen and printer fonts in a text editor."
+msgstr ""
+"위지윅 대체 수단을 제공합니다. 이를테면, 화면과 프린터 글꼴을 텍스트 편집기에"
+"서 다르게 지정할 수 있게 합니다."
+
+#. (itstool) path: table/title
+#: C/index.docbook:485
+msgid "Color and Contrast checklist"
+msgstr "색상 및 대비 체크 리스트"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:489
+msgid "CC"
+msgstr "CC"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:495
+msgid "CC.1"
+msgstr "CC.1"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:496
+msgid ""
+"Application colors are not hard-coded, but are drawn either from the current "
+"desktop theme or an application setting."
+msgstr ""
+"프로그램 색상은 코드에 직접 넣지 않지만, 현재 데스크톱 테마 또는 프로그램 설"
+"정에 따라 나타납니다."
+
+#. (itstool) path: row/entry
+#: C/index.docbook:500
+msgid "CC.2"
+msgstr "CC.2"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:501
+msgid ""
+"Color is only used as an enhancement, and not as the only means to convey "
+"information or actions."
+msgstr ""
+"색상은 강조 용도로만 사용하며 정보 또는 동작을 전달하는 의미만으로 활용하지 "
+"않습니다."
+
+#. (itstool) path: row/entry
+#: C/index.docbook:506
+msgid "CC.3"
+msgstr "CC.3"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:507
+msgid ""
+"The application supports all available high- contrast themes and settings."
+msgstr "이 프로그램은 모든 고대비 테마와 설정을 지원합니다."
+
+#. (itstool) path: row/entry
+#: C/index.docbook:511
+msgid "CC.4"
+msgstr "CC.4"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:512
+msgid ""
+"The software is not dependent on any particular high-contrast themes or "
+"settings."
+msgstr "프로그램은 특정 고대비 테마 또는 설정에 의존하지 않습니다."
+
+#. (itstool) path: table/title
+#: C/index.docbook:520
+msgid "Magnification checklist"
+msgstr "돋보기 기능 확인 목록"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:524
+msgid "MG"
+msgstr "MG"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:530
+msgid "MG.1"
+msgstr "MG.1"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:531
+msgid "The application provides the ability to magnify the work area."
+msgstr "프로그램에서는 작업 영역 보기를 확대하는 기능을 제공합니다."
+
+#. (itstool) path: row/entry
+#: C/index.docbook:535
+msgid "MG.2"
+msgstr "MG.2"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:536
+msgid "The application provides the option to scale the work area."
+msgstr "프로그램에서는 작업 영역의 크기를 조절하는 설정 항목을 제공합니다."
+
+#. (itstool) path: row/entry
+#: C/index.docbook:540
+msgid "MG.3"
+msgstr "MG.3"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:541
+msgid ""
+"The application's functionality is not affected by changing the "
+"magnification or scale settings."
+msgstr "프로그램의 기능은 확대, 크기 설정을 바꿀 때 영향을 받지 않습니다."
+
+#. (itstool) path: table/title
+#: C/index.docbook:549
+msgid "Audio checklist"
+msgstr "오디오 확인 목록"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:553
+msgid "AU"
+msgstr "AU"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:559
+msgid "AU.1"
+msgstr "AU.1"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:560
+msgid ""
+"Sound is not used as the only means of conveying any items of information."
+msgstr "어떤 항목의 정보를 전달하려는 의미로만 소리를 활용하지 않습니다."
+
+#. (itstool) path: row/entry
+#: C/index.docbook:564
+msgid "AU.2"
+msgstr "AU.2"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:565
+msgid ""
+"The user can configure the frequency and volume of all sounds and warning "
+"beeps."
+msgstr ""
+"모든 음성과 경고 비프음의 주파수 및 음량을 사용자가 설정할 수 있습니다."
+
+#. (itstool) path: table/title
+#: C/index.docbook:573
+msgid "Animation checklist"
+msgstr "애니메이션 확인 목록"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:577
+msgid "AN"
+msgstr "AN"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:583
+msgid "AN.1"
+msgstr "AN.1"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:584
+msgid ""
+"There are no flashing or blinking elements with a frequency greater than 2Hz "
+"or lower than 55Hz."
+msgstr ""
+"번쩍이거나 깜빡이는 요소의 효과는 초당 2번 이상 55번 이하로 나타내지 않습니"
+"다."
+
+#. (itstool) path: row/entry
+#: C/index.docbook:588
+msgid "AN.2"
+msgstr "AN.2"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:589
+msgid "Any flashing or blinking is confined to small areas of the screen."
+msgstr "번쩍이거나 깜빡이는 효과는 화면의 좁은 영역에 한정합니다."
+
+#. (itstool) path: row/entry
+#: C/index.docbook:593
+msgid "AN.3"
+msgstr "AN.3"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:594
+msgid ""
+"If animation is used, an option is available to turn it off before it is "
+"first shown."
+msgstr ""
+"애니메이션을 사용한다면 처음 나타나기 전에 끌 수 있는 옵션을 제공합니다."
+
+#. (itstool) path: table/title
+#: C/index.docbook:602
+msgid "Keyboard Focus checklist"
+msgstr "키보드 포커싱 확인 목록"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:606
+msgid "KF"
+msgstr "KF"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:612
+msgid "KF.1"
+msgstr "KF.1"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:613
+msgid ""
+"When a window is opened, focus starts at the most commonly-used control."
+msgstr "창을 열면 주로 사용하는 컨트롤에 포커스를 맞춘 채로 시작합니다."
+
+#. (itstool) path: row/entry
+#: C/index.docbook:617
+msgid "KF.2"
+msgstr "KF.2"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:618
+msgid "Current input focus position is clearly displayed at all times."
+msgstr "현재 입력 포커스 위치는 언제든 분명하게 나타냅니다."
+
+#. (itstool) path: row/entry
+#: C/index.docbook:622
+msgid "KF.3"
+msgstr "KF.3"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:623
+msgid "Input focus is shown in exactly one window at all times."
+msgstr "입력 포커스는 항상 하나의 창에 분명하게 나타냅니다."
+
+#. (itstool) path: row/entry
+#: C/index.docbook:627
+msgid "KF.4"
+msgstr "KF.4"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:628
+msgid ""
+"Appropriate audio or visual feedback is provided when the user attempts to "
+"navigate past either end of a group of related objects."
+msgstr ""
+"사용자가 관련 그룹 객체의 이전 및 끝자락을 탐색할 때 적당한 음성 또는 시각 반"
+"응을 제공합니다."
+
+#. (itstool) path: row/entry
+#: C/index.docbook:632
+msgid "KF.5"
+msgstr "KF.5"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:633
+msgid ""
+"The default audio or visual warning signal is played when the user presses "
+"an inappropriate key."
+msgstr ""
+"사용자가 잘못된 키를 눌렀을 경우 기본 음성, 시각 경고 알림을 재생합니다."
+
+#. (itstool) path: row/entry
+#: C/index.docbook:637
+msgid "KF.6"
+msgstr "KF.6"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:638
+msgid ""
+"There is sufficient audio information for the visual focus that the user can "
+"figure out what to do next."
+msgstr ""
+"사용자가 다음 과정에 할 수 있는 동작에 대한 시각 포커스에 대한 충분한 음성 정"
+"보를 제공합니다."
+
+#. (itstool) path: row/entry
+#: C/index.docbook:642
+msgid "KF.7"
+msgstr "KF.7"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:643
+msgid ""
+"When using assistive technologies, such as a screen reader or braille "
+"device, the current program indicates the position and content of the visual "
+"focus indicator."
+msgstr ""
+"스크린 리더 또는 점자 장치 등의 보조 기술을 활용한다면, 현재 프로그램의 위치"
+"와 시각 포커스 표시 내용을 나타냅니다."
+
+#. (itstool) path: table/title
+#: C/index.docbook:651
+msgid "Timing checklist"
+msgstr "타이밍 확인 목록"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:655
+msgid "TM"
+msgstr "TM"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:661
+msgid "TM.1"
+msgstr "TM.1"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:662
+msgid ""
+"There are no hard-coded time-outs or time-based features in the application."
+msgstr ""
+"프로그램에는 코드에 직접 넣은 제한 시간 또는 시간 기반 기능을 넣지 않습니다."
+
+#. (itstool) path: row/entry
+#: C/index.docbook:666
+msgid "TM.2"
+msgstr "TM.2"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:667
+msgid ""
+"The display or hiding of important information is not triggered solely by "
+"movement of the mouse pointer."
+msgstr ""
+"마우스 포인터 커서를 움직일 때 중요한 정보를 나타내거나 숨기는 동작을 단독으"
+"로 처리하지 않습니다."
+
+#. (itstool) path: table/title
+#: C/index.docbook:675
+msgid "Documentation checklist"
+msgstr "문서 확인 목록"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:679
+msgid "DC"
+msgstr "DC"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:685
+msgid "DC.1"
+msgstr "DC.1"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:686
+msgid ""
+"All documentation is in an accessible format, with textual alternate "
+"descriptions provided for all figures and diagrams."
+msgstr ""
+"모든 문서에는 모든 그림과 도식에 텍스트 대체 설명이 담긴 편의 형식을 갖추고 "
+"있습니다."
+
+#. (itstool) path: row/entry
+#: C/index.docbook:690
+msgid "DC.2"
+msgstr "DC.2"
+
+#. (itstool) path: row/entry
+#: C/index.docbook:691
+msgid ""
+"The documentation includes a section that covers all the application's "
+"accessibility features."
+msgstr "문서에는 프로그램의 접근성 기능을 다루는 섹션이 담겨있습니다."
+
+#. (itstool) path: section/title
+#: C/index.docbook:701
+msgid "GOK (GNOME Onscreen Keyboard)"
+msgstr "GOK (그놈 화면 키보드)"
+
+#. (itstool) path: note/para
+#: C/index.docbook:703
+msgid ""
+"The information on this page is partially outdated: GNOME 3's "
+"<application><ulink url=\"http://wiki.gnome.org/Caribou\">Caribou</ulink></"
+"application> has effectively replaced GNOME 2's <application>gok</"
+"application>."
+msgstr ""
+"이 페이지의 정보는 오래됐습니다. 그놈 2의 <application>gok</application>는 사"
+"실상 그놈 3의 <application><ulink url=\"http://wiki.gnome.org/Caribou\">칼리"
+"부</ulink></application> 로 바뀌었습니다."
+
+#. (itstool) path: section/para
+#: C/index.docbook:708
+msgid ""
+"Your application should be usable via <application>gok</application>; key "
+"input should be generated entirely by <application>gok</application>, not "
+"the keyboard. The aim here would be to work with your application and the "
+"desktop in general, ensuring any type of character input can be performed "
+"with the on-screen keyboard."
+msgstr ""
+"<application>gok</application>로도 프로그램을 활용할 수 있어야합니다. 키보드"
+"가 아닌 <application>gok</application>로도 키 입력을 처리할 수 있어야합니다. "
+"보통 화면 키보드로 문자 입력을 처리할 수 있는지 여부를 확인하여 프로그램과 데"
+"스크톱에서 동작하게 하는게 목표입니다."
+
+#. (itstool) path: section/para
+#: C/index.docbook:711
+msgid ""
+"The <application>gok</application> application ships with the GNOME Desktop "
+"so should already be present. For full documentation, refer to <ulink url="
+"\"http://www.gok.ca\">the official gok site</ulink>."
+msgstr ""
+"<application>gok</application> 프로그램은 그놈 데스크톱 모음에 실려있으므로 "
+"이미 나타나야합니다. 전체 문서는 <ulink url=\"http://www.gok.ca\">공식 gok 사"
+"이트</ulink>를 참고하십시오."
+
+#. (itstool) path: section/para
+#: C/index.docbook:714
+msgid ""
+"Follow these steps to verify the correct operation of <application>gok</"
+"application> with your application:"
+msgstr ""
+"프로그램에 올바른 <application>gok</application> 동작을 확인하려면 다음 단계"
+"를 따르십시오:"
+
+#. (itstool) path: step/para
+#: C/index.docbook:719
+msgid "Login into the GNOME desktop"
+msgstr "그놈 데스크톱에 로그인하십시오"
+
+#. (itstool) path: step/para
+#: C/index.docbook:724
+msgid "Run <application>gok</application>"
+msgstr "<application>gok</application>를 실행하십시오"
+
+#. (itstool) path: step/para
+#: C/index.docbook:729
+msgid "Start your application"
+msgstr "프로그램을 시작하십시오"
+
+#. (itstool) path: step/para
+#: C/index.docbook:734
+msgid ""
+"Provide input to your application with a pointing device (e.g., mouse or "
+"head-tracker) and <application>gok</application>."
+msgstr ""
+"지시 장치(마우스 또는 헤드 트래커)로 프로그램과 <application>gok</"
+"application>에 입력하십시오."
+
+#. (itstool) path: step/para
+#: C/index.docbook:739
+msgid ""
+"Work using the auto-completion and word prediction features of "
+"<application>gok</application>."
+msgstr ""
+"<application>gok</application>의 자동 완성 및 단어 예측 기능을 활용해보십시"
+"오."
+
+#. (itstool) path: step/para
+#: C/index.docbook:744
+msgid ""
+"Verify that <application>gok</application> enables and disables the "
+"<guibutton>Menus</guibutton> and <guibutton>Toolbars</guibutton> buttons "
+"based on the kind of application invoked; for example, the <guibutton>Menus</"
+"guibutton> and <guibutton>Toolbars</guibutton> buttons are disabled for the "
+"'Font properties' capplet, but the same buttons are enabled for the "
+"<application>Gedit</application> application."
+msgstr ""
+"실행 프로그램에 따라  <application>gok</application>에서 <guibutton>메뉴</"
+"guibutton>단추 및 <guibutton>도구 모음</guibutton>단추를 활성화 내지는 비활성"
+"화했는지 확인하십시오. 일례로, <guibutton>메뉴</guibutton>단추와 <guibutton>"
+"도구 모음</guibutton> 단추는 '글꼴 속성'에서 비활성화하지만, <application>지"
+"에디트</application> 프로그램에선 동일한 단추를 활성화합니다."
+
+#. (itstool) path: step/para
+#: C/index.docbook:749
+msgid ""
+"Verify that the <application>gok</application> on-screen keyboard provided "
+"by the <guibutton>Compose</guibutton> button can be used to type in any text "
+"for the selected application; run <application>Gedit</application>, click on "
+"the text area, and then click on the <guibutton>Compose</guibutton> button "
+"in <application>gok</application>. Select the required keys from the on-"
+"screen keyboard. The characters should appear in the <application>Gedit</"
+"application> text area."
+msgstr ""
+"<guibutton>작성</guibutton> 단추를 눌렀을 때 나타나는 <application>gok</"
+"application> 화면 키보드에서 선택한 프로그램에 텍스트를 입력할 수 있는지 확인"
+"하십시오. <application>지에디트</application>를 실행하고 텍스트 입력 부분을 "
+"누른 후, <application>gok</application>에서 <guibutton>작성</guibutton> 단추"
+"를 누르십시오. 화면 키보드에서 필요한 키를 선택하십시오. <application>지에디"
+"트</application> 텍스트 영역에 문자가 나타나야합니다."
+
+#. (itstool) path: step/para
+#: C/index.docbook:754
+msgid ""
+"Verify that the <guibutton>Launcher</guibutton> button allows the user to "
+"launch any of the <application>Terminal</application>, <application>Web "
+"Browser</application> or <application>Text Editor</application> applications."
+msgstr ""
+"사용자가 <guibutton>실행 아이콘</guibutton> 단추를 누르면 <application>터미널"
+"</application>, <application>웹 브라우저</application>, <application>텍스트 "
+"편집기</application> 프로그램 중 하나를 실행할 수 있는지 확인하십시오."
+
+#. (itstool) path: step/para
+#: C/index.docbook:759
+msgid ""
+"Verify that the <guibutton>Activate</guibutton> button allows the user to "
+"activate any of the currently running application windows on the user's "
+"desktop, including GNOME panels and the GNOME desktop."
+msgstr ""
+"사용자가 <guibutton>활성</guibutton> 단추를 누르면, 그놈 패널, 그놈 데스크"
+"톱, 사용자 데스크톱의 실행 중인 프로그램 창 중 하나를 활성화할 수 있는지 확인"
+"하십시오."
+
+#. (itstool) path: step/para
+#: C/index.docbook:764
+msgid ""
+"Verify that the <guibutton>Menus</guibutton> button lists all the available "
+"menus in the current application. Verify that clicking on a menu button "
+"displays the sub-menu and menu items contained within the sub-menu. Finally, "
+"verify that clicking on a menu item activates the menu item. For example, "
+"click on the <application>Help Browser</application> application and click "
+"on the <guibutton>Menus</guibutton> button. The <application>GOK</"
+"application> window now displays the <guibutton>File</guibutton>, "
+"<guibutton>Go</guibutton> and <guibutton>Help</guibutton> buttons (the "
+"<application>Help Browser</application> menus). Click on the "
+"<guibutton>File</guibutton> button and it displays the <guibutton>New "
+"Window</guibutton> and <guibutton>Close Window</guibutton> buttons (menu "
+"items)."
+msgstr ""
+"<guibutton>메뉴</guibutton> 단추를 누르면 현재 프로그램의 모든 메뉴를 나타내"
+"는지 확인하십시오. 메뉴 단추를 누르면 하위 메뉴와 하위 메뉴에 들어있는 메뉴 "
+"항목을 표시하는지 확인하십시오. 마지막으로, 메뉴 항목을 누르면 활성화하는지 "
+"확인하십시오. <application>도움말 탐색기</application> 프로그램을 누르고 "
+"<guibutton>메뉴</guibutton> 단추를 누르십시오. 그러면, <application>GOK</"
+"application>창에 <guibutton>파일</guibutton>, <guibutton>이동</guibutton>, "
+"<guibutton>도움말</guibutton>단추(<application>도움말 탐색기</application> 메"
+"뉴)가 나타납니다. <guibutton>파일</guibutton> 단추를 누르면 <guibutton>새 창"
+"</guibutton>과 <guibutton>창 닫기</guibutton> 단추(메뉴 항목)가 뜹니다."
+
+#. (itstool) path: step/para
+#: C/index.docbook:769
+msgid ""
+"Verify that the <guibutton>Toolbars</guibutton> button lists all the "
+"available buttons in the application toolbar. For example, click on the "
+"<application>Help Browser</application> application and then click on the "
+"<guibutton>Toolbars</guibutton> button. The <application>GOK</application> "
+"window now displays the <guibutton>Back</guibutton>, <guibutton>Forward</"
+"guibutton> and <guibutton>Home</guibutton> buttons."
+msgstr ""
+"<guibutton>도구 모음</guibutton> 단추가 프로그램 도구 모음에서 사용할 수 있"
+"는 모든 단추를 표시하는지 확인하십시오. 예를 들자면 <application>도움말 탐색"
+"기</application> 프로그램을 누르고 <guibutton>도구 모음</guibutton> 단추를 누"
+"르십시오. 이제 <application>GOK</application> 창에서 <guibutton>뒤로 가기</"
+"guibutton>, <guibutton>앞으로 가기</guibutton>, <guibutton>처음</guibutton> "
+"단추를 보여줍니다."
+
+#. (itstool) path: step/para
+#: C/index.docbook:774
+msgid ""
+"Verify that the <guibutton>UI Grab</guibutton> button displays all the "
+"button objects for the selected application window. For example, open the "
+"'Font Properties' capplet and click on the <guibutton>UI Grab</guibutton> "
+"button in the <application>GOK</application> window. The <application>GOK</"
+"application> window should now display the names of the buttons in the "
+"capplet - <guibutton>Sans</guibutton>, <guibutton>Sans-serif</guibutton>, "
+"<guibutton>Close</guibutton> and <guibutton>Help</guibutton>."
+msgstr ""
+"<guibutton>UI 잡기</guibutton> 단추가 선택한 프로그램 창의 모든 단추 객체를 "
+"표시하는지 확인하십시오. 예를 들어, <application>GOK</application> 창에서 '글"
+"꼴 속성' 창을 열고  <guibutton>UI 잡기</guibutton> 단추를 누르십시오. "
+"<application>GOK</application> 창의 글꼴 속성 창에 <guibutton>Sans</"
+"guibutton>, <guibutton>Sans-serif</guibutton>, <guibutton>닫기</guibutton>, "
+"<guibutton>도움말</guibutton> 이름을 가진 단추가 나타나야합니다."
+
+#. (itstool) path: section/title
+#: C/index.docbook:782
+msgid "Accerciser"
+msgstr "액서사이저"
+
+#. (itstool) path: screenshot/mediaobject
+#: C/index.docbook:784
+msgid ""
+"<imageobject> <imagedata fileref=\"figures/at-arch.png\" format=\"PNG\"/> </"
+"imageobject> <textobject> <phrase> Accerciser and the GNOME Accessibility "
+"Architecture </phrase> </textobject>"
+msgstr ""
+"<imageobject> <imagedata fileref=\"figures/at-arch.png\" format=\"PNG\"/> </"
+"imageobject> <textobject> <phrase> 액서사이저와 그놈 접근성 구조 </phrase> </"
+"textobject>"
+
+#. (itstool) path: section/para
+#: C/index.docbook:796
+msgid ""
+"<application>Accerciser</application> is an interactive Python accessibility "
+"explorer for the GNOME Desktop. It uses AT-SPI to inspect and control "
+"widgets, allowing you to check if an application is providing correct "
+"information to assistive technologies and automated test frameworks. "
+"<application>Accerciser</application> has a simple plugin framework which "
+"you can use to create custom views of accessibility information. Full "
+"documentation can be found <ulink url=\"http://library.gnome.org/devel/"
+"accerciser/stable\">in the Official Accerciser Manual</ulink>. For a "
+"demonstration of <application>Accerciser</application> and "
+"<application>PyATSPI</application> (Python-wrappered access and usage of AT-"
+"SPI), see <ulink url=\"http://live.gnome.org/Accessibility/"
+"PythonPoweredAccessibility\">this article</ulink>. For an excellent "
+"walkthrough from the author, see the article titled <ulink url=\"http://www."
+"linuxjournal.com/article/9991\">Make Your Application Accessible with "
+"Accerciser</ulink>."
+msgstr ""
+"<application>액서사이저</application>는 그놈 데스크톱에서 활용하는 대화형 파"
+"이썬 접근성 탐색기입니다. AT-SPI로 위젯을 검사하고 제어하며, 프로그램이 보조 "
+"기술 매개에 올바른 정보를 제공하는지 확인하고 시험 프레임워크를 자동화할 수 "
+"있게 합니다. <application>액서사이저</application>에는 접근성 정보의 개별 뷰"
+"를 만들 수 있는 단순 플러그인 프레임워크가 있습니다. <application>액서사이저"
+"</application>와 <application>PyATSPI</application>(파이썬에 맞춘 AT-SPI 접"
+"근 활용 구현체)의 시험 예제를 보려면 ulink url=\"http://live.gnome.org/"
+"Accessibility/PythonPoweredAccessibility\">이 글</ulink>을 참고하십시오. 작자"
+"가 추천하는 최고의 참고자료를 검토하신다면 <ulink url=\"http://www."
+"linuxjournal.com/article/9991\">Make Your Application Accessible with "
+"Accerciser</ulink> 게시글을 살펴보십시오."
+
+#. (itstool) path: note/para
+#: C/index.docbook:800
+msgid ""
+"<application>Accerciser</application> has effectively replaced the older "
+"<application>at-poke</application> tool."
+msgstr ""
+"이전의 <application>at-poke</application> 도구는 사실상 <application>액서사이"
+"저</application>로 완전히 바뀌었습니다."
