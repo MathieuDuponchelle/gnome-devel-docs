@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: user-guide\n"
-"POT-Creation-Date: 2016-01-31 20:55+0000\n"
-"PO-Revision-Date: 2016-01-31 22:30+0100\n"
+"POT-Creation-Date: 2016-03-16 08:56+0000\n"
+"PO-Revision-Date: 2016-03-16 11:20+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -1561,7 +1561,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/overview-communication.page:80 C/overview-io.page:66
 #: C/overview-media.page:92 C/overview-net.page:76 C/overview-settings.page:63
-#: C/overview-ui.page:91
+#: C/overview-ui.page:90
 msgid "Real-world examples"
 msgstr "Reálné příklady"
 
@@ -2261,20 +2261,22 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/overview-ui.page:55
+#| msgid ""
+#| "To create <em style=\"strong\">fast, visually rich graphical interfaces</"
+#| "em>, use <em style=\"strong\"><link xref=\"tech-clutter\">Clutter</link></"
+#| "em>. Animations, effects and fluid layouts are easy with Clutter, and it "
+#| "also supports touch input and gestures."
 msgid ""
-"To create <em style=\"strong\">fast, visually rich graphical interfaces</"
-"em>, use <em style=\"strong\"><link xref=\"tech-clutter\">Clutter</link></"
-"em>. Animations, effects and fluid layouts are easy with Clutter, and it "
-"also supports touch input and gestures."
+"<em style=\"strong\">Animations, effects and fluid layouts</em> are easy "
+"with <em style=\"strong\"><link xref=\"tech-clutter\">Clutter</link></em>, "
+"and it also supports touch input and gestures."
 msgstr ""
-"K vytváření <em style=\"strong\">rychlých a vizálně bohatých grafických "
-"rozhraní</em> používejte <em style=\"strong\"><link xref=\"tech-clutter"
-"\">Clutter</link></em>. Animace, efekty a proměnlivý vzhled jsou díky "
-"knihovně Clutter snadnou záležitostí, stejně jako podpora dotekového vstupu "
-"a gest."
+"<em style=\"strong\">Animace, efekty a proměnlivý vzhled</em> jsou díky "
+"knihovně <em style=\"strong\"><link xref=\"tech-clutter\">Clutter</link></"
+"em> snadnou záležitostí, stejně jako podpora dotekového vstupu a gest."
 
 #. (itstool) path: section/p
-#: C/overview-ui.page:61
+#: C/overview-ui.page:60
 msgid ""
 "<em style=\"strong\">High quality, antialiased and resolution-independent 2D "
 "graphics</em> are provided by <em style=\"strong\"><link xref=\"tech-cairo"
@@ -2287,7 +2289,7 @@ msgstr ""
 "může být rovněž použita pro výstup do PDF a SVG."
 
 #. (itstool) path: section/p
-#: C/overview-ui.page:67
+#: C/overview-ui.page:66
 msgid ""
 "<em style=\"strong\"><link xref=\"tech-webkit\">WebKitGTK+</link></em> makes "
 "it easy to add <em style=\"strong\">web functionality</em> to your "
@@ -2300,7 +2302,7 @@ msgstr ""
 "rozhraní s plnou podporou HTML5."
 
 #. (itstool) path: section/p
-#: C/overview-ui.page:72
+#: C/overview-ui.page:71
 msgid ""
 "GTK+, Clutter and WebKitGTK+ have <em style=\"strong\">built-in support for "
 "assistive technologies</em> with <em style=\"strong\"><link xref=\"tech-atk"
@@ -2313,7 +2315,7 @@ msgstr ""
 "přístupnosti vestavěné v GTK+ nebo si sestavte vlastní nástroje nad ATK."
 
 #. (itstool) path: section/p
-#: C/overview-ui.page:93
+#: C/overview-ui.page:92
 msgid ""
 "You can see lots of real-world applications of GNOME UI technologies in open "
 "source projects, like the examples given below."
@@ -2323,7 +2325,7 @@ msgstr ""
 "patří například tyto:"
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:97
+#: C/overview-ui.page:96
 msgid ""
 "<em style=\"strong\">Web</em> is the GNOME browser, which uses GTK+ and "
 "WebKitGTK+, and is fully accessible."
@@ -2332,7 +2334,7 @@ msgstr ""
 "a WebKitGTK+ a plně podporuje přístupnost."
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:99
+#: C/overview-ui.page:98
 msgid ""
 "( <link href=\"https://wiki.gnome.org/Apps/Web\">Website</link> | <link href="
 "\"https://git.gnome.org/browse/epiphany/\">Source code</link> )"
@@ -2341,7 +2343,7 @@ msgstr ""
 "<link href=\"https://git.gnome.org/browse/epiphany/\">Zdrojový kód</link> )"
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:102
+#: C/overview-ui.page:101
 msgid ""
 "<em style=\"strong\">MonoDevelop</em> is a cross-platform IDE designed for "
 "C# and other .NET languages. It works on Linux, Mac OS X and Windows"
@@ -2350,7 +2352,7 @@ msgstr ""
 "a další jazyky .NET. Funguje pod Linuxem, Mac OS X a Windows."
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:105
+#: C/overview-ui.page:104
 msgid ""
 "( <link href=\"http://monodevelop.com/\">Website</link> | <link href="
 "\"http://monodevelop.com/Screenshots\">Screenshots</link> | <link href="
@@ -2361,7 +2363,7 @@ msgstr ""
 "\"https://github.com/mono/monodevelop\">Zdrojový kód</link> )"
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:108
+#: C/overview-ui.page:107
 msgid ""
 "<em style=\"strong\">Videos</em> is the GNOME multimedia player, and uses "
 "Clutter to display video content."
@@ -2370,7 +2372,7 @@ msgstr ""
 "zobrazení videoobsahu využívá Clutter."
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:109
+#: C/overview-ui.page:108
 msgid ""
 "( <link href=\"https://wiki.gnome.org/Apps/Videos\">Website</link> | <link "
 "href=\"https://git.gnome.org/browse/totem/\">Source code</link> )"
@@ -3895,26 +3897,63 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:51
-msgid ""
-"<link href=\"http://developer.gnome.org/gnome-devel-demos/stable/\">GTK+ "
-"demo tutorial</link>"
-msgstr ""
-"<link href=\"http://developer.gnome.org/gnome-devel-demos/stable/\">Průvodce "
-"ukázkami knihovny GTK+</link>"
+msgid "<link href=\"http://gtk.org/\">Official web site</link>"
+msgstr "<link href=\"http://gtk.org/\">Oficiální webové stránky</link>"
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:52
 msgid ""
-"<link href=\"http://developer.gnome.org/gtk3/stable/\">GTK+ Reference "
-"Manual</link>"
+"<link href=\"http://developer.gnome.org/gnome-devel-demos/stable/\">Demo "
+"tutorial</link>"
 msgstr ""
-"<link href=\"http://developer.gnome.org/gtk3/stable/\">Referenční příručka "
-"ke knihovně GTK+</link>"
+"<link href=\"http://developer.gnome.org/gnome-devel-demos/stable/\">Průvodce "
+"ukázkami</link>"
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:53
-msgid "<link href=\"http://gtk.org/\">The GTK+ web site</link>"
-msgstr "<link href=\"http://gtk.org/\">Webové stránky knihovny GTK+</link>"
+msgid ""
+"<link href=\"http://developer.gnome.org/gtk3/stable/\">Reference Manual</"
+"link>"
+msgstr ""
+"<link href=\"http://developer.gnome.org/gtk3/stable/\">Referenční příručka</"
+"link>"
+
+#. (itstool) path: item/p
+#: C/tech-gtk.page:54
+msgid "<link href=\"https://git.gnome.org/browse/gtk+/\">git repository</link>"
+msgstr "<link href=\"https://git.gnome.org/browse/gtk+/\">Repozitář git</link>"
+
+#. (itstool) path: item/p
+#: C/tech-gtk.page:55
+msgid "Mailing lists:"
+msgstr "Poštovní konference:"
+
+#. (itstool) path: item/p
+#: C/tech-gtk.page:57
+msgid ""
+"<link href=\"https://mail.gnome.org/mailman/listinfo/gtk-app-devel-list"
+"\">Writing GTK+ applications</link>"
+msgstr ""
+"<link href=\"https://mail.gnome.org/mailman/listinfo/gtk-app-devel-list"
+"\">Psaní aplikací GTK+</link>"
+
+#. (itstool) path: item/p
+#: C/tech-gtk.page:58
+msgid ""
+"<link href=\"https://mail.gnome.org/mailman/listinfo/gtk-list\">General "
+"discussion about GTK+</link>"
+msgstr ""
+"<link href=\"https://mail.gnome.org/mailman/listinfo/gtk-list\">Obecná "
+"diskuze o GTK+</link>"
+
+#. (itstool) path: item/p
+#: C/tech-gtk.page:59
+msgid ""
+"<link href=\"https://mail.gnome.org/mailman/listinfo/gtk-devel-list"
+"\">Development of GTK+</link>"
+msgstr ""
+"<link href=\"https://mail.gnome.org/mailman/listinfo/gtk-devel-list\">Vývoj "
+"GTK+</link>"
 
 #. (itstool) path: credit/name
 #: C/tech-gupnp.page:11
