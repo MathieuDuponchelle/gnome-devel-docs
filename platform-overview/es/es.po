@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: platform-overview.master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 20:55+0000\n"
-"PO-Revision-Date: 2016-02-01 09:07+0100\n"
+"POT-Creation-Date: 2016-03-17 08:57+0000\n"
+"PO-Revision-Date: 2016-03-17 13:26+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "Language: \n"
@@ -1270,7 +1270,6 @@ msgstr "Guía de la plataforma GNOME y sus bibliotecas para desarrolladores"
 
 #. (itstool) path: info/title
 #: C/index.page:45
-#| msgid "Platform Overview"
 msgctxt "link:trail"
 msgid "Platform overview"
 msgstr "Resumen de la plataforma"
@@ -1306,22 +1305,16 @@ msgstr "Desarrollo para la plataforma"
 
 #. (itstool) path: p/link
 #: C/legal.xml:5
-#| msgid "Creative Commons Attribution-Share Alike 3.0 United States License"
 msgid "Creative Commons Attribution-ShareAlike 4.0 International"
 msgstr "Creative Commons Atribución - Compartir igual 4.0 Internacional"
 
 #. (itstool) path: license/p
 #: C/legal.xml:4
-#| msgid "This work is licensed under a <_:link-1/>."
 msgid "This work is licensed under a <_:link-1/> license."
 msgstr "Este trabajo está licenciado bajo la <_:link-1/>."
 
 #. (itstool) path: license/p
 #: C/legal.xml:8
-#| msgid ""
-#| "As a special exception, the copyright holders give you permission to "
-#| "copy, modify, and distribute the example code contained in this document "
-#| "under the terms of your choosing, without restriction."
 msgid ""
 "As a special exception, the copyright holders give you permission to copy, "
 "modify, and distribute the example code contained in this documentation "
@@ -1585,7 +1578,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/overview-communication.page:80 C/overview-io.page:66
 #: C/overview-media.page:92 C/overview-net.page:76 C/overview-settings.page:63
-#: C/overview-ui.page:91
+#: C/overview-ui.page:90
 msgid "Real-world examples"
 msgstr "Ejemplos del mundo real"
 
@@ -2296,19 +2289,22 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/overview-ui.page:55
+#| msgid ""
+#| "To create <em style=\"strong\">fast, visually rich graphical interfaces</"
+#| "em>, use <em style=\"strong\"><link xref=\"tech-clutter\">Clutter</link></"
+#| "em>. Animations, effects and fluid layouts are easy with Clutter, and it "
+#| "also supports touch input and gestures."
 msgid ""
-"To create <em style=\"strong\">fast, visually rich graphical interfaces</"
-"em>, use <em style=\"strong\"><link xref=\"tech-clutter\">Clutter</link></"
-"em>. Animations, effects and fluid layouts are easy with Clutter, and it "
-"also supports touch input and gestures."
+"<em style=\"strong\">Animations, effects and fluid layouts</em> are easy "
+"with <em style=\"strong\"><link xref=\"tech-clutter\">Clutter</link></em>, "
+"and it also supports touch input and gestures."
 msgstr ""
-"Para crear <em style=\"strong\">interfaces rápidas y visualmente ricas</em>, "
-"use <em style=\"strong\"><link xref=\"tech-clutter\">Clutter</link></em>. "
-"Las animaciones, los efectos y las distribuciones fluidas son sencillas con "
-"Clutter, y también soporta entrada táctil y gestos."
+"Las <em style=\"strong\">animaciones, los efectos y las distribuciones "
+"fluidas</em> son sencillas con <em style=\"strong\"><link xref=\"tech-clutter"
+"\">Clutter</link></em>, y también soporta entrada táctil y gestos."
 
 #. (itstool) path: section/p
-#: C/overview-ui.page:61
+#: C/overview-ui.page:60
 msgid ""
 "<em style=\"strong\">High quality, antialiased and resolution-independent 2D "
 "graphics</em> are provided by <em style=\"strong\"><link xref=\"tech-cairo"
@@ -2321,7 +2317,7 @@ msgstr ""
 "GTK+, y también se puede usar para obtener PDF y SVG."
 
 #. (itstool) path: section/p
-#: C/overview-ui.page:67
+#: C/overview-ui.page:66
 msgid ""
 "<em style=\"strong\"><link xref=\"tech-webkit\">WebKitGTK+</link></em> makes "
 "it easy to add <em style=\"strong\">web functionality</em> to your "
@@ -2334,7 +2330,7 @@ msgstr ""
 "en HTML5."
 
 #. (itstool) path: section/p
-#: C/overview-ui.page:72
+#: C/overview-ui.page:71
 msgid ""
 "GTK+, Clutter and WebKitGTK+ have <em style=\"strong\">built-in support for "
 "assistive technologies</em> with <em style=\"strong\"><link xref=\"tech-atk"
@@ -2348,7 +2344,7 @@ msgstr ""
 "sobre ATK."
 
 #. (itstool) path: section/p
-#: C/overview-ui.page:93
+#: C/overview-ui.page:92
 msgid ""
 "You can see lots of real-world applications of GNOME UI technologies in open "
 "source projects, like the examples given below."
@@ -2358,7 +2354,7 @@ msgstr ""
 "siguientes ejemplos."
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:97
+#: C/overview-ui.page:96
 msgid ""
 "<em style=\"strong\">Web</em> is the GNOME browser, which uses GTK+ and "
 "WebKitGTK+, and is fully accessible."
@@ -2367,7 +2363,7 @@ msgstr ""
 "WebKitGTK+, y es totalmente accesible."
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:99
+#: C/overview-ui.page:98
 msgid ""
 "( <link href=\"https://wiki.gnome.org/Apps/Web\">Website</link> | <link href="
 "\"https://git.gnome.org/browse/epiphany/\">Source code</link> )"
@@ -2376,7 +2372,7 @@ msgstr ""
 "href=\"https://git.gnome.org/browse/epiphany/\">Código fuente</link> )"
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:102
+#: C/overview-ui.page:101
 msgid ""
 "<em style=\"strong\">MonoDevelop</em> is a cross-platform IDE designed for "
 "C# and other .NET languages. It works on Linux, Mac OS X and Windows"
@@ -2386,7 +2382,7 @@ msgstr ""
 "Windows"
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:105
+#: C/overview-ui.page:104
 msgid ""
 "( <link href=\"http://monodevelop.com/\">Website</link> | <link href="
 "\"http://monodevelop.com/Screenshots\">Screenshots</link> | <link href="
@@ -2397,7 +2393,7 @@ msgstr ""
 "href=\"https://github.com/mono/monodevelop\">Código fuente</link> )"
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:108
+#: C/overview-ui.page:107
 msgid ""
 "<em style=\"strong\">Videos</em> is the GNOME multimedia player, and uses "
 "Clutter to display video content."
@@ -2406,7 +2402,7 @@ msgstr ""
 "usa Clutter para mostrar el contenido del vídeo."
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:109
+#: C/overview-ui.page:108
 msgid ""
 "( <link href=\"https://wiki.gnome.org/Apps/Videos\">Website</link> | <link "
 "href=\"https://git.gnome.org/browse/totem/\">Source code</link> )"
@@ -3955,26 +3951,81 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:51
-msgid ""
-"<link href=\"http://developer.gnome.org/gnome-devel-demos/stable/\">GTK+ "
-"demo tutorial</link>"
-msgstr ""
-"<link href=\"http://developer.gnome.org/gnome-devel-demos/stable/\">Tutorial "
-"de demostración de GTK+</link>"
+#| msgid "<link href=\"http://gtk.org/\">The GTK+ web site</link>"
+msgid "<link href=\"http://gtk.org/\">Official web site</link>"
+msgstr "<link href=\"http://gtk.org/\">Página web oficial</link>"
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:52
+#| msgid ""
+#| "<link href=\"http://developer.gnome.org/gnome-devel-demos/stable/\">GTK+ "
+#| "demo tutorial</link>"
 msgid ""
-"<link href=\"http://developer.gnome.org/gtk3/stable/\">GTK+ Reference "
-"Manual</link>"
+"<link href=\"http://developer.gnome.org/gnome-devel-demos/stable/\">Demo "
+"tutorial</link>"
 msgstr ""
-"<link href=\"http://developer.gnome.org/gtk3/stable/\">Manual de referencia "
-"de GTK+</link>"
+"<link href=\"http://developer.gnome.org/gnome-devel-demos/stable/\">Tutorial "
+"de demostración</link>"
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:53
-msgid "<link href=\"http://gtk.org/\">The GTK+ web site</link>"
-msgstr "<link href=\"http://gtk.org/\">El sitio web de GTK+</link>"
+#| msgid ""
+#| "<link href=\"http://developer.gnome.org/gtk3/stable/\">GTK+ Reference "
+#| "Manual</link>"
+msgid ""
+"<link href=\"http://developer.gnome.org/gtk3/stable/\">Reference Manual</"
+"link>"
+msgstr ""
+"<link href=\"http://developer.gnome.org/gtk3/stable/\">Manual de referencia</"
+"link>"
+
+#. (itstool) path: item/p
+#: C/tech-gtk.page:54
+#| msgid ""
+#| "<link href=\"https://wiki.gnome.org/Projects/Folks\">Libfolks home page</"
+#| "link>"
+msgid "<link href=\"https://git.gnome.org/browse/gtk+/\">git repository</link>"
+msgstr ""
+"<link href=\"https://git.gnome.org/browse/gtk+/\">Repositorio Git</link>"
+
+#. (itstool) path: item/p
+#: C/tech-gtk.page:55
+#| msgid "Mailing Lists"
+msgid "Mailing lists:"
+msgstr "Listas de correo:"
+
+#. (itstool) path: item/p
+#: C/tech-gtk.page:57
+msgid ""
+"<link href=\"https://mail.gnome.org/mailman/listinfo/gtk-app-devel-list"
+"\">Writing GTK+ applications</link>"
+msgstr ""
+"<link href=\"https://mail.gnome.org/mailman/listinfo/gtk-app-devel-list"
+"\">Escribir aplicaciones en GTK+</link>"
+
+#. (itstool) path: item/p
+#: C/tech-gtk.page:58
+#| msgid ""
+#| "<link href=\"https://developer.gnome.org/gio/stable/\">GIO Reference "
+#| "Manual</link>"
+msgid ""
+"<link href=\"https://mail.gnome.org/mailman/listinfo/gtk-list\">General "
+"discussion about GTK+</link>"
+msgstr ""
+"<link href=\"https://mail.gnome.org/mailman/listinfo/gtk-list\">Discusión "
+"general sobre GTK+</link>"
+
+#. (itstool) path: item/p
+#: C/tech-gtk.page:59
+#| msgid ""
+#| "<link href=\"http://developer.gnome.org/accessibility-devel-guide/"
+#| "\">GNOME Accessibility for Developers</link>"
+msgid ""
+"<link href=\"https://mail.gnome.org/mailman/listinfo/gtk-devel-list"
+"\">Development of GTK+</link>"
+msgstr ""
+"<link href=\"https://mail.gnome.org/mailman/listinfo/gtk-devel-list"
+"\">Desarrollo de GTK+</link>"
 
 #. (itstool) path: credit/name
 #: C/tech-gupnp.page:11
@@ -9957,9 +10008,6 @@ msgstr ""
 #~ msgstr ""
 #~ "El repositorio Git de GNOME, rastrea todos los código fuente de GNOME al "
 #~ "principio del proyecto."
-
-#~ msgid "Mailing Lists"
-#~ msgstr "Listas de correo"
 
 #~ msgid "gnome-list"
 #~ msgstr "gnome-list"
