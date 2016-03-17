@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: platform-overview master\n"
-"POT-Creation-Date: 2016-02-18 08:55+0000\n"
-"PO-Revision-Date: 2016-02-18 12:24+0100\n"
+"POT-Creation-Date: 2016-03-17 10:29+0100\n"
+"PO-Revision-Date: 2016-03-17 10:35+0100\n"
 "Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
 "Language-Team: Deutsch <>\n"
 "Language: de_DE\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.7\n"
+"X-Generator: Poedit 1.8.7.1\n"
 
 #. (itstool) path: p/link
 #: C/cc-by-sa-3-0.xml:4
@@ -1019,6 +1019,9 @@ msgid ""
 "freedesktop.org/wiki/Software/intltool/\">intltool</app> and <app href=\"http://www.gnu."
 "org/software/gettext/manual/gettext.html\">gettext</app>."
 msgstr ""
+"Mit <app href=\"http://freedesktop.org/wiki/Software/intltool/\">intltool</app> und <app "
+"href=\"http://www.gnu.org/software/gettext/manual/gettext.html\">gettext</app> "
+"ermöglichen Sie die Übersetzung Ihrer Anwendung in andere Sprachen."
 
 #. (itstool) path: page/p
 #: C/dev-translate.page:33
@@ -1028,11 +1031,17 @@ msgid ""
 "files and UI files, then merges them back into the XML and desktop files with the "
 "strings from the source code."
 msgstr ""
+"<app>gettext</app> ist ein Framework zum Extrahieren von Zeichenketten aus einer "
+"Quelldatei. <app>intltool</app> erledigt das Gleiche für andere Dateien, zum Beispiel *."
+"desktop- oder UI-Dateien, und führt die Übersetzungen wieder mit den XML- oder *.desktop-"
+"Ursprungsdateien zusammen."
 
 #. (itstool) path: page/p
 #: C/dev-translate.page:38
 msgid "You should use <code>ngettext</code> for translation of strings with plurals."
 msgstr ""
+"Sie sollten <code>ngettext</code> für Übersetzungen von Zeichenketten mit Pluralformen "
+"verwenden."
 
 #. (itstool) path: page/p
 #: C/dev-translate.page:41
@@ -1040,6 +1049,8 @@ msgid ""
 "For more information about translating GNOME projects, see the GNOME <link href="
 "\"https://wiki.gnome.org/TranslationProject/DevGuidelines\">Translation Project</link>."
 msgstr ""
+"Weitere Informationen zur Übersetzung von GNOME-Projekten finden Sie im <link href="
+"\"https://wiki.gnome.org/TranslationProject/DevGuidelines\">Translation Project</link>."
 
 #. (itstool) path: page/title
 #: C/dev-translate-setup.page:21
@@ -1052,6 +1063,8 @@ msgid ""
 "Before the strings from your application can be translated, they need to be extracted "
 "from the source code."
 msgstr ""
+"Bevor die Zeichenketten Ihrer Anwendung übersetzt werden können, müssen sie aus dem "
+"Quellcode extrahiert werden."
 
 #. (itstool) path: page/p
 #: C/dev-translate-setup.page:30
@@ -1065,17 +1078,19 @@ msgid ""
 "For C, this macro is defined in the <file>glib/gi18n.h</file> header file, which must be "
 "included at the top of your application source."
 msgstr ""
+"Für C ist dieses Makro in der Header-Datei <file>glib/gi18n.h</file> definiert, das in "
+"der obersten Ebene der Quelltexte Ihrer Anwendung enthalten sein muss."
 
 #. (itstool) path: page/p
 #: C/dev-translate-setup.page:38
 msgid "Your wrapped strings should look like this:"
-msgstr ""
+msgstr "Die gekennzeichneten Zeichenketten sollten folgendermaßen aussehen:"
 
 #. (itstool) path: page/code
 #: C/dev-translate-setup.page:39
 #, no-wrap
 msgid "_(\"Press a key to continue\")"
-msgstr "_(\"Drücken Sie zum Fortfahren eine Taste\")"
+msgstr "_(\"Press a key to continue\")"
 
 #. (itstool) path: page/p
 #: C/dev-translate-setup.page:41
@@ -1083,6 +1098,8 @@ msgid ""
 "This marks the strings as translatable, and at runtime calls <app>gettext</app> to "
 "substitute the translated strings."
 msgstr ""
+"Dadurch werden Zeichenketten als übersetzbar markiert und die Laufzeitungebung ruft "
+"<app>gettext</app> auf, um die übersetzten Zeichenketten zu ersetzen."
 
 #. (itstool) path: page/title
 #: C/dev-translate-tools.page:20
@@ -1099,6 +1116,12 @@ msgid ""
 "localization tools include <app>Transifex</app>, <app>Virtaal</app>, <app>KBabel</app> "
 "or <app>Pootle</app>."
 msgstr ""
+"Nun sind die Zeichenketten für die Übersetzung vorbereitet, auch <em>Lokalisierung</em> "
+"genannt. Für Projekte, die in den Git-Softwarebeständen von GNOME gehostet werden, "
+"übernimmt das GNOME-Übersetzungsprojekt diese Aufgabe. <app href=\"https://wiki.gnome."
+"org/Apps/Gtranslator\">Gtranslator</app> ist eine GNOME-Anwendung zum Bearbeiten von "
+"file>.po</file>-Dateien. Weitere Werkzeuge für Online- und Offline-Übersetzungen sind "
+"<app>Transifex</app>, <app>Virtaal</app>, <app>KBabel</app> oder <app>Pootle</app>."
 
 #. (itstool) path: credit/name
 #: C/index.page:12 C/tech-atk.page:12 C/tech-cairo.page:11 C/tech-clutter.page:11
@@ -1200,7 +1223,6 @@ msgstr "Entwicklung für die Plattform"
 
 #. (itstool) path: p/link
 #: C/legal.xml:5
-#| msgid "Creative Commons Attribution-Share Alike 3.0 United States License"
 msgid "Creative Commons Attribution-ShareAlike 4.0 International"
 msgstr "Creative Commons Attribution-ShareAlike 4.0 International"
 
@@ -1236,6 +1258,8 @@ msgid ""
 "When you write a new application or library, you will need to choose a license so that "
 "others know how they can use or reuse your work."
 msgstr ""
+"Wenn Sie eine neue Anwendung oder Bibliothek schreiben, müssen Sie eine Lizenz wählen, "
+"so dass andere wissen, wie Sie Ihr Werk verwenden oder weitergeben können."
 
 #. (itstool) path: page/p
 #: C/license.page:26
@@ -1244,6 +1268,9 @@ msgid ""
 "gnu.org/\">GNU</link> <link href=\"https://www.gnu.org/licenses/old-licenses/lgpl-2.1."
 "html\">LGPL 2.1+</link>."
 msgstr ""
+"Die in GNOME verwendeten Bibliotheken werden üblicherweise unter den Bedingungen der "
+"<link href=\"http://www.gnu.org/\">GNU</link> <link href=\"https://www.gnu.org/licenses/"
+"old-licenses/lgpl-2.1.html\">LGPL 2.1+</link> veröffentlicht."
 
 #. (itstool) path: page/p
 #: C/license.page:30
@@ -1269,6 +1296,10 @@ msgid ""
 "applications are usually GPL2+ or GPL3+, while user documentation is usually CC-by-SA "
 "3.0."
 msgstr ""
+"Übersetzungen unterliegen den gleichen Lizenzbedingungen wie die Zeichenketten, aus "
+"denen sie abgeleitet wurden. Beispielsweise sind Zeichenketten aus Anwendungen meist "
+"unter GPL2+ oder GPL3+ lizenziert, während für Benutzerhandbücher üblicherweise die CC-"
+"by-SA 3.0 gilt."
 
 #. (itstool) path: page/p
 #: C/license.page:45
@@ -1408,7 +1439,7 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/overview-communication.page:80 C/overview-io.page:66 C/overview-media.page:92
-#: C/overview-net.page:76 C/overview-settings.page:63 C/overview-ui.page:91
+#: C/overview-net.page:76 C/overview-settings.page:63 C/overview-ui.page:90
 msgid "Real-world examples"
 msgstr "Reale Beispiele"
 
@@ -1435,6 +1466,10 @@ msgid ""
 "\">Screenshot</link> | <link href=\"https://git.gnome.org/browse/empathy/\">Empathy "
 "source code</link> )"
 msgstr ""
+"(<link href=\"https://wiki.gnome.org/Apps/Empathy\">Webseite</link> | <link href="
+"\"https://wiki.gnome.org/Apps/Empathy?action=AttachFile&amp;do=get&amp;target=empathy.png"
+"\">Bildschirmfoto</link> | <link href=\"https://git.gnome.org/browse/empathy/\">Empathy-"
+"Quellcode</link> )"
 
 #. (itstool) path: item/p
 #: C/overview-communication.page:95
@@ -1470,7 +1505,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/overview-io.page:22
 msgid "Access structured data storage, networking shares, and files."
-msgstr ""
+msgstr "Zugriff auf strukturierte Datenspeicher, Netzwerkfreigaben und Dateien."
 
 #. (itstool) path: page/title
 #: C/overview-io.page:25
@@ -1481,11 +1516,12 @@ msgstr "Datei- und Datenzugriff"
 #: C/overview-io.page:29
 msgid "<em style=\"strong\">Asynchronously read and write files and other streams</em>"
 msgstr ""
+"<em style=\"strong\">Dateien und andere Datenströme asynchron schreiben und lesen</em>"
 
 #. (itstool) path: item/p
 #: C/overview-io.page:32
 msgid "<em style=\"strong\">Store and retrieve document metadata</em>"
-msgstr ""
+msgstr "<em style=\"strong\">Metadaten zu Dokumenten beziehen und speichern</em>"
 
 #. (itstool) path: page/p
 #: C/overview-io.page:36
@@ -1560,7 +1596,7 @@ msgstr ""
 #: C/overview-media.page:39
 msgctxt "_"
 msgid "external ref='media/totem-screenshot.png' md5='50a5ee1863edda5f15bc3d6f5c0552cd'"
-msgstr ""
+msgstr "original"
 
 #. (itstool) path: info/desc
 #: C/overview-media.page:17
@@ -1579,12 +1615,15 @@ msgstr "Multimedia"
 #: C/overview-media.page:24
 msgid "<em style=\"strong\">Play and record a multitude of audio and video formats</em>"
 msgstr ""
+"<em style=\"strong\">Eine Vielzahl von Audio- und Video-Formaten wiedergeben und "
+"aufzeichnen</em>"
 
 #. (itstool) path: item/p
 #: C/overview-media.page:27
 msgid ""
 "<em style=\"strong\">Access webcams and other media devices connected to the system</em>"
 msgstr ""
+"<em style=\"strong\">Zugriff auf Webcams und andere am System angeschlossene Geräte</em>"
 
 #. (itstool) path: item/p
 #: C/overview-media.page:30
@@ -1656,7 +1695,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/overview-media.page:98
 msgid "<em style=\"strong\">Videos</em> is the GNOME multimedia player."
-msgstr ""
+msgstr "<em style=\"strong\">Videos</em> ist das Multimedia-Wiedergabeprogramm für GNOME."
 
 #. (itstool) path: item/p
 #: C/overview-media.page:99
@@ -1675,6 +1714,8 @@ msgid ""
 "<em style=\"strong\">PiTiVi</em> is a non-linear video editor, which makes extensive use "
 "of GStreamer."
 msgstr ""
+"<em style=\"strong\">PiTiVi</em> ist ein nichtlinearer Videoeditor, der ausgiebig "
+"GStreamer nutzt."
 
 #. (itstool) path: item/p
 #: C/overview-media.page:104
@@ -1712,7 +1753,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/overview-net.page:30
 msgid "<em style=\"strong\">Detect and manage the network connection state</em>"
-msgstr ""
+msgstr "<em style=\"strong\">Status der Netzwerkverbindung erkennen und verwalten</em>"
 
 #. (itstool) path: page/p
 #: C/overview-net.page:34
@@ -1919,13 +1960,13 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/overview-ui.page:55
 msgid ""
-"To create <em style=\"strong\">fast, visually rich graphical interfaces</em>, use <em "
-"style=\"strong\"><link xref=\"tech-clutter\">Clutter</link></em>. Animations, effects "
-"and fluid layouts are easy with Clutter, and it also supports touch input and gestures."
+"<em style=\"strong\">Animations, effects and fluid layouts</em> are easy with <em style="
+"\"strong\"><link xref=\"tech-clutter\">Clutter</link></em>, and it also supports touch "
+"input and gestures."
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/overview-ui.page:61
+#: C/overview-ui.page:60
 msgid ""
 "<em style=\"strong\">High quality, antialiased and resolution-independent 2D graphics</"
 "em> are provided by <em style=\"strong\"><link xref=\"tech-cairo\">Cairo</link></em>. "
@@ -1933,7 +1974,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/overview-ui.page:67
+#: C/overview-ui.page:66
 msgid ""
 "<em style=\"strong\"><link xref=\"tech-webkit\">WebKitGTK+</link></em> makes it easy to "
 "add <em style=\"strong\">web functionality</em> to your application, whether that is "
@@ -1941,7 +1982,7 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/overview-ui.page:72
+#: C/overview-ui.page:71
 msgid ""
 "GTK+, Clutter and WebKitGTK+ have <em style=\"strong\">built-in support for assistive "
 "technologies</em> with <em style=\"strong\"><link xref=\"tech-atk\">ATK</link></em>. Use "
@@ -1950,21 +1991,21 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/p
-#: C/overview-ui.page:93
+#: C/overview-ui.page:92
 msgid ""
 "You can see lots of real-world applications of GNOME UI technologies in open source "
 "projects, like the examples given below."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:97
+#: C/overview-ui.page:96
 msgid ""
 "<em style=\"strong\">Web</em> is the GNOME browser, which uses GTK+ and WebKitGTK+, and "
 "is fully accessible."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:99
+#: C/overview-ui.page:98
 msgid ""
 "( <link href=\"https://wiki.gnome.org/Apps/Web\">Website</link> | <link href=\"https://"
 "git.gnome.org/browse/epiphany/\">Source code</link> )"
@@ -1973,14 +2014,14 @@ msgstr ""
 "\"https://git.gnome.org/browse/epiphany/\">Quellcode</link> )"
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:102
+#: C/overview-ui.page:101
 msgid ""
 "<em style=\"strong\">MonoDevelop</em> is a cross-platform IDE designed for C# and other ."
 "NET languages. It works on Linux, Mac OS X and Windows"
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:105
+#: C/overview-ui.page:104
 msgid ""
 "( <link href=\"http://monodevelop.com/\">Website</link> | <link href=\"http://"
 "monodevelop.com/Screenshots\">Screenshots</link> | <link href=\"https://github.com/mono/"
@@ -1991,14 +2032,14 @@ msgstr ""
 "mono/monodevelop\">Quellcode</link> )"
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:108
+#: C/overview-ui.page:107
 msgid ""
 "<em style=\"strong\">Videos</em> is the GNOME multimedia player, and uses Clutter to "
 "display video content."
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:109
+#: C/overview-ui.page:108
 msgid ""
 "( <link href=\"https://wiki.gnome.org/Apps/Videos\">Website</link> | <link href="
 "\"https://git.gnome.org/browse/totem/\">Source code</link> )"
@@ -3320,24 +3361,57 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:51
-msgid ""
-"<link href=\"http://developer.gnome.org/gnome-devel-demos/stable/\">GTK+ demo tutorial</"
-"link>"
-msgstr ""
-"<link href=\"http://developer.gnome.org/gnome-devel-demos/stable/\">GTK+ Demo-Tutorium</"
-"link>"
+msgid "<link href=\"http://gtk.org/\">Official web site</link>"
+msgstr "<link href=\"http://gtk.org/\">Offizielle Webseite</link>"
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:52
-msgid "<link href=\"http://developer.gnome.org/gtk3/stable/\">GTK+ Reference Manual</link>"
+msgid ""
+"<link href=\"http://developer.gnome.org/gnome-devel-demos/stable/\">Demo tutorial</link>"
 msgstr ""
-"<link href=\"http://developer.gnome.org/gtk3/stable/\">Das Referenzhandbuch von GTK+</"
-"link>"
+"<link href=\"http://developer.gnome.org/gnome-devel-demos/stable/\">Demo-Tutorial</link>"
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:53
-msgid "<link href=\"http://gtk.org/\">The GTK+ web site</link>"
-msgstr "<link href=\"http://gtk.org/\">Die Webseite von GTK+</link>"
+msgid "<link href=\"http://developer.gnome.org/gtk3/stable/\">Reference Manual</link>"
+msgstr "<link href=\"http://developer.gnome.org/gtk3/stable/\">Referenzhandbuch</link>"
+
+#. (itstool) path: item/p
+#: C/tech-gtk.page:54
+msgid "<link href=\"https://git.gnome.org/browse/gtk+/\">git repository</link>"
+msgstr "<link href=\"https://git.gnome.org/browse/gtk+/\">Git-Softwarebestand</link>"
+
+#. (itstool) path: item/p
+#: C/tech-gtk.page:55
+msgid "Mailing lists:"
+msgstr "Mailinglisten:"
+
+#. (itstool) path: item/p
+#: C/tech-gtk.page:57
+msgid ""
+"<link href=\"https://mail.gnome.org/mailman/listinfo/gtk-app-devel-list\">Writing GTK+ "
+"applications</link>"
+msgstr ""
+"<link href=\"https://mail.gnome.org/mailman/listinfo/gtk-app-devel-list\">Schreiben von "
+"GTK+-Anwendungen</link>"
+
+#. (itstool) path: item/p
+#: C/tech-gtk.page:58
+msgid ""
+"<link href=\"https://mail.gnome.org/mailman/listinfo/gtk-list\">General discussion about "
+"GTK+</link>"
+msgstr ""
+"<link href=\"https://mail.gnome.org/mailman/listinfo/gtk-list\">Allgemeine Diskussionen "
+"über GTK+</link>"
+
+#. (itstool) path: item/p
+#: C/tech-gtk.page:59
+msgid ""
+"<link href=\"https://mail.gnome.org/mailman/listinfo/gtk-devel-list\">Development of GTK"
+"+</link>"
+msgstr ""
+"<link href=\"https://mail.gnome.org/mailman/listinfo/gtk-devel-list\">GTK+-Entwicklung</"
+"link>"
 
 #. (itstool) path: credit/name
 #: C/tech-gupnp.page:11
@@ -3448,7 +3522,7 @@ msgstr "<link href=\"http://docbook.org/\">Die Webseite von DocBook</link>"
 #. (itstool) path: info/desc
 #: C/tech-network-manager.page:17
 msgid "Manage network connections and monitor online/offline status"
-msgstr ""
+msgstr "Netzwerkverbindungen verwalten und den Online/Offline-Status überwachen"
 
 #. (itstool) path: page/title
 #: C/tech-network-manager.page:20
@@ -3969,7 +4043,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/tech-soup.page:17
 msgid "Asynchronous HTTP library with cookies, SSL, and XML-RPC"
-msgstr ""
+msgstr "Asynchrone HTTP-Bibliothek mit Cookies, SSL und XML-RPC"
 
 #. (itstool) path: page/title
 #: C/tech-soup.page:20
@@ -4114,7 +4188,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/tech-webkit.page:23
 msgid "HTML5 web page rendering"
-msgstr ""
+msgstr "Darstellung von HTML5-Webseiten"
 
 #. (itstool) path: page/title
 #: C/tech-webkit.page:26
@@ -4591,4 +4665,18 @@ msgstr ""
 "let app = new HelloWorld();\n"
 "app.application.run(ARGV);\n"
 
+#~ msgid ""
+#~ "<link href=\"http://developer.gnome.org/gnome-devel-demos/stable/\">GTK+ demo "
+#~ "tutorial</link>"
+#~ msgstr ""
+#~ "<link href=\"http://developer.gnome.org/gnome-devel-demos/stable/\">GTK+ Demo-"
+#~ "Tutorium</link>"
 
+#~ msgid ""
+#~ "<link href=\"http://developer.gnome.org/gtk3/stable/\">GTK+ Reference Manual</link>"
+#~ msgstr ""
+#~ "<link href=\"http://developer.gnome.org/gtk3/stable/\">Das Referenzhandbuch von GTK+</"
+#~ "link>"
+
+#~ msgid "<link href=\"http://gtk.org/\">The GTK+ web site</link>"
+#~ msgstr "<link href=\"http://gtk.org/\">Die Webseite von GTK+</link>"
