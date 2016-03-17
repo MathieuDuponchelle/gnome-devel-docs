@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
 "POT-Creation-Date: 2016-03-09 08:55+0000\n"
-"PO-Revision-Date: 2016-03-10 10:57+0100\n"
+"PO-Revision-Date: 2016-03-17 10:08+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "Language: es\n"
@@ -287,7 +287,7 @@ msgstr ""
 "Es posible aplicar distintos niveles de estabilidad de API a los componentes "
 "dentro de un proyecto. Por ejemplo, las funciones del núcleo en una "
 "biblioteca podrían ser estables, y por lo tanto sus API dejarse sin cambios "
-"en el futuro; mientras las funciones más nuevas, menos relacionadas con el "
+"en el futuro; mientras las más nuevas, funciones menos relacionadas con el "
 "núcleo, podrían quedarse inestables y podrían cambiar incontroladamente "
 "hasta que se encuentra el diseño adecuado, momento en el que se podrían "
 "marcar como estables."
@@ -356,7 +356,7 @@ msgid ""
 "is ‘stable’. Very few projects commit to total stability because it would "
 "prevent almost all further development of the project."
 msgstr ""
-"Normalmente, los proyectos se comprometen a la compatibilidad hacia atrás "
+"Normalmente, los proyecto se comprometen a la compatibilidad hacia atrás "
 "cuando dicen que una API es «estable». Muy pocos proyectos se comprometen a "
 "una estabilidad total porque eso frenaría casi todo desarrollo posterior del "
 "proyecto."
@@ -376,6 +376,12 @@ msgid ""
 "detail on the <link href=\"https://autotools.io/libtool/version.html"
 "\">Autotools Mythbuster</link> or <link xref=\"versioning\"/>."
 msgstr ""
+"Las garantías de estabilidad de la API están fuertemente vinculadas a las "
+"versiones del proyecto; ambas versiones del paquete y de libtool. El "
+"versionado libtool existe completamente con el propósito de trazar la "
+"estabilidad de la ABI, y se explica con detalle en <link href=“https://"
+"autotools.io/libtool/version.html”>Autotools Mythbuster</link> o <link "
+"xref=“versioning”/>."
 
 #. (itstool) path: section/p
 #: C/api-stability.page:151
@@ -389,6 +395,15 @@ msgid ""
 "code changes are made without modifying API. See <link xref=\"versioning\"/> "
 "for more information."
 msgstr ""
+"El versionado de paquete (<em>major.minor.micro</em>) está fuertemente "
+"vinculado con la estabilidad de la API: normalmente, el número de la versión "
+"principal se incrementa cuando se hacen cambios incompatibles hacia atrás "
+"(por ejemplo, cuando se renombran funciones, se cambian parámetros, o se "
+"eliminan funciones). El número de versión secundaria se incrementa cuando se "
+"hacen cambios incompatibles hacia delante (piro ejemplo, cuando se añade una "
+"API pública nueva). El número de la micro versión se incrementa cuando se "
+"hacen cambios en el código sin modificar la API. Consulte la <link xref="
+"\"versioning\"/> para más información."
 
 #. (itstool) path: section/p
 #: C/api-stability.page:162
@@ -401,7 +416,7 @@ msgstr ""
 "El versionado de las API es tan importante para las API D-Bus y esquemas "
 "GSettings (si es probable que cambien) como para las API C. Vea la <link "
 "href=\"http://dbus.freedesktop.org/doc/dbus-api-design.html#api-versioning"
-"\">documentación sobre versionado de la API D-Bus</link> para más detalles."
+"\">documentación en versionado de la API D-Bus</link> para más detalles."
 
 #. (itstool) path: section/p
 #: C/api-stability.page:169
@@ -412,6 +427,11 @@ msgid ""
 "generating the GIR, but recent versions have not changed much so this is not "
 "a major concern."
 msgstr ""
+"Para API GIR, su estabilidad normalmente sigue la estabilidad de la API C,  "
+"ya que se generan a partir de la API C. Una dificultad es que adicionalmente "
+"su estabilidad depende de la versión gobject-introspection usada al generar "
+"el GIR, pero las versiones recientes no han cambiado mucho por lo que no es "
+"una preocupación grande."
 
 #. (itstool) path: section/title
 #: C/api-stability.page:179 C/unit-testing.page:272 C/version-control.page:161
@@ -487,6 +507,12 @@ msgid ""
 "respect the project’s goal of long-term maintainability. Patches with "
 "GNOME’s coding style will also be easier to review!"
 msgstr ""
+"Presentamos ejemplos de buen estilo de codificación así como ejemplos de mal "
+"estilo que no es aceptable en GNOME. Intente enviar parches que se ajusten "
+"al estilo de codificación de GNOME; esto indica que ha hecho sus deberes "
+"respecto al objetivo del proyecto de mantenibilidad a largo plazo. ¡Los "
+"parches con el estilo de codificación de GNOME serán también más fáciles de "
+"revisar!"
 
 #. (itstool) path: note/p
 #: C/c-coding-style.page:42
@@ -494,6 +520,9 @@ msgid ""
 "This document is for C code. For other languages, check the <link xref="
 "\"index\">main page</link> of the GNOME Programming Guidelines."
 msgstr ""
+"Este documento es para código C. Para otros lenguajes, compruebe la <link "
+"xref=“índex”>página principal</link> de las directrices de programación de "
+"GNOME."
 
 #. (itstool) path: page/p
 #: C/c-coding-style.page:49
@@ -503,6 +532,11 @@ msgid ""
 "variations of each other, with particular modifications for each project’s "
 "particular needs and culture, and GNOME’s version is no different."
 msgstr ""
+"Estas directrices están fuertemente inspiradas por el documento GTK’s CODING "
+"STYLE, el Linux Kernel’s CodingStyle, y el GNU Coding Standards. Estos son "
+"pequeñas variaciones cada uno de otro, con modificaciones particulares para "
+"las necesidades y cultura particulares de cada proyecto, y la versión de "
+"GNOME no es diferente."
 
 #. (itstool) path: section/title
 #: C/c-coding-style.page:58
@@ -525,6 +559,10 @@ msgid ""
 "different coding style to the surrounding code. This is disrespectful, like "
 "someone tromping into a spotlessly-clean house with muddy shoes."
 msgstr ""
+"Como mantenedor es desalentador recibir un parche que está obviamente en un "
+"estilo de codificación diferente al código ya existente. Esto es una falta "
+"de respeto, como cuando alguien pisa en una casa impecablemente limpia con "
+"los zapatos llenos de barro."
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:72
@@ -533,6 +571,9 @@ msgid ""
 "you are patching it, keep its current style consistent even if it is not "
 "your favorite style."
 msgstr ""
+"Por lo tanto, sea lo que sea lo que este documento recomienda, si ya hay "
+"código y lo está parcheando, mantenga su estilo actual coherente incluso si "
+"no es su estilo favorito."
 
 #. (itstool) path: section/title
 #: C/c-coding-style.page:80
@@ -548,6 +589,12 @@ msgid ""
 "restructure your code. If you have too many levels of indentation, it means "
 "that you should fix your code anyway."
 msgstr ""
+"Intente usar líneas de código de entre 80 y 120 caracteres de largo. Esta "
+"cantidad de texto es fácil de ajustar en la mayoría de monitores con un "
+"tamaño de tipografía decente. Las líneas más largas se vuelve difíciles de "
+"leer, y significan que probablemente debería reestructurar su código. Si "
+"tiene demasiados niveles de sangrado, significa que debería arreglar su "
+"código de alguna manera."
 
 #. (itstool) path: section/title
 #: C/c-coding-style.page:93
@@ -559,6 +606,7 @@ msgstr "Sangrado"
 msgid ""
 "In general there are two preferred indentation styles for code in GNOME."
 msgstr ""
+"En general hay dos estilos de sangrado preferidos para el código en GNOME."
 
 #. (itstool) path: item/p
 #: C/c-coding-style.page:102
@@ -566,6 +614,8 @@ msgid ""
 "Linux Kernel style. Tabs with a length of 8 characters are used for the "
 "indentation, with K&amp;R brace placement:"
 msgstr ""
+"Estilo del kernel de Linux. Los tabuladores con una longitud de 8 caracteres "
+"se usan para el sangrado, con K&amp;R el lugar de las llaves:"
 
 #. (itstool) path: item/code
 #: C/c-coding-style.page:107
@@ -603,6 +653,8 @@ msgid ""
 "GNU style. Each new level is indented by 2 spaces, braces go on a line by "
 "themselves, and they are indented as well."
 msgstr ""
+"Estilo GNU. Cada nuevo nivel se sangra con dos espacios, las llaves van en "
+"una línea solas, y se sangran también."
 
 #. (itstool) path: item/code
 #: C/c-coding-style.page:128
@@ -651,6 +703,12 @@ msgid ""
 "GNOME’s file manager, is written in Linux kernel style. Both styles are "
 "perfectly readable and consistent when you get used to them."
 msgstr ""
+"Ambos estilos tienen sus pros y contras. Lo más importante es <em>ser "
+"coherente</em> con el código existente. Por ejemplo, la biblioteca GTK+, que "
+"es el kit de herramientas para widgets de GNOME, está escrita con el estilo "
+"GNU. Nautilus, el gestor de archivos de GNOME, está escrito con el estilo "
+"del kernel de Linux. Ambos estilos son perfectamente legibles y coherentes "
+"cuando se acostumbra a ellos."
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:157
@@ -676,6 +734,9 @@ msgid ""
 "spaces. Changing the size of tabs means that code that you didn’t write "
 "yourself will be perpetually misaligned."
 msgstr ""
+"<em>Nunca cambie el tamaño de los tabuladores en su editor</em>; déjelos con "
+"8 espacios. Cambiar el tamaño de los tabuladores significa que el código que "
+"no escribió estará perpetuamente mal alineado."
 
 #. (itstool) path: section/p
 #: C/c-coding-style.page:178
@@ -694,7 +755,7 @@ msgstr "Paréntesis"
 #. (itstool) path: section/p
 #: C/c-coding-style.page:190
 msgid "Curly braces should not be used for single statement blocks:"
-msgstr ""
+msgstr "Las llaves no deberían usarse para bloques de una sola sentencia:"
 
 #. (itstool) path: section/code
 #: C/c-coding-style.page:194
