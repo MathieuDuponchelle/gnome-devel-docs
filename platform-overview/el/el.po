@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: packagename\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-14 08:55+0000\n"
-"PO-Revision-Date: 2016-03-14 12:00+0200\n"
+"POT-Creation-Date: 2016-03-17 08:57+0000\n"
+"PO-Revision-Date: 2016-03-17 13:35+0200\n"
 "Last-Translator: Tom Tryfonidis <tomtryf@gmail.com>\n"
 "Language-Team: Greek, Modern (1453-) <opensuse-translation-el@opensuse.org>\n"
 "Language: el\n"
@@ -1261,7 +1261,6 @@ msgstr "Ανάπτυξη της πλατφόρμας"
 
 #. (itstool) path: p/link
 #: C/legal.xml:5
-#| msgid "Creative Commons Attribution-Share Alike 3.0 United States License"
 msgid "Creative Commons Attribution-ShareAlike 4.0 International"
 msgstr "Creative Commons Attribution-ShareAlike 4.0 International"
 
@@ -1512,7 +1511,7 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/overview-communication.page:80 C/overview-io.page:66 C/overview-media.page:92
-#: C/overview-net.page:76 C/overview-settings.page:63 C/overview-ui.page:91
+#: C/overview-net.page:76 C/overview-settings.page:63 C/overview-ui.page:90
 msgid "Real-world examples"
 msgstr "Πραγματικά παραδείγματα"
 
@@ -2151,17 +2150,16 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/overview-ui.page:55
 msgid ""
-"To create <em style=\"strong\">fast, visually rich graphical interfaces</em>, use <em "
-"style=\"strong\"><link xref=\"tech-clutter\">Clutter</link></em>. Animations, effects and "
-"fluid layouts are easy with Clutter, and it also supports touch input and gestures."
+"<em style=\"strong\">Animations, effects and fluid layouts</em> are easy with <em style="
+"\"strong\"><link xref=\"tech-clutter\">Clutter</link></em>, and it also supports touch "
+"input and gestures."
 msgstr ""
-"Για τη δημιουργία <em style=\"strong\">γρήγορων, οπτικά πλούσιων γραφικών διεπαφών</em>, "
-"χρησιμοποιήστε <em style=\"strong\"><link xref=\"tech-clutter\">Clutter</link></em>. "
-"Κινούμενα σχέδια, εφέ και διατάξεις δημιουργούνται εύκολα με το Clutter και υποστηρίζουν "
-"επίσης είσοδο επαφής και χειρονομίες."
+"<em style=\"strong\">Κινούμενα σχέδια, εφέ και διατάξεις</em> δημιουργούνται εύκολα με το "
+"<em style=\"strong\"><link xref=\"tech-clutter\">Clutter</link></em> και υποστηρίζοντας "
+"την αφή και τις χειρονομίες."
 
 #. (itstool) path: section/p
-#: C/overview-ui.page:61
+#: C/overview-ui.page:60
 msgid ""
 "<em style=\"strong\">High quality, antialiased and resolution-independent 2D graphics</"
 "em> are provided by <em style=\"strong\"><link xref=\"tech-cairo\">Cairo</link></em>. "
@@ -2173,7 +2171,7 @@ msgstr ""
 "χρησιμοποιηθεί για έξοδος σε PDF και SVG."
 
 #. (itstool) path: section/p
-#: C/overview-ui.page:67
+#: C/overview-ui.page:66
 msgid ""
 "<em style=\"strong\"><link xref=\"tech-webkit\">WebKitGTK+</link></em> makes it easy to "
 "add <em style=\"strong\">web functionality</em> to your application, whether that is "
@@ -2184,7 +2182,7 @@ msgstr ""
 "είναι η απόδοση ενός αρχείου HTML ή μια πλήρη διεπαφή χρήστη σε HTML5."
 
 #. (itstool) path: section/p
-#: C/overview-ui.page:72
+#: C/overview-ui.page:71
 msgid ""
 "GTK+, Clutter and WebKitGTK+ have <em style=\"strong\">built-in support for assistive "
 "technologies</em> with <em style=\"strong\"><link xref=\"tech-atk\">ATK</link></em>. Use "
@@ -2197,7 +2195,7 @@ msgstr ""
 "προσβασιμότητας GTK+, ή τα προσαρμοσμένα εργαλεία δόμησης με το ATK."
 
 #. (itstool) path: section/p
-#: C/overview-ui.page:93
+#: C/overview-ui.page:92
 msgid ""
 "You can see lots of real-world applications of GNOME UI technologies in open source "
 "projects, like the examples given below."
@@ -2206,7 +2204,7 @@ msgstr ""
 "σε έργα ανοικτού λογισμικού, όπως τα παραδείγματα που δίνονται παρακάτω."
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:97
+#: C/overview-ui.page:96
 msgid ""
 "<em style=\"strong\">Web</em> is the GNOME browser, which uses GTK+ and WebKitGTK+, and "
 "is fully accessible."
@@ -2215,7 +2213,7 @@ msgstr ""
 "WebKitGTK και είναι πλήρως προσβάσιμος."
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:99
+#: C/overview-ui.page:98
 msgid ""
 "( <link href=\"https://wiki.gnome.org/Apps/Web\">Website</link> | <link href=\"https://"
 "git.gnome.org/browse/epiphany/\">Source code</link> )"
@@ -2224,7 +2222,7 @@ msgstr ""
 "git.gnome.org/browse/epiphany/\">Πηγαίος κώδικας</link> )"
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:102
+#: C/overview-ui.page:101
 msgid ""
 "<em style=\"strong\">MonoDevelop</em> is a cross-platform IDE designed for C# and other ."
 "NET languages. It works on Linux, Mac OS X and Windows"
@@ -2233,7 +2231,7 @@ msgstr ""
 "και άλλες γλώσσες NET. Δουλεύει σε Linux, Mac OS X και Windows"
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:105
+#: C/overview-ui.page:104
 msgid ""
 "( <link href=\"http://monodevelop.com/\">Website</link> | <link href=\"http://monodevelop."
 "com/Screenshots\">Screenshots</link> | <link href=\"https://github.com/mono/monodevelop"
@@ -2244,7 +2242,7 @@ msgstr ""
 "monodevelop\">Πηγαίος κώδικας</link> )"
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:108
+#: C/overview-ui.page:107
 msgid ""
 "<em style=\"strong\">Videos</em> is the GNOME multimedia player, and uses Clutter to "
 "display video content."
@@ -2253,7 +2251,7 @@ msgstr ""
 "χρησιμοποιεί το Clutter για να προβάλει το βίντεο περιεχόμενο του."
 
 #. (itstool) path: item/p
-#: C/overview-ui.page:109
+#: C/overview-ui.page:108
 msgid ""
 "( <link href=\"https://wiki.gnome.org/Apps/Videos\">Website</link> | <link href=\"https://"
 "git.gnome.org/browse/totem/\">Source code</link> )"
@@ -3682,23 +3680,68 @@ msgstr ""
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:51
-msgid ""
-"<link href=\"http://developer.gnome.org/gnome-devel-demos/stable/\">GTK+ demo tutorial</"
-"link>"
-msgstr ""
-"<link href=\"http://developer.gnome.org/gnome-devel-demos/stable/\">Μάθημα επίδειξης GTK"
-"+</link>"
+#| msgid "<link href=\"http://gtk.org/\">The GTK+ web site</link>"
+msgid "<link href=\"http://gtk.org/\">Official web site</link>"
+msgstr "<link href=\"http://gtk.org/\">Επίσημος ιστότοπος</link>"
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:52
-msgid "<link href=\"http://developer.gnome.org/gtk3/stable/\">GTK+ Reference Manual</link>"
+#| msgid ""
+#| "<link href=\"http://developer.gnome.org/gnome-devel-demos/stable/\">GTK+ demo "
+#| "tutorial</link>"
+msgid ""
+"<link href=\"http://developer.gnome.org/gnome-devel-demos/stable/\">Demo tutorial</link>"
 msgstr ""
-"<link href=\"http://developer.gnome.org/gtk3/stable/\">Εγχειρίδιο αναφοράς του GTK+</link>"
+"<link href=\"http://developer.gnome.org/gnome-devel-demos/stable/\">Μάθημα επίδειξης</"
+"link>"
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:53
-msgid "<link href=\"http://gtk.org/\">The GTK+ web site</link>"
-msgstr "<link href=\"http://gtk.org/\">Η ιστοσελίδα του GTK+</link>"
+msgid "<link href=\"http://developer.gnome.org/gtk3/stable/\">Reference Manual</link>"
+msgstr "<link href=\"http://developer.gnome.org/gtk3/stable/\">Εγχειρίδιο αναφοράς</link>"
+
+#. (itstool) path: item/p
+#: C/tech-gtk.page:54
+#| msgid "<link href=\"https://wiki.gnome.org/Projects/Folks\">Libfolks home page</link>"
+msgid "<link href=\"https://git.gnome.org/browse/gtk+/\">git repository</link>"
+msgstr "<link href=\"https://git.gnome.org/browse/gtk+/\">Αποθετήριο git</link>"
+
+#. (itstool) path: item/p
+#: C/tech-gtk.page:55
+msgid "Mailing lists:"
+msgstr "Λίστες αλληλογραφίας:"
+
+#. (itstool) path: item/p
+#: C/tech-gtk.page:57
+msgid ""
+"<link href=\"https://mail.gnome.org/mailman/listinfo/gtk-app-devel-list\">Writing GTK+ "
+"applications</link>"
+msgstr ""
+"<link href=\"https://mail.gnome.org/mailman/listinfo/gtk-app-devel-list\">Γράφοντας "
+"εφαρμογές GTK+</link>"
+
+#. (itstool) path: item/p
+#: C/tech-gtk.page:58
+#| msgid ""
+#| "<link href=\"https://developer.gnome.org/gio/stable/\">GIO Reference Manual</link>"
+msgid ""
+"<link href=\"https://mail.gnome.org/mailman/listinfo/gtk-list\">General discussion about "
+"GTK+</link>"
+msgstr ""
+"<link href=\"https://mail.gnome.org/mailman/listinfo/gtk-list\">Γενική συζήτηση σχετικά "
+"με το GTK+</link>"
+
+#. (itstool) path: item/p
+#: C/tech-gtk.page:59
+#| msgid ""
+#| "<link href=\"http://developer.gnome.org/accessibility-devel-guide/\">GNOME "
+#| "Accessibility for Developers</link>"
+msgid ""
+"<link href=\"https://mail.gnome.org/mailman/listinfo/gtk-devel-list\">Development of GTK"
+"+</link>"
+msgstr ""
+"<link href=\"https://mail.gnome.org/mailman/listinfo/gtk-devel-list\">Ανάπτυξη του GTK+</"
+"link>"
 
 #. (itstool) path: credit/name
 #: C/tech-gupnp.page:11
