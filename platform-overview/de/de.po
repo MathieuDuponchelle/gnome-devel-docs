@@ -1120,7 +1120,7 @@ msgstr ""
 "genannt. Für Projekte, die in den Git-Softwarebeständen von GNOME gehostet werden, "
 "übernimmt das GNOME-Übersetzungsprojekt diese Aufgabe. <app href=\"https://wiki.gnome."
 "org/Apps/Gtranslator\">Gtranslator</app> ist eine GNOME-Anwendung zum Bearbeiten von "
-"file>.po</file>-Dateien. Weitere Werkzeuge für Online- und Offline-Übersetzungen sind "
+"<file>.po</file>-Dateien. Weitere Werkzeuge für Online- und Offline-Übersetzungen sind "
 "<app>Transifex</app>, <app>Virtaal</app>, <app>KBabel</app> oder <app>Pootle</app>."
 
 #. (itstool) path: credit/name

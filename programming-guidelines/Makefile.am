@@ -3,7 +3,6 @@
 HELP_ID = programming-guidelines
 
 HELP_EXTRA = \
-	cc-by-sa-3-0.xml \
 	example-docs.xml \
 	$(NULL)
 
@@ -11,6 +10,7 @@ HELP_FILES = \
 	additional-materials.page \
 	api-stability.page \
 	c-coding-style.page \
+	cc-by-sa-3-0.xml \
 	databases.page \
 	documentation.page \
 	file-system.page \
