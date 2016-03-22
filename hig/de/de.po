@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2016-02-18 08:54+0000\n"
-"PO-Revision-Date: 2016-02-18 14:16+0100\n"
+"POT-Creation-Date: 2016-03-22 09:08+0000\n"
+"PO-Revision-Date: 2016-03-22 14:09+0100\n"
 "Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
 "Language-Team: Deutsch <gnome-de@gnome.org>\n"
 "Language: de\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.7\n"
+"X-Generator: Poedit 1.8.7.1\n"
 
 #. (itstool) path: p/link
 #: C/legal.xml:5
@@ -850,6 +850,11 @@ msgid ""
 "the OK or equivalent button. However, if pressing this button by mistake "
 "could cause a loss of data, do not set a default button for the window."
 msgstr ""
+"In einem Dialog kann ein Knopf als Standardknopf festgelegt werden, der mit "
+"einer anderen Umrandung angzeigt und mit der Eingabetaste aktiviert wird. "
+"Oft wird dies der OK-Knopf oder ein ähnlicher sein. Wenn allerdings "
+"unbeabsichtigtes Anklicken dieses Knopfes Datenverlust verursachen kann, "
+"legen Sie besser keinen Standardknopf fest."
 
 #. (itstool) path: section/title
 #: C/buttons.page:52
@@ -863,6 +868,9 @@ msgid ""
 "style#capitalization\">header capitalization</link>. For example, <gui>Save</"
 "gui>, <gui>Sort</gui> or <gui>Update Now</gui>."
 msgstr ""
+"Beschriften Sie alle Knöpfe mit imperativen Verben mit <link xref=\"writing-"
+"style#capitalization\">groß geschriebenen Anfangsbuchstaben</link>, zum "
+"Beispiel <gui>Save</gui>, <gui>Sort</gui> oder <gui>Update Now</gui>."
 
 #. (itstool) path: item/p
 #: C/buttons.page:56
@@ -870,6 +878,9 @@ msgid ""
 "Use <link xref=\"writing-style#ellipses\">ellipses</link> when a button "
 "requires further input from the user to complete an action."
 msgstr ""
+"Verwenden Sie die <link xref=\"writing-style#ellipses\">Ellipsis</link>, "
+"wenn ein Knopf weitere Benutzereingaben erfordert, um die Aktion "
+"abzuschließen."
 
 #. (itstool) path: item/p
 #: C/buttons.page:57
@@ -878,6 +889,9 @@ msgid ""
 "the label that allows the user to directly activate the button from the "
 "keyboard."
 msgstr ""
+"Versehen Sie die Beschriftung mit einer <link xref=\"keyboard-input#access-"
+"keys\">Zugriffstaste</link>, die dem Benutzer ermöglicht, den Knopf direkt "
+"mit der Tastatur zu aktvieren."
 
 #. (itstool) path: item/p
 #: C/buttons.page:58
@@ -885,6 +899,9 @@ msgid ""
 "Keep labels short, so they don't cause a button to use too much space. It is "
 "also important to consider how labels will change length when localized."
 msgstr ""
+"Halten Sie die Beschriftungen möglichst kurz, so dass ein Knopf nicht zu "
+"viel Platz benötigt. Sie sollten auch beachten, dass sich die Länge eines "
+"Knopfs mit einer lokalisierten Beschriftung ändern kann."
 
 #. (itstool) path: section/title
 #: C/buttons.page:64
@@ -899,11 +916,15 @@ msgid ""
 "set and unset, are shown by its appearing “pushed in” or “popped out” "
 "respectively."
 msgstr ""
+"Umschaltknöpfe erscheinen wie gewöhnliche Knöpfe, aber sie werden dazu "
+"verwendet, einen Status anzuzeigen oder umzuschalten, anstatt eine Aktion "
+"einzuleiten. Ein Umschaltknopf hat zwei Zustände, »gesetzt« und »nicht "
+"gesetzt«, die visuell als »gedrückt« oder »nicht gedrückt« angezeigt werden."
 
 #. (itstool) path: section/title
 #: C/buttons.page:71
 msgid "Linked buttons"
-msgstr ""
+msgstr "Verknüpfte Knöpfe"
 
 #. (itstool) path: section/p
 #: C/buttons.page:73
@@ -912,6 +933,9 @@ msgid ""
 "communicate their similarity. Linking is a common technique for sets of "
 "toggle buttons."
 msgstr ""
+"Knopfgruppen mit ähnlichen Funktionen können zusammengefasst werden. Dies "
+"vermittelt dem Benutzer deren Zusammengehörigkeit. Verknüpfung ist eine "
+"häufig genutzte Technik für Anordnungen von Umschaltknöpfen."
 
 #. (itstool) path: section/title
 #: C/buttons.page:78
@@ -933,11 +957,16 @@ msgid ""
 "content item, can be given a destructive style. This highlights the button "
 "by coloring it, and acts as a warning to the user."
 msgstr ""
+"Knöpfe, die destruktiv wirken, zum Beispiel ein Objekt entfernen, können in "
+"einem destruktiven Stil dargestellt werden. Dadurch wird der Knopf durch "
+"spezielle Einfärbung hervorgehoben, um den Benutzer zu warnen."
 
 #. (itstool) path: section/p
 #: C/buttons.page:84
 msgid "Each view should only include a single suggested or destructive button."
 msgstr ""
+"In jeder Ansicht sollte nur ein Knopf mit suggestiver oder destruktiver "
+"Wirkung vorhanden sein."
 
 #. (itstool) path: item/p
 #: C/buttons.page:92
@@ -981,6 +1010,10 @@ msgid ""
 "unset, are shown by the presence or absence of a checkmark in the labeled "
 "box."
 msgstr ""
+"Ankreuzfelder werden verwendet, um eine Einstellung anzuzeigen oder zu "
+"ändern. Die zwei Zustände »gesetzt« und »nicht gesetzt« werden dadurch "
+"angezeigt, dass in dem entsprechenden Feld eine Markierung vorhanden ist "
+"oder nicht."
 
 #. (itstool) path: item/p
 #: C/check-boxes.page:40
@@ -988,6 +1021,9 @@ msgid ""
 "Clicking a check box should not affect the values of any other controls. It "
 "may sensitize, insensitize, hide or show other controls, however."
 msgstr ""
+"Das Anklicken eines Ankreuzfeldes sollte die Werte anderer Bedienelemente "
+"nicht beeinflussen. Lediglich die Bedienbarkeit (aktiv oder ausgegraut) "
+"anderer Elemente kann dadurch beeinflusst werden."
 
 #. (itstool) path: item/p
 #: C/check-boxes.page:41
@@ -1084,6 +1120,10 @@ msgid ""
 "this makes them easier to scan visually. Use horizontal or rectangular "
 "alignments only if they greatly improve the layout of the window."
 msgstr ""
+"Versuchen Sie, Ankreuzfelder vertikal anstatt horizontal anzuordnen, da "
+"diese Anordnung visuell leichter zu erfassen ist. Verwenden Sie horizontale "
+"oder rechteckige Anordnungen nur dann, wenn sie das Layout des Fensters "
+"maßgeblich verbessern."
 
 #. (itstool) path: item/p
 #: C/check-boxes.page:62
@@ -1099,6 +1139,8 @@ msgstr ""
 #: C/compatibility.page:11 C/index.page:55
 msgid "Using the HIG for cross-platform or GNOME 2 style applications."
 msgstr ""
+"Anwendung der Richtlinien auf plattformübergreifende Software oder Programme "
+"im Stil von GNOME 2."
 
 #. (itstool) path: page/title
 #: C/compatibility.page:14
@@ -1114,11 +1156,16 @@ msgid ""
 "older applications, which may have been designed and implemented in "
 "accordance with the GNOME 2 HIG."
 msgstr ""
+"Diese Richtlinien für Benutzeroberflächen zielen primär auf neue GNOME- und "
+"GTK+-Anwendungen ab, wobei der Schwerpunkt wiederum auf der Integration in "
+"GNOME 3 liegt. Jedoch sind sie auch für plattformübergreifende und ältere "
+"Anwendungen anwendbar, die auf der Grundlage der Richtlinien für GNOME-2-"
+"Benutzeroberflächen entworfen und implementiert wurden."
 
 #. (itstool) path: section/title
 #: C/compatibility.page:19
 msgid "Cross-platform compatibility"
-msgstr ""
+msgstr "Plattformübergreifende Kompatibilität"
 
 #. (itstool) path: section/p
 #: C/compatibility.page:21
@@ -1136,6 +1183,9 @@ msgid ""
 "bars\">menu bars</link>, this pattern is of special relevance for cross-"
 "platform applications."
 msgstr ""
+"Da einige Plattformen die Integration von <link xref=\"menu-bars"
+"\">Menüleisten</link> bieten, ist dieser Aspekt für plattformübergreifende "
+"Anwendungen von besonderer Bedeutung."
 
 #. (itstool) path: section/title
 #: C/compatibility.page:28
@@ -1209,7 +1259,7 @@ msgstr ""
 #. (itstool) path: td/p
 #: C/design-principles.page:11 C/index.page:29
 msgid "General design guidelines and advice."
-msgstr ""
+msgstr "Allgemeine Designrichlinien und Beratung."
 
 #. (itstool) path: page/title
 #: C/design-principles.page:14
@@ -1227,7 +1277,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/design-principles.page:19
 msgid "Give your application a clear focus"
-msgstr ""
+msgstr "Geben Sie Ihren Anwendungen einen klar umrissenen Schwerpunkt"
 
 #. (itstool) path: section/p
 #: C/design-principles.page:21
@@ -1245,11 +1295,13 @@ msgid ""
 "Remember: the best applications provide an elegant solution to a specific "
 "task area."
 msgstr ""
+"Denken Sie daran: Die besten Anwendungen bieten eine elegante Läsung für "
+"einen spezifischen Aufgabenbereich."
 
 #. (itstool) path: section/title
 #: C/design-principles.page:28
 msgid "Keep user interface complexity to a minimum"
-msgstr ""
+msgstr "Minimieren Sie die Komplexität der Benutzeroberfläche"
 
 #. (itstool) path: section/p
 #: C/design-principles.page:30
@@ -1260,6 +1312,12 @@ msgid ""
 "use. Therefore, only include essential controls and information in your "
 "application interface."
 msgstr ""
+"Jeder Bedienelement oder jede Information, das oder die Sie zu Ihrer "
+"Anwendung hinzufügen, verursacht zusätzliche Arbeit für den Benutzer und "
+"erhöht die Komplexität Ihrer Anwendung. Dadurch wird die Bedienung "
+"potenziell komplizierter und weniger angenehm. Daher sollten Sie sich in der "
+"Benutzeroberfläche auf essenzielle Bedienelemente und Informationen "
+"beschränken."
 
 #. (itstool) path: section/p
 #: C/design-principles.page:32
@@ -1267,6 +1325,8 @@ msgid ""
 "When adding a new control or piece of information, always take a moment to "
 "question whether it is necessary."
 msgstr ""
+"Vor dem Hinzufügen neuer Bedienelemente oder Informationen sollten Sie sich "
+"stets die Frage stellen, ob dies wirklich notwendig ist."
 
 #. (itstool) path: section/title
 #: C/design-principles.page:37
@@ -1311,11 +1371,14 @@ msgid ""
 "Try to avoid the need for a manual setup screen or assistant, and make it "
 "easy to go back to recently used content."
 msgstr ""
+"Versuchen Sie, manuelle Einrichtung oder einen Einrichtungsassistenten zu "
+"vermeiden, und stellen Sie einfache Möglichkeiten bereit, zu kürzlich "
+"verwendeten Inhalten zurückzukehren."
 
 #. (itstool) path: section/title
 #: C/design-principles.page:55
 msgid "Create a clear hierarchy"
-msgstr ""
+msgstr "Erstellen Sie eine klare Hierarchie"
 
 #. (itstool) path: section/p
 #: C/design-principles.page:57
@@ -1325,6 +1388,11 @@ msgid ""
 "come later. Use this implied hierarchy to communicate which parts of your "
 "application are most important."
 msgstr ""
+"Benutzer tendieren dazu, eine Oberfläche von links nach rechts und von oben "
+"nach unten zu »lesen«. Zuerst entdeckte Elemente erscheinen dominant "
+"gegenüber jeden, die später gesehen werden. Verwenden Sie diese implizite "
+"Hierarchie, um dem Benutzer mitzuteilen, welches die wichtigsten Teile Ihrer "
+"Anwendung sind."
 
 #. (itstool) path: section/p
 #: C/design-principles.page:59
@@ -1338,7 +1406,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/design-principles.page:64
 msgid "Prioritize content"
-msgstr ""
+msgstr "Priorisieren Sie Inhalte"
 
 #. (itstool) path: section/p
 #: C/design-principles.page:66
@@ -1356,11 +1424,14 @@ msgid ""
 "the number of controls. Don’t crowd out the primary object of interest with "
 "secondary information."
 msgstr ""
+"Geben Sie dem eigentlichen Inhalt in ihrer Anwendung so viel Platz wie "
+"möglich, indem Sie die Anzahl der Bedienelemente reduzieren. Verdrängen Sie "
+"nicht das primär interessante Objekt durch sekundäre Informationen."
 
 #. (itstool) path: section/title
 #: C/design-principles.page:73
 msgid "Anticipate errors"
-msgstr ""
+msgstr "Rechnen Sie mit Fehlern"
 
 #. (itstool) path: section/p
 #: C/design-principles.page:75
@@ -1371,6 +1442,12 @@ msgid ""
 "mistakes cannot be made. Secondly, if it is possible to make a mistake, make "
 "it easy to recover."
 msgstr ""
+"Leute machen Fehler. Wenn Sie diese erwarten, schützt dies den Benutzer vor "
+"negativen Konsequenzen und die Bedienung Ihrer Anwendung wird angenehmer. "
+"Die erste Abwehrmaßnahme wäre, Ihre Anwendung so zu entwickeln, dass keine "
+"Fehler gemacht werden können. Wenn dies in der Praxis nicht sichergestellt "
+"werdn kann, bieten Sie Möglichkeiten an, Fehler einfach rückgängig machen zu "
+"können."
 
 #. (itstool) path: section/p
 #: C/design-principles.page:77
@@ -1382,7 +1459,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/design-principles.page:82
 msgid "Avoid interruptions"
-msgstr ""
+msgstr "Vermeiden Sie Unterbrechungen"
 
 #. (itstool) path: section/p
 #: C/design-principles.page:84
@@ -1404,7 +1481,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/design-principles.page:91
 msgid "Provide quick and effective search"
-msgstr ""
+msgstr "Stellen Sie schnelle und effektive Suchmöglichkeiten bereit"
 
 #. (itstool) path: section/p
 #: C/design-principles.page:93
@@ -1427,7 +1504,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/design-principles.page:100
 msgid "Use configuration options sparingly"
-msgstr ""
+msgstr "Verwenden Sie Konfigurationsoptionen sparsam"
 
 #. (itstool) path: section/p
 #: C/design-principles.page:102
@@ -1442,6 +1519,8 @@ msgstr ""
 #: C/design-principles.page:107
 msgid "Give your application an instructive name and an attractive icon"
 msgstr ""
+"Geben Sie Ihrer Anwendung einen aussagekräftigen Namen und ein attraktives "
+"Symbol"
 
 #. (itstool) path: section/p
 #: C/design-principles.page:109
@@ -1541,7 +1620,7 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/dialogs.page:33
 msgid "There are three basic types of dialogs."
-msgstr ""
+msgstr "Es gibt drei grundlegende Typen von Dialogen."
 
 #. (itstool) path: section/p
 #: C/dialogs.page:38
@@ -1563,12 +1642,12 @@ msgstr ""
 #. (itstool) path: section/p
 #: C/dialogs.page:42
 msgid "There are many ways to avoid using dialogs:"
-msgstr ""
+msgstr "Es gibt viele Wege, Dialoge zu vermeiden:"
 
 #. (itstool) path: item/p
 #: C/dialogs.page:45
 msgid "Use inline composition for new messages, records or contacts."
-msgstr ""
+msgstr "Ordnen Sie neue Nachrichten, Kontakte und Ähnliches eingebettet an."
 
 #. (itstool) path: item/p
 #: C/dialogs.page:46
@@ -1827,7 +1906,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/dialogs.page:159
 msgid "Dialogs should always have a parent window."
-msgstr ""
+msgstr "Dialogfenster sollten stets ein Elternfenster haben."
 
 #. (itstool) path: item/p
 #: C/dialogs.page:160
@@ -1849,6 +1928,8 @@ msgid ""
 "Avoid stacking dialog windows on top of one another. Only one dialog window "
 "should be displayed at a time."
 msgstr ""
+"Vermeiden Sie die Stapelung von Dialogfenstern. Niemals sollten mehrere "
+"Dialogfenster gleichzeitig angezeigt werden."
 
 #. (itstool) path: item/p
 #: C/dialogs.page:163
@@ -1918,6 +1999,9 @@ msgid ""
 "Ensure that your application works well in portrait orientation. The minimum "
 "recommended width for portrait mode is 768 pixels."
 msgstr ""
+"Stellen Sie sicher, dass Ihre Anwendung auf Hochformat-Bildschirmen gut "
+"funktioniert. Die minimale empfohlene Breite für den Hochformat-Modus ist "
+"768 Pixel."
 
 #. (itstool) path: item/p
 #: C/display-compatibility.page:26
@@ -3563,7 +3647,6 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/keyboard-input.page:49
-#| msgid "Keyboard navigation"
 msgid "Standard navigation keys"
 msgstr "Standard-Navigationstasten"
 
@@ -3969,10 +4052,6 @@ msgstr "Anwendung wechseln"
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:192
-#| msgid ""
-#| "<key>PageUp</key>, <keyseq><key>Ctrl</key><key>PageUp</key></keyseq>, "
-#| "<key>PageDown</key> and <keyseq><key>Ctrl</key><key>PageDown</key></"
-#| "keyseq>"
 msgid ""
 "<keyseq><key>Super</key><key>Tab</key></keyseq> and <keyseq><key>Shift</"
 "key><key>Super</key><key>Tab</key></keyseq>"
@@ -5061,9 +5140,8 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/keyboard-input.page:643
-#, fuzzy
 msgid "Go"
-msgstr "Los"
+msgstr "Go"
 
 #. (itstool) path: section/p
 #: C/keyboard-input.page:645
@@ -8656,17 +8734,13 @@ msgstr "<keyseq><key>Strg</key><key>T</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/tabs.page:78
-#, fuzzy
-#| msgid "Create a new document"
 msgid "Create a new tab"
-msgstr "Ein neues Dokument anlegen"
+msgstr "Einen neuen Reiter öffnen"
 
 #. (itstool) path: td/p
 #: C/tabs.page:82
-#, fuzzy
-#| msgid "Close the current document"
 msgid "Close the current tab"
-msgstr "Das aktuelle Dokument schließen"
+msgstr "Den aktuellen Reiter schließen"
 
 #. (itstool) path: td/p
 #: C/tabs.page:85
