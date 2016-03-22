@@ -1,3 +1,19 @@
+3.20.0
+======
+
+* Improved links for the platform overview (Alexandre Franke)
+* Clarifications and improvements to the programming guidelines (Philip
+  Withnall, Sébastien Wilmet)
+* Typo and small fixes for the optimization guide and HIG (Anders Jonsson)
+* Use CC-BY-SA 4.0 for the platform overview (Ekaterina Gerasimova)
+* Updated translations:
+  cs      (Marek Černocký)
+  de      (Mario Blättermann, Christian Kirbach)
+  el      (Tom Tryfonidis, Γιάννης Κουτσούκος)
+  es      (Daniel Mustieles, Javier Mazorra)
+  ko      (Seong-ho Cho)
+  sv      (Anders Jonsson)
+
 3.18.1
 ======
 
