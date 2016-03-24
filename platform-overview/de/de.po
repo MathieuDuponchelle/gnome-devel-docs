@@ -7,11 +7,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: platform-overview master\n"
-"POT-Creation-Date: 2016-03-17 10:29+0100\n"
-"PO-Revision-Date: 2016-03-17 10:35+0100\n"
+"POT-Creation-Date: 2016-03-24 09:07+0000\n"
+"PO-Revision-Date: 2016-03-24 20:34+0100\n"
 "Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
 "Language-Team: Deutsch <>\n"
-"Language: de_DE\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -541,6 +541,12 @@ msgid ""
 "application launchers. Installing a desktop file is the standard way to register your "
 "application with GNOME and other desktops."
 msgstr ""
+"GNOME verwendet die <link href=\"http://standards.freedesktop.org/desktop-entry-spec/"
+"latest/index.html\">DesktopEinträge von freedesktop.org</link> und die <link href="
+"\"http://standards.freedesktop.org/menu-spec/latest/\">Desktop-Menü-Spezifikation</link> "
+"für die Beschreibung von Anwendungsstartern. Die Installation einer *.desktop-Datei ist "
+"der Standardweg, Ihre Anwendung unter GNOME und anderen Arbeitsumgebungen zu "
+"registrieren."
 
 #. (itstool) path: page/p
 #: C/dev-launching-desktop.page:37
@@ -597,6 +603,14 @@ msgid ""
 "which for applications is always <code>Application</code>. Alternative types are listed "
 "in the desktop entry specification."
 msgstr ""
+"Die Zeile <code>[Desktop Entry]</code> gibt an, dass es sich um eine *.desktop-Datei "
+"handelt. Darauf folgen Schlüssel, die den Anwendungsstarter beschreiben. Der Schlüssel "
+"<code>Name</code> ist der menschenlesbare Name der Anwendung, der in der "
+"Benutzeroberfläche angezeigt wird. Das ausführbare Binary gibt der Schlüssel <code>Exec</"
+"code>, entweder als vollständigen Pfad oder als Datei, die in einerm der Pfade der "
+"Variable <code>PATH</code> zu finden ist. Der letzte obligatorische Schlüssel ist "
+"<code>Type</code>, der für Anwendungen immer <code>Application</code> ist. Alternative "
+"Typen finden Sie in der »Desktop Entry Specification«."
 
 #. (itstool) path: page/p
 #: C/dev-launching-desktop.page:65
@@ -807,6 +821,11 @@ msgid ""
 "\"https://developer.gnome.org/gnome-desktop3/stable/GnomeDesktopThumbnailFactory.html"
 "\">GnomeDesktopThumbnailFactory</link>."
 msgstr ""
+"Die Bibliothek gnome-desktop definiert die Schnittstelle und die zugehörigen Dateien, "
+"die ein Programm zur Vorschaubilderzeugung implementieren muss. Die für den Aufruf des "
+"Vorschaubilderzeugers verantwortliche Komponente ist <link href=\"https://developer."
+"gnome.org/gnome-desktop3/stable/GnomeDesktopThumbnailFactory.html"
+"\">GnomeDesktopThumbnailFactory</link>."
 
 #. (itstool) path: page/p
 #: C/dev-thumbnailer.page:34
@@ -1071,6 +1090,8 @@ msgstr ""
 msgid ""
 "Wrap messages or <em>string literals</em> in your code with the '<code>_()</code>' macro."
 msgstr ""
+"Schließen Sie Meldungen oder <em>string literals</em> in Ihrem Code mit dem Makro "
+"'<code>_()</code>' ein."
 
 #. (itstool) path: note/p
 #: C/dev-translate-setup.page:34
@@ -1098,7 +1119,7 @@ msgid ""
 "This marks the strings as translatable, and at runtime calls <app>gettext</app> to "
 "substitute the translated strings."
 msgstr ""
-"Dadurch werden Zeichenketten als übersetzbar markiert und die Laufzeitungebung ruft "
+"Dadurch werden Zeichenketten als übersetzbar markiert und die Laufzeitumgebung ruft "
 "<app>gettext</app> auf, um die übersetzten Zeichenketten zu ersetzen."
 
 #. (itstool) path: page/title
@@ -1205,6 +1226,8 @@ msgid ""
 "Welcome to the GNOME developer overview. GNOME offers a range of tools that can be used "
 "in your application."
 msgstr ""
+"Willkommen in der Übersicht für GNOME-Entwickler. GNOME bietet eine Reihe von "
+"Werkzeugen, die in Ihrer Anwendung genutzt werden können."
 
 #. (itstool) path: links/title
 #: C/index.page:56
@@ -1279,6 +1302,10 @@ msgid ""
 "licenses/gpl-3.0.html\">GPL3+</link>, while some of the older applications are licensed "
 "under <link href=\"http://www.gnu.org/licenses/gpl-2.0.html\">GPL2+</link>."
 msgstr ""
+"Die meisten neueren GNOME-Anwendungen sind unter <link href=\"http://www.gnu.org/"
+"licenses/gpl-3.0.html\">GPL3+</link> lizenziert, während für einige der älteren "
+"Anwendungen noch die Bedingungen der <link href=\"http://www.gnu.org/licenses/gpl-2.0."
+"html\">GPL2+</link> gelten."
 
 #. (itstool) path: page/p
 #: C/license.page:35
@@ -1288,6 +1315,11 @@ msgid ""
 "documentation team tries to use this license consistently as it allows re-use of text "
 "from Wikipedia and many other reference sources."
 msgstr ""
+"Die vom GNOME-Dokumentationsteam verfassten Benutzerhilfen unterliegen den "
+"Lizenzbedingungen der <link href=\"http://creativecommons.org/licenses/by-sa/3.0/\">CC-"
+"by-SA 3.0 Unported</link>. Das Dokumentationsteam versucht, diese Lizenz konsistent zu "
+"verwenden, da sie die Wiederverwendung von Text aus Wikipedia und vielen anderen "
+"Referenzquellen erlaubt."
 
 #. (itstool) path: page/p
 #: C/license.page:41
@@ -1457,6 +1489,10 @@ msgid ""
 "range of messaging services. It uses Telepathy to handle connections, presence, and "
 "contact information for all of the protocols that it supports."
 msgstr ""
+"<em style=\"strong\">Empathy</em> ist eine Sofortnachrichten-Anwendung mit Unterstützung "
+"für ein breites Spektrum verschiedener Nachrichtendienste. Es verwendet Telepathy für "
+"den Umgang mit Verbindungen, den Anwesenheitsstatus und Kontaktinformationen für alle "
+"Protokolle, die es unterstützt."
 
 #. (itstool) path: item/p
 #: C/overview-communication.page:91
@@ -1477,6 +1513,8 @@ msgid ""
 "With Telepathy Tubes support, the <em style=\"strong\">GNOME Games</em> collection was "
 "able to add multi-player gaming support through the Jabber protocol."
 msgstr ""
+"In der Spielesammlung <em style=\"strong\">GNOME Games</em> war es dank Unterstützung "
+"für Telepathy Tubes möglich, Mehrspielermodi über das Jabber-Protokoll zu implementieren."
 
 #. (itstool) path: item/p
 #: C/overview-communication.page:96
@@ -1486,6 +1524,10 @@ msgid ""
 "png\">Screenshot</link> | <link href=\"https://git.gnome.org/browse/gnome-chess/"
 "\">GLChess online multiplayer code</link> )"
 msgstr ""
+"(<link href=\"https://wiki.gnome.org/Projects/Games\">Webseite</link> | <link href="
+"\"https://wiki.gnome.org/Apps/Chess?action=AttachFile&amp;do=get&amp;target=gnome-chess."
+"png\">Bildschirmfoto</link> | <link href=\"https://git.gnome.org/browse/gnome-chess/"
+"\">Online-Mehrspieler-Code in GLChess</link> )"
 
 #. (itstool) path: item/p
 #: C/overview-communication.page:100
@@ -1493,6 +1535,8 @@ msgid ""
 "Avahi support allows users of the <em style=\"strong\">Rhythmbox</em> music player to "
 "see shared music collections on their local network, using DAAP."
 msgstr ""
+"Die Avahi-Unterstützung erlaubt es den Benutzern von <em style=\"strong\">Rhythmbox</em> "
+"auf freigegebene Musiksammlungen im lokalen Netzwerk mittels DAAP zuzugreifen."
 
 #. (itstool) path: item/p
 #: C/overview-communication.page:101
@@ -1501,6 +1545,9 @@ msgid ""
 "\"https://wiki.gnome.org/Apps/Rhythmbox/Screenshots\">Screenshots</link> | <link href="
 "\"https://git.gnome.org/browse/rhythmbox/tree/plugins/daap\">DAAP Code</link> )"
 msgstr ""
+"(<link href=\"https://wiki.gnome.org/Apps/Rhythmbox\">Webseite</link> | <link href="
+"\"https://wiki.gnome.org/Apps/Rhythmbox/Screenshots\">Bildschirmfotos</link> | <link "
+"href=\"https://git.gnome.org/browse/rhythmbox/tree/plugins/daap\">DAAP-Code</link> )"
 
 #. (itstool) path: info/desc
 #: C/overview-io.page:22
@@ -1836,7 +1883,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/overview-settings.page:17
 msgid "Flexible user configuration system."
-msgstr ""
+msgstr "Flexibles System zur Benutzerkonfiguration"
 
 #. (itstool) path: page/title
 #: C/overview-settings.page:20
@@ -1888,6 +1935,8 @@ msgid ""
 "<em style=\"strong\">Dconf editor</em> is the GUI tool for managing preferences stored "
 "in the dconf database with GSettings."
 msgstr ""
+"<em style=\"strong\">Dconf editor</em> ist ein grafisches Werkzeug zur Verwaltung von "
+"Einstellungen, die in der Dconf-Datenbank mit GSettings gespeichert werden."
 
 #. (itstool) path: item/p
 #: C/overview-settings.page:70
@@ -1937,7 +1986,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/overview-ui.page:36
 msgid "<em style=\"strong\">Access built-in assistive technologies</em>"
-msgstr ""
+msgstr "<em style=\"strong\">Zugriff auf eingebaute Barrierefreiheits-Technolgien</em>"
 
 #. (itstool) path: page/p
 #: C/overview-ui.page:40
@@ -2019,6 +2068,9 @@ msgid ""
 "<em style=\"strong\">MonoDevelop</em> is a cross-platform IDE designed for C# and other ."
 "NET languages. It works on Linux, Mac OS X and Windows"
 msgstr ""
+"<em style=\"strong\">MonoDevelop</em> ist eine plattformübergreifende integrierte "
+"Entwicklungsumgebung für C# und andere .NET-Sprachen. Sie funktioniert unter Linux, Mac "
+"OS X und Windows."
 
 #. (itstool) path: item/p
 #: C/overview-ui.page:104
@@ -2037,6 +2089,8 @@ msgid ""
 "<em style=\"strong\">Videos</em> is the GNOME multimedia player, and uses Clutter to "
 "display video content."
 msgstr ""
+"<em style=\"strong\">Videos</em> ist das Multimedia-Wiedergabeprogramm von GNOME, das "
+"Clutter zur Anzeige von Videoinhalten nutzt."
 
 #. (itstool) path: item/p
 #: C/overview-ui.page:108
@@ -2076,13 +2130,13 @@ msgid ""
 "disorders. Many people have some sort of disability, and making your application "
 "accessible will allow more people to use it effectively, even if they are not disabled."
 msgstr ""
-"Barrierefreiheit ist der Prozess mit dem Sie sicherstellen, dass Ihre Anwendung von "
-"Menschen mit diversen Behinderungen bedient werden können. Behinderungen haben viele "
+"Barrierefreiheit ist der Prozess, mit dem Sie sicherstellen, dass Ihre Anwendung von "
+"Menschen mit diversen Behinderungen bedient werden kann. Behinderungen haben viele "
 "verschiedene Formen: Visuelle Einschränkungen, Bewegungseinschränkungen, "
 "Höreinschränkungen, kognitive und sprachliche Einschränkungen und Anfallsleiden. Viele "
 "Menschen haben irgendeine Art von Behinderung; wenn Sie Ihre Anwendung barrierefrei "
-"gestalten, stellen Sie sicher, dass zusätzliche Personen Ihre Anwendung effektiv "
-"verwenden können, selbst wenn diese nicht behindert sind."
+"gestalten, stellen Sie sicher, dass ein größerer Personenkreis Ihre Anwendung effektiv "
+"verwenden kann, selbst wenn diese Personen nicht behindert sind."
 
 #. (itstool) path: page/p
 #: C/tech-atk.page:32
@@ -2235,7 +2289,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/tech-cairo.page:18
 msgid "2D, vector-based drawing for high-quality graphics"
-msgstr ""
+msgstr "Vektorbasiertes Zeichnen qualitativ hochwertiger zweidimensionaler Grafiken"
 
 #. (itstool) path: page/title
 #: C/tech-cairo.page:21
@@ -2357,6 +2411,9 @@ msgid ""
 "various source, including <link href=\"http://www.openstreetmap.org/\">Open Street Map</"
 "link>."
 msgstr ""
+"Champlain ist eine Bibliothek, die Widgets zum Zeichnen von Karten bereitstellt. Die "
+"Karten können aus verschiedenen Quellen stammen, zum Beispiel <link href=\"http://www."
+"openstreetmap.org/\">Open Street Map</link>."
 
 #. (itstool) path: note/p
 #: C/tech-champlain.page:27
@@ -2365,6 +2422,10 @@ msgid ""
 "cartographer. He is the “father of New-France” and founder of Québec City, which was the "
 "400th anniversary in 2008, the year this library was created."
 msgstr ""
+"Libchamplain ist nach Samuel de Champlain benannt, einem berühmten französischen "
+"Navigator, Entdecker und Kartograph. Er ist der »Vater von Neu-Frankreich« und der "
+"Gründer von Québec City, die ihren 400. Jahrestag im Jahre 2008 beging, in dem diese "
+"Bibliothek angelegt wurde."
 
 #. (itstool) path: item/p
 #: C/tech-champlain.page:36
@@ -2377,7 +2438,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/tech-clutter.page:18
 msgid "Animations and scene graph"
-msgstr ""
+msgstr "Animationen und Szene-Graphen"
 
 #. (itstool) path: page/title
 #: C/tech-clutter.page:21
@@ -2487,7 +2548,7 @@ msgstr "<link href=\"http://www.clutter-project.org\">Die Clutter-Webseite</link
 #. (itstool) path: info/desc
 #: C/tech-d-bus.page:18
 msgid "Inter-process communication bus to provide APIs to other processes"
-msgstr ""
+msgstr "Interprozesskommunikation zur Bereitstellung von APIs für andere Prozesse"
 
 #. (itstool) path: page/title
 #: C/tech-d-bus.page:22
@@ -2664,7 +2725,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/tech-enchant.page:17
 msgid "Real-time spell checking for text widgets"
-msgstr ""
+msgstr "Rechtschreibprüfung in Echtzeit für Text-Widgets"
 
 #. (itstool) path: page/title
 #: C/tech-enchant.page:20
@@ -2686,6 +2747,9 @@ msgid ""
 "In GNOME, Enchant gets used in text-heavy applications like Empathy (an instant "
 "messaging client) and Epiphany (a web browser, for text entry in web forms)."
 msgstr ""
+"In GNOME wird Enchant in Anwendungen genutzt, die viel mit Text umgehen, wie Empathy, "
+"einem Sofortnachrichten-Programm, oder Epiphany, einem Webbrowser (für die Texteingabe "
+"in Web-Formularen)."
 
 #. (itstool) path: item/p
 #: C/tech-enchant.page:36
@@ -2697,7 +2761,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/tech-folks.page:17
 msgid "Aggregate contacts from multiple local and online sources"
-msgstr ""
+msgstr "Kontakte aus verschiedenen lokalen und Online-Quellen bündeln"
 
 #. (itstool) path: page/title
 #: C/tech-folks.page:20
@@ -2759,6 +2823,9 @@ msgid ""
 "unified interface to them. GDA supports SQLite, MySQL, PostreSQL, Microsoft Access, "
 "Berkeley DB, Oracle, and JDBC."
 msgstr ""
+"Anstatt sich mit den Launen der verschiedenen Datenbanksysteme herumzuschlagen, können "
+"Sie mit GDA über eine vereinheitlichte Schnittstelle auf Datenbanken zugreifen. GDA "
+"unterstützt SQLite, MySQL, PostreSQL, Microsoft Access, Berkeley DB, Oracle und JDBC."
 
 #. (itstool) path: item/p
 #: C/tech-gda.page:33
@@ -2776,7 +2843,7 @@ msgstr "<link href=\"http://www.gnome-db.org/\">Die Webseite von GDA</link>"
 #. (itstool) path: info/desc
 #: C/tech-gdk.page:18
 msgid "Low-level abstraction for the windowing system"
-msgstr ""
+msgstr "Low-Level-Abstraktion des Fenstersystems"
 
 #. (itstool) path: page/title
 #: C/tech-gdk.page:21
@@ -3358,6 +3425,10 @@ msgid ""
 "left language support, accessibility interfaces, keyboard navigation, and automatic "
 "sizing."
 msgstr ""
+"GTK+ ermöglicht Ihnen die Entwicklung eigener Widgets zur Nutzung in Anwendungen. "
+"Ähnlich wie native oder »Stock«-Widgets können diese alle Funktionsmerkmale "
+"unterstützen, die GTK+ bietet: Unterstützung für linksläufige Sprachen, barrierefreie "
+"Schnittstellen, Tastaturnavigation und automatische Größenanpassung."
 
 #. (itstool) path: item/p
 #: C/tech-gtk.page:51
@@ -3634,6 +3705,12 @@ msgid ""
 "For example, a multimedia application may need to download a codec, or an illustration "
 "program may need to download fonts as needed."
 msgstr ""
+"Mit PackageKit können Anwendungen den Installationsstatus anderer Pakete abfragen, "
+"unabhängig davon, unter welcher GNU/Linux-Distribution es ausgeführt wird. Wenn Ihre "
+"Anwendung zur Laufzeit ein zusätzliches Paket erfordert, kann PackageKit angewiesen "
+"werden, es herunterzuladen und zu installieren. Wenn beispielsweise eine Multimedia-"
+"Anwendung einen bestimmten Codec erfordert oder ein Illustrationsprogramm zusätzliche "
+"Schriften, können diese nach Bedarf heruntergeladen werden."
 
 #. (itstool) path: page/p
 #: C/tech-packagekit.page:31
@@ -3644,6 +3721,11 @@ msgid ""
 "when they are plugged in, uses PackageKit to download and install printer drivers as "
 "needed."
 msgstr ""
+"Verschiedene GNOME-Anwendungen nutzen PackageKit in ähnlichen Situationen. Das Medien-"
+"Wiedergabeprogramm Totem fragt über PackageKit die Installtion von Codecs an, wenn es "
+"versucht, eine Mediendatei wiederzugeben, die es nicht erkennt. System-config-printer, "
+"ein Programm zur Einrichtung von Druckern, sobald sie angeschlossen werden, verwendet "
+"PackageKit zum Herunterladen und Installieren von Druckertreibern."
 
 #. (itstool) path: item/p
 #: C/tech-packagekit.page:40
@@ -3653,7 +3735,7 @@ msgstr "<link href=\"http://www.packagekit.org/\">Die Internetseite von PackageK
 #. (itstool) path: info/desc
 #: C/tech.page:15
 msgid "See a list of all of the development libraries in GNOME."
-msgstr ""
+msgstr "Liste aller Entwicklerbibliotheken in GNOME."
 
 #. (itstool) path: page/title
 #: C/tech.page:18
@@ -3666,6 +3748,8 @@ msgid ""
 "The GNOME platform is a rich collection of libraries. This is a list of all the platform "
 "libraries in GNOME, sorted by purpose."
 msgstr ""
+"Die GNOME-Plattform ist eine reichhaltige Sammlung von Bibliotheken. Hier finden Sie "
+"alle Plattformbibliotheken in GNOME, nach Anwendungszweck sortiert."
 
 #. (itstool) path: links/title
 #: C/tech.page:26
@@ -3811,7 +3895,7 @@ msgstr "<link href=\"http://www.pango.org\">Die Webseite von Pango</link>"
 #. (itstool) path: info/desc
 #: C/tech-polkit.page:17
 msgid "Access control for system-level services provided through D-Bus"
-msgstr ""
+msgstr "Zugriffskontrolle für die von D-Bus bereitgestellten Systemdienste"
 
 #. (itstool) path: page/title
 #: C/tech-polkit.page:20
@@ -3842,6 +3926,8 @@ msgstr ""
 #: C/tech-polkit.page:38
 msgid "GNOME uses PolicyKit whenever applications need to request privileged operations."
 msgstr ""
+"GNOME verwendet PolicyKit, wenn eine Anwendung für die Ausführung einer Operation "
+"besondere Privilegien erfordert."
 
 #. (itstool) path: item/p
 #: C/tech-polkit.page:44
@@ -3870,6 +3956,12 @@ msgid ""
 "uses Poppler. You could even use it to create software that lets the user re-arrange or "
 "extract pages from PDFs."
 msgstr ""
+"Poppler ist eine Bibliothek, die auf die Darstellung von PDF-Dokumenten spezialisiert "
+"ist. Dies kann für verschiedene Zwecke genutzt werden. Zum Beispiel wird Poppler von "
+"Evince, dem PDF-Dokumentenbetrachter von GNOME, für die Darstellung verwendet. Außerdem "
+"werden die PDF-Vorschaubilder mit Poppler erzeugt. Sie können es auch dazu verwenden, "
+"Software zu erstellen, die die Neuanordnung oder das Extrahieren von Seiten aus PDF-"
+"Dokumenten ermöglicht."
 
 #. (itstool) path: item/p
 #: C/tech-poppler.page:31
@@ -3903,6 +3995,9 @@ msgid ""
 "directly, or indirectly through higher-level sound manipulation APIs like <link xref="
 "\"tech-gstreamer\">GStreamer</link>."
 msgstr ""
+"Alle Teile von GNOME, die Klänge ausgeben können, verwenden PulseAudio auf die eine oder "
+"andere Weise, entweder direkt oder indirekt über die APIs höherer Ebenen zur "
+"Klangmanipulation, wie <link xref=\"tech-gstreamer\">GStreamer</link>."
 
 #. (itstool) path: item/p
 #: C/tech-pulseaudio.page:34
@@ -4135,7 +4230,7 @@ msgstr "<link href=\"http://telepathy.freedesktop.org\">Die Webseite von Telepat
 #. (itstool) path: info/desc
 #: C/tech-tracker.page:17
 msgid "Storage and retrieval for document metadata"
-msgstr ""
+msgstr "Speichern und Ermitteln von Dokument-Metadaten"
 
 #. (itstool) path: page/title
 #: C/tech-tracker.page:20
@@ -4262,7 +4357,7 @@ msgstr "Gordon Hill"
 #. (itstool) path: info/desc
 #: C/tour-application.page:23
 msgid "Finish the application and run the script."
-msgstr ""
+msgstr "Beenden Sie die Anwendung und führen Sie das Skript aus."
 
 #. (itstool) path: page/title
 #: C/tour-application.page:26
@@ -4327,6 +4422,8 @@ msgstr "Aktionen und Signale"
 #: C/tour-events.page:33
 msgid "Gtk has a set of predefined events that you can use in your application."
 msgstr ""
+"Gtk verfügt über eine Reihe von vordefinierten Events, die Sie in Ihrer Anwendung nutzen "
+"können."
 
 #. (itstool) path: example/p
 #: C/tour-events.page:35
@@ -4464,6 +4561,8 @@ msgid ""
 "Open a text editor and paste in the lines of code. The complete script is available in "
 "the <link xref=\"tour-summary\">Summary</link>."
 msgstr ""
+"Öffnen Sie einen Texteditor und fügen Sie die Code-Zeilen ein. Das vollständige Skript "
+"ist in der <link xref=\"tour-summary\">Zusammenfassung</link> verfügbar."
 
 #. (itstool) path: page/p
 #: C/tour-gjs.page:37
@@ -4515,7 +4614,7 @@ msgstr ""
 #: C/tour-glade.page:43
 msgctxt "_"
 msgid "external ref='media/glade-set-values.png' md5='61c369d5fdd6353694f9fa9e852e207c'"
-msgstr ""
+msgstr "original"
 
 #. (itstool) path: info/desc
 #: C/tour-glade.page:23
@@ -4552,7 +4651,7 @@ msgstr ""
 #. (itstool) path: media/p
 #: C/tour-glade.page:44
 msgid "Screenshot of value attribution in Glade."
-msgstr ""
+msgstr "Bildschirmfoto der Wertzuweisung in Glade."
 
 #. (itstool) path: example/p
 #: C/tour-glade.page:46
@@ -4560,11 +4659,15 @@ msgid ""
 "Save the file with <guiseq><gui>File</gui><gui>Save As</gui></guiseq> and name it "
 "<file>helloworld.glade</file>."
 msgstr ""
+"Speichern Sie die Datei mit <guiseq><gui>Datei</gui><gui>Speichern unter</gui></guiseq> "
+"und nennen Sie sie <file>helloworld.glade</file>."
 
 #. (itstool) path: info/desc
 #: C/tour.page:24
 msgid "Get your GtkApplication started in JavaScript and create a UI using Glade."
 msgstr ""
+"Erste Schritte mit GtkApplication in JavaScript und Erzeugung einer Benutzeroberfläche "
+"mit Glade."
 
 #. (itstool) path: page/title
 #: C/tour.page:28
@@ -4589,7 +4692,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/tour-summary.page:22
 msgid "An overview of the code and relevant links."
-msgstr ""
+msgstr "Ein Überblick über den Code und relevante Links."
 
 #. (itstool) path: page/title
 #: C/tour-summary.page:26
@@ -4665,18 +4768,3 @@ msgstr ""
 "let app = new HelloWorld();\n"
 "app.application.run(ARGV);\n"
 
-#~ msgid ""
-#~ "<link href=\"http://developer.gnome.org/gnome-devel-demos/stable/\">GTK+ demo "
-#~ "tutorial</link>"
-#~ msgstr ""
-#~ "<link href=\"http://developer.gnome.org/gnome-devel-demos/stable/\">GTK+ Demo-"
-#~ "Tutorium</link>"
-
-#~ msgid ""
-#~ "<link href=\"http://developer.gnome.org/gtk3/stable/\">GTK+ Reference Manual</link>"
-#~ msgstr ""
-#~ "<link href=\"http://developer.gnome.org/gtk3/stable/\">Das Referenzhandbuch von GTK+</"
-#~ "link>"
-
-#~ msgid "<link href=\"http://gtk.org/\">The GTK+ web site</link>"
-#~ msgstr "<link href=\"http://gtk.org/\">Die Webseite von GTK+</link>"
