@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: platform-overview master\n"
-"POT-Creation-Date: 2016-03-24 09:07+0000\n"
-"PO-Revision-Date: 2016-03-24 20:34+0100\n"
+"POT-Creation-Date: 2016-03-27 08:04+0000\n"
+"PO-Revision-Date: 2016-03-27 18:12+0200\n"
 "Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
 "Language-Team: Deutsch <>\n"
 "Language: de\n"
@@ -658,6 +658,13 @@ msgid ""
 "specifications</link>. As a minimum, an application should install a 48×48 pixel icon "
 "into <file><var>$prefix</var>/share/icons/hicolor/48x48/apps</file> in PNG format."
 msgstr ""
+"Wenn in einer *.desktop-Datei ein Symbol benannt wird, muss das zugehörige Bild an einem "
+"Standardort installiert sein, der durch die von Freedesktop.org geschaffenen "
+"Spezifikationen <link href=\"http://standards.freedesktop.org/icon-theme-spec/icon-theme-"
+"spec-latest.html\">Icon Theme</link> und <link href=\"http://standards.freedesktop.org/"
+"icon-naming-spec/icon-naming-spec-latest.html\">Icon Naming</link> beschrieben wird. Die "
+"Mindestanforderung ist ein Symbol im PNG-Format im Pfad <file><var>$prefix</var>/share/"
+"icons/hicolor/48x48/apps</file>, das mindestens 48x48 Pixel groß ist."
 
 #. (itstool) path: page/p
 #: C/dev-launching-icons.page:37
@@ -666,6 +673,10 @@ msgid ""
 "\"http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines\">Tango Icon Theme "
 "guidelines</link> when creating icons and application artwork."
 msgstr ""
+"Damit es sowohl unter GNOME als auch auf anderen Plattformen zu anderen Symbolen passt, "
+"folgen Sie den <link href=\"http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines"
+"\">Richtlinien für Tango-Symbolthemen</link>, wenn Sie Symbole und sonstige "
+"künstlerische Teile für eine Anwendung erstellen."
 
 #. (itstool) path: page/title
 #: C/dev-launching-mime.page:19
@@ -774,7 +785,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/dev-launching.page:21
 msgid "Showing a launcher and starting your application."
-msgstr "So wird ein Starter eingeblendet und so starten Sie Ihre Anwendung."
+msgstr "Einblenden eines Starters und Starten Ihrer Anwendung."
 
 #. (itstool) path: page/title
 #: C/dev-launching.page:25
@@ -1345,6 +1356,14 @@ msgid ""
 "licensing.html\">GStreamer licensing information</link> of interest, as GStreamer uses "
 "plugins."
 msgstr ""
+"GNOME kann Ihnen keine Rechtsberatung bei der Wahl der Lizenz bieten. Lesen Sie dazu die "
+"Informationen der <link href=\"http://opensource.org/licenses\">Open Source Initiative</"
+"link>, der <link href=\"http://www.gnu.org/licenses/license-recommendations.html\">FSF</"
+"link> und den <link href=\"https://blogs.gnome.org/bolsh/2014/04/17/choosing-a-license/"
+"\">Blogeintrag von Dave Neary über die Wahl einer Lizenz</link>. Möglicherweise ist auch "
+"die <link href=\"http://gstreamer.freedesktop.org/documentation/licensing.html"
+"\">GStreamer-Lizenzinformation</link> für Sie interessant, da GStreamer Plugins "
+"verwendet."
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -1386,6 +1405,8 @@ msgid ""
 "<em style=\"strong\">Set up multi-protocol connections with web services or other "
 "clients</em>"
 msgstr ""
+"<em style=\"strong\">Einrichten von Verbindungen für verschiedene Protokolle mittels "
+"Webdiensten oder anderen Clients</em>"
 
 #. (itstool) path: item/p
 #: C/overview-communication.page:29
@@ -1401,6 +1422,11 @@ msgid ""
 "For more specialised communication needs, there's access to the nuts and bolts through "
 "lower level APIs too."
 msgstr ""
+"Über Sofortnachrichtendienste, soziale Netzwerke und E-Mail bleiben Ihre Benutzer in "
+"Verbindung mit ihren Freunden und Kontakten. Das umfangreiche Kommunikations-Framework "
+"von GNOME bietet Ihnen auf hohem Niveau abstrakten Zugriff auf die komplizierten Instant-"
+"Messaging- und E-Mail-Protokolle. Für speziellere Anforderungen an die Kommunikation ist "
+"über APIs niederer Ebene außerdem auch Zugriff auf die Interna in diesem Bereich möglich."
 
 #. (itstool) path: media/p
 #: C/overview-communication.page:36
@@ -1440,6 +1466,11 @@ msgid ""
 "em> over modern instant messaging protocols like Jabber to create interactive "
 "applications."
 msgstr ""
+"Erstellen Sie Spiele für mehrere Teilnehmer oder kollaborative Editoren durch Nutzung "
+"von Sofortnachrichtendiensten. Mit der <em style=\"strong\" xref=\"tech-telepathy"
+"\">Telepathy Tubes</em>-API können Sie beliebige Protokolle über moderen "
+"Sofortnachrichtenprotokolle wie Jabber <em style=\"strong\">tunneln</em>, um interaktive "
+"Anwendungen zu erstellen."
 
 #. (itstool) path: section/p
 #: C/overview-communication.page:56
@@ -1450,6 +1481,12 @@ msgid ""
 "on a local network via the mDNS/DNS-SD protocol suite. It's compatible with similar "
 "technology found in MacOS X and Windows."
 msgstr ""
+"Ermöglichen Sie Benutzern zu sehen, mit welchen Leuten sie eine Unterhaltung beginnen "
+"können, oder Drucker, freigegebene Dateien und Musiksammlungen zu finden, sobald sie mit "
+"einem Netzwerk verbunden sind. Die <em style=\"strong\" xref=\"tech-avahi\">Avahi</em>-"
+"API stellt eine <em style=\"strong\">Diensteerkennung</em> im lokalen Netzwerk über die "
+"mDNS/DNS-SD-Protokollsuite bereit. Sie ist kompatibel zu ähnlichen Technologien in MacOS "
+"X und Windows."
 
 #. (itstool) path: section/p
 #: C/overview-communication.page:61
@@ -1458,6 +1495,9 @@ msgid ""
 "xref=\"tech-eds\">Evolution Data Server</em> (EDS). It provides a way of storing account "
 "information and interacting with..."
 msgstr ""
+"Verwalten Sie die lokalen sowie Online-Adressbücher und Kalender des Benutzers mit dem "
+"<em style=\"strong\" xref=\"tech-eds\">Evolution Data Server</em> (EDS). Damit können "
+"Sie Konteninformationen speichern und damit interagieren."
 
 #. (itstool) path: section/p
 #: C/overview-communication.page:64
@@ -1481,6 +1521,8 @@ msgid ""
 "You can see lots of real-world applications of the GNOME communications technologies in "
 "open source projects, like the examples given below."
 msgstr ""
+"Nachfolgend finden Sie einige Beispiele aus Anwendungen der realen Welt, in denen GNOME-"
+"Kommunikationstechnologien in Projekten der freien Software verwendet werden."
 
 #. (itstool) path: item/p
 #: C/overview-communication.page:90
@@ -1577,6 +1619,11 @@ msgid ""
 "application responsive by using the extensive support for asynchronous IO operations. "
 "Allow users to find files easily be providing metadata to describe documents."
 msgstr ""
+"Greifen Sie mit den E/A-Bibliotheken in GNOME nahtlos auf lokale und ferne Dateien zu. "
+"Halten Sie Ihre Anwendung im laufenden Betrieb benutzbar, indem Sie die umfangreiche "
+"Unterstützung für asynchrone E/A-Operationen nutzen. Ermöglichen Sie den Benutzern, ihre "
+"Dateien besser und treffsicherer zu finden, indem Sie Metadaten zur Dokumentbeschreibung "
+"verwenden."
 
 #. (itstool) path: section/p
 #: C/overview-io.page:44
@@ -1585,6 +1632,10 @@ msgid ""
 "<em style=\"strong\" xref=\"tech-gio\">GIO</em>. A high-level VFS (virtual filesystem) "
 "API is provided, as well as utilities such as icons and application launching"
 msgstr ""
+"Um <em style=\"strong\">Dateien und andere Datenströme asynchron zu lesen und zu "
+"schreiben </em>, verwenden Sie <em style=\"strong\" xref=\"tech-gio\">GIO</em>. Es "
+"stellt eine VFS-API (virtuelles Dateisystem) höherer Ebene bereit, ergänzt durch "
+"Hilfswerkzeuge wie Symbole und Anwendungsstarter."
 
 #. (itstool) path: section/p
 #: C/overview-io.page:49
@@ -1593,6 +1644,9 @@ msgid ""
 "\">store and retrieve document metadata</em>, as well as <em style=\"strong\">structured "
 "data</em> such as contacts."
 msgstr ""
+"Mit <em style=\"strong\" xref=\"tech-tracker\">Tracker</em> speichern Sie <em style="
+"\"strong\">Dokument-Metadaten</em> sowie <em style=\"strong\">strukturierte Daten data</"
+"em>, beispielsweise Kontakte."
 
 #. (itstool) path: section/p
 #: C/overview-io.page:68
@@ -1600,6 +1654,8 @@ msgid ""
 "You can see lots of real-world applications of GNOME IO technologies in open source "
 "projects, like the examples given below."
 msgstr ""
+"Nachfolgend finden Sie einige Beispiele aus Anwendungen der realen Welt, in denen GNOME-"
+"E/A-Technologien in Projekten der freien Software verwendet werden."
 
 #. (itstool) path: item/p
 #: C/overview-io.page:72
@@ -1607,6 +1663,8 @@ msgid ""
 "<em style=\"strong\">Documents</em> makes it easy to find your files with <em style="
 "\"strong\">Tracker</em>."
 msgstr ""
+"Die Anwendung <em style=\"strong\">Dokumente</em> erleichtert die Dateisuche mit <em "
+"style=\"strong\">Tracker</em>."
 
 #. (itstool) path: item/p
 #: C/overview-io.page:74
@@ -1623,6 +1681,8 @@ msgid ""
 "<em style=\"strong\">Files</em> leverages <em style=\"strong\">GIO</em> to make it easy "
 "to manage both local and remote files."
 msgstr ""
+"Die Anwendung <em style=\"strong\">Dateien</em> verwendet <em style=\"strong\">GIO</em>, "
+"um sowohl lokale als auch ferne Dateien zu verwalten."
 
 #. (itstool) path: item/p
 #: C/overview-io.page:79
@@ -1651,6 +1711,8 @@ msgid ""
 "Multi-format audio and video playback and editing, streaming from the web, and webcam "
 "support."
 msgstr ""
+"Wiedergabe und Bearbeitung von Audio- und Video-Inhalten in verschiedenen Formaten, "
+"Streamen aus dem Netz und Unterstützung für Webcams."
 
 #. (itstool) path: page/title
 #. (itstool) path: links/title
@@ -1676,6 +1738,7 @@ msgstr ""
 #: C/overview-media.page:30
 msgid "<em style=\"strong\">Share and stream media with remote devices</em>"
 msgstr ""
+"<em style=\"strong\">Medien auf entfernten Geräten freigeben und von dort streamen</em>"
 
 #. (itstool) path: page/p
 #: C/overview-media.page:34
@@ -1684,6 +1747,10 @@ msgid ""
 "and share content with other devices attached to a system or remotely over the network. "
 "The underlying low-level API is available if you need more control."
 msgstr ""
+"Fügen Sie Multimedia-Unterstützung zu Ihrer Anwendung hinzu, damit Benutzer ihre Inhalte "
+"einfach wiedergeben können. Tauschen Sie Inhalte mit anderen Geräten aus, die am System "
+"angeschlossen sind oder auf die über das Netzwerk zugegriffen werden kann. Für mehr "
+"Steuerungsmöglichkeiten ist die darunterliegende Low-Level-API ist ebenfalls verfügbar."
 
 #. (itstool) path: media/p
 #: C/overview-media.page:40
@@ -1698,6 +1765,10 @@ msgid ""
 "<em>pipelines</em> of media can be created, from simple playback of audio and video to "
 "complex non-linear editing."
 msgstr ""
+"<em style=\"strong\">Multimedia</em> in GNOME baut auf dem <em style=\"strong\"><link "
+"xref=\"tech-gstreamer\">GStreamer</link></em>-Framework auf. Mit GStreamer können "
+"flexible <em>Medien-Weiterleitungen</em> (Pipelines) erstellt werden, von der einfachen "
+"Audio- und Video-Wiedergabe bis hin zur komplexen nichtlinearen Bearbeitung."
 
 #. (itstool) path: section/p
 #: C/overview-media.page:52
@@ -1706,6 +1777,10 @@ msgid ""
 "em> when outputting audio, and therefore can target many types of output hardware. "
 "PulseAudio also handles dynamic output switching and application-specific volume control."
 msgstr ""
+"GStreamer verwendet <em style=\"strong\"><link xref=\"tech-pulseaudio\">PulseAudio</"
+"link></em> für die Klangausgabe. Daher sind als Zielgeräte zahlreiche Hardwaretypen "
+"verwendbar. PulseAudio beherrscht auch die dynamische Umschaltung der Ausgabe und die "
+"anwendungsspezifische Lautstärkeumschaltung."
 
 #. (itstool) path: section/p
 #: C/overview-media.page:63
@@ -1714,6 +1789,9 @@ msgid ""
 "a simple interface to webcams connected to the system, and an easy way to add an avatar "
 "chooser to your application."
 msgstr ""
+"Für <em style=\"strong\">Webcams</em> verwenden Sie <em style=\"strong\">Cheese</em>. Es "
+"stellt eine simple Schnittstelle zu den am System angeschlossenen Webcams bereit sowie "
+"einen einfachen Weg, einen Avatar-Wähler in Ihre Anwendung einzubauen."
 
 #. (itstool) path: section/p
 #: C/overview-media.page:68
@@ -1723,6 +1801,10 @@ msgid ""
 "\"><link xref=\"tech-gupnp\">GUPnP</link></em> underneath, which is a low-level API to "
 "access content with <em style=\"strong\">UPnP</em> protocols."
 msgstr ""
+"Mit <em style=\"strong\">Rygel</em> können Sie <em style=\"strong\">Inhalte im Netzwerk "
+"freigeben</em>, an Geräte wie beispielsweise Fernseher oder Spielkonsolen. Rygel setzt "
+"auf <em style=\"strong\"><link xref=\"tech-gupnp\">GUPnP</link></em> auf, eine Low-Level-"
+"API zum Zugriff auf Inhalte über die <em style=\"strong\">UPnP</em>-Protokolle."
 
 #. (itstool) path: section/p
 #: C/overview-media.page:74
@@ -1731,6 +1813,10 @@ msgid ""
 "photo, use <em style=\"strong\"><link xref=\"tech-canberra\">libcanberra</link></em>, "
 "which implements the freedesktop.org sound theme specification."
 msgstr ""
+"Für einfache <em style=\"strong\">Ereignisklänge</em>, wie das Geräusch eines "
+"Kameraverschlusses beim Aufnehmen eines Fotos, können Sie <em style=\"strong\"><link "
+"xref=\"tech-canberra\">libcanberra</link></em> verwenden. Diese Bibliothek implementiert "
+"die Klangthemen-Spezifikation von Freedesktop.org."
 
 #. (itstool) path: section/p
 #: C/overview-media.page:94
@@ -1738,6 +1824,8 @@ msgid ""
 "You can see lots of real-world applications of GNOME multimedia technologies in open "
 "source projects, like the examples given below."
 msgstr ""
+"Nachfolgend finden Sie einige Beispiele aus Anwendungen der realen Welt, in denen GNOME-"
+"Multimediatechnologien in Projekten der freien Software verwendet werden."
 
 #. (itstool) path: item/p
 #: C/overview-media.page:98
@@ -1781,6 +1869,8 @@ msgid ""
 "Client and server HTTP communication, portable socket-based networking IO, and network "
 "device management."
 msgstr ""
+"HTTP-Kommunikation zwischen Client und Server, portable socket-basierte Netzwerkein- und "
+"-ausgaben und Verwaltung von Netzwerkgeräten."
 
 #. (itstool) path: page/title
 #: C/overview-net.page:20
@@ -1791,11 +1881,14 @@ msgstr "Systemnahe Netzwerkunterstützung"
 #: C/overview-net.page:24
 msgid "<em style=\"strong\">Create powerful and flexible HTTP servers and clients</em>"
 msgstr ""
+"<em style=\"strong\">Leistungsfähige und flexible HTTP-Server und -Clients erstellen</em>"
 
 #. (itstool) path: item/p
 #: C/overview-net.page:27
 msgid "<em style=\"strong\">Use portable socket-based APIs in a UI without blocking</em>"
 msgstr ""
+"<em style=\"strong\">Portable socket-basierte APIs in einer grafischen Oberfläche ohne "
+"Blockierung</em>"
 
 #. (itstool) path: item/p
 #: C/overview-net.page:30
@@ -1810,6 +1903,11 @@ msgid ""
 "changes in the system networking state, to make your application respond appropriately "
 "when there is no Internet access."
 msgstr ""
+"Nutzen Sie die Vorteile der portablen Netzwerk-APIs für den Zugriff auf Netzwerkdienste. "
+"Asynchrone Ein-/Ausgaben stellen sicher, dass die Anwendungsoberfläche benutzbar bleibt, "
+"während Ein- oder Ausgaben abgewickelt werden. Erkennen Sie Änderungen im Netzwerkstatus "
+"des Systems, damit Ihre Anwendung entsprechend reagiert, wenn kein Zugang zum Internet "
+"besteht."
 
 #. (itstool) path: section/p
 #: C/overview-net.page:48
@@ -1819,6 +1917,10 @@ msgid ""
 "available for <em style=\"strong\">resolving proxies and DNS records</em> as well as "
 "using <em style=\"strong\">secure sockets (TLS)</em>."
 msgstr ""
+"Um <em style=\"strong\">asynchron auf Low-Level-Netzwerk-APIs</em> zuzugreifen, "
+"verwenden Sie <em style=\"strong\" xref=\"tech-gio-network\">GIO networking</em>. Eine "
+"API höherer Ebene ist für die <em style=\"strong\">Auflösung von Proxys und DNS-"
+"Datensätzen</em> sowie mittels <em style=\"strong\">Secure Sockets (TLS)</em> verfügbar."
 
 #. (itstool) path: section/p
 #: C/overview-net.page:54
@@ -1827,6 +1929,9 @@ msgid ""
 "\"tech-network-manager\">NetworkManager</em> provides <em style=\"strong\">comprehensive "
 "support for networking devices</em> and network topologies."
 msgstr ""
+"Einfache Überwachung des Netzwerkstatus ist zwar in GIO verfügbar, aber <em style="
+"\"strong\" xref=\"tech-network-manager\">NetworkManager</em> bietet <em style=\"strong"
+"\">umfassende Unterstützung für Netzwerkgeräte</em> und Netzwerktopologien."
 
 #. (itstool) path: section/p
 #: C/overview-net.page:59
@@ -1835,6 +1940,9 @@ msgid ""
 "<em style=\"strong\">HTTP servers and clients</em>. Both synchronous and asynchronous "
 "APIs are provided."
 msgstr ""
+"<em style=\"strong\" xref=\"tech-soup\">Libsoup</em> bietet eine flexible Schnittstelle "
+"für <em style=\"strong\">HTTP-Server und Clients</em> bereit. Sowohl synchrone als auch "
+"asynchrone APIs stehen zur Verfügung."
 
 #. (itstool) path: section/p
 #: C/overview-net.page:78
@@ -1842,6 +1950,8 @@ msgid ""
 "You can see lots of real-world applications of GNOME networking technologies in open "
 "source projects, like the examples given below."
 msgstr ""
+"Nachfolgend finden Sie einige Beispiele aus Anwendungen der realen Welt, in denen GNOME-"
+"Netzwerktechnologien in Projekten der freien Software verwendet werden."
 
 #. (itstool) path: item/p
 #: C/overview-net.page:82
@@ -1849,6 +1959,8 @@ msgid ""
 "<em style=\"strong\">Web</em> is the GNOME browser, which uses libsoup to access HTTP "
 "services."
 msgstr ""
+"<em style=\"strong\">Web</em> ist der Webbrowser von GNOME, der libsoup zum Zugriff auf "
+"HTTP-Dienste nutzt."
 
 #. (itstool) path: item/p
 #: C/overview-net.page:84
@@ -1868,6 +1980,10 @@ msgid ""
 "NetworkManager for the network status menu, including managing wired, wireless, 3G modem "
 "and VPN networking systems."
 msgstr ""
+"Die <em style=\"strong\">GNOME-Shell</em> ist der für den Benutzer sichtbare Teil der "
+"GNOME-Arbeitsumgebung. In der GNOME-Shell wird der NetworkManager für das Netzwerkstatus-"
+"Menü verwendet, wo Sie auf Drahtlosnetzwerke, 3G-Modems und VPN-Netzwerke zugreifen "
+"können."
 
 #. (itstool) path: item/p
 #: C/overview-net.page:90
@@ -1893,18 +2009,19 @@ msgstr "Einstellungsverwaltung"
 #. (itstool) path: item/p
 #: C/overview-settings.page:24
 msgid "<em style=\"strong\">High-level access for application settings</em>"
-msgstr ""
+msgstr "<em style=\"strong\">Zugriff auf Anwendungseinstellungen auf hohem Niveau</em>"
 
 #. (itstool) path: item/p
 #: C/overview-settings.page:27
 msgid "<em style=\"strong\">Easily bind settings to UI elements</em>"
-msgstr ""
+msgstr "<em style=\"strong\">Einfaches Verbinden von Einstellungen mit UI-Elementen</em>"
 
 #. (itstool) path: item/p
 #: C/overview-settings.page:30
 msgid ""
 "<em style=\"strong\">Flexible overrides for packagers and system administrators</em>"
 msgstr ""
+"<em style=\"strong\">Flexible Anpassungen für Paketersteller und Systemverwalter</em>"
 
 #. (itstool) path: page/p
 #: C/overview-settings.page:35
@@ -1913,6 +2030,10 @@ msgid ""
 "GSettings. Easily override settings defaults as a system administrator. Store a wide "
 "variety of data, such as integers and arrays of strings, with ease."
 msgstr ""
+"Speichern Sie Benutzereinstellungen und lassen Sie mit GSettings Ihre Anwendung "
+"automatisch auf Einstellungsänderungen reagieren. Setzen Sie als Systemverwalter "
+"Standardeinstellungen außer Kraft. Speichern Sie ein breites Spektrum von Daten, wie "
+"Ganzzahlen oder String arrays."
 
 #. (itstool) path: section/p
 #: C/overview-settings.page:43
@@ -1923,6 +2044,12 @@ msgid ""
 "configuration tools can be used. Make <em style=\"strong\">UI controls update according "
 "to settings</em> with a single function."
 msgstr ""
+"Die <em style=\"strong\" xref=\"tech-gsettings\">GSettings</em>-API von GIO liest und "
+"schreibt <em style=\"strong\">Anwendungseinstellungen settings</em>. GSettings nutzt die "
+"<em style=\"strong\">Konfigurationsdatenbank der Plattform transparent</em>, so dass "
+"plattformspezifische Einstellungswerkzeuge verwendet werden können. Mit einer einzigen "
+"Funktion können <em style=\"strong\">Bedienelemente der grafischen Oberfläche "
+"aktualisiert werden</em>."
 
 #. (itstool) path: section/p
 #: C/overview-settings.page:65
@@ -1965,11 +2092,15 @@ msgid ""
 "<em style=\"strong\">Use a single toolkit for all the standard widgets in your "
 "application</em>"
 msgstr ""
+"<em style=\"strong\">Verwenden Sie ein einziges Toolkit für alle Standard-Widgets in "
+"Ihrer Anwendung</em>"
 
 #. (itstool) path: item/p
 #: C/overview-ui.page:27
 msgid "<em style=\"strong\">Create fast, visually rich graphical interfaces</em>"
 msgstr ""
+"<em style=\"strong\">Erstellen Sie schnelle, visuell ansprechende grafische "
+"Benutzeroberflächen</em>"
 
 #. (itstool) path: item/p
 #: C/overview-ui.page:30
@@ -1977,16 +2108,19 @@ msgid ""
 "<em style=\"strong\">Have high quality, antialiased and resolution-independent graphics</"
 "em>"
 msgstr ""
+"<em style=\"strong\">Verwenden Sie qualitativ hochwertige und auflösungsunabhängige "
+"Grafiken mit Kantenglättung</em>"
 
 #. (itstool) path: item/p
 #: C/overview-ui.page:33
 msgid "<em style=\"strong\">Easily add web functionality to your application</em>"
 msgstr ""
+"<em style=\"strong\">Bauen Sie einfach Web-Funktionalität in Ihre Anwendung ein</em>"
 
 #. (itstool) path: item/p
 #: C/overview-ui.page:36
 msgid "<em style=\"strong\">Access built-in assistive technologies</em>"
-msgstr "<em style=\"strong\">Zugriff auf eingebaute Barrierefreiheits-Technolgien</em>"
+msgstr "<em style=\"strong\">Nutzen Sie eingebaute Barrierefreiheits-Technologien</em>"
 
 #. (itstool) path: page/p
 #: C/overview-ui.page:40
@@ -1996,6 +2130,11 @@ msgid ""
 "them to other platforms. Standard UI elements are accessible by default, and it is easy "
 "to add accessibility support to any custom UI elements that you create."
 msgstr ""
+"Verwenden Sie die leistungsfähige Basis der GNOME-Plattform zum Erstellen konsistenter "
+"und flexibler Benutzeroberflächen. Machen Sie Ihre Anwendungen breitesten "
+"Benutzerkreisen zugänglich, indem Sie sie an andere Plattformen anpassen. Elemente der "
+"Benutzeroberfläche sind stets barrierefrei. Auch für eigene UI-Elemente ist es einfach, "
+"sie barrierefrei zu gestalten."
 
 #. (itstool) path: section/p
 #: C/overview-ui.page:49
@@ -2005,6 +2144,11 @@ msgid ""
 "em>. Every application that is part of GNOME uses GTK+, so use it to be consistent, and "
 "to access the many widgets and features such as printing support and CSS theming."
 msgstr ""
+"Für Anwendungen mit <em style=\"strong\">Standard-Bedienelementen</em>, mit denen die "
+"meisten Benutzer vertraut sind, verwenden Sie <em style=\"strong\"><link xref=\"tech-gtk"
+"\">GTK+</link></em>. Jede Anwendung, die Teil von GNOME ist, verwendet GTK+, so dass Sie "
+"damit Konsistenz erreichen und auf viele Widgets und Funktionsmerkmale wie "
+"Druckunterstützung und CSS-Themen zurückgreifen können."
 
 #. (itstool) path: section/p
 #: C/overview-ui.page:55
@@ -2013,6 +2157,9 @@ msgid ""
 "\"strong\"><link xref=\"tech-clutter\">Clutter</link></em>, and it also supports touch "
 "input and gestures."
 msgstr ""
+"<em style=\"strong\">Animationen, Effekte und fließenden Layouts</em> erreichen Sie "
+"einfach mit <em style=\"strong\"><link xref=\"tech-clutter\">Clutter</link></em>, "
+"welches auch Touch-Eingaben und Gesten unterstützt."
 
 #. (itstool) path: section/p
 #: C/overview-ui.page:60
@@ -2021,6 +2168,10 @@ msgid ""
 "em> are provided by <em style=\"strong\"><link xref=\"tech-cairo\">Cairo</link></em>. "
 "Cairo is used for drawing widgets in GTK+, and can also be used to output to PDF and SVG."
 msgstr ""
+"<em style=\"strong\">Qualitativ hochwertige und auflösungsunabhängige 2D-Grafiken mit "
+"Kantenglättung</em> werden durch <em style=\"strong\"><link xref=\"tech-cairo\">Cairo</"
+"link></em> zur Verfügung gestellt. Cairo wird für das Zeichnen von widgets in GTK+ "
+"verwendet und kann Inhalte auch in PDF und SVG ausgeben."
 
 #. (itstool) path: section/p
 #: C/overview-ui.page:66
@@ -2029,6 +2180,9 @@ msgid ""
 "add <em style=\"strong\">web functionality</em> to your application, whether that is "
 "rendering an HTML file or having a complete HTML5 UI."
 msgstr ""
+"<em style=\"strong\"><link xref=\"tech-webkit\">WebKitGTK+</link></em> macht es Ihnen "
+"leicht, <em style=\"strong\">Web-Funktionalität</em> in Ihre Anwendung einzubauen, "
+"gleich ob es um die Darstellung einer HTML-Datei oder eine vollständige HTML5-UI geht."
 
 #. (itstool) path: section/p
 #: C/overview-ui.page:71
@@ -2038,6 +2192,10 @@ msgid ""
 "Orca, Caribou OSK, and the GTK+ built-in accessibility tools, or build custom tools on "
 "top of ATK."
 msgstr ""
+"In GTK+, Clutter und WebKitGTK+ ist die <em style=\"strong\">Unterstützung für "
+"Barrierefreiheits-Technologien</em> mittels <em style=\"strong\"><link xref=\"tech-atk"
+"\">ATK</link></em> bereits eingebaut. Verwenden Sie Orca, die Bildschirmtastatur "
+"Caribou, oder bauen Sie eigene Werkzeuge auf der Grundlage von ATK."
 
 #. (itstool) path: section/p
 #: C/overview-ui.page:92
@@ -2045,6 +2203,8 @@ msgid ""
 "You can see lots of real-world applications of GNOME UI technologies in open source "
 "projects, like the examples given below."
 msgstr ""
+"Nachfolgend finden Sie einige Beispiele aus Anwendungen der realen Welt, in denen GNOME-"
+"UI-Technologien in Projekten der freien Software verwendet werden."
 
 #. (itstool) path: item/p
 #: C/overview-ui.page:96
@@ -2052,6 +2212,8 @@ msgid ""
 "<em style=\"strong\">Web</em> is the GNOME browser, which uses GTK+ and WebKitGTK+, and "
 "is fully accessible."
 msgstr ""
+"<em style=\"strong\">Web</em> ist der Webbrowser für GNOME, der GTK+ und WebKitGTK+ "
+"verwendet und vollständig barrierefrei ist."
 
 #. (itstool) path: item/p
 #: C/overview-ui.page:98
@@ -2168,6 +2330,14 @@ msgid ""
 "will both use a standard \"get the text contents\" interface in ATK for all widgets with "
 "textual information."
 msgstr ""
+"ATK löst das Problem der Kopplung vieler verschiedener Widget-Typen (Texteingaben, "
+"sonstige Textbereiche, Knöpfe, Menüs) mit verschiedenen Barrierefreiheits-Technologien "
+"(Bildschirmleser, Braille-Displays, Saug-Blas-Steuergeräte). Anstatt zahlreiche "
+"Schnittstellen von jedem Widget zu jedem Eingabegerät einzurichten, müssen Sie nur ein "
+"Widget mit der ATK-Schnittstelle koppeln. Barrierefreiheits-Geräte verwenden in der "
+"anderen Richtung diese Schnittstellen, um Barrierefreiheits-Widgets abzufragen. "
+"Beispielsweise verwenden eine Sprachausgabe und ein Braille-Display beide die "
+"Standardschnittstelle »get the text contents« in ATK für alle Widgets mit Textbezug."
 
 #. (itstool) path: page/p
 #: C/tech-atk.page:50
@@ -2267,6 +2437,10 @@ msgid ""
 "specifications, which are part of <link href=\"http://www.zeroconf.org/\">Zeroconf</"
 "link> Networking."
 msgstr ""
+"Avahi ist eine Implementation der Spezifikationen <link href=\"http://www.dns-sd.org/"
+"\">DNS Service Discovery</link> und <link href=\"http://www.multicastdns.org/"
+"\">Multicast DNS</link>, die Teil der Netzwerktechnologie <link href=\"http://www."
+"zeroconf.org/\">Zeroconf</link> sind."
 
 #. (itstool) path: page/p
 #: C/tech-avahi.page:35
@@ -2278,6 +2452,11 @@ msgid ""
 "link>, GNOME's low-level audio API, uses Avahi to make it possible to route sound "
 "through local networks."
 msgstr ""
+"Verschiedene Programm in GNOME verwenden Avahi, um Dienste zu erkennen. Mittels Gnome-"
+"user-share (ein Modul für die Dateiverwaltung Nautilus) können Benutzer in einem lokalen "
+"Netzwerk Dateien miteinander teilen. Außerdem werden Rechner und Dateifreigaben mit "
+"Avahi gefunden. <link xref=\"tech-pulseaudio\">PulseAudio</link>, die Low-Level-Audio-"
+"API von GNOME, verwendet Avahi für die Weiterleitung von Klängen in lokalen Netzwerken."
 
 #. (itstool) path: item/p
 #: C/tech-avahi.page:44
@@ -2452,6 +2631,9 @@ msgid ""
 "objects out of images, and you can manipulate them later to move them, rotate them, or "
 "give them quasi-3D effects."
 msgstr ""
+"Clutter ist eine Bibliothek zum Darstellen von Animationen auf einer 2,5-D-"
+"Zeichenfläche. Sie erstellen grafische Objekte aus Bildern, Sie können diese später "
+"verschieben und drehen oder ihnen Quasi-3D-Effekte verleihen."
 
 #. (itstool) path: page/p
 #: C/tech-clutter.page:28
@@ -2740,6 +2922,11 @@ msgid ""
 "such as GtkSpell lets you add \"underline squiggles\" for misspelled words to text "
 "widgets."
 msgstr ""
+"Enchant stellt eine API für auf Rechtschreibprüfung bezogene Aufgaben bereit. Sie können "
+"den Benutzer fragen, falls ein Wort falsch geschrieben ist oder Vorschläge für die "
+"Berichtigung anzeigen lassen. Auf höherer Ebene können Sie mit einer Bibliothek wie "
+"GtkSpell Zickzack-Unterstreichungen für falsch geschriebene Wörter in Text-Widgets "
+"einfügen."
 
 #. (itstool) path: page/p
 #: C/tech-enchant.page:29
@@ -2780,6 +2967,14 @@ msgid ""
 "instead of showing duplicated people whenever they have more than one account associated "
 "to them."
 msgstr ""
+"Verschiedene Systeme stellen Benutzerkonten unterschiedlich dar. Zum Beispiel verwaltet "
+"der <link xref=\"tech-eds\">Evolution Data Server</link> die Liste der E-Mail-Kontakte "
+"des Benutzers. Die Sofortnachrichten-Kontakte befinden sich in <link xref=\"tech-"
+"telepathy\">Telepathy</link>. Außerdem gibt es »Freunde« des Benutzers bei verschiedenen "
+"Webdiensten. Libfolks verbindet diese verschiedenen Arten von Kontakten miteinander, so "
+"dass Sie alle auf eine Person bezogenen Konten zusammenfassen können. Dadurch können "
+"Personen in Anwendungen in besserer Form aufgelistet werden, anstatt diese mehrfach "
+"anzuzeigen, wenn mehr als ein Konto mit einer Person verknüpft ist."
 
 #. (itstool) path: page/p
 #: C/tech-folks.page:32
@@ -2788,6 +2983,10 @@ msgid ""
 "people (\"Person X has these IM accounts\"), rather than disparate accounts for the same "
 "person (\"Person X at AIM, Person X at GTalk, Person X at Yahoo! Messenger\")."
 msgstr ""
+"In GNOME verwendet Empathy (die Sofortnachrichten-Anwendung) Folks für eine einheitliche "
+"Personenansicht (»Person X hat die folgenden Sofortnachrichten-Konten«), anstatt die "
+"Konten einer Person zu trennen (»Person X bei AIM, Person X in GoogleTalk, Person X im "
+"Yahoo! Messenger\")."
 
 #. (itstool) path: item/p
 #: C/tech-folks.page:40
@@ -2879,6 +3078,14 @@ msgid ""
 "appropriate into a <code>GtkButton::clicked</code> signal when the user presses and "
 "releases the button in the right location."
 msgstr ""
+"GDK bietet Ihnen Zugriff auf Ereignisse, die von Tastaturen, Mäusen und anderen "
+"Eingabegeräten ausgehen. Implementationen von Widgets in GTK+ verwenden diese "
+"Funktionalität und setzen diese Ereignisse in Signale höherer Ebene um, die umgekehrt im "
+"Anwendungscode genutzt werden können. Zum Beispiel verfolgt <code>GtkButton</code> die "
+"von der Maus erzeugten Ereignisse <code>GDK_BUTTON_PRESS</code> und "
+"<code>GTK_BUTTON_RELEASE</code> und setzt diese entsprechend in ein <code>GtkButton::"
+"clicked</code>-Signal um, wenn der Benutzer den Knopf an der richtigen Stelle drückt und "
+"loslässt."
 
 #. (itstool) path: page/p
 #: C/tech-gdk.page:40
@@ -2937,7 +3144,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/tech-geoclue2.page:17
 msgid "Geolocation - finding the user's geographical location"
-msgstr ""
+msgstr "Geoposition - den geografischen Standort des Benutzers finden"
 
 #. (itstool) path: page/title
 #: C/tech-geoclue2.page:20
@@ -2951,6 +3158,9 @@ msgid ""
 "user's geographical position. A mapping application could use this to present a \"where "
 "am I\" view, for example."
 msgstr ""
+"Geoclue2 stellt Dienste für <em>Geoposition</em> bereit, das bedeutet, dass Anwendungen "
+"nach der geografischen Position des Benutzers suchen können. Eine Karten-Anwendung kann "
+"dies nutzen, um beispielsweise ein »Wo bin ich?« anzuzeigen."
 
 #. (itstool) path: page/p
 #: C/tech-geoclue2.page:29
@@ -2958,6 +3168,9 @@ msgid ""
 "Geoclue2 intends to be able to provide positioning information in several ways: from the "
 "GPS in a WWAN modem, from a Wi-Fi access point's data, or from the computer's IP address."
 msgstr ""
+"Geoclue2 will in der Lage sein, Positionsinformationen auf verschiedene Arten "
+"anzuzeigen: aus dem GPS in einem WWAN-Modem, aus den Daten eines Wi-Fi-Zugangspunkts "
+"oder der IP-Adresse des Rechners."
 
 #. (itstool) path: page/p
 #: C/tech-geoclue2.page:35
@@ -2966,6 +3179,9 @@ msgid ""
 "geographical location. Only applications allowed by the user will be able to get "
 "geolocation information."
 msgstr ""
+"Außerdem will Geoclue2 die Privatsphäre der Benutzer schützen, die ihre geografische "
+"Position nicht preisgeben wollen. Nur Anwendungen, denen es der Benutzer erlaubt hat, "
+"dürfen geografische Positionen veröffentlichen."
 
 #. (itstool) path: info/desc
 #: C/tech-geocode-glib.page:17
@@ -2973,6 +3189,8 @@ msgid ""
 "Geocoding and reverse geocoding - conversion of street addresses to/from geographical "
 "coordinates"
 msgstr ""
+"Geocoding und umgekehrtes Geocoding - Umwandlung von Adressen in geografische "
+"Koordinaten und zurück"
 
 #. (itstool) path: page/title
 #: C/tech-geocode-glib.page:21
@@ -2986,6 +3204,10 @@ msgid ""
 "the process of translating an address (\"123 High Street, SomeTown, SomeCountry\") to a "
 "pair of latitude/longitude values. Reverse geocoding is the opposite process."
 msgstr ""
+"Geocode-glib stellt <em>Geocoding</em> und <em>umgekehrtes Geocoding</em> bereit. "
+"Geocoding ist der Vorgang des Übersetzens einer Adresse (zum Beispiel »Musterstraße 1, "
+"Musterstadt, Deutschland«) in eine Werte-Paar für Längengrad und Breitengrad. "
+"Umgekehrtes Geocoding bezeichnet den Vorgang in der anderen Richtung."
 
 #. (itstool) path: page/p
 #: C/tech-geocode-glib.page:30
@@ -2993,6 +3215,8 @@ msgid ""
 "Geocode-glib uses the Yahoo! Place Finder API internally to do its work. In the future "
 "it will support the free Nominatim service and OpenStreetMap data."
 msgstr ""
+"Geocode-glib verwendet intern die Place-Finder-API von Yahoo! In der Zukunft werden der "
+"freie Nominatim-Dienst und Daten aus OpenStreetMap verwendet."
 
 #. (itstool) path: item/p
 #: C/tech-geocode-glib.page:37
@@ -3006,7 +3230,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/tech-gio-network.page:18
 msgid "Networking and sockets API with streams"
-msgstr ""
+msgstr "Netzwerk- und Socket-API mit Datenströmen"
 
 #. (itstool) path: page/title
 #: C/tech-gio-network.page:21
@@ -3105,7 +3329,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/tech-glib.page:17
 msgid "Data structures and utilities for C programs"
-msgstr ""
+msgstr "Datenstrukturen und Hilfsprogramme für C-Programme"
 
 #. (itstool) path: page/title
 #: C/tech-glib.page:20
@@ -3119,6 +3343,9 @@ msgid ""
 "structures for C programs (linked lists, binary trees, hash tables) and various "
 "utilities such as string manipulation functions."
 msgstr ""
+"Glib ist die grundlegendste aller GNOME-Bibliotheken. Sie stellt einfache "
+"Datenstrukturen für C-Programme bereit (gelinkte Listen, Binär-Trees, Hash-Tables) sowie "
+"eine Reihe von Hilfswerkzeugen, zum Beispiel für Funktionen zur String-Manipulation."
 
 #. (itstool) path: page/p
 #: C/tech-glib.page:28
@@ -3126,6 +3353,9 @@ msgid ""
 "If you are not writing C programs, you normally don't need to be concerned with GLib. If "
 "you are, however, GLib will make your life as a C programmer much easier."
 msgstr ""
+"Wenn Sie keine C-Programme schreiben, müssen Sie sich um die GLib normalerweise keine "
+"Gedanken machen. Wenn doch, dann kann Ihnen die GLib das Leben als Programmierer "
+"erheblich erleichtern."
 
 #. (itstool) path: item/p
 #: C/tech-glib.page:35
@@ -3137,7 +3367,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/tech-gobject.page:16
 msgid "C-based object and type system with signals and slots"
-msgstr ""
+msgstr "C-basiertes Objekt- und Typ-System mit Signalen und Slots"
 
 #. (itstool) path: page/title
 #: C/tech-gobject.page:19
@@ -3151,6 +3381,10 @@ msgid ""
 "object and type system for C programs. Although C as a language does not provide objects "
 "or classes, GObject makes it possible to write object-oriented C programs."
 msgstr ""
+"GObject ist der Teil der <link xref=\"tech-glib\">GLib</link>-Bibliothek, der ein "
+"Objekt- und Typensystem für C-Programme bereitstellt. Obwohl C als Sprache weder Objekte "
+"noch Klassen bereitstellt, erlaubt es GObject, objektorientierte C-Programme zu "
+"schreiben."
 
 #. (itstool) path: page/p
 #: C/tech-gobject.page:26
@@ -3161,6 +3395,12 @@ msgid ""
 "something interesting happens. For example, a <code>Button</code> object could emit a "
 "<code>clicked</code> signal to indicate that it has been pressed and released."
 msgstr ""
+"GObject stellt einen fundamentalen GType bereit, die Basis für das gesamte Typensystem, "
+"aus denen Typen wie »ints« und »strings« abgeleitet werden. Dann ist GObject selbst die "
+"Basisklasse für alle anderen Klassen. Objekte können <em>Signale</em> ausgeben, die das "
+"aufrufende Programm benachrichtigen, wenn etwas Interessantes passiert. Zum Beispiel "
+"kann ein <code>Button</code>-Objekt ein <code>clicked</code>-Signal ausgeben, um "
+"anzuzeigen, dass ein Knopf gedrückt und losgelassen wurde."
 
 #. (itstool) path: page/p
 #: C/tech-gobject.page:35
@@ -3172,6 +3412,12 @@ msgid ""
 "bindings use the introspection information from GObject to auto-generate those wrappers "
 "themselves."
 msgstr ""
+"GObject ist <em>inspizierbar</em>, was bedeutet, dass Sie das GObject-System nach den "
+"definierten Klassentypen, den unterstützten Methoden, den Signalen usw. fragen können. "
+"GNOMEs Sprachbindungen setzen auf diesen Inspektions-Informationen auf. Anstatt von Hand "
+"Wrapper zu schreiben, um die GNOME-APIs aus anderen Programmiersprachen aufrufen zu "
+"können, verwenden Sprachbindungen diese Informationen von GObject um diese Wrapper "
+"automatisch selbst zu erzeugen."
 
 #. (itstool) path: page/p
 #: C/tech-gobject.page:45
@@ -3180,6 +3426,10 @@ msgid ""
 "GNOME with an object-oriented language. However, making yourself familiar with GObject's "
 "concepts, such as signals and slots, will make your life easier as a GNOME programmer."
 msgstr ""
+"Sie müssen sich nicht mit GObject selbst befassen, wenn Sie für GNOME in einer "
+"objektorientierten Sprache programmieren. Dennoch kann es Ihr Leben als GNOME-"
+"Programmierer erleichtern, wenn Sie sich mit den Konzepten von GObject vertraut machen, "
+"wie Signalen und Slots."
 
 #. (itstool) path: item/p
 #: C/tech-gobject.page:53
@@ -3192,7 +3442,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/tech-gsettings.page:18
 msgid "Configuration storage for application preferences"
-msgstr ""
+msgstr "Speichern der Konfiguration für Anwendungseinstellungen"
 
 #. (itstool) path: page/title
 #: C/tech-gsettings.page:21
@@ -3205,6 +3455,9 @@ msgid ""
 "GSettings is the part of <link xref=\"tech-glib\">GLib</link> that allows applications "
 "to save their configuration settings and user's preferences in a standard way."
 msgstr ""
+"GSettings ist der Teil der <link xref=\"tech-glib\">GLib</link>, der Anwendungen "
+"ermöglicht, ihre systemweite  Konfiguration sowie vom Benutzer angepasste Einstellungen "
+"auf einheitliche Weise zu speichern."
 
 #. (itstool) path: page/p
 #: C/tech-gsettings.page:27
@@ -3213,6 +3466,10 @@ msgid ""
 "schema for each key contains the key's name, a human-readable description of what the "
 "key is for, a type for the key (string, integer, etc.), and a default value."
 msgstr ""
+"Eine Anwendung, die GSettings verwendet, definiert ein <em>Schema</em> von "
+"Konfigurationsschlüsseln. Das Schema für jeden Schlüssel enthält dessen Namen, eine "
+"menschenlesbare Beschreibung, wofür der Schlüssel bestimmt ist, dessen Typ "
+"(Zeichenkette, Ganzzahl) und einen Standardwert."
 
 #. (itstool) path: page/p
 #: C/tech-gsettings.page:34
@@ -3221,6 +3478,9 @@ msgid ""
 "this is DConf; on Windows it is the Registry, and on Mac OS it is the NextStep property "
 "list mechanism."
 msgstr ""
+"GSettings verwendet den Speicher des jeweiligen Betriebssystems zum Ablegen der "
+"Konfigurationsdaten. Auf GNU-Systemen wird DConf verwendet, unter Windows die "
+"Registierungsdatenbank, und unter Mac OS der Property-List-Meachanismus von NextStep."
 
 #. (itstool) path: page/p
 #: C/tech-gsettings.page:40
@@ -3230,6 +3490,11 @@ msgid ""
 "display clocks can respond to a global setting for 12-hour/24-hour display immediately, "
 "without having to restart."
 msgstr ""
+"Mit GSettings können Sie Änderungen der Schlüsselwerte überwachen, so dass Ihre "
+"Anwendung dynamisch auf Änderungen der globalen Konfiguration reagieren kann. Zum "
+"Beispiel können alle Anwendungen, die eine Uhr enthalten, auf einen Wechsel von der 12-"
+"Stunden- zur 24-Stunden-Anzeige direkt reagieren, ohne dass ein Neustart erforderlich "
+"ist."
 
 #. (itstool) path: item/p
 #: C/tech-gsettings.page:48
@@ -3492,7 +3757,7 @@ msgstr "Zeeshan Ali (Khattak)"
 #. (itstool) path: info/desc
 #: C/tech-gupnp.page:18
 msgid "Wireless, peer-to-peer, plug-and-play RPC"
-msgstr ""
+msgstr "Drahtlos, Peer-to-peer, Plug-and-play RPC"
 
 #. (itstool) path: page/title
 #: C/tech-gupnp.page:21
@@ -3507,6 +3772,10 @@ msgid ""
 "Play). GUPnP lets GNOME applications discover UPnP devices on the network, and publish "
 "services themselves."
 msgstr ""
+"Viele Geräte aus dem Bereich der Consumer-Elektronik können das lokale Heimnetzwerk und "
+"die Diensteerkennung über ein Protokoll namens UPnP (Universal Plug and Play) nutzen. "
+"Mit GUPnP können GNOME-Anwendungen UPnP-Geräte im Netzwerk erkennen und solche Dienste "
+"selbst bereitstellen."
 
 #. (itstool) path: page/p
 #: C/tech-gupnp.page:30
@@ -3525,6 +3794,8 @@ msgid ""
 "In GNOME, GUPnP is one of the basic building blocks of home-multimedia software like "
 "Rygel, a home media server."
 msgstr ""
+"In GNOME ist GUPnP einer der grundlegenden Bausteine für Heim-Multimedia-Software wie "
+"Rygel, einen Heim-Medienserver."
 
 #. (itstool) path: item/p
 #: C/tech-gupnp.page:42
@@ -3608,6 +3879,11 @@ msgid ""
 "activated. It lets users select between different wired and wireless networks, configure "
 "Virtual Private Networks (VPNs), and connect to the network with modems."
 msgstr ""
+"NetworkManager verwaltet die Netzwerkverbindungen des Rechners. Es kümmert sich um DHCP-"
+"Verhandlungen, um eine IP-Adresse wird bezogen, wenn die Netzwerkverbindung zum ersten "
+"Mal aktiviert wird. Benutzer können aus verschiedenen kabelgebundenen und drahtlosen "
+"Netzwerken wählen, Virtuelle Private Netzwerke (VPNs) einrichten und sich mit dem "
+"Netzwerk über Modems verbinden."
 
 #. (itstool) path: page/p
 #: C/tech-network-manager.page:30
@@ -3618,6 +3894,11 @@ msgid ""
 "the online/offline state of the computer, and perform other high-level tasks related to "
 "the network."
 msgstr ""
+"NetworkManager stellt eine umfangreiche API bereit, über die Anwendungen "
+"Netzwerkverbindungen steuern können. Allerdings ist das meist nur für die Software von "
+"Interesse, die den eigentlichen Kern der Arbeitsumgebung implementiert. Reguläre "
+"Anwendungen können die API von NetworkManager nutzen, um den Netzwerkstatus des Rechners "
+"zu überwachen und netzwerkbezogene Aufgaben höherer Ebene auszuführen."
 
 #. (itstool) path: page/p
 #: C/tech-network-manager.page:38
@@ -3627,6 +3908,10 @@ msgid ""
 "Applications such as Evolution, which need to know about the online/offline status of "
 "the computer, use NetworkManager as well."
 msgstr ""
+"Die Desktop-Shell in GNOME hat ein auffallendes Symbol für NetworkManager. Intern wird "
+"die NetworkManager-API verwendet, um die Netzwerkeinstellungen basierend auf den "
+"Entscheidungen des Benutzers zu ändern. Anwendungen wie Evolution, die über den Online-/"
+"Offline-Status des Benutzers informiert sein müssen, nutzen ebenfalls NetworkManager."
 
 #. (itstool) path: item/p
 #: C/tech-network-manager.page:47
@@ -3910,6 +4195,10 @@ msgid ""
 "programs should be allowed to request that the machine be disconnected from the network "
 "via the <link xref=\"tech-network-manager\">NetworkManager</link> service."
 msgstr ""
+"Polkit, oder Policy Kit, verarbeitet die Regeln, nach denen unprivilegierte Prozesse mit "
+"privilegierten Prozessen über <link xref=\"tech-d-bus\">D-Bus</link>-APIs kommunizieren. "
+"Zum Beispiel sollte es nicht allen Programmen gestattet sein, den Rechner mit dem <link "
+"xref=\"tech-network-manager\">NetworkManager</link> vom Netzwerk zu trennen."
 
 #. (itstool) path: page/p
 #: C/tech-polkit.page:28
@@ -3921,6 +4210,13 @@ msgid ""
 "users can be trusted to take care of the machine. On corporate settings, policies may be "
 "more restricted."
 msgstr ""
+"Polkit ermöglicht dem Systemadministrator die Festlegung unterschiedlicher Regeln für "
+"unterschiedliche Dienste. Zum Beispiel darf nur ein Benutzer mit physischem Zugriff auf "
+"die Hardware Laufwerke und Datenträger ein- und aushängen. wer nicht direkt darauf "
+"zugreifen kann, muss das Systemverwalterpasswort eingeben. Auf einem Heimrechner sind "
+"die meisten Regeln eher liberal, da Sie davon ausgehen können, dass die Benutzer selbst "
+"auf ihre Rechner achten. Im Unternehmensumfeld werden die Regeln deutlich restriktiver "
+"sein."
 
 #. (itstool) path: page/p
 #: C/tech-polkit.page:38
@@ -3987,6 +4283,11 @@ msgid ""
 "Bluetooth headset. It can mix several sources of audio, or change the sample rate of an "
 "audio stream."
 msgstr ""
+"PulseAudio ist die Low-Level-Audio-API in GNOME. Sie fungiert als Bindeglied zwischen "
+"Anwendungen und der Audio-API des Kernels. Mit PulseAudio können Sie die Durchleitung "
+"von Klängen durch das Netzwerk oder die Ausgabe an ein Bluetooth-Headset steuern. "
+"Verschiedene Klangquellen können gemischt oder die Samplingrate eines Audio-Datenstroms "
+"beeinflusst werden."
 
 #. (itstool) path: page/p
 #: C/tech-pulseaudio.page:29
@@ -4125,6 +4426,9 @@ msgid ""
 "3.6 onward, libsecret is used instead. This allows sharing the keyring service between "
 "GNOME and other desktop environments and applications."
 msgstr ""
+"In GNOME wurde eine Bibliothek namens gnome-keyring bis zur Veröffentlichung der Version "
+"3.6 verwendet. Spätere Versionen verwenden stattdessen libsecret. Diese ermöglicht die "
+"Freigabe des Schlüsselbund-Dienstes für andere Arbeitsumgebungen und Anwendungen."
 
 #. (itstool) path: item/p
 #: C/tech-secret.page:75
@@ -4152,6 +4456,9 @@ msgid ""
 "graphical applications which need asynchronous operations to avoid blocking the user "
 "interface while network requests are going on."
 msgstr ""
+"Soup, allgemein libsoup genannt, ist eine HTTP-Bibliothek, die in grafischen Anwendungen "
+"genutzt wird, die asynchrone Operationen benötigen, damit die Benutzeroberfläche nicht "
+"blockiert wird, wenn Netzwerkanfragen laufen."
 
 #. (itstool) path: page/p
 #: C/tech-soup.page:28
@@ -4159,6 +4466,8 @@ msgid ""
 "Soup provides functionality for using HTTP cookies, SSL encrypted connections, and the "
 "XML-RPC protocol based on HTTP."
 msgstr ""
+"Soup stellt Funktionalität für die Verwendung von HTTP-Cookies, für SSl-verschlüsselte "
+"Verbindungen und das auf HTTP basierende XML-RPC-Protokoll bereit."
 
 #. (itstool) path: note/p
 #: C/tech-soup.page:34
@@ -4167,6 +4476,10 @@ msgid ""
 "over HTTP. Spanish speakers who are learning English frequently confuse the words \"soup"
 "\" and \"soap\", and this seemed like a funny and interesting name to use."
 msgstr ""
+"Nebenbei: Soup heißt »soup«, weil es als Bibliothek für SOAP-Anfragen über HTTP "
+"entworfen wurde. spanische Muttersprachler, die Englisch lernen, wurden häufig durch die "
+"Wörter »soup« und »soap« verwirrt, daher erschien dies als lustige und interessante "
+"Namenswahl."
 
 #. (itstool) path: item/p
 #: C/tech-soup.page:43
@@ -4245,6 +4558,11 @@ msgid ""
 "titles and authors, such as <code>Othello:has-author:William Shakespeare</code>. A "
 "standardized set of triplet forms is called an <em>ontology</em>."
 msgstr ""
+"Tracker ist eine Speicher-Engine für das <em>Resource Data Format</em> (RDF). RDF "
+"besteht aus <em>Tripeln</em> der Form subjekt:verb:objekt. Zum Beispiel sind Standard-"
+"Tripel für Buchtitel und Autor möglich, etwa <code>Othello:has-author:William "
+"Shakespeare</code>. Ein standardisierter Satz von Tripeln wird <em>Ontologie</em> "
+"genannt."
 
 #. (itstool) path: page/p
 #: C/tech-tracker.page:30
@@ -4252,6 +4570,8 @@ msgid ""
 "Tracker provides a storage for such triplets, and a query engine in the form of the "
 "SPARQL query language."
 msgstr ""
+"Tracker bietet einen Speicher für solche Tripel und eine Abfrage-Engine in der Form der "
+"Abfragesprache SPARQL."
 
 #. (itstool) path: page/p
 #: C/tech-tracker.page:35
@@ -4264,6 +4584,14 @@ msgid ""
 "org/\">Dublin Core</link> for document metadata, and <link href=\"http://nepomuk.kde.org/"
 "\">NEPOMUK</link> for annotations, files, contacts and other items."
 msgstr ""
+"GNOME verwendet Tracker als Speicher für Dokument-Metadaten. Ein solcher Metadaten-Satz "
+"kann Titel, Autoren, urheberrechtliche Informationen, Änderungsdatum und Schlüsselwörter "
+"beinhalten. Alle diese Metadaten werden als RDF-Tripel in Tracker gespeichert und mit "
+"SPARQL von Anwendungen wie beispielsweise »Dokumente« abgefragt. Die <link href=\"http://"
+"developer.gnome.org/ontology/unstable/\">verwendete Ontologie</link> basiert auf "
+"diversen standardisierten Sub-Ontologien: <link href=\"http://dublincore.org/\">Dublin "
+"Core</link> für Dokument-Metadaten und <link href=\"http://nepomuk.kde.org/\">NEPOMUK</"
+"link> für Anmerkungen, Dateien, Kontakte und sonstige Einträge."
 
 #. (itstool) path: item/p
 #: C/tech-tracker.page:46
@@ -4376,6 +4704,8 @@ msgid ""
 "Make the new object <code>app</code> and call the method <code>run</code> to run the "
 "application:"
 msgstr ""
+"Erstellen Sie das neue Objekt <code>app</code> und rufen Sie die Methode <code>run</"
+"code> auf, um die Anwendung auszuführen:"
 
 #. (itstool) path: example/code
 #: C/tour-application.page:35
@@ -4395,6 +4725,9 @@ msgid ""
 "Save the script as <file>helloworld.js</file>, run <cmd>chmod +x helloworld.js</cmd> to "
 "mark it executable, and run it with <cmd>./helloworld.js</cmd>."
 msgstr ""
+"Speichern Sie das Skript unter <file>helloworld.js</file>, führen Sie <cmd>chmod +x "
+"helloworld.js</cmd> aus, um es als ausführbar zu markieren, und führen Sie es mit <cmd>./"
+"helloworld.js</cmd> aus."
 
 #. (itstool) path: media/p
 #: C/tour-application.page:46
@@ -4407,11 +4740,13 @@ msgid ""
 "This window is generated from the <app>Glade</app> file and linked to <app>Gtk</app> "
 "events. You now have a fully functional Gtk application!"
 msgstr ""
+"Dieses Fenster wird aus einer <app>Glade</app>-Datei erzeugt und gegen <app>Gtk</app>-"
+"Events gelinkt. Sie haben nun eine vollständig funktionierende Gtk-Anwendung!"
 
 #. (itstool) path: info/desc
 #: C/tour-events.page:23
 msgid "Bind functions to events using Lang."
-msgstr ""
+msgstr "Binden Sie mit Lang Funktionen an Events."
 
 #. (itstool) path: page/title
 #: C/tour-events.page:26
@@ -4431,6 +4766,8 @@ msgid ""
 "Declare <code>HelloWorld</code> as a new <code>Lang</code> class. Gjs requires classes "
 "to have the Name property defined."
 msgstr ""
+"Deklarieren Sie <code>HelloWorld</code> als neue <code>Lang</code>-Klasse. Gjs benötigt "
+"Klassen zur Definition der Name-Eigenschaft."
 
 #. (itstool) path: example/code
 #: C/tour-events.page:38
@@ -4451,6 +4788,10 @@ msgid ""
 "<code>GtkApplication</code>, then connect <code>activate</code> to the existing Gtk "
 "event <code>_onActivate</code> and <code>startup</code> to <code>_onStartup</code>:"
 msgstr ""
+"<code>_init</code> wird aufgerufen, wenn eine neue Instanz erzeugt wird. Erstellen Sie "
+"eine <code>GtkApplication</code> und verbinden Sie dann <code>activate</code> mit dem "
+"existierenden Gtk-Event <code>_onActivate</code> und <code>startup</code>, um mit "
+"<code>_onStartup</code> zu starten:"
 
 #. (itstool) path: example/code
 #: C/tour-events.page:48
@@ -4473,7 +4814,7 @@ msgstr ""
 #. (itstool) path: example/p
 #: C/tour-events.page:56
 msgid "Show the window upon application activation:"
-msgstr ""
+msgstr "Zeigen Sie das Fenster nach der Aktivierung der Anwendung anzeigen:"
 
 #. (itstool) path: example/code
 #: C/tour-events.page:57
@@ -4493,6 +4834,8 @@ msgstr ""
 #: C/tour-get_object.page:23
 msgid "Add the window specified in the UI file to the application using GtkBuilder."
 msgstr ""
+"Fügen Sie das in der UI-Datei spezifizierte Fenster mittels GtkBuilder zur Anwendung "
+"hinzu."
 
 #. (itstool) path: page/title
 #: C/tour-get_object.page:27
@@ -4506,6 +4849,9 @@ msgid ""
 "the UI description is in the file <file>helloworld.glade</file> and can be read by the "
 "<code>get_object()</code> method."
 msgstr ""
+"GtkBuilder wandelt UI-Beschreibungen in Gtk-Anwendungen um. In diesem Fall befindet sich "
+"die UI-Beschreibung in der Datei <file>helloworld.glade</file> und kann mit der Methode "
+"<code>get_object()</code> gelesen werden."
 
 #. (itstool) path: example/p
 #: C/tour-get_object.page:38
@@ -4514,6 +4860,9 @@ msgid ""
 "<gui>Name</gui> (or <gui>ID</gui>) chosen in Glade, and add the window object to the "
 "application:"
 msgstr ""
+"Laden Sie die UI-Datei mit <code>GtkBuilder</code> und holen Sie das Fenster-Objekt mit "
+"dem in Glade gewählten <gui>Name</gui> (oder <gui>ID</gui>) und fügen Sie das Fenster-"
+"Objekt zur Anwendung hinzu:"
 
 #. (itstool) path: example/code
 #: C/tour-get_object.page:42
@@ -4540,7 +4889,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/tour-gjs.page:23
 msgid "Include bindings necessary to run your script."
-msgstr ""
+msgstr "Beziehen Sie die zur Ausführung Ihres Skripts notwendigen Bindings ein."
 
 #. (itstool) path: page/title
 #: C/tour-gjs.page:26
@@ -4554,6 +4903,10 @@ msgid ""
 "for GNOME and can be used to interact with Gtk. <link href=\"http://www.gtk.org/\">Gtk</"
 "link> is a toolkit for creating graphical user interfaces."
 msgstr ""
+"<link href=\"https://wiki.gnome.org/Projects/Gjs\">Gjs</link> ist eine JavaScript-"
+"Bindung für GNOME und kann für die Interaktion mit Gtk genutzt werden. <link href="
+"\"http://www.gtk.org/\">Gtk</link> ist ein Toolkit zum Erstellen garfischer "
+"Benutzeroberflächen."
 
 #. (itstool) path: page/p
 #: C/tour-gjs.page:35
@@ -4570,12 +4923,16 @@ msgid ""
 "Create an <code>object</code> using your <code>class</code> and call the <code>run()</"
 "code> method:"
 msgstr ""
+"Erzeugen Sie ein <code>object</code> mit Ihrer <code>class</code> und rufen Sie die "
+"Methode <code>run()</code> auf:"
 
 #. (itstool) path: example/p
 #: C/tour-gjs.page:39
 msgid ""
 "Call the Gjs JavaScript binding. This instructs the shell to run this script with Gjs."
 msgstr ""
+"Rufen Sie die Gjs-JavaScript-Bindung auf. Dadurch wird die Shell angewiesen, dieses "
+"Skript mit Gjs auszuführen."
 
 #. (itstool) path: example/code
 #: C/tour-gjs.page:42
@@ -4593,6 +4950,8 @@ msgid ""
 "Import <code>lang</code> for the <code>bind</code> function and <code>gi.Gtk</code> for "
 "<code>Gtk</code> functions."
 msgstr ""
+"Importieren Sie <code>lang</code> für die <code>bind</code>-Funktion und <code>gi.Gtk</"
+"code> für <code>Gtk</code>-Funktionen."
 
 #. (itstool) path: example/code
 #: C/tour-gjs.page:49
@@ -4633,6 +4992,9 @@ msgid ""
 "create a user interface. Glade produces XML files that describe attributes of an "
 "application."
 msgstr ""
+"Verwenden Sie <link href=\"http://glade.gnome.org/\">Glade</link>, den UI-Editor für "
+"GNOME, um eine Benutzeroberfläche zu erstellen. Glade erzeugt XML-Dateien, die die "
+"Attribute einer Anwendung beschreiben."
 
 #. (itstool) path: page/p
 #: C/tour-glade.page:36
@@ -4640,6 +5002,8 @@ msgid ""
 "When creating a UI file using Glade, the <gui>Name</gui> that you specify in Glade is "
 "the ID that you will later need to use to get the object from the UI file."
 msgstr ""
+"Wenn Sie eine UI mit Glade erstellen, ist der angegebene <gui>Name</gui> die ID, die Sie "
+"später benötigen, um das Objekt aus der UI-Datei zu beziehen."
 
 #. (itstool) path: example/p
 #: C/tour-glade.page:41
@@ -4647,6 +5011,8 @@ msgid ""
 "Create a new window, then set <gui>Name</gui> to <code>window1</code> and <gui>Window</"
 "gui> to <code>Hello World</code>:"
 msgstr ""
+"Erstellen Sie ein neues Fenster und setzen Sie <gui>Name</gui> auf <code>window1</code> "
+"und <gui>Window</gui> auf <code>Hello World</code>:"
 
 #. (itstool) path: media/p
 #: C/tour-glade.page:44
@@ -4680,6 +5046,9 @@ msgid ""
 "User interface (UI) can be constructed with code or created in Glade, the UI editor for "
 "GNOME. Glade produces XML files that describe attributes of an application."
 msgstr ""
+"Eine Benutzeroberfläche (UI) kann direkt als Programmcode konstruiert oder in Glade "
+"erzeugt werden, dem UI-Editor für GNOME. Glade erzeugt XML-Dateien, die die Attribute "
+"einer Anwendung beschreiben."
 
 #. (itstool) path: page/p
 #: C/tour.page:38
@@ -4688,6 +5057,9 @@ msgid ""
 "the contents of that file with a Gjs script. The script is examined in multiple parts "
 "and included in full in the summary."
 msgstr ""
+"Sie erstellen eine GtkBuilder-Datei in Glade. Auf Basis des Inhalts der Datei wird mit "
+"einem Gjs-Skript ein Fenster angezeigt, auf das zugegriffen werden kann. Das Skript wird "
+"in mehreren Schritten untersucht und ist vollständig in der Zusammenfassung enthalten."
 
 #. (itstool) path: info/desc
 #: C/tour-summary.page:22
@@ -4702,7 +5074,7 @@ msgstr "Zusammenfassung"
 #. (itstool) path: page/p
 #: C/tour-summary.page:32
 msgid "Here is how the examples fit together:"
-msgstr ""
+msgstr "So sehen die beschriebenen Beispiele als Ganzes aus:"
 
 #. (itstool) path: page/code
 #: C/tour-summary.page:33
@@ -4767,4 +5139,3 @@ msgstr ""
 "\n"
 "let app = new HelloWorld();\n"
 "app.application.run(ARGV);\n"
-
