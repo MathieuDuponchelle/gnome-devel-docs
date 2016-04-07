@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2016-03-22 09:08+0000\n"
-"PO-Revision-Date: 2016-03-22 14:09+0100\n"
+"POT-Creation-Date: 2016-04-07 08:16+0000\n"
+"PO-Revision-Date: 2016-04-07 10:40+0200\n"
 "Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
 "Language-Team: Deutsch <gnome-de@gnome.org>\n"
 "Language: de\n"
@@ -3948,10 +3948,8 @@ msgstr ""
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:161
-#, fuzzy
-#| msgid "Shortcut"
 msgid "Legacy Shortcut"
-msgstr "Tastenkombination"
+msgstr ""
 
 #. (itstool) path: td/p
 #: C/keyboard-input.page:162 C/keyboard-input.page:281
@@ -5574,7 +5572,7 @@ msgstr "Listentyp"
 #. (itstool) path: td/p
 #: C/lists.page:109
 msgid "Row Behavior"
-msgstr ""
+msgstr "Verhalten von Zeilen"
 
 #. (itstool) path: td/p
 #: C/lists.page:114
@@ -5713,7 +5711,7 @@ msgstr "original"
 #. (itstool) path: page/title
 #: C/menu-bars.page:30
 msgid "Menu bars"
-msgstr ""
+msgstr "Menüleisten"
 
 #. (itstool) path: page/p
 #: C/menu-bars.page:32
@@ -5747,7 +5745,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/menu-bars.page:46
 msgid "Standard menus"
-msgstr ""
+msgstr "Standardmenüs"
 
 #. (itstool) path: section/p
 #: C/menu-bars.page:48
@@ -5872,7 +5870,7 @@ msgstr ""
 #: C/menu-bars.page:81
 msgid ""
 "The contents of the menu will vary depending on the type of application."
-msgstr ""
+msgstr "Der Inhalt des Menüs hängt von der Art der Anwendung ab."
 
 #. (itstool) path: td/p
 #: C/menu-bars.page:84
@@ -5937,6 +5935,10 @@ msgid ""
 "accidentally. Some users will not be able to figure out how to get the menu "
 "bar back in this case."
 msgstr ""
+"Bieten Sie besser keine Möglichkeit an, die Menüleiste zu verbergen, da dies "
+"unabsichtlich aktiviert werden könnte. Einige Benutzer könnten dann nicht "
+"mehr in der Lage sein herauszufinden, wie sie die Menüleiste wieder "
+"aktivieren können."
 
 #. (itstool) path: item/p
 #: C/menu-bars.page:109 C/menus.page:76
@@ -6048,6 +6050,8 @@ msgid ""
 "Submenus should contain between three and six items, and should never "
 "contain other submenus."
 msgstr ""
+"Untermenüs sollten zwischen drei und sechs Einträgen enthalten und niemals "
+"weitere Untermenüs."
 
 #. (itstool) path: section/p
 #: C/menus.page:50
@@ -6117,7 +6121,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/notifications.page:8
 msgid "System-wide event notifications"
-msgstr ""
+msgstr "Systemweite Benachrichtigungen zu Ereignissen"
 
 #. (itstool) path: page/title
 #: C/notifications.page:16
@@ -6152,12 +6156,13 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/notifications.page:30
 msgid "Notification elements"
-msgstr ""
+msgstr "Elemente in Benachrichtigungen"
 
 #. (itstool) path: section/p
 #: C/notifications.page:32
 msgid "Notifications in GNOME 3 have a number of standard components:"
 msgstr ""
+"Für Benachrichtigungen in GNOME 3 gibt es eine Reihe von Standardkomponenten:"
 
 #. (itstool) path: td/p
 #: C/notifications.page:37
@@ -6167,7 +6172,7 @@ msgstr "Element"
 #. (itstool) path: td/p
 #: C/notifications.page:42
 msgid "Application Icon"
-msgstr ""
+msgstr "Anwendungssymbol"
 
 #. (itstool) path: td/p
 #: C/notifications.page:42
@@ -6200,7 +6205,7 @@ msgstr ""
 #. (itstool) path: td/p
 #: C/notifications.page:51
 msgid "Default Action"
-msgstr ""
+msgstr "Standardaktion"
 
 #. (itstool) path: td/p
 #: C/notifications.page:51
@@ -6216,7 +6221,7 @@ msgstr "Aktionen"
 #. (itstool) path: td/p
 #: C/notifications.page:54
 msgid "Each notification can include up to three buttons."
-msgstr ""
+msgstr "Jede Benachrichtigung kann bis zu drei Knöpfe enthalten."
 
 #. (itstool) path: section/title
 #: C/notifications.page:60
@@ -6235,7 +6240,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/notifications.page:67
 msgid "Default actions"
-msgstr ""
+msgstr "Standardaktionen"
 
 #. (itstool) path: section/p
 #: C/notifications.page:69
@@ -6800,6 +6805,8 @@ msgid ""
 "Any of the following: <key>←</key> <key>↑</key> <key>→</key> <key>↓</key> "
 "<key>Home</key> <key>End</key> <key>PageUp</key> <key>PageDown</key>"
 msgstr ""
+"Eines von: <key>←</key> <key>↑</key> <key>→</key> <key>↓</key> <key>Home</"
+"key> <key>End</key> <key>PageUp</key> <key>PageDown</key>"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:90
@@ -6949,7 +6956,7 @@ msgstr ""
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:170
 msgid "Removes an item."
-msgstr ""
+msgstr "Entfernt ein Objekt."
 
 #. (itstool) path: section/title
 #: C/pointer-and-touch-input.page:178
@@ -8681,7 +8688,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/tabs.page:61
 msgid "Dynamic tabs"
-msgstr ""
+msgstr "Dynamische Reiter"
 
 #. (itstool) path: item/p
 #: C/tabs.page:64
@@ -8744,10 +8751,8 @@ msgstr "Den aktuellen Reiter schließen"
 
 #. (itstool) path: td/p
 #: C/tabs.page:85
-#, fuzzy
-#| msgid "<keyseq><key>Ctrl</key><key>P</key></keyseq>"
 msgid "<keyseq><key>Ctrl</key><key>Page Up</key></keyseq>"
-msgstr "<keyseq><key>Strg</key><key>P</key></keyseq>"
+msgstr "<keyseq><key>Strg</key><key>Bild auf</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/tabs.page:86
@@ -8756,10 +8761,8 @@ msgstr ""
 
 #. (itstool) path: td/p
 #: C/tabs.page:89
-#, fuzzy
-#| msgid "<keyseq><key>Ctrl</key><key>P</key></keyseq>"
 msgid "<keyseq><key>Ctrl</key><key>Page Down</key></keyseq>"
-msgstr "<keyseq><key>Strg</key><key>P</key></keyseq>"
+msgstr "<keyseq><key>Strg</key><key>Bild ab</key></keyseq>"
 
 #. (itstool) path: td/p
 #: C/tabs.page:90
@@ -8993,6 +8996,11 @@ msgid ""
 "an equivalent menu item) or indirectly (e.g. in the <guiseq><gui>Options</"
 "gui><gui>Settings</gui></guiseq> dialog)."
 msgstr ""
+"Wenn Sie eine <link xref=\"menu-bars\">Menüleiste</link> verwenden, stellen "
+"Sie sicher, dass dort alle Funktionen enthalten sind, die in der "
+"Werkzeugleiste angezeigt werden, entweder direkt (über einen entsprechenden "
+"Menüeintrag) oder indirekt (beispielsweise im Dialog <guiseq><gui>Options</"
+"gui><gui>Settings</gui></guiseq>)."
 
 #. (itstool) path: item/p
 #: C/toolbars.page:53
@@ -9025,17 +9033,17 @@ msgstr ""
 #. (itstool) path: credit/name
 #: C/typography.page:11
 msgid "William Jon McCann"
-msgstr ""
+msgstr "William Jon McCann"
 
 #. (itstool) path: info/desc
 #: C/typography.page:14
 msgid "Font sizes, weights and styles, and special characters."
-msgstr ""
+msgstr "Schriftgrößen, -stärken und -stile sowie Sonderzeichen."
 
 #. (itstool) path: page/title
 #: C/typography.page:17
 msgid "Typography"
-msgstr ""
+msgstr "Typografie"
 
 #. (itstool) path: page/p
 #: C/typography.page:19
@@ -9049,7 +9057,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/typography.page:22
 msgid "Default fonts"
-msgstr ""
+msgstr "Standardschriften"
 
 #. (itstool) path: section/p
 #: C/typography.page:24
@@ -9063,7 +9071,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/typography.page:29
 msgid "Variants, sizes and weights"
-msgstr ""
+msgstr "Varianten, Größen und Schriftstärken"
 
 #. (itstool) path: section/p
 #: C/typography.page:31
@@ -9311,7 +9319,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/view-switchers.page:15
 msgid "View switchers"
-msgstr ""
+msgstr "Ansichtswechsler"
 
 #. (itstool) path: page/p
 #: C/view-switchers.page:19
@@ -9435,12 +9443,12 @@ msgstr "original"
 #. (itstool) path: info/desc
 #: C/visual-layout.page:23
 msgid "Arranging elements within a user interface."
-msgstr ""
+msgstr "Anordnung von Elementen in einer Benutzeroberfläche."
 
 #. (itstool) path: page/title
 #: C/visual-layout.page:26
 msgid "Visual layout"
-msgstr ""
+msgstr "Visuelles Layout"
 
 #. (itstool) path: page/p
 #: C/visual-layout.page:28
@@ -9560,7 +9568,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/visual-layout.page:71
 msgid "Visual hierarchy"
-msgstr ""
+msgstr "Visuelle Hierarchie"
 
 #. (itstool) path: section/p
 #: C/visual-layout.page:73
@@ -9659,10 +9667,8 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/writing-style.page:62
-#, fuzzy
-#| msgid "Capitalization"
 msgid "Header capitalization"
-msgstr "Großschreibung"
+msgstr ""
 
 #. (itstool) path: section/p
 #: C/writing-style.page:64
@@ -9752,6 +9758,10 @@ msgid ""
 "is required from the user before the action can be carried out. For example, "
 "<gui>Save As…</gui>, <gui>Find…</gui> or <gui>Delete…</gui>."
 msgstr ""
+"Verwenden Sie die Unicode-Ellipsis (…) am Ende einer Beschriftung, wenn "
+"weitere Eingaben oder Bestätigungen erforderlich ist, bevor die Aktion "
+"ausgeführt werden kann. Beispiele hierfür sind <gui>Save As…</gui>, "
+"<gui>Find…</gui> oder <gui>Delete…</gui>."
 
 #. (itstool) path: section/p
 #: C/writing-style.page:103
