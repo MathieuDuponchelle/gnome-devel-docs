@@ -231,14 +231,15 @@ AX_COMPILER_FLAGS([WARN_CFLAGS],[WARN_LDFLAGS],[$ax_is_release])</code>
         Add <code>AX_VALGRIND_CHECK</code> to <file>configure.ac</file>.
       </p></item>
       <item><p>
-        Add <code>@VALGRIND_CHECK_RULES</code> to the top-level
-        <file>Makefile.am</file>.
+        Add <code>@VALGRIND_CHECK_RULES@</code> to the <file>Makefile.am</file>
+        in each directory which contains unit tests.
       </p></item>
     </steps>
 
     <p>
       When <cmd>make check-valgrind</cmd> is run, it will save its results in
-      <file>test-suite-*.log</file>, one log file per tool.
+      <file>test-suite-*.log</file>, one log file per tool. Note that you will
+      need to run it from the directory containing the unit tests.
     </p>
 
     <comment>
