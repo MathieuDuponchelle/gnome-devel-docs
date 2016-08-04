@@ -1,0 +1,45 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:uix="http://projectmallard.org/experimental/ui/"
+      type="topic"
+      id="initial-state-placeholder">
+
+  <info>
+    <link type="guide" xref="patterns#secondary"/>
+    <desc>Image and text shown when an application is initially empty</desc>
+    <credit type="author">
+      <name>Allan Day</name>
+      <email>aday@gnome.org</email>
+    </credit>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
+
+<title>Initial state placeholders</title>
+
+<media type="image" mime="image/svg" src="figures/patterns/initial-state-placeholder.svg"/>
+
+<p>An initial state placeholder is an image and text which fills the space in an application that has never contained any content.</p>
+
+<section id="when-to-use">
+<title>When to use</title>
+
+<p>In some cases an application might be empty until a user adds some content to it. In these scenarios, an initial state can be used to provide a rich and inviting experience. This helps to avoid the first use of the application being downbeat and unwelcoming.</p>
+
+<p>An initial state placeholder should only be used when an application is going to be unavoidably empty. In many cases it is often better to pre-populate the application.</p>
+
+</section>
+
+<section id="guidelines">
+<title>Guidelines</title>
+
+<list>
+<item><p>Follow the standard layout for the size and placement of the image and labels, so that your application is consistent with other GNOME 3 applications.</p></item>
+<item><p>The imagry used should be rich and colorful.</p></item>
+<item><p>The text that accompanies the image should be positive and upbeat. This is a moment where you can sell your application and establish a positive identity for it. It can also be an opportunity to strike up a relationship with the user by addressing them directly.</p></item>
+<item><p>If there are controls that allow items to be added, it can be appropriate to highlight them using a <link xref="buttons#suggested-and-destructive">suggested style</link> while the list/grid is empty.</p></item>
+<item><p>While an application is initially empty, some controls don't serve a purpose (such as those for browsing content, changing view, or searching). Making these controls insensitive will help to avoid the user being disappointed, or trying features that won't work.</p></item>
+<item><p>An initial state should persevere until content is added to the application, after which it should not be seen again. If the application becomes empty subsequently, an <link xref="empty-placeholder">empty state can be used</link>.</p></item>
+</list>
+
+</section>
+
+</page>

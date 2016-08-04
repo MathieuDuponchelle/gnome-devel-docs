@@ -17,7 +17,7 @@
 
 <media type="image" mime="image/svg" src="figures/patterns/empty-placeholder.svg"/>
 
-<p>An empty placeholder is an image, accompanied by text, which fills the space in an empty list or grid.</p>
+<p>An empty placeholder is an image and text which fills the space in an empty list or grid.</p>
 
 <section id="when-to-use">
 <title>When to use</title>
@@ -26,7 +26,7 @@
 
 <p>An empty placeholder should be displayed whenever a list or grid is empty.</p>
 
-<p>Empty placeholders should not be displayed when an application is being run for the first time. In these situations empty states are often to be expected, and it is more appropriate to provide a richer, more characterful and upbeat experience.</p>
+<p>Empty placeholders should not be displayed when an application is being run for the first time. In these situations an empty state is too negative and <link xref="initial-state-placeholder">a richer, more characterful and positive experience</link> is better.</p>
 
 </section>
 
