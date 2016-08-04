@@ -88,7 +88,6 @@
 <list>
 <item><p><link href="https://developer.gnome.org/gtk3/stable/GtkWindow.html">GtkWindow</link></p></item>
 <item><p><link href="https://developer.gnome.org/gtk3/stable/GtkApplicationWindow.html">GtkApplicationWindow</link></p></item>
-<item><p><link href="https://developer.gnome.org/gtk3/stable/GtkScrolledWindow.html">GtkScrolledWindow</link></p></item>
 </list>
 
 </section>
