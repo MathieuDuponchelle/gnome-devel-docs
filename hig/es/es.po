@@ -15,8 +15,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: hig.master\n"
-"POT-Creation-Date: 2016-01-06 20:52+0000\n"
-"PO-Revision-Date: 2016-01-07 09:21+0100\n"
+"POT-Creation-Date: 2016-08-04 14:59+0000\n"
+"PO-Revision-Date: 2016-08-05 14:07+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "Language: es\n"
@@ -2608,13 +2608,17 @@ msgstr ""
 #. update your localized copy. The msgstr is not used at all. Set it to
 #. whatever you like once you have updated your copy of the file.
 #: C/empty-placeholders.page:18
+#| msgctxt "_"
+#| msgid ""
+#| "external ref='figures/patterns/empty-placeholder.svg' "
+#| "md5='3b31c403544a6600dc89db807726fbcd'"
 msgctxt "_"
 msgid ""
 "external ref='figures/patterns/empty-placeholder.svg' "
-"md5='3b31c403544a6600dc89db807726fbcd'"
+"md5='ef36d4ef97fdbc3b43d44e3d355c40c6'"
 msgstr ""
 "external ref='figures/patterns/empty-placeholder.svg' "
-"md5='3b31c403544a6600dc89db807726fbcd'"
+"md5='ef36d4ef97fdbc3b43d44e3d355c40c6'"
 
 #. (itstool) path: info/desc
 #: C/empty-placeholders.page:8
@@ -2628,9 +2632,12 @@ msgstr "Marcadores de posición vacíos"
 
 #. (itstool) path: page/p
 #: C/empty-placeholders.page:20
+#| msgid ""
+#| "An empty placeholder is an image, accompanied by text, which fills the "
+#| "space in an empty list or grid."
 msgid ""
-"An empty placeholder is an image, accompanied by text, which fills the space "
-"in an empty list or grid."
+"An empty placeholder is an image and text which fills the space in an empty "
+"list or grid."
 msgstr ""
 "Un marcador de posición vacío es una imagen, acompañada de un texto, que "
 "rellena el espacio en una lista o rejilla vacía."
@@ -2658,15 +2665,21 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/empty-placeholders.page:29
+#| msgid ""
+#| "Empty placeholders should not be displayed when an application is being "
+#| "run for the first time. In these situations empty states are often to be "
+#| "expected, and it is more appropriate to provide a richer, more "
+#| "characterful and upbeat experience."
 msgid ""
 "Empty placeholders should not be displayed when an application is being run "
-"for the first time. In these situations empty states are often to be "
-"expected, and it is more appropriate to provide a richer, more characterful "
-"and upbeat experience."
+"for the first time. In these situations an empty state is too negative and "
+"<link xref=\"initial-state-placeholder\">a richer, more characterful and "
+"positive experience</link> is better."
 msgstr ""
 "Los marcadores de posición vacíos no se deben mostrar cuando la aplicación "
-"se ejecuta por primera vez. En estas situaciones es normal que haya estados "
-"vacíos, y es más adecuado mostrar una experiencia más rica y característica."
+"se ejecuta por primera vez. En estas situaciones un estado vacío es muy "
+"negativo, y es más adecuado mostrar <link xref=\"initial-state-placeholder"
+"\">una experiencia más rica y característica</link>."
 
 #. (itstool) path: item/p
 #: C/empty-placeholders.page:37
@@ -8403,7 +8416,6 @@ msgstr "<em style=\"strong\">Mantener y pulsar con tres dedos</em>"
 
 #. (itstool) path: td/p
 #: C/pointer-and-touch-input.page:214
-#| msgid "Hold two fingers on the surface while tapping with the third."
 msgid "Hold three fingers on the surface while tapping with the fourth."
 msgstr "Mantenga tres dedos sobre la superficie mientras pulsa con el cuarto."
 
@@ -8836,15 +8848,6 @@ msgid ""
 msgstr ""
 "<link href=\"https://developer.gnome.org/gtk3/stable/GtkApplicationWindow."
 "html\">GtkApplicationWindow</link>"
-
-#. (itstool) path: item/p
-#: C/primary-windows.page:91 C/sidebar-lists.page:57
-msgid ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkScrolledWindow.html"
-"\">GtkScrolledWindow</link>"
-msgstr ""
-"<link href=\"https://developer.gnome.org/gtk3/stable/GtkScrolledWindow.html"
-"\">GtkScrolledWindow</link>"
 
 #. (itstool) path: media
 #. This is a reference to an external file such as an image or video. When
@@ -10026,6 +10029,15 @@ msgstr ""
 "Cada fila de la lista puede incluir varias líneas de texto, así como "
 "imágenes. Sin embargo, asegúrese de que la información más importante no se "
 "pierde, y trabaje para asegurar un aspecto limpio y claro."
+
+#. (itstool) path: item/p
+#: C/sidebar-lists.page:57
+msgid ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkScrolledWindow.html"
+"\">GtkScrolledWindow</link>"
+msgstr ""
+"<link href=\"https://developer.gnome.org/gtk3/stable/GtkScrolledWindow.html"
+"\">GtkScrolledWindow</link>"
 
 #. (itstool) path: item/p
 #: C/sidebar-lists.page:58
@@ -11719,8 +11731,23 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/writing-style.page:50
 msgid ""
+"Text should adopt a neutral tone and speak from the point of view of the "
+"product. Pronouns like “you” or \"my” should therefore be avoided wherever "
+"possible. However, if they are unavoidable “your” is preferable to “my”."
+msgstr ""
+"El texto debe adoptar un tono neutral y hablar desde el punto de vista del "
+"producto. Los pronombres como «usted» o «yo» se deben evitar siempre que sea "
+"posible. Sin embargo, si es inevitable, «su» es preferible a «mi»."
+
+#. (itstool) path: item/p
+#: C/writing-style.page:51
+#| msgid ""
+#| "Use the standard GNOME terms when referring to parts of the user "
+#| "interface, such as ‘pointer’ and ‘window’. The HIG can be used as a "
+#| "reference in this regard."
+msgid ""
 "Use the standard GNOME terms when referring to parts of the user interface, "
-"such as ‘pointer’ and ‘window’. The HIG can be used as a reference in this "
+"such as “pointer” and “window”. The HIG can be used as a reference in this "
 "regard."
 msgstr ""
 "Use los términos estándar de GNOME para referirse a las partes de la "
@@ -11728,17 +11755,40 @@ msgstr ""
 "como una referencia para esto."
 
 #. (itstool) path: item/p
-#: C/writing-style.page:51
+#: C/writing-style.page:52
 msgid "Avoid repetition where possible."
 msgstr "Evite la repetición siempre que sea posible."
 
+#. (itstool) path: item/p
+#: C/writing-style.page:53
+msgid ""
+"Sentences should not be constructed from text in several controls, and each "
+"label should be treated as being self-contained. Sentences that run from one "
+"control to another will often not make sense when translated into other "
+"languages."
+msgstr ""
+"Las frases no se deben construir a partir de texto en varios controles, y "
+"cada etiqueta se debe tratar como autoexplicativa. Las frases que van de un "
+"control a otro a menudo no tienen sentido al traducirlas a otros idiomas."
+
+#. (itstool) path: item/p
+#: C/writing-style.page:54
+msgid ""
+"Latin abbreviations such as “ie” or “eg” should be avoided, since they can't "
+"always be easily translated and can be unintelligable when read by screen "
+"readers. Instead, use full words like “for example”."
+msgstr ""
+"Se deben evitar las abreviaturas del latín como «ie» o «eg», ya que no "
+"siempre se pueden traducir fácilmente y pueden se ininteligibles para los "
+"lectores de pantallas. En su lugar, use para completas como «por ejemplo.»"
+
 #. (itstool) path: section/title
-#: C/writing-style.page:57
+#: C/writing-style.page:60
 msgid "Capitalization"
 msgstr "Mayúsculas"
 
 #. (itstool) path: section/p
-#: C/writing-style.page:59
+#: C/writing-style.page:62
 msgid ""
 "Two styles of capitalization are used in GNOME user interfaces: header "
 "capitalization and sentence capitalization."
@@ -11747,12 +11797,12 @@ msgstr ""
 "en las cabeceras y en las frases."
 
 #. (itstool) path: section/title
-#: C/writing-style.page:62
+#: C/writing-style.page:65
 msgid "Header capitalization"
 msgstr "Mayúsculas en la cabecera"
 
 #. (itstool) path: section/p
-#: C/writing-style.page:64
+#: C/writing-style.page:67
 msgid ""
 "Header capitalization should be used for any headings, including header bar "
 "headings and page, tab and menu titles. It should also be used for short "
@@ -11766,33 +11816,33 @@ msgstr ""
 "de menú."
 
 #. (itstool) path: section/p
-#: C/writing-style.page:66 C/writing-style.page:84
+#: C/writing-style.page:69 C/writing-style.page:87
 msgid "Capitalize the first letter of:"
 msgstr "Ponga en mayúsculas la primera letra de:"
 
 #. (itstool) path: item/p
-#: C/writing-style.page:69
+#: C/writing-style.page:72
 msgid "All words with four or more letters."
 msgstr "Todas las palabras de cuatro o más letras."
 
 #. (itstool) path: item/p
-#: C/writing-style.page:70
+#: C/writing-style.page:73
 msgid "Verbs of any length, such as “Be”, “Are”, “Is”, “See” and “Add”."
 msgstr ""
 "Verbos de cualquier longitud, tales como «Be», «Are», «Is», «See» y «Add»."
 
 #. (itstool) path: item/p
-#: C/writing-style.page:71
+#: C/writing-style.page:74
 msgid "The first and last word."
 msgstr "La primera y la última palabra."
 
 #. (itstool) path: item/p
-#: C/writing-style.page:72
+#: C/writing-style.page:75
 msgid "Hyphenated words; for example: “Self-Test” or “Post-Install”."
 msgstr "Palabras compuestas; por ejemplo: «Self-Test» o «Post-Install»"
 
 #. (itstool) path: section/p
-#: C/writing-style.page:75
+#: C/writing-style.page:78
 msgid ""
 "For example: “Create a Document”, “Find and Replace”, “Document Cannot Be "
 "Found”."
@@ -11801,12 +11851,12 @@ msgstr ""
 "Found»."
 
 #. (itstool) path: section/title
-#: C/writing-style.page:80
+#: C/writing-style.page:83
 msgid "Sentence capitalization"
 msgstr "Mayúsculas en las frases"
 
 #. (itstool) path: section/p
-#: C/writing-style.page:82
+#: C/writing-style.page:85
 msgid ""
 "Sentence capitalization should be used for labels that form sentences or "
 "that run on to other text, including labels for check boxes, radio buttons, "
@@ -11820,19 +11870,19 @@ msgstr ""
 "texto del cuerpo, como el los diálogos o las notificaciones."
 
 #. (itstool) path: item/p
-#: C/writing-style.page:87
+#: C/writing-style.page:90
 msgid "The first word."
 msgstr "La primera palabra."
 
 #. (itstool) path: item/p
-#: C/writing-style.page:88
+#: C/writing-style.page:91
 msgid "Any words normally capitalized in sentences, such as proper nouns."
 msgstr ""
 "Cualquier palabra que normalmente tenga mayúsculas en una frase, como los "
 "nombres propios."
 
 #. (itstool) path: section/p
-#: C/writing-style.page:91
+#: C/writing-style.page:94
 msgid ""
 "For example: “The document cannot be found in this location.” “Finding "
 "results for London.”"
@@ -11841,12 +11891,12 @@ msgstr ""
 "«Buscando resultados para Londres.»"
 
 #. (itstool) path: section/title
-#: C/writing-style.page:97
+#: C/writing-style.page:100
 msgid "Ellipses (…)"
 msgstr "Elipsis (…)"
 
 #. (itstool) path: section/p
-#: C/writing-style.page:99
+#: C/writing-style.page:102
 msgid ""
 "Use an ellipsis (…) at the end of a label if further input or confirmation "
 "is required from the user before the action can be carried out. For example, "
@@ -11857,7 +11907,7 @@ msgstr ""
 "<gui>Guardar como…</gui>, <gui>Buscar…</gui> o <gui>Eliminar…</gui>."
 
 #. (itstool) path: section/p
-#: C/writing-style.page:103
+#: C/writing-style.page:106
 msgid ""
 "Do not add an ellipsis to labels such as <gui>Properties</gui> or "
 "<gui>Preferences</gui>. While these commands open windows that can "
