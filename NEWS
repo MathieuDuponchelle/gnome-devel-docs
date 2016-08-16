@@ -1,3 +1,14 @@
+3.21.90
+=======
+
+* Initial application states pattern for the HIG (Allan Day)
+* Coding style improvements (Mohammed Sadik)
+* Updated translations:
+  cs      (Marek Černocký)
+  de      (Mario Blättermann)
+  el      (Tom Tryfonidis)
+  es      (Daniel Mustieles)
+
 3.20.0
 ======
 
