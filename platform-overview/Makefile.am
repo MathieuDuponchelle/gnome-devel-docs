@@ -80,4 +80,4 @@ HELP_MEDIA = \
 	media/glade-set-values.png \
 	media/totem-screenshot.png
 
-HELP_LINGUAS = ca cs de el es fr gl it ja oc pt_BR ru uk sl sv zh_CN
+HELP_LINGUAS = ca cs de el es fr gl it ja ko oc pt_BR ru uk sl sv zh_CN

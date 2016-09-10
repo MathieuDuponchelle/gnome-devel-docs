@@ -1,0 +1,1206 @@
+# Korean translation for gnome-devel-docs.
+# Copyright (C) 2016 gnome-devel-docs's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-devel-docs package.
+# Seong-ho Cho <shcho@gnome.org>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-devel-docs master\n"
+"POT-Creation-Date: 2016-08-16 09:26+0000\n"
+"PO-Revision-Date: 2016-08-16 19:58+0900\n"
+"Last-Translator: Seong-ho Cho <darkcircle.0426@gmail.com>\n"
+"Language-Team: GNOME Korea <gnome-kr@googlegroups.com>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.8.7\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr "조성호 <shcho@gnome.org>, 2016"
+
+#. (itstool) path: page/title
+#: C/harmful.page:7
+msgid "Disk Seeks Considered Harmful"
+msgstr "디스크 탐색은 성능에 해롭습니다"
+
+#. (itstool) path: page/p
+#. (itstool) path: section/p
+#: C/harmful.page:8 C/index.page:54
+msgid ""
+"Disk seeks are one of the most expensive operations you can possibly "
+"perform. You might not know this from looking at how many of them we "
+"perform, but trust me, they are. Consequently, please refrain from the "
+"following suboptimal behavior:"
+msgstr ""
+"디스크 탐색은 처리할 수 있는 동작 중 가장 오래걸리는 동작입니다. 우리가 얼마"
+"나 많이 동작을 처리하는지 살펴보기 전에는 잘 모르실텐데, 하여간 그렇다니까 믿"
+"어주세요. 그러니, 다음은 삼가해주셨으면 좋겠습니다:"
+
+#. (itstool) path: item/p
+#: C/harmful.page:13
+msgid "Placing lots of small files all over the disk."
+msgstr "디스크 전반적으로 작은 파일을 여러 개 두기."
+
+#. (itstool) path: item/p
+#: C/harmful.page:18
+msgid "Opening, stating, and reading lots of files all over the disk"
+msgstr "디스크에 있는 여러 파일을 열기, 상태 보기, 읽기"
+
+#. (itstool) path: item/p
+#: C/harmful.page:23
+msgid ""
+"Doing the above on files that are laid out at different times, so as to "
+"ensure that they are fragmented and cause even more seeking."
+msgstr ""
+"파일을 단편화하여 더 많은 부분을 탐색하도록 제각각 다른 시간에 파일에 무언가"
+"를 진행하기."
+
+#. (itstool) path: item/p
+#: C/harmful.page:28
+msgid ""
+"Doing the above on files that are in different directories, so as to ensure "
+"that they are in different cylinder groups and cause even more seeking."
+msgstr ""
+"다른 실린더 그룹에 위치하여 더 많은 부분을 탐색하도록, 서로 다른 디렉터리에 "
+"있는 파일에 무언가를 진행하기."
+
+#. (itstool) path: item/p
+#: C/harmful.page:33
+msgid "Repeatedly doing the above when it only needs to be done once."
+msgstr "한 번만 처리해도 될 일을 여러번 처리하기."
+
+#. (itstool) path: page/p
+#: C/harmful.page:38
+msgid "Ways in which you can optimize your code to be seek-friendly:"
+msgstr "탐색을 용이하도록 최적화 할 수 있는 방법:"
+
+#. (itstool) path: item/p
+#: C/harmful.page:43
+msgid "Consolidate data into a single file."
+msgstr "데이터는 단일 파일에 모아둡니다."
+
+#. (itstool) path: item/p
+#: C/harmful.page:48
+msgid "Keep data together in the same directory."
+msgstr "데이터는 동일한 디렉터리에 넣습니다."
+
+#. (itstool) path: item/p
+#: C/harmful.page:53
+msgid "Cache data so as to not need to reread constantly."
+msgstr "데이터를 캐싱하여 종종 다시 읽을 필요가 없게 합니다."
+
+#. (itstool) path: item/p
+#: C/harmful.page:58
+msgid ""
+"Share data so as not to have to reread it from disk when each application "
+"loads."
+msgstr ""
+"데이터를 공유하여 각 프로그램을 메모리로 불러들일 때 디스크에서 다시 읽지 않"
+"게 합니다."
+
+#. (itstool) path: item/p
+#: C/harmful.page:63
+msgid ""
+"Consider caching all of the data in a single binary file that is properly "
+"aligned and can be mmaped."
+msgstr ""
+"모든 데이터를 적절하게 정렬하고 메모리 매핑 처리를 할 수 있도록 하는 단일 이"
+"진 파일로 캐싱하는 방안을 고려합니다."
+
+#. (itstool) path: page/p
+#: C/harmful.page:68
+msgid ""
+"The trouble with disk seeks are compounded for reads, which is unfortunately "
+"what we are doing. Remember, reads are generally synchronous while writes "
+"are asynchronous. This only compounds the problem, serializing each read, "
+"and contributing to program latency."
+msgstr ""
+"디스크 탐색시 직면하는 문제는 불행하게도 우리가 종종 수행하는 읽기 과정에 복"
+"합적으로 일어납니다. 읽기는 동기적 처리 과정이지만 쓰기는 그렇지 않다는걸 기"
+"억하십시오. 매번 읽는 과정에 직렬화 처리하며, 프로그램 레이턴시에 영향을 주"
+"는 문제에만 이런 문제가 생깁니다."
+
+#. (itstool) path: license/p
+#: C/index.page:7
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License, Version 1.1 or any later "
+"version published by the Free Software Foundation with no Invariant "
+"Sections, no Front-Cover Texts, and no Back-Cover Texts. You may obtain a "
+"copy of the GNU Free Documentation License from the Free Software Foundation "
+"by visiting <link href=\"http://www.fsf.org\">their Web site</link> or by "
+"writing to: Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor "
+"Boston, MA 02110-1335, USA."
+msgstr ""
+"자유 소프트웨어가 발표한 GNU 자유 문서 라이선스 버전 1.1 이후 조항에 따라 전"
+"면 표지와 후면 표지, 변경되지 않는 섹션을 제외하고, 이 문서의 복사, 배포 또"
+"는 수정을 허가합니다. <link href=\"http://www.fsf.org\">웹 사이트</link>를 방"
+"문하면 GNU 자유 문서 라이선스 사본을 가져올 수 있습니다. 아니면 다음 주소로 "
+"요청하십시오: Free Software Foundation, Inc., 51 Franklin Street, Fifth "
+"Floor Boston, MA 02110-1335, USA."
+
+#. (itstool) path: license/p
+#: C/index.page:16
+msgid ""
+"Many of the names used by companies to distinguish their products and "
+"services are claimed as trademarks. Where those names appear in any GNOME "
+"documentation, and those trademarks are made aware to the members of the "
+"GNOME Documentation Project, the names have been printed in caps or initial "
+"caps."
+msgstr ""
+"업체에서 제품과 서비스를 칭하는 여러 이름은 상표입니다. 그놈 문서에서 나타나"
+"는 이름과 그놈 문서 프로젝트의 구성원으로 식별하는 상표는 대문자로 표시하거"
+"나 첫 글자를 대문자로 표시합니다."
+
+#. (itstool) path: credit/years
+#: C/index.page:24 C/index.page:28
+msgid "2004-2005"
+msgstr "2004-2005"
+
+#. (itstool) path: credit/name
+#: C/index.page:25
+msgid "Callum McKenzie"
+msgstr "Callum McKenzie"
+
+#. (itstool) path: credit/name
+#: C/index.page:29
+msgid "Robert Love"
+msgstr "Robert Love"
+
+#. (itstool) path: info/desc
+#: C/index.page:32
+msgid ""
+"Software can be optimized in many ways: for speed, program size, or memory "
+"use. This section contains guides and tutorials for optimizing your software."
+msgstr ""
+"프로그램은 속도, 프로그램 크기, 메모리 사용량 과 같은 방식으로 최적화할 수 있"
+"습니다. 이 부분에서는 프로그램 최적화 방식과 따라하기 내용을 넣었습니다."
+
+#. (itstool) path: page/title
+#: C/index.page:35
+msgid "Optimization Guide"
+msgstr "최적화 안내"
+
+#. (itstool) path: section/title
+#: C/index.page:38 C/massif.page:12
+msgid "Introduction"
+msgstr "도입부"
+
+#. (itstool) path: section/p
+#: C/index.page:39
+msgid ""
+"This is a brief introduction to optimization, both the hows and the whys. "
+"Details of individual tools and techniques are left for later articles, but "
+"a collection of hints and tricks is provided."
+msgstr ""
+"최적화의 방법과 당위성을 언급하는 요약 도입부입니다. 각 도구와 기술의 자세한 "
+"내용은 나중에 다루겠지만, 몇가지 실마리와 요령을 알려드리겠습니다."
+
+#. (itstool) path: section/title
+#: C/index.page:45
+msgid "Massif"
+msgstr "Massif"
+
+#. (itstool) path: section/p
+#. (itstool) path: page/p
+#: C/index.page:46 C/massif.page:9
+msgid ""
+"This article describes how to use the <app>Massif</app> heap profiler with "
+"GNOME applications. We describe how to invoke, interpret, and act on the "
+"output of <app>Massif</app>. The <app>Swell Foop</app> game is used as an "
+"example."
+msgstr ""
+"이 부분은 그놈 프로그램 프로파일러 <app>Massif</app> 사용법을 설명합니다. "
+"<app>Massif</app> 실행법, 해석법, 출력시 조치법을 설명하겠습니다. <app>스웰 "
+"푸프</app> 게임을 예제로 활용하겠습니다."
+
+#. (itstool) path: section/title
+#: C/index.page:53
+msgid "Harmfulness"
+msgstr "유해성"
+
+#. (itstool) path: page/title
+#: C/introduction.page:7
+msgid "What are we Optimizing?"
+msgstr "무엇을 최적화 할까요?"
+
+#. (itstool) path: page/p
+#: C/introduction.page:8
+msgid ""
+"When we optimize for GNOME the first thing to remember is this: we are not "
+"trying to make the program better, we are trying to make the person using "
+"the computer happier."
+msgstr ""
+"그놈을 최적화할 때 우선 기억해야 할 점이 있습니다. 프로그램을 더 좋게 만들려"
+"는게 아니라, 사람이 컴퓨터를 더 즐겁게 쓸 수 있게 하려는 과정이 최적화입니다."
+
+#. (itstool) path: page/p
+#: C/introduction.page:10
+msgid ""
+"Better programs make people happier, but there are some improvements that "
+"will make them a lot happier than others: Responsiveness, start-up time, "
+"easy to access commands and not having the computer go into swap the moment "
+"more than two programs are open."
+msgstr ""
+"더 좋은 프로그램은 여러 사람을 즐겁게 하지만, 반응성, 시동 시간, 명령 접근 용"
+"이성, 프로그램을 둘 이상 여는 순간 컴퓨터가 스왑에 접근하지 않게 하도록 개선"
+"하면 더 많은 사람을 즐겁게 합니다."
+
+#. (itstool) path: page/p
+#: C/introduction.page:13
+msgid ""
+"Traditional optimization tackles concepts like CPU use, code size, the "
+"number of mouse clicks and the memory use of the program. This second list "
+"has been chosen to correlate with the first list, however there is an "
+"important difference: The person using GNOME doesn't care about the second "
+"list, but they care a lot about the first list. When optimizing GNOME "
+"programs we will reduce CPU use, memory use and all those things, but these "
+"are the means to the end, not the final goal. We are optimizing for people."
+msgstr ""
+"기존의 최적화에서는 CPU 사용, 코드 길이, 마우스 클릭 횟수, 프로그램의 메모리 "
+"사용과 같은 개념을 다루었습니다. 두번째 목록은 첫 목록과 서로 관련 있도록 선"
+"정했지만, 중요한 차이점이 있습니다. 그놈을 사용하는 사람은 두번째 목록은 신"
+"경 쓰지 않지만, 첫 목록에는 상당히 신경을 씁니다. 그놈 프로그램을 최적화 한다"
+"면 CPU 사용량, 메모리 사용량 같은걸 줄이겠지만, 이건 결국 최종적으로 해야 할 "
+"일이지, 우선적인 목표는 아닙니다. 프로그램을 최적화한다는건 사람을 위한 일입"
+"니다."
+
+#. (itstool) path: section/title
+#: C/introduction.page:18
+msgid "Doing the Optimization"
+msgstr "최적화하기"
+
+#. (itstool) path: section/p
+#: C/introduction.page:19
+msgid ""
+"The previous section omitted one important qualifier: To optimize something "
+"it has to be measurable. You can't measure happiness. However, you can "
+"measure start-up time so you can tell if you have improved it. Happiness "
+"will then, hopefully, follow."
+msgstr ""
+"앞 부분에서는 우선적으로 중요한 이야기가 빠졌습니다. 무언가를 최적화하려면 최"
+"적화 대상을 측정할 수 있어야합니다. 측정이란 결코 즐거울 수 없습니다만, 시작 "
+"시간을 측정하여 개선 여부를 확인할 수 있습니다. 그 다음에야 즐거움은 원하는 "
+"대로 따라옵니다."
+
+#. (itstool) path: section/p
+#: C/introduction.page:22
+msgid ""
+"Optimization is the process of measurement, refinement and re-measurement. "
+"So the first thing you must do is find a way to measure what you are "
+"optimizing. Ideally this measurement is a single number, for example: the "
+"time taken to perform a task. This is your benchmark, it is the only way to "
+"tell if you are winning or losing. There is a big difference between a "
+"program that <em>should</em> be fast and a program that <em>is</em> fast."
+msgstr ""
+"최적화는 측정, 개선, 재측정의 과정입니다. 따라서, 우선 해야 할 일은 최적화 "
+"할 대상을 찾는 일입니다. 이상적으로 측정 대상에서 나오는 값은 한가지 입니다. "
+"예를 들자면, 작업을 수행하는데 걸리는 시간입니다. 이것이 바로 우세한지 열등한"
+"지 확인할 수 있는 벤치마크입니다. <em>빨라야 하는</em> 프로그램과 <em>빠른</"
+"em> 프로그램은 큰 차이가 있습니다."
+
+#. (itstool) path: section/p
+#: C/introduction.page:25
+msgid ""
+"Once you have a basic benchmark you need to find out why your code is not "
+"doing as well as it should. It is tempting to do this by inspection: just "
+"looking at the code and trying to spot something that looks like it needs "
+"improvement. You will invariably be wrong. Using a profiler to get a "
+"detailed break-down of what your program really does is the only way to be "
+"sure."
+msgstr ""
+"기본 벤치마크 과정을 수행하고 나면 동작해야 할 코드가 왜 동작하지 않는지 찾아"
+"야합니다. 자세하게 살펴보면 이 과정에 귀가 솔직할 수 있습니다. 그냥 코드를 보"
+"고 개선이 필요한 부분을 찾는겁니다. 여러분은 예외 없이 잘못을 저지를 수 있습"
+"니다. 프로파일러를 사용하면 실제 프로그램이 하는 동작을 자세하게 확인합니다."
+
+#. (itstool) path: section/p
+#: C/introduction.page:28
+msgid ""
+"Usually the problem is isolated to small sections of code. Pick the worst "
+"place and concentrate on that first. Once that is done, rerun the profiler "
+"and repeat. As you proceed the gains made at each step will get less and "
+"less, at some point you will have to decide that the results are good "
+"enough. If your efforts are only extracting 10% improvements then you are "
+"well past the point where you should have stopped."
+msgstr ""
+"보통 문제는 코드 일부에 한정합니다. 잘못된 부분을 찾아서 해당 부분에 집중하십"
+"시오. 일단 이 과정이 끝나면 프로파일러를 다시 실행하고 반복하십시오. 각 과정"
+"마다 결과가 계속 줄어들면서 어떤 시점에 도달하면, 충분한 결과에 도달합니다. "
+"10%의 개선 노력만 해도 그만두어야 할 시점을 충분히 지나칠 수 있습니다."
+
+#. (itstool) path: section/p
+#: C/introduction.page:31
+msgid ""
+"Don't forget the big picture. For example, rather than just trying to speed "
+"up a piece of code, ask yourself if it needs to be run at all. Could it be "
+"combined with another piece of code? Can the results of previous "
+"calculations be saved and reused? It won't even need to be optimized if it "
+"is in a place where the user is never going to notice it. Worse still, the "
+"code may already be optimized and is doing the heavy calculations now to "
+"avoid doing them later. Code does not run in isolation and neither does the "
+"optimization process."
+msgstr ""
+"전체 상황을 잊지 마십시오. 예를 들자면, 코드 일부 속도를 끌어올리기보다는, 전"
+"체 관점에서 실행해야 하는 지 자신에게 질문해보십시오. 다른 코드 부분과 붙을 "
+"수있나요? 이전 처리 결과를 저장하고 다시 사용할 수 있나요? 사용자가 살펴볼 일"
+"이 없는 부분은 굳이 최적화할 필요가 없습니다. 애석하게도, 이미 코드를 최적화"
+"했음에도 불구, 나중에 치워버려야 할 엄청난 처리량을 감당할 수도 있습니다. 이 "
+"경우,코드는 자체 환경에서 동작하지 않으며, 최적화 과정을 거치지도 않았습니다."
+
+#. (itstool) path: section/title
+#: C/introduction.page:37
+msgid "Hints"
+msgstr "길잡이"
+
+#. (itstool) path: item/title
+#: C/introduction.page:41
+msgid "The Fundamentals"
+msgstr "기초"
+
+#. (itstool) path: item/p
+#: C/introduction.page:44
+msgid ""
+"Re-run your benchmark after every change you make to the code and keep a log "
+"of everything you change and how it affects the benchmark. This lets you "
+"undo mistakes and also helps you not to repeat mistakes."
+msgstr ""
+"코드를 바꿀 때마다 벤치 마크를 다시 실행하시고 벤치 마크에 영향을 주는 모든 "
+"항목의 기록을 남겨두십시오. 이 기록을 통해 실수를 되돌릴 수 있고 실수를 반복"
+"하지 않게 해줍니다."
+
+#. (itstool) path: item/p
+#: C/introduction.page:49
+msgid ""
+"Make sure your code is correct and bug-free before optimizing it. Check that "
+"it remains correct and bug-free after optimization."
+msgstr ""
+"최적화하기 전 코드가 올바른 지, 버그가 없는지 확인하십시오. 최적화 후에도 제"
+"대로 된 상태이며 버그가 없는지 확인하십시오."
+
+#. (itstool) path: item/p
+#: C/introduction.page:54
+msgid "Optimize at the high level before optimizing the details."
+msgstr "세부적인 부분을 최적화하기 전 고수준 영역을 최적화하십시오."
+
+#. (itstool) path: item/p
+#: C/introduction.page:59
+msgid ""
+"Use the right algorithm. The classic text-book example is using quick-sort "
+"instead of bubble-sort. There are many others, some save memory, some save "
+"CPU. Also, see what shortcuts you can make: you can do quicker than quick-"
+"sort if you are prepared to make some compromises."
+msgstr ""
+"올바른 알고리즘을 활용하십시오. 고전 교과서의 예제에서는 버블 정렬 알고리즘 "
+"대신 퀵 정렬 알고리즘을 활용합니다. 일부 메모리를 절약하고 CPU 사용 시간을 줄"
+"이는 다른 알고리즘 예제도 있습니다. 또한 어떤 간편책을 활용할 수 있는지 살펴"
+"보십시오. 더 나은 해결책이 있다면 퀵 정렬보다 빠른 알고리즘을 활용할 수 있습"
+"니다."
+
+#. (itstool) path: item/p
+#: C/introduction.page:64
+msgid ""
+"Optimization is a trade-off. Caching results speeds up calculations, but "
+"increases memory use. Saving data to disk saves memory, but costs time when "
+"it is loaded back from disk."
+msgstr ""
+"최적화는 상충 관계입니다. 캐싱 처리 하면 처리 속도가 빨라지지만 메모리 사용량"
+"이 많아집니다. 디스크에 데이터를 저장하면 메모리 사용량을 줄일 수 있지만 디스"
+"크에서 다시 읽어들일 경우 시간이 오래걸립니다."
+
+#. (itstool) path: item/p
+#: C/introduction.page:69
+msgid ""
+"Make sure you choose a wide variety of inputs to optimize against. If you "
+"don't it is easy to end up with a piece of code carefully optimized for one "
+"file and no others."
+msgstr ""
+"최적화할 다양한 입력 방식을 고려하십시오. 이를 고려하지 않는다면 입력 파일에 "
+"대해서만 신중하게 코드 최적화하는 방식으로 끝낼 수 있습니다."
+
+#. (itstool) path: item/p
+#: C/introduction.page:74
+msgid ""
+"Avoid expensive operations: Multiple small disk reads. Using up lots of "
+"memory so disk swapping becomes necessary. Avoid anything that writes or "
+"reads from the hard disk unnecessarily. The network is slow too. Also avoid "
+"graphics operations that need a response from the X server."
+msgstr ""
+"비용이 많이 나가는 처리 방식은 피하십시오. 디스크를 조금씩 여러번 읽으십시"
+"오. 메모리 사용량을 늘리면 디스크 스왑 공간이 필요할 수도 있습니다. 하드디스"
+"크의 불필요한 읽기 쓰기 동작을 피하십시오. 네트워크도 역시 느립니다. X 서버 "
+"응답이 필요한 그래픽 처리도 피하십시오."
+
+#. (itstool) path: item/title
+#: C/introduction.page:81
+msgid "Traps for the Unwary"
+msgstr "부주의의 함정"
+
+#. (itstool) path: item/p
+#: C/introduction.page:84
+msgid ""
+"Beware of side effects. There can often be strange interactions between "
+"different sections of code, a speed-up in one part can slow another part "
+"down."
+msgstr ""
+"부작용을 상기하십시오. 코드의 다른 부분 사이에 어느 한 부분의 속도가 빨라지면"
+"서 다른 부분이 느려지는 이상한 동작이 종종 일어날 수 있습니다."
+
+#. (itstool) path: item/p
+#: C/introduction.page:89
+msgid ""
+"When timing code, even on a quiet system, events outside the program add "
+"noise to the timing results. Average over multiple runs. If the code is very "
+"short, timer resolution is also a problem. In this case measure the time the "
+"computer takes to run the code 100 or 1000 times. If the times you are "
+"recording are longer than a few seconds, you should be OK."
+msgstr ""
+"일부 시스템에서 코드 동작 시간을 맞출 때, 프로그램 외부에서 발생하는 이벤트"
+"는 타이밍 결과에 문제를 일으킬 수 있습니다. 보통 여러 프로그램을 실행합니다. "
+"코드가 매우 짧다면 시간 처리 최소 단위가 문제일 수도 있습니다. 이 경우 컴퓨터"
+"로 코드를 100번 내지는 1000번 정도 실행하여 시간을 측정하십시오. 여러분이 확"
+"인하는 시간이 고작 몇 초 밖에 안된다면, 이걸로 만족하는게 좋습니다."
+
+#. (itstool) path: item/p
+#: C/introduction.page:94
+msgid ""
+"It is very easy to be misled by the profiler. There are stories of people "
+"optimizing the operating system idle-loop because that is where it spent all "
+"its time! Don't optimize code that does nothing the user cares about."
+msgstr ""
+"프로파일러의 결과로 상황을 매우 쉽게 오판할 수 있습니다. 운영체제 대기 루프"
+"를 최적화하는 이야기가 많은데 이 부분에서 대부분의 시간을 소요하기 때문입니"
+"다! 사용자가 신경쓰지 않는 부분에 대해서는 코드를 최적화하지 마십시오."
+
+#. (itstool) path: item/p
+#: C/introduction.page:99
+msgid ""
+"Remember the resources on the X server. Your program's memory usage doesn't "
+"include the pixmaps that are stored in the X server's process, but they are "
+"still using up memory. Use xrestop to see what resources your program is "
+"using."
+msgstr ""
+"X 서버의 자원을 기억해두십시오. 프로그램의 메모리 사용량에는 X 서버 프로세스"
+"의 픽셀 매핑 항목이 없지만, 여전히 메모리를 사용합니다. 프로그램의 어떤 자원"
+"을 사용하는지 보려면 xrestop을 활용하십시오."
+
+#. (itstool) path: item/title
+#: C/introduction.page:106
+msgid "Low Level Hints"
+msgstr "초수의 길잡이"
+
+#. (itstool) path: item/p
+#: C/introduction.page:109
+msgid ""
+"When optimizing memory use, be wary of the difference between peak usage and "
+"average memory usage. Some memory is almost always allocated, this is "
+"usually bad. Some is only briefly allocated, this may be quite acceptable. "
+"Tools like massif use the concept of space-time, the product of memory used "
+"and the duration it was allocated for, instead."
+msgstr ""
+"메모리 사용량을 최적화할 때, 순간 최대 사용량과 평균 메모리 사용량의 차이에 "
+"주의하십시오. 일부 메모리 공간을 거의 항상 할당하지만, 보통 좋지 않은 습관입"
+"니다. 일부는 최소화하여 할당하는데, 이 정도면 납득할만합니다. massif 같은 도"
+"구는 메모리 사용량과 할당 시간을 곱한 수치인 공간시간 값의 개념을 사용합니다."
+
+#. (itstool) path: item/p
+#: C/introduction.page:114
+msgid ""
+"Time simplified bits of code that do only the things you know are essential, "
+"this gives an absolute lower limit on the time your code will take. For "
+"example, when optimizing a loop time the empty loop. If that is still too "
+"long no amount of micro-optimization will help and you will have to change "
+"your design. Make sure the compiler doesn't optimize away your empty loop."
+msgstr ""
+"여러분이 알고 있는 동작만 처리하는 단순 코드 일부의 동작 시간은 상당히 중요한"
+"데, 코드가 동작하는데 걸리는 최소한의 본질적인 최소 시간 한계를 제시합니다. "
+"예를 들어, 비어있는 반복문의 루프 처리 시간을 최적화한다고 가정해보겠습니다. "
+"여전히 오래 걸린다면 어떤 세부 최적화도 도움이 되지 않으며, 설계 자체를 바꿔"
+"야합니다. 컴파일러에서 비어있는 반복문을 최적화하지 않는지 확인해보십시오."
+
+#. (itstool) path: item/p
+#: C/introduction.page:119
+msgid ""
+"Move code out from inside loops. A slightly more complicated piece of code "
+"that is executed once is far quicker than a simple piece of code executed a "
+"thousand times. Avoid calling slow code often."
+msgstr ""
+"반복문 내에서 코드를 줄여나가십시오. 좀 더 복잡한 코드를 한번 실행하는게 단순"
+"한 코드를 여러 번 실행하기보다 빠릅니다. 코드를 종종 느리게 하는 호출을 피하"
+"십시오."
+
+#. (itstool) path: item/p
+#: C/introduction.page:124
+msgid ""
+"Give the compiler as many hints as possible. Use the const keyword. Use "
+"<code>G_INLINE_FUNC</code> for short, frequently called, functions. Look up "
+"<code>G_GNUC_PURE</code>, <code>G_LIKELY</code> and the other glib "
+"miscellaneous macros. Use the macros instead of gcc-specific keywords to "
+"ensure portability."
+msgstr ""
+"가능한대로 컴파일러에 여러 힌트를 주십시오. const 키워드를 사용하십시오, 종"
+"종 호출하는 함수에 대해 <code>G_INLINE_FUNC</code>를 사용하십시오. "
+"<code>G_GNUC_PURE</code>, <code>G_LIKELY</code> 및 glib 기타 매크로를 찾아보"
+"십시오. gcc용 키워드보다는 매크로를 사용하여 이식성을 개선하십시오."
+
+#. (itstool) path: item/p
+#: C/introduction.page:129
+msgid ""
+"Don't use assembly language. It is not portable and, while it may be fast on "
+"one processor, it is not even guaranteed to be fast on every processor that "
+"supports that architecture (e.g. Athlon vs. Pentium 4)."
+msgstr ""
+"어셈블리 언어를 사용하지 마십시오. 어떤 프로세서에서는 빠르게 동작할 지 모르"
+"겠지만 다른 시스템으로 이식할 수 없으며, 해당 아키텍처를 지원하는 모든 프로세"
+"서(예: 애슬론 vs 펜티엄4)에서 빠를거라는 보장은 없습니다."
+
+#. (itstool) path: item/p
+#: C/introduction.page:134
+msgid ""
+"Don't rewrite an existing library routine unless you are sure it is "
+"unnecessarily slow. Many CPU-intensive library routines have already been "
+"optimized. Conversely, some library routines are slow, especially ones that "
+"make system calls to the operating system."
+msgstr ""
+"불필요하게 느려졌다는 확신이 서기 전에는 기존 라이브러리 루틴을 재작성하지마"
+"십시오. 대부분 CPU를 집중적으로 사용하는 라이브러리 루틴은 이미 최적화 해둔 "
+"상태입니다. 다르게 말해서, 일부 라이브러리 루틴은 운영체제의 시스템 콜을 호출"
+"할 때 느립니다."
+
+#. (itstool) path: item/p
+#: C/introduction.page:139
+msgid ""
+"Minimize the number of libraries you link to. The fewer libraries to link "
+"in, the faster the program starts. This is a difficult thing to do with "
+"GNOME."
+msgstr ""
+"연결하는 라이브러리 수를 최소화 하십시오. 최소한의 라이브러리를 연결하면 프로"
+"그램 시작 속도가 빨라집니다. 그놈에서는 이렇게 하기 어렵습니다."
+
+#. (itstool) path: item/title
+#: C/introduction.page:146
+msgid "High Level Tricks"
+msgstr "고수의 요령"
+
+#. (itstool) path: item/p
+#: C/introduction.page:149
+msgid ""
+"Take advantage of concurrency. This doesn't just mean using multiple "
+"processors, it also means taking advantage of the time the user spends "
+"thinking about what they are going to do next to perform some calculations "
+"in anticipation. Do calculations while waiting for data to be loaded off "
+"disk. Take advantage of multiple resources, use them all at once."
+msgstr ""
+"동시성의 이점을 취하십시오. 다중 프로세서를 활용하라는 의미가 아니며, 앞을 내"
+"다보고 일부 처리 과정의 다음 처리 과정을 생각하여 사용자의 프로그램 사용 시간"
+"상 이점을 취하라는 의미이기도 합니다. 디스크에서 데이터를 불러오면서 기다리"
+"는 동안 다른 무언가를 처리하십시오. 여러 자원의 이점을 활용하여 동시에 활용하"
+"십시오."
+
+#. (itstool) path: item/p
+#: C/introduction.page:154
+msgid ""
+"Cheat. The user only has to think that the computer is fast, it doesn't "
+"matter whether it actually is or not. It is the time between the command and "
+"the answer that is important, it doesn't matter if the response is pre-"
+"calculated, cached, or will in fact be worked out later at a more convenient "
+"time, as long as the user gets what they expect."
+msgstr ""
+"꼼수를 활용하십시오. 사용자는 오직 컴퓨터가 빠르다고 생각하며, 실제로 컴퓨터"
+"가 빠른지 아닌지는 상관하지 않습니다. 속도는 명령과 중요한 응답 사이의 시간이"
+"며 응답을 미리 처리했는지, 캐싱했는지, 사용자가 기대한 만큼 오랜 시간동안, 실"
+"제로 더욱 편리한 시간에 처리할 지는 상관 없습니다."
+
+#. (itstool) path: item/p
+#: C/introduction.page:159
+msgid ""
+"Do things in the idle loop. It is easier to program than using full multi-"
+"threading but still gets things done out of the users eye. Be careful "
+"though, if you spend too long in the idle loop your program will become "
+"sluggish. So regularly give control back to the main loop."
+msgstr ""
+"대기 루프에서 처리하십시오. 완전한 멀티스레딩을 활용하기보단 쉽겠지만, 이 과"
+"정에서 사용자가 못 보는 영역에서 처리한 내용을 가져옵니다. 하지만 대기 루프"
+"의 처리 시간이 매우 오래 걸린다면 프로그램이 느려질 수 있으므로 주의하십시"
+"오. 그래서 보통 제어권을 메인 루프에 넘깁니다."
+
+#. (itstool) path: item/p
+#: C/introduction.page:164
+msgid ""
+"If all else fails, tell the user that the code is going to be slow and put "
+"up a progress bar. They won't be as happy as if you had just presented the "
+"results, but they will at least know the program hasn't crashed and they can "
+"go get a cup of coffee."
+msgstr ""
+"이렇게 해도 실패했다면, 사용자에게 코드 동작이 느려질 수 있다고 알려주면서 진"
+"행 표시줄을 놓으십시오. 사용자는 이 결과에 만족하지 않겠지만, 최소한 프로그램"
+"이 갑자기 끝나진 않을거라는걸 알고 커피 한잔을 할 여유를 가질 수 있습니다."
+
+#. (itstool) path: media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/massif.page:50
+msgctxt "_"
+msgid ""
+"external ref='figures/massif-before.png' "
+"md5='1a6b2ace548e6789ab8bfacb3727b345'"
+msgstr ""
+"external ref='figures/massif-before.png' "
+"md5='1a6b2ace548e6789ab8bfacb3727b345'"
+
+#. (itstool) path: media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/massif.page:124
+msgctxt "_"
+msgid ""
+"external ref='figures/massif-after.png' "
+"md5='36d1b4ad7ab49b28b69ad3eabbaa7069'"
+msgstr ""
+"external ref='figures/massif-after.png' "
+"md5='36d1b4ad7ab49b28b69ad3eabbaa7069'"
+
+#. (itstool) path: page/title
+#: C/massif.page:7
+msgid "Using <app>Massif</app> for Profiling Memory Use in GNOME Software"
+msgstr "그놈 프로그램의 메모리 사용량을 조사하는 <app>Massif</app> 사용"
+
+#. (itstool) path: section/p
+#: C/massif.page:13
+msgid ""
+"<app>Massif</app> is a member of the <link href=\"http://valgrind.org/"
+"\">valgrind</link> suite of memory-profiling tools. Its purpose is to give a "
+"detailed view of dynamic memory usage during the lifetime of the program. "
+"Specifically it records the memory use of the heap and the stack."
+msgstr ""
+"<app>Massif</app>는 <link href=\"http://valgrind.org/\">valgrind</link> 메모"
+"리 프로파일링 도구 모음의 구성물입니다. 프로그램의 존재 목적은 프로그램 실행 "
+"시간동안 동적 메모리 사용 상황을 자세하게 보여주기 위함입니다. 특별히 힙과 스"
+"택 메모리 사용 상태를 기록합니다."
+
+#. (itstool) path: section/p
+#: C/massif.page:16
+msgid ""
+"The heap is the region of memory which is allocated with functions like "
+"malloc. It grows on demand and is usually the largest region of memory in a "
+"program. The stack is where all the local data for functions is stored. This "
+"includes the \"automatic\" variables in C and the return address for "
+"subroutines. The stack is typically a lot smaller and a lot more active than "
+"the heap. We won't consider the stack explicitly since <app>Massif</app> "
+"treats it as though it were just another part of the heap. <app>Massif</app> "
+"also gives information about how much memory is used to manage the heap."
+msgstr ""
+"힙은 malloc과 같은 함수에서 할당한 메모리 영역입니다. 요청할 때마다 크기가 늘"
+"어나며, 프로그램에서 메모리의 많은 부분을 차지합니다. 스택은 로컬 데이터 및 "
+"함수를 저장하는 영역입니다. 이 부분에는 C의 \"자동\" 변수와 하위 루틴의 반환 "
+"주소가 들어있습니다. 스택은 보통 힙보다 작으며, 더 활발하게 동작합니다. "
+"<app>Massif</app>가 스택을 힙의 다른영역 처럼 다루기 때문에 스택을 분명하게 "
+"고려하진 않겠습니다. <app>Massif</app>에서는 힙을 관리하는 메모리를 얼마나 사"
+"용하는지도 보여줍니다."
+
+#. (itstool) path: section/p
+#: C/massif.page:18
+msgid ""
+"<app>Massif</app> produces two output files: a graphical overview in a "
+"postscript file and a detailed breakdown in a text file."
+msgstr ""
+"<app>Massif</app>에서는 포스트 스크립트 형식의 그래픽 개요 파일과 텍스트 파"
+"일 형식의 자세한 내용 파일을 제공합니다."
+
+#. (itstool) path: section/title
+#: C/massif.page:23
+msgid "Using <app>Massif</app> with GNOME"
+msgstr "그놈과 <app>Massif</app> 활용"
+
+#. (itstool) path: section/p
+#: C/massif.page:24
+msgid ""
+"<app>Massif</app> has very few options and for many programs does not need "
+"them. However for GNOME applications, where memory allocation might be "
+"buried deep in either glib or GTK, the number of levels down the call-stack "
+"Massif descends needs to be increased. This is achieved using the --depth "
+"parameter. By default this is 3; increasing it to 5 will guarantee the call-"
+"stack reaches down to your code. One or two more levels may also be "
+"desirable to provide your code with some context. Since the level of detail "
+"becomes quickly overwhelming it is best to start with the smaller depth "
+"parameter and only increase it when it becomes apparent that it isn't "
+"sufficient."
+msgstr ""
+"<app>Massif</app>에는 대부분의 프로그램에서 불필요한 몇가지 옵션이 있습니다. "
+"그러나 glib 또는 GTK에서 처리하는 메모리 할당이 깊숙히 자리잡은 그놈 프로그램"
+"의 경우, Massif에서 내려다볼 호출 스택 레벨의 깊이가 늘어나야합니다. --depth "
+"매개 변수를 활용하면 이 문제를 해결할 수 있습니다. 기본값은 3입니다. 이 값을 "
+"5 정도로 늘려주면 호출 스택의 밑바닥으로 들어갈 수 있을지도 모릅니다. 한 두단"
+"계 정도 레벨을 더 깊게 들어가면 여러분의 코드와 일부 정황을 납득할 수도 있습"
+"니다. 상세 수준을 깊이 들어가면, 금새 대응하기 힘들어지므로, 나타나는 내용이 "
+"충분하지 않을 때, 깊이 매개 변수를 작게 하여 시작하시는 게 좋습니다."
+
+#. (itstool) path: section/p
+#: C/massif.page:27
+msgid ""
+"It is also useful to tell <app>Massif</app> which functions allocate memory "
+"in glib. It removes an unnecessary layer of function calls from the reports "
+"and gives you a clearer idea of what code is allocating memory. The "
+"allocating functions in glib are g_malloc, g_malloc0, g_realloc, "
+"g_try_malloc, and g_mem_chunk_alloc. You use the --alloc-fn option to tell "
+"Massif about them."
+msgstr ""
+"<app>Massif</app>는 glib에서 어떤 함수가 메모리를 할당하는지 확인할 때 쓸만합"
+"니다. 보고서에서 불필요한 함수 포출 계층은 없애고 어떤 코드에서 메모리를 할당"
+"하는지 명백한 정보를 던져줍니다. glib의 할당 함수는 g_malloc, g_malloc0, "
+"g_realloc, g_try_malloc, g_mem_chunk_alloc 입니다. --alloc-fn 옵션을 사용하"
+"여 Massif가 이 내용을 언급하게 할 수 있습니다."
+
+#. (itstool) path: section/p
+#: C/massif.page:30
+msgid "Your command-line should therefore look something like:"
+msgstr "그러니까 명령행 입력은 다음과 같아야합니다:"
+
+#. (itstool) path: section/code
+#: C/massif.page:33
+#, no-wrap
+msgid ""
+"\n"
+"valgrind --tool=massif --depth=5  --alloc-fn=g_malloc --alloc-fn=g_realloc --alloc-fn=g_try_malloc \\\n"
+"         --alloc-fn=g_malloc0 --alloc-fn=g_mem_chunk_alloc swell-foop\n"
+"        "
+msgstr ""
+"\n"
+"valgrind --tool=massif --depth=5  --alloc-fn=g_malloc --alloc-fn=g_realloc --alloc-fn=g_try_malloc \\\n"
+"         --alloc-fn=g_malloc0 --alloc-fn=g_mem_chunk_alloc swell-foop\n"
+"        "
+
+#. (itstool) path: section/p
+#: C/massif.page:37
+msgid ""
+"<app>Swell Foop</app> is the program we will be using as an example. Be "
+"warned that, since valgrind emulates the CPU, it will run <em>very</em> "
+"slowly. You will also need a lot of memory."
+msgstr ""
+"예제로 <app>스웰 푸프</app>를 활용하겠습니다. valgrind가 CPU를 에뮬레이션하므"
+"로 <em>매우</em> 느릴 수 있음을 미리 경고합니다. 상당한 메모리가 필요합니다."
+
+#. (itstool) path: section/title
+#: C/massif.page:41
+msgid "Interpreting the Results"
+msgstr "결과 해석"
+
+#. (itstool) path: section/p
+#: C/massif.page:42
+msgid ""
+"The graphical output of <app>Massif</app> is largely self explanatory. Each "
+"band represents the memory allocated by one function over time. Once you "
+"identify which bands are using the most memory, usually the big thick ones "
+"at the top you will have to consult the text file for the details."
+msgstr ""
+"<app>Massif</app>의 그래픽 출력 내용은 그 자체로 상당한 내용을 설명합니다. 각"
+"각의 띠에서는 하나의 함수를 여러 번에 걸쳐 호출하여 메모리를 할당했음을 나타"
+"냅니다. 어떤 부분이 메모리를 많이 차지하는지 확인하고 나면, 보통 최상단의 두"
+"꺼운 부분이 자세한 내용이 담긴 텍스트 파일을 통해 확인해야 할 부분입니다."
+
+#. (itstool) path: section/p
+#: C/massif.page:45
+msgid ""
+"The text file is arranged as a hierarchy of sections, at the top is a list "
+"of the worst memory users arranged in order of decreasing spacetime. Below "
+"this are further sections, each breaking the results down into finer detail "
+"as you proceed down the call-stack. To illustrate this we will use the "
+"output of the command above."
+msgstr ""
+"텍스트 파일은 섹션 계층별로 정리된 상태이며, 가장 윗 부분은 공간시간별 내림 "
+"차순으로 나타낸 최악의 메모리 사용 주체를 나타냅니다. 이 부분 아래는 콜 스택"
+"을 따라 내려가 처리한대로 자세하게 결과를 찍어내려간 부분입니다. 위 명령의 출"
+"력 결과를 활용하여 결과를 나타내보겠습니다."
+
+#. (itstool) path: figure/title
+#: C/massif.page:49
+msgid ""
+"<app>Massif</app> output for the unoptimized version of the <app>Swell Foop</"
+"app> program."
+msgstr ""
+"최적화하지 않은 <app>스웰 푸프</app> 프로그램의 <app>Massif</app> 출력."
+
+#. (itstool) path: section/p
+#: C/massif.page:52
+msgid ""
+"The image above shows a typical postscript output from <app>Massif</app>. "
+"This is the result you would get from playing a single game of <app>Swell "
+"Foop</app> (version 2.8.0) and then quitting. The postscript file will have "
+"a name like <file>massif.12345.ps</file> and the text file will be called "
+"<file>massif.12345.txt</file>. The number in the middle is the process ID of "
+"the program that was examined. If you actually try this example you will "
+"find two versions of each file, with slightly different numbers, this is "
+"because <app>Swell Foop</app> starts a second process and <app>Massif</app> "
+"follows that too. We will ignore this second process, it consumes very "
+"little memory."
+msgstr ""
+"다음 그림은 <app>Massif</app>에서 보통 포스트스크립트 형식으로 출력한 모습을 "
+"보여줍니다. <app>스웰 푸프</app>(버전 2.8.0)을 한 번 하고 빠져나왔을 때의 결"
+"과입니다. 포스트스크립트 파일 이름은 <file>massif.12345.ps</file>와 같고, 텍"
+"스트 파일 이름은 <file>massif.12345.txt</file>와 같습니다. 가운데 있는 숫자"
+"는 시험삼아 동작한 프로그램의 프로세스 ID입니다. 실제로 이 예제 동작을 해보"
+"면 각기 다른 두 가지 버전의 다른 번호를 가진 파일이 나오는데, <app>스웰 푸프"
+"</app>는 두번째 프로세스로 시작하고, <app>Massif</app>가 그 프로세스 동작을 "
+"따라가기 때문입니다. 두번째 프로세스는 매우 적은 메모리를 사용하므로 무시하겠"
+"습니다."
+
+#. (itstool) path: section/p
+#: C/massif.page:66
+msgid ""
+"At the top of the graph we see a large yellow band labelled gdk_pixbuf_new. "
+"This seems like an ideal candidate for optimization, but we will need to use "
+"the text file to find out what is calling gdk_pixbuf_new. The top of the "
+"text file will look something like this:"
+msgstr ""
+"그래프 상단을 보시면 gdk_pixbuf_new 이름이 붙은 두꺼운 노란 띠가 보입니다. 아"
+"마도 이상적인 최적화 대상이 아닐까 싶은데, gdk_pixbuf_new를 어디서 호출하는"
+"지 찾아야합니다. 텍스트 파일 상단은 다음과 같습니다:"
+
+#. (itstool) path: section/code
+#: C/massif.page:69
+#, no-wrap
+msgid ""
+"\n"
+"Command: ./swell-foop\n"
+"\n"
+"== 0 ===========================\n"
+"Heap allocation functions accounted for 90.4% of measured spacetime\n"
+"\n"
+"Called from:\n"
+"  28.8% : 0x6BF83A: gdk_pixbuf_new (in /usr/lib/libgdk_pixbuf-2.0.so.0.400.9)\n"
+"\n"
+"    6.1% : 0x5A32A5: g_strdup (in /usr/lib/libglib-2.0.so.0.400.6)\n"
+"\n"
+"    5.9% : 0x510B3C: (within /usr/lib/libfreetype.so.6.3.7)\n"
+"\n"
+"    3.5% : 0x2A4A6B: __gconv_open (in /lib/tls/libc-2.3.3.so)\n"
+"        "
+msgstr ""
+"\n"
+"명령: ./swell-foop\n"
+"\n"
+"== 0 ===========================\n"
+"Heap allocation functions accounted for 90.4% of measured spacetime\n"
+"\n"
+"Called from:\n"
+"  28.8% : 0x6BF83A: gdk_pixbuf_new (in /usr/lib/libgdk_pixbuf-2.0.so.0.400.9)\n"
+"\n"
+"    6.1% : 0x5A32A5: g_strdup (in /usr/lib/libglib-2.0.so.0.400.6)\n"
+"\n"
+"    5.9% : 0x510B3C: (within /usr/lib/libfreetype.so.6.3.7)\n"
+"\n"
+"    3.5% : 0x2A4A6B: __gconv_open (in /lib/tls/libc-2.3.3.so)\n"
+"        "
+
+#. (itstool) path: section/p
+#: C/massif.page:84
+msgid ""
+"The line with the '=' signs indicates how far down the stack trace we are, "
+"in this case we are at the top. After this it lists the heaviest users of "
+"memory in order of decreasing spacetime. Spacetime is the product of the "
+"amount of memory used and how long it was used for. It corresponds to the "
+"area of the bands in the graph. This part of the file tells us what we "
+"already know: most of the spacetime is dedicated to gdk_pixbuf_new. To find "
+"out what called gdk_pixbuf_new we need to search further down the text file:"
+msgstr ""
+"'=' 기호가 있는 줄은 스택 추적 단계 깊이 진입 단계를 나타내며, 지금 같은 경"
+"우 최상단에 있습니다. 이후 공간시간 사용량 내림 차순으로 최대 사용 주체가 나"
+"타납니다. 공간시간은 메모리 사용량과 메모리 점유 시간의 곱입니다. 그래프 띠"
+"의 영역과 관련이 있습니다. 파일의 이 부분에서는 우리가 이미 알고 있는 내용을 "
+"알려줍니다. 공간시간의 대부분은 gdk_pixbuf_new 함수 호출이 차지합니다. "
+"gdk_pixbuf_new 호출 주체를 찾으려면 텍스트 파일을 더 살펴 내려가보아야 합니"
+"다:"
+
+#. (itstool) path: section/code
+#: C/massif.page:87
+#, no-wrap
+msgid ""
+"\n"
+"== 4 ===========================\n"
+"Context accounted for 28.8% of measured spacetime\n"
+"  0x6BF83A: gdk_pixbuf_new (in /usr/lib/libgdk_pixbuf-2.0.so.0.400.9)\n"
+"  0x3A998998: (within /usr/lib/gtk-2.0/2.4.0/loaders/libpixbufloader-png.so)\n"
+"  0x6C2760: (within /usr/lib/libgdk_pixbuf-2.0.so.0.400.9)\n"
+"  0x6C285E: gdk_pixbuf_new_from_file (in /usr/lib/libgdk_pixbuf-2.0.so.0.400.9)\n"
+"\n"
+"Called from:\n"
+"  27.8% : 0x804C1A3: load_scenario (swell-foop.c:463)\n"
+"\n"
+"    0.9% : 0x3E8095E: (within /usr/lib/libgnomeui-2.so.0.792.0)\n"
+"\n"
+"  and 1 other insignificant place\n"
+"        "
+msgstr ""
+"\n"
+"== 4 ===========================\n"
+"Context accounted for 28.8% of measured spacetime\n"
+"  0x6BF83A: gdk_pixbuf_new (in /usr/lib/libgdk_pixbuf-2.0.so.0.400.9)\n"
+"  0x3A998998: (within /usr/lib/gtk-2.0/2.4.0/loaders/libpixbufloader-png.so)\n"
+"  0x6C2760: (within /usr/lib/libgdk_pixbuf-2.0.so.0.400.9)\n"
+"  0x6C285E: gdk_pixbuf_new_from_file (in /usr/lib/libgdk_pixbuf-2.0.so.0.400.9)\n"
+"\n"
+"Called from:\n"
+"  27.8% : 0x804C1A3: load_scenario (swell-foop.c:463)\n"
+"\n"
+"    0.9% : 0x3E8095E: (within /usr/lib/libgnomeui-2.so.0.792.0)\n"
+"\n"
+"  and 1 other insignificant place\n"
+"        "
+
+#. (itstool) path: section/p
+#: C/massif.page:102
+msgid ""
+"The first line tells us we are now four levels deep into the stack. Below it "
+"is a listing of the function calls that leads from here to gdk_pixbuf_new. "
+"Finally there is a list of functions that are at the next level down and "
+"call these functions. There are, of course, also entries for levels 1, 2, "
+"and 3, but this is the first level to reach right down through the GDK code "
+"to the <app>Swell Foop</app> code. From this listing, we can see instantly "
+"that the problem code is load_scenario."
+msgstr ""
+"첫 줄은 스택 추적 깊이를 4단계 내려갔음을 나타냅니다. 그 하단에는 "
+"gdk_pixbuf_new를 호출한 함수 호출 목록을 나타냅니다. 마지막은 그 다음 단계에"
+"서 이 함수를 호출한 함수 목록을 나타냅니다. 물론 1, 2, 3 단계의 항목도 있지"
+"만 GDK 코드를 따라 <app>스웰 푸프</app> 코드를 타고 내려갔을 때 도달하는 첫 "
+"단계입니다. 이 목록에서, 문제의 코드가 load_scenario에 있음을 볼 수 있습니다."
+
+#. (itstool) path: section/p
+#: C/massif.page:105
+msgid ""
+"Now that we know what part of our code is using all the spacetime we can "
+"look at it and find out why. It turns out that the load_scenario is loading "
+"a pixbuf from file and then never freeing that memory. Having identified the "
+"problem code, we can start to fix it."
+msgstr ""
+"이제 우리가 살펴볼 수 있는 어떤 코드 부분이 공간시간을 사용하며 왜 점유하는"
+"지 알았습니다. load_scenario가 파일에서 픽셀 버퍼를 불러온 후 메모리를 해제하"
+"지 않는 부분을 살펴볼 차례입니다. 코드에 문제가 있다는걸 알았으니, 이제 고쳐"
+"볼 수 있습니다."
+
+#. (itstool) path: section/title
+#: C/massif.page:110
+msgid "Acting on the Results"
+msgstr "결과 동작"
+
+#. (itstool) path: section/p
+#: C/massif.page:111
+msgid ""
+"Reducing spacetime consumption is good, but there are two ways of reducing "
+"it and they are not equal. You can either reduce the amount of memory "
+"allocated, or reduce the amount of time it is allocated for. Consider for a "
+"moment a model system with only two processes running. Both processes use up "
+"almost all the physical RAM and if they overlap at all then the system will "
+"swap and everything will slow down. Obviously if we reduce the memory usage "
+"of each process by a factor of two then they can peacefully coexist without "
+"the need for swapping. If instead we reduce the time the memory is allocated "
+"by a factor of two then the two programs can coexist, but only as long as "
+"their periods of high memory use don't overlap. So it is better to reduce "
+"the amount of memory allocated."
+msgstr ""
+"공간시간을 줄이는게 좋겠지만, 공간시간을 줄이는덴 두가지 방식이 있으며 이 두"
+"가지 방식이 동일하진 않습니다. 메모리 할당량을 줄이거나 할당 시간을 줄일 수 "
+"있습니다. 두 프로세스가 동작 중인 모델 시스템을 잠깐 살펴보도록 하겠습니다. "
+"두 프로세스는 실제 메모리 전체를 사용하는데, 전체 메모리를 사용한다면 시스템"
+"에서는 디스크 상 스왑 공간을 활용하고, 모든 프로그램의 동작이 느려집니다. 분"
+"명하게도 두 프로그램의 인자로 각 프로세스의 메모리 사용량을 줄인다면, 굳이 스"
+"왑 공간을 활용하지 않고도 두 프로세스가 아무일 없이 존재할 수 있겠죠. 대신에 "
+"두 프로그램의 인자로 메모리 할당 시간을 줄이면 두 프로그램이 함께 동작하겠지"
+"만, 대용량 메모리 사용 주기가 겹쳐지지 않을 때만입니다. 결국, 메모리 할당량"
+"을 줄이는게 최선입니다."
+
+#. (itstool) path: section/p
+#: C/massif.page:114
+msgid ""
+"Unfortunately, the choice of optimization is also constrained by the needs "
+"of the program. The size of the pixbuf data in <app>Swell Foop</app> is "
+"determined by the size of the game's graphics and cannot be easily reduced. "
+"However, the amount of time it spends loaded into memory can be drastically "
+"reduced. The image below shows the <app>Massif</app> analysis of <app>Swell "
+"Foop</app> after being altered to dispose of the pixbufs once the images "
+"have been loaded into the X server."
+msgstr ""
+"안타깝게도, 최적화 방안의 선택 부분은 프로그램의 요구 부분에서 필요로합니다. "
+"<app>스웰 푸프</app>의 픽셀 버퍼 데이터의 크기는 게임 그래픽의 크기로 셜정하"
+"며 쉽게 줄일 수 없습니다. 다만, 메모리에 불러오는 시간을 확실히 줄일 수는 있"
+"습니다. 하단의 그림에서는 픽셀 버퍼에서 불러오던 그림을 X 서버에서 불러오도"
+"록 바꾸고 난 <app>스웰 푸프</app>의 <app>Massif</app> 분석을 보여줍니다."
+
+#. (itstool) path: figure/title
+#: C/massif.page:123
+msgid ""
+"<app>Massif</app> output for the optimized <app>Swell Foop</app> program."
+msgstr "최적화한 <app>스웰 푸프</app> 프로그램의 <app>Massif</app> 출력."
+
+#. (itstool) path: section/p
+#: C/massif.page:126
+msgid ""
+"The spacetime use of gdk_pixbuf_new is now a thin band that only spikes "
+"briefly (it is now the sixteenth band down and shaded magenta). As a bonus, "
+"the peak memory use has dropped by 200 kB since the spike occurs before "
+"other memory is allocated. If two processes like this were run together the "
+"chances of the peak memory usage coinciding, and hence the risk of swapping, "
+"would be quite low."
+msgstr ""
+"gdk_pixbuf_new의 공간시간 사용량은 이제 몇 번의 급격한 변화량 만을 보여주는 "
+"얇은 띠의 형상을 보여줍니다(16개의 띠로 줄어들었고 마젠타 색으로 채워졌습니"
+"다). 게다가, 기타 부분의 메모리 할당을 처리하기 전 순간 값 상승이 일어나면서 "
+"최대 순간 메모리 사용량이 200kB 가량 떨어졌습니다. 이와 같이 프로세스 둘을 동"
+"시에 실행하는 경우, 동시 순간 메모리 사용량의 급격한 변화가 일어나기 때문에, "
+"스와핑의 위험성이 조금 줄어들 수 있습니다."
+
+#. (itstool) path: section/p
+#: C/massif.page:129
+msgid ""
+"Can we do better ? A quick examination of <app>Massif</app>'s text output "
+"reveals: g_strdup to be the new major offender."
+msgstr ""
+"더 잘 할 수 있겠죠? <app>Massif</app>의 간단한 실험 출력에서 g_strdup이 새 주"
+"요 원인임이 나타납니다."
+
+#. (itstool) path: section/code
+#: C/massif.page:132
+#, no-wrap
+msgid ""
+"\n"
+"Command: ./swell-foop\n"
+"\n"
+"== 0 ===========================\n"
+"Heap allocation functions accounted for 87.6% of measured spacetime\n"
+"\n"
+"Called from:\n"
+"    7.7% : 0x5A32A5: g_strdup (in /usr/lib/libglib-2.0.so.0.400.6)\n"
+"\n"
+"    7.6% : 0x43BC9F: (within /usr/lib/libgdk-x11-2.0.so.0.400.9)\n"
+"\n"
+"    6.9% : 0x510B3C: (within /usr/lib/libfreetype.so.6.3.7)\n"
+"\n"
+"    5.2% : 0x2A4A6B: __gconv_open (in /lib/tls/libc-2.3.3.so)\n"
+"        "
+msgstr ""
+"\n"
+"명령: ./swell-foop\n"
+"\n"
+"== 0 ===========================\n"
+"Heap allocation functions accounted for 87.6% of measured spacetime\n"
+"\n"
+"Called from:\n"
+"    7.7% : 0x5A32A5: g_strdup (in /usr/lib/libglib-2.0.so.0.400.6)\n"
+"\n"
+"    7.6% : 0x43BC9F: (within /usr/lib/libgdk-x11-2.0.so.0.400.9)\n"
+"\n"
+"    6.9% : 0x510B3C: (within /usr/lib/libfreetype.so.6.3.7)\n"
+"\n"
+"    5.2% : 0x2A4A6B: __gconv_open (in /lib/tls/libc-2.3.3.so)\n"
+"        "
+
+#. (itstool) path: section/p
+#: C/massif.page:147
+msgid ""
+"If we look closer though we see that it is called from many, many, places."
+msgstr "좀 더 가까이 살펴보면 여러 곳에서 호출했음이 나타납니다."
+
+#. (itstool) path: section/code
+#: C/massif.page:150
+#, no-wrap
+msgid ""
+"\n"
+"== 1 ===========================\n"
+"Context accounted for  7.7% of measured spacetime\n"
+"  0x5A32A5: g_strdup (in /usr/lib/libglib-2.0.so.0.400.6)\n"
+"\n"
+"Called from:\n"
+"    1.8% : 0x8BF606: gtk_icon_source_copy (in /usr/lib/libgtk-x11-2.0.so.0.400.9)\n"
+"\n"
+"    1.1% : 0x67AF6B: g_param_spec_internal (in /usr/lib/libgobject-2.0.so.0.400.6)\n"
+"\n"
+"    0.9% : 0x91FCFC: (within /usr/lib/libgtk-x11-2.0.so.0.400.9)\n"
+"\n"
+"    0.8% : 0x57EEBF: g_quark_from_string (in /usr/lib/libglib-2.0.so.0.400.6)\n"
+"\n"
+"  and 155 other insignificant places\n"
+"        "
+msgstr ""
+"\n"
+"== 1 ===========================\n"
+"Context accounted for  7.7% of measured spacetime\n"
+"  0x5A32A5: g_strdup (in /usr/lib/libglib-2.0.so.0.400.6)\n"
+"\n"
+"Called from:\n"
+"    1.8% : 0x8BF606: gtk_icon_source_copy (in /usr/lib/libgtk-x11-2.0.so.0.400.9)\n"
+"\n"
+"    1.1% : 0x67AF6B: g_param_spec_internal (in /usr/lib/libgobject-2.0.so.0.400.6)\n"
+"\n"
+"    0.9% : 0x91FCFC: (within /usr/lib/libgtk-x11-2.0.so.0.400.9)\n"
+"\n"
+"    0.8% : 0x57EEBF: g_quark_from_string (in /usr/lib/libglib-2.0.so.0.400.6)\n"
+"\n"
+"  and 155 other insignificant places\n"
+"        "
+
+#. (itstool) path: section/p
+#: C/massif.page:166
+msgid ""
+"We now face diminishing returns for our optimization efforts. The graph "
+"hints at another possible approach: Both the \"other\" and \"heap admin\" "
+"bands are quite large. This tells us that there are a lot of small "
+"allocations being made from a variety of places. Eliminating these will be "
+"difficult, but if they can be grouped then the individual allocations can be "
+"larger and the \"heap admin\" overhead can be reduced."
+msgstr ""
+"최적화를 열심히 한 결과 반환 결과가 줄어들었음이 보입니다. 그래프에서 몇가지 "
+"가능한 접근 방안을 귀띔해줍니다: \"other\" 및 \"heap admin\" 부분이 좀 넓습니"
+"다. 즉, 여러 곳에서 자잘한 할당이 여러 번 일어남을 의미합니다. 이 문제를 해결"
+"하는건 좀 어렵지만 한데 모아둘 수 있다면 제각각의 할당 용량이 커질 수 있으며 "
+"\"head admin\" 제반 처리량을 줄일 수 있습니다."
+
+#. (itstool) path: section/title
+#: C/massif.page:171
+msgid "Caveats"
+msgstr "경고"
+
+#. (itstool) path: section/p
+#: C/massif.page:172
+msgid ""
+"There are a couple of things to watch out for: Firstly, spacetime is only "
+"reported as a percentage, you have to compare it to the overall size of the "
+"program to decide if the amount of memory is worth pursuing. The graph, with "
+"its kilobyte vertical axis, is good for this."
+msgstr ""
+"살펴봐야 할 몇가지 부분이 있습니다. 우선 공간시간은 백분율로만 나타나며, 전"
+"체 프로그램 크기를 비교하여 메모리 사용량이 가치가 있는지 판단해야합니다. 그"
+"래프의 수직축은 메모리 사용량을 킬로바이트 단위로 나타내며, 이 판단에 도움을 "
+"줍니다."
+
+#. (itstool) path: section/p
+#: C/massif.page:175
+msgid ""
+"Secondly, <app>Massif</app> only takes into account the memory used by your "
+"own program. Resources like pixmaps are stored in the X server and aren't "
+"considered by <app>Massif</app>. In the <app>Swell Foop</app> example we "
+"have actually only moved the memory consumption from client-side pixbufs to "
+"server-side pixmaps. Even though we cheated there are performance gains. "
+"Keeping the image data in the X server makes the graphics routines quicker "
+"and removes a lot of inter-process communication. Also, the pixmaps will be "
+"stored in a native graphics format which is often more compact than the 32-"
+"bit RGBA format used by gdk_pixbuf. To measure the effect of pixmaps, and "
+"other X resources use the <link href=\"http://www.freedesktop.org/Software/"
+"xrestop\">xrestop</link> program."
+msgstr ""
+"두번째로, <app>Massif</app>넨 프로그램에서 사용하는 메모리만 보여줍니다. "
+"pixmap과 같은 자원은 X 서버에서 쥐고 있으며 <app>Massif</app>에서는 신경쓰지 "
+"않습니다. <app>스웰 푸프</app> 예제에서, 실제로는, 클라이언트 측의 픽셀 버퍼"
+"와 서버 측의 픽셀 매픽으로 메모리 소모 추세를 옮겼을 뿐입니다. 꼼수를 썼긴 하"
+"지만 어쨌거나 성능상 이득을 얻었습니다. X 서버의 이미지 데이터를 유지하면 그"
+"래픽 루틴을 더 빠르게 동작할 수 있게 하며, 자체 프로세스 통신을 줄일 수 있습"
+"니다. 또한, 픽셀 매핑을 통해 gdk_pixbuf에서 사용하는 32비트 RGBA 형식보다 보"
+"통 훨씬 작은 자체 그래픽 형식으로 저장합니다. 픽셀 매핑과 다른 X 자원의 동작 "
+"결과를 측정하려면 <link href=\"http://www.freedesktop.org/Software/xrestop"
+"\">xrestop</link> 프로그램을 사용하십시오."
