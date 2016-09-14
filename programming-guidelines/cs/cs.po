@@ -1,20 +1,19 @@
 # Czech translation for gnome-devel-docs.
 # Copyright (C) 2016 gnome-devel-docs's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-devel-docs package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # Marek Černocký <marek@manet.cz>, 2016.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-devel-docs master\n"
-"POT-Creation-Date: 2016-01-20 20:56+0000\n"
-"PO-Revision-Date: 2016-09-14 16:38+0200\n"
+"POT-Creation-Date: 2016-09-14 14:42+0000\n"
+"PO-Revision-Date: 2016-09-14 16:47+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: čeština <gnome-cs-list@gnome.org>\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Gtranslator 2.91.7\n"
 
@@ -2342,6 +2341,27 @@ msgid ""
 msgstr ""
 "Neexportované funkce, které jsou zapotřebí jen v jednom zdrojovém souboru by "
 "měly být deklarované jako statické."
+
+#. (itstool) path: p/link
+#: C/cc-by-sa-3-0.xml:4
+msgid "Creative Commons Attribution-Share Alike 3.0 United States License"
+msgstr "Creative Commons Attribution-Share Alike 3.0 United States License"
+
+#. (itstool) path: license/p
+#: C/cc-by-sa-3-0.xml:3
+msgid "This work is licensed under a <_:link-1/>."
+msgstr "Toto dílo je licencováno pod <_:link-1/>."
+
+#. (itstool) path: license/p
+#: C/cc-by-sa-3-0.xml:6
+msgid ""
+"As a special exception, the copyright holders give you permission to copy, "
+"modify, and distribute the example code contained in this document under the "
+"terms of your choosing, without restriction."
+msgstr ""
+"Jako zvláštní výjimka se vám držitelem autorských práv uděluje svolení "
+"kopírovat, upravovat a šířit ukázkový kód obsažený v tomto dokumentu za "
+"podmínek, které si zvolíte, bez dalších omezení."
 
 #. (itstool) path: info/desc
 #: C/databases.page:18
@@ -10193,23 +10213,26 @@ msgstr "Přidejte <code>AX_VALGRIND_CHECK</code> do <file>configure.ac</file>."
 #. (itstool) path: item/p
 #: C/tooling.page:233
 msgid ""
-"Add <code>@VALGRIND_CHECK_RULES</code> to the top-level <file>Makefile.am</"
-"file>."
+"Add <code>@VALGRIND_CHECK_RULES@</code> to the <file>Makefile.am</file> in "
+"each directory which contains unit tests."
 msgstr ""
-"Přidejte <code>@VALGRIND_CHECK_RULES</code> do <file>Makefile.am</file> v "
-"nejvyšší úrovni."
+"Přidejte <code>@VALGRIND_CHECK_RULES@</code> do <file>Makefile.am</file> v "
+"každé složce, která obsahuje jednotkové testy."
 
 #. (itstool) path: section/p
 #: C/tooling.page:239
 msgid ""
 "When <cmd>make check-valgrind</cmd> is run, it will save its results in "
-"<file>test-suite-*.log</file>, one log file per tool."
+"<file>test-suite-*.log</file>, one log file per tool. Note that you will "
+"need to run it from the directory containing the unit tests."
 msgstr ""
 "Když je spuštěno <cmd>make check-valgrind</cmd>, uloží se jeho výsledky do "
-"<file>test-suite-*.log</file>, jeden soubor se záznamem pro každý z nástrojů."
+"<file>test-suite-*.log</file>, jeden soubor se záznamem pro každý z "
+"nástrojů. Nezapomeňte, že jej musíte spustit ve složce, která obsahuje "
+"jednotkové testy."
 
 #. (itstool) path: section/p
-#: C/tooling.page:250
+#: C/tooling.page:251
 msgid ""
 "Valgrind has a way to suppress false positives, by using <link href=\"http://"
 "valgrind.org/docs/manual/manual-core.html#manual-core.suppress\"> "
@@ -10233,7 +10256,7 @@ msgstr ""
 "souboru používat i standardní potlačovací soubor pro GLib."
 
 #. (itstool) path: section/p
-#: C/tooling.page:263
+#: C/tooling.page:264
 msgid ""
 "Suppression files are supported by the <code>AX_VALGRIND_CHECK</code> macro:"
 msgstr ""
@@ -10241,7 +10264,7 @@ msgstr ""
 "code>:"
 
 #. (itstool) path: section/code
-#: C/tooling.page:267
+#: C/tooling.page:268
 #, no-wrap
 msgid ""
 "@VALGRIND_CHECK_RULES@\n"
@@ -10253,12 +10276,12 @@ msgstr ""
 "EXTRA_DIST = $(VALGRIND_SUPPRESSIONS_FILES)"
 
 #. (itstool) path: section/title
-#: C/tooling.page:272
+#: C/tooling.page:273
 msgid "memcheck"
 msgstr "memcheck"
 
 #. (itstool) path: section/p
-#: C/tooling.page:274
+#: C/tooling.page:275
 msgid ""
 "memcheck is a memory usage and allocation analyzer. It detects problems with "
 "memory accesses and modifications of the heap (allocations and frees). It is "
@@ -10279,12 +10302,12 @@ msgstr ""
 "dobu běhu programu a není potřeba ji uvolňovat."
 
 #. (itstool) path: section/p
-#: C/tooling.page:285
+#: C/tooling.page:286
 msgid "To run memcheck manually on an installed program, use:"
 msgstr "K ručnímu spuštění memcheck vůči nainstalovanému programu použijte:"
 
 #. (itstool) path: section/p
-#: C/tooling.page:288
+#: C/tooling.page:289
 msgid ""
 "<cmd>valgrind --tool=memcheck --leak-check=full <var>my-program-name</var></"
 "cmd>"
@@ -10293,7 +10316,7 @@ msgstr ""
 "var></cmd>"
 
 #. (itstool) path: section/p
-#: C/tooling.page:292
+#: C/tooling.page:293
 msgid ""
 "Or, if running your program from the source directory, use the following to "
 "avoid running leak checking on the libtool helper scripts:"
@@ -10302,7 +10325,7 @@ msgstr ""
 "následující, abyste se vyhnuli kontrole úniků v pomocných skriptech libtool:"
 
 #. (itstool) path: section/p
-#: C/tooling.page:296
+#: C/tooling.page:297
 msgid ""
 "<cmd>libtool exec valgrind --tool=memcheck --leak-check=full <var>./my-"
 "program-name</var></cmd>"
@@ -10311,7 +10334,7 @@ msgstr ""
 "vašeho-programu</var></cmd>"
 
 #. (itstool) path: section/p
-#: C/tooling.page:300
+#: C/tooling.page:301
 msgid ""
 "Valgrind lists each memory problem it detects, along with a short backtrace "
 "(if you’ve compiled your program with debug symbols), allowing the cause of "
@@ -10323,7 +10346,7 @@ msgstr ""
 "opravit."
 
 #. (itstool) path: section/p
-#: C/tooling.page:306
+#: C/tooling.page:307
 msgid ""
 "A full tutorial on using memcheck is <link href=\"http://valgrind.org/docs/"
 "manual/mc-manual.html\">here</link>."
@@ -10332,12 +10355,12 @@ msgstr ""
 "org/docs/manual/mc-manual.html\">zde</link>."
 
 #. (itstool) path: section/title
-#: C/tooling.page:313
+#: C/tooling.page:314
 msgid "cachegrind and KCacheGrind"
 msgstr "cachegrind a KCacheGrind"
 
 #. (itstool) path: section/p
-#: C/tooling.page:315
+#: C/tooling.page:316
 msgid ""
 "cachegrind is a cache performance profiler which can also measure "
 "instruction execution, and hence is very useful for profiling general "
@@ -10354,7 +10377,7 @@ msgstr ""
 "Tyto dva nástroje se tak obvykle používají dohromady."
 
 #. (itstool) path: section/p
-#: C/tooling.page:325
+#: C/tooling.page:326
 msgid ""
 "cachegrind works by simulating the processor’s memory hierarchy, so there "
 "are situations where it is <link href=\"http://valgrind.org/docs/manual/cg-"
@@ -10369,7 +10392,7 @@ msgstr ""
 "výkonu v dotčených místech."
 
 #. (itstool) path: section/p
-#: C/tooling.page:334
+#: C/tooling.page:335
 msgid ""
 "A full tutorial on using cachegrind is <link href=\"http://valgrind.org/docs/"
 "manual/cg-manual.html\">here</link>."
@@ -10378,12 +10401,12 @@ msgstr ""
 "valgrind.org/docs/manual/cg-manual.html\">zde</link>."
 
 #. (itstool) path: section/title
-#: C/tooling.page:341
+#: C/tooling.page:342
 msgid "helgrind and drd"
 msgstr "helgrind a drd"
 
 #. (itstool) path: section/p
-#: C/tooling.page:343
+#: C/tooling.page:344
 msgid ""
 "helgrind and drd are threading error detectors, checking for race conditions "
 "in memory accesses, and abuses of the <link href=\"http://pubs.opengroup.org/"
@@ -10399,7 +10422,7 @@ msgstr ""
 "oba."
 
 #. (itstool) path: section/p
-#: C/tooling.page:351
+#: C/tooling.page:352
 msgid ""
 "The kinds of errors detected by helgrind and drd are: data accessed from "
 "multiple threads without consistent locking, changes in lock acquisition "
@@ -10418,7 +10441,7 @@ msgstr ""
 "můžete snadno najít jejich definici."
 
 #. (itstool) path: section/p
-#: C/tooling.page:361
+#: C/tooling.page:362
 msgid ""
 "helgrind and drd can produce more false positives than memcheck or "
 "cachegrind, so their output should be studied a little more carefully. "
@@ -10431,7 +10454,7 @@ msgstr ""
 "takže tyto nástroje by neměly být jen tak zavrhnuty."
 
 #. (itstool) path: section/p
-#: C/tooling.page:368
+#: C/tooling.page:369
 msgid ""
 "Full tutorials on using helgrind and drd are <link href=\"http://valgrind."
 "org/docs/manual/hg-manual.html\">here</link> and <link href=\"http://"
@@ -10442,12 +10465,12 @@ msgstr ""
 "org/docs/manual/drd-manual.html\">zde</link>."
 
 #. (itstool) path: section/title
-#: C/tooling.page:377
+#: C/tooling.page:378
 msgid "sgcheck"
 msgstr "sgcheck"
 
 #. (itstool) path: section/p
-#: C/tooling.page:379
+#: C/tooling.page:380
 msgid ""
 "sgcheck is an array bounds checker, which detects accesses to arrays which "
 "have overstepped the length of the array. However, it is a very young tool, "
@@ -10460,7 +10483,7 @@ msgstr ""
 "hlášení než jiné nástroje."
 
 #. (itstool) path: section/p
-#: C/tooling.page:386
+#: C/tooling.page:387
 msgid ""
 "As it is experimental, sgcheck must be run by passing <cmd>--tool=exp-"
 "sgcheck</cmd> to Valgrind, rather than <cmd>--tool=sgcheck</cmd>."
@@ -10469,7 +10492,7 @@ msgstr ""
 "sgcheck</cmd> do Valgrindu, namísto <cmd>--tool=sgcheck</cmd>."
 
 #. (itstool) path: section/p
-#: C/tooling.page:392
+#: C/tooling.page:393
 msgid ""
 "A full tutorial on using sgcheck is <link href=\"http://valgrind.org/docs/"
 "manual/sg-manual.html\">here</link>."
@@ -10478,12 +10501,12 @@ msgstr ""
 "manual/sg-manual.html\">zde</link>."
 
 #. (itstool) path: section/title
-#: C/tooling.page:400
+#: C/tooling.page:401
 msgid "gcov and lcov"
 msgstr "gcov a lcov"
 
 #. (itstool) path: section/p
-#: C/tooling.page:402
+#: C/tooling.page:403
 msgid ""
 "<link href=\"https://gcc.gnu.org/onlinedocs/gcc/Gcov.html\">gcov</link> is a "
 "profiling tool built into GCC, which instruments code by adding extra "
@@ -10502,7 +10525,7 @@ msgstr ""
 "řádky kódu, které běží déle než ostatní."
 
 #. (itstool) path: section/p
-#: C/tooling.page:412
+#: C/tooling.page:413
 msgid ""
 "A critical use for this code coverage data collection is when running the "
 "unit tests: if the amount of code covered (for example, which particular "
@@ -10523,7 +10546,7 @@ msgstr ""
 "ukrývá zbytek chyb."
 
 #. (itstool) path: section/p
-#: C/tooling.page:423
+#: C/tooling.page:424
 msgid ""
 "lcov supports <link href=\"http://en.wikipedia.org/wiki/"
 "Code_coverage#Basic_coverage_criteria\"> branch coverage measurement</link>, "
@@ -10536,7 +10559,7 @@ msgstr ""
 "naopak perfektně vhodný pro kód, který není z hlediska bezpečnosti kritický."
 
 #. (itstool) path: section/p
-#: C/tooling.page:431
+#: C/tooling.page:432
 msgid ""
 "As code coverage has to be enabled at both compile time and run time, a "
 "macro is provided to make things simpler. The <link href=\"http://www.gnu."
@@ -10553,14 +10576,14 @@ msgstr ""
 "vygeneruje výstupní sestavu pomocí <cmd>lcov</cmd>."
 
 #. (itstool) path: section/p
-#: C/tooling.page:441
+#: C/tooling.page:442
 msgid "To add <code>AX_CODE_COVERAGE</code> support to a project:"
 msgstr ""
 "Když chcete do svého projektu přidat podporu pro <code>AX_CODE_COVERAGE</"
 "code>:"
 
 #. (itstool) path: item/p
-#: C/tooling.page:445
+#: C/tooling.page:446
 msgid ""
 "Copy <link href=\"http://git.savannah.gnu.org/gitweb/?p=autoconf-archive.git;"
 "a=blob_plain;f=m4/ax_code_coverage.m4\"> <file>ax_code_coverage.m4</file></"
@@ -10571,12 +10594,12 @@ msgstr ""
 "m4</file></link> do složky <file>m4/</file> svého projektu."
 
 #. (itstool) path: item/p
-#: C/tooling.page:451
+#: C/tooling.page:452
 msgid "Add <code>AX_CODE_COVERAGE</code> to <file>configure.ac</file>."
 msgstr "Přidejte <code>AX_CODE_COVERAGE</code> do <file>configure.ac</file>."
 
 #. (itstool) path: item/p
-#: C/tooling.page:454
+#: C/tooling.page:455
 msgid ""
 "Add <code>@CODE_COVERAGE_RULES</code> to the top-level <file>Makefile.am</"
 "file>."
@@ -10585,7 +10608,7 @@ msgstr ""
 "nejvyšší úrovni."
 
 #. (itstool) path: item/p
-#: C/tooling.page:458
+#: C/tooling.page:459
 msgid ""
 "Add <code>$(CODE_COVERAGE_CFLAGS)</code> to the automake <code><var>*</"
 "var>_CFLAGS</code> variable for each target you want coverage for, for "
@@ -10599,7 +10622,7 @@ msgstr ""
 "var>_LDFLAGS</code>."
 
 #. (itstool) path: section/p
-#: C/tooling.page:467
+#: C/tooling.page:468
 msgid ""
 "Documentation on using gcov and lcov is <link href=\"http://ltp.sourceforge."
 "net/coverage/lcov.php\">here</link>."
@@ -10608,12 +10631,12 @@ msgstr ""
 "net/coverage/lcov.php\">zde</link>."
 
 #. (itstool) path: section/title
-#: C/tooling.page:474
+#: C/tooling.page:475
 msgid "Address, Thread and Undefined Behavior Sanitizers"
 msgstr "Sanitizéry adres, vláken a nedefinovaného chování"
 
 #. (itstool) path: section/p
-#: C/tooling.page:476
+#: C/tooling.page:477
 msgid ""
 "GCC and Clang both support several sanitizers: sets of extra code and checks "
 "which can be optionally compiled in to an application and used to flag "
@@ -10632,7 +10655,7 @@ msgstr ""
 "poměrně novou funkcionalitu, takže je jen málo integrována s jinými nástroji."
 
 #. (itstool) path: section/p
-#: C/tooling.page:486
+#: C/tooling.page:487
 msgid ""
 "All sanitizers are available for both GCC and Clang, accepting the same set "
 "of compiler options."
@@ -10641,12 +10664,12 @@ msgstr ""
 "stejnou sadu přepínačů kompilátoru."
 
 #. (itstool) path: section/title
-#: C/tooling.page:499
+#: C/tooling.page:500
 msgid "Address Sanitizer"
 msgstr "Sanitizér adres"
 
 #. (itstool) path: section/p
-#: C/tooling.page:501
+#: C/tooling.page:502
 msgid ""
 "The <link href=\"https://code.google.com/p/address-sanitizer/\">address "
 "sanitizer</link> (‘asan’) detects use-after-free and buffer overflow bugs in "
@@ -10661,12 +10684,12 @@ msgstr ""
 "pro Clang</link>, ale stejné postupy platí i pro GCC."
 
 #. (itstool) path: section/title
-#: C/tooling.page:511
+#: C/tooling.page:512
 msgid "Thread Sanitizer"
 msgstr "Sanitizér vláken"
 
 #. (itstool) path: section/p
-#: C/tooling.page:513
+#: C/tooling.page:514
 msgid ""
 "The <link href=\"https://code.google.com/p/thread-sanitizer/\">thread "
 "sanitizer</link> (‘tsan’) detects data races on memory locations, plus a "
@@ -10682,12 +10705,12 @@ msgstr ""
 "dispozici pro Clang</link>, ale stejné postupy by měly platit i pro GCC."
 
 #. (itstool) path: section/title
-#: C/tooling.page:524
+#: C/tooling.page:525
 msgid "Undefined Behavior Sanitizer"
 msgstr "Sanitizér nedefinovaného chování"
 
 #. (itstool) path: section/p
-#: C/tooling.page:526
+#: C/tooling.page:527
 msgid ""
 "The undefined behavior sanitizer (‘ubsan’) is a collection of smaller "
 "instrumentations which detect various potentially undefined behaviors in C "
@@ -10703,12 +10726,12 @@ msgstr ""
 "pro GCC."
 
 #. (itstool) path: section/title
-#: C/tooling.page:537
+#: C/tooling.page:538
 msgid "Coverity"
 msgstr "Coverity"
 
 #. (itstool) path: section/p
-#: C/tooling.page:539
+#: C/tooling.page:540
 msgid ""
 "<link href=\"http://scan.coverity.com/\">Coverity</link> is one of the most "
 "popular and biggest commercial static analyzer tools available. However, it "
@@ -10733,7 +10756,7 @@ msgstr ""
 "(obdobně, jako své výsledky podává lcov)."
 
 #. (itstool) path: section/p
-#: C/tooling.page:552
+#: C/tooling.page:553
 msgid ""
 "As Coverity cannot be run entirely locally, it cannot be integrated properly "
 "into the build system. However, scripts do exist to automatically scan a "
@@ -10756,7 +10779,7 @@ msgstr ""
 "řešte všechna varování statické analýzy a řešte je hned, jak jsou nalezena."
 
 #. (itstool) path: section/p
-#: C/tooling.page:565
+#: C/tooling.page:566
 msgid ""
 "Coverity is good, but it is not perfect, and it does produce a number of "
 "false positives. These should be marked as ignored in the online interface."
@@ -10766,12 +10789,12 @@ msgstr ""
 "ignorována."
 
 #. (itstool) path: section/title
-#: C/tooling.page:573
+#: C/tooling.page:574
 msgid "Clang Static Analyzer"
 msgstr "Statický analyzátor Clang"
 
 #. (itstool) path: section/p
-#: C/tooling.page:575
+#: C/tooling.page:576
 msgid ""
 "One tool which can be used to perform static analysis locally is the <link "
 "href=\"http://clang-analyzer.llvm.org/\">Clang static analyzer</link>, which "
@@ -10788,7 +10811,7 @@ msgstr ""
 "až za běhu (pomocí jednotkových testů)."
 
 #. (itstool) path: section/p
-#: C/tooling.page:584
+#: C/tooling.page:585
 msgid ""
 "Clang produces some false positives, and there is no easy way to ignore "
 "them. The recommended thing to do is to <link href=\"http://clang-analyzer."
@@ -10802,7 +10825,7 @@ msgstr ""
 "opravena."
 
 #. (itstool) path: section/p
-#: C/tooling.page:592
+#: C/tooling.page:593
 msgid ""
 "A full tutorial on using Clang is <link href=\"http://clang-analyzer.llvm."
 "org/scan-build.html\">here</link>."
@@ -10811,12 +10834,12 @@ msgstr ""
 "analyzer.llvm.org/scan-build.html\">zde</link>."
 
 #. (itstool) path: section/title
-#: C/tooling.page:598
+#: C/tooling.page:599
 msgid "Tartan"
 msgstr "Tartan"
 
 #. (itstool) path: section/p
-#: C/tooling.page:600
+#: C/tooling.page:601
 msgid ""
 "However, for all the power of the Clang static analyzer, it cannot detect "
 "problems with specific libraries, such as GLib. This is a problem if a "
@@ -10835,7 +10858,7 @@ msgstr ""
 "některým běžným API knihovny GLib."
 
 #. (itstool) path: section/p
-#: C/tooling.page:611
+#: C/tooling.page:612
 msgid ""
 "Tartan is still young software, and will produce false positives and may "
 "crash when run on some code. However, it can find legitimate bugs quite "
@@ -10852,7 +10875,7 @@ msgstr ""
 "com/~pwith/tartan/#troubleshooting\">nahlaste</link> je prosím."
 
 #. (itstool) path: section/p
-#: C/tooling.page:620
+#: C/tooling.page:621
 msgid ""
 "A full tutorial on enabling Tartan for use with the Clang static analyzer is "
 "<link href=\"http://people.collabora.com/~pwith/tartan/#usage-standalone\"> "
