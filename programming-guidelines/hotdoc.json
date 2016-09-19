@@ -1,0 +1,6 @@
+{
+    "index": "markdown_files/index.md", 
+    "output": "build", 
+    "sitemap": "sitemap.txt", 
+    "syntax_highlighting_activate": true
+}

@@ -1,0 +1,25 @@
+index.md
+	general-guidelines.md
+		c-coding-style.md
+		documentation.md
+		memory-management.md
+		writing-good-code.md
+		tooling.md
+		unit-testing.md
+		version-control.md
+	maintainer-guidelines.md
+		api-stability.md
+		namespacing.md
+		parallel-installability.md
+		versioning.md
+	specific-how-tos.md
+		databases.md
+		file-system.md
+		gerror.md
+		main-contexts.md
+		glist.md
+		introspection.md
+		logging.md
+		preconditions.md
+		threading.md
+	additional-materials.md
