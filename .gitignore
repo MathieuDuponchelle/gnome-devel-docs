@@ -1,6 +1,7 @@
 *~
 Makefile
 Makefile.in
+!programming-guidelines/hotdoc/Makefile
 
 /INSTALL
 /aclocal.m4

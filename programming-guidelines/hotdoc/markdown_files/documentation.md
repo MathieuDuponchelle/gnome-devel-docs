@@ -1,0 +1,276 @@
+---
+short-description: Adding documentation to libraries and APIs
+...
+
+# Documentation
+
+  - Use gtk-doc with up-to-date settings for API documentation.
+    ([](#gtk-doc))
+
+  - Use XML entities for including external symbols into the
+    documentation. ([](#build-system))
+
+  - Use a consistent, standard, table of contents for all API
+    documentation to maintain familiarity. ([](#standard-layout))
+
+  - Use **gdbus-codegen** to generate D-Bus API documentation to include
+    in the gtk-doc build. ([](#d-bus-apis))
+
+  - Add introspection annotations to all API documentation.
+    ([](#introspection-annotations))
+
+  - Add `Since` lines to all API documentation. ([](#symbol-versioning))
+
+  - Enable gtk-doc tests. ([](#keeping-documentation-up-to-date))
+
+## gtk-doc
+
+The preferred documentation system for GNOME libraries is
+[gtk-doc](http://www.gtk.org/gtk-doc/), which extracts inline comments
+from the code to let you build a [DocBook](http://docbook.org/) document
+and collection of HTML pages. These can then be read in
+[Devhelp](https://wiki.gnome.org/Apps/Devhelp). A lot of GNOME’s
+infrastructure is built to handle with documentation written using
+gtk-doc.
+
+## Build System
+
+To integrate gtk-doc into a project’s build system, follow the
+[instructions in the gtk-doc
+manual](https://developer.gnome.org/gtk-doc-manual/stable/settingup.html.en).
+Note that while the **sections.txt** file is automatically generated the
+first time gtk-doc is run, it is not generated subsequently, and should
+be kept up to date manually. It should also be [in version
+control](https://developer.gnome.org/gtk-doc-manual/stable/settingup_vcs.html.en).
+
+gtk-doc’s `no-tmpl` flavour should be used, and XML mode should be used
+instead of SGML. (tmpl mode and SGML are both outdated and slower than
+XML.)
+
+If the package version is needed to be substituted into the
+documentation, create a file named **docs/version.xml.in**, containing:
+
+```
+@PACKAGE_VERSION@
+```
+
+Add it to `AC_CONFIG_FILES` in **configure.ac**, then include it into
+the main documentation file (**\*-docs.xml**) using: `<!ENTITY version
+SYSTEM "version.xml">` in the `DOCTYPE` at the top of the document. The
+package version can then be used inline as `&version;`.
+
+## Standard Layout
+
+Using a standard layout for the table of contents, sections, appendices,
+etc. means the same **project-name-docs.xml** template can be reused
+with few changes between projects. It also means the documentation
+layout is similar across all projects, making it more familiar to
+developers.
+
+The following layout is suggested:
+
+```
+<project-name>-docs.xml
+```
+
+*A template top-level gtk-doc file for a project*
+
+{{ ../examples/example-docs.xml }}
+
+## Licensing
+
+It is important to make the license used for API references clear,
+especially if they contain code examples which could be copied around.
+
+Typically, projects use the same license for their API reference as for
+the project’s code itself, to avoid confusion. Some other projects use
+CC-BY-SA 3.0 for all their reference documentation. The choice is yours.
+
+As shown in [](#standard-layout) you should include a
+**license.xml** in the top-level gtk-doc DocBook file which gives the
+full text of your documentation license.
+
+## Public APIs
+
+All public APIs must have gtk-doc comments. For functions, these should
+be placed in the source file, directly above the function.
+
+```c
+/**
+ * gtk_get_flow:
+ * @widget: a #GtkWidget
+ *
+ * Gets the flow of a widget.
+ *
+ * Note that flows may be laminar or turbulent...
+ *
+ * Returns: (transfer none): the flow of @widget
+ */
+GtkFlow *
+gtk_get_flow (GtkWidget *widget)
+{
+
+  ...
+
+}
+```
+
+Documentation comments for macros, function types, class structs, etc.
+should be placed next to the definitions, typically in header files.
+
+Section introductions should be placed in the source file they describe,
+after the license header:
+
+```c
+/**
+ * SECTION:gtksizerequest
+ * @Short_Description: Height-for-width geometry management
+ * @Title: GtkSizeRequest
+ *
+ * The GtkSizeRequest interface is GTK+'s height-for-width (and
+ * width-for-height) geometry management system.
+ * ...
+ */
+```
+
+Keep in mind that in order to include a function, macro, function type,
+or struct type, it needs to be listed in your documentation’s
+**modulename-sections.txt** file.
+
+To properly document a new class, it needs to be given its own section
+in **modulename-sections.txt**, needs to be included in your toplevel
+**modulename-docs.sgml**, and the `get_type()` function for your class
+needs to be listed in your **modulename.types**.
+
+## Introspection Annotations
+
+Each gtk-doc comment should have appropriate [GObject introspection
+annotations](https://wiki.gnome.org/Projects/GObjectIntrospection/Annotations).
+These are useful for two reasons:
+
+  - They add important information about parameter types, nullability
+    and memory management to the C API documentation generated by
+    gtk-doc.
+
+  - They allow public APIs to be automatically bound in other languages,
+    such as Python or JavaScript.
+
+Introspection annotations add information to APIs (functions, function
+parameters, function return values, structures, GObject properties,
+GObject signals) which is otherwise not present in the machine readable
+C API and only exists in the form of human readable documentation or
+convention. They are very important.
+
+In gtk-doc comments, annotations should be preferred over human-readable
+equivalents. For example, when documenting a function parameter which
+may be `NULL`, use the `(nullable)` annotation rather than some text:
+
+```c
+/**
+ * my_function:
+ * @parameter: (nullable): some parameter which affects something
+ *
+ * Body of the function documentation.
+ */
+```
+
+Instead of:
+
+```c
+/**
+ * my_bad_function:
+ * @parameter: some parameter which affects something, or %NULL to ignore
+ *
+ * Bad body of the function documentation.
+ */
+```
+
+For more information on introspection, see the [introspection
+guidelines](introspection.md).
+
+## Symbol Versioning
+
+Whenever a symbol is added to the public API, it should have a
+documentation comment added. This comment should always contain a
+`Since` line with the package version number of the release which will
+first contain the new API. This should be the number currently in
+**configure.ac** if [post-release version
+incrementing](versioning.md#release-process) is being used.
+
+For example:
+
+```c
+/**
+ * my_function:
+ * @param: some parameter
+ *
+ * Body of the function documentation.
+ *
+ * Since: 0.5.0
+ */
+```
+
+gtk-doc uses this information to generate indexes of the APIs added in
+each release. These should be added to the main **\*-docs.xml** as an
+appendix:
+
+```markup
+<part>
+    <title>Appendices</title>
+    <index id="api-index-full">
+        <title>API Index</title>
+        <xi:include href="xml/api-index-full.xml"><xi:fallback/></xi:include>
+    </index>
+    <index id="api-index-deprecated">
+        <title>Index of deprecated symbols</title>
+        <xi:include href="xml/api-index-deprecated.xml"><xi:fallback/></xi:include>
+    </index>
+    <index role="0.1.0">
+        <title>Index of new symbols in 0.1.0</title>
+        <xi:include href="xml/api-index-0.1.0.xml"><xi:fallback/></xi:include>
+    </index>
+    <!-- More versions here. -->
+    <xi:include href="xml/annotation-glossary.xml"><xi:fallback /></xi:include>
+</part>
+```
+
+## D-Bus APIs
+
+D-Bus interface descriptions contain documentation comments, and these
+can be extracted from the XML using **gdbus-codegen**, and turned into
+DocBook files to be included by gtk-doc.
+
+The DocBook files can be included in the main **\*-docs.xml** file
+using:
+
+```markup
+<chapter>
+  <title>C Interfaces</title>
+  <partintro>
+    <para>C wrappers for the D-Bus interfaces.</para>
+  </partintro>
+
+  <xi:include href="xml/SomeDBusService.xml"/>
+  <xi:include href="xml/SomeOtherService.xml"/>
+</chapter>
+```
+
+The generated XML files must be included in the `content_files` variable
+in your gtk-doc **Makefile.am**, otherwise the build will fail. (This is
+to fix situations where the `builddir` does not equal the `srcdir`.)
+
+## Keeping Documentation Up to Date
+
+gtk-doc comes with support for checking the documentation with some
+basic tests. These check that all version indexes are included in the
+main **\*-docs.xml** file and that all symbols are documented, amongst
+other things.
+
+These tests should always be enabled, by adding the following to your
+gtk-doc **Makefile.am**:
+
+```makefile
+TESTS = $(GTKDOC_CHECK)
+```
+
+They will then be run as part of **make check**.

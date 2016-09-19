@@ -1,0 +1,7 @@
+/build
+/hotdoc-private*
+/bower_components
+/theme/css
+/theme/fonts
+/theme/js
+/.hotdoc.d

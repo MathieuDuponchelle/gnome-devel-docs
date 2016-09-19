@@ -1,0 +1,8 @@
+{
+    "html_theme": "hotdoc_bootstrap_theme/dist",
+    "html_extra_theme": "extra_theme",
+    "index": "markdown_files/index.md", 
+    "output": "build", 
+    "sitemap": "sitemap.txt", 
+    "syntax_highlighting_activate": true
+}

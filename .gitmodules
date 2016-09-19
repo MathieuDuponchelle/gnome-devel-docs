@@ -1,0 +1,3 @@
+[submodule "programming-guidelines/hotdoc/hotdoc_bootstrap_theme"]
+	path = programming-guidelines/hotdoc/hotdoc_bootstrap_theme
+	url = git@github.com:hotdoc/hotdoc_bootstrap_theme.git
