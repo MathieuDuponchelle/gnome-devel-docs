@@ -66,3 +66,11 @@ h1, h2, h2, h3, h4, h5 {
 .toned-row #flatpak {
 	background-image: url("../images/distribute.svg");
 }
+
+#sidenav-lookup-field, .twitter-typeahead input.form-control {
+  width: 150px;
+}
+
+#sidenav-lookup-field:focus, .twitter-typeahead input.form-control {
+  width:100%;
+}

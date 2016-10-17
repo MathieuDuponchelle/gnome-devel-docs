@@ -6,6 +6,11 @@
 		@end
 		@content()
 </div>
+<div class="container">
+	<div id="search_results">
+		<p>The results of the search are</p>
+	</div>
+</div>
 @else:
 <div class="hidden-xs hidden-sm col-md-3 col-xl-2" id="sidenav-column">
 	<div class="panel panel-collapse" id="sidenav" data-hotdoc-role="navigation">
@@ -24,6 +29,9 @@
 		@def content():
 		@end
 		@content()
+	</div>
+	<div id="search_results">
+		<p>The results of the search are</p>
 	</div>
 </div>
 <div class="hidden-xs col-xl-2">
